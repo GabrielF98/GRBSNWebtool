@@ -1,0 +1,25 @@
+p {font-family: Arial;
+   color: white;
+   background-color: teal}
+
+body {background-color: teal;
+margin-left: 0}
+
+h1{color: white;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-family: Arial;
+    background-color: teal;}
+
+h2{color: white;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    font-family: Arial;}
+
+/*Table data*/
+table, th, td {
+	color: white;
+  border: 1px solid black;
+}

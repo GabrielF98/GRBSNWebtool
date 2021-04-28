@@ -1,0 +1,233 @@
+{% extends 'base.html' %}
+
+<!--The page title -->
+<!-- This will be the name of the GRB and an associated SN if applicable -->
+{% block title %} 
+{% if event[0]['SNe'] == None %}
+  <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
+{% else %}
+  <h2> <b>GRB{{ event[0]['GRB']}} / SN{{ event[0]['SNe'] }} </b></h2>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+    <p></p>
+    <table style="width:80%">
+  <tr>
+    <th>Parameter</th>
+    <th>Value</th>
+    <th>Unit</th> 
+  </tr>
+  <tr>
+    <th>GRB Parameters</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>E$_{iso}$</td>
+    
+    <td>
+      {% for single in event %}
+        {% if single['e_iso'] != None %}
+          {{ single['e_iso'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td> 
+
+    <td>erg</td>
+  </tr>
+ 
+  <tr>
+    <td>E$_p$</td>
+    <td>{% for single in event %}
+        {% if single['E_p'] != None %}
+          {{ single['E_p'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>keV</td> 
+  </tr>
+  <tr>
+    <td>z</td>
+    <td>
+    {% for single in event %}
+        {% if single['z'] != None %}
+          {{ single['z'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td></td> 
+  </tr>
+  <tr>
+    <td>T$_{90}$</td>
+    <td>
+    {% for single in event %}
+        {% if single['T90'] != None %}
+          {{ single['T90'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>sec</td> 
+  </tr>
+  <tr>
+    <td>p</td>
+    <td>
+      {% for single in event %}
+        {% if single['p'] != None %}
+          {{ single['p'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td></td> 
+  </tr>
+  <tr>
+    <td>n</td>
+    <td> 
+      {% for single in event %}
+        {% if single['n'] != None %}
+          {{ single['n'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>cm$^{-3}$</td> 
+  </tr>
+  <tr>
+    <td>$\theta_{jet}$</td>
+    <td>
+      {% for single in event %}
+        {% if single['open_deg'] != None %}
+          {{ single['open_deg'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>degrees</td> 
+  </tr>
+
+ 
+  <tr>
+    <th>SN Parameters</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>E$_k$</td>
+    <td>
+      {% for single in event %}
+        {% if single['E_k'] != None %}
+          {{ single['E_k'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>erg</td> 
+  </tr>
+  <tr>
+    <td>M$_{Ni}$</td>
+    <td>
+      {% for single in event %}
+        {% if single['ni_m'] != None %}
+          {{ single['ni_m'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>M$_{\odot}$</td> 
+  </tr>
+  <tr>
+    <td>M$_{Ej}$</td>
+    <td>
+      {% for single in event %}
+        {% if single['ej_m'] != None %}
+          {{ single['ej_m'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>M$_{\odot}$</td> 
+  </tr>
+  <tr>
+    <td>t$_{peak}$</td>
+    <td>
+      {% for single in event %}
+        {% if single['t_peak'] != None %}
+          {{ single['t_peak'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>days (rest frame I think but need to make sure)</td> 
+  </tr>
+  <tr>
+    <td>Peak $m_V$ (set it so the band will change if needed)</td>
+    <td></td>
+    <td>Unavailable yet</td> 
+  </tr>
+  <tr>
+    <td>v$_{photospheric}$</td>
+    <td>
+      {% for single in event %}
+        {% if single['v_photospheric'] != None %}
+          {{ single['v_photospheric'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>km s$^{-1}$</td> 
+  </tr>
+  <tr>
+    <td>v$_{Fe}$</td>
+    <td>
+      {% for single in event %}
+        {% if single['v_Fe_expansion'] != None %}
+          {{ single['v_Fe_expansion'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>km s$^{-1}$</td> 
+  </tr>
+  <tr>
+    <td>v$_{Si}$</td>
+    <td>
+      {% for single in event %}
+        {% if single['v_Si_expansion'] != None %}
+          {{ single['v_Si_expansion'] }} <br>
+            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+        {% endif %}
+      {% endfor %}
+    </td>
+    <td>km s$^{-1}$</td> 
+  </tr>
+
+</table>
+
+<!-- <p>{{ data }}</p> -->
+<!-- The stuff to do with the X-ray plot -->
+
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh.min.css"
+    rel="stylesheet" type="text/css">
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-widgets.css"
+    rel="stylesheet" type="text/css">
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-tables.css"
+    rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h2><b>X-Ray Data</b></h2>
+        {{ div|safe }}
+        {{ script|safe }}
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-widgets.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-tables.js"></script>
+</html>
+{% endblock %}
