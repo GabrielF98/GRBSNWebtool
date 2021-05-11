@@ -107,7 +107,7 @@ def docs():
 
 @app.route('/contact')
 def contact():
-    return render_template('contact.html')
+    return render_template('contacts.html')
 
 #Enable a table on the homepage with links to GRB pages
 # @app.route('/<event_id>')
