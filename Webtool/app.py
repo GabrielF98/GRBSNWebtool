@@ -71,6 +71,7 @@ def get_grb_data(event_id):
 
 
 app = Flask(__name__)
+app.secret_key = 'secretKey'
 
 #The pages we want
 #The homepage and its location
@@ -99,14 +100,23 @@ def event(event_id):
     plot.yaxis.axis_label_text_font_size = '16pt'
     plot.xaxis.axis_label_text_font_size = '16pt'
 
+    #Font Color 
+    plot.xaxis.axis_label_text_color = 'white'
+    plot.xaxis.major_label_text_color = 'white'
+
+    plot.yaxis.axis_label_text_color = 'white'
+    plot.yaxis.major_label_text_color = 'white'
+
     #Axis labels
     plot.xaxis.axis_label = 'Time [sec]'
     plot.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
 
     #Make ticks larger
-    plot.xaxis.major_label_text_font_size = '10pt'
-    plot.yaxis.major_label_text_font_size = '10pt'
+    plot.xaxis.major_label_text_font_size = '16pt'
+    plot.yaxis.major_label_text_font_size = '16pt'
 
+    plot.background_fill_color = 'teal'
+    plot.border_fill_color = 'teal'
     script, div = components(plot)
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
@@ -117,9 +127,9 @@ def docs():
     return render_template('docs.html')
 
 
-@app.route('/contact')
-def contact():
-    return render_template('contacts.html')
+# @app.route('/contact')
+# def contact():
+#     return render_template('contacts.html')
 
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
@@ -153,6 +163,29 @@ def grb_names():
 # 	names = grb_names()
 # 	return render_template('names.html', names=names)
 
+# Contact form 
+
+from static.emails.forms import ContactForm
+from flask import request
+import pandas as pd
+@app.route('/contact', methods=["GET","POST"])
+def get_contact():
+    form = ContactForm()
+    # here, if the request type is a POST we get the data on contat
+    #forms and save them else we return the contact forms html page
+    if request.method == 'POST':
+        name =  request.form["name"]
+        email = request.form["email"]
+        subject = request.form["subject"]
+        message = request.form["message"]
+        res = pd.DataFrame({'name':name, 'email':email, 'subject':subject ,'message':message}, index=[0])
+        res.to_csv('static/emails/emails.csv', mode='a')
+        print("The data are saved !")
+        return('The data are saved !')
+    else:
+        return render_template('contacts.html', form=form)
+
+# Run app
 if __name__ == "__main__":
     #debug=True lets you do it without rerunning all the time
 

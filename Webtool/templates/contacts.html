@@ -1,1 +1,40 @@
-{% extends "base.html" %}
+
+{% extends 'base.html' %}
+<!-- https://medium.com/analytics-vidhya/flask-build-contact-form-2689520adf23 -->
+
+<!-- here we add our contact forms -->
+{% block content %}
+<div class="contact">
+    <h3>Contact us</h3>
+<!-- Just here i use "url_for" to call the function get_contact.
+         This function return the html code of our contact page-->
+    <form action="{{ url_for('get_contact') }}" method=post>
+        <div>
+            <!-- name forms -->
+            <p>
+                {{ form.name.label }} <br>
+                {{ form.name(placeholder='Your name') }}
+            </p>
+            <!-- email forms -->
+            <p>
+                {{ form.email.label }} <br>
+                {{ form.email(placeholder='Your e-mail ...') }}
+            </p>
+            <!-- Subject of your request -->
+            <p>
+                {{ form.subject.label }}<br>
+                {{form.subject(placeholder='Your subject ...')}}
+            </p>
+            <!-- Content of your request -->
+            <p>
+                {{ form.message.label }}<br>
+                {{ form.message(placeholder='write your request ...') }}
+            </p>
+            <!-- Submit button -->
+            <p>
+                {{ form.submit }}
+            </p>
+        </div>
+    </form>
+</div>
+{% endblock %}
