@@ -25,6 +25,17 @@
                   <a class="nav-item nav-link" href="/docs">Documentation</a>
                   <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
                 </div>
+                <!-- Dropdown Menu -->
+                <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Catalogue
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {%for i in range(0, number-1)%}
+                <a class="dropdown-item" href="/{{grbs[i]}}">{{grbs[i]}}</a>
+            {%endfor%}
+        </div>
+      </li>
                 <!-- <span class="navbar-text"> -->
                 <form class="form-inline">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

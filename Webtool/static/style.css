@@ -1,7 +1,8 @@
 p {font-family: Arial;
    color: white;
    background-color: teal;
- margin-left: 50px;}
+ margin-left: 50px;
+margin-right: 50px;}
 
 body {background-color: teal;
 }
@@ -12,7 +13,8 @@ h1{color: white;
     text-align: center;
     font-family: Arial;
     background-color: teal;
- margin-left: 50px;}
+ margin-left: 50px;
+margin-right: 50px;}
 
 h2{color: white;
     margin-top: 1em;

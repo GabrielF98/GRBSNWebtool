@@ -41,6 +41,7 @@ def grb_names():
     conn.close()
     
     return grbs
+grbs = grb_names()
 
 #This code goes to the long_grbs folder and gets all the data for the plot
 def get_grb_data(event_id):
@@ -56,17 +57,17 @@ def get_grb_data(event_id):
             k = [[0], [0], [0], [0], [0], [0]]
     return(k)
 
-def bokeh_plot(data):
-    t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
+# def bokeh_plot(data):
+#     t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
 
-    # create a new plot with a title and axis labels
-    plot = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
+#     # create a new plot with a title and axis labels
+#     plot = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
 
-    # add a line renderer with legend and line thickness
-    plot.scatter(t, flux, legend_label="GRB", line_width=2)
+#     # add a line renderer with legend and line thickness
+#     plot.scatter(t, flux, legend_label="GRB", size=200)
     
 
-    return(p)
+#     return(p)
 
 
 app = Flask(__name__)
@@ -89,11 +90,22 @@ def event(event_id):
     # create a new plot with a title and axis labels
 
     plot = figure(plot_width=900, plot_height=500,title=None, toolbar_location="right", y_axis_type="log", x_axis_type="log")
-
+    
     # add a line renderer with legend and line thickness
-    plot.scatter(t, flux, legend_label="Swift/XRT", line_width=2)
+    plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+
+    #Aesthetics
+    #Axis font size
+    plot.yaxis.axis_label_text_font_size = '16pt'
+    plot.xaxis.axis_label_text_font_size = '16pt'
+
+    #Axis labels
     plot.xaxis.axis_label = 'Time [sec]'
     plot.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+
+    #Make ticks larger
+    plot.xaxis.major_label_text_font_size = '10pt'
+    plot.yaxis.major_label_text_font_size = '10pt'
 
     script, div = components(plot)
     kwargs = {'script': script, 'div': div}
@@ -108,6 +120,24 @@ def docs():
 @app.route('/contact')
 def contact():
     return render_template('contacts.html')
+
+# Pass the data to be used by the dropdown menu (decorating)
+@app.context_processor
+# def get_current_user():
+#   return {"grbs": grbs}
+
+def grb_names():
+    conn = get_db_connection()
+    names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe')
+    grbs = []
+    
+    for i in names:
+        grbs.append(i[0])
+    length = len(grbs)
+    conn.close()
+    
+    return {'grbs': grbs, 'number':length}
+
 
 #Enable a table on the homepage with links to GRB pages
 # @app.route('/<event_id>')
