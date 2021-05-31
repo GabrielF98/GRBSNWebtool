@@ -163,6 +163,25 @@ def grb_names():
 # 	names = grb_names()
 # 	return render_template('names.html', names=names)
 
+# Table of all the data to be displayed on the webpage
+from flask_table import Table, Col
+
+
+# Declare your table
+class GRBTable(Table):
+    name = Col('GRB')
+    description = Col('SN')
+
+# Or, more likely, load items from your database with something like
+items = ItemModel.query.all()
+
+# Populate the table
+table = ItemTable(items)
+
+# Print the html
+print(table.__html__())
+# or just {{ table }} from within a Jinja template 
+
 # Contact form 
 
 from static.emails.forms import ContactForm

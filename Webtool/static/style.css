@@ -1,8 +1,8 @@
 p {font-family: Arial;
    color: white;
    background-color: teal;
- margin-left: 50px;
-margin-right: 50px;}
+ margin-left: 100px;
+margin-right: 100px;}
 
 body {background-color: teal;
 }
@@ -13,21 +13,21 @@ h1{color: white;
     text-align: center;
     font-family: Arial;
     background-color: teal;
- margin-left: 50px;
-margin-right: 50px;}
+ margin-left: 100px;
+margin-right: 100px;}
 
 h2{color: white;
     margin-top: 1em;
     margin-bottom: 0.5em;
     text-align: left;
     font-family: Arial;
-   margin-left: 50px;}
+   margin-left: 100px;}
 
 /*Table data*/
 table, th, td {
 	color: white;
   border: 1px solid black;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 * {
