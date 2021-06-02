@@ -140,13 +140,32 @@ def grb_names():
     conn = get_db_connection()
     names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe')
     grbs = []
-    
+    years = []
     for i in names:
         grbs.append(i[0])
+        years.append(str(i[0])[:2])
     length = len(grbs)
+    #Get only the unique years
+    unique_years = []
+    for i in years:
+        #There was a problem with NULL SQL values coming in as 'No'
+        if i not in unique_years:
+
+            if i=='No':
+                continue
+            else:
+                unique_years.append(i)
+
+    for i in range(len(unique_years)):
+        if int(unique_years[i])<30:
+            unique_years[i] = ('20'+unique_years[i])
+        else:
+            unique_years[i] = ('19'+unique_years[i])
+
     conn.close()
     
-    return {'grbs': grbs, 'number':length}
+    
+    return {'grbs': grbs, 'number1':length, 'number2':len(unique_years), 'years':unique_years}
 
 
 #Enable a table on the homepage with links to GRB pages
@@ -163,24 +182,24 @@ def grb_names():
 # 	names = grb_names()
 # 	return render_template('names.html', names=names)
 
-# Table of all the data to be displayed on the webpage
-from flask_table import Table, Col
+# # Table of all the data to be displayed on the webpage
+# from flask_table import Table, Col
 
 
-# Declare your table
-class GRBTable(Table):
-    name = Col('GRB')
-    description = Col('SN')
+# # Declare your table
+# class GRBTable(Table):
+#     name = Col('GRB')
+#     description = Col('SN')
 
-# Or, more likely, load items from your database with something like
-items = ItemModel.query.all()
+# # Or, more likely, load items from your database with something like
+# items = ItemModel.query.all()
 
-# Populate the table
-table = ItemTable(items)
+# # Populate the table
+# table = ItemTable(items)
 
-# Print the html
-print(table.__html__())
-# or just {{ table }} from within a Jinja template 
+# # Print the html
+# print(table.__html__())
+# # or just {{ table }} from within a Jinja template 
 
 # Contact form 
 
