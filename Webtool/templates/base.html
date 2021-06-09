@@ -29,36 +29,16 @@
 
 
                 <!-- Dropdown Menu -->
-                <div class="nav-item dropdown">
+                <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          GRB List
+          Catalogue
         </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            {%for i in range(0, number2)%}
-
-            <!-- Declare the submenu -->
-                <li class="dropdown-submenu">
-                <!-- Name submenu -->
-                <a class="dropdown-item dropdown-toggle" href="#">{{years[i]}}</a>
-                <!-- Dropdown within the submenu -->
-                <ul class="dropdown-menu">
-                {%for j in range(0, number1-1)%}
-                <!-- Apparently (itd be great if this was written somewhere) you dont need the brackets if its already in brackets-->
-                    {%if grbs[j][:2] == years[i][-2:]%}
-                        <li><a class="dropdown-item" href="/{{grbs[j]}}">{{grbs[j]}}</a></li>
-                    {%else%}
-                        <li><a class="dropdown-item" href="/contact">Contacts</a></li>
-                    {%endif%}
-                    
-                {%endfor%}
-                </ul>
-                </li>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {%for i in range(0, number1-1)%}
+                <a class="dropdown-item" href="/{{grbs[i]}}">{{grbs[i]}}</a>
             {%endfor%}
-        </ul>
-            
-
-            <!-- <li> means an item in a list -->
         </div>
+      </li>
       </div>
                 <!-- <span class="navbar-text"> -->
                 <form class="form-inline">
