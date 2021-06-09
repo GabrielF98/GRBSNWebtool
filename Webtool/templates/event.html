@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 
+<!-- Get the sources for each piece of the data -->
+<!-- First we get all the references -->
+
 <!--The page title -->
 <!-- This will be the name of the GRB and an associated SN if applicable -->
 {% block title %} 
@@ -11,7 +14,7 @@
 {% endblock %}
 
 {% block content %}
-    <table style="width:40%">
+    <table style="width:900px">
   <tr>
     <th>Parameter</th>
     <th>Value</th>
@@ -28,7 +31,7 @@
     <td>
       {% for single in event %}
         {% if single['e_iso'] != None %}
-          {{ single['e_iso'] }} <br>
+          {{ single['e_iso'] }} <sup><a href="{{single['PrimarySources']}}" target = '_blank'>{{single['PrimarySources']}} </a></sup> <br>
             <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
         {% endif %}
       {% endfor %}
@@ -207,6 +210,14 @@
 
 </table>
 
+<!-- References -->
+
+<h2>The data can be found at:</h2>
+<li>ddjfdsjkfd</li>
+<li>jdjfjsdjfdjfjsd</li>
+<li>jdfkdsfjefhewjfewk</li>
+
+
 <!-- <p>{{ data }}</p> -->
 <!-- The stuff to do with the X-ray plot -->
 
@@ -231,5 +242,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-widgets.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-tables.js"></script>
+
+
+
 </html>
 {% endblock %}

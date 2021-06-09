@@ -7,6 +7,17 @@ margin-right: 100px;}
 body {background-color: teal;
 }
 
+/*hyperlink text*/
+a {color: yellow}
+
+
+
+li {font-family: Arial;
+   color: white;
+   margin-left: 100px;
+   margin-right: 100px;}
+
+
 h1{color: white;
     margin-top: 1em;
     margin-bottom: 0.5em;
