@@ -18,24 +18,28 @@
               <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> -->
                 <!-- <span class="navbar-toggler-icon"></span> -->
               <!-- </button> -->
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <!-- <a class="nav-item nav-link active" href="/home">Home <span class="sr-only">(current)</span></a> -->
+                  <!-- a tag is used to hyperlink to another page -->
                   <a class="nav-item nav-link" href="/contact">Contact</a>
                   <a class="nav-item nav-link" href="/docs">Documentation</a>
                   <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
                 </div>
+
+
                 <!-- Dropdown Menu -->
                 <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Catalogue
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            {%for i in range(0, number-1)%}
+            {%for i in range(0, number1-1)%}
                 <a class="dropdown-item" href="/{{grbs[i]}}">{{grbs[i]}}</a>
             {%endfor%}
         </div>
       </li>
+      </div>
                 <!-- <span class="navbar-text"> -->
                 <form class="form-inline">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

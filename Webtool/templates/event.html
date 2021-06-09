@@ -11,8 +11,7 @@
 {% endblock %}
 
 {% block content %}
-    <p></p>
-    <table style="width:80%">
+    <table style="width:40%">
   <tr>
     <th>Parameter</th>
     <th>Value</th>
@@ -223,8 +222,11 @@
     </head>
     <body>
         <h2><b>X-Ray Data</b></h2>
-        {{ div|safe }}
-        {{ script|safe }}
+        <table>
+          {{ div|safe }}
+          {{ script|safe }}
+        </table>
+        
     </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-widgets.js"></script>
