@@ -80,7 +80,8 @@ def home():
     return render_template('home.html')
 
 #Be able to select the GRBs by their names and go
-#To a specific page
+#To a specific page, it also plots the XRT data
+
 @app.route('/<event_id>')
 def event(event_id):
     source = ColumnDataSource()
