@@ -34,11 +34,15 @@ h2{color: white;
     font-family: Arial;
    margin-left: 100px;}
 
-div {
-  
+div{
+  margin-left: 100px;
+  margin-right: 100px;
+  overflow: auto;
 }
+
 /*Table data*/
 table{
+  overflow: auto;
   float: left;
 	color: white;
   border: 2px solid black;
