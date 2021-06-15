@@ -10,6 +10,7 @@ from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput
 from bokeh.io import curdoc
 from bokeh.resources import INLINE
 from bokeh.embed import components
+from bokeh.layouts import gridplot
 from bokeh.plotting import figure, output_file, show
 from flask import Flask, request, render_template, abort, Response
 from bokeh.plotting import figure
@@ -132,11 +133,128 @@ def event(event_id):
 
 
 
-    script, div = components(plot)
+    #script, div = components(plot)
+    
+
+    optical = figure(title=None, toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    # add a line renderer with legend and line thickness
+    optical.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+
+        #Aesthetics
+    #Axis font size
+    optical.yaxis.axis_label_text_font_size = '16pt'
+    optical.xaxis.axis_label_text_font_size = '16pt'
+
+    #Font Color 
+    optical.xaxis.axis_label_text_color = 'white'
+    optical.xaxis.major_label_text_color = 'white'
+
+    optical.yaxis.axis_label_text_color = 'white'
+    optical.yaxis.major_label_text_color = 'white'
+
+    #Tick colors 
+    optical.xaxis.major_tick_line_color = 'white'
+    optical.yaxis.major_tick_line_color = 'white'
+
+    optical.xaxis.minor_tick_line_color = 'white'
+    optical.yaxis.minor_tick_line_color = 'white'
+
+    #Axis labels
+    optical.xaxis.axis_label = 'Time [sec]'
+    optical.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+
+    #Axis Colors
+    optical.xaxis.axis_line_color = 'white'
+    optical.yaxis.axis_line_color = 'white'
+
+    #Make ticks larger
+    optical.xaxis.major_label_text_font_size = '16pt'
+    optical.yaxis.major_label_text_font_size = '16pt'
+
+    optical.background_fill_color = 'teal'
+    optical.border_fill_color = 'teal'
+
+
+    radio = figure(title=None, toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    # add a line renderer with legend and line thickness
+    radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+
+    #Aesthetics
+    #Axis font size
+    radio.yaxis.axis_label_text_font_size = '16pt'
+    radio.xaxis.axis_label_text_font_size = '16pt'
+
+    #Font Color 
+    radio.xaxis.axis_label_text_color = 'white'
+    radio.xaxis.major_label_text_color = 'white'
+
+    radio.yaxis.axis_label_text_color = 'white'
+    radio.yaxis.major_label_text_color = 'white'
+
+    #Tick colors 
+    radio.xaxis.major_tick_line_color = 'white'
+    radio.yaxis.major_tick_line_color = 'white'
+
+    radio.xaxis.minor_tick_line_color = 'white'
+    radio.yaxis.minor_tick_line_color = 'white'
+
+    #Axis labels
+    radio.xaxis.axis_label = 'Time [sec]'
+    radio.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+
+    #Axis Colors
+    radio.xaxis.axis_line_color = 'white'
+    radio.yaxis.axis_line_color = 'white'
+
+    #Make ticks larger
+    radio.xaxis.major_label_text_font_size = '16pt'
+    radio.yaxis.major_label_text_font_size = '16pt'
+
+    radio.background_fill_color = 'teal'
+    radio.border_fill_color = 'teal'
+
+
+    spectrum = figure(title=None, toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    # add a line renderer with legend and line thickness
+    spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+        #Aesthetics
+    #Axis font size
+    spectrum.yaxis.axis_label_text_font_size = '16pt'
+    spectrum.xaxis.axis_label_text_font_size = '16pt'
+
+    #Font Color 
+    spectrum.xaxis.axis_label_text_color = 'white'
+    spectrum.xaxis.major_label_text_color = 'white'
+
+    spectrum.yaxis.axis_label_text_color = 'white'
+    spectrum.yaxis.major_label_text_color = 'white'
+
+    #Tick colors 
+    spectrum.xaxis.major_tick_line_color = 'white'
+    spectrum.yaxis.major_tick_line_color = 'white'
+
+    spectrum.xaxis.minor_tick_line_color = 'white'
+    spectrum.yaxis.minor_tick_line_color = 'white'
+
+    #Axis labels
+    spectrum.xaxis.axis_label = 'Time [sec]'
+    spectrum.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+
+    #Axis Colors
+    spectrum.xaxis.axis_line_color = 'white'
+    spectrum.yaxis.axis_line_color = 'white'
+
+    #Make ticks larger
+    spectrum.xaxis.major_label_text_font_size = '16pt'
+    spectrum.yaxis.major_label_text_font_size = '16pt'
+
+    spectrum.background_fill_color = 'teal'
+    spectrum.border_fill_color = 'teal'
+
+    script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, plot_width=500, plot_height=500, sizing_mode='scale_both'))
+
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
-
-
     return render_template('event.html', event=event, **kwargs)
 
 @app.route('/docs')
