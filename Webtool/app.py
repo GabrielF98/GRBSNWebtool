@@ -108,9 +108,20 @@ def event(event_id):
     plot.yaxis.axis_label_text_color = 'white'
     plot.yaxis.major_label_text_color = 'white'
 
+    #Tick colors 
+    plot.xaxis.major_tick_line_color = 'white'
+    plot.yaxis.major_tick_line_color = 'white'
+
+    plot.xaxis.minor_tick_line_color = 'white'
+    plot.yaxis.minor_tick_line_color = 'white'
+
     #Axis labels
     plot.xaxis.axis_label = 'Time [sec]'
     plot.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+
+    #Axis Colors
+    plot.xaxis.axis_line_color = 'white'
+    plot.yaxis.axis_line_color = 'white'
 
     #Make ticks larger
     plot.xaxis.major_label_text_font_size = '16pt'
@@ -118,9 +129,14 @@ def event(event_id):
 
     plot.background_fill_color = 'teal'
     plot.border_fill_color = 'teal'
+
+
+
     script, div = components(plot)
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
+
+
     return render_template('event.html', event=event, **kwargs)
 
 @app.route('/docs')
