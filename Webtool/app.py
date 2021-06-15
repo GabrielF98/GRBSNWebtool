@@ -10,7 +10,7 @@ from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput
 from bokeh.io import curdoc
 from bokeh.resources import INLINE
 from bokeh.embed import components
-from bokeh.layouts import gridplot
+from bokeh.layouts import gridplot, Spacer
 from bokeh.plotting import figure, output_file, show
 from flask import Flask, request, render_template, abort, Response
 from bokeh.plotting import figure
@@ -92,12 +92,16 @@ def event(event_id):
     t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
     # create a new plot with a title and axis labels
 
-    plot = figure(plot_width=900, plot_height=500,title=None, toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    plot = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     
     # add a line renderer with legend and line thickness
     plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
+    plot.title.text_font_size = '20pt'
+    plot.title.text_color = 'white'
+    plot.title.align = 'center'
+
     #Axis font size
     plot.yaxis.axis_label_text_font_size = '16pt'
     plot.xaxis.axis_label_text_font_size = '16pt'
@@ -136,11 +140,17 @@ def event(event_id):
     #script, div = components(plot)
     
 
-    optical = figure(title=None, toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    optical = figure(title='Optical', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
     optical.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
         #Aesthetics
+
+    #Title
+    optical.title.text_font_size = '20pt'
+    optical.title.text_color = 'white'
+    optical.title.align = 'center'
+
     #Axis font size
     optical.yaxis.axis_label_text_font_size = '16pt'
     optical.xaxis.axis_label_text_font_size = '16pt'
@@ -175,11 +185,16 @@ def event(event_id):
     optical.border_fill_color = 'teal'
 
 
-    radio = figure(title=None, toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    radio = figure(title='Radio', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
     radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
+
+    #Title
+    radio.title.text_font_size = '20pt'
+    radio.title.text_color = 'white'
+    radio.title.align = 'center'
     #Axis font size
     radio.yaxis.axis_label_text_font_size = '16pt'
     radio.xaxis.axis_label_text_font_size = '16pt'
@@ -214,10 +229,16 @@ def event(event_id):
     radio.border_fill_color = 'teal'
 
 
-    spectrum = figure(title=None, toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    spectrum = figure(title='Spectrum', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
     spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
         #Aesthetics
+
+    #Title
+    spectrum.title.text_font_size = '20pt'
+    spectrum.title.text_color = 'white'
+    spectrum.title.align = 'center'
+    
     #Axis font size
     spectrum.yaxis.axis_label_text_font_size = '16pt'
     spectrum.xaxis.axis_label_text_font_size = '16pt'
@@ -251,8 +272,8 @@ def event(event_id):
     spectrum.background_fill_color = 'teal'
     spectrum.border_fill_color = 'teal'
 
-    script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, sizing_mode='stretch_both'))
 
+    script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, merge_tools = False))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
     return render_template('event.html', event=event, **kwargs)
