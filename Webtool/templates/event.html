@@ -1,4 +1,20 @@
 {% extends 'base.html' %}
+<head>
+  <!-- The stuff to do with the X-ray plot -->
+
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh.min.css"
+    rel="stylesheet" type="text/css">
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-widgets.css"
+    rel="stylesheet" type="text/css">
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-tables.css"
+    rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
 
 <!--The page title -->
 <!-- This will be the name of the GRB and an associated SN if applicable -->
@@ -11,16 +27,12 @@
 {% endblock %}
 
 {% block content %}
+<div>
     <table style="width:40%">
   <tr>
-    <th>Parameter</th>
+    <th>GRB Parameter</th>
     <th>Value</th>
     <th>Unit</th> 
-  </tr>
-  <tr>
-    <th>GRB Parameters</th>
-    <th></th>
-    <th></th>
   </tr>
   <tr>
     <td>E$_{iso}$</td>
@@ -108,12 +120,14 @@
     </td>
     <td>degrees</td> 
   </tr>
+</table>
 
- 
-  <tr>
-    <th>SN Parameters</th>
-    <th></th>
-    <th></th>
+
+<table style="width:40%">
+ <tr>
+    <th>SN Parameter</th>
+    <th>Value</th>
+    <th>Unit</th> 
   </tr>
   <tr>
     <td>E$_k$</td>
@@ -206,28 +220,18 @@
   </tr>
 
 </table>
+</div>
 
-<!-- <p>{{ data }}</p> -->
-<!-- The stuff to do with the X-ray plot -->
+<!-- Xray plot -->
+<div>
+<h2><b>X-Ray Data</b></h2>
 
-<link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh.min.css"
-    rel="stylesheet" type="text/css">
-<link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-widgets.css"
-    rel="stylesheet" type="text/css">
-<link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-tables.css"
-    rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <h2><b>X-Ray Data</b></h2>
-        <table>
-          {{ div|safe }}
-          {{ script|safe }}
-        </table>
-        
-    </body>
+  {{ div|safe }}
+  {{ script|safe }}
+</div>
+
+
+</body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-widgets.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-tables.js"></script>
