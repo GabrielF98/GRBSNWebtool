@@ -251,7 +251,7 @@ def event(event_id):
     spectrum.background_fill_color = 'teal'
     spectrum.border_fill_color = 'teal'
 
-    script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, plot_width=500, plot_height=500, sizing_mode='scale_both'))
+    script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, sizing_mode='stretch_both'))
 
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
