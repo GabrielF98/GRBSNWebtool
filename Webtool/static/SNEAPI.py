@@ -42,18 +42,36 @@ for i in range(len(names)):
 	if names[i][0]!= 'A':
 		print(names[i])
 
+		#Photometry
 		#Use the API to get the magnitude, times and their errors, in all bands, as a csv
 		data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band?format=csv')
 
 		#File to save the csv 
 		#save the data
 		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'.csv', index=False)
+
+		#Spectra
+		#Use the API to get the time and all spectra, as a csv
+		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/catalog/?format=csv')
+
+		#File to save the csv 
+		#save the data
+		data.to_csv('./SNE-OpenSN-Data/spectra/SN'+str(names[i])+'.csv', index=False)
 	else:
 		print('Non numeric', names[i])
 
+		#Photometry
 		#Use the API to get the magnitude, times and their errors, in all bands, as a csv
 		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band?format=csv')
 
 		#File to save the csv 
 		#save the data
 		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'.csv', index=False)
+
+		#Spectra
+		#Use the API to get the time and all spectra, as a csv
+		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/spectra/?format=csv')
+
+		#File to save the csv 
+		#save the data
+		data.to_csv('./SNE-OpenSN-Data/spectra/'+str(names[i])+'.csv', index=False)
