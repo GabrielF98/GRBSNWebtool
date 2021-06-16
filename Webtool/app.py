@@ -100,6 +100,9 @@ def event(event_id):
     event = get_post(event_id)
     data = get_grb_data(event_id)
 
+    ######################################################################################
+    #####X--RAYS##########################################################################
+    ######################################################################################
     t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
     # create a new plot with a title and axis labels
 
@@ -149,65 +152,75 @@ def event(event_id):
 
 
     #script, div = components(plot)
-    
+
+    ######################################################################################
+    #####OPTICAL##########################################################################
+    ######################################################################################
+    from bokeh.palettes import Category20_20
 
     optical = figure(title='Optical', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
 
     #Extract and plot the optical photometry data from the photometry file for each SN
     if event[0]['SNe'] !=None:
-        
+
         data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/'+str(event[0]['SNe'])+'.csv')
         if data.empty ==True:
             print()
         else:
             bands = set(data['band'])
 
+
+       
+            color = Category20_20.__iter__()
             for j in bands:
                 new_df = data.loc[data['band']==j]
-                optical.scatter(new_df['time'], new_df['magnitude'], legend_label=str(j), size=10)
+                optical.scatter(new_df['time'], new_df['magnitude'], legend_label=str(j), size=10, color=next(color))
 
         #Aesthetics
 
-    #Title
-    optical.title.text_font_size = '20pt'
-    optical.title.text_color = 'white'
-    optical.title.align = 'center'
+        #Title
+        optical.title.text_font_size = '20pt'
+        optical.title.text_color = 'white'
+        optical.title.align = 'center'
 
-    #Axis font size
-    optical.yaxis.axis_label_text_font_size = '16pt'
-    optical.xaxis.axis_label_text_font_size = '16pt'
+        #Axis font size
+        optical.yaxis.axis_label_text_font_size = '16pt'
+        optical.xaxis.axis_label_text_font_size = '16pt'
 
-    #Font Color 
-    optical.xaxis.axis_label_text_color = 'white'
-    optical.xaxis.major_label_text_color = 'white'
+        #Font Color 
+        optical.xaxis.axis_label_text_color = 'white'
+        optical.xaxis.major_label_text_color = 'white'
 
-    optical.yaxis.axis_label_text_color = 'white'
-    optical.yaxis.major_label_text_color = 'white'
+        optical.yaxis.axis_label_text_color = 'white'
+        optical.yaxis.major_label_text_color = 'white'
 
-    #Tick colors 
-    optical.xaxis.major_tick_line_color = 'white'
-    optical.yaxis.major_tick_line_color = 'white'
+        #Tick colors 
+        optical.xaxis.major_tick_line_color = 'white'
+        optical.yaxis.major_tick_line_color = 'white'
 
-    optical.xaxis.minor_tick_line_color = 'white'
-    optical.yaxis.minor_tick_line_color = 'white'
+        optical.xaxis.minor_tick_line_color = 'white'
+        optical.yaxis.minor_tick_line_color = 'white'
 
-    #Axis labels
-    optical.xaxis.axis_label = 'Time [sec]'
-    optical.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+        #Axis labels
+        optical.xaxis.axis_label = 'Time [sec]'
+        optical.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
 
-    #Axis Colors
-    optical.xaxis.axis_line_color = 'white'
-    optical.yaxis.axis_line_color = 'white'
+        #Axis Colors
+        optical.xaxis.axis_line_color = 'white'
+        optical.yaxis.axis_line_color = 'white'
 
-    #Make ticks larger
-    optical.xaxis.major_label_text_font_size = '16pt'
-    optical.yaxis.major_label_text_font_size = '16pt'
+        #Make ticks larger
+        optical.xaxis.major_label_text_font_size = '16pt'
+        optical.yaxis.major_label_text_font_size = '16pt'
 
-    optical.background_fill_color = 'teal'
-    optical.border_fill_color = 'teal'
+        optical.background_fill_color = 'white'
+        optical.border_fill_color = 'white'
 
 
+    ######################################################################################
+    #####RADIO############################################################################
+    ######################################################################################
     radio = figure(title='Radio', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
     radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
@@ -251,7 +264,9 @@ def event(event_id):
     radio.background_fill_color = 'teal'
     radio.border_fill_color = 'teal'
 
-
+    ######################################################################################
+    #####SPECTRA##########################################################################
+    ######################################################################################
     spectrum = figure(title='Spectrum', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
     spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
