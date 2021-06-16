@@ -16,6 +16,8 @@ from flask import Flask, request, render_template, abort, Response
 from bokeh.plotting import figure
 from bokeh.embed import components
 
+#Data import 
+import pandas as pd
 
 #Add the bit for the database access:
 import sqlite3
@@ -58,17 +60,26 @@ def get_grb_data(event_id):
             k = [[0], [0], [0], [0], [0], [0]]
     return(k)
 
-# def bokeh_plot(data):
-#     t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
+#Extract the SN names from the database
+def sne_names():
+    conn = get_db_connection()
+    names = conn.execute('SELECT DISTINCT(SNe) FROM SQLDataGRBSNe')
+    sne = []
+    for i in names:
+        
+        if i[0] == None:
+            continue
 
-#     # create a new plot with a title and axis labels
-#     plot = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
+        #Theres a piece of scientific notation in one of the columns
+        elif 'E' in str(i[0]):
+            continue
 
-#     # add a line renderer with legend and line thickness
-#     plot.scatter(t, flux, legend_label="GRB", size=200)
-    
+        #Select only the correct names
+        else:
+            sne.append(i[0])
+    conn.close()
+    return sne
 
-#     return(p)
 
 
 app = Flask(__name__)
@@ -142,7 +153,19 @@ def event(event_id):
 
     optical = figure(title='Optical', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
-    optical.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+
+    #Extract and plot the optical photometry data from the photometry file for each SN
+    if event[0]['SNe'] !=None:
+        
+        data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/'+str(event[0]['SNe'])+'.csv')
+        if data.empty ==True:
+            print()
+        else:
+            bands = set(data['band'])
+
+            for j in bands:
+                new_df = data.loc[data['band']==j]
+                optical.scatter(new_df['time'], new_df['magnitude'], legend_label=str(j), size=10)
 
         #Aesthetics
 
