@@ -314,6 +314,10 @@ def event(event_id):
     script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, merge_tools = False))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
+
+    #References
+    
+    
     return render_template('event.html', event=event, **kwargs)
 
 @app.route('/docs')
