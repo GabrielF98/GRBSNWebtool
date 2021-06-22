@@ -42,9 +42,10 @@ print(bibcodes)
 #Send query to ADS and get data back
 token = 'oLH7C9g5twATAq6yW1PDHIAtAxaXQzNcSj71Az67'
 
-authors = []
-years = []
+# authors = []
+# years = []
 
+dictionary = {}
 for i in range(len(bibcodes)):
 
 	bibcode = {"bibcode":[str(bibcodes[i])], "format": "%m %Y"}
@@ -53,14 +54,22 @@ for i in range(len(bibcodes)):
 	                 data=json.dumps(bibcode))
 	print(r.json())
 
-	authors.append(r.json()['export'][:-5])
-	years.append(r.json()['export'][-5:])
+	# authors.append(r.json()['export'][:-5])
+	# years.append(r.json()['export'][-5:])
 
-#Save the ads_url, name and year in one txt file		
-import csv
-with open('citations.csv', 'w') as f:
-	writer = csv.writer(f, delimiter='\t')
-	writer.writerows(zip(hyperlinks, authors, years))
+	dictionary[str(hyperlinks[i])] = r.json()['export']
+
+# #Save the ads_url, name and year in one txt file		
+# import csv
+# with open('citations.csv', 'w') as f:
+# 	writer = csv.writer(f, delimiter='\t')
+# 	writer.writerows(zip(hyperlinks, authors, years))
+
+#Save the dictionary with json.dump()
+file = open("citations.json", 'w')
+json.dump(dictionary, file, sort_keys=True, indent=4, separators=(',', ': '))
+file.close()
+
 
 
 
