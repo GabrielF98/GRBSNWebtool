@@ -317,18 +317,14 @@ def event(event_id):
 
     #References
     
-    
+
+    #Return everything
     return render_template('event.html', event=event, **kwargs)
 
 @app.route('/docs')
 def docs():
     return render_template('docs.html')
-
-
-# @app.route('/contact')
-# def contact():
-#     return render_template('contacts.html')
-
+    
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
 # def get_current_user():
