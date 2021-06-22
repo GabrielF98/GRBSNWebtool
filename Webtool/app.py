@@ -4,6 +4,7 @@ from werkzeug.exceptions import abort
 #Find the txt files with the right names
 import glob
 import numpy as np
+import json
 
 #Pieces for Bokeh
 from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput
@@ -316,15 +317,22 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     #References
-    
+    with open("static/citations.json") as file:
+        dict_refs = json.load(file)
+    #loop through dict refs to get the relevant references
+    authors = []
+    years = []
+    for i in range(len(event)):
+        authors.append(dict_refs[event[i]['PrimarySources']][:-5])
+        years.append(dict_refs[event[i]['PrimarySources']][-5:])
 
     #Return everything
-    return render_template('event.html', event=event, **kwargs)
+    return render_template('event.html', event=event, years = years, authors = authors, **kwargs)
 
 @app.route('/docs')
 def docs():
     return render_template('docs.html')
-    
+
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
 # def get_current_user():
