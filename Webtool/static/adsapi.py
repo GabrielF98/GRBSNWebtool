@@ -1,5 +1,9 @@
 import numpy as np
 
+#The requests module
+import requests
+import json
+
 #Add the bit for the database access:
 import sqlite3
 def get_db_connection():
@@ -18,7 +22,7 @@ def bibcode_names():
 		if str(i[0])[0:10] == 'https://ui':
 
 			#Split the bibcode into a list by breaking it each time a / appears
-			bibcodes.append(str(i[0]).split('/')[4])
+			bibcodes.append(str(i[0]).split('/')[4].replace('%26', '&'))
 
 		#Skip anything without https://ui
 		else:
@@ -28,24 +32,19 @@ def bibcode_names():
 	return bibcodes
 
 bibcodes = bibcode_names()
-
+print(bibcodes)
 #API Access
 #Code copied from the howto for the ADS API (though some of it is mine too)
-#https://github.com/adsabs/adsabs-dev-api/blob/master/Search_API.ipynb
-
-#Generate the query
-from urllib.parse import urlencode, quote_plus
-query_list = []
-for i in range(len(bibcodes)):
-	query = {"bibcode":str(bibcodes[i])}
-	encoded_query = urlencode(query,quote_via=quote_plus)
-
-	query_list.append(encoded_query)
-
-print(query_list)
-
+#https://github.com/adsabs/adsabs-dev-api/blob/master/Converting_curl_to_python.ipynb
 #Send query to ADS and get data back
+token = 'oLH7C9g5twATAq6yW1PDHIAtAxaXQzNcSj71Az67'
+for i in range(len(bibcodes)):
 
+	bibcode = {"bibcode":[str(bibcodes[i])], "format": "%m %Y"}
+	r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom", \
+	                 headers={"Authorization": "Bearer " + token, "Content-type": "application/json"}, \
+	                 data=json.dumps(bibcode))
+	print(r.json())
 
 
 
