@@ -90,7 +90,8 @@ app.secret_key = 'secretKey'
 #The homepage and its location
 @app.route('/')
 def home():
-    return render_template('home.html')
+    grb_eiso = open('static/stats/GRBSNeEiso.pdf')
+    return render_template('home.html', grb_eiso=grb_eiso)
 
 #Be able to select the GRBs by their names and go
 #To a specific page, it also plots the XRT data
