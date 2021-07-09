@@ -20,6 +20,9 @@ from bokeh.embed import components
 #Data import 
 import pandas as pd
 
+#email form
+from static.emails.forms import ContactForm
+
 #Add the bit for the database access:
 import sqlite3
 def get_db_connection():
@@ -369,45 +372,23 @@ def grb_names():
     
     return {'grbs': grbs, 'number1':length, 'number2':len(unique_years), 'years':unique_years}
 
+#Search bar
+from wtforms import Form, StringField
 
-#Enable a table on the homepage with links to GRB pages
-# @app.route('/<event_id>')
-# def event(event_id):
-#     event = get_post(event_id)
+class SearchForm(Form):
+    object_name = StringField()
 
-#     #Links
-#     return redirect(url_for('index'))
-#     return render_template('event.html', event=event)
-
-# @app.route('/names/')
-# def names():
-# 	names = grb_names()
-# 	return render_template('names.html', names=names)
-
-# # Table of all the data to be displayed on the webpage
-# from flask_table import Table, Col
-
-
-# # Declare your table
-# class GRBTable(Table):
-#     name = Col('GRB')
-#     description = Col('SN')
-
-# # Or, more likely, load items from your database with something like
-# items = ItemModel.query.all()
-
-# # Populate the table
-# table = ItemTable(items)
-
-# # Print the html
-# print(table.__html__())
-# # or just {{ table }} from within a Jinja template 
-
+#Making the search bar run
+@app.route('/', methods=['GET', 'POST'])
+def search_bar():
+    form = SearchForm(request.form)
+    if request.method == 'POST':
+        event_id = form.object_name.data
+        return redirect(url_for('/'+event_id))
+    return render_template('/', form=form)
 # Contact form 
 
-from static.emails.forms import ContactForm
-from flask import request
-import pandas as pd
+
 @app.route('/contact', methods=["GET","POST"])
 def get_contact():
     form = ContactForm()
