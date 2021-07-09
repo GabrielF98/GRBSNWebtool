@@ -61,3 +61,8 @@ th, td {color: white;
   padding: 5px;
   border-color: white;
   font-size: 12pt;}
+
+.image_block {
+    background-color: white;
+    border-radius: 10pt;
+}
