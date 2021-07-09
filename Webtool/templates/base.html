@@ -41,9 +41,14 @@
       </li>
       </ul>
                 <!-- <span class="navbar-text"> -->
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Execute</button> -->
+                {% from "_formhelpers.html" import render_field %}
+                <form class="form-inline" method='post'>
+                    <input class="form-control mr-sm-2" type="search" id="form1" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Execute</button>
+                      <dl>
+                        {{ render_field(form.object_name) }}
+                      </dl>
+                    <p><input type=submit value=Register>
                 </form>
             <!-- </span> -->
             <!-- </div> -->
