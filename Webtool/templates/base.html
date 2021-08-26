@@ -41,14 +41,12 @@
       </li>
       </ul>
                 <!-- <span class="navbar-text"> -->
-                {% from "_formhelpers.html" import render_field %}
-                <form class="form-inline" method='post'>
+                <form class="form-inline" method='get'>
                     <input class="form-control mr-sm-2" type="search" id="form1" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Execute</button>
                       <dl>
-                        {{ render_field(form.object_name) }}
+                        {{form.object_name}}
                       </dl>
-                    <p><input type=submit value=Register>
                 </form>
             <!-- </span> -->
             <!-- </div> -->
