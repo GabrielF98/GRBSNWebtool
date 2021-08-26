@@ -378,17 +378,18 @@ from wtforms import Form, StringField
 class SearchForm(Form):
     object_name = StringField()
 
-#Making the search bar run
+#Making the search bar run https://flask.palletsprojects.com/en/2.0.x/patterns/wtforms/
 @app.route('/', methods=['GET', 'POST'])
 def search_bar():
     form = SearchForm(request.form)
-    if request.method == 'POST':
-        event_id = form.object_name.data
+    if request.method == 'GET':
+        event_id = request.form['object_name']
         return redirect(url_for('/'+event_id))
-    return render_template('/', form=form)
+    else:
+        return render_template('home.html', form=form)
+
+
 # Contact form 
-
-
 @app.route('/contact', methods=["GET","POST"])
 def get_contact():
     form = ContactForm()
