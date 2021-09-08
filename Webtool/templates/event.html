@@ -43,8 +43,18 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['e_iso'] != None %}
-          {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-            <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+          {% if event[i]['PrimarySources'] != 'None' %}
+            {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
+
+          {% if event[i]['PrimarySources'] != 'None' %}
+            {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
+              <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+            }
+          {% if event[i]['SecondarySources'] != 'None' %}
+            {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
+              <!-- $^{{ event['d_pos_e_iso'] }}_{{ event['d_neg_e_iso'] }}$ -->
+            }
+          {% endif %}
         {% endif %}
       {% endfor %}
     </td> 
