@@ -317,17 +317,40 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     #References
+    #Primary
     with open("static/citations.json") as file:
         dict_refs = json.load(file)
+
+    #Secondary
+    with open("static/citations2.json") as file2:
+        dict_refs2 = json.load(file2)
+
     #loop through dict refs to get the relevant references
     authors = []
     years = []
+
+    authors2 = []
+    years2 = []
     for i in range(len(event)):
-        authors.append(dict_refs[event[i]['PrimarySources']][:-5])
-        years.append(dict_refs[event[i]['PrimarySources']][-5:])
+        if event[i]['PrimarySources']!=None:
+            authors.append(dict_refs[event[i]['PrimarySources']][:-5])
+            years.append(dict_refs[event[i]['PrimarySources']][-5:])
+
+        else:
+            authors.append(dict_refs[event[i]['PrimarySources']][:-5])
+            years.append(dict_refs[event[i]['PrimarySources']][-5:])
+
+        if event[i]['SecondarySources']!=None:
+            authors2.append(dict_refs2[event[i]['SecondarySources']][:-5])
+            years2.append(dict_refs2[event[i]['SecondarySources']][-5:])
+
+        else:
+            authors2.append(dict_refs2[event[i]['SecondarySources']][:-5])
+            years2.append(dict_refs2[event[i]['SecondarySources']][-5:])
+
 
     #Return everything
-    return render_template('event.html', event=event, years = years, authors = authors, **kwargs)
+    return render_template('event.html', event=event, years=years, authors=authors, years2=years2, authors2=authors2, **kwargs)
 
 @app.route('/docs')
 def docs():
