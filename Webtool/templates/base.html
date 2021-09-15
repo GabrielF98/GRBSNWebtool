@@ -39,20 +39,17 @@
             {%endfor%}
         </ul>
       </li>
-      </ul>
+      <ul>
                 <!-- <span class="navbar-text"> -->
-                <form class="form-inline" method='get'>
-                    <input class="form-control mr-sm-2" type="search" id="form1" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Execute</button>
-                      <dl>
-                        {{form.object_name}}
-                      </dl>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Execute</button> -->
                 </form>
             <!-- </span> -->
             <!-- </div> -->
           </ul>
         </nav>
-    
+        
         
         <!-- Junk -->
 
@@ -73,4 +70,5 @@
         
         {% block content %}{% endblock %}
     </body>
+    
 </html>

@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for
 from werkzeug.exceptions import abort
 
 #Find the txt files with the right names
@@ -16,6 +16,12 @@ from bokeh.plotting import figure, output_file, show
 from flask import Flask, request, render_template, abort, Response
 from bokeh.plotting import figure
 from bokeh.embed import components
+
+#Search bar
+from wtforms import Form, StringField
+
+class SearchForm(Form):
+    object_name = StringField()
 
 #Data import 
 import pandas as pd
@@ -94,6 +100,10 @@ app.secret_key = 'secretKey'
 @app.route('/')
 def home():
     return render_template('home.html')
+
+
+
+
 
 #Be able to select the GRBs by their names and go
 #To a specific page, it also plots the XRT data
@@ -372,20 +382,17 @@ def grb_names():
     
     return {'grbs': grbs, 'number1':length, 'number2':len(unique_years), 'years':unique_years}
 
-#Search bar
-from wtforms import Form, StringField
-
-class SearchForm(Form):
-    object_name = StringField()
-
 #Making the search bar run https://flask.palletsprojects.com/en/2.0.x/patterns/wtforms/
+@app.route('/test/', methods=['GET'])
 def search_bar():
-    form = SearchForm(request.form)
+    args = SearchForm(request.args)
     if request.method == 'GET':
-        event_id = request.form['object_name']
-        return redirect(url_for('/'+event_id))
+        event_id = args.object_name.data
+        #The syntax in this line are definitely correct based on the docs
+        return redirect(url_for('event', event_id=event_id))
+
     else:
-        return render_template('base.html', form=form)
+        return render_template('test.html', args=args)
 
 
 # Contact form 

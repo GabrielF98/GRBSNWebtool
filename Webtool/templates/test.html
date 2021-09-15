@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}
+<h1>
+  <b>Gamma-ray Burst and Supernova Associations Project</b>
+</h1>
+
+{% endblock %}
+
+{% block content %}
+
+{% from "_formhelpers.html" import render_field %}
+
+<form method=get>
+  <dl>
+    {{ render_field(args.object_name) }}
+  </dl>
+  <p><input type=submit value=Register>
+</form>
+
+
+{% endblock %}
+
