@@ -383,7 +383,7 @@ def grb_names():
     return {'grbs': grbs, 'number1':length, 'number2':len(unique_years), 'years':unique_years}
 
 #Making the search bar run https://flask.palletsprojects.com/en/2.0.x/patterns/wtforms/
-@app.route('/test/', methods=['GET'])
+@app.route('/form', methods=['GET'])
 def search_bar():
     args = SearchForm(request.args)
     if request.method == 'GET':
@@ -392,7 +392,7 @@ def search_bar():
         return redirect(url_for('event', event_id=event_id))
 
     else:
-        return render_template('test.html', args=args)
+        return render_template('form.html', args=args)
 
 
 # Contact form 
