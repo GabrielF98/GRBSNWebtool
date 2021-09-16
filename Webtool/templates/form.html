@@ -9,12 +9,12 @@
 
 {% block content %}
 {% from "_formhelpers.html" import render_field %}
-<h2>sdfjsdjfksdjhfkjdsfkjhdskjhfjkdsfjkdsjkhfjkdsjkfsjdkfjhdsjkfjdks</h2>
-<form method=get>
+
+<form method=post>
   <dl>
-    {{ render_field(args.object_name) }}
+    {{ render_field(form.object_name) }}
   </dl>
-  <p><input type=submit value=Register>
+  <p><input type=submit value=Search>
 </form>
 
 

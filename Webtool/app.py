@@ -382,17 +382,7 @@ def grb_names():
     
     return {'grbs': grbs, 'number1':length, 'number2':len(unique_years), 'years':unique_years}
 
-#Making the search bar run https://flask.palletsprojects.com/en/2.0.x/patterns/wtforms/
-@app.route('/form', methods=['GET'])
-def search_bar():
-    args = SearchForm(request.args)
-    if request.method == 'GET':
-        event_id = args.object_name.data
-        #The syntax in this line are definitely correct based on the docs
-        return redirect(url_for('event', event_id=event_id))
 
-    else:
-        return render_template('form.html', args=args)
 
 
 # Contact form 
@@ -412,6 +402,23 @@ def get_contact():
         return('The data are saved !')
     else:
         return render_template('contacts.html', form=form)
+
+#Making the search bar run https://flask.palletsprojects.com/en/2.0.x/patterns/wtforms/
+@app.route('/search', methods=['POST', 'GET'])
+def search_bar():
+    form = SearchForm(request.form)
+    
+    if request.method == 'POST':
+        #The problem is here somewhere
+        event_id = form.object_name.data
+        #its rediricting to home (url for is / when it should be /form)
+        with app.test_request_context():
+            print('The URL is:', url_for('event', event_id=event_id))
+        #The syntax in this line are definitely correct based on the docs
+        return redirect(url_for('event', event_id=event_id))
+
+    
+    return render_template('form.html', form=form)
 
 # Run app
 if __name__ == "__main__":
