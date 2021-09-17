@@ -21,7 +21,7 @@ from bokeh.embed import components
 from wtforms import Form, StringField
 
 class SearchForm(Form):
-    object_name = StringField()
+    object_name = StringField('Search for a GRB by number')
 
 #Data import 
 import pandas as pd
@@ -97,11 +97,16 @@ app.secret_key = 'secretKey'
 
 #The pages we want
 #The homepage and its location
-@app.route('/')
+@app.route('/', methods=['POST', 'GET'])
 def home():
-    return render_template('home.html')
+    form = SearchForm(request.form)
+    
+    if request.method == 'POST':
+        event_id = form.object_name.data
+        return redirect(url_for('event', event_id=event_id))
 
-
+    
+    return render_template('home.html', form=form)
 
 
 
@@ -404,21 +409,21 @@ def get_contact():
         return render_template('contacts.html', form=form)
 
 #Making the search bar run https://flask.palletsprojects.com/en/2.0.x/patterns/wtforms/
-@app.route('/search', methods=['POST', 'GET'])
-def search_bar():
-    form = SearchForm(request.form)
+# @app.route('/search', methods=['POST', 'GET'])
+# def search_bar():
+#     form = SearchForm(request.form)
     
-    if request.method == 'POST':
-        #The problem is here somewhere
-        event_id = form.object_name.data
-        #its rediricting to home (url for is / when it should be /form)
-        with app.test_request_context():
-            print('The URL is:', url_for('event', event_id=event_id))
-        #The syntax in this line are definitely correct based on the docs
-        return redirect(url_for('event', event_id=event_id))
+#     if request.method == 'POST':
+#         #The problem is here somewhere
+#         event_id = form.object_name.data
+#         #its rediricting to home (url for is / when it should be /form)
+#         with app.test_request_context():
+#             print('The URL is:', url_for('event', event_id=event_id))
+#         #The syntax in this line are definitely correct based on the docs
+#         return redirect(url_for('event', event_id=event_id))
 
     
-    return render_template('form.html', form=form)
+#     return render_template('form.html', form=form)
 
 # Run app
 if __name__ == "__main__":
