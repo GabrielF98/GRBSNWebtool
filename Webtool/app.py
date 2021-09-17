@@ -45,6 +45,17 @@ def get_post(event_id):
         abort(404)
     return event
 
+#For the main table
+def get_selected_data():
+    conn = get_db_connection()
+    data = conn.execute('SELECT * FROM SQLDataGRBSNe GROUP BY GRB')
+    data2 = []
+    for i in data:
+        data2.append([i['GRB'], i['SNe'], i['e_iso'], i['T90'], i['z']])
+    conn.close()
+    return data2
+    
+
 def grb_names():
     conn = get_db_connection()
     names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe')
@@ -99,6 +110,10 @@ app.secret_key = 'secretKey'
 #The homepage and its location
 @app.route('/', methods=['POST', 'GET'])
 def home():
+    #Table
+    data = get_selected_data()
+
+    #Form
     form = SearchForm(request.form)
     
     if request.method == 'POST':
@@ -111,11 +126,9 @@ def home():
         else:
             #The flash message wont show up just yet
             flash('ID not valid')
-            return render_template('home.html', form=form)
+            return render_template('home.html', form=form, data=data)
 
-    return render_template('home.html', form=form)
-
-
+    return render_template('home.html', form=form, data=data)
 
 #Be able to select the GRBs by their names and go
 #To a specific page, it also plots the XRT data
