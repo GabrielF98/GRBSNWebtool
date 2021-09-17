@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, flash
 from werkzeug.exceptions import abort
 
 #Find the txt files with the right names
@@ -103,9 +103,16 @@ def home():
     
     if request.method == 'POST':
         event_id = form.object_name.data
-        return redirect(url_for('event', event_id=event_id))
 
-    
+        if event_id in grbs:
+
+            return redirect(url_for('event', event_id=event_id))
+
+        else:
+            #The flash message wont show up just yet
+            flash('ID not valid')
+            return render_template('home.html', form=form)
+
     return render_template('home.html', form=form)
 
 
