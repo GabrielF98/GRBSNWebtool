@@ -21,7 +21,7 @@ from bokeh.embed import components
 from wtforms import Form, StringField
 
 class SearchForm(Form):
-    object_name = StringField('Search for a GRB by number')
+    object_name = StringField('Search by GRB ID')
 
 #Data import 
 import pandas as pd
