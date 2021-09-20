@@ -21,7 +21,7 @@ from bokeh.embed import components
 from wtforms import Form, StringField
 
 class SearchForm(Form):
-    object_name = StringField('Search by GRB ID')
+    object_name = StringField('Search by GRB or SN ID')
 
 #Data import 
 import pandas as pd
@@ -55,6 +55,17 @@ def get_selected_data():
     conn.close()
     return data2
     
+def grb_sne_dict():
+    conn = get_db_connection()
+    data = conn.execute('SELECT GRB, SNe FROM SQLDataGRBSNe GROUP BY GRB')
+    grb_sne_dict = {}
+    for i in data:
+        if i['SNe']!=None:
+            grb_sne_dict[i['SNe']] = i['GRB']
+    return(grb_sne_dict)
+
+grb_sne = grb_sne_dict()
+
 
 def grb_names():
     conn = get_db_connection()
@@ -121,6 +132,10 @@ def home():
 
         if event_id in grbs:
 
+            return redirect(url_for('event', event_id=event_id))
+
+        elif str(event_id) in grb_sne:
+            event_id = grb_sne[str(event_id)]
             return redirect(url_for('event', event_id=event_id))
 
         else:
