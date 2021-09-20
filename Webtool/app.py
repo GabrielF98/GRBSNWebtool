@@ -48,11 +48,12 @@ def get_post(event_id):
 #For the main table
 def get_selected_data():
     conn = get_db_connection()
-    data = conn.execute('SELECT * FROM SQLDataGRBSNe GROUP BY GRB')
+    data = conn.execute('SELECT GRB, SNe, AVG(e_iso), AVG(T90), AVG(z) FROM SQLDataGRBSNe GROUP BY GRB')
     data2 = []
     for i in data:
-        data2.append([i['GRB'], i['SNe'], i['e_iso'], i['T90'], i['z']])
+        data2.append([i['GRB'], i['SNe'], i['AVG(e_iso)'], i['AVG(T90)'], i['AVG(z)']])
     conn.close()
+
     return data2
     
 

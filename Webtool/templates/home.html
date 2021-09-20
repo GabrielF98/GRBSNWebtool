@@ -43,9 +43,21 @@
     {% else %}
     <th>{{ data[i][1] }}</th>
     {% endif %}
+    {% if data[i][2]==None %}
+    	<th></th>
+    {% else %}
     <th>{{ data[i][2] }}</th>
+    {% endif %}
+    {% if data[i][3]==None %}
+    	<th></th>
+    {% else %}
     <th>{{ data[i][3] }}</th>
+    {% endif %}
+    {% if data[i][4]==None %}
+    	<th></th>
+    {% else %}
     <th>{{ data[i][4] }}</th>
+    {% endif %}
 </tr>
   {% endfor %}
 </table>
