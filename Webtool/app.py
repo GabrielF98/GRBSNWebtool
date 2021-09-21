@@ -18,10 +18,20 @@ from bokeh.plotting import figure
 from bokeh.embed import components
 
 #Search bar
-from wtforms import Form, StringField
+from wtforms import Form, StringField, SubmitField
 
 class SearchForm(Form):
     object_name = StringField('Search for a GRB by number')
+    submit1 = SubmitField('Submit')
+
+#Pulling the data you want to the table on the homepage
+class TableForm(Form):
+    max_z = StringField('Min. Z')
+    min_z = StringField('Max. Z')
+    max_eiso = StringField('Max. E$_{iso}$')
+    min_eiso = StringField('Min. E$_{iso}$')
+    submit2 = SubmitField('Submit')
+
 
 #Data import 
 import pandas as pd
@@ -117,7 +127,10 @@ def home():
     #Form
     form = SearchForm(request.form)
     
-    if request.method == 'POST':
+    #Form for the tabular search
+    form_a = TableForm(request.form)
+
+    if form.submit1.data and SearchForm.validate():
         event_id = form.object_name.data
 
         if event_id in grbs:
@@ -129,7 +142,17 @@ def home():
             flash('ID not valid')
             return render_template('home.html', form=form, data=data)
 
-    return render_template('home.html', form=form, data=data)
+    
+
+    if form_a.submit2.data and TableForm.validate():
+        max_z = form_a.max_z.data
+        min_z = form_a.min_z.data
+        max_eiso = form_a.max_eiso.data
+        min_eiso = form_a.min_eiso.data
+
+        return render_template('home.html', form=form, form_a=form_a, data=data)
+
+    return render_template('home.html', form=form, form_a=form_a, data=data)
 
 #Be able to select the GRBs by their names and go
 #To a specific page, it also plots the XRT data
