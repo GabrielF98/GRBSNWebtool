@@ -25,6 +25,17 @@
 
 
 <h2><b>Known Associations</b></h2>
+
+{% from "_formhelpers.html" import render_field %}
+<form method=post>
+  <dl>
+    <h3>{{ render_field(form_a.max_z) }}</h3>
+    <h3>{{ render_field(form_a.min_z) }}</h3>
+    <h3>{{ render_field(form_a.max_eiso) }}</h3>
+    <h3>{{ render_field(form_a.min_eiso) }}</h3>
+  </dl>
+  <p><input type=submit value=Search>
+</form>
 <!-- Table of all the sources -->
 <div>
     <table style="width:80%">
