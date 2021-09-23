@@ -336,21 +336,13 @@ def event(event_id):
             authors.append(dict_refs[event[i]['PrimarySources']][:-5])
             years.append(dict_refs[event[i]['PrimarySources']][-5:])
 
-        else:
-            authors.append(dict_refs[event[i]['PrimarySources']][:-5])
-            years.append(dict_refs[event[i]['PrimarySources']][-5:])
-
-        if event[i]['SecondarySources']!=None:
-            authors2.append(dict_refs2[event[i]['SecondarySources']][:-5])
-            years2.append(dict_refs2[event[i]['SecondarySources']][-5:])
-
-        else:
+        elif event[i]['SecondarySources']!=None:
             authors2.append(dict_refs2[event[i]['SecondarySources']][:-5])
             years2.append(dict_refs2[event[i]['SecondarySources']][-5:])
 
 
     #Return everything
-    return render_template('event.html', event=event, years=years, authors=authors, years2=years2, authors2=authors2, **kwargs)
+    return render_template('event.html', event=event, years=years, authors=authors, years2=years2, authors2=authors2, dict=dict_refs, dict2=dict_refs2, **kwargs)
 
 @app.route('/docs')
 def docs():
