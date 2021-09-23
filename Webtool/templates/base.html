@@ -30,26 +30,26 @@
 
                 <!-- Dropdown Menu -->
                 <li class="nav-item dropdown ">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Catalogue
-        </a>
-        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-            {%for i in range(0, number1-1)%}
-                <a class="dropdown-item" href="/{{grbs[i]}}">{{grbs[i]}}</a>
-            {%endfor%}
-        </ul>
-      </li>
-      </ul>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Catalogue
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                    {%for i in range(0, number1-1)%}
+                        <a class="dropdown-item" href="/{{grbs[i]}}">{{grbs[i]}}</a>
+                    {%endfor%}
+                </ul>
+                  </li>
+                  <!-- <ul> -->
                 <!-- <span class="navbar-text"> -->
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <!-- <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
                     <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Execute</button> -->
-                </form>
+                <!-- </form> -->
             <!-- </span> -->
             <!-- </div> -->
-          </ul>
+                <!-- </ul> -->
         </nav>
-    
+        
         
         <!-- Junk -->
 
@@ -70,4 +70,5 @@
         
         {% block content %}{% endblock %}
     </body>
+    
 </html>

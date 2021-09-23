@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for, flash
 from werkzeug.exceptions import abort
 
 #Find the txt files with the right names
@@ -17,8 +17,17 @@ from flask import Flask, request, render_template, abort, Response
 from bokeh.plotting import figure
 from bokeh.embed import components
 
+#Search bar
+from wtforms import Form, StringField
+
+class SearchForm(Form):
+    object_name = StringField('Search for a GRB by number')
+
 #Data import 
 import pandas as pd
+
+#email form
+from static.emails.forms import ContactForm
 
 #Add the bit for the database access:
 import sqlite3
@@ -88,9 +97,25 @@ app.secret_key = 'secretKey'
 
 #The pages we want
 #The homepage and its location
-@app.route('/')
+@app.route('/', methods=['POST', 'GET'])
 def home():
-    return render_template('home.html')
+    form = SearchForm(request.form)
+    
+    if request.method == 'POST':
+        event_id = form.object_name.data
+
+        if event_id in grbs:
+
+            return redirect(url_for('event', event_id=event_id))
+
+        else:
+            #The flash message wont show up just yet
+            flash('ID not valid')
+            return render_template('home.html', form=form)
+
+    return render_template('home.html', form=form)
+
+
 
 #Be able to select the GRBs by their names and go
 #To a specific page, it also plots the XRT data
@@ -385,44 +410,9 @@ def grb_names():
     return {'grbs': grbs, 'number1':length, 'number2':len(unique_years), 'years':unique_years}
 
 
-#Enable a table on the homepage with links to GRB pages
-# @app.route('/<event_id>')
-# def event(event_id):
-#     event = get_post(event_id)
 
-#     #Links
-#     return redirect(url_for('index'))
-#     return render_template('event.html', event=event)
-
-# @app.route('/names/')
-# def names():
-# 	names = grb_names()
-# 	return render_template('names.html', names=names)
-
-# # Table of all the data to be displayed on the webpage
-# from flask_table import Table, Col
-
-
-# # Declare your table
-# class GRBTable(Table):
-#     name = Col('GRB')
-#     description = Col('SN')
-
-# # Or, more likely, load items from your database with something like
-# items = ItemModel.query.all()
-
-# # Populate the table
-# table = ItemTable(items)
-
-# # Print the html
-# print(table.__html__())
-# # or just {{ table }} from within a Jinja template 
 
 # Contact form 
-
-from static.emails.forms import ContactForm
-from flask import request
-import pandas as pd
 @app.route('/contact', methods=["GET","POST"])
 def get_contact():
     form = ContactForm()
@@ -439,6 +429,23 @@ def get_contact():
         return('The data are saved !')
     else:
         return render_template('contacts.html', form=form)
+
+#Making the search bar run https://flask.palletsprojects.com/en/2.0.x/patterns/wtforms/
+# @app.route('/search', methods=['POST', 'GET'])
+# def search_bar():
+#     form = SearchForm(request.form)
+    
+#     if request.method == 'POST':
+#         #The problem is here somewhere
+#         event_id = form.object_name.data
+#         #its rediricting to home (url for is / when it should be /form)
+#         with app.test_request_context():
+#             print('The URL is:', url_for('event', event_id=event_id))
+#         #The syntax in this line are definitely correct based on the docs
+#         return redirect(url_for('event', event_id=event_id))
+
+    
+#     return render_template('form.html', form=form)
 
 # Run app
 if __name__ == "__main__":
