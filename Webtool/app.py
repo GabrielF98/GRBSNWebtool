@@ -56,9 +56,25 @@ def get_post(event_id):
     return event
 
 #For the main table
-def get_selected_data():
+
+#I would like to add a decorator for this function which will change the sql query later on
+#After a user submits their data the query can change
+
+#Decorator function
+# def decorate_table_query(function):
+#     def wrapper():
+#         func = function()
+#         return function
+
+#     return wrapper
+
+
+
+#For the main table on the homepage
+def table_query(max_z, min_z, max_eiso, min_eiso):
     conn = get_db_connection()
-    data = conn.execute('SELECT GRB, SNe, AVG(e_iso), AVG(T90), AVG(z) FROM SQLDataGRBSNe GROUP BY GRB')
+    data = conn.execute('SELECT GRB, SNe, AVG(e_iso), AVG(T90), AVG(z) FROM SQLDataGRBSNe WHERE CAST(e_iso as FLOAT)>? AND CAST(e_iso as FLOAT)<? AND CAST(z as FLOAT)>? AND CAST(z as FLOAT)<? GROUP BY GRB', (min_eiso, max_eiso, min_z, max_z))
+    #data = conn.execute('SELECT * FROM [Display Table] WHERE z<0.1;')
     data2 = []
     for i in data:
         data2.append([i['GRB'], i['SNe'], i['AVG(e_iso)'], i['AVG(T90)'], i['AVG(z)']])
@@ -121,8 +137,20 @@ app.secret_key = 'secretKey'
 #The homepage and its location
 @app.route('/', methods=['POST', 'GET'])
 def home():
+    #Get the max and min values of the columns
+    conn = get_db_connection()
+    data = conn.execute('SELECT MAX(e_iso), MIN(e_iso), MAX(T90), MIN(T90), MAX(z), MIN(z) FROM SQLDataGRBSNe')
+    for i in data:
+        max_z = i['MAX(z)']
+        min_z = i['MIN(z)']
+
+        max_eiso = i['MAX(e_iso)']
+        min_eiso = i['MIN(e_iso)']
+
+    conn.close()
+
     #Table
-    data = get_selected_data()
+    data = table_query(max_z, min_z, max_eiso, min_eiso)
 
     #Form
     form = SearchForm(request.form)
@@ -140,7 +168,7 @@ def home():
         else:
             #The flash message wont show up just yet
             flash('ID not valid')
-            return render_template('home.html', form=form, data=data)
+            return render_template('home.html', form=form, form_a=form_a, data=data)
 
     
 
@@ -149,6 +177,8 @@ def home():
         min_z = form_a.min_z.data
         max_eiso = form_a.max_eiso.data
         min_eiso = form_a.min_eiso.data
+
+        data = table_query(max_z, min_z, max_eiso, min_eiso)
 
         return render_template('home.html', form=form, form_a=form_a, data=data)
 
