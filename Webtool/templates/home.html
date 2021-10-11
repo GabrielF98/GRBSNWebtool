@@ -29,10 +29,7 @@
 {% from "_formhelpers.html" import render_field %}
 <form method=post>
   <dl>
-    <h3>{{ render_field(form_a.max_z) }}</h3>
-    <h3>{{ render_field(form_a.min_z) }}</h3>
-    <h3>{{ render_field(form_a.max_eiso) }}</h3>
-    <h3>{{ render_field(form_a.min_eiso) }}</h3>
+    
   </dl>
   <p><input type=submit value=Search>
 </form>
@@ -46,31 +43,7 @@
     <th><b>T$_{90}$ [sec]</b></th>
     <th><b>z</b></th> 
   </tr>
-  {% for i in range(data|length) %}
-  <tr>
-  	<th><a href="http://127.0.0.1:5000/{{ data[i][0] }}" target = '_blank'>{{ data[i][0] }}</th>
-    {% if data[i][1]==None %}
-    	<th></th>
-    {% else %}
-    <th>{{ data[i][1] }}</th>
-    {% endif %}
-    {% if data[i][2]==None %}
-    	<th></th>
-    {% else %}
-    <th>{{ data[i][2] }}</th>
-    {% endif %}
-    {% if data[i][3]==None %}
-    	<th></th>
-    {% else %}
-    <th>{{ data[i][3] }}</th>
-    {% endif %}
-    {% if data[i][4]==None %}
-    	<th></th>
-    {% else %}
-    <th>{{ data[i][4] }}</th>
-    {% endif %}
-</tr>
-  {% endfor %}
+
 </table>
 </div>
 
