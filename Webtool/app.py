@@ -32,7 +32,7 @@ from static.emails.forms import ContactForm
 #Add the bit for the database access:
 import sqlite3
 def get_db_connection():
-    conn = sqlite3.connect('Masterbase.db')
+    conn = sqlite3.connect('static/Masterbase.db')
     conn.row_factory = sqlite3.Row
     return conn
 
