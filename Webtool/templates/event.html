@@ -25,7 +25,7 @@
 {% if event[0]['SNe'] == None %}
   <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
 {% elif event[0]['GRB'] == None %}
-  <h2> <b>No GRB Name/ SN{{ event[0]['SNe'] </b></h2>
+  <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
 {% else %}
   <h2> <b>GRB{{ event[0]['GRB']}} / SN{{ event[0]['SNe'] }} </b></h2>
 {% endif %}
