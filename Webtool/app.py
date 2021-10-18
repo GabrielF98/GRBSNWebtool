@@ -37,12 +37,30 @@ def get_db_connection():
     return conn
 
 def get_post(event_id):
-    conn = get_db_connection()
-    event = conn.execute('SELECT * FROM SQLDataGRBSNe WHERE GRB = ?',
-                        (event_id,)).fetchall()
-    conn.close()
-    if event is None:
-        abort(404)
+
+    #To determine if we need to search the db by SN or by GRB name
+    if '_' or 'GRB' in str(event_id):
+
+        #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
+        grb_name = event_id.split('_')[0][3:]
+        conn = get_db_connection()
+        event = conn.execute('SELECT * FROM SQLDataGRBSNe WHERE GRB = ?',
+                            (grb_name,)).fetchall()
+        conn.close()
+        if event is None:
+            abort(404)
+
+    elif 'SN' or 'AT' in str(event_id):
+
+        #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
+        sn_name = event_id.split('_')[1][2:]
+        conn = get_db_connection()
+        event = conn.execute('SELECT * FROM SQLDataGRBSNe WHERE SNe = ?',
+                            (sn_name,)).fetchall()
+        conn.close()
+        if event is None:
+            abort(404)
+    
     return event
 
 def grb_names():
@@ -58,16 +76,21 @@ grbs = grb_names()
 
 #This code goes to the long_grbs folder and gets all the data for the plot
 def get_grb_data(event_id):
-    path = './static/long_grbs/'
-    files = glob.glob(path+'/*.txt')
-    print(files)
 
-    for i in range(len(files)):
-        if str(event_id) in str(files[i]):
-            k = np.loadtxt(files[i], skiprows=1, unpack=True)
-            break
-        else:
-            k = [[0], [0], [0], [0], [0], [0]]
+    #To determine if its an SN only or a GRB only
+    if 'GRB' in str(event_id):
+        path = './static/long_grbs/'
+        files = glob.glob(path+'/*.txt')
+        print(files)
+
+        for i in range(len(files)):
+            if str(event_id) in str(files[i]):
+                k = np.loadtxt(files[i], skiprows=1, unpack=True)
+                break
+            else:
+                k = [[0], [0], [0], [0], [0], [0]]
+    else:
+        k = [[0], [0], [0], [0], [0], [0]]        
     return(k)
 
 #Extract the SN names from the database
@@ -188,10 +211,10 @@ def event(event_id):
     # add a line renderer with legend and line thickness
 
     #Extract and plot the optical photometry data from the photometry file for each SN
-    if event[0]['SNe'] !=None:
+    if event[0]['SNe'] != None:
 
         data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/'+str(event[0]['SNe'])+'.csv')
-        if data.empty ==True:
+        if data.empty == True:
             print()
         else:
             bands = set(data['band'])
