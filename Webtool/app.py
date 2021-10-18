@@ -47,7 +47,7 @@ def get_post(event_id):
 
 def grb_names():
     conn = get_db_connection()
-    names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe')
+    names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe WHERE GRB IS NOT NULL')
     grbs = []
     for i in names:
     	grbs.append(i[0])
@@ -365,7 +365,7 @@ def docs():
 
 def grb_names():
     conn = get_db_connection()
-    names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe')
+    names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe WHERE GRB IS NOT NULL')
     grbs = []
     years = []
     for i in names:
