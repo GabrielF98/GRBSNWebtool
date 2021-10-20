@@ -410,13 +410,20 @@ def grb_names():
     years = []
     for i in names:
         if str(i[0])!='None' and str(i[1])!='None':
-            grbs.append('GRB'+str(i[0])+'_SN'+str(i[1]))
+            if 'AT' in str(i[1]):
+                grbs.append('GRB'+str(i[0])+'_'+str(i[1]))
+            else:
+                grbs.append('GRB'+str(i[0])+'_SN'+str(i[1]))
+            
         #years.append(str(i[0])[:2])
         elif str(i[1])=='None':
             grbs.append('GRB'+str(i[0]))
 
         elif str(i[0])=='None':
-            grbs.append('SN'+str(i[1]))
+            if 'AT' in str(i[1]):
+                grbs.append(str(i[1]))
+            else:
+                grbs.append('SN'+str(i[1]))
     length = len(grbs)
 
     #Get only the unique years (this is redundant code now because I'm not splitting them by year anymore)
