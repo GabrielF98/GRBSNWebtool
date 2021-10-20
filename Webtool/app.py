@@ -39,24 +39,29 @@ def get_db_connection():
 def get_post(event_id):
 
     #To determine if we need to search the db by SN or by GRB name
-    if '_' or 'GRB' in str(event_id):
-
+    #Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
+    if 'GRB' in event_id:
+        print('I entered the loop')
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
+        #This solves the GRBs with SNs and without
         grb_name = event_id.split('_')[0][3:]
         conn = get_db_connection()
-        event = conn.execute('SELECT * FROM SQLDataGRBSNe WHERE GRB = ?',
-                            (grb_name,)).fetchall()
+        event = conn.execute('SELECT * FROM SQLDataGRBSNe WHERE GRB = ?', (grb_name,)).fetchall()
         conn.close()
+
+        #Deals with people entering names that arent in the DB
         if event is None:
             abort(404)
 
-    elif 'SN' or 'AT' in str(event_id):
+    
 
-        #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
-        sn_name = event_id.split('_')[1][2:]
+    #This should ideally solve the lone SN cases
+    elif 'SN' or 'AT' in event_id:
+        print('True')
+        print(event_id)
+        #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
         conn = get_db_connection()
-        event = conn.execute('SELECT * FROM SQLDataGRBSNe WHERE SNe = ?',
-                            (sn_name,)).fetchall()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (event_id[2:],)).fetchall()
         conn.close()
         if event is None:
             abort(404)
@@ -158,7 +163,7 @@ def event(event_id):
     plot = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     
     # add a line renderer with legend and line thickness
-    plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    #plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
     plot.title.text_font_size = '20pt'
@@ -272,7 +277,7 @@ def event(event_id):
     ######################################################################################
     radio = figure(title='Radio', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
-    radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    #radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
 
@@ -318,7 +323,7 @@ def event(event_id):
     ######################################################################################
     spectrum = figure(title='Spectrum', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
-    spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    #spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
         #Aesthetics
 
     #Title
