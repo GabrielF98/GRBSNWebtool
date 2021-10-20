@@ -405,34 +405,41 @@ def docs():
 
 def grb_names():
     conn = get_db_connection()
-    names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe WHERE GRB IS NOT NULL')
+    names = conn.execute('SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe')
     grbs = []
     years = []
     for i in names:
-        grbs.append(i[0])
-        years.append(str(i[0])[:2])
+        if str(i[0])!='None' and str(i[1])!='None':
+            grbs.append('GRB'+str(i[0])+'_SN'+str(i[1]))
+        #years.append(str(i[0])[:2])
+        elif str(i[1])=='None':
+            grbs.append('GRB'+str(i[0]))
+
+        elif str(i[0])=='None':
+            grbs.append('SN'+str(i[1]))
     length = len(grbs)
-    #Get only the unique years
-    unique_years = []
-    for i in years:
-        #There was a problem with NULL SQL values coming in as 'No'
-        if i not in unique_years:
 
-            if i=='No':
-                continue
-            else:
-                unique_years.append(i)
+    #Get only the unique years (this is redundant code now because I'm not splitting them by year anymore)
+    # unique_years = []
+    # for i in years:
+    #     #There was a problem with NULL SQL values coming in as 'No'
+    #     if i not in unique_years:
 
-    for i in range(len(unique_years)):
-        if int(unique_years[i])<30:
-            unique_years[i] = ('20'+unique_years[i])
-        else:
-            unique_years[i] = ('19'+unique_years[i])
+    #         if i=='No':
+    #             continue
+    #         else:
+    #             unique_years.append(i)
+
+    # for i in range(len(unique_years)):
+    #     if int(unique_years[i])<30:
+    #         unique_years[i] = ('20'+unique_years[i])
+    #     else:
+    #         unique_years[i] = ('19'+unique_years[i])
 
     conn.close()
     
     
-    return {'grbs': grbs, 'number1':length, 'number2':len(unique_years), 'years':unique_years}
+    return {'grbs': grbs, 'number1':length} #, 'number2':len(unique_years), 'years':unique_years}
 
 
 
