@@ -357,7 +357,12 @@ def event(event_id):
     authors2 = []
     years2 = []
     for i in range(len(event)):
-        if event[i]['PrimarySources']!=None:
+        if event[i]['PrimarySources']=='PRIVATE COM.':
+            authors.append('Private communication.')
+            years.append('')
+
+
+        elif event[i]['PrimarySources']!=None:
             authors.append(dict_refs[event[i]['PrimarySources']][:-5])
             years.append(dict_refs[event[i]['PrimarySources']][-5:])
 
