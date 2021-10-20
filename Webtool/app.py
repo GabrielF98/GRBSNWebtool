@@ -41,7 +41,6 @@ def get_post(event_id):
     #To determine if we need to search the db by SN or by GRB name
     #Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
     if 'GRB' in event_id:
-        print('I entered the loop')
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         #This solves the GRBs with SNs and without
         grb_name = event_id.split('_')[0][3:]
@@ -57,8 +56,6 @@ def get_post(event_id):
 
     #This should ideally solve the lone SN cases
     elif 'SN' or 'AT' in event_id:
-        print('True')
-        print(event_id)
         #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
         conn = get_db_connection()
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (event_id[2:],)).fetchall()
