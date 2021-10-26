@@ -165,6 +165,24 @@
     </td>
     <td>degrees</td> 
   </tr>
+  <tr>
+    <td>RA</td>
+    <td>
+      {% if radec[0]['ra'] != None %}
+          {{ radec[0]['ra'] }} <br>
+      {% endif %}
+    </td>
+    <td>degrees</td> 
+  </tr>
+  <tr>
+    <td>Dec</td>
+    <td>
+      {% if radec[0]['dec'] != None %}
+          {{ radec[0]['dec'] }} <br>
+      {% endif %}
+    </td>
+    <td>degrees</td> 
+  </tr>
 </table>
 
 

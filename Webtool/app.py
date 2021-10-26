@@ -46,6 +46,8 @@ def get_post(event_id):
         grb_name = event_id.split('_')[0][3:]
         conn = get_db_connection()
         event = conn.execute('SELECT * FROM SQLDataGRBSNe WHERE GRB = ?', (grb_name,)).fetchall()
+
+        radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
         conn.close()
 
         #Deals with people entering names that arent in the DB
@@ -63,7 +65,7 @@ def get_post(event_id):
         if event is None:
             abort(404)
     
-    return event
+    return event, radec
 
 def grb_names():
     conn = get_db_connection()
@@ -148,7 +150,7 @@ def home():
 @app.route('/<event_id>')
 def event(event_id):
     source = ColumnDataSource()
-    event = get_post(event_id)
+    event, radec = get_post(event_id)
     data = get_grb_data(event_id)
 
     ######################################################################################
@@ -392,7 +394,7 @@ def event(event_id):
 
 
     #Return everything
-    return render_template('event.html', event=event, years=years, authors=authors, years2=years2, authors2=authors2, dict=dict_refs, dict2=dict_refs2, **kwargs)
+    return render_template('event.html', event=event, radec=radec, years=years, authors=authors, years2=years2, authors2=authors2, dict=dict_refs, dict2=dict_refs2, **kwargs)
 
 @app.route('/docs')
 def docs():
