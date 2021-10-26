@@ -48,6 +48,12 @@ def get_post(event_id):
         event = conn.execute('SELECT * FROM SQLDataGRBSNe WHERE GRB = ?', (grb_name,)).fetchall()
 
         radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
+        
+        #Round ra and dec to 3dp
+        ra = round(float(radec[0]['ra']), 3)
+        dec = round(float(radec[0]['dec']), 3)
+
+        radec = [ra, dec]
         conn.close()
 
         #Deals with people entering names that arent in the DB
