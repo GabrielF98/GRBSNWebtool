@@ -38,11 +38,11 @@ def get_db_connection():
 
 def get_post(event_id):
     conn = get_db_connection()
-    event = conn.execute('SELECT * FROM SQLDataGRBSNe WHERE GRB = ?',
+    event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.'",
                         (event_id,)).fetchall()
     conn.close()
     if event is None:
-        abort(404)
+        abort(404)   
     return event
 
 def grb_names():
