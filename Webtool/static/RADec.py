@@ -24,25 +24,39 @@ def grb_names():
     return grbs
 grbs = grb_names()
 
-print(grbs)
+#print(grbs)
 
 #Loop over the grb names and then cross reference them with the panda to get an RA and Dec
+
+from astropy import units as u
+from astropy.coordinates import SkyCoord
+
 grb_names_txtfile = np.array(data['GRB'])
-ra_txtfile = np.array(data['BAT RA (J2000)'])
-dec_txtfile = np.array(data['BAT Dec (J2000)'])
+ra_txtfile = np.array(data['XRT RA (J2000)'])
+dec_txtfile = np.array(data['XRT Dec (J2000)'])
 
-ra = np.zeros(len(grbs))
-dec = np.zeros(len(grbs))
-
-for i in range(len(grbs)):
-	for j in range(len(grb_names_txtfile)):
-		if grbs[i]==grb_names_txtfile[j]:
-			ra[i] = ra_txtfile[i]
-			dec[i] = dec_txtfile[i]
-
+ra = np.zeros((len(grbs)))
+dec = np.zeros((len(grbs)))
 
 for i in range(len(grbs)):
-	print(grbs[i], ra[i], dec[i])
+    for j in range(len(grb_names_txtfile)):
+        if grbs[i]==grb_names_txtfile[j] and str(ra_txtfile[i])!='nan' and str(dec_txtfile[i])!='nan':
+            print(ra_txtfile[i], dec_txtfile[i])
+            ra_components = ra_txtfile[i].split(':')
+            dec_components = dec_txtfile[i].split(':')
+            print(ra_components, dec_components)
+            ra_string = str(ra_components[0])+'h'+str(ra_components[1])+'m'+str(ra_components[2])+'s'
+            dec_string = str(dec_components[0])+'d'+str(dec_components[1])+'m'+str(dec_components[2])+'s'
+            print(ra_string, dec_string)
+
+            c = SkyCoord(ra_string, dec_string)
+            ra[i] = c.ra.value
+            dec[i] = c.dec.value			
+            
+
+
+# for i in range(len(grbs)):
+# 	print(grbs[i], ra[i], dec[i])
 
 
 #Making the table in the database
@@ -97,15 +111,15 @@ def main():
 
 
 #Add the data
-# sqliteConnection = sqlite3.connect('Masterbase.db')
-# cursor = sqliteConnection.cursor()
+sqliteConnection = sqlite3.connect('Masterbase.db')
+cursor = sqliteConnection.cursor()
 
-# for i in range(len(grbs)):
-# 	query = ('INSERT INTO RADec (grb_id, ra, dec, source) VALUES (?, ?, ?, ?)')
-# 	count = cursor.execute(query, (grbs[i], ra[i], dec[i], "https://swift.gsfc.nasa.gov/archive/grb_table/"))
-# 	sqliteConnection.commit()
+for i in range(len(grbs)):
+	query = ('INSERT INTO RADec (grb_id, ra, dec, source) VALUES (?, ?, ?, ?)')
+	count = cursor.execute(query, (grbs[i], ra[i], dec[i], "https://swift.gsfc.nasa.gov/archive/grb_table/"))
+	sqliteConnection.commit()
 
-# cursor.close()
+cursor.close()
 
 if __name__ == '__main__':
     main()
