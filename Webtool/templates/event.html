@@ -57,7 +57,9 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['e_iso'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['e_iso'] }} <sup> {{i+1}} </sup> <br>
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -74,7 +76,10 @@
     <td>E$_p$</td>
     <td>{% for i in range(event|length) %}
           {% if event[i]['E_p'] != None %}
-            {% if event[i]['PrimarySources'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['E_p'] }} <sup> {{i+1}} </sup> <br>
+
+            {% elif event[i]['PrimarySources'] != None %}
 
               {{ event[i]['E_p'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
             {% else %}
@@ -90,7 +95,9 @@
     <td>
     {% for i in range(event|length) %}
         {% if event[i]['z'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['z'] }} <sup> {{i+1}} </sup> <br>
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['z'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -106,7 +113,10 @@
     <td>
     {% for i in range(event|length) %}
         {% if event[i]['T90'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['T90'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['T90'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -122,7 +132,10 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['p'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['p'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['p'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -138,7 +151,10 @@
     <td> 
       {% for i in range(event|length) %}
         {% if event[i]['n'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['n'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['n'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -154,7 +170,10 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['open_deg'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['open_deg'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['open_deg'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -197,7 +216,10 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['E_k'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['E_k'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['E_k'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -213,7 +235,10 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['ni_m'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['ni_m'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['ni_m'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -229,7 +254,10 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['ej_m'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['ej_m'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['ej_m'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -245,7 +273,10 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['t_peak'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['t_peak'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['t_peak'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -266,7 +297,10 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['v_photospheric'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['v_photospheric'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['v_photospheric'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -282,7 +316,10 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['v_Fe_expansion'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['v_Fe_expansion'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['v_Fe_expansion'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -298,7 +335,10 @@
     <td>
       {% for i in range(event|length) %}
         {% if event[i]['v_Si_expansion'] != None %}
-          {% if event[i]['PrimarySources'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['v_Si_expansion'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
 
             {{ event[i]['v_Si_expansion'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
           {% else %}
@@ -322,7 +362,12 @@
   </tr>
 
   {% for i in range(event|length) %}
-    {% if event[i]['PrimarySources']!=None %}
+    {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+      <tr>
+        <td> {{i+1}} </a></td>
+        <td>Private communication.</td>
+      </tr>
+    {% elif event[i]['PrimarySources']!=None %}
       <tr>
         <td><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></td>
         <td>{{dict[event[i]['PrimarySources']][:-5]}} <b>{{dict[event[i]['PrimarySources']][-5:]}}</b>: <a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{event[i]['PrimarySources']}} </a></td>
