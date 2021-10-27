@@ -61,17 +61,3 @@ th, td {color: white;
   padding: 5px;
   border-color: white;
   font-size: 12pt;}
-
-/*Styling images*/
-.image_block {
-    background-color: white;
-    border-radius: 15pt;
-    margin-left: 100px;
-  margin-right: 100px;
-}
-
-.column {
-    float: left;
-    width: 33%;
-    padding: 10px;
-}
