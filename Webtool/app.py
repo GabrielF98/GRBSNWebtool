@@ -49,10 +49,16 @@ def get_post(event_id):
         radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
         
         #Round ra and dec to 3dp
-        ra = round(float(radec[0]['ra']), 3)
-        dec = round(float(radec[0]['dec']), 3)
+        if radec[0]['ra']!=None and radec[0]['dec']!=None:
+            ra = round(float(radec[0]['ra']), 3)
+            dec = round(float(radec[0]['dec']), 3)
+            radec = [ra, dec]
 
-        radec = [ra, dec]
+        else:
+            ra = 'None'
+            dec = 'None'
+            radec = [ra, dec]
+
         conn.close()
 
         #Deals with people entering names that arent in the DB
@@ -65,10 +71,25 @@ def get_post(event_id):
     elif 'SN' or 'AT' in event_id:
         #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
         conn = get_db_connection()
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (event_id[2:],)).fetchall()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (event_id[2:],)).fetchall()
+        
+        radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
+        
+        #Round ra and dec to 3dp
+        if radec[0]['ra']!=None and radec[0]['dec']!=None:
+            ra = round(float(radec[0]['ra']), 3)
+            dec = round(float(radec[0]['dec']), 3)
+            radec = [ra, dec]
+
+        else:
+            ra = 'None'
+            dec = 'None'
+            radec = [ra, dec]
+
         conn.close()
         if event is None:
-            abort(404)  
+            abort(404)
+              
     return event, radec
 
 def grb_names():

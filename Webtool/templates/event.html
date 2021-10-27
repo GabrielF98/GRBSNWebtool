@@ -187,7 +187,7 @@
   <tr>
     <td>RA</td>
     <td>
-      {% if radec[0] != None %}
+      {% if radec[0]|string != 'None' %}
           {{ radec[0] }} <br>
       {% endif %}
     </td>
@@ -196,7 +196,7 @@
   <tr>
     <td>Dec</td>
     <td>
-      {% if radec[1] != None %}
+      {% if radec[1]|string != 'None' %}
           {{ radec[1] }} <br>
       {% endif %}
     </td>
