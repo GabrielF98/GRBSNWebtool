@@ -15,23 +15,30 @@
 
 <!-- Images -->
 <h2><b>Overview of Events</b></h2>
-<div class = 'image_block'>
-	
-	<div class="row">
-	  <div class="column">
-	    <img src="static/stats/GRBSNeEiso.pdf">
-	    <p style="align-content: center; background-color: white; color: black; margin: 0px;">E$_{iso}$ distribution across the objects</p>
-	  </div>
-	  <div class="column">
-	    <img src="static/stats/GRBSNeZ.pdf">
-	    <p style="align-content: center; background-color: white; color: black; margin: 0px;">Redshift distribution across the objects</p>
-	  </div>
-	  <div class="column">
-	    <img src="static/stats/IcBLNumberperyear(Bar).pdf">
-	    <p style="align-content: center; background-color: white; color: black; margin: 0px;">Number of events per year</p>
-	  </div>
-	</div>
+
+<div class="card-group">
+  <div2 class="card text-center">
+    <img class="card-img-top" src="static/stats/GRBSNeEiso.pdf" alt="Card image cap">
+    <div2 class="card-body">
+      <h5 class="card-title">E$_{iso}$ distribution across the objects</h5>
+      <!-- <p2 class="card-text">E$_{iso}$ distribution across the objects</p2> -->
+    </div2>
+  </div2>
+  <div2 class="card text-center">
+    <img class="card-img-top" src="static/stats/GRBSNeZ.pdf" alt="Card image cap">
+    <div2 class="card-body">
+      <h5 class="card-title">Redshift distribution across the objects</h5>
+
+    </div2>
+  </div2>
+  <div2 class="card text-center">
+    <img class="card-img-top" src="static/stats/IcBLNumberperyear(Bar).pdf" alt="Card image cap">
+    <div2 class="card-body">
+      <h5 class="card-title">Number of events per year</h5>
+    </div2>
+  </div2>
 </div>
+<!-- Forms -->
 {% from "_formhelpers.html" import render_field %}
 <form method=post>
   <dl>
