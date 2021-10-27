@@ -37,7 +37,6 @@ def get_db_connection():
     return conn
 
 def get_post(event_id):
-
     #To determine if we need to search the db by SN or by GRB name
     #Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
     if 'GRB' in event_id:
@@ -45,7 +44,7 @@ def get_post(event_id):
         #This solves the GRBs with SNs and without
         grb_name = event_id.split('_')[0][3:]
         conn = get_db_connection()
-        event = conn.execute('SELECT * FROM SQLDataGRBSNe WHERE GRB = ?', (grb_name,)).fetchall()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.'", (grb_name,)).fetchall()
 
         radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
         
@@ -69,8 +68,7 @@ def get_post(event_id):
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (event_id[2:],)).fetchall()
         conn.close()
         if event is None:
-            abort(404)
-    
+            abort(404)  
     return event, radec
 
 def grb_names():
@@ -390,7 +388,13 @@ def event(event_id):
     authors2 = []
     years2 = []
     for i in range(len(event)):
-        if event[i]['PrimarySources']!=None:
+        if event[i]['PrimarySources']=='PRIVATE COM.':
+            authors.append('Private communication.')
+            years.append('')
+
+
+        elif event[i]['PrimarySources']!=None:
+
             authors.append(dict_refs[event[i]['PrimarySources']][:-5])
             years.append(dict_refs[event[i]['PrimarySources']][-5:])
 
