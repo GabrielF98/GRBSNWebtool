@@ -32,4 +32,16 @@
 	  </div>
 	</div>
 </div>
+{% from "_formhelpers.html" import render_field %}
+<form method=post>
+  <dl>
+    <h2>{{ render_field(form.object_name) }}</h2>
+  </dl>
+  <p><input type=submit value=Search>
+</form>
+
+
+<h2><b>Contact</b></h2>
+<p><b>Gabriel Finneran:</b> gabriel.finneran@ucdconnect.ie</p>
+<p>School of Physics, O’Brien Centre for Science North, University College Dublin, Belfield, Dublin 4, Ireland<p>
 {% endblock %}
