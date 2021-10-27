@@ -32,22 +32,40 @@ from static.emails.forms import ContactForm
 #Add the bit for the database access:
 import sqlite3
 def get_db_connection():
-    conn = sqlite3.connect('Masterbase.db')
+    conn = sqlite3.connect('static/Masterbase.db')
     conn.row_factory = sqlite3.Row
     return conn
 
 def get_post(event_id):
-    conn = get_db_connection()
-    event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.'",
-                        (event_id,)).fetchall()
-    conn.close()
-    if event is None:
-        abort(404)   
+    #To determine if we need to search the db by SN or by GRB name
+    #Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
+    if 'GRB' in event_id:
+        #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
+        #This solves the GRBs with SNs and without
+        grb_name = event_id.split('_')[0][3:]
+        conn = get_db_connection()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.'", (grb_name,)).fetchall()
+        conn.close()
+
+        #Deals with people entering names that arent in the DB
+        if event is None:
+            abort(404)
+
+    
+
+    #This should ideally solve the lone SN cases
+    elif 'SN' or 'AT' in event_id:
+        #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
+        conn = get_db_connection()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (event_id[2:],)).fetchall()
+        conn.close()
+        if event is None:
+            abort(404)
     return event
 
 def grb_names():
     conn = get_db_connection()
-    names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe')
+    names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe WHERE GRB IS NOT NULL')
     grbs = []
     for i in names:
     	grbs.append(i[0])
@@ -58,16 +76,21 @@ grbs = grb_names()
 
 #This code goes to the long_grbs folder and gets all the data for the plot
 def get_grb_data(event_id):
-    path = './static/long_grbs/'
-    files = glob.glob(path+'/*.txt')
-    print(files)
 
-    for i in range(len(files)):
-        if str(event_id) in str(files[i]):
-            k = np.loadtxt(files[i], skiprows=1, unpack=True)
-            break
-        else:
-            k = [[0], [0], [0], [0], [0], [0]]
+    #To determine if its an SN only or a GRB only
+    if 'GRB' in str(event_id):
+        path = './static/long_grbs/'
+        files = glob.glob(path+'/*.txt')
+        print(files)
+
+        for i in range(len(files)):
+            if str(event_id) in str(files[i]):
+                k = np.loadtxt(files[i], skiprows=1, unpack=True)
+                break
+            else:
+                k = [[0], [0], [0], [0], [0], [0]]
+    else:
+        k = [[0], [0], [0], [0], [0], [0]]        
     return(k)
 
 #Extract the SN names from the database
@@ -135,7 +158,7 @@ def event(event_id):
     plot = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     
     # add a line renderer with legend and line thickness
-    plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    #plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
     plot.title.text_font_size = '20pt'
@@ -188,10 +211,10 @@ def event(event_id):
     # add a line renderer with legend and line thickness
 
     #Extract and plot the optical photometry data from the photometry file for each SN
-    if event[0]['SNe'] !=None:
+    if event[0]['SNe'] != None:
 
         data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/'+str(event[0]['SNe'])+'.csv')
-        if data.empty ==True:
+        if data.empty == True:
             print()
         else:
             bands = set(data['band'])
@@ -249,7 +272,7 @@ def event(event_id):
     ######################################################################################
     radio = figure(title='Radio', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
-    radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    #radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
 
@@ -295,7 +318,7 @@ def event(event_id):
     ######################################################################################
     spectrum = figure(title='Spectrum', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
-    spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    #spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
         #Aesthetics
 
     #Title
@@ -363,6 +386,7 @@ def event(event_id):
 
 
         elif event[i]['PrimarySources']!=None:
+
             authors.append(dict_refs[event[i]['PrimarySources']][:-5])
             years.append(dict_refs[event[i]['PrimarySources']][-5:])
 
@@ -385,34 +409,48 @@ def docs():
 
 def grb_names():
     conn = get_db_connection()
-    names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe')
+    names = conn.execute('SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe')
     grbs = []
     years = []
     for i in names:
-        grbs.append(i[0])
-        years.append(str(i[0])[:2])
-    length = len(grbs)
-    #Get only the unique years
-    unique_years = []
-    for i in years:
-        #There was a problem with NULL SQL values coming in as 'No'
-        if i not in unique_years:
-
-            if i=='No':
-                continue
+        if str(i[0])!='None' and str(i[1])!='None':
+            if 'AT' in str(i[1]):
+                grbs.append('GRB'+str(i[0])+'_'+str(i[1]))
             else:
-                unique_years.append(i)
+                grbs.append('GRB'+str(i[0])+'_SN'+str(i[1]))
+            
+        #years.append(str(i[0])[:2])
+        elif str(i[1])=='None':
+            grbs.append('GRB'+str(i[0]))
 
-    for i in range(len(unique_years)):
-        if int(unique_years[i])<30:
-            unique_years[i] = ('20'+unique_years[i])
-        else:
-            unique_years[i] = ('19'+unique_years[i])
+        elif str(i[0])=='None':
+            if 'AT' in str(i[1]):
+                grbs.append(str(i[1]))
+            else:
+                grbs.append('SN'+str(i[1]))
+    length = len(grbs)
+
+    #Get only the unique years (this is redundant code now because I'm not splitting them by year anymore)
+    # unique_years = []
+    # for i in years:
+    #     #There was a problem with NULL SQL values coming in as 'No'
+    #     if i not in unique_years:
+
+    #         if i=='No':
+    #             continue
+    #         else:
+    #             unique_years.append(i)
+
+    # for i in range(len(unique_years)):
+    #     if int(unique_years[i])<30:
+    #         unique_years[i] = ('20'+unique_years[i])
+    #     else:
+    #         unique_years[i] = ('19'+unique_years[i])
 
     conn.close()
     
     
-    return {'grbs': grbs, 'number1':length, 'number2':len(unique_years), 'years':unique_years}
+    return {'grbs': grbs, 'number1':length} #, 'number2':len(unique_years), 'years':unique_years}
 
 
 

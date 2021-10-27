@@ -22,11 +22,25 @@
 <!--The page title -->
 <!-- This will be the name of the GRB and an associated SN if applicable -->
 {% block title %} 
-{% if event[0]['SNe'] == None %}
-  <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
-{% else %}
-  <h2> <b>GRB{{ event[0]['GRB']}} / SN{{ event[0]['SNe'] }} </b></h2>
-{% endif %}
+<!-- Take care of AT Names for the SNs -->
+
+{% if 'AT' in event[0]['SNe']|string()%}
+  {% if event[0]['SNe'] == None %}
+    <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
+  {% elif event[0]['GRB'] == None %}
+    <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
+  {% else %}
+    <h2> <b>GRB{{ event[0]['GRB']}} / {{ event[0]['SNe'] }} </b></h2>
+  {% endif %}
+{%else%}
+  {% if event[0]['SNe'] == None %}
+    <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
+  {% elif event[0]['GRB'] == None %}
+    <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
+  {% else %}
+    <h2> <b>GRB{{ event[0]['GRB']}} / SN{{ event[0]['SNe'] }} </b></h2>
+  {% endif %}
+{%endif%}
 {% endblock %}
 
 {% block content %}
@@ -81,7 +95,6 @@
     <td>
     {% for i in range(event|length) %}
         {% if event[i]['z'] != None %}
-
           {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
             {{ event[i]['z'] }} <sup> {{i+1}} </sup> <br>
           {% elif event[i]['PrimarySources'] != None %}
