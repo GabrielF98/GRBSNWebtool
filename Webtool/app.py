@@ -153,8 +153,7 @@ def home():
 
     #Ok new plan
     #Going to give it a go with the UNION and INTERSECT commands
-    initial_query = ('SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe')
-
+    initial_query = ('SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe GROUP BY GRB')
     data = conn.execute(initial_query).fetchall()
     conn.close()
 
