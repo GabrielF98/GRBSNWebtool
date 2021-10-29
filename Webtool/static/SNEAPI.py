@@ -42,7 +42,7 @@ for i in range(len(names)):
 		print(names[i])
 
 		#Use the API to get the magnitude, times and their errors, in all bands, as a csv
-		data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band?format=csv')
+		data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec?format=csv')
 
 		#File to save the csv 
 		#save the data
@@ -51,7 +51,7 @@ for i in range(len(names)):
 		print('Non numeric', names[i])
 
 		#Use the API to get the magnitude, times and their errors, in all bands, as a csv
-		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band?format=csv')
+		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec?format=csv')
 
 		#File to save the csv 
 		#save the data

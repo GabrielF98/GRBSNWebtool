@@ -146,79 +146,83 @@ app.secret_key = 'secretKey'
 
 #The pages we want
 #The homepage and its location
-# @app.route('/', methods=['POST', 'GET'])
-# def home():
-#     #Get the max and min values of the columns
-#     conn = get_db_connection()
-
-#     #Have to cast the values to floats first since there are some non float values
-#     data = conn.execute('SELECT MAX(CAST(e_iso as FLOAT))/, MIN(CAST(e_iso as FLOAT)), MAX(CAST(T90 as FLOAT)), MIN(CAST(T90 as FLOAT)), MAX(CAST(z as FLOAT)), MIN(CAST(z as FLOAT)) FROM SQLDataGRBSNe')
-#     for i in data:
-#         max_z = i['MAX(CAST(z as FLOAT))']
-#         min_z = i['MIN(CAST(z as FLOAT))']
-
-#         max_eiso = i['MAX(CAST(e_iso as FLOAT))']
-#         min_eiso = i['MIN(CAST(e_iso as FLOAT))']
-
-#     conn.close()
-
-#     #Table
-#     data = table_query(max_z, min_z, max_eiso, min_eiso)
-
-#     #Form
-#     form = SearchForm(request.form)
-    
-#     #Form for the tabular search
-#     form_a = TableForm(request.form)
-
-#     if form.submit1.data and SearchForm.validate():
-#         event_id = form.object_name.data
-
-#         if event_id in grbs:
-
-#             return redirect(url_for('event', event_id=event_id))
-
-#         else:
-#             #The flash message wont show up just yet
-#             flash('ID not valid')
-#             return render_template('home.html', form=form, form_a=form_a, data=data)
-
-    
-
-#     if form_a.submit2.data and TableForm.validate():
-#         max_z = form_a.max_z.data
-#         min_z = form_a.min_z.data
-#         max_eiso = form_a.max_eiso.data
-#         min_eiso = form_a.min_eiso.data
-
-#         data = table_query(max_z, min_z, max_eiso, min_eiso)
-
-#         return render_template('home.html', form=form, form_a=form_a, data=data)
-
-#     return render_template('home.html', form=form, form_a=form_a, data=data)
-
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['POST', 'GET'])
 def home():
-    #Ok so here we need to have the form for the searchbar so people can search for GRBs/SNs
-    search_bar_form = SearchForm()
+    #Get the max and min values of the columns
+    conn = get_db_connection()
 
-    if request.method=='POST': #This can't be kept forever unfortunately it doesnt seem to work when theres 2 forms
+    #Have to cast the values to floats first since there are some non float values
+    data = conn.execute('SELECT MAX(CAST(e_iso as FLOAT)), MIN(CAST(e_iso as FLOAT)), MAX(CAST(T90 as FLOAT)), MIN(CAST(T90 as FLOAT)), MAX(CAST(z as FLOAT)), MIN(CAST(z as FLOAT)) FROM SQLDataGRBSNe')
+    for i in data:
+        max_z = i['MAX(CAST(z as FLOAT))']
+        min_z = i['MIN(CAST(z as FLOAT))']
 
-        event_id = search_bar_form.object_name.data
+        max_eiso = i['MAX(CAST(e_iso as FLOAT))']
+        min_eiso = i['MIN(CAST(e_iso as FLOAT))']
 
-        if str(event_id) in grbs:
+    conn.close()
+
+    #Table
+    data = table_query(max_z, min_z, max_eiso, min_eiso)
+
+    #Form
+    form = SearchForm(request.form)
+    
+    #Form for the tabular search
+    form_a = TableForm(request.form)
+
+    if form.submit1.data and SearchForm.validate():
+        event_id = form.object_name.data
+
+        if event_id in grbs:
+
             return redirect(url_for('event', event_id=event_id))
 
-        elif str(event_id) in sne:
+        elif str(event_id) in grb_sne:
             event_id = grb_sne[str(event_id)]
             return redirect(url_for('event', event_id=event_id))
 
         else:
             #The flash message wont show up just yet
             flash('ID not valid')
-            return render_template('home.html', form=search_bar_form)
+            return render_template('home.html', form=form, form_a=form_a, data=data)
+
+    
+
+    # if form_a.submit2.data and TableForm.validate():
+    #     max_z = form_a.max_z.data
+    #     min_z = form_a.min_z.data
+    #     max_eiso = form_a.max_eiso.data
+    #     min_eiso = form_a.min_eiso.data
+
+    #     data = table_query(max_z, min_z, max_eiso, min_eiso)
+
+    #     return render_template('home.html', form=form, form_a=form_a, data=data)
+
+    return render_template('home.html', form=form, form_a=form_a, data=data)
+
+# @app.route('/', methods=['GET', 'POST'])
+# def home():
+#     #Ok so here we need to have the form for the searchbar so people can search for GRBs/SNs
+#     search_bar_form = SearchForm()
+
+#     if request.method=='POST': #This can't be kept forever unfortunately it doesnt seem to work when theres 2 forms
+
+#         event_id = search_bar_form.object_name.data
+
+#         if event_id in grbs:
+#             return redirect(url_for('event', event_id=event_id))
+
+#         elif str(event_id) in grb_sne:
+#             event_id = grb_sne[str(event_id)]
+#             return redirect(url_for('event', event_id=event_id))
+
+#         else:
+#             #The flash message wont show up just yet
+#             flash('ID not valid')
+#             return render_template('home.html', form=search_bar_form)
             
-    return render_template('home.html', form=search_bar_form)
+#     return render_template('home.html', form=search_bar_form)
     #Next the form for the table to update itself consistently
 
     #Now we need the actual table probably at the bottom so itll still be shown when the forms arent being used

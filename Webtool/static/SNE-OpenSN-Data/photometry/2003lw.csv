@@ -1,2 +1,2 @@
-event,time,magnitude,e_magnitude,band
-SN2003lw,52988.0,20.2,,
+event,time,magnitude,e_magnitude,band,ra,dec
+SN2003lw,52988.0,20.2,,,,

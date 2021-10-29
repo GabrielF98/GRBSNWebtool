@@ -1,8 +1,2 @@
-event,time,magnitude,e_magnitude,band
-SN2020bvc,58881.5568981,20.6723,,r
-SN2020bvc,58882.6,18.6,,g
-SN2020bvc,58882.67,19.4,,orange
-SN2020bvc,58883.62,17.0,,g
-SN2020bvc,58884.4753935,17.4501,,g
-SN2020bvc,58884.6139931,17.446,0.03,cyan
-SN2020bvc,58886.5,16.7,,
+event,time,magnitude,e_magnitude,band,ra,dec
+SN2020bvc,58886.5,16.7,,,,
