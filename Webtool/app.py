@@ -151,55 +151,64 @@ def home():
     #Get the max and min values of the columns
     conn = get_db_connection()
 
-    #Have to cast the values to floats first since there are some non float values
-    data = conn.execute('SELECT MAX(CAST(e_iso as FLOAT)), MIN(CAST(e_iso as FLOAT)), MAX(CAST(T90 as FLOAT)), MIN(CAST(T90 as FLOAT)), MAX(CAST(z as FLOAT)), MIN(CAST(z as FLOAT)) FROM SQLDataGRBSNe')
-    for i in data:
-        max_z = i['MAX(CAST(z as FLOAT))']
-        min_z = i['MIN(CAST(z as FLOAT))']
+    #Ok new plan
+    #Going to give it a go with the UNION and INTERSECT commands
+    initial_query = ('SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe')
 
-        max_eiso = i['MAX(CAST(e_iso as FLOAT))']
-        min_eiso = i['MIN(CAST(e_iso as FLOAT))']
-
+    data = conn.execute(initial_query).fetchall()
     conn.close()
 
-    #Table
-    data = table_query(max_z, min_z, max_eiso, min_eiso)
+    return render_template('home.html', data=data)
 
-    #Form
-    form = SearchForm(request.form)
+    #Have to cast the values to floats first since there are some non float values
+    #data = conn.execute("SELECT MAX(CAST(e_iso as FLOAT)), MIN(CAST(e_iso as FLOAT)), MAX(CAST(T90 as FLOAT)), MIN(CAST(T90 as FLOAT)), MAX(CAST(z as FLOAT)), MIN(CAST(z as FLOAT)) FROM SQLDataGRBSNe")
+    # for i in data:
+    #     max_z = i['MAX(CAST(z as FLOAT))']
+    #     min_z = i['MIN(CAST(z as FLOAT))']
+
+    #     max_eiso = i['MAX(CAST(e_iso as FLOAT))']
+    #     min_eiso = i['MIN(CAST(e_iso as FLOAT))']
+
+    # conn.close()
+
+    # #Table
+    # data = table_query(max_z, min_z, max_eiso, min_eiso)
+
+    # #Form
+    # form = SearchForm(request.form)
     
-    #Form for the tabular search
-    form_a = TableForm(request.form)
+    # #Form for the tabular search
+    # form_a = TableForm(request.form)
 
-    if form.submit1.data and SearchForm.validate():
-        event_id = form.object_name.data
+    # if form.submit1.data and SearchForm.validate():
+    #     event_id = form.object_name.data
 
-        if event_id in grbs:
+    #     if event_id in grbs:
 
-            return redirect(url_for('event', event_id=event_id))
+    #         return redirect(url_for('event', event_id=event_id))
 
-        elif str(event_id) in grb_sne:
-            event_id = grb_sne[str(event_id)]
-            return redirect(url_for('event', event_id=event_id))
+    #     elif str(event_id) in grb_sne:
+    #         event_id = grb_sne[str(event_id)]
+    #         return redirect(url_for('event', event_id=event_id))
 
-        else:
-            #The flash message wont show up just yet
-            flash('ID not valid')
-            return render_template('home.html', form=form, form_a=form_a, data=data)
+    #     else:
+    #         #The flash message wont show up just yet
+    #         flash('ID not valid')
+    #         return render_template('home.html', form=form, form_a=form_a, data=data)
 
     
 
-    # if form_a.submit2.data and TableForm.validate():
-    #     max_z = form_a.max_z.data
-    #     min_z = form_a.min_z.data
-    #     max_eiso = form_a.max_eiso.data
-    #     min_eiso = form_a.min_eiso.data
+    # # if form_a.submit2.data and TableForm.validate():
+    # #     max_z = form_a.max_z.data
+    # #     min_z = form_a.min_z.data
+    # #     max_eiso = form_a.max_eiso.data
+    # #     min_eiso = form_a.min_eiso.data
 
-    #     data = table_query(max_z, min_z, max_eiso, min_eiso)
+    # #     data = table_query(max_z, min_z, max_eiso, min_eiso)
 
-    #     return render_template('home.html', form=form, form_a=form_a, data=data)
+    # #     return render_template('home.html', form=form, form_a=form_a, data=data)
 
-    return render_template('home.html', form=form, form_a=form_a, data=data)
+    # return render_template('home.html', form=form, form_a=form_a, data=data)
 
 # @app.route('/', methods=['GET', 'POST'])
 # def home():
