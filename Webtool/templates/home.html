@@ -13,26 +13,8 @@
 	The purpose of this project is to create a repository for all known GRB/SNe associations. There has been limited research in this area. This tool is intended to improve access to new associations by aggregating the data in one place. Bulk parameters of the GRB and Supernova will be reported here, along with the lightcurve data.
 </p>
 
-{% from "_formhelpers.html" import render_field %}
-<form method=post>
-  <dl>
-    <h2>{{ render_field(form.object_name) }}</h2>
-  </dl>
-  <p><input type=submit value=Search>
-</form>
-
-
-
-
 <h2><b>Known Associations</b></h2>
 
-{% from "_formhelpers.html" import render_field %}
-<form method=post>
-  <dl>
-    
-  </dl>
-  <p><input type=submit value=Search>
-</form>
 <!-- Table of all the sources -->
 <div>
     <table style="width:80%">
@@ -43,6 +25,15 @@
     <th><b>T$_{90}$ [sec]</b></th>
     <th><b>z</b></th> 
   </tr>
+  {% for i in range(data|length) %}
+	  <tr>
+	  	<th>data[i]['GRB']</th>
+	    <th>data[i]['SNe']</th>
+	    <th>data[i]['e_iso']</th>
+	    <th>data[i]['T90']</th>
+	    <th>data[i]['z']</th> 
+	   </tr>
+	{% endfor %}
 
 </table>
 </div>
