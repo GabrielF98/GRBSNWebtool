@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, flash
+from flask import Flask, render_template, redirect, url_for, flash, send_file, make_response
 from werkzeug.exceptions import abort
 
 #Find the txt files with the right names
@@ -17,17 +17,25 @@ from flask import Flask, request, render_template, abort, Response
 from bokeh.plotting import figure
 from bokeh.embed import components
 
+#Pandas
+import pandas as pd
+
+#Things for making updatable plots
+import io
+import base64
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+from matplotlib.figure import Figure
+
 #Search bar
 from wtforms import Form, StringField
-
 class SearchForm(Form):
     object_name = StringField('Search by GRB or SN ID')
 
-#Data import 
-import pandas as pd
-
 #email form
 from static.emails.forms import ContactForm
+
+#Graphs with matplotlib
+import matplotlib.pyplot as plt
 
 #Add the bit for the database access:
 import sqlite3
@@ -59,21 +67,21 @@ def get_post(event_id):
             dec = 'None'
             radec = [ra, dec]
 
-        conn.close()
-
         #Deals with people entering names that arent in the DB
         if event is None:
             abort(404)
-
+        conn.close()
     
 
     #This should ideally solve the lone SN cases
     elif 'SN' or 'AT' in event_id:
+        sn_name = event_id.split('_')[0][2:]
+
         #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
         conn = get_db_connection()
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (event_id[2:],)).fetchall()
         
-        radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
+        radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
         
         #Round ra and dec to 3dp
         if radec[0]['ra']!=None and radec[0]['dec']!=None:
@@ -86,10 +94,10 @@ def get_post(event_id):
             dec = 'None'
             radec = [ra, dec]
 
-        conn.close()
+        
         if event is None:
             abort(404)
-              
+        conn.close()      
     return event, radec
 
 #For the main table
@@ -164,36 +172,123 @@ def sne_names():
     conn.close()
     return sne
 
-
-
 app = Flask(__name__)
 app.secret_key = 'secretKey'
 
 #The pages we want
+#Updatable graphs about the info in the db
+
+    #Z plot
+    # print(z)
+    # plt.hist(z, bins = [0., 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2])
+    # plt.xlabel('Redshift')
+    # plt.ylabel('Frequency')
+    # plt.savefig('static/stats/GRBSNeZ.pdf')
+
 #The homepage and its location
 @app.route('/', methods=['POST', 'GET'])
 def home():
-    #Table
-    data = get_selected_data()
-
     #Form
     form = SearchForm(request.form)
-    
     if request.method == 'POST':
         event_id = form.object_name.data
 
-        if event_id in grbs:
+        return redirect(url_for('event', event_id=event_id))
+       
+    return render_template('home.html', form=form)
 
-            return redirect(url_for('event', event_id=event_id))
+@app.route('/plot/e_iso')
+def graph_data_grabber():
+    conn = get_db_connection()
 
-        elif str(event_id) in grb_sne:
-            event_id = grb_sne[str(event_id)]
-            return redirect(url_for('event', event_id=event_id))
+    #E_iso data, one value per GRB
+    data = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB IS NOT NULL AND PrimarySources!='PRIVATE COM.'").fetchall()
+    
 
-        else:
-            #The flash message wont show up just yet
-            flash('ID not valid')
-            return render_template('home.html', form=form, data=data)
+    #Data for the graphs, remove the duplicates
+    e_iso_photometric = []
+    e_iso_spectroscopic = []
+    grb_name = 'start'
+
+    for i in data:
+        if i['e_iso']!=None and '>' not in i['e_iso']:
+            if i['GRB']!=grb_name and i['SNe']!=None:
+                grb_name = i['GRB']
+                e_iso_spectroscopic.append(float(i['e_iso']))
+
+
+            elif i['GRB']!=grb_name and i['SNe']==None:
+                grb_name = i['GRB']
+                e_iso_photometric.append(float(i['e_iso'])) 
+
+    e_iso = e_iso_photometric+e_iso_spectroscopic
+    
+
+    conn.close()
+    #Do graphing
+    #E_iso plot
+
+    fig = Figure()
+    ax = fig.subplots()
+    ax.hist(np.log10(e_iso))
+    ax.set_xlabel('E$_{iso}$ (ergs)')
+    ax.set_ylabel('Frequency')
+
+
+    canvas = FigureCanvas(fig)
+    output = io.BytesIO()
+    canvas.print_png(output)
+    response = make_response(output.getvalue())
+    response.mimetype = 'image/png'
+    return response
+
+
+@app.route('/plot/z')
+def z_plotter():
+    conn = get_db_connection()
+
+    #E_iso data, one value per GRB
+    data = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB IS NOT NULL AND PrimarySources!='PRIVATE COM.'").fetchall()
+    
+
+    #Data for the graphs, remove the duplicates
+    z_photometric  = []
+    z_spectroscopic  = []
+    grb_name = 'start'
+    
+
+    for i in data:
+        if i['z']!=None:
+            if i['GRB']!=grb_name and i['SNe']!=None:
+                grb_name = i['GRB']
+                z_spectroscopic.append(float(i['z']))
+
+
+            elif i['GRB']!=grb_name and i['SNe']==None:
+                grb_name = i['GRB']
+                z_photometric.append(float(i['z'])) 
+
+    z = z_photometric+z_spectroscopic
+
+    conn.close()
+    #Do graphing
+    #E_iso plot
+
+    fig = Figure()
+    ax = fig.subplots()
+    ax.hist(z_photometric, label='Photometric SN', alpha=0.5, edgecolor='black', color='green', bins = [0., 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1., 1.1])
+    ax.hist(z_spectroscopic, label='Spectroscopic SN', alpha=0.5, edgecolor='black', color='purple', bins = [0., 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1., 1.1])
+    ax.legend()
+    ax.set_xlabel('Redshift')
+    ax.set_ylabel('Frequency')
+
+
+    canvas = FigureCanvas(fig)
+    output = io.BytesIO()
+    canvas.print_png(output)
+    response = make_response(output.getvalue())
+    response.mimetype = 'image/png'
+    return response
 
     return render_template('home.html', form=form, data=data)
 
