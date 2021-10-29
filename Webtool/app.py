@@ -17,6 +17,9 @@ from flask import Flask, request, render_template, abort, Response
 from bokeh.plotting import figure
 from bokeh.embed import components
 
+#Pandas
+import pandas as pd
+
 #Things for making updatable plots
 import io
 import base64
