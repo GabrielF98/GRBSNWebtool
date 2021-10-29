@@ -67,21 +67,21 @@ def get_post(event_id):
             dec = 'None'
             radec = [ra, dec]
 
-        conn.close()
-
         #Deals with people entering names that arent in the DB
         if event is None:
             abort(404)
-
+        conn.close()
     
 
     #This should ideally solve the lone SN cases
     elif 'SN' or 'AT' in event_id:
+        sn_name = event_id.split('_')[0][2:]
+
         #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
         conn = get_db_connection()
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (event_id[2:],)).fetchall()
         
-        radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
+        radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
         
         #Round ra and dec to 3dp
         if radec[0]['ra']!=None and radec[0]['dec']!=None:
@@ -94,10 +94,10 @@ def get_post(event_id):
             dec = 'None'
             radec = [ra, dec]
 
-        conn.close()
+        
         if event is None:
             abort(404)
-              
+        conn.close()      
     return event, radec
 
 def grb_names():
