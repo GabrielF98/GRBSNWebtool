@@ -42,7 +42,7 @@ from static.emails.forms import ContactForm
 #Add the bit for the database access:
 import sqlite3
 def get_db_connection():
-    conn = sqlite3.connect('Masterbase.db')
+    conn = sqlite3.connect('static/Masterbase.db')
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -153,8 +153,15 @@ def home():
 
     #Ok new plan
     #Going to give it a go with the UNION and INTERSECT commands
-    initial_query = ('SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe GROUP BY GRB')
+    initial_query = ("SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe")
+
+    #secondary_query = ("SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe WHERE CAST(z as FLOAT)<0.1 GROUP BY GRB")
+    
+    #intersect = ("INTERSECT")
+    #query =  secondary_query+intersect+initial_query
     data = conn.execute(initial_query).fetchall()
+
+
     conn.close()
 
     return render_template('home.html', data=data)
