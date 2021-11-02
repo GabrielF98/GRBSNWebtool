@@ -232,17 +232,20 @@ def home():
     data = conn.execute(initial_query).fetchall()
 
     form = SearchForm(request.form)
+    
     if request.method == 'POST':
         event_id = form.object_name.data
 
 
-    conn.close()
+        if event_id in grbs:
 
-    else:
+            return redirect(url_for('event', event_id=event_id))
+
+        else:
             #The flash message wont show up just yet
             flash('ID not valid')
             return render_template('home.html', form=form, data=data)
-            
+    conn.close       
     return render_template('home.html', form=form, data=data)
 
     #Have to cast the values to floats first since there are some non float values
