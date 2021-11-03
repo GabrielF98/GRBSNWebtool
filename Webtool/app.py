@@ -52,7 +52,7 @@ def get_post(event_id):
         #This solves the GRBs with SNs and without
         grb_name = event_id.split('_')[0][3:]
         conn = get_db_connection()
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.'", (grb_name,)).fetchall()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.' AND Notes!='Unconfirmed'", (grb_name,)).fetchall()
 
         radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
         
@@ -79,9 +79,9 @@ def get_post(event_id):
 
         #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
         conn = get_db_connection()
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (event_id[2:],)).fetchall()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.' AND Notes!='Unconfirmed'", (event_id[2:],)).fetchall()
         
-        radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
+        radec = conn.execute("SELECT * FROM RADec WHERE sn_name=?", (sn_name,)).fetchall()
         
         #Round ra and dec to 3dp
         if radec[0]['ra']!=None and radec[0]['dec']!=None:
