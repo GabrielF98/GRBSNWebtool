@@ -138,6 +138,7 @@ def get_grb_data(event_id):
 
     #To determine if its an SN only or a GRB only
     if 'GRB' in str(event_id):
+        event_id = event_id.split('_')[0][3:]
         path = './static/long_grbs/'
         files = glob.glob(path+'/*.txt')
         print(files)
@@ -310,7 +311,7 @@ def event(event_id):
     plot = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     
     # add a line renderer with legend and line thickness
-    #plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
     plot.title.text_font_size = '20pt'
