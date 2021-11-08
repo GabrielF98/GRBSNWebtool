@@ -628,3 +628,8 @@ t-t_0 (s)& Exposure time (s)  & Mag        	& Filter & Telescope
 ^1 Data in common with Cano et al. 2014.
 
 Data have not been corrected for Galactic foreground extinction, and are given in Vega magnitudes. Late exposure times of UVOT data actually show the interval between the beginning and the end of observations.
+t-t_0 (s)& Exposure time (s)  & Mag        	& Filter & Telescope
+784	&    80        & 16.199 ± 0.027      	    & V &	PROMPT-SSO-2	
+	PROMPT-SSO-3	
+          &  CR  &	ISON-Ussuriysk/VT-50	
+15.852  + 0.051 -0.049   & I_C &	PROMPT-SSO-2	
