@@ -37,24 +37,27 @@ names = sne_names()
 ras = []
 decs = []
 
-print(names)
 for i in range(len(names)):
 
 	#Account for AT transients
 
 	if names[i][0]!= 'A':
 		print(names[i])
-
 		#Use the API to get the magnitude, times and their errors, in all bands, as a csv
 		data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band?format=csv')
 
 		#File to save the csv 
 		#save the data
-		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'.csv', index=False)
+		data.to_csv('./SNE-OpenSN-Data/photometry/SN'+str(names[i])+'.csv', index=False)
 		
 		#Spectra
 		#Use the API to get the time and all spectra, as a csv
-		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/spectra/?format=csv')
+
+		
+		data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/spectra/data?item=1&format=csv')
+
+		if "message" in data.keys()[0]:
+			print('message')
 
 		#File to save the csv 
 		#save the data
@@ -72,22 +75,22 @@ for i in range(len(names)):
 		continue 
 
 	else:
-		print('Non numeric', names[i])
-
+		print(names[i])
 		#Use the API to get the magnitude, times and their errors, in all bands, as a csv
-		data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band?format=csv')
+		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band?format=csv')
 
+		print(data.keys())
 		#File to save the csv 
 		#save the data
 		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'.csv', index=False)
 
 		#Spectra
 		#Use the API to get the time and all spectra, as a csv
-		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/spectra/?format=csv')
+		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/spectra/data?item=100&format=csv')
 
 		#File to save the csv 
 		#save the data
-		data.to_csv('./SNE-OpenSN-Data/spectra/data'+str(names[i])+'.csv', index=False)
+		data.to_csv('./SNE-OpenSN-Data/spectra/'+str(names[i])+'.csv', index=False)
 
 		#RA and Dec 
 		# ra = [pd.read_json('https://api.astrocats.space/'+str(names[i])+'/ra?first')]
