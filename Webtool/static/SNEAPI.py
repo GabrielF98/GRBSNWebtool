@@ -52,16 +52,21 @@ for i in range(len(names)):
 		
 		#Spectra
 		#Use the API to get the time and all spectra, as a csv
+		n = 0
 
-		
-		data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/spectra/data?item=1&format=csv')
+		while n>=0:
+			data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/spectra/data?item='+str(n)+'&format=csv')
 
-		if "message" in data.keys()[0]:
-			print('message')
+			if "message" in data.keys()[0]:
+				print('message')
+				n=-1
 
-		#File to save the csv 
-		#save the data
-		data.to_csv('./SNE-OpenSN-Data/spectra/SN'+str(names[i])+'.csv', index=False)
+			else:
+				#File to save the csv 
+				#save the data
+				data.to_csv('./SNE-OpenSN-Data/spectra/SN'+str(names[i])+'_'+str(n)+'.csv', index=False)
+
+				n+=1
 
 		#RA and Dec 
 		# ra = [pd.read_json('https://api.astrocats.space/SN'+str(names[i])+'/ra?first&format=json')]
@@ -86,11 +91,21 @@ for i in range(len(names)):
 
 		#Spectra
 		#Use the API to get the time and all spectra, as a csv
-		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/spectra/data?item=100&format=csv')
+		n = 0
 
-		#File to save the csv 
-		#save the data
-		data.to_csv('./SNE-OpenSN-Data/spectra/'+str(names[i])+'.csv', index=False)
+		while n>=0:
+			data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/spectra/data?item='+str(n)+'&format=csv')
+
+			if "message" in data.keys()[0]:
+				print('message')
+				n=-1
+
+			else:
+				#File to save the csv 
+				#save the data
+				data.to_csv('./SNE-OpenSN-Data/spectra/'+str(names[i])+'_'+str(n)+'.csv', index=False)
+
+				n+=1
 
 		#RA and Dec 
 		# ra = [pd.read_json('https://api.astrocats.space/'+str(names[i])+'/ra?first')]
