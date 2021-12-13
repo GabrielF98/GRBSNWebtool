@@ -353,8 +353,23 @@
 </table>
 </div>
 
+
+
+<!-- Xray plot -->
+<div>
+<h2><b>Data</b></h2>
+<!-- References -->
+
+<!-- <p>{{ data }}</p> -->
+<!-- The stuff to do with the X-ray plot -->
+
+  {{ div|safe }}
+  {{ script|safe }}
+</div>
+
 <!-- Table of references -->
 <div>
+  <h2><b>References</b></h2>
   <table style="width:80%">
     <tr>
     <th>Footnote</th>
@@ -382,19 +397,6 @@
   </table>
   
 </div>
-
-<!-- Xray plot -->
-<div>
-<h2><b>Data</b></h2>
-<!-- References -->
-
-<!-- <p>{{ data }}</p> -->
-<!-- The stuff to do with the X-ray plot -->
-
-  {{ div|safe }}
-  {{ script|safe }}
-</div>
-
 
 </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh.min.js"></script>
