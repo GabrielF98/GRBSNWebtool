@@ -1,1 +1,2 @@
-"{""message"": ""Event 'SNAT2019oyw' not found in any catalog.""}"
+event,time,magnitude,e_magnitude,band
+AT2019oyw,58723.5,14.7,,
