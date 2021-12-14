@@ -16,6 +16,7 @@ from bokeh.plotting import figure, output_file, show
 from flask import Flask, request, render_template, abort, Response
 from bokeh.plotting import figure
 from bokeh.embed import components
+from bokeh.palettes import all_palettes, viridis
 
 #Pandas
 import pandas as pd
@@ -315,7 +316,7 @@ def event(event_id):
 
     #Aesthetics
     plot.title.text_font_size = '20pt'
-    plot.title.text_color = 'white'
+    plot.title.text_color = 'black'
     plot.title.align = 'center'
 
     #Axis font size
@@ -323,33 +324,33 @@ def event(event_id):
     plot.xaxis.axis_label_text_font_size = '16pt'
 
     #Font Color 
-    plot.xaxis.axis_label_text_color = 'white'
-    plot.xaxis.major_label_text_color = 'white'
+    plot.xaxis.axis_label_text_color = 'black'
+    plot.xaxis.major_label_text_color = 'black'
 
-    plot.yaxis.axis_label_text_color = 'white'
-    plot.yaxis.major_label_text_color = 'white'
+    plot.yaxis.axis_label_text_color = 'black'
+    plot.yaxis.major_label_text_color = 'black'
 
     #Tick colors 
-    plot.xaxis.major_tick_line_color = 'white'
-    plot.yaxis.major_tick_line_color = 'white'
+    plot.xaxis.major_tick_line_color = 'black'
+    plot.yaxis.major_tick_line_color = 'black'
 
-    plot.xaxis.minor_tick_line_color = 'white'
-    plot.yaxis.minor_tick_line_color = 'white'
+    plot.xaxis.minor_tick_line_color = 'black'
+    plot.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
     plot.xaxis.axis_label = 'Time [sec]'
     plot.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
 
     #Axis Colors
-    plot.xaxis.axis_line_color = 'white'
-    plot.yaxis.axis_line_color = 'white'
+    plot.xaxis.axis_line_color = 'black'
+    plot.yaxis.axis_line_color = 'black'
 
     #Make ticks larger
     plot.xaxis.major_label_text_font_size = '16pt'
     plot.yaxis.major_label_text_font_size = '16pt'
 
-    plot.background_fill_color = 'teal'
-    plot.border_fill_color = 'teal'
+    plot.background_fill_color = 'white'
+    plot.border_fill_color = 'white'
 
 
 
@@ -378,12 +379,13 @@ def event(event_id):
             for j in bands:
                 new_df = data.loc[data['band']==j]
                 optical.scatter(new_df['time'], new_df['magnitude'], legend_label=str(j), size=10, color=next(color))
+            optical.y_range.flipped = True
 
         #Aesthetics
 
         #Title
         optical.title.text_font_size = '20pt'
-        optical.title.text_color = 'white'
+        optical.title.text_color = 'black'
         optical.title.align = 'center'
 
         #Axis font size
@@ -391,26 +393,26 @@ def event(event_id):
         optical.xaxis.axis_label_text_font_size = '16pt'
 
         #Font Color 
-        optical.xaxis.axis_label_text_color = 'white'
-        optical.xaxis.major_label_text_color = 'white'
+        optical.xaxis.axis_label_text_color = 'black'
+        optical.xaxis.major_label_text_color = 'black'
 
-        optical.yaxis.axis_label_text_color = 'white'
-        optical.yaxis.major_label_text_color = 'white'
+        optical.yaxis.axis_label_text_color = 'black'
+        optical.yaxis.major_label_text_color = 'black'
 
         #Tick colors 
-        optical.xaxis.major_tick_line_color = 'white'
-        optical.yaxis.major_tick_line_color = 'white'
+        optical.xaxis.major_tick_line_color = 'black'
+        optical.yaxis.major_tick_line_color = 'black'
 
-        optical.xaxis.minor_tick_line_color = 'white'
-        optical.yaxis.minor_tick_line_color = 'white'
+        optical.xaxis.minor_tick_line_color = 'black'
+        optical.yaxis.minor_tick_line_color = 'black'
 
         #Axis labels
-        optical.xaxis.axis_label = 'Time [sec]'
-        optical.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+        optical.xaxis.axis_label = 'Time [MJD]'
+        optical.yaxis.axis_label = 'Apparent Magnitude'
 
         #Axis Colors
-        optical.xaxis.axis_line_color = 'white'
-        optical.yaxis.axis_line_color = 'white'
+        optical.xaxis.axis_line_color = 'black'
+        optical.yaxis.axis_line_color = 'black'
 
         #Make ticks larger
         optical.xaxis.major_label_text_font_size = '16pt'
@@ -431,45 +433,45 @@ def event(event_id):
 
     #Title
     radio.title.text_font_size = '20pt'
-    radio.title.text_color = 'white'
+    radio.title.text_color = 'black'
     radio.title.align = 'center'
     #Axis font size
     radio.yaxis.axis_label_text_font_size = '16pt'
     radio.xaxis.axis_label_text_font_size = '16pt'
 
     #Font Color 
-    radio.xaxis.axis_label_text_color = 'white'
-    radio.xaxis.major_label_text_color = 'white'
+    radio.xaxis.axis_label_text_color = 'black'
+    radio.xaxis.major_label_text_color = 'black'
 
-    radio.yaxis.axis_label_text_color = 'white'
-    radio.yaxis.major_label_text_color = 'white'
+    radio.yaxis.axis_label_text_color = 'black'
+    radio.yaxis.major_label_text_color = 'black'
 
     #Tick colors 
-    radio.xaxis.major_tick_line_color = 'white'
-    radio.yaxis.major_tick_line_color = 'white'
+    radio.xaxis.major_tick_line_color = 'black'
+    radio.yaxis.major_tick_line_color = 'black'
 
-    radio.xaxis.minor_tick_line_color = 'white'
-    radio.yaxis.minor_tick_line_color = 'white'
+    radio.xaxis.minor_tick_line_color = 'black'
+    radio.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
     radio.xaxis.axis_label = 'Time [sec]'
-    radio.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+    radio.yaxis.axis_label = 'Flux Density [mJy]'
 
     #Axis Colors
-    radio.xaxis.axis_line_color = 'white'
-    radio.yaxis.axis_line_color = 'white'
+    radio.xaxis.axis_line_color = 'black'
+    radio.yaxis.axis_line_color = 'black'
 
     #Make ticks larger
     radio.xaxis.major_label_text_font_size = '16pt'
     radio.yaxis.major_label_text_font_size = '16pt'
 
-    radio.background_fill_color = 'teal'
-    radio.border_fill_color = 'teal'
+    radio.background_fill_color = 'white'
+    radio.border_fill_color = 'white'
 
     ######################################################################################
     #####SPECTRA##########################################################################
     ######################################################################################
-    spectrum = figure(title='Spectrum', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    spectrum = figure(title='Spectrum', toolbar_location="right")
     # add a line renderer with legend and line thickness
     #spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
         #Aesthetics
@@ -479,15 +481,14 @@ def event(event_id):
         path = './static/SNE-OpenSN-Data/spectra/'+str(event[0]['SNe'])+'/'
         files = glob.glob(path+'/*.csv')
 
-        color = bokeh.palettes('Viridis256')
+        color = viridis(45)
         for i in range(len(files)):
             data_i = pd.read_csv(files[i])
-            spectrum.scatter(data_i['wavelength'], data_i['flux'], color=next(color))
+            spectrum.line(data_i['wavelength'], data_i['flux'], color=color[i])
         
-
     #Title
     spectrum.title.text_font_size = '20pt'
-    spectrum.title.text_color = 'white'
+    spectrum.title.text_color = 'black'
     spectrum.title.align = 'center'
     
     #Axis font size
@@ -495,33 +496,33 @@ def event(event_id):
     spectrum.xaxis.axis_label_text_font_size = '16pt'
 
     #Font Color 
-    spectrum.xaxis.axis_label_text_color = 'white'
-    spectrum.xaxis.major_label_text_color = 'white'
+    spectrum.xaxis.axis_label_text_color = 'black'
+    spectrum.xaxis.major_label_text_color = 'black'
 
-    spectrum.yaxis.axis_label_text_color = 'white'
-    spectrum.yaxis.major_label_text_color = 'white'
+    spectrum.yaxis.axis_label_text_color = 'black'
+    spectrum.yaxis.major_label_text_color = 'black'
 
     #Tick colors 
-    spectrum.xaxis.major_tick_line_color = 'white'
-    spectrum.yaxis.major_tick_line_color = 'white'
+    spectrum.xaxis.major_tick_line_color = 'black'
+    spectrum.yaxis.major_tick_line_color = 'black'
 
-    spectrum.xaxis.minor_tick_line_color = 'white'
-    spectrum.yaxis.minor_tick_line_color = 'white'
+    spectrum.xaxis.minor_tick_line_color = 'black'
+    spectrum.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    spectrum.xaxis.axis_label = 'Time [sec]'
-    spectrum.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+    spectrum.xaxis.axis_label = ''
+    spectrum.yaxis.axis_label = 'Flux'
 
     #Axis Colors
-    spectrum.xaxis.axis_line_color = 'white'
-    spectrum.yaxis.axis_line_color = 'white'
+    spectrum.xaxis.axis_line_color = 'black'
+    spectrum.yaxis.axis_line_color = 'black'
 
     #Make ticks larger
     spectrum.xaxis.major_label_text_font_size = '16pt'
     spectrum.yaxis.major_label_text_font_size = '16pt'
 
-    spectrum.background_fill_color = 'teal'
-    spectrum.border_fill_color = 'teal'
+    spectrum.background_fill_color = 'white'
+    spectrum.border_fill_color = 'white'
 
 
     script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, merge_tools = False))
