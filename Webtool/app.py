@@ -479,9 +479,10 @@ def event(event_id):
         path = './static/SNE-OpenSN-Data/spectra/'+str(event[0]['SNe'])+'/'
         files = glob.glob(path+'/*.csv')
 
+        color = bokeh.palettes('Viridis256')
         for i in range(len(files)):
             data_i = pd.read_csv(files[i])
-            spectrum.scatter(data_i['wavlength'], data_i['flux'])
+            spectrum.scatter(data_i['wavelength'], data_i['flux'], color=next(color))
         
 
     #Title
