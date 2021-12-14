@@ -474,6 +474,16 @@ def event(event_id):
     #spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
         #Aesthetics
 
+    if event[0]['SNe'] != None:
+
+        path = './static/SNE-OpenSN-Data/spectra/'+str(event[0]['SNe'])+'/'
+        files = glob.glob(path+'/*.csv')
+
+        for i in range(len(files)):
+            data_i = pd.read_csv(files[i])
+            spectrum.scatter(data_i['wavlength'], data_i['flux'])
+        
+
     #Title
     spectrum.title.text_font_size = '20pt'
     spectrum.title.text_color = 'white'

@@ -40,10 +40,7 @@ import os
   
 # Directories for the spectra
 for i in names:
-	if i[0]!= 'A':
-		os.mkdir('./SNE-OpenSN-Data/spectra/SN'+str(i))
-	else:
-		os.mkdir('./SNE-OpenSN-Data/spectra/'+str(i))
+	os.mkdir('./SNE-OpenSN-Data/spectra/'+str(i))
 
 
 ras = []
@@ -58,7 +55,7 @@ for i in range(len(names)):
 
 		#File to save the csv 
 		#save the data
-		data.to_csv('./SNE-OpenSN-Data/photometry/SN'+str(names[i])+'.csv', index=False)
+		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'.csv', index=False)
 		
 		#Spectra
 		#Use the API to get the time and all spectra, as a csv
@@ -73,7 +70,7 @@ for i in range(len(names)):
 				n=-1
 
 			else:
-				data.to_csv('./SNE-OpenSN-Data/spectra/SN'+str(names[i])+'/SN'+str(names[i])+'_'+str(n)+'.csv', index=False)
+				data.to_csv('./SNE-OpenSN-Data/spectra/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.csv', index=False)
 
 				n+=1
 
