@@ -47,13 +47,16 @@ def get_db_connection():
 def get_post(event_id):
     #To determine if we need to search the db by SN or by GRB name
     #Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
+    
+    conn = get_db_connection()
+
     if 'GRB' in event_id:
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         #This solves the GRBs with SNs and without
         grb_name = event_id.split('_')[0][3:]
-        conn = get_db_connection()
+        
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.'", (grb_name,)).fetchall()
-
+        print(event[0]['GRB'])
         radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
         
         #Round ra and dec to 3dp
@@ -70,17 +73,17 @@ def get_post(event_id):
         #Deals with people entering names that arent in the DB
         if event is None:
             abort(404)
-        conn.close()
+        
     
 
     #This should ideally solve the lone SN cases
     elif 'SN' or 'AT' in event_id:
-        sn_name = event_id.split('_')[0][2:]
-
+        sn_name = event_id[2:]
+        print(sn_name)
         #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
-        conn = get_db_connection()
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (event_id[2:],)).fetchall()
         
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (sn_name,)).fetchall()
+        print(event)
         radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
         
         #Round ra and dec to 3dp
@@ -97,7 +100,8 @@ def get_post(event_id):
         
         if event is None:
             abort(404)
-        conn.close()      
+    
+    conn.close()      
     return event, radec
 
 #For the main table
@@ -141,7 +145,7 @@ def get_grb_data(event_id):
         event_id = event_id.split('_')[0][3:]
         path = './static/long_grbs/'
         files = glob.glob(path+'/*.txt')
-        print(files)
+        #print(files)
 
         for i in range(len(files)):
             if str(event_id) in str(files[i]):
@@ -364,6 +368,7 @@ def event(event_id):
     # add a line renderer with legend and line thickness
 
     #Extract and plot the optical photometry data from the photometry file for each SN
+    
     if event[0]['SNe'] != None:
 
         data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/'+str(event[0]['SNe'])+'.csv')
@@ -371,9 +376,6 @@ def event(event_id):
             print()
         else:
             bands = set(data['band'])
-
-
-       
             color = Category20_20.__iter__()
             for j in bands:
                 new_df = data.loc[data['band']==j]
@@ -562,7 +564,7 @@ def docs():
 
 def grb_names():
     conn = get_db_connection()
-    names = conn.execute('SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe')
+    names = conn.execute("SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe WHERE PrimarySources!='PRIVATE COM.'")
     grbs = []
     years = []
     for i in names:
