@@ -47,11 +47,11 @@ def get_db_connection():
 def get_post(event_id):
     #To determine if we need to search the db by SN or by GRB name
     #Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
+    conn = get_db_connection()
     if 'GRB' in event_id:
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         #This solves the GRBs with SNs and without
         grb_name = event_id.split('_')[0][3:]
-        conn = get_db_connection()
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.'", (grb_name,)).fetchall()
 
         radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
@@ -70,16 +70,15 @@ def get_post(event_id):
         #Deals with people entering names that arent in the DB
         if event is None:
             abort(404)
-        conn.close()
     
 
     #This should ideally solve the lone SN cases
     elif 'SN' or 'AT' in event_id:
-        sn_name = event_id.split('_')[0][2:]
+        sn_name = event_id[2:]
 
         #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
-        conn = get_db_connection()
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (event_id[2:],)).fetchall()
+        
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (sn_name,)).fetchall()
         
         radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
         
@@ -97,7 +96,7 @@ def get_post(event_id):
         
         if event is None:
             abort(404)
-        conn.close()      
+    conn.close()      
     return event, radec
 
 #For the main table
