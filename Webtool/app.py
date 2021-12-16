@@ -52,7 +52,7 @@ def get_post(event_id):
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         #This solves the GRBs with SNs and without
         grb_name = event_id.split('_')[0][3:]
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.'", (grb_name,)).fetchall()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ?", (grb_name,)).fetchall()
 
         radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
         
@@ -78,7 +78,7 @@ def get_post(event_id):
 
         #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
         
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (sn_name,)).fetchall()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (sn_name,)).fetchall()
         
         radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
         
@@ -202,7 +202,7 @@ def graph_data_grabber():
     conn = get_db_connection()
 
     #E_iso data, one value per GRB
-    data = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB IS NOT NULL AND PrimarySources!='PRIVATE COM.'").fetchall()
+    data = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB IS NOT NULL").fetchall()
     
 
     #Data for the graphs, remove the duplicates
