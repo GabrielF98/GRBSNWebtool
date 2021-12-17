@@ -32,54 +32,93 @@ def sne_names():
 #Loop the names and go to the api and download the data
 #It will be saved to ./SNE-OpenSN-Data/photometry or spectra depending
 
-#Photometry
+#Photometry+Spectra
 names = sne_names()
+
+
+import os
+  
+# Directories for the spectra
+for i in names:
+	os.mkdir('./SNE-OpenSN-Data/spectra/'+str(i))
+
+
 ras = []
 decs = []
 
-print(names)
 for i in range(len(names)):
-
-	#Account for AT transients
 
 	if names[i][0]!= 'A':
 		print(names[i])
-
 		#Use the API to get the magnitude, times and their errors, in all bands, as a csv
 		data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec?format=csv')
 
 		#File to save the csv 
 		#save the data
 		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'.csv', index=False)
+		
+		#Spectra
+		#Use the API to get the time and all spectra, as a csv
+		n=0
+		placeholder = pd.DataFrame(columns=['Placeholder'])
 
+		while n>=0:
+			print(n)
+			data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/spectra/data?item='+str(n)+'&format=csv')
+			
+			if "message" in data.keys()[0] or data.equals(placeholder):
+				n=-1
+
+			else:
+				data.to_csv('./SNE-OpenSN-Data/spectra/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.csv', index=False)
+
+				n+=1
+
+			placeholder = data
 
 		#RA and Dec 
-		ra = [pd.read_json('https://api.astrocats.space/SN'+str(names[i])+'/ra?first&format=json')]
-		dec = [pd.read_json('https://api.astrocats.space/SN'+str(names[i])+'/dec?first')]
+		# ra = [pd.read_json('https://api.astrocats.space/SN'+str(names[i])+'/ra?first&format=json')]
+		# dec = [pd.read_json('https://api.astrocats.space/SN'+str(names[i])+'/dec?first')]
 		
 
-		ras.append(ra['SN'+str(names[i])]['ra']['value'])
-		decs.append(dec['SN'+str(names[i])]['dec']['value'])
+		# ras.append(ra['SN'+str(names[i])]['ra']['value'])
+		# decs.append(dec['SN'+str(names[i])]['dec']['value'])
 
-	elif names[i][0]== '2021djjd' or 'NULL':
-		continue 
+	elif names[i][0]=='NULL':
+		continue
+
 	else:
-		print('Non numeric', names[i])
-
+		print(names[i])
 		#Use the API to get the magnitude, times and their errors, in all bands, as a csv
 		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec?format=csv')
 
+		print(data.keys())
 		#File to save the csv 
 		#save the data
 		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'.csv', index=False)
 
+		#Spectra
+		#Use the API to get the time and all spectra, as a csv
+		n=0
+		placeholder = pd.DataFrame(columns=['Placeholder'])
+
+		while n>=0:
+			print(n)
+			data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/spectra/data?item='+str(n)+'&format=csv')
+			
+			if "message" in data.keys()[0] or data.equals(placeholder):
+				n=-1
+
+			else:
+				data.to_csv('./SNE-OpenSN-Data/spectra/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.csv', index=False)
+
+				n+=1
+
+			placeholder = data
 
 		#RA and Dec 
-		ra = [pd.read_json('https://api.astrocats.space/'+str(names[i])+'/ra?first')]
-		dec = [pd.read_json('https://api.astrocats.space/'+str(names[i])+'/dec?first')]		
+		# ra = [pd.read_json('https://api.astrocats.space/'+str(names[i])+'/ra?first')]
+		# dec = [pd.read_json('https://api.astrocats.space/'+str(names[i])+'/dec?first')]		
 
-		ras.append(ra[str(names[i])]['ra']['value'])
-		decs.append(dec[str(names[i])]['dec']['value'])
-
-
-	
+		# ras.append(ra[str(names[i])]['ra']['value'])
+		# decs.append(dec[str(names[i])]['dec']['value'])

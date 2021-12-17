@@ -16,6 +16,7 @@ from bokeh.plotting import figure, output_file, show
 from flask import Flask, request, render_template, abort, Response
 from bokeh.plotting import figure
 from bokeh.embed import components
+from bokeh.palettes import all_palettes, viridis
 
 #Pandas
 import pandas as pd
@@ -30,7 +31,7 @@ from matplotlib.figure import Figure
 from wtforms import Form, StringField, SubmitField
 
 class SearchForm(Form):
-    object_name = StringField('Search for a GRB by number')
+    object_name = StringField('Search by GRB or SN ID')
     submit1 = SubmitField('Submit')
 
 #Pulling the data you want to the table on the homepage #Currently this isnt being used on master
@@ -40,7 +41,6 @@ class TableForm(Form):
     max_eiso = StringField('Max. E$_{iso}$')
     min_eiso = StringField('Min. E$_{iso}$')
     submit2 = SubmitField('Submit')
-
 
 #email form
 from static.emails.forms import ContactForm
@@ -58,12 +58,12 @@ def get_db_connection():
 def get_post(event_id):
     #To determine if we need to search the db by SN or by GRB name
     #Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
+    conn = get_db_connection()
     if 'GRB' in event_id:
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         #This solves the GRBs with SNs and without
         grb_name = event_id.split('_')[0][3:]
-        conn = get_db_connection()
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.'", (grb_name,)).fetchall()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ?", (grb_name,)).fetchall()
 
         radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
         
@@ -81,16 +81,15 @@ def get_post(event_id):
         #Deals with people entering names that arent in the DB
         if event is None:
             abort(404)
-        conn.close()
     
 
     #This should ideally solve the lone SN cases
     elif 'SN' or 'AT' in event_id:
-        sn_name = event_id.split('_')[0][2:]
+        sn_name = event_id[2:]
 
         #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
-        conn = get_db_connection()
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (event_id[2:],)).fetchall()
+        
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (sn_name,)).fetchall()
         
         radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
         
@@ -108,7 +107,7 @@ def get_post(event_id):
         
         if event is None:
             abort(404)
-        conn.close()      
+    conn.close()      
     return event, radec
 
 #For the main table on the homepage
@@ -123,6 +122,17 @@ def table_query(max_z, min_z, max_eiso, min_eiso):
 
     return data2
     
+def grb_sne_dict():
+    conn = get_db_connection()
+    data = conn.execute('SELECT GRB, SNe FROM SQLDataGRBSNe GROUP BY GRB')
+    grb_sne_dict = {}
+    for i in data:
+        if i['SNe']!=None:
+            grb_sne_dict[i['SNe']] = i['GRB']
+    return(grb_sne_dict)
+
+grb_sne = grb_sne_dict()
+
 
 def grb_names():
     conn = get_db_connection()
@@ -151,6 +161,7 @@ def get_grb_data(event_id):
 
     #To determine if its an SN only or a GRB only
     if 'GRB' in str(event_id):
+        event_id = event_id.split('_')[0][3:]
         path = './static/long_grbs/'
         files = glob.glob(path+'/*.txt')
         print(files)
@@ -198,12 +209,7 @@ def home():
 
     #Ok new plan
     #Going to give it a go with the UNION and INTERSECT commands
-    initial_query = (f"SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe GROUP BY GRB;")    
-
-    #secondary_query = ("SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe WHERE CAST(z as FLOAT)<0.1 GROUP BY GRB")
-    
-    #intersect = ("INTERSECT")
-    #query =  secondary_query+intersect+initial_query
+    initial_query = (f"SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe GROUP BY GRB;")
     data = conn.execute(initial_query).fetchall()
 
     form = SearchForm(request.form)
@@ -211,103 +217,16 @@ def home():
     if request.method == 'POST':
         event_id = form.object_name.data
 
-
-        if event_id in grbs:
-
-            return redirect(url_for('event', event_id=event_id))
-
-        else:
-            #The flash message wont show up just yet
-            flash('ID not valid')
-            return render_template('home.html', form=form, data=data)
-    conn.close       
+        return redirect(url_for('event', event_id=event_id))
+       
     return render_template('home.html', form=form, data=data)
-
-    #Have to cast the values to floats first since there are some non float values
-    #data = conn.execute("SELECT MAX(CAST(e_iso as FLOAT)), MIN(CAST(e_iso as FLOAT)), MAX(CAST(T90 as FLOAT)), MIN(CAST(T90 as FLOAT)), MAX(CAST(z as FLOAT)), MIN(CAST(z as FLOAT)) FROM SQLDataGRBSNe")
-    # for i in data:
-    #     max_z = i['MAX(CAST(z as FLOAT))']
-    #     min_z = i['MIN(CAST(z as FLOAT))']
-
-    #     max_eiso = i['MAX(CAST(e_iso as FLOAT))']
-    #     min_eiso = i['MIN(CAST(e_iso as FLOAT))']
-
-    # conn.close()
-
-    # #Table
-    # data = table_query(max_z, min_z, max_eiso, min_eiso)
-
-    # #Form
-    # form = SearchForm(request.form)
-    
-    # #Form for the tabular search
-    # form_a = TableForm(request.form)
-
-    # if form.submit1.data and SearchForm.validate():
-    #     event_id = form.object_name.data
-
-    #     if event_id in grbs:
-
-    #         return redirect(url_for('event', event_id=event_id))
-
-    #     elif str(event_id) in grb_sne:
-    #         event_id = grb_sne[str(event_id)]
-    #         return redirect(url_for('event', event_id=event_id))
-
-    #     else:
-    #         #The flash message wont show up just yet
-    #         flash('ID not valid')
-    #         return render_template('home.html', form=form, form_a=form_a, data=data)
-
-    
-
-    # # if form_a.submit2.data and TableForm.validate():
-    # #     max_z = form_a.max_z.data
-    # #     min_z = form_a.min_z.data
-    # #     max_eiso = form_a.max_eiso.data
-    # #     min_eiso = form_a.min_eiso.data
-
-    # #     data = table_query(max_z, min_z, max_eiso, min_eiso)
-
-    # #     return render_template('home.html', form=form, form_a=form_a, data=data)
-
-    # return render_template('home.html', form=form, form_a=form_a, data=data)
-
-# @app.route('/', methods=['GET', 'POST'])
-# def home():
-#     #Ok so here we need to have the form for the searchbar so people can search for GRBs/SNs
-#     search_bar_form = SearchForm()
-
-#     if request.method=='POST': #This can't be kept forever unfortunately it doesnt seem to work when theres 2 forms
-
-#         event_id = search_bar_form.object_name.data
-
-#         if event_id in grbs:
-#             return redirect(url_for('event', event_id=event_id))
-
-#         elif str(event_id) in grb_sne:
-#             event_id = grb_sne[str(event_id)]
-#             return redirect(url_for('event', event_id=event_id))
-
-#         else:
-#             #The flash message wont show up just yet
-#             flash('ID not valid')
-#             return render_template('home.html', form=search_bar_form)
-            
-#     return render_template('home.html', form=search_bar_form)
-    #Next the form for the table to update itself consistently
-
-    #Now we need the actual table probably at the bottom so itll still be shown when the forms arent being used
-
-    #Somewhere we also neeed to put in the data that the user will submit, and add a way that they can either reset the form or submit multiple times
-        
 
 @app.route('/plot/e_iso')
 def graph_data_grabber():
     conn = get_db_connection()
 
     #E_iso data, one value per GRB
-    data = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB IS NOT NULL AND PrimarySources!='PRIVATE COM.'").fetchall()
+    data = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB IS NOT NULL").fetchall()
     
 
     #Data for the graphs, remove the duplicates
@@ -395,6 +314,8 @@ def z_plotter():
     response.mimetype = 'image/png'
     return response
 
+    return render_template('home.html', form=form, data=data)
+
 #Be able to select the GRBs by their names and go
 #To a specific page, it also plots the XRT data
 
@@ -413,11 +334,11 @@ def event(event_id):
     plot = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     
     # add a line renderer with legend and line thickness
-    #plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
     plot.title.text_font_size = '20pt'
-    plot.title.text_color = 'white'
+    plot.title.text_color = 'black'
     plot.title.align = 'center'
 
     #Axis font size
@@ -425,33 +346,33 @@ def event(event_id):
     plot.xaxis.axis_label_text_font_size = '16pt'
 
     #Font Color 
-    plot.xaxis.axis_label_text_color = 'white'
-    plot.xaxis.major_label_text_color = 'white'
+    plot.xaxis.axis_label_text_color = 'black'
+    plot.xaxis.major_label_text_color = 'black'
 
-    plot.yaxis.axis_label_text_color = 'white'
-    plot.yaxis.major_label_text_color = 'white'
+    plot.yaxis.axis_label_text_color = 'black'
+    plot.yaxis.major_label_text_color = 'black'
 
     #Tick colors 
-    plot.xaxis.major_tick_line_color = 'white'
-    plot.yaxis.major_tick_line_color = 'white'
+    plot.xaxis.major_tick_line_color = 'black'
+    plot.yaxis.major_tick_line_color = 'black'
 
-    plot.xaxis.minor_tick_line_color = 'white'
-    plot.yaxis.minor_tick_line_color = 'white'
+    plot.xaxis.minor_tick_line_color = 'black'
+    plot.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
     plot.xaxis.axis_label = 'Time [sec]'
     plot.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
 
     #Axis Colors
-    plot.xaxis.axis_line_color = 'white'
-    plot.yaxis.axis_line_color = 'white'
+    plot.xaxis.axis_line_color = 'black'
+    plot.yaxis.axis_line_color = 'black'
 
     #Make ticks larger
     plot.xaxis.major_label_text_font_size = '16pt'
     plot.yaxis.major_label_text_font_size = '16pt'
 
-    plot.background_fill_color = 'teal'
-    plot.border_fill_color = 'teal'
+    plot.background_fill_color = 'white'
+    plot.border_fill_color = 'white'
 
 
 
@@ -480,12 +401,13 @@ def event(event_id):
             for j in bands:
                 new_df = data.loc[data['band']==j]
                 optical.scatter(new_df['time'], new_df['magnitude'], legend_label=str(j), size=10, color=next(color))
+            optical.y_range.flipped = True
 
         #Aesthetics
 
         #Title
         optical.title.text_font_size = '20pt'
-        optical.title.text_color = 'white'
+        optical.title.text_color = 'black'
         optical.title.align = 'center'
 
         #Axis font size
@@ -493,26 +415,26 @@ def event(event_id):
         optical.xaxis.axis_label_text_font_size = '16pt'
 
         #Font Color 
-        optical.xaxis.axis_label_text_color = 'white'
-        optical.xaxis.major_label_text_color = 'white'
+        optical.xaxis.axis_label_text_color = 'black'
+        optical.xaxis.major_label_text_color = 'black'
 
-        optical.yaxis.axis_label_text_color = 'white'
-        optical.yaxis.major_label_text_color = 'white'
+        optical.yaxis.axis_label_text_color = 'black'
+        optical.yaxis.major_label_text_color = 'black'
 
         #Tick colors 
-        optical.xaxis.major_tick_line_color = 'white'
-        optical.yaxis.major_tick_line_color = 'white'
+        optical.xaxis.major_tick_line_color = 'black'
+        optical.yaxis.major_tick_line_color = 'black'
 
-        optical.xaxis.minor_tick_line_color = 'white'
-        optical.yaxis.minor_tick_line_color = 'white'
+        optical.xaxis.minor_tick_line_color = 'black'
+        optical.yaxis.minor_tick_line_color = 'black'
 
         #Axis labels
-        optical.xaxis.axis_label = 'Time [sec]'
-        optical.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+        optical.xaxis.axis_label = 'Time [MJD]'
+        optical.yaxis.axis_label = 'Apparent Magnitude'
 
         #Axis Colors
-        optical.xaxis.axis_line_color = 'white'
-        optical.yaxis.axis_line_color = 'white'
+        optical.xaxis.axis_line_color = 'black'
+        optical.yaxis.axis_line_color = 'black'
 
         #Make ticks larger
         optical.xaxis.major_label_text_font_size = '16pt'
@@ -533,52 +455,62 @@ def event(event_id):
 
     #Title
     radio.title.text_font_size = '20pt'
-    radio.title.text_color = 'white'
+    radio.title.text_color = 'black'
     radio.title.align = 'center'
     #Axis font size
     radio.yaxis.axis_label_text_font_size = '16pt'
     radio.xaxis.axis_label_text_font_size = '16pt'
 
     #Font Color 
-    radio.xaxis.axis_label_text_color = 'white'
-    radio.xaxis.major_label_text_color = 'white'
+    radio.xaxis.axis_label_text_color = 'black'
+    radio.xaxis.major_label_text_color = 'black'
 
-    radio.yaxis.axis_label_text_color = 'white'
-    radio.yaxis.major_label_text_color = 'white'
+    radio.yaxis.axis_label_text_color = 'black'
+    radio.yaxis.major_label_text_color = 'black'
 
     #Tick colors 
-    radio.xaxis.major_tick_line_color = 'white'
-    radio.yaxis.major_tick_line_color = 'white'
+    radio.xaxis.major_tick_line_color = 'black'
+    radio.yaxis.major_tick_line_color = 'black'
 
-    radio.xaxis.minor_tick_line_color = 'white'
-    radio.yaxis.minor_tick_line_color = 'white'
+    radio.xaxis.minor_tick_line_color = 'black'
+    radio.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
     radio.xaxis.axis_label = 'Time [sec]'
-    radio.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+    radio.yaxis.axis_label = 'Flux Density [mJy]'
 
     #Axis Colors
-    radio.xaxis.axis_line_color = 'white'
-    radio.yaxis.axis_line_color = 'white'
+    radio.xaxis.axis_line_color = 'black'
+    radio.yaxis.axis_line_color = 'black'
 
     #Make ticks larger
     radio.xaxis.major_label_text_font_size = '16pt'
     radio.yaxis.major_label_text_font_size = '16pt'
 
-    radio.background_fill_color = 'teal'
-    radio.border_fill_color = 'teal'
+    radio.background_fill_color = 'white'
+    radio.border_fill_color = 'white'
 
     ######################################################################################
     #####SPECTRA##########################################################################
     ######################################################################################
-    spectrum = figure(title='Spectrum', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    spectrum = figure(title='Spectrum', toolbar_location="right")
     # add a line renderer with legend and line thickness
     #spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
         #Aesthetics
 
+    if event[0]['SNe'] != None:
+
+        path = './static/SNE-OpenSN-Data/spectra/'+str(event[0]['SNe'])+'/'
+        files = glob.glob(path+'/*.csv')
+
+        color = viridis(45)
+        for i in range(len(files)):
+            data_i = pd.read_csv(files[i])
+            spectrum.line(data_i['wavelength'], data_i['flux'], color=color[i])
+        
     #Title
     spectrum.title.text_font_size = '20pt'
-    spectrum.title.text_color = 'white'
+    spectrum.title.text_color = 'black'
     spectrum.title.align = 'center'
     
     #Axis font size
@@ -586,33 +518,33 @@ def event(event_id):
     spectrum.xaxis.axis_label_text_font_size = '16pt'
 
     #Font Color 
-    spectrum.xaxis.axis_label_text_color = 'white'
-    spectrum.xaxis.major_label_text_color = 'white'
+    spectrum.xaxis.axis_label_text_color = 'black'
+    spectrum.xaxis.major_label_text_color = 'black'
 
-    spectrum.yaxis.axis_label_text_color = 'white'
-    spectrum.yaxis.major_label_text_color = 'white'
+    spectrum.yaxis.axis_label_text_color = 'black'
+    spectrum.yaxis.major_label_text_color = 'black'
 
     #Tick colors 
-    spectrum.xaxis.major_tick_line_color = 'white'
-    spectrum.yaxis.major_tick_line_color = 'white'
+    spectrum.xaxis.major_tick_line_color = 'black'
+    spectrum.yaxis.major_tick_line_color = 'black'
 
-    spectrum.xaxis.minor_tick_line_color = 'white'
-    spectrum.yaxis.minor_tick_line_color = 'white'
+    spectrum.xaxis.minor_tick_line_color = 'black'
+    spectrum.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    spectrum.xaxis.axis_label = 'Time [sec]'
-    spectrum.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+    spectrum.xaxis.axis_label = ''
+    spectrum.yaxis.axis_label = 'Flux'
 
     #Axis Colors
-    spectrum.xaxis.axis_line_color = 'white'
-    spectrum.yaxis.axis_line_color = 'white'
+    spectrum.xaxis.axis_line_color = 'black'
+    spectrum.yaxis.axis_line_color = 'black'
 
     #Make ticks larger
     spectrum.xaxis.major_label_text_font_size = '16pt'
     spectrum.yaxis.major_label_text_font_size = '16pt'
 
-    spectrum.background_fill_color = 'teal'
-    spectrum.border_fill_color = 'teal'
+    spectrum.background_fill_color = 'white'
+    spectrum.border_fill_color = 'white'
 
 
     script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, merge_tools = False))
@@ -628,30 +560,9 @@ def event(event_id):
     with open("static/citations2.json") as file2:
         dict_refs2 = json.load(file2)
 
-    #loop through dict refs to get the relevant references
-    authors = []
-    years = []
-
-    authors2 = []
-    years2 = []
-    for i in range(len(event)):
-        if event[i]['PrimarySources']=='PRIVATE COM.':
-            authors.append('Private communication.')
-            years.append('')
-
-
-        elif event[i]['PrimarySources']!=None:
-
-            authors.append(dict_refs[event[i]['PrimarySources']][:-5])
-            years.append(dict_refs[event[i]['PrimarySources']][-5:])
-
-        elif event[i]['SecondarySources']!=None:
-            authors2.append(dict_refs2[event[i]['SecondarySources']][:-5])
-            years2.append(dict_refs2[event[i]['SecondarySources']][-5:])
-
 
     #Return everything
-    return render_template('event.html', event=event, radec=radec, years=years, authors=authors, years2=years2, authors2=authors2, dict=dict_refs, dict2=dict_refs2, **kwargs)
+    return render_template('event.html', event=event, radec=radec, dict=dict_refs, dict2=dict_refs2, **kwargs)
 
 @app.route('/docs')
 def docs():
@@ -684,31 +595,10 @@ def grb_names():
             else:
                 grbs.append('SN'+str(i[1]))
     length = len(grbs)
-
-    #Get only the unique years (this is redundant code now because I'm not splitting them by year anymore)
-    # unique_years = []
-    # for i in years:
-    #     #There was a problem with NULL SQL values coming in as 'No'
-    #     if i not in unique_years:
-
-    #         if i=='No':
-    #             continue
-    #         else:
-    #             unique_years.append(i)
-
-    # for i in range(len(unique_years)):
-    #     if int(unique_years[i])<30:
-    #         unique_years[i] = ('20'+unique_years[i])
-    #     else:
-    #         unique_years[i] = ('19'+unique_years[i])
-
     conn.close()
     
     
     return {'grbs': grbs, 'number1':length} #, 'number2':len(unique_years), 'years':unique_years}
-
-
-
 
 # Contact form 
 @app.route('/contact', methods=["GET","POST"])
@@ -727,23 +617,6 @@ def get_contact():
         return('The data are saved !')
     else:
         return render_template('contacts.html', form=form)
-
-#Making the search bar run https://flask.palletsprojects.com/en/2.0.x/patterns/wtforms/
-# @app.route('/search', methods=['POST', 'GET'])
-# def search_bar():
-#     form = SearchForm(request.form)
-    
-#     if request.method == 'POST':
-#         #The problem is here somewhere
-#         event_id = form.object_name.data
-#         #its rediricting to home (url for is / when it should be /form)
-#         with app.test_request_context():
-#             print('The URL is:', url_for('event', event_id=event_id))
-#         #The syntax in this line are definitely correct based on the docs
-#         return redirect(url_for('event', event_id=event_id))
-
-    
-#     return render_template('form.html', form=form)
 
 # Run app
 if __name__ == "__main__":
