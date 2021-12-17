@@ -48,12 +48,12 @@ def get_db_connection():
 def get_post(event_id):
     #To determine if we need to search the db by SN or by GRB name
     #Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
+    conn = get_db_connection()
     if 'GRB' in event_id:
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         #This solves the GRBs with SNs and without
         grb_name = event_id.split('_')[0][3:]
-        conn = get_db_connection()
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ? AND PrimarySources!='PRIVATE COM.'", (grb_name,)).fetchall()
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ?", (grb_name,)).fetchall()
 
         radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
         
@@ -71,16 +71,15 @@ def get_post(event_id):
         #Deals with people entering names that arent in the DB
         if event is None:
             abort(404)
-        conn.close()
     
 
     #This should ideally solve the lone SN cases
     elif 'SN' or 'AT' in event_id:
-        sn_name = event_id.split('_')[0][2:]
+        sn_name = event_id[2:]
 
         #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
-        conn = get_db_connection()
-        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ? AND PrimarySources!='PRIVATE COM.'", (event_id[2:],)).fetchall()
+        
+        event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (sn_name,)).fetchall()
         
         radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
         
@@ -98,7 +97,7 @@ def get_post(event_id):
         
         if event is None:
             abort(404)
-        conn.close()      
+    conn.close()      
     return event, radec
 
 #For the main table
@@ -204,7 +203,7 @@ def graph_data_grabber():
     conn = get_db_connection()
 
     #E_iso data, one value per GRB
-    data = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB IS NOT NULL AND PrimarySources!='PRIVATE COM.'").fetchall()
+    data = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB IS NOT NULL").fetchall()
     
 
     #Data for the graphs, remove the duplicates
@@ -538,30 +537,9 @@ def event(event_id):
     with open("static/citations2.json") as file2:
         dict_refs2 = json.load(file2)
 
-    #loop through dict refs to get the relevant references
-    authors = []
-    years = []
-
-    authors2 = []
-    years2 = []
-    for i in range(len(event)):
-        if event[i]['PrimarySources']=='PRIVATE COM.':
-            authors.append('Private communication.')
-            years.append('')
-
-
-        elif event[i]['PrimarySources']!=None:
-
-            authors.append(dict_refs[event[i]['PrimarySources']][:-5])
-            years.append(dict_refs[event[i]['PrimarySources']][-5:])
-
-        elif event[i]['SecondarySources']!=None:
-            authors2.append(dict_refs2[event[i]['SecondarySources']][:-5])
-            years2.append(dict_refs2[event[i]['SecondarySources']][-5:])
-
 
     #Return everything
-    return render_template('event.html', event=event, radec=radec, years=years, authors=authors, years2=years2, authors2=authors2, dict=dict_refs, dict2=dict_refs2, **kwargs)
+    return render_template('event.html', event=event, radec=radec, dict=dict_refs, dict2=dict_refs2, **kwargs)
 
 @app.route('/docs')
 def docs():

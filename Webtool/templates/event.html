@@ -376,22 +376,31 @@
     <th>Reference</th> 
   </tr>
 
-  {% for i in range(event|length) %}
-    {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+  {% for i in range(event|length)%}
+    {% if event[i]['PrimarySources']!=None %}
+      {% if 'adsabs' not in event[i]['PrimarySources']%}
       <tr>
-        <td> {{i+1}} </a></td>
-        <td>Private communication.</td>
+        <td><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></td>
+        <td> <a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{event[i]['PrimarySources']}} </a></td>
       </tr>
-    {% elif event[i]['PrimarySources']!=None %}
+      {% else %}
       <tr>
         <td><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></td>
         <td>{{dict[event[i]['PrimarySources']][:-5]}} <b>{{dict[event[i]['PrimarySources']][-5:]}}</b>: <a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{event[i]['PrimarySources']}} </a></td>
       </tr>
+      {% endif %}
     {% elif event[i]['SecondarySources']!=None %}
+      {% if 'adsabs' not in event[i]['SecondarySources']%}
+      <tr>
+        <td><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></td>
+        <td> <a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{event[i]['PrimarySources']}} </a></td>
+      </tr>
+      {% else %}
       <tr>
         <td><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></td>
         <td>{{dict2[event[i]['SecondarySources']][:-5]}} <b>{{dict2[event[i]['SecondarySources']][-5:]}}</b>: <a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{event[i]['SecondarySources']}} </a></td>
       </tr>
+      {% endif %}
     {% endif %}  
   {% endfor %}
   </table>
