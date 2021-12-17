@@ -33,7 +33,7 @@ class SearchForm(Form):
     object_name = StringField('Search for a GRB by number')
     submit1 = SubmitField('Submit')
 
-#Pulling the data you want to the table on the homepage
+#Pulling the data you want to the table on the homepage #Currently this isnt being used on master
 class TableForm(Form):
     max_z = StringField('Min. Z')
     min_z = StringField('Max. Z')
@@ -110,21 +110,6 @@ def get_post(event_id):
             abort(404)
         conn.close()      
     return event, radec
-
-#For the main table
-
-#I would like to add a decorator for this function which will change the sql query later on
-#After a user submits their data the query can change
-
-#Decorator function
-# def decorate_table_query(function):
-#     def wrapper():
-#         func = function()
-#         return function
-
-#     return wrapper
-
-
 
 #For the main table on the homepage
 def table_query(max_z, min_z, max_eiso, min_eiso):
@@ -205,25 +190,15 @@ sne = sne_names()
 app = Flask(__name__)
 app.secret_key = 'secretKey'
 
-#The pages we want
-#Updatable graphs about the info in the db
-
-    #Z plot
-    # print(z)
-    # plt.hist(z, bins = [0., 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2])
-    # plt.xlabel('Redshift')
-    # plt.ylabel('Frequency')
-    # plt.savefig('static/stats/GRBSNeZ.pdf')
-
 #The homepage and its location
 @app.route('/', methods=['POST', 'GET'])
 def home():
-    #Get the max and min values of the columns
+    #Connect to db
     conn = get_db_connection()
 
     #Ok new plan
     #Going to give it a go with the UNION and INTERSECT commands
-    initial_query = ("SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe GROUP BY GRB")
+    initial_query = (f"SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe GROUP BY GRB;")    
 
     #secondary_query = ("SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe WHERE CAST(z as FLOAT)<0.1 GROUP BY GRB")
     
