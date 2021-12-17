@@ -209,7 +209,7 @@ def home():
 
     #Ok new plan
     #Going to give it a go with the UNION and INTERSECT commands
-    initial_query = (f"SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe GROUP BY GRB;")
+    initial_query = (f"SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
     data = conn.execute(initial_query).fetchall()
 
     form = SearchForm(request.form)
@@ -254,7 +254,7 @@ def graph_data_grabber():
 
     fig = Figure()
     ax = fig.subplots()
-    ax.hist(np.log10(e_iso))
+    ax.hist(np.log10(e_iso), color='green', alpha=0.5)
     ax.set_xlabel('E$_{iso}$ (ergs)')
     ax.set_ylabel('Frequency')
 
