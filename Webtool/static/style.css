@@ -63,6 +63,11 @@ table{
   margin-right: 100px, 
 }
 
+/*For the flask messages*/
+.error {
+    color: red
+}
+
 th, td {color: white;
   border: 2px solid black;
   margin-left: 100px;

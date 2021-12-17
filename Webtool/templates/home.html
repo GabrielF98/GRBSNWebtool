@@ -47,6 +47,16 @@
   <p><input type=submit value=Search>
 </form>
 
+{% with messages = get_flashed_messages(with_categories=true) %}
+  <!-- {% if messages %}
+    <ul class=flashes> -->
+    {% for category, message in messages %}
+      <p class="{{error}}">{{ message }}
+    {% endfor %}
+    </ul>
+  <!-- {% endif %} -->
+{% endwith %}
+
 <h2><b>Known Associations</b></h2>
 
 <!-- Table of all the sources -->
