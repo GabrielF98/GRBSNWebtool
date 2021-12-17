@@ -13,7 +13,7 @@ from bokeh.resources import INLINE
 from bokeh.embed import components
 from bokeh.layouts import gridplot, Spacer
 from bokeh.plotting import figure, output_file, show
-from flask import Flask, request, render_template, abort, Response
+from flask import Flask, request, render_template, abort, Response, flash
 from bokeh.plotting import figure
 from bokeh.embed import components
 from bokeh.palettes import all_palettes, viridis
@@ -216,9 +216,17 @@ def home():
     
     if request.method == 'POST':
         event_id = form.object_name.data
-
-        return redirect(url_for('event', event_id=event_id))
-       
+        print(event_id)
+        if str(event_id)[2:] in sne: #if they search an SN
+            print('bananan')
+            return redirect(url_for('event', event_id=event_id))
+        elif str(event_id)[3:] in grbs: #if they search an GRB
+            print('bananan')
+            return redirect(url_for('event', event_id=event_id))
+        else:
+            print('No')
+            flash('This object is not in our database.')
+            return render_template('home.html', form=form, data=data)
     return render_template('home.html', form=form, data=data)
 
 @app.route('/plot/e_iso')
