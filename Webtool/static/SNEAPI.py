@@ -40,7 +40,7 @@ import os
   
 # Directories for the spectra
 for i in names:
-	os.mkdir('./SNE-OpenSN-Data/spectra/'+str(i))
+	os.mkdir('./SNE-OpenSN-Data/spectraJSON/'+str(i))
 
 
 ras = []
@@ -70,7 +70,7 @@ for i in range(len(names)):
 				n=-1
 
 			else:
-				data.to_csv('./SNE-OpenSN-Data/spectra/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.csv', index=False)
+				data.to_csv('./SNE-OpenSN-Data/spectraJSON/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.csv', index=False)
 
 				n+=1
 
@@ -104,13 +104,13 @@ for i in range(len(names)):
 
 		while n>=0:
 			print(n)
-			data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/spectra/data?item='+str(n)+'&format=csv')
+			data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/spectra/data?item='+str(n)+'&format=json')
 			
 			if "message" in data.keys()[0] or data.equals(placeholder):
 				n=-1
 
 			else:
-				data.to_csv('./SNE-OpenSN-Data/spectra/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.csv', index=False)
+				json.dump('./SNE-OpenSN-Data/spectraJSON/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.json')
 
 				n+=1
 
