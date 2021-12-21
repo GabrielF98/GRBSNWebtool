@@ -11,7 +11,7 @@ from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput
 from bokeh.io import curdoc
 from bokeh.resources import INLINE
 from bokeh.embed import components
-from bokeh.layouts import gridplot, Spacer
+from bokeh.layouts import gridplot, Spacer, column, layout
 from bokeh.plotting import figure, output_file, show
 from flask import Flask, request, render_template, abort, Response, flash
 from bokeh.plotting import figure
@@ -329,7 +329,7 @@ def z_plotter():
 
 @app.route('/<event_id>')
 def event(event_id):
-    source = ColumnDataSource()
+    #source = ColumnDataSource()
     event, radec = get_post(event_id)
     data = get_grb_data(event_id)
 
@@ -339,48 +339,48 @@ def event(event_id):
     t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
     # create a new plot with a title and axis labels
 
-    plot = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     
     # add a line renderer with legend and line thickness
-    plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    xray.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
-    plot.title.text_font_size = '20pt'
-    plot.title.text_color = 'black'
-    plot.title.align = 'center'
+    xray.title.text_font_size = '20pt'
+    xray.title.text_color = 'black'
+    xray.title.align = 'center'
 
     #Axis font size
-    plot.yaxis.axis_label_text_font_size = '16pt'
-    plot.xaxis.axis_label_text_font_size = '16pt'
+    xray.yaxis.axis_label_text_font_size = '16pt'
+    xray.xaxis.axis_label_text_font_size = '16pt'
 
     #Font Color 
-    plot.xaxis.axis_label_text_color = 'black'
-    plot.xaxis.major_label_text_color = 'black'
+    xray.xaxis.axis_label_text_color = 'black'
+    xray.xaxis.major_label_text_color = 'black'
 
-    plot.yaxis.axis_label_text_color = 'black'
-    plot.yaxis.major_label_text_color = 'black'
+    xray.yaxis.axis_label_text_color = 'black'
+    xray.yaxis.major_label_text_color = 'black'
 
     #Tick colors 
-    plot.xaxis.major_tick_line_color = 'black'
-    plot.yaxis.major_tick_line_color = 'black'
+    xray.xaxis.major_tick_line_color = 'black'
+    xray.yaxis.major_tick_line_color = 'black'
 
-    plot.xaxis.minor_tick_line_color = 'black'
-    plot.yaxis.minor_tick_line_color = 'black'
+    xray.xaxis.minor_tick_line_color = 'black'
+    xray.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    plot.xaxis.axis_label = 'Time [sec]'
-    plot.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+    xray.xaxis.axis_label = 'Time [sec]'
+    xray.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
 
     #Axis Colors
-    plot.xaxis.axis_line_color = 'black'
-    plot.yaxis.axis_line_color = 'black'
+    xray.xaxis.axis_line_color = 'black'
+    xray.yaxis.axis_line_color = 'black'
 
     #Make ticks larger
-    plot.xaxis.major_label_text_font_size = '16pt'
-    plot.yaxis.major_label_text_font_size = '16pt'
+    xray.xaxis.major_label_text_font_size = '16pt'
+    xray.yaxis.major_label_text_font_size = '16pt'
 
-    plot.background_fill_color = 'white'
-    plot.border_fill_color = 'white'
+    xray.background_fill_color = 'white'
+    xray.border_fill_color = 'white'
 
 
 
@@ -555,7 +555,7 @@ def event(event_id):
     spectrum.border_fill_color = 'white'
 
 
-    script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, merge_tools = False))
+    script, div = components(layout([[xray, radio], [optical], [spectrum]], sizing_mode='scale_both'))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 

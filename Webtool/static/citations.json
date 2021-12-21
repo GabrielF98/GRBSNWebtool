@@ -1,22 +1,82 @@
 {
-    "https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract": "Reichart 1999\n",
-    "https://ui.adsabs.harvard.edu/abs/2000ApJ...536..185G/abstract": "Galama, Tanvir, Vreeswijk, Wijers, Groot, Rol, van Paradijs, Kouveliotou, Fruchter, Masetti, Pedersen, Margon, Deutsch, Metzger, Armus, Klose, & Stecklum 2000\n",
-    "https://ui.adsabs.harvard.edu/abs/2003ApJ...582..924G/abstract": "Garnavich, Stanek, Wyrzykowski, Infante, Bendek, Bersier, Holland, Jha, Matheson, Kirshner, Krisciunas, Phillips, & Carlberg 2003\n",
-    "https://ui.adsabs.harvard.edu/abs/2005A%26A...437..411G/abstract": "Gorosabel, Fynbo, Fruchter, Levan, Hjorth, Nugent, Castro-Tirado, Castro Cer\u00f3n, Rhoads, Bersier, & Burud 2005\n",
-    "https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract": "Pugliese, M\u00f8ller, Gorosabel, Jensen, Fynbo, Hjorth, J\u00f8rgensen, Monard, & Vinter 2005\n",
-    "https://ui.adsabs.harvard.edu/abs/2006ApJ...642L.103D/abstract": "Della Valle, Malesani, Bloom, Benetti, Chincarini, D'Avanzo, Foley, Covino, Melandri, Piranomonte, Tagliaferri, Stella, Gilmozzi, Antonelli, Campana, Chen, Filliatre, Fiore, Fugazza, Gehrels, Hurley, Mirabel, Pellizza, Piro, & Prochaska 2006\n",
-    "https://ui.adsabs.harvard.edu/abs/2013ApJ...766...30G/abstract": "Gendre, Stratta, Atteia, Basa, Bo\u00ebr, Coward, Cutini, D'Elia, Howell, Klotz, & Piro 2013\n",
-    "https://ui.adsabs.harvard.edu/abs/2013ApJ...776...98X/abstract": "Xu, de Ugarte Postigo, Leloudas, Kr\u00fchler, Cano, Hjorth, Malesani, Fynbo, Th\u00f6ne, S\u00e1nchez-Ram\u00edrez, Schulze, Jakobsson, Kaper, Sollerman, Watson, Cabrera-Lavers, Cao, Covino, Flores, Geier, Gorosabel, Hu, Milvang-Jensen, Sparre, Xin, Zhang, Zheng, & Zou 2013\n",
-    "https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract": "Cano, de Ugarte Postigo, Pozanenko, Butler, Th\u00f6ne, Guidorzi, Kr\u00fchler, Gorosabel, Jakobsson, Leloudas, Malesani, Hjorth, Melandri, Mundell, Wiersema, D'Avanzo, Schulze, Gomboc, Johansson, Zheng, Kann, Knust, Varela, Akerlof, Bloom, Burkhonov, Cooke, de Diego, Dhungana, Farina, Ferrante, Flewelling, Fox, Fynbo, Gehrels, Georgiev, Gonz\u00e1lez, Greiner, G\u00fcver, Hartoog, Hatch, Jelinek, Kehoe, Klose, Klunko, Kopa\u010d, Kutyrev, Krugly, Lee, Levan, Linkov, Matkin, Minikulov, Molotov, Prochaska, Richer, Rom\u00e1n-Z\u00fa\u00f1iga, Rumyantsev, S\u00e1nchez-Ram\u00edrez, Steele, Tanvir, Volnova, Watson, Xu, & Yuan 2014\n",
-    "https://ui.adsabs.harvard.edu/abs/2016ApJ...818...79T/abstract": "Toy, Cenko, Silverman, Butler, Cucchiara, Watson, Bersier, Perley, Margutti, Bellm, Bloom, Cao, Capone, Clubb, Corsi, De Cia, de Diego, Filippenko, Fox, Gal-Yam, Gehrels, Georgiev, Gonz\u00e1lez, Kasliwal, Kelly, Kulkarni, Kutyrev, Lee, Prochaska, Ramirez-Ruiz, Richer, Rom\u00e1n-Z\u00fa\u00f1iga, Singer, Stern, Troja, & Veilleux 2016\n",
-    "https://ui.adsabs.harvard.edu/abs/2017AdAst2017E...5C/abstract": "Cano, Wang, Dai, & Wu 2017\n",
-    "https://ui.adsabs.harvard.edu/abs/2018ApJ...867..147W/abstract": "Wang, Zhu, Xu, Xin, Deng, Qiu, Qiu, Wang, Zhang, & Wei 2018\n",
-    "https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract": "Klose, Schmidl, Kann, Nicuesa Guelbenzu, Schulze, Greiner, Olivares E., Kr\u00fchler, Schady, Afonso, Filgas, Fynbo, Rau, Rossi, Takats, Tanga, Updike, & Varela 2019\n",
-    "https://ui.adsabs.harvard.edu/abs/2019A%26A...624A.143K/abstract": "Kann, Schady, Olivares E., Klose, Rossi, Perley, Kr\u00fchler, Greiner, Nicuesa Guelbenzu, Elliott, Knust, Filgas, Pian, Mazzali, Fynbo, Leloudas, Afonso, Delvaux, Graham, Rau, Schmidl, Schulze, Tanga, Updike, & Varela 2019\n",
-    "https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.5824A/abstract": "Ashall, Mazzali, Pian, Woosley, Palazzi, Prentice, Kobayashi, Holmbo, Levan, Perley, Stritzinger, Bufano, Filippenko, Melandri, Oates, Rossi, Selsing, Zheng, Castro-Tirado, Chincarini, D'Avanzo, De Pasquale, Emery, Fruchter, Hurley, Moller, Nomoto, Tanaka, & Valeev 2019\n",
-    "https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.5366M/abstract": "Melandri, Malesani, Izzo, Japelj, Vergani, Schady, Sagu\u00e9s Carracedo, de Ugarte Postigo, Anderson, Barbarino, Bolmer, Breeveld, Calissendorff, Campana, Cano, Carini, Covino, D'Avanzo, D'Elia, della Valle, De Pasquale, Fynbo, Gromadzki, Hammer, Hartmann, Heintz, Inserra, Jakobsson, Kann, Kotilainen, Maguire, Masetti, Nicholl, Olivares E, Pugliese, Rossi, Salvaterra, Sollerman, Stone, Tagliaferri, Tomasella, Th\u00f6ne, Xu, & Young 2019\n",
-    "https://ui.adsabs.harvard.edu/abs/2020ApJ...893..132H/abstract": "Ho, Corsi, Cenko, Taddia, Kulkarni, Adams, De, Dekany, Frederiks, Fremling, Golkhou, Graham, Hung, Kupfer, Laher, Mahabal, Masci, Miller, Neill, Reiley, Riddle, Ridnaia, Rusholme, Sharma, Sollerman, Soumagnac, Svinkin, & Shupe 2020\n",
-    "https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract": "Hu, Castro-Tirado, Kumar, Gupta, Valeev, Pandey, Kann, Castell\u00f3n, Agudo, Aryan, Caballero-Garc\u00eda, Guziy, Martin-Carrillo, Oates, Pian, S\u00e1nchez-Ram\u00edrez, Sokolov, & Zhang 2021\n",
-    "https://ui.adsabs.harvard.edu/abs/2021NatAs.tmp..142A/abstract": "Ahumada, Singer, Anand, Coughlin, Kasliwal, Ryan, Andreoni, Cenko, Fremling, Kumar, Pang, Burns, Cunningham, Dichiara, Dietrich, Svinkin, Almualla, Castro-Tirado, De, Dunwoody, Gatkine, Hammerstein, Iyyani, Mangan, Perley, Purkayastha, Bellm, Bhalerao, Bolin, Bulla, Cannella, Chandra, Duev, Frederiks, Gal-Yam, Graham, Ho, Hurley, Karambelkar, Kool, Kulkarni, Mahabal, Masci, McBreen, Pandey, Reusch, Ridnaia, Rosnet, Rusholme, Carracedo, Smith, Soumagnac, Stein, Troja, Tsvetkova, Walters, & Valeev 2021\n",
-    "https://ui.adsabs.harvard.edu/abs/2021arXiv211204759M/abstract": "Melandri, Izzo, Pian, Malesani, Della Valle, Rossi, D'Avanzo, Guetta, Mazzali, Benetti, Masetti, Palazzi, Savaglio, Amati, Antonelli, Ashall, Bernardini, Campana, Carini, Covino, D'Elia, de Ugarte Postigo, De Pasquale, Filippenko, Fruchter, Fynbo, Giunta, Hartmann, Jakobsson, Japelj, Jonker, Kann, Lamb, Levan, Martin-Carrillo, Moller, Piranomonte, Pugliese, Salvaterra, Schulze, Starling, Stella, Tagliaferri, Tanvir, & Watson 2021\n"
+    "https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract": {
+        "names": "Reichart",
+        "year": "1999"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2000ApJ...536..185G/abstract": {
+        "names": "Galama et al.",
+        "year": "2000"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2003ApJ...582..924G/abstract": {
+        "names": "Garnavich et al.",
+        "year": "2003"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2005A%26A...437..411G/abstract": {
+        "names": "Gorosabel et al.",
+        "year": "2005"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract": {
+        "names": "Pugliese et al.",
+        "year": "2005"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2006ApJ...642L.103D/abstract": {
+        "names": "Della Valle et al.",
+        "year": "2006"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2013ApJ...766...30G/abstract": {
+        "names": "Gendre et al.",
+        "year": "2013"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2013ApJ...776...98X/abstract": {
+        "names": "Xu et al.",
+        "year": "2013"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract": {
+        "names": "Cano et al.",
+        "year": "2014"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2016ApJ...818...79T/abstract": {
+        "names": "Toy et al.",
+        "year": "2016"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2017AdAst2017E...5C/abstract": {
+        "names": "Cano et al.",
+        "year": "2017"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2018ApJ...867..147W/abstract": {
+        "names": "Wang et al.",
+        "year": "2018"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract": {
+        "names": "Klose et al.",
+        "year": "2019"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2019A%26A...624A.143K/abstract": {
+        "names": "Kann et al.",
+        "year": "2019"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.5824A/abstract": {
+        "names": "Ashall et al.",
+        "year": "2019"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.5366M/abstract": {
+        "names": "Melandri et al.",
+        "year": "2019"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2020ApJ...893..132H/abstract": {
+        "names": "Ho et al.",
+        "year": "2020"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract": {
+        "names": "Hu et al.",
+        "year": "2021"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2021NatAs.tmp..142A/abstract": {
+        "names": "Ahumada et al.",
+        "year": "2021"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2021arXiv211204759M/abstract": {
+        "names": "Melandri et al.",
+        "year": "2021"
+    }
 }
