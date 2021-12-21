@@ -34,7 +34,7 @@ def bibcode_names():
 	return bibcodes, hyperlinks
 
 bibcodes, hyperlinks = bibcode_names()
-print(bibcodes)
+#print(bibcodes)
 #API Access
 #Code copied from the howto for the ADS API (though some of it is mine too)
 #https://github.com/adsabs/adsabs-dev-api/blob/master/Converting_curl_to_python.ipynb
@@ -79,7 +79,7 @@ def secondary_bibcode_names():
 	return bibcodes, hyperlinks
 
 bibcodes2, hyperlinks2 = secondary_bibcode_names()
-print(bibcodes2)
+#print(bibcodes2)
 #API Access
 #Code copied from the howto for the ADS API (though some of it is mine too)
 #https://github.com/adsabs/adsabs-dev-api/blob/master/Converting_curl_to_python.ipynb
@@ -92,12 +92,19 @@ for i in range(len(bibcodes2)):
 	                 headers={"Authorization": "Bearer " + token, "Content-type": "application/json"}, \
 	                 data=json.dumps(bibcode2))
 	print(r.json())
+	# dictionary2[str(hyperlinks2[i])] = r.json()['export']
 
-	# authors.append(r.json()['export'][:-5])
-	# years.append(r.json()['export'][-5:])
+	author_list = r.json()['export']
+	author_split = r.json()['export'].split(',')
 
-	dictionary2[str(hyperlinks2[i])] = r.json()['export']
-
+	dictionary_a={}
+	if len(author_split)>2:
+		dictionary_a['names'] = author_split[0]+' &'+author_split[1]+' et. al'
+		dictionary_a['year'] = author_list[-5:-1]
+	else:
+		dictionary_a['names'] = author_list[:-6]
+		dictionary_a['year'] = author_list[-5:-1]
+	dictionary2[str(hyperlinks2[i])] = dictionary_a
 #Save the dictionary with json.dump()
 file = open("citations2.json", 'w')
 json.dump(dictionary2, file, sort_keys=True, indent=4, separators=(',', ': '))
