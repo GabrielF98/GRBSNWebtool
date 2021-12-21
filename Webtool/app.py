@@ -11,7 +11,7 @@ from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput
 from bokeh.io import curdoc
 from bokeh.resources import INLINE
 from bokeh.embed import components
-from bokeh.layouts import gridplot, Spacer, column, layout
+from bokeh.layouts import gridplot, Spacer
 from bokeh.plotting import figure, output_file, show
 from flask import Flask, request, render_template, abort, Response, flash
 from bokeh.plotting import figure
@@ -347,6 +347,7 @@ def event(event_id):
     #Aesthetics
     xray.title.text_font_size = '20pt'
     xray.title.text_color = 'black'
+    xray
     xray.title.align = 'center'
 
     #Axis font size
@@ -555,7 +556,7 @@ def event(event_id):
     spectrum.border_fill_color = 'white'
 
 
-    script, div = components(layout([[xray, radio], [optical], [spectrum]], sizing_mode='scale_both'))
+    script, div = components(gridplot([xray, radio, optical, spectrum], ncols=2, merge_tools = False))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
