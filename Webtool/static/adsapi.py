@@ -51,7 +51,18 @@ for i in range(len(bibcodes)):
 	                 data=json.dumps(bibcode))
 	print(r.json())
 
-	dictionary[str(hyperlinks[i])] = r.json()['export']
+	#dictionary[str(hyperlinks[i])] = r.json()['export']
+	author_list = r.json()['export']
+	author_split = r.json()['export'].split(',')
+
+	dictionary_a={}
+	if len(author_split)>2:
+		dictionary_a['names'] = author_split[0]+' et al.'
+		dictionary_a['year'] = author_list[-5:-1]
+	else:
+		dictionary_a['names'] = author_list[:-6]
+		dictionary_a['year'] = author_list[-5:-1]
+	dictionary[str(hyperlinks[i])] = dictionary_a
 
 #Save the dictionary with json.dump()
 file = open("citations.json", 'w')
@@ -99,7 +110,7 @@ for i in range(len(bibcodes2)):
 
 	dictionary_a={}
 	if len(author_split)>2:
-		dictionary_a['names'] = author_split[0]+' &'+author_split[1]+' et. al'
+		dictionary_a['names'] = author_split[0]+' et al.'
 		dictionary_a['year'] = author_list[-5:-1]
 	else:
 		dictionary_a['names'] = author_list[:-6]
