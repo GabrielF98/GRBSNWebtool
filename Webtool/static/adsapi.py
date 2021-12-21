@@ -34,7 +34,7 @@ def bibcode_names():
 	return bibcodes, hyperlinks
 
 bibcodes, hyperlinks = bibcode_names()
-#print(bibcodes)
+
 #API Access
 #Code copied from the howto for the ADS API (though some of it is mine too)
 #https://github.com/adsabs/adsabs-dev-api/blob/master/Converting_curl_to_python.ipynb
@@ -90,7 +90,7 @@ def secondary_bibcode_names():
 	return bibcodes, hyperlinks
 
 bibcodes2, hyperlinks2 = secondary_bibcode_names()
-#print(bibcodes2)
+
 #API Access
 #Code copied from the howto for the ADS API (though some of it is mine too)
 #https://github.com/adsabs/adsabs-dev-api/blob/master/Converting_curl_to_python.ipynb
