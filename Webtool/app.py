@@ -7,7 +7,7 @@ import numpy as np
 import json
 
 #Pieces for Bokeh
-from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput
+from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput, HoverTool
 from bokeh.io import curdoc
 from bokeh.resources import INLINE
 from bokeh.embed import components
@@ -164,7 +164,7 @@ def get_grb_data(event_id):
         event_id = event_id.split('_')[0][3:]
         path = './static/long_grbs/'
         files = glob.glob(path+'/*.txt')
-        print(files)
+        #print(files)
 
         for i in range(len(files)):
             if str(event_id) in str(files[i]):
@@ -411,45 +411,45 @@ def event(event_id):
                 optical.scatter(new_df['time'], new_df['magnitude'], legend_label=str(j), size=10, color=next(color))
             optical.y_range.flipped = True
 
-        #Aesthetics
+    #Aesthetics
 
-        #Title
-        optical.title.text_font_size = '20pt'
-        optical.title.text_color = 'black'
-        optical.title.align = 'center'
+    #Title
+    optical.title.text_font_size = '20pt'
+    optical.title.text_color = 'black'
+    optical.title.align = 'center'
 
-        #Axis font size
-        optical.yaxis.axis_label_text_font_size = '16pt'
-        optical.xaxis.axis_label_text_font_size = '16pt'
+    #Axis font size
+    optical.yaxis.axis_label_text_font_size = '16pt'
+    optical.xaxis.axis_label_text_font_size = '16pt'
 
-        #Font Color 
-        optical.xaxis.axis_label_text_color = 'black'
-        optical.xaxis.major_label_text_color = 'black'
+    #Font Color 
+    optical.xaxis.axis_label_text_color = 'black'
+    optical.xaxis.major_label_text_color = 'black'
 
-        optical.yaxis.axis_label_text_color = 'black'
-        optical.yaxis.major_label_text_color = 'black'
+    optical.yaxis.axis_label_text_color = 'black'
+    optical.yaxis.major_label_text_color = 'black'
 
-        #Tick colors 
-        optical.xaxis.major_tick_line_color = 'black'
-        optical.yaxis.major_tick_line_color = 'black'
+    #Tick colors 
+    optical.xaxis.major_tick_line_color = 'black'
+    optical.yaxis.major_tick_line_color = 'black'
 
-        optical.xaxis.minor_tick_line_color = 'black'
-        optical.yaxis.minor_tick_line_color = 'black'
+    optical.xaxis.minor_tick_line_color = 'black'
+    optical.yaxis.minor_tick_line_color = 'black'
 
-        #Axis labels
-        optical.xaxis.axis_label = 'Time [MJD]'
-        optical.yaxis.axis_label = 'Apparent Magnitude'
+    #Axis labels
+    optical.xaxis.axis_label = 'Time [MJD]'
+    optical.yaxis.axis_label = 'Apparent Magnitude'
 
-        #Axis Colors
-        optical.xaxis.axis_line_color = 'black'
-        optical.yaxis.axis_line_color = 'black'
+    #Axis Colors
+    optical.xaxis.axis_line_color = 'black'
+    optical.yaxis.axis_line_color = 'black'
 
-        #Make ticks larger
-        optical.xaxis.major_label_text_font_size = '16pt'
-        optical.yaxis.major_label_text_font_size = '16pt'
+    #Make ticks larger
+    optical.xaxis.major_label_text_font_size = '16pt'
+    optical.yaxis.major_label_text_font_size = '16pt'
 
-        optical.background_fill_color = 'white'
-        optical.border_fill_color = 'white'
+    optical.background_fill_color = 'white'
+    optical.border_fill_color = 'white'
 
 
     ######################################################################################
@@ -499,28 +499,57 @@ def event(event_id):
     radio.border_fill_color = 'white'
 
     ######################################################################################
-    #####SPECTRA##########################################################################
+    #####SNe SPECTRA######################################################################
     ######################################################################################
-    spectrum = figure(title='Spectrum', toolbar_location="right")
-    # add a line renderer with legend and line thickness
-    #spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
-        #Aesthetics
-
+    #Selection tools we want to display
+    select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset']
+    spectrum = figure(title='Spectrum', toolbar_location="right", y_axis_type="log", y_range=[10**-17, 10**-14], tools=select_tools)
     if event[0]['SNe'] != None:
 
-        path = './static/SNE-OpenSN-Data/spectra/'+str(event[0]['SNe'])+'/'
-        files = glob.glob(path+'/*.csv')
+        #Access the data in the files for the SNe Spectra
+        path = './static/SNE-OpenSN-Data/spectraJSON/'+str(event[0]['SNe'])+'/'
+        files = glob.glob(path+'/*.json')
 
-        color = viridis(45)
+        color = viridis(45) #Colormap to be used - 45 is the max number of spectra im expecting for a single event 
         for i in range(len(files)):
-            data_i = pd.read_csv(files[i])
-            spectrum.line(data_i['wavelength'], data_i['flux'], color=color[i])
-        
+            with open(files[i]) as json_file:
+                data_i = json.load(json_file)
+
+                #Transfer the plottable data to a df for ease of use
+                #df = pd.DataFrame(data_i['SN'+str(event[0]['SNe'])]['spectra']['data'], columns=['Wavelength', 'Flux'])
+
+                #Split the data into two lists, one wavelengths and one flux
+                wavelength, flux = zip(*data_i['SN'+str(event[0]['SNe'])]['spectra']['data'])
+                
+                wavelength, flux = list(wavelength), list(flux)
+
+                #Create a dictionary of the necessary info
+                data_dict = {'wavelength': wavelength, 'flux': flux,
+                            'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength)}
+
+                #Convert the dict to a column data object
+                source = ColumnDataSource(data_dict)
+
+                #Tooltips of what will display in the hover mode
+                # Format the tooltip
+                tooltips = [
+                            ('Wavelength [Å]', '@wavelength{0}'),
+                            ('Flux', '@flux'),
+                            ('Date [MJD]', '@time'),
+                            ('Source', '5')   
+                           ]
+                spectrum.line('wavelength', 'flux', source=source, color=color[i])
+                
+    # Add the HoverTool to the figure
+    spectrum.add_tools(HoverTool(tooltips=tooltips))
+
+    
+    #Aesthetics    
     #Title
     spectrum.title.text_font_size = '20pt'
     spectrum.title.text_color = 'black'
     spectrum.title.align = 'center'
-    
+
     #Axis font size
     spectrum.yaxis.axis_label_text_font_size = '16pt'
     spectrum.xaxis.axis_label_text_font_size = '16pt'
@@ -540,7 +569,7 @@ def event(event_id):
     spectrum.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    spectrum.xaxis.axis_label = ''
+    spectrum.xaxis.axis_label = 'Wavelength [Å]'
     spectrum.yaxis.axis_label = 'Flux'
 
     #Axis Colors
