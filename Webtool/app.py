@@ -530,6 +530,10 @@ def event(event_id):
     #Blank tooltips
     tooltips = []
 
+    #Spectra sources
+    spec_refs = []
+    spec_cites = []
+        
     if event[0]['SNe'] != None:
 
         #Access the data in the files for the SNe Spectra
@@ -538,9 +542,7 @@ def event(event_id):
 
         color = viridis(45) #Colormap to be used - 45 is the max number of spectra im expecting for a single event 
 
-        #Spectra sources
-        spec_refs = []
-        spec_cites = [] 
+         
 
         for i in range(len(files)):
             with open(files[i]) as json_file:

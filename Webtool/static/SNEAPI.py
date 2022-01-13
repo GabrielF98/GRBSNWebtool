@@ -92,8 +92,17 @@ for i in range(len(names)):
 				for j in sources:
 					keys = spec_source[str(names[i])]['sources'][int(j)-1].keys()
 
+					# if 'bibcode' in keys:
+					# 	ref = {'name':spec_source[str(names[i])]['sources'][int(j)-1]['reference'], 
+					# 			'url':'https://ui.adsabs.harvard.edu/abs/'+str(spec_source[str(names[i])]['sources'][int(j)-1]['bibcode'])+'/abstract'} #ADS link from bibcode
+
+					# 	list_of_sources.append(ref)
+
 					if 'bibcode' in keys:
-						ref = {'name':spec_source[str(names[i])]['sources'][int(j)-1]['reference'], 
+						string = spec_source[str(names[i])]['sources'][int(j)-1]['reference']
+						string = string.replace("(","").replace(")","")
+						print(string)
+						ref = {'name':string, 
 								'url':'https://ui.adsabs.harvard.edu/abs/'+str(spec_source[str(names[i])]['sources'][int(j)-1]['bibcode'])+'/abstract'} #ADS link from bibcode
 
 						list_of_sources.append(ref)
@@ -151,7 +160,10 @@ for i in range(len(names)):
 					keys = spec_source[str(names[i])]['sources'][int(j)-1].keys()
 
 					if 'bibcode' in keys:
-						ref = {'name':spec_source[str(names[i])]['sources'][int(j)-1]['reference'], 
+						string = spec_source[str(names[i])]['sources'][int(j)-1]['reference']
+						string = string.replace("(","").replace(")","")
+						print(string)
+						ref = {'name':string, 
 								'url':'https://ui.adsabs.harvard.edu/abs/'+str(spec_source[str(names[i])]['sources'][int(j)-1]['bibcode'])+'/abstract'} #ADS link from bibcode
 
 						list_of_sources.append(ref)
