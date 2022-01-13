@@ -329,9 +329,21 @@ def z_plotter():
 
 @app.route('/<event_id>')
 def event(event_id):
-    source = ColumnDataSource()
     event, radec = get_post(event_id)
     data = get_grb_data(event_id)
+
+    #References
+    #Primary
+    with open("static/citations.json") as file:
+        dict_refs = json.load(file)
+
+    #Secondary
+    with open("static/citations2.json") as file2:
+        dict_refs2 = json.load(file2)
+
+    ######################################################################################
+    #############DATA FOR THE PLOTS#######################################################
+    ######################################################################################
 
     ######################################################################################
     #####X--RAYS##########################################################################
@@ -502,8 +514,14 @@ def event(event_id):
     #####SNe SPECTRA######################################################################
     ######################################################################################
     #Selection tools we want to display
-    select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset']
-    spectrum = figure(title='Spectrum', toolbar_location="right", y_axis_type="log", y_range=[10**-17, 10**-14], tools=select_tools)
+    select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset'] 
+
+    #Figure
+    spectrum = figure(title='Spectrum', toolbar_location="right", y_axis_type="log", y_range=[1e-17, 1e-14], tools=select_tools)
+    
+    #Blank tooltips
+    tooltips = []
+
     if event[0]['SNe'] != None:
 
         #Access the data in the files for the SNe Spectra
@@ -511,6 +529,11 @@ def event(event_id):
         files = glob.glob(path+'/*.json')
 
         color = viridis(45) #Colormap to be used - 45 is the max number of spectra im expecting for a single event 
+
+        #Spectra sources
+        spec_refs = []
+        spec_cites = [] 
+
         for i in range(len(files)):
             with open(files[i]) as json_file:
                 data_i = json.load(json_file)
@@ -523,12 +546,32 @@ def event(event_id):
                 
                 wavelength, flux = list(wavelength), list(flux)
 
+                sources = data_i['SN'+str(event[0]['SNe'])]['spectra']['source']
+                # source_nos = #This is supposed to show the number to be assigned to a particular source. 
+
+                # for k in range(len(sources)):
+                #     #Check if we are already using this reference for some of the data in the tables or for another spectrum
+                #     if k['url'] not in dict_refs.keys() or dict_refs2.keys() or spec_refs:
+                #         spec_refs.append(k['url'])
+                #         spec_cites.append(k['name'])
+                        
+                #     #If it is in the dictionaries already then we need to use the same number somehow for this spectrum
+                #     elif k['url'] in dict_refs.keys():
+                #         #Get the number in here somehow
+
+                #     elif k['url'] in dict_refs2.keys():
+                #         #Get the number in here somehow
+
+                #     elif k['url'] in spec_refs: 
+                #         #Get the number in here somehow
+
                 #Create a dictionary of the necessary info
                 data_dict = {'wavelength': wavelength, 'flux': flux,
-                            'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength)}
+                            'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength),
+                            'sources':[len(sources)+i]*len(wavelength)}
 
                 #Convert the dict to a column data object
-                source = ColumnDataSource(data_dict)
+                data_source = ColumnDataSource(data_dict)
 
                 #Tooltips of what will display in the hover mode
                 # Format the tooltip
@@ -536,9 +579,9 @@ def event(event_id):
                             ('Wavelength [Å]', '@wavelength{0}'),
                             ('Flux', '@flux'),
                             ('Date [MJD]', '@time'),
-                            ('Source', '5')   
+                            ('Source', '@sources')   
                            ]
-                spectrum.line('wavelength', 'flux', source=source, color=color[i])
+                spectrum.line('wavelength', 'flux', source=data_source, color=color[i])
                 
     # Add the HoverTool to the figure
     spectrum.add_tools(HoverTool(tooltips=tooltips))
@@ -587,16 +630,6 @@ def event(event_id):
     script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, merge_tools = False))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
-
-    #References
-    #Primary
-    with open("static/citations.json") as file:
-        dict_refs = json.load(file)
-
-    #Secondary
-    with open("static/citations2.json") as file2:
-        dict_refs2 = json.load(file2)
-
 
     #Return everything
     return render_template('event.html', event=event, radec=radec, dict=dict_refs, dict2=dict_refs2, **kwargs)
