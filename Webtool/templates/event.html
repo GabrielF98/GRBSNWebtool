@@ -405,10 +405,22 @@
   {% endfor %}
 
   {% for i in range(spec_refs|length)%}
+    {% if '20' in spec_cites[i][-5:] %}
       <tr>
         <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+event|length+1}} </a></td>
         <td> {{spec_cites[i][:-5]}}<b>{{spec_cites[i][-5:]}}</b>: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
-      </tr> 
+      </tr>
+    {% elif '19' in spec_cites[i][-5:] %}
+      <tr>
+        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+event|length+1}} </a></td>
+        <td> {{spec_cites[i][:-5]}}<b>{{spec_cites[i][-5:]}}</b>: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
+      </tr>
+    {% else %}
+      <tr>
+        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+event|length+1}} </a></td>
+        <td> {{spec_cites[i]}}: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
+      </tr>
+    {% endif %} 
   {% endfor %}
   </table>
   
