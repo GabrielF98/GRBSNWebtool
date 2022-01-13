@@ -341,6 +341,9 @@ def event(event_id):
     with open("static/citations2.json") as file2:
         dict_refs2 = json.load(file2)
 
+    for i in event[0]:
+        print(i)
+
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################
     ######################################################################################
@@ -351,7 +354,7 @@ def event(event_id):
     t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
     # create a new plot with a title and axis labels
 
-    plot = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    plot = figure(title='X-ray (GRB)', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     
     # add a line renderer with legend and line thickness
     plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
@@ -403,7 +406,7 @@ def event(event_id):
     ######################################################################################
     from bokeh.palettes import Category20_20
 
-    optical = figure(title='Optical', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
 
     #Extract and plot the optical photometry data from the photometry file for each SN
@@ -467,7 +470,7 @@ def event(event_id):
     ######################################################################################
     #####RADIO############################################################################
     ######################################################################################
-    radio = figure(title='Radio', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    radio = figure(title='Radio (GRB)', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
     #radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
@@ -517,7 +520,7 @@ def event(event_id):
     select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset'] 
 
     #Figure
-    spectrum = figure(title='Spectrum', toolbar_location="right", y_axis_type="log", y_range=[1e-17, 1e-14], tools=select_tools)
+    spectrum = figure(title='Spectrum (SN)', toolbar_location="right", y_axis_type="log", y_range=[1e-17, 1e-14], tools=select_tools)
     
     #Blank tooltips
     tooltips = []
@@ -538,9 +541,6 @@ def event(event_id):
             with open(files[i]) as json_file:
                 data_i = json.load(json_file)
 
-                #Transfer the plottable data to a df for ease of use
-                #df = pd.DataFrame(data_i['SN'+str(event[0]['SNe'])]['spectra']['data'], columns=['Wavelength', 'Flux'])
-
                 #Split the data into two lists, one wavelengths and one flux
                 wavelength, flux = zip(*data_i['SN'+str(event[0]['SNe'])]['spectra']['data'])
                 
@@ -554,7 +554,7 @@ def event(event_id):
                 #     if k['url'] not in dict_refs.keys() or dict_refs2.keys() or spec_refs:
                 #         spec_refs.append(k['url'])
                 #         spec_cites.append(k['name'])
-                        
+
                 #     #If it is in the dictionaries already then we need to use the same number somehow for this spectrum
                 #     elif k['url'] in dict_refs.keys():
                 #         #Get the number in here somehow
