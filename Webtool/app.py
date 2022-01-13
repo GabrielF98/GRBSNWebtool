@@ -341,8 +341,13 @@ def event(event_id):
     with open("static/citations2.json") as file2:
         dict_refs2 = json.load(file2)
 
-    for i in event[0]:
-        print(i)
+    #Find out how many of these references are needed
+    needed_dict = {} 
+    for i in range(len(event)):
+        if event[i]['PrimarySources']!=None:
+            needed_dict[event[i]['PrimarySources']] = dict_refs[event[i]['PrimarySources']]
+        elif event[i]['SecondarySources']!=None:
+            needed_dict[event[i]['SecondarySources']] = dict_refs[event[i]['SecondarySources']]
 
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################
@@ -546,29 +551,28 @@ def event(event_id):
                 
                 wavelength, flux = list(wavelength), list(flux)
 
-                sources = data_i['SN'+str(event[0]['SNe'])]['spectra']['source']
-                # source_nos = #This is supposed to show the number to be assigned to a particular source. 
-
-                # for k in range(len(sources)):
-                #     #Check if we are already using this reference for some of the data in the tables or for another spectrum
-                #     if k['url'] not in dict_refs.keys() or dict_refs2.keys() or spec_refs:
-                #         spec_refs.append(k['url'])
-                #         spec_cites.append(k['name'])
-
-                #     #If it is in the dictionaries already then we need to use the same number somehow for this spectrum
-                #     elif k['url'] in dict_refs.keys():
-                #         #Get the number in here somehow
-
-                #     elif k['url'] in dict_refs2.keys():
-                #         #Get the number in here somehow
-
-                #     elif k['url'] in spec_refs: 
-                #         #Get the number in here somehow
-
                 #Create a dictionary of the necessary info
                 data_dict = {'wavelength': wavelength, 'flux': flux,
-                            'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength),
-                            'sources':[len(sources)+i]*len(wavelength)}
+                            'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength)}
+
+                #SOURCES
+                sources = data_i['SN'+str(event[0]['SNe'])]['spectra']['source']
+                source_indices = [] #This is supposed to show the number to be assigned to a particular source. 
+
+                for k in range(len(sources)):
+                    #Check if we are already using this reference for some of the data in the tables or for another spectrum
+                    if sources[k]['url'] in needed_dict.keys():
+                        source_indices.append(list(needed_dict.keys()).index(sources[k]['url'])+1)
+
+                    elif sources[k]['url'] in spec_refs:
+                        source_indices.append(spec_refs.index(sources[k]['url'])+3)
+
+                    else:
+                        spec_refs.append(sources[k]['url'])
+                        spec_cites.append(sources[k]['name'])
+                        source_indices.append(spec_refs.index(sources[k]['url'])+3)
+
+                data_dict['sources'] = [source_indices]*len(wavelength)
 
                 #Convert the dict to a column data object
                 data_source = ColumnDataSource(data_dict)
@@ -632,7 +636,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     #Return everything
-    return render_template('event.html', event=event, radec=radec, dict=dict_refs, dict2=dict_refs2, **kwargs)
+    return render_template('event.html', event=event, radec=radec, dict=dict_refs, dict2=dict_refs2, spec_refs=spec_refs, spec_cites=spec_cites, **kwargs)
 
 @app.route('/docs')
 def docs():
