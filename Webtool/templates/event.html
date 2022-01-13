@@ -403,6 +403,13 @@
       {% endif %}
     {% endif %}  
   {% endfor %}
+
+  {% for i in range(spec_refs|length)%}
+      <tr>
+        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+event|length+1}} </a></td>
+        <td> {{spec_cites[i][:-5]}}<b>{{spec_cites[i][-5:]}}</b>: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
+      </tr> 
+  {% endfor %}
   </table>
   
 </div>
