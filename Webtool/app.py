@@ -11,7 +11,7 @@ from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput, Hover
 from bokeh.io import curdoc
 from bokeh.resources import INLINE
 from bokeh.embed import components
-from bokeh.layouts import gridplot, Spacer
+from bokeh.layouts import gridplot, Spacer, layout, column, row
 from bokeh.plotting import figure, output_file, show
 from flask import Flask, request, render_template, abort, Response, flash
 from bokeh.plotting import figure
@@ -525,7 +525,7 @@ def event(event_id):
     select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset'] 
 
     #Figure
-    spectrum = figure(title='Spectrum (SN)', toolbar_location="right", y_axis_type="log", y_range=[1e-17, 1e-14], tools=select_tools)
+    spectrum = figure(title='Spectrum (SN)', toolbar_location="right", tools=select_tools)
     
     #Blank tooltips
     tooltips = []
@@ -534,6 +534,10 @@ def event(event_id):
     spec_refs = []
     spec_cites = []
 
+    #The unit for wavelength
+    wave_unit = ''
+    min_spec= [0]
+    max_spec=[10]
     if event[0]['SNe'] != None:
 
         #Access the data in the files for the SNe Spectra
@@ -543,8 +547,8 @@ def event(event_id):
         color = viridis(45) #Colormap to be used - 45 is the max number of spectra im expecting for a single event 
 
          
-        max_spec = 0
-        min_spec = 0
+        max_spec = np.zeros(len(files))
+        min_spec = np.zeros(len(files))
         for i in range(len(files)):
             with open(files[i]) as json_file:
                 data_i = json.load(json_file)
@@ -592,14 +596,16 @@ def event(event_id):
                            ]
 
                 #Calculating the extent of the limits on the plots
+                float_flux = []
                 for j in flux:
-                    if float(j)>max_spec:
-                        max_spec=float(j)
-                    elif float(j)<min_spec:
-                        min_spec=float(j)
+                    float_flux.append(float(j))
+
+                max_spec[i] = max(float_flux)
+                min_spec[i] = min(float_flux)
+
 
                 spectrum.line('wavelength', 'flux', source=data_source, color=color[i])
-                
+                wave_unit = '['+data_i['SN'+str(event[0]['SNe'])]['spectra']['u_wavelengths']+']'
     # Add the HoverTool to the figure
     spectrum.add_tools(HoverTool(tooltips=tooltips))
 
@@ -629,7 +635,7 @@ def event(event_id):
     spectrum.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    spectrum.xaxis.axis_label = 'Wavelength [Å]'
+    spectrum.xaxis.axis_label = 'Wavelength '+wave_unit
     spectrum.yaxis.axis_label = 'Flux'
 
     #Axis Colors
@@ -644,7 +650,8 @@ def event(event_id):
     spectrum.border_fill_color = 'white'
 
     #Range
-    spectrum.y_range=Range1d(min_spec, max_spec)
+    print('The min and max are', min_spec, max_spec)
+    spectrum.y_range=Range1d(min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
 
     script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, merge_tools = False))
     kwargs = {'script': script, 'div': div}
