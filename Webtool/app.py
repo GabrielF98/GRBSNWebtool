@@ -7,7 +7,7 @@ import numpy as np
 import json
 
 #Pieces for Bokeh
-from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput, HoverTool
+from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput, HoverTool, Range1d
 from bokeh.io import curdoc
 from bokeh.resources import INLINE
 from bokeh.embed import components
@@ -533,7 +533,7 @@ def event(event_id):
     #Spectra sources
     spec_refs = []
     spec_cites = []
-        
+
     if event[0]['SNe'] != None:
 
         #Access the data in the files for the SNe Spectra
@@ -543,7 +543,8 @@ def event(event_id):
         color = viridis(45) #Colormap to be used - 45 is the max number of spectra im expecting for a single event 
 
          
-
+        max_spec = 0
+        min_spec = 0
         for i in range(len(files)):
             with open(files[i]) as json_file:
                 data_i = json.load(json_file)
@@ -556,6 +557,8 @@ def event(event_id):
                 #Create a dictionary of the necessary info
                 data_dict = {'wavelength': wavelength, 'flux': flux,
                             'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength)}
+
+                
 
                 #SOURCES
                 sources = data_i['SN'+str(event[0]['SNe'])]['spectra']['source']
@@ -587,6 +590,14 @@ def event(event_id):
                             ('Date [MJD]', '@time'),
                             ('Source', '@sources')   
                            ]
+
+                #Calculating the extent of the limits on the plots
+                for j in flux:
+                    if float(j)>max_spec:
+                        max_spec=float(j)
+                    elif float(j)<min_spec:
+                        min_spec=float(j)
+
                 spectrum.line('wavelength', 'flux', source=data_source, color=color[i])
                 
     # Add the HoverTool to the figure
@@ -632,6 +643,8 @@ def event(event_id):
     spectrum.background_fill_color = 'white'
     spectrum.border_fill_color = 'white'
 
+    #Range
+    spectrum.y_range=Range1d(min_spec, max_spec)
 
     script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, merge_tools = False))
     kwargs = {'script': script, 'div': div}
