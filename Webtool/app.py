@@ -418,11 +418,16 @@ def event(event_id):
 
     #Extract and plot the optical photometry data from the photometry file for each SN
     if event[0]['SNe'] != None:
+        #Start here
+        #Access the data in the files for the SNe photometry
+        filename = './static/SNE-OpenSN-Data/photJSON/'+str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.json'
 
-        data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/'+str(event[0]['SNe'])+'.csv')
-        if data.empty == True:
-            print()
-        else:
+        with open(filename) as json_file:
+            data_i = json.load(json_file)
+
+            #Split the data into two lists, one wavelengths and one flux "time": "50929.6", "band": "R", "magnitude": "15.58", "u_time": "MJD"
+            a, b, c, d, e = zip(*data_i['SN'+str(event[0]['SNe'])]['photometry'])
+
             bands = set(data['band'])
 
 
