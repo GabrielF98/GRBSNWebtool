@@ -1,0 +1,35 @@
+Table 1 
+Log of the Late-time Observations Reported Here
+
+
+Time Post-	Telescope/	Filter	Exposure	Flux	Error	Aperture	
+burst (days)	camera		time (s)	(muJy)		(diameter arcsec)	
+  3.36	Gemini-N/GMOS	r	5 x 200	4.33	0.08	2.0	
+  3.38	Gemini-N/GMOS	i	5 x 200	5.40	0.10	2.0	
+  5.22	Gemini-N/GMOS	r	5 x 100	2.51	0.09	2.0	
+  5.23	Gemini-N/GMOS	i	5 x 100	2.91	0.11	2.0	
+ 12.3	Gemini-N/GMOS	r	5 x 100	0.96	0.05	2.0	
+ 12.3	Gemini-N/GMOS	i	5 x 100	1.27	0.07	2.0	
+ 26.3^a	Gemini-N/GMOS	g	6 x 180	0.174	0.013	1.5	
+ 26.3^a	Gemini-N/GMOS	r	6 x 180	0.39	0.03	1.5	
+ 26.3^a	Gemini-N/GMOS	i	6 x 180	0.74	0.03	1.5	
+ 27.7^a	Gemini-N/GMOS	z	6 x 180	1.09	0.16	1.5	
+ 53.2	Gemini-N/GMOS	g	9 x 300	0.099	0.020	1.5	
+106.1	Gemini-N/GMOS	g	9 x 350	0.072	0.007	1.5	
+319.3	Gemini-N/GMOS	r	10 x 450	0.062	0.009	1.5	
+463.1	Gemini-N/GMOS	i	10 x 360	0.125	0.019	1.5	
+ 16.0	VLT/FORS1	B	6 x 300	0.49	0.08	1.5	
+ 25.0	VLT/FORS1	B	6 x 300	0.24	0.04	1.5	
+ 51.0	VLT/FORS2	B	18 x 300	0.071	0.023	1.5	
+ 18.9^b	HST/WFPC2	F606W	8 x 400	0.55	0.01	0.2	
+ 19.1^b	HST/WFPC2	F814W	8 x 400	0.81	0.02	0.2	
+ 53.4^c	HST/WFPC2	F814W	8 x 400	0.200	0.023	0.2	
+ 53.6^c	HST/WFPC2	F606W	8 x 400	0.066	0.006	0.2	
+106.4	HST/WFPC2	F606W	8 x 400	0.033	0.009	0.2	
+				0.065	0.028	1.0	
+108.3	HST/WFPC2	F814W	8 x 400	0.046	0.027	0.2	
+				0.219	0.045	1.0	
+Notes. This photometry is not corrected for extinction, but the small-aperture HST photometry has been aperture- and CTE-corrected. Note that these fluxes include both transient light and host light within the apertures, whereas in creating Figure 2 the host contribution was modeled and removed, as described in the text.
+a Independent reduction of these data already reported in Tanvir et al. (2008b) and Bloom et al. (2009).
+b Provisional photometry already reported in Tanvir et al. (2008a) and Racusin et al. (2008).
+c Provisional photometry already reported in Levan et al. (2008).
