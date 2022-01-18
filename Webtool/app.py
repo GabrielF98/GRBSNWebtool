@@ -7,19 +7,20 @@ import numpy as np
 import json
 
 #Pieces for Bokeh
-from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput, HoverTool, Range1d
+from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput, HoverTool, Range1d, Label, LabelSet
 from bokeh.io import curdoc
 from bokeh.resources import INLINE
 from bokeh.embed import components
 from bokeh.layouts import gridplot, Spacer, layout, column, row
 from bokeh.plotting import figure, output_file, show
 from flask import Flask, request, render_template, abort, Response, flash
-from bokeh.plotting import figure
-from bokeh.embed import components
 from bokeh.palettes import all_palettes, viridis
 
 #Pandas
 import pandas as pd
+
+#Astropy
+from astropy.time import Time
 
 #Things for making updatable plots
 import io
@@ -534,17 +535,13 @@ def event(event_id):
     spec_refs = []
     spec_cites = []
 
-    #The unit for wavelength
-    wave_unit = ''
-    min_spec= [0]
-    max_spec=[10]
     if event[0]['SNe'] != None:
 
         #Access the data in the files for the SNe Spectra
         path = './static/SNE-OpenSN-Data/spectraJSON/'+str(event[0]['SNe'])+'/'
         files = glob.glob(path+'/*.json')
 
-        color = viridis(45) #Colormap to be used - 45 is the max number of spectra im expecting for a single event 
+        color = viridis(len(files)) #Colormap to be used - 45 is the max number of spectra im expecting for a single event 
 
          
         max_spec = np.zeros(len(files))
@@ -558,12 +555,20 @@ def event(event_id):
                 
                 wavelength, flux = list(wavelength), list(flux)
 
+                #Calculating the extent of the limits on the plots
+                float_flux = []
+                for j in flux:
+                    float_flux.append(float(j))
+
+                max_spec[i] = max(float_flux)
+                min_spec[i] = min(float_flux)
+
                 #Create a dictionary of the necessary info
-                data_dict = {'wavelength': wavelength, 'flux': flux,
+                data_dict = {'wavelength': wavelength, 'flux': float_flux,
                             'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength)}
 
-                
-
+                # spectra_time = Time(data_i['SN'+str(event[0]['SNe'])]['spectra']['time'], format='mjd')
+                # data_dict['time'] = [spectra_time]*len(wavelength)
                 #SOURCES
                 sources = data_i['SN'+str(event[0]['SNe'])]['spectra']['source']
                 source_indices = [] #This is supposed to show the number to be assigned to a particular source. 
@@ -582,6 +587,8 @@ def event(event_id):
                         source_indices.append(spec_refs.index(sources[k]['url'])+3)
 
                 data_dict['sources'] = [source_indices]*len(wavelength)
+                data_dict['wave_unit'] = [data_i['SN'+str(event[0]['SNe'])]['spectra']['u_wavelengths']]*len(wavelength)
+                data_dict['flux_unit'] = [data_i['SN'+str(event[0]['SNe'])]['spectra']['u_fluxes']]*len(wavelength)
 
                 #Convert the dict to a column data object
                 data_source = ColumnDataSource(data_dict)
@@ -590,68 +597,112 @@ def event(event_id):
                 # Format the tooltip
                 tooltips = [
                             ('Wavelength [Å]', '@wavelength{0}'),
+                            ('Wavelength unit', '@wave_unit'),
                             ('Flux', '@flux'),
+                            ('Flux unit', '@flux_unit'),
                             ('Date [MJD]', '@time'),
-                            ('Source', '@sources')   
+                            ('Source', '@sources') 
                            ]
-
-                #Calculating the extent of the limits on the plots
-                float_flux = []
-                for j in flux:
-                    float_flux.append(float(j))
-
-                max_spec[i] = max(float_flux)
-                min_spec[i] = min(float_flux)
 
 
                 spectrum.line('wavelength', 'flux', source=data_source, color=color[i])
-                wave_unit = '['+data_i['SN'+str(event[0]['SNe'])]['spectra']['u_wavelengths']+']'
-    # Add the HoverTool to the figure
-    spectrum.add_tools(HoverTool(tooltips=tooltips))
+                
+        # Add the HoverTool to the figure
+        spectrum.add_tools(HoverTool(tooltips=tooltips))
 
-    
-    #Aesthetics    
-    #Title
-    spectrum.title.text_font_size = '20pt'
-    spectrum.title.text_color = 'black'
-    spectrum.title.align = 'center'
+        
+        #Aesthetics    
+        #Title
+        spectrum.title.text_font_size = '20pt'
+        spectrum.title.text_color = 'black'
+        spectrum.title.align = 'center'
 
-    #Axis font size
-    spectrum.yaxis.axis_label_text_font_size = '16pt'
-    spectrum.xaxis.axis_label_text_font_size = '16pt'
+        #Axis font size
+        spectrum.yaxis.axis_label_text_font_size = '16pt'
+        spectrum.xaxis.axis_label_text_font_size = '16pt'
 
-    #Font Color 
-    spectrum.xaxis.axis_label_text_color = 'black'
-    spectrum.xaxis.major_label_text_color = 'black'
+        #Font Color 
+        spectrum.xaxis.axis_label_text_color = 'black'
+        spectrum.xaxis.major_label_text_color = 'black'
 
-    spectrum.yaxis.axis_label_text_color = 'black'
-    spectrum.yaxis.major_label_text_color = 'black'
+        spectrum.yaxis.axis_label_text_color = 'black'
+        spectrum.yaxis.major_label_text_color = 'black'
 
-    #Tick colors 
-    spectrum.xaxis.major_tick_line_color = 'black'
-    spectrum.yaxis.major_tick_line_color = 'black'
+        #Tick colors 
+        spectrum.xaxis.major_tick_line_color = 'black'
+        spectrum.yaxis.major_tick_line_color = 'black'
 
-    spectrum.xaxis.minor_tick_line_color = 'black'
-    spectrum.yaxis.minor_tick_line_color = 'black'
+        spectrum.xaxis.minor_tick_line_color = 'black'
+        spectrum.yaxis.minor_tick_line_color = 'black'
 
-    #Axis labels
-    spectrum.xaxis.axis_label = 'Wavelength '+wave_unit
-    spectrum.yaxis.axis_label = 'Flux'
+        #Axis labels
+        spectrum.xaxis.axis_label = 'Wavelength [Å]'
+        spectrum.yaxis.axis_label = 'Flux'
 
-    #Axis Colors
-    spectrum.xaxis.axis_line_color = 'black'
-    spectrum.yaxis.axis_line_color = 'black'
+        #Axis Colors
+        spectrum.xaxis.axis_line_color = 'black'
+        spectrum.yaxis.axis_line_color = 'black'
 
-    #Make ticks larger
-    spectrum.xaxis.major_label_text_font_size = '16pt'
-    spectrum.yaxis.major_label_text_font_size = '16pt'
+        #Make ticks larger
+        spectrum.xaxis.major_label_text_font_size = '16pt'
+        spectrum.yaxis.major_label_text_font_size = '16pt'
 
-    spectrum.background_fill_color = 'white'
-    spectrum.border_fill_color = 'white'
+        spectrum.background_fill_color = 'white'
+        spectrum.border_fill_color = 'white'
 
-    #Range
-    print('The min and max are', min_spec, max_spec)
-    spectrum.y_range=Range1d(min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
+        #Range
+        print('The min and max are', min_spec, max_spec)
+        spectrum.y_range=Range1d(min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
+
+    else:
+        # Add the HoverTool to the figure
+        spectrum.add_tools(HoverTool(tooltips=tooltips))
+
+        
+        #Aesthetics    
+        #Title
+        spectrum.title.text_font_size = '20pt'
+        spectrum.title.text_color = 'red'
+        spectrum.title.align = 'center'
+
+        #Axis font size
+        spectrum.yaxis.axis_label_text_font_size = '16pt'
+        spectrum.xaxis.axis_label_text_font_size = '16pt'
+
+        #Font Color 
+        spectrum.xaxis.axis_label_text_color = 'black'
+        spectrum.xaxis.major_label_text_color = 'black'
+
+        spectrum.yaxis.axis_label_text_color = 'black'
+        spectrum.yaxis.major_label_text_color = 'black'
+
+        #Tick colors 
+        spectrum.xaxis.major_tick_line_color = 'black'
+        spectrum.yaxis.major_tick_line_color = 'black'
+
+        spectrum.xaxis.minor_tick_line_color = 'black'
+        spectrum.yaxis.minor_tick_line_color = 'black'
+
+        #Axis labels
+        spectrum.xaxis.axis_label = 'Wavelength'
+        spectrum.yaxis.axis_label = 'Flux'
+
+        #Axis Colors
+        spectrum.xaxis.axis_line_color = 'black'
+        spectrum.yaxis.axis_line_color = 'black'
+
+        #Make ticks larger
+        spectrum.xaxis.major_label_text_font_size = '16pt'
+        spectrum.yaxis.major_label_text_font_size = '16pt'
+
+        spectrum.background_fill_color = 'white'
+        spectrum.border_fill_color = 'white'
+
+        citation = Label(x=70, y=70, x_units='screen', y_units='screen',
+                 text='NO DATA', render_mode='css',
+                 border_line_color='black', border_line_alpha=1.0,
+                 background_fill_color='white', background_fill_alpha=1.0)
+        spectrum.add_layout(citation)
 
     script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, merge_tools = False))
     kwargs = {'script': script, 'div': div}
