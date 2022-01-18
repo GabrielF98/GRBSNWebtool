@@ -360,48 +360,49 @@ def event(event_id):
     t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
     # create a new plot with a title and axis labels
 
-    plot = figure(title='X-ray (GRB)', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     
     # add a line renderer with legend and line thickness
-    plot.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    xray.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
-    plot.title.text_font_size = '20pt'
-    plot.title.text_color = 'black'
-    plot.title.align = 'center'
+    xray.title.text_font_size = '20pt'
+    xray.title.text_color = 'black'
+    xray
+    xray.title.align = 'center'
 
     #Axis font size
-    plot.yaxis.axis_label_text_font_size = '16pt'
-    plot.xaxis.axis_label_text_font_size = '16pt'
+    xray.yaxis.axis_label_text_font_size = '16pt'
+    xray.xaxis.axis_label_text_font_size = '16pt'
 
     #Font Color 
-    plot.xaxis.axis_label_text_color = 'black'
-    plot.xaxis.major_label_text_color = 'black'
+    xray.xaxis.axis_label_text_color = 'black'
+    xray.xaxis.major_label_text_color = 'black'
 
-    plot.yaxis.axis_label_text_color = 'black'
-    plot.yaxis.major_label_text_color = 'black'
+    xray.yaxis.axis_label_text_color = 'black'
+    xray.yaxis.major_label_text_color = 'black'
 
     #Tick colors 
-    plot.xaxis.major_tick_line_color = 'black'
-    plot.yaxis.major_tick_line_color = 'black'
+    xray.xaxis.major_tick_line_color = 'black'
+    xray.yaxis.major_tick_line_color = 'black'
 
-    plot.xaxis.minor_tick_line_color = 'black'
-    plot.yaxis.minor_tick_line_color = 'black'
+    xray.xaxis.minor_tick_line_color = 'black'
+    xray.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    plot.xaxis.axis_label = 'Time [sec]'
-    plot.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+    xray.xaxis.axis_label = 'Time [sec]'
+    xray.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
 
     #Axis Colors
-    plot.xaxis.axis_line_color = 'black'
-    plot.yaxis.axis_line_color = 'black'
+    xray.xaxis.axis_line_color = 'black'
+    xray.yaxis.axis_line_color = 'black'
 
     #Make ticks larger
-    plot.xaxis.major_label_text_font_size = '16pt'
-    plot.yaxis.major_label_text_font_size = '16pt'
+    xray.xaxis.major_label_text_font_size = '16pt'
+    xray.yaxis.major_label_text_font_size = '16pt'
 
-    plot.background_fill_color = 'white'
-    plot.border_fill_color = 'white'
+    xray.background_fill_color = 'white'
+    xray.border_fill_color = 'white'
 
 
 
@@ -649,10 +650,11 @@ def event(event_id):
 
         spectrum.background_fill_color = 'white'
         spectrum.border_fill_color = 'white'
-
+        
         #Range
         print('The min and max are', min_spec, max_spec)
         spectrum.y_range=Range1d(min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
+
 
     else:
         # Add the HoverTool to the figure

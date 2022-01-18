@@ -386,7 +386,7 @@
       {% else %}
       <tr>
         <td><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></td>
-        <td>{{dict[event[i]['PrimarySources']][:-5]}} <b>{{dict[event[i]['PrimarySources']][-5:]}}</b>: <a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{event[i]['PrimarySources']}} </a></td>
+        <td>{{dict[event[i]['PrimarySources']]['names']}} <b>{{dict[event[i]['PrimarySources']]['year']}}</b>: <a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{event[i]['PrimarySources']}} </a></td>
       </tr>
       {% endif %}
     {% elif event[i]['SecondarySources']!=None %}
@@ -398,7 +398,7 @@
       {% else %}
       <tr>
         <td><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></td>
-        <td>{{dict2[event[i]['SecondarySources']][:-5]}} <b>{{dict2[event[i]['SecondarySources']][-5:]}}</b>: <a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{event[i]['SecondarySources']}} </a></td>
+        <td>{{dict2[event[i]['SecondarySources']]['names']}} <b>{{dict2[event[i]['SecondarySources']]['year']}}</b>: <a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{event[i]['SecondarySources']}} </a></td>
       </tr>
       {% endif %}
     {% endif %}  
