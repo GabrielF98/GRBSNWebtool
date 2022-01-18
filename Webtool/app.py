@@ -706,7 +706,7 @@ def event(event_id):
                  background_fill_color='white', background_fill_alpha=1.0)
         spectrum.add_layout(citation)
 
-    script, div = components(gridplot([plot, radio, optical, spectrum], ncols=2, merge_tools = False))
+    script, div = components(gridplot([xray, radio, optical, spectrum], ncols=2, merge_tools = False))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
