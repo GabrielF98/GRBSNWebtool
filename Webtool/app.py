@@ -721,12 +721,58 @@ def docs():
 
 @app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
 def graphs():
-    if request.form.get('orphan'):
-        print('Orphans only')
+    name_dict = {'e_iso':'E$_{iso}$ [erg]', 'z':'Redshift', 'ni_m':'Nickel Mass [M$_{sun}$]', 'ej_m':'Ejecta Mass [M$_{sun}$]', 
+    'E_p':"Peak Energy [erg]", 'e_k':'Kinetic Energy of the GRB [erg]', 'T90':"T$_{90}$ [sec]"}
+    if request.method=='POST':
+        x = request.form.getlist('selectors1')
+        y = request.form.getlist('selectors2')
+        print('Orphans only', x, y)
         return render_template('graphs.html')
 
-    else:
+        plot = figure(title=name_dict[y[0]]+name_dict[y[1]]+x, toolbar_location="right")
+        # add a line renderer with legend and line thickness
+        plot.scatter(t, flux, size=10, fill_color='orange')
 
+        #Aesthetics
+
+        #Title
+        plot.title.text_font_size = '20pt'
+        plot.title.text_color = 'black'
+        plot.title.align = 'center'
+        #Axis font size
+        plot.yaxis.axis_label_text_font_size = '16pt'
+        plot.xaxis.axis_label_text_font_size = '16pt'
+
+        #Font Color 
+        plot.xaxis.axis_label_text_color = 'black'
+        plot.xaxis.major_label_text_color = 'black'
+
+        plot.yaxis.axis_label_text_color = 'black'
+        plot.yaxis.major_label_text_color = 'black'
+
+        #Tick colors 
+        plot.xaxis.major_tick_line_color = 'black'
+        plot.yaxis.major_tick_line_color = 'black'
+
+        plot.xaxis.minor_tick_line_color = 'black'
+        plot.yaxis.minor_tick_line_color = 'black'
+
+        #Axis labels
+        plot.xaxis.axis_label = 'Time [sec]'
+        plot.yaxis.axis_label = 'Flux Density [mJy]'
+
+        #Axis Colors
+        plot.xaxis.axis_line_color = 'black'
+        plot.yaxis.axis_line_color = 'black'
+
+        #Make ticks larger
+        plot.xaxis.major_label_text_font_size = '16pt'
+        plot.yaxis.major_label_text_font_size = '16pt'
+
+        plot.background_fill_color = 'white'
+        plot.border_fill_color = 'white'
+
+    else:
         return render_template('graphs.html')
 
 # Pass the data to be used by the dropdown menu (decorating)
