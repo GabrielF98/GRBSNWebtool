@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+<head>
+  <!-- The stuff to do with the plot -->
+
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh.min.css"
+    rel="stylesheet" type="text/css">
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-widgets.css"
+    rel="stylesheet" type="text/css">
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-tables.css"
+    rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	{% block title %} 
+	<h1><b>Graphing Tool</b></h1>
+	{% endblock %} 
+
+	{% block content %}
+	<h2><b>Select one class of event to plot</b></h2>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> All Events </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> Orphan GRBs Only </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> Spectroscopic SNe Only </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> <p> Photometric SNe Only </p> </label>
+		</div>
+	{% endblock %}
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-widgets.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-tables.js"></script>
+
+
+
+</html>
