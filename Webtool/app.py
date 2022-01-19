@@ -1,6 +1,8 @@
 from flask import Flask, render_template, redirect, url_for, flash, send_file, make_response
 from werkzeug.exceptions import abort
 
+from flask_bootstrap import Bootstrap
+
 #Find the txt files with the right names
 import glob
 import numpy as np
@@ -716,6 +718,10 @@ def event(event_id):
 @app.route('/docs')
 def docs():
     return render_template('docs.html')
+
+@app.route('/graphing') #Graphing tool
+def graphs():
+    return render_template('graphs.html')
 
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
