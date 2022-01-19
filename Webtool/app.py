@@ -719,9 +719,15 @@ def event(event_id):
 def docs():
     return render_template('docs.html')
 
-@app.route('/graphing') #Graphing tool
+@app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
 def graphs():
-    return render_template('graphs.html')
+    if request.form.get('orphan'):
+        print('Orphans only')
+        return render_template('graphs.html')
+
+    else:
+
+        return render_template('graphs.html')
 
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
