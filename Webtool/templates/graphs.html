@@ -22,41 +22,61 @@
 	<h2><b>Select one class of event to plot</b></h2>
 	<form action=""  method = "post" name="selections">
 		<div class="form-check">
-		  <input class="form-check-input" type="checkbox" value="all" name="all" id="flexCheckDefault">
+		  <input class="form-check-input" type="checkbox" value="all" name="selectors1" id="flexCheckDefault">
 		  <label class="form-check-label" for="flexCheckDefault"> All Events </label>
 		</div>
 		<div class="form-check">
-		  <input class="form-check-input" type="checkbox" value="orphan" name="orphan" id="flexCheckDefault">
+		  <input class="form-check-input" type="checkbox" value="orphan" name="selectors1" id="flexCheckDefault">
 		  <label class="form-check-label" for="flexCheckDefault"> Orphan GRBs Only </label>
 		</div>
 		<div class="form-check">
-		  <input class="form-check-input" type="checkbox" value="spec" name="spec" id="flexCheckDefault">
+		  <input class="form-check-input" type="checkbox" value="spec" name="selectors1" id="flexCheckDefault">
 		  <label class="form-check-label" for="flexCheckDefault"> Spectroscopic SNe Only </label>
 		</div>
 		<div class="form-check">
-		  <input class="form-check-input" type="checkbox" value="phot" name="phot" id="flexCheckDefault">
-		  <label class="form-check-label" for="flexCheckDefault"> <p> Photometric SNe Only </p> </label>
+		  <input class="form-check-input" type="checkbox" value="phot" name="selectors1" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> Photometric SNe Only </label>
 		</div>
+<h2><b>Select two parameters to plot</b></h2>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="e_iso" name="selectors2" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> E$_{iso}$ </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="z" name="selectors2" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> z </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="ni_m" name="selectors2" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> Nickel mass </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="ej_m" name="selectors2" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> Ejecta mass </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="E_p" name="selectors2" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> E$_{peak}$ </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="e_k" name="selectors2" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> E$_{k}$ </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="T90" name="selectors2" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> T$_{90}$ </label>
+		</div>
+
 
 		<div class="field is-grouped">
         <div class="control">
           <button class="button is-danger is-small">Delete</button>
         </div>
       </div>
-     </form>
-     <!-- <form action="" method="post" name="orphan">
-      
-        <label class="checkbox">
-              <input type="checkbox" name="orphan" value="orphan"/>
-            </label>
-            <a href="google.ie"> Orphan </a>
 
-      <div class="field is-grouped">
-        <div class="control">
-          <button class="button is-danger is-small">Delete</button>
-        </div>
-      </div>
-    </form> -->
+
+     </form>
+     
 	{% endblock %}
 </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh.min.js"></script>
