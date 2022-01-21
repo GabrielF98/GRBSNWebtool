@@ -211,7 +211,7 @@ def home():
 
     #Ok new plan
     #Going to give it a go with the UNION and INTERSECT commands
-    initial_query = (f"SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
+    initial_query = (f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
     data = conn.execute(initial_query).fetchall()
 
     form = SearchForm(request.form)
@@ -654,10 +654,6 @@ def event(event_id):
         #Range
         print('The min and max are', min_spec, max_spec)
         spectrum.y_range=Range1d(min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
-
-    script, div = components(layout([[xray, radio], [optical], [spectrum]], sizing_mode='scale_both'))
-    kwargs = {'script': script, 'div': div}
-    kwargs['title'] = 'bokeh-with-flask'
 
     else:
         # Add the HoverTool to the figure
