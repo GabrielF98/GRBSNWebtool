@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, flash, send_file, make_response
+from flask import Flask, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
 from werkzeug.exceptions import abort
 
 from flask_bootstrap import Bootstrap
@@ -15,7 +15,6 @@ from bokeh.resources import INLINE
 from bokeh.embed import components
 from bokeh.layouts import gridplot, Spacer, layout, column, row
 from bokeh.plotting import figure, output_file, show
-from flask import Flask, request, render_template, abort, Response, flash
 from bokeh.palettes import all_palettes, viridis
 
 #Pandas
@@ -719,61 +718,159 @@ def event(event_id):
 def docs():
     return render_template('docs.html')
 
+# @app.route('/downloadtxt'):
+# def downloader(datalist):
+#     s = io.StringIO()
+#     dwnld = np.savetxt(s, datalist)
+
+#     #Make the response
+#     resp = make_response(dwnld, mimetype='text')
+
+#     resp.headers.set(
+#           "Content-Disposition", "attachment", filename=".csv".format(file_name)
+#       )
+#     return resp
+
 @app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
 def graphs():
-    name_dict = {'e_iso':'E$_{iso}$ [erg]', 'z':'Redshift', 'ni_m':'Nickel Mass [M$_{sun}$]', 'ej_m':'Ejecta Mass [M$_{sun}$]', 
-    'E_p':"Peak Energy [erg]", 'e_k':'Kinetic Energy of the GRB [erg]', 'T90':"T$_{90}$ [sec]"}
+    category_dict = {'all':'all events', 'orphan':'Orphan GRB Afterglows', 'spec':'Spectroscopic SNe Only', 'phot':'Photometric SNe Only'}
+    name_dict = {'e_iso':'Eiso [erg]', 'z':'Redshift', 
+    'ni_m':u'SN Nickel Mass [M\u2609]', 'ej_m':u'SN Ejecta Mass [M\u2609]',
+     'E_p':"GRB Peak Energy [erg]", 'e_k':'GRB Kinetic Energy [erg]',
+      'T90':"T90 [sec]"}
+
+    axis = {'e_iso':'log', 'z':'linear', 'ni_m':'linear', 'ej_m':'linear',
+     'E_p':"linear", 'e_k':'log', 'T90':"log"}
     if request.method=='POST':
-        x = request.form.getlist('selectors1')
-        y = request.form.getlist('selectors2')
-        print('Orphans only', x, y)
-        return render_template('graphs.html')
+        category = request.form.getlist('selectors1')
 
-        plot = figure(title=name_dict[y[0]]+name_dict[y[1]]+x, toolbar_location="right")
-        # add a line renderer with legend and line thickness
-        plot.scatter(t, flux, size=10, fill_color='orange')
+        x = request.form.getlist('selectors2')
+        y = request.form.getlist('selectors3')
 
+        conn = get_db_connection() #Connect to DB
+
+        if category[0]=='all':
+            #Get the data for the plots
+            data = conn.execute("SELECT DISTINCT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe GROUP BY GRB, SNe".format(a=x[0], b=y[0])).fetchall()
+        
+        elif category[0]=='orphan':
+            #Get the data for the plots
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE GRB IS NULL GROUP BY SNe".format(a=x[0], b=y[0])).fetchall()
+        
+        elif category[0]=='spec':
+            #Get the data for the plots
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NOT NULL GROUP BY SNe".format(a=x[0], b=y[0])).fetchall()
+
+        elif category[0]=='phot':
+        #Get the data for the plots
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NULL GROUP BY GRB".format(a=x[0], b=y[0])).fetchall()
+    
+
+
+        #Data for the graphs, remove the duplicates
+        x_data = []
+        y_data = []
+        grb_name = 'start'
+        sn_name = 'start'
+        
+
+        # for row in data:
+        #     if category[0]=='orphan' or 'all':
+        #         if row['GRB']!=grb_name and row['SNe']!=sn_name:
+        #             if row[2]
+        #             x_data.append(float(row[2]))
+        #             y_data.append(float(row[3]))
+
+
+        #         elif row['GRB']!=grb_name and row['SNe']==None:
+        #             grb_name = row['GRB']
+        #             z_photometric.append(float(row['z'])) 
+
+        #     else:
+
+        
+        x_data_upperx = []
+        x_data_uppery = []
+        x_data_lowerx = []
+        x_data_lowery = []
+
+        
+        y_data_upperx = []
+        y_data_uppery = []
+        y_data_lowerx = []
+        y_data_lowery = []
+
+        for row in data:
+            print(row[0], row[1], row[2], row[3])
+            if str(row[2]).split(',')[0]!='None' and str(row[3]).split(',')[0]!='None':
+                if '<' in str(row[2]).split(',')[0]:
+                    print(row[2].split(',')[0])
+                    x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
+                elif '>' in str(row[2]).split(',')[0]:
+                    print(row[2].split(',')[0])
+                    x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
+                elif '<' in str(row[3]).split(',')[0]:
+                    print(row[3].split(',')[0])
+                    x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
+                elif '>' in str(row[3]).split(',')[0]:
+                    print(row[3].split(',')[0])
+                    x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
+                else:
+                    x_data.append(float(str(row[2]).split(',')[0]))
+                    y_data.append(float(str(row[3]).split(',')[0]))
+
+        data_dict = {x[0]:x_data, y[0]:y_data}
+
+        #Convert the dict to a column data object
+        data_source = ColumnDataSource(data_dict)
+        
+        #Plot the data
+        graph = figure(title=str(name_dict[x[0]])+' vs. '+str(name_dict[y[0]])+' for '+str(category_dict[category[0]]), x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
+        graph.circle(x[0], y[0], source=data_source, size=20, fill_color='orange')
+        graph.inverted_triangle(x_data_upperx, x_data_uppery, size=20, fill_color='blue')
+        graph.triangle(x_data_lowerx, x_data_lowery, size=20, fill_color='red')
+
+        graph.inverted_triangle(y_data_upperx, y_data_uppery, size=20, fill_color='red')
+        graph.triangle(y_data_lowerx, y_data_lowery, size=20, fill_color='red')
+        
         #Aesthetics
-
         #Title
-        plot.title.text_font_size = '20pt'
-        plot.title.text_color = 'black'
-        plot.title.align = 'center'
-        #Axis font size
-        plot.yaxis.axis_label_text_font_size = '16pt'
-        plot.xaxis.axis_label_text_font_size = '16pt'
-
-        #Font Color 
-        plot.xaxis.axis_label_text_color = 'black'
-        plot.xaxis.major_label_text_color = 'black'
-
-        plot.yaxis.axis_label_text_color = 'black'
-        plot.yaxis.major_label_text_color = 'black'
-
-        #Tick colors 
-        plot.xaxis.major_tick_line_color = 'black'
-        plot.yaxis.major_tick_line_color = 'black'
-
-        plot.xaxis.minor_tick_line_color = 'black'
-        plot.yaxis.minor_tick_line_color = 'black'
-
+        graph.title.text_font_size = '13pt'
+        graph.title.text_color = 'black'
+        graph.title.align = 'center'
+    
         #Axis labels
-        plot.xaxis.axis_label = 'Time [sec]'
-        plot.yaxis.axis_label = 'Flux Density [mJy]'
+        graph.xaxis.axis_label = name_dict[x[0]]
+        graph.yaxis.axis_label = name_dict[y[0]]
+
+        graph.xaxis.axis_label_text_font_size = '13pt'
+        graph.yaxis.axis_label_text_font_size = '13pt'
 
         #Axis Colors
-        plot.xaxis.axis_line_color = 'black'
-        plot.yaxis.axis_line_color = 'black'
+        graph.xaxis.axis_line_color = 'black'
+        graph.yaxis.axis_line_color = 'black'
 
         #Make ticks larger
-        plot.xaxis.major_label_text_font_size = '16pt'
-        plot.yaxis.major_label_text_font_size = '16pt'
+        graph.xaxis.major_label_text_font_size = '13pt'
+        graph.yaxis.major_label_text_font_size = '13pt'
 
-        plot.background_fill_color = 'white'
-        plot.border_fill_color = 'white'
+        script, div = components(graph)
+        kwargs = {'script': script, 'div': div}
+        kwargs['title'] = 'bokeh-with-flask'
+        return render_template('graphs.html', **kwargs)
 
     else:
-        return render_template('graphs.html')
+        graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
+        
+        script, div = components(graph)
+        kwargs = {'script': script, 'div': div}
+        kwargs['title'] = 'bokeh-with-flask'    
+        return render_template('graphs.html', **kwargs)
+    
 
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
