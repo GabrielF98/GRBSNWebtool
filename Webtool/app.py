@@ -1,5 +1,7 @@
-from flask import Flask, render_template, redirect, url_for, flash, send_file, make_response
+from flask import Flask, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
 from werkzeug.exceptions import abort
+
+from flask_bootstrap import Bootstrap
 
 #Find the txt files with the right names
 import glob
@@ -7,19 +9,19 @@ import numpy as np
 import json
 
 #Pieces for Bokeh
-from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput
+from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput, HoverTool, Range1d, Label, LabelSet
 from bokeh.io import curdoc
 from bokeh.resources import INLINE
 from bokeh.embed import components
-from bokeh.layouts import gridplot, Spacer, column, layout
+from bokeh.layouts import gridplot, Spacer, layout, column, row
 from bokeh.plotting import figure, output_file, show
-from flask import Flask, request, render_template, abort, Response, flash
-from bokeh.plotting import figure
-from bokeh.embed import components
 from bokeh.palettes import all_palettes, viridis
 
 #Pandas
 import pandas as pd
+
+#Astropy
+from astropy.time import Time
 
 #Things for making updatable plots
 import io
@@ -164,7 +166,7 @@ def get_grb_data(event_id):
         event_id = event_id.split('_')[0][3:]
         path = './static/long_grbs/'
         files = glob.glob(path+'/*.txt')
-        print(files)
+        #print(files)
 
         for i in range(len(files)):
             if str(event_id) in str(files[i]):
@@ -329,9 +331,29 @@ def z_plotter():
 
 @app.route('/<event_id>')
 def event(event_id):
-    #source = ColumnDataSource()
     event, radec = get_post(event_id)
     data = get_grb_data(event_id)
+
+    #References
+    #Primary
+    with open("static/citations.json") as file:
+        dict_refs = json.load(file)
+
+    #Secondary
+    with open("static/citations2.json") as file2:
+        dict_refs2 = json.load(file2)
+
+    #Find out how many of these references are needed
+    needed_dict = {} 
+    for i in range(len(event)):
+        if event[i]['PrimarySources']!=None:
+            needed_dict[event[i]['PrimarySources']] = dict_refs[event[i]['PrimarySources']]
+        elif event[i]['SecondarySources']!=None:
+            needed_dict[event[i]['SecondarySources']] = dict_refs[event[i]['SecondarySources']]
+
+    ######################################################################################
+    #############DATA FOR THE PLOTS#######################################################
+    ######################################################################################
 
     ######################################################################################
     #####X--RAYS##########################################################################
@@ -391,7 +413,7 @@ def event(event_id):
     ######################################################################################
     from bokeh.palettes import Category20_20
 
-    optical = figure(title='Optical', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
 
     #Extract and plot the optical photometry data from the photometry file for each SN
@@ -411,51 +433,51 @@ def event(event_id):
                 optical.scatter(new_df['time'], new_df['magnitude'], legend_label=str(j), size=10, color=next(color))
             optical.y_range.flipped = True
 
-        #Aesthetics
+    #Aesthetics
 
-        #Title
-        optical.title.text_font_size = '20pt'
-        optical.title.text_color = 'black'
-        optical.title.align = 'center'
+    #Title
+    optical.title.text_font_size = '20pt'
+    optical.title.text_color = 'black'
+    optical.title.align = 'center'
 
-        #Axis font size
-        optical.yaxis.axis_label_text_font_size = '16pt'
-        optical.xaxis.axis_label_text_font_size = '16pt'
+    #Axis font size
+    optical.yaxis.axis_label_text_font_size = '16pt'
+    optical.xaxis.axis_label_text_font_size = '16pt'
 
-        #Font Color 
-        optical.xaxis.axis_label_text_color = 'black'
-        optical.xaxis.major_label_text_color = 'black'
+    #Font Color 
+    optical.xaxis.axis_label_text_color = 'black'
+    optical.xaxis.major_label_text_color = 'black'
 
-        optical.yaxis.axis_label_text_color = 'black'
-        optical.yaxis.major_label_text_color = 'black'
+    optical.yaxis.axis_label_text_color = 'black'
+    optical.yaxis.major_label_text_color = 'black'
 
-        #Tick colors 
-        optical.xaxis.major_tick_line_color = 'black'
-        optical.yaxis.major_tick_line_color = 'black'
+    #Tick colors 
+    optical.xaxis.major_tick_line_color = 'black'
+    optical.yaxis.major_tick_line_color = 'black'
 
-        optical.xaxis.minor_tick_line_color = 'black'
-        optical.yaxis.minor_tick_line_color = 'black'
+    optical.xaxis.minor_tick_line_color = 'black'
+    optical.yaxis.minor_tick_line_color = 'black'
 
-        #Axis labels
-        optical.xaxis.axis_label = 'Time [MJD]'
-        optical.yaxis.axis_label = 'Apparent Magnitude'
+    #Axis labels
+    optical.xaxis.axis_label = 'Time [MJD]'
+    optical.yaxis.axis_label = 'Apparent Magnitude'
 
-        #Axis Colors
-        optical.xaxis.axis_line_color = 'black'
-        optical.yaxis.axis_line_color = 'black'
+    #Axis Colors
+    optical.xaxis.axis_line_color = 'black'
+    optical.yaxis.axis_line_color = 'black'
 
-        #Make ticks larger
-        optical.xaxis.major_label_text_font_size = '16pt'
-        optical.yaxis.major_label_text_font_size = '16pt'
+    #Make ticks larger
+    optical.xaxis.major_label_text_font_size = '16pt'
+    optical.yaxis.major_label_text_font_size = '16pt'
 
-        optical.background_fill_color = 'white'
-        optical.border_fill_color = 'white'
+    optical.background_fill_color = 'white'
+    optical.border_fill_color = 'white'
 
 
     ######################################################################################
     #####RADIO############################################################################
     ######################################################################################
-    radio = figure(title='Radio', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    radio = figure(title='Radio (GRB)', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     # add a line renderer with legend and line thickness
     #radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
@@ -499,82 +521,358 @@ def event(event_id):
     radio.border_fill_color = 'white'
 
     ######################################################################################
-    #####SPECTRA##########################################################################
+    #####SNe SPECTRA######################################################################
     ######################################################################################
-    spectrum = figure(title='Spectrum', toolbar_location="right")
-    # add a line renderer with legend and line thickness
-    #spectrum.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
-        #Aesthetics
+    #Selection tools we want to display
+    select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset'] 
+
+    #Figure
+    spectrum = figure(title='Spectrum (SN)', toolbar_location="right", tools=select_tools)
+    
+    #Blank tooltips
+    tooltips = []
+
+    #Spectra sources
+    spec_refs = []
+    spec_cites = []
 
     if event[0]['SNe'] != None:
 
-        path = './static/SNE-OpenSN-Data/spectra/'+str(event[0]['SNe'])+'/'
-        files = glob.glob(path+'/*.csv')
+        #Access the data in the files for the SNe Spectra
+        path = './static/SNE-OpenSN-Data/spectraJSON/'+str(event[0]['SNe'])+'/'
+        files = glob.glob(path+'/*.json')
 
-        color = viridis(45)
+        color = viridis(len(files)) #Colormap to be used - 45 is the max number of spectra im expecting for a single event 
+
+         
+        max_spec = np.zeros(len(files))
+        min_spec = np.zeros(len(files))
         for i in range(len(files)):
-            data_i = pd.read_csv(files[i])
-            spectrum.line(data_i['wavelength'], data_i['flux'], color=color[i])
+            with open(files[i]) as json_file:
+                data_i = json.load(json_file)
+
+                #Split the data into two lists, one wavelengths and one flux
+                wavelength, flux = zip(*data_i['SN'+str(event[0]['SNe'])]['spectra']['data'])
+                
+                wavelength, flux = list(wavelength), list(flux)
+
+                #Calculating the extent of the limits on the plots
+                float_flux = []
+                for j in flux:
+                    float_flux.append(float(j))
+
+                max_spec[i] = max(float_flux)
+                min_spec[i] = min(float_flux)
+
+                #Create a dictionary of the necessary info
+                data_dict = {'wavelength': wavelength, 'flux': float_flux,
+                            'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength)}
+
+                # spectra_time = Time(data_i['SN'+str(event[0]['SNe'])]['spectra']['time'], format='mjd')
+                # data_dict['time'] = [spectra_time]*len(wavelength)
+                #SOURCES
+                sources = data_i['SN'+str(event[0]['SNe'])]['spectra']['source']
+                source_indices = [] #This is supposed to show the number to be assigned to a particular source. 
+
+                for k in range(len(sources)):
+                    #Check if we are already using this reference for some of the data in the tables or for another spectrum
+                    if sources[k]['url'] in needed_dict.keys():
+                        source_indices.append(list(needed_dict.keys()).index(sources[k]['url'])+1)
+
+                    elif sources[k]['url'] in spec_refs:
+                        source_indices.append(spec_refs.index(sources[k]['url'])+3)
+
+                    else:
+                        spec_refs.append(sources[k]['url'])
+                        spec_cites.append(sources[k]['name'])
+                        source_indices.append(spec_refs.index(sources[k]['url'])+3)
+
+                data_dict['sources'] = [source_indices]*len(wavelength)
+                data_dict['wave_unit'] = [data_i['SN'+str(event[0]['SNe'])]['spectra']['u_wavelengths']]*len(wavelength)
+                data_dict['flux_unit'] = [data_i['SN'+str(event[0]['SNe'])]['spectra']['u_fluxes']]*len(wavelength)
+
+                #Convert the dict to a column data object
+                data_source = ColumnDataSource(data_dict)
+
+                #Tooltips of what will display in the hover mode
+                # Format the tooltip
+                tooltips = [
+                            ('Wavelength [Å]', '@wavelength{0}'),
+                            ('Wavelength unit', '@wave_unit'),
+                            ('Flux', '@flux'),
+                            ('Flux unit', '@flux_unit'),
+                            ('Date [MJD]', '@time'),
+                            ('Source', '@sources') 
+                           ]
+
+
+                spectrum.line('wavelength', 'flux', source=data_source, color=color[i])
+                
+        # Add the HoverTool to the figure
+        spectrum.add_tools(HoverTool(tooltips=tooltips))
+
         
-    #Title
-    spectrum.title.text_font_size = '20pt'
-    spectrum.title.text_color = 'black'
-    spectrum.title.align = 'center'
-    
-    #Axis font size
-    spectrum.yaxis.axis_label_text_font_size = '16pt'
-    spectrum.xaxis.axis_label_text_font_size = '16pt'
+        #Aesthetics    
+        #Title
+        spectrum.title.text_font_size = '20pt'
+        spectrum.title.text_color = 'black'
+        spectrum.title.align = 'center'
 
-    #Font Color 
-    spectrum.xaxis.axis_label_text_color = 'black'
-    spectrum.xaxis.major_label_text_color = 'black'
+        #Axis font size
+        spectrum.yaxis.axis_label_text_font_size = '16pt'
+        spectrum.xaxis.axis_label_text_font_size = '16pt'
 
-    spectrum.yaxis.axis_label_text_color = 'black'
-    spectrum.yaxis.major_label_text_color = 'black'
+        #Font Color 
+        spectrum.xaxis.axis_label_text_color = 'black'
+        spectrum.xaxis.major_label_text_color = 'black'
 
-    #Tick colors 
-    spectrum.xaxis.major_tick_line_color = 'black'
-    spectrum.yaxis.major_tick_line_color = 'black'
+        spectrum.yaxis.axis_label_text_color = 'black'
+        spectrum.yaxis.major_label_text_color = 'black'
 
-    spectrum.xaxis.minor_tick_line_color = 'black'
-    spectrum.yaxis.minor_tick_line_color = 'black'
+        #Tick colors 
+        spectrum.xaxis.major_tick_line_color = 'black'
+        spectrum.yaxis.major_tick_line_color = 'black'
 
-    #Axis labels
-    spectrum.xaxis.axis_label = ''
-    spectrum.yaxis.axis_label = 'Flux'
+        spectrum.xaxis.minor_tick_line_color = 'black'
+        spectrum.yaxis.minor_tick_line_color = 'black'
 
-    #Axis Colors
-    spectrum.xaxis.axis_line_color = 'black'
-    spectrum.yaxis.axis_line_color = 'black'
+        #Axis labels
+        spectrum.xaxis.axis_label = 'Wavelength [Å]'
+        spectrum.yaxis.axis_label = 'Flux'
 
-    #Make ticks larger
-    spectrum.xaxis.major_label_text_font_size = '16pt'
-    spectrum.yaxis.major_label_text_font_size = '16pt'
+        #Axis Colors
+        spectrum.xaxis.axis_line_color = 'black'
+        spectrum.yaxis.axis_line_color = 'black'
 
-    spectrum.background_fill_color = 'white'
-    spectrum.border_fill_color = 'white'
+        #Make ticks larger
+        spectrum.xaxis.major_label_text_font_size = '16pt'
+        spectrum.yaxis.major_label_text_font_size = '16pt'
 
+        spectrum.background_fill_color = 'white'
+        spectrum.border_fill_color = 'white'
+        
+        #Range
+        print('The min and max are', min_spec, max_spec)
+        spectrum.y_range=Range1d(min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
 
     script, div = components(layout([[xray, radio], [optical], [spectrum]], sizing_mode='scale_both'))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
-    #References
-    #Primary
-    with open("static/citations.json") as file:
-        dict_refs = json.load(file)
+    else:
+        # Add the HoverTool to the figure
+        spectrum.add_tools(HoverTool(tooltips=tooltips))
 
-    #Secondary
-    with open("static/citations2.json") as file2:
-        dict_refs2 = json.load(file2)
+        
+        #Aesthetics    
+        #Title
+        spectrum.title.text_font_size = '20pt'
+        spectrum.title.text_color = 'red'
+        spectrum.title.align = 'center'
 
+        #Axis font size
+        spectrum.yaxis.axis_label_text_font_size = '16pt'
+        spectrum.xaxis.axis_label_text_font_size = '16pt'
+
+        #Font Color 
+        spectrum.xaxis.axis_label_text_color = 'black'
+        spectrum.xaxis.major_label_text_color = 'black'
+
+        spectrum.yaxis.axis_label_text_color = 'black'
+        spectrum.yaxis.major_label_text_color = 'black'
+
+        #Tick colors 
+        spectrum.xaxis.major_tick_line_color = 'black'
+        spectrum.yaxis.major_tick_line_color = 'black'
+
+        spectrum.xaxis.minor_tick_line_color = 'black'
+        spectrum.yaxis.minor_tick_line_color = 'black'
+
+        #Axis labels
+        spectrum.xaxis.axis_label = 'Wavelength'
+        spectrum.yaxis.axis_label = 'Flux'
+
+        #Axis Colors
+        spectrum.xaxis.axis_line_color = 'black'
+        spectrum.yaxis.axis_line_color = 'black'
+
+        #Make ticks larger
+        spectrum.xaxis.major_label_text_font_size = '16pt'
+        spectrum.yaxis.major_label_text_font_size = '16pt'
+
+        spectrum.background_fill_color = 'white'
+        spectrum.border_fill_color = 'white'
+
+        citation = Label(x=70, y=70, x_units='screen', y_units='screen',
+                 text='NO DATA', render_mode='css',
+                 border_line_color='black', border_line_alpha=1.0,
+                 background_fill_color='white', background_fill_alpha=1.0)
+        spectrum.add_layout(citation)
+
+    script, div = components(gridplot([xray, radio, optical, spectrum], ncols=2, merge_tools = False))
+    kwargs = {'script': script, 'div': div}
+    kwargs['title'] = 'bokeh-with-flask'
 
     #Return everything
-    return render_template('event.html', event=event, radec=radec, dict=dict_refs, dict2=dict_refs2, **kwargs)
+    return render_template('event.html', event=event, radec=radec, dict=dict_refs, dict2=dict_refs2, spec_refs=spec_refs, spec_cites=spec_cites, **kwargs)
 
 @app.route('/docs')
 def docs():
     return render_template('docs.html')
+
+# @app.route('/downloadtxt'):
+# def downloader(datalist):
+#     s = io.StringIO()
+#     dwnld = np.savetxt(s, datalist)
+
+#     #Make the response
+#     resp = make_response(dwnld, mimetype='text')
+
+#     resp.headers.set(
+#           "Content-Disposition", "attachment", filename=".csv".format(file_name)
+#       )
+#     return resp
+
+@app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
+def graphs():
+    category_dict = {'all':'all events', 'orphan':'Orphan GRB Afterglows', 'spec':'Spectroscopic SNe Only', 'phot':'Photometric SNe Only'}
+    name_dict = {'e_iso':'Eiso [erg]', 'z':'Redshift', 
+    'ni_m':u'SN Nickel Mass [M\u2609]', 'ej_m':u'SN Ejecta Mass [M\u2609]',
+     'E_p':"GRB Peak Energy [erg]", 'e_k':'GRB Kinetic Energy [erg]',
+      'T90':"T90 [sec]"}
+
+    axis = {'e_iso':'log', 'z':'linear', 'ni_m':'linear', 'ej_m':'linear',
+     'E_p':"linear", 'e_k':'log', 'T90':"log"}
+    if request.method=='POST':
+        category = request.form.getlist('selectors1')
+
+        x = request.form.getlist('selectors2')
+        y = request.form.getlist('selectors3')
+
+        conn = get_db_connection() #Connect to DB
+
+        if category[0]=='all':
+            #Get the data for the plots
+            data = conn.execute("SELECT DISTINCT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe GROUP BY GRB, SNe".format(a=x[0], b=y[0])).fetchall()
+        
+        elif category[0]=='orphan':
+            #Get the data for the plots
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE GRB IS NULL GROUP BY SNe".format(a=x[0], b=y[0])).fetchall()
+        
+        elif category[0]=='spec':
+            #Get the data for the plots
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NOT NULL GROUP BY SNe".format(a=x[0], b=y[0])).fetchall()
+
+        elif category[0]=='phot':
+        #Get the data for the plots
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NULL GROUP BY GRB".format(a=x[0], b=y[0])).fetchall()
+    
+
+
+        #Data for the graphs, remove the duplicates
+        x_data = []
+        y_data = []
+        grb_name = 'start'
+        sn_name = 'start'
+        
+
+        # for row in data:
+        #     if category[0]=='orphan' or 'all':
+        #         if row['GRB']!=grb_name and row['SNe']!=sn_name:
+        #             if row[2]
+        #             x_data.append(float(row[2]))
+        #             y_data.append(float(row[3]))
+
+
+        #         elif row['GRB']!=grb_name and row['SNe']==None:
+        #             grb_name = row['GRB']
+        #             z_photometric.append(float(row['z'])) 
+
+        #     else:
+
+        
+        x_data_upperx = []
+        x_data_uppery = []
+        x_data_lowerx = []
+        x_data_lowery = []
+
+        
+        y_data_upperx = []
+        y_data_uppery = []
+        y_data_lowerx = []
+        y_data_lowery = []
+
+        for row in data:
+            print(row[0], row[1], row[2], row[3])
+            if str(row[2]).split(',')[0]!='None' and str(row[3]).split(',')[0]!='None':
+                if '<' in str(row[2]).split(',')[0]:
+                    print(row[2].split(',')[0])
+                    x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
+                elif '>' in str(row[2]).split(',')[0]:
+                    print(row[2].split(',')[0])
+                    x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
+                elif '<' in str(row[3]).split(',')[0]:
+                    print(row[3].split(',')[0])
+                    x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
+                elif '>' in str(row[3]).split(',')[0]:
+                    print(row[3].split(',')[0])
+                    x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
+                else:
+                    x_data.append(float(str(row[2]).split(',')[0]))
+                    y_data.append(float(str(row[3]).split(',')[0]))
+
+        data_dict = {x[0]:x_data, y[0]:y_data}
+
+        #Convert the dict to a column data object
+        data_source = ColumnDataSource(data_dict)
+        
+        #Plot the data
+        graph = figure(title=str(name_dict[x[0]])+' vs. '+str(name_dict[y[0]])+' for '+str(category_dict[category[0]]), x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
+        graph.circle(x[0], y[0], source=data_source, size=20, fill_color='orange')
+        graph.inverted_triangle(x_data_upperx, x_data_uppery, size=20, fill_color='blue')
+        graph.triangle(x_data_lowerx, x_data_lowery, size=20, fill_color='red')
+
+        graph.inverted_triangle(y_data_upperx, y_data_uppery, size=20, fill_color='red')
+        graph.triangle(y_data_lowerx, y_data_lowery, size=20, fill_color='red')
+        
+        #Aesthetics
+        #Title
+        graph.title.text_font_size = '13pt'
+        graph.title.text_color = 'black'
+        graph.title.align = 'center'
+    
+        #Axis labels
+        graph.xaxis.axis_label = name_dict[x[0]]
+        graph.yaxis.axis_label = name_dict[y[0]]
+
+        graph.xaxis.axis_label_text_font_size = '13pt'
+        graph.yaxis.axis_label_text_font_size = '13pt'
+
+        #Axis Colors
+        graph.xaxis.axis_line_color = 'black'
+        graph.yaxis.axis_line_color = 'black'
+
+        #Make ticks larger
+        graph.xaxis.major_label_text_font_size = '13pt'
+        graph.yaxis.major_label_text_font_size = '13pt'
+
+        script, div = components(graph)
+        kwargs = {'script': script, 'div': div}
+        kwargs['title'] = 'bokeh-with-flask'
+        return render_template('graphs.html', **kwargs)
+
+    else:
+        graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
+        
+        script, div = components(graph)
+        kwargs = {'script': script, 'div': div}
+        kwargs['title'] = 'bokeh-with-flask'    
+        return render_template('graphs.html', **kwargs)
+    
 
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor

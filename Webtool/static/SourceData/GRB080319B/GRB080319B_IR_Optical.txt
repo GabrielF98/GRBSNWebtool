@@ -1,0 +1,54 @@
+Table 8 
+GCN Observations of GRB 080319B
+
+
+t_mid^a (s)	Filter	Exp. Time (s)	Mag.^b	Flux^b muJy			
+-11.0	Clear	10.0	>or=11.48	<or=7.94 x 10^4	Pi^c	GCN 7445^d	
+3.0	Clear	10.0	9.83	3.63 x 10^5	Pi	GCN 7445	
+17.0	Clear	10.0	5.76	1.54 x 10^7	Pi	GCN 7445	
+32.0	Clear	10.0	6.00	1.24 x 10^7	Pi	GCN 7445	
+79.0	Clear	10.0	8.26	1.54 x 10^6	Pi	GCN 7445	
+93.0	Clear	10.0	8.77	9.64 x 10^5	Pi	GCN 7445	
+108.0	Clear	10.0	9.10	7.11 x 10^5	Pi	GCN 7445	
+122.0	Clear	10.0	10.27	2.42 x 10^5	Pi	GCN 7445	
+163.0	Clear	10.0	10.50	1.96 x 10^5	Pi	GCN 7445	
+177.0	Clear	10.0	11.10	1.13 x 10^5	Pi	GCN 7445	
+252.0	Clear	10.0	11.21	1.02 x 10^5	Pi	GCN 7445	
+296.0	Clear	10.0	11.79	5.97 x 10^4	Pi	GCN 7445	
+310.0	Clear	10.0	11.95	5.15 x 10^4	Pi	GCN 7445	
+37.2	Clear	10.0	5.60	1.79 x 10^7	RAPTOR	GCN 7464^e	
+24.6	Clear	5.0	5.35	2.25 x 10^7	ROTSE	GCN 7470^f	
+111.7	Clear	20.0	8.49	1.25 x 10^6	ROTSE	GCN 7470	
+8.9	Clear^v	 sdotsdotsdot 	8.198 +or- 0.579	1.94 x 10^6 +or- 8.02 x 10^5	TORTORA	GCN 7558^g	
+10.1	Clear^v	 sdotsdotsdot 	6.967 +or- 0.188	6.03 x 10^6 +or- 9.58 x 10^5	TORTORA	GCN 7558	
+11.5	Clear^v	 sdotsdotsdot 	6.650 +or- 0.141	8.07 x 10^6 +or- 9.83 x 10^5	TORTORA	GCN 7558	
+60300.0	R	 sdotsdotsdot 	19.80	3.73 x 10^1	Canarias	GCN 7476^h	
+55830.0	Clear	1500.0	19.080 +or- 0.020	7.24 x 10^1 +or- 1.32 x 10^0	AAVSO	GCN 7484^i	
+70500.0	Clear	2040.0	19.000 +or- 0.100	7.80 x 10^1 +or- 6.86 x 10^0	AAVSO	GCN 7484	
+74831.0	R	 sdotsdotsdot 	20.000 +or- 0.300	3.10 x 10^1 +or- 7.50 x 10^0	Brno	GCN 7504^j	
+43934.4	R	 sdotsdotsdot 	19.10	7.11 x 10^1	Kharkiv	GCN 7519^k	
+46270.8	R	 sdotsdotsdot 	19.90	3.40 x 10^1	Kharkiv	GCN 7519	
+71208.0	R	 sdotsdotsdot 	20.10	2.83 x 10^1	Kharkiv	GCN 7519	
+1656000	R^n	 sdotsdotsdot 	24.35	5.65 x 10^-1	HST	GCN 7569^l	
+1656000	I^o	 sdotsdotsdot 	23.76	7.62 x 10^-1	HST	GCN 7569	
+4590000	R^n	 sdotsdotsdot 	26.280 +or- 0.100	9.55 x 10^-2 +or- 8.40 x 10^-3	HST	GCN 7710^m	
+4590000	I^o	 sdotsdotsdot 	25.460 +or- 0.100	1.59 x 10^-1 +or- 1.40 x 10^-2	HST	GCN 7710	
+Notes.
+Most of the TORTORA measurements have been omitted to save space. The full table of GCN photometry used in our plot is available online.
+a Exposure midtime, measured from the Swift trigger (UTC 06:12:49).
+b Observed value; not corrected for Galactic extinction.
+c "Pi-of-the-Sky" Collaboration.
+d Cwiok et al. (2008a).
+e Wozniak et al. (2008).
+f Swan et al. (2008).
+g Karpov et al. (2008b).
+h Jelinek et al. (2008).
+i Hentunen et al. (2008).
+j Novak (2008).
+k Krugly et al. (2008).
+l Tanvir et al. (2008).
+m Levan et al. (2008).
+n Converted from F606W.
+o Converted from F804W.
+v Calibrated to the V band and plotted as V in our figures.
+x No GCN observations were used in modeling.
