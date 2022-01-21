@@ -3,15 +3,14 @@
   <!-- The stuff to do with the plot -->
 
 <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh.min.css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.css"
     rel="stylesheet" type="text/css">
 <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-widgets.css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-widgets.css"
     rel="stylesheet" type="text/css">
 <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-tables.css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-tables.css"
     rel="stylesheet" type="text/css">
-
 </head>
 <body>
 	{% block title %} 
@@ -37,7 +36,7 @@
 		  <input class="form-check-input" type="checkbox" value="phot" name="selectors1" id="flexCheckDefault">
 		  <label class="form-check-label" for="flexCheckDefault"> Photometric SNe Only </label>
 		</div>
-<h2><b>Select two parameters to plot</b></h2>
+<h2><b>X-axis</b></h2>
 		<div class="form-check">
 		  <input class="form-check-input" type="checkbox" value="e_iso" name="selectors2" id="flexCheckDefault">
 		  <label class="form-check-label" for="flexCheckDefault"> E$_{iso}$ </label>
@@ -67,22 +66,57 @@
 		  <label class="form-check-label" for="flexCheckDefault"> T$_{90}$ </label>
 		</div>
 
+		<h2><b>Y-axis</b></h2>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="e_iso" name="selectors3" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> E$_{iso}$ </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="z" name="selectors3" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> z </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="ni_m" name="selectors3" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> Nickel mass </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="ej_m" name="selectors3" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> Ejecta mass </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="E_p" name="selectors3" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> E$_{peak}$ </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="e_k" name="selectors3" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> E$_{k}$ </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="T90" name="selectors3" id="flexCheckDefault">
+		  <label class="form-check-label" for="flexCheckDefault"> T$_{90}$ </label>
+		</div>
+
 
 		<div class="field is-grouped">
         <div class="control">
-          <button class="button is-danger is-small">Delete</button>
+          <!-- <button type="button" class="btn btn-light">Plot</button> -->
+          <button class="button is-danger is-small">Plot</button>
         </div>
       </div>
 
 
      </form>
      
-	{% endblock %}
+     <!-- Downloadable and user modifiable plot -->
+     	<h2><b>Data</b></h2>
+	{{ div|safe }}
+  	{{ script|safe }}
+	
+
+	
 </body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-widgets.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-tables.js"></script>
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-widgets.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-tables.js"></script>
 </html>
+{% endblock %}
