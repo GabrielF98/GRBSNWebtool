@@ -716,18 +716,18 @@ def event(event_id):
 def docs():
     return render_template('docs.html')
 
-# @app.route('/downloadtxt'):
-# def downloader(datalist):
-#     s = io.StringIO()
-#     dwnld = np.savetxt(s, datalist)
+@app.route('/downloadtxt'):
+def downloader(datalist):
+    s = io.StringIO()
+    dwnld = np.savetxt(s, datalist)
 
-#     #Make the response
-#     resp = make_response(dwnld, mimetype='text')
+    #Make the response
+    resp = make_response(dwnld, mimetype='text')
 
-#     resp.headers.set(
-#           "Content-Disposition", "attachment", filename=".csv".format(file_name)
-#       )
-#     return resp
+    resp.headers.set(
+          "Content-Disposition", "attachment", filename=".csv".format(file_name)
+      )
+    return resp
 
 @app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
 def graphs():
