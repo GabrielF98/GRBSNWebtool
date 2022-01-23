@@ -770,25 +770,6 @@ def graphs():
         #Data for the graphs, remove the duplicates
         x_data = []
         y_data = []
-        grb_name = 'start'
-        sn_name = 'start'
-        
-
-        # for row in data:
-        #     if category[0]=='orphan' or 'all':
-        #         if row['GRB']!=grb_name and row['SNe']!=sn_name:
-        #             if row[2]
-        #             x_data.append(float(row[2]))
-        #             y_data.append(float(row[3]))
-
-
-        #         elif row['GRB']!=grb_name and row['SNe']==None:
-        #             grb_name = row['GRB']
-        #             z_photometric.append(float(row['z'])) 
-
-        #     else:
-
-        
         x_data_upperx = []
         x_data_uppery = []
         x_data_lowerx = []
@@ -804,19 +785,19 @@ def graphs():
             print(row[0], row[1], row[2], row[3])
             if str(row[2]).split(',')[0]!='None' and str(row[3]).split(',')[0]!='None':
                 if '<' in str(row[2]).split(',')[0]:
-                    print(row[2].split(',')[0])
+                    print('case1'+str(row[2]).split(',')[0])
                     x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '>' in str(row[2]).split(',')[0]:
-                    print(row[2].split(',')[0])
+                    print('case2'+row[2].split(',')[0])
                     x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '<' in str(row[3]).split(',')[0]:
-                    print(row[3].split(',')[0])
+                    print('case3'+row[3].split(',')[0])
                     x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '>' in str(row[3]).split(',')[0]:
-                    print(row[3].split(',')[0])
+                    print('case4'+row[3].split(',')[0])
                     x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
                 else:
