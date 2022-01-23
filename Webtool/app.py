@@ -809,12 +809,12 @@ def graphs():
         
         #Plot the data
         graph = figure(title=str(name_dict[x[0]])+' vs. '+str(name_dict[y[0]])+' for '+str(category_dict[category[0]]), x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
-        graph.circle(x[0], y[0], source=data_source, size=20, fill_color='orange')
-        graph.inverted_triangle(x_data_upperx, x_data_uppery, size=20, fill_color='blue')
-        graph.triangle(x_data_lowerx, x_data_lowery, size=20, fill_color='red')
+        graph.circle(x[0], y[0], source=data_source, size=10, fill_color='orange')
+        graph.inverted_triangle(x_data_upperx, x_data_uppery, size=10, fill_color='blue')
+        graph.triangle(x_data_lowerx, x_data_lowery, size=10, fill_color='red')
 
-        graph.inverted_triangle(y_data_upperx, y_data_uppery, size=20, fill_color='red')
-        graph.triangle(y_data_lowerx, y_data_lowery, size=20, fill_color='red')
+        graph.inverted_triangle(y_data_upperx, y_data_uppery, size=10, fill_color='red')
+        graph.triangle(y_data_lowerx, y_data_lowery, size=10, fill_color='red')
         
         #Aesthetics
         #Title
