@@ -869,19 +869,19 @@ def graphs():
         kwargs['title'] = 'bokeh-with-flask'    
         return render_template('graphs.html', **kwargs)
     
+# Likely not needed anymore
+# #Dowload the txt generated whilst generating the plot on the graphs page
+# @app.route('/download')
+# def downloader():
+#     print('banana2')
+#     s = io.StringIO()
+#     dwnld = np.savetxt(s, request.args.get('datalist'))
+#     s.seek(0)
+#     #Make the response
+#     resp = make_response(s, mimetype='text')
 
-#Dowload the txt generated whilst generating the plot on the graphs page
-@app.route('/download')
-def downloader():
-    print('banana2')
-    s = io.StringIO()
-    dwnld = np.savetxt(s, request.args.get('datalist'))
-    s.seek(0)
-    #Make the response
-    resp = make_response(s, mimetype='text')
-
-    resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
-    return resp
+#     resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
+#     return resp
 
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
