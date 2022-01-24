@@ -717,11 +717,10 @@ import shutil
 @app.route('/downloads/<directory>', methods=['GET', 'POST'])
 def get_files(directory):
     #Creat the output name for the zipped directory
-    output_filename = str(directory)+'.zip'
+    output_filename = str(directory)
 
     #Zip the folder
-    zipper = shutil.make_archive(output_filename, 'zip', current_app.root_path+'/static/SourceData/'+directory)
-    return send_file(zipper, as_attachment=True)
+    return send_file(shutil.make_archive(output_filename, 'zip', current_app.root_path+'/static/SourceData/'+directory), as_attachment=True)
 
 
 @app.route('/docs')
