@@ -540,6 +540,8 @@ def event(event_id):
     spec_refs = []
     spec_cites = []
 
+    max_spec = [10]
+    min_spec = [0]
     if event[0]['SNe'] != None:
 
         #Access the data in the files for the SNe Spectra
@@ -548,9 +550,11 @@ def event(event_id):
 
         color = viridis(len(files)) #Colormap to be used - 45 is the max number of spectra im expecting for a single event 
 
-         
-        max_spec = np.zeros(len(files))
-        min_spec = np.zeros(len(files))
+        if len(files) != 0:
+            max_spec = np.zeros(len(files))
+            min_spec = np.zeros(len(files))
+
+        
         for i in range(len(files)):
             with open(files[i]) as json_file:
                 data_i = json.load(json_file)
