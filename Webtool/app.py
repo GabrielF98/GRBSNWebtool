@@ -220,13 +220,10 @@ def home():
         event_id = form.object_name.data
         print(event_id)
         if str(event_id)[2:] in sne: #if they search an SN
-            print('bananan')
             return redirect(url_for('event', event_id=event_id))
         elif str(event_id)[3:] in grbs: #if they search an GRB
-            print('bananan')
             return redirect(url_for('event', event_id=event_id))
         else:
-            print('No')
             flash('This object is not in our database.')
             return render_template('home.html', form=form, data=data)
     return render_template('home.html', form=form, data=data)
@@ -716,18 +713,7 @@ def event(event_id):
 def docs():
     return render_template('docs.html')
 
-@app.route('/downloadtxt'):
-def downloader(datalist):
-    s = io.StringIO()
-    dwnld = np.savetxt(s, datalist)
 
-    #Make the response
-    resp = make_response(dwnld, mimetype='text')
-
-    resp.headers.set(
-          "Content-Disposition", "attachment", filename=".csv".format(file_name)
-      )
-    return resp
 
 @app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
 def graphs():
@@ -749,19 +735,19 @@ def graphs():
 
         if category[0]=='all':
             #Get the data for the plots
-            data = conn.execute("SELECT DISTINCT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe GROUP BY GRB, SNe".format(a=x[0], b=y[0])).fetchall()
+            data = conn.execute("SELECT DISTINCT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY GRB, SNe".format(a=x[0], b=y[0])).fetchall()
         
         elif category[0]=='orphan':
             #Get the data for the plots
-            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE GRB IS NULL GROUP BY SNe".format(a=x[0], b=y[0])).fetchall()
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE GRB IS NULL AND {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY SNe".format(a=x[0], b=y[0])).fetchall()
         
         elif category[0]=='spec':
             #Get the data for the plots
-            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NOT NULL GROUP BY SNe".format(a=x[0], b=y[0])).fetchall()
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NOT NULL AND {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY SNe".format(a=x[0], b=y[0])).fetchall()
 
         elif category[0]=='phot':
         #Get the data for the plots
-            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NULL GROUP BY GRB".format(a=x[0], b=y[0])).fetchall()
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NULL  AND {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY GRB".format(a=x[0], b=y[0])).fetchall()
     
 
 
@@ -779,9 +765,23 @@ def graphs():
         y_data_lowerx = []
         y_data_lowery = []
 
+        grb_name = []
+        sne_name = []
+        raw_x = []
+        raw_y = []
+
+        #Loop rows returned from SQL
         for row in data:
-            print(row[0], row[1], row[2], row[3])
+            grb_name.append(row[0])
+            sne_name.append(row[1])
+            #
+            raw_x.append(str(row[2]).split(',')[0])
+            raw_y.append(str(row[3]).split(',')[0])
+            #Remove the first item from the returned list for plotting
             if str(row[2]).split(',')[0]!='None' and str(row[3]).split(',')[0]!='None':
+                
+                
+
                 if '<' in str(row[2]).split(',')[0]:
                     print('case1'+str(row[2]).split(',')[0])
                     x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
@@ -802,6 +802,23 @@ def graphs():
                     x_data.append(float(str(row[2]).split(',')[0]))
                     y_data.append(float(str(row[3]).split(',')[0]))
 
+
+
+        #Zip the data for the downloadable files
+        if request.form.get('download'):
+            download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
+            s = io.StringIO()
+            dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
+            s.seek(0)
+            #Make the response
+            resp = Response(s, mimetype='text/csv')
+
+            resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
+            return resp
+            # return redirect(url_for('downloader', datalist=download))
+            
+
+        #Place the plotting data in a dict (the ones that arent uppper/lower limits)
         data_dict = {x[0]:x_data, y[0]:y_data}
 
         #Convert the dict to a column data object
@@ -842,6 +859,7 @@ def graphs():
         script, div = components(graph)
         kwargs = {'script': script, 'div': div}
         kwargs['title'] = 'bokeh-with-flask'
+
         return render_template('graphs.html', **kwargs)
 
     else:
@@ -852,6 +870,19 @@ def graphs():
         kwargs['title'] = 'bokeh-with-flask'    
         return render_template('graphs.html', **kwargs)
     
+
+#Dowload the txt generated whilst generating the plot on the graphs page
+@app.route('/download')
+def downloader():
+    print('banana2')
+    s = io.StringIO()
+    dwnld = np.savetxt(s, request.args.get('datalist'))
+    s.seek(0)
+    #Make the response
+    resp = make_response(s, mimetype='text')
+
+    resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
+    return resp
 
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
