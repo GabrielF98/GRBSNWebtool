@@ -815,7 +815,6 @@ def graphs():
 
             resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
             return resp
-            # return redirect(url_for('downloader', datalist=download))
             
 
         #Place the plotting data in a dict (the ones that arent uppper/lower limits)
