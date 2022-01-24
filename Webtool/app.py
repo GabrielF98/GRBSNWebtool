@@ -729,15 +729,14 @@ import shutil
 #     #Zip the folder
 #     return send_file(k, as_attachment=True)
 
-@app.route('/downloads/<directory>', methods=['GET', 'POST'])
+@app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
 def get_files2(directory):
     filestream=io.BytesIO()
     with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
-        for file in os.walk('/static/SourceData/'+directory):
-            zipf.write(file, filestream)
+        for file in os.listdir(current_app.root_path+'/static/SourceData/'+directory):
+            zipf.write(current_app.root_path+'/static/SourceData/'+directory+'/'+file, directory+'/'+file)
     filestream.seek(0)
-    return send_file(filestream, attachment_filename=directory+'.zip', 
-                      as_attachment=True, mimetype='application/zip')
+    return send_file(filestream, attachment_filename=directory+'.zip', as_attachment=True)
 
 
 @app.route('/docs')
