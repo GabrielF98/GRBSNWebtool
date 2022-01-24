@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
+from flask import Flask, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
 from werkzeug.exceptions import abort
 
 from flask_bootstrap import Bootstrap
@@ -19,6 +19,9 @@ from bokeh.palettes import all_palettes, viridis
 
 #Pandas
 import pandas as pd
+
+#Import os
+import os
 
 #Astropy
 from astropy.time import Time
@@ -708,6 +711,18 @@ def event(event_id):
 
     #Return everything
     return render_template('event.html', event=event, radec=radec, dict=dict_refs, dict2=dict_refs2, spec_refs=spec_refs, spec_cites=spec_cites, **kwargs)
+
+
+import shutil
+@app.route('/downloads/<directory>', methods=['GET', 'POST'])
+def get_files(directory):
+    #Creat the output name for the zipped directory
+    output_filename = str(directory)+'.zip'
+
+    #Zip the folder
+    zipper = shutil.make_archive(output_filename, 'zip', current_app.root_path+'/static/SourceData/'+directory)
+    return send_file(zipper, as_attachment=True)
+
 
 @app.route('/docs')
 def docs():
