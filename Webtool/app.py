@@ -539,7 +539,9 @@ def event(event_id):
     #Spectra sources
     spec_refs = []
     spec_cites = []
-    
+
+    max_spec = [10]
+    min_spec = [0]
     if event[0]['SNe'] != None:
 
         #Access the data in the files for the SNe Spectra
