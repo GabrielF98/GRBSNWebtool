@@ -1,5 +1,9 @@
 import pandas as pd
 import numpy as np
+import json
+import os
+import shutil
+import requests
 
 #Add the bit for the database access:
 import sqlite3
@@ -32,54 +36,145 @@ def sne_names():
 #Loop the names and go to the api and download the data
 #It will be saved to ./SNE-OpenSN-Data/photometry or spectra depending
 
-#Photometry
+#Photometry+Spectra
 names = sne_names()
-ras = []
-decs = []
+  
+# Directories for the spectra
+for i in names:
+	dir = './SNE-OpenSN-Data/spectraJSON/'+str(i)
+	if os.path.exists(dir):
+   		shutil.rmtree(dir)
+	else:
+		os.mkdir(dir)
 
-print(names)
+#Loop over the filenames and request the data about these events
 for i in range(len(names)):
-
-	#Account for AT transients
 
 	if names[i][0]!= 'A':
 		print(names[i])
 
 		#Use the API to get the magnitude, times and their errors, in all bands, as a csv
-		data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band?format=csv')
+		data = pd.read_csv('https://api.astrocats.space/SN'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec?format=csv')
 
 		#File to save the csv 
 		#save the data
 		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'.csv', index=False)
-
-
-		#RA and Dec 
-		ra = [pd.read_json('https://api.astrocats.space/SN'+str(names[i])+'/ra?first&format=json')]
-		dec = [pd.read_json('https://api.astrocats.space/SN'+str(names[i])+'/dec?first')]
 		
+		#Spectra
+		#Use the API to get the time and all spectra, as a csv
+		n=0
 
-		ras.append(ra['SN'+str(names[i])]['ra']['value'])
-		decs.append(dec['SN'+str(names[i])]['dec']['value'])
+		#List of spectra sources
+		spec_source = requests.get('https://api.astrocats.space/'+str(names[i])+'/sources/?format=json')
+		spec_source = spec_source.json()
+		
+		#The first result will act as a placeholder. 
+		#When we have downloaded all the spectra it goes back to get the first data
+		#This placeholder will be used to stop the loop at this point
+		data = requests.get('https://api.astrocats.space/SN'+str(names[i])+'/spectra/?item='+str(n)+'&format=json')
+		data = data.json()
+		initial = len(data['SN'+names[i]]['spectra'])
 
-	elif names[i][0]== '2021djjd' or 'NULL':
-		continue 
-	else:
-		print('Non numeric', names[i])
+		while n>=0:
+			#print(n, len(data['SN'+names[i]]['spectra']))
+			data = requests.get('https://api.astrocats.space/SN'+str(names[i])+'/spectra/?item='+str(n)+'&format=json')
+			data = data.json()
+			
+			if len(data['SN'+names[i]]['spectra']) != initial or len(data['SN'+names[i]]['spectra'])==0:
+				#print(-1)
+				n=-1
 
+			else:
+				#Get references
+				list_of_sources = []
+				sources = data['SN'+names[i]]['spectra']['source'].split(',')
+
+				for j in sources:
+					keys = spec_source[str(names[i])]['sources'][int(j)-1].keys()
+
+					# if 'bibcode' in keys:
+					# 	ref = {'name':spec_source[str(names[i])]['sources'][int(j)-1]['reference'], 
+					# 			'url':'https://ui.adsabs.harvard.edu/abs/'+str(spec_source[str(names[i])]['sources'][int(j)-1]['bibcode'])+'/abstract'} #ADS link from bibcode
+
+					# 	list_of_sources.append(ref)
+
+					if 'bibcode' in keys:
+						string = spec_source[str(names[i])]['sources'][int(j)-1]['reference']
+						string = string.replace("(","").replace(")","")
+						print(string)
+						ref = {'name':string, 
+								'url':'https://ui.adsabs.harvard.edu/abs/'+str(spec_source[str(names[i])]['sources'][int(j)-1]['bibcode'])+'/abstract'} #ADS link from bibcode
+
+						list_of_sources.append(ref)
+					elif 'url' in keys:
+						ref = {'name':spec_source[str(names[i])]['sources'][int(j)-1]['name'], 
+								'url':spec_source[str(names[i])]['sources'][int(j)-1]['url']}
+						list_of_sources.append(ref)
+				data['SN'+names[i]]['spectra']['source'] = list_of_sources
+
+				#Save the data
+				file = open('./SNE-OpenSN-Data/spectraJSON/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.json', 'w')
+				json.dump(data, file)
+
+				n+=1
+
+	elif names[i][0]=='NULL':
+		continue
+
+	else: #AT2019
+		print(names[i])
 		#Use the API to get the magnitude, times and their errors, in all bands, as a csv
-		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band?format=csv')
-
+		data = pd.read_csv('https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec?format=csv')
 		#File to save the csv 
 		#save the data
 		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'.csv', index=False)
 
+		#Spectra
+		#Use the API to get the time and all spectra, as a csv
+		n=0
 
-		#RA and Dec 
-		ra = [pd.read_json('https://api.astrocats.space/'+str(names[i])+'/ra?first')]
-		dec = [pd.read_json('https://api.astrocats.space/'+str(names[i])+'/dec?first')]		
+		#List of spectra sources
+		spec_source = requests.get('https://api.astrocats.space/'+str(names[i])+'/sources/?format=json')
+		spec_source = spec_source.json()
+		
+		#The first result will act as a placeholder. 
+		#When we have downloaded all the spectra it goes back to get the first data
+		#This placeholder will be used to stop the loop at this point
+		data = requests.get('https://api.astrocats.space/'+str(names[i])+'/spectra/?item='+str(n)+'&format=json')
+		data = data.json()
+		initial = len(data[names[i]]['spectra'])
 
-		ras.append(ra[str(names[i])]['ra']['value'])
-		decs.append(dec[str(names[i])]['dec']['value'])
+		while n>=0:
+			data = requests.get('https://api.astrocats.space/'+str(names[i])+'/spectra/?item='+str(n)+'&format=json')
+			data = data.json()
+			
+			if len(data[names[i]]['spectra']) != initial or len(data[names[i]]['spectra'])==0:
+				n=-1
 
+			else:
+				#Get references
+				list_of_sources = []
+				sources = data[names[i]]['spectra']['source'].split(',')
 
-	
+				for j in sources:
+					keys = spec_source[str(names[i])]['sources'][int(j)-1].keys()
+
+					if 'bibcode' in keys:
+						string = spec_source[str(names[i])]['sources'][int(j)-1]['reference']
+						string = string.replace("(","").replace(")","")
+						print(string)
+						ref = {'name':string, 
+								'url':'https://ui.adsabs.harvard.edu/abs/'+str(spec_source[str(names[i])]['sources'][int(j)-1]['bibcode'])+'/abstract'} #ADS link from bibcode
+
+						list_of_sources.append(ref)
+					elif 'url' in keys:
+						ref = {'name':spec_source[str(names[i])]['sources'][int(j)-1]['name'], 
+								'url':spec_source[str(names[i])]['sources'][int(j)-1]['url']}
+						list_of_sources.append(ref)
+				data[names[i]]['spectra']['source'] = list_of_sources
+
+				#Save the data
+				file = open('./SNE-OpenSN-Data/spectraJSON/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.json', 'w')
+				json.dump(data, file)
+
+				n+=1

@@ -1,2 +1,2 @@
-event,time,magnitude,e_magnitude,band
-SN2005nc,53520.0,23.96,,R
+event,time,magnitude,e_magnitude,band,ra,dec
+SN2005nc,53520.0,23.96,,R,,

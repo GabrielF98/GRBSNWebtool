@@ -47,35 +47,70 @@
   <p><input type=submit value=Search>
 </form>
 
-
-
+{% with messages = get_flashed_messages(with_categories=true) %}
+  <!-- {% if messages %}
+    <ul class=flashes> -->
+    {% for category, message in messages %}
+      <p class="{{error}}">{{ message }}
+    {% endfor %}
+    </ul>
+  <!-- {% endif %} -->
+{% endwith %}
 
 <h2><b>Known Associations</b></h2>
+
 <!-- Table of all the sources -->
-<!-- <div>
-    <table style="width:80%">
+<div>
+    <table style="width:80%" margin-left=0px;>
     	<tr>
     <th><b>GRB</b></th>
     <th><b>SN</b></th>
     <th><b>E$_{iso}$ [ergs]</b></th>
-    <th><b>T$_{90}$ [sec]</b></th>
     <th><b>z</b></th> 
+    <th><b>T$_{90}$ [sec]</b></th>
   </tr>
+
   {% for i in range(data|length) %}
   <tr>
-  	<th><a href="http://127.0.0.1:5000/{{ data[i][0] }}" target = '_blank'>{{ data[i][0] }}</th>
-    {% if data[i][1]==None %}
-    	<th></th>
-    {% else %}
-    <th>{{ data[i][1] }}</th>
-    {% endif %}
-    <th>{{ data[i][2] }}</th>
-    <th>{{ data[i][3] }}</th>
-    <th>{{ data[i][4] }}</th>
-</tr>
+  	<!-- GRB and SN have a name -->
+  	{% if data[i][0]!=None and data[i][1]!=None %}
+  		<th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target = '_blank'>{{ data[i][0] }}</th>
+  		<th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target = '_blank'>{{ data[i][1] }}</th>
+  	<!-- GRB has name -->
+  	{% elif data[i][0]!=None and data[i][1]==None %}
+  		<th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target = '_blank'>{{ data[i][0] }}</th>
+  		<th> </th>
+  	<!-- SN has a name -->
+  	{% elif data[i][0]==None and data[i][1]!=None %}
+  		<th> </th>
+  		<th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target = '_blank'>{{ data[i][1] }}</th>
+  	{% endif %}
+
+  	<!-- EISO -->
+  	{% if data[i][2] != None %}
+  		<th>{{ data[i][2] }}</th>
+  	{% else %}
+  		<th> </th>
+  	{% endif %}
+  	
+    <!-- Z -->
+  	{% if data[i][3] != None %}
+  		<th>{{ data[i][3] }}</th>
+  	{% else %}
+  		<th> </th>
+  	{% endif %}
+
+  	<!-- T90 -->
+  	{% if data[i][4] != None %}
+  		<th>{{ data[i][4] }}</th>
+  	{% else %}
+  		<th> </th>
+  	{% endif %}
+    
+  </tr>
   {% endfor %}
 </table>
-</div> -->
+</div>
 
 <h2><b>Contact</b></h2>
 <p><b>Gabriel Finneran:</b> gabriel.finneran@ucdconnect.ie</p>
