@@ -1,1 +1,1 @@
-event,time,magnitude,e_magnitude,band
+event,time,magnitude,e_magnitude,band,ra,dec

@@ -1,0 +1,26 @@
+Table 1 
+Chandra Observation Log of GRB 060729
+
+
+ObsID	T-start^a	T-stop^a	T_exp^b	CR^c	F_0.3-10.0 keV^d	
+7567	2007 Mar 16 11:39	2007 Mar 16 19:57	27690			
+8541	2007 Mar 17 13:02	2007 Mar 17 14:54	4701	3.93^+1.28_-0.91	4.26^+1.39_-0.99	
+						
+7568	2007 May 16 09:30	2007 May 16 20:56	40268	2.67^+0.96_-0.66	2.90^+1.04_-0.72	
+						
+7569	2007 Jun 30 06:19	2007 Jun 30 23:48	60400	2.07^+0.72_-0.45	2.25^+0.78_-0.49	
+						
+9086	2007 Dec 26 01:02	2007 Dec 26 09:04	27395			
+9801	2007 Dec 28 19:23	2007 Dec 28 23:59	15068			
+9802	2007 Dec 29 18:57	2007 Dec 30 01:13	20239	0.69^+0.35_-0.26	0.75^+0.38_-0.28	
+9803	2008 Jan 5 01:04	2008 Jan 5 04:23	9986			
+						
+9087	2008 Apr 30 23:09	2008 May 1 08:34	32330			
+9811	2008 May 1 22:45	2008 May 2 07:50	30775			
+9812	2008 May 3 15:51	2008 May 3 23:35	26382	0.26^+0.18_-0.12	0.28^+0.19_-0.13	
+9813	2008 May 4 15:07	2008 May 4 23:22	27810			
+Notes.
+a Start and End times are given in UT.
+b Observing time given in s.
+c Count rate in units of 10^-4 ACIS-S counts s^-1 in the 0.5-8.0 keV band.
+d Unabsorbed 0.3-10.0 keV flux in units of 10^-15 erg s^-1 cm^-2. The count rates were converted assuming N_H = 1.34 x 10^21 cm^-2 and beta_x = 0.89.

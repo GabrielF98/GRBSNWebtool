@@ -1,2 +1,2 @@
-event,time,magnitude,e_magnitude,band
-SN2008hw,54746.0,17.0,,
+event,time,magnitude,e_magnitude,band,ra,dec
+SN2008hw,54746.0,17.0,,,,

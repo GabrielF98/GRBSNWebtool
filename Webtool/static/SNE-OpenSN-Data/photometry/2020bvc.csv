@@ -1,2 +1,2 @@
-event,time,magnitude,e_magnitude,band
-SN2020bvc,58886.5,16.7,,
+event,time,magnitude,e_magnitude,band,ra,dec
+SN2020bvc,58886.5,16.7,,,,
