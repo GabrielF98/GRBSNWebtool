@@ -23,6 +23,10 @@ import pandas as pd
 #Import os
 import os
 
+#File processing
+import zipfile
+import shutil
+
 #Astropy
 from astropy.time import Time
 
@@ -714,13 +718,26 @@ def event(event_id):
 
 
 import shutil
-@app.route('/downloads/<directory>', methods=['GET', 'POST'])
-def get_files(directory):
-    #Creat the output name for the zipped directory
-    output_filename = str(directory)
+# @app.route('/downloads/<directory>', methods=['GET', 'POST'])
+# def get_files(directory):
+#     #Creat the output name for the zipped directory
+#     output_filename = str(directory)
 
-    #Zip the folder
-    return send_file(shutil.make_archive(output_filename, 'zip', current_app.root_path+'/static/SourceData/'+directory), as_attachment=True)
+#     #
+#     k = shutil.make_archive(output_filename, 'zip', current_app.root_path+'/static/SourceData/'+directory)
+    
+#     #Zip the folder
+#     return send_file(k, as_attachment=True)
+
+@app.route('/downloads/<directory>', methods=['GET', 'POST'])
+def get_files2(directory):
+    filestream=io.BytesIO()
+    with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
+        for file in os.walk('/static/SourceData/'+directory):
+            zipf.write(file, filestream)
+    filestream.seek(0)
+    return send_file(filestream, attachment_filename=directory+'.zip', 
+                      as_attachment=True, mimetype='application/zip')
 
 
 @app.route('/docs')

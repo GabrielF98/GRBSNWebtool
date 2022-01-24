@@ -368,19 +368,19 @@
   </h2>
   {% if 'AT' in event[0]['SNe']|string()%}
   {% if event[0]['SNe'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_files', directory='GRB'+event[0]['GRB'] )}}">download data</a> gathered from the ADS for this event.</p>
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">download data</a> gathered from the ADS for this event.</p>
   {% elif event[0]['GRB'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_files', directory=event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
   {% else %}
-    <p>It is now possible to <a href="{{ url_for('get_files', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
   {% endif %}
 {%else%}
   {% if event[0]['SNe'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_files', directory='GRB'+event[0]['GRB'] )}}">download data</a> gathered from the ADS for this event.</p>
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">download data</a> gathered from the ADS for this event.</p>
   {% elif event[0]['GRB'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_files', directory='SN'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
   {% else %}
-    <p>It is now possible to <a href="{{ url_for('get_files', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
   {% endif %}
 {%endif%}
 </div>
