@@ -426,21 +426,17 @@ def event(event_id):
         #Access the data in the files for the SNe photometry
         filename = './static/SNE-OpenSN-Data/photJSON/'+str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.json'
 
-        with open(filename) as json_file:
-            data_i = json.load(json_file)
+        data = pd.read_csv(filename)
 
-            #Split the data into two lists, one wavelengths and one flux "time": "50929.6", "band": "R", "magnitude": "15.58", "u_time": "MJD"
-            a, b, c, d, e = zip(*data_i['SN'+str(event[0]['SNe'])]['photometry'])
-
-            bands = set(data['band'])
+        bands = set(data['band'])
 
 
-       
-            color = Category20_20.__iter__()
-            for j in bands:
-                new_df = data.loc[data['band']==j]
-                optical.scatter(new_df['time'], new_df['magnitude'], legend_label=str(j), size=10, color=next(color))
-            optical.y_range.flipped = True
+   
+        color = Category20_20.__iter__()
+        for j in bands:
+            new_df = data.loc[data['band']==j]
+            optical.scatter(new_df['time'], new_df['magnitude'], legend_label=str(j), size=10, color=next(color))
+        optical.y_range.flipped = True
 
     #Aesthetics
 
