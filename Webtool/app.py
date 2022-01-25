@@ -441,7 +441,7 @@ def event(event_id):
                 for reference in dictionaries:
                     #Check if its already in the needed_dict
                     if reference['url'] in needed_dict.keys():
-                        optical_source_indices_sub.append(list(needed_dict.keys()).index(reference['url'])+1)
+                        optical_source_indices_sub.append((list(needed_dict.keys()).index(reference['url'])+1))
 
                     else:
                         #Add to the needed_dict
@@ -449,9 +449,13 @@ def event(event_id):
                         #Save the optical ref to use as a key in event html when accessing the reference. 
                         optical_refs.append(reference['url'])
                         #Append the number (now only needed for the graph)
-                        optical_source_indices_sub.append(list(needed_dict.keys()).index(reference['url'])+1)
+                        optical_source_indices_sub.append((list(needed_dict.keys()).index(reference['url'])+1))
 
-                optical_source_indices.append(optical_source_indices_sub)
+                #Get the numbering for the sources to display in the right order
+                if len(optical_source_indices_sub)>1:
+                    optical_source_indices.append(np.sort(optical_source_indices_sub))
+                else:
+                    optical_source_indices.append(optical_source_indices_sub)
 
             #Add the lists of indices to the DF
             data['indices'] = optical_source_indices
@@ -475,9 +479,10 @@ def event(event_id):
                 #Tooltips of what will display in the hover mode
                 # Format the tooltip
                 tooltips = [
-                            (   'time', '@time'),
-                                ('Source', '@indices'), 
-                           ]
+                            ('time', '@time'),
+                            ('magnitude', '@magnitude'),
+                            ('Source', '@indices'), 
+                                ]
                 
             # Add the HoverTool to the figure
             optical.add_tools(HoverTool(tooltips=tooltips))
@@ -640,7 +645,7 @@ def event(event_id):
                         #Append the number (now only needed for the graph)
                         source_indices.append(list(needed_dict.keys()).index(sources[k]['url'])+1)
 
-                data_dict['sources'] = [source_indices]*len(wavelength)
+                data_dict['sources'] = [np.sort(source_indices)]*len(wavelength)
                 data_dict['wave_unit'] = [data_i['SN'+str(event[0]['SNe'])]['spectra']['u_wavelengths']]*len(wavelength)
                 data_dict['flux_unit'] = [data_i['SN'+str(event[0]['SNe'])]['spectra']['u_fluxes']]*len(wavelength)
 

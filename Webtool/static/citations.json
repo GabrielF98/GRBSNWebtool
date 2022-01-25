@@ -7,6 +7,10 @@
         "names": "Galama et al.",
         "year": "2000"
     },
+    "https://ui.adsabs.harvard.edu/abs/2017AdAst2017E...5C/abstract": {
+        "names": "Cano et al.",
+        "year": "2017"
+    },
     "https://ui.adsabs.harvard.edu/abs/2003ApJ...582..924G/abstract": {
         "names": "Garnavich et al.",
         "year": "2003"
@@ -23,45 +27,37 @@
         "names": "Della Valle et al.",
         "year": "2006"
     },
+    "https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract": {
+        "names": "Klose et al.",
+        "year": "2019"
+    },
     "https://ui.adsabs.harvard.edu/abs/2013ApJ...766...30G/abstract": {
         "names": "Gendre et al.",
         "year": "2013"
     },
-    "https://ui.adsabs.harvard.edu/abs/2013ApJ...776...98X/abstract": {
-        "names": "Xu et al.",
-        "year": "2013"
-    },
-    "https://ui.adsabs.harvard.edu/abs/2014A%26A...567A..29M/abstract": {
-        "names": "Melandri et al.",
-        "year": "2014"
-    },
-    "https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract": {
-        "names": "Cano et al.",
-        "year": "2014"
-    },
-    "https://ui.adsabs.harvard.edu/abs/2016ApJ...818...79T/abstract": {
-        "names": "Toy et al.",
-        "year": "2016"
+    "https://ui.adsabs.harvard.edu/abs/2019A%26A...624A.143K/abstract": {
+        "names": "Kann et al.",
+        "year": "2019"
     },
     "https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract": {
         "names": "De Pasquale et al.",
         "year": "2016"
     },
-    "https://ui.adsabs.harvard.edu/abs/2017AdAst2017E...5C/abstract": {
+    "https://ui.adsabs.harvard.edu/abs/2014A%26A...567A..29M/abstract": {
+        "names": "Melandri et al.",
+        "year": "2014"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2013ApJ...776...98X/abstract": {
+        "names": "Xu et al.",
+        "year": "2013"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2016ApJ...818...79T/abstract": {
+        "names": "Toy et al.",
+        "year": "2016"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract": {
         "names": "Cano et al.",
-        "year": "2017"
-    },
-    "https://ui.adsabs.harvard.edu/abs/2018ApJ...867..147W/abstract": {
-        "names": "Wang et al.",
-        "year": "2018"
-    },
-    "https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract": {
-        "names": "Klose et al.",
-        "year": "2019"
-    },
-    "https://ui.adsabs.harvard.edu/abs/2019A%26A...624A.143K/abstract": {
-        "names": "Kann et al.",
-        "year": "2019"
+        "year": "2014"
     },
     "https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.5824A/abstract": {
         "names": "Ashall et al.",
@@ -71,6 +67,14 @@
         "names": "Melandri et al.",
         "year": "2019"
     },
+    "https://ui.adsabs.harvard.edu/abs/2018ApJ...867..147W/abstract": {
+        "names": "Wang et al.",
+        "year": "2018"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2021arXiv211204759M/abstract": {
+        "names": "Melandri et al.",
+        "year": "2021"
+    },
     "https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract": {
         "names": "Hu et al.",
         "year": "2021"
@@ -79,8 +83,6 @@
         "names": "Ahumada et al.",
         "year": "2021"
     },
-    "https://ui.adsabs.harvard.edu/abs/2021arXiv211204759M/abstract": {
-        "names": "Melandri et al.",
-        "year": "2021"
-    }
+    "null": null,
+    "https://swift.gsfc.nasa.gov/archive/grb_table/190114C": "https://swift.gsfc.nasa.gov/archive/grb_table/190114C"
 }

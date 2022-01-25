@@ -18,7 +18,8 @@ def bibcode_names():
 	conn = get_db_connection()
 	urls = conn.execute('SELECT DISTINCT(PrimarySources) FROM SQLDataGRBSNe')
 	bibcodes = []
-	hyperlinks = [] 
+	hyperlinks = []
+	randoms = [] 
 	for i in urls:
 		
 		if str(i[0])[0:10] == 'https://ui':
@@ -26,14 +27,14 @@ def bibcode_names():
 			#Split the bibcode into a list by breaking it each time a / appears
 			bibcodes.append(str(i[0]).split('/')[4].replace('%26', '&'))
 			hyperlinks.append(str(i[0]))
-		#Skip anything without https://ui
+		#Include anything without https://ui but dont go to ADS
 		else:
-			continue
+			randoms.append(i[0])
 	conn.close()
 	
-	return bibcodes, hyperlinks
+	return bibcodes, hyperlinks, randoms
 
-bibcodes, hyperlinks = bibcode_names()
+bibcodes, hyperlinks, randoms = bibcode_names()
 
 #API Access
 #Code copied from the howto for the ADS API (though some of it is mine too)
@@ -64,9 +65,13 @@ for i in range(len(bibcodes)):
 		dictionary_a['year'] = author_list[-5:-1]
 	dictionary[str(hyperlinks[i])] = dictionary_a
 
+#Take care of the randoms
+for i in range(len(randoms)):
+	dictionary[randoms[i]] = randoms[i]
+
 #Save the dictionary with json.dump()
 file = open("citations.json", 'w')
-json.dump(dictionary, file, sort_keys=True, indent=4, separators=(',', ': '))
+json.dump(dictionary, file, indent=4, separators=(',', ': '))
 file.close()
 
 #Return ADS urls of the secondary sources
@@ -74,7 +79,8 @@ def secondary_bibcode_names():
 	conn = get_db_connection()
 	urls = conn.execute('SELECT DISTINCT(SecondarySources) FROM SQLDataGRBSNe')
 	bibcodes = []
-	hyperlinks = [] 
+	hyperlinks = []
+	randoms = [] 
 	for i in urls:
 		
 		if str(i[0])[0:10] == 'https://ui':
@@ -82,14 +88,14 @@ def secondary_bibcode_names():
 			#Split the bibcode into a list by breaking it each time a / appears
 			bibcodes.append(str(i[0]).split('/')[4].replace('%26', '&'))
 			hyperlinks.append(str(i[0]))
-		#Skip anything without https://ui
+		#Include anything without https://ui but dont go to ADS
 		else:
-			continue
+			randoms.append(i[0])
 	conn.close()
 	
-	return bibcodes, hyperlinks
+	return bibcodes, hyperlinks, randoms
 
-bibcodes2, hyperlinks2 = secondary_bibcode_names()
+bibcodes2, hyperlinks2, randoms2 = secondary_bibcode_names()
 
 #API Access
 #Code copied from the howto for the ADS API (though some of it is mine too)
@@ -116,9 +122,13 @@ for i in range(len(bibcodes2)):
 		dictionary_a['names'] = author_list[:-6]
 		dictionary_a['year'] = author_list[-5:-1]
 	dictionary2[str(hyperlinks2[i])] = dictionary_a
+
+#Take care of the randoms
+for i in range(len(randoms2)):
+	dictionary2[randoms2[i]] = randoms2[i]
 #Save the dictionary with json.dump()
 file = open("citations2.json", 'w')
-json.dump(dictionary2, file, sort_keys=True, indent=4, separators=(',', ': '))
+json.dump(dictionary2, file, indent=4, separators=(',', ': '))
 file.close()
 
 
