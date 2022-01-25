@@ -425,12 +425,13 @@ def event(event_id):
     # add a line renderer with legend and line thickness
 
     #Extract and plot the optical photometry data from the photometry file for each SN
+    optical_refs = [] #Has to be outside the loop so it wont crash for non SN pages
     if event[0]['SNe'] != None:
 
         data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/'+str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.csv')
         if data.empty == False:
 
-            optical_refs = []
+            
             #Indexing the sources
             optical_source_indices = [] #This is supposed to show the number to be assigned to a particular source. 
             for dictionaries in data['refs']:
@@ -582,7 +583,7 @@ def event(event_id):
     #Blank tooltips
     tooltips = []
 
-    #Spectra sources
+    #Spectra sources (outside loop so as not to crash pages when no SN)
     spec_refs = []
 
     max_spec = [10]
