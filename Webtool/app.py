@@ -445,7 +445,7 @@ def event(event_id):
 
                     else:
                         #Add to the needed_dict
-                        needed_dict[reference['url']] = {'name': reference['name']}
+                        needed_dict[reference['url']] = {'name': reference['name'].replace('(','').replace(')', '')}
                         #Save the optical ref to use as a key in event html when accessing the reference. 
                         optical_refs.append(reference['url'])
                         #Append the number (now only needed for the graph)
@@ -622,8 +622,6 @@ def event(event_id):
                 data_dict = {'wavelength': wavelength, 'flux': float_flux,
                             'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength)}
 
-                # spectra_time = Time(data_i['SN'+str(event[0]['SNe'])]['spectra']['time'], format='mjd')
-                # data_dict['time'] = [spectra_time]*len(wavelength)
                 #SOURCES
                 sources = data_i['SN'+str(event[0]['SNe'])]['spectra']['source']
                 source_indices = [] #This is supposed to show the number to be assigned to a particular source. 
@@ -634,7 +632,7 @@ def event(event_id):
                         source_indices.append(list(needed_dict.keys()).index(sources[k]['url'])+1)
                     else:
                         #Add to the needed_dict
-                        needed_dict[sources[k]['url']] = {'name': sources[k]['name']}
+                        needed_dict[sources[k]['url']] = {'name': sources[k]['name'].replace('(','').replace(')', '')}
 
                         #Save the spectra ref to use as a key in event html when accessing the reference. 
                         spec_refs.append(sources[k]['url'])
