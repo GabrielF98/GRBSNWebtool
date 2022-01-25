@@ -8,6 +8,9 @@ import glob
 import numpy as np
 import json
 
+#Convert strings to lists
+import ast
+
 #Pieces for Bokeh
 from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput, HoverTool, Range1d, Label, LabelSet
 from bokeh.io import curdoc
@@ -422,21 +425,59 @@ def event(event_id):
 
     #Extract and plot the optical photometry data from the photometry file for each SN
     if event[0]['SNe'] != None:
-        #Start here
-        #Access the data in the files for the SNe photometry
-        filename = './static/SNE-OpenSN-Data/photJSON/'+str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.json'
 
-        data = pd.read_csv(filename)
+        data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/'+str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.csv')
+        if data.empty == False:
 
-        bands = set(data['band'])
+            optical_refs = []
+            optical_cites = []
+            #Indexing the sources
+            optical_source_indices = [] #This is supposed to show the number to be assigned to a particular source. 
+            for dictionaries in data['refs']:
+                dictionaries = ast.literal_eval(dictionaries)
+                #Sub list of the indices for each reference
+                optical_source_indices_sub = [] 
+                for reference in dictionaries:
+                    if reference['url'] in needed_dict.keys():
+                        optical_source_indices_sub.append(list(needed_dict.keys()).index(reference['url'])+1)
+
+                    elif reference['url'] in optical_refs:
+                        optical_source_indices_sub.append(optical_refs.index(reference['url']))
+
+                    else:
+                        optical_refs.append(reference['url'])
+                        optical_cites.append(reference['name'])
+                        optical_source_indices_sub.append(optical_refs.index(reference['url'])+len(needed_dict))
+                optical_source_indices.append(optical_source_indices_sub)
+
+            data['indices'] = optical_source_indices
+            #Splitting the data by band for plotting purposes
+            bands = set(data['band'])
+
+            color = Category20_20.__iter__()
+            for j in bands:
+                #Create a df with just the band j
+                new_df = data.loc[data['band']==j]
+
+                optical_data = ColumnDataSource(new_df)
+                optical.scatter('time', 'magnitude', source=optical_data, legend_label=str(j), size=10, color=next(color))
+
+                
 
 
-   
-        color = Category20_20.__iter__()
-        for j in bands:
-            new_df = data.loc[data['band']==j]
-            optical.scatter(new_df['time'], new_df['magnitude'], legend_label=str(j), size=10, color=next(color))
-        optical.y_range.flipped = True
+                #Tooltips of what will display in the hover mode
+                # Format the tooltip
+                #Tooltips of what will display in the hover mode
+                # Format the tooltip
+                tooltips = [
+                            (   'time', '@time'),
+                                ('Source', '@indices'), 
+                           ]
+                
+            # Add the HoverTool to the figure
+            optical.add_tools(HoverTool(tooltips=tooltips))
+                
+            optical.y_range.flipped = True
 
     #Aesthetics
 
