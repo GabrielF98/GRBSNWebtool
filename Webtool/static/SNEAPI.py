@@ -92,41 +92,6 @@ for i in range(len(names)):
 		#Save
 		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'/'+str(names[i])+'.csv', index=False)
 
-		
-
-		# #Use the API to get the photometry in its entirety
-		# phot_source = requests.get('https://api.astrocats.space/SN'+str(names[i])+'/photometry/?format=json')
-		# phot_source = phot_source.json()
-		
-		# #Convert the sources to have names
-		# if len(phot_source['SN'+names[i]]['photometry'])!=0:
-		# 	for m in phot_source['SN'+names[i]]['photometry']:
-
-		# 		list_of_sources = []
-
-		# 		for n in m['source'].split(','):
-		# 			keys = ref_list[str(names[i])]['sources'][int(n)-1].keys()
-
-		# 			if 'bibcode' in keys:
-		# 				string = ref_list[str(names[i])]['sources'][int(n)-1]['reference']
-		# 				string = string.replace("(","").replace(")","")
-		# 				#print(string)
-		# 				ref = {'name':string, 
-		# 						'url':'https://ui.adsabs.harvard.edu/abs/'+str(ref_list[str(names[i])]['sources'][int(n)-1]['bibcode'])+'/abstract'} #ADS link from bibcode
-
-		# 				list_of_sources.append(ref)
-		# 			elif 'url' in keys:
-		# 				ref = {'name':ref_list[str(names[i])]['sources'][int(n)-1]['name'], 
-		# 						'url':ref_list[str(names[i])]['sources'][int(n)-1]['url']}
-		# 				list_of_sources.append(ref)
-
-		# 		#print(list_of_sources)
-		# 		m['source'] = list_of_sources
-
-		# #Save the data
-		# file = open('./SNE-OpenSN-Data/photJSON/'+str(names[i])+'/'+str(names[i])+'.json', 'w')
-		# json.dump(phot_source, file)
-
 		################################
 		#######SPECTRA##################
 		################################
@@ -214,41 +179,6 @@ for i in range(len(names)):
 
 		#Save
 		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'/'+str(names[i])+'.csv', index=False)
-		
-		# #Use the API to get the photometry in its entirety
-		# phot_source = requests.get('https://api.astrocats.space/'+str(names[i])+'/photometry/?format=json')
-		# phot_source = phot_source.json()
-		
-		# #print(phot_source)
-		# #Convert the sources to have names
-		# if len(phot_source[names[i]]['photometry'])!=0:
-		# 	for m in phot_source[names[i]]['photometry']:
-				
-		# 		list_of_sources = []
-
-		# 		for n in m['source'].split(','):
-		# 			keys = ref_list[str(names[i])]['sources'][int(n)-1].keys()
-
-		# 			if 'bibcode' in keys:
-		# 				string = ref_list[str(names[i])]['sources'][int(n)-1]['reference']
-		# 				string = string.replace("(","").replace(")","")
-		# 				#print(string)
-		# 				ref = {'name':string, 
-		# 						'url':'https://ui.adsabs.harvard.edu/abs/'+str(ref_list[str(names[i])]['sources'][int(n)-1]['bibcode'])+'/abstract'} #ADS link from bibcode
-
-		# 				list_of_sources.append(ref)
-		# 			elif 'url' in keys:
-		# 				ref = {'name':ref_list[str(names[i])]['sources'][int(n)-1]['name'], 
-		# 						'url':ref_list[str(names[i])]['sources'][int(n)-1]['url']}
-		# 				list_of_sources.append(ref)
-
-		# 		#print(list_of_sources)
-		# 		m['source'] = list_of_sources
-
-		# 	#Save the data
-		# 	file = open('./SNE-OpenSN-Data/photJSON/'+str(names[i])+'/'+str(names[i])+'.json', 'w')
-		# 	json.dump(phot_source, file)
-
 
 		################################
 		#######SPECTRA##################
