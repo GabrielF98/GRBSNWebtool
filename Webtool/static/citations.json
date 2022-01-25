@@ -31,12 +31,20 @@
         "names": "Xu et al.",
         "year": "2013"
     },
+    "https://ui.adsabs.harvard.edu/abs/2014A%26A...567A..29M/abstract": {
+        "names": "Melandri et al.",
+        "year": "2014"
+    },
     "https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract": {
         "names": "Cano et al.",
         "year": "2014"
     },
     "https://ui.adsabs.harvard.edu/abs/2016ApJ...818...79T/abstract": {
         "names": "Toy et al.",
+        "year": "2016"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract": {
+        "names": "De Pasquale et al.",
         "year": "2016"
     },
     "https://ui.adsabs.harvard.edu/abs/2017AdAst2017E...5C/abstract": {
@@ -62,10 +70,6 @@
     "https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.5366M/abstract": {
         "names": "Melandri et al.",
         "year": "2019"
-    },
-    "https://ui.adsabs.harvard.edu/abs/2020ApJ...893..132H/abstract": {
-        "names": "Ho et al.",
-        "year": "2020"
     },
     "https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract": {
         "names": "Hu et al.",
