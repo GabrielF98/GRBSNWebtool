@@ -356,7 +356,7 @@ def event(event_id):
         if event[i]['PrimarySources']!=None:
             needed_dict[event[i]['PrimarySources']] = dict_refs[event[i]['PrimarySources']]
         elif event[i]['SecondarySources']!=None:
-            needed_dict[event[i]['SecondarySources']] = dict_refs[event[i]['SecondarySources']]
+            needed_dict[event[i]['SecondarySources']] = dict_refs2[event[i]['SecondarySources']]
 
 
     ######################################################################################
