@@ -767,19 +767,6 @@ def event(event_id):
     #Return everything
     return render_template('event.html', event=event, radec=radec, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
-
-import shutil
-# @app.route('/downloads/<directory>', methods=['GET', 'POST'])
-# def get_files(directory):
-#     #Creat the output name for the zipped directory
-#     output_filename = str(directory)
-
-#     #
-#     k = shutil.make_archive(output_filename, 'zip', current_app.root_path+'/static/SourceData/'+directory)
-    
-#     #Zip the folder
-#     return send_file(k, as_attachment=True)
-
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
 def get_files2(directory):
     filestream=io.BytesIO()
