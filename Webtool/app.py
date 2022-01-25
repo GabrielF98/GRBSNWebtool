@@ -1,5 +1,7 @@
-from flask import Flask, render_template, redirect, url_for, flash, send_file, make_response
+from flask import Flask, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
 from werkzeug.exceptions import abort
+
+from flask_bootstrap import Bootstrap
 
 #Find the txt files with the right names
 import glob
@@ -13,11 +15,17 @@ from bokeh.resources import INLINE
 from bokeh.embed import components
 from bokeh.layouts import gridplot, Spacer, layout, column, row
 from bokeh.plotting import figure, output_file, show
-from flask import Flask, request, render_template, abort, Response, flash
 from bokeh.palettes import all_palettes, viridis
 
 #Pandas
 import pandas as pd
+
+#Import os
+import os
+
+#File processing
+import zipfile
+import shutil
 
 #Astropy
 from astropy.time import Time
@@ -210,7 +218,7 @@ def home():
 
     #Ok new plan
     #Going to give it a go with the UNION and INTERSECT commands
-    initial_query = (f"SELECT GRB, SNe, e_iso, z, T90 FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
+    initial_query = (f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
     data = conn.execute(initial_query).fetchall()
 
     form = SearchForm(request.form)
@@ -219,13 +227,10 @@ def home():
         event_id = form.object_name.data
         print(event_id)
         if str(event_id)[2:] in sne: #if they search an SN
-            print('bananan')
             return redirect(url_for('event', event_id=event_id))
         elif str(event_id)[3:] in grbs: #if they search an GRB
-            print('bananan')
             return redirect(url_for('event', event_id=event_id))
         else:
-            print('No')
             flash('This object is not in our database.')
             return render_template('home.html', form=form, data=data)
     return render_template('home.html', form=form, data=data)
@@ -368,7 +373,6 @@ def event(event_id):
     #Aesthetics
     xray.title.text_font_size = '20pt'
     xray.title.text_color = 'black'
-    xray
     xray.title.align = 'center'
 
     #Axis font size
@@ -541,6 +545,8 @@ def event(event_id):
     spec_refs = []
     spec_cites = []
 
+    max_spec = [10]
+    min_spec = [0]
     if event[0]['SNe'] != None:
 
         #Access the data in the files for the SNe Spectra
@@ -549,9 +555,11 @@ def event(event_id):
 
         color = viridis(len(files)) #Colormap to be used - 45 is the max number of spectra im expecting for a single event 
 
-         
-        max_spec = np.zeros(len(files))
-        min_spec = np.zeros(len(files))
+        if len(files) != 0:
+            max_spec = np.zeros(len(files))
+            min_spec = np.zeros(len(files))
+
+        
         for i in range(len(files)):
             with open(files[i]) as json_file:
                 data_i = json.load(json_file)
@@ -660,7 +668,6 @@ def event(event_id):
         print('The min and max are', min_spec, max_spec)
         spectrum.y_range=Range1d(min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
 
-
     else:
         # Add the HoverTool to the figure
         spectrum.add_tools(HoverTool(tooltips=tooltips))
@@ -718,9 +725,202 @@ def event(event_id):
     #Return everything
     return render_template('event.html', event=event, radec=radec, dict=dict_refs, dict2=dict_refs2, spec_refs=spec_refs, spec_cites=spec_cites, **kwargs)
 
+
+import shutil
+# @app.route('/downloads/<directory>', methods=['GET', 'POST'])
+# def get_files(directory):
+#     #Creat the output name for the zipped directory
+#     output_filename = str(directory)
+
+#     #
+#     k = shutil.make_archive(output_filename, 'zip', current_app.root_path+'/static/SourceData/'+directory)
+    
+#     #Zip the folder
+#     return send_file(k, as_attachment=True)
+
+@app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
+def get_files2(directory):
+    filestream=io.BytesIO()
+    with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
+        for file in os.listdir(current_app.root_path+'/static/SourceData/'+directory):
+            zipf.write(current_app.root_path+'/static/SourceData/'+directory+'/'+file, directory+'/'+file)
+    filestream.seek(0)
+    return send_file(filestream, attachment_filename=directory+'.zip', as_attachment=True)
+
+
 @app.route('/docs')
 def docs():
     return render_template('docs.html')
+
+
+
+@app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
+def graphs():
+    category_dict = {'all':'all events', 'orphan':'Orphan GRB Afterglows', 'spec':'Spectroscopic SNe Only', 'phot':'Photometric SNe Only'}
+    name_dict = {'e_iso':'Eiso [erg]', 'z':'Redshift', 
+    'ni_m':u'SN Nickel Mass [M\u2609]', 'ej_m':u'SN Ejecta Mass [M\u2609]',
+     'E_p':"GRB Peak Energy [erg]", 'e_k':'GRB Kinetic Energy [erg]',
+      'T90':"T90 [sec]"}
+
+    axis = {'e_iso':'log', 'z':'linear', 'ni_m':'linear', 'ej_m':'linear',
+     'E_p':"linear", 'e_k':'log', 'T90':"log"}
+    if request.method=='POST':
+        category = request.form.getlist('selectors1')
+
+        x = request.form.getlist('selectors2')
+        y = request.form.getlist('selectors3')
+
+        conn = get_db_connection() #Connect to DB
+
+        if category[0]=='all':
+            #Get the data for the plots
+            data = conn.execute("SELECT DISTINCT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY GRB, SNe".format(a=x[0], b=y[0])).fetchall()
+        
+        elif category[0]=='orphan':
+            #Get the data for the plots
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE GRB IS NULL AND {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY SNe".format(a=x[0], b=y[0])).fetchall()
+        
+        elif category[0]=='spec':
+            #Get the data for the plots
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NOT NULL AND {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY SNe".format(a=x[0], b=y[0])).fetchall()
+
+        elif category[0]=='phot':
+        #Get the data for the plots
+            data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NULL  AND {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY GRB".format(a=x[0], b=y[0])).fetchall()
+    
+
+
+        #Data for the graphs, remove the duplicates
+        x_data = []
+        y_data = []
+        x_data_upperx = []
+        x_data_uppery = []
+        x_data_lowerx = []
+        x_data_lowery = []
+
+        
+        y_data_upperx = []
+        y_data_uppery = []
+        y_data_lowerx = []
+        y_data_lowery = []
+
+        grb_name = []
+        sne_name = []
+        raw_x = []
+        raw_y = []
+
+        #Loop rows returned from SQL
+        for row in data:
+            grb_name.append(row[0])
+            sne_name.append(row[1])
+            #
+            raw_x.append(str(row[2]).split(',')[0])
+            raw_y.append(str(row[3]).split(',')[0])
+            #Remove the first item from the returned list for plotting
+            if str(row[2]).split(',')[0]!='None' and str(row[3]).split(',')[0]!='None':
+                
+                
+
+                if '<' in str(row[2]).split(',')[0]:
+                    print('case1'+str(row[2]).split(',')[0])
+                    x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
+                elif '>' in str(row[2]).split(',')[0]:
+                    print('case2'+row[2].split(',')[0])
+                    x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
+                elif '<' in str(row[3]).split(',')[0]:
+                    print('case3'+row[3].split(',')[0])
+                    x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
+                elif '>' in str(row[3]).split(',')[0]:
+                    print('case4'+row[3].split(',')[0])
+                    x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
+                    y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
+                else:
+                    x_data.append(float(str(row[2]).split(',')[0]))
+                    y_data.append(float(str(row[3]).split(',')[0]))
+
+
+
+        #Zip the data for the downloadable files
+        if request.form.get('download'):
+            download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
+            s = io.StringIO()
+            dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
+            s.seek(0)
+            #Make the response
+            resp = Response(s, mimetype='text/csv')
+
+            resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
+            return resp
+            
+
+        #Place the plotting data in a dict (the ones that arent uppper/lower limits)
+        data_dict = {x[0]:x_data, y[0]:y_data}
+
+        #Convert the dict to a column data object
+        data_source = ColumnDataSource(data_dict)
+        
+        #Plot the data
+        #graph = figure(title=str(name_dict[x[0]])+' vs. '+str(name_dict[y[0]])+'\n for '+str(category_dict[category[0]]), x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
+        graph = figure(x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
+        
+        graph.circle(x[0], y[0], source=data_source, size=10, fill_color='orange')
+        graph.inverted_triangle(x_data_upperx, x_data_uppery, size=10, fill_color='blue')
+        graph.triangle(x_data_lowerx, x_data_lowery, size=10, fill_color='red')
+
+        graph.inverted_triangle(y_data_upperx, y_data_uppery, size=10, fill_color='red')
+        graph.triangle(y_data_lowerx, y_data_lowery, size=10, fill_color='red')
+        
+        #Aesthetics
+        #Title
+        graph.title.text_font_size = '13pt'
+        graph.title.text_color = 'black'
+        graph.title.align = 'center'
+    
+        #Axis labels
+        graph.xaxis.axis_label = name_dict[x[0]]
+        graph.yaxis.axis_label = name_dict[y[0]]
+
+        graph.xaxis.axis_label_text_font_size = '13pt'
+        graph.yaxis.axis_label_text_font_size = '13pt'
+
+        #Axis Colors
+        graph.xaxis.axis_line_color = 'black'
+        graph.yaxis.axis_line_color = 'black'
+
+        #Make ticks larger
+        graph.xaxis.major_label_text_font_size = '13pt'
+        graph.yaxis.major_label_text_font_size = '13pt'
+
+        script, div = components(graph)
+        kwargs = {'script': script, 'div': div}
+        kwargs['title'] = 'bokeh-with-flask'
+
+        return render_template('graphs.html', **kwargs)
+
+    else:
+        graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
+        
+        script, div = components(graph)
+        kwargs = {'script': script, 'div': div}
+        kwargs['title'] = 'bokeh-with-flask'    
+        return render_template('graphs.html', **kwargs)
+    
+# Likely not needed anymore
+# #Dowload the txt generated whilst generating the plot on the graphs page
+# @app.route('/download')
+# def downloader():
+#     print('banana2')
+#     s = io.StringIO()
+#     dwnld = np.savetxt(s, request.args.get('datalist'))
+#     s.seek(0)
+#     #Make the response
+#     resp = make_response(s, mimetype='text')
+
+#     resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
+#     return resp
 
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor

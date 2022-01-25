@@ -3,13 +3,13 @@
   <!-- The stuff to do with the X-ray plot -->
 
 <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh.min.css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.css"
     rel="stylesheet" type="text/css">
 <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-widgets.css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-widgets.css"
     rel="stylesheet" type="text/css">
 <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.2.0/bokeh-tables.css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-tables.css"
     rel="stylesheet" type="text/css">
 
 </head>
@@ -355,18 +355,35 @@
 
 
 
-<!-- Xray plot -->
+<!-- Plots -->
 <div>
 <h2><b>Data</b></h2>
-<!-- References -->
-
-<!-- <p>{{ data }}</p> -->
-<!-- The stuff to do with the X-ray plot -->
-
   {{ div|safe }}
   {{ script|safe }}
 </div>
 
+<div>
+  <h2>
+    <b>Download Data</b>
+  </h2>
+  {% if 'AT' in event[0]['SNe']|string()%}
+  {% if event[0]['SNe'] == None %}
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">download data</a> gathered from the ADS for this event.</p>
+  {% elif event[0]['GRB'] == None %}
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+  {% else %}
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+  {% endif %}
+{%else%}
+  {% if event[0]['SNe'] == None %}
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">download data</a> gathered from the ADS for this event.</p>
+  {% elif event[0]['GRB'] == None %}
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+  {% else %}
+    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+  {% endif %}
+{%endif%}
+</div>
 <!-- Table of references -->
 <div>
   <h2><b>References</b></h2>
@@ -427,9 +444,9 @@
 </div>
 
 </body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-widgets.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.3.1/bokeh-tables.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-widgets.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-tables.js"></script>
 
 
 
