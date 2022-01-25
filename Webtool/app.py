@@ -358,6 +358,7 @@ def event(event_id):
         elif event[i]['SecondarySources']!=None:
             needed_dict[event[i]['SecondarySources']] = dict_refs[event[i]['SecondarySources']]
 
+
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################
     ######################################################################################
@@ -430,7 +431,6 @@ def event(event_id):
         if data.empty == False:
 
             optical_refs = []
-            optical_cites = []
             #Indexing the sources
             optical_source_indices = [] #This is supposed to show the number to be assigned to a particular source. 
             for dictionaries in data['refs']:
@@ -438,19 +438,23 @@ def event(event_id):
                 #Sub list of the indices for each reference
                 optical_source_indices_sub = [] 
                 for reference in dictionaries:
+                    #Check if its already in the needed_dict
                     if reference['url'] in needed_dict.keys():
                         optical_source_indices_sub.append(list(needed_dict.keys()).index(reference['url'])+1)
 
-                    elif reference['url'] in optical_refs:
-                        optical_source_indices_sub.append(optical_refs.index(reference['url']))
-
                     else:
+                        #Add to the needed_dict
+                        needed_dict[reference['url']] = {'name': reference['name']}
+                        #Save the optical ref to use as a key in event html when accessing the reference. 
                         optical_refs.append(reference['url'])
-                        optical_cites.append(reference['name'])
-                        optical_source_indices_sub.append(optical_refs.index(reference['url'])+len(needed_dict))
+                        #Append the number (now only needed for the graph)
+                        optical_source_indices_sub.append(list(needed_dict.keys()).index(reference['url'])+1)
+
                 optical_source_indices.append(optical_source_indices_sub)
 
+            #Add the lists of indices to the DF
             data['indices'] = optical_source_indices
+
             #Splitting the data by band for plotting purposes
             bands = set(data['band'])
 
@@ -580,7 +584,6 @@ def event(event_id):
 
     #Spectra sources
     spec_refs = []
-    spec_cites = []
 
     max_spec = [10]
     min_spec = [0]
@@ -628,14 +631,15 @@ def event(event_id):
                     #Check if we are already using this reference for some of the data in the tables or for another spectrum
                     if sources[k]['url'] in needed_dict.keys():
                         source_indices.append(list(needed_dict.keys()).index(sources[k]['url'])+1)
-
-                    elif sources[k]['url'] in spec_refs:
-                        source_indices.append(spec_refs.index(sources[k]['url'])+3)
-
                     else:
+                        #Add to the needed_dict
+                        needed_dict[sources[k]['url']] = {'name': sources[k]['name']}
+
+                        #Save the spectra ref to use as a key in event html when accessing the reference. 
                         spec_refs.append(sources[k]['url'])
-                        spec_cites.append(sources[k]['name'])
-                        source_indices.append(spec_refs.index(sources[k]['url'])+3)
+
+                        #Append the number (now only needed for the graph)
+                        source_indices.append(list(needed_dict.keys()).index(sources[k]['url'])+1)
 
                 data_dict['sources'] = [source_indices]*len(wavelength)
                 data_dict['wave_unit'] = [data_i['SN'+str(event[0]['SNe'])]['spectra']['u_wavelengths']]*len(wavelength)
@@ -760,7 +764,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     #Return everything
-    return render_template('event.html', event=event, radec=radec, dict=dict_refs, dict2=dict_refs2, spec_refs=spec_refs, spec_cites=spec_cites, **kwargs)
+    return render_template('event.html', event=event, radec=radec, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 
 import shutil
