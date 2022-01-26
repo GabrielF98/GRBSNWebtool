@@ -81,14 +81,16 @@ def get_post(event_id):
         
         #Round ra and dec to 3dp
         if radec[0]['ra']!=None and radec[0]['dec']!=None:
-            ra = round(float(radec[0]['ra']), 3)
+            radec[0]['ra'] = round(float(radec[0]['ra']), 3)
             dec = round(float(radec[0]['dec']), 3)
-            radec = [ra, dec]
+            rd_source = radec[0]['source']
+            radec = [ra, dec, rd_source]
 
         else:
             ra = 'None'
             dec = 'None'
-            radec = [ra, dec]
+            rd_source = 'None'
+            radec = [ra, dec, rd_source]
 
         #Deals with people entering names that arent in the DB
         if event is None:
@@ -109,12 +111,14 @@ def get_post(event_id):
         if radec[0]['ra']!=None and radec[0]['dec']!=None:
             ra = round(float(radec[0]['ra']), 3)
             dec = round(float(radec[0]['dec']), 3)
-            radec = [ra, dec]
+            rd_source = radec[0]['source']
+            radec = [ra, dec, rd_source]
 
         else:
             ra = 'None'
             dec = 'None'
-            radec = [ra, dec]
+            rd_source = 'None'
+            radec = [ra, dec, rd_source]
 
         
         if event is None:
@@ -358,7 +362,11 @@ def event(event_id):
         elif event[i]['SecondarySources']!=None:
             needed_dict[event[i]['SecondarySources']] = dict_refs2[event[i]['SecondarySources']]
 
-
+    # #Add the radec swift stuff to the master dictionary of sources
+    # for i in range(len(radec)):
+    #     if radec[i][2]!=None:
+    #         print(radec[i][2])
+    #         needed_dict[radec[i][2]] = dict_refs[radec[i][2]]
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################
     ######################################################################################
@@ -766,7 +774,7 @@ def event(event_id):
     script, div = components(gridplot([xray, radio, optical, spectrum], ncols=2, merge_tools = False))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
-
+    print(len(optical_refs), print(spec_refs))
     #Return everything
     return render_template('event.html', event=event, radec=radec, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
