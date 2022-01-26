@@ -370,7 +370,28 @@
   <h2>
     <b>Download Data</b>
   </h2>
-  {% if 'AT' in event[0]['SNe']|string()%}
+
+  <!-- Download Database Data -->
+    {% if 'AT' in event[0]['SNe']|string()%}
+  {% if event[0]['SNe'] == None %}
+    <p>It is now possible to <a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">download data</a> stored in our database for this event.</p>
+  {% elif event[0]['GRB'] == None %}
+    <p>It is now possible to <a href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">download data</a> stored in our database for this event.</p>
+  {% else %}
+    <p>It is now possible to <a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_'+event[0]['SNe'])}}">download data</a> stored in our database for this event.</p>
+  {% endif %}
+  {%else%}
+  {% if event[0]['SNe'] == None %}
+    <p>It is now possible to <a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">download data</a> stored in our database for this event.</p>
+  {% elif event[0]['GRB'] == None %}
+    <p>It is now possible to <a href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">download data</a> stored in our database for this event.</p>
+  {% else %}
+    <p>It is now possible to <a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_SN'+event[0]['SNe'])}}">download data</a> stored in our database for this event.</p>
+  {% endif %}
+  {%endif%}
+
+  <!-- Download NASA ADS Data -->
+    {% if 'AT' in event[0]['SNe']|string()%}
   {% if event[0]['SNe'] == None %}
     <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">download data</a> gathered from the ADS for this event.</p>
   {% elif event[0]['GRB'] == None %}
@@ -378,7 +399,7 @@
   {% else %}
     <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
   {% endif %}
-{%else%}
+  {%else%}
   {% if event[0]['SNe'] == None %}
     <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">download data</a> gathered from the ADS for this event.</p>
   {% elif event[0]['GRB'] == None %}
@@ -386,7 +407,8 @@
   {% else %}
     <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
   {% endif %}
-{%endif%}
+  {%endif%}
+  
 </div>
 <!-- Table of references -->
 <div>
