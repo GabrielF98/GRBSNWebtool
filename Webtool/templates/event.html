@@ -189,7 +189,7 @@
     <td>
       {% for i in range(radec_nos|length) %}
       {% if radec[0]['ra']|string != 'None' %}
-          {{ radec[0]['ra'] }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]+1}} </a></sup> <br>
+          {{ radec[0]['ra'] }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
       {% endif %}
       {% endfor %}
     </td>
@@ -200,7 +200,7 @@
     <td>
       {% for i in range(radec_nos|length) %}
       {% if radec[0]['dec']|string != 'None' %}
-          {{ radec[0]['dec'] }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]+1}} </a></sup> <br>
+          {{ radec[0]['dec'] }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
       {% endif %}
       {% endfor %}
     </td>
@@ -443,43 +443,63 @@
 
   {% endif %}
   {% endfor %}
+
+  <!-- Xray plot refs -->
+  {% for i in range(swift_refs|length)%}
+    {% if '20' in needed_dict[swift_refs[i]]['year'] %}
+      <tr>
+        <td><a href="{{swift_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
+        <td> {{needed_dict[swift_refs[i]]['names']}} <b>{{needed_dict[swift_refs[i]]['year']}}</b>: <a href="{{swift_refs[i]}}" target = '_blank'>{{swift_refs[i]}} </a></td>
+      </tr>
+    {% elif '19' in needed_dict[swift_refs[i]]['year'] %}
+      <tr>
+        <td><a href="{{swift_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
+        <td> {{needed_dict[swift_refs[i]]['names']}} <b>{{needed_dict[swift_refs[i]]['year']}}</b>: <a href="{{swift_refs[i]}}" target = '_blank'>{{swift_refs[i]}} </a></td>
+      </tr>
+    {% else %}
+      <tr>
+        <td><a href="{{swift_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
+        <td> {{needed_dict[swift_refs[i]]['names']}}: <a href="{{swift_refs[i]}}" target = '_blank'>{{swift_refs[i]}} </a></td>
+      </tr>
+    {% endif %} 
+  {% endfor %}
   
 
-  <!-- Optical refs -->
+  <!-- Optical plot refs -->
   {% for i in range(optical_refs|length)%}
     {% if '20' in needed_dict[optical_refs[i]]['name'][-5:] %}
       <tr>
-        <td><a href="{{optical_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
+        <td><a href="{{optical_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
         <td> {{needed_dict[optical_refs[i]]['name'][:-5]}}<b>{{needed_dict[optical_refs[i]]['name'][-5:]}}</b>: <a href="{{optical_refs[i]}}" target = '_blank'>{{optical_refs[i]}} </a></td>
       </tr>
     {% elif '19' in needed_dict[optical_refs[i]]['name'][-5:] %}
       <tr>
-        <td><a href="{{optical_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
+        <td><a href="{{optical_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
         <td> {{needed_dict[optical_refs[i]]['name'][:-5]}}<b>{{needed_dict[optical_refs[i]]['name'][-5:]}}</b>: <a href="{{optical_refs[i]}}" target = '_blank'>{{optical_refs[i]}} </a></td>
       </tr>
     {% else %}
       <tr>
-        <td><a href="{{optical_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
+        <td><a href="{{optical_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
         <td> {{needed_dict[optical_refs[i]]['name']}}: <a href="{{optical_refs[i]}}" target = '_blank'>{{optical_refs[i]}} </a></td>
       </tr>
     {% endif %} 
   {% endfor %}
 
-  <!-- Spectra -->
+  <!-- Spectra plot refs -->
   {% for i in range(spec_refs|length)%}
     {% if '20' in needed_dict[spec_refs[i]]['name'][-5:] %}
       <tr>
-        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+radec_nos|length+1}} </a></td>
+        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
         <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
       </tr>
-    {% elif '19' in needed_dict[spec_refs[i]]['name'][-5:] %}
+    {% elif '19' in needed_dict[spec_refs[i]]['names'][-5:] %}
       <tr>
-        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+radec_nos|length+1}} </a></td>
+        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
         <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
       </tr>
     {% else %}
       <tr>
-        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+radec_nos|length+1}} </a></td>
+        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
         <td> {{needed_dict[spec_refs[i]]['name']}}: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
       </tr>
     {% endif %} 
