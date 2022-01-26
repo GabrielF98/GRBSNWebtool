@@ -50,8 +50,8 @@ for i in range(len(grbs)):
             print(ra_string, dec_string)
 
             c = SkyCoord(ra_string, dec_string)
-            ra[i] = c.ra.value
-            dec[i] = c.dec.value			
+            ra[i] = round(float(c.ra.value), 3)
+            dec[i] = round(float(c.dec.value), 3)
             
 
 
@@ -95,6 +95,8 @@ def main():
                                         sn_name text,
                                         ra text,
                                         dec text,
+                                        ra_err text,
+                                        dec_err text,
                                         source text
                                     ); """
 
@@ -103,24 +105,24 @@ def main():
 
     # create tables
     if conn is not None:
-        # create projects table
+        # create table
         create_table(conn, sql_create_radec_table)
 
     else:
         print("Error! cannot create the database connection.")
 
-
+main()
 #Add the data
 sqliteConnection = sqlite3.connect('Masterbase.db')
 cursor = sqliteConnection.cursor()
 
 for i in range(len(grbs)):
-	query = ('INSERT INTO RADec (grb_id, ra, dec, source) VALUES (?, ?, ?, ?)')
-	count = cursor.execute(query, (grbs[i], ra[i], dec[i], "https://swift.gsfc.nasa.gov/archive/grb_table/"))
+	query = ('INSERT INTO RADec (grb_id, ra, dec, ra_err, dec_err, source) VALUES (?, ?, ?, ?, ?, ?)')
+	count = cursor.execute(query, (grbs[i], ra[i], dec[i], None, None, "https://swift.gsfc.nasa.gov/archive/grb_table/"))
 	sqliteConnection.commit()
 
 cursor.close()
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
 
