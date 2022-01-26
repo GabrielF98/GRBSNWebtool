@@ -35,6 +35,7 @@ import shutil
 
 #Astropy
 from astropy.time import Time
+from astropy.io import ascii
 
 #Things for making updatable plots
 import io
@@ -319,7 +320,6 @@ def z_plotter():
 @app.route('/<event_id>')
 def event(event_id):
     event, radec = get_post(event_id)
-    data = get_grb_data(event_id)
 
     #References
     #Primary
@@ -386,13 +386,42 @@ def event(event_id):
     ######################################################################################
     #####X--RAYS##########################################################################
     ######################################################################################
-    t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
+    #Swift references
+    swift_reference = []
+    swift_reference_no = []
+    with open('static/long_grbs/swift_citation/swift_ads.json') as file3:
+        swift_bursts = json.load(file3)
+    for swift_reference in list(swift_bursts.keys()):
+        if swift_reference not in list(needed_dict.keys()):
+            needed_dict[swift_reference] = swift_bursts[swift_reference]
+            swift_reference_no.append(list(needed_dict.keys()).index(swift_reference))
+        else:
+            swift_reference_no.append(list(needed_dict.keys()).index(swift_reference))
+
+    #The swift data from antonios tools files
+    data = get_grb_data(event_id)
+
+    # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
+
+    #Convert to dict, then to column data source
+    data_dict_swift = {'time': data[0],
+                        'dt_pos': data[1],
+                        'dt_neg': data[2],
+                        'flux': data[3],
+                        'dflux_pos': data[4],
+                        'dflux_neg': data[5]}
+
+    #Add the references
+    data_dict_swift['sources'] = [swift_reference_no]*len(data[0])
+
+    xray_source = ColumnDataSource(data_dict_swift)
+
     # create a new plot with a title and axis labels
 
     xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
     
     # add a line renderer with legend and line thickness
-    xray.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, fill_color='orange')
 
     #Aesthetics
     xray.title.text_font_size = '20pt'
@@ -432,9 +461,17 @@ def event(event_id):
     xray.background_fill_color = 'white'
     xray.border_fill_color = 'white'
 
-
-
-    #script, div = components(plot)
+    #Tooltips of what will display in the hover mode
+    # Format the tooltip
+    
+    tooltips = [
+                ('time', '@time'),
+                ('flux', '@flux'),
+                ('Source', '@sources'), 
+                    ]
+                
+    # Add the HoverTool to the figure
+    xray.add_tools(HoverTool(tooltips=tooltips))
 
     ######################################################################################
     #####OPTICAL##########################################################################
