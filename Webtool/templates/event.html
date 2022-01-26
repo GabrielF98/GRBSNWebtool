@@ -448,7 +448,7 @@
         <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+1}} </a></td>
         <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
       </tr>
-    {% elif '19' in needed_dict[optical_refs[i]]['name'][-5:] %}
+    {% elif '19' in needed_dict[spec_refs[i]]['name'][-5:] %}
       <tr>
         <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+1}} </a></td>
         <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
