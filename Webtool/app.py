@@ -78,19 +78,6 @@ def get_post(event_id):
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ?", (grb_name,)).fetchall()
 
         radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
-        
-        #Round ra and dec to 3dp
-        if radec[0]['ra']!=None and radec[0]['dec']!=None:
-            radec[0]['ra'] = round(float(radec[0]['ra']), 3)
-            dec = round(float(radec[0]['dec']), 3)
-            rd_source = radec[0]['source']
-            radec = [ra, dec, rd_source]
-
-        else:
-            ra = 'None'
-            dec = 'None'
-            rd_source = 'None'
-            radec = [ra, dec, rd_source]
 
         #Deals with people entering names that arent in the DB
         if event is None:
@@ -106,20 +93,6 @@ def get_post(event_id):
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (sn_name,)).fetchall()
         
         radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
-        
-        #Round ra and dec to 3dp
-        if radec[0]['ra']!=None and radec[0]['dec']!=None:
-            ra = round(float(radec[0]['ra']), 3)
-            dec = round(float(radec[0]['dec']), 3)
-            rd_source = radec[0]['source']
-            radec = [ra, dec, rd_source]
-
-        else:
-            ra = 'None'
-            dec = 'None'
-            rd_source = 'None'
-            radec = [ra, dec, rd_source]
-
         
         if event is None:
             abort(404)
