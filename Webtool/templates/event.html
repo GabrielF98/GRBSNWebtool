@@ -426,19 +426,18 @@
   {% endfor %}
 
   <!-- RADec refs -->
-
   
   {% for i in range(radec_refs|length) %}
   {% if 'adsabs' not in radec_refs[i] %}
     <tr>
         <td><a href="{{radec_refs[i]}}" target = '_blank'>{{i+event|length+1}} </a></td>
-        <td><a href="{{radec_nos[i]}}" target = '_blank'>{{radec_refs[i]}} </a></td>
+        <td><a href="{{radec_refs[i]}}" target = '_blank'>{{radec_refs[i]}} </a></td>
     </tr>
 
   {% else %}
     <tr>
         <td><a href="{{radec_refs[i]}}" target = '_blank'>{{i+event|length+1}} </a></td>
-        <td> {{needed_dict[radec_refs[i]]['names']}} <b>{{needed_dict[radec_refs[i]]['year']}}</b>: <a href="{{radec_nos[i]}}" target = '_blank'>{{radec_refs[i]}} </a></td>
+        <td> {{needed_dict[radec_refs[i]]['names']}} <b>{{needed_dict[radec_refs[i]]['year']}}</b>: <a href="{{radec_refs[i]}}" target = '_blank'>{{radec_refs[i]}} </a></td>
     </tr>
 
   {% endif %}
