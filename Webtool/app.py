@@ -151,7 +151,6 @@ grb_sne = grb_sne_dict()
 
 #This code goes to the long_grbs folder and gets all the data for the plot
 def get_grb_data(event_id):
-
     #To determine if its an SN only or a GRB only
     if 'GRB' in str(event_id):
         event_id = event_id.split('_')[0][3:]
@@ -162,12 +161,15 @@ def get_grb_data(event_id):
         for i in range(len(files)):
             if str(event_id) in str(files[i]):
                 k = np.loadtxt(files[i], skiprows=1, unpack=True)
+                flag=True
                 break
             else:
                 k = [[0], [0], [0], [0], [0], [0]]
+                flag=False
     else:
-        k = [[0], [0], [0], [0], [0], [0]]        
-    return(k)
+        k = [[0], [0], [0], [0], [0], [0]]
+        flag=False        
+    return(flag, k)
 
 #Extract the SN names from the database
 def sne_names():
@@ -367,17 +369,17 @@ def event(event_id):
 
                 if radec[i]['source'] not in list(needed_dict.keys()):
                     needed_dict[radec[i]['source']] = dictionary_a
-                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source']))
+                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source'])+1)
                     radec_refs.append(radec[i]['source'])
                 else:
-                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source']))
+                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source'])+1)
             else:
                 if radec[i]['source'] not in list(needed_dict.keys()):
                     needed_dict[radec[i]['source']] = radec[i]['source']
-                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source']))
+                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source'])+1)
                     radec_refs.append(radec[i]['source'])
                 else:
-                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source']))
+                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source'])+1)
 
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################
@@ -386,20 +388,25 @@ def event(event_id):
     ######################################################################################
     #####X--RAYS##########################################################################
     ######################################################################################
-    #Swift references
-    swift_reference = []
-    swift_reference_no = []
-    with open('static/long_grbs/swift_citation/swift_ads.json') as file3:
-        swift_bursts = json.load(file3)
-    for swift_reference in list(swift_bursts.keys()):
-        if swift_reference not in list(needed_dict.keys()):
-            needed_dict[swift_reference] = swift_bursts[swift_reference]
-            swift_reference_no.append(list(needed_dict.keys()).index(swift_reference))
-        else:
-            swift_reference_no.append(list(needed_dict.keys()).index(swift_reference))
 
     #The swift data from antonios tools files
-    data = get_grb_data(event_id)
+    flag, data = get_grb_data(event_id)
+
+    #Swift references
+    swift_references = []
+    swift_reference_no = []
+
+    #Only if there is swift XRT data get the citations
+    if flag:
+        with open('static/long_grbs/swift_citation/swift_ads.json') as file3:
+            swift_bursts = json.load(file3)
+        for swift_reference in list(swift_bursts.keys()):
+            if swift_reference not in list(needed_dict.keys()):
+                needed_dict[swift_reference] = swift_bursts[swift_reference]
+                swift_references.append(swift_reference)
+                swift_reference_no.append(list(needed_dict.keys()).index(swift_reference)+1)
+            else:
+                swift_reference_no.append(list(needed_dict.keys()).index(swift_reference)+1)
 
     # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
 
@@ -824,8 +831,10 @@ def event(event_id):
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
     print(len(optical_refs), print(spec_refs))
+
+    print(swift_references, swift_reference_no)
     #Return everything
-    return render_template('event.html', event=event, radec=radec, radec_nos=radec_nos, radec_refs=radec_refs, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, radec=radec, radec_nos=radec_nos, radec_refs=radec_refs, swift_refs=swift_references, swift_nos=swift_reference_no,optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
 def get_files2(directory):
