@@ -8,6 +8,9 @@ import glob
 import numpy as np
 import json
 
+#API Access to ADS
+import requests
+
 #Convert strings to lists
 import ast
 
@@ -335,11 +338,47 @@ def event(event_id):
         elif event[i]['SecondarySources']!=None:
             needed_dict[event[i]['SecondarySources']] = dict_refs2[event[i]['SecondarySources']]
 
-    # #Add the radec swift stuff to the master dictionary of sources
-    # for i in range(len(radec)):
-    #     if radec[i][2]!=None:
-    #         print(radec[i][2])
-    #         needed_dict[radec[i][2]] = dict_refs[radec[i][2]]
+    #Add the radec swift stuff to the master dictionary of sources
+    radec_refs = []
+    radec_nos = []
+
+    #Send query to ADS and get data back
+    token = 'vs2uU32JWGtrTQwOFtumfDmmDlCFe2QSJ3rwSOvv'
+    for i in range(len(radec)):
+        if radec[i]['source']!=None:
+            if 'adsabs' in radec[i]['source']:
+                bibcode_initial = str(radec[i]['source']).split('/')[4].replace('%26', '&')
+
+                bibcode = {"bibcode":[str(bibcode_initial)], "format": "%m %Y"}
+                r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom", \
+                     headers={"Authorization": "Bearer " + token, "Content-type": "application/json"}, \
+                     data=json.dumps(bibcode))
+
+                author_list = r.json()['export']
+                author_split = r.json()['export'].split(',')
+
+                dictionary_a={}
+                if len(author_split)>2:
+                    dictionary_a['names'] = author_split[0]+' et al.'
+                    dictionary_a['year'] = author_list[-5:-1]
+                else:
+                    dictionary_a['names'] = author_list[:-6]
+                    dictionary_a['year'] = author_list[-5:-1]
+
+                if radec[i]['source'] not in list(needed_dict.keys()):
+                    needed_dict[radec[i]['source']] = dictionary_a
+                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source']))
+                    radec_refs.append(radec[i]['source'])
+                else:
+                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source']))
+            else:
+                if radec[i]['source'] not in list(needed_dict.keys()):
+                    needed_dict[radec[i]['source']] = radec[i]['source']
+                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source']))
+                    radec_refs.append(radec[i]['source'])
+                else:
+                    radec_nos.append(list(needed_dict.keys()).index(radec[i]['source']))
+
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################
     ######################################################################################
@@ -749,7 +788,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
     print(len(optical_refs), print(spec_refs))
     #Return everything
-    return render_template('event.html', event=event, radec=radec, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, radec=radec, radec_nos=radec_nos, radec_refs=radec_refs, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
 def get_files2(directory):
