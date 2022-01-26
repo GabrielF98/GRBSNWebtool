@@ -850,6 +850,45 @@ def get_files2(directory):
 def docs():
     return render_template('docs.html')
 
+#The downloadable df data
+@app.route('/table_download/<event_id>')
+def get_table(event_id):
+    #Sql query to dataframe
+    conn = get_db_connection()
+    df = pd.read_sql_query("SELECT * FROM SQLDataGRBSNe", conn)
+
+    if 'GRB' in event_id:
+        #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
+        #This solves the GRBs with SNs and without
+        grb_name = str(event_id).split('_')[0][3:]
+        print(grb_name)
+        
+        #Set the index of the df to be based on GRB name
+        downloadabledf = df.loc[df['GRB'] == grb_name]
+    
+
+    #This should ideally solve the lone SN cases
+    elif 'SN' or 'AT' in event_id:
+        sn_name = event_id[2:]
+
+        #The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
+        #Set the index of the df to be based on SN name
+        downloadabledf = df.loc[df['SNe'] == sn_name]
+        
+
+    conn.close()
+
+    #Write to an input output object
+
+    s = io.StringIO()
+    dwnld = downloadabledf.to_csv(s, index=False)
+    s.seek(0)
+    #Make the response
+    resp = Response(s, mimetype='text/csv')
+
+    resp.headers.set("Content-Disposition", "attachment", filename=event_id+"_dbdata.txt")
+    return resp
+    
 
 
 @app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
