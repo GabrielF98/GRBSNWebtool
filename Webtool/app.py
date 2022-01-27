@@ -425,7 +425,7 @@ def event(event_id):
 
     # create a new plot with a title and axis labels
 
-    xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both')
+    xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
     
     # add a line renderer with legend and line thickness
     xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, fill_color='orange')
@@ -485,7 +485,7 @@ def event(event_id):
     ######################################################################################
     from bokeh.palettes import Category20_20
 
-    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both')
+    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
     # add a line renderer with legend and line thickness
 
     #Extract and plot the optical photometry data from the photometry file for each SN
@@ -597,7 +597,7 @@ def event(event_id):
     ######################################################################################
     #####RADIO############################################################################
     ######################################################################################
-    radio = figure(title='Radio (GRB)', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both')
+    radio = figure(title='Radio (GRB)', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
     # add a line renderer with legend and line thickness
     #radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
@@ -647,7 +647,7 @@ def event(event_id):
     select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset'] 
 
     #Figure
-    spectrum = figure(title='Spectrum (SN)', toolbar_location="right", tools=select_tools, height=260, sizing_mode='scale_width')
+    spectrum = figure(title='Spectrum (SN)', toolbar_location="right", tools=select_tools, height=260, sizing_mode='scale_width', margin=5)
     
     #Blank tooltips
     tooltips = []
