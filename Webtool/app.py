@@ -888,23 +888,6 @@ def get_table(event_id):
 
     resp.headers.set("Content-Disposition", "attachment", filename=event_id+"_dbdata.txt")
     return resp
-    
-#Allow download of the graphing page graph
-@app.route('/graph_data/<title>/<grb_name>/<sne_name>/<raw_x>/<raw_y>')
-def download_graph_data(title, grb_name, sne_name, raw_x, raw_y):
-    #Zip the data for the downloadable files
-    download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
-    s = io.StringIO()
-    dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
-    s.seek(0)
-    #Make the response
-    resp = Response(s, mimetype='text/csv')
-
-    name = str(title)+'grbsntool.txt'
-    name = name.encode('utf-8')
-    print(name)
-    resp.headers.set("Content-Disposition", "attachment", filename=name)
-    return resp
 
 #User modifiable graphs
 @app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
@@ -1045,6 +1028,23 @@ def graphs():
         kwargs['title'] = 'bokeh-with-flask'    
         return render_template('graphs.html', **kwargs)
 
+#Allow download of the graphing page graph
+@app.route('/graph_data/<title>/<grb_name>/<sne_name>/<raw_x>/<raw_y>')
+def download_graph_data(title, grb_name, sne_name, raw_x, raw_y):
+    #Zip the data for the downloadable files
+    download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
+    s = io.StringIO()
+    dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
+    s.seek(0)
+    #Make the response
+    resp = Response(s, mimetype='text/csv')
+
+    name = str(title)+'grbsntool.txt'
+    name = name.encode('utf-8')
+    print(name)
+    resp.headers.set("Content-Disposition", "attachment", filename=name)
+    return resp
+    
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
 
