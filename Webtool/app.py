@@ -890,6 +890,18 @@ def get_table(event_id):
     return resp
     
 
+@app.route('/graph_data/<grb_name>/<sne_name>/<raw_x>/<raw_y>')
+def download_graph_data(grb_name, sne_name, raw_x, raw_y):
+    #Zip the data for the downloadable files
+    download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
+    s = io.StringIO()
+    dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
+    s.seek(0)
+    #Make the response
+    resp = Response(s, mimetype='text/csv')
+
+    resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
+    return resp
 
 @app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
 def graphs():
@@ -980,18 +992,16 @@ def graphs():
 
 
 
-        #Zip the data for the downloadable files
-        if request.form.get('download'):
-            download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
-            s = io.StringIO()
-            dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
-            s.seek(0)
-            #Make the response
-            resp = Response(s, mimetype='text/csv')
+        # #Zip the data for the downloadable files
+        # if request.form.get('download'):
+        #     download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
+        #     s = io.StringIO()
+        #     dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
+        #     s.seek(0)
+        #     #Make the response
+        #     resp = Response(s, mimetype='text/csv')
 
-            resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
-            return resp
-            
+        #     resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
 
         #Place the plotting data in a dict (the ones that arent uppper/lower limits)
         data_dict = {x[0]:x_data, y[0]:y_data}
@@ -1035,7 +1045,7 @@ def graphs():
         kwargs = {'script': script, 'div': div}
         kwargs['title'] = 'bokeh-with-flask'
 
-        return render_template('graphs.html', **kwargs)
+        return render_template('graphs.html', grb_name=grb_name, sne_name=sne_name, raw_x=raw_x, raw_y=raw_y, **kwargs)
 
     else:
         graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
