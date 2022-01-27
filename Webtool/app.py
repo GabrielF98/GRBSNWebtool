@@ -889,9 +889,9 @@ def get_table(event_id):
     resp.headers.set("Content-Disposition", "attachment", filename=event_id+"_dbdata.txt")
     return resp
     
-
-@app.route('/graph_data/<grb_name>/<sne_name>/<raw_x>/<raw_y>')
-def download_graph_data(grb_name, sne_name, raw_x, raw_y):
+#Allow download of the graphing page graph
+@app.route('/graph_data/<title>/<grb_name>/<sne_name>/<raw_x>/<raw_y>')
+def download_graph_data(title, grb_name, sne_name, raw_x, raw_y):
     #Zip the data for the downloadable files
     download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
     s = io.StringIO()
@@ -900,9 +900,13 @@ def download_graph_data(grb_name, sne_name, raw_x, raw_y):
     #Make the response
     resp = Response(s, mimetype='text/csv')
 
-    resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
+    name = str(title)+'grbsntool.txt'
+    name = name.encode('utf-8')
+    print(name)
+    resp.headers.set("Content-Disposition", "attachment", filename=name)
     return resp
 
+#User modifiable graphs
 @app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
 def graphs():
     category_dict = {'all':'all events', 'orphan':'Orphan GRB Afterglows', 'spec':'Spectroscopic SNe Only', 'phot':'Photometric SNe Only'}
@@ -997,7 +1001,6 @@ def graphs():
         data_source = ColumnDataSource(data_dict)
         
         #Plot the data
-        #graph = figure(title=str(name_dict[x[0]])+' vs. '+str(name_dict[y[0]])+'\n for '+str(category_dict[category[0]]), x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
         graph = figure(x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
         
         graph.circle(x[0], y[0], source=data_source, size=10, fill_color='orange')
@@ -1032,7 +1035,7 @@ def graphs():
         kwargs = {'script': script, 'div': div}
         kwargs['title'] = 'bokeh-with-flask'
 
-        return render_template('graphs.html', grb_name=grb_name, sne_name=sne_name, raw_x=raw_x, raw_y=raw_y, **kwargs)
+        return render_template('graphs.html', grb_name=grb_name, sne_name=sne_name, raw_x=raw_x, raw_y=raw_y, txt_title=str(name_dict[y[0]]+'vs'+name_dict[x[0]]), **kwargs)
 
     else:
         graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
