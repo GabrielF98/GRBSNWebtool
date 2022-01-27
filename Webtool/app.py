@@ -907,9 +907,8 @@ def get_table(event_id):
 
     resp.headers.set("Content-Disposition", "attachment", filename=event_id+"_dbdata.txt")
     return resp
-    
 
-
+#User modifiable graphs
 @app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
 def graphs():
     category_dict = {'all':'all events', 'orphan':'Orphan GRB Afterglows', 'spec':'Spectroscopic SNe Only', 'phot':'Photometric SNe Only'}
@@ -997,21 +996,6 @@ def graphs():
                     x_data.append(float(str(row[2]).split(',')[0]))
                     y_data.append(float(str(row[3]).split(',')[0]))
 
-
-
-        #Zip the data for the downloadable files
-        if request.form.get('download'):
-            download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
-            s = io.StringIO()
-            dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
-            s.seek(0)
-            #Make the response
-            resp = Response(s, mimetype='text/csv')
-
-            resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
-            return resp
-            
-
         #Place the plotting data in a dict (the ones that arent uppper/lower limits)
         data_dict = {x[0]:x_data, y[0]:y_data}
 
@@ -1019,7 +1003,6 @@ def graphs():
         data_source = ColumnDataSource(data_dict)
         
         #Plot the data
-        #graph = figure(title=str(name_dict[x[0]])+' vs. '+str(name_dict[y[0]])+'\n for '+str(category_dict[category[0]]), x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
         graph = figure(x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
         
         graph.circle(x[0], y[0], source=data_source, size=10, fill_color='orange')
@@ -1054,7 +1037,7 @@ def graphs():
         kwargs = {'script': script, 'div': div}
         kwargs['title'] = 'bokeh-with-flask'
 
-        return render_template('graphs.html', **kwargs)
+        return render_template('graphs.html', grb_name=grb_name, sne_name=sne_name, raw_x=raw_x, raw_y=raw_y, txt_title=str(name_dict[y[0]]+'vs'+name_dict[x[0]]), **kwargs)
 
     else:
         graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
@@ -1064,6 +1047,23 @@ def graphs():
         kwargs['title'] = 'bokeh-with-flask'    
         return render_template('graphs.html', **kwargs)
 
+#Allow download of the graphing page graph
+@app.route('/graph_data/<title>/<grb_name>/<sne_name>/<raw_x>/<raw_y>')
+def download_graph_data(title, grb_name, sne_name, raw_x, raw_y):
+    #Zip the data for the downloadable files
+    download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
+    s = io.StringIO()
+    dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
+    s.seek(0)
+    #Make the response
+    resp = Response(s, mimetype='text/csv')
+
+    name = str(title)+'grbsntool.txt'
+    name = name.encode('utf-8')
+    print(name)
+    resp.headers.set("Content-Disposition", "attachment", filename=name)
+    return resp
+    
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
 
