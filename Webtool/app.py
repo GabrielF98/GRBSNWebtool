@@ -990,19 +990,6 @@ def graphs():
                     x_data.append(float(str(row[2]).split(',')[0]))
                     y_data.append(float(str(row[3]).split(',')[0]))
 
-
-
-        # #Zip the data for the downloadable files
-        # if request.form.get('download'):
-        #     download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
-        #     s = io.StringIO()
-        #     dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
-        #     s.seek(0)
-        #     #Make the response
-        #     resp = Response(s, mimetype='text/csv')
-
-        #     resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
-
         #Place the plotting data in a dict (the ones that arent uppper/lower limits)
         data_dict = {x[0]:x_data, y[0]:y_data}
 
