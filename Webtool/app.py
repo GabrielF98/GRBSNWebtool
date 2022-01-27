@@ -3,6 +3,9 @@ from werkzeug.exceptions import abort
 
 from flask_bootstrap import Bootstrap
 
+#Dealing with the flask login
+from flask_login import LoginManager
+
 #Find the txt files with the right names
 import glob
 import numpy as np
@@ -193,9 +196,20 @@ def sne_names():
 
 sne = sne_names()
 
-app = Flask(__name__)
-app.secret_key = 'secretKey'
+#Creating the instance of the app
+app = Flask(__name__, instance_relative_config=True)
+app.config.from_pyfile('config.py')
 
+
+#Login to the website (to be used only prior to publication)
+login_manager = LoginManager() #The login manager class created
+login_manager.init_app(app)
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.get(user_id)
+
+    
 #The homepage and its location
 @app.route('/', methods=['POST', 'GET'])
 def home():
