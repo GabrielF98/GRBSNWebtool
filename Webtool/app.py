@@ -850,6 +850,25 @@ def get_files2(directory):
 def docs():
     return render_template('docs.html')
 
+#Download all of the database info from all tables as txt
+@app.route('/master_table_download/')
+def get_master_table():
+    #Sql query to dataframe
+    conn = get_db_connection()
+    df1 = pd.read_sql_query("SELECT * FROM SQLDataGRBSNe INNER JOIN RADec ON SQLDataGRBSNe.GRB=RADec.grb_id", conn)
+    conn.close()
+
+
+    #Write to an input output object
+    s = io.StringIO()
+    dwnld = df1.to_csv(s, index=False)
+    s.seek(0)
+    #Make the response
+    resp = Response(s, mimetype='text/csv')
+
+    resp.headers.set("Content-Disposition", "attachment", filename="GRBSNdbdata.txt")
+    return resp
+
 #The downloadable df data
 @app.route('/table_download/<event_id>')
 def get_table(event_id):
