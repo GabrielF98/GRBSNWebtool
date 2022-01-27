@@ -425,7 +425,7 @@ def event(event_id):
 
     # create a new plot with a title and axis labels
 
-    xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both')
     
     # add a line renderer with legend and line thickness
     xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, fill_color='orange')
@@ -485,7 +485,7 @@ def event(event_id):
     ######################################################################################
     from bokeh.palettes import Category20_20
 
-    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both')
     # add a line renderer with legend and line thickness
 
     #Extract and plot the optical photometry data from the photometry file for each SN
@@ -597,7 +597,7 @@ def event(event_id):
     ######################################################################################
     #####RADIO############################################################################
     ######################################################################################
-    radio = figure(title='Radio (GRB)', toolbar_location="right", y_axis_type="log", x_axis_type="log")
+    radio = figure(title='Radio (GRB)', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both')
     # add a line renderer with legend and line thickness
     #radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
 
@@ -647,7 +647,7 @@ def event(event_id):
     select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset'] 
 
     #Figure
-    spectrum = figure(title='Spectrum (SN)', toolbar_location="right", tools=select_tools)
+    spectrum = figure(title='Spectrum (SN)', toolbar_location="right", tools=select_tools, height=260, sizing_mode='scale_width')
     
     #Blank tooltips
     tooltips = []
@@ -727,12 +727,14 @@ def event(event_id):
                             ('Source', '@sources') 
                            ]
 
-
-                spectrum.line('wavelength', 'flux', source=data_source, color=color[i])
+                #Legend label will be the MJD for now
+                spectrum.line('wavelength', 'flux', source=data_source, color=color[i], muted_color='gray', muted_alpha=0.1, legend_label=data_i['SN'+str(event[0]['SNe'])]['spectra']['time'])
                 
         # Add the HoverTool to the figure
         spectrum.add_tools(HoverTool(tooltips=tooltips))
 
+        #Allow user to mute spectra by clicking the legend
+        spectrum.legend.click_policy="mute"
         
         #Aesthetics    
         #Title
@@ -827,12 +829,10 @@ def event(event_id):
                  background_fill_color='white', background_fill_alpha=1.0)
         spectrum.add_layout(citation)
 
-    script, div = components(gridplot([xray, radio, optical, spectrum], ncols=2, merge_tools = False))
+    script, div = components(layout([xray, radio, optical], [spectrum]))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
-    print(len(optical_refs), print(spec_refs))
 
-    print(swift_references, swift_reference_no)
     #Return everything
     return render_template('event.html', event=event, radec=radec, radec_nos=radec_nos, radec_refs=radec_refs, swift_refs=swift_references, swift_nos=swift_reference_no,optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
