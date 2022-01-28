@@ -551,7 +551,6 @@ def event(event_id):
                 t_after_t0 = np.zeros(len(new_df['time']))
 
                 t0 = min(mjd_time) #earliest mjd in time
-                print(t0)
                 t0_utc = Time(t0, format='mjd').utc.iso
 
                 for k in range(len(mjd_time)):
