@@ -497,7 +497,6 @@ def event(event_id):
     ######################################################################################
     #####OPTICAL##########################################################################
     ######################################################################################
-    t0_utc = '0'
     from bokeh.palettes import Category20_20
 
     optical = figure(title='Optical (GRB+SN)', toolbar_location="right", sizing_mode='scale_both', margin=5)
@@ -544,20 +543,13 @@ def event(event_id):
 
             color = Category20_20.__iter__()
             for j in bands:
-
-
-                if str(j)=='nan':
-                    #New df of just points without a band name (ie nan)
-                    new_df = data.loc[data['band'].isna()]
-
-
-                else:
-                    #Create a df with just the band j
-                    new_df = data.loc[data['band']==j]
+                #Create a df with just the band j
+                new_df = data.loc[data['band']==j]
 
                 #Convert the times from MJD to UTC, then subtract the first timestamp
                 mjd_time = np.array(new_df['time'])
                 t_after_t0 = np.zeros(len(new_df['time']))
+
                 t0 = min(mjd_time) #earliest mjd in time
                 t0_utc = Time(t0, format='mjd').utc.iso
 
@@ -614,11 +606,7 @@ def event(event_id):
     optical.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    if t0_utc==0:
-        optical.xaxis.axis_label = 'Time [MJD]'
-    else:
-        optical.xaxis.axis_label = 'Time [days] after: '+t0_utc
-        
+    optical.xaxis.axis_label = 'Time [days] after: '+t0_utc
     optical.yaxis.axis_label = 'Apparent Magnitude'
 
     #Axis Colors
