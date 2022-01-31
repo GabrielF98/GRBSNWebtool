@@ -32,13 +32,34 @@ def sne_names():
     
     return sne
 
+def grb():
+    conn = get_db_connection()
+    names = conn.execute('SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe')
+
+    sne = sne_names()
+    name_dict = {}
+
+
+    for i in names:
+    	if 'AT' in str(i[1]) and str(i[1]) in sne and str(i[0])!='None':
+    		name_dict[i[1]] = 'GRB'+i[0]+'-'+i[1]
+    		print(name_dict[i[1]])
+
+    	elif str(i[1]) in sne and str(i[0])!='None':
+    		name_dict[i[1]] = 'GRB'+i[0]+'-SN'+i[1]
+    		print(name_dict[i[1]])
+        
+    conn.close()
+    
+    
+    return name_dict
 
 #Loop the names and go to the api and download the data
 #It will be saved to ./SNE-OpenSN-Data/photometry or spectra depending
 
 #Photometry+Spectra
 names = sne_names()
-
+grbs = grb()
 # # Directories for the photometry
 # for k in names:
 # 	dir = './SNE-OpenSN-Data/photometry/'+str(k)
@@ -91,6 +112,9 @@ for i in range(len(names)):
 
 		#Save
 		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'/'+str(names[i])+'.csv', index=False)
+
+		#Save to the SourceData files
+		data.to_csv('./SourceData/'+grbs[str(names[i])]+'/OpenSNPhotometry.csv', index=False)
 
 		################################
 		#######SPECTRA##################
