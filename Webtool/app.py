@@ -48,7 +48,7 @@ from matplotlib.figure import Figure
 
 #Create config.py file
 with open('instance/config.py', 'w') as f:
-    code = str(os.urandom(16).hex())
+    code = str(os.urandom(32).hex())
     f.write(('SECRET_KEY = \''+code+'\''))
 
 #Search bar
