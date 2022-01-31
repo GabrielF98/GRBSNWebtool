@@ -615,9 +615,10 @@ def event(event_id):
 
     #Axis labels
     if t0_utc==0:
-        optical.xaxis.axis_label = 'Time [days] after: '+t0_utc
-    else:
         optical.xaxis.axis_label = 'Time [MJD]'
+    else:
+        optical.xaxis.axis_label = 'Time [days] after: '+t0_utc
+        
     optical.yaxis.axis_label = 'Apparent Magnitude'
 
     #Axis Colors
