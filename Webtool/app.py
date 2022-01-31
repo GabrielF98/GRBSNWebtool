@@ -46,6 +46,11 @@ import base64
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 
+#Create config.py file
+with open('instance/config.py', 'w') as f:
+    code = str(os.urandom(16).hex())
+    f.write(('SECRET_KEY = \''+code+'\''))
+
 #Search bar
 from wtforms import Form, StringField, SubmitField
 
