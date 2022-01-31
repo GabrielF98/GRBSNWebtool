@@ -1017,7 +1017,7 @@ def graphs():
         data_source = ColumnDataSource(data_dict)
         
         #Plot the data
-        graph = figure(x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
+        graph = figure(x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right", plot_width=1200, plot_height=700)
         
         graph.circle(x[0], y[0], source=data_source, size=10, fill_color='orange')
         graph.inverted_triangle(x_data_upperx, x_data_uppery, size=10, fill_color='blue')
