@@ -1054,7 +1054,7 @@ def graphs():
         return render_template('graphs.html', grb_name=grb_name, sne_name=sne_name, raw_x=raw_x, raw_y=raw_y, txt_title=str(name_dict[y[0]]+'vs'+name_dict[x[0]]), **kwargs)
 
     else:
-        graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
+        graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="right")
         
         script, div = components(graph)
         kwargs = {'script': script, 'div': div}
