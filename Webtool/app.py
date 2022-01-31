@@ -3,6 +3,9 @@ from werkzeug.exceptions import abort
 
 from flask_bootstrap import Bootstrap
 
+#Dealing with the flask login
+from flask_login import LoginManager
+
 #Find the txt files with the right names
 import glob
 import numpy as np
@@ -193,9 +196,20 @@ def sne_names():
 
 sne = sne_names()
 
-app = Flask(__name__)
-app.secret_key = 'secretKey'
+#Creating the instance of the app
+app = Flask(__name__, instance_relative_config=True)
+app.config.from_pyfile('config.py')
 
+
+#Login to the website (to be used only prior to publication)
+login_manager = LoginManager() #The login manager class created
+login_manager.init_app(app)
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.get(user_id)
+
+    
 #The homepage and its location
 @app.route('/', methods=['POST', 'GET'])
 def home():
@@ -850,6 +864,25 @@ def get_files2(directory):
 def docs():
     return render_template('docs.html')
 
+#Download all of the database info from all tables as txt
+@app.route('/master_table_download/')
+def get_master_table():
+    #Sql query to dataframe
+    conn = get_db_connection()
+    df1 = pd.read_sql_query("SELECT * FROM SQLDataGRBSNe INNER JOIN RADec ON SQLDataGRBSNe.GRB=RADec.grb_id", conn)
+    conn.close()
+
+
+    #Write to an input output object
+    s = io.StringIO()
+    dwnld = df1.to_csv(s, index=False)
+    s.seek(0)
+    #Make the response
+    resp = Response(s, mimetype='text/csv')
+
+    resp.headers.set("Content-Disposition", "attachment", filename="GRBSNdbdata.txt")
+    return resp
+
 #The downloadable df data
 @app.route('/table_download/<event_id>')
 def get_table(event_id):
@@ -888,9 +921,8 @@ def get_table(event_id):
 
     resp.headers.set("Content-Disposition", "attachment", filename=event_id+"_dbdata.txt")
     return resp
-    
 
-
+#User modifiable graphs
 @app.route('/graphing', methods=['GET', 'POST']) #Graphing tool
 def graphs():
     category_dict = {'all':'all events', 'orphan':'Orphan GRB Afterglows', 'spec':'Spectroscopic SNe Only', 'phot':'Photometric SNe Only'}
@@ -978,21 +1010,6 @@ def graphs():
                     x_data.append(float(str(row[2]).split(',')[0]))
                     y_data.append(float(str(row[3]).split(',')[0]))
 
-
-
-        #Zip the data for the downloadable files
-        if request.form.get('download'):
-            download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
-            s = io.StringIO()
-            dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
-            s.seek(0)
-            #Make the response
-            resp = Response(s, mimetype='text/csv')
-
-            resp.headers.set("Content-Disposition", "attachment", filename="grbsntool.txt")
-            return resp
-            
-
         #Place the plotting data in a dict (the ones that arent uppper/lower limits)
         data_dict = {x[0]:x_data, y[0]:y_data}
 
@@ -1000,8 +1017,7 @@ def graphs():
         data_source = ColumnDataSource(data_dict)
         
         #Plot the data
-        #graph = figure(title=str(name_dict[x[0]])+' vs. '+str(name_dict[y[0]])+'\n for '+str(category_dict[category[0]]), x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
-        graph = figure(x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
+        graph = figure(x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right", plot_width=1200, plot_height=700)
         
         graph.circle(x[0], y[0], source=data_source, size=10, fill_color='orange')
         graph.inverted_triangle(x_data_upperx, x_data_uppery, size=10, fill_color='blue')
@@ -1035,16 +1051,33 @@ def graphs():
         kwargs = {'script': script, 'div': div}
         kwargs['title'] = 'bokeh-with-flask'
 
-        return render_template('graphs.html', **kwargs)
+        return render_template('graphs.html', grb_name=grb_name, sne_name=sne_name, raw_x=raw_x, raw_y=raw_y, txt_title=str(name_dict[y[0]]+'vs'+name_dict[x[0]]), **kwargs)
 
     else:
-        graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
+        graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="right")
         
         script, div = components(graph)
         kwargs = {'script': script, 'div': div}
         kwargs['title'] = 'bokeh-with-flask'    
         return render_template('graphs.html', **kwargs)
 
+#Allow download of the graphing page graph
+@app.route('/graph_data/<title>/<grb_name>/<sne_name>/<raw_x>/<raw_y>')
+def download_graph_data(title, grb_name, sne_name, raw_x, raw_y):
+    #Zip the data for the downloadable files
+    download = np.column_stack((grb_name, sne_name, raw_x, raw_y))
+    s = io.StringIO()
+    dwnld = np.savetxt(s, download, delimiter=' ', fmt='%s')
+    s.seek(0)
+    #Make the response
+    resp = Response(s, mimetype='text/csv')
+
+    name = str(title)+'grbsntool.txt'
+    name = name.encode('utf-8')
+    print(name)
+    resp.headers.set("Content-Disposition", "attachment", filename=name)
+    return resp
+    
 # Pass the data to be used by the dropdown menu (decorating)
 @app.context_processor
 

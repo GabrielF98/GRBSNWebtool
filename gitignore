@@ -1,4 +1,6 @@
 __pycache__/
 .DS_Store
 Webtool/.DS_Store
+Webtool/env
+Webtool/instance
 

@@ -358,56 +358,68 @@
 </div>
 
 
-
-<!-- Plots -->
-<h2><b>Graphs</b></h2>
-  {{ div|safe }}
-  {{ script|safe }}
-
-<div>
   <h2>
-    <b>Download Data</b>
+    <b>Download Table Data</b>
   </h2>
-
   <!-- Download Database Data -->
     {% if 'AT' in event[0]['SNe']|string()%}
   {% if event[0]['SNe'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">download data</a> stored in our database for this event.</p>
+    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from refereed papers found on the ADS for these events.</p>
   {% elif event[0]['GRB'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">download data</a> stored in our database for this event.</p>
+    <p><a href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">Click here</a> to download a tables of data about this GRB/SN from our database. This table includes parameters like those in the table above and was collected from refereed papers found on the ADS for these events.</p>
   {% else %}
-    <p>It is now possible to <a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_'+event[0]['SNe'])}}">download data</a> stored in our database for this event.</p>
+    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_'+event[0]['SNe'])}}">Click here</a> to download a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from refereed papers found on the ADS for these events.</p>
   {% endif %}
   {%else%}
   {% if event[0]['SNe'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">download data</a> stored in our database for this event.</p>
+    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from refereed papers found on the ADS for these events.</p>
   {% elif event[0]['GRB'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">download data</a> stored in our database for this event.</p>
+    <p><a href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">Click here</a> to download a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from refereed papers found on the ADS for these events.</p>
   {% else %}
-    <p>It is now possible to <a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_SN'+event[0]['SNe'])}}">download data</a> stored in our database for this event.</p>
-  {% endif %}
+    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_SN'+event[0]['SNe'])}}">Click here</a> to download a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from refereed papers found on the ADS for these events.</p>
+  {%endif%}
   {%endif%}
 
+
+
+<!-- Plots -->
+<h2><b>Graphs</b></h2>
+<p>These graphs display observations of this event. They have several features to increase their useability. These can be found in the toolbars on the right hand side of the plot. Tools include:</p>
+
+<ul>
+  <li><p>Pan.</p></li>
+  <li><p>Zoom in on box.</p></li>
+  <li><p>Scroll wheel zoom.</p></li>
+  <li><p>Save plot.</p></li>
+  <li><p>A reset button to reset the changes made with any of the tools.</p></li>
+  <li><p>Hover over a point with the mouse to see information about that point.</p></li>
+  <li><p>On the Spectrum plot you can click on the legend to mute a particular line in order to see other data more clearly.</p></li>
+</ul>
+
   <!-- Download NASA ADS Data -->
-    {% if 'AT' in event[0]['SNe']|string()%}
+  {% if 'AT' in event[0]['SNe']|string()%}
   {% if event[0]['SNe'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">download data</a> gathered from the ADS for this event.</p>
+    <p>To download all of the Optical/Xray/Radio and Spectral data accumulated by this tool <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from refereed papers on NASA ADS as well as from the OpenSN tool and the Swift UK website. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
   {% elif event[0]['GRB'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+    <p>To download all of the Optical/Xray/Radio and Spectral data accumulated by this tool <a href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">click here</a>. This data was drawn from refereed papers on NASA ADS as well as from the OpenSN tool and the Swift UK website. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
   {% else %}
+    <p>To download all of the Optical/Xray/Radio and Spectral data accumulated by this tool <a href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">click here</a>. This data was drawn from refereed papers on NASA ADS as well as from the OpenSN tool and the Swift UK website. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
     <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
   {% endif %}
-  {%else%}
-  {% if event[0]['SNe'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">download data</a> gathered from the ADS for this event.</p>
-  {% elif event[0]['GRB'] == None %}
-    <p>It is now possible to <a href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
   {% else %}
-    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+  {% if event[0]['SNe'] == None %}
+    <p>To download all of the Optical/Xray/Radio and Spectral data accumulated by this tool <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from refereed papers on NASA ADS as well as from the OpenSN tool and the Swift UK website. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
+  {% elif event[0]['GRB'] == None %}
+    <p>To download all of the Optical/Xray/Radio and Spectral data accumulated by this tool <a href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">click here</a>. This data was drawn from refereed papers on NASA ADS as well as from the OpenSN tool and the Swift UK website. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
+  {% else %}
+    <p>To download all of the Optical/Xray/Radio and Spectral data accumulated by this tool <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">click here</a>. This data was drawn from refereed papers on NASA ADS as well as from the OpenSN tool and the Swift UK website. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
   {% endif %}
-  {%endif%}
-  
-</div>
+  {% endif %}
+
+  {{ div|safe }}
+  {{ script|safe }}
+
+
 <!-- Table of references -->
 <div>
   <h2><b>References</b></h2>

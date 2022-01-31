@@ -3,3 +3,5 @@ Webtool/static/.DS_Store
 .DS_Store
 Webtool/static/SNE-OpenSN-Data/.DS_Store
 __pycache__
+Webtool/instance/config.py
+.DS_Store
