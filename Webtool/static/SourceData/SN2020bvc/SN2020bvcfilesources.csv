@@ -1,1 +1,2 @@
 GRB/SN,File name,Datatypes,Sources
+SN2020bvc,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/2020bvc/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

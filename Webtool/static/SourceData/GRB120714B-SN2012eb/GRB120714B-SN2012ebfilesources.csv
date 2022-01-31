@@ -1,2 +1,3 @@
 GRB/SN,File name,Datatypes,Sources
 GRB120714B-SN2012eb,GRB120714B-SN2012eb_Optical.html,"Early,Late,Optical",https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+GRB120714B-SN2012eb,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/2012eb/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
