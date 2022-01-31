@@ -2,7 +2,8 @@ p {font-family: Arial;
    color: white;
    background-color: teal;
  margin-left: 100px;
-margin-right: 100px;}
+margin-right: 100px;
+font-size: 17pt;}
 
 body {background-color: teal;
 }
@@ -40,7 +41,7 @@ h3{color: white;
     text-align: left;
     font-family: Arial;
    margin-left: 100px;
-    font-size: 5px;}
+    font-size: 15px;}
 
 div{
   margin-left: 100px;
@@ -74,3 +75,16 @@ th, td {color: white;
   padding: 5px;
   border-color: white;
   font-size: 12pt;}
+
+.float-parent-element { 
+    width: 50%; 
+} 
+.float-child-element-1 { 
+    float: left; 
+    width: 30%; 
+} 
+
+.float-child-element-2 { 
+    float: left; 
+    width: 70%; 
+} 

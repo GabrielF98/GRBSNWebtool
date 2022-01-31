@@ -1029,7 +1029,7 @@ def graphs():
         data_source = ColumnDataSource(data_dict)
         
         #Plot the data
-        graph = figure(x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right")
+        graph = figure(x_axis_type=str(axis[x[0]]), y_axis_type=str(axis[y[0]]), toolbar_location="right", plot_width=1200, plot_height=700)
         
         graph.circle(x[0], y[0], source=data_source, size=10, fill_color='orange')
         graph.inverted_triangle(x_data_upperx, x_data_uppery, size=10, fill_color='blue')
@@ -1066,7 +1066,7 @@ def graphs():
         return render_template('graphs.html', grb_name=grb_name, sne_name=sne_name, raw_x=raw_x, raw_y=raw_y, txt_title=str(name_dict[y[0]]+'vs'+name_dict[x[0]]), **kwargs)
 
     else:
-        graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="below")
+        graph = figure(plot_width=400, plot_height=400,title=None, toolbar_location="right")
         
         script, div = components(graph)
         kwargs = {'script': script, 'div': div}
