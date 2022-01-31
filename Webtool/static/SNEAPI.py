@@ -4,6 +4,7 @@ import json
 import os
 import shutil
 import requests
+from csv import writer
 
 #Add the bit for the database access:
 import sqlite3
@@ -43,6 +44,10 @@ def grb():
     for i in names:
     	if 'AT' in str(i[1]) and str(i[1]) in sne and str(i[0])!='None':
     		name_dict[i[1]] = 'GRB'+i[0]+'-'+i[1]
+    		print(name_dict[i[1]])
+
+    	elif str(i[1]) in sne and str(i[0])=='None':
+    		name_dict[i[1]] = 'SN'+i[1]
     		print(name_dict[i[1]])
 
     	elif str(i[1]) in sne and str(i[0])!='None':
@@ -111,10 +116,18 @@ for i in range(len(names)):
 		data['refs'] = master_refs
 
 		#Save
-		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'/'+str(names[i])+'.csv', index=False)
+		#data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'/'+str(names[i])+'.csv', index=False)
 
 		#Save to the SourceData files
 		data.to_csv('./SourceData/'+grbs[str(names[i])]+'/OpenSNPhotometry.csv', index=False)
+
+		#Add a line to the csv which contains details of where these came from 
+		photometry = [str(grbs[str(names[i])]), 'OpenSNPhotometry.csv', 'Optical', 'https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv']
+		with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
+			writer_obj = writer(file)
+
+			writer_obj.writerow(photometry)
+			file.close()
 
 		################################
 		#######SPECTRA##################
@@ -162,8 +175,19 @@ for i in range(len(names)):
 				data['SN'+names[i]]['spectra']['source'] = list_of_sources
 
 				#Save the data
-				file = open('./SNE-OpenSN-Data/spectraJSON/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.json', 'w')
+				# file = open('./SNE-OpenSN-Data/spectraJSON/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.json', 'w')
+				# json.dump(data, file)
+
+				file = open('./SourceData/'+grbs[str(names[i])]+'/OpenSNSpectra'+str(n)+'.json', 'w')
 				json.dump(data, file)
+
+				#Add a line to the csv which contains details of where these came from 
+				spectra = [str(grbs[str(names[i])]), 'OpenSNSpectra'+str(n)+'.csv', 'Spectra', 'https://api.astrocats.space/'+str(names[i])+'/spectra/?item='+str(n)+'&format=json']
+				with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
+					writer_obj = writer(file)
+
+					writer_obj.writerow(spectra)
+				file.close()
 
 				n+=1
 
@@ -202,7 +226,18 @@ for i in range(len(names)):
 		data['refs'] = master_refs
 
 		#Save
-		data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'/'+str(names[i])+'.csv', index=False)
+		#data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'/'+str(names[i])+'.csv', index=False)
+
+		#Save to the SourceData files
+		data.to_csv('./SourceData/'+grbs[str(names[i])]+'/OpenSNPhotometry.csv', index=False)
+
+		#Add a line to the csv which contains details of where these came from 
+		photometry = [str(grbs[str(names[i])]), 'OpenSNPhotometry.csv', 'Optical', 'https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv']
+		with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
+			writer_obj = writer(file)
+
+			writer_obj.writerow(photometry)
+			file.close()
 
 		################################
 		#######SPECTRA##################
@@ -247,8 +282,19 @@ for i in range(len(names)):
 						list_of_sources.append(ref)
 				data[names[i]]['spectra']['source'] = list_of_sources
 
-				#Save the data
-				file = open('./SNE-OpenSN-Data/spectraJSON/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.json', 'w')
+				# #Save the data
+				# file = open('./SNE-OpenSN-Data/spectraJSON/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.json', 'w')
+				# json.dump(data, file)
+
+				file = open('./SourceData/'+grbs[str(names[i])]+'/OpenSNSpectra'+str(n)+'.json', 'w')
 				json.dump(data, file)
+
+				#Add a line to the csv which contains details of where these came from 
+				spectra = [str(grbs[str(names[i])]), 'OpenSNSpectra'+str(n)+'.csv', 'Spectra', 'https://api.astrocats.space/'+str(names[i])+'/spectra/?item='+str(n)+'&format=json']
+				with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
+					writer_obj = writer(file)
+
+					writer_obj.writerow(spectra)
+				file.close()
 
 				n+=1

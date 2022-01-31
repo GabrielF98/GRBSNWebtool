@@ -8,3 +8,7 @@ GRB060218-SN2006aj,GRB060218_SN2006aj_Optical1.html,"Early,Late,Optical",https:/
 GRB060218-SN2006aj,GRB060218_SN2006aj_Optical2.html,"Early,Late,Optical",https://ui.adsabs.harvard.edu/abs/2006A%26A...454..503S/abstract
 GRB060218-SN2006aj,GRB0606218_SN2006aj_Optical.txt,"Early,Late,Optical",https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract
 GRB060218-SN2006aj,GRB0606218_SN2006aj_Optical3.html,"Early,Optical",https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract
+GRB060218-SN2006aj,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/2006aj/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+GRB060218-SN2006aj,OpenSNSpectra0.csv,Spectra,https://api.astrocats.space/2006aj/spectra/?item=0&format=json
+GRB060218-SN2006aj,OpenSNSpectra1.csv,Spectra,https://api.astrocats.space/2006aj/spectra/?item=1&format=json
+GRB060218-SN2006aj,OpenSNSpectra2.csv,Spectra,https://api.astrocats.space/2006aj/spectra/?item=2&format=json

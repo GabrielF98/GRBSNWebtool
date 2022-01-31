@@ -1,2 +1,10 @@
 GRB/SN,File name,Datatypes,Sources
 GRB101219B-SN2010ma,GRB101219B-SN2010ma_NIR_Optical1.html,"Early,NIR,Optical",https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract
+GRB101219B-SN2010ma,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/2010ma/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+GRB101219B-SN2010ma,OpenSNSpectra0.csv,Spectra,https://api.astrocats.space/2010ma/spectra/?item=0&format=json
+GRB101219B-SN2010ma,OpenSNSpectra1.csv,Spectra,https://api.astrocats.space/2010ma/spectra/?item=1&format=json
+GRB101219B-SN2010ma,OpenSNSpectra2.csv,Spectra,https://api.astrocats.space/2010ma/spectra/?item=2&format=json
+GRB101219B-SN2010ma,OpenSNSpectra3.csv,Spectra,https://api.astrocats.space/2010ma/spectra/?item=3&format=json
+GRB101219B-SN2010ma,OpenSNSpectra4.csv,Spectra,https://api.astrocats.space/2010ma/spectra/?item=4&format=json
+GRB101219B-SN2010ma,OpenSNSpectra5.csv,Spectra,https://api.astrocats.space/2010ma/spectra/?item=5&format=json
+GRB101219B-SN2010ma,OpenSNSpectra6.csv,Spectra,https://api.astrocats.space/2010ma/spectra/?item=6&format=json

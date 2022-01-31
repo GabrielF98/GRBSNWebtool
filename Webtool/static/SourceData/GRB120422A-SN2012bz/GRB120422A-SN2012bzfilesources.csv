@@ -1,3 +1,9 @@
 GRB/SN,File name,Datatypes,Sources
 GRB120422A-SN2012bz,GRB120422A-SN2012bz_Optical.html,"Early,Optical",https://ui.adsabs.harvard.edu/abs/2012A%26A...547A..82M/abstract
 GRB120422A-SN2012bz,,Spectra,https://ui.adsabs.harvard.edu/abs/2012A%26A...547A..82M/abstract
+GRB120422A-SN2012bz,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/2012bz/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+GRB120422A-SN2012bz,OpenSNSpectra0.csv,Spectra,https://api.astrocats.space/2012bz/spectra/?item=0&format=json
+GRB120422A-SN2012bz,OpenSNSpectra1.csv,Spectra,https://api.astrocats.space/2012bz/spectra/?item=1&format=json
+GRB120422A-SN2012bz,OpenSNSpectra2.csv,Spectra,https://api.astrocats.space/2012bz/spectra/?item=2&format=json
+GRB120422A-SN2012bz,OpenSNSpectra3.csv,Spectra,https://api.astrocats.space/2012bz/spectra/?item=3&format=json
+GRB120422A-SN2012bz,OpenSNSpectra4.csv,Spectra,https://api.astrocats.space/2012bz/spectra/?item=4&format=json

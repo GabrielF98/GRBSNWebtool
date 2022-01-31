@@ -1,1 +1,4 @@
 GRB/SN,File name,Datatypes,Sources
+GRB031203-SN2003lw,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/2003lw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+GRB031203-SN2003lw,OpenSNSpectra0.csv,Spectra,https://api.astrocats.space/2003lw/spectra/?item=0&format=json
+GRB031203-SN2003lw,OpenSNSpectra1.csv,Spectra,https://api.astrocats.space/2003lw/spectra/?item=1&format=json

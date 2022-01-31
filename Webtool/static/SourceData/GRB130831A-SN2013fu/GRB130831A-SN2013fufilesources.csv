@@ -4,3 +4,4 @@ GRB130831A-SN2013fu,GRB130831A-SN2013fu_NIR_Optical_UV.html,"NIR,Optical,UV",htt
 GRB130831A-SN2013fu,GRB130831A-SN2013fu_Optical.html,"Early,Late,NIR,Optical",https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
 GRB130831A-SN2013fu,MultibandData.html,"IR,Late,NIR,Optical",https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
 GRB130831A-SN2013fu,GRB130831A-SN2013fu_UV_Optical.txt,"Early,Optical,UV",https://ui.adsabs.harvard.edu/abs/2016MNRAS.455.1027D/abstract
+GRB130831A-SN2013fu,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/2013fu/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

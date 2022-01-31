@@ -1,0 +1,9 @@
+event,time,magnitude,e_magnitude,band,ra,dec,source,refs
+2017iuk,58118.5947180668,18.3346,0.0229574,i,,,Pan-STARRS 3Pi,"[{'name': 'Pan-STARRS 3Pi', 'url': 'https://star.pst.qub.ac.uk/ps1threepi/psdb/'}]"
+2017iuk,58118.60694497,18.3759,0.0214377,i,,,Pan-STARRS 3Pi,"[{'name': 'Pan-STARRS 3Pi', 'url': 'https://star.pst.qub.ac.uk/ps1threepi/psdb/'}]"
+2017iuk,58118.6191835729,18.365,0.0248788,i,,,Pan-STARRS 3Pi,"[{'name': 'Pan-STARRS 3Pi', 'url': 'https://star.pst.qub.ac.uk/ps1threepi/psdb/'}]"
+2017iuk,58118.6314207366,18.3978,0.0215262,i,,,Pan-STARRS 3Pi,"[{'name': 'Pan-STARRS 3Pi', 'url': 'https://star.pst.qub.ac.uk/ps1threepi/psdb/'}]"
+2017iuk,58119.39486,18.65,0.0,G,,,Gaia Photometric Science Alerts,"[{'name': 'Gaia Photometric Science Alerts', 'url': 'http://gsaweb.ast.cam.ac.uk/alerts/alertsindex'}]"
+2017iuk,58119.46888,18.65,0.0,G,,,Gaia Photometric Science Alerts,"[{'name': 'Gaia Photometric Science Alerts', 'url': 'http://gsaweb.ast.cam.ac.uk/alerts/alertsindex'}]"
+2017iuk,58139.72207,19.58,0.0,G,,,Gaia Photometric Science Alerts,"[{'name': 'Gaia Photometric Science Alerts', 'url': 'http://gsaweb.ast.cam.ac.uk/alerts/alertsindex'}]"
+2017iuk,58139.89824,19.62,0.0,G,,,Gaia Photometric Science Alerts,"[{'name': 'Gaia Photometric Science Alerts', 'url': 'http://gsaweb.ast.cam.ac.uk/alerts/alertsindex'}]"
