@@ -38,6 +38,7 @@
     </div2>
   </div2>
 </div>
+
 <!-- Forms -->
 {% from "_formhelpers.html" import render_field %}
 <form method=post>
@@ -58,6 +59,8 @@
 {% endwith %}
 
 <h2><b>Known Associations</b></h2>
+
+<p>The table below displays some basic parameters for the known GRB-SN associations. If you would like to download the full database click <a href="{{ url_for('get_master_table')}}">here</a>. The table below only displays part of the data stored in the database. The download will include all information stored within the database as a .txt file. </p>
 
 <!-- Table of all the sources -->
 <div>
