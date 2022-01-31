@@ -65,10 +65,7 @@ class TableForm(Form):
     max_eiso = StringField('Max. E$_{iso}$')
     min_eiso = StringField('Min. E$_{iso}$')
     submit2 = SubmitField('Submit')
-
-#email form
-from static.emails.forms import ContactForm
-
+    
 #Graphs with matplotlib
 import matplotlib.pyplot as plt
 
@@ -1135,25 +1132,12 @@ def grb_names():
     conn.close()
     
     
-    return {'grbs': grbs, 'number1':length} #, 'number2':len(unique_years), 'years':unique_years}
+    return {'grbs': grbs, 'number1':length}
 
 # Contact form 
-@app.route('/contact', methods=["GET","POST"])
+@app.route('/contact')
 def get_contact():
-    form = ContactForm()
-    # here, if the request type is a POST we get the data on contat
-    #forms and save them else we return the contact forms html page
-    if request.method == 'POST':
-        name =  request.form["name"]
-        email = request.form["email"]
-        subject = request.form["subject"]
-        message = request.form["message"]
-        res = pd.DataFrame({'name':name, 'email':email, 'subject':subject ,'message':message}, index=[0])
-        res.to_csv('static/emails/emails.csv', mode='a')
-        print("The data are saved !")
-        return('The data are saved !')
-    else:
-        return render_template('contacts.html', form=form)
+    return render_template('contacts.html')
 
 # Run app
 if __name__ == "__main__":
