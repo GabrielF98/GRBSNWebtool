@@ -499,7 +499,7 @@ def event(event_id):
     ######################################################################################
     from bokeh.palettes import Category20_20
 
-    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
+    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", sizing_mode='scale_both', margin=5)
     # add a line renderer with legend and line thickness
 
     #Extract and plot the optical photometry data from the photometry file for each SN
@@ -546,8 +546,21 @@ def event(event_id):
                 #Create a df with just the band j
                 new_df = data.loc[data['band']==j]
 
+                #Convert the times from MJD to UTC, then subtract the first timestamp
+                mjd_time = np.array(new_df['time'])
+                t_after_t0 = np.zeros(len(new_df['time']))
+
+                t0 = min(mjd_time) #earliest mjd in time
+                t0_utc = Time(t0, format='mjd').utc.iso
+
+                for k in range(len(mjd_time)):
+                    t_after_t0[k] = float(mjd_time[k])-float(t0)
+
+                new_df['time_since'] = t_after_t0 #Add this to the df in the position time used to be in.
+
+
                 optical_data = ColumnDataSource(new_df)
-                optical.scatter('time', 'magnitude', source=optical_data, legend_label=str(j), size=10, color=next(color))
+                optical.scatter('time_since', 'magnitude', source=optical_data, legend_label=str(j), size=10, color=next(color))
 
                 
 
@@ -593,7 +606,7 @@ def event(event_id):
     optical.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    optical.xaxis.axis_label = 'Time [MJD]'
+    optical.xaxis.axis_label = 'Time [days] after: '+t0_utc
     optical.yaxis.axis_label = 'Apparent Magnitude'
 
     #Axis Colors
@@ -790,7 +803,6 @@ def event(event_id):
         spectrum.border_fill_color = 'white'
         
         #Range
-        print('The min and max are', min_spec, max_spec)
         spectrum.y_range=Range1d(min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
 
     else:
