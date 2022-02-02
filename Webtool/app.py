@@ -1139,6 +1139,11 @@ def grb_names():
 def get_contact():
     return render_template('contacts.html')
 
+# Help
+@app.route('/help')
+def get_help():
+    return render_template('helppage.html')
+
 # Run app
 if __name__ == "__main__":
     #debug=True lets you do it without rerunning all the time
