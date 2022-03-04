@@ -1,4 +1,5 @@
  ! Swift/XRT lightcurve of trigger: 883832, name: GRB 190114C
+ ! T0 for this burst is Swift MET=569192245.44 s, = 2019 Jan 14 at 20:57:03.190 UT
 
  ! Data covers 0.3-10 keV
  ! The data are in 5 columns: ";
