@@ -1,0 +1,42 @@
+Table 1 
+Polarization and Photometric Observing Log
+
+
+Polarimetry Epoch1: 2017-Dec-10 10:23-13:17, T = 5.187 days							
+SPW	Frequency (GHz)	Polarization (%)	P.A. (Degree)	I Flux (mJy)	Q Flux (mJy)	U Flux (mJy)	
+							
+0,1,2,3	97.5	0.27 +or- 0.04	-71.3 +or- 3.3	31.944 +or- 0.440	-0.069 +or- 0.009	-0.053 +or- 0.011	
+0	90.5	0.30 +or- 0.06	-67.9 +or- 4.7	32.719 +or- 0.413	-0.070 +or- 0.010	-0.069 +or- 0.020	
+1	92.4	<0.32	<-78.1 or >78.1	32.514 +or- 0.365	-0.094 +or- 0.026	0.014 (rms)	
+2	102.5	0.35 +or- 0.08	-71.3 +or- 5.5	31.172 +or- 0.399	-0.086 +or- 0.025	-0.066 +or- 0.018	
+3	104.5	0.31 +or- 0.06	-58.0 +or- 4.9	30.898 +or- 0.412	-0.043 +or- 0.012	-0.087 +or- 0.029	
+							
+Polarimetry Epoch2: 2017-Dec-16 11:14-14:33, T = 11.231 days							
+SPW	Frequency (GHz)	Polarization (%)	P.A. (Degree)	I Flux (mJy)	Q Flux (mJy)	U Flux (mJy)	
+							
+All	97.5	<0.27	cdots	15.705 +or- 0.090	0.010 (rms)	0.010 (rms)	
+0	90.5	<0.52	cdots	16.171 +or- 0.106	0.020 (rms)	0.020 (rms)	
+1	92.4	<0.52	cdots	16.054 +or- 0.110	0.019 (rms)	0.019 (rms)	
+2	102.5	<0.52	cdots	15.370 +or- 0.113	0.019 (rms)	0.019 (rms)	
+3	104.5	<0.54	cdots	15.206 +or- 0.111	0.019 (rms)	0.019 (rms)	
+							
+Total Flux Observation Log							
+Instrument	Epoch (Days)	Frequency (GHz)	Flux (mJy)				
+							
+VLA	4.306	5.0	2.41 +or- 0.12				
+VLA	4.306	7.1	4.32 +or- 0.05				
+VLA	4.306	8.5	5.71 +or- 0.05				
+VLA	4.306	11.0	8.42 +or- 0.06				
+VLA	4.306	13.5	11.26 +or- 0.09				
+VLA	4.306	16.0	14.01 +or- 0.11				
+SMA	1.496	230	53.6 +or- 0.9				
+SMA	2.412	230	48.4 +or- 0.6				
+SMA	3.478	230	41.2 +or- 0.8				
+SMA	4.272	230	30.0 +or- 0.7				
+SMA	8.398	230	11.1 +or- 1.0				
+SMA	11.033	230	8.9 +or- 0.4				
+SMA	3.478	345	21.9 +or- 2.3				
+ACA	5.126	345	17.0 +or- 0.8				
+ACA	7.069	345	12.9 +or- 0.1				
+SMA	8.398	345	>15.8				
+ACA	11.180	345	6.9 +or- 0.3				
