@@ -119,15 +119,22 @@ for i in range(len(names)):
 		#data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'/'+str(names[i])+'.csv', index=False)
 
 		#Save to the SourceData files
-		data.to_csv('./SourceData/'+grbs[str(names[i])]+'/OpenSNPhotometry.csv', index=False)
+		#Commented due to a problem with OpenSN where the site crashed. Althout the GitHub is still available for the API we dont want any issues
+		#########################################
+		#Commented due to crash START############
+		#########################################
+		#data.to_csv('./SourceData/'+grbs[str(names[i])]+'/OpenSNPhotometry.csv', index=False)
 
 		#Add a line to the csv which contains details of where these came from 
-		photometry = [str(grbs[str(names[i])]), 'OpenSNPhotometry.csv', 'Optical', 'https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv']
-		with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
-			writer_obj = writer(file)
+		#photometry = [str(grbs[str(names[i])]), 'OpenSNPhotometry.csv', 'Optical', 'https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv']
+		#with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
+			#writer_obj = writer(file)
 
-			writer_obj.writerow(photometry)
-			file.close()
+			#writer_obj.writerow(photometry)
+			#file.close()
+		#########################################
+		#Commented due to crash END##############
+		#########################################
 
 		################################
 		#######SPECTRA##################
@@ -178,16 +185,24 @@ for i in range(len(names)):
 				# file = open('./SNE-OpenSN-Data/spectraJSON/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.json', 'w')
 				# json.dump(data, file)
 
-				file = open('./SourceData/'+grbs[str(names[i])]+'/OpenSNSpectra'+str(n)+'.json', 'w')
-				json.dump(data, file)
+				#########################################
+				#Commented due to crash START############
+				#########################################
+				#file = open('./SourceData/'+grbs[str(names[i])]+'/OpenSNSpectra'+str(n)+'.json', 'w')
+				#json.dump(data, file)
 
 				#Add a line to the csv which contains details of where these came from 
 				spectra = [str(grbs[str(names[i])]), 'OpenSNSpectra'+str(n)+'.csv', 'Spectra', 'https://api.astrocats.space/'+str(names[i])+'/spectra/?item='+str(n)+'&format=json']
-				with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
-					writer_obj = writer(file)
+				#Commented due to crash
+				# with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
+				# 	writer_obj = writer(file)
 
-					writer_obj.writerow(spectra)
-				file.close()
+				# 	writer_obj.writerow(spectra)
+				# file.close()
+
+				#########################################
+				#Commented due to crash END##############
+				#########################################
 
 				n+=1
 
@@ -229,15 +244,22 @@ for i in range(len(names)):
 		#data.to_csv('./SNE-OpenSN-Data/photometry/'+str(names[i])+'/'+str(names[i])+'.csv', index=False)
 
 		#Save to the SourceData files
-		data.to_csv('./SourceData/'+grbs[str(names[i])]+'/OpenSNPhotometry.csv', index=False)
+		#########################################
+		#Commented due to crash START############
+		#########################################
+		#data.to_csv('./SourceData/'+grbs[str(names[i])]+'/OpenSNPhotometry.csv', index=False)
 
 		#Add a line to the csv which contains details of where these came from 
-		photometry = [str(grbs[str(names[i])]), 'OpenSNPhotometry.csv', 'Optical', 'https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv']
-		with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
-			writer_obj = writer(file)
+		#Commented due to crash
+		# photometry = [str(grbs[str(names[i])]), 'OpenSNPhotometry.csv', 'Optical', 'https://api.astrocats.space/'+str(names[i])+'/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv']
+		# with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
+		# 	writer_obj = writer(file)
 
-			writer_obj.writerow(photometry)
-			file.close()
+		# 	writer_obj.writerow(photometry)
+		# 	file.close()
+		#########################################
+		#Commented due to crash END##############
+		#########################################
 
 		################################
 		#######SPECTRA##################
@@ -286,15 +308,22 @@ for i in range(len(names)):
 				# file = open('./SNE-OpenSN-Data/spectraJSON/'+str(names[i])+'/'+str(names[i])+'_'+str(n)+'.json', 'w')
 				# json.dump(data, file)
 
-				file = open('./SourceData/'+grbs[str(names[i])]+'/OpenSNSpectra'+str(n)+'.json', 'w')
-				json.dump(data, file)
 
-				#Add a line to the csv which contains details of where these came from 
-				spectra = [str(grbs[str(names[i])]), 'OpenSNSpectra'+str(n)+'.csv', 'Spectra', 'https://api.astrocats.space/'+str(names[i])+'/spectra/?item='+str(n)+'&format=json']
-				with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
-					writer_obj = writer(file)
+				#########################################
+				#Commented due to crash START############
+				#########################################
+				# file = open('./SourceData/'+grbs[str(names[i])]+'/OpenSNSpectra'+str(n)+'.json', 'w')
+				# json.dump(data, file)
 
-					writer_obj.writerow(spectra)
-				file.close()
+				# #Add a line to the csv which contains details of where these came from 
+				# spectra = [str(grbs[str(names[i])]), 'OpenSNSpectra'+str(n)+'.csv', 'Spectra', 'https://api.astrocats.space/'+str(names[i])+'/spectra/?item='+str(n)+'&format=json']
+				# with open('./SourceData/'+grbs[str(names[i])]+'/'+str(grbs[str(names[i])])+'filesources.csv', 'a', newline='') as file:
+				# 	writer_obj = writer(file)
+
+				# 	writer_obj.writerow(spectra)
+				# file.close()
+				#########################################
+				#Commented due to crash END##############
+				#########################################
 
 				n+=1
