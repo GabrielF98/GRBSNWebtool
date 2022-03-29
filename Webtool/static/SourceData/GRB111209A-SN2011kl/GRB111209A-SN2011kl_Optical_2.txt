@@ -1,0 +1,18 @@
+Table 3 
+Log of Ground-based Spectroscopic Observations of GRB 101225A, GRB 111209A, and GRB 121027A
+
+
+Target	Date-obs	MJD-obs	DeltaT	Telescope	Exp.	Spectral Range	
+(days)	(s)	(Aring)	
+101225A	2010 Dec 27	55557.005	1.23	WHT/ISIS	2400	5000-9000	
+101225A	2010 Dec 29	55559.175	3.40	MMT/Blue Channel	4800	3175-8385	
+101225A	2010 Dec 30	55560.205	4.43	Gemini-N/GMOS	3600	3868-6632	
+101225A	2012 Jul 19-20	56127.506	571.73	Gemini-N/GMOS	10240	5342-9458	
+111209A	2011 Dec 10	55905.036	0.74	VLT/X-shooter	4800	3000-25000	
+111209A	2011 Dec 10	55905.218	0.92	Gemini-N/GMOS	3600	3992-8108	
+111209A	2011 Dec 20	55915.153	10.85	Gemini-S/GMOS	1464	5992-10000	
+111209A	2011 Dec 29	55924.116	19.82	VLT/X-shooter	9600	3000-25000	
+121027A	2012 Oct 29	56229.253	1.94	Gemini-S/GMOS	2400	5200-7900	
+121027A	2012 Oct 30	56230.198	2.88	VLT/X-shooter	6000	3000-25000	
+121027A	2012 Oct 30	56230.199	2.89	Gemini-S/GMOS	2400	5200-7900	
+Notes. Ground-based spectroscopic observations of our sample of ultra-long GRBs, showing the telescopes and instrument setup used for each observation, along with its time since the initial Swift BAT trigger.
