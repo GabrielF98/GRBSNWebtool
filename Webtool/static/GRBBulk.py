@@ -37,7 +37,11 @@ triggers = np.array(data['Time [UT]'])
 
 ra = np.zeros((len(grbs)))
 dec = np.zeros((len(grbs)))
-trig_times = list()
+trig_times = []
+for k in range(len(grbs)):
+    trig_times.append(None)
+    ra[k] = None
+    dec[k] = None
 
 #Loop over the names in our database
 for i in range(len(grbs)):
@@ -61,10 +65,8 @@ for i in range(len(grbs)):
                 dec[i] = round(float(c.dec.value), 3)
             
                 #Add the triggertime
-                trig_times.append(triggers[j])
+                trig_times[i] = triggers[j]
 
-        elif j==len(grb_names_txtfile):
-            trig_times.append(None)
 
 print(trig_times)
 print(grbs)
