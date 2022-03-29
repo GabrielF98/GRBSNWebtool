@@ -86,7 +86,7 @@ def get_post(event_id):
         grb_name = event_id.split('_')[0][3:]
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ?", (grb_name,)).fetchall()
 
-        radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
+        radec = conn.execute('SELECT * FROM TrigsandLocs WHERE grb_id=?', (grb_name,)).fetchall()
 
         #Deals with people entering names that arent in the DB
         if event is None:
@@ -101,7 +101,7 @@ def get_post(event_id):
         
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (sn_name,)).fetchall()
         
-        radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
+        radec = conn.execute('SELECT * FROM TrigsandLocs WHERE sn_name=?', (sn_name,)).fetchall()
         
         if event is None:
             abort(404)
@@ -401,6 +401,19 @@ def event(event_id):
     #############DATA FOR THE PLOTS#######################################################
     ######################################################################################
 
+    #The time of the GRB
+    grb_time = radec[0]['trigtime']
+    
+    #Convert to MJD
+
+    #For the plot x axis time
+    if int(str(event[0]['GRB'])[:2])>50:
+
+        grb_time_str = '19'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+' '+grb_time
+    else:
+        grb_time_str = '20'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+' '+grb_time
+
+    print(grb_time_str)
     ######################################################################################
     #####X--RAYS##########################################################################
     ######################################################################################
@@ -470,7 +483,7 @@ def event(event_id):
     xray.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    xray.xaxis.axis_label = 'Time [sec]'
+    xray.xaxis.axis_label = 'Time [sec] since '+grb_time_str
     xray.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
 
     #Axis Colors
@@ -895,7 +908,7 @@ def docs():
 def get_master_table():
     #Sql query to dataframe
     conn = get_db_connection()
-    df1 = pd.read_sql_query("SELECT * FROM SQLDataGRBSNe INNER JOIN RADec ON SQLDataGRBSNe.GRB=RADec.grb_id", conn)
+    df1 = pd.read_sql_query("SELECT * FROM SQLDataGRBSNe INNER JOIN TrigsandLocs ON SQLDataGRBSNe.GRB=TrigsandLocs.grb_id", conn)
     conn.close()
 
 

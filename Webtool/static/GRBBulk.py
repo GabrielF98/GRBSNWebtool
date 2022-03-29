@@ -64,8 +64,8 @@ for i in range(len(grbs)):
                 ra[i] = round(float(c.ra.value), 3)
                 dec[i] = round(float(c.dec.value), 3)
             
-                #Add the triggertime
-                trig_times[i] = triggers[j]
+            #Add the triggertime
+            trig_times[i] = triggers[j]
 
 
 print(trig_times)
@@ -127,15 +127,15 @@ def main():
 
 
 
-# if __name__ == '__main__':
-#     main()
-#     #Add the data
-#     sqliteConnection = sqlite3.connect('Masterbase.db')
-#     cursor = sqliteConnection.cursor()
-#     print(len(trig_times), len(grbs))
-#     for i in range(len(grbs)):
-#         query = ('INSERT INTO TrigsandLocs (grb_id, sn_name, trigtime, ra, dec, ra_err, dec_err, source)VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
-#         count = cursor.execute(query, (grbs[i], sne[i], trig_times[i], ra[i], dec[i], None, None, "https://swift.gsfc.nasa.gov/archive/grb_table/"))
-#         sqliteConnection.commit()
+if __name__ == '__main__':
+    main()
+    #Add the data
+    sqliteConnection = sqlite3.connect('Masterbase.db')
+    cursor = sqliteConnection.cursor()
+    print(len(trig_times), len(grbs))
+    for i in range(len(grbs)):
+        query = ('INSERT INTO TrigsandLocs (grb_id, sn_name, trigtime, ra, dec, ra_err, dec_err, source)VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
+        count = cursor.execute(query, (grbs[i], sne[i], trig_times[i], ra[i], dec[i], None, None, "https://swift.gsfc.nasa.gov/archive/grb_table/"))
+        sqliteConnection.commit()
 
-#     cursor.close()
+    cursor.close()
