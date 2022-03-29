@@ -683,7 +683,7 @@ def event(event_id):
     radio.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    radio.xaxis.axis_label = 'Time [sec]'
+    radio.xaxis.axis_label = 'Time after '+grb_time_str
     radio.yaxis.axis_label = 'Flux Density [mJy]'
 
     #Axis Colors
