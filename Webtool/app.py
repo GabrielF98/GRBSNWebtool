@@ -403,17 +403,20 @@ def event(event_id):
 
     #The time of the GRB
     grb_time = radec[0]['trigtime']
-    
-    #Convert to MJD
-
+    grb_time_str = 0
     #For the plot x axis time
     if int(str(event[0]['GRB'])[:2])>50:
-
         grb_time_str = '19'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+' '+grb_time
+        grb_time_iso = '19'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+'T'+grb_time
+
     else:
         grb_time_str = '20'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+' '+grb_time
+        grb_time_iso = '20'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+'T'+grb_time
 
-    print(grb_time_str)
+    #Convert to MJD
+    t = Time(grb_time_iso, format='isot', scale='utc') #make the isotime object
+    grb_time_mjd = t.mjd
+
     ######################################################################################
     #####X--RAYS##########################################################################
     ######################################################################################
@@ -577,7 +580,7 @@ def event(event_id):
                 t0_utc = Time(t0, format='mjd').utc.iso
 
                 for k in range(len(mjd_time)):
-                    t_after_t0[k] = float(mjd_time[k])-float(t0)
+                    t_after_t0[k] = float(mjd_time[k])-float(grb_time_mjd)
 
                 new_df['time_since'] = t_after_t0 #Add this to the df in the position time used to be in.
 
@@ -632,7 +635,7 @@ def event(event_id):
     if t0_utc==0:
         optical.xaxis.axis_label = 'Time [MJD]'
     else:
-        optical.xaxis.axis_label = 'Time [days] after: '+t0_utc
+        optical.xaxis.axis_label = 'Time [days] after: '+grb_time_str
         
     optical.yaxis.axis_label = 'Apparent Magnitude'
 
