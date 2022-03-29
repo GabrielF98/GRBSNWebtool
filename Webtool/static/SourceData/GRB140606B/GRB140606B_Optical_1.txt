@@ -1,0 +1,81 @@
+Title: The Needle in the 100 deg^2^ Haystack: Uncovering Afterglows of 
+       Fermi GRBs with the Palomar Transient Factory
+Authors: Singer L.P., Kasliwal M.M., Cenko S.B., Perley D.A., Anderson G.E.,
+         Anupama G.C., Arcavi I., Bhalerao V., Bue B.D., Cao Y., Connaughton V.,
+         Corsi A., Cucchiara A., Fender R.P., Fox D.B., Gehrels N., 
+         Goldstein A., Gorosabel J., Horesh A., Hurley K., Johansson J., 
+         Kann D.A., Kouveliotou C., Huang K., Kulkarni S.R., Masci F., 
+         Nugent P., Rau A., Rebbapragada U.D., Staley T.D., Svinkin D., 
+         Thone C.C., de Ugarte Postigo A., Urata Y., Weinstein A.
+Table: Optical observations of GBM-iPTF afterglows
+================================================================================
+Byte-by-byte Description of file: apj511259t2_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  7 A7     ---     GRB     GRB name
+   9- 13 A5     ---     OT      iPTF name of optical afterglow
+  15- 18 I4     yr      Obs.Y   UTC Year of midpoint of observation
+  20- 21 I2     month   Obs.M   UTC Month of midpoint of observation
+  23- 24 I2     d       Obs.D   UTC Day of midpoint of observation
+  26- 27 I2     h       Obs.h   UTC Hour of midpoint of observation
+  29- 30 I2     m       Obs.m   UTC Minute of midpoint of observation
+  32- 36 F5.2   d       deltat  Time of relative to GBM trigger
+  38- 43 A6     ---     Inst    Instrument used in observation (1)
+  45- 46 A2     ---     Filter  Filter used in observation
+      48 A1     ---   l_mag     Limit flag on mag 
+  50- 54 F5.2   mag     mag     The AB magnitude in Filter (2)
+  56- 60 F5.2   mag   e_mag     ? 1{sigma} uncertainty in mag
+--------------------------------------------------------------------------------
+Note (1): RATIR data are from GCNs 14980, 14993, and 16236. GROND data are from
+          GCN 15328. Keck near-infrared data for GRB 140606B are from GCN 16387.
+Note (2): Not corrected for Galactic extinction.
+--------------------------------------------------------------------------------
+140606B 14bfu 2014 06 06 07 31  0.18 P48    R    19.89  0.10 
+140606B 14bfu 2014 06 06 08 07  0.20 P48    R    20.06  0.09 
+140606B 14bfu 2014 06 06 08 42  0.23 P48    R    20.32  0.14 
+140606B 14bfu 2014 06 07 00 00  0.87 P60    i    21.72  0.25 
+140606B 14bfu 2014 06 07 00 00  0.87 P60    r    21.53  0.07 
+140606B 14bfu 2014 06 08 00 00  1.87 P60    r    22.21  0.15 
+140606B 14bfu 2014 06 08 00 00  1.87 P60    i    21.99  0.16 
+140606B 14bfu 2014 06 08 09 08  2.25 DCT    r    22.16  0.04 
+140606B 14bfu 2014 06 08 09 16  2.25 DCT    i    22.02  0.05 
+140606B 14bfu 2014 06 08 09 33  2.26 DCT    g    22.76  0.04 
+140606B 14bfu 2014 06 08 13 04  2.41 Keck I Ks   21.34  0.06 
+140606B 14bfu 2014 06 09 09 04  3.24 DCT    g    23.41  0.06 
+140606B 14bfu 2014 06 09 09 27  3.26 DCT    r    22.72  0.04 
+140606B 14bfu 2014 06 09 09 28  3.26 DCT    i    22.53  0.07 
+140606B 14bfu 2014 06 10 09 16  4.25 DCT    g    23.67  0.11 
+140606B 14bfu 2014 06 10 09 34  4.27 DCT    r    22.91  0.06 
+140606B 14bfu 2014 06 10 09 44  4.27 DCT    i    22.66  0.05 
+140606B 14bfu 2014 06 11 08 33  5.22 DCT    g    24.28  0.24 
+140606B 14bfu 2014 06 11 08 39  5.23 DCT    r    22.88  0.07 
+140606B 14bfu 2014 06 11 09 37  5.27 DCT    i    22.72  0.08 
+140606B 14bfu 2014 06 12 10 24  6.30 DCT    g  > 23.41       
+140606B 14bfu 2014 06 12 10 30  6.30 DCT    r    23.28  0.10 
+140606B 14bfu 2014 06 12 10 35  6.31 DCT    i    22.66  0.08 
+140606B 14bfu 2014 06 13 09 08  7.25 DCT    r    22.95  0.09 
+140606B 14bfu 2014 06 13 10 38  7.31 DCT    g  > 23.88       
+140606B 14bfu 2014 06 13 10 50  7.32 DCT    i    22.87  0.07 
+140606B 14bfu 2014 06 14 09 23  8.26 DCT    r    23.06  0.10 
+140606B 14bfu 2014 06 25 00 00 18.87 P60    r    22.53  0.13 
+140606B 14bfu 2014 06 26 00 00 19.87 P60    g  > 22.72       
+140606B 14bfu 2014 06 26 00 00 19.87 P60    i    22.34  0.20 
+140606B 14bfu 2014 06 27 00 00 20.87 P60    i    22.60  0.30 
+140606B 14bfu 2014 06 27 00 00 20.87 P60    r  > 22.53       
+140606B 14bfu 2014 06 28 00 00 21.87 P60    i    22.85  0.28 
+140606B 14bfu 2014 06 28 00 00 21.87 P60    r    22.77  0.23 
+140606B 14bfu 2014 06 29 00 00 22.87 P60    i    22.31  0.20 
+140606B 14bfu 2014 06 29 00 00 22.87 P60    r    22.95  0.18 
+140606B 14bfu 2014 06 29 00 00 22.87 P60    g  > 23.74       
+140606B 14bfu 2014 06 30 00 00 23.87 P60    r    23.15  0.16 
+140606B 14bfu 2014 06 30 00 00 23.87 P60    g  > 23.88       
+140606B 14bfu 2014 06 30 00 00 23.87 P60    i    22.50  0.13 
+140606B 14bfu 2014 07 01 00 00 24.87 P60    g  > 23.40       
+140606B 14bfu 2014 07 01 00 00 24.87 P60    i    22.46  0.22 
+140606B 14bfu 2014 07 01 00 00 24.87 P60    r    23.45  0.29 
+140606B 14bfu 2014 07 02 00 00 25.87 P60    i    22.86  0.25 
+140606B 14bfu 2014 07 05 00 00 28.87 P60    i    22.46  0.38 
+140606B 14bfu 2014 07 07 00 00 30.87 P60    i    22.52  0.25 
+140606B 14bfu 2014 07 08 00 00 31.87 P60    i    22.26  0.15 
+140606B 14bfu 2014 07 10 00 00 33.87 P60    i    22.48  0.19
