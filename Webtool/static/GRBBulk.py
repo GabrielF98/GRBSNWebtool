@@ -1,5 +1,7 @@
 import numpy as np
 import pandas as pd
+from astropy import units as u
+from astropy.coordinates import SkyCoord
 
 #Add the bit for the database access:
 import sqlite3
@@ -15,22 +17,19 @@ data = pd.read_csv('RA_Dec_Data_SwiftGRBs/grb_table_1648223358.txt', sep='\t')
 #To do this access the database
 def grb_names():
     conn = get_db_connection()
-    names = conn.execute('SELECT DISTINCT(GRB) FROM SQLDataGRBSNe WHERE GRB IS NOT NULL')
+    names = conn.execute('SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe')
     grbs = []
+    sne = []
     for i in names:
-    	grbs.append(i[0])
+        grbs.append(i[0])
+        sne.append(i[1])
     conn.close()
     
-    return grbs
-grbs = grb_names()
+    return grbs, sne
 
-#print(grbs)
+grbs, sne = grb_names()
 
 #Loop over the grb names and then cross reference them with the panda to get an RA and Dec
-
-from astropy import units as u
-from astropy.coordinates import SkyCoord
-
 grb_names_txtfile = np.array(data['GRB'])
 ra_txtfile = np.array(data['XRT RA (J2000)'])
 dec_txtfile = np.array(data['XRT Dec (J2000)'])
@@ -38,31 +37,37 @@ triggers = np.array(data['Time [UT]'])
 
 ra = np.zeros((len(grbs)))
 dec = np.zeros((len(grbs)))
-trig_time = np.zeros(len(grbs))
+trig_times = list()
 
+#Loop over the names in our database
 for i in range(len(grbs)):
+    #Loop over the names in the swift file
     for j in range(len(grb_names_txtfile)):
-        if grbs[i]==grb_names_txtfile[j] and str(ra_txtfile[j])!='nan' and str(dec_txtfile[j])!='nan':
-            print("The values are:", ra_txtfile[j], dec_txtfile[j])
-            ra_components = ra_txtfile[j].split(':')
-            dec_components = dec_txtfile[j].split(':')
-            print(grbs[i])
-            print(ra_components, dec_components)
-            ra_string = str(ra_components[0])+'h'+str(ra_components[1])+'m'+str(ra_components[2])+'s'
-            dec_string = str(dec_components[0])+'d'+str(dec_components[1])+'m'+str(dec_components[2])+'s'
-            print(ra_string, dec_string)
+        #Check that there are non-nan RA and Dec when we match the names
+        if grbs[i]==grb_names_txtfile[j]:
+            if str(ra_txtfile[j])!='nan'and str(dec_txtfile[j])!='nan':
 
-            c = SkyCoord(ra_string, dec_string)
-            ra[i] = round(float(c.ra.value), 3)
-            dec[i] = round(float(c.dec.value), 3)
+                #Split the hh:mm:ss formats for conversion
+                ra_components = ra_txtfile[j].split(':')
+                dec_components = dec_txtfile[j].split(':')
+
+                #Turn into strings for use with astropy
+                ra_string = str(ra_components[0])+'h'+str(ra_components[1])+'m'+str(ra_components[2])+'s'
+                dec_string = str(dec_components[0])+'d'+str(dec_components[1])+'m'+str(dec_components[2])+'s'
+
+                #Convert
+                c = SkyCoord(ra_string, dec_string)
+                ra[i] = round(float(c.ra.value), 3)
+                dec[i] = round(float(c.dec.value), 3)
             
-            #Add the triggertime
-            trig_time[i] = triggers[i]
+                #Add the triggertime
+                trig_times.append(triggers[j])
 
+        elif j==len(grb_names_txtfile):
+            trig_times.append(None)
 
-# for i in range(len(grbs)):
-# 	print(grbs[i], ra[i], dec[i])
-
+print(trig_times)
+print(grbs)
 
 #Making the table in the database
 def create_connection(db_file):
@@ -95,9 +100,10 @@ def create_table(conn, create_table_sql):
 def main():
     database = r"Masterbase.db"
 
-    sql_create_radec_table = """ CREATE TABLE IF NOT EXISTS RADec (
+    sql_create_radec_table = """ CREATE TABLE IF NOT EXISTS TrigsandLocs (
                                         grb_id text,
                                         sn_name text,
+                                        trigtime text,
                                         ra text,
                                         dec text,
                                         ra_err text,
@@ -117,17 +123,17 @@ def main():
         print("Error! cannot create the database connection.")
 
 
-#Add the data
-sqliteConnection = sqlite3.connect('Masterbase.db')
-cursor = sqliteConnection.cursor()
 
-for i in range(len(grbs)):
-	query = ('INSERT INTO RADec (grb_id, sn_id, trigtime, ra, dec, ra_err, dec_err, source) VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
-	count = cursor.execute(query, (grbs[i], None, trig_time[i], ra[i], dec[i], None, None, "https://swift.gsfc.nasa.gov/archive/grb_table/"))
-	sqliteConnection.commit()
-
-cursor.close()
 
 if __name__ == '__main__':
     main()
+    #Add the data
+    sqliteConnection = sqlite3.connect('Masterbase.db')
+    cursor = sqliteConnection.cursor()
+    print(len(trig_times), len(grbs))
+    for i in range(len(grbs)):
+        query = ('INSERT INTO TrigsandLocs (grb_id, sn_name, trigtime, ra, dec, ra_err, dec_err, source)VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
+        count = cursor.execute(query, (grbs[i], sne[i], trig_times[i], ra[i], dec[i], None, None, "https://swift.gsfc.nasa.gov/archive/grb_table/"))
+        sqliteConnection.commit()
 
+    cursor.close()
