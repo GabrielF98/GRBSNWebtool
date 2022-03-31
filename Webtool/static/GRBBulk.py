@@ -35,13 +35,17 @@ ra_txtfile = np.array(data['XRT RA (J2000)'])
 dec_txtfile = np.array(data['XRT Dec (J2000)'])
 triggers = np.array(data['Time [UT]'])
 
-ra = np.zeros((len(grbs)))
-dec = np.zeros((len(grbs)))
+ra_decimal = np.zeros((len(grbs)))
+dec_decimal = np.zeros((len(grbs)))
+ra = []
+dec = []
 trig_times = []
 for k in range(len(grbs)):
+    ra.append(None)
+    dec.append(None)
     trig_times.append(None)
-    ra[k] = None
-    dec[k] = None
+    ra_decimal[k] = None
+    dec_decimal[k] = None
 
 #Loop over the names in our database
 for i in range(len(grbs)):
@@ -59,17 +63,22 @@ for i in range(len(grbs)):
                 ra_string = str(ra_components[0])+'h'+str(ra_components[1])+'m'+str(ra_components[2])+'s'
                 dec_string = str(dec_components[0])+'d'+str(dec_components[1])+'m'+str(dec_components[2])+'s'
 
-                #Convert
+                #Convert to decimal
                 c = SkyCoord(ra_string, dec_string)
-                ra[i] = round(float(c.ra.value), 3)
-                dec[i] = round(float(c.dec.value), 3)
-            
+                ra_decimal[i] = round(float(c.ra.value), 3)
+                dec_decimal[i] = round(float(c.dec.value), 3)
+
+                #Save the regular ra and dec also
+                ra[i] = ra_txtfile[j]
+                dec[i] = dec_txtfile[j]
+
             #Add the triggertime
             trig_times[i] = triggers[j]
 
 
+print(ra_decimal)
+print(ra)
 print(trig_times)
-print(grbs)
 
 #Making the table in the database
 def create_connection(db_file):
@@ -102,14 +111,16 @@ def create_table(conn, create_table_sql):
 def main():
     database = r"Masterbase.db"
 
-    sql_create_radec_table = """ CREATE TABLE IF NOT EXISTS TrigsandLocs (
+    sql_create_radec_table = """ CREATE TABLE IF NOT EXISTS TrigCoords (
                                         grb_id text,
                                         sn_name text,
                                         trigtime text,
                                         ra text,
+                                        ra_decimal text,
                                         dec text,
-                                        ra_err text,
-                                        dec_err text,
+                                        dec_decimal text,
+                                        ra_deci_err text,
+                                        dec_deci_err text,
                                         source text
                                     ); """
 
@@ -134,8 +145,8 @@ if __name__ == '__main__':
     cursor = sqliteConnection.cursor()
     print(len(trig_times), len(grbs))
     for i in range(len(grbs)):
-        query = ('INSERT INTO TrigsandLocs (grb_id, sn_name, trigtime, ra, dec, ra_err, dec_err, source)VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
-        count = cursor.execute(query, (grbs[i], sne[i], trig_times[i], ra[i], dec[i], None, None, "https://swift.gsfc.nasa.gov/archive/grb_table/"))
+        query = ('INSERT INTO TrigCoords (grb_id, sn_name, trigtime, ra, ra_decimal, dec, dec_decimal, ra_deci_err, dec_deci_err, source)VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+        count = cursor.execute(query, (grbs[i], sne[i], trig_times[i], ra[i], ra_decimal[i], dec[i], dec_decimal[i], None, None, "https://swift.gsfc.nasa.gov/archive/grb_table/"))
         sqliteConnection.commit()
 
     cursor.close()
