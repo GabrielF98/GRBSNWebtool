@@ -404,12 +404,13 @@ def event(event_id):
     #The time of the GRB
     grb_time = radec[0]['trigtime']
     grb_time_str = 0
+    grb_time_iso = "2020-02-23T00:00:00"
     #For the plot x axis time
-    if int(str(event[0]['GRB'])[:2])>50:
+    if int(str(event[0]['GRB'])[:2])>50 and event[0]['GRB']!=None:
         grb_time_str = '19'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+' '+grb_time
         grb_time_iso = '19'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+'T'+grb_time
 
-    else:
+    elif int(str(event[0]['GRB'])[:2])<=50 and event[0]['GRB']!=None:
         grb_time_str = '20'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+' '+grb_time
         grb_time_iso = '20'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+'T'+grb_time
 
@@ -421,7 +422,7 @@ def event(event_id):
     #####X--RAYS##########################################################################
     ######################################################################################
 
-    #The swift data from antonios tools files
+    #The swift data from antonios tools files #This is the line that needs updating for changing the source
     flag, data = get_grb_data(event_id)
 
     #Swift references
