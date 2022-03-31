@@ -139,14 +139,14 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
-    #Add the data
-    sqliteConnection = sqlite3.connect('Masterbase.db')
-    cursor = sqliteConnection.cursor()
-    print(len(trig_times), len(grbs))
-    for i in range(len(grbs)):
-        query = ('INSERT INTO TrigCoords (grb_id, sn_name, trigtime, ra, ra_decimal, dec, dec_decimal, ra_deci_err, dec_deci_err, source)VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
-        count = cursor.execute(query, (grbs[i], sne[i], trig_times[i], ra[i], ra_decimal[i], dec[i], dec_decimal[i], None, None, "https://swift.gsfc.nasa.gov/archive/grb_table/"))
-        sqliteConnection.commit()
+    # main()
+    # #Add the data
+    # sqliteConnection = sqlite3.connect('Masterbase.db')
+    # cursor = sqliteConnection.cursor()
+    # print(len(trig_times), len(grbs))
+    # for i in range(len(grbs)):
+    #     query = ('INSERT INTO TrigCoords (grb_id, sn_name, trigtime, ra, ra_decimal, dec, dec_decimal, ra_deci_err, dec_deci_err, source)VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+    #     count = cursor.execute(query, (grbs[i], sne[i], trig_times[i], ra[i], ra_decimal[i], dec[i], dec_decimal[i], None, None, "https://swift.gsfc.nasa.gov/archive/grb_table/"))
+    #     sqliteConnection.commit()
 
-    cursor.close()
+    # cursor.close()

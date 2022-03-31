@@ -86,7 +86,7 @@ def get_post(event_id):
         grb_name = event_id.split('_')[0][3:]
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ?", (grb_name,)).fetchall()
 
-        radec = conn.execute('SELECT * FROM TrigsandLocs WHERE grb_id=?', (grb_name,)).fetchall()
+        radec = conn.execute('SELECT * FROM TrigCoords WHERE grb_id=?', (grb_name,)).fetchall()
 
         #Deals with people entering names that arent in the DB
         if event is None:
@@ -101,7 +101,7 @@ def get_post(event_id):
         
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (sn_name,)).fetchall()
         
-        radec = conn.execute('SELECT * FROM TrigsandLocs WHERE sn_name=?', (sn_name,)).fetchall()
+        radec = conn.execute('SELECT * FROM TrigCoords WHERE sn_name=?', (sn_name,)).fetchall()
         
         if event is None:
             abort(404)
@@ -402,7 +402,12 @@ def event(event_id):
     ######################################################################################
 
     #The time of the GRB
-    grb_time = radec[0]['trigtime']
+    if radec[0]['trigtime']!=None:
+        grb_time = radec[0]['trigtime']
+        print(grb_time)
+    else:
+        grb_time = '00:00:00'
+
     grb_time_str = 0
     grb_time_iso = "2020-02-23T00:00:00"
     #For the plot x axis time
@@ -912,7 +917,7 @@ def docs():
 def get_master_table():
     #Sql query to dataframe
     conn = get_db_connection()
-    df1 = pd.read_sql_query("SELECT * FROM SQLDataGRBSNe INNER JOIN TrigsandLocs ON SQLDataGRBSNe.GRB=TrigsandLocs.grb_id", conn)
+    df1 = pd.read_sql_query("SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id", conn)
     conn.close()
 
 
