@@ -903,7 +903,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     #Return everything
-    return render_template('event.html', event=event, radec=radec, radec_nos=radec_nos, radec_refs=radec_refs, swift_refs=swift_references, swift_nos=swift_reference_no,optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, radec=radec, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, swift_refs=swift_references, swift_nos=swift_reference_no,optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
 def get_files2(directory):
