@@ -1,18 +1,4 @@
- ! Swift/XRT lightcurve of trigger: 20778, name: GRB 171010A
- ! T0 for this burst is Swift MET=529354850 s, = 2017 Oct 10 at 19:00:30.180 UT
-
- ! Data covers 0.3-10 keV
- ! The data are in 5 columns: ";
- ! time, time error (+ve), time error (-ve), source flux, source error
- ! For a detailed description of light curve production, see Evans et al. 2007 (A&A, 469, 379 )
- ! For a detailed description of the file, see
- ! http://www.swift.ac.uk/xrt_curves/docs.php
- ! This lightcurve was obtained from http://www.swift.ac.uk/xrt_curves/00020778
- ! BINMODE: GRB-like (counts)
-
-READ TERR 1 2
 ! PC data
-!Time    	T_+ve   	T_-ve   	Flux    	Fluxpos 	Fluxneg
 24292.732	50.921	-49.371	4.21844777e-11	9.55219865e-12	-9.55219865e-12
 24396.537	47.410	-52.883	4.27949201e-11	9.72119806e-12	-9.72119806e-12
 24521.515	60.334	-77.568	3.129945205e-11	7.10991202e-12	-7.10991202e-12
@@ -82,6 +68,5 @@ READ TERR 1 2
 1043643.145	84005.893	-73096.961	1.047687384e-13	2.87877099e-14	-2.87877099e-14
 1212530.042	109277.607	-35340.138	8.68082613e-14	2.119979844e-14	-2.119979844e-14
 1616772.971	107276.140	-213824.477	5.40618713e-14	1.75109039e-14	-1.463998552e-14
-NO	NO	NO	NO	NO
 ! PC upper limits
 7424930.172	147378.206	-147378.206	6.55483e-14	0	0

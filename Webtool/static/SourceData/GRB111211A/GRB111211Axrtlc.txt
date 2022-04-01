@@ -1,18 +1,4 @@
- ! Swift/XRT lightcurve of trigger: 20192, name: GRB 111211A
- ! T0 for this burst is Swift MET=345334655 s, = 2011 Dec 11 at 22:17:27.334 UT
-
- ! Data covers 0.3-10 keV
- ! The data are in 5 columns: ";
- ! time, time error (+ve), time error (-ve), source flux, source error
- ! For a detailed description of light curve production, see Evans et al. 2007 (A&A, 469, 379 )
- ! For a detailed description of the file, see
- ! http://www.swift.ac.uk/xrt_curves/docs.php
- ! This lightcurve was obtained from http://www.swift.ac.uk/xrt_curves/00020192
- ! BINMODE: GRB-like (counts)
-
-READ TERR 1 2
 ! PC data
-!Time    	T_+ve   	T_-ve   	Flux    	Fluxpos 	Fluxneg
 63590.619	71.097	-76.835	5.8344179e-12	1.315843355e-12	-1.315843355e-12
 63732.803	66.815	-71.087	6.5246231e-12	1.432520495e-12	-1.432520495e-12
 63898.939	101.264	-99.321	3.374506105e-12	8.5967084e-13	-8.5967084e-13
@@ -43,7 +29,6 @@ READ TERR 1 2
 76300.381	65.703	-97.272	5.1896811e-12	1.167073505e-12	-1.167073505e-12
 76496.236	100.512	-130.152	3.44397357e-12	8.0257051e-13	-8.0257051e-13
 856222.673	104880.131	-70540.674	6.58030485e-14	2.24345232e-14	-1.86211629e-14
-NO	NO	NO	NO	NO
 ! PC upper limits
 3161925.642	218.135	-218.135	6.49579e-13	0	0
 4462049.471	408414.438	-763878.525	4.40129e-14	0	0

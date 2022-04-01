@@ -1,7 +1,9 @@
 import numpy as np
 
 # open text file
-file = 'GoodXRTData/GRB171205Axrtlc.txt'
+file = r'GRB171205A/GRB171205Axrtlc.txt'
+
+
 f = open(file, 'r')
 f = f.readlines()
 f = np.array(f)
@@ -17,11 +19,13 @@ pc_limit = -5
 # List that will store the index the rows change datatype at
 indices = []
 
+with open
 for i in range(len(f)):
-
-    # Check what line has READ TERR 1 2
     print(f[i])
-#     if 'WTSLEW' in str(f[i]]):
+    if 'WTSLEW' in str(f[i]]):
+
+    else:
+
         
 
 # with open('test.txt', 'w') as newf:
