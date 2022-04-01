@@ -409,15 +409,22 @@ def event(event_id):
         grb_time = '00:00:00'
 
     grb_time_str = 0
-    grb_time_iso = "2020-02-23T00:00:00"
-    #For the plot x axis time
-    if int(str(event[0]['GRB'])[:2])>50 and event[0]['GRB']!=None:
-        grb_time_str = '19'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+' '+grb_time
-        grb_time_iso = '19'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+'T'+grb_time
 
-    elif int(str(event[0]['GRB'])[:2])<=50 and event[0]['GRB']!=None:
-        grb_time_str = '20'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+' '+grb_time
-        grb_time_iso = '20'+str(event[0]['GRB'])[:2]+'-'+str(event[0]['GRB'])[2:4]+'-'+str(event[0]['GRB'])[4:6]+'T'+grb_time
+    #For the plot x axis time
+    if radec[0]['grb_id']!=None:
+
+        if int(str(radec[0]['grb_id'])[:2])>50 and radec[0]['grb_id']!=None:
+            grb_time_str = '19'+str(radec[0]['grb_id'])[:2]+'-'+str(radec[0]['grb_id'])[2:4]+'-'+str(radec[0]['grb_id'])[4:6]+' '+grb_time
+            grb_time_iso = '19'+str(radec[0]['grb_id'])[:2]+'-'+str(radec[0]['grb_id'])[2:4]+'-'+str(radec[0]['grb_id'])[4:6]+'T'+grb_time
+
+        elif int(str(radec[0]['grb_id'])[:2])<=50 and radec[0]['grb_id']!=None:
+            grb_time_str = '20'+str(radec[0]['grb_id'])[:2]+'-'+str(radec[0]['grb_id'])[2:4]+'-'+str(radec[0]['grb_id'])[4:6]+' '+grb_time
+            grb_time_iso = '20'+str(radec[0]['grb_id'])[:2]+'-'+str(radec[0]['grb_id'])[2:4]+'-'+str(radec[0]['grb_id'])[4:6]+'T'+grb_time
+
+    else:
+        grb_time_str_split = radec[0]['trigtime'].split('T')
+        grb_time_str = grb_time_str_split[0]+' '+grb_time_str_split[1]
+        grb_time_iso = str(radec[0]['trigtime'])
 
     #Convert to MJD
     t = Time(grb_time_iso, format='isot', scale='utc') #make the isotime object
