@@ -73,7 +73,7 @@
     },
     "https://ui.adsabs.harvard.edu/abs/2021arXiv211204759M/abstract": {
         "names": "Melandri et al.",
-        "year": "2021"
+        "year": "2022"
     },
     "https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract": {
         "names": "Hu et al.",
@@ -86,6 +86,10 @@
     "https://ui.adsabs.harvard.edu/abs/2021NatAs.tmp..142A/abstract": {
         "names": "Ahumada et al.",
         "year": "2021"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract": {
+        "names": "Ho et al.",
+        "year": "2020"
     },
     "null": null,
     "https://swift.gsfc.nasa.gov/archive/grb_table/190114C": "https://swift.gsfc.nasa.gov/archive/grb_table/190114C"
