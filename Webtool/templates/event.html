@@ -59,7 +59,7 @@
     <td>
       {% for i in range(radec_nos|length) %}
       {% if radec[0]['trigtime']|string != 'None' %}
-          {{ radec[0]['trigtime'] }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
+          {{ grb_time_str }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
       {% endif %}
       {% endfor %}
     </td> 
@@ -240,7 +240,7 @@
     <td>
       {% for i in range(radec_nos|length) %}
       {% if radec[0]['trigtime']|string != 'None' %}
-          {{ radec[0]['trigtime'] }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
+          {{ grb_time_str }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
       {% endif %}
       {% endfor %}
     </td> 
