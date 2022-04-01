@@ -52,6 +52,7 @@
     <th>Unit</th> 
   </tr>
 
+  {% if event[0]['GRB']!=None %}
   <tr>
     <td>T$_{0}$</td>
     
@@ -65,6 +66,7 @@
 
     <td>UT</td>
   </tr>
+  {% endif %}
 
   <tr>
     <td>E$_{iso}$</td>
@@ -230,6 +232,23 @@
     <th>Value</th>
     <th>Unit</th> 
   </tr>
+
+  {% if event[0]['GRB']==None %}
+  <tr>
+    <td>T$_{0}$</td>
+    
+    <td>
+      {% for i in range(radec_nos|length) %}
+      {% if radec[0]['trigtime']|string != 'None' %}
+          {{ radec[0]['trigtime'] }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
+      {% endif %}
+      {% endfor %}
+    </td> 
+
+    <td>UT</td>
+  </tr>
+  {% endif %}
+
   <tr>
     <td>E$_k$</td>
     <td>
