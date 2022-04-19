@@ -1,0 +1,36 @@
+Title: The Needle in the 100 deg^2^ Haystack: Uncovering Afterglows of 
+       Fermi GRBs with the Palomar Transient Factory
+Authors: Singer L.P., Kasliwal M.M., Cenko S.B., Perley D.A., Anderson G.E.,
+         Anupama G.C., Arcavi I., Bhalerao V., Bue B.D., Cao Y., Connaughton V.,
+         Corsi A., Cucchiara A., Fender R.P., Fox D.B., Gehrels N., 
+         Goldstein A., Gorosabel J., Horesh A., Hurley K., Johansson J., 
+         Kann D.A., Kouveliotou C., Huang K., Kulkarni S.R., Masci F., 
+         Nugent P., Rau A., Rebbapragada U.D., Staley T.D., Svinkin D., 
+         Thone C.C., de Ugarte Postigo A., Urata Y., Weinstein A.
+Table: Radio observations of GBM-iPTF afterglows
+================================================================================
+Byte-by-byte Description of file: apj511259t3_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  7 A7     ---     GRB     GRB name
+   9- 13 A5     ---     OT      iPTF name of optical afterglow
+  15- 18 I4     yr      Obs.Y   UTC Year of observation start
+  20- 21 I2     month   Obs.M   UTC Month of observation start
+  23- 24 I2     d       Obs.D   UTC Day of observation start
+  26- 30 F5.2   d       deltat  Time of relative to GBM trigger
+  32- 37 A6     ---     Inst    Instrument used in observation (1)
+  38- 41 F4.1   GHz     Freq    Frequency of observation
+      43 A1     ---   l_S       Limit flag on S 
+  45- 48 I4     mag     S       Flux density at Freq 
+  50- 52 I3     mag   e_S       ? Uncertainty in S (2)
+--------------------------------------------------------------------------------
+Note (1): The ATCA observation is from GCN 15395.
+Note (2): For detections, the confidence intervals are 1{sigma} statistical
+          uncertainties added in quadrature with an estimated 5% systematic
+          error. For non-detections, we show 3{sigma} upper limits.
+--------------------------------------------------------------------------------
+140606B 14bfu 2014 06 08  2.30 CARMA 93.0    660 180 
+140606B 14bfu 2014 06 15  8.90 VLA    6.1    113  12 
+140606B 14bfu 2014 06 30 24.00 VLA    6.1     51  12 
+140606B 14bfu 2014 06 30 24.00 VLA   22.0 <   42     
