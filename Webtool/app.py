@@ -65,10 +65,7 @@ class TableForm(Form):
     max_eiso = StringField('Max. E$_{iso}$')
     min_eiso = StringField('Min. E$_{iso}$')
     submit2 = SubmitField('Submit')
-
-#email form
-from static.emails.forms import ContactForm
-
+    
 #Graphs with matplotlib
 import matplotlib.pyplot as plt
 
@@ -89,7 +86,7 @@ def get_post(event_id):
         grb_name = event_id.split('_')[0][3:]
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ?", (grb_name,)).fetchall()
 
-        radec = conn.execute('SELECT * FROM RADec WHERE grb_id=?', (grb_name,)).fetchall()
+        radec = conn.execute('SELECT * FROM TrigCoords WHERE grb_id=?', (grb_name,)).fetchall()
 
         #Deals with people entering names that arent in the DB
         if event is None:
@@ -104,7 +101,7 @@ def get_post(event_id):
         
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (sn_name,)).fetchall()
         
-        radec = conn.execute('SELECT * FROM RADec WHERE sn_name=?', (sn_name,)).fetchall()
+        radec = conn.execute('SELECT * FROM TrigCoords WHERE sn_name=?', (sn_name,)).fetchall()
         
         if event is None:
             abort(404)
@@ -404,11 +401,40 @@ def event(event_id):
     #############DATA FOR THE PLOTS#######################################################
     ######################################################################################
 
+    #The time of the GRB
+    if radec[0]['trigtime']!=None:
+        grb_time = radec[0]['trigtime']
+        print(grb_time)
+    else:
+        grb_time = '00:00:00'
+
+    grb_time_str = 0
+
+    #For the plot x axis time
+    if radec[0]['grb_id']!=None:
+
+        if int(str(radec[0]['grb_id'])[:2])>50 and radec[0]['grb_id']!=None:
+            grb_time_str = '19'+str(radec[0]['grb_id'])[:2]+'-'+str(radec[0]['grb_id'])[2:4]+'-'+str(radec[0]['grb_id'])[4:6]+' '+grb_time
+            grb_time_iso = '19'+str(radec[0]['grb_id'])[:2]+'-'+str(radec[0]['grb_id'])[2:4]+'-'+str(radec[0]['grb_id'])[4:6]+'T'+grb_time
+
+        elif int(str(radec[0]['grb_id'])[:2])<=50 and radec[0]['grb_id']!=None:
+            grb_time_str = '20'+str(radec[0]['grb_id'])[:2]+'-'+str(radec[0]['grb_id'])[2:4]+'-'+str(radec[0]['grb_id'])[4:6]+' '+grb_time
+            grb_time_iso = '20'+str(radec[0]['grb_id'])[:2]+'-'+str(radec[0]['grb_id'])[2:4]+'-'+str(radec[0]['grb_id'])[4:6]+'T'+grb_time
+
+    else:
+        grb_time_str_split = radec[0]['trigtime'].split('T')
+        grb_time_str = grb_time_str_split[0]+' '+grb_time_str_split[1]
+        grb_time_iso = str(radec[0]['trigtime'])
+
+    #Convert to MJD
+    t = Time(grb_time_iso, format='isot', scale='utc') #make the isotime object
+    grb_time_mjd = t.mjd
+
     ######################################################################################
     #####X--RAYS##########################################################################
     ######################################################################################
 
-    #The swift data from antonios tools files
+    #The swift data from antonios tools files #This is the line that needs updating for changing the source
     flag, data = get_grb_data(event_id)
 
     #Swift references
@@ -473,7 +499,7 @@ def event(event_id):
     xray.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    xray.xaxis.axis_label = 'Time [sec]'
+    xray.xaxis.axis_label = 'Time [sec] since '+grb_time_str
     xray.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
 
     #Axis Colors
@@ -567,7 +593,7 @@ def event(event_id):
                 t0_utc = Time(t0, format='mjd').utc.iso
 
                 for k in range(len(mjd_time)):
-                    t_after_t0[k] = float(mjd_time[k])-float(t0)
+                    t_after_t0[k] = float(mjd_time[k])-float(grb_time_mjd)
 
                 new_df['time_since'] = t_after_t0 #Add this to the df in the position time used to be in.
 
@@ -622,7 +648,7 @@ def event(event_id):
     if t0_utc==0:
         optical.xaxis.axis_label = 'Time [MJD]'
     else:
-        optical.xaxis.axis_label = 'Time [days] after: '+t0_utc
+        optical.xaxis.axis_label = 'Time [days] after: '+grb_time_str
         
     optical.yaxis.axis_label = 'Apparent Magnitude'
 
@@ -670,7 +696,7 @@ def event(event_id):
     radio.yaxis.minor_tick_line_color = 'black'
 
     #Axis labels
-    radio.xaxis.axis_label = 'Time [sec]'
+    radio.xaxis.axis_label = 'Time after '+grb_time_str
     radio.yaxis.axis_label = 'Flux Density [mJy]'
 
     #Axis Colors
@@ -877,7 +903,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     #Return everything
-    return render_template('event.html', event=event, radec=radec, radec_nos=radec_nos, radec_refs=radec_refs, swift_refs=swift_references, swift_nos=swift_reference_no,optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, radec=radec, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, swift_refs=swift_references, swift_nos=swift_reference_no,optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
 def get_files2(directory):
@@ -898,7 +924,7 @@ def docs():
 def get_master_table():
     #Sql query to dataframe
     conn = get_db_connection()
-    df1 = pd.read_sql_query("SELECT * FROM SQLDataGRBSNe INNER JOIN RADec ON SQLDataGRBSNe.GRB=RADec.grb_id", conn)
+    df1 = pd.read_sql_query("SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id", conn)
     conn.close()
 
 
@@ -1135,25 +1161,17 @@ def grb_names():
     conn.close()
     
     
-    return {'grbs': grbs, 'number1':length} #, 'number2':len(unique_years), 'years':unique_years}
+    return {'grbs': grbs, 'number1':length}
 
 # Contact form 
-@app.route('/contact', methods=["GET","POST"])
+@app.route('/contact')
 def get_contact():
-    form = ContactForm()
-    # here, if the request type is a POST we get the data on contat
-    #forms and save them else we return the contact forms html page
-    if request.method == 'POST':
-        name =  request.form["name"]
-        email = request.form["email"]
-        subject = request.form["subject"]
-        message = request.form["message"]
-        res = pd.DataFrame({'name':name, 'email':email, 'subject':subject ,'message':message}, index=[0])
-        res.to_csv('static/emails/emails.csv', mode='a')
-        print("The data are saved !")
-        return('The data are saved !')
-    else:
-        return render_template('contacts.html', form=form)
+    return render_template('contacts.html')
+
+# Help
+@app.route('/help')
+def get_help():
+    return render_template('helppage.html')
 
 # Run app
 if __name__ == "__main__":
