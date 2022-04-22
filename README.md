@@ -1,4 +1,4 @@
-# The GRB-SN Webtool
+# The GRB-SN Webtool repository
 This is the repository for the Gamma-ray burst Supernova associantion webtool. This tool was developed to ease the process of sharing information related to GRB-SN associations. Its purpose is to provide all of the required data for analysing a GRB-SN association in one place. The tool was created by Gabriel Finneran and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper]().
 
 # Suggest changes
