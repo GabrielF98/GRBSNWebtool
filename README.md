@@ -8,4 +8,8 @@ The repository contains the source code for the project as well as the data stor
 If you are aware of any missing data for any of the events in the catalogue you can log this as an issue [here](https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E). 
 
 
-Alternatively if you have data for any of these associations that you wish to upload you can do so by first [forking](https://github.com/GabrielF98/GRBSNWebtool/fork) this repository and then suggesting changes via a pull request. You should add your files directly to the source file for that particular GRB-SN. These source files can be found at [GRBSNWebtool/tree/master/Webtool/static/SourceData](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). You should also ensure that the citation file for the GRB-SN is updated correctly after data is added. The pull request should explain the type, format and source of the data as well as any other relevant information.
+Alternatively if you have data for any of these associations that you wish to upload you can do so by:
+1. [Forking](https://github.com/GabrielF98/GRBSNWebtool/fork) this repository. 
+2. Add your files directly to the source folder for that particular GRB-SN. These source files can be found at [GRBSNWebtool/tree/master/Webtool/static/SourceData](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). 
+3. Ensure that the citation file for the GRB-SN is updated correctly after data is added. 
+4. Submit a pull request.
