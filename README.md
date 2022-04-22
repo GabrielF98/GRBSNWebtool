@@ -2,7 +2,7 @@
 This is the repository for the Gamma-ray burst Supernova association webtool. This tool was developed to ease the process of sharing information related to GRB-SN associations. Its purpose is to provide all of the required data for analysing a GRB-SN association in one place. The tool was created by Gabriel Finneran and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper]().
 
 # Alert us about missing/bad data
-If you are aware of any missing observations or bad data or papers with parameters for any of the events in the catalogue you can log this as an issue [here](https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E). 
+If you are aware of any missing observations, bad data or papers with parameters for any of the events in the catalogue you can log this as an issue [here](https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E). 
 
 # The GRB-SN Webtool repository
 This is the repository for the Gamma-ray burst Supernova association webtool. This tool was developed to ease the process of sharing information related to GRB-SN associations. Its purpose is to provide all of the required data for analysing a GRB-SN association in one place. The tool was created by Gabriel Finneran and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper]().
@@ -56,10 +56,6 @@ Note (1):
 58887.518 16.976600   0.022200000  V LCO 
 58887.519 17.478500   0.014500000  g LCO 
 ```
-
-# Suggest improvements to the Webtool
-This repository contains the source code for the project as well as the data stored in the tool. Feel free to suggest updates by opening a [new issue](https://github.com/GabrielF98/GRBSNWebtool/issues/new) or by forking the code and submitting a pull request.
-
 
 # Suggest improvements to the Webtool
 This repository contains the source code for the project as well as the data stored in the tool. Feel free to suggest updates by opening a [new issue](https://github.com/GabrielF98/GRBSNWebtool/issues/new) or by forking the code and submitting a pull request.
