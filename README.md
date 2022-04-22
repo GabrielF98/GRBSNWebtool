@@ -9,7 +9,7 @@ If you have data from your own observations or publications for any of these ass
 1. [Forking](https://github.com/GabrielF98/GRBSNWebtool/fork) this repository. 
 2. Add your files directly to the source folder for that particular GRB-SN. These source files can be found at [Webtool/static/SourceData](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). Any files uploaded should be of .txt format where possible.
 3. Ensure that the citation file for the GRB-SN is updated correctly after data is added. 
-4. Submit a pull request.
+4. Submit a pull request. The pull request should contain the names of the uploaded files, the type of data contained in the files, the citations for the files and any other relevant information.
 
 # Suggest improvements to the Webtool
 This repository contains the source code for the project as well as the data stored in the tool. Feel free to suggest updates by opening a [new issue](https://github.com/GabrielF98/GRBSNWebtool/issues/new) or by forking the code and submitting a pull request.
