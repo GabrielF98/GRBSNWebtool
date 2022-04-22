@@ -10,6 +10,6 @@ If you are aware of any missing data for any of the events in the catalogue you 
 
 Alternatively if you have data for any of these associations that you wish to upload you can do so by:
 1. [Forking](https://github.com/GabrielF98/GRBSNWebtool/fork) this repository. 
-2. Add your files directly to the source folder for that particular GRB-SN. These source files can be found at [GRBSNWebtool/tree/master/Webtool/static/SourceData](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). 
+2. Add your files directly to the source folder for that particular GRB-SN. These source files can be found at [Webtool/static/SourceData](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). 
 3. Ensure that the citation file for the GRB-SN is updated correctly after data is added. 
 4. Submit a pull request.
