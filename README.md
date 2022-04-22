@@ -15,7 +15,12 @@ If you have data from your own observations or publications for any of these ass
 1. [Forking](https://github.com/GabrielF98/GRBSNWebtool/fork) this repository. 
 2. Add your files directly to the source folder for that particular GRB-SN. These source files can be found at [Webtool/static/SourceData](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). Any files uploaded should be of .txt format where possible.
 3. Ensure that the citation file for the GRB-SN is updated correctly after data is added. 
-4. Submit a pull request. The pull request should contain the names of the uploaded files, the type of data contained in the files, the citations for the files and any other relevant information.
+4. Submit a pull request. The pull request should contain:
+       * Name of source(s) for which data is being added.
+       * Name(s) of the uploaded file(s). 
+       * Type of data contained in each file. 
+       * The citation for the data source for each file.
+       * Any other relevant information.
 
 An example of a well formatted text file is provided below, please format text files in a similar fashion where possible to make it easier to add data to the tool. This example was adapted from the text files provided for the optical data for SN2020bvc from _'Near-Infrared and Optical Observations of Type IC SN2020oi and broad-lined IC SN2020bvc: Carbon Monoxide, Dust and High-Velocity Supernova Ejecta'_ [Rho et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R%2F/abstract).
 
