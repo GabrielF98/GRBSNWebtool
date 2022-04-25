@@ -1265,9 +1265,6 @@ def advsearch():
 
     form = TableForm(request.form)
 
-    # This lets people download immediately even if they fill nothing in to the search form
-    placeholder = f""
-
     if request.method == 'POST':
         # List of vars to include in the query
         querylist = []
@@ -1344,16 +1341,20 @@ def advsearch():
         conn.close()
         return render_template('advancedsearch.html', form=form, data=data, mid_query=mid_query, varlist=varlist)
 
-    return render_template('advancedsearch.html', form=form, data=data, mid_query=placeholder, varlist=[])
+    return render_template('advancedsearch.html', form=form, data=data, mid_query='', varlist='')
 
-
+@app.route('/get_advsearch_table', defaults={'query': '', 'varlist':''})
 @app.route('/<query>/<varlist>/get_advsearch_table', methods=['GET', 'POST'])
 def get_advsearch_table(query, varlist):
     print("The vars are:", varlist)
     # Sql query to dataframe
     conn = get_db_connection()
-    df1 = pd.read_sql_query(
-        "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id"+query, conn, params=(varlist,))
+    if query=='':
+        df1 = pd.read_sql_query(
+            "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id", conn)
+    else:
+        df1 = pd.read_sql_query(
+            "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id"+query, conn, params=(varlist,))
     conn.close()
 
     # Write to an input output object
