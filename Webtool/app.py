@@ -1266,7 +1266,7 @@ def advsearch():
     form = TableForm(request.form)
 
     # This lets people download immediately even if they fill nothing in to the search form
-    placeholder = "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id"
+    placeholder = f""
 
     if request.method == 'POST':
         # List of vars to include in the query
@@ -1317,6 +1317,7 @@ def advsearch():
             querylist.append(f"CAST(z as FLOAT)<?")
             varlist.append(max_eiso)
 
+        print("Varlist is", varlist)
         # Create the query using the user filters
         query = str()
         mid_query = str()
@@ -1325,7 +1326,6 @@ def advsearch():
 
         query += start_query
         end_query = f"GROUP BY GRB, SNe ORDER BY GRB, SNe;"
-        print("There were ", len(varlist), "vars")
         for i in range(len(varlist)):
             if i == 0:
                 mid_query += " WHERE "+querylist[i]
@@ -1342,17 +1342,18 @@ def advsearch():
         conn = get_db_connection()
         data = conn.execute(query, (varlist)).fetchall()
         conn.close()
-        return render_template('advancedsearch.html', form=form, data=data, mid_query=mid_query)
+        return render_template('advancedsearch.html', form=form, data=data, mid_query=mid_query, varlist=varlist)
 
-    return render_template('advancedsearch.html', form=form, data=data, mid_query=placeholder)
+    return render_template('advancedsearch.html', form=form, data=data, mid_query=placeholder, varlist=[])
 
 
-@app.route('/<query>/get_advsearch_table', methods=['GET', 'POST'])
-def get_advsearch_table(query):
+@app.route('/<query>/<varlist>/get_advsearch_table', methods=['GET', 'POST'])
+def get_advsearch_table(query, varlist):
+    print("The vars are:", varlist)
     # Sql query to dataframe
     conn = get_db_connection()
     df1 = pd.read_sql_query(
-        "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id"+query, conn)
+        "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id"+query, conn, params=(varlist,))
     conn.close()
 
     # Write to an input output object
