@@ -69,10 +69,10 @@ class TableForm(Form):
     object_name = StringField('Search by GRB or SN ID')
     min_z = StringField('Min. Z')
     max_z = StringField('Max. Z')
-    min_t90 = StringField('Min. T$_{90}$')
-    max_t90 = StringField('Max. T$_{90}$')
-    max_eiso = StringField('Max. E$_{iso}$')
-    min_eiso = StringField('Min. E$_{iso}$')
+    min_t90 = StringField('Min. T$_{90}$ [sec]')
+    max_t90 = StringField('Max. T$_{90}$ [sec]')
+    max_eiso = StringField('Max. E$_{iso}$ [ergs] (e.g. 1e52)')
+    min_eiso = StringField('Min. E$_{iso}$ [ergs] (e.g. 1e52)')
     submit2 = SubmitField('Submit')
 
 
@@ -1239,8 +1239,6 @@ def grb_names():
     return {'grbs': grbs, 'number1': length}
 
 # Contact form
-
-
 @app.route('/contact')
 def get_contact():
     return render_template('contacts.html')
@@ -1253,16 +1251,16 @@ def get_help():
     return render_template('helppage.html')
 
 # Allow search based on what people want to select from the catalogue
-
-
 @app.route('/advsearch', methods=['POST', 'GET'])
 def advsearch():
+    # Initially display this table selection
     conn = get_db_connection()
     initial_query = (
         f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
     data = conn.execute(initial_query).fetchall()
     conn.close()
 
+    # Create a form to take in user data
     form = TableForm(request.form)
 
     if request.method == 'POST':
@@ -1290,39 +1288,42 @@ def advsearch():
                 querylist.append(f"GRB IS ?")
                 varlist.append(str(event_id[3:]))
 
+        # Redshift
         if min_z != str():
             querylist.append(f"CAST(z as FLOAT)>?")
-            varlist.append(min_z)
+            varlist.append(float(min_z))
 
         if max_z != str():
             querylist.append(f"CAST(z as FLOAT)<?")
-            varlist.append(max_z)
+            varlist.append(float(max_z))
+
+        # T90
 
         if min_t90 != str():
             querylist.append(f"CAST(T90 as FLOAT)>?")
-            varlist.append(min_t90)
+            varlist.append(float(min_t90))
 
         if max_t90 != str():
             querylist.append(f"CAST(T90 as FLOAT)<?")
-            varlist.append(max_t90)
-
+            varlist.append(float(max_t90))
+        
+        # Eiso
         if min_eiso != str():
             querylist.append(f"CAST(z as FLOAT)>?")
-            varlist.append(min_eiso)
+            varlist.append(float(min_eiso))
 
         if max_eiso != str():
             querylist.append(f"CAST(z as FLOAT)<?")
-            varlist.append(max_eiso)
+            varlist.append(float(max_eiso))
 
-        print("Varlist is", varlist)
-        # Create the query using the user filters
+        # Build the query using the user filters
         query = str()
-        mid_query = str()
 
         start_query = f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90) FROM SQLDataGRBSNe"
 
         query += start_query
-        end_query = f"GROUP BY GRB, SNe ORDER BY GRB, SNe;"
+
+        mid_query = str()
         for i in range(len(varlist)):
             if i == 0:
                 mid_query += " WHERE "+querylist[i]
@@ -1333,6 +1334,7 @@ def advsearch():
             else:
                 mid_query += " AND "+querylist[i]
 
+        end_query = f"GROUP BY GRB, SNe ORDER BY GRB, SNe;"
         query += mid_query+end_query
 
         # Connect to the db and make query
@@ -1343,6 +1345,7 @@ def advsearch():
 
     return render_template('advancedsearch.html', form=form, data=data, mid_query='', varlist='')
 
+#Function to download the user generated table
 @app.route('/get_advsearch_table', defaults={'query': '', 'varlist':''})
 @app.route('/<query>/<varlist>/get_advsearch_table', methods=['GET', 'POST'])
 def get_advsearch_table(query, varlist):
