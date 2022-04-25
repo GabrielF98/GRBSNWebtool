@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% block title %}
+<h1><b>Advanced Search</b></h1>
+{% endblock %}
+
+{% block content %}
+{% from "_formhelpers.html" import render_field %}
+<form method=post>
+
+	<table class="t2">
+		<tr>
+			<td>
+				<dl>
+					{{ render_field(form.object_name) }}
+				</dl>
+			</td>
+
+		</tr>
+		<tr>
+			<td class="2">
+				<dl>
+					{{ render_field(form.min_z) }}
+				</dl>
+			</td>
+			<td>
+				<dl>
+					{{ render_field(form.max_z) }}
+				</dl>
+			</td>
+
+		</tr>
+		<tr>
+			<td>
+				<dl>
+					{{ render_field(form.min_t90) }}
+				</dl>
+			</td>
+			<td>
+				<dl>
+					{{ render_field(form.max_t90) }}
+				</dl>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<dl>
+					{{ render_field(form.min_eiso) }}
+				</dl>
+			</td>
+
+			<td>
+				<dl>
+					{{ render_field(form.max_eiso) }}
+				</dl>
+			</td>
+
+		</tr>
+		<tr>
+			<td>
+				<input type=submit value=Search>
+			</td>
+
+		</tr>
+
+	</table>
+
+
+</form>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+<!-- {% if messages %}
+    <ul class=flashes> -->
+{% for category, message in messages %}
+<p class="{{error}}">{{ message }}
+	{% endfor %}
+	</ul>
+	<!-- {% endif %} -->
+	{% endwith %}
+
+<h2><b>Known Associations</b></h2>
+
+<p>The table below displays some basic parameters for the known GRB-SN associations. You can add filters on the left hand side. If you would like to download the
+	table click <a href="{{ url_for('get_advsearch_table', query=query)}}">here</a>. The table below only displays part of the
+	data stored in the database. The download will include all information stored within the database as a .txt file.
+</p>
+
+
+<!-- Table of all the sources -->
+<div>
+	<table style="width:80%" class="t1" margin-left=0px;>
+		<tr>
+			<th><b>GRB</b></th>
+			<th><b>SN</b></th>
+			<th><b>E$_{iso}$ [ergs]</b></th>
+			<th><b>z</b></th>
+			<th><b>T$_{90}$ [sec]</b></th>
+		</tr>
+
+		{% for i in range(data|length) %}
+		<tr>
+			<!-- GRB and SN have a name -->
+			{% if data[i][0]!=None and data[i][1]!=None %}
+			<th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
+			<th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+			<!-- GRB has name -->
+			{% elif data[i][0]!=None and data[i][1]==None %}
+			<th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
+			<th> </th>
+			<!-- SN has a name -->
+			{% elif data[i][0]==None and data[i][1]!=None %}
+			<th> </th>
+			<th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+			{% endif %}
+
+			<!-- EISO -->
+			{% if data[i][2] != None %}
+			<th>{{ data[i][2] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
+
+			<!-- Z -->
+			{% if data[i][3] != None %}
+			<th>{{ data[i][3] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
+
+			<!-- T90 -->
+			{% if data[i][4] != None %}
+			<th>{{ data[i][4] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
+
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+{% endblock %}
