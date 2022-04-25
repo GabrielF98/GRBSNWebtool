@@ -1238,11 +1238,6 @@ def grb_names():
 
     return {'grbs': grbs, 'number1': length}
 
-# Contact form
-@app.route('/contact')
-def get_contact():
-    return render_template('contacts.html')
-
 # Help
 
 
