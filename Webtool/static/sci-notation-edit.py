@@ -7,7 +7,8 @@ def get_db_connection():
 
 #Connect to the db and get the data
 conn = get_db_connection()
-init_data = conn.execute("SELECT GRB, SNe, e_iso from SQLDataGRBSNe").fetchall()
+param = "d_log_e_radio"
+init_data = conn.execute("SELECT GRB, SNe, "+param+" from SQLDataGRBSNe").fetchall()
 conn.close()
 
 #Print the data
@@ -23,6 +24,6 @@ for i in range(len(init_data)):
 
 #Update the db
 conn = get_db_connection()
-conn.executemany("UPDATE SQLDataGRBSNe SET e_iso = ? WHERE rowid=?", ((i[1], i[0]+1,) for i in new_data))
+conn.executemany("UPDATE SQLDataGRBSNe SET "+param+" = ? WHERE rowid=?", ((i[1], i[0]+1,) for i in new_data))
 conn.commit()
 conn.close()
