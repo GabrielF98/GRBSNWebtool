@@ -66,7 +66,7 @@ class SearchForm(Form):
 
 
 class TableForm(Form):
-    object_name = StringField('Search by GRB or SN ID')
+    object_name = StringField('')
     min_z = StringField('Min. Z')
     max_z = StringField('Max. Z')
     min_t90 = StringField('Min. T$_{90}$ [sec]')

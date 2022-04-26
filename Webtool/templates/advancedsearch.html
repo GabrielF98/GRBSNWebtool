@@ -5,65 +5,66 @@
 
 {% block content %}
 {% from "_formhelpers.html" import render_field %}
-<form method=post style="width:80%">
 
-	<table class="t2">
-		<tr>
-			<td>
-				<dl>
-					{{ render_field(form.object_name) }}
-				</dl>
-			</td>
+<form method=post style="width:100%">
+	<div class="form-group">
+		<label>
+			<p class="headings">Search by object name</p>
+		</label>
+		{{ render_field(form.object_name, class="form-control", placeholder="Enter GRB or SN ID") }}
 
-		</tr>
-		<tr>
-			<td class="2">
-				<dl>
-					{{ render_field(form.min_z) }}
-				</dl>
-			</td>
-			<td>
-				<dl>
-					{{ render_field(form.max_z) }}
-				</dl>
-			</td>
+	</div>
 
-		</tr>
-		<tr>
-			<td>
-				<dl>
-					{{ render_field(form.min_t90) }}
-				</dl>
-			</td>
-			<td>
-				<dl>
-					{{ render_field(form.max_t90) }}
-				</dl>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<dl>
-					{{ render_field(form.min_eiso) }}
-				</dl>
-			</td>
+	<div class="form-row">
 
-			<td>
-				<dl>
-					{{ render_field(form.max_eiso) }}
-				</dl>
-			</td>
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min E$_{iso}$ [ergs]</p>
+			</label>
+			{{ render_field(form.min_eiso, class="form-control", placeholder="e.g. 1e52") }}
+		</div>
 
-		</tr>
-		<tr>
-			<td>
-				<input type=submit value=Search>
-			</td>
+		<div class="col-auto">
+			<label>
+				<p class="headings">Max E$_{iso}$ [ergs]</p>
+			</label>
+			{{ render_field(form.max_eiso, class="form-control", placeholder="e.g. 1e54") }}
+		</div>
 
-		</tr>
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min Redshift</p>
+			</label>
+			{{ render_field(form.min_z, class="form-control", placeholder="e.g. 0.1") }}
 
-	</table>
+		</div>
+		<div class="col-auto">
+			<label>
+				<p class="headings">Max Redshift</p>
+			</label>
+			{{ render_field(form.max_z, class="form-control", placeholder="e.g. 1") }}
+		</div>
 
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min T$_{90}$ [sec]</p>
+			</label>
+			{{ render_field(form.min_t90, class="form-control", placeholder="e.g. 10") }}
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Max T$_{90}$ [sec]</p>
+			</label>
+			{{ render_field(form.max_t90, class="form-control", placeholder="e.g. 1200") }}
+		</div>
+	</div>
+
+	<div>
+		<label> </label>
+		<button type="submit" class="btn btn-warning btn-lg">Search</button>
+	</div>
+	
 
 </form>
 
@@ -79,8 +80,10 @@
 
 <h2><b>Known Associations</b></h2>
 
-<p>The table below displays some basic parameters for the known GRB-SN associations. You can add filters on the left hand side. If you would like to download the
-	table click <a href="{{ url_for('get_advsearch_table', query=mid_query, varlist=varlist)}}">here</a>. The table below only displays part of the
+<p>The table below displays some basic parameters for the known GRB-SN associations. You can add filters on the left
+	hand side. If you would like to download the
+	table click <a href="{{ url_for('get_advsearch_table', query=mid_query, varlist=varlist)}}">here</a>. The table
+	below only displays part of the
 	data stored in the database. The download will include all information stored within the database as a .txt file.
 </p>
 
