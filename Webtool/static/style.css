@@ -25,9 +25,9 @@ li {
   margin-right: 100px;
 }
 
-.padding-0{
-  padding-right:0;
-  padding-left:0;
+.top-three {
+     margin-top: 50pt;
+     color: white;
 }
 
 h1 {
