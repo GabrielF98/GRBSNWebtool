@@ -1058,32 +1058,32 @@ def graphs():
     axis = {'e_iso': 'log', 'z': 'linear', 'ni_m': 'linear', 'ej_m': 'linear',
             'E_p': "linear", 'e_k': 'log', 'T90': "log"}
     if request.method == 'POST':
-        category = request.form.getlist('selectors1')
+        category = request.form.get('select1')
+        x = request.form.get('select2')
+        y = request.form.get('select3')
 
-        x = request.form.getlist('selectors2')
-        y = request.form.getlist('selectors3')
 
         conn = get_db_connection()  # Connect to DB
 
-        if category[0] == 'all':
+        if category == 'all':
             # Get the data for the plots
             data = conn.execute("SELECT DISTINCT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY GRB, SNe".format(
-                a=x[0], b=y[0])).fetchall()
+                a=x, b=y)).fetchall()
 
-        elif category[0] == 'orphan':
+        elif category == 'orphan':
             # Get the data for the plots
             data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE GRB IS NULL AND {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY SNe".format(
-                a=x[0], b=y[0])).fetchall()
+                a=x, b=y)).fetchall()
 
-        elif category[0] == 'spec':
+        elif category == 'spec':
             # Get the data for the plots
             data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NOT NULL AND {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY SNe".format(
-                a=x[0], b=y[0])).fetchall()
+                a=x, b=y)).fetchall()
 
-        elif category[0] == 'phot':
+        elif category == 'phot':
             # Get the data for the plots
             data = conn.execute("SELECT GRB, SNe, Group_concat({a}, ','), Group_concat({b}, ',') FROM SQLDataGRBSNe WHERE SNe IS NULL  AND {a} IS NOT NULL AND {b} IS NOT NULL GROUP BY GRB".format(
-                a=x[0], b=y[0])).fetchall()
+                a=x, b=y)).fetchall()
 
         # Data for the graphs, remove the duplicates
         x_data = []
@@ -1134,16 +1134,16 @@ def graphs():
                     y_data.append(float(str(row[3]).split(',')[0]))
 
         # Place the plotting data in a dict (the ones that arent uppper/lower limits)
-        data_dict = {x[0]: x_data, y[0]: y_data}
+        data_dict = {x: x_data, y: y_data}
 
         # Convert the dict to a column data object
         data_source = ColumnDataSource(data_dict)
 
         # Plot the data
-        graph = figure(x_axis_type=str(axis[x[0]]), y_axis_type=str(
-            axis[y[0]]), toolbar_location="right", plot_width=1200, plot_height=700)
+        graph = figure(x_axis_type=str(axis[x]), y_axis_type=str(
+            axis[y]), toolbar_location="right", plot_width=1200, plot_height=700)
 
-        graph.circle(x[0], y[0], source=data_source,
+        graph.circle(x, y, source=data_source,
                      size=10, fill_color='orange')
         graph.inverted_triangle(
             x_data_upperx, x_data_uppery, size=10, fill_color='blue')
@@ -1160,8 +1160,8 @@ def graphs():
         graph.title.align = 'center'
 
         # Axis labels
-        graph.xaxis.axis_label = name_dict[x[0]]
-        graph.yaxis.axis_label = name_dict[y[0]]
+        graph.xaxis.axis_label = name_dict[x]
+        graph.yaxis.axis_label = name_dict[y]
 
         graph.xaxis.axis_label_text_font_size = '13pt'
         graph.yaxis.axis_label_text_font_size = '13pt'
@@ -1178,7 +1178,7 @@ def graphs():
         kwargs = {'script': script, 'div': div}
         kwargs['title'] = 'bokeh-with-flask'
 
-        return render_template('graphs.html', grb_name=grb_name, sne_name=sne_name, raw_x=raw_x, raw_y=raw_y, txt_title=str(name_dict[y[0]]+'vs'+name_dict[x[0]]), **kwargs)
+        return render_template('graphs.html', grb_name=grb_name, sne_name=sne_name, raw_x=raw_x, raw_y=raw_y, txt_title=str(name_dict[y]+'vs'+name_dict[x]), **kwargs)
 
     else:
         graph = figure(plot_width=400, plot_height=400,

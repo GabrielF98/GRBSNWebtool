@@ -21,165 +21,96 @@
 
 	<p>Once the plot below has been generated you can click on the 'Save' button in the toolbar (right hand side of
 		plot) to download the image of the plot. The toolbar also contains useful tools such as pan and zoom.</p>
-	<div2 class="float-parent-element">
-		<div2 class="float-child-element-1">
-			<form action="" method="post" name="selections">
-				<h2><b>Select one class of event to plot</b></h2>
-				<div>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="all" name="selectors1"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">All Events</p>
-						</label>
-					</div2>
+
+	<form action="" method="post" name="selections">
+		<h2><b>Select parameters for the plot</b></h2>
+		<div class="form-row">
+
+			<div class="col-auto">
+				<label for="select1"><p class="headings">Event class</p></label>
+				<select class="form-control" id="select1" name="select1">
+					<option value="all">
+						All Events
+					</option>
+					<option value="orphan">
+						Orphan GRBs Only
+					</option>
+					<option value="spec">
+						Spectroscopic SNe Only
+					</option>
+					<option value="phot">
+						Photometric SNe Only
+					</option>
+				</select>
+			</div>
+
+			<div class="col-auto">
+				<label for="select2"><p class="headings">X-axis</p></label>
+				<select class="form-control" id="select2" name="select2">
+					<option value="e_iso">
+						Eiso
+					</option>
+					<option value="z">
+						z
+					</option>
+					<option value="ni_m">
+						Nickel mass
+					</option>
+					<option value="ej_m">
+						Ejecta mass
+					</option>
+					<option value="E_p">
+						Epeak
+					</option>
+					<option value="E_k">
+						Ek (SN)
+					</option>
+					<option value="T90">
+						T90
+					</option>
+				</select>
+			</div>
+
+			<div class="col-auto">
+				<label for="select3"><p class="headings">Y-axis</p></label>
+				<select class="form-control" id="select3" name="select3">
+					<option value="e_iso">
+						Eiso
+					</option>
+					<option value="z">
+						z
+					</option>
+					<option value="ni_m">
+						Nickel mass
+					</option>
+					<option value="ej_m">
+						Ejecta mass
+					</option>
+					<option value="E_p">
+						Epeak
+					</option>
+					<option value="E_k">
+						Ek (SN)
+					</option>
+					<option value="T90">
+						T90
+					</option>
+				</select>
+			</div>
+
+			<div2 class="col-auto">
+					<button type="submit" class="btn btn-warning btn-lg">Plot</button>
+			</div2>
+		</div>
 
 
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="orphan" name="selectors1"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">Orphan GRBs Only</p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="spec" name="selectors1"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">Spectroscopic SNe Only</p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="phot" name="selectors1"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">Photometric SNe Only</p>
-						</label>
-					</div2>
-				</div>
+	</form>
 
-				<h2><b>X-axis</b></h2>
-				<div>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="e_iso" name="selectors2"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">E$_{iso}$</p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="z" name="selectors2"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">z</p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="ni_m" name="selectors2"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">Nickel mass </p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="ej_m" name="selectors2"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">Ejecta mass </p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="E_p" name="selectors2"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">E$_{peak}$ </p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="e_k" name="selectors2"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">E$_{k}$ </p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="T90" name="selectors2"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">T$_{90}$</p>
-						</label>
-					</div2>
-				</div>
-				<h2><b>Y-axis</b></h2>
 
-				<div>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="e_iso" name="selectors3"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">E$_{iso}$ </p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="z" name="selectors3"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">z</p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="ni_m" name="selectors3"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">Nickel mass</p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="ej_m" name="selectors3"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">Ejecta mass</p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="E_p" name="selectors3"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">E$_{peak}$</p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="e_k" name="selectors3"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">E$_{k}$</p>
-						</label>
-					</div2>
-					<div2 class="form-check">
-						<input class="form-check-input" type="checkbox" value="T90" name="selectors3"
-							id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p class="headings">T$_{90}$</p>
-						</label>
-					</div2>
-					<h2></h2>
-					<div2 class="field is-grouped">
-						<div2 class="control">
-							<button type="submit" class="btn btn-warning btn-lg">Plot</button>
-						</div2>
-					</div2>
-				</div>
+	<h2><b>Plot</b></h2>
+	{{ div|safe }}
+	{{ script|safe }}
 
-			</form>
-		</div2>
-
-		<div2 class="float-child-element-2">
-			<h2><b>Plot</b></h2>
-			{{ div|safe }}
-			{{ script|safe }}
-		</div2>
-
-	</div2>
 
 
 
