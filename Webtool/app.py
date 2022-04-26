@@ -1304,13 +1304,13 @@ def advsearch():
         
         # Eiso
         if min_eiso != str():
-            querylist.append(f"CAST(z as FLOAT)>?")
+            querylist.append(f"CAST(e_iso as FLOAT)>?")
             varlist.append(float(min_eiso))
 
         if max_eiso != str():
-            querylist.append(f"CAST(z as FLOAT)<?")
+            querylist.append(f"CAST(e_iso as FLOAT)<?")
             varlist.append(float(max_eiso))
-
+        print("The varlist is", varlist)
         # Build the query using the user filters
         query = str()
 
