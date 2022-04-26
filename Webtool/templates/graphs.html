@@ -22,88 +22,98 @@
 	<p>Once the plot below has been generated you can click on the 'Save' button in the toolbar (right hand side of
 		plot) to download the image of the plot. The toolbar also contains useful tools such as pan and zoom.</p>
 
-	<form action="" method="post" name="selections">
-		<h2><b>Select parameters for the plot</b></h2>
-		<div class="form-row">
+	<h2><b>Select parameters for the plot</b></h2>
+	<form method="post" name="selections">
 
-			<div class="col-auto">
-				<label for="select1"><p class="headings">Event class</p></label>
-				<select class="form-control" id="select1" name="select1">
-					<option value="all">
-						All Events
-					</option>
-					<option value="orphan">
-						Orphan GRBs Only
-					</option>
-					<option value="spec">
-						Spectroscopic SNe Only
-					</option>
-					<option value="phot">
-						Photometric SNe Only
-					</option>
-				</select>
-			</div>
 
-			<div class="col-auto">
-				<label for="select2"><p class="headings">X-axis</p></label>
-				<select class="form-control" id="select2" name="select2">
-					<option value="e_iso">
-						Eiso
-					</option>
-					<option value="z">
-						z
-					</option>
-					<option value="ni_m">
-						Nickel mass
-					</option>
-					<option value="ej_m">
-						Ejecta mass
-					</option>
-					<option value="E_p">
-						Epeak
-					</option>
-					<option value="E_k">
-						Ek (SN)
-					</option>
-					<option value="T90">
-						T90
-					</option>
-				</select>
-			</div>
+		<div class="form-group">
+			<label for="select1">
+				<p class="headings">Event class </p>
+			</label>
 
-			<div class="col-auto">
-				<label for="select3"><p class="headings">Y-axis</p></label>
-				<select class="form-control" id="select3" name="select3">
-					<option value="e_iso">
-						Eiso
-					</option>
-					<option value="z">
-						z
-					</option>
-					<option value="ni_m">
-						Nickel mass
-					</option>
-					<option value="ej_m">
-						Ejecta mass
-					</option>
-					<option value="E_p">
-						Epeak
-					</option>
-					<option value="E_k">
-						Ek (SN)
-					</option>
-					<option value="T90">
-						T90
-					</option>
-				</select>
-			</div>
+			<select class="form-control" id="select1" name="select1">
 
-			<div2 class="col-auto">
-					<button type="submit" class="btn btn-warning btn-lg">Plot</button>
-			</div2>
+				<option value="all">
+					All Events
+				</option>
+				<option value="orphan">
+					Orphan GRBs Only
+				</option>
+				<option value="spec">
+					Spectroscopic SNe Only
+				</option>
+				<option value="phot">
+					Photometric SNe Only
+				</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="select2">
+				<p class="headings">X-axis</p>
+			</label>
+
+			<select class="form-control" id="select2" name="select2">
+				<option value="e_iso">
+					Eiso
+				</option>
+				<option value="z">
+					z
+				</option>
+				<option value="ni_m">
+					Nickel mass
+				</option>
+				<option value="ej_m">
+					Ejecta mass
+				</option>
+				<option value="E_p">
+					Epeak
+				</option>
+				<option value="e_k">
+					Ek (SN)
+				</option>
+				<option value="T90">
+					T90
+				</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="select3">
+				<p class="headings">Y-axis</p>
+			</label>
+
+			<select class="form-control" id="select3" name="select3">
+				<option value="e_iso">
+					Eiso
+				</option>
+				<option value="z">
+					z
+				</option>
+				<option value="ni_m">
+					Nickel mass
+				</option>
+				<option value="ej_m">
+					Ejecta mass
+				</option>
+				<option value="E_p">
+					Epeak
+				</option>
+				<option value="e_k">
+					Ek (SN)
+				</option>
+				<option value="T90">
+					T90
+				</option>
+			</select>
 		</div>
 
 
+		<div>
+
+		<button type="submit" class="btn btn-warning btn-lg">Plot</button>
+
+		</div>
 	</form>
 
 
