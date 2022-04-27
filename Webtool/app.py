@@ -51,6 +51,9 @@ import base64
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 
+# To convert strings to lists
+import ast
+
 # Create config.py file
 with open('instance/config.py', 'w') as f:
     code = str(os.urandom(32).hex())
@@ -1287,6 +1290,27 @@ def advsearch():
     data = conn.execute(initial_query).fetchall()
     conn.close()
 
+    # The names of the events returned, used in another function to return the right files
+    event_list = []
+    for i in data:
+        if i[0] != None:
+            if i[1] != None and 'AT' not in str(i[1]):
+                # Add the SN and GRB name
+                event_list.append('GRB'+str(i[0])+'-SN'+str(i[1]))
+            elif i[1] != None and 'AT' in str(i[1]):
+                # Add the SN and GRB name
+                event_list.append('GRB'+str(i[0])+'-'+str(i[1]))
+            else:
+                # GRB only
+                event_list.append('GRB'+str(i[0]))
+        elif i[1] != None:
+            if 'AT' in str(i[1]):
+                # SN only
+                event_list.append(str(i[1]))
+            else:
+                # SN only
+                event_list.append('SN'+str(i[1]))
+
     # Create a form to take in user data
     form = TableForm(request.form)
 
@@ -1343,7 +1367,6 @@ def advsearch():
             varlist.append(float(max_eiso))
         print("The varlist is", varlist)
 
-        
         # Build the query using the user filters
         query = str()
 
@@ -1369,19 +1392,42 @@ def advsearch():
         conn = get_db_connection()
         data = conn.execute(query, (varlist)).fetchall()
         conn.close()
-        return render_template('advancedsearch.html', form=form, data=data, mid_query=mid_query, varlist=varlist)
 
-    return render_template('advancedsearch.html', form=form, data=data, mid_query='', varlist='')
+        # The names of the events returned, used in another function to return the right files
+        event_list = []
+        for i in data:
+            if i[0] != None:
+                if i[1] != None and 'AT' not in str(i[1]):
+                    # Add the SN and GRB name
+                    event_list.append('GRB'+str(i[0])+'-SN'+str(i[1]))
+                elif i[1] != None and 'AT' in str(i[1]):
+                    # Add the SN and GRB name
+                    event_list.append('GRB'+str(i[0])+'-'+str(i[1]))
+                else:
+                    # GRB only
+                    event_list.append('GRB'+str(i[0]))
+            elif i[1] != None:
+                if 'AT' in str(i[1]):
+                    # SN only
+                    event_list.append(str(i[1]))
+                else:
+                    # SN only
+                    event_list.append('SN'+str(i[1]))
+
+        return render_template('advancedsearch.html', form=form, data=data, mid_query=mid_query, varlist=varlist, event_list=event_list)
+
+    return render_template('advancedsearch.html', form=form, data=data, mid_query='', varlist='', event_list=event_list)
 
 # Function to download the user generated table
+
+
 @app.route('/get_advsearch_table', defaults={'query': '', 'varlist': ''})
 @app.route('/<query>/<varlist>/get_advsearch_table', methods=['GET', 'POST'])
 def get_advsearch_table(query, varlist):
-    print("The vars are:", varlist)
-    import ast
+
+    # Convert the string to a list
     varlist = ast.literal_eval(varlist)
-    for i in varlist:
-        print("The next is:", i)
+
     # Sql query to dataframe
     conn = get_db_connection()
     if query == '':
@@ -1440,6 +1486,23 @@ def get_advsearch_table(query, varlist):
     zipf.seek(0)
 
     return send_file(zipf, mimetype='zip', attachment_filename='GRBSNData.zip', as_attachment=True)
+
+
+@app.route('/megadownload/<directory_list>', methods=['GET', 'POST'])
+def get_observations(directory_list):
+
+    # Convert the string to a list
+    directory_list = ast.literal_eval(directory_list)
+
+    filestream = io.BytesIO()
+    with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
+        for folder in directory_list:
+            print("The folder is", folder)
+            for file in os.listdir(current_app.root_path+'/static/SourceData/'+folder+'/'):
+                zipf.write(current_app.root_path+'/static/SourceData/' +
+                           folder+'/'+file, folder+'/'+file)
+    filestream.seek(0)
+    return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
 
 
 # Run app
