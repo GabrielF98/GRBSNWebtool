@@ -999,7 +999,7 @@ def get_master_table():
     df2 = pd.read_sql(
         "SELECT * FROM TrigCoords", conn)
 
-    #Data for mags
+    # Data for mags
     df3 = pd.read_sql(
         "SELECT * FROM PeakTimesMags", conn)
 
@@ -1016,7 +1016,7 @@ def get_master_table():
     df2.to_csv(t, index=False)
     t.seek(0)
 
-    #Peak mags
+    # Peak mags
     u = io.StringIO()
     df3.to_csv(u, index=False)
     u.seek(0)
@@ -1035,6 +1035,8 @@ def get_master_table():
     return send_file(zipf, mimetype='zip', attachment_filename='GRBSNData.zip', as_attachment=True)
 
 # The downloadable df data
+
+
 @app.route('/table_download/<event_id>')
 def get_table(event_id):
     # Sql query to dataframe
@@ -1306,41 +1308,42 @@ def advsearch():
         if event_id != str():
 
             if str(event_id)[2:] in sne:  # if they search an SN
-                querylist.append(f"SNe IS ?")
+                querylist.append(f"SNe=?")
                 varlist.append(str(event_id[2:]))
 
             elif str(event_id)[3:] in grbs:  # if they search an GRB
-                querylist.append(f"GRB IS ?")
+                querylist.append(f"GRB=?")
                 varlist.append(str(event_id[3:]))
 
         # Redshift
         if min_z != str():
-            querylist.append(f"CAST(z as FLOAT)>?")
+            querylist.append(f"CAST(z as FLOAT)>=?")
             varlist.append(float(min_z))
 
         if max_z != str():
-            querylist.append(f"CAST(z as FLOAT)<?")
+            querylist.append(f"CAST(z as FLOAT)<=?")
             varlist.append(float(max_z))
 
         # T90
-
         if min_t90 != str():
-            querylist.append(f"CAST(T90 as FLOAT)>?")
+            querylist.append(f"CAST(T90 as FLOAT)>=?")
             varlist.append(float(min_t90))
 
         if max_t90 != str():
-            querylist.append(f"CAST(T90 as FLOAT)<?")
+            querylist.append(f"CAST(T90 as FLOAT)<=?")
             varlist.append(float(max_t90))
 
         # Eiso
         if min_eiso != str():
-            querylist.append(f"CAST(e_iso as FLOAT)>?")
+            querylist.append(f"CAST(e_iso as FLOAT)>=?")
             varlist.append(float(min_eiso))
 
         if max_eiso != str():
-            querylist.append(f"CAST(e_iso as FLOAT)<?")
+            querylist.append(f"CAST(e_iso as FLOAT)<=?")
             varlist.append(float(max_eiso))
         print("The varlist is", varlist)
+
+        
         # Build the query using the user filters
         query = str()
 
@@ -1371,32 +1374,72 @@ def advsearch():
     return render_template('advancedsearch.html', form=form, data=data, mid_query='', varlist='')
 
 # Function to download the user generated table
-
-
 @app.route('/get_advsearch_table', defaults={'query': '', 'varlist': ''})
 @app.route('/<query>/<varlist>/get_advsearch_table', methods=['GET', 'POST'])
 def get_advsearch_table(query, varlist):
     print("The vars are:", varlist)
+    import ast
+    varlist = ast.literal_eval(varlist)
+    for i in varlist:
+        print("The next is:", i)
     # Sql query to dataframe
     conn = get_db_connection()
     if query == '':
+        # Read the main db table
         df1 = pd.read_sql_query(
-            "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id INNER JOIN PeakTimesMags ON TrigCoords.grb_id=PeakTimesMags.grb_id", conn)
+            "SELECT * FROM SQLDataGRBSNe", conn)
+
+        # The data from the Trig tables
+        df2 = pd.read_sql(
+            "SELECT * FROM TrigCoords", conn)
+
+        # Data for mags
+        df3 = pd.read_sql(
+            "SELECT * FROM PeakTimesMags", conn)
     else:
+        # Read the main db table
+        print("The query is", query)
         df1 = pd.read_sql_query(
-            "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id INNER JOIN PeakTimesMags ON TrigCoords.grb_id=PeakTimesMags.grb_id"+query, conn, params=(varlist,))
+            "SELECT * FROM SQLDataGRBSNe"+query, conn, params=tuple(varlist, ))
+
+        # The data from the Trig tables
+        df2 = pd.read_sql(
+            "SELECT * FROM TrigCoords", conn)
+
+        # Data for mags
+        df3 = pd.read_sql(
+            "SELECT * FROM PeakTimesMags", conn)
+
     conn.close()
 
     # Write to an input output object
+    # Main data
     s = io.StringIO()
-    dwnld = df1.to_csv(s, index=False)
+    df1.to_csv(s, index=False)
     s.seek(0)
-    # Make the response
-    resp = Response(s, mimetype='text/csv')
 
-    resp.headers.set("Content-Disposition", "attachment",
-                     filename="GRBSNdbdata.txt")
-    return resp
+    # trigcoords
+    t = io.StringIO()
+    df2.to_csv(t, index=False)
+    t.seek(0)
+
+    # Peak mags
+    u = io.StringIO()
+    df3.to_csv(u, index=False)
+    u.seek(0)
+
+    downloads = [s, t, u]
+    names = ["GRBSNdbdata.txt", "TrigsCoords.txt", "PeakMags.txt"]
+
+    # Make the zipfile
+    zipf = io.BytesIO()
+    with zipfile.ZipFile(zipf, 'w') as outfile:
+        for i, file in enumerate(downloads):
+            outfile.writestr(names[i], file.getvalue())
+
+    zipf.seek(0)
+
+    return send_file(zipf, mimetype='zip', attachment_filename='GRBSNData.zip', as_attachment=True)
 
 
 # Run app
