@@ -84,6 +84,10 @@ class TableForm(FlaskForm):
     max_nim = StringField('Min. M$_{ni}$ [M$_{\odot}$]', validators=[Optional()])
     max_ejm = StringField('Max. M$_{ej}$ [M$_{\odot}$]', validators=[Optional()])
     min_ejm = StringField('Min. M$_{ej}$ [M$_{\odot}$]', validators=[Optional()])
+    max_epeak = StringField('Max. E$_{p}$ [keV]', validators=[Optional()])
+    min_epeak = StringField('Min. E$_{p}$ [keV]', validators=[Optional()])
+    max_ek = StringField('Max. E$_{k}$ [erg]', validators=[Optional()])
+    min_ek = StringField('Min. E$_{k}$ [erg]', validators=[Optional()])
     submit2 = SubmitField('Search')
 
 
@@ -262,7 +266,7 @@ def home():
     # Ok new plan
     # Going to give it a go with the UNION and INTERSECT commands
     initial_query = (
-        f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
+        f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90), GROUP_CONCAT(ej_m), GROUP_CONCAT(ni_m), GROUP_CONCAT(E_p), GROUP_CONCAT(e_k) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
     data = conn.execute(initial_query).fetchall()
 
     form = SearchForm(request.form)
@@ -1292,7 +1296,7 @@ def advsearch():
     # Initially display this table selection
     conn = get_db_connection()
     initial_query = (
-        f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90), GROUP_CONCAT(ej_m), GROUP_CONCAT(ni_m) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
+        f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90), GROUP_CONCAT(ej_m), GROUP_CONCAT(ni_m), GROUP_CONCAT(E_p), GROUP_CONCAT(e_k) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
     data = conn.execute(initial_query).fetchall()
     conn.close()
 
@@ -1338,6 +1342,10 @@ def advsearch():
         min_nim = form.min_nim.data
         max_ejm = form.max_ejm.data
         min_ejm = form.min_ejm.data
+        max_epeak = form.max_epeak.data
+        min_epeak = form.min_epeak.data
+        max_ek = form.max_ek.data
+        min_ek = form.min_ek.data
 
         #Did they actually fill in the form
         k = 0
@@ -1432,6 +1440,52 @@ def advsearch():
             querylist.append(f"CAST(e_iso as FLOAT)<=?")
             varlist.append(float(max_eiso))
 
+        # Epeak
+        if min_epeak != str():
+            #Error checking
+            try:
+                float(min_epeak)
+            except ValueError:
+                flash('Enter a float for the minimum E$_{p}$')
+                return redirect(url_for('advsearch'))
+            #Appending
+            querylist.append(f"CAST(E_p as FLOAT)>=?")
+            varlist.append(float(min_epeak))
+
+        if max_epeak != str():
+            #Error checking
+            try:
+                float(max_epeak)
+            except ValueError:
+                flash('Enter a float for the maximum E$_{p}$')
+                return redirect(url_for('advsearch'))
+            #Appending
+            querylist.append(f"CAST(E_p as FLOAT)<=?")
+            varlist.append(float(max_epeak))
+        
+        # Ek
+        if min_ek != str():
+            #Error checking
+            try:
+                float(min_ek)
+            except ValueError:
+                flash('Enter a float for the minimum E$_{k}$')
+                return redirect(url_for('advsearch'))
+            #Appending
+            querylist.append(f"CAST(e_k as FLOAT)>=?")
+            varlist.append(float(min_ek))
+
+        if max_ek != str():
+            #Error checking
+            try:
+                float(max_ek)
+            except ValueError:
+                flash('Enter a float for the maximum E$_{k}$')
+                return redirect(url_for('advsearch'))
+            #Appending
+            querylist.append(f"CAST(e_k as FLOAT)<=?")
+            varlist.append(float(max_ek))
+
         # Nickel Mass
         if min_nim != str():
             #Error checking
@@ -1481,7 +1535,7 @@ def advsearch():
         # Build the query using the user filters
         query = str()
 
-        start_query = f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90), GROUP_CONCAT(ej_m), GROUP_CONCAT(ni_m) FROM SQLDataGRBSNe"
+        start_query = f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90), GROUP_CONCAT(ej_m), GROUP_CONCAT(ni_m), GROUP_CONCAT(E_p), GROUP_CONCAT(e_k) FROM SQLDataGRBSNe"
 
         query += start_query
 

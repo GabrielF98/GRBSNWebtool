@@ -137,6 +137,8 @@
 			<th><b>T$_{90}$ [sec]</b></th>
 			<th><b>M$_{Ej}$ [M$_{\odot}$]</b></th>
 			<th><b>M$_{Ni}$ [M$_{\odot}$]</b></th>
+			<th><b>E$_{p}$ [keV]</b></th>
+			<th><b>E$_{k}$ (SN) [erg]</b></th>
 		</tr>
 
 		{% for i in range(data|length) %}
@@ -189,7 +191,20 @@
 			{% else %}
 			<th> </th>
 			{% endif %}
+			
+			<!-- Epeak -->
+			{% if data[i][7] != None %}
+			<th>{{ data[i][7] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
 
+			<!-- Ek -->
+			{% if data[i][8] != None %}
+			<th>{{ data[i][8] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
 		</tr>
 		{% endfor %}
 	</table>

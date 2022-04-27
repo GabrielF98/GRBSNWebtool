@@ -68,54 +68,85 @@
 
 <!-- Table of all the sources -->
 <div>
-  <table style="width:80%" class="t1" margin-left=0px;>
-    <tr>
-      <th><b>GRB</b></th>
-      <th><b>SN</b></th>
-      <th><b>E$_{iso}$ [ergs]</b></th>
-      <th><b>z</b></th>
-      <th><b>T$_{90}$ [sec]</b></th>
-    </tr>
+  <table style="width:80%" class="t1" margin-left=100px;>
+		<tr>
+			<th><b>GRB</b></th>
+			<th><b>SN</b></th>
+			<th><b>E$_{iso}$ [ergs]</b></th>
+			<th><b>z</b></th>
+			<th><b>T$_{90}$ [sec]</b></th>
+			<th><b>M$_{Ej}$ [M$_{\odot}$]</b></th>
+			<th><b>M$_{Ni}$ [M$_{\odot}$]</b></th>
+			<th><b>E$_{p}$ [keV]</b></th>
+			<th><b>E$_{k}$ (SN) [erg]</b></th>
+		</tr>
 
-    {% for i in range(data|length) %}
-    <tr>
-      <!-- GRB and SN have a name -->
-      {% if data[i][0]!=None and data[i][1]!=None %}
-      <th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
-      <th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
-      <!-- GRB has name -->
-      {% elif data[i][0]!=None and data[i][1]==None %}
-      <th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
-      <th> </th>
-      <!-- SN has a name -->
-      {% elif data[i][0]==None and data[i][1]!=None %}
-      <th> </th>
-      <th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
-      {% endif %}
+		{% for i in range(data|length) %}
+		<tr>
+			<!-- GRB and SN have a name -->
+			{% if data[i][0]!=None and data[i][1]!=None %}
+			<th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
+			<th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+			<!-- GRB has name -->
+			{% elif data[i][0]!=None and data[i][1]==None %}
+			<th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
+			<th> </th>
+			<!-- SN has a name -->
+			{% elif data[i][0]==None and data[i][1]!=None %}
+			<th> </th>
+			<th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+			{% endif %}
 
-      <!-- EISO -->
-      {% if data[i][2] != None %}
-      <th>{{ data[i][2] }}</th>
-      {% else %}
-      <th> </th>
-      {% endif %}
+			<!-- EISO -->
+			{% if data[i][2] != None %}
+			<th>{{ data[i][2] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
 
-      <!-- Z -->
-      {% if data[i][3] != None %}
-      <th>{{ data[i][3] }}</th>
-      {% else %}
-      <th> </th>
-      {% endif %}
+			<!-- Z -->
+			{% if data[i][3] != None %}
+			<th>{{ data[i][3] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
 
-      <!-- T90 -->
-      {% if data[i][4] != None %}
-      <th>{{ data[i][4] }}</th>
-      {% else %}
-      <th> </th>
-      {% endif %}
+			<!-- T90 -->
+			{% if data[i][4] != None %}
+			<th>{{ data[i][4] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
 
-    </tr>
-    {% endfor %}
-  </table>
+			<!-- Ejecta mass -->
+			{% if data[i][5] != None %}
+			<th>{{ data[i][5] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
+
+			<!-- Nickel mass -->
+			{% if data[i][6] != None %}
+			<th>{{ data[i][6] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
+			
+			<!-- Epeak -->
+			{% if data[i][7] != None %}
+			<th>{{ data[i][7] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
+
+			<!-- Ek -->
+			{% if data[i][8] != None %}
+			<th>{{ data[i][8] }}</th>
+			{% else %}
+			<th> </th>
+			{% endif %}
+		</tr>
+		{% endfor %}
+	</table>
 </div>
 {% endblock %}
