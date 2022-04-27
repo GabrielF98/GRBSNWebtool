@@ -989,7 +989,7 @@ def get_master_table():
     # Sql query to dataframe
     conn = get_db_connection()
     df1 = pd.read_sql_query(
-        "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id", conn)
+        "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id OR SQLDataGRBSNe.SNe=TrigCoords.sn_name INNER JOIN PeakTimesMags ON SQLDataGRBSNe.GRB=PeakTimesMags.grb_id OR SQLDataGRBSNe.SNe=PeakTimesMags.sn_name", conn)
     conn.close()
 
     # Write to an input output object
@@ -1349,10 +1349,10 @@ def get_advsearch_table(query, varlist):
     conn = get_db_connection()
     if query=='':
         df1 = pd.read_sql_query(
-            "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id", conn)
+            "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id INNER JOIN PeakTimesMags ON TrigCoords.grb_id=PeakTimesMags.grb_id", conn)
     else:
         df1 = pd.read_sql_query(
-            "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id"+query, conn, params=(varlist,))
+            "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id INNER JOIN PeakTimesMags ON TrigCoords.grb_id=PeakTimesMags.grb_id"+query, conn, params=(varlist,))
     conn.close()
 
     # Write to an input output object
