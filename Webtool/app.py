@@ -1,5 +1,7 @@
+import enum
 import sqlite3
 from tracemalloc import start
+from turtle import down
 import matplotlib.pyplot as plt
 from flask import Flask, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
 from werkzeug.exceptions import abort
@@ -988,24 +990,51 @@ def docs():
 def get_master_table():
     # Sql query to dataframe
     conn = get_db_connection()
+
+    # Read the main db table
     df1 = pd.read_sql_query(
-        "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id OR SQLDataGRBSNe.SNe=TrigCoords.sn_name INNER JOIN PeakTimesMags ON SQLDataGRBSNe.GRB=PeakTimesMags.grb_id OR SQLDataGRBSNe.SNe=PeakTimesMags.sn_name", conn)
+        "SELECT * FROM SQLDataGRBSNe", conn)
+
+    # The data from the Trig tables
+    df2 = pd.read_sql(
+        "SELECT * FROM TrigCoords", conn)
+
+    #Data for mags
+    df3 = pd.read_sql(
+        "SELECT * FROM PeakTimesMags", conn)
+
     conn.close()
 
     # Write to an input output object
+    # Main data
     s = io.StringIO()
-    dwnld = df1.to_csv(s, index=False)
+    df1.to_csv(s, index=False)
     s.seek(0)
-    # Make the response
-    resp = Response(s, mimetype='text/csv')
 
-    resp.headers.set("Content-Disposition", "attachment",
-                     filename="GRBSNdbdata.txt")
-    return resp
+    # trigcoords
+    t = io.StringIO()
+    df2.to_csv(t, index=False)
+    t.seek(0)
+
+    #Peak mags
+    u = io.StringIO()
+    df3.to_csv(u, index=False)
+    u.seek(0)
+
+    downloads = [s, t, u]
+    names = ["GRBSNdbdata.txt", "TrigsCoords.txt", "PeakMags.txt"]
+
+    # Make the zipfile
+    zipf = io.BytesIO()
+    with zipfile.ZipFile(zipf, 'w') as outfile:
+        for i, file in enumerate(downloads):
+            outfile.writestr(names[i], file.getvalue())
+
+    zipf.seek(0)
+
+    return send_file(zipf, mimetype='zip', attachment_filename='GRBSNData.zip', as_attachment=True)
 
 # The downloadable df data
-
-
 @app.route('/table_download/<event_id>')
 def get_table(event_id):
     # Sql query to dataframe
@@ -1061,7 +1090,6 @@ def graphs():
         category = request.form.get('select1')
         x = request.form.get('select2')
         y = request.form.get('select3')
-
 
         conn = get_db_connection()  # Connect to DB
 
@@ -1246,6 +1274,8 @@ def get_help():
     return render_template('helppage.html')
 
 # Allow search based on what people want to select from the catalogue
+
+
 @app.route('/advsearch', methods=['POST', 'GET'])
 def advsearch():
     # Initially display this table selection
@@ -1301,7 +1331,7 @@ def advsearch():
         if max_t90 != str():
             querylist.append(f"CAST(T90 as FLOAT)<?")
             varlist.append(float(max_t90))
-        
+
         # Eiso
         if min_eiso != str():
             querylist.append(f"CAST(e_iso as FLOAT)>?")
@@ -1340,14 +1370,16 @@ def advsearch():
 
     return render_template('advancedsearch.html', form=form, data=data, mid_query='', varlist='')
 
-#Function to download the user generated table
-@app.route('/get_advsearch_table', defaults={'query': '', 'varlist':''})
+# Function to download the user generated table
+
+
+@app.route('/get_advsearch_table', defaults={'query': '', 'varlist': ''})
 @app.route('/<query>/<varlist>/get_advsearch_table', methods=['GET', 'POST'])
 def get_advsearch_table(query, varlist):
     print("The vars are:", varlist)
     # Sql query to dataframe
     conn = get_db_connection()
-    if query=='':
+    if query == '':
         df1 = pd.read_sql_query(
             "SELECT * FROM SQLDataGRBSNe INNER JOIN TrigCoords ON SQLDataGRBSNe.GRB=TrigCoords.grb_id INNER JOIN PeakTimesMags ON TrigCoords.grb_id=PeakTimesMags.grb_id", conn)
     else:
