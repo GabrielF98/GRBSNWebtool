@@ -59,26 +59,32 @@ with open('instance/config.py', 'w') as f:
     code = str(os.urandom(32).hex())
     f.write(('SECRET_KEY = \''+code+'\''))
 
-# Search bar
-from wtforms import Form, StringField, SubmitField
+# Search bars
+from flask_wtf import FlaskForm
+from wtforms import StringField, FloatField, SubmitField
+from wtforms.validators import Optional
 
 
-class SearchForm(Form):
+class SearchForm(FlaskForm):
     object_name = StringField('Search by GRB or SN ID')
     submit1 = SubmitField('Submit')
 
 # Pulling the data you want to the table on the homepage #Currently this isnt being used on master
 
 
-class TableForm(Form):
-    object_name = StringField('')
-    min_z = StringField('Min. Z')
-    max_z = StringField('Max. Z')
-    min_t90 = StringField('Min. T$_{90}$ [sec]')
-    max_t90 = StringField('Max. T$_{90}$ [sec]')
-    max_eiso = StringField('Max. E$_{iso}$ [ergs] (e.g. 1e52)')
-    min_eiso = StringField('Min. E$_{iso}$ [ergs] (e.g. 1e52)')
-    submit2 = SubmitField('Submit')
+class TableForm(FlaskForm):
+    object_name = StringField('', validators=[Optional()])
+    min_z = StringField('Min. Z', validators=[Optional()])
+    max_z = StringField('Max. Z', validators=[Optional()])
+    min_t90 = StringField('Min. T$_{90}$ [sec]', validators=[Optional()])
+    max_t90 = StringField('Max. T$_{90}$ [sec]', validators=[Optional()])
+    max_eiso = StringField('Max. E$_{iso}$ [ergs]', validators=[Optional()])
+    min_eiso = StringField('Min. E$_{iso}$ [ergs]', validators=[Optional()])
+    min_nim = StringField('Max. M$_{ni}$ [M$_{\odot}$]', validators=[Optional()])
+    max_nim = StringField('Min. M$_{ni}$ [M$_{\odot}$]', validators=[Optional()])
+    max_ejm = StringField('Max. M$_{ej}$ [M$_{\odot}$]', validators=[Optional()])
+    min_ejm = StringField('Min. M$_{ej}$ [M$_{\odot}$]', validators=[Optional()])
+    submit2 = SubmitField('Search')
 
 
 # Graphs with matplotlib
@@ -1286,7 +1292,7 @@ def advsearch():
     # Initially display this table selection
     conn = get_db_connection()
     initial_query = (
-        f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
+        f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90), GROUP_CONCAT(ej_m), GROUP_CONCAT(ni_m) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
     data = conn.execute(initial_query).fetchall()
     conn.close()
 
@@ -1313,8 +1319,9 @@ def advsearch():
 
     # Create a form to take in user data
     form = TableForm(request.form)
+    print("The errors were", form.errors)
 
-    if request.method == 'POST':
+    if request.method == 'POST' and form.validate_on_submit():
         # List of vars to include in the query
         querylist = []
         varlist = []
@@ -1327,7 +1334,20 @@ def advsearch():
         min_t90 = form.min_t90.data
         max_eiso = form.max_eiso.data
         min_eiso = form.min_eiso.data
+        max_nim = form.max_nim.data
+        min_nim = form.min_nim.data
+        max_ejm = form.max_ejm.data
+        min_ejm = form.min_ejm.data
 
+        #Did they actually fill in the form
+        k = 0
+        for i in list(form.data.values())[:-2]:
+            if i=='':
+                k+=1
+        if k==len(list(form.data.values())[:-2]):
+            flash('You didn\'t enter any data')
+            return redirect(url_for('advsearch'))
+        
         # Check if the variables are as expected
         if event_id != str():
 
@@ -1338,39 +1358,130 @@ def advsearch():
             elif str(event_id)[3:] in grbs:  # if they search an GRB
                 querylist.append(f"GRB=?")
                 varlist.append(str(event_id[3:]))
+            
+            else:
+                flash('This object is not in our database.')
+                return redirect(url_for('advsearch'))
 
         # Redshift
         if min_z != str():
+            #Error checking
+            try:
+                float(min_z)
+            except ValueError:
+                flash('Enter a float for the minimum redshift')
+                return redirect(url_for('advsearch'))
+            #Appending
             querylist.append(f"CAST(z as FLOAT)>=?")
             varlist.append(float(min_z))
 
         if max_z != str():
+            #Error checking
+            try:
+                float(max_z)
+            except ValueError:
+                flash('Enter a float for the maximum redshift')
+                return redirect(url_for('advsearch'))
+            #Appending
             querylist.append(f"CAST(z as FLOAT)<=?")
             varlist.append(float(max_z))
 
         # T90
         if min_t90 != str():
+            #Error checking
+            try:
+                float(min_t90)
+            except ValueError:
+                flash('Enter a float for the minimum T$_{90}$')
+                return redirect(url_for('advsearch'))
+            #Appending
             querylist.append(f"CAST(T90 as FLOAT)>=?")
             varlist.append(float(min_t90))
 
         if max_t90 != str():
+            #Error checking
+            try:
+                float(max_t90)
+            except ValueError:
+                flash('Enter a float for the maximum T$_{90}$')
+                return redirect(url_for('advsearch'))
+            #Appending
             querylist.append(f"CAST(T90 as FLOAT)<=?")
             varlist.append(float(max_t90))
 
         # Eiso
         if min_eiso != str():
+            #Error checking
+            try:
+                float(min_eiso)
+            except ValueError:
+                flash('Enter a float for the minimum E$_{iso}$')
+                return redirect(url_for('advsearch'))
+            #Appending
             querylist.append(f"CAST(e_iso as FLOAT)>=?")
             varlist.append(float(min_eiso))
 
         if max_eiso != str():
+            #Error checking
+            try:
+                float(max_eiso)
+            except ValueError:
+                flash('Enter a float for the maximum E$_{iso}$')
+                return redirect(url_for('advsearch'))
+            #Appending
             querylist.append(f"CAST(e_iso as FLOAT)<=?")
             varlist.append(float(max_eiso))
-        print("The varlist is", varlist)
+
+        # Nickel Mass
+        if min_nim != str():
+            #Error checking
+            try:
+                float(min_nim)
+            except ValueError:
+                flash('Enter a float for the minimum M$_{Ni}$')
+                return redirect(url_for('advsearch'))
+            #Appending
+            querylist.append(f"CAST(ni_m as FLOAT)>=?")
+            varlist.append(float(min_nim))
+
+        if max_nim != str():
+            #Error checking
+            try:
+                float(max_nim)
+            except ValueError:
+                flash('Enter a float for the maximum M$_{Ni}$')
+                return redirect(url_for('advsearch'))
+            #Appending
+            querylist.append(f"CAST(ni_m as FLOAT)<=?")
+            varlist.append(float(max_nim))
+        
+        # Ejecta Mass
+        if min_ejm != str():
+            #Error checking
+            try:
+                float(min_ejm)
+            except ValueError:
+                flash('Enter a float for the minimum M$_{Ej}$')
+                return redirect(url_for('advsearch'))
+            #Appending
+            querylist.append(f"CAST(ej_m as FLOAT)>=?")
+            varlist.append(float(min_ejm))
+
+        if max_ejm != str():
+            #Error checking
+            try:
+                float(max_ejm)
+            except ValueError:
+                flash('Enter a float for the maximum M$_{Ej}$')
+                return redirect(url_for('advsearch'))
+            #Appending
+            querylist.append(f"CAST(ej_m as FLOAT)<=?")
+            varlist.append(float(max_ejm))
 
         # Build the query using the user filters
         query = str()
 
-        start_query = f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90) FROM SQLDataGRBSNe"
+        start_query = f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90), GROUP_CONCAT(ej_m), GROUP_CONCAT(ni_m) FROM SQLDataGRBSNe"
 
         query += start_query
 
@@ -1497,7 +1608,6 @@ def get_observations(directory_list):
     filestream = io.BytesIO()
     with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
         for folder in directory_list:
-            print("The folder is", folder)
             for file in os.listdir(current_app.root_path+'/static/SourceData/'+folder+'/'):
                 zipf.write(current_app.root_path+'/static/SourceData/' +
                            folder+'/'+file, folder+'/'+file)
