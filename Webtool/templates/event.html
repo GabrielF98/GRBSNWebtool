@@ -1,576 +1,683 @@
 {% extends 'base.html' %}
+
 <head>
   <!-- The stuff to do with the X-ray plot -->
 
-<link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.css"
-    rel="stylesheet" type="text/css">
-<link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-widgets.css"
-    rel="stylesheet" type="text/css">
-<link
-    href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-tables.css"
-    rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-widgets.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-tables.css" rel="stylesheet" type="text/css">
 
 </head>
+
 <body>
 
 
-<!-- Get the sources for each piece of the data -->
-<!-- First we get all the references -->
+  <!-- Get the sources for each piece of the data -->
+  <!-- First we get all the references -->
 
-<!--The page title -->
-<!-- This will be the name of the GRB and an associated SN if applicable -->
-{% block title %} 
-<!-- Take care of AT Names for the SNs -->
+  <!--The page title -->
+  <!-- This will be the name of the GRB and an associated SN if applicable -->
+  {% block title %}
+  <!-- Take care of AT Names for the SNs -->
 
-{% if 'AT' in event[0]['SNe']|string()%}
+  {% if 'AT' in event[0]['SNe']|string()%}
   {% if event[0]['SNe'] == None %}
-    <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
+  <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
   {% elif event[0]['GRB'] == None %}
-    <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
+  <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
   {% else %}
-    <h2> <b>GRB{{ event[0]['GRB']}} / {{ event[0]['SNe'] }} </b></h2>
+  <h2> <b>GRB{{ event[0]['GRB']}} / {{ event[0]['SNe'] }} </b></h2>
   {% endif %}
-{%else%}
+  {%else%}
   {% if event[0]['SNe'] == None %}
-    <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
+  <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
   {% elif event[0]['GRB'] == None %}
-    <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
+  <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
   {% else %}
-    <h2> <b>GRB{{ event[0]['GRB']}} / SN{{ event[0]['SNe'] }} </b></h2>
+  <h2> <b>GRB{{ event[0]['GRB']}} / SN{{ event[0]['SNe'] }} </b></h2>
   {% endif %}
-{%endif%}
-{% endblock %}
+  {%endif%}
+  {% endblock %}
 
-{% block content %}
-<div>
-    <table class="t1" style="width:40%">
-  <tr>
-    <th>GRB Parameter</th>
-    <th>Value</th>
-    <th>Unit</th> 
-  </tr>
+  {% block content %}
+  <div>
+    <table class="table table-sm table2" style="width:45%">
+      <thead>
+        <tr>
+          <th>GRB Parameter</th>
+          <th>Value</th>
+          <th>Unit</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        {% if event[0]['GRB']!=None %}
+      <tr>
+        <td>T$_{0}$</td>
 
-  {% if event[0]['GRB']!=None %}
-  <tr>
-    <td>T$_{0}$</td>
-    
-    <td>
-      {% for i in range(radec_nos|length) %}
-      {% if radec[0]['trigtime']|string != 'None' %}
-          {{ grb_time_str }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
+        <td>
+          {% for i in range(radec_nos|length) %}
+          {% if radec[0]['trigtime']|string != 'None' %}
+          {{ grb_time_str }} <sup><a href="{{radec[0]['source']}}" target='_blank'>{{radec_nos[i]}} </a></sup> <br>
+          {% endif %}
+          {% endfor %}
+        </td>
+
+        <td>UT</td>
+      </tr>
       {% endif %}
-      {% endfor %}
-    </td> 
 
-    <td>UT</td>
-  </tr>
-  {% endif %}
+      <tr>
+        <td>E$_{iso}$</td>
 
-  <tr>
-    <td>E$_{iso}$</td>
-    
-    <td>
-      {% for i in range(event|length) %}
-        {% if event[i]['e_iso'] != None %}
+        <td>
+          {% for i in range(event|length) %}
+          {% if event[i]['e_iso'] != None %}
           {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-            {{ event[i]['e_iso'] }} <sup> {{i+1}} </sup> <br>
+          {{ event[i]['e_iso'] }} <sup> {{i+1}} </sup> <br>
           {% elif event[i]['PrimarySources'] != None %}
 
-            {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
+          {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
           {% else %}
-            {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %}    
-        {% endif %}
-      {% endfor %}
-    </td> 
+          {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
+          <br>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </td>
 
-    <td>erg</td>
-  </tr>
- 
-  <tr>
-    <td>E$_p$</td>
-    <td>{% for i in range(event|length) %}
+        <td>erg</td>
+      </tr>
+
+      <tr>
+        <td>E$_p$</td>
+        <td>{% for i in range(event|length) %}
           {% if event[i]['E_p'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+          {{ event[i]['E_p'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
+
+          {{ event[i]['E_p'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+          {% else %}
+          {{ event[i]['E_p'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </td>
+        <td>keV</td>
+      </tr>
+      <tr>
+        <td>z</td>
+        <td>
+          {% for i in range(event|length) %}
+          {% if event[i]['z'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+          {{ event[i]['z'] }} <sup> {{i+1}} </sup> <br>
+          {% elif event[i]['PrimarySources'] != None %}
+
+          {{ event[i]['z'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+          {% else %}
+          {{ event[i]['z'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>T$_{90}$</td>
+        <td>
+          {% for i in range(event|length) %}
+          {% if event[i]['T90'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+          {{ event[i]['T90'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
+
+          {{ event[i]['T90'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+          {% else %}
+          {{ event[i]['T90'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </td>
+        <td>sec</td>
+      </tr>
+      <tr>
+        <td>p</td>
+        <td>
+          {% for i in range(event|length) %}
+          {% if event[i]['p'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+          {{ event[i]['p'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
+
+          {{ event[i]['p'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+          {% else %}
+          {{ event[i]['p'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>n</td>
+        <td>
+          {% for i in range(event|length) %}
+          {% if event[i]['n'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+          {{ event[i]['n'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
+
+          {{ event[i]['n'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+          {% else %}
+          {{ event[i]['n'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </td>
+        <td>cm$^{-3}$</td>
+      </tr>
+      <tr>
+        <td>$\theta_{jet}$</td>
+        <td>
+          {% for i in range(event|length) %}
+          {% if event[i]['open_deg'] != None %}
+          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+          {{ event[i]['open_deg'] }} <sup> {{i+1}} </sup> <br>
+
+          {% elif event[i]['PrimarySources'] != None %}
+
+          {{ event[i]['open_deg'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup>
+          <br>
+          {% else %}
+          {{ event[i]['open_deg'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
+          <br>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </td>
+        <td>degrees</td>
+      </tr>
+      <tr>
+        <td>RA</td>
+        <td>
+          {% for i in range(radec_nos|length) %}
+          {% if radec[0]['ra']|string != 'None' %}
+          {{ radec[0]['ra'] }} <sup><a href="{{radec[0]['source']}}" target='_blank'>{{radec_nos[i]}} </a></sup> <br>
+          {% endif %}
+          {% endfor %}
+        </td>
+        <td>hh:mm:ss.s</td>
+      </tr>
+      <tr>
+        <td>Dec</td>
+        <td>
+          {% for i in range(radec_nos|length) %}
+          {% if radec[0]['dec']|string != 'None' %}
+          {{ radec[0]['dec'] }} <sup><a href="{{radec[0]['source']}}" target='_blank'>{{radec_nos[i]}} </a></sup> <br>
+          {% endif %}
+          {% endfor %}
+        </td>
+        <td>dd:mm:ss.s</td>
+      </tr>
+      </tbody>
+    </table>
+
+
+    <table class="table table-sm table2" style="width:45%">
+      <thead>
+        <tr>
+          <th scope="col">SN Parameter</th>
+          <th scope="col">Value</th>
+          <th scope="col">Unit</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% if event[0]['GRB']==None %}
+        <tr>
+          <td>T$_{0}$</td>
+
+          <td>
+            {% for i in range(radec_nos|length) %}
+            {% if radec[0]['trigtime']|string != 'None' %}
+            {{ grb_time_str }} <sup><a href="{{radec[0]['source']}}" target='_blank'>{{radec_nos[i]}} </a></sup> <br>
+            {% endif %}
+            {% endfor %}
+          </td>
+
+          <td>UT</td>
+        </tr>
+        {% endif %}
+
+        <tr>
+          <td>E$_k$</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['E_k'] != None %}
             {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-            {{ event[i]['E_p'] }} <sup> {{i+1}} </sup> <br>
+            {{ event[i]['E_k'] }} <sup> {{i+1}} </sup> <br>
 
             {% elif event[i]['PrimarySources'] != None %}
 
-              {{ event[i]['E_p'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
+            {{ event[i]['E_k'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
             {% else %}
-              {{ event[i]['E_p'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
+            {{ event[i]['E_k'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
+            <br>
             {% endif %}
-          {% endif %}
-        {% endfor %}
-    </td>
-    <td>keV</td> 
-  </tr>
-  <tr>
-    <td>z</td>
-    <td>
-    {% for i in range(event|length) %}
-        {% if event[i]['z'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-            {{ event[i]['z'] }} <sup> {{i+1}} </sup> <br>
-          {% elif event[i]['PrimarySources'] != None %}
-
-            {{ event[i]['z'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['z'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td></td> 
-  </tr>
-  <tr>
-    <td>T$_{90}$</td>
-    <td>
-    {% for i in range(event|length) %}
-        {% if event[i]['T90'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-            {{ event[i]['T90'] }} <sup> {{i+1}} </sup> <br>
-
-          {% elif event[i]['PrimarySources'] != None %}
-
-            {{ event[i]['T90'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['T90'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %}  
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td>sec</td> 
-  </tr>
-  <tr>
-    <td>p</td>
-    <td>
-      {% for i in range(event|length) %}
-        {% if event[i]['p'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-            {{ event[i]['p'] }} <sup> {{i+1}} </sup> <br>
-
-          {% elif event[i]['PrimarySources'] != None %}
-
-            {{ event[i]['p'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['p'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td></td> 
-  </tr>
-  <tr>
-    <td>n</td>
-    <td> 
-      {% for i in range(event|length) %}
-        {% if event[i]['n'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-            {{ event[i]['n'] }} <sup> {{i+1}} </sup> <br>
-
-          {% elif event[i]['PrimarySources'] != None %}
-
-            {{ event[i]['n'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['n'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %} 
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td>cm$^{-3}$</td> 
-  </tr>
-  <tr>
-    <td>$\theta_{jet}$</td>
-    <td>
-      {% for i in range(event|length) %}
-        {% if event[i]['open_deg'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-            {{ event[i]['open_deg'] }} <sup> {{i+1}} </sup> <br>
-
-          {% elif event[i]['PrimarySources'] != None %}
-
-            {{ event[i]['open_deg'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['open_deg'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %} 
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td>degrees</td> 
-  </tr>
-  <tr>
-    <td>RA</td>
-    <td>
-      {% for i in range(radec_nos|length) %}
-      {% if radec[0]['ra']|string != 'None' %}
-          {{ radec[0]['ra'] }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
-      {% endif %}
-      {% endfor %}
-    </td>
-    <td>hh:mm:ss.s</td> 
-  </tr>
-  <tr>
-    <td>Dec</td>
-    <td>
-      {% for i in range(radec_nos|length) %}
-      {% if radec[0]['dec']|string != 'None' %}
-          {{ radec[0]['dec'] }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
-      {% endif %}
-      {% endfor %}
-    </td>
-    <td>dd:mm:ss.s</td> 
-  </tr>
-</table>
-
-
-<table class="t1" style="width:40%">
- <tr>
-    <th>SN Parameter</th>
-    <th>Value</th>
-    <th>Unit</th> 
-  </tr>
-
-  {% if event[0]['GRB']==None %}
-  <tr>
-    <td>T$_{0}$</td>
-    
-    <td>
-      {% for i in range(radec_nos|length) %}
-      {% if radec[0]['trigtime']|string != 'None' %}
-          {{ grb_time_str }} <sup><a href="{{radec[0]['source']}}" target = '_blank'>{{radec_nos[i]}} </a></sup> <br>
-      {% endif %}
-      {% endfor %}
-    </td> 
-
-    <td>UT</td>
-  </tr>
-  {% endif %}
-
-  <tr>
-    <td>E$_k$</td>
-    <td>
-      {% for i in range(event|length) %}
-        {% if event[i]['E_k'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-            {{ event[i]['E_k'] }} <sup> {{i+1}} </sup> <br>
-
-          {% elif event[i]['PrimarySources'] != None %}
-
-            {{ event[i]['E_k'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['E_k'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td>erg</td> 
-  </tr>
-  <tr>
-    <td>M$_{Ni}$</td>
-    <td>
-      {% for i in range(event|length) %}
-        {% if event[i]['ni_m'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>erg</td>
+        </tr>
+        <tr>
+          <td>M$_{Ni}$</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['ni_m'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
             {{ event[i]['ni_m'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-            {{ event[i]['ni_m'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['ni_m'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td>M$_{\odot}$</td> 
-  </tr>
-  <tr>
-    <td>M$_{Ej}$</td>
-    <td>
-      {% for i in range(event|length) %}
-        {% if event[i]['ej_m'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['ni_m'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+            {% else %}
+            {{ event[i]['ni_m'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
+            <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>M$_{\odot}$</td>
+        </tr>
+        <tr>
+          <td>M$_{Ej}$</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['ej_m'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
             {{ event[i]['ej_m'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-            {{ event[i]['ej_m'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['ej_m'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td>M$_{\odot}$</td> 
-  </tr>
-  <tr>
-    <td>t$_{peak}$</td>
-    <td>
-      {% for i in range(event|length) %}
-        {% if event[i]['t_peak'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['ej_m'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+            {% else %}
+            {{ event[i]['ej_m'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
+            <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>M$_{\odot}$</td>
+        </tr>
+        <tr>
+          <td>t$_{peak}$</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['t_peak'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
             {{ event[i]['t_peak'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-            {{ event[i]['t_peak'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['t_peak'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %} 
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td>days (rest frame I think but need to make sure)</td> 
-  </tr>
-  <tr>
-    <td>Peak $m_V$ (set it so the band will change if needed)</td>
-    <td></td>
-    <td>Unavailable yet</td> 
-  </tr>
-  <tr>
-    <td>v$_{photospheric}$</td>
-    <td>
-      {% for i in range(event|length) %}
-        {% if event[i]['v_photospheric'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['t_peak'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup>
+            <br>
+            {% else %}
+            {{ event[i]['t_peak'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
+            <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>days (rest frame I think but need to make sure)</td>
+        </tr>
+        <tr>
+          <td>Peak $m_V$ (set it so the band will change if needed)</td>
+          <td></td>
+          <td>Unavailable yet</td>
+        </tr>
+        <tr>
+          <td>v$_{photospheric}$</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['v_photospheric'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
             {{ event[i]['v_photospheric'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-            {{ event[i]['v_photospheric'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['v_photospheric'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td>km s$^{-1}$</td> 
-  </tr>
-  <tr>
-    <td>v$_{Fe}$</td>
-    <td>
-      {% for i in range(event|length) %}
-        {% if event[i]['v_Fe_expansion'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['v_photospheric'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}}
+              </a></sup> <br>
+            {% else %}
+            {{ event[i]['v_photospheric'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}}
+              </a></sup> <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>km s$^{-1}$</td>
+        </tr>
+        <tr>
+          <td>v$_{Fe}$</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['v_Fe_expansion'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
             {{ event[i]['v_Fe_expansion'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-            {{ event[i]['v_Fe_expansion'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['v_Fe_expansion'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td>km s$^{-1}$</td> 
-  </tr>
-  <tr>
-    <td>v$_{Si}$</td>
-    <td>
-      {% for i in range(event|length) %}
-        {% if event[i]['v_Si_expansion'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['v_Fe_expansion'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}}
+              </a></sup> <br>
+            {% else %}
+            {{ event[i]['v_Fe_expansion'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}}
+              </a></sup> <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>km s$^{-1}$</td>
+        </tr>
+        <tr>
+          <td>v$_{Si}$</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['v_Si_expansion'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
             {{ event[i]['v_Si_expansion'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-            {{ event[i]['v_Si_expansion'] }} <sup><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-            {{ event[i]['v_Si_expansion'] }} <sup><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></sup> <br> 
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </td>
-    <td>km s$^{-1}$</td> 
-  </tr>
+            {{ event[i]['v_Si_expansion'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}}
+              </a></sup> <br>
+            {% else %}
+            {{ event[i]['v_Si_expansion'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}}
+              </a></sup> <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>km s$^{-1}$</td>
+        </tr>
+      </tbody>
 
-</table>
-</div>
+
+    </table>
+  </div>
 
 
   <h2>
     <b>Download Table Data</b>
   </h2>
   <!-- Download Database Data -->
-    {% if 'AT' in event[0]['SNe']|string()%}
+  {% if 'AT' in event[0]['SNe']|string()%}
   {% if event[0]['SNe'] == None %}
-    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from refereed papers found on the ADS for these events.</p>
+  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data
+    about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected
+    from refereed papers found on the ADS for these events.</p>
   {% elif event[0]['GRB'] == None %}
-    <p><a href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">Click here</a> to download a tables of data about this GRB/SN from our database. This table includes parameters like those in the table above and was collected from refereed papers found on the ADS for these events.</p>
+  <p><a href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">Click here</a> to download a tables of data about
+    this GRB/SN from our database. This table includes parameters like those in the table above and was collected from
+    refereed papers found on the ADS for these events.</p>
   {% else %}
-    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_'+event[0]['SNe'])}}">Click here</a> to download a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from refereed papers found on the ADS for these events.</p>
+  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_'+event[0]['SNe'])}}">Click here</a> to download
+    a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above
+    and was collected from refereed papers found on the ADS for these events.</p>
   {% endif %}
   {%else%}
   {% if event[0]['SNe'] == None %}
-    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from refereed papers found on the ADS for these events.</p>
+  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data
+    about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected
+    from refereed papers found on the ADS for these events.</p>
   {% elif event[0]['GRB'] == None %}
-    <p><a href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">Click here</a> to download a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from refereed papers found on the ADS for these events.</p>
+  <p><a href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">Click here</a> to download a table of data about
+    this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from
+    refereed papers found on the ADS for these events.</p>
   {% else %}
-    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_SN'+event[0]['SNe'])}}">Click here</a> to download a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from refereed papers found on the ADS for these events.</p>
+  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_SN'+event[0]['SNe'])}}">Click here</a> to
+    download a table of data about this GRB/SN from our database. This table includes parameters like those in the
+    tables above and was collected from refereed papers found on the ADS for these events.</p>
   {%endif%}
   {%endif%}
 
 
 
-<!-- Plots -->
-<h2><b>Graphs</b></h2>
-<p>These graphs display observations of this event. For help using the toolbars click <a href="{{ url_for('get_help')}}">here</a>.
+  <!-- Plots -->
+  <h2><b>Graphs</b></h2>
+  <p>These graphs display observations of this event. For help using the toolbars click <a
+      href="{{ url_for('get_help')}}">here</a>.
 
-  
 
-  {{ div|safe }}
-  {{ script|safe }}
+
+    {{ div|safe }}
+    {{ script|safe }}
 
   <h2> </h2>
   <!-- Download NASA ADS Data -->
   {% if 'AT' in event[0]['SNe']|string()%}
   {% if event[0]['SNe'] == None %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from refereed papers on <a href="https://ui.adsabs.harvard.edu" target = '_blank'> NASA ADS </a> as well as from <a href="https://sne.space" target = '_blank'> The Open Supernova Catalogue </a> and the <a href="https://www.swift.ac.uk" target = '_blank'> Swift Telescope UK Site </a>. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
+  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from
+    refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
+      href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. Note that some of this data will not
+    display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in
+    collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future
+    version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all
+    the data. </p>
   {% elif event[0]['GRB'] == None %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">click here</a>. This data was drawn from refereed papers on <a href="https://ui.adsabs.harvard.edu" target = '_blank'> NASA ADS</a> as well as from <a href="https://sne.space" target = '_blank'> The Open Supernova Catalogue</a> and the <a href="https://www.swift.ac.uk" target = '_blank'> Swift Telescope UK Site</a>. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
+  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
+      href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">click here</a>. This data was drawn from refereed
+    papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS</a> as well as from <a
+      href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. Note that some of this data will not
+    display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in
+    collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future
+    version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all
+    the data. </p>
   {% else %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">click here</a>. This data was drawn from refereed papers on <a href="https://ui.adsabs.harvard.edu" target = '_blank'> NASA ADS </a> as well as from <a href="https://sne.space" target = '_blank'> The Open Supernova Catalogue</a> and the <a href="https://www.swift.ac.uk" target = '_blank'> Swift Telescope UK Site </a>. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
-    <p>It is now possible to <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">download data</a> gathered from the ADS for this event.</p>
+  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
+      href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">click here</a>. This data was drawn from refereed
+    papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
+      href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. Note that some of this data will not
+    display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in
+    collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future
+    version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all
+    the data. </p>
+  <p>It is now possible to <a
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">download data</a> gathered
+    from the ADS for this event.</p>
   {% endif %}
   {% else %}
   {% if event[0]['SNe'] == None %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from refereed papers on <a href="https://ui.adsabs.harvard.edu" target = '_blank'> NASA ADS </a> as well as from <a href="https://sne.space" target = '_blank'> The Open Supernova Catalogue </a> and the <a href="https://www.swift.ac.uk" target = '_blank'> Swift Telescope UK Site</a>. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
+  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from
+    refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
+      href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. Note that some of this data will not
+    display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in
+    collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future
+    version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all
+    the data. </p>
   {% elif event[0]['GRB'] == None %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">click here</a>. This data was drawn from refereed papers on <a href="https://ui.adsabs.harvard.edu" target = '_blank'> NASA ADS </a> as well as from <a href="https://sne.space" target = '_blank'> The Open Supernova Catalogue</a> and the <a href="https://www.swift.ac.uk" target = '_blank'> Swift Telescope UK Site</a>. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
+  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
+      href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">click here</a>. This data was drawn from
+    refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
+      href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. Note that some of this data will not
+    display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in
+    collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future
+    version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all
+    the data. </p>
   {% else %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">click here</a>. This data was drawn from refereed papers on <a href="https://ui.adsabs.harvard.edu" target = '_blank'> NASA ADS </a> as well as from <a href="https://sne.space" target = '_blank'> The Open Supernova Catalogue </a> and the <a href="https://www.swift.ac.uk" target = '_blank'> Swift Telescope UK Site </a>. Note that some of this data will not display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all the data. </p>
+  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">click here</a>. This data
+    was drawn from refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as
+    from <a href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. Note that some of this data will not
+    display on the plots currently, due to the wide variety of filetypes used in astronomical papers and difficulty in
+    collecting them all into one standard file-type. This problem is being worked on and will be fixed in a future
+    version of this tool. The download will contain a zipped folder, which includes a csv file listing the origin of all
+    the data. </p>
   {% endif %}
   {% endif %}
 
-<!-- Table of references -->
-<div>
+  <!-- Table of references -->
   <h2><b>References</b></h2>
-  <table class="t1" style="width:80%">
-    <tr>
-    <th>Number</th>
-    <th>Reference</th> 
-  </tr>
-  <!-- The primary and secondary event sources -->
-  {% for i in range(event|length)%}
-    {% if event[i]['PrimarySources']!=None %}
-      {% if 'adsabs' not in event[i]['PrimarySources']%}
-      <tr>
-        <td><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></td>
-        <td> <a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{event[i]['PrimarySources']}} </a></td>
-      </tr>
-      {% else %}
-      <tr>
-        <td><a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{i+1}} </a></td>
-        <td>{{needed_dict[event[i]['PrimarySources']]['names']}} <b>{{needed_dict[event[i]['PrimarySources']]['year']}}</b>: <a href="{{event[i]['PrimarySources']}}" target = '_blank'>{{event[i]['PrimarySources']}} </a></td>
-      </tr>
-      {% endif %}
-    {% elif event[i]['SecondarySources']!=None %}
-      {% if 'adsabs' not in event[i]['SecondarySources']%}
-      <tr>
-        <td><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></td>
-        <td> <a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{event[i]['SecondarySources']}} </a></td>
-      </tr>
-      {% else %}
-      <tr>
-        <td><a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{i+1}} </a></td>
-        <td>{{needed_dict[event[i]['SecondarySources']]['names']}} <b>{{needed_dict[event[i]['SecondarySources']]['year']}}</b>: <a href="{{event[i]['SecondarySources']}}" target = '_blank'>{{event[i]['SecondarySources']}} </a></td>
-      </tr>
-      {% endif %}
-    {% endif %}  
-  {% endfor %}
+  <div>
+    
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th>Number</th>
+          <th>Reference</th>
+        </tr>
+      </thead>
 
-  <!-- RADec refs -->
-  
-  {% for i in range(radec_refs|length) %}
-  {% if 'adsabs' not in radec_refs[i] %}
-    <tr>
-        <td><a href="{{radec_refs[i]}}" target = '_blank'>{{i+event|length+1}} </a></td>
-        <td><a href="{{radec_refs[i]}}" target = '_blank'>{{radec_refs[i]}} </a></td>
-    </tr>
+      <tbody>
+        <!-- The primary and secondary event sources -->
+        {% for i in range(event|length)%}
+        {% if event[i]['PrimarySources']!=None %}
+        {% if 'adsabs' not in event[i]['PrimarySources']%}
+        <tr>
+          <td><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></td>
+          <td> <a href="{{event[i]['PrimarySources']}}" target='_blank'>{{event[i]['PrimarySources']}} </a></td>
+        </tr>
+        {% else %}
+        <tr>
+          <td><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></td>
+          <td>{{needed_dict[event[i]['PrimarySources']]['names']}}
+            <b>{{needed_dict[event[i]['PrimarySources']]['year']}}</b>: <a href="{{event[i]['PrimarySources']}}"
+              target='_blank'>{{event[i]['PrimarySources']}} </a></td>
+        </tr>
+        {% endif %}
+        {% elif event[i]['SecondarySources']!=None %}
+        {% if 'adsabs' not in event[i]['SecondarySources']%}
+        <tr>
+          <td><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></td>
+          <td> <a href="{{event[i]['SecondarySources']}}" target='_blank'>{{event[i]['SecondarySources']}} </a></td>
+        </tr>
+        {% else %}
+        <tr>
+          <td><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></td>
+          <td>{{needed_dict[event[i]['SecondarySources']]['names']}}
+            <b>{{needed_dict[event[i]['SecondarySources']]['year']}}</b>: <a href="{{event[i]['SecondarySources']}}"
+              target='_blank'>{{event[i]['SecondarySources']}} </a></td>
+        </tr>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
 
-  {% else %}
-    <tr>
-        <td><a href="{{radec_refs[i]}}" target = '_blank'>{{i+event|length+1}} </a></td>
-        <td> {{needed_dict[radec_refs[i]]['names']}} <b>{{needed_dict[radec_refs[i]]['year']}}</b>: <a href="{{radec_refs[i]}}" target = '_blank'>{{radec_refs[i]}} </a></td>
-    </tr>
+        <!-- RADec refs -->
 
-  {% endif %}
-  {% endfor %}
+        {% for i in range(radec_refs|length) %}
+        {% if 'adsabs' not in radec_refs[i] %}
+        <tr>
+          <td><a href="{{radec_refs[i]}}" target='_blank'>{{i+event|length+1}} </a></td>
+          <td><a href="{{radec_refs[i]}}" target='_blank'>{{radec_refs[i]}} </a></td>
+        </tr>
 
-  <!-- Xray plot refs -->
-  {% for i in range(swift_refs|length)%}
-    {% if '20' in needed_dict[swift_refs[i]]['year'] %}
-      <tr>
-        <td><a href="{{swift_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
-        <td> {{needed_dict[swift_refs[i]]['names']}} <b>{{needed_dict[swift_refs[i]]['year']}}</b>: <a href="{{swift_refs[i]}}" target = '_blank'>{{swift_refs[i]}} </a></td>
-      </tr>
-    {% elif '19' in needed_dict[swift_refs[i]]['year'] %}
-      <tr>
-        <td><a href="{{swift_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
-        <td> {{needed_dict[swift_refs[i]]['names']}} <b>{{needed_dict[swift_refs[i]]['year']}}</b>: <a href="{{swift_refs[i]}}" target = '_blank'>{{swift_refs[i]}} </a></td>
-      </tr>
-    {% else %}
-      <tr>
-        <td><a href="{{swift_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
-        <td> {{needed_dict[swift_refs[i]]['names']}}: <a href="{{swift_refs[i]}}" target = '_blank'>{{swift_refs[i]}} </a></td>
-      </tr>
-    {% endif %} 
-  {% endfor %}
-  
+        {% else %}
+        <tr>
+          <td><a href="{{radec_refs[i]}}" target='_blank'>{{i+event|length+1}} </a></td>
+          <td> {{needed_dict[radec_refs[i]]['names']}} <b>{{needed_dict[radec_refs[i]]['year']}}</b>: <a
+              href="{{radec_refs[i]}}" target='_blank'>{{radec_refs[i]}} </a></td>
+        </tr>
 
-  <!-- Optical plot refs -->
-  {% for i in range(optical_refs|length)%}
-    {% if '20' in needed_dict[optical_refs[i]]['name'][-5:] %}
-      <tr>
-        <td><a href="{{optical_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
-        <td> {{needed_dict[optical_refs[i]]['name'][:-5]}}<b>{{needed_dict[optical_refs[i]]['name'][-5:]}}</b>: <a href="{{optical_refs[i]}}" target = '_blank'>{{optical_refs[i]}} </a></td>
-      </tr>
-    {% elif '19' in needed_dict[optical_refs[i]]['name'][-5:] %}
-      <tr>
-        <td><a href="{{optical_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
-        <td> {{needed_dict[optical_refs[i]]['name'][:-5]}}<b>{{needed_dict[optical_refs[i]]['name'][-5:]}}</b>: <a href="{{optical_refs[i]}}" target = '_blank'>{{optical_refs[i]}} </a></td>
-      </tr>
-    {% else %}
-      <tr>
-        <td><a href="{{optical_refs[i]}}" target = '_blank'>{{i+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
-        <td> {{needed_dict[optical_refs[i]]['name']}}: <a href="{{optical_refs[i]}}" target = '_blank'>{{optical_refs[i]}} </a></td>
-      </tr>
-    {% endif %} 
-  {% endfor %}
+        {% endif %}
+        {% endfor %}
 
-  <!-- Spectra plot refs -->
-  {% for i in range(spec_refs|length)%}
-    {% if '20' in needed_dict[spec_refs[i]]['name'][-5:] %}
-      <tr>
-        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
-        <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
-      </tr>
-    {% elif '19' in needed_dict[spec_refs[i]]['names'][-5:] %}
-      <tr>
-        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
-        <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
-      </tr>
-    {% else %}
-      <tr>
-        <td><a href="{{spec_refs[i]}}" target = '_blank'>{{i+optical_refs|length+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
-        <td> {{needed_dict[spec_refs[i]]['name']}}: <a href="{{spec_refs[i]}}" target = '_blank'>{{spec_refs[i]}} </a></td>
-      </tr>
-    {% endif %} 
-  {% endfor %}
+        <!-- Xray plot refs -->
+        {% for i in range(swift_refs|length)%}
+        {% if '20' in needed_dict[swift_refs[i]]['year'] %}
+        <tr>
+          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
+          <td> {{needed_dict[swift_refs[i]]['names']}} <b>{{needed_dict[swift_refs[i]]['year']}}</b>: <a
+              href="{{swift_refs[i]}}" target='_blank'>{{swift_refs[i]}} </a></td>
+        </tr>
+        {% elif '19' in needed_dict[swift_refs[i]]['year'] %}
+        <tr>
+          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
+          <td> {{needed_dict[swift_refs[i]]['names']}} <b>{{needed_dict[swift_refs[i]]['year']}}</b>: <a
+              href="{{swift_refs[i]}}" target='_blank'>{{swift_refs[i]}} </a></td>
+        </tr>
+        {% else %}
+        <tr>
+          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event|length+radec_nos|length+1}} </a></td>
+          <td> {{needed_dict[swift_refs[i]]['names']}}: <a href="{{swift_refs[i]}}" target='_blank'>{{swift_refs[i]}}
+            </a></td>
+        </tr>
+        {% endif %}
+        {% endfor %}
 
-  </table>
-  }
-  
-</div>
+
+        <!-- Optical plot refs -->
+        {% for i in range(optical_refs|length)%}
+        {% if '20' in needed_dict[optical_refs[i]]['name'][-5:] %}
+        <tr>
+          <td><a href="{{optical_refs[i]}}" target='_blank'>{{i+event|length+radec_nos|length+swift_refs|length+1}} </a>
+          </td>
+          <td> {{needed_dict[optical_refs[i]]['name'][:-5]}}<b>{{needed_dict[optical_refs[i]]['name'][-5:]}}</b>: <a
+              href="{{optical_refs[i]}}" target='_blank'>{{optical_refs[i]}} </a></td>
+        </tr>
+        {% elif '19' in needed_dict[optical_refs[i]]['name'][-5:] %}
+        <tr>
+          <td><a href="{{optical_refs[i]}}" target='_blank'>{{i+event|length+radec_nos|length+swift_refs|length+1}} </a>
+          </td>
+          <td> {{needed_dict[optical_refs[i]]['name'][:-5]}}<b>{{needed_dict[optical_refs[i]]['name'][-5:]}}</b>: <a
+              href="{{optical_refs[i]}}" target='_blank'>{{optical_refs[i]}} </a></td>
+        </tr>
+        {% else %}
+        <tr>
+          <td><a href="{{optical_refs[i]}}" target='_blank'>{{i+event|length+radec_nos|length+swift_refs|length+1}} </a>
+          </td>
+          <td> {{needed_dict[optical_refs[i]]['name']}}: <a href="{{optical_refs[i]}}"
+              target='_blank'>{{optical_refs[i]}} </a></td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+
+        <!-- Spectra plot refs -->
+        {% for i in range(spec_refs|length)%}
+        {% if '20' in needed_dict[spec_refs[i]]['name'][-5:] %}
+        <tr>
+          <td><a href="{{spec_refs[i]}}"
+              target='_blank'>{{i+optical_refs|length+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
+          <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a
+              href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a></td>
+        </tr>
+        {% elif '19' in needed_dict[spec_refs[i]]['names'][-5:] %}
+        <tr>
+          <td><a href="{{spec_refs[i]}}"
+              target='_blank'>{{i+optical_refs|length+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
+          <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a
+              href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a></td>
+        </tr>
+        {% else %}
+        <tr>
+          <td><a href="{{spec_refs[i]}}"
+              target='_blank'>{{i+optical_refs|length+event|length+radec_nos|length+swift_refs|length+1}} </a></td>
+          <td> {{needed_dict[spec_refs[i]]['name']}}: <a href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a>
+          </td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+
+    </table>
+
+  </div>
 
 </body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-widgets.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-tables.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-widgets.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-tables.js"></script>
 
 
 
