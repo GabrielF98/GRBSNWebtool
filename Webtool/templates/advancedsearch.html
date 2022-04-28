@@ -90,6 +90,36 @@
 			</label>
 			{{ render_field(form.max_ejm, class="form-control", placeholder="e.g. 0.2") }}
 		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min E$_{p}$ [keV]</p>
+			</label>
+			{{ render_field(form.min_epeak, class="form-control", placeholder="e.g. 100") }}
+
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Max E$_{p}$ [keV]</p>
+			</label>
+			{{ render_field(form.max_epeak, class="form-control", placeholder="e.g. 100") }}
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min E$_{k}$ (SN) [ergs]</p>
+			</label>
+			{{ render_field(form.min_ek, class="form-control", placeholder="e.g. 1e52") }}
+
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min E$_{k}$ (SN) [ergs]</p>
+			</label>
+			{{ render_field(form.max_ek, class="form-control", placeholder="e.g. 1e52") }}
+		</div>
 	</div>
 
 	
@@ -138,7 +168,7 @@
 			<th><b>M$_{Ej}$ [M$_{\odot}$]</b></th>
 			<th><b>M$_{Ni}$ [M$_{\odot}$]</b></th>
 			<th><b>E$_{p}$ [keV]</b></th>
-			<th><b>E$_{k}$ (SN) [erg]</b></th>
+			<th><b>E$_{k}$ (SN) [ergs]</b></th>
 		</tr>
 
 		{% for i in range(data|length) %}
