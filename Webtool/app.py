@@ -438,6 +438,16 @@ def event(event_id):
                     radec_nos.append(
                         list(needed_dict.keys()).index(radec[i]['source'])+1)
     
+    #Get a list of all the bands we have peak times or mags for
+    mag_bandlist = []
+    ptime_bandlist = []
+    for i in range(len(peakmag)):
+        if peakmag[i]['band']!=None:
+            if peakmag[i]['mag']!=None:
+                mag_bandlist.append(peakmag[i]['band'])
+            if peakmag[i]['time']!=None:
+                ptime_bandlist.append(peakmag[i]['band'])
+
     # Add the peak times and mags to the master dictionary of sources
     peakmag_refs = []
     peakmag_nos = []
@@ -1014,7 +1024,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     # Return everything
-    return render_template('event.html', event=event, radec=radec, peakmag=peakmag, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])

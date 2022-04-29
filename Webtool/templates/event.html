@@ -49,182 +49,186 @@
           <th>Unit</th>
         </tr>
       </thead>
-      
+
       <tbody>
         {% if event[0]['GRB']!=None %}
-      <tr>
-        <td>T$_{0}$</td>
+        <tr>
+          <td>T$_{0}$</td>
 
-        <td>
-          {% for i in range(radec_nos|length) %}
-          {% if radec[0]['trigtime']|string != 'None' %}
-          {{ grb_time_str }} <sup><a href="{{radec[0]['source']}}" target='_blank'>{{radec_nos[i]}} </a></sup> <br>
-          {% endif %}
-          {% endfor %}
-        </td>
+          <td>
+            {% for i in range(radec_nos|length) %}
+            {% if radec[0]['trigtime']|string != 'None' %}
+            {{ grb_time_str }} <sup><a href="{{radec[0]['source']}}" target='_blank'>{{radec_nos[i]}} </a></sup> <br>
+            {% endif %}
+            {% endfor %}
+          </td>
 
-        <td>UT</td>
-      </tr>
-      {% endif %}
+          <td>UT</td>
+        </tr>
+        {% endif %}
 
-      <tr>
-        <td>E$_{iso}$</td>
+        <tr>
+          <td>E$_{iso}$</td>
 
-        <td>
-          {% for i in range(event|length) %}
-          {% if event[i]['e_iso'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-          {{ event[i]['e_iso'] }} <sup> {{i+1}} </sup> <br>
-          {% elif event[i]['PrimarySources'] != None %}
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['e_iso'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['e_iso'] }} <sup> {{i+1}} </sup> <br>
+            {% elif event[i]['PrimarySources'] != None %}
 
-          {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-          {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
-          <br>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-        </td>
+            {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup>
+            <br>
+            {% else %}
+            {{ event[i]['e_iso'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
+            <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
 
-        <td>erg</td>
-      </tr>
+          <td>erg</td>
+        </tr>
 
-      <tr>
-        <td>E$_p$</td>
-        <td>{% for i in range(event|length) %}
-          {% if event[i]['E_p'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-          {{ event[i]['E_p'] }} <sup> {{i+1}} </sup> <br>
+        <tr>
+          <td>E$_p$</td>
+          <td>{% for i in range(event|length) %}
+            {% if event[i]['E_p'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['E_p'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-          {{ event[i]['E_p'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-          {{ event[i]['E_p'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-        </td>
-        <td>keV</td>
-      </tr>
-      <tr>
-        <td>z</td>
-        <td>
-          {% for i in range(event|length) %}
-          {% if event[i]['z'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-          {{ event[i]['z'] }} <sup> {{i+1}} </sup> <br>
-          {% elif event[i]['PrimarySources'] != None %}
+            {{ event[i]['E_p'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+            {% else %}
+            {{ event[i]['E_p'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
+            <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>keV</td>
+        </tr>
+        <tr>
+          <td>z</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['z'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['z'] }} <sup> {{i+1}} </sup> <br>
+            {% elif event[i]['PrimarySources'] != None %}
 
-          {{ event[i]['z'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-          {{ event[i]['z'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>T$_{90}$</td>
-        <td>
-          {% for i in range(event|length) %}
-          {% if event[i]['T90'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-          {{ event[i]['T90'] }} <sup> {{i+1}} </sup> <br>
+            {{ event[i]['z'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+            {% else %}
+            {{ event[i]['z'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>T$_{90}$</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['T90'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['T90'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-          {{ event[i]['T90'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-          {{ event[i]['T90'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-        </td>
-        <td>sec</td>
-      </tr>
-      <tr>
-        <td>p</td>
-        <td>
-          {% for i in range(event|length) %}
-          {% if event[i]['p'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-          {{ event[i]['p'] }} <sup> {{i+1}} </sup> <br>
+            {{ event[i]['T90'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+            {% else %}
+            {{ event[i]['T90'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
+            <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>sec</td>
+        </tr>
+        <tr>
+          <td>p</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['p'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['p'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-          {{ event[i]['p'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-          {{ event[i]['p'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>n</td>
-        <td>
-          {% for i in range(event|length) %}
-          {% if event[i]['n'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-          {{ event[i]['n'] }} <sup> {{i+1}} </sup> <br>
+            {{ event[i]['p'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+            {% else %}
+            {{ event[i]['p'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>n</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['n'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['n'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-          {{ event[i]['n'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% else %}
-          {{ event[i]['n'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-        </td>
-        <td>cm$^{-3}$</td>
-      </tr>
-      <tr>
-        <td>$\theta_{jet}$</td>
-        <td>
-          {% for i in range(event|length) %}
-          {% if event[i]['open_deg'] != None %}
-          {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-          {{ event[i]['open_deg'] }} <sup> {{i+1}} </sup> <br>
+            {{ event[i]['n'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+            {% else %}
+            {{ event[i]['n'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup> <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>cm$^{-3}$</td>
+        </tr>
+        <tr>
+          <td>$\theta_{jet}$</td>
+          <td>
+            {% for i in range(event|length) %}
+            {% if event[i]['open_deg'] != None %}
+            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
+            {{ event[i]['open_deg'] }} <sup> {{i+1}} </sup> <br>
 
-          {% elif event[i]['PrimarySources'] != None %}
+            {% elif event[i]['PrimarySources'] != None %}
 
-          {{ event[i]['open_deg'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup>
-          <br>
-          {% else %}
-          {{ event[i]['open_deg'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
-          <br>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-        </td>
-        <td>degrees</td>
-      </tr>
-      <tr>
-        <td>RA</td>
-        <td>
-          {% for i in range(radec_nos|length) %}
-          {% if radec[0]['ra']|string != 'None' %}
-          {{ radec[0]['ra'] }} <sup><a href="{{radec[0]['source']}}" target='_blank'>{{radec_nos[i]}} </a></sup> <br>
-          {% endif %}
-          {% endfor %}
-        </td>
-        <td>hh:mm:ss.s</td>
-      </tr>
-      <tr>
-        <td>Dec</td>
-        <td>
-          {% for i in range(radec_nos|length) %}
-          {% if radec[0]['dec']|string != 'None' %}
-          {{ radec[0]['dec'] }} <sup><a href="{{radec[0]['source']}}" target='_blank'>{{radec_nos[i]}} </a></sup> <br>
-          {% endif %}
-          {% endfor %}
-        </td>
-        <td>dd:mm:ss.s</td>
-      </tr>
+            {{ event[i]['open_deg'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup>
+            <br>
+            {% else %}
+            {{ event[i]['open_deg'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}}
+              </a></sup>
+            <br>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>degrees</td>
+        </tr>
+        <tr>
+          <td>RA</td>
+          <td>
+            {% for i in range(radec_nos|length) %}
+            {% if radec[0]['ra']|string != 'None' %}
+            {{ radec[0]['ra'] }} <sup><a href="{{radec[0]['source']}}" target='_blank'>{{radec_nos[i]}} </a></sup> <br>
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>hh:mm:ss.s</td>
+        </tr>
+        <tr>
+          <td>Dec</td>
+          <td>
+            {% for i in range(radec_nos|length) %}
+            {% if radec[0]['dec']|string != 'None' %}
+            {{ radec[0]['dec'] }} <sup><a href="{{radec[0]['source']}}" target='_blank'>{{radec_nos[i]}} </a></sup> <br>
+            {% endif %}
+            {% endfor %}
+          </td>
+          <td>dd:mm:ss.s</td>
+        </tr>
       </tbody>
     </table>
 
@@ -315,32 +319,6 @@
           </td>
           <td>M$_{\odot}$</td>
         </tr>
-        <!-- <tr>
-          <td>t$_{peak}$</td>
-          <td>
-            {% for i in range(event|length) %}
-            {% if event[i]['t_peak'] != None %}
-            {% if event[i]['PrimarySources']|string() == 'PRIVATE COM.' %}
-            {{ event[i]['t_peak'] }} <sup> {{i+1}} </sup> <br>
-
-            {% elif event[i]['PrimarySources'] != None %}
-
-            {{ event[i]['t_peak'] }} <sup><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></sup>
-            <br>
-            {% else %}
-            {{ event[i]['t_peak'] }} <sup><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></sup>
-            <br>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-          </td>
-          <td>days (rest frame I think but need to make sure)</td>
-        </tr>
-        <tr>
-          <td>Peak $m_V$ (set it so the band will change if needed)</td>
-          <td></td>
-          <td>Unavailable yet</td>
-        </tr> -->
         <tr>
           <td>v$_{photospheric}$</td>
           <td>
@@ -406,32 +384,45 @@
         </tr>
 
         <!-- Loop over the magnitudes/times to print any that exist -->
-        {% if peakmag|length != 0 %}
-        {% for i in range(peakmag|length) %}
+        {% for i in range(ptime_bandlist|length) %}
         <tr>
-          <td>t$_{peak, {{peakmag[i]['band']}}}$</td>
-  
+          <td>t$_{peak, {{ptime_bandlist[i]}}}$</td>
           <td>
-            {% if peakmag[i]['time']|string != 'None' %}
-            {{ peakmag[i]['time'] }} <sup><a href="{{peakmag[i]['source']}}" target='_blank'>{{peakmag_nos[i]}} {{range(peakmag|length)}}</a></sup> <br>
+            {% for j in range(peakmag|length) %}
+            {% if peakmag[j]['band'] == ptime_bandlist[i] %}
+
+            {% if peakmag[j]['time'] != None %}
+            {{ peakmag[j]['time'] }} <sup><a href="{{peakmag[j]['source']}}"
+                target='_blank'>{{peakmag_nos[j]}}</a></sup> <br>
             {% endif %}
+
+            {% endif %}
+            {% endfor %}
           </td>
-  
+
           <td>days</td>
         </tr>
+        {% endfor %}
+
+        {% for i in range(mag_bandlist|length) %}
         <tr>
-          <td>m$_{peak, {{peakmag[i]['band']}}}$</td>
-  
+          <td>m$_{peak, {{mag_bandlist[i]}}}$</td>
           <td>
-            {% if peakmag[i]['time']|string != 'None' %}
-            {{ peakmag[i]['mag'] }} <sup><a href="{{peakmag[i]['source']}}" target='_blank'>{{peakmag_nos[i]}} </a></sup> <br>
+            {% for j in range(peakmag|length) %}
+            {% if peakmag[j]['band'] == mag_bandlist[i] %}
+
+            {% if peakmag[j]['mag'] != None %}
+            {{ peakmag[j]['mag'] }} <sup><a href="{{peakmag[j]['source']}}"
+                target='_blank'>{{peakmag_nos[j]}}</a></sup> <br>
             {% endif %}
+
+            {% endif %}
+            {% endfor %}
           </td>
-  
-          <td>{{peakmag[i]['unit']}}</td>
+
+          <td>days</td>
         </tr>
         {% endfor %}
-        {% endif %}
       </tbody>
 
 
@@ -559,7 +550,7 @@
   <!-- Table of references -->
   <h2><b>References</b></h2>
   <div>
-    
+
     <table class="table table-sm">
       <thead>
         <tr>
@@ -582,7 +573,8 @@
           <td><a href="{{event[i]['PrimarySources']}}" target='_blank'>{{i+1}} </a></td>
           <td>{{needed_dict[event[i]['PrimarySources']]['names']}}
             <b>{{needed_dict[event[i]['PrimarySources']]['year']}}</b>: <a href="{{event[i]['PrimarySources']}}"
-              target='_blank'>{{event[i]['PrimarySources']}} </a></td>
+              target='_blank'>{{event[i]['PrimarySources']}} </a>
+          </td>
         </tr>
         {% endif %}
         {% elif event[i]['SecondarySources']!=None %}
@@ -596,7 +588,8 @@
           <td><a href="{{event[i]['SecondarySources']}}" target='_blank'>{{i+1}} </a></td>
           <td>{{needed_dict[event[i]['SecondarySources']]['names']}}
             <b>{{needed_dict[event[i]['SecondarySources']]['year']}}</b>: <a href="{{event[i]['SecondarySources']}}"
-              target='_blank'>{{event[i]['SecondarySources']}} </a></td>
+              target='_blank'>{{event[i]['SecondarySources']}} </a>
+          </td>
         </tr>
         {% endif %}
         {% endif %}
@@ -644,19 +637,22 @@
         {% for i in range(swift_refs|length)%}
         {% if '20' in needed_dict[swift_refs[i]]['year'] %}
         <tr>
-          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event|length+peakmag_refs|length+radec_refs|length+1}} </a></td>
+          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event|length+peakmag_refs|length+radec_refs|length+1}}
+            </a></td>
           <td> {{needed_dict[swift_refs[i]]['names']}} <b>{{needed_dict[swift_refs[i]]['year']}}</b>: <a
               href="{{swift_refs[i]}}" target='_blank'>{{swift_refs[i]}} </a></td>
         </tr>
         {% elif '19' in needed_dict[swift_refs[i]]['year'] %}
         <tr>
-          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event|length+peakmag_refs|length+radec_refs|length+1}} </a></td>
+          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event|length+peakmag_refs|length+radec_refs|length+1}}
+            </a></td>
           <td> {{needed_dict[swift_refs[i]]['names']}} <b>{{needed_dict[swift_refs[i]]['year']}}</b>: <a
               href="{{swift_refs[i]}}" target='_blank'>{{swift_refs[i]}} </a></td>
         </tr>
         {% else %}
         <tr>
-          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event|length+peakmag_refs|length+radec_refs|length+1}} </a></td>
+          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event|length+peakmag_refs|length+radec_refs|length+1}}
+            </a></td>
           <td> {{needed_dict[swift_refs[i]]['names']}}: <a href="{{swift_refs[i]}}" target='_blank'>{{swift_refs[i]}}
             </a></td>
         </tr>
@@ -668,21 +664,24 @@
         {% for i in range(optical_refs|length)%}
         {% if '20' in needed_dict[optical_refs[i]]['name'][-5:] %}
         <tr>
-          <td><a href="{{optical_refs[i]}}" target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a>
+          <td><a href="{{optical_refs[i]}}"
+              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a>
           </td>
           <td> {{needed_dict[optical_refs[i]]['name'][:-5]}}<b>{{needed_dict[optical_refs[i]]['name'][-5:]}}</b>: <a
               href="{{optical_refs[i]}}" target='_blank'>{{optical_refs[i]}} </a></td>
         </tr>
         {% elif '19' in needed_dict[optical_refs[i]]['name'][-5:] %}
         <tr>
-          <td><a href="{{optical_refs[i]}}" target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a>
+          <td><a href="{{optical_refs[i]}}"
+              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a>
           </td>
           <td> {{needed_dict[optical_refs[i]]['name'][:-5]}}<b>{{needed_dict[optical_refs[i]]['name'][-5:]}}</b>: <a
               href="{{optical_refs[i]}}" target='_blank'>{{optical_refs[i]}} </a></td>
         </tr>
         {% else %}
         <tr>
-          <td><a href="{{optical_refs[i]}}" target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a>
+          <td><a href="{{optical_refs[i]}}"
+              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a>
           </td>
           <td> {{needed_dict[optical_refs[i]]['name']}}: <a href="{{optical_refs[i]}}"
               target='_blank'>{{optical_refs[i]}} </a></td>
@@ -695,21 +694,24 @@
         {% if '20' in needed_dict[spec_refs[i]]['name'][-5:] %}
         <tr>
           <td><a href="{{spec_refs[i]}}"
-              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a></td>
+              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}}
+            </a></td>
           <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a
               href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a></td>
         </tr>
         {% elif '19' in needed_dict[spec_refs[i]]['names'][-5:] %}
         <tr>
           <td><a href="{{spec_refs[i]}}"
-              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a></td>
+              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}}
+            </a></td>
           <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a
               href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a></td>
         </tr>
         {% else %}
         <tr>
           <td><a href="{{spec_refs[i]}}"
-              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a></td>
+              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}}
+            </a></td>
           <td> {{needed_dict[spec_refs[i]]['name']}}: <a href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a>
           </td>
         </tr>
