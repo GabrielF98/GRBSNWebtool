@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 import glob
+from csv import writer
 
 root = os.getcwd()
 dirs = [ item for item in os.listdir(root) if os.path.isdir(os.path.join(root, item)) ]
@@ -16,16 +17,14 @@ loc = '/NotionExportMay22/'
 root = root+loc
 dirs2 = [ item for item in os.listdir(root) if os.path.isdir(os.path.join(root, item)) ]
 
-for i in dirs2:	
-	print(i)
+for i in dirs2:
 	if 'Download' in str(i):
 		sourcefolder1 = str(i)+'/'
 
 root = root+sourcefolder1
 dirs3 = [ item for item in os.listdir(root) if os.path.isdir(os.path.join(root, item)) ]
 
-for i in dirs3:	
-	print(i)
+for i in dirs3:
 	if 'Source List' in str(i):
 		sourcefolder2 = str(i)+'/'
 
@@ -36,7 +35,6 @@ dirs4 = [ item for item in os.listdir(root) if os.path.isdir(os.path.join(root, 
 for j in file_list:
 	for i in dirs4:	
 		if str(j) in str(i):
-			print("I work")
 			#List the csvs in this folder (i)
 			csv_files = glob.glob(os.path.join(root+i, "*.csv"))
 			
@@ -54,7 +52,45 @@ for j in file_list:
 
 
 
+## Add the bit for XRT LC references
+for i in file_list:
+	files = os.listdir(i)
+	for j in files:
+		#print(j)
+		if str('xrtlc') in str(j):
+			#Write to the csv of sources
+			with open('./'+i+'/'+i+'filesources.csv', 'a', newline='') as file:
+				writer_obj = writer(file)
 
+				writer_obj.writerow([str(i), 'Xray', 'https://www.swift.ac.uk/xrt_curves/'])
+			file.close()
 
+## Add the bit for OpenSN data
+for i in file_list:
+	print("i is:", i)
+	if 'SN' in str(i)[:2]:
+		name = list(str(i).split('-'))[0]
+	elif len(str(i))>11:
+		name = list(str(i).split('-'))[1]
 
+	files = os.listdir(i)
+	for j in files:
+		#print(j)
+		if str('OpenSNPhotometry') in str(j):
+			print(str(i))
+			#Write to the csv of sources
+			with open('./'+i+'/'+i+'filesources.csv', 'a', newline='') as file:
+				writer_obj = writer(file)
+
+				writer_obj.writerow([i, j, 'Optical', 'https://api.astrocats.space/'+name+'/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv'])
+			file.close()
+
+	for j in files:
+		if str('OpenSNSpectra') in str(j):
+			#Write to the csv of sources
+			with open('./'+i+'/'+i+'filesources.csv', 'a', newline='') as file:
+				writer_obj = writer(file)
+
+				writer_obj.writerow([i, j, 'Spectra', 'https://api.astrocats.space/'+name+'/spectra/?item='+str(str(j).replace("OpenSNSpectra", "")).replace('.json', "")+'&format=json'])
+			file.close()
 
