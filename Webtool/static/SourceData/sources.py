@@ -47,7 +47,7 @@ for j in file_list:
 			length = len(df)
 			name_col = [j]*length
 
-			df['GRB-SN'] = name_col
+			df.insert(0, 'GRB/SN', name_col)
 
 			#Write to a csv for these GRBs
 			df.to_csv('./'+str(j)+'/'+str(j)+'filesources.csv', sep=',', index=False)
