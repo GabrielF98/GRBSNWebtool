@@ -1,0 +1,27 @@
+Table 7 
+Ground-based Photometric Observations of the GRB 101225A Afterglow
+
+
+Date-obs	MJD-obs	DeltaT	Telescope	Band	Exp.	AB-mag	
+(days)	(s)	
+2010 Dec 26	55556.9472	1.1710	WHT	r	300	22.68 +or- 0.08	
+2010 Dec 26	55556.9517	1.1755	WHT	i	300	23.15 +or- 0.25	
+2010 Dec 26	55556.9561	1.1799	WHT	i	300	23.25 +or- 0.24	
+2010 Dec 26	55556.9600	1.8380	WHT	r	300	22.70 +or- 0.07	
+2010 Dec 26	55556.9643	1.1880	WHT	r	300	22.69 +or- 0.08	
+2010 Dec 26	55556.9683	1.1921	WHT	i	300	23.23 +or- 0.16	
+2010 Dec 27	55557.2861	1.5100	Gemini	r	120	22.84 +or- 0.03	
+2010 Dec 30	55560.1863	4.4101	Gemini	r	720	23.50 +or- 0.10	
+2011 Jan 9	55570.8289	15.0527	WHT	r	1500	24.10 +or- 0.14	
+2011 Jan 9	55570.8500	15.0732	WHT	B	3600	25.88 +or- 0.40	
+2011 Jan 10	55571.2056	15.4293	Gemini	g	1200	25.22 +or- 0.10	
+2011 Jan 10	55571.2229	15.4467	Gemini	r	1440	24.32 +or- 0.03	
+2011 Jan 10	55571.2444	15.4682	Gemini	i	1890	24.13 +or- 0.04	
+2011 Jan 19	55580.8419	25.0657	WHT	r	3600	25.01 +or- 0.32	
+2011 Jan 23	55584.2674	28.4911	Gemini	r	900	24.87 +or- 0.08	
+2011 Feb 3	55595.2632	39.4870	Gemini	g	900	26.25 +or- 0.32	
+2011 Feb 3	55595.2486	39.4724	Gemini	r	900	24.71 +or- 0.19	
+2011 Feb 3	55595.2347	39.4585	Gemini	i	900	24.62 +or- 0.08	
+2011 Feb 3	55595.2181	39.4418	Gemini	z	1260	24.90 +or- 0.25	
+2011 Jul 1	55743.5576	187.7810	Gemini	g	3000	26.79 +or- 0.14	
+Notes. Photometric observations of GRB 101225A obtained at the WHT and Gemini-N. The magnitudes have not been corrected for Galactic extinction; to do so would require corrections based on Schlafly & Finkbeiner (2011) of A_B = 0.37, A_g = 0.33, A_r = 0.23, A_i = 0.17, and A_z = 0.13.
