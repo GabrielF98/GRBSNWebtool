@@ -3,16 +3,16 @@ import numpy as np
 
 import pandas as pd
 
-data = pd.read_csv('tns_Ic-BLs_Feb22.csv')
+data = pd.read_csv('tns_IcBLs_May22022.csv')
 
 redshift = data['Redshift']
 sn_names = data['Name']
 
-spec_IcBLs_with_GRBs = ['2016jca', '2017htp', '2017iuk', '2018fip', '2019jrj', '2020bvc', 'AT2019oyw']
+# spec_IcBLs_with_GRBs = ['2016jca', '2017htp', '2017iuk', '2018fip', '2019jrj', '2020bvc', 'AT2019oyw']
 
 #Number of SN events per year with and without GRBs
-event_years_with = [1, 2, 1, 2, 1, 1, 0]
-
+event_years_with = [1, 2, 1, 2, 1, 0, 0] #Including those discovered by association with a GRB
+event_years_with_grb = [0, 0, 0, 0, 2, 1, 1]
 event_years_without = [0, 0, 0, 0, 0, 0, 0]
 
 #Loop over the names of the Ic-BLs
@@ -24,13 +24,15 @@ for i in sn_names:
 for i in range(len(event_years_without)):
 	event_years_without[i] = event_years_without[i]-event_years_with[i]
 
-labels = ['2016', '2017', '2018', '2019', '2020', '2021', 'Feb. 2022']
+labels = ['2016', '2017', '2018', '2019', '2020', '2021', 'May. 2022']
 width = 0.6
 
 fig, ax = plt.subplots()
 
 ax.bar(labels, event_years_without, width, color='green', alpha=0.5, label='Without GRB')
-ax.bar(labels, event_years_with, width, color='purple', alpha=0.5, bottom=event_years_without, label='With GRB')
+ax.bar(labels, event_years_with, width, color='purple', alpha=0.5, bottom=event_years_without, label='With GRB (spec)')
+ax.bar(labels, event_years_with_grb, width, color='#FF07CC', alpha=0.5, bottom=np.array(event_years_with)+np.array(event_years_without), label='With GRB (phot)')
+
 
 ax.set_ylabel('IcBLs/year')
 ax.legend()
