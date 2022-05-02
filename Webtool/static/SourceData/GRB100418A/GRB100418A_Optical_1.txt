@@ -1,0 +1,9 @@
+Table 1. Observation log.
+      UT date 	 Time after the burst 	 Filter 	 Exposure time   
+ midpoint of exposures 	 (d) 	 	 (s)     
+      14.50969 	 25.62765 	 R_{\rm c} 	 120   
+      14.51178 	 25.62974 	 I_{\rm c} 	 120   
+      14.51388 	 25.63184 	 V  	 120  
+      14.51705 	 25.63501 	 (Unbinned) R_{\rm c} 	 120 \times 2  
+      14.56639 	 25.68435 	 300R+O58 	 1200 \times 3  
+      14.57130 	 25.68926 	 300B 	 1200 \times 3   
