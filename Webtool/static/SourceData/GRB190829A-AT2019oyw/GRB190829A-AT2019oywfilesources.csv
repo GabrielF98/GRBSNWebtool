@@ -1,2 +1,8 @@
-GRB/SN,File name,Datatypes,Sources
+GRB/SN,Filename,Status,Reference
+GRB190829A-AT2019oyw,GRB190829A-AT2019oyw_Spectra,Spectra,https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
+GRB190829A-AT2019oyw,GRB190829A-AT2019oyw_Optical_1.html,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
+GRB190829A-AT2019oyw,GRB190829A-AT2019oyw_Radio_1.html,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2020MNRAS.496.3326R/abstract
+GRB190829A-AT2019oyw,GRB190829A-AT2019oyw_Radio_2.html,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2020MNRAS.496.3326R/abstract
+GRB190829A-AT2019oyw,GRB190829A-AT2019oyw_Optical_UV_1.txt,"Early, Optical, UV",https://ui.adsabs.harvard.edu/abs/2020ApJ...898...42C/abstract
+GRB190829A-AT2019oyw,Xray,https://www.swift.ac.uk/xrt_curves/
 GRB190829A-AT2019oyw,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/AT2019oyw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

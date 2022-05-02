@@ -1,4 +1,10 @@
-GRB/SN,File name,Datatypes,Sources
-GRB031203-SN2003lw,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/2003lw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-GRB031203-SN2003lw,OpenSNSpectra0.csv,Spectra,https://api.astrocats.space/2003lw/spectra/?item=0&format=json
-GRB031203-SN2003lw,OpenSNSpectra1.csv,Spectra,https://api.astrocats.space/2003lw/spectra/?item=1&format=json
+GRB/SN,Filename,Status,Reference
+GRB031203-SN2003lw,,Spectra,https://ui.adsabs.harvard.edu/abs/2011A%26A...534A..84G/abstract
+GRB031203-SN2003lw,GRB031203-SN2003lw_Optical1.html,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract
+GRB031203-SN2003lw,,Radio,https://ui.adsabs.harvard.edu/abs/2004Natur.430..648S/abstract
+GRB031203-SN2003lw,GRB031203_SN2003lw_Optical.txt,"Early, Late, NIR",https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract
+GRB031203-SN2003lw,GRB031203_SN2003lw_Optical_ComparitivePhotometry.html,Optical,https://ui.adsabs.harvard.edu/abs/2004A%26A...419L..21T/abstract
+GRB031203-SN2003lw,GRB031203-SN2003lw_Optical2.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract
+GRB031203-SN2003lw,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2003lw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+GRB031203-SN2003lw,OpenSNSpectra0.json,Spectra,https://api.astrocats.space/SN2003lw/spectra/?item=0&format=json
+GRB031203-SN2003lw,OpenSNSpectra1.json,Spectra,https://api.astrocats.space/SN2003lw/spectra/?item=1&format=json

@@ -1,32 +1,41 @@
-GRB/SN,File name,Datatypes,Sources
-GRB980425-SN1998bw,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/1998bw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-GRB980425-SN1998bw,OpenSNSpectra0.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=0&format=json
-GRB980425-SN1998bw,OpenSNSpectra1.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=1&format=json
-GRB980425-SN1998bw,OpenSNSpectra2.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=2&format=json
-GRB980425-SN1998bw,OpenSNSpectra3.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=3&format=json
-GRB980425-SN1998bw,OpenSNSpectra4.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=4&format=json
-GRB980425-SN1998bw,OpenSNSpectra5.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=5&format=json
-GRB980425-SN1998bw,OpenSNSpectra6.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=6&format=json
-GRB980425-SN1998bw,OpenSNSpectra7.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=7&format=json
-GRB980425-SN1998bw,OpenSNSpectra8.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=8&format=json
-GRB980425-SN1998bw,OpenSNSpectra9.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=9&format=json
-GRB980425-SN1998bw,OpenSNSpectra10.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=10&format=json
-GRB980425-SN1998bw,OpenSNSpectra11.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=11&format=json
-GRB980425-SN1998bw,OpenSNSpectra12.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=12&format=json
-GRB980425-SN1998bw,OpenSNSpectra13.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=13&format=json
-GRB980425-SN1998bw,OpenSNSpectra14.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=14&format=json
-GRB980425-SN1998bw,OpenSNSpectra15.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=15&format=json
-GRB980425-SN1998bw,OpenSNSpectra16.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=16&format=json
-GRB980425-SN1998bw,OpenSNSpectra17.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=17&format=json
-GRB980425-SN1998bw,OpenSNSpectra18.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=18&format=json
-GRB980425-SN1998bw,OpenSNSpectra19.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=19&format=json
-GRB980425-SN1998bw,OpenSNSpectra20.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=20&format=json
-GRB980425-SN1998bw,OpenSNSpectra21.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=21&format=json
-GRB980425-SN1998bw,OpenSNSpectra22.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=22&format=json
-GRB980425-SN1998bw,OpenSNSpectra23.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=23&format=json
-GRB980425-SN1998bw,OpenSNSpectra24.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=24&format=json
-GRB980425-SN1998bw,OpenSNSpectra25.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=25&format=json
-GRB980425-SN1998bw,OpenSNSpectra26.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=26&format=json
-GRB980425-SN1998bw,OpenSNSpectra27.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=27&format=json
-GRB980425-SN1998bw,OpenSNSpectra28.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=28&format=json
-GRB980425-SN1998bw,OpenSNSpectra29.csv,Spectra,https://api.astrocats.space/1998bw/spectra/?item=29&format=json
+GRB/SN,Filename,Status,Reference
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_1.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_2.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical+Other.html,Optical,https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_IR.html,IR,https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_3.html,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_4.html,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract
+GRB980425-SN1998bw,Xraydata.gif,"Early, Xray",https://ui.adsabs.harvard.edu/abs/1999A%26AS..138..463P/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_5.html,"Late, Optical",https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract
+GRB980425-SN1998bw,,,
+GRB980425-SN1998bw,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN1998bw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+GRB980425-SN1998bw,OpenSNSpectra2.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=2&format=json
+GRB980425-SN1998bw,OpenSNSpectra27.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=27&format=json
+GRB980425-SN1998bw,OpenSNSpectra11.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=11&format=json
+GRB980425-SN1998bw,OpenSNSpectra10.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=10&format=json
+GRB980425-SN1998bw,OpenSNSpectra26.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=26&format=json
+GRB980425-SN1998bw,OpenSNSpectra3.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=3&format=json
+GRB980425-SN1998bw,OpenSNSpectra8.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=8&format=json
+GRB980425-SN1998bw,OpenSNSpectra17.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=17&format=json
+GRB980425-SN1998bw,OpenSNSpectra4.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=4&format=json
+GRB980425-SN1998bw,OpenSNSpectra21.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=21&format=json
+GRB980425-SN1998bw,OpenSNSpectra20.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=20&format=json
+GRB980425-SN1998bw,OpenSNSpectra5.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=5&format=json
+GRB980425-SN1998bw,OpenSNSpectra16.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=16&format=json
+GRB980425-SN1998bw,OpenSNSpectra9.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=9&format=json
+GRB980425-SN1998bw,OpenSNSpectra15.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=15&format=json
+GRB980425-SN1998bw,OpenSNSpectra19.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=19&format=json
+GRB980425-SN1998bw,OpenSNSpectra23.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=23&format=json
+GRB980425-SN1998bw,OpenSNSpectra6.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=6&format=json
+GRB980425-SN1998bw,OpenSNSpectra7.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=7&format=json
+GRB980425-SN1998bw,OpenSNSpectra22.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=22&format=json
+GRB980425-SN1998bw,OpenSNSpectra18.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=18&format=json
+GRB980425-SN1998bw,OpenSNSpectra14.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=14&format=json
+GRB980425-SN1998bw,OpenSNSpectra25.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=25&format=json
+GRB980425-SN1998bw,OpenSNSpectra0.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=0&format=json
+GRB980425-SN1998bw,OpenSNSpectra13.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=13&format=json
+GRB980425-SN1998bw,OpenSNSpectra29.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=29&format=json
+GRB980425-SN1998bw,OpenSNSpectra28.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=28&format=json
+GRB980425-SN1998bw,OpenSNSpectra12.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=12&format=json
+GRB980425-SN1998bw,OpenSNSpectra1.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=1&format=json
+GRB980425-SN1998bw,OpenSNSpectra24.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=24&format=json

@@ -1,18 +1,25 @@
-GRB/SN,File name,Datatypes,Sources
-GRB100316D-SN2010bh,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/2010bh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-GRB100316D-SN2010bh,OpenSNSpectra0.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=0&format=json
-GRB100316D-SN2010bh,OpenSNSpectra1.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=1&format=json
-GRB100316D-SN2010bh,OpenSNSpectra2.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=2&format=json
-GRB100316D-SN2010bh,OpenSNSpectra3.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=3&format=json
-GRB100316D-SN2010bh,OpenSNSpectra4.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=4&format=json
-GRB100316D-SN2010bh,OpenSNSpectra5.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=5&format=json
-GRB100316D-SN2010bh,OpenSNSpectra6.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=6&format=json
-GRB100316D-SN2010bh,OpenSNSpectra7.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=7&format=json
-GRB100316D-SN2010bh,OpenSNSpectra8.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=8&format=json
-GRB100316D-SN2010bh,OpenSNSpectra9.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=9&format=json
-GRB100316D-SN2010bh,OpenSNSpectra10.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=10&format=json
-GRB100316D-SN2010bh,OpenSNSpectra11.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=11&format=json
-GRB100316D-SN2010bh,OpenSNSpectra12.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=12&format=json
-GRB100316D-SN2010bh,OpenSNSpectra13.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=13&format=json
-GRB100316D-SN2010bh,OpenSNSpectra14.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=14&format=json
-GRB100316D-SN2010bh,OpenSNSpectra15.csv,Spectra,https://api.astrocats.space/2010bh/spectra/?item=15&format=json
+GRB/SN,Filename,Status,Reference
+GRB100316D-SN2010bh,GRB100316D-SN2010bh_Radio.txt,"Late, Radio",https://ui.adsabs.harvard.edu/abs/2013ApJ...778...18M/abstract
+GRB100316D-SN2010bh,GRB100316D-SN2010bh_Optical.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2012ApJ...753...67B/abstract
+GRB100316D-SN2010bh,GRB100316D-SN2010bh_Optical1.html,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2012A%26A...539A..76O/abstract
+GRB100316D-SN2010bh,GRB100316D-SN2010bh_IR_Optical2.txt,"Early, IR, Late, Optical",https://ui.adsabs.harvard.edu/abs/2011ApJ...740...41C/abstract
+GRB100316D-SN2010bh,GRB100316D-SN2010bh_Optical3.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2011ApJ...740...41C/abstract
+GRB100316D-SN2010bh,,,
+GRB100316D-SN2010bh,Xray,https://www.swift.ac.uk/xrt_curves/
+GRB100316D-SN2010bh,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2010bh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+GRB100316D-SN2010bh,OpenSNSpectra2.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=2&format=json
+GRB100316D-SN2010bh,OpenSNSpectra11.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=11&format=json
+GRB100316D-SN2010bh,OpenSNSpectra10.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=10&format=json
+GRB100316D-SN2010bh,OpenSNSpectra3.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=3&format=json
+GRB100316D-SN2010bh,OpenSNSpectra8.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=8&format=json
+GRB100316D-SN2010bh,OpenSNSpectra4.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=4&format=json
+GRB100316D-SN2010bh,OpenSNSpectra5.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=5&format=json
+GRB100316D-SN2010bh,OpenSNSpectra9.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=9&format=json
+GRB100316D-SN2010bh,OpenSNSpectra15.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=15&format=json
+GRB100316D-SN2010bh,OpenSNSpectra6.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=6&format=json
+GRB100316D-SN2010bh,OpenSNSpectra7.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=7&format=json
+GRB100316D-SN2010bh,OpenSNSpectra14.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=14&format=json
+GRB100316D-SN2010bh,OpenSNSpectra0.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=0&format=json
+GRB100316D-SN2010bh,OpenSNSpectra13.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=13&format=json
+GRB100316D-SN2010bh,OpenSNSpectra12.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=12&format=json
+GRB100316D-SN2010bh,OpenSNSpectra1.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=1&format=json
