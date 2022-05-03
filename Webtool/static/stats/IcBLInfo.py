@@ -24,18 +24,20 @@ for i in sn_names:
 for i in range(len(event_years_without)):
 	event_years_without[i] = event_years_without[i]-event_years_with[i]
 
-labels = ['2016', '2017', '2018', '2019', '2020', '2021', 'May. 2022']
+labels = ['2016', '2017', '2018', '2019', '2020', '2021', '2022']
 width = 0.6
 
 fig, ax = plt.subplots()
+plt.rcParams.update({'font.size': 14})
 
 ax.bar(labels, event_years_without, width, color='green', alpha=0.5, label='Without GRB')
 ax.bar(labels, event_years_with, width, color='purple', alpha=0.5, bottom=event_years_without, label='With GRB (spec)')
 ax.bar(labels, event_years_with_grb, width, color='#FF07CC', alpha=0.5, bottom=np.array(event_years_with)+np.array(event_years_without), label='With GRB (phot)')
 
+ax.set_ylabel('IcBLs/year', size=15)
+ax.legend(loc = 'best')
+plt.yticks([0, 5, 10, 15, 20, 25], size=15)
+plt.ylim([0, 28])
+plt.xticks(size=14)
 
-ax.set_ylabel('IcBLs/year')
-ax.legend()
-plt.yticks([0, 5, 10, 15, 20, 25])
-
-plt.savefig('IcBLAssociationsNumberperyear(Bar).pdf') 
+plt.savefig('IcBLAssociations4Paper.pdf') 
