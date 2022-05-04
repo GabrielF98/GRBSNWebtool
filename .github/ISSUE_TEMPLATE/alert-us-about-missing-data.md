@@ -1,6 +1,6 @@
 ---
 name: Alert us about missing data
-about: If a user is aware of available data for a GRB-SN association which is not
+about: If a user is aware of available data for a confirmed GRB-SN association which is not
   present in the webtool they can report this here.
 title: Missing data for <event name here>
 labels: add data
