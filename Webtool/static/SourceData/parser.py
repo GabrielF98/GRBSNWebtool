@@ -64,5 +64,5 @@ for folder in eventlist:
                                     code = 9
                             else:
                                 code = code
-                                to_write = str(f[i]).replace('\n', '')+' '+str(code)+'\n'
+                                to_write = str(f[i]).replace('\n', '')+'\t'+str(code)+'\n'
                                 fnew.writelines(to_write)
