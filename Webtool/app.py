@@ -171,7 +171,6 @@ def get_grb_data(event_id):
             if str(event_id) in str(files[i]):
                 k = pd.read_csv(files[i], header=0, delimiter='\t')
                 k.columns = ['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit']
-                print(k)
                 flag=True
                 break
             else:
@@ -462,7 +461,7 @@ def event(event_id):
     # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg, limit = data
     #Add the references
     data['sources'] = [swift_reference_no]*len(data['time'])
-    
+    data['stringlimit'] = data['limit'].astype(str)
     xray_source = ColumnDataSource(data)
     # create a new plot with a title and axis labels
 
@@ -472,9 +471,8 @@ def event(event_id):
     marks = ['circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle']
 
     # add a line renderer with legend and line thickness
-    #xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, fill_alpha=0.4,  marker=factor_mark('limit', marks, types))
-    xray.scatter(data.loc[data['limit']==8]['time'], data.loc[data['limit']==8]['flux'], marker='inverted_triangle', color='purple')
-    print(data['flux'])
+    xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, fill_color='orange', marker=factor_mark('stringlimit', marks, types))
+    
     #Aesthetics
     xray.title.text_font_size = '20pt'
     xray.title.text_color = 'black'
