@@ -38,13 +38,17 @@ for folder in eventlist:
                             code = 1
                         elif 'WT' in str(f[i]):
                             code = 2
-                        elif 'WT' and 'limit' in str(f[i]):
+                        elif 'WT' and 'upper limits' in str(f[i]):
                             code = 3
-                        elif 'PC' in str(f[i]):
+                        elif 'WT' and 'lower limits' in str(f[i]):
                             code = 4
-                        elif 'PC' and 'limit' in str(f[i]):
+                        elif 'PC' in str(f[i]):
                             code = 5
+                        elif 'PC' and 'upper limits' in str(f[i]):
+                            code = 6
+                        elif 'PC' and 'lower limits' in str(f[i]):
+                            code = 7
                         else:
                             code = code
-                        to_write = str(f[i]).replace('\n', '')+' '+str(code)+'\n'
-                        fnew.writelines(to_write)
+                            to_write = str(f[i]).replace('\n', '')+' '+str(code)+'\n'
+                            fnew.writelines(to_write)
