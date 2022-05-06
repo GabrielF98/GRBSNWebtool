@@ -83,7 +83,7 @@ def get_post(event_id):
     if 'GRB' in event_id:
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         #This solves the GRBs with SNs and without
-        grb_name = event_id.split('_')[0][3:]
+        grb_name = event_id.split('-')[0][3:]
         event = conn.execute("SELECT * FROM SQLDataGRBSNe WHERE GRB = ?", (grb_name,)).fetchall()
 
         radec = conn.execute('SELECT * FROM TrigCoords WHERE grb_id=?', (grb_name,)).fetchall()
@@ -158,9 +158,12 @@ grb_sne = grb_sne_dict()
 def get_grb_data(event_id):
     #To determine if its an SN only or a GRB only
     if 'GRB' in str(event_id):
-        event_id = event_id.split('_')[0][3:]
-        path = './static/long_grbs/'
-        files = glob.glob(path+'/*.txt')
+        folder_name = event_id
+        print(folder_name)
+        event_id = event_id.split('-')[0][3:]
+        path = './static/SourceData/'+folder_name+'/'
+        files = glob.glob(path+'/*xrtlc.txt')
+        print(files)
         #print(files)
 
         for i in range(len(files)):
@@ -169,10 +172,10 @@ def get_grb_data(event_id):
                 flag=True
                 break
             else:
-                k = [[0], [0], [0], [0], [0], [0]]
+                k = [[0], [0], [0], [0], [0], [0], [0]]
                 flag=False
     else:
-        k = [[0], [0], [0], [0], [0], [0]]
+        k = [[0], [0], [0], [0], [0], [0], [0]]
         flag=False        
     return(flag, k)
 
@@ -461,7 +464,8 @@ def event(event_id):
                         'dt_neg': data[2],
                         'flux': data[3],
                         'dflux_pos': data[4],
-                        'dflux_neg': data[5]}
+                        'dflux_neg': data[5],
+                        'limit': data[6]}
 
     #Add the references
     data_dict_swift['sources'] = [swift_reference_no]*len(data[0])
@@ -948,7 +952,7 @@ def get_table(event_id):
     if 'GRB' in event_id:
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         #This solves the GRBs with SNs and without
-        grb_name = str(event_id).split('_')[0][3:]
+        grb_name = str(event_id).split('-')[0][3:]
         print(grb_name)
         
         #Set the index of the df to be based on GRB name
@@ -1144,9 +1148,9 @@ def grb_names():
     for i in names:
         if str(i[0])!='None' and str(i[1])!='None':
             if 'AT' in str(i[1]):
-                grbs.append('GRB'+str(i[0])+'_'+str(i[1]))
+                grbs.append('GRB'+str(i[0])+'-'+str(i[1]))
             else:
-                grbs.append('GRB'+str(i[0])+'_SN'+str(i[1]))
+                grbs.append('GRB'+str(i[0])+'-SN'+str(i[1]))
             
         #years.append(str(i[0])[:2])
         elif str(i[1])=='None':
