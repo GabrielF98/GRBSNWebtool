@@ -36,17 +36,17 @@ for folder in eventlist:
                     for i in range(len(f)):
                         if 'WTSLEW' in str(f[i]):
                             code = 1
-                        elif 'WT' in str(f[i]):
+                        if 'WT' in str(f[i]):
                             code = 2
-                        elif 'WT' in str(f[i]) and 'upper limits' in str(f[i]):
+                        if 'WT' in str(f[i]) and 'upper limits' in str(f[i]):
                             code = 3
-                        elif 'WT' in str(f[i]) and 'lower limits' in str(f[i]):
+                        if 'WT' in str(f[i]) and 'lower limits' in str(f[i]):
                             code = 4
-                        elif 'PC' in str(f[i]):
+                        if 'PC' in str(f[i]):
                             code = 5
-                        elif 'PC' in str(f[i]) and 'upper limits' in str(f[i]):
+                        if 'PC' in str(f[i]) and 'upper limits' in str(f[i]):
                             code = 6
-                        elif 'PC' in str(f[i]) and 'lower limits' in str(f[i]):
+                        if 'PC' in str(f[i]) and 'lower limits' in str(f[i]):
                             code = 7
                         else:
                             code = code
