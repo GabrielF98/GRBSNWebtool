@@ -25,6 +25,7 @@ from bokeh.embed import components
 from bokeh.layouts import gridplot, Spacer, layout, column, row
 from bokeh.plotting import figure, output_file, show
 from bokeh.palettes import all_palettes, viridis
+from bokeh.transform import factor_mark
 
 #Pandas
 import pandas as pd
@@ -168,14 +169,16 @@ def get_grb_data(event_id):
 
         for i in range(len(files)):
             if str(event_id) in str(files[i]):
-                k = np.loadtxt(files[i], skiprows=1, unpack=True)
+                k = pd.read_csv(files[i], header=0, delimiter='\t')
+                k.columns = ['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit']
+                print(k)
                 flag=True
                 break
             else:
-                k = [[0], [0], [0], [0], [0], [0], [0]]
+                k = pd.DataFrame(columns=['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit'])
                 flag=False
     else:
-        k = [[0], [0], [0], [0], [0], [0], [0]]
+        k = pd.DataFrame(columns=['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit'])
         flag=False        
     return(flag, k)
 
@@ -456,29 +459,22 @@ def event(event_id):
             else:
                 swift_reference_no.append(list(needed_dict.keys()).index(swift_reference)+1)
 
-    # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg = data
-
-    #Convert to dict, then to column data source
-    data_dict_swift = {'time': data[0],
-                        'dt_pos': data[1],
-                        'dt_neg': data[2],
-                        'flux': data[3],
-                        'dflux_pos': data[4],
-                        'dflux_neg': data[5],
-                        'type': data[6]}
-
+    # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg, limit = data
     #Add the references
-    data_dict_swift['sources'] = [swift_reference_no]*len(data[0])
-
-    xray_source = ColumnDataSource(data_dict_swift)
-
+    data['sources'] = [swift_reference_no]*len(data['time'])
+    
+    xray_source = ColumnDataSource(data)
     # create a new plot with a title and axis labels
 
     xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
     
-    # add a line renderer with legend and line thickness
-    xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, fill_color='orange')
+    types = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+    marks = ['circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle']
 
+    # add a line renderer with legend and line thickness
+    #xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, fill_alpha=0.4,  marker=factor_mark('limit', marks, types))
+    xray.scatter(data.loc[data['limit']==8]['time'], data.loc[data['limit']==8]['flux'], marker='inverted_triangle', color='purple')
+    print(data['flux'])
     #Aesthetics
     xray.title.text_font_size = '20pt'
     xray.title.text_color = 'black'
