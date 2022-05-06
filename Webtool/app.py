@@ -465,7 +465,7 @@ def event(event_id):
                         'flux': data[3],
                         'dflux_pos': data[4],
                         'dflux_neg': data[5],
-                        'limit': data[6]}
+                        'type': data[6]}
 
     #Add the references
     data_dict_swift['sources'] = [swift_reference_no]*len(data[0])
