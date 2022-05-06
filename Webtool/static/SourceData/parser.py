@@ -21,26 +21,30 @@ for folder in eventlist:
                 f = fnew.readlines()
                 f = np.array(f)
 
-            with open(str(folder)+'/'+str(folder).split('-')[0]+'xrtlc.txt', 'w') as fnew:
+            #Check if we already fixed this file
+            if f[0]=='col1\tcol2\tcol3\tcol4\tcol5\tcol6\tcol7\n':
+                print("already fixed")
+            else:
+                with open(str(folder)+'/'+str(folder).split('-')[0]+'xrtlc.txt', 'w') as fnew:
 
-                #Write a header line
-                fnew.write('col1\tcol2\tcol3\tcol4\tcol5\tcol6\tcol7\n')
+                    #Write a header line
+                    fnew.write('col1\tcol2\tcol3\tcol4\tcol5\tcol6\tcol7\n')
 
-                # Loop through the lines to find what we need:
-                code = 0
+                    # Loop through the lines to find what we need:
+                    code = 0
 
-                for i in range(len(f)):
-                    if 'WTSLEW' in str(f[i]):
-                        code = 1
-                    elif 'WT' in str(f[i]):
-                        code = 2
-                    elif 'WT' and 'limit' in str(f[i]):
-                        code = 3
-                    elif 'PC' in str(f[i]):
-                        code = 4
-                    elif 'PC' and 'limit' in str(f[i]):
-                        code = 3
-                    else:
-                        code = code
+                    for i in range(len(f)):
+                        if 'WTSLEW' in str(f[i]):
+                            code = 1
+                        elif 'WT' in str(f[i]):
+                            code = 2
+                        elif 'WT' and 'limit' in str(f[i]):
+                            code = 3
+                        elif 'PC' in str(f[i]):
+                            code = 4
+                        elif 'PC' and 'limit' in str(f[i]):
+                            code = 5
+                        else:
+                            code = code
                         to_write = str(f[i]).replace('\n', '')+' '+str(code)+'\n'
                         fnew.writelines(to_write)
