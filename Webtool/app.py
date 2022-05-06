@@ -157,6 +157,8 @@ grb_sne = grb_sne_dict()
 
 #This code goes to the long_grbs folder and gets all the data for the plot
 def get_grb_data(event_id):
+    k = pd.DataFrame(columns=['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit'])
+    flag=False
     #To determine if its an SN only or a GRB only
     if 'GRB' in str(event_id):
         folder_name = event_id
@@ -173,12 +175,7 @@ def get_grb_data(event_id):
                 k.columns = ['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit']
                 flag=True
                 break
-            else:
-                k = pd.DataFrame(columns=['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit'])
-                flag=False
-    else:
-        k = pd.DataFrame(columns=['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit'])
-        flag=False        
+                
     return(flag, k)
 
 #Extract the SN names from the database
