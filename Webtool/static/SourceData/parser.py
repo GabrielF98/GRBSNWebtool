@@ -1,41 +1,46 @@
 import numpy as np
 import os
 eventlist = os.listdir()
-forbidden_folders = ['.DS_Store', 'GoodXRTData']
+forbidden_folders = ['.DS_Store', 'GoodXRTData', '.ipynb_checkpoints']
 for item in eventlist:
     if os.path.isdir(item):
         if str(item) in forbidden_folders:
             eventlist.remove(item)
     else:
         eventlist.remove(item)
-eventlist = ['GRB171205A-SN2017iuk']
+
 # Loop over all folders
 for folder in eventlist:
-    #Read and write to the file
-    with open(str(folder)+'/'+str(folder).split('-')[0]+'xrtlc.txt', 'rw') as fnew: 
-        #Open and read lines of the file
-        f = fnew.readlines()
-        f = np.array(f)
+    if folder!='newfile.txt':
+        #Check if that folder has an xrtlc
+        filelist = os.listdir(folder)
+        if str(folder).split('-')[0]+'xrtlc.txt' in filelist:
+            #Read and write to the file
+            with open(str(folder)+'/'+str(folder).split('-')[0]+'xrtlc.txt', 'r') as fnew: 
+                #Open and read lines of the file
+                f = fnew.readlines()
+                f = np.array(f)
 
-        #Write a header line
-        fnew.write('col1\tcol2\tcol3\tcol4\tcol5\tcol6\tcol7\n')
+            with open(str(folder)+'/'+str(folder).split('-')[0]+'xrtlc.txt', 'w') as fnew:
 
-        # Loop through the lines to find what we need:
-        code = 0
+                #Write a header line
+                fnew.write('col1\tcol2\tcol3\tcol4\tcol5\tcol6\tcol7\n')
 
-        for i in range(len(f)):
-            print(f[i])
-            if 'WTSLEW' in str(f[i]):
-                code = 1
-            elif 'WT' in str(f[i]):
-                code = 2
-            elif 'WT' and 'limit' in str(f[i]):
-                code = 3
-            elif 'PC' in str(f[i]):
-                code = 4
-            elif 'PC' and 'limit' in str(f[i]):
-                code = 3
-            else:
-                code = code
-                to_write = str(f[i]).replace('\n', '')+' '+str(code)+'\n'
-                fnew.writelines(to_write)
+                # Loop through the lines to find what we need:
+                code = 0
+
+                for i in range(len(f)):
+                    if 'WTSLEW' in str(f[i]):
+                        code = 1
+                    elif 'WT' in str(f[i]):
+                        code = 2
+                    elif 'WT' and 'limit' in str(f[i]):
+                        code = 3
+                    elif 'PC' in str(f[i]):
+                        code = 4
+                    elif 'PC' and 'limit' in str(f[i]):
+                        code = 3
+                    else:
+                        code = code
+                        to_write = str(f[i]).replace('\n', '')+' '+str(code)+'\n'
+                        fnew.writelines(to_write)
