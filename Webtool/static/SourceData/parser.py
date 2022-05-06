@@ -38,15 +38,15 @@ for folder in eventlist:
                             code = 1
                         elif 'WT' in str(f[i]):
                             code = 2
-                        elif 'WT' and 'upper limits' in str(f[i]):
+                        elif 'WT' in str(f[i]) and 'upper limits' in str(f[i]):
                             code = 3
-                        elif 'WT' and 'lower limits' in str(f[i]):
+                        elif 'WT' in str(f[i]) and 'lower limits' in str(f[i]):
                             code = 4
                         elif 'PC' in str(f[i]):
                             code = 5
-                        elif 'PC' and 'upper limits' in str(f[i]):
+                        elif 'PC' in str(f[i]) and 'upper limits' in str(f[i]):
                             code = 6
-                        elif 'PC' and 'lower limits' in str(f[i]):
+                        elif 'PC' in str(f[i]) and 'lower limits' in str(f[i]):
                             code = 7
                         else:
                             code = code
