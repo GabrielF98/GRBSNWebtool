@@ -11,17 +11,14 @@ for item in eventlist:
 eventlist = ['GRB171205A-SN2017iuk']
 # Loop over all folders
 for folder in eventlist:
-    with open('newfile.txt', 'w') as fnew: 
-        grb_name = str(list(folder.split('-'))[0])
-        print(grb_name)
-        folder = str(folder)
-        # open text file
-        file = folder+'/'+grb_name+'xrtlc.txt'
-
-
-        f = open(file, 'r')
-        f = f.readlines()
+    #Read and write to the file
+    with open(str(folder)+'/'+str(folder).split('-')[0]+'xrtlc.txt', 'rw') as fnew: 
+        #Open and read lines of the file
+        f = fnew.readlines()
         f = np.array(f)
+
+        #Write a header line
+        fnew.write('col1\tcol2\tcol3\tcol4\tcol5\tcol6\tcol7\n')
 
         # Loop through the lines to find what we need:
         code = 0
@@ -40,5 +37,5 @@ for folder in eventlist:
                 code = 3
             else:
                 code = code
-                to_write = str(f[i])+' '+str(code)
+                to_write = str(f[i]).replace('\n', '')+' '+str(code)+'\n'
                 fnew.writelines(to_write)
