@@ -36,20 +36,24 @@ for folder in eventlist:
                     for i in range(len(f)):
                         if 'WTSLEW' in str(f[i]):
                             code = 1
+                            if 'upper limits' in str(f[i]):
+                                code = 2
+                            elif 'lower limits' in str(f[i]):
+                                code = 3
 
                         elif 'WT' in str(f[i]):
-                            code = 2
+                            code = 4
                             if 'upper limits' in str(f[i]):
-                                code = 3
+                                code = 5
                             elif 'lower limits' in str(f[i]):
-                                code = 4
+                                code = 6
 
                         elif 'PC' in str(f[i]):
-                            code = 5
+                            code = 7
                             if 'upper limits' in str(f[i]):
-                                code = 6
+                                code = 8
                             elif 'lower limits' in str(f[i]):
-                                code = 7
+                                code = 9
                         else:
                             code = code
                             to_write = str(f[i]).replace('\n', '')+' '+str(code)+'\n'
