@@ -9,6 +9,7 @@ for item in eventlist:
     else:
         eventlist.remove(item)
 
+forbidden_lines = ['!Time\tT_+ve\tT_-ve\tFlux\tFluxpos\tFluxneg', 'NO\tNO\tNO\tNO\tNO']
 # Loop over all folders
 for folder in eventlist:
     if folder!='newfile.txt':
@@ -30,8 +31,9 @@ for folder in eventlist:
                     #Skip the big header line
                     start = 0
                     for i in range(len(f)):
-                        if str(f[i])=='READ TERR 1 2':
+                        if 'READ' in str(f[i]):
                             start = i+1
+                            print('start is:', start)
 
                     #Write a header line
                     fnew.write('col1\tcol2\tcol3\tcol4\tcol5\tcol6\tcol7\n')
@@ -40,7 +42,7 @@ for folder in eventlist:
                     code = 0
 
                     for i in range(start, len(f)):
-                        if 'NO' not in str(f[i]): #make sure its not a 'NO NO NO NO NO' line
+                        if 'Flux' not in str(f[i]) and 'NO' not in str(f[i]): #make sure its not a 'NO NO NO NO NO' line etc
                             if 'WTSLEW' in str(f[i]):
                                 code = 1
                                 if 'upper limits' in str(f[i]):
