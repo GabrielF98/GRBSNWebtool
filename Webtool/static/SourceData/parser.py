@@ -9,7 +9,6 @@ for item in eventlist:
     else:
         eventlist.remove(item)
 
-forbidden_lines = ['!Time\tT_+ve\tT_-ve\tFlux\tFluxpos\tFluxneg', 'NO\tNO\tNO\tNO\tNO']
 # Loop over all folders
 for folder in eventlist:
     if folder!='newfile.txt':
