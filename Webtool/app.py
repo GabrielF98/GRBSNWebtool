@@ -23,7 +23,7 @@ import requests
 import ast
 
 # Pieces for Bokeh
-from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput, HoverTool, Range1d, Label, LabelSet
+from bokeh.models import ColumnDataSource, HoverTool, Range1d, Label, Whisker
 from bokeh.io import curdoc
 from bokeh.resources import INLINE
 from bokeh.embed import components
@@ -574,7 +574,7 @@ def event(event_id):
 
     # add a line renderer with legend and line thickness
     xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, fill_color='orange', marker=factor_mark('stringlimit', marks, types))
-    
+    xray.add_layout(Whisker(source=xray_source, base="flux", upper="dflux_pos", lower="dflux_neg", dimension='height'))
     #Aesthetics
     xray.title.text_font_size = '20pt'
     xray.title.text_color = 'black'
