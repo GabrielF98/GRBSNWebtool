@@ -1,0 +1,59 @@
+﻿Name,Status,Xray,Optical,Optical Spectra,Radio,State
+GRB000911,ADS Exhausted,No,Yes,No,Yes,Unprocessed
+GRB011121-SN2001ke,ADS Exhausted,No,Yes,No,Yes,Unprocessed
+GRB020305,ADS Exhausted,No,Yes,No,No,Unprocessed
+GRB020405,ADS Exhausted,No,Yes,No,No,Unprocessed
+GRB020410,ADS Exhausted,No,Yes,No,No,Unprocessed
+GRB020903,ADS Exhausted,No,Yes,No,Yes,Unprocessed
+GRB021211-SN2002lt,ADS Exhausted,No,Yes,No,Yes,Unprocessed
+GRB030329-SN2003dh,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB030723,ADS Exhausted,No,Yes,No,No,Unprocessed
+GRB030725,ADS Exhausted,No,Yes,No,No,Unprocessed
+GRB031203-SN2003lw,ADS Exhausted,No,Yes,No,No,Unprocessed
+GRB040924,ADS Exhausted,No,Yes,Yes,No,Unprocessed
+GRB041006,ADS Exhausted,No,Yes,No,No,Unprocessed
+GRB050416A,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB050525A-SN2005nc,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB050824,No Downloadables,Yes,No,No,No,Unprocessed
+GRB060218-SN2006aj,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB060729,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB060904B,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB070419A,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB071112C,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB080319B,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB081007-SN2008hw,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB090618,ADS Exhausted,Yes,No,Yes,No,Unprocessed
+GRB091127-SN2009nz,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB100316D-SN2010bh,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB100418A,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB101219B-SN2010ma,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+Source%20List%20c1f1bfea218c40e2a1267b9e69618838/GRB060904B%20b86e0bffcdd34e7ba5804260b97a20af.md,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB111209A-SN2011kl,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB111211A,No ADS Data,Yes,No,No,No,Unprocessed
+GRB111228A,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB120422A-SN2012bz,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB120714B-SN2012eb,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB120729A,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB130215A-SN2013ez,ADS Exhausted,No,Yes,No,No,Unprocessed
+GRB130427A-SN2013cq,Completed,Yes,Yes,Yes,Yes,Unprocessed
+GRB130702A-SN2013dx,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB130831A-SN2013fu,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB140606B,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB150518A,No ADS Data,No,No,No,No,Unprocessed
+GRB150818A,No ADS Data,Yes,No,No,No,Unprocessed
+GRB161219B-SN2016jca,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB171010A-SN2017htp,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB171205A-SN2017iuk,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB180728A-SN2018fip,No ADS Data,Yes,No,No,No,Unprocessed
+GRB190114C-SN2019jrj,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB190829A-AT2019oyw,Completed,Yes,Yes,Yes,Yes,htmls
+GRB200826A,Mostly Completed,Yes,Yes,No,Yes,Unprocessed
+GRB201015A,New Event,Yes,No,No,No,Unprocessed
+GRB211023A,New Event,No,No,No,No,Unprocessed
+GRB220219B,New Event,No,No,No,No,Unprocessed
+GRB970228,ADS Exhausted,No,Yes,No,Yes,Unprocessed
+GRB980326,ADS Exhausted,No,Yes,No,No,Unprocessed
+GRB980425-SN1998bw,ADS Exhausted,Yes,Yes,No,No,Unprocessed
+GRB990712,ADS Exhausted,No,Yes,No,No,Unprocessed
+GRB991208,ADS Exhausted,No,Yes,No,Yes,Unprocessed
+SN2020bvc,Mostly Completed,Yes,Yes,Yes,No,Unprocessed
