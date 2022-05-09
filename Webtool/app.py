@@ -1,4 +1,5 @@
 import enum
+from hashlib import new
 import sqlite3
 from tracemalloc import start
 from turtle import down
@@ -563,7 +564,14 @@ def event(event_id):
     # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg, limit = data
     #Add the references
     data['sources'] = [swift_reference_no]*len(data['time'])
+
+    #Convert the string representing whether its a limit or not to string
     data['stringlimit'] = data['limit'].astype(str)
+
+    #Fix the error columns so they work on log plots with whisker
+    data['error'] = list(zip(data['flux']+data['dflux_neg'], data['flux']+data['dflux_pos']))
+    data['e_locs'] = list(zip(data['time'], data['time']))
+
     xray_source = ColumnDataSource(data)
     # create a new plot with a title and axis labels
 
@@ -573,8 +581,9 @@ def event(event_id):
     marks = ['circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle']
 
     # add a line renderer with legend and line thickness
-    xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, fill_color='orange', marker=factor_mark('stringlimit', marks, types))
-    xray.add_layout(Whisker(source=xray_source, base="flux", upper="dflux_pos", lower="dflux_neg", dimension='height'))
+    xray.multi_line("e_locs", "error", source=xray_source, color='orange', line_width=2)
+    xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
+    
     #Aesthetics
     xray.title.text_font_size = '20pt'
     xray.title.text_color = 'black'
@@ -701,10 +710,22 @@ def event(event_id):
 
                 # Add this to the df in the position time used to be in.
                 new_df['time_since'] = t_after_t0
+                print(new_df.keys())
 
+                #Errors on magnitudes
+                optical_error_df = new_df[['time_since', 'magnitude', 'e_magnitude']].copy()
+                optical_error_df = optical_error_df[~optical_error_df['e_magnitude'].isnull()]
+                optical_error_df['dmags'] = list(zip(optical_error_df['magnitude']-optical_error_df['e_magnitude'], optical_error_df['magnitude']+optical_error_df['e_magnitude']))
+                optical_error_df['dmag_locs'] = list(zip(optical_error_df['time_since'], optical_error_df['time_since']))
+
+                optical_error = ColumnDataSource(optical_error_df)
                 optical_data = ColumnDataSource(new_df)
+
+                #New color
+                col = next(color)
+                optical.multi_line("dmag_locs", "dmags", source=optical_error, color=col, line_width=2)
                 optical.scatter('time_since', 'magnitude', source=optical_data, legend_label=str(
-                    j), size=10, color=next(color))
+                    j), size=10, color=col)
 
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
