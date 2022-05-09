@@ -192,12 +192,12 @@ def get_grb_data(event_id):
     #To determine if its an SN only or a GRB only
     if 'GRB' in str(event_id):
         folder_name = event_id
-        print(folder_name)
+        #print(folder_name)
         event_id = event_id.split('-')[0][3:]
         path = './static/SourceData/'+folder_name+'/'
         files = glob.glob(path+'/*xrtlc.txt')
-        print(files)
         #print(files)
+        ##print(files)
 
         for i in range(len(files)):
             if str(event_id) in str(files[i]):
@@ -263,7 +263,7 @@ def home():
 
     if request.method == 'POST':
         event_id = form.object_name.data
-        print(event_id)
+        #print(event_id)
         if str(event_id)[2:] in sne:  # if they search an SN
             return redirect(url_for('event', event_id=event_id))
         elif str(event_id)[3:] in grbs:  # if they search an GRB
@@ -457,7 +457,7 @@ def event(event_id):
     # Send query to ADS and get data back
     for i in range(len(peakmag)):
         if peakmag[i]['source'] != None:
-            print('The source is:', peakmag[i]['source'])
+            #print('The source is:', peakmag[i]['source'])
             if 'adsabs' in peakmag[i]['source']:
                 bibcode_initial = str(peakmag[i]['source']).split(
                     '/')[4].replace('%26', '&')
@@ -505,7 +505,7 @@ def event(event_id):
     # The time of the GRB
     if radec[0]['trigtime'] != None:
         grb_time = radec[0]['trigtime']
-        print(grb_time)
+        #print(grb_time)
     else:
         grb_time = '00:00:00'
 
@@ -572,6 +572,9 @@ def event(event_id):
     data['error'] = list(zip(data['flux']+data['dflux_neg'], data['flux']+data['dflux_pos']))
     data['e_locs'] = list(zip(data['time'], data['time']))
 
+    data['terror'] = list(zip(data['time']+data['dt_neg'], data['time']+data['dt_pos']))
+    data['te_locs'] = list(zip(data['flux'], data['flux']))
+
     xray_source = ColumnDataSource(data)
     # create a new plot with a title and axis labels
 
@@ -582,6 +585,7 @@ def event(event_id):
 
     # add a line renderer with legend and line thickness
     xray.multi_line("e_locs", "error", source=xray_source, color='orange', line_width=2)
+    xray.multi_line("terror", "te_locs", source=xray_source, color='orange', line_width=2)
     xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
     
     #Aesthetics
@@ -710,7 +714,7 @@ def event(event_id):
 
                 # Add this to the df in the position time used to be in.
                 new_df['time_since'] = t_after_t0
-                print(new_df.keys())
+                #print(new_df.keys())
 
                 #Errors on magnitudes
                 optical_error_df = new_df[['time_since', 'magnitude', 'e_magnitude']].copy()
@@ -1122,7 +1126,7 @@ def get_table(event_id):
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         #This solves the GRBs with SNs and without
         grb_name = str(event_id).split('-')[0][3:]
-        print(grb_name)
+        #print(grb_name)
 
         # Set the index of the df to be based on GRB name
         downloadabledf = df.loc[df['GRB'] == grb_name]
@@ -1238,19 +1242,19 @@ def graphs():
             if str(row[2]).split(',')[0] != 'None' and str(row[3]).split(',')[0] != 'None':
 
                 if '<' in str(row[2]).split(',')[0]:
-                    print('case1'+str(row[2]).split(',')[0])
+                    #print('case1'+str(row[2]).split(',')[0])
                     x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '>' in str(row[2]).split(',')[0]:
-                    print('case2'+row[2].split(',')[0])
+                    #print('case2'+row[2].split(',')[0])
                     x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '<' in str(row[3]).split(',')[0]:
-                    print('case3'+row[3].split(',')[0])
+                    #print('case3'+row[3].split(',')[0])
                     x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '>' in str(row[3]).split(',')[0]:
-                    print('case4'+row[3].split(',')[0])
+                    #print('case4'+row[3].split(',')[0])
                     x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
                 else:
@@ -1328,7 +1332,7 @@ def download_graph_data(title, grb_name, sne_name, raw_x, raw_y):
 
     name = str(title)+'grbsntool.txt'
     name = name.encode('utf-8')
-    print(name)
+    #print(name)
     resp.headers.set("Content-Disposition", "attachment", filename=name)
     return resp
 
@@ -1404,7 +1408,7 @@ def advsearch():
 
     # Create a form to take in user data
     form = TableForm(request.form)
-    print("The errors were", form.errors)
+    #print("The errors were", form.errors)
 
     if request.method == 'POST' and form.validate_on_submit():
         # List of vars to include in the query
@@ -1691,7 +1695,7 @@ def get_advsearch_table(query, varlist):
             "SELECT * FROM PeakTimesMags", conn)
     else:
         # Read the main db table
-        print("The query is", query)
+        #print("The query is", query)
         df1 = pd.read_sql_query(
             "SELECT * FROM SQLDataGRBSNe"+query, conn, params=tuple(varlist, ))
 
