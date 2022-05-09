@@ -1,5 +1,4 @@
 GRB/SN,Filename,Status,Reference
 GRB180728A-SN2018fip,,"Early, Late, NIR, Optical, Radio, Spectra, Xray",
 GRB180728A-SN2018fip,Xray,https://www.swift.ac.uk/xrt_curves/
-GRB180728A-SN2018fip,Xray,https://www.swift.ac.uk/xrt_curves/
 GRB180728A-SN2018fip,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2018fip/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
