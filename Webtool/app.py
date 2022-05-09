@@ -1590,9 +1590,10 @@ def advsearch():
 @app.route('/<query>/<varlist>/get_advsearch_table', methods=['GET', 'POST'])
 def get_advsearch_table(query, varlist):
 
-    # Convert the string to a list
-    varlist = ast.literal_eval(varlist)
-
+    if varlist != '':
+        # Convert the string to a list
+        varlist = ast.literal_eval(varlist)
+        
     # Sql query to dataframe
     conn = get_db_connection()
     if query == '':
