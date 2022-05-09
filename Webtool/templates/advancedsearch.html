@@ -1,0 +1,245 @@
+{% extends 'base.html' %}
+{% block title %}
+<h1><b>Advanced Search</b></h1>
+{% endblock %}
+
+{% block content %}
+{% from "_formhelpers.html" import render_field %}
+
+<form method=post style="width:100%">
+	{{ form.csrf_token }}
+	<div class="form-group">
+		<label>
+			<p class="headings">Search by object name</p>
+		</label>
+		{{ render_field(form.object_name, class="form-control", placeholder="Enter GRB or SN ID (e.g. SN1998bw or GRB200826A)") }}
+
+	</div>
+
+	<div class="form-row">
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min E$_{iso}$ [ergs]</p>
+			</label>
+			{{ render_field(form.min_eiso, class="form-control", placeholder="e.g. 1e52") }}
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Max E$_{iso}$ [ergs]</p>
+			</label>
+			{{ render_field(form.max_eiso, class="form-control", placeholder="e.g. 1e54") }}
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min Redshift</p>
+			</label>
+			{{ render_field(form.min_z, class="form-control", placeholder="e.g. 0.1") }}
+
+		</div>
+		<div class="col-auto">
+			<label>
+				<p class="headings">Max Redshift</p>
+			</label>
+			{{ render_field(form.max_z, class="form-control", placeholder="e.g. 1") }}
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min T$_{90}$ [sec]</p>
+			</label>
+			{{ render_field(form.min_t90, class="form-control", placeholder="e.g. 10") }}
+
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Max T$_{90}$ [sec]</p>
+			</label>
+			{{ render_field(form.max_t90, class="form-control", placeholder="e.g. 1200") }}
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min M$_{Ni}$ [M$_{\odot}$]</p>
+			</label>
+			{{ render_field(form.min_nim, class="form-control", placeholder="e.g. 0.1") }}
+
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Max M$_{Ni}$ [M$_{\odot}$]</p>
+			</label>
+			{{ render_field(form.max_nim, class="form-control", placeholder="e.g. 0.2") }}
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min M$_{Ej}$ [M$_{\odot}$]</p>
+			</label>
+			{{ render_field(form.min_ejm, class="form-control", placeholder="e.g. 0.1") }}
+
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Max M$_{Ej}$ [M$_{\odot}$]</p>
+			</label>
+			{{ render_field(form.max_ejm, class="form-control", placeholder="e.g. 0.2") }}
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min E$_{p}$ [keV]</p>
+			</label>
+			{{ render_field(form.min_epeak, class="form-control", placeholder="e.g. 100") }}
+
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Max E$_{p}$ [keV]</p>
+			</label>
+			{{ render_field(form.max_epeak, class="form-control", placeholder="e.g. 100") }}
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min E$_{k}$ (SN) [ergs]</p>
+			</label>
+			{{ render_field(form.min_ek, class="form-control", placeholder="e.g. 1e52") }}
+
+		</div>
+
+		<div class="col-auto">
+			<label>
+				<p class="headings">Min E$_{k}$ (SN) [ergs]</p>
+			</label>
+			{{ render_field(form.max_ek, class="form-control", placeholder="e.g. 1e52") }}
+		</div>
+	</div>
+
+	
+
+
+	<div>
+		<label>
+			{{render_field(form.submit2, class="btn btn-warning btn-lg")}}
+	</div>
+
+
+</form> 
+{% with messages = get_flashed_messages(with_categories=true) %}
+<!-- {% if messages %}
+    <ul class=flashes> -->
+{% for category, message in messages %}
+<p class="error"><b>WARNING!!!</b> {{ message }}
+  {% endfor %}
+  </ul>
+  <!-- {% endif %} -->
+  {% endwith %}
+<h2><b>Known Associations</b></h2>
+
+<p>The table below displays some basic parameters for the known GRB-SN associations. You can add filters using the form above, you can filter by multiple parameters at a time. If you would like to download the
+	table click <a href="{{ url_for('get_advsearch_table', query=mid_query, varlist=varlist)}}">here</a>. The table
+	below only displays part of the
+	data stored in the database. The download will include all information stored within the database as a .txt file.
+</p>
+
+<p>
+	If you wish to download all of the observations for the events you have selected click <a
+		href="{{ url_for('get_observations', directory_list=event_list)}}">here</a>.
+</p>
+
+
+<!-- Table of all the sources -->
+<div>
+	<table class="table table-striped table-bordered table-sm">
+	  <thead>
+		<tr>
+		  <th scope="col"><b>GRB</b></th>
+		  <th scope="col"><b>SN</b></th>
+		  <th scope="col"><b>E$_{iso}$ [ergs]</b></th>
+		  <th scope="col"><b>z</b></th>
+		  <th scope="col"><b>T$_{90}$ [sec]</b></th>
+		  <th scope="col"><b>M$_{Ej}$ [M$_{\odot}$]</b></th>
+		  <th scope="col"><b>M$_{Ni}$ [M$_{\odot}$]</b></th>
+		  <th scope="col"><b>E$_{p}$ [keV]</b></th>
+		  <th scope="col"><b>E$_{k}$ (SN) [ergs]</b></th>
+		</tr>
+	  </thead>
+		  
+	  <tbody>
+		  {% for i in range(data|length) %}
+		  <tr>
+			  <!-- GRB and SN have a name -->
+			  {% if data[i][0]!=None and data[i][1]!=None %}
+			  <th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
+			  <th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+			  <!-- GRB has name -->
+			  {% elif data[i][0]!=None and data[i][1]==None %}
+			  <th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
+			  <th> </th>
+			  <!-- SN has a name -->
+			  {% elif data[i][0]==None and data[i][1]!=None %}
+			  <th> </th>
+			  <th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+			  {% endif %}
+  
+			  <!-- EISO -->
+			  {% if data[i][2] != None %}
+			  <th>{{ data[i][2] }}</th>
+			  {% else %}
+			  <th> </th>
+			  {% endif %}
+  
+			  <!-- Z -->
+			  {% if data[i][3] != None %}
+			  <th>{{ data[i][3] }}</th>
+			  {% else %}
+			  <th> </th>
+			  {% endif %}
+  
+			  <!-- T90 -->
+			  {% if data[i][4] != None %}
+			  <th>{{ data[i][4] }}</th>
+			  {% else %}
+			  <th> </th>
+			  {% endif %}
+  
+			  <!-- Ejecta mass -->
+			  {% if data[i][5] != None %}
+			  <th>{{ data[i][5] }}</th>
+			  {% else %}
+			  <th> </th>
+			  {% endif %}
+  
+			  <!-- Nickel mass -->
+			  {% if data[i][6] != None %}
+			  <th>{{ data[i][6] }}</th>
+			  {% else %}
+			  <th> </th>
+			  {% endif %}
+			  
+			  <!-- Epeak -->
+			  {% if data[i][7] != None %}
+			  <th>{{ data[i][7] }}</th>
+			  {% else %}
+			  <th> </th>
+			  {% endif %}
+  
+			  <!-- Ek -->
+			  {% if data[i][8] != None %}
+			  <th>{{ data[i][8] }}</th>
+			  {% else %}
+			  <th> </th>
+			  {% endif %}
+		  </tr>
+		  {% endfor %}
+	</tbody>
+	  </table>
+</div>
+{% endblock %}
