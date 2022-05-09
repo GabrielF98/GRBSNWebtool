@@ -11,7 +11,7 @@ for item in eventlist:
 
 # Loop over all folders
 for folder in eventlist:
-    if folder!='newfile.txt':
+    if folder!='newfile.txt' and folder!='README.md' and folder!='sources.py':
         #Check if that folder has an xrtlc
         filelist = os.listdir(folder)
         if str(folder).split('-')[0]+'xrtlc.txt' in filelist:
