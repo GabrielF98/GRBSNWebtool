@@ -67,33 +67,13 @@ div {
 }
 
 /*Table data*/
-table.t1 {
+table{
   overflow: auto;
   float: left;
-  color: white;
-  border: 2px solid black;
-  margin-left: 100px;
-  padding: 5px;
-  border-color: white;
-  font-size: 12pt;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 100px,
 }
 
-/*Table data 2*/
-table.t2 {
-  overflow: auto;
-  float: left;
-	color: yellow;
-  border: 2px;
-  margin-left: 100px;
-  padding: 5px;
-  border-color: teal;
-  font-size: 12pt;
-  margin-top: 100px;
-  margin-bottom: 5px;
-  margin-right: 100px, 
+.table2{
+  margin:0 10px;
 }
 
 /*For the flask messages*/
@@ -102,23 +82,13 @@ p.error {
 }
 
 th,
-td {
+td,
+tr {
   color: white;
-  border: 2px solid black;
-  margin-left: 100px;
+  border: 2px solid;
   padding: 5px;
   border-color: white;
   font-size: 12pt;
-}
-
-th.2,
-td.2 {
-  color: yellow;
-  border: 2px yellow;
-  margin-left: 10px;
-  padding: 5px;
-  border-color: yellow;
-  font-size: 40pt;
 }
 
 .float-parent-element {

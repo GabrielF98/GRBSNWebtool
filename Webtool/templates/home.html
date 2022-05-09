@@ -68,19 +68,22 @@
 
 <!-- Table of all the sources -->
 <div>
-  <table style="width:80%" class="t1" margin-left=100px;>
-		<tr>
-			<th><b>GRB</b></th>
-			<th><b>SN</b></th>
-			<th><b>E$_{iso}$ [ergs]</b></th>
-			<th><b>z</b></th>
-			<th><b>T$_{90}$ [sec]</b></th>
-			<th><b>M$_{Ej}$ [M$_{\odot}$]</b></th>
-			<th><b>M$_{Ni}$ [M$_{\odot}$]</b></th>
-			<th><b>E$_{p}$ [keV]</b></th>
-			<th><b>E$_{k}$ (SN) [ergs]</b></th>
-		</tr>
-
+  <table class="table table-striped table-bordered table-sm">
+    <thead>
+      <tr>
+        <th scope="col"><b>GRB</b></th>
+        <th scope="col"><b>SN</b></th>
+        <th scope="col"><b>E$_{iso}$ [ergs]</b></th>
+        <th scope="col"><b>z</b></th>
+        <th scope="col"><b>T$_{90}$ [sec]</b></th>
+        <th scope="col"><b>M$_{Ej}$ [M$_{\odot}$]</b></th>
+        <th scope="col"><b>M$_{Ni}$ [M$_{\odot}$]</b></th>
+        <th scope="col"><b>E$_{p}$ [keV]</b></th>
+        <th scope="col"><b>E$_{k}$ (SN) [ergs]</b></th>
+      </tr>
+    </thead>
+		
+    <tbody>
 		{% for i in range(data|length) %}
 		<tr>
 			<!-- GRB and SN have a name -->
@@ -147,6 +150,8 @@
 			{% endif %}
 		</tr>
 		{% endfor %}
+  </tbody>
 	</table>
+  
 </div>
 {% endblock %}

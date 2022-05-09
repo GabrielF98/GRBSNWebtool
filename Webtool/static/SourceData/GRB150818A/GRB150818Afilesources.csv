@@ -1,1 +1,3 @@
-GRB/SN,File name,Datatypes,Sources
+GRB/SN,Filename,Status,Reference
+GRB150818A,,"Early, Late, NIR, Optical, Radio, Spectra, Xray",
+GRB150818A,Xray,https://www.swift.ac.uk/xrt_curves/

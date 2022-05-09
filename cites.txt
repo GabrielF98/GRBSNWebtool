@@ -17,6 +17,26 @@ archivePrefix = {arXiv},
 }
 
 
+@ARTICLE{2020ApJ...902...86H,
+       author = {{Ho}, Anna Y.~Q. and {Kulkarni}, S.~R. and {Perley}, Daniel A. and {Cenko}, S. Bradley and {Corsi}, Alessandra and {Schulze}, Steve and {Lunnan}, Ragnhild and {Sollerman}, Jesper and {Gal-Yam}, Avishay and {Anand}, Shreya and {Barbarino}, Cristina and {Bellm}, Eric C. and {Bruch}, Rachel J. and {Burns}, Eric and {De}, Kishalay and {Dekany}, Richard and {Delacroix}, Alexandre and {Duev}, Dmitry A. and {Frederiks}, Dmitry D. and {Fremling}, Christoffer and {Goldstein}, Daniel A. and {Golkhou}, V. Zach and {Graham}, Matthew J. and {Hale}, David and {Kasliwal}, Mansi M. and {Kupfer}, Thomas and {Laher}, Russ R. and {Martikainen}, Julia and {Masci}, Frank J. and {Neill}, James D. and {Ridnaia}, Anna and {Rusholme}, Ben and {Savchenko}, Volodymyr and {Shupe}, David L. and {Soumagnac}, Maayane T. and {Strotjohann}, Nora L. and {Svinkin}, Dmitry S. and {Taggart}, Kirsty and {Tartaglia}, Leonardo and {Yan}, Lin and {Zolkower}, Jeffry},
+        title = "{SN 2020bvc: A Broad-line Type Ic Supernova with a Double-peaked Optical Light Curve and a Luminous X-Ray and Radio Counterpart}",
+      journal = {\apj},
+     keywords = {Radio transient sources, High energy astrophysics, Transient sources, Core-collapse supernovae, Supernovae, Type Ic supernovae, X-ray transient sources, Surveys, Gamma-ray bursts, 2008, 739, 1851, 304, 1668, 1730, 1852, 629, Astrophysics - High Energy Astrophysical Phenomena},
+         year = 2020,
+        month = oct,
+       volume = {902},
+       number = {1},
+          eid = {86},
+        pages = {86},
+          doi = {10.3847/1538-4357/aba630},
+archivePrefix = {arXiv},
+       eprint = {2004.10406},
+ primaryClass = {astro-ph.HE},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
 @ARTICLE{2017AdAst2017E...5C,
        author = {{Cano}, Zach and {Wang}, Shan-Qin and {Dai}, Zi-Gao and {Wu}, Xue-Feng},
         title = "{The Observer's Guide to the Gamma-Ray Burst Supernova Connection}",
@@ -344,19 +364,21 @@ archivePrefix = {arXiv},
 }
 
 
-@ARTICLE{2021arXiv211204759M,
-       author = {{Melandri}, A. and {Izzo}, L. and {Pian}, E. and {Malesani}, D.~B. and {Della Valle}, M. and {Rossi}, A. and {D'Avanzo}, P. and {Guetta}, D. and {Mazzali}, P.~A. and {Benetti}, S. and {Masetti}, N. and {Palazzi}, E. and {Savaglio}, S. and {Amati}, L. and {Antonelli}, L.~A. and {Ashall}, C. and {Bernardini}, M.~G. and {Campana}, S. and {Carini}, R. and {Covino}, S. and {D'Elia}, V. and {de Ugarte Postigo}, A. and {De Pasquale}, M. and {Filippenko}, A.~V. and {Fruchter}, A.~S. and {Fynbo}, J.~P.~U. and {Giunta}, A. and {Hartmann}, D.~H. and {Jakobsson}, P. and {Japelj}, J. and {Jonker}, P.~G. and {Kann}, D.~A. and {Lamb}, G.~P. and {Levan}, A.~J. and {Martin-Carrillo}, A. and {Moller}, P. and {Piranomonte}, S. and {Pugliese}, G. and {Salvaterra}, R. and {Schulze}, S. and {Starling}, R.~L.~C. and {Stella}, L. and {Tagliaferri}, G. and {Tanvir}, N. and {Watson}, D.},
-        title = "{The supernova of the MAGIC GRB190114C}",
-      journal = {arXiv e-prints},
-     keywords = {Astrophysics - High Energy Astrophysical Phenomena},
-         year = 2021,
-        month = dec,
-          eid = {arXiv:2112.04759},
-        pages = {arXiv:2112.04759},
+@ARTICLE{2022A&A...659A..39M,
+       author = {{Melandri}, A. and {Izzo}, L. and {Pian}, E. and {Malesani}, D.~B. and {Della Valle}, M. and {Rossi}, A. and {D'Avanzo}, P. and {Guetta}, D. and {Mazzali}, P.~A. and {Benetti}, S. and {Masetti}, N. and {Palazzi}, E. and {Savaglio}, S. and {Amati}, L. and {Antonelli}, L.~A. and {Ashall}, C. and {Bernardini}, M.~G. and {Campana}, S. and {Carini}, R. and {Covino}, S. and {D'Elia}, V. and {de Ugarte Postigo}, A. and {De Pasquale}, M. and {Filippenko}, A.~V. and {Fruchter}, A.~S. and {Fynbo}, J.~P.~U. and {Giunta}, A. and {Hartmann}, D.~H. and {Jakobsson}, P. and {Japelj}, J. and {Jonker}, P.~G. and {Kann}, D.~A. and {Lamb}, G.~P. and {Levan}, A.~J. and {Martin-Carrillo}, A. and {M{\o}ller}, P. and {Piranomonte}, S. and {Pugliese}, G. and {Salvaterra}, R. and {Schulze}, S. and {Starling}, R.~L.~C. and {Stella}, L. and {Tagliaferri}, G. and {Tanvir}, N. and {Watson}, D.},
+        title = "{The supernova of the MAGIC gamma-ray burst GRB 190114C}",
+      journal = {\aap},
+     keywords = {gamma-ray burst: individual: GRB 190114C, supernovae: individual: SN 2019jrj, Astrophysics - High Energy Astrophysical Phenomena},
+         year = 2022,
+        month = mar,
+       volume = {659},
+          eid = {A39},
+        pages = {A39},
+          doi = {10.1051/0004-6361/202141788},
 archivePrefix = {arXiv},
        eprint = {2112.04759},
  primaryClass = {astro-ph.HE},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2021arXiv211204759M},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2022A&A...659A..39M},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 

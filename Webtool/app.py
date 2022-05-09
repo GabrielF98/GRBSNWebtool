@@ -65,13 +65,12 @@ from wtforms import StringField, FloatField, SubmitField
 from wtforms.validators import Optional
 
 
+# Search on the homepage
 class SearchForm(FlaskForm):
     object_name = StringField('Search by GRB or SN ID')
     submit1 = SubmitField('Submit')
 
-# Pulling the data you want to the table on the homepage #Currently this isnt being used on master
-
-
+# Advanced Search
 class TableForm(FlaskForm):
     object_name = StringField('', validators=[Optional()])
     min_z = StringField('Min. Z', validators=[Optional()])
@@ -80,28 +79,27 @@ class TableForm(FlaskForm):
     max_t90 = StringField('Max. T$_{90}$ [sec]', validators=[Optional()])
     max_eiso = StringField('Max. E$_{iso}$ [ergs]', validators=[Optional()])
     min_eiso = StringField('Min. E$_{iso}$ [ergs]', validators=[Optional()])
-    min_nim = StringField('Max. M$_{ni}$ [M$_{\odot}$]', validators=[Optional()])
-    max_nim = StringField('Min. M$_{ni}$ [M$_{\odot}$]', validators=[Optional()])
-    max_ejm = StringField('Max. M$_{ej}$ [M$_{\odot}$]', validators=[Optional()])
-    min_ejm = StringField('Min. M$_{ej}$ [M$_{\odot}$]', validators=[Optional()])
+    min_nim = StringField(
+        'Max. M$_{ni}$ [M$_{\odot}$]', validators=[Optional()])
+    max_nim = StringField(
+        'Min. M$_{ni}$ [M$_{\odot}$]', validators=[Optional()])
+    max_ejm = StringField(
+        'Max. M$_{ej}$ [M$_{\odot}$]', validators=[Optional()])
+    min_ejm = StringField(
+        'Min. M$_{ej}$ [M$_{\odot}$]', validators=[Optional()])
     max_epeak = StringField('Max. E$_{p}$ [keV]', validators=[Optional()])
     min_epeak = StringField('Min. E$_{p}$ [keV]', validators=[Optional()])
     max_ek = StringField('Max. E$_{k}$ [erg]', validators=[Optional()])
     min_ek = StringField('Min. E$_{k}$ [erg]', validators=[Optional()])
     submit2 = SubmitField('Search')
 
-
-# Graphs with matplotlib
-
 # Add the bit for the database access:
-
-
 def get_db_connection():
     conn = sqlite3.connect('static/Masterbase.db')
     conn.row_factory = sqlite3.Row
     return conn
 
-
+# Return the database data based on the name of the event
 def get_post(event_id):
     # To determine if we need to search the db by SN or by GRB name
     # Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
@@ -109,12 +107,17 @@ def get_post(event_id):
     if 'GRB' in event_id:
         # GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         # This solves the GRBs with SNs and without
-        grb_name = event_id.split('_')[0][3:]
+        grb_name = event_id.split('-')[0][3:]
+
+        # The main db table with most of the info
         event = conn.execute(
             "SELECT * FROM SQLDataGRBSNe WHERE GRB = ?", (grb_name,)).fetchall()
-
+        # Table with triggertimes
         radec = conn.execute(
             'SELECT * FROM TrigCoords WHERE grb_id=?', (grb_name,)).fetchall()
+        # Table with the peak times and mags in each bang
+        peakmags = conn.execute(
+            'SELECT * FROM PeakTimesMags WHERE grb_id=?', (grb_name,)).fetchall()
 
         # Deals with people entering names that arent in the DB
         if event is None:
@@ -124,22 +127,22 @@ def get_post(event_id):
     elif 'SN' or 'AT' in event_id:
         sn_name = event_id[2:]
 
-        # The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
-
+        # The main db table with most of the info
         event = conn.execute(
             "SELECT * FROM SQLDataGRBSNe WHERE SNe = ?", (sn_name,)).fetchall()
-
+        # Table with triggertimes
         radec = conn.execute(
             'SELECT * FROM TrigCoords WHERE sn_name=?', (sn_name,)).fetchall()
+        # Table with the peak times and mags in each bang
+        peakmags = conn.execute(
+            'SELECT * FROM PeakTimesMags WHERE sn_name=?', (sn_name,)).fetchall()
 
         if event is None:
             abort(404)
     conn.close()
-    return event, radec
+    return event, radec, peakmags
 
-# For the main table on the homepage
-
-
+# Query the main table on the homepage
 def table_query(max_z, min_z, max_eiso, min_eiso):
     conn = get_db_connection()
     data = conn.execute('SELECT GRB, SNe, AVG(e_iso), AVG(T90), AVG(z) FROM SQLDataGRBSNe WHERE CAST(e_iso as FLOAT)>? AND CAST(e_iso as FLOAT)<? AND CAST(z as FLOAT)>? AND CAST(z as FLOAT)<? GROUP BY GRB', (min_eiso, max_eiso, min_z, max_z))
@@ -152,7 +155,7 @@ def table_query(max_z, min_z, max_eiso, min_eiso):
 
     return data2
 
-
+# Get a dictionary of grb-sn pairs for ease of use in some functions later
 def grb_sne_dict():
     conn = get_db_connection()
     data = conn.execute('SELECT GRB, SNe FROM SQLDataGRBSNe GROUP BY GRB')
@@ -165,7 +168,7 @@ def grb_sne_dict():
 
 grb_sne = grb_sne_dict()
 
-
+# Get all the GRB names
 def grb_names():
     conn = get_db_connection()
     names = conn.execute(
@@ -180,26 +183,11 @@ def grb_names():
 
 grbs = grb_names()
 
-
-def grb_sne_dict():
-    conn = get_db_connection()
-    data = conn.execute('SELECT GRB, SNe FROM SQLDataGRBSNe GROUP BY GRB')
-    grb_sne_dict = {}
-    for i in data:
-        if i['SNe'] != None:
-            grb_sne_dict[i['SNe']] = i['GRB']
-    return(grb_sne_dict)
-
-
-grb_sne = grb_sne_dict()
-
 # This code goes to the long_grbs folder and gets all the data for the plot
-
-
 def get_grb_data(event_id):
     # To determine if its an SN only or a GRB only
     if 'GRB' in str(event_id):
-        event_id = event_id.split('_')[0][3:]
+        event_id = event_id.split('-')[0][3:]
         path = './static/long_grbs/'
         files = glob.glob(path+'/*.txt')
         # print(files)
@@ -381,7 +369,7 @@ def z_plotter():
 
 @app.route('/<event_id>')
 def event(event_id):
-    event, radec = get_post(event_id)
+    event, radec, peakmag = get_post(event_id)
 
     # References
     # Primary
@@ -449,6 +437,64 @@ def event(event_id):
                 else:
                     radec_nos.append(
                         list(needed_dict.keys()).index(radec[i]['source'])+1)
+    
+    #Get a list of all the bands we have peak times or mags for
+    mag_bandlist = []
+    ptime_bandlist = []
+    for i in range(len(peakmag)):
+        if peakmag[i]['band']!=None:
+            if peakmag[i]['mag']!=None:
+                mag_bandlist.append(peakmag[i]['band'])
+            if peakmag[i]['time']!=None:
+                ptime_bandlist.append(peakmag[i]['band'])
+
+    # Add the peak times and mags to the master dictionary of sources
+    peakmag_refs = []
+    peakmag_nos = []
+
+    # Send query to ADS and get data back
+    for i in range(len(peakmag)):
+        if peakmag[i]['source'] != None:
+            print('The source is:', peakmag[i]['source'])
+            if 'adsabs' in peakmag[i]['source']:
+                bibcode_initial = str(peakmag[i]['source']).split(
+                    '/')[4].replace('%26', '&')
+
+                bibcode = {"bibcode": [
+                    str(bibcode_initial)], "format": "%m %Y"}
+                r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom",
+                                  headers={"Authorization": "Bearer " + token,
+                                           "Content-type": "application/json"},
+                                  data=json.dumps(bibcode))
+
+                author_list = r.json()['export']
+                author_split = r.json()['export'].split(',')
+
+                dictionary_a = {}
+                if len(author_split) > 2:
+                    dictionary_a['names'] = author_split[0]+' et al.'
+                    dictionary_a['year'] = author_list[-5:-1]
+                else:
+                    dictionary_a['names'] = author_list[:-6]
+                    dictionary_a['year'] = author_list[-5:-1]
+
+                if peakmag[i]['source'] not in list(needed_dict.keys()):
+                    needed_dict[peakmag[i]['source']] = dictionary_a
+                    peakmag_nos.append(
+                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+                    peakmag_refs.append(peakmag[i]['source'])
+                else:
+                    peakmag_nos.append(
+                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+            else:
+                if peakmag[i]['source'] not in list(needed_dict.keys()):
+                    needed_dict[peakmag[i]['source']] = peakmag[i]['source']
+                    peakmag_nos.append(
+                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+                    peakmag_refs.append(peakmag[i]['source'])
+                else:
+                    peakmag_nos.append(
+                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
 
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################
@@ -978,7 +1024,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     # Return everything
-    return render_template('event.html', event=event, radec=radec, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
@@ -1055,15 +1101,20 @@ def get_table(event_id):
     # Sql query to dataframe
     conn = get_db_connection()
     df = pd.read_sql_query("SELECT * FROM SQLDataGRBSNe", conn)
+    df2 = pd.read_sql_query("SELECT * FROM TrigCoords", conn)
+    df3 = pd.read_sql_query("SELECT * FROM PeakTimesMags", conn)
+    conn.close()
 
     if 'GRB' in event_id:
         # GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         # This solves the GRBs with SNs and without
-        grb_name = str(event_id).split('_')[0][3:]
+        grb_name = str(event_id).split('-')[0][3:]
         print(grb_name)
 
         # Set the index of the df to be based on GRB name
         downloadabledf = df.loc[df['GRB'] == grb_name]
+        downloadabledf2 = df2.loc[df2['grb_id'] == grb_name]
+        downloadabledf3 = df3.loc[df3['grb_id'] == grb_name]
 
     # This should ideally solve the lone SN cases
     elif 'SN' or 'AT' in event_id:
@@ -1072,20 +1123,37 @@ def get_table(event_id):
         # The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
         # Set the index of the df to be based on SN name
         downloadabledf = df.loc[df['SNe'] == sn_name]
-
-    conn.close()
+        downloadabledf2 = df2.loc[df2['grb_id'] == grb_name]
+        downloadabledf3 = df3.loc[df3['grb_id'] == grb_name]
 
     # Write to an input output object
-
+    # Main data
     s = io.StringIO()
-    dwnld = downloadabledf.to_csv(s, index=False)
+    downloadabledf.to_csv(s, index=False)
     s.seek(0)
-    # Make the response
-    resp = Response(s, mimetype='text/csv')
 
-    resp.headers.set("Content-Disposition", "attachment",
-                     filename=event_id+"_dbdata.txt")
-    return resp
+    # trigcoords
+    t = io.StringIO()
+    downloadabledf2.to_csv(t, index=False)
+    t.seek(0)
+
+    # Peak mags
+    u = io.StringIO()
+    downloadabledf3.to_csv(u, index=False)
+    u.seek(0)
+
+    downloads = [s, t, u]
+    names = ["GRBSNdbdata.txt", "TrigsCoords.txt", "PeakMags.txt"]
+
+    # Make the zipfile
+    zipf = io.BytesIO()
+    with zipfile.ZipFile(zipf, 'w') as outfile:
+        for i, file in enumerate(downloads):
+            outfile.writestr(names[i], file.getvalue())
+
+    zipf.seek(0)
+
+    return send_file(zipf, mimetype='zip', attachment_filename=event_id+'_dbdata.zip', as_attachment=True)
 
 # User modifiable graphs
 
@@ -1263,9 +1331,9 @@ def grb_names():
     for i in names:
         if str(i[0]) != 'None' and str(i[1]) != 'None':
             if 'AT' in str(i[1]):
-                grbs.append('GRB'+str(i[0])+'_'+str(i[1]))
+                grbs.append('GRB'+str(i[0])+'-'+str(i[1]))
             else:
-                grbs.append('GRB'+str(i[0])+'_SN'+str(i[1]))
+                grbs.append('GRB'+str(i[0])+'-SN'+str(i[1]))
 
         # years.append(str(i[0])[:2])
         elif str(i[1]) == 'None':
@@ -1347,15 +1415,15 @@ def advsearch():
         max_ek = form.max_ek.data
         min_ek = form.min_ek.data
 
-        #Did they actually fill in the form
+        # Did they actually fill in the form
         k = 0
         for i in list(form.data.values())[:-2]:
-            if i=='':
-                k+=1
-        if k==len(list(form.data.values())[:-2]):
+            if i == '':
+                k += 1
+        if k == len(list(form.data.values())[:-2]):
             flash('You didn\'t enter any data')
             return redirect(url_for('advsearch'))
-        
+
         # Check if the variables are as expected
         if event_id != str():
 
@@ -1366,169 +1434,169 @@ def advsearch():
             elif str(event_id)[3:] in grbs:  # if they search an GRB
                 querylist.append(f"GRB=?")
                 varlist.append(str(event_id[3:]))
-            
+
             else:
                 flash('This object is not in our database.')
                 return redirect(url_for('advsearch'))
 
         # Redshift
         if min_z != str():
-            #Error checking
+            # Error checking
             try:
                 float(min_z)
             except ValueError:
                 flash('Enter a float for the minimum redshift')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(z as FLOAT)>=?")
             varlist.append(float(min_z))
 
         if max_z != str():
-            #Error checking
+            # Error checking
             try:
                 float(max_z)
             except ValueError:
                 flash('Enter a float for the maximum redshift')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(z as FLOAT)<=?")
             varlist.append(float(max_z))
 
         # T90
         if min_t90 != str():
-            #Error checking
+            # Error checking
             try:
                 float(min_t90)
             except ValueError:
                 flash('Enter a float for the minimum T$_{90}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(T90 as FLOAT)>=?")
             varlist.append(float(min_t90))
 
         if max_t90 != str():
-            #Error checking
+            # Error checking
             try:
                 float(max_t90)
             except ValueError:
                 flash('Enter a float for the maximum T$_{90}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(T90 as FLOAT)<=?")
             varlist.append(float(max_t90))
 
         # Eiso
         if min_eiso != str():
-            #Error checking
+            # Error checking
             try:
                 float(min_eiso)
             except ValueError:
                 flash('Enter a float for the minimum E$_{iso}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(e_iso as FLOAT)>=?")
             varlist.append(float(min_eiso))
 
         if max_eiso != str():
-            #Error checking
+            # Error checking
             try:
                 float(max_eiso)
             except ValueError:
                 flash('Enter a float for the maximum E$_{iso}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(e_iso as FLOAT)<=?")
             varlist.append(float(max_eiso))
 
         # Epeak
         if min_epeak != str():
-            #Error checking
+            # Error checking
             try:
                 float(min_epeak)
             except ValueError:
                 flash('Enter a float for the minimum E$_{p}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(E_p as FLOAT)>=?")
             varlist.append(float(min_epeak))
 
         if max_epeak != str():
-            #Error checking
+            # Error checking
             try:
                 float(max_epeak)
             except ValueError:
                 flash('Enter a float for the maximum E$_{p}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(E_p as FLOAT)<=?")
             varlist.append(float(max_epeak))
-        
+
         # Ek
         if min_ek != str():
-            #Error checking
+            # Error checking
             try:
                 float(min_ek)
             except ValueError:
                 flash('Enter a float for the minimum E$_{k}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(e_k as FLOAT)>=?")
             varlist.append(float(min_ek))
 
         if max_ek != str():
-            #Error checking
+            # Error checking
             try:
                 float(max_ek)
             except ValueError:
                 flash('Enter a float for the maximum E$_{k}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(e_k as FLOAT)<=?")
             varlist.append(float(max_ek))
 
         # Nickel Mass
         if min_nim != str():
-            #Error checking
+            # Error checking
             try:
                 float(min_nim)
             except ValueError:
                 flash('Enter a float for the minimum M$_{Ni}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(ni_m as FLOAT)>=?")
             varlist.append(float(min_nim))
 
         if max_nim != str():
-            #Error checking
+            # Error checking
             try:
                 float(max_nim)
             except ValueError:
                 flash('Enter a float for the maximum M$_{Ni}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(ni_m as FLOAT)<=?")
             varlist.append(float(max_nim))
-        
+
         # Ejecta Mass
         if min_ejm != str():
-            #Error checking
+            # Error checking
             try:
                 float(min_ejm)
             except ValueError:
                 flash('Enter a float for the minimum M$_{Ej}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(ej_m as FLOAT)>=?")
             varlist.append(float(min_ejm))
 
         if max_ejm != str():
-            #Error checking
+            # Error checking
             try:
                 float(max_ejm)
             except ValueError:
                 flash('Enter a float for the maximum M$_{Ej}$')
                 return redirect(url_for('advsearch'))
-            #Appending
+            # Appending
             querylist.append(f"CAST(ej_m as FLOAT)<=?")
             varlist.append(float(max_ejm))
 

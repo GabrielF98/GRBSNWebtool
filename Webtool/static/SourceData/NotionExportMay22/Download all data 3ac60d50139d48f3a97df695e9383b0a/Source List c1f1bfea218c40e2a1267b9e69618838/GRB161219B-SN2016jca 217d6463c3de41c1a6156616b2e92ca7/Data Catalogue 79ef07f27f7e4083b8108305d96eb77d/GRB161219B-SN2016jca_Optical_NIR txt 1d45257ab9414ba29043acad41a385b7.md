@@ -1,0 +1,4 @@
+# GRB161219B-SN2016jca_Optical_NIR.txt
+
+Reference: https://ui.adsabs.harvard.edu/abs/2018ApJ...862...94L/abstract
+Status: Early, NIR, Optical
