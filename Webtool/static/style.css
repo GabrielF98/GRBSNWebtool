@@ -1,49 +1,66 @@
-p {font-family: Arial;
-   color: white;
-   background-color: teal;
- margin-left: 100px;
-margin-right: 100px;
-font-size: 17pt;}
+p {
+  font-family: Arial;
+  color: white;
+  background-color: teal;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 17pt;
+}
 
-body {background-color: teal;
+body {
+  background-color: teal;
 }
 
 /*hyperlink text*/
-a {color: yellow}
+a {
+  color: yellow
+}
 
 
 
-li {font-family: Arial;
-   color: white;
-   margin-left: 100px;
-   margin-right: 100px;}
+li {
+  font-family: Arial;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
+.top-three {
+     margin-top: 50pt;
+     color: white;
+}
 
-h1{color: white;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    text-align: center;
-    font-family: Arial;
-    background-color: teal;
- margin-left: 100px;
-margin-right: 100px;}
+h1 {
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-family: Arial;
+  background-color: teal;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
-h2{color: white;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    text-align: left;
-    font-family: Arial;
-   margin-left: 100px;}
+h2 {
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: left;
+  font-family: Arial;
+  margin-left: 100px;
+}
 
-h3{color: white;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    text-align: left;
-    font-family: Arial;
-   margin-left: 100px;
-    font-size: 15px;}
+h3 {
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: left;
+  font-family: Arial;
+  margin-left: 100px;
+  font-size: 15px;
+}
 
-div{
+div {
   margin-left: 100px;
   margin-right: 100px;
   overflow: auto;
@@ -53,38 +70,42 @@ div{
 table{
   overflow: auto;
   float: left;
-	color: white;
-  border: 2px solid black;
-  margin-left: 100px;
-  padding: 5px;
-  border-color: white;
-  font-size: 12pt;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 100px, 
+}
+
+.table2{
+  margin:0 10px;
 }
 
 /*For the flask messages*/
-.error {
-    color: red
+p.error {
+  color: yellow
 }
 
-th, td {color: white;
-  border: 2px solid black;
-  margin-left: 100px;
+th,
+td,
+tr {
+  color: white;
+  border: 2px solid;
   padding: 5px;
   border-color: white;
-  font-size: 12pt;}
+  font-size: 12pt;
+}
 
-.float-parent-element { 
-    width: 50%; 
-} 
-.float-child-element-1 { 
-    float: left; 
-    width: 30%; 
-} 
+.float-parent-element {
+  width: 50%;
+}
 
-.float-child-element-2 { 
-    float: left; 
-    width: 70%; 
-} 
+.float-child-element-1 {
+  float: left;
+  width: 30%;
+}
+
+.float-child-element-2 {
+  float: left;
+  width: 70%;
+}
+
+.headings{
+  color: white;
+  margin: 0pt;
+}

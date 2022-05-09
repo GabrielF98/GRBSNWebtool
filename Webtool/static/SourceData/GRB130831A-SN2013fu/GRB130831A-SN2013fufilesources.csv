@@ -1,7 +1,9 @@
-GRB/SN,File name,Datatypes,Sources
-GRB130831A-SN2013fu,GRB130831A-SN2013fu_Xray.html,"Early,Spectra",https://ui.adsabs.harvard.edu/abs/2016MNRAS.455.1027D/abstract
-GRB130831A-SN2013fu,GRB130831A-SN2013fu_NIR_Optical_UV.html,"NIR,Optical,UV",https://ui.adsabs.harvard.edu/abs/2016MNRAS.455.1027D/abstract
-GRB130831A-SN2013fu,GRB130831A-SN2013fu_Optical.html,"Early,Late,NIR,Optical",https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-GRB130831A-SN2013fu,MultibandData.html,"IR,Late,NIR,Optical",https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-GRB130831A-SN2013fu,GRB130831A-SN2013fu_UV_Optical.txt,"Early,Optical,UV",https://ui.adsabs.harvard.edu/abs/2016MNRAS.455.1027D/abstract
-GRB130831A-SN2013fu,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/2013fu/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+GRB/SN,Filename,Status,Reference
+GRB130831A-SN2013fu,GRB130831A-SN2013fu_Xray.html,"Early, Spectra",https://ui.adsabs.harvard.edu/abs/2016MNRAS.455.1027D/abstract
+GRB130831A-SN2013fu,GRB130831A-SN2013fu_NIR_Optical_UV.html,"NIR, Optical, UV",https://ui.adsabs.harvard.edu/abs/2016MNRAS.455.1027D/abstract
+GRB130831A-SN2013fu,GRB130831A-SN2013fu_Optical.html,"Early, Late, NIR, Optical",https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+GRB130831A-SN2013fu,MultibandData.html,"IR, Late, NIR, Optical",https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+GRB130831A-SN2013fu,GRB130831A-SN2013fu_UV_Optical.txt,"Early, Optical, UV",https://ui.adsabs.harvard.edu/abs/2016MNRAS.455.1027D/abstract
+GRB130831A-SN2013fu,GRB130831A-SN2013fu_Optical_1.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
+GRB130831A-SN2013fu,Xray,https://www.swift.ac.uk/xrt_curves/
+GRB130831A-SN2013fu,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2013fu/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

@@ -36,27 +36,27 @@ for i in range(len(df['GRB'])):
 
 df['Event Type'] = event_type
 
-#Convert the E_iso and E_k to 10^52 scale
-for i in range(len(df['GRB'])):
-    if df['E$_{\\gamma, iso}$ [ergs]'][i]!=None:
-            new_vals = []
-            for j in list(df['E$_{\\gamma, iso}$ [ergs]'][i].split(',')):
-                if '>' or '<' not in str(j):
-                    new_vals.append(j[0]+str(float(j[1:])/1e52))
-                else:
-                    new_vals.append(np.float(j)/1e52)
+# #Convert the E_iso and E_k to 10^52 scale
+# for i in range(len(df['GRB'])):
+#     if df['E$_{\\gamma, iso}$ [ergs]'][i]!=None:
+#             new_vals = []
+#             for j in list(df['E$_{\\gamma, iso}$ [ergs]'][i].split(',')):
+#                 if '>' or '<' not in str(j):
+#                     new_vals.append(j[0]+str(float(j[1:])/1e52))
+#                 else:
+#                     new_vals.append(np.float(j)/1e52)
 
-            df['E$_{\\gamma, iso}$ [ergs]'][i] = str(new_vals)
+#             df['E$_{\\gamma, iso}$ [ergs]'][i] = str(new_vals)
 
-    if df['E$_k$ [erg]'][i]!=None:
-            new_vals = []
-            for j in list(df['E$_k$ [erg]'][i].split(',')):
-                if '>' or '<' not in str(j):
-                    new_vals.append(j[0]+str(float(j[1:])/1e52))
-                else:
-                    new_vals.append(np.float(j)/1e52)
+#     if df['E$_k$ [erg]'][i]!=None:
+#             new_vals = []
+#             for j in list(df['E$_k$ [erg]'][i].split(',')):
+#                 if '>' or '<' not in str(j):
+#                     new_vals.append(j[0]+str(float(j[1:])/1e52))
+#                 else:
+#                     new_vals.append(np.float(j)/1e52)
 
-            df['E$_k$ [erg]'][i] = str(new_vals)
+#             df['E$_k$ [erg]'][i] = str(new_vals)
 
 #Return ADS urls of the primary sources
 #Send query to ADS and get data back
@@ -96,7 +96,7 @@ for i in range(len(df['GRB'])):
                     citelist.append(str(r.json()['export']))
 
                 #The reference for the table
-                sub_citerefs.append(bibcode)
+                sub_citerefs.append("\\cite{"+bibcode+"}")
     if df['Secondary'][i]!=None:
 
         for j in list(df['Secondary'][i].split(',')):
@@ -115,7 +115,7 @@ for i in range(len(df['GRB'])):
                     citelist.append(str(r.json()['export']))
 
                 #The reference for the table
-                sub_citerefs.append(bibcode)
+                sub_citerefs.append("\\cite{"+bibcode+"}")
     citerefs.append(sub_citerefs)
 df['Refs.'] = citerefs
 #Write the list of citations to a txt for use in latex
