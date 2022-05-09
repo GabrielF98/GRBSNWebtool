@@ -444,7 +444,7 @@
     this GRB/SN from our database. This table includes parameters like those in the table above and was collected from
     refereed papers found on the ADS for these events.</p>
   {% else %}
-  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_'+event[0]['SNe'])}}">Click here</a> to download
+  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">Click here</a> to download
     a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above
     and was collected from refereed papers found on the ADS for these events.</p>
   {% endif %}
@@ -458,7 +458,7 @@
     this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from
     refereed papers found on the ADS for these events.</p>
   {% else %}
-  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'_SN'+event[0]['SNe'])}}">Click here</a> to
+  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">Click here</a> to
     download a table of data about this GRB/SN from our database. This table includes parameters like those in the
     tables above and was collected from refereed papers found on the ADS for these events.</p>
   {%endif%}
