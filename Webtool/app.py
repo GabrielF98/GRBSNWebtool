@@ -1097,7 +1097,7 @@ def get_table(event_id):
     df3 = pd.read_sql_query("SELECT * FROM PeakTimesMags", conn)
     conn.close()
 
-    if 'GRB' in event_id:ß
+    if 'GRB' in event_id:
         #GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         #This solves the GRBs with SNs and without
         grb_name = str(event_id).split('-')[0][3:]
