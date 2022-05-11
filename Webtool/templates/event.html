@@ -40,6 +40,13 @@
   {% endblock %}
 
   {% block content %}
+
+  {% if 'GCN' in event[0]['Notes']|string() %}
+  <p>
+    <b>NOTE:</b> This GRB-SN has been added to the tool based on a GCN. This means that it has not yet been peer reviewed in a published paper. Any data presented here may be subject to change. The GCN can be found <a href="{{event[0]['PrimarySources']}}" target='_blank'>here </a>.
+  </p>
+  {% endif %}
+
   <div>
     <table class="table table-sm table2" style="width:45%">
       <thead>
