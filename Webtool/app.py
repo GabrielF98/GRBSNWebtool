@@ -630,8 +630,8 @@ def event(event_id):
     # Format the tooltip
 
     tooltips = [
-        ('time', '@time'),
-        ('flux', '@flux'),
+        ('Time', '@time'),
+        ('Flux', '@flux'),
         ('Source', '@sources'),
     ]
 
@@ -736,8 +736,8 @@ def event(event_id):
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
                 tooltips = [
-                    ('time', '@time'),
-                    ('magnitude', '@magnitude'),
+                    ('Time', '@time_since'),
+                    ('Magnitude', '@magnitude'),
                     ('Source', '@indices'),
                 ]
 
@@ -913,6 +913,19 @@ def event(event_id):
                         source_indices.append(
                             list(needed_dict.keys()).index(sources[k]['url'])+1)
 
+                # Convert the times from MJD to UTC, then subtract the first timestamp
+                mjd_time = np.array(data_dict['time'])
+                t_after_t0 = np.zeros(len(data_dict['time']))
+                t0 = min(mjd_time)  # earliest mjd in time
+                t0_utc = Time(t0, format='mjd').utc.iso
+
+                for k in range(len(mjd_time)):
+                    t_after_t0[k] = float(mjd_time[k])-float(grb_time_mjd)
+
+                # Add this to the df in the position time used to be in.
+                data_dict['time_since'] = t_after_t0
+
+
                 data_dict['sources'] = [
                     np.sort(source_indices)]*len(wavelength)
                 data_dict['wave_unit'] = [
@@ -930,13 +943,13 @@ def event(event_id):
                     ('Wavelength unit', '@wave_unit'),
                     ('Flux', '@flux'),
                     ('Flux unit', '@flux_unit'),
-                    ('Date [MJD]', '@time'),
+                    ('Time [days]', '@time_since'),
                     ('Source', '@sources')
                 ]
 
-                # Legend label will be the MJD for now
+                # Legend label will be the elapsed time since the trigger for now
                 spectrum.line('wavelength', 'flux', source=data_source,
-                              color=color[i], muted_color='gray', muted_alpha=0.1, legend_label=data_i['SN'+str(event[0]['SNe'])]['spectra']['time'])
+                              color=color[i], muted_color='gray', muted_alpha=0.1, legend_label=str(np.round(float(data_dict['time_since'][0]), 2))+' days')
 
         # Add the HoverTool to the figure
         spectrum.add_tools(HoverTool(tooltips=tooltips))
