@@ -1,13 +1,9 @@
-import enum
-from hashlib import new
+# Database access
 import sqlite3
-from tracemalloc import start
-from turtle import down
-import matplotlib.pyplot as plt
+
+# Flask app stuff
 from flask import Flask, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
 from werkzeug.exceptions import abort
-
-from flask_bootstrap import Bootstrap
 
 # Dealing with the flask login
 from flask_login import LoginManager
@@ -24,13 +20,11 @@ import requests
 import ast
 
 # Pieces for Bokeh
-from bokeh.models import ColumnDataSource, HoverTool, Range1d, Label, Whisker
-from bokeh.io import curdoc
-from bokeh.resources import INLINE
+from bokeh.models import ColumnDataSource, HoverTool, Range1d, Label
 from bokeh.embed import components
-from bokeh.layouts import gridplot, Spacer, layout, column, row
-from bokeh.plotting import figure, output_file, show
-from bokeh.palettes import all_palettes, viridis
+from bokeh.layouts import layout
+from bokeh.plotting import figure
+from bokeh.palettes import viridis, Category20_20
 from bokeh.transform import factor_mark
 
 # Pandas
@@ -41,31 +35,29 @@ import os
 
 # File processing
 import zipfile
-import shutil
 
 # Astropy
 from astropy.time import Time
-from astropy.io import ascii
 
 # Things for making updatable plots
 import io
-import base64
+
+# Matplotlib
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 
 # To convert strings to lists
 import ast
 
+# Search bars
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import Optional
+
 # Create config.py file
 with open('instance/config.py', 'w') as f:
     code = str(os.urandom(32).hex())
     f.write(('SECRET_KEY = \''+code+'\''))
-
-# Search bars
-from flask_wtf import FlaskForm
-from wtforms import StringField, FloatField, SubmitField
-from wtforms.validators import Optional
-
 
 # Search on the homepage
 class SearchForm(FlaskForm):
@@ -642,7 +634,6 @@ def event(event_id):
     #####OPTICAL##########################################################################
     ######################################################################################
     t0_utc = '0'
-    from bokeh.palettes import Category20_20
 
     optical = figure(title='Optical (GRB+SN)',
                      toolbar_location="right", sizing_mode='scale_both', margin=5)
