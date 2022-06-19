@@ -1,23 +1,42 @@
-# Database access
-import sqlite3
+# Imports
+import sqlite3 # Database access
+import requests # API Access to ADS
+import ast # Convert strings to lists
+import glob # Find the txt files with the right names
+import numpy as np
+import json # Reading in data
+import pandas as pd # Pandas
+import os # Import os to find files in the event folders
+import zipfile # Creating zipfiles for download
+from astropy.time import Time # Converting MJD to UTC
+import io # Downloadable zipfiles and for updateable plots
 
-# Flask app stuff
+#################################
+#################################
+# Flask app stuff ###############
+#################################
+#################################
+
+# Basic flask stuff
 from flask import Flask, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
+
+# Errors for pages that dont exist
 from werkzeug.exceptions import abort
 
 # Dealing with the flask login
 from flask_login import LoginManager
 
-# Find the txt files with the right names
-import glob
-import numpy as np
-import json
+# Search bars
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import Optional
 
-# API Access to ADS
-import requests
 
-# Convert strings to lists
-import ast
+#################################
+#################################
+# Bokeh stuff ###################
+#################################
+#################################
 
 # Pieces for Bokeh
 from bokeh.models import ColumnDataSource, HoverTool, Range1d, Label
@@ -27,32 +46,10 @@ from bokeh.plotting import figure
 from bokeh.palettes import viridis, Category20_20
 from bokeh.transform import factor_mark
 
-# Pandas
-import pandas as pd
-
-# Import os
-import os
-
-# File processing
-import zipfile
-
-# Astropy
-from astropy.time import Time
-
-# Things for making updatable plots
-import io
 
 # Matplotlib
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
-
-# To convert strings to lists
-import ast
-
-# Search bars
-from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField
-from wtforms.validators import Optional
 
 # Create config.py file
 with open('instance/config.py', 'w') as f:
