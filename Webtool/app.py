@@ -384,49 +384,16 @@ def event(event_id):
     radec_refs = []
     radec_nos = []
 
-    # Send query to ADS and get data back
-    token = 'vs2uU32JWGtrTQwOFtumfDmmDlCFe2QSJ3rwSOvv'
     for i in range(len(radec)):
         if radec[i]['source'] != None:
-            if 'adsabs' in radec[i]['source']:
-                bibcode_initial = str(radec[i]['source']).split(
-                    '/')[4].replace('%26', '&')
-
-                bibcode = {"bibcode": [
-                    str(bibcode_initial)], "format": "%m %Y"}
-                r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom",
-                                  headers={"Authorization": "Bearer " + token,
-                                           "Content-type": "application/json"},
-                                  data=json.dumps(bibcode))
-
-                author_list = r.json()['export']
-                author_split = r.json()['export'].split(',')
-
-                dictionary_a = {}
-                if len(author_split) > 2:
-                    dictionary_a['names'] = author_split[0]+' et al.'
-                    dictionary_a['year'] = author_list[-5:-1]
-                else:
-                    dictionary_a['names'] = author_list[:-6]
-                    dictionary_a['year'] = author_list[-5:-1]
-
-                if radec[i]['source'] not in list(needed_dict.keys()):
-                    needed_dict[radec[i]['source']] = dictionary_a
-                    radec_nos.append(
-                        list(needed_dict.keys()).index(radec[i]['source'])+1)
-                    radec_refs.append(radec[i]['source'])
-                else:
-                    radec_nos.append(
-                        list(needed_dict.keys()).index(radec[i]['source'])+1)
+            if radec[i]['source'] not in list(needed_dict.keys()):
+                needed_dict[radec[i]['source']] = radec[i]['source']
+                radec_nos.append(
+                    list(needed_dict.keys()).index(radec[i]['source'])+1)
+                radec_refs.append(radec[i]['source'])
             else:
-                if radec[i]['source'] not in list(needed_dict.keys()):
-                    needed_dict[radec[i]['source']] = radec[i]['source']
-                    radec_nos.append(
-                        list(needed_dict.keys()).index(radec[i]['source'])+1)
-                    radec_refs.append(radec[i]['source'])
-                else:
-                    radec_nos.append(
-                        list(needed_dict.keys()).index(radec[i]['source'])+1)
+                radec_nos.append(
+                    list(needed_dict.keys()).index(radec[i]['source'])+1)
     
     #Get a list of all the bands we have peak times or mags for
     mag_bandlist = []
@@ -441,50 +408,15 @@ def event(event_id):
     # Add the peak times and mags to the master dictionary of sources
     peakmag_refs = []
     peakmag_nos = []
-
-    # Send query to ADS and get data back
     for i in range(len(peakmag)):
-        if peakmag[i]['source'] != None:
-            #print('The source is:', peakmag[i]['source'])
-            if 'adsabs' in peakmag[i]['source']:
-                bibcode_initial = str(peakmag[i]['source']).split(
-                    '/')[4].replace('%26', '&')
-
-                bibcode = {"bibcode": [
-                    str(bibcode_initial)], "format": "%m %Y"}
-                r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom",
-                                  headers={"Authorization": "Bearer " + token,
-                                           "Content-type": "application/json"},
-                                  data=json.dumps(bibcode))
-
-                author_list = r.json()['export']
-                author_split = r.json()['export'].split(',')
-
-                dictionary_a = {}
-                if len(author_split) > 2:
-                    dictionary_a['names'] = author_split[0]+' et al.'
-                    dictionary_a['year'] = author_list[-5:-1]
-                else:
-                    dictionary_a['names'] = author_list[:-6]
-                    dictionary_a['year'] = author_list[-5:-1]
-
-                if peakmag[i]['source'] not in list(needed_dict.keys()):
-                    needed_dict[peakmag[i]['source']] = dictionary_a
-                    peakmag_nos.append(
-                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
-                    peakmag_refs.append(peakmag[i]['source'])
-                else:
-                    peakmag_nos.append(
-                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
-            else:
-                if peakmag[i]['source'] not in list(needed_dict.keys()):
-                    needed_dict[peakmag[i]['source']] = peakmag[i]['source']
-                    peakmag_nos.append(
-                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
-                    peakmag_refs.append(peakmag[i]['source'])
-                else:
-                    peakmag_nos.append(
-                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+        if peakmag[i]['source'] not in list(needed_dict.keys()):
+            needed_dict[peakmag[i]['source']] = peakmag[i]['source']
+            peakmag_nos.append(
+                list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+            peakmag_refs.append(peakmag[i]['source'])
+        else:
+            peakmag_nos.append(
+                list(needed_dict.keys()).index(peakmag[i]['source'])+1)
 
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################

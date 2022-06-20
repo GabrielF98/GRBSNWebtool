@@ -16,7 +16,23 @@ def get_db_connection():
 #Return ADS urls of the primary sources
 def bibcode_names():
 	conn = get_db_connection()
-	urls = conn.execute('SELECT DISTINCT(PrimarySources) FROM SQLDataGRBSNe')
+	urls1 = conn.execute('SELECT DISTINCT(PrimarySources) FROM SQLDataGRBSNe')
+	urls2 = conn.execute('SELECT DISTINCT(source) FROM TrigCoords')
+	urls3 = conn.execute('SELECT DISTINCT(source) FROM PeakTimesMags')
+	urls = []
+
+	for i in urls1:
+		if i not in urls:
+			urls.append(i)
+
+	for i in urls2:
+		if i not in urls:
+			urls.append(i)
+
+	for i in urls3:
+		if i not in urls:
+			urls.append(i)
+
 	bibcodes = []
 	hyperlinks = []
 	randoms = [] 
