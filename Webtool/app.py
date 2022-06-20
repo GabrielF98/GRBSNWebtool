@@ -181,12 +181,11 @@ def get_grb_data(event_id):
     #To determine if its an SN only or a GRB only
     if 'GRB' in str(event_id):
         folder_name = event_id
-        #print(folder_name)
+        # print(folder_name)
         event_id = event_id.split('-')[0][3:]
         path = './static/SourceData/'+folder_name+'/'
         files = glob.glob(path+'/*xrtlc.txt')
-        #print(files)
-        ##print(files)
+        # print(files)
 
         for i in range(len(files)):
             if str(event_id) in str(files[i]):
