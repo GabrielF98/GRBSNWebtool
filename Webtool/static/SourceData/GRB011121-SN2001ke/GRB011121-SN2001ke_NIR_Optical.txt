@@ -1,0 +1,50 @@
+date	instrument	band	exposure	seeing	mag	dmag	date_unit	exposure_unit	mag_unit
+2001-Nov-22-03:03-03:25	ESO NTT/SOFI	K_{s}	10 \times 63	0.7	15.19	0.07	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-22-04:03-04:14	ESO 3.6 m/EFOSC2	R_{C}	3 \times 180	1.5	18.86	0.02	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-22-07:30-08:01	ESO 3.6 m/EFOSC2	R_{C}	3 \times 600	1.0	19.51	0.01	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-22-07:47-08:22	ESO NTT/SOFI	J	25 \times 70	0.8	17.47	0.04	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-22-08:23-08:47	ESO NTT/SOFI	H	17 \times 70	0.7	16.72	0.05	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-22-08:47-09:06	ESO NTT/SOFI	K_{s}	13 \times 70	0.9	16.09	0.07	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-22-14:00-14:14	AAO AAT/IRIS2	H	10 \times 60	2.7	17.30	0.25	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-23-00:04-00:20	ESO NTT/SOFI	K_{s}	11 \times 70	1.2	17.71	0.10	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-23-00:20-00:39	ESO NTT/SOFI	J	13 \times 70	1.6	19.38	0.10	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-23-04:30-04:40	ESO 3.6 m/EFOSC2	R_{C}	3 \times 180		21.23	0.05	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-23-04:41-04:57	ESO 3.6 m/EFOSC2	B	3 \times 300		22.40	0.50	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-23-04:58-05:08	ESO 3.6 m/EFOSC2	V	3 \times 180		21.95	0.15	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-23-08:29-08:45	ESO NTT/SOFI	J	11 \times 70	0.9	19.73	0.10	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-23-08:45-09:01	ESO NTT/SOFI	K_{s}	11 \times 70	0.9	18.29	0.10	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-23-08:29-08:39	ESO 3.6 m/EFOSC2	R_{C}	3 \times 180	1.3	21.75	0.08	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-23-08:39-08:44	ESO 3.6 m/EFOSC2	B	300	1.6	>21.70	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-24-06:24-06:48	ESO Antu/ISAAC	K_{s}	15 \times 60	0.7	19.30	0.08	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-24-06:53-07:16	ESO Antu/ISAAC	H	15 \times 60	0.7	19.81	0.05	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-24-07:18-07:36	ESO Antu/ISAAC	J_{s}	10 \times 90	0.6	20.93	0.10	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-24-07:43-08:01	ESO Yepun/FORS2	B	3 \times 300	0.8	23.70	0.30	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-24-08:02-08:14	ESO Yepun/FORS2	V	3 \times 180	0.8	23.37	0.05	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-24-08:15-08:27	ESO Yepun/FORS2	R_{special}	3 \times 180	0.8	22.93	0.08	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-25-06:43-06:59	ESO Antu/ISAAC	J_{s}	10 \times 90	0.9	21.64	0.30	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-25-07:01-07:24	ESO Antu/ISAAC	H	15 \times 60	0.6	20.73	0.10	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-25-07:27-07:52	ESO Antu/ISAAC	K_{s}	15 \times 60	0.8	20.02	0.10	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-25-08:10-08:22	ESO Yepun/FORS2	R_{special}	3 \times 180	0.8	23.68	0.15	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-25-08:23-08:34	ESO Yepun/FORS2	V	3 \times 180		>24.40	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-25-07:41-08:13	ESO 1.54 m Danish	R_{C}	1880	1.1	23.60	0.40	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Nov-30-08:05-08:51	CTIO OSIRIS	H	19 \times 60	0.7	>19.40	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-01-08:07-08:39	CTIO OSIRIS	J	8 \times 120	0.9	>20.10	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-03-07:50-08:25	CTIO OSIRIS	J	10 \times 120	1.2	>20.10	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-05-06:28-07:01	ESO Melipal/FORS1	V	3 \times 600	0.9	24.30	0.02	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-05-07:02-07:33	ESO Melipal/FORS1	R_{C}	3 \times 600	0.9	23.20	0.08	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-05-07:34-08:07	ESO Melipal/FORS1	I_{C}	3 \times 600	0.9	22.35	0.25	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-05-06:53-08:09	ESO Antu/ISAAC	J_{s}	40 \times 90	0.6	22.41	0.15	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-07-06:45-08:02	ESO Antu/ISAAC	J_{s}	40 \times 90	0.6	22.69	0.10	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-08-06:20-06:30	ESO Melipal/FORS1	V	600	0.8	24.09	0.02	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-09-06:49-08:05	ESO Antu/ISAAC	J_{s}	40 \times 90	0.7	22.52	0.15	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-09-07:33-07:43	ESO Melipal/FORS1	V	600	1.0	23.94	0.02	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-10-06:47-06:57	ESO Melipal/FORS1	R_{C}	600	0.8	23.65	0.08	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-11-07:33-08:06	ESO Melipal/FORS1	R_{C}	3 \times 600	0.6	23.45	0.08	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-11-08:07-08:29	ESO Melipal/FORS1	V	2 \times 600	0.7	24.18	0.02	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-13-07:19-08:46	ESO Antu/ISAAC	J_{s}	40 \times 90	0.7	22.89	0.15	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-15-05:10-05:27	ESO 1.54 m Danish	I_{C}	4 \times 900	1.2	>24.70	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-16-04:51-05:08	ESO 1.54 m Danish	I_{C}	2 \times 900	1.3	>23.90	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-17-04:55-05:12	ESO 1.54 m Danish	I_{C}	4 \times 900	2.0	>23.80	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-17-07:20-08:47	ESO Antu/ISAAC	J_{s}	40 \times 90	1.0	22.79	0.30	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2001-Dec-18-04:45-05:01	ESO 1.54 m Danish	I_{C}	2 \times 900	1.1	>23.80	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
+2002-Feb-09-04:04-05:24	ESO Antu/ISAAC	J_{s}	40 \times 90	0.5	>24.85	yyyy-mm-dd-hh:mm-hh:mm	seconds	Vega
