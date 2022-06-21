@@ -46,6 +46,8 @@ One or both of these data will be present in each file.
    
    * `AB`
    
+   * `Unspecified` For when neither AB nor Vega are clearly specified.
+   
  * `flux` The received flux of the source.
  
  * `flux unit`  The units used for the flux of the source. The options are:
