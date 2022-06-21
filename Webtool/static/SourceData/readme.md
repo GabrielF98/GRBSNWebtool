@@ -10,11 +10,13 @@ then the associated unit columns and units.
 
 ### Dates and Times
 One or both of these data will be present in each file.
+
   * `date` The date of observation. 
   
   * `date_unit` The unit of the date of observation, the options are:
   
     * `yyyy-month-deciday` The year, month and decimal day.
+    
     * `MJD` Modified Julian Day.
   
   * `time` The elapsed time since the reference point of the data. For GRBs this will usually be the trigger time but could also be the peak time of the SN lightcurve.
@@ -22,17 +24,26 @@ One or both of these data will be present in each file.
   * `time_unit` The elapsed time unit, the options are:
   
     * `seconds`
+    
     * `kiloseconds`
+    
     * `hours`
+    
     * `days`
 
 ### Observed Data
  * `mag` Magnitude of the source.
+ 
  * `mag_unit` The units used for the magnitude of the source. The options are:
+ 
    * `Vega` 
+   
    * `AB`
+   
  * `flux` The received flux of the source.
+ 
  * `flux unit`  The units used for the flux of the source. The options are:
+ 
    * `erg/cm^2/sec` 
 
 
@@ -42,6 +53,7 @@ The descriptions of the bands are listed here for reference purposes.
    
     **Johnson-Cousins Filters**
     * `U`
+    
     * `B`
     * `V`
     * `R`
@@ -50,6 +62,7 @@ The descriptions of the bands are listed here for reference purposes.
 
     **Hubble Space Telescope Filters**
     * `F450W`
+    
     * `F555W`
     * `F702W`
     * `F814W`
@@ -63,7 +76,9 @@ The descriptions of the bands are listed here for reference purposes.
 
 ### Miscellaneous
  * `instrument` The names of the instrument used to take data. The options are:
+ 
    * `HST` The Hubble Space Telescope
+   
    * `OGLE 1.3 m`
    * `Baade 6.5 m`
    * `CTIO 4 m`
