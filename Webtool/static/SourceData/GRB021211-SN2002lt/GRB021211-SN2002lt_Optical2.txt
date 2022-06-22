@@ -1,0 +1,13 @@
+date	mag	dmag	integration	band	instrument	date_unit	mag_unit 
+2002-Dec-11.9347	22.7	0.14	2\times1200	B	104-cm	yyyy-month-deciday	Unspecified
+2002-Dec-11.8264	22.3	0.20	1800	V	104-cm	yyyy-month-deciday	Unspecified
+2002-Dec-11.9632	>22.6	NaN	1800	V	104-cm	yyyy-month-deciday	Unspecified
+2002-Dec-11.7549	21.9	0.21	2\times900	R	104-cm	yyyy-month-deciday	Unspecified
+2002-Dec-11.7792	21.9	0.16	2\times900	R	104-cm	yyyy-month-deciday	Unspecified
+2002-Dec-11.8640	22.1	0.18	600	R	HCT	yyyy-month-deciday	Unspecified
+2002-Dec-11.8730	22.1	0.18	600	R	HCT	yyyy-month-deciday	Unspecified
+2002-Dec-11.8822	22.1	0.14	600	R	HCT	yyyy-month-deciday	Unspecified
+2002-Dec-11.8914	22.4	0.24	600	R	HCT	yyyy-month-deciday	Unspecified
+2002-Dec-11.8993	22.5	0.21	2\times1800	R	104-cm	yyyy-month-deciday	Unspecified
+2002-Dec-11.9318	22.2	0.18	2\times600	R	HCT	yyyy-month-deciday	Unspecified
+2002-Dec-11.8028	>21.4	NaN	2\times900	I	104-cm	yyyy-month-deciday	Unspecified

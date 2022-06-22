@@ -19,6 +19,8 @@ One or both of these data will be present in each file.
   
     * `yyyy-month-deciday` The year, month and decimal day.
     
+    *`yyyy-mm-deciday-deciday` The year, numerical month and  decimal day - range.
+    
     * `yyyy-month-deciday-deciday` The year, month and decimal day - range.
     
     * `yyyy-mm-dd-hh:mm-hh:mm` Epoch range in standard time format
@@ -55,6 +57,7 @@ One or both of these data will be present in each file.
    * `erg/cm^2/sec` 
  * `flux_density`
  * `flux_density_unit`
+   * `milliJy` milli Janskys
    * `microJy` micro Janskys
 
 
@@ -114,9 +117,13 @@ The descriptions of the bands are listed here for reference purposes.
    * `dP` The duPont 2.5m telescope
    * `AAT`
   
- * `exposure` The exposure time of the photometry.
- * `exposure_unit` The units for the exposure time of the photometry. The options are:
-   * `seconds` 
+ * `integration` The duration of the measurement. The default time unit is seconds.
  
  * `seeing` The seeing in arcseconds.
  * `extinction` The extinction in the associated band and with the associated units.
+ 
+ * `counts` The total counts received by a CCD or other instrument.
+ 
+ * `kcorr` The k correction. This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
+
+ * `optical_depth` Sometimes listed for radio.
