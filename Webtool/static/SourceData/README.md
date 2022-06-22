@@ -19,7 +19,7 @@ One or both of these data will be present in each file.
   
     * `yyyy-month-deciday` The year, month and decimal day.
     
-    * `yyyy-month-deciday-decidat` The year, month and decimal day - range.
+    * `yyyy-month-deciday-deciday` The year, month and decimal day - range.
     
     * `yyyy-mm-dd-hh:mm-hh:mm` Epoch range in standard time format
     
@@ -94,6 +94,9 @@ The descriptions of the bands are listed here for reference purposes.
     **X-ray Observatory Frequency Ranges**
     
     **Radio Observing Bands**
+    * `freq` The frequency of the radio observation.
+    
+    * `freq_unit` The unit of the frequency. GHz normally.
     
     **Spectra**
 
@@ -116,3 +119,4 @@ The descriptions of the bands are listed here for reference purposes.
    * `seconds` 
  
  * `seeing` The seeing in arcseconds.
+ * `extinction` The extinction in the associated band and with the associated units.

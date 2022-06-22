@@ -1,14 +1,14 @@
-date	band	flux_density	dflux_density	date_unit	instrument
-2001-Nov-25.20	4.80	240	70	yyyy-mm-deciday	microJy	ATCA
-2001-Nov-28.64	4.80	510	38	yyyy-mm-deciday	microJy	ATCA
-2001-Dec-6.80	4.80	350	42	yyyy-mm-deciday	microJy	ATCA
-2001-Dec-15.80	4.80	250	34	yyyy-mm-deciday	microJy	ATCA
-2001-Dec-22.90	4.80	-99	49	yyyy-mm-deciday	microJy	ATCA
-2002-Jan-23.85	4.80	320	38	yyyy-mm-deciday	microJy	ATCA
-2001-Nov-22.83	8.70	210	40	yyyy-mm-deciday	microJy	ATCA
-2001-Nov-25.08	8.70	450	130	yyyy-mm-deciday	microJy	ATCA
-2001-Nov-28.64	8.70	610	39	yyyy-mm-deciday	microJy	ATCA
-2001-Dec-6.80	8.70	220	58	yyyy-mm-deciday	microJy	ATCA
-2001-Dec-15.80	8.70	274	37	yyyy-mm-deciday	microJy	ATCA
-2001-Dec-22.90	8.70	237	46	yyyy-mm-deciday	microJy	ATCA
-2002-Jan-23.85	8.70	-99	47	yyyy-mm-deciday	microJy	ATCA
+date	freq	flux_density	dflux_density	date_unit	freq_unit	flux_density_unit	instrument
+2001-Nov-25.20	4.80	240	70	yyyy-mm-deciday	GHz	microJy	ATCA
+2001-Nov-28.64	4.80	510	38	yyyy-mm-deciday	GHz	microJy	ATCA
+2001-Dec-6.80	4.80	350	42	yyyy-mm-deciday	GHz	microJy	ATCA
+2001-Dec-15.80	4.80	250	34	yyyy-mm-deciday	GHz	microJy	ATCA
+2001-Dec-22.90	4.80	-99	49	yyyy-mm-deciday	GHz	microJy	ATCA
+2002-Jan-23.85	4.80	320	38	yyyy-mm-deciday	GHz	microJy	ATCA
+2001-Nov-22.83	8.70	210	40	yyyy-mm-deciday	GHz	microJy	ATCA
+2001-Nov-25.08	8.70	450	130	yyyy-mm-deciday	GHz	microJy	ATCA
+2001-Nov-28.64	8.70	610	39	yyyy-mm-deciday	GHz	microJy	ATCA
+2001-Dec-6.80	8.70	220	58	yyyy-mm-deciday	GHz	microJy	ATCA
+2001-Dec-15.80	8.70	274	37	yyyy-mm-deciday	GHz	microJy	ATCA
+2001-Dec-22.90	8.70	237	46	yyyy-mm-deciday	GHz	microJy	ATCA
+2002-Jan-23.85	8.70	-99	47	yyyy-mm-deciday	GHz	microJy	ATCA
