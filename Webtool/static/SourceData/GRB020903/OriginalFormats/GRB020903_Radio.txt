@@ -1,0 +1,6 @@
+
+2002 Sep 4.32	0.9	Palomar 200 inch	19.23 \pm 0.10
+2002 Sep 10.30	6.9	Palomar 200 inch	20.60 \pm 0.10
+2002 Sep 28.25	24.8	MDM 1.3 m	20.80 \pm 0.20
+2002 Oct 7.17	33.8	Palomar 200 inch	20.73 \pm 0.17
+2003 Jul 2.47	302.1	Palomar 200 inch	21.00 \pm 0.45

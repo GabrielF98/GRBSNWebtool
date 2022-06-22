@@ -1,0 +1,15 @@
+
+XRF 020903	2002 Dec 3.8	91.4	1840	F606W	24.53 \pm 0.03	A_{R} = 0.09	R = 24.23 \pm 0.03
+	2003 Jun 30.6	300.2	1920	F606W	\ldots	\ldots	\ldots
+XRF 040701	2004 Aug 9.6	39.1	1820	F625W	>27.81	A_{R} = 0.13	R > 27.48
+	2004 Aug 30.5	60.0	1820	F625W	\ldots	\ldots	\ldots
+	2004 Aug 9.7	39.1	1940	F775W	>26.83	A_{I} = 0.09	I > 26.30
+	2004 Aug 30.5	60.0	1940	F775W	\ldots	\ldots	\ldots
+XRF 040812	2004 Sep 13.3	32.0	2000	F625W	>26.99	A_{R} = 3.61	R > 23.18
+	2004 Oct 4.8	53.5	2000	F625W	\ldots	\ldots	\ldots
+	2004 Sep 13.4	32.1	2120	F775W	>26.38	A_{I} = 2.62	I > 23.32
+	2004 Oct 4.8	53.5	2120	F775W	\ldots	\ldots	\ldots
+XRF 040916	2004 Oct 18.4	32.4	1930	F625W	>27.89	A_{R} = 0.15	R > 27.54
+	2004 Nov 30.3	75.3	1928	F625W	\ldots	\ldots	\ldots
+	2004 Oct 18.4	32.4	2058	F775W	>27.19	A_{I} = 0.64	I > 26.64
+	2004 Nov 30.4	75.4	2056	F775W	\ldots	\ldots	\ldots
