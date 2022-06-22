@@ -353,24 +353,23 @@ def z_plotter():
 
     return render_template('home.html', form=form, data=data)
 
+# References
+# Primary
+with open("static/citations.json") as file:
+    dict_refs = json.load(file)
+
+# Secondary
+with open("static/citations2.json") as file2:
+    dict_refs2 = json.load(file2)
+
 # Be able to select the GRBs by their names and go
 # To a specific page, it also plots the XRT data
-
 
 @app.route('/<event_id>')
 def event(event_id):
     event, radec, peakmag = get_post(event_id)
 
-    # References
-    # Primary
-    with open("static/citations.json") as file:
-        dict_refs = json.load(file)
-
-    # Secondary
-    with open("static/citations2.json") as file2:
-        dict_refs2 = json.load(file2)
-
-    # Find out how many of these references are needed
+    # Find out how many of the references are needed
     needed_dict = {}
     for i in range(len(event)):
         if event[i]['PrimarySources'] != None:
@@ -380,21 +379,25 @@ def event(event_id):
             needed_dict[event[i]['SecondarySources']
                         ] = dict_refs2[event[i]['SecondarySources']]
 
-    # Add the radec swift stuff to the master dictionary of sources
+    # Add the radec swift stuff to the master dictionary of references for this event.
     radec_refs = []
     radec_nos = []
 
     for i in range(len(radec)):
         if radec[i]['source'] != None:
+
+            # If its not in the list save the citation and the number.
             if radec[i]['source'] not in list(needed_dict.keys()):
-                needed_dict[radec[i]['source']] = radec[i]['source']
+                needed_dict[radec[i]['source']] = dict_refs[radec[i]['source']]
                 radec_nos.append(
                     list(needed_dict.keys()).index(radec[i]['source'])+1)
                 radec_refs.append(radec[i]['source'])
+
+             # If its already in the list theres no need to cite it again we just need the right number.
             else:
                 radec_nos.append(
                     list(needed_dict.keys()).index(radec[i]['source'])+1)
-    
+
     #Get a list of all the bands we have peak times or mags for
     mag_bandlist = []
     ptime_bandlist = []
@@ -409,14 +412,19 @@ def event(event_id):
     peakmag_refs = []
     peakmag_nos = []
     for i in range(len(peakmag)):
-        if peakmag[i]['source'] not in list(needed_dict.keys()):
-            needed_dict[peakmag[i]['source']] = peakmag[i]['source']
-            peakmag_nos.append(
-                list(needed_dict.keys()).index(peakmag[i]['source'])+1)
-            peakmag_refs.append(peakmag[i]['source'])
-        else:
-            peakmag_nos.append(
-                list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+        if peakmag[i]['source'] != None:
+            
+            # If its not in the list save the citation and the number.
+            if peakmag[i]['source'] not in list(needed_dict.keys()):
+                needed_dict[peakmag[i]['source']] = dict_refs[peakmag[i]['source']]
+                peakmag_nos.append(
+                    list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+                peakmag_refs.append(peakmag[i]['source'])
+
+            # If its already in the list theres no need to cite it again we just need the right number.
+            else:
+                peakmag_nos.append(
+                    list(needed_dict.keys()).index(peakmag[i]['source'])+1)
 
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################
