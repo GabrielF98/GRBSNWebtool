@@ -14,5 +14,6 @@ The Keck observations come from Price et al. (2001)
 
 The observations after the VLT list come from spectroscopic measurments.
 =========================================================
-Filename: GRB000911_Optical.txt
+Filename: GRB000911_Radio.txt
 ---------------------------------------------------------
+No Notes.
