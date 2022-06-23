@@ -1,0 +1,22 @@
+trial_list = ['GRB000911', 'GRB011121-SN2001ke','GRB020305','GRB020405','GRB020410','GRB020903','GRB021211-SN2002lt','GRB030723','GRB030725','GRB041006']
+
+import pandas as pd
+
+
+# A function to parse date info. This will convert the date data to elapsed time since trigger.
+def elapsed_time(data, date_style):
+	for i in data['date_unit']:
+		# Handle the different date formats
+		if str(i) = "yyyy-month-deciday":
+
+		elif str(i) = "yyyy-mm-deciday":
+			
+		elif str(i) = "yyyy-mm-deciday-deciday":
+			
+		elif str(i) = "yyyy-month-deciday-deciday":
+			
+		elif str(i) = "yyyy-mm-dd-hh:mm-hh:mm":
+
+		elif str(i) = "MJD"
+
+np.read_txt()
