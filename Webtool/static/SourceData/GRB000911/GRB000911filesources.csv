@@ -1,4 +1,4 @@
 GRB/SN,Filename,Status,Reference
 GRB000911,GRB000911_Optical_NIR.txt,"Late, NIR, Optical",https://ui.adsabs.harvard.edu/abs/2005A%26A...438..841M/abstract
 GRB000911,GRB000911_Optical.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-GRB000911,SubmillieterObservationsof000911.html,Radio,https://ui.adsabs.harvard.edu/abs/2001A%26A...380...81S/abstract
+GRB000911,GRB000911_Radio.txt,Radio,https://ui.adsabs.harvard.edu/abs/2001A%26A...380...81S/abstract
