@@ -1,0 +1,36 @@
+date	instrument	band	integration	seeing	mag	dmag	date_unit	mag_unit
+2000-Sep-16.328	Kueyen	B	6 $\times$ 1200	0.8	23.3	0.3	yyyy-month-deciday	Unspecified
+2000-Sep-23.075	TNG	B	3 $\times$ 600	1.1	24.77	0.10	yyyy-month-deciday	Unspecified
+2000-Sep-28.326	Antu	B	5 $\times$ 180	1.0	24.91	0.12	yyyy-month-deciday	Unspecified
+2000-Dec-22.163	Antu	B	4 $\times$ 300	0.8	>25.5	NaN	yyyy-month-deciday	Unspecified
+2000-Sep-16.328	Kueyen	V	6 $\times$ 1200	0.8	22.9	0.2*	yyyy-month-deciday	Unspecified
+2000-Sep-19.288	Antu	V	5 $\times$ 180	0.7	23.66	0.07	yyyy-month-deciday	Unspecified
+2000-Sep-21.357	Antu	V	7 $\times$ 180	0.7	23.87	0.07	yyyy-month-deciday	Unspecified
+2000-Sep-28.339	Antu	V	5 $\times$ 180	1.0	24.45	0.1	yyyy-month-deciday	Unspecified
+2000-Dec-22.181	Antu	V	3 $\times$ 300	0.9	25.43	0.3	yyyy-month-deciday	Unspecified
+2001-Oct-25.203	Antu	V	4 $\times$ 300	0.6	25.35	0.3	yyyy-month-deciday	Unspecified
+2000-Sep-16.235	Kueyen	R	2 $\times$ 60	0.8	22.42	0.15	yyyy-month-deciday	Unspecified
+2000-Sep-19.274	Antu	R	5 $\times$ 180	0.6	23.12	0.05	yyyy-month-deciday	Unspecified
+2000-Sep-21.374	Antu	R	5 $\times$ 180	0.8	23.42	0.05	yyyy-month-deciday	Unspecified
+2000-Sep-28.313	Antu	R	5 $\times$ 180	0.8	24.01	0.08	yyyy-month-deciday	Unspecified
+2000-Sep-30.244	Antu	R	4 $\times$ 60	0.8	24.12	0.10	yyyy-month-deciday	Unspecified
+2000-Dec-22.194	Antu	R	3 $\times$ 300	1.0	>24.2	NaN	yyyy-month-deciday	Unspecified
+2001-Aug-15.659	NOT	R	15 $\times$ 900	1.1	25.27	0.15	yyyy-month-deciday	Unspecified
+2000-Sep-15.097	NOT	I	4 $\times$ 420	1.4	21.05	0.3	yyyy-month-deciday	Unspecified
+2000-Sep-16.328	Kueyen	I	6 $\times$ 1200	0.8	21.9	0.2	yyyy-month-deciday	Unspecified
+2000-Sep-18.333	Antu	I	1 $\times$ 180	0.9	22.11	0.10	yyyy-month-deciday	Unspecified
+2000-Sep-19.261	Antu	I	5 $\times$ 180	0.7	22.55	0.06	yyyy-month-deciday	Unspecified
+2000-Sep-21.388	Antu	I	5 $\times$ 180	0.8	22.78	0.07	yyyy-month-deciday	Unspecified
+2000-Sep-28.353	Antu	I	5 $\times$ 180	0.9	23.35	0.15	yyyy-month-deciday	Unspecified
+2000-Oct-26.177	Antu	I	5 $\times$ 180	0.7	23.93	0.15	yyyy-month-deciday	Unspecified
+2000-Dec-22.208	Antu	I	3 $\times$ 300	1.1	>23.0	NaN	yyyy-month-deciday	Unspecified
+2001-Aug-14.166	NOT	I	15 $\times$ 600	0.9	24.3	0.2	yyyy-month-deciday	Unspecified
+2001-Sep-17.377	Antu	I	3 $\times$ 360	0.9	24.25	0.15	yyyy-month-deciday	Unspecified
+2001-Sep-18.399	Antu	I	3 $\times$ 360	0.8	24.45	0.25	yyyy-month-deciday	Unspecified
+2001-Sep-24.375	Antu	I	3 $\times$ 360	0.6	23.78	0.17	yyyy-month-deciday	Unspecified
+2000-Sep-22.230	NTT	J	900	0.9	22.0	0.2	yyyy-month-deciday	Unspecified
+2000-Dec-22.125	Antu	J	1800	0.6	>23.4	NaN	yyyy-month-deciday	Unspecified
+2000-Sep-22.240	NTT	H	900	0.9	21.3	0.2	yyyy-month-deciday	Unspecified
+2000-Sep-28.200	NTT	H	3240	1.3	>22.1	NaN	yyyy-month-deciday	Unspecified
+2000-Dec-22.063	Antu	H	5400	0.6	22.6	0.35	yyyy-month-deciday	Unspecified
+2000-Sep-22.250	NTT	$K_{\rm s}$	900	0.8	19.9	0.1	yyyy-month-deciday	Unspecified

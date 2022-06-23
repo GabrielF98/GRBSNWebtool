@@ -1,0 +1,13 @@
+date	band	mag dmag	date_unit	mag_unit
+2002-Apr-24.272	F555W	25.05	0.04	yyyy-month-deciday	Vega
+2002-May-5.631	F555W	25.83	0.05	yyyy-month-deciday	Vega
+2002-Jun-2.711	F555W	27.25	0.15	yyyy-month-deciday	Vega
+2002-Aug-23.246	F555W	>27.5	NaN	yyyy-month-deciday	Vega
+2002-Apr-28.452	F702W	23.99	0.02	yyyy-month-deciday	Vega
+2002-May-1.620	F702W	24.31	0.02	yyyy-month-deciday	Vega
+2002-May-3.625	F702W	24.38	0.02	yyyy-month-deciday	Vega
+2002-Jun-1.614	F702W	25.91	0.12	yyyy-month-deciday	Vega
+2002-Aug-23.451	F702W	>26.7	NaN	yyyy-month-deciday	Vega
+2002-Apr-26.275	F814W	23.13	0.01	yyyy-month-deciday	Vega
+2002-May-1.486	F814W	23.45	0.02	yyyy-month-deciday	Vega
+2002-Jun-9.560	F814W	25.42	0.15	yyyy-month-deciday	Vega
