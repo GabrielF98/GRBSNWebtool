@@ -90,9 +90,7 @@ def elapsed_time(dataframe, trigtime):
 
         for i in range(len(dataframe['date'])):
             date = dataframe['date'][i].split('-')
-            print(date)
             year = date[0]
-            print('The year is:', year)
             month = month2number[date[1]]
 
             # Get the deciday to days, hours, min, sec
@@ -111,14 +109,12 @@ def elapsed_time(dataframe, trigtime):
         dataframe['time'] = time
 
     # yyyy-mm-deciday
-    if dataframe['date_unit'][0] == "yyyy-month-deciday":
+    if dataframe['date_unit'][0] == "yyyy-mm-deciday":
         time = list()
 
         for i in range(len(dataframe['date'])):
             date = dataframe['date'][i].split('-')
-            print(date)
             year = date[0]
-            print('The year is:', year)
             month = date[1]
 
             # Get the deciday to days, hours, min, sec
@@ -164,6 +160,7 @@ def elapsed_time(dataframe, trigtime):
 
         dataframe['time'] = time
 
+    # yyyy-month-deciday-deciday
     if dataframe['date_unit'][0] == "yyyy-month-deciday-deciday":
         time = list()
         for i in range(len(dataframe['date'])):
