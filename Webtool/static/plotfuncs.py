@@ -84,14 +84,42 @@ def deciday(date):
 def elapsed_time(dataframe, trigtime):    
 
     # Handle the different date formats
+    # yyyy-month-deciday
     if dataframe['date_unit'][0] == "yyyy-month-deciday":
         time = list()
 
         for i in range(len(dataframe['date'])):
             date = dataframe['date'][i].split('-')
+            print(date)
             year = date[0]
-            print(year)
+            print('The year is:', year)
             month = month2number[date[1]]
+
+            # Get the deciday to days, hours, min, sec
+            day, hour, minute, second = deciday(date[2])
+
+            # Turn into isotime
+            isotime = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour)+':'+str(minute)[:2]+':'+str(second)[:2]
+
+            # Handle an absence of triggertime. 
+            if trigtime == 'no_tt' and i==0:
+                trigtime = isotime
+            # astropy to subtract the two isotimes
+            time_list = [isotime, trigtime]
+            t = Time(time_list, format='isot', scale='utc')
+            time.append(t[0]-t[1])
+        dataframe['time'] = time
+
+    # yyyy-mm-deciday
+    if dataframe['date_unit'][0] == "yyyy-month-deciday":
+        time = list()
+
+        for i in range(len(dataframe['date'])):
+            date = dataframe['date'][i].split('-')
+            print(date)
+            year = date[0]
+            print('The year is:', year)
+            month = date[1]
 
             # Get the deciday to days, hours, min, sec
             day, hour, minute, second = deciday(date[2])
@@ -221,10 +249,13 @@ for i in range(len(trial_list)):
     os.chdir("SourceData/")
     os.chdir(trial_list[i])
     for file in glob.glob("*.txt"):
-        if 'Optical' or 'Radio' in file:
+        if 'Optical' in file or 'Radio' in file:
             print(file)
             data = pd.read_csv(file, sep='\t')
-            new_data = elapsed_time(data, trigtime)
-            new_data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+            print(data.keys())
+            if 'time' not in list(data.keys()):
+                new_data = elapsed_time(data, trigtime)
+                new_data['time_unit'] = 'days'
+                new_data.to_csv(file, sep='\t', index=False, na_rep='NaN')
     os.chdir('..')
     os.chdir('..')
