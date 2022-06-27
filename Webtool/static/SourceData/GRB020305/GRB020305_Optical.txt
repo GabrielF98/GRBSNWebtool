@@ -12,4 +12,4 @@ date	band	integration	mag	dmag	seeing	instrument	date_unit	exposure_unit	mag_uni
 2002-Jun-16.454-16.550	CL	4856^{\dagger}	27.86	0.20	NaN	HST(+STIS)	yyyy-mm-deciday-deciday	seconds	AB
 2002-Jun-16.597-16.751	LP	5021^{\dagger}	26.98	0.22	NaN	HST(+STIS)	yyyy-mm-deciday-deciday	seconds	AB
 2002-Dec-13.832-13.998	LP	7966^{\star}	>28.07	NaN	NaN	HST(+STIS)	yyyy-mm-deciday-deciday	seconds	AB
-2003-Jan-20.534-20.695^{\ddagger}	CL	7306^{\star}	>28.20	NaN	NaN	HST(+STIS)	yyyy-mm-deciday-deciday	seconds	AB
+2003-Jan-20.534-20.695	CL	7306^{\star}	>28.20	NaN	NaN	HST(+STIS)	yyyy-mm-deciday-deciday	seconds	AB
