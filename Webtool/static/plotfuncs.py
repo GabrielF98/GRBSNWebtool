@@ -167,7 +167,6 @@ def elapsed_time(dataframe, trigtime):
             time_list = [isotime1, isotime2, trigtime]
             t = Time(time_list, format='isot', scale='utc')
             isotime = t[0]+((t[1]-t[0])/2)
-            print(isotime)
             time.append(isotime-t[2])
         dataframe['time'] = time
 
@@ -175,6 +174,6 @@ def elapsed_time(dataframe, trigtime):
 
 data = pd.read_csv('./SourceData/GRB011121-SN2001ke/GRB011121-SN2001ke_NIR_Optical.txt', sep='\t')
 new_data = elapsed_time(data, get_trigtime('GRB011121-SN2001ke'))
-new_data.to_csv('./SourceData/GRB011121-SN2001ke/GRB011121-SN2001ke_NIR_Optical.txt', sep='\t', index=False)
+new_data.to_csv('./SourceData/GRB011121-SN2001ke/GRB011121-SN2001ke_NIR_Optical.txt', sep='\t', index=False, na_rep='NaN')
 
 		# elif str(i) = "MJD"
