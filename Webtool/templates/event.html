@@ -605,6 +605,7 @@
         <!-- RADec refs -->
 
         {% for i in range(radec_refs|length) %}
+        {% if peakmag_refs[i]!=None %}
         {% if 'adsabs' not in radec_refs[i] %}
         <tr>
           <td><a href="{{radec_refs[i]}}" target='_blank'>{{i+event|length+1}} </a></td>
@@ -619,11 +620,13 @@
         </tr>
 
         {% endif %}
+        {% endif %}
         {% endfor %}
 
         <!-- Peakmag refs -->
 
         {% for i in range(peakmag_refs|length) %}
+        {% if peakmag_refs[i]!=None %}
         {% if 'adsabs' not in peakmag_refs[i] %}
         <tr>
           <td><a href="{{peakmag_refs[i]}}" target='_blank'>{{i+event|length+radec_refs|length+1}} </a></td>
@@ -637,6 +640,7 @@
               href="{{peakmag_refs[i]}}" target='_blank'>{{peakmag_refs[i]}} </a></td>
         </tr>
 
+        {% endif %}
         {% endif %}
         {% endfor %}
 
