@@ -141,16 +141,40 @@ def elapsed_time(dataframe, trigtime):
             time.append(isotime-t[2])
 
         dataframe['time'] = time
-    
+
+    if dataframe['date_unit'][0] == "yyyy-mm-dd-hh:mm-hh:mm":
+        time = list()
+        for i in range(len(dataframe['date'])):
+            date = dataframe['date'][i].split('-')
+            year = date[0]
+            month = month2number[date[1]]
+            day = date[2]
+
+            # hours, minutes, seconds
+            a = str(date[3]).split(":")
+            hour1 = a[0]
+            minute1 =  a[1]
+
+            b = str(date[4]).split(":")
+            hour2 = b[0]
+            minute2 =  b[1]
+
+            # Turn into isotime
+            isotime1 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour1)+':'+str(minute1)[:2]+':00'
+            isotime2 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour2)+':'+str(minute2)[:2]+':00'
+
+            # astropy to subtract the two isotimes and get the median time
+            time_list = [isotime1, isotime2, trigtime]
+            t = Time(time_list, format='isot', scale='utc')
+            isotime = t[0]+((t[1]-t[0])/2)
+            print(isotime)
+            time.append(isotime-t[2])
+        dataframe['time'] = time
+
     return dataframe
 
-data = pd.read_csv('./SourceData/GRB021211-SN2002lt/GRB021211-SN2002lt_Radio.txt', sep='\t')
-new_data = elapsed_time(data, get_trigtime('GRB021211-SN2002lt'))
-new_data.to_csv('./SourceData/GRB021211-SN2002lt/GRB021211-SN2002lt_Radio.txt', sep='\t', index=False)
-
-			
-		# elif str(i) = "yyyy-month-deciday-deciday":
-			
-		# elif str(i) = "yyyy-mm-dd-hh:mm-hh:mm":
+data = pd.read_csv('./SourceData/GRB011121-SN2001ke/GRB011121-SN2001ke_NIR_Optical.txt', sep='\t')
+new_data = elapsed_time(data, get_trigtime('GRB011121-SN2001ke'))
+new_data.to_csv('./SourceData/GRB011121-SN2001ke/GRB011121-SN2001ke_NIR_Optical.txt', sep='\t', index=False)
 
 		# elif str(i) = "MJD"
