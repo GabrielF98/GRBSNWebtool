@@ -4,6 +4,7 @@ import pandas as pd
 import sqlite3
 import numpy as np
 from astropy.time import Time
+import glob, os
 
 # Get the trigger time
 def get_db_connection():
@@ -89,6 +90,7 @@ def elapsed_time(dataframe, trigtime):
         for i in range(len(dataframe['date'])):
             date = dataframe['date'][i].split('-')
             year = date[0]
+            print(year)
             month = month2number[date[1]]
 
             # Get the deciday to days, hours, min, sec
@@ -201,7 +203,7 @@ def elapsed_time(dataframe, trigtime):
             # Handle an absence of triggertime. 
             if trigtime == 'no_tt' and i==0:
                 trigtime = isotime1
-                
+
             # astropy elapsed time
             time_list = [dataframe['date'][i], trigtime]
             t1 = Time(time_list[1], format='isot', scale='utc')
@@ -211,6 +213,18 @@ def elapsed_time(dataframe, trigtime):
 
     return dataframe
 
-data = pd.read_csv('./SourceData/GRB011121-SN2001ke/GRB011121-SN2001ke_NIR_Optical.txt', sep='\t')
-new_data = elapsed_time(data, get_trigtime('GRB011121-SN2001ke'))
-new_data.to_csv('./SourceData/GRB011121-SN2001ke/GRB011121-SN2001ke_NIR_Optical.txt', sep='\t', index=False, na_rep='NaN')
+
+for i in range(len(trial_list)):
+    print(trial_list[i])
+    trigtime = get_trigtime(trial_list[i])
+
+    os.chdir("SourceData/")
+    os.chdir(trial_list[i])
+    for file in glob.glob("*.txt"):
+        if 'Optical' or 'Radio' in file:
+            print(file)
+            data = pd.read_csv(file, sep='\t')
+            new_data = elapsed_time(data, trigtime)
+            new_data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+    os.chdir('..')
+    os.chdir('..')
