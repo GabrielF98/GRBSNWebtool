@@ -1,43 +1,43 @@
-date	instrument	band	integration	seeing	mag	dmag	date_unit	mag_unit
-2002-Apr-5.812	1m SO	CCD	I	2\times600	2.6	19.30	0.06	yyyy-month-deciday	Vega
-2002-Apr-6.069	TNG	DOLoRes	V	2\times 300	1.8	20.66	0.02	yyyy-month-deciday	Vega
-2002-Apr-6.013	WHT	PFIP	R	300	2.3	20.17	0.03	yyyy-month-deciday	Vega
-2002-Apr-6.109	WHT	PFIP	U	900	2.2	20.48	0.06	yyyy-month-deciday	Vega
-2002-Apr-6.118	WHT	PFIP	B	600	2.5	21.21	0.03	yyyy-month-deciday	Vega
-2002-Apr-6.124	WHT	PFIP	V	300	2.0	20.73	0.03	yyyy-month-deciday	Vega
-2002-Apr-6.129	WHT	PFIP	R	300	2.8	20.28	0.04	yyyy-month-deciday	Vega
-2002-Apr-6.134	WHT	PFIP	I	300	3.2	19.61	0.08	yyyy-month-deciday	Vega
-2002-Apr-6.136	1.54D	DFOSC	R	600	1.4	20.38	0.02	yyyy-month-deciday	Vega
-2002-Apr-6.186	Melipal	FORS1	R	60	0.7	20.48	0.01	yyyy-month-deciday	Vega
-2002-Apr-6.197	Melipal	FORS1	R	30	0.8	20.46	0.01	yyyy-month-deciday	Vega
-2002-Apr-6.211	1.54D	DFOSC	R	600	1.4	20.44	0.02	yyyy-month-deciday	Vega
-2002-Apr-6.220	1.54D	DFOSC	V	600	1.4	20.81	0.02	yyyy-month-deciday	Vega
-2002-Apr-6.220	NTT	SofI	H	300	1.0	18.07	0.07	yyyy-month-deciday	Vega
-2002-Apr-6.224	NTT	SofI	J	300	1.0	18.69	0.06	yyyy-month-deciday	Vega
-2002-Apr-6.230	1.54D	DFOSC	B	600	1.4	21.31	0.03	yyyy-month-deciday	Vega
-2002-Apr-6.230	NTT	SofI	K_{\rm s}	600	0.9	17.34	0.06	yyyy-month-deciday	Vega
-2002-Apr-6.234	Melipal	FORS1	R	20	0.8	20.53	0.02	yyyy-month-deciday	Vega
-2002-Apr-6.246	1.54D	DFOSC	Gunn i	600	1.1	19.88	0.02	yyyy-month-deciday	Vega
-2002-Apr-6.797	1m SO	CCD	I	5\times 600	2.5	>20.0	NaN	yyyy-month-deciday	Vega
-2002-Apr-7.132	1.54D	DFOSC	R	600	1.2	21.20	0.04	yyyy-month-deciday	Vega
-2002-Apr-7.240	1.54D	DFOSC	R	600	0.9	21.30	0.06	yyyy-month-deciday	Vega
-2002-Apr-7.249	1.54D	DFOSC	V	600	1.1	21.79	0.05	yyyy-month-deciday	Vega
-2002-Apr-7.266	1.54D	DFOSC	B	600	1.2	22.29	0.07	yyyy-month-deciday	Vega
-2002-Apr-7.270	NTT	SofI	H	600	0.8	18.90	0.07	yyyy-month-deciday	Vega
-2002-Apr-7.278	NTT	SofI	J	600	0.8	19.55	0.06	yyyy-month-deciday	Vega
-2002-Apr-7.281	Melipal	FORS1	V	2\times30	0.7	21.95 	 0.04	yyyy-month-deciday	Vega
-2002-Apr-7.294	NTT	SofI	K_{\rm s}	1800	0.7	18.18 	 0.06	yyyy-month-deciday	Vega
-2002-Apr-7.381	1.54D	DFOSC	R	600	1.2	21.32	0.06	yyyy-month-deciday	Vega
-2002-Apr-8.280	NTT	SUSI2	V	10\times60	0.8	22.49 	 0.02	yyyy-month-deciday	Vega
-2002-Apr-8.294	NTT	SUSI2	R	10\times60	0.8	22.09 	 0.03	yyyy-month-deciday	Vega
-2002-Apr-8.310	NTT	SUSI2	I	5 \times 60+3 \times300	0.8	21.44 	 0.02	yyyy-month-deciday	Vega
-2002-Apr-9.205	NTT	EMMI	R	2\times 300	1.0	22.23	0.04	yyyy-month-deciday	Vega
-2002-Apr-9.194	NTT	EMMI	V	2\times 300	1.0	22.76	0.06	yyyy-month-deciday	Vega
-2002-Apr-9.215	NTT	EMMI	I	2\times 300	1.0	21.70	0.06	yyyy-month-deciday	Vega
-2002-Apr-12.097	Yepun	FORS2	V	3\times180	0.7	23.59	0.04	yyyy-month-deciday	Vega
-2002-Apr-12.107	Yepun	FORS2	R	3\times180	0.7	23.09	0.04	yyyy-month-deciday	Vega
-2002-Apr-15.238	Melipal	FORS1	V	2\times180	0.7	23.99	0.07	yyyy-month-deciday	Vega
-2002-Apr-15.244	Melipal	FORS1	R	2\times180	0.6	23.36	0.04	yyyy-month-deciday	Vega
-2002-Apr-15.250	Melipal	FORS1	I	2\times180	0.6	22.53	0.06	yyyy-month-deciday	Vega
-2002-Apr-27.193	Antu	ISAAC	J_{\rm s}	3600	0.5	22.4	 0.1	yyyy-month-deciday	Vega
-2002-May-8.193	Antu	ISAAC	J_{\rm s}	3600	0.6	>22.7	NaN	yyyy-month-deciday	Vega
+date	instrument	band	integration	seeing	mag	dmag	date_unit	mag_unit	time	time_unit
+2002-Apr-5.812	1m SO CCD	I	2\times600	2.6	19.30	0.06	yyyy-month-deciday	Vega	0.7832210648148148	days
+2002-Apr-6.069	TNG DOLoRes	V	2\times 300	1.8	20.66	0.02	yyyy-month-deciday	Vega	1.0402233796296296	days
+2002-Apr-6.013	WHT PFIP	R	300	2.3	20.17	0.03	yyyy-month-deciday	Vega	0.9842280092592592	days
+2002-Apr-6.109	WHT PFIP	U	900	2.2	20.48	0.06	yyyy-month-deciday	Vega	1.0802233796296297	days
+2002-Apr-6.118	WHT PFIP	B	600	2.5	21.21	0.03	yyyy-month-deciday	Vega	1.0892280092592592	days
+2002-Apr-6.124	WHT PFIP	V	300	2.0	20.73	0.03	yyyy-month-deciday	Vega	1.0952233796296296	days
+2002-Apr-6.129	WHT PFIP	R	300	2.8	20.28	0.04	yyyy-month-deciday	Vega	1.1002233796296297	days
+2002-Apr-6.134	WHT PFIP	I	300	3.2	19.61	0.08	yyyy-month-deciday	Vega	1.1052233796296296	days
+2002-Apr-6.136	1.54D DFOSC	R	600	1.4	20.38	0.02	yyyy-month-deciday	Vega	1.1072256944444443	days
+2002-Apr-6.186	Melipal FORS1	R	60	0.7	20.48	0.01	yyyy-month-deciday	Vega	1.1572256944444446	days
+2002-Apr-6.197	Melipal FORS1	R	30	0.8	20.46	0.01	yyyy-month-deciday	Vega	1.1682210648148148	days
+2002-Apr-6.211	1.54D DFOSC	R	600	1.4	20.44	0.02	yyyy-month-deciday	Vega	1.1822256944444445	days
+2002-Apr-6.220	1.54D DFOSC	V	600	1.4	20.81	0.02	yyyy-month-deciday	Vega	1.19121875	days
+2002-Apr-6.220	NTT SofI	H	300	1.0	18.07	0.07	yyyy-month-deciday	Vega	1.19121875	days
+2002-Apr-6.224	NTT SofI	J	300	1.0	18.69	0.06	yyyy-month-deciday	Vega	1.1952233796296297	days
+2002-Apr-6.230	1.54D DFOSC	B	600	1.4	21.31	0.03	yyyy-month-deciday	Vega	1.201230324074074	days
+2002-Apr-6.230	NTT SofI	K_{\rm s}	600	0.9	17.34	0.06	yyyy-month-deciday	Vega	1.201230324074074	days
+2002-Apr-6.234	Melipal FORS1	R	20	0.8	20.53	0.02	yyyy-month-deciday	Vega	1.2052233796296297	days
+2002-Apr-6.246	1.54D DFOSC	Gunn i	600	1.1	19.88	0.02	yyyy-month-deciday	Vega	1.2172256944444444	days
+2002-Apr-6.797	1m SO CCD	I	5\times 600	2.5	>20.0	NaN	yyyy-month-deciday	Vega	1.768221064814815	days
+2002-Apr-7.132	1.54D DFOSC	R	600	1.2	21.20	0.04	yyyy-month-deciday	Vega	2.103221064814815	days
+2002-Apr-7.240	1.54D DFOSC	R	600	0.9	21.30	0.06	yyyy-month-deciday	Vega	2.211230324074074	days
+2002-Apr-7.249	1.54D DFOSC	V	600	1.1	21.79	0.05	yyyy-month-deciday	Vega	2.22022337962963	days
+2002-Apr-7.266	1.54D DFOSC	B	600	1.2	22.29	0.07	yyyy-month-deciday	Vega	2.2372256944444446	days
+2002-Apr-7.270	NTT SofI	H	600	0.8	18.90	0.07	yyyy-month-deciday	Vega	2.24121875	days
+2002-Apr-7.278	NTT SofI	J	600	0.8	19.55	0.06	yyyy-month-deciday	Vega	2.249228009259259	days
+2002-Apr-7.281	Melipal FORS1	V	2\times30	0.7	21.95 	0.04	yyyy-month-deciday	Vega	2.2522256944444443	days
+2002-Apr-7.294	NTT SofI	K_{\rm s}	1800	0.7	18.18 	0.06	yyyy-month-deciday	Vega	2.2652233796296297	days
+2002-Apr-7.381	1.54D DFOSC	R	600	1.2	21.32	0.06	yyyy-month-deciday	Vega	2.3522256944444444	days
+2002-Apr-8.280	NTT SUSI2	V	10\times60	0.8	22.49 	0.02	yyyy-month-deciday	Vega	3.25121875	days
+2002-Apr-8.294	NTT SUSI2	R	10\times60	0.8	22.09 	0.03	yyyy-month-deciday	Vega	3.2652233796296297	days
+2002-Apr-8.310	NTT SUSI2	I	5 \times 60+3 \times300	0.8	21.44 	0.02	yyyy-month-deciday	Vega	3.281230324074074	days
+2002-Apr-9.205	NTT EMMI	R	2\times 300	1.0	22.23	0.04	yyyy-month-deciday	Vega	4.176230324074074	days
+2002-Apr-9.194	NTT EMMI	V	2\times 300	1.0	22.76	0.06	yyyy-month-deciday	Vega	4.16522337962963	days
+2002-Apr-9.215	NTT EMMI	I	2\times 300	1.0	21.70	0.06	yyyy-month-deciday	Vega	4.18621875	days
+2002-Apr-12.097	Yepun FORS2	V	3\times180	0.7	23.59	0.04	yyyy-month-deciday	Vega	7.068221064814815	days
+2002-Apr-12.107	Yepun FORS2	R	3\times180	0.7	23.09	0.04	yyyy-month-deciday	Vega	7.078221064814815	days
+2002-Apr-15.238	Melipal FORS1	V	2\times180	0.7	23.99	0.07	yyyy-month-deciday	Vega	10.20922800925926	days
+2002-Apr-15.244	Melipal FORS1	R	2\times180	0.6	23.36	0.04	yyyy-month-deciday	Vega	10.215223379629629	days
+2002-Apr-15.250	Melipal FORS1	I	2\times180	0.6	22.53	0.06	yyyy-month-deciday	Vega	10.221230324074075	days
+2002-Apr-27.193	Antu ISAAC	J_{\rm s}	3600	0.5	22.4	0.1	yyyy-month-deciday	Vega	22.164228009259258	days
+2002-May-8.193	Antu ISAAC	J_{\rm s}	3600	0.6	>22.7	NaN	yyyy-month-deciday	Vega	33.16422800925926	days
