@@ -25,13 +25,17 @@ def get_trigtime(event_id):
 
         # Extract the value from the cursor object
         for i in trigtable:
-            trigtime = i[0]
+            if i[0] != None:
+                trigtime = i[0]
 
-        # Make it a full UTC time
-        if np.float64(grb_name[:2])>90:
-            trigtime = '19'+grb_name[:2]+'-'+grb_name[2:4]+'-'+grb_name[-2:]+'T'+trigtime
-        else:
-            trigtime = '20'+grb_name[:2]+'-'+grb_name[2:4]+'-'+grb_name[-2:]+'T'+trigtime
+                # Make it a full UTC time
+                if np.float64(grb_name[:2])>90:
+                    trigtime = '19'+grb_name[:2]+'-'+grb_name[2:4]+'-'+grb_name[-2:]+'T'+trigtime
+                else:
+                    trigtime = '20'+grb_name[:2]+'-'+grb_name[2:4]+'-'+grb_name[-2:]+'T'+trigtime
+
+            else:
+                trigtime = "no_tt"
 
     # Lone SN cases
     elif 'SN' or 'AT' in event_id:
@@ -43,8 +47,10 @@ def get_trigtime(event_id):
 
         # Extract the value from the cursor object
         for i in trigtable:
-            trigtime = i[0]
-
+            if i[0] != None:
+                trigtime = i[0]
+            else:
+                trigtime = "no_tt"
     conn.close()
     return trigtime
 
@@ -74,10 +80,12 @@ def deciday(date):
     return(day, hour, minute, second)
 
 # A function to parse date info. This will convert the date data to elapsed time since trigger.
-def elapsed_time(dataframe, trigtime):
+def elapsed_time(dataframe, trigtime):    
+
     # Handle the different date formats
     if dataframe['date_unit'][0] == "yyyy-month-deciday":
         time = list()
+
         for i in range(len(dataframe['date'])):
             date = dataframe['date'][i].split('-')
             year = date[0]
@@ -89,6 +97,9 @@ def elapsed_time(dataframe, trigtime):
             # Turn into isotime
             isotime = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour)+':'+str(minute)[:2]+':'+str(second)[:2]
 
+            # Handle an absence of triggertime. 
+            if trigtime == 'no_tt' and i==0:
+                trigtime = isotime
             # astropy to subtract the two isotimes
             time_list = [isotime, trigtime]
             t = Time(time_list, format='isot', scale='utc')
@@ -110,6 +121,10 @@ def elapsed_time(dataframe, trigtime):
             # Turn into isotime
             isotime1 = str(year)+'-'+str(month)+'-'+str(day1)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
             isotime2 = str(year)+'-'+str(month)+'-'+str(day2)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
+
+            # Handle an absence of triggertime. 
+            if trigtime == 'no_tt' and i==0:
+                trigtime = isotime1
 
             # astropy to subtract the two isotimes
             time_list = [isotime1, isotime2, trigtime]
@@ -133,6 +148,10 @@ def elapsed_time(dataframe, trigtime):
             # Turn into isotime
             isotime1 = str(year)+'-'+str(month)+'-'+str(day1)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
             isotime2 = str(year)+'-'+str(month)+'-'+str(day2)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
+
+            # Handle an absence of triggertime. 
+            if trigtime == 'no_tt' and i==0:
+                trigtime = isotime1
 
             # astropy to subtract the two isotimes
             time_list = [isotime1, isotime2, trigtime]
@@ -163,6 +182,10 @@ def elapsed_time(dataframe, trigtime):
             isotime1 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour1)+':'+str(minute1)[:2]+':00'
             isotime2 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour2)+':'+str(minute2)[:2]+':00'
 
+            # Handle an absence of triggertime. 
+            if trigtime == 'no_tt' and i==0:
+                trigtime = isotime1
+
             # astropy to subtract the two isotimes and get the median time
             time_list = [isotime1, isotime2, trigtime]
             t = Time(time_list, format='isot', scale='utc')
@@ -174,6 +197,11 @@ def elapsed_time(dataframe, trigtime):
         time = list()
 
         for i in range(len(dataframe['date'])):
+
+            # Handle an absence of triggertime. 
+            if trigtime == 'no_tt' and i==0:
+                trigtime = isotime1
+                
             # astropy elapsed time
             time_list = [dataframe['date'][i], trigtime]
             t1 = Time(time_list[1], format='isot', scale='utc')
@@ -186,5 +214,3 @@ def elapsed_time(dataframe, trigtime):
 data = pd.read_csv('./SourceData/GRB011121-SN2001ke/GRB011121-SN2001ke_NIR_Optical.txt', sep='\t')
 new_data = elapsed_time(data, get_trigtime('GRB011121-SN2001ke'))
 new_data.to_csv('./SourceData/GRB011121-SN2001ke/GRB011121-SN2001ke_NIR_Optical.txt', sep='\t', index=False, na_rep='NaN')
-
-		# elif str(i) = "MJD"
