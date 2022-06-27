@@ -170,6 +170,17 @@ def elapsed_time(dataframe, trigtime):
             time.append(isotime-t[2])
         dataframe['time'] = time
 
+    if dataframe['date_unit'][0] == "MJD":
+        time = list()
+
+        for i in range(len(dataframe['date'])):
+            # astropy elapsed time
+            time_list = [dataframe['date'][i], trigtime]
+            t1 = Time(time_list[1], format='isot', scale='utc')
+            t2 = Time(time_list[1], format='mjd')
+            time.append(t2-t1)
+        dataframe['time'] = time
+
     return dataframe
 
 data = pd.read_csv('./SourceData/GRB011121-SN2001ke/GRB011121-SN2001ke_NIR_Optical.txt', sep='\t')
