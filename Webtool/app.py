@@ -692,6 +692,10 @@ def event(event_id):
             optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
             optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
 
+            # Account for upper/lower limit measurements.
+            optical_uppers = optical_df[optical_df['mag_limit']==-1]
+            optical_up = ColumnDataSource(optical_uppers)
+
             # Select colours for the data
             colors = d3['Category20'][len(bands)+2]
             for j in range(len(bands)):
@@ -706,6 +710,9 @@ def event(event_id):
                 optical.scatter('time', 'mag', source=optical_cds, legend_label=str(
                         bands[j]), size=10, color=colors[j], muted_color='gray', muted_alpha=0.1)
                 optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, muted_color='gray', muted_alpha=0.1, color=colors[j], line_width=2)
+
+                # Upper limits
+                optical.inverted_triangle('time', 'mag', source = optical_up, size=10, fill_color=colors[j])
 
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
@@ -799,10 +806,15 @@ def event(event_id):
             radio_error_df['dfds'] = list(zip(radio_error_df['flux_density']-radio_error_df['dflux_density'], radio_error_df['flux_density']+radio_error_df['dflux_density']))
             radio_error_df['dfd_locs'] = list(zip(radio_error_df['time'], radio_error_df['time']))
             
+            # Account for upper/lower limit measurements.
+            radio_uppers = radio_df[radio_df['flux_density_limit']==-1]
+            radio_up = ColumnDataSource(radio_uppers)
 
+            # Get all the frequencies used and their units.
             freq_list = list(set(radio_df['freq']))
             freq_units = list(set(radio_df['freq_unit']))
-            print(freq_list, freq_units)
+            
+            # Loop the frequencies to plot.
             for k in range(len(freq_list)):
                 for j in range(len(freq_units)):
                     # Create a column data source object to make some of the plotting easier.
@@ -813,9 +825,15 @@ def event(event_id):
                     # Plot the data and the error
                     radio.multi_line("dfd_locs", "dfds", source=radio_error, muted_color='gray', muted_alpha=0.1, color=colors[color_counter], line_width=2)
                     radio.scatter('time', 'flux_density', source = radio_cds, muted_color='gray', muted_alpha=0.1, legend_label=str(freq_list[k])+' '+str(freq_units[j]), size=10, fill_color=colors[color_counter])
+
+
+                    # Upper limits
+                    radio.inverted_triangle('time', 'flux_density', source = radio_up, size=10, fill_color=colors[color_counter])
                     
                 # Increment colour counter by k
                 color_counter+=k+1
+
+            
 
 
             # Tooltips of what will display in the hover mode
