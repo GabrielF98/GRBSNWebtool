@@ -682,20 +682,21 @@ def event(event_id):
     # Select colours for the data
     colors = d3['Category20'][20]
     # ADS data
+    bands = []
+    for i in range(len(datafiles)):
+        if 'Optical' in datafiles[i] or 'NIR' in datafiles[i]:
+            # Read in the optical data from each file. 
+            optical_df = pd.read_csv(datafiles[i], sep='\t')
+            sub_bands = list(set(list(optical_df['band'])))
+            for j in sub_bands:
+                if j not in bands:
+                    bands.append(j)
+
     for i in range(len(datafiles)):
         if 'Optical' in datafiles[i] or 'NIR' in datafiles[i]:
 
             # Read in the optical data from each file. 
             optical_df = pd.read_csv(datafiles[i], sep='\t')
-
-            bands = list(optical_df['band'].astype(str))
-            print(optical_df.dtypes)
-
-            # Separate the data by band
-            band_list = list(set(optical_df['band']))
-            for j in band_list:
-                if str(j) in bands:
-                    bands.append(str(j))
             
             optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
             optical_df['band_str'] = optical_df['mag_limit'].astype(str)
@@ -720,7 +721,7 @@ def event(event_id):
             types2 = ['-1', '0', '1']
             marks2 = ['inverted_triangle', 'circle', 'triangle']
             optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, muted_color='gray', muted_alpha=0.1, color=factor_cmap('band', colors, bands), line_width=2)
-            optical.scatter('time', 'mag', source=optical_cds, size=10, color=factor_cmap('band', colors, bands), fill_color=factor_cmap('band', colors, bands), muted_alpha=0.1, marker=factor_mark('mag_limit_str', marks2, types2))
+            optical.scatter('time', 'mag', source=optical_cds, size=10, legend_field='band', color=factor_cmap('band', colors, bands), fill_color=factor_cmap('band', colors, bands), muted_alpha=0.1, marker=factor_mark('mag_limit_str', marks2, types2))
 
             # Tooltips of what will display in the hover mode
             # Format the tooltip
