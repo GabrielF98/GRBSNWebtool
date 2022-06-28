@@ -369,6 +369,9 @@ with open("static/citations2.json") as file2:
 def event(event_id):
     event, radec, peakmag = get_post(event_id)
 
+    # Get the files that were downloaded from the ADS
+    datafiles = glob.glob('./static/SourceData/'+str(event_id)+'/*.txt')
+
     # Find out how many of the references are needed
     needed_dict = {}
     for i in range(len(event)):
@@ -673,6 +676,57 @@ def event(event_id):
 
             optical.y_range.flipped = True
 
+    # ADS data
+    # Because there are sometimes two frequencies in one file we need to make sure we don't reuse colours
+    color_counter = 0
+    for i in range(len(datafiles)):
+        if 'Optical' in datafiles[i] or 'NIR' in datafiles[i]:
+            # Read in the optical data from each file. 
+            optical_df = pd.read_csv(datafiles[i], sep='\t')
+
+            # Separate the data by band
+            bands = list(set(optical_df['band']))
+            print(len(bands))
+
+            # Create the error columns that bokeh wants
+            #Errors on flux densities
+            print(datafiles[i])
+            optical_error_df = optical_df[['time', 'mag', 'dmag', 'band']].copy()
+            pd.to_numeric(optical_error_df)
+            optical_error_df = optical_error_df[~optical_error_df['dmag'].isnull()]
+            print(optical_error_df.dtypes)
+            optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
+            optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
+
+            # Select colours for the data
+            colors = d3['Category20'][len(bands)+2]
+            for j in range(len(bands)):
+
+                # Create a cds
+                optical_cds = ColumnDataSource(optical_df[optical_df['band']==bands[j]])
+
+                # Create a cds for errors
+                optical_error_cds = ColumnDataSource(optical_df[optical_error_df['band']==bands[j]])
+
+                # Plotting
+                optical.scatter('time', 'mag', source=optical_cds, legend_label=str(
+                        bands[j]), size=10, color=colors[j], muted_color='gray', muted_alpha=0.1)
+                optical.multi_line("dmag_locs", "dmags", source=optical_error_df, muted_color='gray', muted_alpha=0.1, color=colors[j], line_width=2)
+
+                # Tooltips of what will display in the hover mode
+                # Format the tooltip
+                # Tooltips of what will display in the hover mode
+                # Format the tooltip
+                tooltips = [
+                    ('Time', '@time'),
+                    ('Magnitude', '@mag'),
+                ]
+
+            # Add the HoverTool to the figure
+            optical.add_tools(HoverTool(tooltips=tooltips))
+
+
+
     # Aesthetics
 
     # Title
@@ -710,6 +764,9 @@ def event(event_id):
     optical.xaxis.axis_line_color = 'black'
     optical.yaxis.axis_line_color = 'black'
 
+    # Allow user to mute spectra by clicking the legend
+    optical.legend.click_policy = "mute"
+
     # Make ticks larger
     optical.xaxis.major_label_text_font_size = '16pt'
     optical.yaxis.major_label_text_font_size = '16pt'
@@ -722,17 +779,15 @@ def event(event_id):
     ######################################################################################
     radio = figure(title='Radio (GRB)', toolbar_location="right",
                    y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
+    
     # Plot the radio data we have gathered.
-    # Get the files
-    files = glob.glob('./static/SourceData/'+str(event_id)+'/*.txt')
-
     colors = d3['Category10'][10]
 
     # Because there are sometimes two frequencies in one file we need to make sure we don't reuse colours
     color_counter = 0
-    for i in range(len(files)):
-        if 'Radio' in files[i]:
-            radio_df = pd.read_csv(files[i], sep='\t')
+    for i in range(len(datafiles)):
+        if 'Radio' in datafiles[i]:
+            radio_df = pd.read_csv(datafiles[i], sep='\t')
 
             # Convert microJy to millyJy by dividing by 1000
             if radio_df['flux_density_unit'][0] == 'microJy':
@@ -753,18 +808,16 @@ def event(event_id):
 
             freq_list = list(set(radio_df['freq']))
             freq_units = list(set(radio_df['freq_unit']))
-            print(freq_units)
             for k in range(len(freq_list)):
                 for j in range(len(freq_units)):
-                    print(color_counter)
                     # Create a column data source object to make some of the plotting easier.
                     radio_cds = ColumnDataSource(radio_df[radio_df['freq']==freq_list[k]])
                     radio_error = ColumnDataSource(radio_error_df[radio_error_df['freq']==freq_list[k]])
 
 
                     # Plot the data and the error
-                    radio.multi_line("dfd_locs", "dfds", source=radio_error, color=colors[color_counter], line_width=2)
-                    radio.scatter('time', 'flux_density', source = radio_cds, legend_label=str(freq_list[k])+' '+str(freq_units[j]), size=10, fill_color=colors[color_counter])
+                    radio.multi_line("dfd_locs", "dfds", source=radio_error, muted_color='gray', muted_alpha=0.1, color=colors[color_counter], line_width=2)
+                    radio.scatter('time', 'flux_density', source = radio_cds, muted_color='gray', muted_alpha=0.1, legend_label=str(freq_list[k])+' '+str(freq_units[j]), size=10, fill_color=colors[color_counter])
                     
                 # Increment colour counter by k
                 color_counter+=k+1
@@ -803,6 +856,9 @@ def event(event_id):
 
     radio.xaxis.minor_tick_line_color = 'black'
     radio.yaxis.minor_tick_line_color = 'black'
+
+    # Allow user to mute spectra by clicking the legend
+    radio.legend.click_policy = "mute"
 
     # Axis labels
     radio.xaxis.axis_label = 'Time [days] after '+grb_time_str
