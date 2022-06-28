@@ -39,5 +39,5 @@ date	instrument	band	integration	seeing	mag	mag_limit	dmag	date_unit	mag_unit	ti
 2002-Apr-15.238	Melipal FORS1	V	2\times180	0.7	23.99	0	0.07	yyyy-month-deciday	Vega	10.20922800925926	days
 2002-Apr-15.244	Melipal FORS1	R	2\times180	0.6	23.36	0	0.04	yyyy-month-deciday	Vega	10.215223379629627	days
 2002-Apr-15.250	Melipal FORS1	I	2\times180	0.6	22.53	0	0.06	yyyy-month-deciday	Vega	10.221230324074076	days
-2002-Apr-27.193	Antu ISAAC	J_{\rm s}	3600	0.5	22.4	0	0.1	yyyy-month-deciday	Vega	22.164228009259254	days
+2002-Apr-27.193	Antu ISAAC	J_{\rm s}	3600	0.5	22.4	0	0.1	yyyy-month-deciday	Vega	22.16422800925925	days
 2002-May-8.193	Antu ISAAC	J_{\rm s}	3600	0.6	22.7	-1	NaN	yyyy-month-deciday	Vega	33.16422800925926	days

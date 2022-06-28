@@ -260,7 +260,7 @@ def limits(df, wave_range):
 
     # Convert back to float
     df[i] = df[i].astype(float)
-    
+
     return(df)
 
 for i in range(len(trial_list)):
@@ -275,14 +275,15 @@ for i in range(len(trial_list)):
             data = pd.read_csv(file, sep='\t')
 
             # Find and catalogue limit values
-            new_data = limits(data, file)
+            if 'mag_limit' not in list(data.keys()) and 'flux_density_limit' not in list(data.keys()):
+                data = limits(data, file)
 
             # Add time columns to all the dataframes.
             if 'time' not in list(data.keys()):
-                new_data = elapsed_time(data, trigtime)
-                new_data['time_unit'] = 'days'
+                data = elapsed_time(data, trigtime)
+                data['time_unit'] = 'days'
             
-            new_data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+            data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
             
             

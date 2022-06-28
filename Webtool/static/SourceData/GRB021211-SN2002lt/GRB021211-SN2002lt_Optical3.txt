@@ -1,5 +1,5 @@
 date	integration	seeing	mag	mag_limit	dmag	band	date_unit	mag_unit	time	time_unit
-2003-Jan-9.7	63	1.1	24.48	0	0.18	R	yyyy-month-deciday	Unspecified	29.228761574074078	days
+2003-Jan-9.7	63	1.1	24.48	0	0.18	R	yyyy-month-deciday	Unspecified	29.22876157407408	days
 2003-Jan-15.33	15	0.8	25.07	0	0.15	R	yyyy-month-deciday	Unspecified	34.858773148148146	days
 2003-Feb-28.02	75	0.8	25.13	0	0.12	R	yyyy-month-deciday	Unspecified	78.54876157407408	days
 2003-Mar-9.01	50	1.25	25.35	0	0.17	R	yyyy-month-deciday	Unspecified	87.53876157407407	days
