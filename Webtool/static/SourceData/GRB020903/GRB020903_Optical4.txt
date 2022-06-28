@@ -1,4 +1,4 @@
-date	time	integration	band	mag	dmag	extinction	date_unit	time_unit	mag_unit	instrument
-2002-Dec-3.8	91.4	1840	F606W	24.53	0.03	NaN	yyyy-month-deciday	days	AB	HST
-2002-Dec-3.8	91.4	1840	R	24.23	0.03	0.09	yyyy-month-deciday	days	Vega	HST
-2003-Jun-30.6	300.2	1920	F606W	NaN	NaN	NaN	yyyy-month-deciday	days	AB	HST
+date	time	integration	band	mag	mag_limit	dmag	extinction	date_unit	time_unit	mag_unit	instrument
+2002-Dec-3.8	91.4	1840	F606W	24.53	0	0.03	NaN	yyyy-month-deciday	days	AB	HST
+2002-Dec-3.8	91.4	1840	R	24.23	0	0.03	0.09	yyyy-month-deciday	days	Vega	HST
+2003-Jun-30.6	300.2	1920	F606W	NaN	0	NaN	NaN	yyyy-month-deciday	days	AB	HST

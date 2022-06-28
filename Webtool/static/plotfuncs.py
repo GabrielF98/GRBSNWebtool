@@ -239,6 +239,30 @@ def elapsed_time(dataframe, trigtime):
     return dataframe
 
 
+def limits(df, wave_range):
+    if 'Radio' in wave_range:
+        i = 'flux_density'
+
+    if 'Optical' in wave_range:
+        i = 'mag'
+    print(i)
+    # Convert the column to string
+    df[i] = df[i].astype(str)
+
+    # Upper limit = 1, Lower limit = -1, Neither = 0
+    conditions = [(df[i].str.contains('>')), (df[i].str.contains('<'))]
+    choices = [-1, 1]
+    df.insert(df.columns.get_loc(i)+1, i+str('_limit'), np.select(conditions, choices, default=0))
+
+    # Replace any < or > there may be
+    df[i] = df[i].str.replace('<', '')
+    df[i] = df[i].str.replace('>', '')
+
+    # Convert back to float
+    df[i] = df[i].astype(float)
+    
+    return(df)
+
 for i in range(len(trial_list)):
     print(trial_list[i])
     trigtime = get_trigtime(trial_list[i])
@@ -249,10 +273,18 @@ for i in range(len(trial_list)):
         if 'Optical' in file or 'Radio' in file:
             print(file)
             data = pd.read_csv(file, sep='\t')
-            print(data.keys())
+
+            # Find and catalogue limit values
+            new_data = limits(data, file)
+
+            # Add time columns to all the dataframes.
             if 'time' not in list(data.keys()):
                 new_data = elapsed_time(data, trigtime)
                 new_data['time_unit'] = 'days'
-                new_data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+            
+            new_data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+
+            
+            
     os.chdir('..')
     os.chdir('..')
