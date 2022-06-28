@@ -43,7 +43,7 @@ from bokeh.models import ColumnDataSource, HoverTool, Range1d, Label
 from bokeh.embed import components
 from bokeh.layouts import layout
 from bokeh.plotting import figure
-from bokeh.palettes import viridis, Category20_20
+from bokeh.palettes import viridis, Category20_20, d3
 from bokeh.transform import factor_mark
 
 
@@ -558,8 +558,8 @@ def event(event_id):
     # Format the tooltip
 
     tooltips = [
-        ('time', '@time'),
-        ('flux', '@flux'),
+        ('Time', '@time'),
+        ('Flux', '@flux'),
         ('Source', '@sources'),
     ]
 
@@ -663,8 +663,8 @@ def event(event_id):
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
                 tooltips = [
-                    ('time', '@time'),
-                    ('magnitude', '@magnitude'),
+                    ('Time', '@time'),
+                    ('Magnitude', '@magnitude'),
                     ('Source', '@indices'),
                 ]
 
@@ -722,8 +722,52 @@ def event(event_id):
     ######################################################################################
     radio = figure(title='Radio (GRB)', toolbar_location="right",
                    y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
-    # add a line renderer with legend and line thickness
-    # radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    # Plot the radio data we have gathered.
+    # Get the files
+    files = glob.glob('./static/SourceData/'+str(event_id)+'/*.txt')
+
+    colors = d3['Category10'][10]
+    for i in range(len(files)):
+        if 'Radio' in files[i]:
+            radio_df = pd.read_csv(files[i], sep='\t')
+
+            # Convert microJy to millyJy by dividing by 1000
+            if radio_df['flux_density_unit'][0] == 'microJy':
+                radio_df['flux_density'] = radio_df['flux_density']/1000
+                radio_df['dflux_density'] = radio_df['dflux_density']/1000
+
+            # Convert Jy to millyJy by multiplying by 1000
+            if radio_df['flux_density_unit'][0] == 'Jy':
+                radio_df['flux_density'] = radio_df['flux_density']*1000
+                radio_df['dflux_density'] = radio_df['dflux_density']*1000
+
+            #Errors on flux densities
+            radio_error_df = radio_df[['time', 'flux_density', 'dflux_density', 'freq']].copy()
+            radio_error_df = radio_error_df[~radio_error_df['dflux_density'].isnull()]
+            radio_error_df['dfds'] = list(zip(radio_error_df['flux_density']-radio_error_df['dflux_density'], radio_error_df['flux_density']+radio_error_df['dflux_density']))
+            radio_error_df['dfd_locs'] = list(zip(radio_error_df['time'], radio_error_df['time']))
+            
+
+
+            for k in list(set(radio_df['freq'])):
+                # Create a column data source object to make some of the plotting easier.
+                radio_cds = ColumnDataSource(radio_df[radio_df['freq']==k])
+                radio_error = ColumnDataSource(radio_error_df[radio_error_df['freq']==k])
+
+
+                # Plot the data and the error
+                radio.multi_line("dfd_locs", "dfds", source=radio_error, color=colors[i], line_width=2)
+                radio.scatter('time', 'flux_density', source = radio_cds, legend_label=str(radio_df['freq'][0])+' '+str(radio_df['freq_unit'][0]), size=10, fill_color=colors[i])
+
+            # Tooltips of what will display in the hover mode
+            # Format the tooltip
+            # Tooltips of what will display in the hover mode
+            # Format the tooltip
+            tooltips = [('Time', '@time'),
+                ('Flux Density', '@flux_density'),]
+
+    # Add the HoverTool to the figure
+    radio.add_tools(HoverTool(tooltips=tooltips))
 
     # Aesthetics
 
@@ -750,7 +794,7 @@ def event(event_id):
     radio.yaxis.minor_tick_line_color = 'black'
 
     # Axis labels
-    radio.xaxis.axis_label = 'Time after '+grb_time_str
+    radio.xaxis.axis_label = 'Time [days] after '+grb_time_str
     radio.yaxis.axis_label = 'Flux Density [mJy]'
 
     # Axis Colors
