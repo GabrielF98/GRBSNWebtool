@@ -677,8 +677,6 @@ def event(event_id):
             optical.y_range.flipped = True
 
     # ADS data
-    # Because there are sometimes two frequencies in one file we need to make sure we don't reuse colours
-    color_counter = 0
     for i in range(len(datafiles)):
         if 'Optical' in datafiles[i] or 'NIR' in datafiles[i]:
             # Read in the optical data from each file. 
@@ -686,15 +684,13 @@ def event(event_id):
 
             # Separate the data by band
             bands = list(set(optical_df['band']))
-            print(len(bands))
 
             # Create the error columns that bokeh wants
             #Errors on flux densities
             print(datafiles[i])
             optical_error_df = optical_df[['time', 'mag', 'dmag', 'band']].copy()
-            pd.to_numeric(optical_error_df)
             optical_error_df = optical_error_df[~optical_error_df['dmag'].isnull()]
-            print(optical_error_df.dtypes)
+            print(optical_error_df)
             optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
             optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
 
@@ -706,12 +702,12 @@ def event(event_id):
                 optical_cds = ColumnDataSource(optical_df[optical_df['band']==bands[j]])
 
                 # Create a cds for errors
-                optical_error_cds = ColumnDataSource(optical_df[optical_error_df['band']==bands[j]])
+                optical_error_cds = ColumnDataSource(optical_error_df[optical_error_df['band']==bands[j]])
 
                 # Plotting
                 optical.scatter('time', 'mag', source=optical_cds, legend_label=str(
                         bands[j]), size=10, color=colors[j], muted_color='gray', muted_alpha=0.1)
-                optical.multi_line("dmag_locs", "dmags", source=optical_error_df, muted_color='gray', muted_alpha=0.1, color=colors[j], line_width=2)
+                optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, muted_color='gray', muted_alpha=0.1, color=colors[j], line_width=2)
 
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
