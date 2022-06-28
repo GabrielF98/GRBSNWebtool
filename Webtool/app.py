@@ -44,7 +44,7 @@ from bokeh.embed import components
 from bokeh.layouts import layout
 from bokeh.plotting import figure
 from bokeh.palettes import viridis, Category20_20, d3
-from bokeh.transform import factor_mark
+from bokeh.transform import factor_mark, factor_cmap
 
 
 # Matplotlib
@@ -676,52 +676,61 @@ def event(event_id):
 
             optical.y_range.flipped = True
 
+
+    
+    bands = []
+    # Select colours for the data
+    colors = d3['Category20'][20]
     # ADS data
     for i in range(len(datafiles)):
         if 'Optical' in datafiles[i] or 'NIR' in datafiles[i]:
+
             # Read in the optical data from each file. 
             optical_df = pd.read_csv(datafiles[i], sep='\t')
 
+            bands = list(optical_df['band'].astype(str))
+            print(optical_df.dtypes)
+
             # Separate the data by band
-            bands = list(set(optical_df['band']))
+            band_list = list(set(optical_df['band']))
+            for j in band_list:
+                if str(j) in bands:
+                    bands.append(str(j))
+            
+            optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
+            optical_df['band_str'] = optical_df['mag_limit'].astype(str)
 
             # Create the error columns that bokeh wants
             #Errors on flux densities
-            optical_error_df = optical_df[['time', 'mag', 'dmag', 'band']].copy()
+            optical_error_df = optical_df[['time', 'mag', 'dmag', 'band_str']].copy()
             optical_error_df = optical_error_df[~optical_error_df['dmag'].isnull()]
             optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
             optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
 
-            # Account for upper/lower limit measurements.
-            optical_uppers = optical_df[optical_df['mag_limit']==-1]
-            optical_up = ColumnDataSource(optical_uppers)
+            
+            # Create a cds
+            optical_cds = ColumnDataSource(optical_df)
+            print(optical_df)
 
-            # Select colours for the data
-            colors = d3['Category20'][len(bands)+2]
-            for j in range(len(bands)):
+            # Create a cds for errors
+            optical_error_cds = ColumnDataSource(optical_error_df)
 
-                # Create a cds
-                optical_cds = ColumnDataSource(optical_df[optical_df['band']==bands[j]])
+            # Plotting
 
-                # Create a cds for errors
-                optical_error_cds = ColumnDataSource(optical_error_df[optical_error_df['band']==bands[j]])
+            types2 = ['-1', '0', '1']
+            marks2 = ['inverted_triangle', 'circle', 'triangle']
+            optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, muted_color='gray', muted_alpha=0.1, color=factor_cmap('band', colors, bands), line_width=2)
+            optical.scatter('time', 'mag', source=optical_cds, size=10, color=factor_cmap('band', colors, bands), fill_color=factor_cmap('band', colors, bands), muted_alpha=0.1, marker=factor_mark('mag_limit_str', marks2, types2))
 
-                # Plotting
-                optical.scatter('time', 'mag', source=optical_cds, legend_label=str(
-                        bands[j]), size=10, color=colors[j], muted_color='gray', muted_alpha=0.1)
-                optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, muted_color='gray', muted_alpha=0.1, color=colors[j], line_width=2)
-
-                # Upper limits
-                optical.inverted_triangle('time', 'mag', source = optical_up, size=10, fill_color=colors[j])
-
-                # Tooltips of what will display in the hover mode
-                # Format the tooltip
-                # Tooltips of what will display in the hover mode
-                # Format the tooltip
-                tooltips = [
-                    ('Time', '@time'),
-                    ('Magnitude', '@mag'),
-                ]
+            # Tooltips of what will display in the hover mode
+            # Format the tooltip
+            # Tooltips of what will display in the hover mode
+            # Format the tooltip
+            tooltips = [
+                ('Time', '@time'),
+                ('Magnitude', '@mag'),
+                ('Band', '@band'),
+            ]
 
             # Add the HoverTool to the figure
             optical.add_tools(HoverTool(tooltips=tooltips))
@@ -824,7 +833,7 @@ def event(event_id):
 
                     # Plot the data and the error
                     radio.multi_line("dfd_locs", "dfds", source=radio_error, muted_color='gray', muted_alpha=0.1, color=colors[color_counter], line_width=2)
-                    radio.scatter('time', 'flux_density', source = radio_cds, muted_color='gray', muted_alpha=0.1, legend_label=str(freq_list[k])+' '+str(freq_units[j]), size=10, fill_color=colors[color_counter])
+                    radio.scatter('time', 'flux_density', source = radio_cds, muted_color='gray', muted_alpha=0.1, legend_label=str(freq_list[k])+' '+str(freq_units[j]), size=10, fill_color=colors[color_counter], color=colors[color_counter])
 
 
                     # Upper limits
