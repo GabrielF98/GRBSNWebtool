@@ -687,10 +687,8 @@ def event(event_id):
 
             # Create the error columns that bokeh wants
             #Errors on flux densities
-            print(datafiles[i])
             optical_error_df = optical_df[['time', 'mag', 'dmag', 'band']].copy()
             optical_error_df = optical_error_df[~optical_error_df['dmag'].isnull()]
-            print(optical_error_df)
             optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
             optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
 
@@ -721,7 +719,7 @@ def event(event_id):
             # Add the HoverTool to the figure
             optical.add_tools(HoverTool(tooltips=tooltips))
 
-
+            optical.y_range.flipped = True
 
     # Aesthetics
 
@@ -777,7 +775,7 @@ def event(event_id):
                    y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
     
     # Plot the radio data we have gathered.
-    colors = d3['Category10'][10]
+    colors = d3['Category20'][20]
 
     # Because there are sometimes two frequencies in one file we need to make sure we don't reuse colours
     color_counter = 0
@@ -804,6 +802,7 @@ def event(event_id):
 
             freq_list = list(set(radio_df['freq']))
             freq_units = list(set(radio_df['freq_unit']))
+            print(freq_list, freq_units)
             for k in range(len(freq_list)):
                 for j in range(len(freq_units)):
                     # Create a column data source object to make some of the plotting easier.
