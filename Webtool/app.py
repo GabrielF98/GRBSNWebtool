@@ -727,6 +727,9 @@ def event(event_id):
     files = glob.glob('./static/SourceData/'+str(event_id)+'/*.txt')
 
     colors = d3['Category10'][10]
+
+    # Because there are sometimes two frequencies in one file we need to make sure we don't reuse colours
+    color_counter = 0
     for i in range(len(files)):
         if 'Radio' in files[i]:
             radio_df = pd.read_csv(files[i], sep='\t')
@@ -748,16 +751,24 @@ def event(event_id):
             radio_error_df['dfd_locs'] = list(zip(radio_error_df['time'], radio_error_df['time']))
             
 
+            freq_list = list(set(radio_df['freq']))
+            freq_units = list(set(radio_df['freq_unit']))
+            print(freq_units)
+            for k in range(len(freq_list)):
+                for j in range(len(freq_units)):
+                    print(color_counter)
+                    # Create a column data source object to make some of the plotting easier.
+                    radio_cds = ColumnDataSource(radio_df[radio_df['freq']==freq_list[k]])
+                    radio_error = ColumnDataSource(radio_error_df[radio_error_df['freq']==freq_list[k]])
 
-            for k in list(set(radio_df['freq'])):
-                # Create a column data source object to make some of the plotting easier.
-                radio_cds = ColumnDataSource(radio_df[radio_df['freq']==k])
-                radio_error = ColumnDataSource(radio_error_df[radio_error_df['freq']==k])
 
+                    # Plot the data and the error
+                    radio.multi_line("dfd_locs", "dfds", source=radio_error, color=colors[color_counter], line_width=2)
+                    radio.scatter('time', 'flux_density', source = radio_cds, legend_label=str(freq_list[k])+' '+str(freq_units[j]), size=10, fill_color=colors[color_counter])
+                    
+                # Increment colour counter by k
+                color_counter+=k+1
 
-                # Plot the data and the error
-                radio.multi_line("dfd_locs", "dfds", source=radio_error, color=colors[i], line_width=2)
-                radio.scatter('time', 'flux_density', source = radio_cds, legend_label=str(radio_df['freq'][0])+' '+str(radio_df['freq_unit'][0]), size=10, fill_color=colors[i])
 
             # Tooltips of what will display in the hover mode
             # Format the tooltip
