@@ -243,7 +243,7 @@ def limits(df, wave_range):
     if 'Radio' in wave_range:
         i = 'flux_density'
 
-    if 'Optical' in wave_range:
+    if 'Optical' in wave_range or 'NIR' in wave_range:
         i = 'mag'
     print(i)
     # Convert the column to string
@@ -270,7 +270,7 @@ for i in range(len(trial_list)):
     os.chdir("SourceData/")
     os.chdir(trial_list[i])
     for file in glob.glob("*.txt"):
-        if 'Optical' in file or 'Radio' in file:
+        if 'Optical' in file or 'Radio' in file or 'NIR' in file:
             print(file)
             data = pd.read_csv(file, sep='\t')
 
