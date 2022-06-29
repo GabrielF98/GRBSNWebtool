@@ -711,8 +711,7 @@ def event(event_id):
             
             # Create a cds
             optical_cds = ColumnDataSource(optical_df)
-            print(optical_df)
-
+            
             # Create a cds for errors
             optical_error_cds = ColumnDataSource(optical_error_df)
 
