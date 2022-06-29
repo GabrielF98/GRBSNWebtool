@@ -269,6 +269,30 @@ def limits(df, wave_range):
 
     return(df)
 
+def masterfileformat(filelist, event):
+    '''
+    Iterate over any txt files with data for a GRB in a specific wavelength range. Put them all together with an outer join on their pandas. Save to a csv called GRBXXXXXX_SNXXXXxx_wave_range_Master.txt
+    '''
+
+    optical_pandas = []
+    radio_pandas = []
+
+    for file in file_list:
+        if 'Radio' in file or 'radio' in file:
+            radio_pandas.append(pd.read_csv(file, sep='\t'))
+
+        elif 'Optical' in file or 'optical' in file or 'NIR' in file:
+            optical_pandas.append(pd.read_csv(file, sep='\t'))
+
+    if len(radio_pandas) != 0:
+        radio = pd.concat(radio_pandas, join='outer')
+        radio.to_csv(event, sep='\t', index=False, na_rep='NaN')
+
+    if len(optical_pandas) != 0:
+        optical = pd.concat(optical_pandas, join='outer')
+        optical.to_csv(event, sep='\t', index=False, na_rep='NaN')
+
+
 
 # Run through all the files. Convert them to the format we want.
 for i in range(len(trial_list)):
@@ -277,9 +301,11 @@ for i in range(len(trial_list)):
 
     os.chdir("SourceData/")
     os.chdir(trial_list[i])
-    for file in glob.glob("*.txt"):
+
+    file_list = glob.glob("*.txt")
+    for file in file_list:
         if 'Optical' in file or 'Radio' in file or 'NIR' in file:
-            print(file)
+
             data = pd.read_csv(file, sep='\t')
 
             # Find and catalogue limit values
@@ -292,6 +318,9 @@ for i in range(len(trial_list)):
                 data['time_unit'] = 'days'
             
             data.to_csv(file, sep='\t', index=False, na_rep='NaN')
-            
+    
+    # Convert all the files to one master file for Optical/NIR.
+    masterfileformat(file_list, trial_list[i])
+
     os.chdir('..')
     os.chdir('..')
