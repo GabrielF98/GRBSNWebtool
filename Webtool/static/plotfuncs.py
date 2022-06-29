@@ -1,10 +1,16 @@
-trial_list = ['GRB000911', 'GRB011121-SN2001ke','GRB020305','GRB020405','GRB020410','GRB020903','GRB021211-SN2002lt','GRB030723','GRB030725','GRB041006']
+'''This file converts any text file in the webtool SourceData folder into a standard format.''' 
 
+
+# Imports.
 import pandas as pd
 import sqlite3
 import numpy as np
 from astropy.time import Time
 import glob, os
+
+# List of GRB-SNe that I have text file data on so far.
+trial_list = ['GRB000911', 'GRB011121-SN2001ke','GRB020305','GRB020405','GRB020410','GRB020903','GRB021211-SN2002lt','GRB030723','GRB030725','GRB041006']
+
 
 # Get the trigger time
 def get_db_connection():
@@ -238,7 +244,7 @@ def elapsed_time(dataframe, trigtime):
 
     return dataframe
 
-
+# This function will create a column with a value that tells us whether the magnitude/flux_density etc is an upper/lower limit or just a normal value 
 def limits(df, wave_range):
     if 'Radio' in wave_range:
         i = 'flux_density'
@@ -263,6 +269,8 @@ def limits(df, wave_range):
 
     return(df)
 
+
+# Run through all the files. Convert them to the format we want.
 for i in range(len(trial_list)):
     print(trial_list[i])
     trigtime = get_trigtime(trial_list[i])
@@ -284,8 +292,6 @@ for i in range(len(trial_list)):
                 data['time_unit'] = 'days'
             
             data.to_csv(file, sep='\t', index=False, na_rep='NaN')
-
-            
             
     os.chdir('..')
     os.chdir('..')
