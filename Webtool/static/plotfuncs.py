@@ -286,11 +286,11 @@ def masterfileformat(filelist, event):
 
     if len(radio_pandas) != 0:
         radio = pd.concat(radio_pandas, join='outer')
-        radio.to_csv(event, sep='\t', index=False, na_rep='NaN')
+        radio.to_csv(event+'_Radio_Master.txt', sep='\t', index=False, na_rep='NaN')
 
     if len(optical_pandas) != 0:
         optical = pd.concat(optical_pandas, join='outer')
-        optical.to_csv(event, sep='\t', index=False, na_rep='NaN')
+        optical.to_csv(event+'_Optical_Master.txt', sep='\t', index=False, na_rep='NaN')
 
 
 
