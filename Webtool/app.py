@@ -355,13 +355,17 @@ def z_plotter():
     return render_template('home.html', form=form, data=data)
 
 # References
-# Primary
-with open("static/citations.json") as file:
+# Primary (from all 3 tables)
+with open("static/citations/citations.json") as file:
     dict_refs = json.load(file)
 
 # Secondary
-with open("static/citations2.json") as file2:
+with open("static/citations/citations2.json") as file2:
     dict_refs2 = json.load(file2)
+
+# ADS Downloaded data citations
+with open("static/citations/citations(ADSdatadownloads).json") as file3:
+    dict_refs3 = json.load(file3)
 
 # Be able to select the GRBs by their names and go
 # To a specific page, it also plots the XRT data
@@ -369,6 +373,10 @@ with open("static/citations2.json") as file2:
 @app.route('/<event_id>')
 def event(event_id):
     event, radec, peakmag = get_post(event_id)
+
+    ######################################################
+    ########### Referencing for table data ###############
+    ######################################################
 
     # Find out how many of the references are needed
     needed_dict = {}
@@ -409,7 +417,7 @@ def event(event_id):
             if peakmag[i]['time']!=None:
                 ptime_bandlist.append(peakmag[i]['band'])
 
-    # Add the peak times and mags to the master dictionary of sources
+    # Add the peak times and mags references to the master dictionary of sources
     peakmag_refs = []
     peakmag_nos = []
     for i in range(len(peakmag)):
@@ -426,6 +434,7 @@ def event(event_id):
             else:
                 peakmag_nos.append(
                     list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+
 
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################
