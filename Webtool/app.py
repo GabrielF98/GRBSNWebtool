@@ -578,13 +578,13 @@ def event(event_id):
     ######## Open SN ###############
     ################################
     optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
-    if exists('./static/SNE-OpenSN-Data/photometry/'+str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.csv'):
+    if exists('./static/SourceData/'+str(event_id)+'/'+'OpenSNPhotometry.csv'):
         # Extract and plot the optical photometry data from the photometry file for each SN
         
         if event[0]['SNe'] != None:
 
-            data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/' +
-                               str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.csv')
+            data = pd.read_csv('./static/SourceData/' +
+                               str(event_id)+'/'+'OpenSNPhotometry.csv')
             if data.empty == False:
 
                 # Indexing the sources
@@ -914,7 +914,7 @@ def event(event_id):
     if event[0]['SNe'] != None:
 
         # Access the data in the files for the SNe Spectra
-        path = './static/SNE-OpenSN-Data/spectraJSON/'+str(event[0]['SNe'])+'/'
+        path = './static/SourceData/'+str(event_id)+'/'
         files = glob.glob(path+'/*.json')
 
         # Colormap to be used - 45 is the max number of spectra im expecting for a single event
