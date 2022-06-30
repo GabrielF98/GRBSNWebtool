@@ -147,5 +147,72 @@ file = open("citations2.json", 'w')
 json.dump(dictionary2, file, indent=4, separators=(',', ': '))
 file.close()
 
+# Get the ADS data on the data I downloaded from ADS papers.
+def grb_names():
+    conn = get_db_connection()
+    names = conn.execute('SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe')
+    grbs = []
+    years = []
+    for i in names:
+        if str(i[0]) != 'None' and str(i[1]) != 'None':
+            if 'AT' in str(i[1]):
+                grbs.append('GRB'+str(i[0])+'-'+str(i[1]))
+            else:
+                grbs.append('GRB'+str(i[0])+'-SN'+str(i[1]))
 
+        elif str(i[1])=='None':
+            grbs.append('GRB'+str(i[0]))
+
+        elif str(i[0]) == 'None':
+            if 'AT' in str(i[1]):
+                grbs.append(str(i[1]))
+            else:
+                grbs.append('SN'+str(i[1]))
+    conn.close()
+
+    return grbs
+
+# Go to all the GRB-SN source files and get the citations
+folder_names = grb_names()
+
+# Get the bibcodes and hyperlinks
+bibcodes = []
+hyperlinks = []
+for folder in folder_names:
+	df = pd.read_csv('SourceData/'+str(folder)+'/'+str(folder)+'filesources.csv')
+	citations = df['Reference']
+
+	for i in citations:
+		if str(i)[0:10] == 'https://ui':
+
+			#Split the bibcode into a list by breaking it each time a / appears
+			bibcodes.append(str(i).split('/')[4].replace('%26', '&'))
+			hyperlinks.append(str(i))
+
+
+dictionary3 = {}
+for i in range(len(bibcodes)):
+
+	bibcode = {"bibcode":[str(bibcodes[i])], "format": "%m %Y"}
+	r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom", \
+	                 headers={"Authorization": "Bearer " + token, "Content-type": "application/json"}, \
+	                 data=json.dumps(bibcode))
+	print(r.json())
+
+	author_list = r.json()['export']
+	author_split = r.json()['export'].split(',')
+
+	dictionary_a={}
+	if len(author_split)>2:
+		dictionary_a['names'] = author_split[0]+' et al.'
+		dictionary_a['year'] = author_list[-5:-1]
+	else:
+		dictionary_a['names'] = author_list[:-6]
+		dictionary_a['year'] = author_list[-5:-1]
+	dictionary3[str(hyperlinks[i])] = dictionary_a
+
+#Save the dictionary with json.dump()
+file = open("citations(ADSdatadownloads).json", 'w')
+json.dump(dictionary3, file, indent=4, separators=(',', ': '))
+file.close()
 
