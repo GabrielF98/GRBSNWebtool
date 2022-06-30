@@ -7,6 +7,7 @@ import numpy as np
 import json # Reading in data
 import pandas as pd # Pandas
 import os # Import os to find files in the event folders
+from os.path import exists # Check if a file exists
 import zipfile # Creating zipfiles for download
 from astropy.time import Time # Converting MJD to UTC
 import io # Downloadable zipfiles and for updateable plots
@@ -571,154 +572,159 @@ def event(event_id):
     ######################################################################################
     t0_utc = '0'
 
-    optical = figure(title='Optical (GRB+SN)',
-                     toolbar_location="right", sizing_mode='scale_both', margin=5)
-    # add a line renderer with legend and line thickness
-
-    # Extract and plot the optical photometry data from the photometry file for each SN
+    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", sizing_mode='scale_both', margin=5)
+    
+    ################################
+    ######## Open SN ###############
+    ################################
     optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
-    if event[0]['SNe'] != None:
+    if exists('./static/SNE-OpenSN-Data/photometry/'+str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.csv'):
+        # Extract and plot the optical photometry data from the photometry file for each SN
+        
+        if event[0]['SNe'] != None:
 
-        data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/' +
-                           str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.csv')
-        if data.empty == False:
+            data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/' +
+                               str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.csv')
+            if data.empty == False:
 
-            # Indexing the sources
-            # This is supposed to show the number to be assigned to a particular source.
-            optical_source_indices = []
-            for dictionaries in data['refs']:
-                dictionaries = ast.literal_eval(dictionaries)
-                # Sub list of the indices for each reference
-                optical_source_indices_sub = []
-                for reference in dictionaries:
-                    # Check if its already in the needed_dict
-                    if reference['url'] in needed_dict.keys():
-                        optical_source_indices_sub.append(
-                            (list(needed_dict.keys()).index(reference['url'])+1))
+                # Indexing the sources
+                # This is supposed to show the number to be assigned to a particular source.
+                optical_source_indices = []
+                for dictionaries in data['refs']:
+                    dictionaries = ast.literal_eval(dictionaries)
+                    # Sub list of the indices for each reference
+                    optical_source_indices_sub = []
+                    for reference in dictionaries:
+                        # Check if its already in the needed_dict
+                        if reference['url'] in needed_dict.keys():
+                            optical_source_indices_sub.append(
+                                (list(needed_dict.keys()).index(reference['url'])+1))
+
+                        else:
+                            # Add to the needed_dict
+                            needed_dict[reference['url']] = {
+                                'name': reference['name'].replace('(', '').replace(')', '')}
+                            # Save the optical ref to use as a key in event html when accessing the reference.
+                            optical_refs.append(reference['url'])
+                            # Append the number (now only needed for the graph)
+                            optical_source_indices_sub.append(
+                                (list(needed_dict.keys()).index(reference['url'])+1))
+
+                    # Get the numbering for the sources to display in the right order
+                    if len(optical_source_indices_sub) > 1:
+                        optical_source_indices.append(
+                            np.sort(optical_source_indices_sub))
+                    else:
+                        optical_source_indices.append(optical_source_indices_sub)
+
+                # Add the lists of indices to the DF
+                data['indices'] = optical_source_indices
+
+                # Splitting the data by band for plotting purposes
+                bands = set(data['band'])
+
+                color = Category20_20.__iter__()
+                for j in bands:
+
+                    if str(j) == 'nan':
+                        # New df of just points without a band name (ie nan)
+                        new_df = data.loc[data['band'].isna()]
 
                     else:
-                        # Add to the needed_dict
-                        needed_dict[reference['url']] = {
-                            'name': reference['name'].replace('(', '').replace(')', '')}
-                        # Save the optical ref to use as a key in event html when accessing the reference.
-                        optical_refs.append(reference['url'])
-                        # Append the number (now only needed for the graph)
-                        optical_source_indices_sub.append(
-                            (list(needed_dict.keys()).index(reference['url'])+1))
+                        # Create a df with just the band j
+                        new_df = data.loc[data['band'] == j]
 
-                # Get the numbering for the sources to display in the right order
-                if len(optical_source_indices_sub) > 1:
-                    optical_source_indices.append(
-                        np.sort(optical_source_indices_sub))
-                else:
-                    optical_source_indices.append(optical_source_indices_sub)
+                    # Convert the times from MJD to UTC, then subtract the first timestamp
+                    mjd_time = np.array(new_df['time'])
+                    t_after_t0 = np.zeros(len(new_df['time']))
+                    t0 = min(mjd_time)  # earliest mjd in time
+                    t0_utc = Time(t0, format='mjd').utc.iso
 
-            # Add the lists of indices to the DF
-            data['indices'] = optical_source_indices
+                    for k in range(len(mjd_time)):
+                        t_after_t0[k] = float(mjd_time[k])-float(grb_time_mjd)
 
-            # Splitting the data by band for plotting purposes
-            bands = set(data['band'])
+                    # Add this to the df in the position time used to be in.
+                    new_df['time_since'] = t_after_t0
+                    #print(new_df.keys())
 
-            color = Category20_20.__iter__()
-            for j in bands:
+                    #Errors on magnitudes
+                    optical_error_df = new_df[['time_since', 'magnitude', 'e_magnitude']].copy()
+                    optical_error_df = optical_error_df[~optical_error_df['e_magnitude'].isnull()]
+                    optical_error_df['dmags'] = list(zip(optical_error_df['magnitude']-optical_error_df['e_magnitude'], optical_error_df['magnitude']+optical_error_df['e_magnitude']))
+                    optical_error_df['dmag_locs'] = list(zip(optical_error_df['time_since'], optical_error_df['time_since']))
 
-                if str(j) == 'nan':
-                    # New df of just points without a band name (ie nan)
-                    new_df = data.loc[data['band'].isna()]
+                    optical_error = ColumnDataSource(optical_error_df)
+                    optical_data = ColumnDataSource(new_df)
 
-                else:
-                    # Create a df with just the band j
-                    new_df = data.loc[data['band'] == j]
+                    #New color
+                    col = next(color)
+                    optical.multi_line("dmag_locs", "dmags", source=optical_error, color=col, line_width=2)
+                    optical.scatter('time_since', 'magnitude', source=optical_data, legend_label=str(
+                        j), size=10, color=col)
 
-                # Convert the times from MJD to UTC, then subtract the first timestamp
-                mjd_time = np.array(new_df['time'])
-                t_after_t0 = np.zeros(len(new_df['time']))
-                t0 = min(mjd_time)  # earliest mjd in time
-                t0_utc = Time(t0, format='mjd').utc.iso
+                    # Tooltips of what will display in the hover mode
+                    # Format the tooltip
+                    # Tooltips of what will display in the hover mode
+                    # Format the tooltip
+                    tooltips = [
+                        ('Time', '@time'),
+                        ('Magnitude', '@magnitude'),
+                        ('Source', '@indices'),
+                    ]
 
-                for k in range(len(mjd_time)):
-                    t_after_t0[k] = float(mjd_time[k])-float(grb_time_mjd)
-
-                # Add this to the df in the position time used to be in.
-                new_df['time_since'] = t_after_t0
-                #print(new_df.keys())
-
-                #Errors on magnitudes
-                optical_error_df = new_df[['time_since', 'magnitude', 'e_magnitude']].copy()
-                optical_error_df = optical_error_df[~optical_error_df['e_magnitude'].isnull()]
-                optical_error_df['dmags'] = list(zip(optical_error_df['magnitude']-optical_error_df['e_magnitude'], optical_error_df['magnitude']+optical_error_df['e_magnitude']))
-                optical_error_df['dmag_locs'] = list(zip(optical_error_df['time_since'], optical_error_df['time_since']))
-
-                optical_error = ColumnDataSource(optical_error_df)
-                optical_data = ColumnDataSource(new_df)
-
-                #New color
-                col = next(color)
-                optical.multi_line("dmag_locs", "dmags", source=optical_error, color=col, line_width=2)
-                optical.scatter('time_since', 'magnitude', source=optical_data, legend_label=str(
-                    j), size=10, color=col)
-
-                # Tooltips of what will display in the hover mode
-                # Format the tooltip
-                # Tooltips of what will display in the hover mode
-                # Format the tooltip
-                tooltips = [
-                    ('Time', '@time'),
-                    ('Magnitude', '@magnitude'),
-                    ('Source', '@indices'),
-                ]
-
-            # Add the HoverTool to the figure
-            optical.add_tools(HoverTool(tooltips=tooltips))
-
-            optical.y_range.flipped = True
+    # Add the HoverTool to the figure
+    optical.add_tools(HoverTool(tooltips=tooltips))
     
     
     #################################
     # ADS data ######################
     #################################
-    # Select colours for the data
-    colors = d3['Category20'][20]
+
+    # Check if the radio master file exists yet. 
+    if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt'):
     
-    # Get the files that were downloaded from the ADS
-    optical_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt', sep='\t')
+        # Get the files that were downloaded from the ADS
+        optical_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt', sep='\t')
 
-    # List all bands
-    bands = list(set(list(optical_df['band'])))
+        # Select colours for the data
+        colors = d3['Category20'][20]
 
-    optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
+        # List all bands
+        bands = list(set(list(optical_df['band'])))
+
+        optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
 
 
-    # Create the error columns that bokeh wants
-    #Errors on flux densities
-    optical_error_df = optical_df[['time', 'mag', 'dmag', 'band']].copy()
-    optical_error_df = optical_error_df[~optical_error_df['dmag'].isnull()]
-    optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
-    optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
+        # Create the error columns that bokeh wants
+        #Errors on flux densities
+        optical_error_df = optical_df[['time', 'mag', 'dmag', 'band']].copy()
+        optical_error_df = optical_error_df[~optical_error_df['dmag'].isnull()]
+        optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
+        optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
 
-    
-    # Create a cds
-    optical_cds = ColumnDataSource(optical_df)
-    
-    # Create a cds for errors
-    optical_error_cds = ColumnDataSource(optical_error_df)
 
-    # Plotting
+        # Create a cds
+        optical_cds = ColumnDataSource(optical_df)
 
-    types2 = ['-1', '0', '1']
-    marks2 = ['inverted_triangle', 'circle', 'triangle']
-    optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, color=factor_cmap('band', colors, bands), line_width=2)
-    optical.scatter('time', 'mag', source=optical_cds, size=10, legend_field='band', color=factor_cmap('band', colors, bands), fill_color=factor_cmap('band', colors, bands), marker=factor_mark('mag_limit_str', marks2, types2))
+        # Create a cds for errors
+        optical_error_cds = ColumnDataSource(optical_error_df)
 
-    # Tooltips of what will display in the hover mode
-    # Format the tooltip
-    # Tooltips of what will display in the hover mode
-    # Format the tooltip
-    tooltips = [
-        ('Time', '@time'),
-        ('Magnitude', '@mag'),
-        ('Band', '@band'),
-    ]
+        # Plotting
+
+        types2 = ['-1', '0', '1']
+        marks2 = ['inverted_triangle', 'circle', 'triangle']
+        optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, color=factor_cmap('band', colors, bands), line_width=2)
+        optical.scatter('time', 'mag', source=optical_cds, size=10, legend_field='band', color=factor_cmap('band', colors, bands), fill_color=factor_cmap('band', colors, bands), marker=factor_mark('mag_limit_str', marks2, types2))
+
+        # Tooltips of what will display in the hover mode
+        # Format the tooltip
+        # Tooltips of what will display in the hover mode
+        # Format the tooltip
+        tooltips = [
+            ('Time', '@time'),
+            ('Magnitude', '@mag'),
+            ('Band', '@band'),
+        ]
 
     # Add the HoverTool to the figure
     optical.add_tools(HoverTool(tooltips=tooltips))
@@ -778,64 +784,69 @@ def event(event_id):
     radio = figure(title='Radio (GRB)', toolbar_location="right",
                    y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
     
-    
+    #################################
+    # ADS data ######################
+    #################################
 
-    # Get the files that were downloaded from the ADS
-    radio_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt', sep='\t')
+    # Check if the radio master file exists yet. 
+    if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt'):
 
-    # Plot the radio data we have gathered.
-    colors = d3['Category20'][20]
- 
-    # Setting up to map the upper limits to different symbols.
-    types2 = ['-1', '0', '1']
-    marks2 = ['inverted_triangle', 'circle', 'triangle']
-    
-    # List all the frequencies.
-    freqs = list(set(list(radio_df['freq'].astype(str))))
+        # Get the files that were downloaded from the ADS
+        radio_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt', sep='\t')
 
-    # Get strings for the mapper functions
-    radio_df['flux_density_limit_str'] = radio_df['flux_density_limit'].astype(str)
-    radio_df['freq_str'] = radio_df['freq'].astype(str)
+        # Plot the radio data we have gathered.
+        colors = d3['Category20'][20]
 
-    radio_df['unit_col'] = radio_df['freq'].astype(str)+' '+radio_df['freq_unit'].astype(str)
-    
-    # Get the units right
-    radio_df['flux_density'] = radio_df['flux_density'].astype(float)
-    radio_df['dflux_density'] = radio_df['dflux_density'].astype(float)
-    for i in range(len(radio_df['flux_density_unit'])):
-        # Convert microJy to millyJy by dividing by 1000
-        if radio_df['flux_density_unit'][i] == 'microJy':
-            radio_df['flux_density'][i] = radio_df['flux_density'][i]/1000
-            radio_df['dflux_density'][i] = radio_df['dflux_density'][i]/1000
+        # Setting up to map the upper limits to different symbols.
+        types2 = ['-1', '0', '1']
+        marks2 = ['inverted_triangle', 'circle', 'triangle']
 
-        # Convert Jy to millyJy by multiplying by 1000
-        if radio_df['flux_density_unit'][i] == 'Jy':
-            radio_df['flux_density'][i] = radio_df['flux_density'][i]*1000
-            radio_df['dflux_density'][i] = radio_df['dflux_density'][i]*1000
+        # List all the frequencies.
+        freqs = list(set(list(radio_df['freq'].astype(str))))
 
-    print(radio_df['dflux_density'])
+        # Get strings for the mapper functions
+        radio_df['flux_density_limit_str'] = radio_df['flux_density_limit'].astype(str)
+        radio_df['freq_str'] = radio_df['freq'].astype(str)
 
-    #Errors on flux densities
-    radio_error_df = radio_df[['time', 'flux_density', 'dflux_density', 'freq_str']].copy()
-    radio_error_df = radio_error_df[~radio_error_df['dflux_density'].isnull()]
-    radio_error_df['dfds'] = list(zip(radio_error_df['flux_density']-radio_error_df['dflux_density'], radio_error_df['flux_density']+radio_error_df['dflux_density']))
-    radio_error_df['dfd_locs'] = list(zip(radio_error_df['time'], radio_error_df['time']))
+        radio_df['unit_col'] = radio_df['freq'].astype(str)+' '+radio_df['freq_unit'].astype(str)
 
-    # Create a column data source object to make some of the plotting easier.
-    radio_cds = ColumnDataSource(radio_df)
-    radio_error = ColumnDataSource(radio_error_df)
+        # Get the units right
+        radio_df['flux_density'] = radio_df['flux_density'].astype(float)
+        radio_df['dflux_density'] = radio_df['dflux_density'].astype(float)
+        for i in range(len(radio_df['flux_density_unit'])):
+            # Convert microJy to millyJy by dividing by 1000
+            if radio_df['flux_density_unit'][i] == 'microJy':
+                radio_df['flux_density'][i] = radio_df['flux_density'][i]/1000
+                radio_df['dflux_density'][i] = radio_df['dflux_density'][i]/1000
+
+            # Convert Jy to millyJy by multiplying by 1000
+            if radio_df['flux_density_unit'][i] == 'Jy':
+                radio_df['flux_density'][i] = radio_df['flux_density'][i]*1000
+                radio_df['dflux_density'][i] = radio_df['dflux_density'][i]*1000
+
+        print(radio_df['dflux_density'])
+
+        #Errors on flux densities
+        radio_error_df = radio_df[['time', 'flux_density', 'dflux_density', 'freq_str']].copy()
+        radio_error_df = radio_error_df[~radio_error_df['dflux_density'].isnull()]
+        radio_error_df['dfds'] = list(zip(radio_error_df['flux_density']-radio_error_df['dflux_density'], radio_error_df['flux_density']+radio_error_df['dflux_density']))
+        radio_error_df['dfd_locs'] = list(zip(radio_error_df['time'], radio_error_df['time']))
+
+        # Create a column data source object to make some of the plotting easier.
+        radio_cds = ColumnDataSource(radio_df)
+        radio_error = ColumnDataSource(radio_error_df)
 
 
-    # Plot the data and the error
-    radio.multi_line("dfd_locs", "dfds", source=radio_error, color=factor_cmap('freq_str', colors, freqs), line_width=2)
-    radio.scatter('time', 'flux_density', source = radio_cds, legend_field='unit_col', color=factor_cmap('freq_str', colors, freqs), fill_color=factor_cmap('freq_str', colors, freqs), size=10, marker=factor_mark('flux_density_limit_str', marks2, types2))
+        # Plot the data and the error
+        radio.multi_line("dfd_locs", "dfds", source=radio_error, color=factor_cmap('freq_str', colors, freqs), line_width=2)
+        radio.scatter('time', 'flux_density', source = radio_cds, legend_field='unit_col', color=factor_cmap('freq_str', colors, freqs), fill_color=factor_cmap('freq_str', colors, freqs), size=10, marker=factor_mark('flux_density_limit_str', marks2, types2))
 
-    # Tooltips of what will display in the hover mode
-    # Format the tooltip
-    # Tooltips of what will display in the hover mode
-    # Format the tooltip
-    tooltips = [('Time', '@time'),
-        ('Flux Density', '@flux_density'),]
+        # Tooltips of what will display in the hover mode
+        # Format the tooltip
+        # Tooltips of what will display in the hover mode
+        # Format the tooltip
+        tooltips = [('Time', '@time'),
+            ('Flux Density', '@flux_density'),]
 
     # Add the HoverTool to the figure
     radio.add_tools(HoverTool(tooltips=tooltips))
