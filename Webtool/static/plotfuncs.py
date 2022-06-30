@@ -279,9 +279,13 @@ def masterfileformat(filelist, event):
 
     # Get the file sources for each data file of the GRB
     file_sources = pd.read_csv(trial_list[i]+'filesources.csv', header=0, sep=',')
+    print(file_sources)
 
     for file in file_list:
-        if 'Radio' in file or 'radio' in file:
+        print(file)
+        if 'Master' in file:
+            continue
+        elif 'Radio' in file or 'radio' in file:
             data = pd.read_csv(file, sep='\t')
 
             # Add a column for the ads abstract link - source
