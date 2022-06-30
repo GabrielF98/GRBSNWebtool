@@ -369,9 +369,6 @@ with open("static/citations2.json") as file2:
 def event(event_id):
     event, radec, peakmag = get_post(event_id)
 
-    # Get the files that were downloaded from the ADS
-    datafiles = glob.glob('./static/SourceData/'+str(event_id)+'/*.txt')
-
     # Find out how many of the references are needed
     needed_dict = {}
     for i in range(len(event)):
@@ -675,67 +672,58 @@ def event(event_id):
             optical.add_tools(HoverTool(tooltips=tooltips))
 
             optical.y_range.flipped = True
-
-
     
-    bands = []
+    
+    #################################
+    # ADS data ######################
+    #################################
     # Select colours for the data
     colors = d3['Category20'][20]
-    # ADS data
-    bands = []
-    for i in range(len(datafiles)):
-        if 'Optical' in datafiles[i] or 'NIR' in datafiles[i]:
-            # Read in the optical data from each file. 
-            optical_df = pd.read_csv(datafiles[i], sep='\t')
-            sub_bands = list(set(list(optical_df['band'])))
-            for j in sub_bands:
-                if j not in bands:
-                    bands.append(j)
+    
+    # Get the files that were downloaded from the ADS
+    optical_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt', sep='\t')
 
-    for i in range(len(datafiles)):
-        if 'Optical' in datafiles[i] or 'NIR' in datafiles[i]:
+    # List all bands
+    bands = list(set(list(optical_df['band'])))
 
-            # Read in the optical data from each file. 
-            optical_df = pd.read_csv(datafiles[i], sep='\t')
-            
-            optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
-            optical_df['band_str'] = optical_df['mag_limit'].astype(str)
+    optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
 
-            # Create the error columns that bokeh wants
-            #Errors on flux densities
-            optical_error_df = optical_df[['time', 'mag', 'dmag', 'band_str']].copy()
-            optical_error_df = optical_error_df[~optical_error_df['dmag'].isnull()]
-            optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
-            optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
 
-            
-            # Create a cds
-            optical_cds = ColumnDataSource(optical_df)
-            
-            # Create a cds for errors
-            optical_error_cds = ColumnDataSource(optical_error_df)
+    # Create the error columns that bokeh wants
+    #Errors on flux densities
+    optical_error_df = optical_df[['time', 'mag', 'dmag', 'band']].copy()
+    optical_error_df = optical_error_df[~optical_error_df['dmag'].isnull()]
+    optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
+    optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
 
-            # Plotting
+    
+    # Create a cds
+    optical_cds = ColumnDataSource(optical_df)
+    
+    # Create a cds for errors
+    optical_error_cds = ColumnDataSource(optical_error_df)
 
-            types2 = ['-1', '0', '1']
-            marks2 = ['inverted_triangle', 'circle', 'triangle']
-            optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, muted_color='gray', muted_alpha=0.1, color=factor_cmap('band', colors, bands), line_width=2)
-            optical.scatter('time', 'mag', source=optical_cds, size=10, legend_field='band', color=factor_cmap('band', colors, bands), fill_color=factor_cmap('band', colors, bands), muted_alpha=0.1, marker=factor_mark('mag_limit_str', marks2, types2))
+    # Plotting
 
-            # Tooltips of what will display in the hover mode
-            # Format the tooltip
-            # Tooltips of what will display in the hover mode
-            # Format the tooltip
-            tooltips = [
-                ('Time', '@time'),
-                ('Magnitude', '@mag'),
-                ('Band', '@band'),
-            ]
+    types2 = ['-1', '0', '1']
+    marks2 = ['inverted_triangle', 'circle', 'triangle']
+    optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, color=factor_cmap('band', colors, bands), line_width=2)
+    optical.scatter('time', 'mag', source=optical_cds, size=10, legend_field='band', color=factor_cmap('band', colors, bands), fill_color=factor_cmap('band', colors, bands), marker=factor_mark('mag_limit_str', marks2, types2))
 
-            # Add the HoverTool to the figure
-            optical.add_tools(HoverTool(tooltips=tooltips))
+    # Tooltips of what will display in the hover mode
+    # Format the tooltip
+    # Tooltips of what will display in the hover mode
+    # Format the tooltip
+    tooltips = [
+        ('Time', '@time'),
+        ('Magnitude', '@mag'),
+        ('Band', '@band'),
+    ]
 
-            optical.y_range.flipped = True
+    # Add the HoverTool to the figure
+    optical.add_tools(HoverTool(tooltips=tooltips))
+
+    optical.y_range.flipped = True
 
     # Aesthetics
 
@@ -775,7 +763,7 @@ def event(event_id):
     optical.yaxis.axis_line_color = 'black'
 
     # Allow user to mute spectra by clicking the legend
-    optical.legend.click_policy = "mute"
+    #optical.legend.click_policy = "mute"
 
     # Make ticks larger
     optical.xaxis.major_label_text_font_size = '16pt'
@@ -790,67 +778,64 @@ def event(event_id):
     radio = figure(title='Radio (GRB)', toolbar_location="right",
                    y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
     
+    
+
+    # Get the files that were downloaded from the ADS
+    radio_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt', sep='\t')
+
     # Plot the radio data we have gathered.
     colors = d3['Category20'][20]
+ 
+    # Setting up to map the upper limits to different symbols.
+    types2 = ['-1', '0', '1']
+    marks2 = ['inverted_triangle', 'circle', 'triangle']
+    
+    # List all the frequencies.
+    freqs = list(set(list(radio_df['freq'].astype(str))))
 
-    # Because there are sometimes two frequencies in one file we need to make sure we don't reuse colours
-    color_counter = 0
-    for i in range(len(datafiles)):
-        if 'Radio' in datafiles[i]:
-            radio_df = pd.read_csv(datafiles[i], sep='\t')
+    # Get strings for the mapper functions
+    radio_df['flux_density_limit_str'] = radio_df['flux_density_limit'].astype(str)
+    radio_df['freq_str'] = radio_df['freq'].astype(str)
 
-            # Convert microJy to millyJy by dividing by 1000
-            if radio_df['flux_density_unit'][0] == 'microJy':
-                radio_df['flux_density'] = radio_df['flux_density']/1000
-                radio_df['dflux_density'] = radio_df['dflux_density']/1000
+    radio_df['unit_col'] = radio_df['freq'].astype(str)+' '+radio_df['freq_unit'].astype(str)
+    
+    # Get the units right
+    radio_df['flux_density'] = radio_df['flux_density'].astype(float)
+    radio_df['dflux_density'] = radio_df['dflux_density'].astype(float)
+    for i in range(len(radio_df['flux_density_unit'])):
+        # Convert microJy to millyJy by dividing by 1000
+        if radio_df['flux_density_unit'][i] == 'microJy':
+            radio_df['flux_density'][i] = radio_df['flux_density'][i]/1000
+            radio_df['dflux_density'][i] = radio_df['dflux_density'][i]/1000
 
-            # Convert Jy to millyJy by multiplying by 1000
-            if radio_df['flux_density_unit'][0] == 'Jy':
-                radio_df['flux_density'] = radio_df['flux_density']*1000
-                radio_df['dflux_density'] = radio_df['dflux_density']*1000
+        # Convert Jy to millyJy by multiplying by 1000
+        if radio_df['flux_density_unit'][i] == 'Jy':
+            radio_df['flux_density'][i] = radio_df['flux_density'][i]*1000
+            radio_df['dflux_density'][i] = radio_df['dflux_density'][i]*1000
 
-            #Errors on flux densities
-            radio_error_df = radio_df[['time', 'flux_density', 'dflux_density', 'freq']].copy()
-            radio_error_df = radio_error_df[~radio_error_df['dflux_density'].isnull()]
-            radio_error_df['dfds'] = list(zip(radio_error_df['flux_density']-radio_error_df['dflux_density'], radio_error_df['flux_density']+radio_error_df['dflux_density']))
-            radio_error_df['dfd_locs'] = list(zip(radio_error_df['time'], radio_error_df['time']))
-            
-            # Account for upper/lower limit measurements.
-            radio_uppers = radio_df[radio_df['flux_density_limit']==-1]
-            radio_up = ColumnDataSource(radio_uppers)
+    print(radio_df['dflux_density'])
 
-            # Get all the frequencies used and their units.
-            freq_list = list(set(radio_df['freq']))
-            freq_units = list(set(radio_df['freq_unit']))
-            
-            # Loop the frequencies to plot.
-            for k in range(len(freq_list)):
-                for j in range(len(freq_units)):
-                    # Create a column data source object to make some of the plotting easier.
-                    radio_cds = ColumnDataSource(radio_df[radio_df['freq']==freq_list[k]])
-                    radio_error = ColumnDataSource(radio_error_df[radio_error_df['freq']==freq_list[k]])
+    #Errors on flux densities
+    radio_error_df = radio_df[['time', 'flux_density', 'dflux_density', 'freq_str']].copy()
+    radio_error_df = radio_error_df[~radio_error_df['dflux_density'].isnull()]
+    radio_error_df['dfds'] = list(zip(radio_error_df['flux_density']-radio_error_df['dflux_density'], radio_error_df['flux_density']+radio_error_df['dflux_density']))
+    radio_error_df['dfd_locs'] = list(zip(radio_error_df['time'], radio_error_df['time']))
 
-
-                    # Plot the data and the error
-                    radio.multi_line("dfd_locs", "dfds", source=radio_error, muted_color='gray', muted_alpha=0.1, color=colors[color_counter], line_width=2)
-                    radio.scatter('time', 'flux_density', source = radio_cds, muted_color='gray', muted_alpha=0.1, legend_label=str(freq_list[k])+' '+str(freq_units[j]), size=10, fill_color=colors[color_counter], color=colors[color_counter])
+    # Create a column data source object to make some of the plotting easier.
+    radio_cds = ColumnDataSource(radio_df)
+    radio_error = ColumnDataSource(radio_error_df)
 
 
-                    # Upper limits
-                    radio.inverted_triangle('time', 'flux_density', source = radio_up, size=10, fill_color=colors[color_counter])
-                    
-                # Increment colour counter by k
-                color_counter+=k+1
+    # Plot the data and the error
+    radio.multi_line("dfd_locs", "dfds", source=radio_error, color=factor_cmap('freq_str', colors, freqs), line_width=2)
+    radio.scatter('time', 'flux_density', source = radio_cds, legend_field='unit_col', color=factor_cmap('freq_str', colors, freqs), fill_color=factor_cmap('freq_str', colors, freqs), size=10, marker=factor_mark('flux_density_limit_str', marks2, types2))
 
-            
-
-
-            # Tooltips of what will display in the hover mode
-            # Format the tooltip
-            # Tooltips of what will display in the hover mode
-            # Format the tooltip
-            tooltips = [('Time', '@time'),
-                ('Flux Density', '@flux_density'),]
+    # Tooltips of what will display in the hover mode
+    # Format the tooltip
+    # Tooltips of what will display in the hover mode
+    # Format the tooltip
+    tooltips = [('Time', '@time'),
+        ('Flux Density', '@flux_density'),]
 
     # Add the HoverTool to the figure
     radio.add_tools(HoverTool(tooltips=tooltips))
@@ -880,7 +865,7 @@ def event(event_id):
     radio.yaxis.minor_tick_line_color = 'black'
 
     # Allow user to mute spectra by clicking the legend
-    radio.legend.click_policy = "mute"
+    #radio.legend.click_policy = "mute"
 
     # Axis labels
     radio.xaxis.axis_label = 'Time [days] after '+grb_time_str
