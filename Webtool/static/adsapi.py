@@ -86,7 +86,7 @@ for i in range(len(randoms)):
 	dictionary[randoms[i]] = randoms[i]
 
 #Save the dictionary with json.dump()
-file = open("citations.json", 'w')
+file = open("citations/citations.json", 'w')
 json.dump(dictionary, file, indent=4, separators=(',', ': '))
 file.close()
 
@@ -143,7 +143,7 @@ for i in range(len(bibcodes2)):
 for i in range(len(randoms2)):
 	dictionary2[randoms2[i]] = randoms2[i]
 #Save the dictionary with json.dump()
-file = open("citations2.json", 'w')
+file = open("citations/citations2.json", 'w')
 json.dump(dictionary2, file, indent=4, separators=(',', ': '))
 file.close()
 
@@ -212,7 +212,7 @@ for i in range(len(bibcodes)):
 	dictionary3[str(hyperlinks[i])] = dictionary_a
 
 #Save the dictionary with json.dump()
-file = open("citations(ADSdatadownloads).json", 'w')
+file = open("citations/citations(ADSdatadownloads).json", 'w')
 json.dump(dictionary3, file, indent=4, separators=(',', ': '))
 file.close()
 
