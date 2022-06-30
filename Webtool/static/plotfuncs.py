@@ -277,12 +277,28 @@ def masterfileformat(filelist, event):
     optical_pandas = []
     radio_pandas = []
 
+    # Get the file sources for each data file of the GRB
+    file_sources = pd.read_csv(trial_list[i]+'filesources.csv', header=0, sep=',')
+
     for file in file_list:
         if 'Radio' in file or 'radio' in file:
-            radio_pandas.append(pd.read_csv(file, sep='\t'))
+            data = pd.read_csv(file, sep='\t')
+
+            # Add a column for the ads abstract link - source
+            print(data)
+            data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
+            
+            # Append pandas
+            radio_pandas.append(data)
 
         elif 'Optical' in file or 'optical' in file or 'NIR' in file:
-            optical_pandas.append(pd.read_csv(file, sep='\t'))
+            data = pd.read_csv(file, sep='\t')
+
+            # Add a column for the ads abstract link - source
+            data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
+            
+            # Append pandas
+            optical_pandas.append(data)
 
     if len(radio_pandas) != 0:
         radio = pd.concat(radio_pandas, join='outer')
