@@ -487,7 +487,7 @@ def event(event_id):
 
     # Only if there is swift XRT data get the citations
     if flag:
-        with open('static/long_grbs/swift_citation/swift_ads.json') as file3:
+        with open('static/citations/swift_ads.json') as file3:
             swift_bursts = json.load(file3)
         for swift_reference in list(swift_bursts.keys()):
             if swift_reference not in list(needed_dict.keys()):
