@@ -294,6 +294,8 @@ def masterfileformat(filelist, event):
         elif 'Optical' in file or 'optical' in file or 'NIR' in file:
             data = pd.read_csv(file, sep='\t')
 
+            print(data)
+
             # Add a column for the ads abstract link - source
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
             
