@@ -583,10 +583,13 @@ def event(event_id):
 
     optical = figure(title='Optical (GRB+SN)', toolbar_location="right", sizing_mode='scale_both', margin=5)
     
+    ####### References #############
+    optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
+    optical_source_indices = [] # This is supposed to show the number to be assigned to a particular source.
+
     ################################
     ######## Open SN ###############
     ################################
-    optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
     if exists('./static/SourceData/'+str(event_id)+'/'+'OpenSNPhotometry.csv'):
         # Extract and plot the optical photometry data from the photometry file for each SN
         
@@ -597,8 +600,6 @@ def event(event_id):
             if data.empty == False:
 
                 # Indexing the sources
-                # This is supposed to show the number to be assigned to a particular source.
-                optical_source_indices = []
                 for dictionaries in data['refs']:
                     dictionaries = ast.literal_eval(dictionaries)
                     # Sub list of the indices for each reference
@@ -619,7 +620,7 @@ def event(event_id):
                             optical_source_indices_sub.append(
                                 (list(needed_dict.keys()).index(reference['url'])+1))
 
-                    # Get the numbering for the sources to display in the right order
+                    # Get the numbering for the sources to display in the right order on the plots
                     if len(optical_source_indices_sub) > 1:
                         optical_source_indices.append(
                             np.sort(optical_source_indices_sub))
@@ -689,12 +690,36 @@ def event(event_id):
     # ADS data ######################
     #################################
 
-    # Check if the radio master file exists yet. 
+    # Check if the optical master file exists yet. 
     if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt'):
     
         # Get the files that were downloaded from the ADS
         optical_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt', sep='\t')
 
+        ####### References ##########
+        # Get the list of unique references
+        op_refs = optical_df['reference']
+
+        # Sub list of the indices for the optical data from the ADS
+        optical_source_indices_sub = []
+        for ref in op_refs:
+            if ref in needed_dict.keys():
+                optical_source_indices_sub.append(
+                    (list(needed_dict.keys()).index(ref)+1))
+
+            else:
+                # Add to the needed_dict
+                needed_dict[ref] = {'name': dict_refs3[ref]['names'], 'year': dict_refs3[ref]['year']}
+
+                # Save the optical ref to use as a key in event html when accessing the reference.
+                optical_refs.append(ref)
+
+                optical_source_indices_sub.append((list(needed_dict.keys()).index(ref)+1))
+        
+        # Add the lists of indices to the DF
+        optical_df['indices'] = optical_source_indices_sub
+        
+        ####### Plot Data ###########
         # Select colours for the data
         colors = d3['Category20'][20]
 
@@ -733,6 +758,7 @@ def event(event_id):
             ('Time', '@time'),
             ('Magnitude', '@mag'),
             ('Band', '@band'),
+            ('Source', '@indices'),
         ]
 
     # Add the HoverTool to the figure
