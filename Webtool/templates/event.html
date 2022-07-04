@@ -731,20 +731,20 @@
 
         <!-- Spectra plot refs -->
         {% for i in range(spec_refs|length)%}
-        {% if '20' in needed_dict[spec_refs[i]]['name'][-5:] %}
+        {% if '20' in needed_dict[spec_refs[i]]['year'] %}
         <tr>
           <td><a href="{{spec_refs[i]}}"
               target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+radio_refs|length+1}}
             </a></td>
-          <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a
+          <td> {{needed_dict[spec_refs[i]]['names']}}<b>{{needed_dict[spec_refs[i]]['year']}}</b>: <a
               href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a></td>
         </tr>
-        {% elif '19' in needed_dict[spec_refs[i]]['names'][-5:] %}
+        {% elif '19' in needed_dict[spec_refs[i]]['names'] %}
         <tr>
           <td><a href="{{spec_refs[i]}}"
               target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+radio_refs|length+1}}
             </a></td>
-          <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a
+          <td> {{needed_dict[spec_refs[i]]['year']}}<b>{{needed_dict[spec_refs[i]]['names']}}</b>: <a
               href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a></td>
         </tr>
         {% else %}
@@ -752,7 +752,7 @@
           <td><a href="{{spec_refs[i]}}"
               target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+radio_refs|length+1}}
             </a></td>
-          <td> {{needed_dict[spec_refs[i]]['name']}}: <a href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a>
+          <td> {{needed_dict[spec_refs[i]]['names']}}: <a href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a>
           </td>
         </tr>
         {% endif %}
