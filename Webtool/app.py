@@ -593,108 +593,106 @@ def event(event_id):
 
         optical_source_indices = [] # This is supposed to show the number to be assigned to a particular source.
         # Extract and plot the optical photometry data from the photometry file for each SN
-        
-        if event[0]['SNe'] != None:
 
-            data = pd.read_csv('./static/SourceData/' +
-                               str(event_id)+'/'+'OpenSNPhotometry.csv')
-            if data.empty == False:
+        data = pd.read_csv('./static/SourceData/' +
+                           str(event_id)+'/'+'OpenSNPhotometry.csv')
+        if data.empty == False:
 
-                # Indexing the sources
-                for dictionaries in data['refs']:
-                    dictionaries = ast.literal_eval(dictionaries)
-                    # Sub list of the indices for each reference
-                    optical_source_indices_sub = []
-                    for reference in dictionaries:
-                        # Check if its already in the needed_dict
-                        if reference['url'] in needed_dict.keys():
-                            optical_source_indices_sub.append(
-                                (list(needed_dict.keys()).index(reference['url'])+1))
+            # Indexing the sources
+            for dictionaries in data['refs']:
+                dictionaries = ast.literal_eval(dictionaries)
+                # Sub list of the indices for each reference
+                optical_source_indices_sub = []
+                for reference in dictionaries:
+                    # Check if its already in the needed_dict
+                    if reference['url'] in needed_dict.keys():
+                        optical_source_indices_sub.append(
+                            (list(needed_dict.keys()).index(reference['url'])+1))
+
+                    else:
+                        # Extract the names and the years from the citation
+                        p = list(str(reference['name']).split('('))
+
+                        # Account for non ads references
+                        if len(p)>1:
+                            names = p[0][:-1]
+                            year = p[1][:-1]
+
+                            # Add to the needed_dict
+                            needed_dict[reference['url']] = {'names': names, 'year': year}
 
                         else:
-                            # Extract the names and the years from the citation
-                            p = list(str(reference['name']).split('('))
+                            names = reference['name']
+                            # Add to the needed_dict
+                            needed_dict[reference['url']] = {'names': names, 'year': ''}
 
-                            # Account for non ads references
-                            if len(p)>1:
-                                names = p[0][:-1]
-                                year = p[1][:-1]
+                        # Save the optical ref to use as a key in event html when accessing the reference.
+                        optical_refs.append(reference['url'])
+                        # Append the number (now only needed for the graph)
+                        optical_source_indices_sub.append(
+                            (list(needed_dict.keys()).index(reference['url'])+1))
 
-                                # Add to the needed_dict
-                                needed_dict[reference['url']] = {'names': names, 'year': year}
+                # Get the numbering for the sources to display in the right order on the plots
+                if len(optical_source_indices_sub) > 1:
+                    optical_source_indices.append(
+                        np.sort(optical_source_indices_sub))
+                else:
+                    optical_source_indices.append(optical_source_indices_sub)
 
-                            else:
-                                names = reference['name']
-                                # Add to the needed_dict
-                                needed_dict[reference['url']] = {'names': names, 'year': ''}
+            # Add the lists of indices to the DF
+            data['indices'] = optical_source_indices
 
-                            # Save the optical ref to use as a key in event html when accessing the reference.
-                            optical_refs.append(reference['url'])
-                            # Append the number (now only needed for the graph)
-                            optical_source_indices_sub.append(
-                                (list(needed_dict.keys()).index(reference['url'])+1))
+            # Splitting the data by band for plotting purposes
+            bands = set(data['band'])
 
-                    # Get the numbering for the sources to display in the right order on the plots
-                    if len(optical_source_indices_sub) > 1:
-                        optical_source_indices.append(
-                            np.sort(optical_source_indices_sub))
-                    else:
-                        optical_source_indices.append(optical_source_indices_sub)
+            color = Category20_20.__iter__()
+            for j in bands:
 
-                # Add the lists of indices to the DF
-                data['indices'] = optical_source_indices
+                if str(j) == 'nan':
+                    # New df of just points without a band name (ie nan)
+                    new_df = data.loc[data['band'].isna()]
 
-                # Splitting the data by band for plotting purposes
-                bands = set(data['band'])
+                else:
+                    # Create a df with just the band j
+                    new_df = data.loc[data['band'] == j]
 
-                color = Category20_20.__iter__()
-                for j in bands:
+                # Convert the times from MJD to UTC, then subtract the first timestamp
+                mjd_time = np.array(new_df['time'])
+                t_after_t0 = np.zeros(len(new_df['time']))
+                t0 = min(mjd_time)  # earliest mjd in time
+                t0_utc = Time(t0, format='mjd').utc.iso
 
-                    if str(j) == 'nan':
-                        # New df of just points without a band name (ie nan)
-                        new_df = data.loc[data['band'].isna()]
+                for k in range(len(mjd_time)):
+                    t_after_t0[k] = float(mjd_time[k])-float(grb_time_mjd)
 
-                    else:
-                        # Create a df with just the band j
-                        new_df = data.loc[data['band'] == j]
+                # Add this to the df in the position time used to be in.
+                new_df['time_since'] = t_after_t0
+                #print(new_df.keys())
 
-                    # Convert the times from MJD to UTC, then subtract the first timestamp
-                    mjd_time = np.array(new_df['time'])
-                    t_after_t0 = np.zeros(len(new_df['time']))
-                    t0 = min(mjd_time)  # earliest mjd in time
-                    t0_utc = Time(t0, format='mjd').utc.iso
+                #Errors on magnitudes
+                optical_error_df = new_df[['time_since', 'magnitude', 'e_magnitude']].copy()
+                optical_error_df = optical_error_df[~optical_error_df['e_magnitude'].isnull()]
+                optical_error_df['dmags'] = list(zip(optical_error_df['magnitude']-optical_error_df['e_magnitude'], optical_error_df['magnitude']+optical_error_df['e_magnitude']))
+                optical_error_df['dmag_locs'] = list(zip(optical_error_df['time_since'], optical_error_df['time_since']))
 
-                    for k in range(len(mjd_time)):
-                        t_after_t0[k] = float(mjd_time[k])-float(grb_time_mjd)
+                optical_error = ColumnDataSource(optical_error_df)
+                optical_data = ColumnDataSource(new_df)
 
-                    # Add this to the df in the position time used to be in.
-                    new_df['time_since'] = t_after_t0
-                    #print(new_df.keys())
+                #New color
+                col = next(color)
+                optical.multi_line("dmag_locs", "dmags", source=optical_error, color=col, line_width=2)
+                optical.scatter('time_since', 'magnitude', source=optical_data, legend_label=str(
+                    j), size=10, color=col)
 
-                    #Errors on magnitudes
-                    optical_error_df = new_df[['time_since', 'magnitude', 'e_magnitude']].copy()
-                    optical_error_df = optical_error_df[~optical_error_df['e_magnitude'].isnull()]
-                    optical_error_df['dmags'] = list(zip(optical_error_df['magnitude']-optical_error_df['e_magnitude'], optical_error_df['magnitude']+optical_error_df['e_magnitude']))
-                    optical_error_df['dmag_locs'] = list(zip(optical_error_df['time_since'], optical_error_df['time_since']))
-
-                    optical_error = ColumnDataSource(optical_error_df)
-                    optical_data = ColumnDataSource(new_df)
-
-                    #New color
-                    col = next(color)
-                    optical.multi_line("dmag_locs", "dmags", source=optical_error, color=col, line_width=2)
-                    optical.scatter('time_since', 'magnitude', source=optical_data, legend_label=str(
-                        j), size=10, color=col)
-
-                    # Tooltips of what will display in the hover mode
-                    # Format the tooltip
-                    # Tooltips of what will display in the hover mode
-                    # Format the tooltip
-                    tooltips = [
-                        ('Time', '@time'),
-                        ('Magnitude', '@magnitude'),
-                        ('Source', '@indices'),
-                    ]
+                # Tooltips of what will display in the hover mode
+                # Format the tooltip
+                # Tooltips of what will display in the hover mode
+                # Format the tooltip
+                tooltips = [
+                    ('Time', '@time'),
+                    ('Magnitude', '@magnitude'),
+                    ('Source', '@indices'),
+                ]
 
     # Add the HoverTool to the figure
     optical.add_tools(HoverTool(tooltips=tooltips))
@@ -1020,9 +1018,9 @@ def event(event_id):
                 data_dict = {'wavelength': wavelength, 'flux': float_flux,
                              'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength)}
 
-                # SOURCES
-                sources = data_i['SN' +
-                                 str(event[0]['SNe'])]['spectra']['source']
+                ############ SOURCES ############
+                sources = data_i['SN' + str(event[0]['SNe'])]['spectra']['source']
+
                 # This is supposed to show the number to be assigned to a particular source.
                 source_indices = []
 
@@ -1032,9 +1030,18 @@ def event(event_id):
                         source_indices.append(
                             list(needed_dict.keys()).index(sources[k]['url'])+1)
                     else:
-                        # Add to the needed_dict
-                        needed_dict[sources[k]['url']] = {
-                            'name': sources[k]['name'].replace('(', '').replace(')', '')}
+                        
+                        # Account for non ads references
+                        # if the final digits look like a year
+                        if '19' in sources[k]['name'][-4:-2] or '20' in sources[k]['name'][-4:-2]:
+
+                            # Add to the needed_dict
+                            needed_dict[sources[k]['url']] = {'names': sources[k]['name'][:-4], 'year': sources[k]['name'][-4:]}
+
+                        else:
+                            names = sources[k]['name']
+                            # Add to the needed_dict
+                            needed_dict[sources[k]['url']] = {'names': names, 'year': ''}
 
                         # Save the spectra ref to use as a key in event html when accessing the reference.
                         spec_refs.append(sources[k]['url'])
@@ -1045,6 +1052,8 @@ def event(event_id):
 
                 data_dict['sources'] = [
                     np.sort(source_indices)]*len(wavelength)
+
+                #### UNITS #####
                 data_dict['wave_unit'] = [
                     data_i['SN'+str(event[0]['SNe'])]['spectra']['u_wavelengths']]*len(wavelength)
                 data_dict['flux_unit'] = [
