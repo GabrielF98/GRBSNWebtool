@@ -585,12 +585,13 @@ def event(event_id):
     
     ####### References #############
     optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
-    optical_source_indices = [] # This is supposed to show the number to be assigned to a particular source.
 
     ################################
     ######## Open SN ###############
     ################################
     if exists('./static/SourceData/'+str(event_id)+'/'+'OpenSNPhotometry.csv'):
+
+        optical_source_indices = [] # This is supposed to show the number to be assigned to a particular source.
         # Extract and plot the optical photometry data from the photometry file for each SN
         
         if event[0]['SNe'] != None:
@@ -611,9 +612,22 @@ def event(event_id):
                                 (list(needed_dict.keys()).index(reference['url'])+1))
 
                         else:
-                            # Add to the needed_dict
-                            needed_dict[reference['url']] = {
-                                'name': reference['name'].replace('(', '').replace(')', '')}
+                            # Extract the names and the years from the citation
+                            p = list(str(reference['name']).split('('))
+
+                            # Account for non ads references
+                            if len(p)>1:
+                                names = p[0][:-1]
+                                year = p[1][:-1]
+
+                                # Add to the needed_dict
+                                needed_dict[reference['url']] = {'names': names, 'year': year}
+
+                            else:
+                                names = reference['name']
+                                # Add to the needed_dict
+                                needed_dict[reference['url']] = {'names': names, 'year': ''}
+
                             # Save the optical ref to use as a key in event html when accessing the reference.
                             optical_refs.append(reference['url'])
                             # Append the number (now only needed for the graph)
@@ -709,7 +723,7 @@ def event(event_id):
 
             else:
                 # Add to the needed_dict
-                needed_dict[ref] = {'name': dict_refs3[ref]['names'], 'year': dict_refs3[ref]['year']}
+                needed_dict[ref] = {'names': dict_refs3[ref]['names'], 'year': dict_refs3[ref]['year']}
 
                 # Save the optical ref to use as a key in event html when accessing the reference.
                 optical_refs.append(ref)
@@ -822,12 +836,36 @@ def event(event_id):
     #################################
     # ADS data ######################
     #################################
-
+    rad_refs = []
     # Check if the radio master file exists yet. 
     if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt'):
 
         # Get the files that were downloaded from the ADS
         radio_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt', sep='\t')
+
+        ####### References ##########
+        # Get the list of unique references
+        radio_refs = radio_df['reference']
+
+        # Sub list of the indices for the optical data from the ADS
+        radio_source_indices_sub = []
+        for ref in radio_refs:
+            print(ref)
+            if ref in needed_dict.keys():
+                radio_source_indices_sub.append(
+                    (list(needed_dict.keys()).index(ref)+1))
+
+            else:
+                # Add to the needed_dict
+                needed_dict[ref] = {'names': dict_refs3[ref]['names'], 'year': dict_refs3[ref]['year']}
+
+                # Save the optical ref to use as a key in event html when accessing the reference.
+                rad_refs.append(ref)
+
+                radio_source_indices_sub.append((list(needed_dict.keys()).index(ref)+1))
+        
+        # Add the lists of indices to the DF
+        radio_df['indices'] = radio_source_indices_sub
 
         # Plot the radio data we have gathered.
         colors = d3['Category20'][20]
@@ -881,7 +919,8 @@ def event(event_id):
         # Tooltips of what will display in the hover mode
         # Format the tooltip
         tooltips = [('Time', '@time'),
-            ('Flux Density', '@flux_density'),]
+            ('Flux Density', '@flux_density'),
+            ('Source', '@indices'),]
 
     # Add the HoverTool to the figure
     radio.add_tools(HoverTool(tooltips=tooltips))
@@ -1132,7 +1171,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     # Return everything
-    return render_template('event.html', event=event, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, radio_refs=rad_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
