@@ -663,18 +663,28 @@ def event(event_id):
             data['indices'] = optical_source_indices
 
             # Splitting the data by band for plotting purposes
-            bands = set(data['band'])
+            bands = set(data['band'].astype(str))
 
             color = Category20_20.__iter__()
             for j in bands:
+                
+                if 'nan' in str(j).lower():
 
-                if str(j) == 'nan':
                     # New df of just points without a band name (ie nan)
                     new_df = data.loc[data['band'].isna()]
+
+                    # Say that the band is unknown
+                    new_df['band'] = ['Unknown']*len(new_df['band'])
+
+                    # Band label for the legend
+                    band_label = 'Unknown'
 
                 else:
                     # Create a df with just the band j
                     new_df = data.loc[data['band'] == j]
+
+                    # Band label for the legend
+                    band_label = str(j)
 
                 # Convert the times from MJD to UTC, then subtract the first timestamp
                 mjd_time = np.array(new_df['time'])
@@ -687,9 +697,6 @@ def event(event_id):
 
                 # Add this to the df in the position time used to be in.
                 new_df['time_since'] = t_after_t0
-                
-                # Bands
-                new_df['band'] = [j]*len(new_df['time_since'])
 
                 #Errors on magnitudes
                 optical_error_df = new_df[['time_since', 'magnitude', 'e_magnitude']].copy()
@@ -703,8 +710,7 @@ def event(event_id):
                 #New color
                 col = next(color)
                 optical.multi_line("dmag_locs", "dmags", source=optical_error, color=col, line_width=2)
-                optical.scatter('time_since', 'magnitude', source=optical_data, legend_label=str(
-                    j), size=10, color=col)
+                optical.scatter('time_since', 'magnitude', source=optical_data, legend_label=band_label, size=10, color=col)
 
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
