@@ -477,6 +477,8 @@ def event(event_id):
     ######################################################################################
     #####X--RAYS##########################################################################
     ######################################################################################
+    # Tracker variable to tell us whether theres any Xray data or not
+    track = 0
 
     # The swift data from antonios tools files #This is the line that needs updating for changing the source
     flag, data = get_grb_data(event_id)
@@ -485,8 +487,12 @@ def event(event_id):
     swift_references = []
     swift_reference_no = []
 
+    # create a new plot with a title and axis labels
+    xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
+
     # Only if there is swift XRT data get the citations
     if flag:
+        track+=1
         with open('static/citations/swift_ads.json') as file3:
             swift_bursts = json.load(file3)
         for swift_reference in list(swift_bursts.keys()):
@@ -499,32 +505,29 @@ def event(event_id):
                 swift_reference_no.append(
                     list(needed_dict.keys()).index(swift_reference)+1)
 
-    # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg, limit = data
-    #Add the references
-    data['sources'] = [swift_reference_no]*len(data['time'])
+        # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg, limit = data
+        #Add the references
+        data['sources'] = [swift_reference_no]*len(data['time'])
 
-    #Convert the string representing whether its a limit or not to string
-    data['stringlimit'] = data['limit'].astype(str)
+        #Convert the string representing whether its a limit or not to string
+        data['stringlimit'] = data['limit'].astype(str)
 
-    #Fix the error columns so they work on log plots with whisker
-    data['error'] = list(zip(data['flux']+data['dflux_neg'], data['flux']+data['dflux_pos']))
-    data['e_locs'] = list(zip(data['time'], data['time']))
+        #Fix the error columns so they work on log plots with whisker
+        data['error'] = list(zip(data['flux']+data['dflux_neg'], data['flux']+data['dflux_pos']))
+        data['e_locs'] = list(zip(data['time'], data['time']))
 
-    data['terror'] = list(zip(data['time']+data['dt_neg'], data['time']+data['dt_pos']))
-    data['te_locs'] = list(zip(data['flux'], data['flux']))
+        data['terror'] = list(zip(data['time']+data['dt_neg'], data['time']+data['dt_pos']))
+        data['te_locs'] = list(zip(data['flux'], data['flux']))
 
-    xray_source = ColumnDataSource(data)
-    # create a new plot with a title and axis labels
+        xray_source = ColumnDataSource(data)
 
-    xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
-    
-    types = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
-    marks = ['circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle']
+        types = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+        marks = ['circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle']
 
-    # add a line renderer with legend and line thickness
-    xray.multi_line("e_locs", "error", source=xray_source, color='orange', line_width=2)
-    xray.multi_line("terror", "te_locs", source=xray_source, color='orange', line_width=2)
-    xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
+        # add a line renderer with legend and line thickness
+        xray.multi_line("e_locs", "error", source=xray_source, color='orange', line_width=2)
+        xray.multi_line("terror", "te_locs", source=xray_source, color='orange', line_width=2)
+        xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
     
     #Aesthetics
     xray.title.text_font_size = '20pt'
@@ -575,6 +578,17 @@ def event(event_id):
 
     # Add the HoverTool to the figure
     xray.add_tools(HoverTool(tooltips=tooltips))
+
+    # If track is still 0 print nodata
+    if track==0:
+        # Set a range so we can always centre the nodata for the spectra plot
+        xray.y_range = Range1d(5e-15, 5e-9)
+        xray.x_range = Range1d(1, 150000)
+
+        nodata_warn = Label(x=10, y=1.3e-12, x_units='data', y_units='data',
+                         text='NO DATA', render_mode='css', text_font_size='50pt',
+                         border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
+        xray.add_layout(nodata_warn)
 
     ######################################################################################
     #####OPTICAL##########################################################################
