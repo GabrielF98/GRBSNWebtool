@@ -971,9 +971,13 @@ def event(event_id):
     # Selection tools we want to display
     select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset']
 
+    # Set a range so we can always centre the nodata for the spectra plot
+    xrange = Range1d(5000,8000)
+    yrange = Range1d(0, 1)
+
     # Figure
     spectrum = figure(title='Spectrum (SN)', toolbar_location="right",
-                      tools=select_tools, height=260, sizing_mode='scale_width', margin=5)
+                      tools=select_tools, height=260, sizing_mode='scale_width', margin=5, x_range=xrange, y_range=yrange)
 
     # Blank tooltips
     tooltips = []
@@ -1133,7 +1137,7 @@ def event(event_id):
         # Aesthetics
         # Title
         spectrum.title.text_font_size = '20pt'
-        spectrum.title.text_color = 'red'
+        spectrum.title.text_color = 'black'
         spectrum.title.align = 'center'
 
         # Axis font size
@@ -1169,10 +1173,10 @@ def event(event_id):
         spectrum.background_fill_color = 'white'
         spectrum.border_fill_color = 'white'
 
-        citation = Label(x=70, y=70, x_units='screen', y_units='screen',
-                         text='NO DATA', render_mode='css',
-                         border_line_color='black', border_line_alpha=1.0,
-                         background_fill_color='white', background_fill_alpha=1.0)
+        # Notify when there is no data present
+        citation = Label(x=6100, y=0.405, x_units='data', y_units='data',
+                         text='NO DATA', render_mode='css', text_font_size='80pt',
+                         border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         spectrum.add_layout(citation)
 
     script, div = components(layout([xray, radio, optical], [spectrum]))
