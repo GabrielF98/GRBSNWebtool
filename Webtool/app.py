@@ -1026,7 +1026,9 @@ def event(event_id):
 
     max_spec = [10]
     min_spec = [0]
-    if event[0]['SNe'] != None:
+
+    # Check if the radio master file exists yet. 
+    if exists('static/SourceData/'+str(event_id)+'/'+'OpenSNSpectra0.json'):
 
         # Access the data in the files for the SNe Spectra
         path = './static/SourceData/'+str(event_id)+'/'
@@ -1120,98 +1122,11 @@ def event(event_id):
                 spectrum.line('wavelength', 'flux', source=data_source,
                               color=color[i], muted_color='gray', muted_alpha=0.1, legend_label=data_i['SN'+str(event[0]['SNe'])]['spectra']['time'])
 
-        # Add the HoverTool to the figure
-        spectrum.add_tools(HoverTool(tooltips=tooltips))
-
-        # Allow user to mute spectra by clicking the legend
-        spectrum.legend.click_policy = "mute"
-
-        # Aesthetics
-        # Title
-        spectrum.title.text_font_size = '20pt'
-        spectrum.title.text_color = 'black'
-        spectrum.title.align = 'center'
-
-        # Axis font size
-        spectrum.yaxis.axis_label_text_font_size = '16pt'
-        spectrum.xaxis.axis_label_text_font_size = '16pt'
-
-        # Font Color
-        spectrum.xaxis.axis_label_text_color = 'black'
-        spectrum.xaxis.major_label_text_color = 'black'
-
-        spectrum.yaxis.axis_label_text_color = 'black'
-        spectrum.yaxis.major_label_text_color = 'black'
-
-        # Tick colors
-        spectrum.xaxis.major_tick_line_color = 'black'
-        spectrum.yaxis.major_tick_line_color = 'black'
-
-        spectrum.xaxis.minor_tick_line_color = 'black'
-        spectrum.yaxis.minor_tick_line_color = 'black'
-
-        # Axis labels
-        spectrum.xaxis.axis_label = 'Wavelength [Å]'
-        spectrum.yaxis.axis_label = 'Flux'
-
-        # Axis Colors
-        spectrum.xaxis.axis_line_color = 'black'
-        spectrum.yaxis.axis_line_color = 'black'
-
-        # Make ticks larger
-        spectrum.xaxis.major_label_text_font_size = '16pt'
-        spectrum.yaxis.major_label_text_font_size = '16pt'
-
-        spectrum.background_fill_color = 'white'
-        spectrum.border_fill_color = 'white'
-
         # Range
         spectrum.y_range = Range1d(
             min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
 
     else:
-        # Add the HoverTool to the figure
-        spectrum.add_tools(HoverTool(tooltips=tooltips))
-
-        # Aesthetics
-        # Title
-        spectrum.title.text_font_size = '20pt'
-        spectrum.title.text_color = 'black'
-        spectrum.title.align = 'center'
-
-        # Axis font size
-        spectrum.yaxis.axis_label_text_font_size = '16pt'
-        spectrum.xaxis.axis_label_text_font_size = '16pt'
-
-        # Font Color
-        spectrum.xaxis.axis_label_text_color = 'black'
-        spectrum.xaxis.major_label_text_color = 'black'
-
-        spectrum.yaxis.axis_label_text_color = 'black'
-        spectrum.yaxis.major_label_text_color = 'black'
-
-        # Tick colors
-        spectrum.xaxis.major_tick_line_color = 'black'
-        spectrum.yaxis.major_tick_line_color = 'black'
-
-        spectrum.xaxis.minor_tick_line_color = 'black'
-        spectrum.yaxis.minor_tick_line_color = 'black'
-
-        # Axis labels
-        spectrum.xaxis.axis_label = 'Wavelength'
-        spectrum.yaxis.axis_label = 'Flux'
-
-        # Axis Colors
-        spectrum.xaxis.axis_line_color = 'black'
-        spectrum.yaxis.axis_line_color = 'black'
-
-        # Make ticks larger
-        spectrum.xaxis.major_label_text_font_size = '16pt'
-        spectrum.yaxis.major_label_text_font_size = '16pt'
-
-        spectrum.background_fill_color = 'white'
-        spectrum.border_fill_color = 'white'
-
         # Notify when there is no data present
 
         # Set a range so we can always centre the nodata for the spectra plot
@@ -1222,6 +1137,51 @@ def event(event_id):
                          text='NO DATA', render_mode='css', text_font_size='80pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         spectrum.add_layout(citation)
+
+    # Add the HoverTool to the figure
+    spectrum.add_tools(HoverTool(tooltips=tooltips))
+
+    # Allow user to mute spectra by clicking the legend
+    spectrum.legend.click_policy = "mute"
+
+    # Aesthetics
+    # Title
+    spectrum.title.text_font_size = '20pt'
+    spectrum.title.text_color = 'black'
+    spectrum.title.align = 'center'
+
+    # Axis font size
+    spectrum.yaxis.axis_label_text_font_size = '16pt'
+    spectrum.xaxis.axis_label_text_font_size = '16pt'
+
+    # Font Color
+    spectrum.xaxis.axis_label_text_color = 'black'
+    spectrum.xaxis.major_label_text_color = 'black'
+
+    spectrum.yaxis.axis_label_text_color = 'black'
+    spectrum.yaxis.major_label_text_color = 'black'
+
+    # Tick colors
+    spectrum.xaxis.major_tick_line_color = 'black'
+    spectrum.yaxis.major_tick_line_color = 'black'
+
+    spectrum.xaxis.minor_tick_line_color = 'black'
+    spectrum.yaxis.minor_tick_line_color = 'black'
+
+    # Axis labels
+    spectrum.xaxis.axis_label = 'Wavelength [Å]'
+    spectrum.yaxis.axis_label = 'Flux'
+
+    # Axis Colors
+    spectrum.xaxis.axis_line_color = 'black'
+    spectrum.yaxis.axis_line_color = 'black'
+
+    # Make ticks larger
+    spectrum.xaxis.major_label_text_font_size = '16pt'
+    spectrum.yaxis.major_label_text_font_size = '16pt'
+
+    spectrum.background_fill_color = 'white'
+    spectrum.border_fill_color = 'white'
 
     script, div = components(layout([xray, radio, optical], [spectrum]))
     kwargs = {'script': script, 'div': div}
