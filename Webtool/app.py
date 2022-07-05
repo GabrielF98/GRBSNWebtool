@@ -687,7 +687,9 @@ def event(event_id):
 
                 # Add this to the df in the position time used to be in.
                 new_df['time_since'] = t_after_t0
-                #print(new_df.keys())
+                
+                # Bands
+                new_df['band'] = [j]*len(new_df['time_since'])
 
                 #Errors on magnitudes
                 optical_error_df = new_df[['time_since', 'magnitude', 'e_magnitude']].copy()
@@ -711,6 +713,7 @@ def event(event_id):
                 tooltips = [
                     ('Time', '@time_since'),
                     ('Magnitude', '@magnitude'),
+                    ('Band', '@band'),
                     ('Source', '@indices'),
                 ]
 
@@ -1123,7 +1126,7 @@ def event(event_id):
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
                 tooltips = [
-                    ('Wavelength [Å]', '@wavelength{0}'),
+                    ('Wavelength', '@wavelength{0}'),
                     ('Wavelength unit', '@wave_unit'),
                     ('Flux', '@flux'),
                     ('Flux unit', '@flux_unit'),
