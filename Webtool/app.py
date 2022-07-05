@@ -579,6 +579,9 @@ def event(event_id):
     ######################################################################################
     #####OPTICAL##########################################################################
     ######################################################################################
+    # Tracker variable to tell us whether theres been either OpenSN data or ADS data. 
+    track = 0
+
     t0_utc = '0'
 
     optical = figure(title='Optical (GRB+SN)', toolbar_location="right", sizing_mode='scale_both', margin=5)
@@ -590,8 +593,11 @@ def event(event_id):
     ######## Open SN ###############
     ################################
     if exists('./static/SourceData/'+str(event_id)+'/'+'OpenSNPhotometry.csv'):
+        # Add 1 to track variable if openSN had data
+        track+=1
 
-        optical_source_indices = [] # This is supposed to show the number to be assigned to a particular source.
+        # This is supposed to show the number to be assigned to a particular source.
+        optical_source_indices = [] 
         # Extract and plot the optical photometry data from the photometry file for each SN
 
         data = pd.read_csv('./static/SourceData/' +
@@ -704,7 +710,9 @@ def event(event_id):
 
     # Check if the optical master file exists yet. 
     if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt'):
-    
+        # Add 1 to track variable if openSN had data
+        track+=1
+
         # Get the files that were downloaded from the ADS
         optical_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt', sep='\t')
 
@@ -825,6 +833,17 @@ def event(event_id):
     optical.background_fill_color = 'white'
     optical.border_fill_color = 'white'
 
+    # If track is still 0 print nodata
+    if track==0:
+        # Set a range so we can always centre the nodata for the spectra plot
+        optical.y_range = Range1d(20,17)
+        optical.x_range = Range1d(0, 30)
+
+        nodata_warn = Label(x=6, y=18.8, x_units='data', y_units='data',
+                         text='NO DATA', render_mode='css', text_font_size='50pt',
+                         border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
+        optical.add_layout(nodata_warn)
+
     ######################################################################################
     #####RADIO############################################################################
     ######################################################################################
@@ -919,6 +938,16 @@ def event(event_id):
         tooltips = [('Time', '@time'),
             ('Flux Density', '@flux_density'),
             ('Source', '@indices'),]
+
+    else:
+        # Set a range so we can always centre the nodata for the spectra plot
+        radio.x_range = Range1d(1,10)
+        radio.y_range = Range1d(1, 3)
+
+        nodata_warn = Label(x=1.7, y=1.55, x_units='data', y_units='data',
+                         text='NO DATA', render_mode='css', text_font_size='50pt',
+                         border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
+        radio.add_layout(nodata_warn)
 
     # Add the HoverTool to the figure
     radio.add_tools(HoverTool(tooltips=tooltips))
