@@ -95,9 +95,90 @@
         "names": "Ho et al.",
         "year": "2020"
     },
+    "https://ui.adsabs.harvard.edu/abs/1998ApJ...502L.123G/abstract": {
+        "names": "Groot et al.",
+        "year": "1998"
+    },
+    "https://ui.adsabs.harvard.edu/abs/1999A%26AS..138..463P/abstract": {
+        "names": "Pian et al.",
+        "year": "1999"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2000ApJ...540...74S/abstract": {
+        "names": "Sahu et al.",
+        "year": "2000"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2000BASI...28...15S/abstract": {
+        "names": "Sagar et al.",
+        "year": "2000"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2005A%26A...438..841M/abstract": {
+        "names": "Masetti et al.",
+        "year": "2005"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2002ApJ...572L..51P/abstract": {
+        "names": "Price et al.",
+        "year": "2002"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract": {
+        "names": "Masetti et al.",
+        "year": "2003"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract": {
+        "names": "Levan et al.",
+        "year": "2005"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2004ApJ...606..994S/abstract": {
+        "names": "Soderberg et al.",
+        "year": "2004"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract": {
+        "names": "Fox et al.",
+        "year": "2003"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract": {
+        "names": "Matheson et al.",
+        "year": "2003"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract": {
+        "names": "Fynbo et al.",
+        "year": "2004"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract": {
+        "names": "Cobb et al.",
+        "year": "2004"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2005ApJ...628L..93H/abstract": {
+        "names": "Huang et al.",
+        "year": "2005"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract": {
+        "names": "Soderberg et al.",
+        "year": "2006"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2017MNRAS.467.3500V/abstract": {
+        "names": "Volnova et al.",
+        "year": "2017"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2015MNRAS.452.1535C/abstract": {
+        "names": "Cano et al.",
+        "year": "2015"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract": {
+        "names": "Bright et al.",
+        "year": "2019"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract": {
+        "names": "Rhodes et al.",
+        "year": "2021"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract": {
+        "names": "Olivares E. et al.",
+        "year": "2015"
+    },
     "null": null,
     "https://swift.gsfc.nasa.gov/archive/grb_table/190114C": "https://swift.gsfc.nasa.gov/archive/grb_table/190114C",
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/29033.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/29033.gcn3",
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/31596.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/31596.gcn3",
-    "https://gcn.gsfc.nasa.gov/gcn/gcn3/31739.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/31739.gcn3"
+    "https://gcn.gsfc.nasa.gov/gcn/gcn3/31739.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/31739.gcn3",
+    "https://swift.gsfc.nasa.gov/archive/grb_table/": "https://swift.gsfc.nasa.gov/archive/grb_table/"
 }

@@ -1,71 +1,61 @@
-import enum
-from hashlib import new
-import sqlite3
-from tracemalloc import start
-from turtle import down
-import matplotlib.pyplot as plt
-from flask import Flask, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
-from werkzeug.exceptions import abort
+# Imports
+import sqlite3 # Database access
+import requests # API Access to ADS
+import ast # Convert strings to lists
+import glob # Find the txt files with the right names
+import numpy as np
+import json # Reading in data
+import pandas as pd # Pandas
+import os # Import os to find files in the event folders
+from os.path import exists # Check if a file exists
+import zipfile # Creating zipfiles for download
+from astropy.time import Time # Converting MJD to UTC
+import io # Downloadable zipfiles and for updateable plots
 
-from flask_bootstrap import Bootstrap
+#################################
+#################################
+# Flask app stuff ###############
+#################################
+#################################
+
+# Basic flask stuff
+from flask import Flask, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
+
+# Errors for pages that dont exist
+from werkzeug.exceptions import abort
 
 # Dealing with the flask login
 from flask_login import LoginManager
 
-# Find the txt files with the right names
-import glob
-import numpy as np
-import json
+# Search bars
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import Optional
 
-# API Access to ADS
-import requests
 
-# Convert strings to lists
-import ast
+#################################
+#################################
+# Bokeh stuff ###################
+#################################
+#################################
 
 # Pieces for Bokeh
-from bokeh.models import ColumnDataSource, HoverTool, Range1d, Label, Whisker
-from bokeh.io import curdoc
-from bokeh.resources import INLINE
+from bokeh.models import ColumnDataSource, HoverTool, Range1d, Label
 from bokeh.embed import components
-from bokeh.layouts import gridplot, Spacer, layout, column, row
-from bokeh.plotting import figure, output_file, show
-from bokeh.palettes import all_palettes, viridis
-from bokeh.transform import factor_mark
+from bokeh.layouts import layout
+from bokeh.plotting import figure
+from bokeh.palettes import viridis, Category20_20, d3
+from bokeh.transform import factor_mark, factor_cmap
 
-# Pandas
-import pandas as pd
 
-# Import os
-import os
-
-# File processing
-import zipfile
-import shutil
-
-# Astropy
-from astropy.time import Time
-from astropy.io import ascii
-
-# Things for making updatable plots
-import io
-import base64
+# Matplotlib
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
-
-# To convert strings to lists
-import ast
 
 # Create config.py file
 with open('instance/config.py', 'w') as f:
     code = str(os.urandom(32).hex())
     f.write(('SECRET_KEY = \''+code+'\''))
-
-# Search bars
-from flask_wtf import FlaskForm
-from wtforms import StringField, FloatField, SubmitField
-from wtforms.validators import Optional
-
 
 # Search on the homepage
 class SearchForm(FlaskForm):
@@ -192,12 +182,11 @@ def get_grb_data(event_id):
     #To determine if its an SN only or a GRB only
     if 'GRB' in str(event_id):
         folder_name = event_id
-        #print(folder_name)
+        # print(folder_name)
         event_id = event_id.split('-')[0][3:]
         path = './static/SourceData/'+folder_name+'/'
         files = glob.glob(path+'/*xrtlc.txt')
-        #print(files)
-        ##print(files)
+        # print(files)
 
         for i in range(len(files)):
             if str(event_id) in str(files[i]):
@@ -365,24 +354,31 @@ def z_plotter():
 
     return render_template('home.html', form=form, data=data)
 
+# References
+# Primary (from all 3 tables)
+with open("static/citations/citations.json") as file:
+    dict_refs = json.load(file)
+
+# Secondary
+with open("static/citations/citations2.json") as file2:
+    dict_refs2 = json.load(file2)
+
+# ADS Downloaded data citations
+with open("static/citations/citations(ADSdatadownloads).json") as file3:
+    dict_refs3 = json.load(file3)
+
 # Be able to select the GRBs by their names and go
 # To a specific page, it also plots the XRT data
-
 
 @app.route('/<event_id>')
 def event(event_id):
     event, radec, peakmag = get_post(event_id)
 
-    # References
-    # Primary
-    with open("static/citations.json") as file:
-        dict_refs = json.load(file)
+    ######################################################
+    ########### Referencing for table data ###############
+    ######################################################
 
-    # Secondary
-    with open("static/citations2.json") as file2:
-        dict_refs2 = json.load(file2)
-
-    # Find out how many of these references are needed
+    # Find out how many of the references are needed
     needed_dict = {}
     for i in range(len(event)):
         if event[i]['PrimarySources'] != None:
@@ -392,54 +388,25 @@ def event(event_id):
             needed_dict[event[i]['SecondarySources']
                         ] = dict_refs2[event[i]['SecondarySources']]
 
-    # Add the radec swift stuff to the master dictionary of sources
+    # Add the radec swift stuff to the master dictionary of references for this event.
     radec_refs = []
     radec_nos = []
 
-    # Send query to ADS and get data back
-    token = 'vs2uU32JWGtrTQwOFtumfDmmDlCFe2QSJ3rwSOvv'
     for i in range(len(radec)):
         if radec[i]['source'] != None:
-            if 'adsabs' in radec[i]['source']:
-                bibcode_initial = str(radec[i]['source']).split(
-                    '/')[4].replace('%26', '&')
 
-                bibcode = {"bibcode": [
-                    str(bibcode_initial)], "format": "%m %Y"}
-                r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom",
-                                  headers={"Authorization": "Bearer " + token,
-                                           "Content-type": "application/json"},
-                                  data=json.dumps(bibcode))
+            # If its not in the list save the citation and the number.
+            if radec[i]['source'] not in list(needed_dict.keys()):
+                needed_dict[radec[i]['source']] = dict_refs[radec[i]['source']]
+                radec_nos.append(
+                    list(needed_dict.keys()).index(radec[i]['source'])+1)
+                radec_refs.append(radec[i]['source'])
 
-                author_list = r.json()['export']
-                author_split = r.json()['export'].split(',')
-
-                dictionary_a = {}
-                if len(author_split) > 2:
-                    dictionary_a['names'] = author_split[0]+' et al.'
-                    dictionary_a['year'] = author_list[-5:-1]
-                else:
-                    dictionary_a['names'] = author_list[:-6]
-                    dictionary_a['year'] = author_list[-5:-1]
-
-                if radec[i]['source'] not in list(needed_dict.keys()):
-                    needed_dict[radec[i]['source']] = dictionary_a
-                    radec_nos.append(
-                        list(needed_dict.keys()).index(radec[i]['source'])+1)
-                    radec_refs.append(radec[i]['source'])
-                else:
-                    radec_nos.append(
-                        list(needed_dict.keys()).index(radec[i]['source'])+1)
+             # If its already in the list theres no need to cite it again we just need the right number.
             else:
-                if radec[i]['source'] not in list(needed_dict.keys()):
-                    needed_dict[radec[i]['source']] = radec[i]['source']
-                    radec_nos.append(
-                        list(needed_dict.keys()).index(radec[i]['source'])+1)
-                    radec_refs.append(radec[i]['source'])
-                else:
-                    radec_nos.append(
-                        list(needed_dict.keys()).index(radec[i]['source'])+1)
-    
+                radec_nos.append(
+                    list(needed_dict.keys()).index(radec[i]['source'])+1)
+
     #Get a list of all the bands we have peak times or mags for
     mag_bandlist = []
     ptime_bandlist = []
@@ -450,53 +417,24 @@ def event(event_id):
             if peakmag[i]['time']!=None:
                 ptime_bandlist.append(peakmag[i]['band'])
 
-    # Add the peak times and mags to the master dictionary of sources
+    # Add the peak times and mags references to the master dictionary of sources
     peakmag_refs = []
     peakmag_nos = []
-
-    # Send query to ADS and get data back
     for i in range(len(peakmag)):
         if peakmag[i]['source'] != None:
-            #print('The source is:', peakmag[i]['source'])
-            if 'adsabs' in peakmag[i]['source']:
-                bibcode_initial = str(peakmag[i]['source']).split(
-                    '/')[4].replace('%26', '&')
+            
+            # If its not in the list save the citation and the number.
+            if peakmag[i]['source'] not in list(needed_dict.keys()):
+                needed_dict[peakmag[i]['source']] = dict_refs[peakmag[i]['source']]
+                peakmag_nos.append(
+                    list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+                peakmag_refs.append(peakmag[i]['source'])
 
-                bibcode = {"bibcode": [
-                    str(bibcode_initial)], "format": "%m %Y"}
-                r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom",
-                                  headers={"Authorization": "Bearer " + token,
-                                           "Content-type": "application/json"},
-                                  data=json.dumps(bibcode))
-
-                author_list = r.json()['export']
-                author_split = r.json()['export'].split(',')
-
-                dictionary_a = {}
-                if len(author_split) > 2:
-                    dictionary_a['names'] = author_split[0]+' et al.'
-                    dictionary_a['year'] = author_list[-5:-1]
-                else:
-                    dictionary_a['names'] = author_list[:-6]
-                    dictionary_a['year'] = author_list[-5:-1]
-
-                if peakmag[i]['source'] not in list(needed_dict.keys()):
-                    needed_dict[peakmag[i]['source']] = dictionary_a
-                    peakmag_nos.append(
-                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
-                    peakmag_refs.append(peakmag[i]['source'])
-                else:
-                    peakmag_nos.append(
-                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+            # If its already in the list theres no need to cite it again we just need the right number.
             else:
-                if peakmag[i]['source'] not in list(needed_dict.keys()):
-                    needed_dict[peakmag[i]['source']] = peakmag[i]['source']
-                    peakmag_nos.append(
-                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
-                    peakmag_refs.append(peakmag[i]['source'])
-                else:
-                    peakmag_nos.append(
-                        list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+                peakmag_nos.append(
+                    list(needed_dict.keys()).index(peakmag[i]['source'])+1)
+
 
     ######################################################################################
     #############DATA FOR THE PLOTS#######################################################
@@ -539,6 +477,8 @@ def event(event_id):
     ######################################################################################
     #####X--RAYS##########################################################################
     ######################################################################################
+    # Tracker variable to tell us whether theres any Xray data or not
+    track = 0
 
     # The swift data from antonios tools files #This is the line that needs updating for changing the source
     flag, data = get_grb_data(event_id)
@@ -547,9 +487,13 @@ def event(event_id):
     swift_references = []
     swift_reference_no = []
 
+    # create a new plot with a title and axis labels
+    xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
+
     # Only if there is swift XRT data get the citations
     if flag:
-        with open('static/long_grbs/swift_citation/swift_ads.json') as file3:
+        track+=1
+        with open('static/citations/swift_ads.json') as file3:
             swift_bursts = json.load(file3)
         for swift_reference in list(swift_bursts.keys()):
             if swift_reference not in list(needed_dict.keys()):
@@ -561,32 +505,29 @@ def event(event_id):
                 swift_reference_no.append(
                     list(needed_dict.keys()).index(swift_reference)+1)
 
-    # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg, limit = data
-    #Add the references
-    data['sources'] = [swift_reference_no]*len(data['time'])
+        # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg, limit = data
+        #Add the references
+        data['sources'] = [swift_reference_no]*len(data['time'])
 
-    #Convert the string representing whether its a limit or not to string
-    data['stringlimit'] = data['limit'].astype(str)
+        #Convert the string representing whether its a limit or not to string
+        data['stringlimit'] = data['limit'].astype(str)
 
-    #Fix the error columns so they work on log plots with whisker
-    data['error'] = list(zip(data['flux']+data['dflux_neg'], data['flux']+data['dflux_pos']))
-    data['e_locs'] = list(zip(data['time'], data['time']))
+        #Fix the error columns so they work on log plots with whisker
+        data['error'] = list(zip(data['flux']+data['dflux_neg'], data['flux']+data['dflux_pos']))
+        data['e_locs'] = list(zip(data['time'], data['time']))
 
-    data['terror'] = list(zip(data['time']+data['dt_neg'], data['time']+data['dt_pos']))
-    data['te_locs'] = list(zip(data['flux'], data['flux']))
+        data['terror'] = list(zip(data['time']+data['dt_neg'], data['time']+data['dt_pos']))
+        data['te_locs'] = list(zip(data['flux'], data['flux']))
 
-    xray_source = ColumnDataSource(data)
-    # create a new plot with a title and axis labels
+        xray_source = ColumnDataSource(data)
 
-    xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
-    
-    types = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
-    marks = ['circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle']
+        types = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+        marks = ['circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle']
 
-    # add a line renderer with legend and line thickness
-    xray.multi_line("e_locs", "error", source=xray_source, color='orange', line_width=2)
-    xray.multi_line("terror", "te_locs", source=xray_source, color='orange', line_width=2)
-    xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
+        # add a line renderer with legend and line thickness
+        xray.multi_line("e_locs", "error", source=xray_source, color='orange', line_width=2)
+        xray.multi_line("terror", "te_locs", source=xray_source, color='orange', line_width=2)
+        xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
     
     #Aesthetics
     xray.title.text_font_size = '20pt'
@@ -638,27 +579,46 @@ def event(event_id):
     # Add the HoverTool to the figure
     xray.add_tools(HoverTool(tooltips=tooltips))
 
+    # If track is still 0 print nodata
+    if track==0:
+        # Set a range so we can always centre the nodata for the spectra plot
+        xray.y_range = Range1d(5e-15, 5e-9)
+        xray.x_range = Range1d(1, 150000)
+
+        nodata_warn = Label(x=10, y=1.3e-12, x_units='data', y_units='data',
+                         text='NO DATA', render_mode='css', text_font_size='50pt',
+                         border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
+        xray.add_layout(nodata_warn)
+
     ######################################################################################
     #####OPTICAL##########################################################################
     ######################################################################################
+    # Tracker variable to tell us whether theres been either OpenSN data or ADS data. 
+    track = 0
+
     t0_utc = '0'
-    from bokeh.palettes import Category20_20
 
-    optical = figure(title='Optical (GRB+SN)',
-                     toolbar_location="right", sizing_mode='scale_both', margin=5)
-    # add a line renderer with legend and line thickness
-
-    # Extract and plot the optical photometry data from the photometry file for each SN
+    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", sizing_mode='scale_both', margin=5)
+    
+    ####### References #############
     optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
-    if event[0]['SNe'] != None:
 
-        data = pd.read_csv('./static/SNE-OpenSN-Data/photometry/' +
-                           str(event[0]['SNe'])+'/'+str(event[0]['SNe'])+'.csv')
+    ################################
+    ######## Open SN ###############
+    ################################
+    if exists('./static/SourceData/'+str(event_id)+'/'+'OpenSNPhotometry.csv'):
+        # Add 1 to track variable if openSN had data
+        track+=1
+
+        # This is supposed to show the number to be assigned to a particular source.
+        optical_source_indices = [] 
+        # Extract and plot the optical photometry data from the photometry file for each SN
+
+        data = pd.read_csv('./static/SourceData/' +
+                           str(event_id)+'/'+'OpenSNPhotometry.csv')
         if data.empty == False:
 
             # Indexing the sources
-            # This is supposed to show the number to be assigned to a particular source.
-            optical_source_indices = []
             for dictionaries in data['refs']:
                 dictionaries = ast.literal_eval(dictionaries)
                 # Sub list of the indices for each reference
@@ -670,16 +630,29 @@ def event(event_id):
                             (list(needed_dict.keys()).index(reference['url'])+1))
 
                     else:
-                        # Add to the needed_dict
-                        needed_dict[reference['url']] = {
-                            'name': reference['name'].replace('(', '').replace(')', '')}
+                        # Extract the names and the years from the citation
+                        p = list(str(reference['name']).split('('))
+
+                        # Account for non ads references
+                        if len(p)>1:
+                            names = p[0][:-1]
+                            year = p[1][:-1]
+
+                            # Add to the needed_dict
+                            needed_dict[reference['url']] = {'names': names, 'year': year}
+
+                        else:
+                            names = reference['name']
+                            # Add to the needed_dict
+                            needed_dict[reference['url']] = {'names': names, 'year': ''}
+
                         # Save the optical ref to use as a key in event html when accessing the reference.
                         optical_refs.append(reference['url'])
                         # Append the number (now only needed for the graph)
                         optical_source_indices_sub.append(
                             (list(needed_dict.keys()).index(reference['url'])+1))
 
-                # Get the numbering for the sources to display in the right order
+                # Get the numbering for the sources to display in the right order on the plots
                 if len(optical_source_indices_sub) > 1:
                     optical_source_indices.append(
                         np.sort(optical_source_indices_sub))
@@ -741,10 +714,91 @@ def event(event_id):
                     ('Source', '@indices'),
                 ]
 
-            # Add the HoverTool to the figure
-            optical.add_tools(HoverTool(tooltips=tooltips))
+    # Add the HoverTool to the figure
+    optical.add_tools(HoverTool(tooltips=tooltips))
+    
+    
+    #################################
+    # ADS data ######################
+    #################################
 
-            optical.y_range.flipped = True
+    # Check if the optical master file exists yet. 
+    if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt'):
+        # Add 1 to track variable if openSN had data
+        track+=1
+
+        # Get the files that were downloaded from the ADS
+        optical_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt', sep='\t')
+
+        ####### References ##########
+        # Get the list of unique references
+        op_refs = optical_df['reference']
+
+        # Sub list of the indices for the optical data from the ADS
+        optical_source_indices_sub = []
+        for ref in op_refs:
+            if ref in needed_dict.keys():
+                optical_source_indices_sub.append(
+                    (list(needed_dict.keys()).index(ref)+1))
+
+            else:
+                # Add to the needed_dict
+                needed_dict[ref] = {'names': dict_refs3[ref]['names'], 'year': dict_refs3[ref]['year']}
+
+                # Save the optical ref to use as a key in event html when accessing the reference.
+                optical_refs.append(ref)
+
+                optical_source_indices_sub.append((list(needed_dict.keys()).index(ref)+1))
+        
+        # Add the lists of indices to the DF
+        optical_df['indices'] = optical_source_indices_sub
+        
+        ####### Plot Data ###########
+        # Select colours for the data
+        colors = d3['Category20'][20]
+
+        # List all bands
+        bands = list(set(list(optical_df['band'])))
+
+        optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
+
+
+        # Create the error columns that bokeh wants
+        #Errors on flux densities
+        optical_error_df = optical_df[['time', 'mag', 'dmag', 'band']].copy()
+        optical_error_df = optical_error_df[~optical_error_df['dmag'].isnull()]
+        optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
+        optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
+
+
+        # Create a cds
+        optical_cds = ColumnDataSource(optical_df)
+
+        # Create a cds for errors
+        optical_error_cds = ColumnDataSource(optical_error_df)
+
+        # Plotting
+
+        types2 = ['-1', '0', '1']
+        marks2 = ['inverted_triangle', 'circle', 'triangle']
+        optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, color=factor_cmap('band', colors, bands), line_width=2)
+        optical.scatter('time', 'mag', source=optical_cds, size=10, legend_field='band', color=factor_cmap('band', colors, bands), fill_color=factor_cmap('band', colors, bands), marker=factor_mark('mag_limit_str', marks2, types2))
+
+        # Tooltips of what will display in the hover mode
+        # Format the tooltip
+        # Tooltips of what will display in the hover mode
+        # Format the tooltip
+        tooltips = [
+            ('Time', '@time'),
+            ('Magnitude', '@mag'),
+            ('Band', '@band'),
+            ('Source', '@indices'),
+        ]
+
+    # Add the HoverTool to the figure
+    optical.add_tools(HoverTool(tooltips=tooltips))
+
+    optical.y_range.flipped = True
 
     # Aesthetics
 
@@ -783,6 +837,9 @@ def event(event_id):
     optical.xaxis.axis_line_color = 'black'
     optical.yaxis.axis_line_color = 'black'
 
+    # Allow user to mute spectra by clicking the legend
+    #optical.legend.click_policy = "mute"
+
     # Make ticks larger
     optical.xaxis.major_label_text_font_size = '16pt'
     optical.yaxis.major_label_text_font_size = '16pt'
@@ -790,13 +847,124 @@ def event(event_id):
     optical.background_fill_color = 'white'
     optical.border_fill_color = 'white'
 
+    # If track is still 0 print nodata
+    if track==0:
+        # Set a range so we can always centre the nodata for the spectra plot
+        optical.y_range = Range1d(20,17)
+        optical.x_range = Range1d(0, 30)
+
+        nodata_warn = Label(x=6, y=18.8, x_units='data', y_units='data',
+                         text='NO DATA', render_mode='css', text_font_size='50pt',
+                         border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
+        optical.add_layout(nodata_warn)
+
     ######################################################################################
     #####RADIO############################################################################
     ######################################################################################
     radio = figure(title='Radio (GRB)', toolbar_location="right",
                    y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
-    # add a line renderer with legend and line thickness
-    # radio.scatter(t, flux, legend_label="Swift/XRT", size=10, fill_color='orange')
+    
+    #################################
+    # ADS data ######################
+    #################################
+    rad_refs = []
+    # Check if the radio master file exists yet. 
+    if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt'):
+
+        # Get the files that were downloaded from the ADS
+        radio_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt', sep='\t')
+
+        ####### References ##########
+        # Get the list of unique references
+        radio_refs = radio_df['reference']
+
+        # Sub list of the indices for the optical data from the ADS
+        radio_source_indices_sub = []
+        for ref in radio_refs:
+            print(ref)
+            if ref in needed_dict.keys():
+                radio_source_indices_sub.append(
+                    (list(needed_dict.keys()).index(ref)+1))
+
+            else:
+                # Add to the needed_dict
+                needed_dict[ref] = {'names': dict_refs3[ref]['names'], 'year': dict_refs3[ref]['year']}
+
+                # Save the optical ref to use as a key in event html when accessing the reference.
+                rad_refs.append(ref)
+
+                radio_source_indices_sub.append((list(needed_dict.keys()).index(ref)+1))
+        
+        # Add the lists of indices to the DF
+        radio_df['indices'] = radio_source_indices_sub
+
+        # Plot the radio data we have gathered.
+        colors = d3['Category20'][20]
+
+        # Setting up to map the upper limits to different symbols.
+        types2 = ['-1', '0', '1']
+        marks2 = ['inverted_triangle', 'circle', 'triangle']
+
+        # List all the frequencies.
+        freqs = list(set(list(radio_df['freq'].astype(str))))
+
+        # Get strings for the mapper functions
+        radio_df['flux_density_limit_str'] = radio_df['flux_density_limit'].astype(str)
+        radio_df['freq_str'] = radio_df['freq'].astype(str)
+
+        radio_df['unit_col'] = radio_df['freq'].astype(str)+' '+radio_df['freq_unit'].astype(str)
+
+        # Get the units right
+        radio_df['flux_density'] = radio_df['flux_density'].astype(float)
+        radio_df['dflux_density'] = radio_df['dflux_density'].astype(float)
+        for i in range(len(radio_df['flux_density_unit'])):
+            # Convert microJy to millyJy by dividing by 1000
+            if radio_df['flux_density_unit'][i] == 'microJy':
+                radio_df['flux_density'][i] = radio_df['flux_density'][i]/1000
+                radio_df['dflux_density'][i] = radio_df['dflux_density'][i]/1000
+
+            # Convert Jy to millyJy by multiplying by 1000
+            if radio_df['flux_density_unit'][i] == 'Jy':
+                radio_df['flux_density'][i] = radio_df['flux_density'][i]*1000
+                radio_df['dflux_density'][i] = radio_df['dflux_density'][i]*1000
+
+        print(radio_df['dflux_density'])
+
+        #Errors on flux densities
+        radio_error_df = radio_df[['time', 'flux_density', 'dflux_density', 'freq_str']].copy()
+        radio_error_df = radio_error_df[~radio_error_df['dflux_density'].isnull()]
+        radio_error_df['dfds'] = list(zip(radio_error_df['flux_density']-radio_error_df['dflux_density'], radio_error_df['flux_density']+radio_error_df['dflux_density']))
+        radio_error_df['dfd_locs'] = list(zip(radio_error_df['time'], radio_error_df['time']))
+
+        # Create a column data source object to make some of the plotting easier.
+        radio_cds = ColumnDataSource(radio_df)
+        radio_error = ColumnDataSource(radio_error_df)
+
+
+        # Plot the data and the error
+        radio.multi_line("dfd_locs", "dfds", source=radio_error, color=factor_cmap('freq_str', colors, freqs), line_width=2)
+        radio.scatter('time', 'flux_density', source = radio_cds, legend_field='unit_col', color=factor_cmap('freq_str', colors, freqs), fill_color=factor_cmap('freq_str', colors, freqs), size=10, marker=factor_mark('flux_density_limit_str', marks2, types2))
+
+        # Tooltips of what will display in the hover mode
+        # Format the tooltip
+        # Tooltips of what will display in the hover mode
+        # Format the tooltip
+        tooltips = [('Time', '@time'),
+            ('Flux Density', '@flux_density'),
+            ('Source', '@indices'),]
+
+    else:
+        # Set a range so we can always centre the nodata for the spectra plot
+        radio.x_range = Range1d(1,10)
+        radio.y_range = Range1d(1, 3)
+
+        nodata_warn = Label(x=1.7, y=1.55, x_units='data', y_units='data',
+                         text='NO DATA', render_mode='css', text_font_size='50pt',
+                         border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
+        radio.add_layout(nodata_warn)
+
+    # Add the HoverTool to the figure
+    radio.add_tools(HoverTool(tooltips=tooltips))
 
     # Aesthetics
 
@@ -822,8 +990,11 @@ def event(event_id):
     radio.xaxis.minor_tick_line_color = 'black'
     radio.yaxis.minor_tick_line_color = 'black'
 
+    # Allow user to mute spectra by clicking the legend
+    #radio.legend.click_policy = "mute"
+
     # Axis labels
-    radio.xaxis.axis_label = 'Time after '+grb_time_str
+    radio.xaxis.axis_label = 'Time [days] after '+grb_time_str
     radio.yaxis.axis_label = 'Flux Density [mJy]'
 
     # Axis Colors
@@ -855,10 +1026,12 @@ def event(event_id):
 
     max_spec = [10]
     min_spec = [0]
-    if event[0]['SNe'] != None:
+
+    # Check if the radio master file exists yet. 
+    if exists('static/SourceData/'+str(event_id)+'/'+'OpenSNSpectra0.json'):
 
         # Access the data in the files for the SNe Spectra
-        path = './static/SNE-OpenSN-Data/spectraJSON/'+str(event[0]['SNe'])+'/'
+        path = './static/SourceData/'+str(event_id)+'/'
         files = glob.glob(path+'/*.json')
 
         # Colormap to be used - 45 is the max number of spectra im expecting for a single event
@@ -890,9 +1063,9 @@ def event(event_id):
                 data_dict = {'wavelength': wavelength, 'flux': float_flux,
                              'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength)}
 
-                # SOURCES
-                sources = data_i['SN' +
-                                 str(event[0]['SNe'])]['spectra']['source']
+                ############ SOURCES ############
+                sources = data_i['SN' + str(event[0]['SNe'])]['spectra']['source']
+
                 # This is supposed to show the number to be assigned to a particular source.
                 source_indices = []
 
@@ -902,9 +1075,18 @@ def event(event_id):
                         source_indices.append(
                             list(needed_dict.keys()).index(sources[k]['url'])+1)
                     else:
-                        # Add to the needed_dict
-                        needed_dict[sources[k]['url']] = {
-                            'name': sources[k]['name'].replace('(', '').replace(')', '')}
+                        
+                        # Account for non ads references
+                        # if the final digits look like a year
+                        if '19' in sources[k]['name'][-4:-2] or '20' in sources[k]['name'][-4:-2]:
+
+                            # Add to the needed_dict
+                            needed_dict[sources[k]['url']] = {'names': sources[k]['name'][:-4], 'year': sources[k]['name'][-4:]}
+
+                        else:
+                            names = sources[k]['name']
+                            # Add to the needed_dict
+                            needed_dict[sources[k]['url']] = {'names': names, 'year': ''}
 
                         # Save the spectra ref to use as a key in event html when accessing the reference.
                         spec_refs.append(sources[k]['url'])
@@ -928,6 +1110,8 @@ def event(event_id):
 
                 data_dict['sources'] = [
                     np.sort(source_indices)]*len(wavelength)
+
+                #### UNITS #####
                 data_dict['wave_unit'] = [
                     data_i['SN'+str(event[0]['SNe'])]['spectra']['u_wavelengths']]*len(wavelength)
                 data_dict['flux_unit'] = [
@@ -951,110 +1135,73 @@ def event(event_id):
                 spectrum.line('wavelength', 'flux', source=data_source,
                               color=color[i], muted_color='gray', muted_alpha=0.1, legend_label=str(np.round(float(data_dict['time_since'][0]), 2))+' days')
 
-        # Add the HoverTool to the figure
-        spectrum.add_tools(HoverTool(tooltips=tooltips))
-
-        # Allow user to mute spectra by clicking the legend
-        spectrum.legend.click_policy = "mute"
-
-        # Aesthetics
-        # Title
-        spectrum.title.text_font_size = '20pt'
-        spectrum.title.text_color = 'black'
-        spectrum.title.align = 'center'
-
-        # Axis font size
-        spectrum.yaxis.axis_label_text_font_size = '16pt'
-        spectrum.xaxis.axis_label_text_font_size = '16pt'
-
-        # Font Color
-        spectrum.xaxis.axis_label_text_color = 'black'
-        spectrum.xaxis.major_label_text_color = 'black'
-
-        spectrum.yaxis.axis_label_text_color = 'black'
-        spectrum.yaxis.major_label_text_color = 'black'
-
-        # Tick colors
-        spectrum.xaxis.major_tick_line_color = 'black'
-        spectrum.yaxis.major_tick_line_color = 'black'
-
-        spectrum.xaxis.minor_tick_line_color = 'black'
-        spectrum.yaxis.minor_tick_line_color = 'black'
-
-        # Axis labels
-        spectrum.xaxis.axis_label = 'Wavelength [Å]'
-        spectrum.yaxis.axis_label = 'Flux'
-
-        # Axis Colors
-        spectrum.xaxis.axis_line_color = 'black'
-        spectrum.yaxis.axis_line_color = 'black'
-
-        # Make ticks larger
-        spectrum.xaxis.major_label_text_font_size = '16pt'
-        spectrum.yaxis.major_label_text_font_size = '16pt'
-
-        spectrum.background_fill_color = 'white'
-        spectrum.border_fill_color = 'white'
-
         # Range
         spectrum.y_range = Range1d(
             min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
 
     else:
-        # Add the HoverTool to the figure
-        spectrum.add_tools(HoverTool(tooltips=tooltips))
+        # Notify when there is no data present
 
-        # Aesthetics
-        # Title
-        spectrum.title.text_font_size = '20pt'
-        spectrum.title.text_color = 'red'
-        spectrum.title.align = 'center'
+        # Set a range so we can always centre the nodata for the spectra plot
+        spectrum.x_range = Range1d(5000,8000)
+        spectrum.y_range = Range1d(0, 1)
 
-        # Axis font size
-        spectrum.yaxis.axis_label_text_font_size = '16pt'
-        spectrum.xaxis.axis_label_text_font_size = '16pt'
-
-        # Font Color
-        spectrum.xaxis.axis_label_text_color = 'black'
-        spectrum.xaxis.major_label_text_color = 'black'
-
-        spectrum.yaxis.axis_label_text_color = 'black'
-        spectrum.yaxis.major_label_text_color = 'black'
-
-        # Tick colors
-        spectrum.xaxis.major_tick_line_color = 'black'
-        spectrum.yaxis.major_tick_line_color = 'black'
-
-        spectrum.xaxis.minor_tick_line_color = 'black'
-        spectrum.yaxis.minor_tick_line_color = 'black'
-
-        # Axis labels
-        spectrum.xaxis.axis_label = 'Wavelength'
-        spectrum.yaxis.axis_label = 'Flux'
-
-        # Axis Colors
-        spectrum.xaxis.axis_line_color = 'black'
-        spectrum.yaxis.axis_line_color = 'black'
-
-        # Make ticks larger
-        spectrum.xaxis.major_label_text_font_size = '16pt'
-        spectrum.yaxis.major_label_text_font_size = '16pt'
-
-        spectrum.background_fill_color = 'white'
-        spectrum.border_fill_color = 'white'
-
-        citation = Label(x=70, y=70, x_units='screen', y_units='screen',
-                         text='NO DATA', render_mode='css',
-                         border_line_color='black', border_line_alpha=1.0,
-                         background_fill_color='white', background_fill_alpha=1.0)
+        citation = Label(x=6100, y=0.405, x_units='data', y_units='data',
+                         text='NO DATA', render_mode='css', text_font_size='80pt',
+                         border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         spectrum.add_layout(citation)
+
+    # Add the HoverTool to the figure
+    spectrum.add_tools(HoverTool(tooltips=tooltips))
+
+    # Allow user to mute spectra by clicking the legend
+    spectrum.legend.click_policy = "mute"
+
+    # Aesthetics
+    # Title
+    spectrum.title.text_font_size = '20pt'
+    spectrum.title.text_color = 'black'
+    spectrum.title.align = 'center'
+
+    # Axis font size
+    spectrum.yaxis.axis_label_text_font_size = '16pt'
+    spectrum.xaxis.axis_label_text_font_size = '16pt'
+
+    # Font Color
+    spectrum.xaxis.axis_label_text_color = 'black'
+    spectrum.xaxis.major_label_text_color = 'black'
+
+    spectrum.yaxis.axis_label_text_color = 'black'
+    spectrum.yaxis.major_label_text_color = 'black'
+
+    # Tick colors
+    spectrum.xaxis.major_tick_line_color = 'black'
+    spectrum.yaxis.major_tick_line_color = 'black'
+
+    spectrum.xaxis.minor_tick_line_color = 'black'
+    spectrum.yaxis.minor_tick_line_color = 'black'
+
+    # Axis labels
+    spectrum.xaxis.axis_label = 'Wavelength [Å]'
+    spectrum.yaxis.axis_label = 'Flux'
+
+    # Axis Colors
+    spectrum.xaxis.axis_line_color = 'black'
+    spectrum.yaxis.axis_line_color = 'black'
+
+    # Make ticks larger
+    spectrum.xaxis.major_label_text_font_size = '16pt'
+    spectrum.yaxis.major_label_text_font_size = '16pt'
+
+    spectrum.background_fill_color = 'white'
+    spectrum.border_fill_color = 'white'
 
     script, div = components(layout([xray, radio, optical], [spectrum]))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
     # Return everything
-    return render_template('event.html', event=event, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, radio_refs=rad_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
