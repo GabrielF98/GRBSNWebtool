@@ -971,13 +971,9 @@ def event(event_id):
     # Selection tools we want to display
     select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset']
 
-    # Set a range so we can always centre the nodata for the spectra plot
-    xrange = Range1d(5000,8000)
-    yrange = Range1d(0, 1)
-
     # Figure
     spectrum = figure(title='Spectrum (SN)', toolbar_location="right",
-                      tools=select_tools, height=260, sizing_mode='scale_width', margin=5, x_range=xrange, y_range=yrange)
+                      tools=select_tools, height=260, sizing_mode='scale_width', margin=5)
 
     # Blank tooltips
     tooltips = []
@@ -1174,6 +1170,11 @@ def event(event_id):
         spectrum.border_fill_color = 'white'
 
         # Notify when there is no data present
+
+        # Set a range so we can always centre the nodata for the spectra plot
+        spectrum.x_range = Range1d(5000,8000)
+        spectrum.y_range = Range1d(0, 1)
+
         citation = Label(x=6100, y=0.405, x_units='data', y_units='data',
                          text='NO DATA', render_mode='css', text_font_size='80pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
