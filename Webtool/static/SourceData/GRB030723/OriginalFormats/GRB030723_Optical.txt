@@ -1,0 +1,62 @@
+
+Jul 23.44329	0.1736	R	300	D1.5m/DFOSC	20.92\kern.1666em\pm \kern.1666em0.11
+Jul 23.6090	0.3394	BV-MOA	3\kern.1666em\times \kern.1666em300	0.6m/MOA	21.47\kern.1666em\pm \kern.1666em0.25
+Jul 23.6090	0.3394	RI-MOA	3\kern.1666em\times \kern.1666em300	0.6m/MOA	>20.9
+Jul 24.133	0.863	R	3\kern.1666em\times \kern.1666em600	D1.5m/DFOSC	20.98\kern.1666em\pm \kern.1666em0.05
+Jul 24.333	1.063	R	3\kern.1666em\times \kern.1666em600	D1.5m/DFOSC	21.15\kern.1666em\pm \kern.1666em0.05
+Jul 24.360	1.090	V	3\kern.1666em\times \kern.1666em600	D1.5m/DFOSC	21.63\kern.1666em\pm \kern.1666em0.03
+Jul 24.384	1.114	J_{s}	15 \times 60	NTT/SOFI	19.81\kern.1666em\pm \kern.1666em0.06
+Jul 24.397	1.127	H	15\kern.1666em\times \kern.1666em60	NTT/SOFI	19.14\kern.1666em\pm \kern.1666em0.11
+Jul 24.409	1.139	K_{s}	15\kern.1666em\times \kern.1666em60	NTT/SOFI	18.33\kern.1666em\pm \kern.1666em0.06
+Jul 24.421	1.151	J_{s}	15\kern.1666em\times \kern.1666em60	NTT/SOFI	19.79\kern.1666em\pm \kern.1666em0.08
+Jul 24.433	1.163	H	15\kern.1666em\times \kern.1666em60	NTT/SOFI	19.26\kern.1666em\pm \kern.1666em0.12
+Jul 24.446	1.176	K_{s}	15\kern.1666em\times \kern.1666em60	NTT/SOFI	18.42\kern.1666em\pm \kern.1666em0.10
+Jul 24.396	1.126	i	3\kern.1666em\times \kern.1666em600	D1.5m/DFOSC	20.72\kern.1666em\pm \kern.1666em0.04
+Jul 24.411	1.141	R	4\kern.1666em\times \kern.1666em600	D1.5m/DFOSC	21.24\kern.1666em\pm \kern.1666em0.05
+Jul 25.114	1.844	R	3\kern.1666em\times \kern.1666em600	D1.5m/DFOSC	22.00\kern.1666em\pm \kern.1666em0.10
+Jul 25.346	2.076	R	7\kern.1666em\times \kern.1666em600	D1.5m/DFOSC	22.31\kern.1666em\pm \kern.1666em0.07
+Jul 25.378	2.108	J_{s}	15\kern.1666em\times \kern.1666em60	NTT/SOFI	20.14\kern.1666em\pm \kern.1666em0.16
+Jul 25.391	2.121	H	15\kern.1666em\times \kern.1666em60	NTT/SOFI	19.50\kern.1666em\pm \kern.1666em0.22
+Jul 25.403	2.133	K_{s}	15\kern.1666em\times \kern.1666em60	NTT/SOFI	19.08\kern.1666em\pm \kern.1666em0.25
+Jul 25.408	2.138	R	8\kern.1666em\times \kern.1666em600	D1.5m/DFOSC	22.13\kern.1666em\pm \kern.1666em0.05
+Jul 26.236	2.966	V	50	VLT/FORS1	23.41\kern.1666em\pm \kern.1666em0.07
+Jul 26.239	2.969	V	50	VLT/FORS1	23.28\kern.1666em\pm \kern.1666em0.07
+Jul 26.33	3.06	G300V+GG375	22\kern.1666em\times \kern.1666em600	VLT/FORS1	Spectra
+Jul 27.160	3.890	K_{s}	10\kern.1666em\times \kern.1666em60	VLT/ISAAC	21.04\kern.1666em\pm \kern.1666em0.21
+Jul 27.171	3.901	J_{s}	10\kern.1666em\times \kern.1666em60	VLT/ISAAC	22.46\kern.1666em\pm \kern.1666em0.23
+Jul 27.180	3.910	H	10\kern.1666em\times \kern.1666em60	VLT/ISAAC	21.06\kern.1666em\pm \kern.1666em0.15
+Jul 27.212	3.942	U	6\kern.1666em\times \kern.1666em300	VLT/FORS1	23.83\kern.1666em\pm \kern.1666em0.15
+Jul 27.228	3.958	B	300	VLT/FORS1	24.31\kern.1666em\pm \kern.1666em0.07
+Jul 27.232	3.962	B	300	VLT/FORS1	24.57\kern.1666em\pm \kern.1666em0.10
+Jul 27.236	3.966	V	300	VLT/FORS1	24.04\kern.1666em\pm \kern.1666em0.06
+Jul 27.241	3.971	V	300	VLT/FORS1	24.12\kern.1666em\pm \kern.1666em0.12
+Jul 27.245	3.975	R	300	VLT/FORS1	23.64\kern.1666em\pm \kern.1666em0.05
+Jul 27.249	3.979	R	300	VLT/FORS1	23.56\kern.1666em\pm \kern.1666em0.05
+Jul 27.255	3.985	i	300	VLT/FORS1	23.08\kern.1666em\pm \kern.1666em0.08
+Jul 27.260	3.990	i	300	VLT/FORS1	23.08\kern.1666em\pm \kern.1666em0.08
+Jul 29.150	5.880	R	300	VLT/FORS1	24.63\kern.1666em\pm \kern.1666em0.13
+Jul 29.154	5.884	R	300	VLT/FORS1	24.38\kern.1666em\pm \kern.1666em0.11
+Jul 29.158	5.888	R	300	VLT/FORS1	24.62\kern.1666em\pm \kern.1666em0.13
+Jul 31.100	7.830	R	6\kern.1666em\times \kern.1666em300	VLT/FORS2	25.00\kern.1666em\pm \kern.1666em0.14
+Aug 3.240	10.970	R	12\kern.1666em\times \kern.1666em300	VLT/FORS2	25.16\kern.1666em\pm \kern.1666em0.07
+Aug 6.228	13.958	V	6\kern.1666em\times \kern.1666em600	NTT/SUSI2	24.39\kern.1666em\pm \kern.1666em0.08
+Aug 6.240	13.970	i	6\kern.1666em\times \kern.1666em600	NTT/SUSI2	23.92\kern.1666em\pm \kern.1666em0.23
+Aug 6.254	13.984	R	6\kern.1666em\times \kern.1666em600	NTT/SUSI2	24.28\kern.1666em\pm \kern.1666em0.07
+Aug 6.308	14.038	R	6\kern.1666em\times \kern.1666em600	VLT/FORS1	24.14\kern.1666em\pm \kern.1666em0.03
+Aug 6.368	14.098	B	6\kern.1666em\times \kern.1666em600	NTT/SUSI2	25.04\kern.1666em\pm \kern.1666em0.10
+Aug 7.291	15.021	R	180	VLT/FORS2	24.16\kern.1666em\pm \kern.1666em0.09
+Aug 7.296	15.026	R	180	VLT/FORS2	24.20\kern.1666em\pm \kern.1666em0.11
+Aug 7.359	15.089	600RI+GG435	15\kern.1666em\times \kern.1666em540	VLT/FORS2	Spectra
+Aug 8.327	16.057	R	180	VLT/FORS2	24.04\kern.1666em\pm \kern.1666em0.13
+Aug 8.331	16.061	R	180	VLT/FORS2	24.03\kern.1666em\pm \kern.1666em0.10
+Aug 8.380	16.110	600RI+GG435	10\kern.1666em\times \kern.1666em540	VLT/FORS2	Spectra
+Aug 9.396	17.126	R	6\kern.1666em\times \kern.1666em300	VLT/FORS2	24.16\kern.1666em\pm \kern.1666em0.04
+Aug 10.335	18.065	R	14\kern.1666em\times \kern.1666em600	D1.5m/DFOSC	23.88\kern.1666em\pm \kern.1666em0.44
+Aug 14.168	21.898	K_{s}	150\kern.1666em\times \kern.1666em60	VLT/ISAAC	21.19\kern.1666em\pm \kern.1666em0.11
+Aug 17.052	24.782	R	15\kern.1666em\times \kern.1666em600	NTT/SUSI2	25.08\kern.1666em\pm \kern.1666em0.09
+Aug 19.007	26.737	B	3\kern.1666em\times \kern.1666em600	VLT/FORS1	>26.8
+Aug 19.091	26.821	U	15\kern.1666em\times \kern.1666em600	VLT/FORS1	>27.0
+Aug 19.168	26.898	R	3\kern.1666em\times \kern.1666em600	VLT/FORS1	24.99\kern.1666em\pm \kern.1666em0.06
+Aug 19.191	26.921	i	3\kern.1666em\times \kern.1666em600	VLT/FORS1	23.88\kern.1666em\pm \kern.1666em0.05
+Sep 3.291	42.021	R	6\kern.1666em\times \kern.1666em600	VLT/FORS1	25.97\kern.1666em\pm \kern.1666em0.12
+Sep 25.135	63.865	R	4\kern.1666em\times \kern.1666em600\kern.1666em+\kern.1666em480	VLT/FORS1	26.58\kern.1666em\pm \kern.1666em0.29

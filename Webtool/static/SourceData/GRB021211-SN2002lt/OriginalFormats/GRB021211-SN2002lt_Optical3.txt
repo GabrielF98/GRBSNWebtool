@@ -1,0 +1,4 @@
+2003 Jan. 9.7*	63 min	1.1  $^{\prime\prime}$	$24.48\pm0.18$
+2003 Jan. 15.33	15 min	0.8  $^{\prime\prime}$	$25.07\pm0.15$
+2003 Feb. 28.02	75 min	0.8  $^{\prime\prime}$	$25.13\pm0.12$
+2003 Mar. 9.01	50 min	1.25  $^{\prime\prime}$	$25.35\pm0.17$

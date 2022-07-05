@@ -1,0 +1,16 @@
+
+Dec 11.4732	2.84 minutes	R	15.24 \pm 0.07	0.60 m Super-LOTIS
+Dec 11.4751	5.63 minutes	R	16.26 \pm 0.12	0.60 m Super-LOTIS
+Dec 11.4986	39.4 minutes	I_{C}	18.60 \pm 0.11	0.81 m Tenagra II
+Dec 11.5114	57.9 minutes	R_{C}	19.52 \pm 0.13	0.81 m Tenagra II
+Dec 11.5239	75.9 minutes	V	20.06 \pm 0.41	0.81 m Tenagra II
+Dec 11.5366	94.1 minutes	B	>19.8	0.81 m Tenagra II
+Dec 11.5479	1.84 hr	I_{C}	19.99 \pm 0.24	0.81 m Tenagra II
+Dec 11.5525	1.95 hr	R_{C}	20.74 \pm 0.42	0.81 m Tenagra II
+Dec 11.5566	2.05 hr	R_{C}	20.70 \pm 0.16	0.65 m Gunma
+Dec 11.9583	11.7 hr	R_{C}	>22.0	1.34 m Tautenburg
+Dec 11.9744	12.1 hr	I_{C}	>20.7	1.34 m Tautenburg
+Dec 12.3883	22.0 hr	i*	23.02 \pm 0.12	3.5 m ARC
+Dec 13.4680	47.9 hr	V	23.0 \pm 0.5	1.0 m USNO
+Dec 28.4283	17.0 days	i*	24.41 \pm 0.22	3.5 m ARC
+Mar 23.1335	102 days	i*	24.51 \pm 0.29	3.5 m ARC

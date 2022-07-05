@@ -1,0 +1,29 @@
+date	time	instrument	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit
+2002-Sep-4.115	0.695	CTIO 4 m	B	21.4	0	0.17	yyyy-month-deciday	days	Unspecified
+2002-Oct-10.177	36.757	DK 1.5 m	B	24.59	0	0.26	yyyy-month-deciday	days	Unspecified
+2002-Oct-11.193	37.772	DK 1.5 m	B	24.76	0	0.31	yyyy-month-deciday	days	Unspecified
+2002-Oct-12.169	38.749	DK 1.5 m	B	24.77	0	0.32	yyyy-month-deciday	days	Unspecified
+2002-Oct-13.163	39.743	DK 1.5 m	B	24.5	-1	NaN	yyyy-month-deciday	days	Unspecified
+2002-Oct-14.137	40.716	DK 1.5 m	B	24.4	-1	NaN	yyyy-month-deciday	days	Unspecified
+2002-Oct-2.953	29.533	TNG	V	22.8	-1	NaN	yyyy-month-deciday	days	Unspecified
+2002-Oct-10.192	36.772	DK 1.5 m	V	23.4	-1	NaN	yyyy-month-deciday	days	Unspecified
+2002-Oct-11.7	38.279	DK 1.5 m	V	23.45	0	0.21	yyyy-month-deciday	days	Unspecified
+2002-Oct-13.179	39.758	DK 1.5 m	V	23.2	-1	NaN	yyyy-month-deciday	days	Unspecified
+2002-Oct-14.152	40.731	DK 1.5 m	V	23.1	-1	NaN	yyyy-month-deciday	days	Unspecified
+2002-Sep-4.080	0.66	CTIO 4 m	R	20.858	0	0.007	yyyy-month-deciday	days	Unspecified
+2002-Sep-4.32	0.9	Palomar 5 m	R	19.52	0	0.22	yyyy-month-deciday	days	Unspecified
+2002-Sep-9.130	5.709	CTIO 4 m	R	21.129	0	0.01	yyyy-month-deciday	days	Unspecified
+2002-Sep-10.30	6.88	Palomar 5 m	R	21.8	0	0.3	yyyy-month-deciday	days	Unspecified
+2002-Sep-29.923	26.503	Asiago	R	21.729	0	0.089	yyyy-month-deciday	days	Unspecified
+2002-Oct-2.967	29.547	TNG	R	21.552	0	0.044	yyyy-month-deciday	days	Unspecified
+2002-Oct-10.204	36.783	DK 1.5 m	R	22.351	0	0.051	yyyy-month-deciday	days	Unspecified
+2002-Oct-11.216	37.796	DK 1.5 m	R	22.279	0	0.052	yyyy-month-deciday	days	Unspecified
+2002-Oct-12.193	38.772	DK 1.5 m	R	22.45	0	0.055	yyyy-month-deciday	days	Unspecified
+2002-Oct-13.187	39.766	DK 1.5 m	R	22.522	0	0.054	yyyy-month-deciday	days	Unspecified
+2002-Oct-14.110	40.689	DK 1.5 m	R	22.498	0	0.065	yyyy-month-deciday	days	Unspecified
+2002-Oct-26.062	52.641	DK 1.5 m	R	23.032	0	0.087	yyyy-month-deciday	days	Unspecified
+2002-Sep-4.107	0.686	CTIO 4 m	I	20.425	0	0.015	yyyy-month-deciday	days	Unspecified
+2002-Oct-2.977	29.556	TNG	I	20.916	0	0.062	yyyy-month-deciday	days	Unspecified
+2002-Oct-10.172	36.752	DK 1.5 m	I	21.43	0	0.064	yyyy-month-deciday	days	Unspecified
+2002-Oct-12.201	38.78	DK 1.5 m	I	21.442	0	0.06	yyyy-month-deciday	days	Unspecified
+2002-Oct-13.071	39.651	DK 1.5 m	I	21.495	0	0.057	yyyy-month-deciday	days	Unspecified

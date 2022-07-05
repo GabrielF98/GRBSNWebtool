@@ -1,0 +1,14 @@
+date	time	dtime	instrument	freq	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	freq_unit	flux_density_unit
+2002-Dec-11.57	0.1	NaN	VLA	8.46	12.0	0	36	yyyy-month-deciday	days	GHz	microJy
+2002-Dec-12.39	0.92	NaN	VLA	8.46	-36.0	0	22	yyyy-month-deciday	days	GHz	microJy
+2002-Dec-13.40	1.93	NaN	VLA	8.46	9.0	0	45	yyyy-month-deciday	days	GHz	microJy
+2002-Dec-13.40	1.93	NaN	VLA	22.5	48.0	0	62	yyyy-month-deciday	days	GHz	microJy
+2002-Dec-15.32	3.85	NaN	VLA	8.46	45.0	0	23	yyyy-month-deciday	days	GHz	microJy
+2002-Dec-16.29	4.82	NaN	VLA	8.46	-6.5	0	19	yyyy-month-deciday	days	GHz	microJy
+2002-Dec-20.32	8.85	NaN	VLA	8.46	60.0	0	28	yyyy-month-deciday	days	GHz	microJy
+2002-Dec-22.26	10.79	NaN	VLA	8.46	0.3	0	27	yyyy-month-deciday	days	GHz	microJy
+2002-Dec-26.44	14.97	NaN	VLA	8.46	-7.3	0	23	yyyy-month-deciday	days	GHz	microJy
+2002-Dec-28.55	17.08	NaN	VLA	8.46	33.0	0	28	yyyy-month-deciday	days	GHz	microJy
+2003-Jan-04.39	23.92	NaN	VLA	8.46	2.4	0	24	yyyy-month-deciday	days	GHz	microJy
+2003-Jan-06.28	25.81	NaN	VLA	8.46	46.0	0	24	yyyy-month-deciday	days	GHz	microJy
+2002-Dec-28.00	16.43	8.0	VLA	8.46	15.0	0	10	yyyy-month-deciday	days	GHz	microJy
