@@ -30,6 +30,7 @@ One or both of these data will be present in each file.
     * `yyyy-mm-dd-hh:mm-hh:mm` Epoch range in standard time format
     
     * `MJD` Modified Julian Day.
+    * `MJD-MJD` Modified Julian Day - range. 
   
   * `time` The elapsed time since the reference point of the data. For GRBs this will usually be the trigger time but could also be the peak time of the SN lightcurve.
   
