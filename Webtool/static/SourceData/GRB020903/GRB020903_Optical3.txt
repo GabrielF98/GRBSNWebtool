@@ -1,7 +1,7 @@
-date	time	band	mag	dmag	date_unit	time_unit	mag_unit	instrument
-2002-Dec-3.792	95.426	F606W	24.23	0.05	yyyy-month-deciday	days	Unspecified	HST
-2002-Dec-3.792	95.426	R	23.81	NaN	yyyy-month-deciday	days	Unspecified	HST
-2003-Apr-23.955	232.824	F606W	26.53	0.12	yyyy-month-deciday	days	Unspecified	HST
-2003-Apr-23.955	232.824	R	26.11	NaN	yyyy-month-deciday	days	Unspecified	HST
-2003-Jun-30.652	300.625	F606W	27.66	0.20	yyyy-month-deciday	days	Unspecified	HST
-2003-Jun-30.652	300.625	R	27.24	NaN	yyyy-month-deciday	days	Unspecified	HST
+date	time	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	instrument
+2002-Dec-3.792	95.426	F606W	24.23	0	0.05	yyyy-month-deciday	days	Unspecified	HST
+2002-Dec-3.792	95.426	R	23.81	0	NaN	yyyy-month-deciday	days	Unspecified	HST
+2003-Apr-23.955	232.824	F606W	26.53	0	0.12	yyyy-month-deciday	days	Unspecified	HST
+2003-Apr-23.955	232.824	R	26.11	0	NaN	yyyy-month-deciday	days	Unspecified	HST
+2003-Jun-30.652	300.625	F606W	27.66	0	0.2	yyyy-month-deciday	days	Unspecified	HST
+2003-Jun-30.652	300.625	R	27.24	0	NaN	yyyy-month-deciday	days	Unspecified	HST

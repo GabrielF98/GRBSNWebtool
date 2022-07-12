@@ -1,14 +1,14 @@
-date	freq	flux_density	dflux_density	date_unit	freq_unit	flux_density_unit	instrument
-2001-Nov-25.20	4.80	240	70	yyyy-mm-deciday	GHz	microJy	ATCA
-2001-Nov-28.64	4.80	510	38	yyyy-mm-deciday	GHz	microJy	ATCA
-2001-Dec-6.80	4.80	350	42	yyyy-mm-deciday	GHz	microJy	ATCA
-2001-Dec-15.80	4.80	250	34	yyyy-mm-deciday	GHz	microJy	ATCA
-2001-Dec-22.90	4.80	-99	49	yyyy-mm-deciday	GHz	microJy	ATCA
-2002-Jan-23.85	4.80	320	38	yyyy-mm-deciday	GHz	microJy	ATCA
-2001-Nov-22.83	8.70	210	40	yyyy-mm-deciday	GHz	microJy	ATCA
-2001-Nov-25.08	8.70	450	130	yyyy-mm-deciday	GHz	microJy	ATCA
-2001-Nov-28.64	8.70	610	39	yyyy-mm-deciday	GHz	microJy	ATCA
-2001-Dec-6.80	8.70	220	58	yyyy-mm-deciday	GHz	microJy	ATCA
-2001-Dec-15.80	8.70	274	37	yyyy-mm-deciday	GHz	microJy	ATCA
-2001-Dec-22.90	8.70	237	46	yyyy-mm-deciday	GHz	microJy	ATCA
-2002-Jan-23.85	8.70	-99	47	yyyy-mm-deciday	GHz	microJy	ATCA
+date	freq	flux_density	flux_density_limit	dflux_density	date_unit	freq_unit	flux_density_unit	instrument	time	time_unit
+2001-Nov-25.20	4.8	240.0	0	70	yyyy-month-deciday	GHz	microJy	ATCA	3.4171064814814813	days
+2001-Nov-28.64	4.8	510.0	0	38	yyyy-month-deciday	GHz	microJy	ATCA	6.857118055555556	days
+2001-Dec-6.80	4.8	350.0	0	42	yyyy-month-deciday	GHz	microJy	ATCA	15.01710648148148	days
+2001-Dec-15.80	4.8	250.0	0	34	yyyy-month-deciday	GHz	microJy	ATCA	24.01717592592593	days
+2001-Dec-22.90	4.8	-99.0	0	49	yyyy-month-deciday	GHz	microJy	ATCA	31.11710648148148	days
+2002-Jan-23.85	4.8	320.0	0	38	yyyy-month-deciday	GHz	microJy	ATCA	63.067129629629626	days
+2001-Nov-22.83	8.7	210.0	0	40	yyyy-month-deciday	GHz	microJy	ATCA	1.0471064814814814	days
+2001-Nov-25.08	8.7	450.0	0	130	yyyy-month-deciday	GHz	microJy	ATCA	3.2971064814814817	days
+2001-Nov-28.64	8.7	610.0	0	39	yyyy-month-deciday	GHz	microJy	ATCA	6.857118055555556	days
+2001-Dec-6.80	8.7	220.0	0	58	yyyy-month-deciday	GHz	microJy	ATCA	15.01710648148148	days
+2001-Dec-15.80	8.7	274.0	0	37	yyyy-month-deciday	GHz	microJy	ATCA	24.01717592592593	days
+2001-Dec-22.90	8.7	237.0	0	46	yyyy-month-deciday	GHz	microJy	ATCA	31.11710648148148	days
+2002-Jan-23.85	8.7	-99.0	0	47	yyyy-month-deciday	GHz	microJy	ATCA	63.067129629629626	days
