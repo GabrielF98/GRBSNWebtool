@@ -1,0 +1,22 @@
+Table 1. Nobeyama Millimeter Array observations of GRB 030329.
+------------------------------------------------------------
+
+ 
+UT date	Start	Stop	Duration	\Delta t	f_{obs}	Flux	\sigma	T_{sys}	Seeing
+	[hr]	[hr]	[hr]	[d]	[GHz]	[mJy]	[mJy]	[K]	
+(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)
+2003 April 6	08.77	15.58	6.5	08.23	141	41.0	3.2	160	Bad
+2003 April 7	10.35	16.25	5.9	09.07	141	42.5	2.4	220	
+2003 April 10	12.75	17.58	4.8	12.15	93	18.7	2.1	210	
+2003 April 13	09.50	15.92	6.4	15.05	93	17.8	1.9	150	
+2003 April 15	11.53	16.75	5.2	17.11	93	16.1	3.1	360	
+2003 April 16	09.87	16.75	6.9	18.07	93	9.1	1.9	220	Bad
+2003 April 19	11.45	16.58	5.1	21.10	93	8.8	4.2	260	Bad
+2003 April 21	09.42	16.58	7.2	23.06	93	8.9	1.3	140	Good
+2003 April 23	09.52	14.92	5.4	25.03	93	\cdots	\cdots	Bad	
+2003 April 30	08.43	15.50	7.1	32.02	93	\cdots	2.8	200	Bad
+2003 May 21	08.33	14.25	5.9	52.99	93	\cdots	1.3	180	Good
+2003 May 22	07.10	13.92	6.8	53.95	93	\cdots	\cdots	Bad	
+2003 May 29	08.43	13.58	5.2	60.98	93	\cdots	2.0	210	
+2003 May 30	08.50	13.42	4.9	61.97	93	\cdots	1.7	200	
+{(1) Observing date.(2) Beginning time of observation.(3) End time of observation.(4) Duration of the observation. Net on-source integration time is typically about half of this.(5) Time since the burst (2003 March 29.48 UT). Middle of the observing run is taken here.(6) Observing frequency. An average of USB and LSB frequencies.``141GHz'' means an average of 146.969 \pm 0.5 GHz and 134.969 \pm 0.5 GHz bands, and``93GHz'' means an average of 98.824 \pm 0.5 GHz and 86.824 \pm 0.5 GHz bands, respectively.(7) Flux density.(8) Noise level (1 \sigma).(9) System noise temperature in DSB. ``Bad'' means that the dataset was useless due to bad weather.(10) Atmospheric phase stability.``Bad'' means a large fraction of the visibility data should be discardeddue to large phase noise.}									
