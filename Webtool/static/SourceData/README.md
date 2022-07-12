@@ -27,6 +27,8 @@ One or both of these data will be present in each file.
     
     * `yyyy-month-deciday-deciday` The year, month and decimal day - range.
     
+    * `yyyy-month-dd-hh:mm` The year, month, day and hours and minutes.
+    
     * `yyyy-mm-dd-hh:mm-hh:mm` Epoch range in standard time format
     
     * `MJD` Modified Julian Day.
