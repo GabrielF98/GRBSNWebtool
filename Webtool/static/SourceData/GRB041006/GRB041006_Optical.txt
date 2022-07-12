@@ -1,7 +1,7 @@
-date	time	exposure	filter	instrument	extinction	band	mag	dmag	date_unit	time_unit	mag_unit
-2004-Nov-2.3	26.7	3832	F775W	HST	0.044	I	23.47	0.05	yyyy-month-deciday	days	Vega
-2004-Nov-2.3	26.7	3430	F850LP	HST	0.041	z	23.01	0.04	yyyy-month-deciday	days	Vega
-2004-Nov-27.4	51.9	4224	F775W	HST	0.044	I	24.57	0.10	yyyy-month-deciday	days	Vega
-2004-Dec-23.4	77.8	4224	F775W	HST	0.044	I	25.29	0.19	yyyy-month-deciday	days	Vega
-2005-Feb-10.3	126.8	4224	F775W	HST	0.044	I	25.73	0.25	yyyy-month-deciday	days	Vega
-2005-Feb-11.2	127.7	4224	F850LP	HST	0.041	z	25.32	0.21	yyyy-month-deciday	days	Vega
+date	time	exposure	filter	instrument	extinction	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit
+2004-Nov-2.3	26.7	3832	F775W	HST	0.044	I	23.47	0	0.05	yyyy-month-deciday	days	Vega
+2004-Nov-2.3	26.7	3430	F850LP	HST	0.041	z	23.01	0	0.04	yyyy-month-deciday	days	Vega
+2004-Nov-27.4	51.9	4224	F775W	HST	0.044	I	24.57	0	0.1	yyyy-month-deciday	days	Vega
+2004-Dec-23.4	77.8	4224	F775W	HST	0.044	I	25.29	0	0.19	yyyy-month-deciday	days	Vega
+2005-Feb-10.3	126.8	4224	F775W	HST	0.044	I	25.73	0	0.25	yyyy-month-deciday	days	Vega
+2005-Feb-11.2	127.7	4224	F850LP	HST	0.041	z	25.32	0	0.21	yyyy-month-deciday	days	Vega

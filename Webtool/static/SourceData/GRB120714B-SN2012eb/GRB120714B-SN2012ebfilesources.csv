@@ -1,4 +1,3 @@
 GRB/SN,Filename,Status,Reference
 GRB120714B-SN2012eb,GRB120714B-SN2012eb_Optical.html,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
 GRB120714B-SN2012eb,Xray,https://www.swift.ac.uk/xrt_curves/
-GRB120714B-SN2012eb,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2012eb/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

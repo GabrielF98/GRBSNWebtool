@@ -8,7 +8,6 @@ GRB130702A-SN2013dx,GRB130702A-SN2013dx_Optical5.html,"Early, Late, Optical",htt
 GRB130702A-SN2013dx,GRB130702A-SN2013dx_Optical_2.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2015ApJ...806...52S/abstract
 GRB130702A-SN2013dx,GRB130702A-SN2013dx_Radio_1.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2015ApJ...806...52S/abstract
 GRB130702A-SN2013dx,Xray,https://www.swift.ac.uk/xrt_curves/
-GRB130702A-SN2013dx,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2013dx/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
 GRB130702A-SN2013dx,OpenSNSpectra2.json,Spectra,https://api.astrocats.space/SN2013dx/spectra/?item=2&format=json
 GRB130702A-SN2013dx,OpenSNSpectra11.json,Spectra,https://api.astrocats.space/SN2013dx/spectra/?item=11&format=json
 GRB130702A-SN2013dx,OpenSNSpectra10.json,Spectra,https://api.astrocats.space/SN2013dx/spectra/?item=10&format=json

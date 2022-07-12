@@ -605,6 +605,7 @@
         <!-- RADec refs -->
 
         {% for i in range(radec_refs|length) %}
+        {% if peakmag_refs[i]!=None %}
         {% if 'adsabs' not in radec_refs[i] %}
         <tr>
           <td><a href="{{radec_refs[i]}}" target='_blank'>{{i+event|length+1}} </a></td>
@@ -619,11 +620,13 @@
         </tr>
 
         {% endif %}
+        {% endif %}
         {% endfor %}
 
         <!-- Peakmag refs -->
 
         {% for i in range(peakmag_refs|length) %}
+        {% if peakmag_refs[i]!=None %}
         {% if 'adsabs' not in peakmag_refs[i] %}
         <tr>
           <td><a href="{{peakmag_refs[i]}}" target='_blank'>{{i+event|length+radec_refs|length+1}} </a></td>
@@ -637,6 +640,7 @@
               href="{{peakmag_refs[i]}}" target='_blank'>{{peakmag_refs[i]}} </a></td>
         </tr>
 
+        {% endif %}
         {% endif %}
         {% endfor %}
 
@@ -669,20 +673,20 @@
 
         <!-- Optical plot refs -->
         {% for i in range(optical_refs|length)%}
-        {% if '20' in needed_dict[optical_refs[i]]['name'][-5:] %}
+        {% if '20' in needed_dict[optical_refs[i]]['year'] %}
         <tr>
           <td><a href="{{optical_refs[i]}}"
               target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a>
           </td>
-          <td> {{needed_dict[optical_refs[i]]['name'][:-5]}}<b>{{needed_dict[optical_refs[i]]['name'][-5:]}}</b>: <a
+          <td> {{needed_dict[optical_refs[i]]['names']}}<b> {{needed_dict[optical_refs[i]]['year']}}</b>: <a
               href="{{optical_refs[i]}}" target='_blank'>{{optical_refs[i]}} </a></td>
         </tr>
-        {% elif '19' in needed_dict[optical_refs[i]]['name'][-5:] %}
+        {% elif '19' in needed_dict[optical_refs[i]]['year'] %}
         <tr>
           <td><a href="{{optical_refs[i]}}"
               target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a>
           </td>
-          <td> {{needed_dict[optical_refs[i]]['name'][:-5]}}<b>{{needed_dict[optical_refs[i]]['name'][-5:]}}</b>: <a
+          <td> {{needed_dict[optical_refs[i]]['names']}}<b> {{needed_dict[optical_refs[i]]['year']}}</b>: <a
               href="{{optical_refs[i]}}" target='_blank'>{{optical_refs[i]}} </a></td>
         </tr>
         {% else %}
@@ -690,36 +694,65 @@
           <td><a href="{{optical_refs[i]}}"
               target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}} </a>
           </td>
-          <td> {{needed_dict[optical_refs[i]]['name']}}: <a href="{{optical_refs[i]}}"
+          <td> {{needed_dict[optical_refs[i]]['names']}}: <a href="{{optical_refs[i]}}"
               target='_blank'>{{optical_refs[i]}} </a></td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+
+        <!-- Radio plot refs -->
+        {% for i in range(radio_refs|length)%}
+        {% if '20' in needed_dict[radio_refs[i]]['year'] %}
+        <tr>
+          <td><a href="{{radio_refs}}"
+              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+optical_refs|length+1}} </a>
+          </td>
+          <td> {{needed_dict[radio_refs[i]]['names']}}<b> {{needed_dict[radio_refs[i]]['year']}}</b>: <a
+              href="{{radio_refs[i]}}" target='_blank'>{{radio_refs[i]}} </a></td>
+        </tr>
+        {% elif '19' in needed_dict[radio_refs[i]]['year'] %}
+        <tr>
+          <td><a href="{{radio_refs[i]}}"
+              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+optical_refs|length+1}} </a>
+          </td>
+          <td> {{needed_dict[radio_refs[i]]['names']}}<b> {{needed_dict[radio_refs[i]]['year']}}</b>: <a
+              href="{{radio_refs[i]}}" target='_blank'>{{radio_refs[i]}} </a></td>
+        </tr>
+        {% else %}
+        <tr>
+          <td><a href="{{radio_refs[i]}}"
+              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+optical_refs|length+1}} </a>
+          </td>
+          <td> {{needed_dict[radio_refs[i]]['names']}}: <a href="{{radio_refs[i]}}"
+              target='_blank'>{{radio_refs[i]}} </a></td>
         </tr>
         {% endif %}
         {% endfor %}
 
         <!-- Spectra plot refs -->
         {% for i in range(spec_refs|length)%}
-        {% if '20' in needed_dict[spec_refs[i]]['name'][-5:] %}
+        {% if '20' in needed_dict[spec_refs[i]]['year'] %}
         <tr>
           <td><a href="{{spec_refs[i]}}"
-              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}}
+              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+radio_refs|length+1}}
             </a></td>
-          <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a
+          <td> {{needed_dict[spec_refs[i]]['names']}}<b>{{needed_dict[spec_refs[i]]['year']}}</b>: <a
               href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a></td>
         </tr>
-        {% elif '19' in needed_dict[spec_refs[i]]['names'][-5:] %}
+        {% elif '19' in needed_dict[spec_refs[i]]['names'] %}
         <tr>
           <td><a href="{{spec_refs[i]}}"
-              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}}
+              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+radio_refs|length+1}}
             </a></td>
-          <td> {{needed_dict[spec_refs[i]]['name'][:-5]}}<b>{{needed_dict[spec_refs[i]]['name'][-5:]}}</b>: <a
+          <td> {{needed_dict[spec_refs[i]]['year']}}<b>{{needed_dict[spec_refs[i]]['names']}}</b>: <a
               href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a></td>
         </tr>
         {% else %}
         <tr>
           <td><a href="{{spec_refs[i]}}"
-              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+1}}
+              target='_blank'>{{i+optical_refs|length+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+radio_refs|length+1}}
             </a></td>
-          <td> {{needed_dict[spec_refs[i]]['name']}}: <a href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a>
+          <td> {{needed_dict[spec_refs[i]]['names']}}: <a href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a>
           </td>
         </tr>
         {% endif %}

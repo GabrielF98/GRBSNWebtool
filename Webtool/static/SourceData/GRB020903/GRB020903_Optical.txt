@@ -1,6 +1,6 @@
-date	time	instrument	mag	dmag	date_unit	time_unit	mag_unit
-2002-Sep-4.32	0.9	Palomar 200 inch	19.23	0.10	yyyy-month-deciday	days	Unspecified
-2002-Sep-10.30	6.9	Palomar 200 inch	20.60	0.10	yyyy-month-deciday	days	Unspecified
-2002-Sep-28.25	24.8	MDM 1.3 m	20.80	0.20	yyyy-month-deciday	days	Unspecified
-2002-Oct-7.17	33.8	Palomar 200 inch	20.73	0.17	yyyy-month-deciday	days	Unspecified
-2003-Jul-2.47	302.1	Palomar 200 inch	21.00	0.45	yyyy-month-deciday	days	Unspecified
+date	band	time	instrument	mag	mag_limit	dmag	date_unit	time_unit	mag_unit
+2002-Sep-4.32	R	0.9	Palomar 200 inch	19.23	0	0.1	yyyy-month-deciday	days	Unspecified
+2002-Sep-10.30	R	6.9	Palomar 200 inch	20.6	0	0.1	yyyy-month-deciday	days	Unspecified
+2002-Sep-28.25	R	24.8	MDM 1.3 m	20.8	0	0.2	yyyy-month-deciday	days	Unspecified
+2002-Oct-7.17	R	33.8	Palomar 200 inch	20.73	0	0.17	yyyy-month-deciday	days	Unspecified
+2003-Jul-2.47	R	302.1	Palomar 200 inch	21.0	0	0.45	yyyy-month-deciday	days	Unspecified
