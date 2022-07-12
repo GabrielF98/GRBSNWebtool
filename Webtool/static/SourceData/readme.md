@@ -23,11 +23,16 @@ One or both of these data will be present in each file.
     
     *`yyyy-mm-deciday-deciday` The year, numerical month and  decimal day - range.
     
+    *`yyyy-month-deciday-month-deciday` The year, month and deciday, both are ranges.
+    
     * `yyyy-month-deciday-deciday` The year, month and decimal day - range.
+    
+    * `yyyy-month-dd-hh:mm` The year, month, day and hours and minutes.
     
     * `yyyy-mm-dd-hh:mm-hh:mm` Epoch range in standard time format
     
     * `MJD` Modified Julian Day.
+    * `MJD-MJD` Modified Julian Day - range. 
   
   * `time` The elapsed time since the reference point of the data. For GRBs this will usually be the trigger time but could also be the peak time of the SN lightcurve.
   
@@ -101,7 +106,8 @@ The descriptions of the bands are listed here for reference purposes.
     **Radio Observing Bands**
     * `freq` The frequency of the radio observation.
     
-    * `freq_unit` The unit of the frequency. GHz normally.
+    * `freq_unit` The unit of the frequency. GHz/MHz
+    * `beam` The size of the telescope beam, measured in arcseconds.
     
     **Spectra**
 
