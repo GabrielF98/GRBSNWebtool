@@ -3,7 +3,7 @@ import numpy as np
 
 import pandas as pd
 
-data = pd.read_csv('tns_IcBLs_May22022.csv')
+data = pd.read_csv('tns_search_Aug2022.csv')
 
 redshift = data['Redshift']
 sn_names = data['Name']
@@ -11,8 +11,8 @@ sn_names = data['Name']
 # spec_IcBLs_with_GRBs = ['2016jca', '2017htp', '2017iuk', '2018fip', '2019jrj', '2020bvc', 'AT2019oyw']
 
 #Number of SN events per year with and without GRBs
-event_years_with = [1, 2, 1, 2, 1, 0, 0] #Including those discovered by association with a GRB
-event_years_with_grb = [0, 0, 0, 0, 2, 1, 1]
+event_years_with = [1, 2, 1, 2, 1, 0, 0] # Spectroscopic
+event_years_with_grb = [0, 0, 0, 0, 2, 1, 1] # Photometric
 event_years_without = [0, 0, 0, 0, 0, 0, 0]
 
 #Loop over the names of the Ic-BLs
