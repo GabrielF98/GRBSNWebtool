@@ -103,6 +103,8 @@ The descriptions of the bands are listed here for reference purposes.
    * `angstrom` 
 
     **X-ray Observatory Frequency Ranges**
+    * `energy_range` 
+    * `flux` The flux within the energy band.
     
     **Radio Observing Bands**
     * `freq` The frequency of the radio observation.
