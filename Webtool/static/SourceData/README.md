@@ -30,6 +30,7 @@ One or both of these data will be present in each file.
     * `yyyy-month-dd-hh:mm` The year, month, day and hours and minutes.
     
     * `yyyy-mm-dd-hh:mm-hh:mm` Epoch range in standard time format
+    * `yyyy-month-dd-hh.h-hh.h` Year, month, day and decimal hours.
     
     * `MJD` Modified Julian Day.
     * `MJD-MJD` Modified Julian Day - range. 
