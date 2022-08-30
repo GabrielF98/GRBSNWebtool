@@ -106,8 +106,10 @@ The descriptions of the bands are listed here for reference purposes.
     **Radio Observing Bands**
     * `freq` The frequency of the radio observation.
     
-    * `freq_unit` The unit of the frequency. GHz/MHz
+    * `freq_unit` The unit of the frequency. GHz/MHz.
     * `beam` The size of the telescope beam, measured in arcseconds.
+    * `bandwidth` The bandwidth of the observation
+    * `bandwidth_unit` Unit of the bandwidth. GHz/MHz.
     
     **Spectra**
 
