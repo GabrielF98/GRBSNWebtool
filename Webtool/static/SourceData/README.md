@@ -139,3 +139,4 @@ The descriptions of the bands are listed here for reference purposes.
 
  * `optical_depth` Sometimes listed for radio.
  * `position_angle` Sometimes used in radio. 
+ * `polarisation` Measured in radio on occasion.
