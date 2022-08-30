@@ -21,6 +21,8 @@ One or both of these data will be present in each file.
     
     *`yyyy-mm-deciday` The year, numerical month and  decimal day.
     
+    *`yyyy-month-dd-hh:mm:ss` The year, month, day and hours, min, sec.
+    
     *`yyyy-mm-deciday-deciday` The year, numerical month and  decimal day - range.
     
     *`yyyy-month-deciday-month-deciday` The year, month and deciday, both are ranges.
