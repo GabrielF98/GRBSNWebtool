@@ -128,6 +128,7 @@ The descriptions of the bands are listed here for reference purposes.
    * `AAT`
   
  * `integration` The duration of the measurement. The default time unit is seconds.
+ * `integration_unit` The units for the integration time.
  
  * `seeing` The seeing in arcseconds.
  * `extinction` The extinction in the associated band and with the associated units.
