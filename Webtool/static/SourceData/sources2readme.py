@@ -36,8 +36,10 @@ for folder in folders:
 		datatypes = [] # Is the data optical, early etc.
 		source = [] # Where is the data from.
 
+
 		for i in range(len(readme_lines)):
-			if 'Filename:' in readme_lines[i]:
+			# Read the line and check have we written to this file's line before?
+			if 'Filename:' in readme_lines[i] and 'Source:' not in readme_lines[i+1]:
 				print(readme_lines[i])
 				index.append(i+1) # Record line number where we want to insert this line.
 				new = filesources.loc[filesources['Filename']==readme_lines[i].split(":")[1][1:-1]] # Get the index in the df where that Filename occurs.
@@ -46,6 +48,7 @@ for folder in folders:
 				# Save the data we want. 
 				datatypes.append(new['Status'])
 				source.append(new['Reference'])
+
 
 		# Write the new rows and the existing ones to the file.
 		# For the datatypes
