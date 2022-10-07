@@ -21,6 +21,8 @@ One or both of these data will be present in each file.
     
     *`yyyy-mm-deciday` The year, numerical month and  decimal day.
     
+    *`yyyy-month-dd-hh:mm:ss` The year, month, day and hours, min, sec.
+    
     *`yyyy-mm-deciday-deciday` The year, numerical month and  decimal day - range.
     
     *`yyyy-month-deciday-month-deciday` The year, month and deciday, both are ranges.
@@ -30,6 +32,7 @@ One or both of these data will be present in each file.
     * `yyyy-month-dd-hh:mm` The year, month, day and hours and minutes.
     
     * `yyyy-mm-dd-hh:mm-hh:mm` Epoch range in standard time format
+    * `yyyy-month-dd-hh.h-hh.h` Year, month, day and decimal hour range.
     
     * `MJD` Modified Julian Day.
     * `MJD-MJD` Modified Julian Day - range. 
@@ -102,12 +105,17 @@ The descriptions of the bands are listed here for reference purposes.
    * `angstrom` 
 
     **X-ray Observatory Frequency Ranges**
+    * `energy_range` The range of energies covered by the observation.
+    * `flux` The flux within the energy band. Usually going to be:
+     * `erg/cm^2/sec`
     
     **Radio Observing Bands**
     * `freq` The frequency of the radio observation.
     
-    * `freq_unit` The unit of the frequency. GHz/MHz
+    * `freq_unit` The unit of the frequency. GHz/MHz.
     * `beam` The size of the telescope beam, measured in arcseconds.
+    * `bandwidth` The bandwidth of the observation
+    * `bandwidth_unit` Unit of the bandwidth. GHz/MHz.
     
     **Spectra**
 
@@ -126,6 +134,7 @@ The descriptions of the bands are listed here for reference purposes.
    * `AAT`
   
  * `integration` The duration of the measurement. The default time unit is seconds.
+ * `integration_unit` The units for the integration time.
  
  * `seeing` The seeing in arcseconds.
  * `extinction` The extinction in the associated band and with the associated units.
@@ -136,3 +145,5 @@ The descriptions of the bands are listed here for reference purposes.
 
  * `optical_depth` Sometimes listed for radio.
  * `position_angle` Sometimes used in radio. 
+ * `polarisation` Measured in radio on occasion.
+ * `system_noise_temp` The radio system noise temperature in Kelvin
