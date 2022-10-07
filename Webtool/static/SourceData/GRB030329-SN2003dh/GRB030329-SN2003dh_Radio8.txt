@@ -1,0 +1,7 @@
+date	freq	flux_density	dflux_density	beam	date_unit	freq_unit	flux_density_unit
+2003-Mar-29-Mar-30	86	82	52	57	yyyy-month-deciday-month-deciday	GHz	milliJy
+2003-Mar-29-Mar-30	215	201	308	23	yyyy-month-deciday-month-deciday	GHz	milliJy
+2003-Mar-30-Mar-31	86	-2	78	57	yyyy-month-deciday-month-deciday	GHz	milliJy
+2003-Mar-30-Mar-31	215	-49	262	23	yyyy-month-deciday-month-deciday	GHz	milliJy
+2003-Mar-31-Apr-01	86	38	65	57	yyyy-month-deciday-month-deciday	GHz	milliJy
+2003-Mar-31-Apr-01	215	-144	250	23	yyyy-month-deciday-month-deciday	GHz	milliJy

@@ -1,0 +1,7 @@
+date	time	freq	integration	bandwidth	polarisation	instrument	date_unit	time_unit	freq_unit	integration_unit
+2003-Jun 20	83	8.409	138	50	2	Y27	yyyy-month-deciday	days	GHz	minutes
+2003-Nov-01	217	8.409	138	50	2	Y27	yyyy-month-deciday	days	GHz	minutes
+2003-Nov-01	217	8.409	165	32	2	VLBA,EB, GBT, Y27,WB, AR, MC, and NT	yyyy-month-deciday	days	GHz	minutes
+2003-Nov-30	247	1.216	30	12	2	AR	yyyy-month-deciday	days	GHz	minutes
+2003-Nov-30	247	1.428	50	12	2	AR	yyyy-month-deciday	days	GHz	minutes
+2003-Nov-30	247	1.473	30	12	2	AR	yyyy-month-deciday	days	GHz	minutes

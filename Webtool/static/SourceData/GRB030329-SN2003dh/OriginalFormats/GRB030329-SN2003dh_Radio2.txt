@@ -1,0 +1,16 @@
+Table 1 
+VLA and WSRT Observations of the GRB 030329 Radio Afterglow at 5 GHz
+
+
+Date	Deltat	Frequency	Flux Density	Instrument	
+	(days)	(GHz)	(muJy)		
+2005 Jan 29	671.90	4.86	324 +or- 28	VLA-B^1	
+2005 Mar 31	732.74	4.86	196 +or- 31	VLA-A^2	
+2005 Apr 07	739.73	4.86	270 +or- 29	VLA-C^1	
+2005 May 14	777.06	4.85	276 +or- 38	WSRT^5	
+2005 Jun 08	801.53	4.86	279 +or- 27	VLA-A^2	
+2005 Nov 27	974.51	4.80	197 +or- 40	WSRT^6	
+2006 Mar 22	1088.7	4.86	169 +or- 31	VLA-A^3	
+2006 Apr 30	1128.0	4.80	149 +or- 34	WSRT^7	
+2008 Feb 04	1773.3	4.86	70 +or- 17	VLA-A^4	
+Notes. The data were taken under VLA project codes AF414^1, AK583^2, AS864^3, and TYP100^4, and WSRT sequence numbers 10502389^5, 10506025^6, and 10602115^7. WSRT data appearing in this table correspond to data from van der Horst et al. (2005, 2008) that were re-analyzed to ensure uniformity of analysis across all data points.
