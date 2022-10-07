@@ -1,9 +1,22 @@
 # Data Standardisation
 
-We have undertaken to convert all data gathered for the GRBSN webtool into a common format. 
-The format is described in this document for the benefit of the end users.
+One of the major aims of the GRBSN webtool is to make all of the data for GRB-SNe available in one location. Key to this is the conversion of all of the data into a common format. This format is described in this readme for the benefit of the end users.
 
-## Categories available in the webtool
+# How to standardise your data for upload to the webtool
+The data should be converted to the format shown below. Here is an example file:
+
+```
+date	time	freq	flux_density	dflux_density	VLA_Project_Code	date_unit	time_unit	freq_unit	flux_density_unit
+2004-Dec-09	621.2	1.4	650	70	AF414	yyyy-month-deciday	days	GHz	microJy
+2004-Dec-09	621.2	8.5	250	30	AF414	yyyy-month-deciday	days	GHz	microJy
+2004-Dec-23	635.1	1.4	590	70	AF414	yyyy-month-deciday	days	GHz	microJy
+```
+
+There are two types of column: one type contains data, and the other type of column describes the units for the data column. The columns and the data therin are separated by tabs. The categories available for the data are listed in the next section. The filename should contain the name of the GRB, name of the SN and the type of data in the file. For example: GRB030329-SN2003dh_Radio.txt
+
+
+
+# Categories available in the webtool
 It is important to note that these headings will not appear in all files. They only appear if
 the original data fits into one of these categories. The list is organised by category, then column, 
 then the associated unit columns and units. 
