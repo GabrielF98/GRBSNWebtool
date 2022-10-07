@@ -1,0 +1,10 @@
+date	flux_density	dflux_density	freq	date_unit	flux_density_unit	freq_unit
+2003-Mar-31-18:30	0.33	0.09	1280	yyyy-month-day-hh:mm	milliJy	MHz
+2003-Apr-01-20:30	0.33	0.09	1280	yyyy-month-day-hh:mm	milliJy	MHz
+2003-May-30-16:30	1.10	0.15	1280	yyyy-month-day-hh:mm	milliJy	MHz
+2003-Jun-28-11:00	1.40	0.16	1280	yyyy-month-day-hh:mm	milliJy	MHz
+2003-Aug-09-07:30	2.50	0.25	1280	yyyy-month-day-hh:mm	milliJy	MHz
+2003-Oct-20-05:00	1.50	0.17	1280	yyyy-month-day-hh:mm	milliJy	MHz
+2003-Dec-03-00:20	1.30	0.14	1280	yyyy-month-day-hh:mm	milliJy	MHz
+2004-Jan-29-22:12	1.20	0.18	1280	yyyy-month-day-hh:mm	milliJy	MHz
+2004-Apr-18-14:32	1.10	0.12	1280	yyyy-month-day-hh:mm	milliJy	MHz

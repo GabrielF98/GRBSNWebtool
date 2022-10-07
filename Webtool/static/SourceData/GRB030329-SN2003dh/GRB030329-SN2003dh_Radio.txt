@@ -1,28 +1,23 @@
-Table 1 
-Observations of the GRB 030329 Radio Afterglow at 1.4, 4.9, and 8.5 GHz Taken from the NRAO Data Archive and Not Appearing in a Previous Publication
-
-
-Date	Deltat	Frequency	Flux Density	VLA Project Code	
-(days)	(GHz)	(muJy)	
-2004 Dec 9	621.2	1.4	650 +or- 70	AF414	
-2004 Dec 9	621.2	8.5	250 +or- 30	AF414	
-2004 Dec 23	635.1	1.4	590 +or- 70	AF414	
-2004 Dec 23	635.1	4.9	370 +or- 60	AF414	
-2004 Dec 23	635.1	8.5	300 +or- 40	AF414	
-2005 Jan 23	665.9	1.4	420 +or- 80	AK583	
-2005 Jan 30	672.9	1.4	480 +or- 70	AK583	
-2005 Jan 31	673.7	1.4	510 +or- 80	AS796	
-2005 Mar 31	732.7	8.5	260 +or- 40	AK583	
-2005 Apr 7	739.7	1.4	650 +or- 40	AF414	
-2005 Apr 7	739.7	8.5	300 +or- 30	AF414	
-2005 Jun 8	801.5	1.4	380 +or- 10	AK583	
-2005 Oct 21	937.0	8.5	100 +or- 30	AK583	
-2005 Oct 29	944.5	8.5	120 +or- 30	AK583	
-2005 Dec 14	990.5	8.5	180 +or- 20	AK583	
-2005 Dec 26	1003.1	8.5	140 +or- 30	AK583	
-2006 Mar 22	1088.7	1.4	630 +or- 30	AS864	
-2006 Mar 22	1088.7	8.5	170 +or- 20	AS864	
-2006 Apr 15	1266.2	8.5	80 +or- 30	AS864	
-2006 Apr 29	1126.5	4.9	080 +or- 20	AS933	
-2006 Sep 15	1266.2	4.9	170 +or- 50	AS864	
-2011 Jul 3	3018.2	4.9	32 +or- 10	10C-203	
+date	time	freq	flux_density	dflux_density	VLA_Project_Code	date_unit	time_unit	freq_unit	flux_density_unit
+2004-Dec-09	621.2	1.4	650	70	AF414	yyyy-month-deciday	days	GHz	microJy
+2004-Dec-09	621.2	8.5	250	30	AF414	yyyy-month-deciday	days	GHz	microJy
+2004-Dec-23	635.1	1.4	590	70	AF414	yyyy-month-deciday	days	GHz	microJy
+2004-Dec-23	635.1	4.9	370	60	AF414	yyyy-month-deciday	days	GHz	microJy
+2004-Dec-23	635.1	8.5	300	40	AF414	yyyy-month-deciday	days	GHz	microJy
+2005-Jan-23	665.9	1.4	420	80	AK583	yyyy-month-deciday	days	GHz	microJy
+2005-Jan-30	672.9	1.4	480	70	AK583	yyyy-month-deciday	days	GHz	microJy
+2005-Jan-31	673.7	1.4	510	80	AS796	yyyy-month-deciday	days	GHz	microJy
+2005-Mar-31	732.7	8.5	260	40	AK583	yyyy-month-deciday	days	GHz	microJy
+2005-Apr-07	739.7	1.4	650	40	AF414	yyyy-month-deciday	days	GHz	microJy
+2005-Apr-07	739.7	8.5	300	30	AF414	yyyy-month-deciday	days	GHz	microJy
+2005-Jun-08	801.5	1.4	380	10	AK583	yyyy-month-deciday	days	GHz	microJy
+2005-Oct-21	937.0	8.5	100	30	AK583	yyyy-month-deciday	days	GHz	microJy
+2005-Oct-29	944.5	8.5	120	30	AK583	yyyy-month-deciday	days	GHz	microJy
+2005-Dec-14	990.5	8.5	180	20	AK583	yyyy-month-deciday	days	GHz	microJy
+2005-Dec-26	1003.1	8.5	140	30	AK583	yyyy-month-deciday	days	GHz	microJy
+2006-Mar-22	1088.7	1.4	630	30	AS864	yyyy-month-deciday	days	GHz	microJy
+2006-Mar-22	1088.7	8.5	170	20	AS864	yyyy-month-deciday	days	GHz	microJy
+2006-Apr-15	1266.2	8.5	80	30	AS864	yyyy-month-deciday	days	GHz	microJy
+2006-Apr-29	1126.5	4.9	080	20	AS933	yyyy-month-deciday	days	GHz	microJy
+2006-Sep-15	1266.2	4.9	170	50	AS864	yyyy-month-deciday	days	GHz	microJy
+2011-Jul-03	3018.2	4.9	32	10	10C-203	yyyy-month-deciday	days	GHz	microJy

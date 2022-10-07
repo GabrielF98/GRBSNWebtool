@@ -1,6 +1,8 @@
 Event Name: GRB011121-SN2001ke
 =========================================================
 Filename: GRB020305_Optical.txt
+Source: https://ui.adsabs.harvard.edu/abs/2005A%26A...437..411G/abstract
+Data-type: Early, Optical
 ---------------------------------------------------------
 Notes:
 {\star} Composed by 9 exposures of different durations.

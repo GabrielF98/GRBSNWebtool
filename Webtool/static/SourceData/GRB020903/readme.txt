@@ -2,16 +2,22 @@ Event Name: GRB020903
 
 =========================================================
 Filename: GRB020903_Optical.txt
+Source: https://ui.adsabs.harvard.edu/abs/2004ApJ...606..994S/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 Notes: None
 
 =========================================================
 Filename: GRB020903_Radio.txt
+Source: https://ui.adsabs.harvard.edu/abs/2004ApJ...606..994S/abstract
+Data-type: Late, Radio
 ---------------------------------------------------------
 Notes: 2002 Sep 30.23 was a VLBA observation
 
 =========================================================
 Filename: GRB020903_Optical2.txt
+Source: https://ui.adsabs.harvard.edu/abs/2006ApJ...643..284B/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 Notes: Notes.—The data in this table supersede the data presented by Fruchter et al. (2002), Gorosabel et al. (2002), and Levan et al. (2002). This is the photometry of the OT only, after subtraction of the host galaxy. 
 
@@ -22,12 +28,16 @@ instrument column: The key to telescope identification is as follows: CTIO 4 m: 
 
 =========================================================
 Filename: GRB020903_Optical3.txt
+Source: https://ui.adsabs.harvard.edu/abs/2006ApJ...643..284B/abstract
+Data-type: Late, Optical
 ---------------------------------------------------------
 F606W: These magnitudes have been corrected for oversubtraction (see text).
 R-band magnitudes: From F606W, assuming that the SED is a power law (Fν ∝ νβ) with index β = -4. The uncertainties in these magnitudes are the same as for the F606W measurements.
 
 =========================================================
 Filename: GRB020903_Optical4.txt
+Source: https://ui.adsabs.harvard.edu/abs/2005ApJ...627..877S/abstract
+Data-type: Late, Optical
 ---------------------------------------------------------
 HST magnitudes: From residual image. Observed magnitude, not corrected for foreground extinction.
 extinction column: Galactic extinction from Schlegel et al. (1998).

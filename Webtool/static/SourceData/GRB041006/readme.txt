@@ -1,6 +1,8 @@
 Event Name: GRB041006
 =========================================================
 Filename: GRB041006_Optical.txt
+Source: https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+Data-type: Optical
 ---------------------------------------------------------
  In the OriginalFiles folder: The fourth column AB system magnitudes in the HST filters given in the fifth column. Photometry was done on residual images (see § 3). We have assumed the source flux to be negligible in the final (template) epoch for GRB 040924. For GRB 041006, we estimated the source flux in the template epoch using PSF photometry and corrected the residual photometry accordingly. All represent observed magnitudes, not corrected for foreground extinction.
 
