@@ -19,19 +19,22 @@ source = [] # Where is the data from.
 
 for i in range(len(readme_lines)):
 	if 'Filename:' in readme_lines[i]:
-		index.append(i) # Record line number where we want to insert this line.
-		loc = filesources.loc[filesources['Filename']==readme_lines[i].split(":")[1][1:-1]] # Get the index in the df where that Filename occurs.
+		index.append(i+1) # Record line number where we want to insert this line.
+		new = filesources.loc[filesources['Filename']==readme_lines[i].split(":")[1][1:-1]] # Get the index in the df where that Filename occurs.
+		new = new.reset_index() # Reset the index
 
 		# Save the data we want. 
-		datatypes.append(loc['Status'])
-		source.append(loc['Reference'])
+		datatypes.append(new['Status'])
+		source.append(new['Reference'])
 
 # Write the new rows and the existing ones to the file.
 # For the datatypes
 for i in range(len(index)):
-	readme_lines.insert(index[i], datatypes[i])
-	readme_lines.insert(index[i], source[i])
+
+	readme_lines.insert(index[i]+i*2, 'Data-type: '+datatypes[i][0]+'\n')
+	readme_lines.insert(index[i]+i*2, 'Source: '+source[i][0]+'\n')
 
 # Write to the file
 with open('readme.txt', 'w') as file:
-	file.writelines(readme_lines) 
+	readme_lines = "".join(readme_lines)
+	file.write(readme_lines) 
