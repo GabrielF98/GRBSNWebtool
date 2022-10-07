@@ -4,15 +4,15 @@ Filename: GRB030329-SN2003dh_Radio.txt
 Source: https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract
 Data-type: Late, Radio
 ---------------------------------------------------------
-Observations of the GRB 030329 Radio Afterglow at 1.4, 4.9, and 8.5 GHz Taken from the NRAO Data Archive and Not Appearing in a Previous Publication
+Notes: Observations of the GRB 030329 Radio Afterglow at 1.4, 4.9, and 8.5 GHz Taken from the NRAO Data Archive and Not Appearing in a Previous Publication
 =========================================================
 Filename: GRB030329-SN2003dh_Radio2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract
 Data-type: Late, Radio
 ---------------------------------------------------------
-VLA and WSRT Observations of the GRB 030329 Radio Afterglow at 5 GHz
+Notes: VLA and WSRT Observations of the GRB 030329 Radio Afterglow at 5 GHz
 
-Notes. The data were taken under VLA project codes AF414^1, AK583^2, AS864^3, and TYP100^4, and WSRT sequence numbers 10502389^5, 10506025^6, and 10602115^7. WSRT data appearing in this table correspond to data from van der Horst et al. (2005, 2008) that were re-analyzed to ensure uniformity of analysis across all data points.
+Notes: The data were taken under VLA project codes AF414^1, AK583^2, AS864^3, and TYP100^4, and WSRT sequence numbers 10502389^5, 10506025^6, and 10602115^7. WSRT data appearing in this table correspond to data from van der Horst et al. (2005, 2008) that were re-analyzed to ensure uniformity of analysis across all data points.
 =========================================================
 Filename: GRB030329-SN2003dh_Radio3.txt
 Source: https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract
