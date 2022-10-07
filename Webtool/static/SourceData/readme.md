@@ -135,3 +135,4 @@ The descriptions of the bands are listed here for reference purposes.
  * `kcorr` The k correction. This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
 
  * `optical_depth` Sometimes listed for radio.
+ * `position_angle` Sometimes used in radio. 
