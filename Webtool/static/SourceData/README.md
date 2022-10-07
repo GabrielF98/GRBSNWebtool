@@ -12,7 +12,9 @@ date	time	freq	flux_density	dflux_density	VLA_Project_Code	date_unit	time_unit	f
 2004-Dec-23	635.1	1.4	590	70	AF414	yyyy-month-deciday	days	GHz	microJy
 ```
 
-There are two types of column: one type contains data, and the other type of column describes the units for the data column. The columns and the data therin are separated by tabs. The categories available for the data are listed in the next section. The filename should contain the name of the GRB, name of the SN and the type of data in the file. For example: GRB030329-SN2003dh_Radio.txt
+There are two types of column: one type contains data, and the other type of column describes the units for the data column. The columns and the data therin are separated by tabs. The categories available for the data are listed in the next section. 
+
+The filename should contain the name of the GRB, name of the SN and the type of data in the file. For example: GRB030329-SN2003dh_Radio.txt
 
 
 
