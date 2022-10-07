@@ -19,7 +19,6 @@ print(folders)
 
 
 for folder in folders:
-	print(folder)
 
 	# Open the filesources file. 
 	filesources = pd.read_csv(folder+'/'+folder+'filesources.csv', header=0)
@@ -40,7 +39,6 @@ for folder in folders:
 		for i in range(len(readme_lines)):
 			# Read the line and check have we written to this file's line before?
 			if 'Filename:' in readme_lines[i] and 'Source:' not in readme_lines[i+1]:
-				print(readme_lines[i])
 				index.append(i+1) # Record line number where we want to insert this line.
 				new = filesources.loc[filesources['Filename']==readme_lines[i].split(":")[1][1:-1]] # Get the index in the df where that Filename occurs.
 				new = new.reset_index() # Reset the index
@@ -52,6 +50,7 @@ for folder in folders:
 
 		# Write the new rows and the existing ones to the file.
 		# For the datatypes
+		print(datatypes, source)
 		for i in range(len(index)):
 
 			readme_lines.insert(index[i]+i*2, 'Data-type: '+datatypes[i][0]+'\n')
