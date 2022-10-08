@@ -2,7 +2,7 @@
 Creates a markdown readme from the txt readmes for the GRB-SN data files. 
 '''
 
-import snakemd
+from snakemd import Document
 import os
 
 # List of the folders to look for.
@@ -23,6 +23,8 @@ for folder in folders:
 		readmelines = readme.readlines()
 
 	# Create a markdown doc in the correct folder. 
-	doc = snakemd.new_doc(folder+'/readme.md')
+	doc = Document(folder+"/readme.txt")
+	doc.add_header("Why Use SnakeMD?")
+	doc.output_page()
 
 	# 
