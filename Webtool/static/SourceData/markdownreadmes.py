@@ -14,7 +14,6 @@ for file in os.listdir():
         elif 'SN' in file:
         	folders.append(file)
 
-folders = ['GRB030329-SN2003dh']
 # Loop over the folders.
 for folder in folders:
 
