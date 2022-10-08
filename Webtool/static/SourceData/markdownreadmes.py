@@ -39,7 +39,7 @@ for folder in folders:
 		doc.add_header((readmelines[linenos[i]+1]).split(' ')[1], 3) # The filename
 		p = doc.add_paragraph('**'+readmelines[linenos[i]+2].split(' ')[0]+'** '+readmelines[linenos[i]+2].split(' ')[1])
 		p.add_paragraphinsert_link = (readmelines[linenos[i]+2].split(' ')[1], readmelines[linenos[i]+2].split(' ')[1]) # The source
-		doc.add_paragraph(readmelines[linenos[i]+3]) # The datatype
+		doc.add_paragraph('**'+(readmelines[linenos[i]+3]).split(' ')[0]+'** '+(readmelines[linenos[i]+3]).split(' ')[1]) # The datatype
 		
 		# Add a new line for each note.
 		# for note in range(linenos[i+1]-linenos[i]+5): # Range from the first note to the last.
