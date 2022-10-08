@@ -6,7 +6,7 @@
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract
 
-**Data-type:** Late,
+**Data-type:** Late, Radio
 
 **Notes**
 
@@ -17,7 +17,7 @@ Notes: Observations of the GRB 030329 Radio Afterglow at 1.4, 4.9, and 8.5 GHz T
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract
 
-**Data-type:** Late,
+**Data-type:** Late, Radio
 
 **Notes**
 
@@ -32,7 +32,7 @@ Notes: The data were taken under VLA project codes AF414^1, AK583^2, AS864^3, an
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract
 
-**Data-type:** Late,
+**Data-type:** Late, Radio
 
 **Notes**
 
@@ -59,7 +59,7 @@ All upper limits are 3 sigma.
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract
 
-**Data-type:** Late,
+**Data-type:** Late, Radio
 
 **Notes**
 
@@ -78,7 +78,7 @@ For the observation on: 2005-Jun-28.59 - Formal flux measurement at the GRB posi
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract
 
-**Data-type:** Late,
+**Data-type:** Late, Radio
 
 **Notes**
 
@@ -89,7 +89,7 @@ Note.—EB = 100 m Effelsberg telescope; GBT = 105 m Green Bank Telescope; WB = 
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2006ApJ...641L..13G/abstract
 
-**Data-type:** Early,
+**Data-type:** Early, Optical
 
 **Notes**
 
@@ -100,7 +100,7 @@ Table: Light-Curve Data for GRB 030329
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract
 
-**Data-type:** Early,
+**Data-type:** Early, Late, Radio
 
 **Notes**
 
@@ -115,7 +115,7 @@ In the case of the observations on: 2003-Aug-2.619-2.668 - The flux of surroundi
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract
 
-**Data-type:** Early,
+**Data-type:** Early, Late, Radio
 
 **Notes**
 
@@ -126,7 +126,7 @@ In the case of the observations on: 2003-Aug-2.619-2.668 - The flux of surroundi
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract
 
-**Data-type:** Early,
+**Data-type:** Early, Late, Optical
 
 **Notes**
 
@@ -170,7 +170,7 @@ In the case of the observation on: 2003-04-05.269-05.302 - The observation was n
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2005ApJ...622..986T/abstract
 
-**Data-type:** Late,
+**Data-type:** Late, Radio
 
 **Notes**
 
@@ -181,7 +181,7 @@ EB = 100 m Effelsberg telescope; Y27 = phased VLA; GBT = 105 m Green Bank Telesc
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract
 
-**Data-type:** Early,
+**Data-type:** Early, Late, Radio
 
 **Notes**
 
@@ -194,7 +194,7 @@ Table 1. Nobeyama Millimeter Array observations of GRB 030329.
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract
 
-**Data-type:** Late,
+**Data-type:** Late, Radio
 
 **Notes**
 
@@ -205,7 +205,7 @@ Columns are (1) epoch of observation, (2) time in days from burst, (3) flux dens
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
 
-**Data-type:** Early,
+**Data-type:** Early, Late, Xray
 
 **Notes**
 
@@ -216,7 +216,7 @@ Fluxes of the afterglow of GRB 030329 in the 0.5-2 keV energy range.
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2004ApJ...606..381L/abstract
 
-**Data-type:** Early,
+**Data-type:** Early, Optical
 
 **Notes**
 
@@ -324,7 +324,7 @@ Summary of the radio observations of GRB 030329.
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2004AJ....127..252B/abstract
 
-**Data-type:** IR,
+**Data-type:** IR, Optical
 
 **Notes**
 
@@ -343,7 +343,7 @@ d Equivalent flux measurement at the effective wavelength of the respective filt
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract
 
-**Data-type:** Early,
+**Data-type:** Early, Optical
 
 **Notes**
 
@@ -366,7 +366,7 @@ LCO40 = Las Campanas Observatory 1-m telescope (Swope)
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2003ApJ...597L.101T/abstract
 
-**Data-type:** Early,
+**Data-type:** Early, Optical
 
 **Notes**
 
