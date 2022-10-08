@@ -37,10 +37,13 @@ for folder in folders:
 	# Loop over the readme between the ========= marks that divide the files. 
 	for i in range(len(linenos)):
 		doc.add_header((readmelines[linenos[i]+1]).split(' ')[1], 3) # The filename
-		# p = doc.add_paragraph()
-		# p.add_paragraphinsert_link = (readmelines[linenos[i]+2].split(' ')[0], readmelines[num+2].split(' ')[1]) # The source
-		# doc.add_header(readmelines[linenos[i]+3], 4) # They datatype
-		# doc.add_paragraph(readmelines[linenos[i]+5:linenos[i+1]])
+		p = doc.add_paragraph(readmelines[linenos[i]+2])
+		p.add_paragraphinsert_link = (readmelines[linenos[i]+2].split(' ')[1], readmelines[linenos[i]+2].split(' ')[1]) # The source
+		doc.add_paragraph(readmelines[linenos[i]+3]) # The datatype
+		
+		# Add a new line for each note.
+		# for note in range(linenos[i+1]-linenos[i]+5): # Range from the first note to the last.
+		# 	doc.add_paragraph(readmelines[linenos[i]+5+note]) # Notes
 	doc.output_page()
 
 	# 
