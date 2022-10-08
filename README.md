@@ -20,7 +20,7 @@ date	time	freq	flux_density	dflux_density	VLA_Project_Code	date_unit	time_unit	f
 ```
 3. Upload your files to the source folder for the relevant GRB-SN. These source files can be found at [Webtool/static/SourceData](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData).
 
-4. Ensure that the readme.txt file for the GRB-SN is updated correctly after data is added. This file contains the filename, the source (e.g. a NASA ADS link to the paper), the type of data (e.g. Radio) and any notes associated with the data. An example is shown here: 
+4. Ensure that the `readme.txt` file for the GRB-SN is updated correctly after data is added. This file contains the filename, the source (e.g. a NASA ADS link to the paper), the type of data (e.g. Radio) and any notes associated with the data. An example is shown here: 
 
 ```
 Event Name: GRB030329-SN2003dh
