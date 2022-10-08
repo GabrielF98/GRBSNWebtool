@@ -23,8 +23,8 @@ for folder in folders:
 		readmelines = readme.readlines()
 
 	# Create a markdown doc in the correct folder. 
-	doc = Document(folder+"/readme.txt")
-	doc.add_header("Why Use SnakeMD?")
+	doc = Document(folder+"/readme")
+	doc.add_header(readmelines[0])
 	doc.output_page()
 
 	# 
