@@ -1,9 +1,9 @@
 # The GRB-SN Webtool repository
-This repository hosts the data and code for the GRB-SN Webtool. This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
+This repository hosts the data and code for the [GRB-SN Webtool](). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
 
 The GRB-SN Webtool was created by Gabriel Finneran and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper]().
 
-# Alert us about missing/bad data or omitted GRB-SN associations 
+# Missing/bad data or missing GRB-SN associations 
 If you are aware of any missing observations, erroneous data or additional bulk data (e.g. isotropic energy/magnitude) for any of the events in the catalogue you can log this as an issue [here](https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E). 
 
 If there is an association which has been confirmed and is missing from the tool you can log this as an issue [here](https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=missingGRBSN&template=alert-us-about-missing-event.md&title=Missing+data+for+%3Cevent+name+here%3E)
@@ -20,7 +20,7 @@ date	time	freq	flux_density	dflux_density	VLA_Project_Code	date_unit	time_unit	f
 ```
 3. Upload your files to the source folder for the relevant GRB-SN. These source files can be found at [Webtool/static/SourceData](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData).
 
-4. Ensure that the readme.txt file for the GRB-SN is updated correctly after data is added. This file contains the filename, the source (e.g. a NASA ADS link to the paper), the type of data (e.g. Radio) and any notes associated with the data. An example is shown here: 
+4. Ensure that the `readme.txt` file for the GRB-SN is updated correctly after data is added. This file contains the filename, the source (e.g. a NASA ADS link to the paper), the type of data (e.g. Radio) and any notes associated with the data. An example is shown here: 
 
 ```
 Event Name: GRB030329-SN2003dh
