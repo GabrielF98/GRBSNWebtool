@@ -42,7 +42,7 @@ for folder in folders:
 			doc.add_paragraph('**'+(readmelines[linenos[i]+3]).split(':')[0]+':** '+(readmelines[linenos[i]+3]).split(':')[1]) # The datatype
 			
 			# Add a new line for each note.
-			doc.add_paragraph('**Notes**')
+			doc.add_paragraph('**Notes:**')
 			# Is it the last file
 			# No
 			if i+1!=len(linenos):
@@ -50,8 +50,13 @@ for folder in folders:
 					doc.add_paragraph(readmelines[linenos[i]+5+note]) # Notes
 			# Yes
 			else: # If its the last file keep going until the end of the notes.
-				for note in range(len(readmelines)-(linenos[i]-5)): # Range from the first note to the last.
-					doc.add_paragraph(readmelines[linenos[i]-5+note]) # Notes
+				k = len(readmelines)-(linenos[i])
+				if k==1: # Range (0) is [0, 1]
+					doc.add_paragraph(readmelines[linenos[i]+5+note]) # Notes
+
+				else: 
+					for note in range(len(readmelines)-(linenos[i]+5)): # Range from the first note to the last.
+						doc.add_paragraph(readmelines[linenos[i]+5+note]) # Notes
 		
 		# Create the doc. 
 		doc.output_page()

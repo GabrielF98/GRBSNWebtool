@@ -8,7 +8,7 @@
 
 **Data-type:** Early, Late, NIR, Optical
 
-**Notes**
+**Notes:**
 
 Footnotes from table:
 
@@ -31,7 +31,7 @@ nan_values: Image quality affected by guiding problems. Variable seeing due to v
 
 **Data-type:** Early, Late, NIR, Optical
 
-**Notes**
+**Notes:**
 
 Footnotes from table:
 
@@ -44,7 +44,7 @@ None.
 
 **Data-type:** Early, Optical
 
-**Notes**
+**Notes:**
 
 Footnotes from table:
 
@@ -71,7 +71,7 @@ magnitude column: Tabulated brightnesses in the Vega magnitude system (BVega = 0
 
 **Data-type:** Early, NIR
 
-**Notes**
+**Notes:**
 
 Footnotes from table:
 
@@ -84,27 +84,7 @@ Note.—Observations at the du Pont (dP) 2.5 m were made by K. Koviak; observati
 
 **Data-type:** Early, Late, Radio
 
-**Notes**
-
-Source: https://ui.adsabs.harvard.edu/abs/2002ApJ...572L..51P/abstract
-
-Data-type: Early, NIR
-
----------------------------------------------------------
-
-Footnotes from table:
-
-Note.—Observations at the du Pont (dP) 2.5 m were made by K. Koviak; observations at the AAT were made by S. D. Ryder (Nov 22) and K. Gunn (Nov 28); and observations at the Baade telescope were made by M. Phillips. The following reference stars were used. For Ks observations on the AAT, we observed UKIRT Faint Standards FS 7, 11, and 13 (Hawarden et al. 2001) on 2001 November 28. SJ 9113 (Persson et al. 1998) was observed at the du Pont telescope on 2001 November 23. We assumed an atmospheric extinction coefficient of 0.09 mag per air mass in K for the du Pont observations and that the color terms were negligible. We used the reference stars calibrated by Phillips et al. (2001) to calibrate our J-band observations. The AAT measurement of November 28 is contaminated by both the host and the nearby star.
-
-=========================================================
-
-Filename: GRB011121-SN2001ke_Radio.txt
-
-Source: https://ui.adsabs.harvard.edu/abs/2002ApJ...572L..51P/abstract
-
-Data-type: Early, Late, Radio
-
----------------------------------------------------------
+**Notes:**
 
 All observations were obtained using the continuum mode and a 128 MHz bandwidth. The flux calibration was performed using PKS B1934-638, while the phase was monitored using PKS B1057-797.
 

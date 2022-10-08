@@ -8,7 +8,7 @@
 
 **Data-type:** Late, Radio
 
-**Notes**
+**Notes:**
 
 Notes: Observations of the GRB 030329 Radio Afterglow at 1.4, 4.9, and 8.5 GHz Taken from the NRAO Data Archive and Not Appearing in a Previous Publication
 
@@ -19,7 +19,7 @@ Notes: Observations of the GRB 030329 Radio Afterglow at 1.4, 4.9, and 8.5 GHz T
 
 **Data-type:** Late, Radio
 
-**Notes**
+**Notes:**
 
 Notes: VLA and WSRT Observations of the GRB 030329 Radio Afterglow at 5 GHz
 
@@ -34,7 +34,7 @@ Notes: The data were taken under VLA project codes AF414^1, AK583^2, AS864^3, an
 
 **Data-type:** Late, Radio
 
-**Notes**
+**Notes:**
 
 Table footnotes:
 
@@ -61,7 +61,7 @@ All upper limits are 3 sigma.
 
 **Data-type:** Late, Radio
 
-**Notes**
+**Notes:**
 
 Table footnotes:
 
@@ -80,7 +80,7 @@ For the observation on: 2005-Jun-28.59 - Formal flux measurement at the GRB posi
 
 **Data-type:** Late, Radio
 
-**Notes**
+**Notes:**
 
 Note.—EB = 100 m Effelsberg telescope; GBT = 105 m Green Bank Telescope; WB = phased Westerbork array; AR = 305 m Arecibo telescope; JB = 25 m Mark II Telescope.
 
@@ -91,7 +91,7 @@ Note.—EB = 100 m Effelsberg telescope; GBT = 105 m Green Bank Telescope; WB = 
 
 **Data-type:** Early, Optical
 
-**Notes**
+**Notes:**
 
 Table: Light-Curve Data for GRB 030329
 
@@ -102,7 +102,7 @@ Table: Light-Curve Data for GRB 030329
 
 **Data-type:** Early, Late, Radio
 
-**Notes**
+**Notes:**
 
 Table footnotes:
 
@@ -117,7 +117,7 @@ In the case of the observations on: 2003-Aug-2.619-2.668 - The flux of surroundi
 
 **Data-type:** Early, Late, Radio
 
-**Notes**
+**Notes:**
 
 1280 MHz radio observations at GMRT.
 
@@ -128,7 +128,7 @@ In the case of the observations on: 2003-Aug-2.619-2.668 - The flux of surroundi
 
 **Data-type:** Early, Late, Optical
 
-**Notes**
+**Notes:**
 
 Table notes: Optical transient observations
 
@@ -139,7 +139,7 @@ Table notes: Optical transient observations
 
 **Data-type:** Radio
 
-**Notes**
+**Notes:**
 
 Table notes: Results of the ESO/SEST scans on GRB 030329.
 
@@ -150,7 +150,7 @@ Table notes: Results of the ESO/SEST scans on GRB 030329.
 
 **Data-type:** Radio
 
-**Notes**
+**Notes:**
 
 Table notes: Results of the IRAM/PdB scans on GRB 030329.
 
@@ -161,7 +161,7 @@ Table notes: Results of the IRAM/PdB scans on GRB 030329.
 
 **Data-type:** Radio
 
-**Notes**
+**Notes:**
 
 In the case of the observation on: 2003-04-05.269-05.302 - The observation was not corrected for small pointing ettor
 
@@ -172,7 +172,7 @@ In the case of the observation on: 2003-04-05.269-05.302 - The observation was n
 
 **Data-type:** Late, Radio
 
-**Notes**
+**Notes:**
 
 EB = 100 m Effelsberg telescope; Y27 = phased VLA; GBT = 105 m Green Bank Telescope; WB = phased Westerbork array; AR = 305 m Arecibo telescope; MC = Medecina 32 m telescope; NT = Noto 32 m telescope.
 
@@ -183,7 +183,7 @@ EB = 100 m Effelsberg telescope; Y27 = phased VLA; GBT = 105 m Green Bank Telesc
 
 **Data-type:** Early, Late, Radio
 
-**Notes**
+**Notes:**
 
 Table 1. Nobeyama Millimeter Array observations of GRB 030329.
 
@@ -196,7 +196,7 @@ Table 1. Nobeyama Millimeter Array observations of GRB 030329.
 
 **Data-type:** Late, Radio
 
-**Notes**
+**Notes:**
 
 Columns are (1) epoch of observation, (2) time in days from burst, (3) flux density at 1.43 GHz, (4) flux density at 4.86 GHz, (5) flux density at 8.46 GHz, (6) flux density at 15 GHz, and (7) flux density at 22.5 GHz. To maximize sensitivity, the full VLA bandwidth (100 MHz) was recorded in each of two hands of circular polarization. The amplitude scale was calibrated with observations of J1331+303 (3C 286), while phase calibration was achieved with frequent observations of J1051+2119 at all frequencies except for 1.43 GHz, where J1016+2037 was used instead.
 
@@ -207,7 +207,7 @@ Columns are (1) epoch of observation, (2) time in days from burst, (3) flux dens
 
 **Data-type:** Early, Late, Xray
 
-**Notes**
+**Notes:**
 
 Fluxes of the afterglow of GRB 030329 in the 0.5-2 keV energy range.
 
@@ -218,7 +218,7 @@ Fluxes of the afterglow of GRB 030329 in the 0.5-2 keV energy range.
 
 **Data-type:** Early, Optical
 
-**Notes**
+**Notes:**
 
 Title: The detailed optical light curve of GRB 030329
 
@@ -315,7 +315,7 @@ Note (2):
 
 **Data-type:** Radio
 
-**Notes**
+**Notes:**
 
 Summary of the radio observations of GRB 030329.
 
@@ -326,7 +326,7 @@ Summary of the radio observations of GRB 030329.
 
 **Data-type:** IR, Optical
 
-**Notes**
+**Notes:**
 
 NOTE.—These photometric observations have been grouped into 13 epochs. The total duration of the epoch—from the time of the beginning of the first exposure until the ending time of the last exposure—is shown as δt.
 
@@ -345,7 +345,7 @@ d Equivalent flux measurement at the effective wavelength of the respective filt
 
 **Data-type:** Early, Optical
 
-**Notes**
+**Notes:**
 
 Photometry and Spectroscopy of GRB 030329 and its Associated Supernova 2003dh: The First Two Months
 
@@ -368,26 +368,6 @@ LCO40 = Las Campanas Observatory 1-m telescope (Swope)
 
 **Data-type:** Early, Optical
 
-**Notes**
-
-KAIT = 0.76-m Katzman Automatic Imaging Telescope;
-
-LCO100 = Las Campanas Observatory 2.5-m telescope (du Pont);
-
-KPNO4m = Kitt Peak National Observatory 4-m telescope;
-
-Clay = Magellan Clay telescope;
-
-LCO40 = Las Campanas Observatory 1-m telescope (Swope)
-
-=========================================================
-
-Filename: GRB030329-SN2003dh_Optical5.txt
-
-Source: https://ui.adsabs.harvard.edu/abs/2003ApJ...597L.101T/abstract
-
-Data-type: Early, Optical
-
----------------------------------------------------------
+**Notes:**
 
 No notes.

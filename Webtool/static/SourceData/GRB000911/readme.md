@@ -8,7 +8,7 @@
 
 **Data-type:** Late, NIR, Optical
 
-**Notes**
+**Notes:**
 
 Journal of the optical and NIR photometry of the GRB 000911 afterglow. Magnitude uncertainties are at 1$\sigma $ confidence level; upper limits are at 3$\sigma $ confidence level. The magnitudes are not corrected for Galactic interstellar extinction.
 
@@ -23,7 +23,7 @@ Journal of the optical and NIR photometry of the GRB 000911 afterglow. Magnitude
 
 **Data-type:** Early, Optical
 
-**Notes**
+**Notes:**
 
 Notes: This table combines tables 1, 2 and 3 from the relevant paper.
 
@@ -42,26 +42,6 @@ The observations after the VLT list come from spectroscopic measurments.
 
 **Data-type:** Radio
 
-**Notes**
-
-Notes: This table combines tables 1, 2 and 3 from the relevant paper.
-
-
-
-The Keck observations come from Price et al. (2001)
-
-
-
-The observations after the VLT list come from spectroscopic measurments.
-
-=========================================================
-
-Filename: GRB000911_Radio.txt
-
-Source: https://ui.adsabs.harvard.edu/abs/2001A%26A...380...81S/abstract
-
-Data-type: Radio
-
----------------------------------------------------------
+**Notes:**
 
 No Notes.
