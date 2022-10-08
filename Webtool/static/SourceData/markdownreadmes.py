@@ -25,14 +25,13 @@ for folder in folders:
 
 	# Locate the limes in the file where the breaks between the files are. 
 	linenos = []
-	for i, line in enumerate(readmelines):
+	for j, line in enumerate(readmelines):
 		if '=========================================================\n' == line:
-			linenos.append(i)
+			linenos.append(j)
 
-	print(linenos)
 	# Create a markdown doc in the correct folder. 
 	doc = Document(folder+"/readme")
-	doc.add_header(readmelines[0]) # The first line has the GRB-SN ID. 
+	doc.add_header(readmelines[0].split(' ')[2]) # The first line has the GRB-SN ID. 
 
 	# Loop over the readme between the ========= marks that divide the files. 
 	for i in range(len(linenos)):
@@ -42,8 +41,16 @@ for folder in folders:
 		doc.add_paragraph('**'+(readmelines[linenos[i]+3]).split(' ')[0]+'** '+(readmelines[linenos[i]+3]).split(' ')[1]) # The datatype
 		
 		# Add a new line for each note.
-		# for note in range(linenos[i+1]-linenos[i]+5): # Range from the first note to the last.
-		# 	doc.add_paragraph(readmelines[linenos[i]+5+note]) # Notes
+		doc.add_paragraph('**Notes**')
+		# Is it the last file
+		# No
+		if i+1!=len(linenos):
+			for note in range(linenos[i+1]-(linenos[i]+5)): # Range from the first note to the last.
+				doc.add_paragraph(readmelines[linenos[i]+5+note]) # Notes
+		# Yes
+		else: # If its the last file keep going until the end of the notes.
+			for note in range(len(readmelines)-(linenos[i]-5)): # Range from the first note to the last.
+				doc.add_paragraph(readmelines[linenos[i]-5+note]) # Notes
+	
+	# Create the doc. 
 	doc.output_page()
-
-	# 
