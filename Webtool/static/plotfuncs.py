@@ -290,7 +290,7 @@ def elapsed_time(dataframe, trigtime):
             mjd2 = mjds[1]
 
             # Convert the MJDs to isotimes.
-            mjd1iso = Time(mjd1, format='mjd')
+            mjd1iso = Time(str(float(mjd1), format='mjd')
             mjd1iso = Time(mjd1iso.isot, format='isot')
             mjd2iso = Time(mjd2, format='mjd')
             mjd2iso = Time(mjd2iso.isot, format='isot')

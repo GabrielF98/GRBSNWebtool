@@ -49,7 +49,7 @@ Source: https://ui.adsabs.harvard.edu/abs/2006ApJ...641L..13G/abstract
 Data-type: Early, Optical
 ---------------------------------------------------------
 Table: Light-Curve Data for GRB 030329
-The MJDs in this were JD-2450000. MJD in astopy is MJD-2400000.5. In order to be used with astopy, we have added 49999.5.
+The MJDs in this were JD-2450000. MJD in astopy is MJD-2400000.5. In order to be used with astopy, we have added 49999.5 when calculating elapsed time since the trigger.
 =========================================================
 Filename: GRB030329-SN2003dh_Radio6.txt
 Source: https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract
@@ -165,7 +165,7 @@ Note (2):
 	 04 = R band;
 	 05 = I band.
 
-Notes from GF: The MJDs in this were JD-2450000. MJD in astopy is MJD-2400000.5. In order to be used with astopy, we have added 49999.5.
+Notes from GF: The MJDs in this were JD-2450000. MJD in astopy is MJD-2400000.5. In order to be used with astopy, we have added 49999.5 when calculating elapsed time since the trigger.
 =========================================================
 Filename: GRB030329-SN2003dh_Radio14.txt
 Source: https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract
