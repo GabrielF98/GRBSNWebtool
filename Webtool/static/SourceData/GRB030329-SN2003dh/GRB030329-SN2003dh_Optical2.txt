@@ -1,377 +1,377 @@
-date	time	mag	dmag	integration	instrument	band	date_unit	time_unit	mag_unit	integration_unit
-2003-Mar-29.6459	0.1619	13.606	0.051	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6918	0.2078	13.824	0.052	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7042	0.2202	13.831	0.060	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7186	0.2346	13.910	0.061	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7345	0.2505	14.016	0.053	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7477	0.2637	14.069	0.051	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7558	1.2718	16.454	0.053	300	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7738	1.2898	16.486	0.057	300	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7909	1.3069	16.483	0.056	300	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8084	1.3244	16.507	0.063	300	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6524	3.1684	17.156	0.061	400	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7046	3.2206	17.153	0.058	400	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7626	3.2786	17.201	0.055	400	ST	U	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6429	0.1589	14.189	0.026	150	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6483	0.1643	14.1463	0.070	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6552	0.1712	14.248	0.032	100	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6603	0.1763	14.1933	0.046	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6891	0.2051	14.409	0.031	100	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7013	0.2173	14.440	0.022	100	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7153	0.2313	14.534	0.012	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7312	0.2472	14.599	0.016	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7445	0.2605	14.653	0.014	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7574	0.2734	14.704	0.028	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7378	1.2538	17.0433	0.033	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7598	1.2758	17.137	0.015	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7730	1.289	17.0573	0.060	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7776	1.2936	17.170	0.016	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7948	1.3108	17.167	0.014	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8123	1.3283	17.192	0.016	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8359	1.3519	17.0923	0.032	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.5978	2.1138	17.464	0.032	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6707	2.1867	17.3683	0.053	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6763	2.1923	17.421	0.032	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6984	2.2144	17.472	0.030	500	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7192	2.2352	17.496	0.031	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7410	2.257	17.4503	0.028	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7414	2.2574	17.509	0.030	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7598	2.2758	17.508	0.029	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7740	2.29	17.4403	0.029	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7769	2.2929	17.485	0.031	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7970	2.313	17.520	0.029	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8046	2.3206	17.4553	0.020	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8149	2.3309	17.550	0.028	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8343	2.3503	17.4853	0.028	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8387	2.3547	17.586	0.029	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8600	2.376	17.595	0.031	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8806	2.3966	17.617	0.022	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.5967	3.1127	17.866	0.033	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6277	3.1437	17.749	0.038	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7153	3.2313	17.826	0.029	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7207	3.2367	17.831	0.027	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7356	3.2516	17.7193	0.031	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.8582	3.3742	17.791	0.037	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.9000	3.416	17.7843	0.034	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6386	4.1546	18.3483	0.036	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6436	4.1596	18.419	0.041	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6771	4.1931	18.4003	0.029	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6862	4.2022	18.534	0.039	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.7439	4.2599	18.528	0.038	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.7707	4.2867	18.506	0.039	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.6673	6.1833	18.787	0.039	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.6966	6.2126	18.748	0.034	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.7246	6.2406	18.852	0.033	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.6125	7.1285	19.2573	0.067	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.6511	7.1671	19.2373	0.053	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.7416	7.2576	19.2963	0.046	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.7702	7.2862	19.3183	0.044	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.8037	7.3197	19.3153	0.046	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.8293	7.3453	19.3683	0.030	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.8618	7.3778	19.3873	0.045	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.6438	8.1598	19.6213	0.027	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.6559	8.1719	19.6443	0.028	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.7522	8.2682	19.6063	0.030	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.8384	8.3544	19.6183	0.039	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.8505	8.3665	19.6553	0.034	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-7.6122	9.1282	19.761	0.144	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6260	10.142	19.983	0.069	600	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6641	10.1801	19.943	0.076	600	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6933	10.2093	19.919	0.064	600	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.6368	12.1528	20.287	0.087	900	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.7059	12.2219	20.1933	0.030	600X4	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-11.6782	13.1942	20.432	0.177	600	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-May-1.6271	33.1431	22.214	0.156	3*500+900	ST	B	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6310	0.147	13.8983	0.029	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6363	0.1523	13.848	0.020	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6515	0.1675	13.930	0.023	75	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6872	0.2032	14.087	0.021	50	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6991	0.2151	14.142	0.017	100	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7127	0.2287	14.213	0.018	100	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7284	0.2444	14.266	0.033	100	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7416	0.2576	14.331	0.018	100	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7552	0.2712	14.371	0.032	100	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7985	0.3145	14.569	0.032	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.8773	0.3933	14.9323	0.050	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.6674	1.1834	16.7423	0.047	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7486	1.2646	16.7943	0.050	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7632	1.2792	16.790	0.013	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7809	1.2969	16.789	0.013	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7836	1.2996	16.8153	0.032	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7980	1.314	16.773	0.013	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8202	1.3362	16.825	0.013	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8256	1.3416	16.8363	0.040	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8680	1.384	16.8183	0.046	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8998	1.4158	16.8353	0.050	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6026	2.1186	17.111	0.013	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6531	2.1691	17.1033	0.064	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6811	2.1971	17.094	0.024	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7041	2.2201	17.126	0.018	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7263	2.2423	17.148	0.017	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7308	2.2468	17.1783	0.055	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7459	2.2619	17.150	0.016	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7589	2.2749	17.1653	0.052	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7643	2.2803	17.148	0.018	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7814	2.2974	17.157	0.020	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7894	2.3054	17.1883	0.040	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8015	2.3175	17.179	0.014	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8211	2.3371	17.212	0.014	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8216	2.3376	17.2143	0.062	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8444	2.3604	17.227	0.016	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8498	2.3658	17.2443	0.069	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8656	2.3816	17.253	0.014	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8781	2.3941	17.2633	0.055	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8862	2.4022	17.253	0.020	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.9177	2.4337	17.2843	0.059	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6139	3.1299	17.438	0.017	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6727	3.1887	17.453	0.017	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6758	3.1918	17.4463	0.051	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7215	3.2375	17.4203	0.051	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7326	3.2486	17.453	0.016	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7381	3.2541	17.464	0.016	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.8841	3.4001	17.427	0.018	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.8847	3.4007	17.4233	0.040	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6234	4.1394	18.0493	0.061	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6595	4.1755	18.048	0.021	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6612	4.1772	18.0873	0.065	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6903	4.2063	18.0913	0.064	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6909	4.2069	18.068	0.020	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.7221	4.2381	18.112	0.024	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.6767	6.1927	18.370	0.024	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.7069	6.2229	18.393	0.025	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.7302	6.2462	18.481	0.023	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.5977	7.1137	18.8733	0.036	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.6670	7.183	18.8953	0.039	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.6997	7.2157	18.9383	0.052	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.7303	7.2463	18.9283	0.055	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.7573	7.2733	18.9353	0.044	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.6149	8.1309	19.1813	0.027	600X2	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.7218	8.2378	19.2393	0.027	600X3	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.8111	8.3271	19.2183	0.046	600X3	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.8767	8.3927	19.2253	0.064	600X2	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-7.6073	9.1233	19.294	0.073	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6170	10.133	19.364	0.033	600	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6567	10.1727	19.406	0.037	600	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6856	10.2016	19.235	0.035	600	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.5952	11.1112	19.414	0.070	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.6050	11.121	19.5083	0.032	900	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.6439	11.1599	19.5233	0.040	900	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.6730	11.189	19.5233	0.035	300X2	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.7002	11.2162	19.5283	0.044	700	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.8625	11.3785	19.5463	0.046	900	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.6424	12.1584	19.585	0.067	900	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.6461	12.1621	19.6303	0.036	900X2	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.6656	12.1816	19.6513	0.058	450X3	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.7440	12.26	19.6313	0.060	900	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-11.6590	13.175	19.7303	0.043	450X2	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-11.6925	13.2085	19.7763	0.039	450X3	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-11.6975	13.2135	19.951	0.174	600	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-22.6520	24.168	20.5103	0.048	600X3	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-23.6646	25.1806	20.6343	0.050	300X2+600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-May-1.6383	33.1543	20.836	0.123	900	ST	V	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6133	0.1293	13.3803	0.031	120	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6171	0.1331	13.3743	0.041	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6227	0.1387	13.431	0.032	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6232	0.1392	13.4123	0.060	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6264	0.1424	13.422	0.025	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6397	0.1557	13.506	0.024	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6483	0.1643	13.577	0.024	50	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6530	0.169	13.619	0.034	50	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6572	0.1732	13.636	0.040	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6701	0.1861	13.7243	0.034	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6784	0.1944	13.7233	0.044	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6839	0.1999	13.724	0.025	50	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6863	0.2023	13.7893	0.031	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6967	0.2127	13.829	0.026	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7103	0.2263	13.854	0.026	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7262	0.2422	13.916	0.026	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7396	0.2556	13.982	0.027	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7526	0.2686	14.030	0.027	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7650	0.281	14.098	0.052	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7937	0.3097	14.210	0.032	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.8675	0.3835	14.4893	0.050	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.8857	0.4017	14.5483	0.046	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.9079	0.4239	14.6333	0.032	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.9140	0.43	14.6533	0.033	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.9201	0.4361	14.6613	0.040	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.9275	0.4435	14.6753	0.070	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.5833	1.0993	16.249	0.070	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.5875	1.1035	16.295	0.056	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.6518	1.1678	16.2963	0.070	180	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.6586	1.1746	16.3343	0.042	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.6747	1.1907	16.3533	0.039	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.6879	1.2039	16.3733	0.028	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7268	1.2428	16.3723	0.049	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7637	1.2797	16.4133	0.040	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7665	1.2825	16.420	0.021	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7841	1.3001	16.438	0.018	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7971	1.3131	16.4223	0.050	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8012	1.3172	16.439	0.018	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8176	1.3336	16.4453	0.041	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8238	1.3398	16.460	0.017	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8457	1.3617	16.4593	0.039	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8603	1.3763	16.4683	0.034	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8759	1.3919	16.4623	0.032	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8914	1.4074	16.4613	0.039	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.9076	1.4236	16.4353	0.057	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.9142	1.4302	16.4703	0.034	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.9212	1.4372	16.4303	0.031	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.9276	1.4436	16.4013	0.063	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6449	2.1609	16.7163	0.040	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6610	2.177	16.7163	0.031	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6653	2.1813	16.711	0.032	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6804	2.1964	16.7103	0.041	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6898	2.2058	16.744	0.033	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7083	2.2243	16.771	0.031	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7148	2.2308	16.783	0.027	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7231	2.2391	16.7823	0.026	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7303	2.2463	16.772	0.027	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7500	2.266	16.779	0.026	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7507	2.2667	16.7953	0.040	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7655	2.2815	16.7933	0.035	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7682	2.2842	16.788	0.029	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7826	2.2986	16.7953	0.043	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7853	2.3013	16.798	0.029	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7943	2.3103	16.8203	0.025	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8054	2.3214	16.820	0.025	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8139	2.3299	16.8083	0.034	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8264	2.3424	16.8443	0.043	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8280	2.344	16.844	0.024	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8431	2.3591	16.8503	0.040	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8495	2.3655	16.867	0.024	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8545	2.3705	16.8583	0.048	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8705	2.3865	16.874	0.024	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8713	2.3873	16.8573	0.044	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8832	2.3992	16.8683	0.045	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8912	2.4072	16.900	0.023	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8999	2.4159	16.8723	0.059	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.9111	2.4271	16.9013	0.037	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.9223	2.4383	16.9163	0.028	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6008	3.1168	17.071	0.027	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6237	3.1397	17.045	0.025	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6569	3.1729	17.059	0.025	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6694	3.1854	17.0553	0.046	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6766	3.1926	17.075	0.026	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6821	3.1981	17.0453	0.045	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6950	3.211	17.079	0.026	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7274	3.2434	17.0473	0.037	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7445	3.2605	17.0583	0.032	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7487	3.2647	17.075	0.029	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.7531	3.2691	17.071	0.026	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.8628	3.3788	17.058	0.023	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.8891	3.4051	17.039	0.024	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.8906	3.4066	17.0273	0.035	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.9103	3.4263	17.101	0.028	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6158	4.1318	17.6723	0.046	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6391	4.1551	17.694	0.028	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6425	4.1585	17.6933	0.029	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6531	4.1691	17.7113	0.029	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6553	4.1713	17.707	0.025	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6697	4.1857	17.680	0.027	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6843	4.2003	17.7193	0.033	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6953	4.2113	17.689	0.028	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6962	4.2122	17.7023	0.033	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.7124	4.2284	17.706	0.034	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.7265	4.2425	17.709	0.030	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.7484	4.2644	17.721	0.030	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.7615	4.2775	17.737	0.030	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.7752	4.2912	17.718	0.032	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.6831	6.1991	18.030	0.031	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.7125	6.2285	18.085	0.035	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.7357	6.2517	18.130	0.031	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.5919	7.1079	18.4583	0.049	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.6044	7.1204	18.5093	0.028	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.6209	7.1369	18.5033	0.025	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.6340	7.15	18.4963	0.032	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.6603	7.1763	18.4803	0.036	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.6858	7.2018	18.5763	0.029	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.7054	7.2214	18.5873	0.024	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.7231	7.2391	18.5243	0.029	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.7507	7.2667	18.5683	0.027	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.7790	7.295	18.5873	0.027	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.7949	7.3109	18.5803	0.036	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.8130	7.329	18.6003	0.027	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.8454	7.3614	18.5893	0.035	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.8704	7.3864	18.6283	0.037	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-5.9002	7.4162	18.6643	0.049	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.5919	8.1079	18.8233	0.039	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.5995	8.1155	18.8373	0.029	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.6234	8.1394	18.8053	0.036	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.6849	8.2009	18.8453	0.025	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.6932	8.2092	18.8503	0.030	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.7327	8.2487	18.8503	0.032	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.7413	8.2573	18.8443	0.022	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.7792	8.2952	18.8363	0.029	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.7878	8.3038	18.8433	0.034	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.8205	8.3365	18.8523	0.029	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.8286	8.3446	18.8473	0.047	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.8851	8.4011	18.8823	0.043	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.8935	8.4095	18.8773	0.038	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-6.9016	8.4176	18.8183	0.031	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-7.5936	9.1096	18.897	0.052	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-7.5980	9.114	18.945	0.067	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6070	10.123	19.017	0.046	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6483	10.1643	19.049	0.041	600	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6778	10.1938	19.064	0.032	600	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.5890	11.105	19.078	0.057	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.5905	11.1065	19.1263	0.033	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.6321	11.1481	19.0963	0.037	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.6875	11.2035	19.1403	0.037	300X2	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.7242	11.2402	19.1743	0.039	300X3	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-9.8502	11.3662	19.1663	0.050	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.6068	12.1228	19.3113	0.030	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.6157	12.1317	19.440	0.095	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.6437	12.1597	19.2923	0.052	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.6483	12.1643	19.294	0.057	900	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.6825	12.1985	19.2553	0.050	300X3	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.7272	12.2432	19.3483	0.039	300+450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.7390	12.255	19.3503	0.041	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.7574	12.2734	19.3283	0.049	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-10.8689	12.3849	19.3463	0.060	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-11.6743	13.1903	19.4273	0.038	300X3	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-11.7064	13.2224	19.527	0.154	600	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-11.7082	13.2242	19.2813	0.053	300X2	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-22.6028	24.1188	20.1233	0.043	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-22.6279	24.1439	20.0573	0.040	600X2	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-22.8033	24.3193	20.0633	0.025	600X3	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-23.6311	25.1471	20.0983	0.032	300X5	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-May-1.6069	33.1229	$\pm$20.692	0.090	2*300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6306	0.1466	13.037	0.026	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6499	0.1659	13.185	0.029	50	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6855	0.2015	13.328	0.029	50	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.6948	0.2108	13.487	0.031	50	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7083	0.2243	13.437	0.030	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7241	0.2401	13.501	0.032	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7374	0.2534	13.559	0.032	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7504	0.2664	13.618	0.032	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7616	0.2776	13.685	0.032	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-29.7959	0.3119	13.837	0.049	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7698	1.2858	15.972	0.023	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.7872	1.3032	15.985	0.021	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8046	1.3206	15.978	0.021	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-30.8272	1.3432	16.058	0.021	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6683	2.1843	16.240	0.034	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.6933	2.2093	16.290	0.033	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7110	2.227	16.305	0.034	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7338	2.2498	16.342	0.031	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7535	2.2695	16.329	0.031	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7715	2.2875	16.326	0.033	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.7887	2.3047	16.341	0.030	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8088	2.3248	16.351	0.030	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8326	2.3486	16.387	0.029	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8539	2.3699	16.411	0.028	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8750	2.391	16.404	0.028	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Mar-31.8960	2.412	16.460	0.028	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6086	3.1246	16.591	0.032	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.6890	3.205	16.586	0.033	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.8294	3.3454	16.639	0.029	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-1.8338	3.3498	16.631	0.029	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.6738	4.1898	17.211	0.031	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.7077	4.2237	17.224	0.032	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-2.7572	4.2732	17.254	0.035	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.6886	6.2046	17.586	0.046	400	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-4.7180	6.234	17.663	0.042	400	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-7.6029	9.1189	18.595	0.098	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.5965	10.1125	18.674	0.077	400	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6405	10.1565	18.764	0.052	600	ST	I	yyyy-month-deciday	days	Unspecified	seconds
-2003-Apr-8.6712	10.1872	18.614	0.064	400	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+date	time	mag	mag_limit	dmag	integration	instrument	band	date_unit	time_unit	mag_unit	integration_unit
+2003-Mar-29.6459	0.1619	13.606	0	0.051	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6918	0.2078	13.824	0	0.052	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7042	0.2202	13.831	0	0.06	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7186	0.2346	13.91	0	0.061	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7345	0.2505	14.016	0	0.053	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7477	0.2637	14.069	0	0.051	200	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7558	1.2718	16.454	0	0.053	300	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7738	1.2898	16.486	0	0.057	300	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7909	1.3069	16.483	0	0.056	300	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8084	1.3244	16.507	0	0.063	300	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6524	3.1684	17.156	0	0.061	400	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7046	3.2206	17.153	0	0.058	400	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7626	3.2786	17.201	0	0.055	400	ST	U	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6429	0.1589	14.189	0	0.026	150	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6483	0.1643	14.1463	0	0.07	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6552	0.1712	14.248	0	0.032	100	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6603	0.1763	14.1933	0	0.046	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6891	0.2051	14.409	0	0.031	100	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7013	0.2173	14.44	0	0.022	100	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7153	0.2313	14.534	0	0.012	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7312	0.2472	14.599	0	0.016	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7445	0.2605	14.653	0	0.014	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7574	0.2734	14.704	0	0.028	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7378	1.2538	17.0433	0	0.033	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7598	1.2758	17.137	0	0.015	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7730	1.289	17.0573	0	0.06	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7776	1.2936	17.17	0	0.016	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7948	1.3108	17.167	0	0.014	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8123	1.3283	17.192	0	0.016	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8359	1.3519	17.0923	0	0.032	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.5978	2.1138	17.464	0	0.032	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6707	2.1867	17.3683	0	0.053	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6763	2.1923	17.421	0	0.032	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6984	2.2144	17.472	0	0.03	500	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7192	2.2352	17.496	0	0.031	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7410	2.257	17.4503	0	0.028	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7414	2.2574	17.509	0	0.03	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7598	2.2758	17.508	0	0.029	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7740	2.29	17.4403	0	0.029	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7769	2.2929	17.485	0	0.031	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7970	2.313	17.52	0	0.029	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8046	2.3206	17.4553	0	0.02	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8149	2.3309	17.55	0	0.028	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8343	2.3503	17.4853	0	0.028	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8387	2.3547	17.586	0	0.029	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8600	2.376	17.595	0	0.031	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8806	2.3966	17.617	0	0.022	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.5967	3.1127	17.866	0	0.033	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6277	3.1437	17.749	0	0.038	200	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7153	3.2313	17.826	0	0.029	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7207	3.2367	17.831	0	0.027	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7356	3.2516	17.7193	0	0.031	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.8582	3.3742	17.791	0	0.037	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.9000	3.416	17.7843	0	0.034	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6386	4.1546	18.3483	0	0.036	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6436	4.1596	18.419	0	0.041	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6771	4.1931	18.4003	0	0.029	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6862	4.2022	18.534	0	0.039	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.7439	4.2599	18.528	0	0.038	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.7707	4.2867	18.506	0	0.039	300	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.6673	6.1833	18.787	0	0.039	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.6966	6.2126	18.748	0	0.034	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.7246	6.2406	18.852	0	0.033	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.6125	7.1285	19.2573	0	0.067	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.6511	7.1671	19.2373	0	0.053	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.7416	7.2576	19.2963	0	0.046	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.7702	7.2862	19.3183	0	0.044	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.8037	7.3197	19.3153	0	0.046	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.8293	7.3453	19.3683	0	0.03	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.8618	7.3778	19.3873	0	0.045	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.6438	8.1598	19.6213	0	0.027	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.6559	8.1719	19.6443	0	0.028	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.7522	8.2682	19.6063	0	0.03	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.8384	8.3544	19.6183	0	0.039	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.8505	8.3665	19.6553	0	0.034	900	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-7.6122	9.1282	19.761	0	0.144	400	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6260	10.142	19.983	0	0.069	600	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6641	10.1801	19.943	0	0.076	600	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6933	10.2093	19.919	0	0.064	600	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.6368	12.1528	20.287	0	0.087	900	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.7059	12.2219	20.1933	0	0.03	600X4	HCT	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-11.6782	13.1942	20.432	0	0.177	600	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-May-1.6271	33.1431	22.214	0	0.156	3*500+900	ST	B	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6310	0.147	13.8983	0	0.029	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6363	0.1523	13.848	0	0.02	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6515	0.1675	13.93	0	0.023	75	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6872	0.2032	14.087	0	0.021	50	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6991	0.2151	14.142	0	0.017	100	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7127	0.2287	14.213	0	0.018	100	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7284	0.2444	14.266	0	0.033	100	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7416	0.2576	14.331	0	0.018	100	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7552	0.2712	14.371	0	0.032	100	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7985	0.3145	14.569	0	0.032	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.8773	0.3933	14.9323	0	0.05	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.6674	1.1834	16.7423	0	0.047	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7486	1.2646	16.7943	0	0.05	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7632	1.2792	16.79	0	0.013	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7809	1.2969	16.789	0	0.013	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7836	1.2996	16.8153	0	0.032	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7980	1.314	16.773	0	0.013	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8202	1.3362	16.825	0	0.013	200	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8256	1.3416	16.8363	0	0.04	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8680	1.384	16.8183	0	0.046	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8998	1.4158	16.8353	0	0.05	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6026	2.1186	17.111	0	0.013	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6531	2.1691	17.1033	0	0.064	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6811	2.1971	17.094	0	0.024	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7041	2.2201	17.126	0	0.018	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7263	2.2423	17.148	0	0.017	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7308	2.2468	17.1783	0	0.055	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7459	2.2619	17.15	0	0.016	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7589	2.2749	17.1653	0	0.052	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7643	2.2803	17.148	0	0.018	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7814	2.2974	17.157	0	0.02	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7894	2.3054	17.1883	0	0.04	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8015	2.3175	17.179	0	0.014	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8211	2.3371	17.212	0	0.014	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8216	2.3376	17.2143	0	0.062	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8444	2.3604	17.227	0	0.016	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8498	2.3658	17.2443	0	0.069	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8656	2.3816	17.253	0	0.014	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8781	2.3941	17.2633	0	0.055	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8862	2.4022	17.253	0	0.02	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.9177	2.4337	17.2843	0	0.059	600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6139	3.1299	17.438	0	0.017	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6727	3.1887	17.453	0	0.017	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6758	3.1918	17.4463	0	0.051	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7215	3.2375	17.4203	0	0.051	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7326	3.2486	17.453	0	0.016	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7381	3.2541	17.464	0	0.016	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.8841	3.4001	17.427	0	0.018	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.8847	3.4007	17.4233	0	0.04	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6234	4.1394	18.0493	0	0.061	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6595	4.1755	18.048	0	0.021	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6612	4.1772	18.0873	0	0.065	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6903	4.2063	18.0913	0	0.064	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6909	4.2069	18.068	0	0.02	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.7221	4.2381	18.112	0	0.024	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.6767	6.1927	18.37	0	0.024	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.7069	6.2229	18.393	0	0.025	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.7302	6.2462	18.481	0	0.023	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.5977	7.1137	18.8733	0	0.036	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.6670	7.183	18.8953	0	0.039	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.6997	7.2157	18.9383	0	0.052	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.7303	7.2463	18.9283	0	0.055	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.7573	7.2733	18.9353	0	0.044	450	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.6149	8.1309	19.1813	0	0.027	600X2	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.7218	8.2378	19.2393	0	0.027	600X3	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.8111	8.3271	19.2183	0	0.046	600X3	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.8767	8.3927	19.2253	0	0.064	600X2	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-7.6073	9.1233	19.294	0	0.073	300	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6170	10.133	19.364	0	0.033	600	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6567	10.1727	19.406	0	0.037	600	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6856	10.2016	19.235	0	0.035	600	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.5952	11.1112	19.414	0	0.07	400	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.6050	11.121	19.5083	0	0.032	900	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.6439	11.1599	19.5233	0	0.04	900	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.6730	11.189	19.5233	0	0.035	300X2	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.7002	11.2162	19.5283	0	0.044	700	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.8625	11.3785	19.5463	0	0.046	900	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.6424	12.1584	19.585	0	0.067	900	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.6461	12.1621	19.6303	0	0.036	900X2	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.6656	12.1816	19.6513	0	0.058	450X3	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.7440	12.26	19.6313	0	0.06	900	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-11.6590	13.175	19.7303	0	0.043	450X2	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-11.6925	13.2085	19.7763	0	0.039	450X3	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-11.6975	13.2135	19.951	0	0.174	600	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-22.6520	24.168	20.5103	0	0.048	600X3	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-23.6646	25.1806	20.6343	0	0.05	300X2+600	HCT	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-May-1.6383	33.1543	20.836	0	0.123	900	ST	V	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6133	0.1293	13.3803	0	0.031	120	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6171	0.1331	13.3743	0	0.041	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6227	0.1387	13.431	0	0.032	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6232	0.1392	13.4123	0	0.06	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6264	0.1424	13.422	0	0.025	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6397	0.1557	13.506	0	0.024	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6483	0.1643	13.577	0	0.024	50	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6530	0.169	13.619	0	0.034	50	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6572	0.1732	13.636	0	0.04	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6701	0.1861	13.7243	0	0.034	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6784	0.1944	13.7233	0	0.044	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6839	0.1999	13.724	0	0.025	50	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6863	0.2023	13.7893	0	0.031	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6967	0.2127	13.829	0	0.026	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7103	0.2263	13.854	0	0.026	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7262	0.2422	13.916	0	0.026	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7396	0.2556	13.982	0	0.027	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7526	0.2686	14.03	0	0.027	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7650	0.281	14.098	0	0.052	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7937	0.3097	14.21	0	0.032	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.8675	0.3835	14.4893	0	0.05	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.8857	0.4017	14.5483	0	0.046	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.9079	0.4239	14.6333	0	0.032	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.9140	0.43	14.6533	0	0.033	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.9201	0.4361	14.6613	0	0.04	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.9275	0.4435	14.6753	0	0.07	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.5833	1.0993	16.249	0	0.07	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.5875	1.1035	16.295	0	0.056	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.6518	1.1678	16.2963	0	0.07	180	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.6586	1.1746	16.3343	0	0.042	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.6747	1.1907	16.3533	0	0.039	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.6879	1.2039	16.3733	0	0.028	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7268	1.2428	16.3723	0	0.049	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7637	1.2797	16.4133	0	0.04	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7665	1.2825	16.42	0	0.021	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7841	1.3001	16.438	0	0.018	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7971	1.3131	16.4223	0	0.05	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8012	1.3172	16.439	0	0.018	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8176	1.3336	16.4453	0	0.041	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8238	1.3398	16.46	0	0.017	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8457	1.3617	16.4593	0	0.039	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8603	1.3763	16.4683	0	0.034	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8759	1.3919	16.4623	0	0.032	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8914	1.4074	16.4613	0	0.039	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.9076	1.4236	16.4353	0	0.057	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.9142	1.4302	16.4703	0	0.034	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.9212	1.4372	16.4303	0	0.031	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.9276	1.4436	16.4013	0	0.063	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6449	2.1609	16.7163	0	0.04	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6610	2.177	16.7163	0	0.031	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6653	2.1813	16.711	0	0.032	100	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6804	2.1964	16.7103	0	0.041	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6898	2.2058	16.744	0	0.033	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7083	2.2243	16.771	0	0.031	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7148	2.2308	16.783	0	0.027	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7231	2.2391	16.7823	0	0.026	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7303	2.2463	16.772	0	0.027	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7500	2.266	16.779	0	0.026	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7507	2.2667	16.7953	0	0.04	450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7655	2.2815	16.7933	0	0.035	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7682	2.2842	16.788	0	0.029	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7826	2.2986	16.7953	0	0.043	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7853	2.3013	16.798	0	0.029	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7943	2.3103	16.8203	0	0.025	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8054	2.3214	16.82	0	0.025	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8139	2.3299	16.8083	0	0.034	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8264	2.3424	16.8443	0	0.043	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8280	2.344	16.844	0	0.024	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8431	2.3591	16.8503	0	0.04	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8495	2.3655	16.867	0	0.024	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8545	2.3705	16.8583	0	0.048	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8705	2.3865	16.874	0	0.024	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8713	2.3873	16.8573	0	0.044	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8832	2.3992	16.8683	0	0.045	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8912	2.4072	16.9	0	0.023	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8999	2.4159	16.8723	0	0.059	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.9111	2.4271	16.9013	0	0.037	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.9223	2.4383	16.9163	0	0.028	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6008	3.1168	17.071	0	0.027	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6237	3.1397	17.045	0	0.025	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6569	3.1729	17.059	0	0.025	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6694	3.1854	17.0553	0	0.046	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6766	3.1926	17.075	0	0.026	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6821	3.1981	17.0453	0	0.045	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6950	3.211	17.079	0	0.026	200	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7274	3.2434	17.0473	0	0.037	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7445	3.2605	17.0583	0	0.032	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7487	3.2647	17.075	0	0.029	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.7531	3.2691	17.071	0	0.026	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.8628	3.3788	17.058	0	0.023	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.8891	3.4051	17.039	0	0.024	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.8906	3.4066	17.0273	0	0.035	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.9103	3.4263	17.101	0	0.028	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6158	4.1318	17.6723	0	0.046	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6391	4.1551	17.694	0	0.028	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6425	4.1585	17.6933	0	0.029	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6531	4.1691	17.7113	0	0.029	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6553	4.1713	17.707	0	0.025	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6697	4.1857	17.68	0	0.027	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6843	4.2003	17.7193	0	0.033	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6953	4.2113	17.689	0	0.028	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6962	4.2122	17.7023	0	0.033	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.7124	4.2284	17.706	0	0.034	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.7265	4.2425	17.709	0	0.03	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.7484	4.2644	17.721	0	0.03	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.7615	4.2775	17.737	0	0.03	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.7752	4.2912	17.718	0	0.032	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.6831	6.1991	18.03	0	0.031	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.7125	6.2285	18.085	0	0.035	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.7357	6.2517	18.13	0	0.031	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.5919	7.1079	18.4583	0	0.049	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.6044	7.1204	18.5093	0	0.028	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.6209	7.1369	18.5033	0	0.025	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.6340	7.15	18.4963	0	0.032	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.6603	7.1763	18.4803	0	0.036	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.6858	7.2018	18.5763	0	0.029	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.7054	7.2214	18.5873	0	0.024	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.7231	7.2391	18.5243	0	0.029	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.7507	7.2667	18.5683	0	0.027	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.7790	7.295	18.5873	0	0.027	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.7949	7.3109	18.5803	0	0.036	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.8130	7.329	18.6003	0	0.027	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.8454	7.3614	18.5893	0	0.035	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.8704	7.3864	18.6283	0	0.037	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-5.9002	7.4162	18.6643	0	0.049	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.5919	8.1079	18.8233	0	0.039	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.5995	8.1155	18.8373	0	0.029	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.6234	8.1394	18.8053	0	0.036	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.6849	8.2009	18.8453	0	0.025	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.6932	8.2092	18.8503	0	0.03	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.7327	8.2487	18.8503	0	0.032	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.7413	8.2573	18.8443	0	0.022	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.7792	8.2952	18.8363	0	0.029	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.7878	8.3038	18.8433	0	0.034	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.8205	8.3365	18.8523	0	0.029	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.8286	8.3446	18.8473	0	0.047	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.8851	8.4011	18.8823	0	0.043	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.8935	8.4095	18.8773	0	0.038	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-6.9016	8.4176	18.8183	0	0.031	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-7.5936	9.1096	18.897	0	0.052	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-7.5980	9.114	18.945	0	0.067	300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6070	10.123	19.017	0	0.046	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6483	10.1643	19.049	0	0.041	600	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6778	10.1938	19.064	0	0.032	600	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.5890	11.105	19.078	0	0.057	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.5905	11.1065	19.1263	0	0.033	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.6321	11.1481	19.0963	0	0.037	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.6875	11.2035	19.1403	0	0.037	300X2	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.7242	11.2402	19.1743	0	0.039	300X3	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-9.8502	11.3662	19.1663	0	0.05	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.6068	12.1228	19.3113	0	0.03	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.6157	12.1317	19.44	0	0.095	400	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.6437	12.1597	19.2923	0	0.052	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.6483	12.1643	19.294	0	0.057	900	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.6825	12.1985	19.2553	0	0.05	300X3	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.7272	12.2432	19.3483	0	0.039	300+450	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.7390	12.255	19.3503	0	0.041	300	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.7574	12.2734	19.3283	0	0.049	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-10.8689	12.3849	19.3463	0	0.06	900	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-11.6743	13.1903	19.4273	0	0.038	300X3	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-11.7064	13.2224	19.527	0	0.154	600	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-11.7082	13.2242	19.2813	0	0.053	300X2	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-22.6028	24.1188	20.1233	0	0.043	600	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-22.6279	24.1439	20.0573	0	0.04	600X2	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-22.8033	24.3193	20.0633	0	0.025	600X3	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-23.6311	25.1471	20.0983	0	0.032	300X5	HCT	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-May-1.6069	33.1229	20.692	0	0.09	2*300	ST	R	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6306	0.1466	13.037	0	0.026	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6499	0.1659	13.185	0	0.029	50	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6855	0.2015	13.328	0	0.029	50	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.6948	0.2108	13.487	0	0.031	50	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7083	0.2243	13.437	0	0.03	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7241	0.2401	13.501	0	0.032	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7374	0.2534	13.559	0	0.032	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7504	0.2664	13.618	0	0.032	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7616	0.2776	13.685	0	0.032	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-29.7959	0.3119	13.837	0	0.049	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7698	1.2858	15.972	0	0.023	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.7872	1.3032	15.985	0	0.021	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8046	1.3206	15.978	0	0.021	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-30.8272	1.3432	16.058	0	0.021	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6683	2.1843	16.24	0	0.034	100	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.6933	2.2093	16.29	0	0.033	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7110	2.227	16.305	0	0.034	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7338	2.2498	16.342	0	0.031	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7535	2.2695	16.329	0	0.031	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7715	2.2875	16.326	0	0.033	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.7887	2.3047	16.341	0	0.03	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8088	2.3248	16.351	0	0.03	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8326	2.3486	16.387	0	0.029	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8539	2.3699	16.411	0	0.028	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8750	2.391	16.404	0	0.028	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Mar-31.8960	2.412	16.46	0	0.028	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6086	3.1246	16.591	0	0.032	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.6890	3.205	16.586	0	0.033	200	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.8294	3.3454	16.639	0	0.029	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-1.8338	3.3498	16.631	0	0.029	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.6738	4.1898	17.211	0	0.031	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.7077	4.2237	17.224	0	0.032	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-2.7572	4.2732	17.254	0	0.035	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.6886	6.2046	17.586	0	0.046	400	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-4.7180	6.234	17.663	0	0.042	400	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-7.6029	9.1189	18.595	0	0.098	300	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.5965	10.1125	18.674	0	0.077	400	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6405	10.1565	18.764	0	0.052	600	ST	I	yyyy-month-deciday	days	Unspecified	seconds
+2003-Apr-8.6712	10.1872	18.614	0	0.064	400	ST	I	yyyy-month-deciday	days	Unspecified	seconds

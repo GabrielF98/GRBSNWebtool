@@ -1,24 +1,24 @@
-time	flux_density	dflux_density	freq	time_unit	flux_density_unit	freq_unit
-5.09	41	4	43	days	milliJy	GHz
-5.09	65	9	90	days	milliJy	GHz
-5.14	42	3	43	days	milliJy	GHz
-5.14	67	9	90	days	milliJy	GHz
-5.19	32.2	1.6	23.5	days	milliJy	GHz
-8.03	48	3	43	days	milliJy	GHz
-8.03	36	10	90	days	milliJy	GHz
-8.06	39	3	43	days	milliJy	GHz
-8.14	28.2	1.6	23.5	days	milliJy	GHz
-8.22	33.7	1.5	23.5	days	milliJy	GHz
-9.06	33.7	1.3	23.5	days	milliJy	GHz
-9.15	29	4	43	days	milliJy	GHz
-11.03	34.6	1.1	23.5	days	milliJy	GHz
-11.12	27	3	43	days	milliJy	GHz
-11.16	29	4	43	days	milliJy	GHz
-12.07	22	4	43	days	milliJy	GHz
-12.07	<20		90	days	milliJy	GHz
-17.14	21.8	1.2	23.5	days	milliJy	GHz
-17.19	27.3	1.7	23.5	days	milliJy	GHz
-19.04	16	5	23.5	days	milliJy	GHz
-19.04	<28		43	days	milliJy	GHz
-19.17	15.5	1.1	23.5	days	milliJy	GHz
-22.95	4.6	0.6	23.5	days	milliJy	GHz
+time	flux_density	flux_density_limit	dflux_density	freq	time_unit	flux_density_unit	freq_unit
+5.09	41.0	0	4.0	43.0	days	milliJy	GHz
+5.09	65.0	0	9.0	90.0	days	milliJy	GHz
+5.14	42.0	0	3.0	43.0	days	milliJy	GHz
+5.14	67.0	0	9.0	90.0	days	milliJy	GHz
+5.19	32.2	0	1.6	23.5	days	milliJy	GHz
+8.03	48.0	0	3.0	43.0	days	milliJy	GHz
+8.03	36.0	0	10.0	90.0	days	milliJy	GHz
+8.06	39.0	0	3.0	43.0	days	milliJy	GHz
+8.14	28.2	0	1.6	23.5	days	milliJy	GHz
+8.22	33.7	0	1.5	23.5	days	milliJy	GHz
+9.06	33.7	0	1.3	23.5	days	milliJy	GHz
+9.15	29.0	0	4.0	43.0	days	milliJy	GHz
+11.03	34.6	0	1.1	23.5	days	milliJy	GHz
+11.12	27.0	0	3.0	43.0	days	milliJy	GHz
+11.16	29.0	0	4.0	43.0	days	milliJy	GHz
+12.07	22.0	0	4.0	43.0	days	milliJy	GHz
+12.07	20.0	1	NaN	90.0	days	milliJy	GHz
+17.14	21.8	0	1.2	23.5	days	milliJy	GHz
+17.19	27.3	0	1.7	23.5	days	milliJy	GHz
+19.04	16.0	0	5.0	23.5	days	milliJy	GHz
+19.04	28.0	1	NaN	43.0	days	milliJy	GHz
+19.17	15.5	0	1.1	23.5	days	milliJy	GHz
+22.95	4.6	0	0.6	23.5	days	milliJy	GHz

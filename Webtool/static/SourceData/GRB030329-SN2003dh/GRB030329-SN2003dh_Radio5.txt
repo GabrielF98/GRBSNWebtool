@@ -1,11 +1,11 @@
-date	time	freq	flux_density	dflux_density	instrument	date_unit	time_unit	freq_unit	flux_density_unit
-2004-Apr-13.11	380.63	4.86	631	50	VLA-C	yyyy-month-deciday	days	GHz	microJy
-2004-May-29.12	426.64	4.86	516	39	VLA-C	yyyy-month-deciday	days	GHz	microJy
-2004-Jun-01.15	429.67	4.86	485	44	VLA-D	yyyy-month-deciday	days	GHz	microJy
-2004-Jul-19.94	478.46	4.86	441	43	VLA-D	yyyy-month-deciday	days	GHz	microJy
-2004-Aug-15.79	505.31	4.86	528	53	VLA-D	yyyy-month-deciday	days	GHz	microJy
-2004-Sep-03.79	524.31	4.86	331	28	VLA-A	yyyy-month-deciday	days	GHz	microJy
-2004-Dec-09.66	621.18	4.86	361	36	VLA-B	yyyy-month-deciday	days	GHz	microJy
-2005-Jan-29.38	671.90	4.86	346	51	VLA-B	yyyy-month-deciday	days	GHz	microJy
-2005-Apr-07.21	739.73	4.86	292	37	VLA-C	yyyy-month-deciday	days	GHz	microJy
-2005-Jun-12.78	806.30	4.99	240	17	EB+GBT+WB+AR+JB	yyyy-month-deciday	days	GHz	microJy
+date	time	freq	flux_density	flux_density_limit	dflux_density	instrument	date_unit	time_unit	freq_unit	flux_density_unit
+2004-Apr-13.11	380.63	4.86	631.0	0	50	VLA-C	yyyy-month-deciday	days	GHz	microJy
+2004-May-29.12	426.64	4.86	516.0	0	39	VLA-C	yyyy-month-deciday	days	GHz	microJy
+2004-Jun-01.15	429.67	4.86	485.0	0	44	VLA-D	yyyy-month-deciday	days	GHz	microJy
+2004-Jul-19.94	478.46	4.86	441.0	0	43	VLA-D	yyyy-month-deciday	days	GHz	microJy
+2004-Aug-15.79	505.31	4.86	528.0	0	53	VLA-D	yyyy-month-deciday	days	GHz	microJy
+2004-Sep-03.79	524.31	4.86	331.0	0	28	VLA-A	yyyy-month-deciday	days	GHz	microJy
+2004-Dec-09.66	621.18	4.86	361.0	0	36	VLA-B	yyyy-month-deciday	days	GHz	microJy
+2005-Jan-29.38	671.9	4.86	346.0	0	51	VLA-B	yyyy-month-deciday	days	GHz	microJy
+2005-Apr-07.21	739.73	4.86	292.0	0	37	VLA-C	yyyy-month-deciday	days	GHz	microJy
+2005-Jun-12.78	806.3	4.99	240.0	0	17	EB+GBT+WB+AR+JB	yyyy-month-deciday	days	GHz	microJy
