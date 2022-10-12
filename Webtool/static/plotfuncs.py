@@ -9,7 +9,7 @@ from astropy.time import Time
 import glob, os
 
 # List of GRB-SNe that I have text file data on so far.
-trial_list = ['GRB000911', 'GRB011121-SN2001ke','GRB020305','GRB020405','GRB020410','GRB020903','GRB021211-SN2002lt','GRB030723','GRB030725','GRB041006']
+trial_list = ['GRB000911', 'GRB011121-SN2001ke','GRB020305','GRB020405','GRB020410','GRB020903','GRB021211-SN2002lt', 'GRB030329-SN2003dh', 'GRB030723','GRB030725','GRB041006']
 
 
 # Get the trigger time
@@ -115,7 +115,7 @@ def elapsed_time(dataframe, trigtime):
         dataframe['time'] = time
 
     # yyyy-mm-deciday
-    if dataframe['date_unit'][0] == "yyyy-mm-deciday":
+    elif dataframe['date_unit'][0] == "yyyy-mm-deciday":
         time = list()
 
         for i in range(len(dataframe['date'])):
@@ -139,7 +139,7 @@ def elapsed_time(dataframe, trigtime):
         dataframe['time'] = time
 
     # yyyy-mm-deciday-deciday
-    if dataframe['date_unit'][0] == "yyyy-mm-deciday-deciday":
+    elif dataframe['date_unit'][0] == "yyyy-mm-deciday-deciday":
         time = list()
         for i in range(len(dataframe['date'])):
             date = dataframe['date'][i].split('-')
@@ -167,7 +167,7 @@ def elapsed_time(dataframe, trigtime):
         dataframe['time'] = time
 
     # yyyy-month-deciday-deciday
-    if dataframe['date_unit'][0] == "yyyy-month-deciday-deciday":
+    elif dataframe['date_unit'][0] == "yyyy-month-deciday-deciday":
         time = list()
         for i in range(len(dataframe['date'])):
             date = dataframe['date'][i].split('-')
@@ -194,12 +194,12 @@ def elapsed_time(dataframe, trigtime):
 
         dataframe['time'] = time
 
-    if dataframe['date_unit'][0] == "yyyy-mm-dd-hh:mm-hh:mm":
+    elif dataframe['date_unit'][0] == "yyyy-mm-dd-hh:mm-hh:mm":
         time = list()
         for i in range(len(dataframe['date'])):
             date = dataframe['date'][i].split('-')
             year = date[0]
-            month = month2number[date[1]]
+            month = date[1]
             day = date[2]
 
             # hours, minutes, seconds
@@ -226,7 +226,7 @@ def elapsed_time(dataframe, trigtime):
             time.append(isotime-t[2])
         dataframe['time'] = time
 
-    if dataframe['date_unit'][0] == "MJD":
+    elif dataframe['date_unit'][0] == "MJD":
         time = list()
 
         for i in range(len(dataframe['date'])):
@@ -242,6 +242,10 @@ def elapsed_time(dataframe, trigtime):
             time.append(t2-t1)
         dataframe['time'] = time
 
+    # Alert me that I have encountered a date format that isn't supported yet.
+    else:
+        raise Exception('No date2time function found, time to write a new function for converting dates to times.')
+
     return dataframe
 
 # This function will create a column with a value that tells us whether the magnitude/flux_density etc is an upper/lower limit or just a normal value 
@@ -251,7 +255,7 @@ def limits(df, wave_range):
 
     if 'Optical' in wave_range or 'NIR' in wave_range:
         i = 'mag'
-    print(i)
+
     # Convert the column to string
     df[i] = df[i].astype(str)
 
@@ -326,6 +330,7 @@ for i in range(len(trial_list)):
 
     file_list = glob.glob("*.txt")
     for file in file_list:
+        print(file)
         if 'Optical' in file or 'Radio' in file or 'NIR' in file:
 
             data = pd.read_csv(file, sep='\t')
