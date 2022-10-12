@@ -4,7 +4,7 @@ p {
   background-color: teal;
   margin-left: 100px;
   margin-right: 100px;
-  font-size: 17pt;
+  font-size: 25pt;
 }
 
 body {
@@ -13,7 +13,8 @@ body {
 
 /*hyperlink text*/
 a {
-  color: yellow
+  color: yellow;
+  font-size: 25pt;
 }
 
 
@@ -39,6 +40,7 @@ h1 {
   background-color: teal;
   margin-left: 100px;
   margin-right: 100px;
+  font-size: 40pt;
 }
 
 h2 {
@@ -48,6 +50,7 @@ h2 {
   text-align: left;
   font-family: Arial;
   margin-left: 100px;
+  font-size: 35pt;
 }
 
 h3 {
@@ -57,7 +60,7 @@ h3 {
   text-align: left;
   font-family: Arial;
   margin-left: 100px;
-  font-size: 15px;
+  font-size: 30pt;
 }
 
 div {
@@ -88,7 +91,7 @@ tr {
   border: 2px solid;
   padding: 5px;
   border-color: white;
-  font-size: 12pt;
+  font-size: 25pt;
 }
 
 .float-parent-element {
