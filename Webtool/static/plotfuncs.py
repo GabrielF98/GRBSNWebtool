@@ -105,7 +105,7 @@ def elapsed_time(dataframe, trigtime):
             # Turn into isotime
             isotime = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour)+':'+str(minute)[:2]+':'+str(second)[:2]
 
-            # Handle an absence of triggertime. 
+            # Handle an absence of triggertime. Set to the first time in the observations. 
             if trigtime == 'no_tt' and i==0:
                 trigtime = isotime
             # astropy to subtract the two isotimes
@@ -129,7 +129,7 @@ def elapsed_time(dataframe, trigtime):
             # Turn into isotime
             isotime = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour)+':'+str(minute)[:2]+':'+str(second)[:2]
 
-            # Handle an absence of triggertime. 
+            # Handle an absence of triggertime. Set to the first time in the observations. 
             if trigtime == 'no_tt' and i==0:
                 trigtime = isotime
             # astropy to subtract the two isotimes
@@ -154,7 +154,7 @@ def elapsed_time(dataframe, trigtime):
             isotime1 = str(year)+'-'+str(month)+'-'+str(day1)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
             isotime2 = str(year)+'-'+str(month)+'-'+str(day2)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
 
-            # Handle an absence of triggertime. 
+            # Handle an absence of triggertime. Set to the first time in the observations. 
             if trigtime == 'no_tt' and i==0:
                 trigtime = isotime1
 
@@ -182,7 +182,7 @@ def elapsed_time(dataframe, trigtime):
             isotime1 = str(year)+'-'+str(month)+'-'+str(day1)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
             isotime2 = str(year)+'-'+str(month)+'-'+str(day2)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
 
-            # Handle an absence of triggertime. 
+            # Handle an absence of triggertime. Set to the first time in the observations. 
             if trigtime == 'no_tt' and i==0:
                 trigtime = isotime1
 
@@ -215,7 +215,7 @@ def elapsed_time(dataframe, trigtime):
             isotime1 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour1)+':'+str(minute1)[:2]+':00'
             isotime2 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour2)+':'+str(minute2)[:2]+':00'
 
-            # Handle an absence of triggertime. 
+            # Handle an absence of triggertime. Set to the first time in the observations. 
             if trigtime == 'no_tt' and i==0:
                 trigtime = isotime1
 
@@ -231,7 +231,7 @@ def elapsed_time(dataframe, trigtime):
 
         for i in range(len(dataframe['date'])):
 
-            # Handle an absence of triggertime. 
+            # Handle an absence of triggertime. Set to the first time in the observations. 
             if trigtime == 'no_tt' and i==0:
                 trigtime = isotime1
 
@@ -240,6 +240,32 @@ def elapsed_time(dataframe, trigtime):
             t1 = Time(time_list[1], format='isot', scale='utc')
             t2 = Time(time_list[1], format='mjd')
             time.append(t2-t1)
+        dataframe['time'] = time
+
+    elif dataframe['date_unit'][0] == 'yyyy-month-day-hh:mm':
+        time = list()
+        for i in range(len(dataframe['date'])):
+            date = dataframe['date'][i].split('-')
+            year = date[0]
+            month = date[1]
+            day = date[2]
+
+            # hours, minutes
+            a = str(date[3]).split(":")
+            hour1 = a[0]
+            minute1 =  a[1]
+
+            # Turn into isotime
+            isotime1 = str(year)+'-'+str(month2number[month])+'-'+str(day)+'T'+str(hour1)+':'+str(minute1)[:2]+':00'
+
+            # Handle an absence of triggertime. Set to the first time in the observations.
+            if trigtime == 'no_tt' and i==0:
+                trigtime = isotime1
+
+            # astropy to subtract the two isotimes and get the median time
+            time_list = [isotime1, trigtime]
+            t = Time(time_list, format='isot', scale='utc')
+            time.append(t[0]-t[1])
         dataframe['time'] = time
 
     # Alert me that I have encountered a date format that isn't supported yet.
