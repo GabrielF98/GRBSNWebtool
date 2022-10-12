@@ -194,6 +194,7 @@ def elapsed_time(dataframe, trigtime):
 
         dataframe['time'] = time
 
+    # yyyy-mm-dd-hh:mm-hh:mm
     elif dataframe['date_unit'][0] == "yyyy-mm-dd-hh:mm-hh:mm":
         time = list()
         for i in range(len(dataframe['date'])):
@@ -226,22 +227,29 @@ def elapsed_time(dataframe, trigtime):
             time.append(isotime-t[2])
         dataframe['time'] = time
 
+    # MJD
     elif dataframe['date_unit'][0] == "MJD":
+        print(file, ' used MJD')
         time = list()
 
-        for i in range(len(dataframe['date'])):
+        # Split the two MJDs
+            mjd = dataframe['date'][i]
+
+            # Convert the MJDs to isotimes.
+            mjdiso = Time(mjd1, format='mjd')
+            obstime = Time(mjd1iso.isot, format='isot')
 
             # Handle an absence of triggertime. Set to the first time in the observations. 
+            print(trigtime)
             if trigtime == 'no_tt' and i==0:
-                trigtime = isotime1
+                trigtime = obstime
 
-            # astropy elapsed time
-            time_list = [dataframe['date'][i], trigtime]
-            t1 = Time(time_list[1], format='isot', scale='utc')
-            t2 = Time(time_list[1], format='mjd')
-            time.append(t2-t1)
+            # Append the isotime-trigtime (elapsed time)
+            time.append(obstime-Time(trigtime, format='isot'))
+
         dataframe['time'] = time
 
+    # yyyy-month-day-hh:mm
     elif dataframe['date_unit'][0] == 'yyyy-month-day-hh:mm':
         time = list()
         for i in range(len(dataframe['date'])):
@@ -262,11 +270,44 @@ def elapsed_time(dataframe, trigtime):
             if trigtime == 'no_tt' and i==0:
                 trigtime = isotime1
 
-            # astropy to subtract the two isotimes and get the median time
+            # astropy to subtract the two isotimes and get the elapsed time
             time_list = [isotime1, trigtime]
             t = Time(time_list, format='isot', scale='utc')
             time.append(t[0]-t[1])
+
         dataframe['time'] = time
+
+    # MJD-MJD
+    elif dataframe['date_unit'][0] == 'MJD-MJD':
+        time = list()
+
+        for i in range(len(dataframe['date'])):
+
+            # Split the two MJDs
+            mjds = dataframe['date'][i].split('-')
+
+            mjd1 = mjds[0]
+            mjd2 = mjds[1]
+
+            # Convert the MJDs to isotimes.
+            mjd1iso = Time(mjd1, format='mjd')
+            mjd1iso = Time(mjd1iso.isot, format='isot')
+            mjd2iso = Time(mjd2, format='mjd')
+            mjd2iso = Time(mjd2iso.isot, format='isot')
+
+            # Work out the central time. 
+            obstime = mjd1iso+((mjd2iso-mjd1iso)/2)
+
+            # Handle an absence of triggertime. Set to the first time in the observations. 
+            print(trigtime)
+            if trigtime == 'no_tt' and i==0:
+                trigtime = obstime
+
+            # Append the isotime-trigtime (elapsed time)
+            time.append(obstime-Time(trigtime, format='isot'))
+
+        dataframe['time'] = time
+
 
     # Alert me that I have encountered a date format that isn't supported yet.
     else:
@@ -309,17 +350,17 @@ def masterfileformat(filelist, event):
 
     # Get the file sources for each data file of the GRB
     file_sources = pd.read_csv(trial_list[i]+'filesources.csv', header=0, sep=',')
-    print(file_sources)
+    # print(file_sources)
 
     for file in file_list:
-        print(file)
+        # print(file)
         if 'Master' in file:
             continue
         elif 'Radio' in file or 'radio' in file:
             data = pd.read_csv(file, sep='\t')
 
             # Add a column for the ads abstract link - source
-            print(data)
+            # print(data)
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
             
             # Append pandas
@@ -328,7 +369,7 @@ def masterfileformat(filelist, event):
         elif 'Optical' in file or 'optical' in file or 'NIR' in file:
             data = pd.read_csv(file, sep='\t')
 
-            print(data)
+            # print(data)
 
             # Add a column for the ads abstract link - source
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
@@ -348,7 +389,7 @@ def masterfileformat(filelist, event):
 
 # Run through all the files. Convert them to the format we want.
 for i in range(len(trial_list)):
-    print(trial_list[i])
+    # print(trial_list[i])
     trigtime = get_trigtime(trial_list[i])
 
     os.chdir("SourceData/")
@@ -365,7 +406,6 @@ for i in range(len(trial_list)):
             if 'mag_limit' not in list(data.keys()) and 'flux_density_limit' not in list(data.keys()):
                 data = limits(data, file)
 
-            # Add time columns to all the dataframes.
             if 'time' not in list(data.keys()):
                 data = elapsed_time(data, trigtime)
                 data['time_unit'] = 'days'
