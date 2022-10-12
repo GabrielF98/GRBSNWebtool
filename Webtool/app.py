@@ -776,7 +776,7 @@ def event(event_id):
         #Errors on flux densities
         optical_error_df = optical_df[['time', 'mag', 'dmag', 'band']].copy()
         optical_error_df = optical_error_df[~optical_error_df['dmag'].isnull()]
-        optical_error_df['dmags'] = list(zip(optical_error_df['mag']-optical_error_df['dmag'], optical_error_df['mag']+optical_error_df['dmag']))
+        optical_error_df['dmags'] = list(zip(optical_error_df['mag'].astype(float)-optical_error_df['dmag'].astype(float), optical_error_df['mag'].astype(float)+optical_error_df['dmag'].astype(float)))
         optical_error_df['dmag_locs'] = list(zip(optical_error_df['time'], optical_error_df['time']))
 
 
@@ -1205,7 +1205,7 @@ def event(event_id):
     spectrum.background_fill_color = 'white'
     spectrum.border_fill_color = 'white'
 
-    script, div = components(layout([xray, radio, optical], [spectrum]))
+    script, div = components(layout([xray, optical], [spectrum]))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
