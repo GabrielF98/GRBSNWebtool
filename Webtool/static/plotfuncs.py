@@ -9,7 +9,19 @@ from astropy.time import Time
 import glob, os
 
 # List of GRB-SNe that I have text file data on so far.
-trial_list = ['GRB000911', 'GRB011121-SN2001ke','GRB020305','GRB020405','GRB020410','GRB020903','GRB021211-SN2002lt','GRB030723','GRB030725','GRB041006']
+# List of the folders to look for.
+folders = []
+for file in os.listdir():
+    if os.path.isdir(file):
+        if 'GRB' in file:
+            # Check if the readme.txt file exists yet.
+            if 'readme.txt' in os.listdir(file):
+                folders.append(file)
+            
+        elif 'SN' in file:
+            # Check if the readme.txt file exists yet.
+            if 'readme.txt' in os.listdir(file):
+                folders.append(file)
 
 
 # Get the trigger time
