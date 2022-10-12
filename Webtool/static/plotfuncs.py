@@ -231,8 +231,8 @@ def elapsed_time(dataframe, trigtime):
     elif dataframe['date_unit'][0] == "MJD":
         print(file, ' used MJD')
         time = list()
-
-        # Split the two MJDs
+        for i in range(len(dataframe['date'])):
+            # Split the two MJDs
             mjd = dataframe['date'][i]
 
             # Convert the MJDs to isotimes.
@@ -308,6 +308,40 @@ def elapsed_time(dataframe, trigtime):
 
         dataframe['time'] = time
 
+    # yyyy-month-deciday-month-deciday Note that this could have issues if only the date is given. 
+    elif dataframe['date_unit'][0] == 'yyyy-month-deciday-month-deciday':
+        time = list()
+
+        for i in range(len(dataframe['date'])):
+            # Split the date up.
+            date = dataframe['date'][i].split('-')
+
+            # Write out the dates as isotimes. 
+            year = date[0]
+            month1 = month2number[date[1]]
+            month2 = month2number[date[3]]
+
+            # Get the deciday to days, hours, min, sec
+            day1, hour1, minute1, second1 = deciday(date[2])
+            day2, hour2, minute2, second2 = deciday(date[4])
+
+            # Turn into isotime
+            isotime1 = str(year)+'-'+str(month1)+'-'+str(day1)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
+            isotime2 = str(year)+'-'+str(month2)+'-'+str(day2)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
+
+            # Work out the time in the middle of the two isotimes. 
+            time_list = [isotime1, isotime2]
+            t = Time(time_list, format='isot', scale='utc')
+            obstime = t[0]+((t[1]-t[0])/2)
+
+            # Handle an absence of triggertime. Set to the first time in the observations. 
+            if trigtime == 'no_tt' and i==0:
+                trigtime = obstime
+
+            # Append the isotime-trigtime (elapsed time)
+            time.append(obstime-Time(trigtime, format='isot', scale='utc'))
+
+        dataframe['time'] = time
 
     # Alert me that I have encountered a date format that isn't supported yet.
     else:
