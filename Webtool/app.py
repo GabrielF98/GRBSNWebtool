@@ -1210,7 +1210,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     # Return everything
-    return render_template('event.html', event=event, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, radio_refs=rad_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, event_id=event_id, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, radio_refs=rad_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
