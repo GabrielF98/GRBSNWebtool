@@ -93,6 +93,8 @@ Source: https://ui.adsabs.harvard.edu/abs/2005ApJ...622..986T/abstract
 Data-type: Late, Radio
 ---------------------------------------------------------
 EB = 100 m Effelsberg telescope; Y27 = phased VLA; GBT = 105 m Green Bank Telescope; WB = phased Westerbork array; AR = 305 m Arecibo telescope; MC = Medecina 32 m telescope; NT = Noto 32 m telescope.
+
+They took measurements but didn’t give any flux densities. Going to remove this text file from the main source folder. It will still be available in the Original Formats folder.
 =========================================================
 Filename: GRB030329-SN2003dh_Radio12.txt
 Source: https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract
