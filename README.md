@@ -6,7 +6,7 @@ The GRB-SN Webtool was created by Gabriel Finneran and Antonio Martin-Carrillo a
 # Missing/bad data or missing GRB-SN associations 
 If you are aware of any missing observations, erroneous data or additional bulk data (e.g. isotropic energy/magnitude) for any of the events in the catalogue you can log this as an issue [here](https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E). 
 
-If there is an association which has been confirmed and is missing from the tool you can log this as an issue [here](https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=missingGRBSN&template=alert-us-about-missing-event.md&title=Missing+data+for+%3Cevent+name+here%3E)
+If there is an association which has been confirmed and is missing from the tool you can log this as an issue [here](https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=missingGRBSN&template=alert-us-about-missing-event.md&title=Missing+data+for+%3Cevent+name+here%3E).
 
 # Upload your observations
 If you have data from your own observations or publications for any of these associations that you wish to upload you can do so by following these steps:
