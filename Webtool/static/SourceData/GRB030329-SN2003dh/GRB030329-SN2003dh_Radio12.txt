@@ -8,8 +8,8 @@ date	integration	time	freq	flux_density	flux_density_limit	dflux_density	system_
 2003-April-19-11.45-16.58	5.1	21.1	93	8.8	0	4.2	260	Bad	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
 2003-April-21-09.42-16.58	7.2	23.06	93	8.9	0	1.3	140	Good	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
 2003-April-23-09.52-14.92	5.4	25.03	93	NaN	0	NaN	Bad	NaN	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
-2003-April-30-08.43-15.50	7.1	32.02	93	NaN	0	2.8	200	Bad	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
-2003-May-21-08.33-14.25	5.9	52.99	93	NaN	0	1.3	180	Good	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
+2003-April-30-08.43-15.50	7.1	32.02	93	2.8	1	NaN	200	Bad	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
+2003-May-21-08.33-14.25	5.9	52.99	93	1.3	1	NaN	180	Good	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
 2003-May-22-07.10-13.92	6.8	53.95	93	NaN	0	NaN	Bad	NaN	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
-2003-May-29-08.43-13.58	5.2	60.98	93	NaN	0	2.0	210	NaN	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
-2003-May-30-08.50-13.42	4.9	61.97	93	NaN	0	1.7	200	NaN	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
+2003-May-29-08.43-13.58	5.2	60.98	93	2.0	1	NaN	210	NaN	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
+2003-May-30-08.50-13.42	4.9	61.97	93	1.7	1	NaN	200	NaN	yyyy-month-dd-hh.h-hh.h	hours	days	GHz	milliJy
