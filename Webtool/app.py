@@ -884,7 +884,7 @@ def event(event_id):
         radio_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt', sep='\t')
 
         # This is related to the solution for #67. Bokeh cannot cope when there are NaN in the dataframe.
-        radio_df = radio_df.fillna('0')
+        # radio_df = radio_df.fillna('0')
 
         ####### References ##########
         # Get the list of unique references
