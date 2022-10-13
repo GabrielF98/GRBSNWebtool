@@ -789,7 +789,7 @@ def event(event_id):
         # Plotting
 
         types2 = ['-1', '0', '1']
-        marks2 = ['inverted_triangle', 'circle', 'triangle']
+        marks2 = ['triangle', 'circle', 'inverted_triangle']
         optical.multi_line("dmag_locs", "dmags", source=optical_error_cds, color=factor_cmap('band', colors, bands), line_width=2)
         optical.scatter('time', 'mag', source=optical_cds, size=10, legend_field='band', color=factor_cmap('band', colors, bands), fill_color=factor_cmap('band', colors, bands), marker=factor_mark('mag_limit_str', marks2, types2))
 
@@ -883,9 +883,6 @@ def event(event_id):
         # Get the files that were downloaded from the ADS
         radio_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt', sep='\t')
 
-        # This is related to the solution for #67. Bokeh cannot cope when there are NaN in the dataframe.
-        # radio_df = radio_df.fillna('0')
-
         ####### References ##########
         # Get the list of unique references
         radio_refs = radio_df['reference']
@@ -918,7 +915,7 @@ def event(event_id):
 
         # Setting up to map the upper limits to different symbols.
         types2 = ['-1', '0', '1']
-        marks2 = ['inverted_triangle', 'circle', 'triangle']
+        marks2 = ['triangle', 'circle', 'inverted_triangle']
 
         # Get strings for the mapper functions
         radio_df['flux_density_limit_str'] = radio_df['flux_density_limit'].astype(str)
@@ -962,6 +959,7 @@ def event(event_id):
         # Tooltips of what will display in the hover mode
         # Format the tooltip
         tooltips = [('Time', '@time'),
+            ('Freq.', '@freq'),
             ('Flux Density', '@flux_density'),
             ('Source', '@indices'),]
 
