@@ -360,6 +360,7 @@ def limits(df, wave_range):
     # Convert the column to string
     df[i] = df[i].astype(str)
 
+
     # Upper limit = 1, Lower limit = -1, Neither = 0
     conditions = [(df[i].str.contains('>')), (df[i].str.contains('<'))]
     choices = [-1, 1]
@@ -374,9 +375,50 @@ def limits(df, wave_range):
 
     return(df)
 
+def nondetections(df, wave_range):
+    '''
+    Checks if there is a NaN in the flux_density or mag columns. If there is then it checks if there is data in the dflux_density/dmag column. If there is it puts this data into the flux_density/mag column and places a NaN in dflux_density/dmag column. If both are NaN then it sets the flux_density_limit/mag_limit column to 2. This can then be filtered out in the app.py function.
+    '''
+
+    if 'Radio' in wave_range:
+        i = 'flux_density'
+        j = 'dflux_density'
+        k = 'flux_density_limit'
+
+    if 'Optical' in wave_range or 'NIR' in wave_range:
+        i = 'mag'
+        j = 'dmag'
+        k = 'mag_limit'
+
+    # Get the rows where the flux/mag is NaN, set them to the value of the error rows. 
+    df2 = df.iloc[df[df[i].isnull()].index.tolist()]
+
+    if df2.empty==False:
+        index_list = df[df[i].isnull()].index.tolist() # Indices where the mag/fd is nan
+        index_list2 = df2[df2[j].isnull()].index.tolist() # Indices where the dmag/dfd is nan and the mag/fd is nan in the new df. 
+        print(index_list, index_list2)
+
+        index_list3 = []
+        for m in index_list:
+            if m not in index_list2:
+                index_list3.append(m) # All the indices where there are null mag/fd but that have a dmag/dfd.
+
+        # Set the mag/fd to the error value.
+        df.iloc[index_list3, df.columns.get_loc(i)] = df.iloc[index_list3, df.columns.get_loc(j)]
+
+        # Update the limit column so that it is 1 (upper limit)
+        df.iloc[index_list3, df.columns.get_loc(k)] = 1
+        
+        # Set the error rows to NaN.
+        df.iloc[index_list3, df.columns.get_loc(j)] = 'NaN'
+
+    return(df)
+
+
+
 def masterfileformat(filelist, event):
     '''
-    Iterate over any txt files with data for a GRB in a specific wavelength range. Put them all together with an outer join on their pandas. Save to a csv called GRBXXXXXX_SNXXXXxx_wave_range_Master.txt
+    Iterate over any txt files with data for a GRB in a specific wavelength range. Put them all together with an outer join on their pandas. Save to a csv called GRBXXXXXX-SNXXXXxx_wave_range_Master.txt
     '''
 
     optical_pandas = []
@@ -432,13 +474,21 @@ for i in range(len(trial_list)):
     file_list = glob.glob("*.txt")
     for file in file_list:
         print(file)
-        if 'Optical' in file or 'Radio' in file or 'NIR' in file:
+
+        # Don't go over the master data.
+        if 'Master' in file:
+            print('Skipping: ', file)
+
+        elif 'Optical' in file or 'Radio' in file or 'NIR' in file:
 
             data = pd.read_csv(file, sep='\t')
 
             # Find and catalogue limit values
             if 'mag_limit' not in list(data.keys()) and 'flux_density_limit' not in list(data.keys()):
                 data = limits(data, file)
+
+            # Tag any non-detections.
+            data = nondetections(data, file)
 
             if 'time' not in list(data.keys()):
                 data = elapsed_time(data, trigtime)
