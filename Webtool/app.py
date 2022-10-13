@@ -883,6 +883,9 @@ def event(event_id):
         # Get the files that were downloaded from the ADS
         radio_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt', sep='\t')
 
+        # This is related to the solution for #67. Bokeh cannot cope when there are NaN in the dataframe.
+        radio_df = radio_df.fillna('0')
+
         ####### References ##########
         # Get the list of unique references
         radio_refs = radio_df['reference']
@@ -890,7 +893,7 @@ def event(event_id):
         # Sub list of the indices for the optical data from the ADS
         radio_source_indices_sub = []
         for ref in radio_refs:
-            print(ref)
+            # print(ref)
             if ref in needed_dict.keys():
                 radio_source_indices_sub.append(
                     (list(needed_dict.keys()).index(ref)+1))
@@ -904,18 +907,18 @@ def event(event_id):
 
                 radio_source_indices_sub.append((list(needed_dict.keys()).index(ref)+1))
         
+        # List all the frequencies.
+        freqs = list(set(list(radio_df['freq'].astype(str))))
+
         # Add the lists of indices to the DF
         radio_df['indices'] = radio_source_indices_sub
 
         # Plot the radio data we have gathered.
-        colors = d3['Category20'][20]
+        colors = viridis(len(freqs))
 
         # Setting up to map the upper limits to different symbols.
         types2 = ['-1', '0', '1']
         marks2 = ['inverted_triangle', 'circle', 'triangle']
-
-        # List all the frequencies.
-        freqs = list(set(list(radio_df['freq'].astype(str))))
 
         # Get strings for the mapper functions
         radio_df['flux_density_limit_str'] = radio_df['flux_density_limit'].astype(str)
@@ -937,7 +940,7 @@ def event(event_id):
                 radio_df['flux_density'][i] = radio_df['flux_density'][i]*1000
                 radio_df['dflux_density'][i] = radio_df['dflux_density'][i]*1000
 
-        print(radio_df['dflux_density'])
+        # print(radio_df['dflux_density'])
 
         #Errors on flux densities
         radio_error_df = radio_df[['time', 'flux_density', 'dflux_density', 'freq_str']].copy()
@@ -1205,7 +1208,7 @@ def event(event_id):
     spectrum.background_fill_color = 'white'
     spectrum.border_fill_color = 'white'
 
-    script, div = components(layout([xray, optical], [spectrum]))
+    script, div = components(layout([xray, optical, radio], [spectrum]))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
