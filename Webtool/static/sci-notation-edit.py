@@ -1,3 +1,7 @@
+'''
+This script can be used to replace capital "E" with "e" in the database. This is needed for python to read the scientific notation correctly. 
+'''
+
 import sqlite3
 
 def get_db_connection():
