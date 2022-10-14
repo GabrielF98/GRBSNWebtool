@@ -1,3 +1,7 @@
+'''
+Converts any Swift xrtlc files to the correct format to be plotted by the tool. 
+'''
+
 import numpy as np
 import os
 eventlist = os.listdir()
