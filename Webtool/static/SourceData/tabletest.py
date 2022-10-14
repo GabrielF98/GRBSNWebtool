@@ -1,3 +1,7 @@
+'''
+Prints the dataframe representation of a text file containing GRB-SN data. Allows for quick identification of faults with the data standardisation. 
+'''
+
 import pandas as pd 
 import sys
 
