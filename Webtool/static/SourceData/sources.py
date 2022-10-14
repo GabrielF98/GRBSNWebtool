@@ -1,3 +1,7 @@
+'''
+Takes the file name and source data for each GRB-SN from a notion export and creates/updates the filesources.csv file for that GRB-SN.
+'''
+
 import pandas as pd
 import numpy as np
 import os
