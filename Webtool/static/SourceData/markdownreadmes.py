@@ -34,6 +34,8 @@ for folder in folders:
 		doc = Document(folder+"/readme")
 		doc.add_header(readmelines[0].split(' ')[2]) # The first line has the GRB-SN ID. 
 
+		doc.add_paragraph("The text files listed below were downloaded from papers on [NASA/ADS](https://ui.adsabs.harvard.edu) and converted to the GRBSN [format](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). The 'Master.txt' file(s) are a combination of these files containg all of the downloaded data for a paticular wavelength range.") # Next line explains the master files. 
+
 		# Loop over the readme between the ========= marks that divide the files. 
 		for i in range(len(linenos)):
 			doc.add_header((readmelines[linenos[i]+1]).split(' ')[1], 3) # The filename
