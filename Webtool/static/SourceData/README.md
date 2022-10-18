@@ -151,6 +151,8 @@ The descriptions of the bands are listed here for reference purposes.
  * `integration` The duration of the measurement. The default time unit is seconds.
  * `integration_unit` The units for the integration time.
  
+ * `reference` Usually added by the plotfuncs.py code, this is taken from the notion export and shows where the file came from on NASA/ADS.
+ 
  * `seeing` The seeing in arcseconds.
  * `extinction` The extinction in the associated band and with the associated units.
  
