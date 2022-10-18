@@ -9,7 +9,15 @@ from astropy.time import Time
 import glob, os
 
 # List of GRB-SNe that I have text file data on so far.
-trial_list = ['GRB000911', 'GRB011121-SN2001ke','GRB020305','GRB020405','GRB020410','GRB020903','GRB021211-SN2002lt', 'GRB030329-SN2003dh', 'GRB030723','GRB030725','GRB041006', 'GRB040924']
+os.chdir("SourceData/")
+root = os.getcwd()
+dirs = [ item for item in os.listdir(root) if os.path.isdir(os.path.join(root, item)) ]
+
+trial_list = []
+for i in dirs:
+    if 'GRB' in str(i) or 'SN' in str(i):
+        trial_list.append(i)
+os.chdir('..')
 
 
 # Get the trigger time
@@ -59,6 +67,7 @@ def get_trigtime(event_id):
             else:
                 trigtime = "no_tt"
     conn.close()
+    print(trigtime)
     return trigtime
 
 # Dictionary to convert months to numbers
@@ -465,39 +474,42 @@ def masterfileformat(filelist, event):
 
 # Run through all the files. Convert them to the format we want.
 for i in range(len(trial_list)):
-    # print(trial_list[i])
+    print('I am now doing folder: ', trial_list[i])
     trigtime = get_trigtime(trial_list[i])
 
     os.chdir("SourceData/")
     os.chdir(trial_list[i])
 
     file_list = glob.glob("*.txt")
-    for file in file_list:
-        print(file)
 
-        # Don't go over the master data.
-        if 'Master' in file:
-            print('Skipping: ', file)
+    # Check if the readme exists already. If it does then the files are ready to parse. 
+    if 'readme.txt' in file_list:
+        for file in file_list:
+            print(file)
 
-        elif 'Optical' in file or 'Radio' in file or 'NIR' in file:
+            # Don't go over the master data.
+            if 'Master' in file:
+                print('Skipping: ', file)
 
-            data = pd.read_csv(file, sep='\t')
+            elif 'Optical' in file or 'Radio' in file or 'NIR' in file:
 
-            # Find and catalogue limit values
-            if 'mag_limit' not in list(data.keys()) and 'flux_density_limit' not in list(data.keys()):
-                data = limits(data, file)
+                data = pd.read_csv(file, sep='\t')
 
-            # Tag any non-detections.
-            data = nondetections(data, file)
+                # Find and catalogue limit values
+                if 'mag_limit' not in list(data.keys()) and 'flux_density_limit' not in list(data.keys()):
+                    data = limits(data, file)
 
-            if 'time' not in list(data.keys()):
-                data = elapsed_time(data, trigtime)
-                data['time_unit'] = 'days'
-            
-            data.to_csv(file, sep='\t', index=False, na_rep='NaN')
-    
-    # Convert all the files to one master file for Optical/NIR.
-    masterfileformat(file_list, trial_list[i])
+                # Tag any non-detections.
+                data = nondetections(data, file)
+
+                if 'time' not in list(data.keys()):
+                    data = elapsed_time(data, trigtime)
+                    data['time_unit'] = 'days'
+                
+                data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+        
+        # Convert all the files to one master file for Optical/NIR.
+        masterfileformat(file_list, trial_list[i])
 
     os.chdir('..')
     os.chdir('..')
