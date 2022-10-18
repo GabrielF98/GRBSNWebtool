@@ -1,3 +1,7 @@
+'''
+This script needs to be run to return the citation information from NASA ADS. This is the data that eventually appears in the table on the event page. 
+'''
+
 import numpy as np
 import pandas as pd
 

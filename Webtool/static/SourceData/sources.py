@@ -1,5 +1,5 @@
 '''
-Loops over the notion files to create the sources.py files. Also includes the references for the swift data and the OpenSN data. 
+Takes the file name and source data for each GRB-SN from a notion export and creates/updates the filesources.csv file for that GRB-SN. Also includes the references for the swift data and the OpenSN data. 
 '''
 
 import pandas as pd

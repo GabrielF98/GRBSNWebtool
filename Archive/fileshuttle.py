@@ -1,3 +1,7 @@
+'''
+This was designed to shuttle the xrtlc files for a GRB-SN to the SourceData file for thatGRBSN, but it isn't needed anymore. 
+'''
+
 import numpy as np
 import os
 from csv import writer
