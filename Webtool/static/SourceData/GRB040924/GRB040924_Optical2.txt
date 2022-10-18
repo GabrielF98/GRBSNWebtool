@@ -1,0 +1,12 @@
+date	time	integration	mag	dmag	instrument	band	date_unit	time_unit	integration_unit	mag_unit
+2004-Sep-24-18:52:37	0.296	300 \times 3	22.01	0.13	LOT	V	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
+2004-Sep-24-19:46:02	0.333	300 \times 3	22.05	0.16	LOT	V	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
+2004-Sep-24-20:24:54	0.360	300 \times 3	22.18	0.13	LOT	V	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
+2004-Sep-24-12:18:21	0.018	120 \times 1	18.44	0.05	KAIT	R	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
+2004-Sep-24-12:55:21	0.044	120 \times 1	19.31	0.15	KAIT	R	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
+2004-Sep-24-15:00:55	0.140	600 \times 2	20.71	0.13	LOT	R	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
+2004-Sep-24-18:34:37	0.284	300 \times 3	21.39	0.15	LOT	R	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
+2004-Sep-24-19:28:57	0.321	300 \times 3	21.47	0.15	LOT	R	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
+2004-Sep-24-20:07:48	0.348	300 \times 3	21.47	0.14	LOT	R	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
+2004-Sep-24-20:42:17	0.372	300 \times 3	21.59	0.17	LOT	R	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
+2004-Sep-25-08:35:00	0.873	300 \times 3	>22.47	NaN	KAIT	R	yyyy-month-dd-hh:mm:ss	days	seconds	Unknown
