@@ -1,4 +1,0 @@
-# GRB091127-SN2009nz_Optical2.html
-
-Reference: https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract
-Status: Early, Late, Optical

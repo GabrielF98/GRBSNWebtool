@@ -1,5 +1,5 @@
 '''
-Takes the file name and source data for each GRB-SN from a notion export and creates/updates the filesources.csv file for that GRB-SN.
+Takes the file name and source data for each GRB-SN from a notion export and creates/updates the filesources.csv file for that GRB-SN. Also includes the references for the swift data and the OpenSN data. 
 '''
 
 import pandas as pd
@@ -17,7 +17,7 @@ for i in dirs:
 		file_list.append(i)
 
 # Go into the notion export and find the source list for the GRB or SN
-loc = '/NotionExportMay22/'
+loc = '/NotionExport/'
 root = root+loc
 dirs2 = [ item for item in os.listdir(root) if os.path.isdir(os.path.join(root, item)) ]
 

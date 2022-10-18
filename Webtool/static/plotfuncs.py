@@ -9,7 +9,7 @@ from astropy.time import Time
 import glob, os
 
 # List of GRB-SNe that I have text file data on so far.
-trial_list = ['GRB000911', 'GRB011121-SN2001ke','GRB020305','GRB020405','GRB020410','GRB020903','GRB021211-SN2002lt', 'GRB030329-SN2003dh', 'GRB030723','GRB030725','GRB041006']
+trial_list = ['GRB000911', 'GRB011121-SN2001ke','GRB020305','GRB020405','GRB020410','GRB020903','GRB021211-SN2002lt', 'GRB030329-SN2003dh', 'GRB030723','GRB030725','GRB041006', 'GRB040924']
 
 
 # Get the trigger time
@@ -435,7 +435,7 @@ def masterfileformat(filelist, event):
         elif 'Radio' in file or 'radio' in file:
             data = pd.read_csv(file, sep='\t')
 
-            # Add a column for the ads abstract link - source
+            # Add a column for the ads abstract link - source. This comes out of the filesources.csv file. 
             # print(data)
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
             
