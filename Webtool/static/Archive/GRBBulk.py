@@ -1,3 +1,7 @@
+'''
+Used to create the RADec and trigtimes into the TrigCoords table of the database. 
+'''
+
 import numpy as np
 import pandas as pd
 from astropy import units as u

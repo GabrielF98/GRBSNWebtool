@@ -1,3 +1,7 @@
+'''
+Gets the optical photometry and spectra from the OpenSN tool. This code is currently commented such that it will not run. This is a protection mechanism put in place after the crash of OpenSN in March 2022. 
+'''
+
 import pandas as pd
 import numpy as np
 import json

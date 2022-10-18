@@ -1,6 +1,8 @@
 # GRB030329-SN2003dh
 
 
+The text files listed below were downloaded from papers on [NASA/ADS](https://ui.adsabs.harvard.edu) and converted to the GRBSN [format](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). The 'Master.txt' file(s) are a combination of these text files and contain all of the downloaded data for a paticular wavelength range.
+
 ### GRB030329-SN2003dh_Radio.txt
 
 
@@ -95,6 +97,8 @@ Note.—EB = 100 m Effelsberg telescope; GBT = 105 m Green Bank Telescope; WB = 
 
 Table: Light-Curve Data for GRB 030329
 
+The MJDs in this were JD-2450000. MJD in astopy is MJD-2400000.5. In order to be used with astopy, we have added 49999.5 when calculating elapsed time since the trigger.
+
 ### GRB030329-SN2003dh_Radio6.txt
 
 
@@ -176,6 +180,10 @@ In the case of the observation on: 2003-04-05.269-05.302 - The observation was n
 
 EB = 100 m Effelsberg telescope; Y27 = phased VLA; GBT = 105 m Green Bank Telescope; WB = phased Westerbork array; AR = 305 m Arecibo telescope; MC = Medecina 32 m telescope; NT = Noto 32 m telescope.
 
+
+
+They took measurements but didn’t give any flux densities. Going to remove this text file from the main source folder. It will still be available in the Original Formats folder.
+
 ### GRB030329-SN2003dh_Radio12.txt
 
 
@@ -187,7 +195,7 @@ EB = 100 m Effelsberg telescope; Y27 = phased VLA; GBT = 105 m Green Bank Telesc
 
 Table 1. Nobeyama Millimeter Array observations of GRB 030329.
 
-{(1) Observing date.(2) Beginning time of observation.(3) End time of observation.(4) Duration of the observation. Net on-source integration time is typically about half of this.(5) Time since the burst (2003 March 29.48 UT). Middle of the observing run is taken here.(6) Observing frequency. An average of USB and LSB frequencies.``141GHz'' means an average of 146.969 \pm 0.5 GHz and 134.969 \pm 0.5 GHz bands, and``93GHz'' means an average of 98.824 \pm 0.5 GHz and 86.824 \pm 0.5 GHz bands, respectively.(7) Flux density.(8) Noise level (1 \sigma).(9) System noise temperature in DSB. ``Bad'' means that the dataset was useless due to bad weather.(10) Atmospheric phase stability.``Bad'' means a large fraction of the visibility data should be discardeddue to large phase noise.}
+{(1) Observing date.(2) Beginning time of observation.(3) End time of observation.(4) Duration of the observation. Net on-source integration time is typically about half of this.(5) Time since the burst (2003 March 29.48 UT). Middle of the observing run is taken here.(6) Observing frequency. An average of USB and LSB frequencies.``141GHz'' means an average of 146.969 \pm 0.5 GHz and 134.969 \pm 0.5 GHz bands, and``93GHz'' means an average of 98.824 \pm 0.5 GHz and 86.824 \pm 0.5 GHz bands, respectively.(7) Flux density.(8) Noise level (1 \sigma).(9) System noise temperature in DSB. ``Bad'' means that the dataset was useless due to bad weather.(10) Atmospheric phase stability.``Bad'' means a large fraction of the visibility data should be discarded due to large phase noise.}
 
 ### GRB030329-SN2003dh_Radio13.txt
 
@@ -307,6 +315,10 @@ Note (2):
 04 = R band;
 
 05 = I band.
+
+
+
+Notes from GF: The MJDs in this were JD-2450000. MJD in astopy is MJD-2400000.5. In order to be used with astopy, we have added 49999.5 when calculating elapsed time since the trigger.
 
 ### GRB030329-SN2003dh_Radio14.txt
 
