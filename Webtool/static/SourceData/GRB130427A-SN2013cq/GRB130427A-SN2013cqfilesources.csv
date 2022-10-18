@@ -6,6 +6,7 @@ GRB130427A-SN2013cq,GRB130427A-SN2013cq_Optical3.txt,"Late, Optical",https://ui.
 GRB130427A-SN2013cq,GRB130427A-SN2013cq_Optical4.txt,"Early, Optical, UV",https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract
 GRB130427A-SN2013cq,GRB130427A-SN2013cq_Radio.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract
 GRB130427A-SN2013cq,GRB130427A-SN2013cq_SED.txt,SED,https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract
+GRB130427A-SN2013cq,GRB130427A-SN2013cq_Radio2.html,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract
 GRB130427A-SN2013cq,Xray,https://www.swift.ac.uk/xrt_curves/
 GRB130427A-SN2013cq,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2013cq/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
 GRB130427A-SN2013cq,OpenSNSpectra0.json,Spectra,https://api.astrocats.space/SN2013cq/spectra/?item=0&format=json
