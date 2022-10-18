@@ -1,3 +1,7 @@
+'''
+Loops over the notion files to create the sources.py files. Also includes the references for the swift data and the OpenSN data. 
+'''
+
 import pandas as pd
 import numpy as np
 import os
@@ -13,7 +17,7 @@ for i in dirs:
 		file_list.append(i)
 
 # Go into the notion export and find the source list for the GRB or SN
-loc = '/NotionExportMay22/'
+loc = '/NotionExport/'
 root = root+loc
 dirs2 = [ item for item in os.listdir(root) if os.path.isdir(os.path.join(root, item)) ]
 
