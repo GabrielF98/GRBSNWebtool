@@ -6,3 +6,5 @@ __pycache__
 Webtool/instance/
 .DS_Store
 Webtool/env/
+Webtool/static/SourceData/NotionExport/
+Webtool/static/SourceData/NotionExportMay22/
