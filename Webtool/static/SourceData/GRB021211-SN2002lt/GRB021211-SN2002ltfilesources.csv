@@ -6,5 +6,5 @@ GRB021211-SN2002lt,GRB021211-SN2002lt_Optical2.txt,"Early, Optical",https://ui.a
 GRB021211-SN2002lt,GRB021211-SN2002lt_Optical3.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2003A%26A...406L..33D/abstract
 GRB021211-SN2002lt,GRB021211-SN2002lt_Optical4.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
 GRB021211-SN2002lt,GRB021211-SN2002lt_Optical5.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
-GRB021211-SN2002lt,GRB021211_SN2002lt_Radio2.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+GRB021211-SN2002lt,GRB021211-SN2002lt_Radio2.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
 GRB021211-SN2002lt,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2002lt/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
