@@ -1,4 +1,4 @@
-date	time	integration	instrument	filter	mag	mag_limit	dmag	extinction	date_unit	time_unit	integration_unit	mag_unit
+date	time	integration	instrument	band	mag	mag_limit	dmag	extinction	date_unit	time_unit	integration_unit	mag_unit
 2004-Nov-2.4	38.9	3064	HST	F775W	26.44	0	0.23	NaN	yyyy-month-deciday	days	seconds	Vega
 2004-Nov-2.5	39.0	3211	HST	F850LP	25.6	0	0.11	NaN	yyyy-month-deciday	days	seconds	Vega
 2004-Nov-26.5	63.0	3932	HST	F775W	27.59	-1	NaN	NaN	yyyy-month-deciday	days	seconds	Vega
