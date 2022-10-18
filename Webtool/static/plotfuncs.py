@@ -435,7 +435,7 @@ def masterfileformat(filelist, event):
         elif 'Radio' in file or 'radio' in file:
             data = pd.read_csv(file, sep='\t')
 
-            # Add a column for the ads abstract link - source
+            # Add a column for the ads abstract link - source. This comes out of the filesources.csv file. 
             # print(data)
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
             

@@ -9,7 +9,7 @@ GRB030329-SN2003dh,GRB030329-SN2003dh_Radio6.txt,"Early, Late, Radio",https://ui
 GRB030329-SN2003dh,GRB030329-SN2003dh_Radio7.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract,
 GRB030329-SN2003dh,GRB030329-SN2003dh_Optical2.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract,
 GRB030329-SN2003dh,GRB030329-SN2003dh_Radio8.txt,Radio,https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract,
-GRB030329-SN2003dh,GRB030329-SN2003dh_Radio9.txt - MISTAKE,Radio,https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract,
+GRB030329-SN2003dh,GRB030329-SN2003dh_Radio9.txt,Radio,https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract,
 GRB030329-SN2003dh,GRB030329-SN2003dh_Radio10.txt,Radio,https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract,
 GRB030329-SN2003dh,GRB030329-SN2003dh_Radio11.txt,"Late, Radio",https://ui.adsabs.harvard.edu/abs/2005ApJ...622..986T/abstract,They took measurements but didn’t give any flux densities. Going to remove this text file from the main source folder. It will still be available in the Original Formats folder.
 GRB030329-SN2003dh,GRB030329-SN2003dh_Radio12.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract,
