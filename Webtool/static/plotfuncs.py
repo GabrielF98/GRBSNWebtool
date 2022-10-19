@@ -466,6 +466,11 @@ def masterfileformat(filelist, event):
             # Add a column for the ads abstract link - source. This comes out of the filesources.csv file. 
             # print(data)
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
+
+            # Make sure the elapsed time is in days, if its in seconds then convert it. 
+            if data['time_unit'][0] == 'seconds':
+                data['time'] = data['time'].astype(float)/86400
+                data['time_unit'] = 'days'
             
             # Append pandas
             radio_pandas.append(data)
@@ -480,21 +485,23 @@ def masterfileformat(filelist, event):
             # Make sure the elapsed time is in days, if its in seconds then convert it. 
             if data['time_unit'][0] == 'seconds':
                 data['time'] = data['time'].astype(float)/86400
-            
+                data['time_unit'] = 'days'
+
             # Append pandas
             optical_pandas.append(data)
 
         # Xray files
-        if any(substring in wave_range.lower() for substring in xray_filetags):
+        if any(substring in file.lower() for substring in xray_filetags):
             data = pd.read_csv(file, sep='\t')
 
             # Add a column for the ads abstract link - source
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
 
-            # Make sure the elapsed time is in days, if its in seconds then convert it. 
-            if data['time_unit'][0] == 'seconds':
-                data['time'] = data['time'].astype(float)/86400
-            
+            # Make sure the elapsed time is in seconds, if its in days then convert it. 
+            if data['time_unit'][0] == 'days':
+                data['time'] = data['time'].astype(float)*86400
+                data['time_unit'] = 'seconds'
+
             # Append pandas
             xray_pandas.append(data)
 
@@ -529,13 +536,13 @@ for i in range(len(trial_list)):
         for file in file_list:
             # print(file)
 
-            # if Optical/Radio/Xray etc. in filename
-            if any(substring in file.lower() for substring in wavelength_names):
+            # Radio files
+            if any(substring in file.lower() for substring in radio_filetags):
 
                 data = pd.read_csv(file, sep='\t')
 
                 # Find and catalogue limit values
-                if 'mag_limit' not in list(data.keys()) and 'flux_density_limit' not in list(data.keys()):
+                if 'flux_density_limit' not in list(data.keys()):
                     data = limits(data, file)
 
                 # Tag any non-detections.
@@ -545,6 +552,42 @@ for i in range(len(trial_list)):
                     data = elapsed_time(data, trigtime)
                     data['time_unit'] = 'days'
                 
+                data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+
+            # Optical files
+            if any(substring in file.lower() for substring in optical_filetags):
+
+                data = pd.read_csv(file, sep='\t')
+
+                # Find and catalogue limit values
+                if 'mag_limit' not in list(data.keys()):
+                    data = limits(data, file)
+
+                # Tag any non-detections.
+                data = nondetections(data, file)
+
+                if 'time' not in list(data.keys()):
+                    data = elapsed_time(data, trigtime)
+                    data['time_unit'] = 'days'
+                
+                data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+
+            # Xray files
+            if any(substring in file.lower() for substring in xray_filetags):
+
+                data = pd.read_csv(file, sep='\t')
+
+                # Find and catalogue limit values
+                if 'flux_limit' not in list(data.keys()):
+                    data = limits(data, file)
+
+                # Tag any non-detections.
+                data = nondetections(data, file)
+
+                if 'time' not in list(data.keys()):
+                    data = elapsed_time(data, trigtime)
+                    data['time_unit'] = 'days'
+
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
             # Don't go over the master data.
