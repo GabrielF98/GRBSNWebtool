@@ -423,8 +423,6 @@ def nondetections(df, wave_range):
 
     return(df)
 
-
-
 def masterfileformat(filelist, event):
     '''
     Iterate over any txt files with data for a GRB in a specific wavelength range. Put them all together with an outer join on their pandas. Save to a csv called GRBXXXXXX-SNXXXXxx_wave_range_Master.txt
@@ -458,6 +456,10 @@ def masterfileformat(filelist, event):
 
             # Add a column for the ads abstract link - source
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
+
+            # Make sure the elapsed time is in days, if its in seconds then convert it. 
+            if data['time_unit'][0] == 'seconds':
+                data['time'] = data['time'].astype(float)/86400
             
             # Append pandas
             optical_pandas.append(data)
@@ -469,8 +471,6 @@ def masterfileformat(filelist, event):
     if len(optical_pandas) != 0:
         optical = pd.concat(optical_pandas, join='outer')
         optical.to_csv(event+'_Optical_Master.txt', sep='\t', index=False, na_rep='NaN')
-
-
 
 # Run through all the files. Convert them to the format we want.
 for i in range(len(trial_list)):
