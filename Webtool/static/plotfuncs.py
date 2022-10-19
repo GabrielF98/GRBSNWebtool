@@ -555,7 +555,7 @@ for i in range(len(trial_list)):
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
             # Optical files
-            if any(substring in file.lower() for substring in optical_filetags):
+            elif any(substring in file.lower() for substring in optical_filetags):
 
                 data = pd.read_csv(file, sep='\t')
 
@@ -573,7 +573,7 @@ for i in range(len(trial_list)):
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
             # Xray files
-            if any(substring in file.lower() for substring in xray_filetags):
+            elif any(substring in file.lower() for substring in xray_filetags):
 
                 data = pd.read_csv(file, sep='\t')
 
