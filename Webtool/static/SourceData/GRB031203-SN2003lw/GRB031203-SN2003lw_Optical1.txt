@@ -1,0 +1,3 @@
+date	integration	seeing	band	instrument	mag	dmag	date_unit	integration_unit
+2004-May-22.02	2 \times 2	0.6	R	FORS1	20.44	0.02	yyyy-month-deciday	minutes
+2004-May-22.02	2 \times 2	0.6	I	FORS1	19.40	0.04	yyyy-month-deciday	minutes

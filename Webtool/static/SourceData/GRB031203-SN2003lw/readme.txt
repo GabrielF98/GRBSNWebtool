@@ -1,0 +1,30 @@
+Event Name: GRB031203-SN2003lw
+=========================================================
+Filename: GRB031203-SN2003lw_Optical1.txt
+---------------------------------------------------------
+No notes.
+=========================================================
+Filename: GRB031203-SN2003lw_Optical.txt
+---------------------------------------------------------
+Title: The Supernova Associated with GRB 031203: SMARTS Optical-Infrared 
+       Lightcurves from 0.2 to 92 Days  
+Authors: Cobb B.E., Bailyn C.D., van Dokkum P.G., Buxton M.M., Bloom J.S. 
+Table: GRB 031203/SN 2003lw Host Galaxy Photometry
+================================================================================
+Byte-by-byte Description of file: datafile1.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units Label  Explanations
+--------------------------------------------------------------------------------
+   1-  5 F5.2   ---   Days   Days after GRB trigger at 2003 Dec 3, 22:01:28 UT  
+   7- 11 F5.2   mag   Imag   The I band magnitude (1)  
+  13- 16 F4.2   mag e_Imag   Uncertainty in Imag (1)
+  18- 22 F5.2   mag   Jmag   ? The J band magnitude (1)
+  24- 27 F4.2   mag e_Jmag   ? Uncertainty in Jmag (1) 
+--------------------------------------------------------------------------------
+Note (1): There is an additional uncertainty of 0.07 mag in the transformation 
+          of relative to apparent magnitudes.
+--------------------------------------------------------------------------------
+=========================================================
+Filename: GRB031203-SN2003lw_Optical2.txt
+---------------------------------------------------------
+Magnitudes are given relative to the boldface epoch.
