@@ -33,4 +33,4 @@ Filename: GRB031203-SN2003lw_Optical2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract
 Data-type: Early, Late, Optical
 ---------------------------------------------------------
-Magnitudes are given relative to the boldface epoch.
+Magnitudes are given originally relative to the boldface epoch. I have fixed this issue.
