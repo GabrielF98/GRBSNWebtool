@@ -491,7 +491,7 @@ def masterfileformat(filelist, event):
             optical_pandas.append(data)
 
         # Xray files
-        if any(substring in file.lower() for substring in xray_filetags):
+        elif any(substring in file.lower() for substring in xray_filetags):
             data = pd.read_csv(file, sep='\t')
 
             # Add a column for the ads abstract link - source
@@ -523,7 +523,7 @@ def masterfileformat(filelist, event):
 ###################
 # Run through all the files. Convert them to the format we want.
 for i in range(len(trial_list)):
-    print('I am now doing folder: ', trial_list[i])
+    # print('I am now doing folder: ', trial_list[i])
     trigtime = get_trigtime(trial_list[i])
 
     os.chdir("SourceData/")
@@ -534,7 +534,7 @@ for i in range(len(trial_list)):
     # Check if the readme exists already. If it does then the files are ready to parse. 
     if 'readme.txt' in file_list:
         for file in file_list:
-            # print(file)
+            print(file)
 
             # Radio files
             if any(substring in file.lower() for substring in radio_filetags):
