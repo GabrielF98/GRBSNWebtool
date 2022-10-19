@@ -1,10 +1,14 @@
 Event Name: GRB031203-SN2003lw
 =========================================================
 Filename: GRB031203-SN2003lw_Optical1.txt
+Source: https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract
+Data-type: Late, Optical
 ---------------------------------------------------------
 No notes.
 =========================================================
 Filename: GRB031203-SN2003lw_Optical.txt
+Source: https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract
+Data-type: Early, Late, NIR
 ---------------------------------------------------------
 Title: The Supernova Associated with GRB 031203: SMARTS Optical-Infrared 
        Lightcurves from 0.2 to 92 Days  
@@ -26,5 +30,7 @@ Note (1): There is an additional uncertainty of 0.07 mag in the transformation
 --------------------------------------------------------------------------------
 =========================================================
 Filename: GRB031203-SN2003lw_Optical2.txt
+Source: https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 Magnitudes are given relative to the boldface epoch.
