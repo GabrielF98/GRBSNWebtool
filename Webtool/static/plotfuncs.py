@@ -67,7 +67,7 @@ def get_trigtime(event_id):
             else:
                 trigtime = "no_tt"
     conn.close()
-    print(trigtime)
+    # print(trigtime)
     return trigtime
 
 # Dictionary to convert months to numbers
@@ -358,13 +358,25 @@ def elapsed_time(dataframe, trigtime):
 
     return dataframe
 
+# Filename keywords
+wavelength_names = ['xray', 'uv', 'optical', 'nir', 'ir', 'radio'] # Possible wavelengths in the filenames. 
+optical_filetags = ['optical', 'nir', 'uv', 'ir'] # Possible optical data tags in filenames
+radio_filetags = ['radio'] # Possible tags in the radio filenames.
+xray_filetags = ['xray'] # Possible tags in the xray filenames. 
+
 # This function will create a column with a value that tells us whether the magnitude/flux_density etc is an upper/lower limit or just a normal value 
 def limits(df, wave_range):
-    if 'Radio' in wave_range:
+    # Radio files
+    if any(substring in wave_range.lower() for substring in radio_filetags):
         i = 'flux_density'
 
-    if 'Optical' in wave_range or 'NIR' in wave_range:
+    # Optical files
+    if any(substring in wave_range.lower() for substring in optical_filetags):
         i = 'mag'
+
+    # Xray files
+    if any(substring in wave_range.lower() for substring in xray_filetags):
+        i = 'flux'
 
     # Convert the column to string
     df[i] = df[i].astype(str)
@@ -389,15 +401,23 @@ def nondetections(df, wave_range):
     Checks if there is a NaN in the flux_density or mag columns. If there is then it checks if there is data in the dflux_density/dmag column. If there is it puts this data into the flux_density/mag column and places a NaN in dflux_density/dmag column. If both are NaN then it sets the flux_density_limit/mag_limit column to 2. This can then be filtered out in the app.py function.
     '''
 
-    if 'Radio' in wave_range:
+    # Radio files
+    if any(substring in wave_range.lower() for substring in radio_filetags):
         i = 'flux_density'
         j = 'dflux_density'
         k = 'flux_density_limit'
 
-    if 'Optical' in wave_range or 'NIR' in wave_range:
+    # Optical files
+    if any(substring in wave_range.lower() for substring in optical_filetags):
         i = 'mag'
         j = 'dmag'
         k = 'mag_limit'
+
+    # Xray files
+    if any(substring in wave_range.lower() for substring in xray_filetags):
+        i = 'flux'
+        j = 'dflux'
+        k = 'flux_limit'
 
     # Get the rows where the flux/mag is NaN, set them to the value of the error rows. 
     df2 = df.iloc[df[df[i].isnull()].index.tolist()]
@@ -405,7 +425,7 @@ def nondetections(df, wave_range):
     if df2.empty==False:
         index_list = df[df[i].isnull()].index.tolist() # Indices where the mag/fd is nan
         index_list2 = df2[df2[j].isnull()].index.tolist() # Indices where the dmag/dfd is nan and the mag/fd is nan in the new df. 
-        print(index_list, index_list2)
+        # print(index_list, index_list2)
 
         index_list3 = []
         for m in index_list:
@@ -430,16 +450,17 @@ def masterfileformat(filelist, event):
 
     optical_pandas = []
     radio_pandas = []
+    xray_pandas = []
 
     # Get the file sources for each data file of the GRB
     file_sources = pd.read_csv(trial_list[i]+'filesources.csv', header=0, sep=',')
-    # print(file_sources)
 
     for file in file_list:
         # print(file)
         if 'Master' in file:
             continue
-        elif 'Radio' in file or 'radio' in file:
+        # Radio master db
+        elif any(substring in file.lower() for substring in radio_filetags):
             data = pd.read_csv(file, sep='\t')
 
             # Add a column for the ads abstract link - source. This comes out of the filesources.csv file. 
@@ -449,10 +470,9 @@ def masterfileformat(filelist, event):
             # Append pandas
             radio_pandas.append(data)
 
-        elif 'Optical' in file or 'optical' in file or 'NIR' in file:
+        # Optical master db
+        elif any(substring in file.lower() for substring in optical_filetags):
             data = pd.read_csv(file, sep='\t')
-
-            # print(data)
 
             # Add a column for the ads abstract link - source
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
@@ -464,6 +484,21 @@ def masterfileformat(filelist, event):
             # Append pandas
             optical_pandas.append(data)
 
+        # Xray files
+        if any(substring in wave_range.lower() for substring in xray_filetags):
+            data = pd.read_csv(file, sep='\t')
+
+            # Add a column for the ads abstract link - source
+            data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
+
+            # Make sure the elapsed time is in days, if its in seconds then convert it. 
+            if data['time_unit'][0] == 'seconds':
+                data['time'] = data['time'].astype(float)/86400
+            
+            # Append pandas
+            xray_pandas.append(data)
+
+    # Create the master files. 
     if len(radio_pandas) != 0:
         radio = pd.concat(radio_pandas, join='outer')
         radio.to_csv(event+'_Radio_Master.txt', sep='\t', index=False, na_rep='NaN')
@@ -472,6 +507,13 @@ def masterfileformat(filelist, event):
         optical = pd.concat(optical_pandas, join='outer')
         optical.to_csv(event+'_Optical_Master.txt', sep='\t', index=False, na_rep='NaN')
 
+    if len(xray_pandas) != 0:
+        xray = pd.concat(xray_pandas, join='outer')
+        xray.to_csv(event+'_Xray_Master.txt', sep='\t', index=False, na_rep='NaN')
+
+###################
+#### MAIN #########
+###################
 # Run through all the files. Convert them to the format we want.
 for i in range(len(trial_list)):
     print('I am now doing folder: ', trial_list[i])
@@ -485,13 +527,10 @@ for i in range(len(trial_list)):
     # Check if the readme exists already. If it does then the files are ready to parse. 
     if 'readme.txt' in file_list:
         for file in file_list:
-            print(file)
+            # print(file)
 
-            # Don't go over the master data.
-            if 'Master' in file:
-                print('Skipping: ', file)
-
-            elif 'Optical' in file or 'Radio' in file or 'NIR' in file:
+            # if Optical/Radio/Xray etc. in filename
+            if any(substring in file.lower() for substring in wavelength_names):
 
                 data = pd.read_csv(file, sep='\t')
 
@@ -507,6 +546,10 @@ for i in range(len(trial_list)):
                     data['time_unit'] = 'days'
                 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+
+            # Don't go over the master data.
+            else:
+                print('Skipping: ', file)
         
         # Convert all the files to one master file for Optical/NIR.
         masterfileformat(file_list, trial_list[i])
