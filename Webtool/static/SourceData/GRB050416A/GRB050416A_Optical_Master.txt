@@ -1,126 +1,126 @@
 date	time	integration	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	reference	instrument
-2005 May 23.38	36.92	3282	F775W	24.35	0	0.02	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
-2005 May 23.46	37.0	3430	F850LP	23.83	0	0.03	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
-2005 Jun 16.17	60.71	3986	F775W	25.88	0	0.1	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
-2005 Jul 11.15	85.69	4224	F775W	26.44	0	0.22	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
-2005 Nov 21.06	218.6	4224	F850LP	NaN	0	NaN	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
-2005 Nov 21.19	218.73	4224	F775W	NaN	0	NaN	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
-2005 May 23.38	36.92	3282	I	23.82	0	0.02	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
-2005 May 23.46	37.0	3430	I	NaN	0	NaN	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
-2005 Jun 16.17	60.71	3986	I	25.36	0	0.1	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
-2005 Jul 11.15	85.69	4224	I	25.92	0	0.22	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
-NaN	126	100	V	19.19	0	0.29	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	228	10	B	19.49	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	257	10	V	19.39	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	285	10	UVW1	18.36	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	313	10	B	19.17	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	342	10	V	18.36	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	355	10	UVM2	18.57	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	369	10	UVW1	18.61	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	397	10	B	19.44	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	482	10	B	19.39	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	497	10	UVW2	18.41	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	510	10	V	18.61	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	566	10	B	19.32	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	594	10 \times 10	U	19.75	0	0.3	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	650	10	B	19.38	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	666	10	UVW2	18.2	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	679	10	V	18.13	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	707	10	UVW1	19.3	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	735	10	B	19.49	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	792	10	UVW1	18.16	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	819	10	B	19.48	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	848	10	V	18.33	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	876	10	UVW1	18.09	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	904	10	B	19.57	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	919	10	UVW2	19.05	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	933	10	V	18.22	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1035	100	B	20.74	0	0.42	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1140	100	UVW2	19.81	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1245	100	V	19.55	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1349	100	UVM2	20.75	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1454	100	UVW1	20.32	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1558	100	U	20.44	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1663	100	B	20.9	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1768	100	UVW2	19.55	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1868	93	V	19.51	0	0.4	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	2081	100	UVW1	20.43	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	2185	100	U	20.3	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	2290	100	B	20.65	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	6850	900	V	21.02	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	11,730	900	UVW1	21.81	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	12,637	900	U	21.61	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	13,508	826	B	21.71	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	18,532	900	V	20.88	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	23,601	900	UVW1	21.93	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	24,508	900	U	21.55	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	25,231	530	B	21.6	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	30,599	900	V	20.88	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	36,640	858	UVW1	22.0	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	41,791	900	U	21.51	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	42,552	606	B	21.61	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	48,456	373	V	20.44	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	51,023	36 \times 78	K_{s}	19.07	0	0.17	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	NOTCam
-NaN	52,031	271	V	20.35	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	54,363	132	UVW1	20.78	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	57,086	6 \times 900	R_{C}	22.29	0	0.08	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
-NaN	57,990	773	UVW1	21.7	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	59,659	900	U	21.57	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	60,166	99	B	20.72	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	60,415	2 \times 1200	V	23.13	0	0.17	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
-NaN	63,859	900	B	21.86	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	67,559	9202	UVM2	23.38	0	0.42	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	68,693	3 \times 600	I_{C}	21.02	0	0.17	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
-NaN	70,541	900	UVW1	21.98	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	70,549	1500	B	23.11	0	0.25	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
-NaN	71,393	791	U	21.55	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	73,345	10,146	UVW2	23.25	0	0.33	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	76,988	459	V	20.53	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	82,070	900	UVW1	21.92	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	82,944	835	U	21.44	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	86,973	900	B	21.96	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	88,743	810	V	20.83	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	93,637	900	UVW1	22.15	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	94,514	841	U	21.47	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	98,641	900	B	22.01	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	100,162	311	V	20.45	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	105,335	900	UVW1	21.96	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	110,415	900	B	21.95	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	112,038	514	V	20.47	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	117,400	900	UVW1	22.04	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	117,970	223	U	20.8	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	122,543	900	U	21.73	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	123,434	868	B	21.8	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	129,343	624	V	20.72	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	135,246	390	UVW1	21.34	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	138,805	401	UVW1	21.45	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	140,587	900	U	21.6	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	141,137	184	B	20.91	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	142,008	25 \times 400	R_{C}	22.84	0	0.11	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
-NaN	144,815	900	B	22.19	0	0.47	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	146,738	553	V	20.55	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	231,672	53 \times 300	I_{C}	23.1	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
-NaN	313,726	29 \times 300	I_{C}	22.74	0	0.19	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
-NaN	406,438	21 \times 200	I_{C}	23.03	0	0.23	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
-NaN	868,505	20,957	V	22.56	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1,039,340	8274	V	22.06	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1,384,870	6755	V	21.91	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1,468,840	4722	V	21.69	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	1,941,288	14,167	V	22.38	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	2,338,167	21,133	V	22.58	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	2,424,904	26,389	V	22.63	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	3,146,746	39 \times 52	K_{s}	19.57	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	NOTCam
-NaN	3,371,121	12,866	V	22.15	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	3,455,561	4722	V	21.81	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	3,590,733	15,986	V	22.34	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	3,732,868	18,806	V	22.59	0	0.42	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	4,170,209	321	V	19.97	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	5,706,808	25,285	V	22.57	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	5,793,106	20,898	V	22.43	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	5,880,015	23,533	V	22.52	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	6,136,666	15,285	V	22.21	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	6,310,565	13,933	V	22.13	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
-NaN	6,394,649	10,004	V	21.95	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+2005-May-23.38	36.92	3282	F775W	24.35	0	0.02	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
+2005-May-23.46	37.0	3430	F850LP	23.83	0	0.03	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
+2005-Jun-16.17	60.71	3986	F775W	25.88	0	0.1	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
+2005-Jul-11.15	85.69	4224	F775W	26.44	0	0.22	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
+2005-Nov-21.06	218.6	4224	F850LP	NaN	0	NaN	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
+2005-Nov-21.19	218.73	4224	F775W	NaN	0	NaN	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
+2005-May-23.38	36.92	3282	I	23.82	0	0.02	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
+2005-May-23.46	37.0	3430	I	NaN	0	NaN	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
+2005-Jun-16.17	60.71	3986	I	25.36	0	0.1	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
+2005-Jul-11.15	85.69	4224	I	25.92	0	0.22	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	NaN
+NaN	0.0014583333333333334	100	V	19.19	0	0.29	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.002638888888888889	10	B	19.49	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.0029745370370370373	10	V	19.39	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.003298611111111111	10	UVW1	18.36	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.0036226851851851854	10	B	19.17	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.003958333333333334	10	V	18.36	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.004108796296296296	10	UVM2	18.57	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.004270833333333333	10	UVW1	18.61	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.004594907407407408	10	B	19.44	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.005578703703703704	10	B	19.39	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.005752314814814815	10	UVW2	18.41	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.005902777777777778	10	V	18.61	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.006550925925925926	10	B	19.32	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.006875	10 \times 10	U	19.75	0	0.3	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.007523148148148148	10	B	19.38	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.0077083333333333335	10	UVW2	18.2	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.007858796296296296	10	V	18.13	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.00818287037037037	10	UVW1	19.3	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.008506944444444444	10	B	19.49	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.009166666666666667	10	UVW1	18.16	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.009479166666666667	10	B	19.48	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.009814814814814814	10	V	18.33	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.010138888888888888	10	UVW1	18.09	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.010462962962962962	10	B	19.57	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.010636574074074074	10	UVW2	19.05	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.010798611111111111	10	V	18.22	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.011979166666666667	100	B	20.74	0	0.42	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.013194444444444444	100	UVW2	19.81	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.014409722222222223	100	V	19.55	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.015613425925925926	100	UVM2	20.75	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.016828703703703703	100	UVW1	20.32	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.018032407407407407	100	U	20.44	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.019247685185185184	100	B	20.9	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.020462962962962964	100	UVW2	19.55	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.02162037037037037	93	V	19.51	0	0.4	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.024085648148148148	100	UVW1	20.43	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.02528935185185185	100	U	20.3	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.026504629629629628	100	B	20.65	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.07928240740740741	900	V	21.02	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.13576388888888888	900	UVW1	21.81	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.14626157407407409	900	U	21.61	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.1563425925925926	826	B	21.71	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.21449074074074073	900	V	20.88	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.27315972222222223	900	UVW1	21.93	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.2836574074074074	900	U	21.55	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.29202546296296295	530	B	21.6	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.3541550925925926	900	V	20.88	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.42407407407407405	858	UVW1	22.0	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.48369212962962965	900	U	21.51	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.4925	606	B	21.61	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.5608333333333333	373	V	20.44	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.5905439814814815	36 \times 78	K_{s}	19.07	0	0.17	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	NOTCam
+NaN	0.6022106481481482	271	V	20.35	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.6292013888888889	132	UVW1	20.78	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.6607175925925926	6 \times 900	R_{C}	22.29	0	0.08	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
+NaN	0.6711805555555556	773	UVW1	21.7	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.6904976851851852	900	U	21.57	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.6963657407407408	99	B	20.72	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.6992476851851852	2 \times 1200	V	23.13	0	0.17	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
+NaN	0.7391087962962963	900	B	21.86	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.7819328703703704	9202	UVM2	23.38	0	0.42	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.7950578703703703	3 \times 600	I_{C}	21.02	0	0.17	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
+NaN	0.8164467592592592	900	UVW1	21.98	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.8165393518518519	1500	B	23.11	0	0.25	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
+NaN	0.8263078703703703	791	U	21.55	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.848900462962963	10,146	UVW2	23.25	0	0.33	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.8910648148148148	459	V	20.53	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.9498842592592592	900	UVW1	21.92	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	0.96	835	U	21.44	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.0066319444444445	900	B	21.96	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.0271180555555555	810	V	20.83	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.083761574074074	900	UVW1	22.15	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.093912037037037	841	U	21.47	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.1416782407407406	900	B	22.01	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.1592824074074075	311	V	20.45	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.2191550925925927	900	UVW1	21.96	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.277951388888889	900	B	21.95	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.296736111111111	514	V	20.47	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.3587962962962963	900	UVW1	22.04	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.3653935185185184	223	U	20.8	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.4183217592592592	900	U	21.73	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.4286342592592594	868	B	21.8	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.497025462962963	624	V	20.72	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.5653472222222222	390	UVW1	21.34	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.6065393518518518	401	UVW1	21.45	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.627164351851852	900	U	21.6	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.6335300925925926	184	B	20.91	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.6436111111111111	25 \times 400	R_{C}	22.84	0	0.11	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
+NaN	1.676099537037037	900	B	22.19	0	0.47	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	1.6983564814814816	553	V	20.55	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	2.681388888888889	53 \times 300	I_{C}	23.1	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
+NaN	3.631087962962963	29 \times 300	I_{C}	22.74	0	0.19	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
+NaN	4.704143518518518	21 \times 200	I_{C}	23.03	0	0.23	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	DFOSC
+NaN	10.052141203703703	20,957	V	22.56	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	12.029398148148148	8274	V	22.06	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	16.028587962962963	6755	V	21.91	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	17.000462962962963	4722	V	21.69	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	22.468611111111112	14,167	V	22.38	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	27.062118055555555	21,133	V	22.58	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	28.06601851851852	26,389	V	22.63	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	36.4206712962963	39 \times 52	K_{s}	19.57	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	NOTCam
+NaN	39.017604166666665	12,866	V	22.15	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	39.99491898148148	4722	V	21.81	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	41.55940972222222	15,986	V	22.34	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	43.20449074074074	18,806	V	22.59	0	0.42	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	48.26630787037037	321	V	19.97	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	66.05101851851852	25,285	V	22.57	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	67.04983796296297	20,898	V	22.43	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	68.05572916666667	23,533	V	22.52	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	71.02622685185185	15,285	V	22.21	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	73.03894675925926	13,933	V	22.13	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
+NaN	74.0121412037037	10,004	V	21.95	-1	NaN	NaN	seconds	Unknown	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract	UVOT
 2005-Apr-16.4641	0.0025	NaN	I	18.82	0	0.11	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	Palomar 60 inch
 2005-Apr-16.4659	0.0043	NaN	I	18.86	0	0.11	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	Palomar 60 inch
 2005-Apr-16.4677	0.0061	NaN	I	19.16	0	0.13	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract	Palomar 60 inch
