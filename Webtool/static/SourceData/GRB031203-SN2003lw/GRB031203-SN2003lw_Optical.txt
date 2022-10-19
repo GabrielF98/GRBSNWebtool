@@ -1,55 +1,55 @@
-time	mag	dmag	instrument	band	time_unit	mag_unit
-0.21	19.12	0.03	SMARTS	I	days	Unknown
-0.26	19.19	0.03	SMARTS	I	days	Unknown
-0.29	19.23	0.03	SMARTS	I	days	Unknown
-0.31	19.17	0.03	SMARTS	I	days	Unknown
-1.31	19.22	0.03	SMARTS	I	days	Unknown
-2.31	19.15	0.03	SMARTS	I	days	Unknown
-3.33	19.22	0.03	SMARTS	I	days	Unknown
-4.37	19.13	0.03	SMARTS	I	days	Unknown
-5.38	19.07	0.03	SMARTS	I	days	Unknown
-6.38	19.06	0.03	SMARTS	I	days	Unknown
-7.31	19.14	0.03	SMARTS	I	days	Unknown
-8.33	19.09	0.03	SMARTS	I	days	Unknown
-9.34	19.05	0.03	SMARTS	I	days	Unknown
-10.32	19.09	0.03	SMARTS	I	days	Unknown
-11.32	19.09	0.03	SMARTS	I	days	Unknown
-12.34	19.07	0.03	SMARTS	I	days	Unknown
-13.36	19.10	0.03	SMARTS	I	days	Unknown
-15.35	19.05	0.03	SMARTS	I	days	Unknown
-17.34	19.08	0.03	SMARTS	I	days	Unknown
-20.37	19.05	0.03	SMARTS	I	days	Unknown
-23.36	19.04	0.03	SMARTS	I	days	Unknown
-26.33	19.01	0.03	SMARTS	I	days	Unknown
-30.32	18.99	0.03	SMARTS	I	days	Unknown
-34.37	19.04	0.03	SMARTS	I	days	Unknown
-38.32	19.08	0.03	SMARTS	I	days	Unknown
-44.31	19.18	0.03	SMARTS	I	days	Unknown
-50.34	19.21	0.03	SMARTS	I	days	Unknown
-57.31	19.19	0.03	SMARTS	I	days	Unknown
-69.24	19.22	0.03	SMARTS	I	days	Unknown
-78.20	19.17	0.03	SMARTS	I	days	Unknown
-92.19	19.25	0.03	SMARTS	I	days	Unknown
-2.31	18.28	0.06	SMARTS	J	days	Unknown
-3.33	18.38	0.06	SMARTS	J	days	Unknown
-5.38	18.32	0.06	SMARTS	J	days	Unknown
-6.38	18.18	0.06	SMARTS	J	days	Unknown
-7.31	18.19	0.06	SMARTS	J	days	Unknown
-8.33	18.17	0.06	SMARTS	J	days	Unknown
-9.34	18.19	0.06	SMARTS	J	days	Unknown
-10.32	18.19	0.06	SMARTS	J	days	Unknown
-11.32	18.10	0.06	SMARTS	J	days	Unknown
-12.34	18.03	0.06	SMARTS	J	days	Unknown
-13.36	18.25	0.09	SMARTS	J	days	Unknown
-15.35	18.09	0.06	SMARTS	J	days	Unknown
-17.34	18.13	0.06	SMARTS	J	days	Unknown
-20.37	17.97	0.06	SMARTS	J	days	Unknown
-23.36	18.12	0.06	SMARTS	J	days	Unknown
-26.33	18.01	0.06	SMARTS	J	days	Unknown
-30.32	18.05	0.06	SMARTS	J	days	Unknown
-38.32	18.02	0.06	SMARTS	J	days	Unknown
-50.34	18.19	0.06	SMARTS	J	days	Unknown
-57.31	18.27	0.09	SMARTS	J	days	Unknown
-69.24	18.29	0.06	SMARTS	J	days	Unknown
-78.20	18.32	0.06	SMARTS	J	days	Unknown
-92.19	18.29	0.06	SMARTS	J	days	Unknown
+time	mag	mag_limit	dmag	instrument	band	time_unit	mag_unit
+0.21	19.12	0	0.03	SMARTS	I	days	Unknown
+0.26	19.19	0	0.03	SMARTS	I	days	Unknown
+0.29	19.23	0	0.03	SMARTS	I	days	Unknown
+0.31	19.17	0	0.03	SMARTS	I	days	Unknown
+1.31	19.22	0	0.03	SMARTS	I	days	Unknown
+2.31	19.15	0	0.03	SMARTS	I	days	Unknown
+3.33	19.22	0	0.03	SMARTS	I	days	Unknown
+4.37	19.13	0	0.03	SMARTS	I	days	Unknown
+5.38	19.07	0	0.03	SMARTS	I	days	Unknown
+6.38	19.06	0	0.03	SMARTS	I	days	Unknown
+7.31	19.14	0	0.03	SMARTS	I	days	Unknown
+8.33	19.09	0	0.03	SMARTS	I	days	Unknown
+9.34	19.05	0	0.03	SMARTS	I	days	Unknown
+10.32	19.09	0	0.03	SMARTS	I	days	Unknown
+11.32	19.09	0	0.03	SMARTS	I	days	Unknown
+12.34	19.07	0	0.03	SMARTS	I	days	Unknown
+13.36	19.1	0	0.03	SMARTS	I	days	Unknown
+15.35	19.05	0	0.03	SMARTS	I	days	Unknown
+17.34	19.08	0	0.03	SMARTS	I	days	Unknown
+20.37	19.05	0	0.03	SMARTS	I	days	Unknown
+23.36	19.04	0	0.03	SMARTS	I	days	Unknown
+26.33	19.01	0	0.03	SMARTS	I	days	Unknown
+30.32	18.99	0	0.03	SMARTS	I	days	Unknown
+34.37	19.04	0	0.03	SMARTS	I	days	Unknown
+38.32	19.08	0	0.03	SMARTS	I	days	Unknown
+44.31	19.18	0	0.03	SMARTS	I	days	Unknown
+50.34	19.21	0	0.03	SMARTS	I	days	Unknown
+57.31	19.19	0	0.03	SMARTS	I	days	Unknown
+69.24	19.22	0	0.03	SMARTS	I	days	Unknown
+78.2	19.17	0	0.03	SMARTS	I	days	Unknown
+92.19	19.25	0	0.03	SMARTS	I	days	Unknown
+2.31	18.28	0	0.06	SMARTS	J	days	Unknown
+3.33	18.38	0	0.06	SMARTS	J	days	Unknown
+5.38	18.32	0	0.06	SMARTS	J	days	Unknown
+6.38	18.18	0	0.06	SMARTS	J	days	Unknown
+7.31	18.19	0	0.06	SMARTS	J	days	Unknown
+8.33	18.17	0	0.06	SMARTS	J	days	Unknown
+9.34	18.19	0	0.06	SMARTS	J	days	Unknown
+10.32	18.19	0	0.06	SMARTS	J	days	Unknown
+11.32	18.1	0	0.06	SMARTS	J	days	Unknown
+12.34	18.03	0	0.06	SMARTS	J	days	Unknown
+13.36	18.25	0	0.09	SMARTS	J	days	Unknown
+15.35	18.09	0	0.06	SMARTS	J	days	Unknown
+17.34	18.13	0	0.06	SMARTS	J	days	Unknown
+20.37	17.97	0	0.06	SMARTS	J	days	Unknown
+23.36	18.12	0	0.06	SMARTS	J	days	Unknown
+26.33	18.01	0	0.06	SMARTS	J	days	Unknown
+30.32	18.05	0	0.06	SMARTS	J	days	Unknown
+38.32	18.02	0	0.06	SMARTS	J	days	Unknown
+50.34	18.19	0	0.06	SMARTS	J	days	Unknown
+57.31	18.27	0	0.09	SMARTS	J	days	Unknown
+69.24	18.29	0	0.06	SMARTS	J	days	Unknown
+78.2	18.32	0	0.06	SMARTS	J	days	Unknown
+92.19	18.29	0	0.06	SMARTS	J	days	Unknown
