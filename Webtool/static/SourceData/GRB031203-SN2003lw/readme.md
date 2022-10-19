@@ -3,17 +3,6 @@
 
 The text files listed below were downloaded from papers on [NASA/ADS](https://ui.adsabs.harvard.edu) and converted to the GRBSN [format](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). The 'Master.txt' file(s) are a combination of these text files and contain all of the downloaded data for a paticular wavelength range.
 
-### GRB031203-SN2003lw_Optical1.txt
-
-
-**Source:** https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract
-
-**Data-type:** Late, Optical
-
-**Notes:**
-
-No notes.
-
 ### GRB031203-SN2003lw_Optical.txt
 
 
@@ -58,6 +47,17 @@ Note (1): There is an additional uncertainty of 0.07 mag in the transformation
 of relative to apparent magnitudes.
 
 --------------------------------------------------------------------------------
+
+### GRB031203-SN2003lw_Optical1.txt
+
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract
+
+**Data-type:** Late, Optical
+
+**Notes:**
+
+No notes.
 
 ### GRB031203-SN2003lw_Optical2.txt
 

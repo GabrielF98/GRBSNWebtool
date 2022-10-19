@@ -1,11 +1,5 @@
 Event Name: GRB031203-SN2003lw
 =========================================================
-Filename: GRB031203-SN2003lw_Optical1.txt
-Source: https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract
-Data-type: Late, Optical
----------------------------------------------------------
-No notes.
-=========================================================
 Filename: GRB031203-SN2003lw_Optical.txt
 Source: https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract
 Data-type: Early, Late, NIR
@@ -28,6 +22,12 @@ Byte-by-byte Description of file: datafile1.txt
 Note (1): There is an additional uncertainty of 0.07 mag in the transformation 
           of relative to apparent magnitudes.
 --------------------------------------------------------------------------------
+=========================================================
+Filename: GRB031203-SN2003lw_Optical1.txt
+Source: https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract
+Data-type: Late, Optical
+---------------------------------------------------------
+No notes.
 =========================================================
 Filename: GRB031203-SN2003lw_Optical2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract
