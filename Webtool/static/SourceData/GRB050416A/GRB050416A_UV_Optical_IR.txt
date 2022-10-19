@@ -38,76 +38,76 @@ time	integration	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit
 2185	100	U	20.3	-1	NaN	UVOT	seconds	Unknown
 2290	100	B	20.65	-1	NaN	UVOT	seconds	Unknown
 6850	900	V	21.02	-1	NaN	UVOT	seconds	Unknown
-11,730	900	UVW1	21.81	-1	NaN	UVOT	seconds	Unknown
-12,637	900	U	21.61	-1	NaN	UVOT	seconds	Unknown
-13,508	826	B	21.71	-1	NaN	UVOT	seconds	Unknown
-18,532	900	V	20.88	-1	NaN	UVOT	seconds	Unknown
-23,601	900	UVW1	21.93	-1	NaN	UVOT	seconds	Unknown
-24,508	900	U	21.55	-1	NaN	UVOT	seconds	Unknown
-25,231	530	B	21.6	-1	NaN	UVOT	seconds	Unknown
-30,599	900	V	20.88	-1	NaN	UVOT	seconds	Unknown
-36,640	858	UVW1	22.0	-1	NaN	UVOT	seconds	Unknown
-41,791	900	U	21.51	-1	NaN	UVOT	seconds	Unknown
-42,552	606	B	21.61	-1	NaN	UVOT	seconds	Unknown
-48,456	373	V	20.44	-1	NaN	UVOT	seconds	Unknown
-51,023	36 \times 78	K_{s}	19.07	0	0.17	NOTCam	seconds	Unknown
-52,031	271	V	20.35	-1	NaN	UVOT	seconds	Unknown
-54,363	132	UVW1	20.78	-1	NaN	UVOT	seconds	Unknown
-57,086	6 \times 900	R_{C}	22.29	0	0.08	DFOSC	seconds	Unknown
-57,990	773	UVW1	21.7	-1	NaN	UVOT	seconds	Unknown
-59,659	900	U	21.57	-1	NaN	UVOT	seconds	Unknown
-60,166	99	B	20.72	-1	NaN	UVOT	seconds	Unknown
-60,415	2 \times 1200	V	23.13	0	0.17	DFOSC	seconds	Unknown
-63,859	900	B	21.86	-1	NaN	UVOT	seconds	Unknown
-67,559	9202	UVM2	23.38	0	0.42	UVOT	seconds	Unknown
-68,693	3 \times 600	I_{C}	21.02	0	0.17	DFOSC	seconds	Unknown
-70,541	900	UVW1	21.98	-1	NaN	UVOT	seconds	Unknown
-70,549	1500	B	23.11	0	0.25	DFOSC	seconds	Unknown
-71,393	791	U	21.55	-1	NaN	UVOT	seconds	Unknown
-73,345	10,146	UVW2	23.25	0	0.33	UVOT	seconds	Unknown
-76,988	459	V	20.53	-1	NaN	UVOT	seconds	Unknown
-82,070	900	UVW1	21.92	-1	NaN	UVOT	seconds	Unknown
-82,944	835	U	21.44	-1	NaN	UVOT	seconds	Unknown
-86,973	900	B	21.96	-1	NaN	UVOT	seconds	Unknown
-88,743	810	V	20.83	-1	NaN	UVOT	seconds	Unknown
-93,637	900	UVW1	22.15	-1	NaN	UVOT	seconds	Unknown
-94,514	841	U	21.47	-1	NaN	UVOT	seconds	Unknown
-98,641	900	B	22.01	-1	NaN	UVOT	seconds	Unknown
-100,162	311	V	20.45	-1	NaN	UVOT	seconds	Unknown
-105,335	900	UVW1	21.96	-1	NaN	UVOT	seconds	Unknown
-110,415	900	B	21.95	-1	NaN	UVOT	seconds	Unknown
-112,038	514	V	20.47	-1	NaN	UVOT	seconds	Unknown
-117,400	900	UVW1	22.04	-1	NaN	UVOT	seconds	Unknown
-117,970	223	U	20.8	-1	NaN	UVOT	seconds	Unknown
-122,543	900	U	21.73	-1	NaN	UVOT	seconds	Unknown
-123,434	868	B	21.8	-1	NaN	UVOT	seconds	Unknown
-129,343	624	V	20.72	-1	NaN	UVOT	seconds	Unknown
-135,246	390	UVW1	21.34	-1	NaN	UVOT	seconds	Unknown
-138,805	401	UVW1	21.45	-1	NaN	UVOT	seconds	Unknown
-140,587	900	U	21.6	-1	NaN	UVOT	seconds	Unknown
-141,137	184	B	20.91	-1	NaN	UVOT	seconds	Unknown
-142,008	25 \times 400	R_{C}	22.84	0	0.11	DFOSC	seconds	Unknown
-144,815	900	B	22.19	0	0.47	UVOT	seconds	Unknown
-146,738	553	V	20.55	-1	NaN	UVOT	seconds	Unknown
-231,672	53 \times 300	I_{C}	23.1	-1	NaN	DFOSC	seconds	Unknown
-313,726	29 \times 300	I_{C}	22.74	0	0.19	DFOSC	seconds	Unknown
-406,438	21 \times 200	I_{C}	23.03	0	0.23	DFOSC	seconds	Unknown
-868,505	20,957	V	22.56	-1	NaN	UVOT	seconds	Unknown
-1,039,340	8274	V	22.06	-1	NaN	UVOT	seconds	Unknown
-1,384,870	6755	V	21.91	-1	NaN	UVOT	seconds	Unknown
-1,468,840	4722	V	21.69	-1	NaN	UVOT	seconds	Unknown
-1,941,288	14,167	V	22.38	-1	NaN	UVOT	seconds	Unknown
-2,338,167	21,133	V	22.58	-1	NaN	UVOT	seconds	Unknown
-2,424,904	26,389	V	22.63	-1	NaN	UVOT	seconds	Unknown
-3,146,746	39 \times 52	K_{s}	19.57	-1	NaN	NOTCam	seconds	Unknown
-3,371,121	12,866	V	22.15	-1	NaN	UVOT	seconds	Unknown
-3,455,561	4722	V	21.81	-1	NaN	UVOT	seconds	Unknown
-3,590,733	15,986	V	22.34	-1	NaN	UVOT	seconds	Unknown
-3,732,868	18,806	V	22.59	0	0.42	UVOT	seconds	Unknown
-4,170,209	321	V	19.97	-1	NaN	UVOT	seconds	Unknown
-5,706,808	25,285	V	22.57	-1	NaN	UVOT	seconds	Unknown
-5,793,106	20,898	V	22.43	-1	NaN	UVOT	seconds	Unknown
-5,880,015	23,533	V	22.52	-1	NaN	UVOT	seconds	Unknown
-6,136,666	15,285	V	22.21	-1	NaN	UVOT	seconds	Unknown
-6,310,565	13,933	V	22.13	-1	NaN	UVOT	seconds	Unknown
-6,394,649	10,004	V	21.95	-1	NaN	UVOT	seconds	Unknown
+11730	900	UVW1	21.81	-1	NaN	UVOT	seconds	Unknown
+12637	900	U	21.61	-1	NaN	UVOT	seconds	Unknown
+13508	826	B	21.71	-1	NaN	UVOT	seconds	Unknown
+18532	900	V	20.88	-1	NaN	UVOT	seconds	Unknown
+23601	900	UVW1	21.93	-1	NaN	UVOT	seconds	Unknown
+24508	900	U	21.55	-1	NaN	UVOT	seconds	Unknown
+25231	530	B	21.6	-1	NaN	UVOT	seconds	Unknown
+30599	900	V	20.88	-1	NaN	UVOT	seconds	Unknown
+36640	858	UVW1	22.0	-1	NaN	UVOT	seconds	Unknown
+41791	900	U	21.51	-1	NaN	UVOT	seconds	Unknown
+42552	606	B	21.61	-1	NaN	UVOT	seconds	Unknown
+48456	373	V	20.44	-1	NaN	UVOT	seconds	Unknown
+51023	36 \times 78	K_{s}	19.07	0	0.17	NOTCam	seconds	Unknown
+52031	271	V	20.35	-1	NaN	UVOT	seconds	Unknown
+54363	132	UVW1	20.78	-1	NaN	UVOT	seconds	Unknown
+57086	6 \times 900	R_{C}	22.29	0	0.08	DFOSC	seconds	Unknown
+57990	773	UVW1	21.7	-1	NaN	UVOT	seconds	Unknown
+59659	900	U	21.57	-1	NaN	UVOT	seconds	Unknown
+60166	99	B	20.72	-1	NaN	UVOT	seconds	Unknown
+60415	2 \times 1200	V	23.13	0	0.17	DFOSC	seconds	Unknown
+63859	900	B	21.86	-1	NaN	UVOT	seconds	Unknown
+67559	9202	UVM2	23.38	0	0.42	UVOT	seconds	Unknown
+68693	3 \times 600	I_{C}	21.02	0	0.17	DFOSC	seconds	Unknown
+70541	900	UVW1	21.98	-1	NaN	UVOT	seconds	Unknown
+70549	1500	B	23.11	0	0.25	DFOSC	seconds	Unknown
+71393	791	U	21.55	-1	NaN	UVOT	seconds	Unknown
+73345	10,146	UVW2	23.25	0	0.33	UVOT	seconds	Unknown
+76988	459	V	20.53	-1	NaN	UVOT	seconds	Unknown
+82070	900	UVW1	21.92	-1	NaN	UVOT	seconds	Unknown
+82944	835	U	21.44	-1	NaN	UVOT	seconds	Unknown
+86973	900	B	21.96	-1	NaN	UVOT	seconds	Unknown
+88743	810	V	20.83	-1	NaN	UVOT	seconds	Unknown
+93637	900	UVW1	22.15	-1	NaN	UVOT	seconds	Unknown
+94514	841	U	21.47	-1	NaN	UVOT	seconds	Unknown
+98641	900	B	22.01	-1	NaN	UVOT	seconds	Unknown
+100162	311	V	20.45	-1	NaN	UVOT	seconds	Unknown
+105335	900	UVW1	21.96	-1	NaN	UVOT	seconds	Unknown
+110415	900	B	21.95	-1	NaN	UVOT	seconds	Unknown
+112038	514	V	20.47	-1	NaN	UVOT	seconds	Unknown
+117400	900	UVW1	22.04	-1	NaN	UVOT	seconds	Unknown
+117970	223	U	20.8	-1	NaN	UVOT	seconds	Unknown
+122543	900	U	21.73	-1	NaN	UVOT	seconds	Unknown
+123434	868	B	21.8	-1	NaN	UVOT	seconds	Unknown
+129343	624	V	20.72	-1	NaN	UVOT	seconds	Unknown
+135246	390	UVW1	21.34	-1	NaN	UVOT	seconds	Unknown
+138805	401	UVW1	21.45	-1	NaN	UVOT	seconds	Unknown
+140587	900	U	21.6	-1	NaN	UVOT	seconds	Unknown
+141137	184	B	20.91	-1	NaN	UVOT	seconds	Unknown
+142008	25 \times 400	R_{C}	22.84	0	0.11	DFOSC	seconds	Unknown
+144815	900	B	22.19	0	0.47	UVOT	seconds	Unknown
+146738	553	V	20.55	-1	NaN	UVOT	seconds	Unknown
+231672	53 \times 300	I_{C}	23.1	-1	NaN	DFOSC	seconds	Unknown
+313726	29 \times 300	I_{C}	22.74	0	0.19	DFOSC	seconds	Unknown
+406438	21 \times 200	I_{C}	23.03	0	0.23	DFOSC	seconds	Unknown
+868505	20,957	V	22.56	-1	NaN	UVOT	seconds	Unknown
+1039340	8274	V	22.06	-1	NaN	UVOT	seconds	Unknown
+1384870	6755	V	21.91	-1	NaN	UVOT	seconds	Unknown
+1468840	4722	V	21.69	-1	NaN	UVOT	seconds	Unknown
+1941288	14,167	V	22.38	-1	NaN	UVOT	seconds	Unknown
+2338167	21,133	V	22.58	-1	NaN	UVOT	seconds	Unknown
+2424904	26,389	V	22.63	-1	NaN	UVOT	seconds	Unknown
+3146746	39 \times 52	K_{s}	19.57	-1	NaN	NOTCam	seconds	Unknown
+3371121	12,866	V	22.15	-1	NaN	UVOT	seconds	Unknown
+3455561	4722	V	21.81	-1	NaN	UVOT	seconds	Unknown
+3590733	15,986	V	22.34	-1	NaN	UVOT	seconds	Unknown
+3732868	18,806	V	22.59	0	0.42	UVOT	seconds	Unknown
+4170209	321	V	19.97	-1	NaN	UVOT	seconds	Unknown
+5706808	25,285	V	22.57	-1	NaN	UVOT	seconds	Unknown
+5793106	20,898	V	22.43	-1	NaN	UVOT	seconds	Unknown
+5880015	23,533	V	22.52	-1	NaN	UVOT	seconds	Unknown
+6136666	15,285	V	22.21	-1	NaN	UVOT	seconds	Unknown
+6310565	13,933	V	22.13	-1	NaN	UVOT	seconds	Unknown
+6394649	10,004	V	21.95	-1	NaN	UVOT	seconds	Unknown
