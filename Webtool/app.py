@@ -869,6 +869,7 @@ def event(event_id):
             ('Time', '@time'),
             ('Magnitude', '@mag'),
             ('Band', '@band'),
+            ('Instrument', '@instrument'),
             ('Source', '@indices'),
         ]
 
@@ -1029,6 +1030,7 @@ def event(event_id):
         tooltips = [('Time', '@time'),
             ('Freq.', '@freq'),
             ('Flux Density', '@flux_density'),
+            ('Instrument', '@instrument'),
             ('Source', '@indices'),]
 
         # Add the HoverTool to the figure
