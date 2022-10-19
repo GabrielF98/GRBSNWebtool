@@ -494,6 +494,9 @@ def event(event_id):
         #Add the references
         data['sources'] = [swift_reference_no]*len(data['time'])
 
+        # Add the instrument
+        data['instrument'] = ['Swift XRT']*len(data['time'])
+
         #Convert the string representing whether its a limit or not to string
         data['stringlimit'] = data['limit'].astype(str)
 
@@ -512,7 +515,7 @@ def event(event_id):
         # add a line renderer with legend and line thickness
         xray.multi_line("e_locs", "error", source=xray_source, color='orange', line_width=2)
         xray.multi_line("terror", "te_locs", source=xray_source, color='orange', line_width=2)
-        xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT 0.3-10keV", size=10, color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
+        xray.scatter('time', 'flux', source=xray_source, legend_label="0.3-10keV", size=10, color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
         
         # Tooltips of what will display in the hover mode
         # Format the tooltip
@@ -520,6 +523,7 @@ def event(event_id):
         tooltips = [
             ('Time', '@time'),
             ('Flux', '@flux'),
+            ('Instrument', '@instrument'),
             ('Source', '@sources'),
         ]
 
