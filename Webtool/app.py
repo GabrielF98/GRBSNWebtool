@@ -666,7 +666,7 @@ def event(event_id):
 
     t0_utc = '0'
 
-    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", sizing_mode='scale_both', margin=5)
+    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", x_axis_type="log", sizing_mode='scale_both', margin=5)
     
     ####### References #############
     optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
