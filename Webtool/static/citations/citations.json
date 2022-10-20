@@ -180,5 +180,7 @@
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/29033.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/29033.gcn3",
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/31596.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/31596.gcn3",
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/31739.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/31739.gcn3",
-    "https://swift.gsfc.nasa.gov/archive/grb_table/": "https://swift.gsfc.nasa.gov/archive/grb_table/"
+    "https://gcn.gsfc.nasa.gov/other/221009A.gcn3": "https://gcn.gsfc.nasa.gov/other/221009A.gcn3",
+    "https://swift.gsfc.nasa.gov/archive/grb_table/": "https://swift.gsfc.nasa.gov/archive/grb_table/",
+    "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3": "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3"
 }
