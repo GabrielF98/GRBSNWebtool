@@ -929,9 +929,9 @@ def event(event_id):
     if track==0:
         # Set a range so we can always centre the nodata for the spectra plot
         optical.y_range = Range1d(20,17)
-        optical.x_range = Range1d(0, 30)
+        optical.x_range = Range1d(1, 100)
 
-        nodata_warn = Label(x=6, y=18.8, x_units='data', y_units='data',
+        nodata_warn = Label(x=2, y=18.8, x_units='data', y_units='data',
                          text='NO DATA', render_mode='css', text_font_size='50pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         optical.add_layout(nodata_warn)
