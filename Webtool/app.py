@@ -175,30 +175,7 @@ def grb_names():
 
 grbs = grb_names()
 
-# This code goes to the long_grbs folder and gets all the data for the plot
-def get_grb_data(event_id):
-    k = pd.DataFrame(columns=['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit'])
-    flag=False
-    #To determine if its an SN only or a GRB only
-    if 'GRB' in str(event_id):
-        folder_name = event_id
-        # print(folder_name)
-        event_id = event_id.split('-')[0][3:]
-        path = './static/SourceData/'+folder_name+'/'
-        files = glob.glob(path+'/*xrtlc.txt')
-        # print(files)
-
-        for i in range(len(files)):
-            if str(event_id) in str(files[i]):
-                k = pd.read_csv(files[i], header=0, delimiter='\t')
-                k.columns = ['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit']
-                flag=True
-                break
-    return(flag, k)
-
 # Extract the SN names from the database
-
-
 def sne_names():
     conn = get_db_connection()
     names = conn.execute('SELECT DISTINCT(SNe) FROM SQLDataGRBSNe')
@@ -480,25 +457,33 @@ def event(event_id):
     # Tracker variable to tell us whether theres any Xray data or not
     track = 0
 
-    # The swift data from antonios tools files #This is the line that needs updating for changing the source
-    flag, data = get_grb_data(event_id)
-
-    # Swift references
-    swift_references = []
-    swift_reference_no = []
-
     # create a new plot with a title and axis labels
     xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
 
-    # Only if there is swift XRT data get the citations
-    if flag:
+    #################################
+    # Swift data ####################
+    #################################
+    # Swift references
+    xray_refs = []
+    swift_reference_no = []
+    
+
+    # The swift xrtlc files. 
+    # Check if the xrtlc file exists. 
+    if exists('static/SourceData/'+event_id+'/'+str(event_id.split('-')[0])+'xrtlc.txt'):
+        
+        # Get the data from the lc file. 
+        data = pd.read_csv('static/SourceData/'+event_id+'/'+str(event_id.split('-')[0])+'xrtlc.txt', header=0, delimiter='\t')
+        data.columns = ['time', 'dt_pos', 'dt_neg', 'flux', 'dflux_pos', 'dflux_neg', 'limit']
+
         track+=1
+
         with open('static/citations/swift_ads.json') as file3:
             swift_bursts = json.load(file3)
         for swift_reference in list(swift_bursts.keys()):
             if swift_reference not in list(needed_dict.keys()):
                 needed_dict[swift_reference] = swift_bursts[swift_reference]
-                swift_references.append(swift_reference)
+                xray_refs.append(swift_reference)
                 swift_reference_no.append(
                     list(needed_dict.keys()).index(swift_reference)+1)
             else:
@@ -508,6 +493,9 @@ def event(event_id):
         # t, dt_pos, dt_neg, flux, dflux_pos, dflux_neg, limit = data
         #Add the references
         data['sources'] = [swift_reference_no]*len(data['time'])
+
+        # Add the instrument
+        data['instrument'] = ['Swift XRT']*len(data['time'])
 
         #Convert the string representing whether its a limit or not to string
         data['stringlimit'] = data['limit'].astype(str)
@@ -527,8 +515,100 @@ def event(event_id):
         # add a line renderer with legend and line thickness
         xray.multi_line("e_locs", "error", source=xray_source, color='orange', line_width=2)
         xray.multi_line("terror", "te_locs", source=xray_source, color='orange', line_width=2)
-        xray.scatter('time', 'flux', source=xray_source, legend_label="Swift/XRT", size=10, color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
-    
+        xray.scatter('time', 'flux', source=xray_source, legend_label="0.3-10keV", size=10, color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
+        
+        # Tooltips of what will display in the hover mode
+        # Format the tooltip
+
+        tooltips = [
+            ('Time', '@time'),
+            ('Flux', '@flux'),
+            ('Instrument', '@instrument'),
+            ('Source', '@sources'),
+        ]
+
+        # Add the HoverTool to the figure
+        xray.add_tools(HoverTool(tooltips=tooltips))
+
+    #################################
+    # ADS data ######################
+    #################################
+
+    # Check if the xray master file exists yet. 
+    if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Xray_Master.txt'):
+        # Add 1 to track variable if openSN had data
+        track+=1
+
+        # Get the files that were downloaded from the ADS
+        xray_df = pd.read_csv('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Xray_Master.txt', sep='\t')
+
+        ####### References ##########
+        # Get the list of unique references
+        x_refs = xray_df['reference']
+
+        # Sub list of the indices for the optical data from the ADS
+        xray_source_indices_sub = []
+        for ref in x_refs:
+            if ref in needed_dict.keys():
+                xray_source_indices_sub.append(
+                    (list(needed_dict.keys()).index(ref)+1))
+
+            else:
+                # Add to the needed_dict
+                needed_dict[ref] = {'names': dict_refs3[ref]['names'], 'year': dict_refs3[ref]['year']}
+
+                # Save the optical ref to use as a key in event html when accessing the reference.
+                xray_refs.append(ref)
+
+                xray_source_indices_sub.append((list(needed_dict.keys()).index(ref)+1))
+        
+        # Add the lists of indices to the DF
+        xray_df['sources'] = xray_source_indices_sub
+        
+        ####### Plot Data ###########
+        # Select colours for the data
+        colors = d3['Category20'][5]
+
+        # List of the energy ranges
+        energy_ranges= list(set(list(xray_df['energy_range'])))
+
+        # Identify any upper limits
+        xray_df['flux_limit_str'] = xray_df['flux_limit'].astype(str)
+
+        # Create the error columns that bokeh wants
+        #Errors on fluxes
+        xray_error_df = xray_df[['time', 'flux', 'dflux', 'energy_range']].copy()
+        xray_error_df = xray_error_df[~xray_error_df['dflux'].isnull()]
+        xray_error_df['dfluxes'] = list(zip(xray_error_df['flux'].astype(float)-xray_error_df['dflux'].astype(float), xray_error_df['flux'].astype(float)+xray_error_df['dflux'].astype(float)))
+        xray_error_df['dflux_locs'] = list(zip(xray_error_df['time'], xray_error_df['time']))
+
+
+        # Create a cds
+        xray_cds = ColumnDataSource(xray_df)
+
+        # Create a cds for errors
+        xray_error_cds = ColumnDataSource(xray_error_df)
+
+        # Plotting
+
+        types2 = ['-1', '0', '1']
+        marks2 = ['triangle', 'circle', 'inverted_triangle']
+        xray.multi_line("dflux_locs", "dfluxes", source=xray_error_cds, color=factor_cmap('energy_range', colors, energy_ranges), line_width=2)
+        xray.scatter('time', 'flux', source=xray_cds, size=10, legend_field='energy_range', color=factor_cmap('energy_range', colors, energy_ranges), fill_color=factor_cmap('energy_range', colors, energy_ranges), marker=factor_mark('flux_limit_str', marks2, types2))
+
+        # Tooltips of what will display in the hover mode
+        # Format the tooltip
+
+        tooltips = [
+            ('Time', '@time'),
+            ('Flux', '@flux'),
+            ('Instrument', '@instrument'),
+            ('Source', '@sources'),
+        ]
+
+        # Add the HoverTool to the figure
+        xray.add_tools(HoverTool(tooltips=tooltips))
+
     #Aesthetics
     xray.title.text_font_size = '20pt'
     xray.title.text_color = 'black'
@@ -554,7 +634,7 @@ def event(event_id):
 
     # Axis labels
     xray.xaxis.axis_label = 'Time [sec] since '+grb_time_str
-    xray.yaxis.axis_label = 'Flux (0.3-10keV) [erg/cm^2/sec]'
+    xray.yaxis.axis_label = 'Flux [erg/cm^2/sec]'
 
     # Axis Colors
     xray.xaxis.axis_line_color = 'black'
@@ -566,18 +646,6 @@ def event(event_id):
 
     xray.background_fill_color = 'white'
     xray.border_fill_color = 'white'
-
-    # Tooltips of what will display in the hover mode
-    # Format the tooltip
-
-    tooltips = [
-        ('Time', '@time'),
-        ('Flux', '@flux'),
-        ('Source', '@sources'),
-    ]
-
-    # Add the HoverTool to the figure
-    xray.add_tools(HoverTool(tooltips=tooltips))
 
     # If track is still 0 print nodata
     if track==0:
@@ -598,7 +666,7 @@ def event(event_id):
 
     t0_utc = '0'
 
-    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", sizing_mode='scale_both', margin=5)
+    optical = figure(title='Optical (GRB+SN)', toolbar_location="right", x_axis_type="log", sizing_mode='scale_both', margin=5)
     
     ####### References #############
     optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
@@ -723,8 +791,8 @@ def event(event_id):
                     ('Source', '@indices'),
                 ]
 
-    # Add the HoverTool to the figure
-    optical.add_tools(HoverTool(tooltips=tooltips))
+                # Add the HoverTool to the figure
+                optical.add_tools(HoverTool(tooltips=tooltips))
     
     
     #################################
@@ -801,11 +869,12 @@ def event(event_id):
             ('Time', '@time'),
             ('Magnitude', '@mag'),
             ('Band', '@band'),
+            ('Instrument', '@instrument'),
             ('Source', '@indices'),
         ]
 
-    # Add the HoverTool to the figure
-    optical.add_tools(HoverTool(tooltips=tooltips))
+        # Add the HoverTool to the figure
+        optical.add_tools(HoverTool(tooltips=tooltips))
 
     optical.y_range.flipped = True
 
@@ -860,9 +929,9 @@ def event(event_id):
     if track==0:
         # Set a range so we can always centre the nodata for the spectra plot
         optical.y_range = Range1d(20,17)
-        optical.x_range = Range1d(0, 30)
+        optical.x_range = Range1d(1, 100)
 
-        nodata_warn = Label(x=6, y=18.8, x_units='data', y_units='data',
+        nodata_warn = Label(x=2, y=18.8, x_units='data', y_units='data',
                          text='NO DATA', render_mode='css', text_font_size='50pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         optical.add_layout(nodata_warn)
@@ -961,7 +1030,11 @@ def event(event_id):
         tooltips = [('Time', '@time'),
             ('Freq.', '@freq'),
             ('Flux Density', '@flux_density'),
+            ('Instrument', '@instrument'),
             ('Source', '@indices'),]
+
+        # Add the HoverTool to the figure
+        radio.add_tools(HoverTool(tooltips=tooltips))
 
     else:
         # Set a range so we can always centre the nodata for the spectra plot
@@ -972,9 +1045,6 @@ def event(event_id):
                          text='NO DATA', render_mode='css', text_font_size='50pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         radio.add_layout(nodata_warn)
-
-    # Add the HoverTool to the figure
-    radio.add_tools(HoverTool(tooltips=tooltips))
 
     # Aesthetics
 
@@ -1211,7 +1281,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     # Return everything
-    return render_template('event.html', event=event, event_id=event_id, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=swift_references, swift_nos=swift_reference_no, optical_refs=optical_refs, radio_refs=rad_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, event_id=event_id, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=xray_refs, swift_nos=swift_reference_no, optical_refs=optical_refs, radio_refs=rad_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
