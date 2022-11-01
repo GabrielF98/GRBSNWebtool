@@ -4,7 +4,7 @@ GRB120422A-SN2012bz,NO FILE DOWNLOADED,Spectra,https://ui.adsabs.harvard.edu/abs
 GRB120422A-SN2012bz,GRB120422A-SN2012bz_Optical_NIR_1.html,"Early, Late, NIR, Optical",https://ui.adsabs.harvard.edu/abs/2014A%26A...566A.102S/abstract
 GRB120422A-SN2012bz,GRB120422A-SN2012bz_Optical_2.html,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2014A%26A...566A.102S/abstract
 GRB120422A-SN2012bz,,,
-GRB120422A-SN2012bz,Xray,https://www.swift.ac.uk/xrt_curves/
+GRB120422A-SN2012bz,GRB120422Axrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/
 GRB120422A-SN2012bz,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2012bz/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
 GRB120422A-SN2012bz,OpenSNSpectra2.json,Spectra,https://api.astrocats.space/SN2012bz/spectra/?item=2&format=json
 GRB120422A-SN2012bz,OpenSNSpectra3.json,Spectra,https://api.astrocats.space/SN2012bz/spectra/?item=3&format=json

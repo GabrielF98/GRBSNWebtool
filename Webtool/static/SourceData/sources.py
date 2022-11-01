@@ -66,7 +66,7 @@ for i in file_list:
 			with open('./'+i+'/'+i+'filesources.csv', 'a', newline='') as file:
 				writer_obj = writer(file)
 
-				writer_obj.writerow([str(i), 'Xray', 'https://www.swift.ac.uk/xrt_curves/'])
+				writer_obj.writerow([str(i), str(i).split('-')[0]+'xrtlc.txt', 'Xray', 'https://www.swift.ac.uk/xrt_curves/'])
 			file.close()
 
 ## Add the bit for OpenSN data
