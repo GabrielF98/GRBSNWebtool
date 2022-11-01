@@ -22,7 +22,7 @@ The filename should contain the name of the GRB, name of the SN and the type of 
 
 All filenames should contain one of the following tags:
 
-* `X-ray` Any file containing observations from an X-ray telescope/satellite. 
+* `Xray` Any file containing observations from an X-ray telescope/satellite. 
 
 * `Optical` Any file containing observations in the `NIR`, `IR`, Visible or `UV` ranges. 
 
