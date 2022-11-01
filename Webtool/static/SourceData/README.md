@@ -144,8 +144,9 @@ The descriptions of the bands are listed here for reference purposes.
     **Radio Observing Bands**
     * `freq` The frequency of the radio observation.
     
-    * `freq_unit` The unit of the frequency. GHz/MHz.
-    * `beam` The size of the telescope beam, measured in arcseconds.
+    * `freq_unit` The unit of the frequency. `GHz`, `MHz`.
+    * `beam` The size of the telescope beam, default unit is `arcseconds`.
+    * `beam_unit` The unit associated with the beam. Options: `arcseconds^2`
     * `bandwidth` The bandwidth of the observation
     * `bandwidth_unit` Unit of the bandwidth. GHz/MHz.
     
@@ -170,7 +171,7 @@ The descriptions of the bands are listed here for reference purposes.
  
  * `reference` Usually added by the plotfuncs.py code, this is taken from the notion export and shows where the file came from on NASA/ADS.
  
- * `seeing` The seeing in arcseconds.
+ * `seeing` The seeing. Default in `arcseconds`.
  * `extinction` The extinction in the associated band and with the associated units.
  
  * `counts` The total counts received by a CCD or other instrument.
