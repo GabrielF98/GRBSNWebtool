@@ -34,6 +34,7 @@ If a file contains `NIR`, `IR` or `UV` data then it should also contain the rele
 
 In the case of a filename with multiple tags, each tag should be separated by an underscore. For example: GRB030329-SN2003dh_Optical_NIR.txt
 
+If there are several files in the same wavelength, e.g. multiple optical files, an index should be added to each filename. For example: GRB030329-SN2003dh_Optical.txt. GRB030329-SN2003dh_Optical1.txt and GRB030329-SN2003dh_Optical2.txt.
 
 # Categories available in the webtool
 It is important to note that these headings will not appear in all files. They only appear if
