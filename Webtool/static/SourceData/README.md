@@ -18,7 +18,9 @@ There are two types of column: one type contains data, and the other type of col
 
 
 # Filenames
-The filename should contain the name of the GRB, name of the SN and the type of data in the file. For example: GRB030329-SN2003dh_Radio.txt
+The filename should contain the name of the GRB, name of the SN and the type of data in the file. 
+
+For example: GRB030329-SN2003dh_Radio.txt
 
 All filenames should contain one of the following tags:
 
@@ -31,6 +33,10 @@ All filenames should contain one of the following tags:
 * `Spectra` Any file containing spectroscopic observations. 
 
 If a file contains `NIR`, `IR` or `UV` data then it should also contain the relevant tag in it's filename. The filename should always contain the Optical tag even if there is no optical data in the file. 
+
+In the case of a filename with multiple tags, each tag should be separated by an underscore. 
+
+For example: GRB030329-SN2003dh_Optical_NIR.txt
 
 
 # Categories available in the webtool
