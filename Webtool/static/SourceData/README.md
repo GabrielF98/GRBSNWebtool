@@ -17,6 +17,16 @@ There are two types of column: one type contains data, and the other type of col
 The filename should contain the name of the GRB, name of the SN and the type of data in the file. For example: GRB030329-SN2003dh_Radio.txt
 
 
+# Filenames
+All filenames should contain one of the following tags: , `Optical`,  or .
+
+`X-ray`: Any file containing observations from an X-ray telescope/satellite. 
+`Optical`: Any file containing observations in the `NIR`, `IR`, Visible or `UV` ranges. 
+'Radio`: Any file containing observations at Radio wavelengths. 
+`Spectra`: Any file containing spectroscopic observations. 
+
+If a file contains `NIR`, `IR` or `UV` data then it should also contain the relevant tag in it's filename. The filename should always contain the Optical tag even if there is no optical data in the file. 
+
 
 # Categories available in the webtool
 It is important to note that these headings will not appear in all files. They only appear if
