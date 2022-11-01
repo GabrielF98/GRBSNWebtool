@@ -13,4 +13,4 @@ GRB080319B,GRB080319B_Optical_3.txt,"Early, Late, Optical",https://ui.adsabs.har
 GRB080319B,GRB080319B_IR_Optical.txt,"Early, IR, Late, NIR, Optical",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 GRB080319B,GRB080319B_Optical_4.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..495W/abstract
 GRB080319B,,,
-GRB080319B,Xray,https://www.swift.ac.uk/xrt_curves/
+GRB080319B,GRB080319Bxrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/

@@ -1,3 +1,3 @@
 GRB/SN,Filename,Status,Reference
 GRB050824,,"Early, Late, NIR, Optical, Radio, Spectra, Xray",
-GRB050824,Xray,https://www.swift.ac.uk/xrt_curves/
+GRB050824,GRB050824xrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/
