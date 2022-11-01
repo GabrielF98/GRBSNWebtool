@@ -1,6 +1,6 @@
 Event Name: GRB050525-SN2005nc
 =========================================================
-Filename: GRB050525-SN2005nc_Radio.txt
+Filename: GRB050525A-SN2005nc_Radio.txt
 ---------------------------------------------------------
 Log of mm wave observations.
 The quoted limits are 3σ upper limits. 
