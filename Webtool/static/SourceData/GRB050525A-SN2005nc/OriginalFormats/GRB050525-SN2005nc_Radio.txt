@@ -1,0 +1,4 @@
+Date-obs (UT) 	Time since burst (T) 	Frequency 	3σ upper 	Synthesized beam 	Position angle 
+(d) 	(d) 	(GHz) 	limit (mJy) 	(arcsec2) 	(deg) 
+2005-05-25.9188–26.3479 	0.9168–1.3459 	92.682 	<1.02 	7.05 × 5.58 	74 
+ 	 	214.712 	<3.66 	3.10 × 2.36 	78 
