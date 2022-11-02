@@ -33,7 +33,7 @@ flux_density column: The flux is given at this effective wavelength in a 0&farcs
 
 magnitude column: Tabulated brightnesses in the Vega magnitude system (BVega = 0.02 mag, VVega = 0.03 mag, RVega = 0.039 mag, and IVega = 0.035 mag; Holtzman et al. 1995). Subtract 0.1 mag from these values to get the infinite aperture brightness. These magnitudes have not been corrected for Galactic or host extinction.
 =========================================================
-Filename: GRB011121-SN2001ke_NIR.txt
+Filename: GRB011121-SN2001ke_NIR_Optical3.txt
 Source: https://ui.adsabs.harvard.edu/abs/2002ApJ...572L..51P/abstract
 Data-type: Early, NIR
 ---------------------------------------------------------
@@ -48,8 +48,3 @@ All observations were obtained using the continuum mode and a 128 MHz bandwidth.
 date column: UT date of the start of each observation.
 band column: Center frequency.
 flux_density column: Peak flux density at the best-fit position of the radio transient, with the error given as the rms noise on the image.
-
-
-
-
-
