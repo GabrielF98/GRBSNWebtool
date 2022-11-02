@@ -134,7 +134,12 @@ The descriptions of the bands are listed here for reference purposes.
     
     **Spectra**
 
-    `
+    * `wavelength` The observed wavelength of the observation. 
+    * `rest_wavelength` The rest frame wavelength of the observation. Calculated by dividing the observed wavelength by 1+z, where z is the redshift. 
+    * `wavelength_unit` Options: `angstrom`; `nm` for nanometers.
+    * `flux` The observed flux.
+    * `flux_unit` Options: `uncalibrated`.
+    * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
 
 ### Miscellaneous
  * `instrument` The names of the instrument used to take data. The options are:
