@@ -136,7 +136,7 @@ The descriptions of the bands are listed here for reference purposes.
     
     **Spectra**
 
-    * `wavelength` The observed wavelength of the observation. 
+    * `obs_wavelength` The observed wavelength of the observation. 
     * `rest_wavelength` The rest frame wavelength of the observation. Calculated by dividing the observed wavelength by 1+z, where z is the redshift. 
     * `wavelength_unit` Options: `angstrom`; `nm` for nanometers.
     * `flux` The observed flux.
