@@ -68,4 +68,4 @@ No notes.
 
 **Notes:**
 
-Magnitudes are given relative to the boldface epoch.
+Magnitudes are given originally relative to the boldface epoch. I have fixed this issue.
