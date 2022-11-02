@@ -12,11 +12,29 @@ date	time	freq	flux_density	dflux_density	VLA_Project_Code	date_unit	time_unit	f
 2004-Dec-23	635.1	1.4	590	70	AF414	yyyy-month-deciday	days	GHz	microJy
 ```
 
-There are two types of column: one type contains data, and the other type of column describes the units for the data column. The columns and the data therin are separated by tabs. The categories available for the data are listed in the next section. 
+There are two types of column: one type contains data, and the other type of column describes the units for the data column. The columns and the data therin are separated by tabs. The categories available for the data are listed below. 
 
+
+
+
+# Filenames
 The filename should contain the name of the GRB, name of the SN and the type of data in the file. For example: GRB030329-SN2003dh_Radio.txt
 
+All filenames should contain one of the following tags:
 
+* `Xray` Any file containing observations from an X-ray telescope/satellite. 
+
+* `Optical` Any file containing observations in the `NIR`, `IR`, Visible or `UV` ranges. 
+
+* `Radio` Any file containing observations at Radio wavelengths. 
+
+* `Spectra` Any file containing spectroscopic observations. 
+
+If a file contains `NIR`, `IR` or `UV` data then it should also contain the relevant tag in it's filename. The filename should always contain the Optical tag even if there is no optical data in the file. 
+
+In the case of a filename with multiple tags, each tag should be separated by an underscore. For example: GRB030329-SN2003dh_Optical_NIR.txt
+
+If there are several files in the same wavelength, e.g. multiple optical files, an index should be added to each filename. For example: GRB030329-SN2003dh_Optical.txt. GRB030329-SN2003dh_Optical1.txt and GRB030329-SN2003dh_Optical2.txt.
 
 # Categories available in the webtool
 It is important to note that these headings will not appear in all files. They only appear if
@@ -129,8 +147,9 @@ The descriptions of the bands are listed here for reference purposes.
     **Radio Observing Bands**
     * `freq` The frequency of the radio observation.
     
-    * `freq_unit` The unit of the frequency. GHz/MHz.
-    * `beam` The size of the telescope beam, measured in arcseconds.
+    * `freq_unit` The unit of the frequency. `GHz`, `MHz`.
+    * `beam` The size of the telescope beam, default unit is `arcseconds`.
+    * `beam_unit` The unit associated with the beam. Options: `arcseconds^2`
     * `bandwidth` The bandwidth of the observation
     * `bandwidth_unit` Unit of the bandwidth. GHz/MHz.
     
@@ -164,7 +183,7 @@ The descriptions of the bands are listed here for reference purposes.
  
  * `reference` Usually added by the plotfuncs.py code, this is taken from the notion export and shows where the file came from on NASA/ADS.
  
- * `seeing` The seeing in arcseconds. Usually in Optical. 
+ * `seeing` The seeing in arcseconds. Usually in Optical.
  * `extinction` The extinction in the associated band and with the associated units.
  
  * `counts` The total counts received by a CCD or other instrument.
