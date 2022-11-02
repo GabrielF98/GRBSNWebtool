@@ -36,7 +36,7 @@ One or both of these data will be present in each file.
     
     * `yyyy-mm-deciday` The year, numerical month and  decimal day.
     
-    * `yyyy-mm-dd-hh:mm:ss` The year, numerical month, day and hours, min, sec.
+    * `utc` = `yyyy-mm-ddThh:mm:ss` UTC time format. The year, numerical month, then a T, then day and hours, min, sec.
     
     * `yyyy-month-dd-hh:mm:ss` The year, month, day and hours, min, sec.
     
