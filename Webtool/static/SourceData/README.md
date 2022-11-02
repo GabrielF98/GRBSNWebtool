@@ -140,7 +140,11 @@ The descriptions of the bands are listed here for reference purposes.
     * `rest_wavelength` The rest frame wavelength of the observation. Calculated by dividing the observed wavelength by 1+z, where z is the redshift. 
     * `wavelength_unit` Options: `angstroms`; `nm` for nanometers.
     * `flux` The observed flux.
-    * `flux_unit` Options: `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; `erg/s/cm2/A` erg per second per square cm per angstrom.
+    * `flux_unit` Options: 
+          *  `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; 
+          *  `calibrated` is used when some calibration has been done but the units were not provided; 
+          *  `erg/s/cm2/A` erg per second per square cm per angstrom.
+    
     * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
 
 ### Miscellaneous
