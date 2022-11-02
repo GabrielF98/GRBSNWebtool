@@ -155,19 +155,20 @@ The descriptions of the bands are listed here for reference purposes.
    * `dP` The duPont 2.5m telescope
    * `AAT`
   
- * `integration` The duration of the measurement. The default time unit is seconds.
+ * `integration` The duration of the measurement. The default time unit is seconds. Could be converted from an exposure column in the original file. 
  * `integration_unit` The units for the integration time.
  
  * `reference` Usually added by the plotfuncs.py code, this is taken from the notion export and shows where the file came from on NASA/ADS.
  
- * `seeing` The seeing in arcseconds.
+ * `seeing` The seeing in arcseconds. Usually in Optical. 
  * `extinction` The extinction in the associated band and with the associated units.
  
  * `counts` The total counts received by a CCD or other instrument.
  
- * `kcorr` The k correction. This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
+ * `kcorr` The k correction. Used in optical/NIR/UV This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
 
  * `optical_depth` Sometimes listed for radio.
  * `position_angle` Sometimes used in radio. 
  * `polarisation` Measured in radio on occasion.
  * `system_noise_temp` The radio system noise temperature in Kelvin
+ * `sky_flux` Sometimes measured when spectra are taken. It is in the same units as the flux of the source. 
