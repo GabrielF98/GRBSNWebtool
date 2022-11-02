@@ -141,6 +141,7 @@ The descriptions of the bands are listed here for reference purposes.
     * `wavelength_unit` Options: `angstroms`; `nm` for nanometers.
     * `flux` The observed flux.
     * `flux_unit` Options: 
+    
           *  `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; 
           *  `calibrated` is used when some calibration has been done but the units were not provided; 
           *  `erg/s/cm2/A` erg per second per square cm per angstrom.
