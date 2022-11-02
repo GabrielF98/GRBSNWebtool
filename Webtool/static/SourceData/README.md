@@ -36,6 +36,8 @@ One or both of these data will be present in each file.
     
     * `yyyy-mm-deciday` The year, numerical month and  decimal day.
     
+    * `utc` = `yyyy-mm-ddThh:mm:ss` UTC time format. The year, numerical month, then a T, then day and hours, min, sec.
+    
     * `yyyy-month-dd-hh:mm:ss` The year, month, day and hours, min, sec.
     
     * `yyyy-mm-deciday-deciday` The year, numerical month and  decimal day - range.
@@ -134,7 +136,16 @@ The descriptions of the bands are listed here for reference purposes.
     
     **Spectra**
 
-    `
+    * `obs_wavelength` The observed wavelength of the observation. 
+    * `rest_wavelength` The rest frame wavelength of the observation. Calculated by dividing the observed wavelength by 1+z, where z is the redshift. 
+    * `wavelength_unit` Options: `angstroms`; `nm` for nanometers.
+    * `flux` The observed flux.
+    * `flux_unit` Options: 
+        *  `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; 
+        *  `calibrated` is used when some calibration has been done but the units were not provided; 
+        *  `erg/s/cm2/A` erg per second per square cm per angstrom.
+    
+    * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
 
 ### Miscellaneous
  * `instrument` The names of the instrument used to take data. The options are:
@@ -148,19 +159,20 @@ The descriptions of the bands are listed here for reference purposes.
    * `dP` The duPont 2.5m telescope
    * `AAT`
   
- * `integration` The duration of the measurement. The default time unit is seconds.
+ * `integration` The duration of the measurement. The default time unit is seconds. Could be converted from an exposure column in the original file. 
  * `integration_unit` The units for the integration time.
  
  * `reference` Usually added by the plotfuncs.py code, this is taken from the notion export and shows where the file came from on NASA/ADS.
  
- * `seeing` The seeing in arcseconds.
+ * `seeing` The seeing in arcseconds. Usually in Optical. 
  * `extinction` The extinction in the associated band and with the associated units.
  
  * `counts` The total counts received by a CCD or other instrument.
  
- * `kcorr` The k correction. This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
+ * `kcorr` The k correction. Used in optical/NIR/UV This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
 
  * `optical_depth` Sometimes listed for radio.
  * `position_angle` Sometimes used in radio. 
  * `polarisation` Measured in radio on occasion.
  * `system_noise_temp` The radio system noise temperature in Kelvin
+ * `sky_flux` Sometimes measured when spectra are taken. It is in the same units as the flux of the source. 
