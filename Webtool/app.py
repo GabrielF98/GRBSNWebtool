@@ -1604,7 +1604,7 @@ def grb_names():
     length = len(grbs)
     conn.close()
 
-    return {'grbs': grbs, 'number1': length}
+    return {'grbs': grbs[::-1], 'number1': length}
 
 # Help
 
