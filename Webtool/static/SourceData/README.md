@@ -91,8 +91,11 @@ Time should always appear in all files. Sometimes the date will also appear.
 
 ***Miscellaneous***
 * `integration` The duration of the observation. The default unit is seconds. This may have been converted from an exposure column in the original file. 
+
 * `integration_unit` The units for the integration time. Standard time units will be used. 
+
 * `reference` Usually added by the plotfuncs.py code, this is taken from the `filesources.csv` file and provides a direct url to the paper or resource from which the file came.
+
 * `instrument` The names of the instrument used to take data. The options are:
  
    * `HST` The Hubble Space Telescope
@@ -105,56 +108,81 @@ Time should always appear in all files. Sometimes the date will also appear.
     
 ### Spectra keywords
 * `obs_wavelength` The observed wavelength of the observation. 
+
 * `rest_wavelength` The rest frame wavelength of the observation. Calculated by dividing the observed wavelength by 1+z, where z is the redshift. 
+
 * `wavelength_unit` Unit for wavelength. The options are: 
    * `angstroms`for angstroms.
    * `nm` for nanometers.
+
 * `flux` The observed flux.
+
 * `flux_unit` Unit for the flux. The options are: 
    *  `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; 
    *  `calibrated` is used when some calibration has been done but the units were not provided; 
    *  `erg/s/cm2/A` erg per second per square cm per angstrom.
+
 * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
+
 * `sky_flux` Sometimes measured when spectra are taken. It is in the same units as the flux of the source. 
 
 ### Xray keywords
 * `flux` The received flux of the source.
  
- * `flux unit`  The units used for the flux of the source. The options are:
+* `flux unit`  The units used for the flux of the source. The options are:
    * `erg/cm^2/sec`
+
 * `dflux` The error on the source flux. 
-* `flux_unit` Units for the source flux. 
+
 * `flux_limit` Is the source flux an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
+
 * `energy_range` The energy range of the xray data.
 
 ### Radio keywords
 * `freq` The frequency of the radio band. 
+
 * `freq_unit` The unit for the frequency of the radio band. The options are:
    * `GHz`
    * `MHz`
+
 * `flux_density` The flux density of the source. 
+
 * `dflux_density` Error on the flux density. 
+
 * `flux_density_unit` The unit for the flux density of the source. The options are:
    * `milliJy` milli Jansky. 
    * `microJy` micro Jansky. 
+
 * `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.  
+
 * `seeing` The seeing. Default unit is `arcseconds`.
+
 * `beam` The size of the telescope beam, default unit is `arcseconds`.
+
 * `beam_unit` The unit associated with the beam. The options are: 
    * `arcseconds^2`
+
 * `bandwidth` The bandwidth of the observation.
+
 * `bandwidth_unit` Unit of the bandwidth. The options are:
    * `GHz`
    * `MHz`
+
 * `optical_depth` Optical depth along the line of sight to the source. 
+
 * `polarisation` Degree of polarisation of the source.
+
 * `system_noise_temp` The radio system noise temperature in Kelvin. 
+
 * `VLA_Project_Code` Used in VLA data. 
+
 * `position_angle`  
 
 ### Optical keywords 
 * `mag` Magnitude of the source.
+
 * `dmag`/`dmag2` Error on the magnitude. `dmag2` represents a second error column used when there are assymmetric errors. 
+
 * `mag_unit` The units used for the magnitude of the source. The options are:
 
   * `Vega` 
@@ -162,23 +190,38 @@ Time should always appear in all files. Sometimes the date will also appear.
   * `AB`
 
   * `unspecified` Used when neither AB nor Vega are clearly specified.
+
 * `mag_limit` Is the magnitude an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
+
 * `seeing` The seeing. Default unit is `arcseconds`.
+
 * `counts` The total counts received by a CCD or other instrument.
+
 * `dcounts` The error on the counts.
+
 * `flux_density` The flux density of the source. 
+
 * `dflux_density` Error on the flux density. 
+
 * `flux_density_unit` The unit for the flux density of the source. The options are:
    * `milliJy` milli Jansky. 
    * `microJy` micro Jansky. 
+
 * `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
+
 * `extinction` The correction to the magnitude due to extinction, measured in the associated band and with the associated units.
+
 * `kcorr` The k correction. Used in optical/NIR/UV This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
   * `kcorr_bs`
+
+* `wavelength` The wavelength of the observtion. 
+
 * `wavelength_unit` Unit for wavelength. The options are: 
    * `angstroms`for angstroms.
    * `nm` for nanometers.
+
 * `airmass` Airmass.
+
 * `band` The filter used for the observation. A list of the bands is given here for reference purposes:
    
     **Johnson-Cousins Filters**
