@@ -21,7 +21,7 @@ In the case of a filename with multiple tags, each tag should be separated by an
 
 If there are several files in the same wavelength, e.g. multiple optical files, an index should be added to each filename. For example: GRB030329-SN2003dh_Optical.txt. GRB030329-SN2003dh_Optical1.txt and GRB030329-SN2003dh_Optical2.txt.
 
-# How to standardise your data for upload to the webtool
+# Formatting
 The data should be converted to the format shown below. Here is an example file:
 
 ```
@@ -37,7 +37,7 @@ If a 'd' precedes a column name, e.g. `dmag`, this is an error column for the re
 
 If '_limit' comes after a column name, e.g. `mag_limit`, this is a limit column for the relevant datatype. Is the data an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
 
-# Keywords
+# File Headers
 The following keywords appear in the headers of the webtool files. Not all keywords appear in all master files. They only appear if
 the original data fits into one of these categories. The list is organised by category, then column, 
 then the associated unit columns and units. 
