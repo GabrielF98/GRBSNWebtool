@@ -1,93 +1,93 @@
-date	time	instrument	band	mag	mag_limit	dmag	seeing	integration	date_unit	time_unit	mag_unit	reference	mag_unit 
-2002-Dec-12.17617	0.70494	Magellan 1 ClassicCam	K_{s}	21.01	-1	NaN	0.44	660	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-12.22002	0.74879	Magellan 1 ClassicCam	J	21.85	0	0.11	0.48	3720	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-12.31163	0.8404	Magellan 1 ClassicCam	H	20.92	0	0.22	0.35	240	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-12.31873	0.8475	Magellan 1 ClassicCam	K_{s}	19.4	-1	NaN	0.49	240	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-12.33329	0.86206	MMT Minicam	V	23.32	0	0.15	0.76	500	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-12.34816	0.87693	MMT Minicam	B	23.28	0	0.23	0.66	900	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-12.35336	0.88213	Magellan 1 ClassicCam	J	21.7	0	0.08	0.4	4680	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-12.35917	0.88794	MMT Minicam	R_{C}	22.88	0	0.09	0.51	900	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-13.34512	1.87389	Magellan 1 ClassicCam	J	22.81	0	0.26	0.45	4320	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-13.36368	1.89245	Magellan 1 ClassicCam	J	22.04	-1	NaN	0.41	2400	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-13.38875	1.91752	Magellan 1 ClassicCam	K_{s}	20.0	-1	NaN	0.42	210	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2003-Jan-2.06488	21.59365	Magellan 2 LDSS-2	R_{C}	24.93	0	0.17	1.13	300	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2003-Jan-2.08051	21.60928	Magellan 2 LDSS-2	V	25.42	0	0.16	0.75	300	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2003-Jan-29.27962	48.80839	WIYN Minimosaic	R_{C}	25.07	0	0.12	0.58	600	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract	NaN
-2002-Dec-11.9347	0.4634722222222222	104-cm	B	22.7	0	0.14	NaN	2\times1200	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.8264	0.3551620370370369	104-cm	V	22.3	0	0.2	NaN	1800	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.9632	0.4919675925925926	104-cm	V	22.6	-1	NaN	NaN	1800	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.7549	0.2836689814814814	104-cm	R	21.9	0	0.21	NaN	2\times900	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.7792	0.307962962962963	104-cm	R	21.9	0	0.16	NaN	2\times900	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.8640	0.3927662037037036	HCT	R	22.1	0	0.18	NaN	600	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.8730	0.4017708333333333	HCT	R	22.1	0	0.18	NaN	600	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.8822	0.4109722222222222	HCT	R	22.1	0	0.14	NaN	600	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.8914	0.420162037037037	HCT	R	22.4	0	0.24	NaN	600	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.8993	0.4280671296296295	104-cm	R	22.5	0	0.21	NaN	2\times1800	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.9318	0.4605671296296296	HCT	R	22.2	0	0.18	NaN	2\times600	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2002-Dec-11.8028	0.3315625	104-cm	I	21.4	-1	NaN	NaN	2\times900	yyyy-month-deciday	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract	unspecified
-2003-Jan-9.7	29.22876157407408	NaN	R	24.48	0	0.18	1.1	63	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...406L..33D/abstract	NaN
-2003-Jan-15.33	34.858773148148146	NaN	R	25.07	0	0.15	0.8	15	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...406L..33D/abstract	NaN
-2003-Feb-28.02	78.54876157407408	NaN	R	25.13	0	0.12	0.8	75	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...406L..33D/abstract	NaN
-2003-Mar-9.01	87.53876157407407	NaN	R	25.35	0	0.17	1.25	50	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...406L..33D/abstract	NaN
-NaN	0.036	KAIT	R	14.671	0	0.011	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.0489	KAIT	R	15.136	0	0.011	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.0614	KAIT	R	15.54	0	0.011	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.0747	KAIT	R	15.939	0	0.016	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.0805	KAIT	R	16.038	0	0.018	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.0861	KAIT	R	16.117	0	0.019	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.0969	KAIT	R	16.35	0	0.031	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.103	KAIT	R	16.449	0	0.024	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1086	KAIT	R	16.555	0	0.05	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1194	KAIT	R	16.713	0	0.034	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1253	KAIT	R	16.787	0	0.028	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1311	KAIT	R	16.925	0	0.043	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1419	KAIT	R	16.946	0	0.033	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1478	KAIT	R	16.991	0	0.033	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1533	KAIT	R	17.066	0	0.047	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1644	KAIT	R	17.154	0	0.049	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1703	KAIT	R	17.234	0	0.042	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1758	KAIT	R	17.248	0	0.038	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.1933	KAIT	R	17.348	0	0.022	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.2158	KAIT	R	17.562	0	0.024	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.2542	KAIT	R	17.76	0	0.021	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.3311	KAIT	R	18.081	0	0.016	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.45	KAIT	R	18.462	0	0.026	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	0.6017	KAIT	R	18.828	0	0.178	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	2.2103	KAIT	R	20.187	0	0.322	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	2.3647	KAIT	R	20.204	0	0.195	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	2.41	KAIT	R	20.087	0	0.246	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-NaN	2.488	KAIT	R	20.178	0	0.168	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract	NaN
-2002-Dec-11.4854	0.0144	P48	R	18.293	0	0.024	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.4962	0.0252	P48	R	18.813	0	0.045	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.4997	0.0287	P48	R	19.093	0	0.059	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.5064	0.0354	P48	R	19.343	0	0.071	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.5120	0.041	P48	R	19.286	0	0.068	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.5139	0.0429	P48	R	19.479	0	0.077	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.5218	0.0508	P48	R	19.529	0	0.082	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.5251	0.0541	P48	R	19.598	0	0.086	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.5270	0.056	P48	R	19.755	0	0.102	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.5332	0.0622	P48	R	19.95	0	0.11	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.5399	0.0689	P48	R	20.091	0	0.13	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.5533	0.0823	P200/IRcam	K_{s}	18.01	0	0.15	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.6025	0.131	SSO-40/WFI	B	21.877	0	0.138	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.7083	0.237	SSO-40/WFI	R	21.096	0	0.128	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-12.518	1.037	P200/JCAM	g$\arcmin$	23.398	0	0.047	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-12.518	1.037	P200/JCAM	r$\arcmin$	23.416	0	0.073	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-18.49	7.019	Keck I/NIRC	K_{s}	22.12	0	0.18	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-18.52	7.049	Keck I/NIRC	J	22.77	0	0.11	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-18.56	7.089	Keck I/NIRC	H	22.48	0	0.16	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract	NaN
-2002-Dec-11.4732	2.84	0.60 m Super-LOTIS	R	15.24	0	0.07	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-11.4751	5.63	0.60 m Super-LOTIS	R	16.26	0	0.12	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-11.4986	39.4	0.81 m Tenagra II	I_{C}	18.6	0	0.11	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-11.5114	57.9	0.81 m Tenagra II	R_{C}	19.52	0	0.13	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-11.5239	75.9	0.81 m Tenagra II	V	20.06	0	0.41	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-11.5366	94.1	0.81 m Tenagra II	B	19.8	-1	NaN	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-11.5479	1.84	0.81 m Tenagra II	I_{C}	19.99	0	0.24	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-11.5525	1.95	0.81 m Tenagra II	R_{C}	20.74	0	0.42	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-11.5566	2.05	0.65 m Gunma	R_{C}	20.7	0	0.16	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-11.9583	11.7	1.34 m Tautenburg	R_{C}	22.0	-1	NaN	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-11.9744	12.1	1.34 m Tautenburg	I_{C}	20.7	-1	NaN	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-12.3883	22.0	3.5 m ARC	i*	23.02	0	0.12	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-13.4680	47.9	1.0 m USNO	V	23.0	0	0.5	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Dec-28.4283	17.0	3.5 m ARC	i*	24.41	0	0.22	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
-2002-Mar-23.1335	102.0	3.5 m ARC	i*	24.51	0	0.29	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract	NaN
+date	time	instrument	band	mag	mag_limit	dmag	seeing	integration	date_unit	time_unit	mag_unit	reference
+2002-Dec-12.17617	0.70494	Magellan 1 ClassicCam	K_{s}	21.01	-1	NaN	0.44	660	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-12.22002	0.74879	Magellan 1 ClassicCam	J	21.85	0	0.11	0.48	3720	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-12.31163	0.8404	Magellan 1 ClassicCam	H	20.92	0	0.22	0.35	240	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-12.31873	0.8475	Magellan 1 ClassicCam	K_{s}	19.4	-1	NaN	0.49	240	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-12.33329	0.86206	MMT Minicam	V	23.32	0	0.15	0.76	500	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-12.34816	0.87693	MMT Minicam	B	23.28	0	0.23	0.66	900	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-12.35336	0.88213	Magellan 1 ClassicCam	J	21.7	0	0.08	0.4	4680	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-12.35917	0.88794	MMT Minicam	R_{C}	22.88	0	0.09	0.51	900	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-13.34512	1.87389	Magellan 1 ClassicCam	J	22.81	0	0.26	0.45	4320	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-13.36368	1.89245	Magellan 1 ClassicCam	J	22.04	-1	NaN	0.41	2400	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-13.38875	1.91752	Magellan 1 ClassicCam	K_{s}	20.0	-1	NaN	0.42	210	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2003-Jan-2.06488	21.59365	Magellan 2 LDSS-2	R_{C}	24.93	0	0.17	1.13	300	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2003-Jan-2.08051	21.60928	Magellan 2 LDSS-2	V	25.42	0	0.16	0.75	300	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2003-Jan-29.27962	48.80839	WIYN Minimosaic	R_{C}	25.07	0	0.12	0.58	600	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+2002-Dec-11.9347	0.4634722222222222	104-cm	B	22.7	0	0.14	NaN	2\times1200	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.8264	0.3551620370370369	104-cm	V	22.3	0	0.2	NaN	1800	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.9632	0.4919675925925926	104-cm	V	22.6	-1	NaN	NaN	1800	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.7549	0.2836689814814814	104-cm	R	21.9	0	0.21	NaN	2\times900	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.7792	0.307962962962963	104-cm	R	21.9	0	0.16	NaN	2\times900	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.8640	0.3927662037037036	HCT	R	22.1	0	0.18	NaN	600	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.8730	0.4017708333333333	HCT	R	22.1	0	0.18	NaN	600	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.8822	0.4109722222222222	HCT	R	22.1	0	0.14	NaN	600	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.8914	0.420162037037037	HCT	R	22.4	0	0.24	NaN	600	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.8993	0.4280671296296295	104-cm	R	22.5	0	0.21	NaN	2\times1800	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.9318	0.4605671296296296	HCT	R	22.2	0	0.18	NaN	2\times600	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2002-Dec-11.8028	0.3315625	104-cm	I	21.4	-1	NaN	NaN	2\times900	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+2003-Jan-9.7	29.22876157407408	NaN	R	24.48	0	0.18	1.1	63	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...406L..33D/abstract
+2003-Jan-15.33	34.858773148148146	NaN	R	25.07	0	0.15	0.8	15	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...406L..33D/abstract
+2003-Feb-28.02	78.54876157407408	NaN	R	25.13	0	0.12	0.8	75	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...406L..33D/abstract
+2003-Mar-9.01	87.53876157407407	NaN	R	25.35	0	0.17	1.25	50	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003A%26A...406L..33D/abstract
+NaN	0.036	KAIT	R	14.671	0	0.011	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.0489	KAIT	R	15.136	0	0.011	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.0614	KAIT	R	15.54	0	0.011	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.0747	KAIT	R	15.939	0	0.016	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.0805	KAIT	R	16.038	0	0.018	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.0861	KAIT	R	16.117	0	0.019	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.0969	KAIT	R	16.35	0	0.031	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.103	KAIT	R	16.449	0	0.024	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1086	KAIT	R	16.555	0	0.05	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1194	KAIT	R	16.713	0	0.034	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1253	KAIT	R	16.787	0	0.028	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1311	KAIT	R	16.925	0	0.043	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1419	KAIT	R	16.946	0	0.033	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1478	KAIT	R	16.991	0	0.033	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1533	KAIT	R	17.066	0	0.047	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1644	KAIT	R	17.154	0	0.049	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1703	KAIT	R	17.234	0	0.042	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1758	KAIT	R	17.248	0	0.038	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.1933	KAIT	R	17.348	0	0.022	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.2158	KAIT	R	17.562	0	0.024	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.2542	KAIT	R	17.76	0	0.021	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.3311	KAIT	R	18.081	0	0.016	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.45	KAIT	R	18.462	0	0.026	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	0.6017	KAIT	R	18.828	0	0.178	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	2.2103	KAIT	R	20.187	0	0.322	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	2.3647	KAIT	R	20.204	0	0.195	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	2.41	KAIT	R	20.087	0	0.246	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+NaN	2.488	KAIT	R	20.178	0	0.168	NaN	NaN	NaN	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+2002-Dec-11.4854	0.0144	P48	R	18.293	0	0.024	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.4962	0.0252	P48	R	18.813	0	0.045	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.4997	0.0287	P48	R	19.093	0	0.059	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.5064	0.0354	P48	R	19.343	0	0.071	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.5120	0.041	P48	R	19.286	0	0.068	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.5139	0.0429	P48	R	19.479	0	0.077	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.5218	0.0508	P48	R	19.529	0	0.082	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.5251	0.0541	P48	R	19.598	0	0.086	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.5270	0.056	P48	R	19.755	0	0.102	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.5332	0.0622	P48	R	19.95	0	0.11	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.5399	0.0689	P48	R	20.091	0	0.13	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.5533	0.0823	P200/IRcam	K_{s}	18.01	0	0.15	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.6025	0.131	SSO-40/WFI	B	21.877	0	0.138	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.7083	0.237	SSO-40/WFI	R	21.096	0	0.128	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-12.518	1.037	P200/JCAM	g$\arcmin$	23.398	0	0.047	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-12.518	1.037	P200/JCAM	r$\arcmin$	23.416	0	0.073	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-18.49	7.019	Keck I/NIRC	K_{s}	22.12	0	0.18	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-18.52	7.049	Keck I/NIRC	J	22.77	0	0.11	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-18.56	7.089	Keck I/NIRC	H	22.48	0	0.16	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+2002-Dec-11.4732	2.84	0.60 m Super-LOTIS	R	15.24	0	0.07	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-11.4751	5.63	0.60 m Super-LOTIS	R	16.26	0	0.12	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-11.4986	39.4	0.81 m Tenagra II	I_{C}	18.6	0	0.11	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-11.5114	57.9	0.81 m Tenagra II	R_{C}	19.52	0	0.13	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-11.5239	75.9	0.81 m Tenagra II	V	20.06	0	0.41	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-11.5366	94.1	0.81 m Tenagra II	B	19.8	-1	NaN	NaN	NaN	yyyy-month-deciday	minutes	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-11.5479	1.84	0.81 m Tenagra II	I_{C}	19.99	0	0.24	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-11.5525	1.95	0.81 m Tenagra II	R_{C}	20.74	0	0.42	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-11.5566	2.05	0.65 m Gunma	R_{C}	20.7	0	0.16	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-11.9583	11.7	1.34 m Tautenburg	R_{C}	22.0	-1	NaN	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-11.9744	12.1	1.34 m Tautenburg	I_{C}	20.7	-1	NaN	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-12.3883	22.0	3.5 m ARC	i*	23.02	0	0.12	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-13.4680	47.9	1.0 m USNO	V	23.0	0	0.5	NaN	NaN	yyyy-month-deciday	hours	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Dec-28.4283	17.0	3.5 m ARC	i*	24.41	0	0.22	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+2002-Mar-23.1335	102.0	3.5 m ARC	i*	24.51	0	0.29	NaN	NaN	yyyy-month-deciday	days	unspecified	https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
