@@ -6,19 +6,19 @@ This page contains information regarding the status of the data downlinked for a
 
 **`Not started`** Pretty self-explanatory, we haven’t begun to look for data yet. 
 
-`**New Event`** This is a young discovery so there may not be much on the ADS yet.
-
 `**In progress`**  I am working on gathering data from the ADS and the full set of data on the ADS has not been downloaded. 
-
-**`No ADS data`** We haven’t been able to find any refereed papers with data in the ADS.
-
-`**No Downloadables`** We haven’t been able to find any refereed papers with downloadable data in the ADS.
-
-`**ADS exhausted`** I have gathered data from all the references which appear in the ADS when you search obj:GRB XXXXXX, abs:"XXXXXX" with only refereed papers used.
 
 **`Mostly completed`** 3/4 of the main categories we want have been found and downloaded and we have looked at all papers in the ADS.
 
 `**Completed`** The holy grail that won't happen for most of these because people made it hard to find the data or didn’t bother getting it. 
+
+`**ADS exhausted`** I have gathered data from all the references which appear in the ADS when you search obj:GRB XXXXXX, abs:"XXXXXX" with only refereed papers used.
+
+`**No Downloadables`** We haven’t been able to find any refereed papers with downloadable data in the ADS.
+
+**`No ADS data`** We haven’t been able to find any refereed papers with data in the ADS.
+
+`**New Event`** This is a young discovery so there may not be much on the ADS yet.
 
 ### State tags - what is the state of the data processing.
 
