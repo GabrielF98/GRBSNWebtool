@@ -1,4 +1,4 @@
-date	mag	mag_limit	dmag	integration	band	instrument	date_unit	mag_unit 	time	time_unit
+date	mag	mag_limit	dmag	integration	band	instrument	date_unit	mag_unit	time	time_unit
 2002-Dec-11.9347	22.7	0	0.14	2\times1200	B	104-cm	yyyy-month-deciday	unspecified	0.4634722222222222	days
 2002-Dec-11.8264	22.3	0	0.2	1800	V	104-cm	yyyy-month-deciday	unspecified	0.3551620370370369	days
 2002-Dec-11.9632	22.6	-1	NaN	1800	V	104-cm	yyyy-month-deciday	unspecified	0.4919675925925926	days
