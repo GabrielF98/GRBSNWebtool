@@ -46,11 +46,12 @@ then the associated unit columns and units.
 Keywords that might appear in any file. 
 
 ***Dates and Times***
+
 Time should always appear in all files. Sometimes the date will also appear. 
 
   * `date` The date of observation. 
   
-  * `date_unit` The unit of the date of observation, the options are:
+  * `date_unit` The unit of the date of observation. The options are:
   
     * `yyyy-month-deciday` The year, month and decimal day.
     
@@ -74,9 +75,9 @@ Time should always appear in all files. Sometimes the date will also appear.
     * `MJD` Modified Julian Day.
     * `MJD-MJD` Modified Julian Day - range. 
   
-  * `time` The elapsed time since the reference point of the data. For GRBs this will usually be the trigger time but could also be the peak time of the SN lightcurve.
+  * `time` The elapsed time since the reference point of the data. If known, the GRB trigger time is used, otherwise the peak time of the SN lightcurve is used.
   
-  * `time_unit` The elapsed time unit, the options are:
+  * `time_unit` Unit for the elapsed time. The options are:
   
     * `seconds`
     
@@ -91,7 +92,7 @@ Time should always appear in all files. Sometimes the date will also appear.
 ***Miscellaneous***
 * `integration` The duration of the observation. The default unit is seconds. This may have been converted from an exposure column in the original file. 
 * `integration_unit` The units for the integration time. Standard time units will be used. 
-* `reference` Usually added by the plotfuncs.py code, this is taken from the notion export and provides a direct url to the paper or resource from which the file came.
+* `reference` Usually added by the plotfuncs.py code, this is taken from the `filesources.csv` file and provides a direct url to the paper or resource from which the file came.
 * `instrument` The names of the instrument used to take data. The options are:
  
    * `HST` The Hubble Space Telescope
@@ -105,12 +106,14 @@ Time should always appear in all files. Sometimes the date will also appear.
 ### Spectra keywords
 * `obs_wavelength` The observed wavelength of the observation. 
 * `rest_wavelength` The rest frame wavelength of the observation. Calculated by dividing the observed wavelength by 1+z, where z is the redshift. 
-* `wavelength_unit` Options: `angstroms`; `nm` for nanometers.
+* `wavelength_unit` Unit for wavelength. The options are: 
+   * `angstroms`for angstroms.
+   * `nm` for nanometers.
 * `flux` The observed flux.
-* `flux_unit` Options: 
- *  `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; 
- *  `calibrated` is used when some calibration has been done but the units were not provided; 
- *  `erg/s/cm2/A` erg per second per square cm per angstrom.
+* `flux_unit` Unit for the flux. The options are: 
+   *  `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; 
+   *  `calibrated` is used when some calibration has been done but the units were not provided; 
+   *  `erg/s/cm2/A` erg per second per square cm per angstrom.
 * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
 * `sky_flux` Sometimes measured when spectra are taken. It is in the same units as the flux of the source. 
 
@@ -118,36 +121,36 @@ Time should always appear in all files. Sometimes the date will also appear.
 * `flux` The received flux of the source.
  
  * `flux unit`  The units used for the flux of the source. The options are:
- 
    * `erg/cm^2/sec`
-* `flux` The source flux. 
 * `dflux` The error on the source flux. 
 * `flux_unit` Units for the source flux. 
 * `flux_limit` Is the source flux an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
-* `energy_range` The energy range of the xray data. Usually going to be:
- * `erg/cm^2/sec`
+* `energy_range` The energy range of the xray data.
 
 ### Radio keywords
-* `freq` The frequency of the radio observing band. 
-* `freq_unit` The units of the radio observing bands. Options are:
- * `GHz`
- * `MHz`
+* `freq` The frequency of the radio band. 
+* `freq_unit` The unit for the frequency of the radio band. The options are:
+   * `GHz`
+   * `MHz`
 * `flux_density` The flux density of the source. 
 * `dflux_density` Error on the flux density. 
-* `flux_density_unit` The unit for the flux density of the source. Options are:
- * `milliJy` milli Jansky. 
- * `microJy` micro Jansky. 
+* `flux_density_unit` The unit for the flux density of the source. The options are:
+   * `milliJy` milli Jansky. 
+   * `microJy` micro Jansky. 
 * `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.  
-* `optical_depth` Sometimes listed for radio.
-* `polarisation` Measured in radio on occasion. 
+* `seeing` The seeing. Default unit is `arcseconds`.
+* `beam` The size of the telescope beam, default unit is `arcseconds`.
+* `beam_unit` The unit associated with the beam. The options are: 
+   * `arcseconds^2`
+* `bandwidth` The bandwidth of the observation.
+* `bandwidth_unit` Unit of the bandwidth. The options are:
+   * `GHz`
+   * `MHz`
+* `optical_depth` Optical depth along the line of sight to the source. 
+* `polarisation` Degree of polarisation of the source.
 * `system_noise_temp` The radio system noise temperature in Kelvin. 
 * `VLA_Project_Code` Used in VLA data. 
-* `seeing` The seeing in arcseconds.
-* `position_angle` Sometimes used in radio.   
-* `beam` The size of the telescope beam, default unit is `arcseconds`.
-* `beam_unit` The unit associated with the beam. Options: `arcseconds^2`
-* `bandwidth` The bandwidth of the observation
-* `bandwidth_unit` Unit of the bandwidth. GHz/MHz.
+* `position_angle`  
 
 ### Optical keywords 
 * `mag` Magnitude of the source.
@@ -158,28 +161,28 @@ Time should always appear in all files. Sometimes the date will also appear.
 
   * `AB`
 
-  * `unspecified` For when neither AB nor Vega are clearly specified.
+  * `unspecified` Used when neither AB nor Vega are clearly specified.
 * `mag_limit` Is the magnitude an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
-* `seeing` The seeing. Default units are `arcseconds`.
+* `seeing` The seeing. Default unit is `arcseconds`.
 * `counts` The total counts received by a CCD or other instrument.
 * `dcounts` The error on the counts.
 * `flux_density` The flux density of the source. 
 * `dflux_density` Error on the flux density. 
-* `flux_density_unit` The unit for the flux density of the source. Options are:
- * `milliJy` milli Jansky. 
- * `microJy` micro Jansky. 
-* `extinction` The extinction, measured in the associated band and with the associated units.
+* `flux_density_unit` The unit for the flux density of the source. The options are:
+   * `milliJy` milli Jansky. 
+   * `microJy` micro Jansky. 
+* `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
+* `extinction` The correction to the magnitude due to extinction, measured in the associated band and with the associated units.
 * `kcorr` The k correction. Used in optical/NIR/UV This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
- * `kcorr_bs`
-* `wavelength` The wavelength that the data was taken at.
-* `wavelength_unit` The unit used for the wavelength. The options are: 
-   * `angstrom` 
-* `airmass` Airmass.  
-* `band` The filter that the data was taken in. The descriptions of the bands are listed here for reference purposes. The following bands are used:
+  * `kcorr_bs`
+* `wavelength_unit` Unit for wavelength. The options are: 
+   * `angstroms`for angstroms.
+   * `nm` for nanometers.
+* `airmass` Airmass.
+* `band` The filter used for the observation. A list of the bands is given here for reference purposes:
    
     **Johnson-Cousins Filters**
     * `U`
-    
     * `B`
     * `V`
     * `R`
@@ -194,7 +197,6 @@ Time should always appear in all files. Sometimes the date will also appear.
 
     **Hubble Space Telescope Filters**
     * `F450W`
-    
     * `F555W`
     * `F702W`
     * `F814W`
