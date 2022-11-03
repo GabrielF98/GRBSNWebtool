@@ -1,4 +1,4 @@
-date	instrument	band	integration	seeing	mag	mag_limit	dmag	date_unit	exposure_unit	mag_unit	time	time_unit
+date	instrument	band	integration	seeing	mag	mag_limit	dmag	date_unit	integration_unit	mag_unit	time	time_unit
 2001-Nov-22-03:03-03:25	ESO NTT/SOFI	K_{s}	10 \times 63	0.7	15.19	0	0.07	yyyy-mm-dd-hh:mm-hh:mm	seconds	unspecified	0.3518402777777777	days
 2001-Nov-22-04:03-04:14	ESO 3.6 m/EFOSC2	R_{C}	3 \times 180	1.5	18.86	0	0.02	yyyy-mm-dd-hh:mm-hh:mm	seconds	unspecified	0.3896874999999999	days
 2001-Nov-22-07:30-08:01	ESO 3.6 m/EFOSC2	R_{C}	3 \times 600	1.0	19.51	0	0.01	yyyy-mm-dd-hh:mm-hh:mm	seconds	unspecified	0.5403819444444444	days

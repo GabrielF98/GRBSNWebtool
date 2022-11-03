@@ -1,4 +1,4 @@
-instrument	time	integration	wavelength	flux_density	dflux_density	band	mag	mag_limit	dmag	time_unit	exposure_unit	wavelength_unit	flux_density_unit	mag_unit	reference	date	seeing	date_unit
+instrument	time	integration	wavelength	flux_density	dflux_density	band	mag	mag_limit	dmag	time_unit	integration_unit	wavelength_unit	flux_density_unit	mag_unit	reference	date	seeing	date_unit
 HST/F450W	13.09	1600	4678.52	0.551	0.037	B	24.867	0	0.073	days	seconds	angstrom	microJy	Vega	https://ui.adsabs.harvard.edu/abs/2002ApJ...572L..45B/abstract	NaN	NaN	NaN
 HST/F555W	13.16	1600	5560.05	0.996	0.049	V	23.871	0	0.056	days	seconds	angstrom	microJy	Vega	https://ui.adsabs.harvard.edu/abs/2002ApJ...572L..45B/abstract	NaN	NaN	NaN
 HST/F702W	13.23	1600	7042.48	1.522	0.072	R	23.211	0	0.054	days	seconds	angstrom	microJy	Vega	https://ui.adsabs.harvard.edu/abs/2002ApJ...572L..45B/abstract	NaN	NaN	NaN
