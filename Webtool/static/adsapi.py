@@ -70,7 +70,7 @@ for i in range(len(bibcodes)):
 	r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom", \
 	                 headers={"Authorization": "Bearer " + token, "Content-type": "application/json"}, \
 	                 data=json.dumps(bibcode))
-	print(r.json())
+	# print(r.json())
 
 	#dictionary[str(hyperlinks[i])] = r.json()['export']
 	author_list = r.json()['export']
@@ -128,7 +128,7 @@ for i in range(len(bibcodes2)):
 	r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom", \
 	                 headers={"Authorization": "Bearer " + token, "Content-type": "application/json"}, \
 	                 data=json.dumps(bibcode2))
-	print(r.json())
+	# print(r.json())
 	# dictionary2[str(hyperlinks2[i])] = r.json()['export']
 
 	author_list = r.json()['export']
@@ -201,7 +201,7 @@ for i in range(len(bibcodes)):
 	r = requests.post("https://api.adsabs.harvard.edu/v1/export/custom", \
 	                 headers={"Authorization": "Bearer " + token, "Content-type": "application/json"}, \
 	                 data=json.dumps(bibcode))
-	print(r.json())
+	# print(r.json())
 
 	author_list = r.json()['export']
 	author_split = r.json()['export'].split(',')
