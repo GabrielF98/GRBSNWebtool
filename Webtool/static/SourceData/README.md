@@ -104,16 +104,8 @@ Time should always appear in all files. Sometimes the date will also appear.
    * `CTIO 4 m`
    * `dP` The duPont 2.5m telescope
    * `AAT` 
- 
-
-
- * `optical_depth` Sometimes listed for radio.
- * `position_angle` Sometimes used in radio. 
- * `polarisation` Measured in radio on occasion.
- * `system_noise_temp` The radio system noise temperature in Kelvin.
- * `sky_flux` Sometimes measured when spectra are taken. It is in the same units as the flux of the source.  
     
-### Spectra keywords**
+### Spectra keywords
 * `obs_wavelength` The observed wavelength of the observation. 
 * `rest_wavelength` The rest frame wavelength of the observation. Calculated by dividing the observed wavelength by 1+z, where z is the redshift. 
 * `wavelength_unit` Options: `angstroms`; `nm` for nanometers.
@@ -122,8 +114,8 @@ Time should always appear in all files. Sometimes the date will also appear.
  *  `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; 
  *  `calibrated` is used when some calibration has been done but the units were not provided; 
  *  `erg/s/cm2/A` erg per second per square cm per angstrom.
-    
-    * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
+* `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
+* `sky_flux` Sometimes measured when spectra are taken. It is in the same units as the flux of the source. 
 
 ### Xray keywords
 * `flux` The received flux of the source.
@@ -148,21 +140,13 @@ Time should always appear in all files. Sometimes the date will also appear.
 * `flux_density_unit` The unit for the flux density of the source. Options are:
  * `milliJy` milli Jansky. 
  * `microJy` micro Jansky. 
-
 * `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.  
-* `flux_density`
-* `flux_density_unit`
-  * `milliJy` milli Janskys
-  * `microJy` micro Janskys 
-
-* `system_noise_temp` The radio system noise temperature in Kelvin. 
-* `VLA_Project_Code` 
-* `seeing` The seeing in arcseconds.
-* `position_angle` Sometimes used in radio.
-* `beam`
 * `optical_depth` Sometimes listed for radio.
-* `freq` The frequency of the radio observation.    
-* `freq_unit` The unit of the frequency. `GHz`, `MHz`.
+* `polarisation` Measured in radio on occasion. 
+* `system_noise_temp` The radio system noise temperature in Kelvin. 
+* `VLA_Project_Code` Used in VLA data. 
+* `seeing` The seeing in arcseconds.
+* `position_angle` Sometimes used in radio.   
 * `beam` The size of the telescope beam, default unit is `arcseconds`.
 * `beam_unit` The unit associated with the beam. Options: `arcseconds^2`
 * `bandwidth` The bandwidth of the observation
@@ -192,7 +176,8 @@ Time should always appear in all files. Sometimes the date will also appear.
  * `kcorr_bs`
 * `wavelength` The wavelength that the data was taken at.
 * `wavelength_unit` The unit used for the wavelength. The options are: 
-   * `angstrom`  
+   * `angstrom` 
+* `airmass` Airmass.  
 * `band` The filter that the data was taken in. The descriptions of the bands are listed here for reference purposes. The following bands are used:
    
     **Johnson-Cousins Filters**
@@ -217,6 +202,3 @@ Time should always appear in all files. Sometimes the date will also appear.
     * `F702W`
     * `F814W`
     * `F850LP`
-
-
-* `airmass` Airmass. 
