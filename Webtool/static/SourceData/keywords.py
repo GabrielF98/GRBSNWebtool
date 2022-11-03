@@ -25,7 +25,7 @@ spectra_keywords = []
 for i in range(len(trial_list)):
 	print(trial_list[i])
 	if exists(trial_list[i]+'/'+trial_list[i]+'_Optical_Master.txt'):
-		op_master = pd.read_csv(trial_list[i]+'/'+trial_list[i]+'_Optical_Master.txt', header=0, sep='\t')
+		op_master = pd.read_csv(trial_list[i]+'/'+trial_list[i]+'_Optical_Master.txt', header=0, sep='\t', index_col=None)
 		optical_keywords = optical_keywords+list(op_master.keys())
 
 	if exists(trial_list[i]+'/'+trial_list[i]+'_Radio_Master.txt'):
@@ -48,9 +48,13 @@ spectra = list(set(spectra_keywords))
 # Prints
 print('The xray master files use these keywords: \n')
 print(xray)
+print(len(xray))
 print('The optical master files use these keywords: \n')
 print(optical)
+print(len(optical))
 print('The radio master files use these keywords: \n')
 print(radio)
+print(len(radio))
 print('The spectra master files use these keywords: \n')
 print(spectra)
+print(len(spectra))
