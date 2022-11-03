@@ -46,10 +46,10 @@ If a 'd' precedes a column name, e.g. `dmag`, this is an error column for the re
 If '_limit' comes after a column name, e.g. `mag_limit`, this is a limit column for the relevant datatype. Is the data an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
 
 ### Common keywords
-These appear in all types of files. 
+Keywords that might appear in any file. 
 
-##### Dates and Times
-One or both of these data will be present in each file.
+***Dates and Times***
+Time should always appear in all files. Sometimes the date will also appear. 
 
   * `date` The date of observation. 
   
@@ -91,8 +91,90 @@ One or both of these data will be present in each file.
     
  * `dtime` Error on the time. 
 
-### Observed Data
- * `mag` Magnitude of the source.
+***Miscellaneous***
+* `integration` The duration of the measurement. The default time unit is seconds. Could be converted from an exposure column in the original file. 
+* `integration_unit` The units for the integration time.
+* `reference` Usually added by the plotfuncs.py code, this is taken from the notion export and shows where the file came from on NASA/ADS.
+* `instrument` The names of the instrument used to take data. The options are:
+ 
+   * `HST` The Hubble Space Telescope
+   * `OGLE 1.3 m`
+   * `Baade 6.5 m`
+   * `Baade`
+   * `CTIO 4 m`
+   * `dP` The duPont 2.5m telescope
+   * `AAT`
+ 
+ * `seeing` The seeing in arcseconds. Usually in Optical.
+ * `extinction` The extinction in the associated band and with the associated units.
+ 
+ * `counts` The total counts received by a CCD or other instrument.
+ 
+ * `kcorr` The k correction. Used in optical/NIR/UV This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
+
+ * `optical_depth` Sometimes listed for radio.
+ * `position_angle` Sometimes used in radio. 
+ * `polarisation` Measured in radio on occasion.
+ * `system_noise_temp` The radio system noise temperature in Kelvin.
+ * `sky_flux` Sometimes measured when spectra are taken. It is in the same units as the flux of the source.  
+    
+### Spectrum specific keywords**
+* `obs_wavelength` The observed wavelength of the observation. 
+* `rest_wavelength` The rest frame wavelength of the observation. Calculated by dividing the observed wavelength by 1+z, where z is the redshift. 
+* `wavelength_unit` Options: `angstroms`; `nm` for nanometers.
+* `flux` The observed flux.
+* `flux_unit` Options: 
+ *  `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; 
+ *  `calibrated` is used when some calibration has been done but the units were not provided; 
+ *  `erg/s/cm2/A` erg per second per square cm per angstrom.
+    
+    * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
+
+### Xray specific keywords
+* `flux` The received flux of the source.
+ 
+ * `flux unit`  The units used for the flux of the source. The options are:
+ 
+   * `erg/cm^2/sec`
+* `flux` The source flux. 
+* `dflux` The error on the source flux. 
+* `flux_unit` Units for the source flux. 
+* `flux_limit` Is the source flux an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
+* `energy_range` The energy range of the xray data. Usually going to be:
+ * `erg/cm^2/sec`
+
+### Radio specific keywords
+* `freq` The frequency of the radio observing band. 
+* `freq_unit` The units of the radio observing bands. Options are:
+ * `GHz`
+ * `MHz`
+* `flux_density` The flux density of the source. 
+* `dflux_density` Error on the flux density. 
+* `flux_density_unit` The unit for the flux density of the source. Options are:
+ * `milliJy` milli Jansky. 
+ * `microJy` micro Jansky. 
+
+* `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.  
+* `flux_density`
+* `flux_density_unit`
+  * `milliJy` milli Janskys
+  * `microJy` micro Janskys 
+
+* `system_noise_temp` The radio system noise temperature in Kelvin. 
+* `VLA_Project_Code` 
+* `seeing` The seeing in arcseconds.
+* `position_angle` Sometimes used in radio.
+* `beam`
+* `optical_depth` Sometimes listed for radio.
+* `freq` The frequency of the radio observation.    
+* `freq_unit` The unit of the frequency. `GHz`, `MHz`.
+* `beam` The size of the telescope beam, default unit is `arcseconds`.
+* `beam_unit` The unit associated with the beam. Options: `arcseconds^2`
+* `bandwidth` The bandwidth of the observation
+* `bandwidth_unit` Unit of the bandwidth. GHz/MHz.
+
+### Optical specific keywords 
+* `mag` Magnitude of the source.
  
  * `mag_unit` The units used for the magnitude of the source. The options are:
  
@@ -100,22 +182,19 @@ One or both of these data will be present in each file.
    
    * `AB`
    
-   * `Unspecified` For when neither AB nor Vega are clearly specified.
-   
- * `flux` The received flux of the source.
- 
- * `flux unit`  The units used for the flux of the source. The options are:
- 
-   * `erg/cm^2/sec` 
- * `flux_density`
- * `flux_density_unit`
-   * `milliJy` milli Janskys
-   * `microJy` micro Janskys
-
-
-### Bands/Filters/Wavelengths/Frequencies
-The descriptions of the bands are listed here for reference purposes.
-  * `band` The filter that the data was taken in. The following list of bands are used:
+   * `unspecified` For when neither AB nor Vega are clearly specified.
+* `counts`
+* `flux_density`
+* `dflux_density`
+* `extinction`
+* `dmag`/`dmag2`
+* `kcorr_vs`
+* `mag_unit`
+* `wavelength`
+* `mag_limit`
+* `seeing`
+* `wavelength_unit`
+* `band` The filter that the data was taken in. The descriptions of the bands are listed here for reference purposes. The following bands are used:
    
     **Johnson-Cousins Filters**
     * `U`
@@ -139,115 +218,11 @@ The descriptions of the bands are listed here for reference purposes.
     * `F702W`
     * `F814W`
     * `F850LP`
-
- * `wavelength` The wavelength that the data was taken at.
- 
- * `wavelength_unit` The unit used for the wavelength. The options are: 
- 
-   * `angstrom` 
-
-    **X-ray Observatory Frequency Ranges**
-    * `energy_range` The range of energies covered by the observation.
-    * `flux` The flux within the energy band. Usually going to be:
-     * `erg/cm^2/sec`
-    
-    **Radio Observing Bands**
-    * `freq` The frequency of the radio observation.
-    
-    * `freq_unit` The unit of the frequency. `GHz`, `MHz`.
-    * `beam` The size of the telescope beam, default unit is `arcseconds`.
-    * `beam_unit` The unit associated with the beam. Options: `arcseconds^2`
-    * `bandwidth` The bandwidth of the observation
-    * `bandwidth_unit` Unit of the bandwidth. GHz/MHz.
-    
-    **Spectra**
-
-    * `obs_wavelength` The observed wavelength of the observation. 
-    * `rest_wavelength` The rest frame wavelength of the observation. Calculated by dividing the observed wavelength by 1+z, where z is the redshift. 
-    * `wavelength_unit` Options: `angstroms`; `nm` for nanometers.
-    * `flux` The observed flux.
-    * `flux_unit` Options: 
-        *  `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; 
-        *  `calibrated` is used when some calibration has been done but the units were not provided; 
-        *  `erg/s/cm2/A` erg per second per square cm per angstrom.
-    
-    * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
-
-### Xray specific keywords
-* `flux` The source flux. 
-* `dflux` The error on the source flux. 
-* `flux_unit` Units for the source flux. 
-* `flux_limit` Is the source flux an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
-* `energy_range` The energy range of the xray data. 
-
-### Radio specific keywords
-* `freq` The frequency of the radio observing band. 
-* `freq_unit` The units of the radio observing bands. Options are:
- * `GHz`
- * `MHz`
-* `flux_density` The flux density of the source. 
-* `dflux_density` Error on the flux density. 
-* `flux_density_unit` The unit for the flux density of the source. Options are:
- * `milliJy` milli Jansky. 
- * `microJy` micro Jansky. 
-
-* `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.   
-
-* `system_noise_temp` The radio system noise temperature in Kelvin. 
-* `VLA_Project_Code` 
-* `seeing` The seeing in arcseconds.
-* `position_angle` Sometimes used in radio.
-* `beam`
-* `optical_depth` Sometimes listed for radio.
-
-### Optical specific keywords
-* `filter` Name of the filter. 
-* `counts`
-* `flux_density`
-* `exposure`
-* `dflux_density`
-* `extinction`
-* `dmag`/`dmag2`
-* `kcorr_vs`
-* `mag_unit`
-* `wavelength`
-* `mag_limit`
-* `exposure_unit`
-* `seeing`
-* `wavelength_unit`
-* 'band'
 * `flux_density_unit`
 * `dcounts`
 * `airmass`
 * `kcorr_bs`
 * `mag`
-
-### Miscellaneous
- * `instrument` The names of the instrument used to take data. The options are:
- 
-   * `HST` The Hubble Space Telescope
-   
-   * `OGLE 1.3 m`
-   * `Baade 6.5 m`
-   * `Baade`
-   * `CTIO 4 m`
-   * `dP` The duPont 2.5m telescope
-   * `AAT`
-  
- * `integration` The duration of the measurement. The default time unit is seconds. Could be converted from an exposure column in the original file. 
- * `integration_unit` The units for the integration time.
- 
- * `reference` Usually added by the plotfuncs.py code, this is taken from the notion export and shows where the file came from on NASA/ADS.
- 
- * `seeing` The seeing in arcseconds. Usually in Optical.
- * `extinction` The extinction in the associated band and with the associated units.
- 
- * `counts` The total counts received by a CCD or other instrument.
- 
- * `kcorr` The k correction. Used in optical/NIR/UV This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
-
- * `optical_depth` Sometimes listed for radio.
- * `position_angle` Sometimes used in radio. 
- * `polarisation` Measured in radio on occasion.
- * `system_noise_temp` The radio system noise temperature in Kelvin.
- * `sky_flux` Sometimes measured when spectra are taken. It is in the same units as the flux of the source. 
+* `wavelength` The wavelength that the data was taken at.
+* `wavelength_unit` The unit used for the wavelength. The options are: 
+   * `angstrom` 
