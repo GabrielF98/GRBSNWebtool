@@ -83,6 +83,8 @@ One or both of these data will be present in each file.
     * `hours`
     
     * `days`
+    
+ * `dtime` Error on the time. 
 
 ### Observed Data
  * `mag` Magnitude of the source.
@@ -166,6 +168,55 @@ The descriptions of the bands are listed here for reference purposes.
     
     * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
 
+### Xray specific keywords
+* `flux` The source flux. 
+* `dflux` The error on the source flux. 
+* `flux_unit` Units for the source flux. 
+* `flux_limit` Is the source flux an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
+* `energy_range` The energy range of the xray data. 
+
+### Radio specific keywords
+* `freq` The frequency of the radio observing band. 
+* `freq_unit` The units of the radio observing bands. Options are:
+ * `GHz`
+ * `MHz`
+* `flux_density` The flux density of the source. 
+* `dflux_density` Error on the flux density. 
+* `flux_density_unit` The unit for the flux density of the source. Options are:
+ * `milliJy` milli Jansky. 
+ * `microJy` micro Jansky. 
+
+* `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.   
+
+* `system_noise_temp` The radio system noise temperature in Kelvin. 
+* `VLA_Project_Code` 
+* `seeing` The seeing in arcseconds.
+* `position_angle` Sometimes used in radio.
+* `beam`
+* `optical_depth` Sometimes listed for radio.
+
+### Optical specific keywords
+* `filter` Name of the filter. 
+* `counts`
+* `flux_density`
+* `exposure`
+* `dflux_density`
+* `extinction`
+* `dmag`/`dmag2`
+* `kcorr_vs`
+* `mag_unit`
+* `wavelength`
+* `mag_limit`
+* `exposure_unit`
+* `seeing`
+* `wavelength_unit`
+* 'band'
+* `flux_density_unit`
+* `dcounts`
+* `airmass`
+* `kcorr_bs`
+* `mag`
+
 ### Miscellaneous
  * `instrument` The names of the instrument used to take data. The options are:
  
@@ -193,5 +244,5 @@ The descriptions of the bands are listed here for reference purposes.
  * `optical_depth` Sometimes listed for radio.
  * `position_angle` Sometimes used in radio. 
  * `polarisation` Measured in radio on occasion.
- * `system_noise_temp` The radio system noise temperature in Kelvin
+ * `system_noise_temp` The radio system noise temperature in Kelvin.
  * `sky_flux` Sometimes measured when spectra are taken. It is in the same units as the flux of the source. 
