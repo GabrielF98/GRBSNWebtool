@@ -7,6 +7,7 @@ import numpy as np
 import os
 import glob
 from csv import writer
+from os.path import exists # Check if a file exists
 
 root = os.getcwd()
 dirs = [ item for item in os.listdir(root) if os.path.isdir(os.path.join(root, item)) ]
@@ -53,21 +54,39 @@ for j in file_list:
 
 			#Write to a csv for these GRBs
 			df.to_csv('./'+str(j)+'/'+str(j)+'filesources.csv', sep=',', index=False)
-
-
+	
 
 ## Add the bit for XRT LC references
 for i in file_list:
+	# Make sure a filesources.csv file exists for all off the GRB-SNe
+	if exists('./'+i+'/'+i+'filesources.csv'):
+		# Find out if we have already added Swift if the file exists. Set k=1
+		xtrname = pd.read_csv('./'+i+'/'+i+'filesources.csv', header=0)
+		filenames = list(xtrname['Filename'].astype(str))
+		k=0
+		for name in filenames:
+			if 'xrtlc' in str(name):
+				k=1
+		
+
+	# If it doesn't exist make one and set k=0
+	else:
+		k == 0
+		with open('./'+i+'/'+i+'filesources.csv', 'w', newline='') as file:
+				writer_obj = writer(file)
+
+				writer_obj.writerow(['GRB/SN', 'Filename', 'Datatypes', 'Reference'])
+
+	# XRT stuffs		
 	files = os.listdir(i)
 	for j in files:
 		#print(j)
-		if str('xrtlc') in str(j):
+		if str('xrtlc') in str(j) and k==0:
 			#Write to the csv of sources
 			with open('./'+i+'/'+i+'filesources.csv', 'a', newline='') as file:
 				writer_obj = writer(file)
 
-				writer_obj.writerow([str(i), 'Xray', 'https://www.swift.ac.uk/xrt_curves/'])
-			file.close()
+				writer_obj.writerow([str(i), str(i).split('-')[0]+'xrtlc.txt', 'Xray', 'https://www.swift.ac.uk/xrt_curves/'])
 
 ## Add the bit for OpenSN data
 for i in file_list:
@@ -87,7 +106,6 @@ for i in file_list:
 				writer_obj = writer(file)
 
 				writer_obj.writerow([i, j, 'Optical', 'https://api.astrocats.space/'+name+'/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv'])
-			file.close()
 
 	for j in files:
 		if str('OpenSNSpectra') in str(j):
@@ -96,5 +114,3 @@ for i in file_list:
 				writer_obj = writer(file)
 
 				writer_obj.writerow([i, j, 'Spectra', 'https://api.astrocats.space/'+name+'/spectra/?item='+str(str(j).replace("OpenSNSpectra", "")).replace('.json', "")+'&format=json'])
-			file.close()
-

@@ -5,4 +5,4 @@ GRB060729,GRB00729_Xray.txt,"Early, Late, Xray",https://ui.adsabs.harvard.edu/ab
 GRB060729,GRB060729_Optical_UV_1.html,"Early, Late, Optical, UV",https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
 GRB060729,GRB060729_Optical_UV_1.html,"Early, Late, UV",https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
 GRB060729,GRB060729_Optical3.html,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
-GRB060729,Xray,https://www.swift.ac.uk/xrt_curves/
+GRB060729,GRB060729xrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/

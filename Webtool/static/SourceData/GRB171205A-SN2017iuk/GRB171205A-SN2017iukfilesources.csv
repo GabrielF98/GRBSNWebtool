@@ -7,5 +7,5 @@ GRB171205A-SN2017iuk,GRB171205A-SN2017iuk_UVOT2.html,"Optical, UV",https://ui.ad
 GRB171205A-SN2017iuk,GRB171205A-SN2017iuk_UVOT3.html,"Optical, UV",https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract,
 GRB171205A-SN2017iuk,GRB171205A-SN2017iuk_UVOT4.html,"Optical, UV",https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract,
 GRB171205A-SN2017iuk,GRB171205A-SN2017iuk_Spectra.txt,Spectra,https://www.wis-tns.org/object/2017iuk,
-GRB171205A-SN2017iuk,Xray,https://www.swift.ac.uk/xrt_curves/
+GRB171205A-SN2017iuk,GRB171205Axrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/
 GRB171205A-SN2017iuk,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2017iuk/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

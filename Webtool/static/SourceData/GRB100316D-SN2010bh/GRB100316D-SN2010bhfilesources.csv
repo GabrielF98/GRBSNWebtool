@@ -4,7 +4,7 @@ GRB100316D-SN2010bh,GRB100316D-SN2010bh_Optical.txt,"Early, Late, Optical",https
 GRB100316D-SN2010bh,GRB100316D-SN2010bh_Optical1.html,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2012A%26A...539A..76O/abstract
 GRB100316D-SN2010bh,GRB100316D-SN2010bh_IR_Optical2.txt,"Early, IR, Late, Optical",https://ui.adsabs.harvard.edu/abs/2011ApJ...740...41C/abstract
 GRB100316D-SN2010bh,GRB100316D-SN2010bh_Optical3.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2011ApJ...740...41C/abstract
-GRB100316D-SN2010bh,Xray,https://www.swift.ac.uk/xrt_curves/
+GRB100316D-SN2010bh,GRB100316Dxrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/
 GRB100316D-SN2010bh,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2010bh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
 GRB100316D-SN2010bh,OpenSNSpectra2.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=2&format=json
 GRB100316D-SN2010bh,OpenSNSpectra11.json,Spectra,https://api.astrocats.space/SN2010bh/spectra/?item=11&format=json
