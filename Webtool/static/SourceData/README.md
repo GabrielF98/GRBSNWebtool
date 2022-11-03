@@ -2,21 +2,6 @@
 
 One of the major aims of the GRBSN webtool is to make all of the data for GRB-SNe available in one location. Key to this is the conversion of all of the data into a common format. This format is described in this readme for the benefit of the end users.
 
-# How to standardise your data for upload to the webtool
-The data should be converted to the format shown below. Here is an example file:
-
-```
-date	time	freq	flux_density	dflux_density	VLA_Project_Code	date_unit	time_unit	freq_unit	flux_density_unit
-2004-Dec-09	621.2	1.4	650	70	AF414	yyyy-month-deciday	days	GHz	microJy
-2004-Dec-09	621.2	8.5	250	30	AF414	yyyy-month-deciday	days	GHz	microJy
-2004-Dec-23	635.1	1.4	590	70	AF414	yyyy-month-deciday	days	GHz	microJy
-```
-
-There are two types of column: one type contains data, and the other type of column describes the units for the data column. The columns and the data therin are separated by tabs. The categories available for the data are listed below. 
-
-
-
-
 # Filenames
 The filename should contain the name of the GRB, name of the SN and the type of data in the file. For example: GRB030329-SN2003dh_Radio.txt
 
@@ -36,14 +21,26 @@ In the case of a filename with multiple tags, each tag should be separated by an
 
 If there are several files in the same wavelength, e.g. multiple optical files, an index should be added to each filename. For example: GRB030329-SN2003dh_Optical.txt. GRB030329-SN2003dh_Optical1.txt and GRB030329-SN2003dh_Optical2.txt.
 
-# Keywords
-The following keywords appear in the headers of the webtool files. Not all keywords appear in all master files. They only appear if
-the original data fits into one of these categories. The list is organised by category, then column, 
-then the associated unit columns and units. 
+# How to standardise your data for upload to the webtool
+The data should be converted to the format shown below. Here is an example file:
+
+```
+date	time	freq	flux_density	dflux_density	VLA_Project_Code	date_unit	time_unit	freq_unit	flux_density_unit
+2004-Dec-09	621.2	1.4	650	70	AF414	yyyy-month-deciday	days	GHz	microJy
+2004-Dec-09	621.2	8.5	250	30	AF414	yyyy-month-deciday	days	GHz	microJy
+2004-Dec-23	635.1	1.4	590	70	AF414	yyyy-month-deciday	days	GHz	microJy
+```
+
+There are two main types of column: one type contains data, and the other type of column describes the units for the data column. The columns and the data therin are separated by tabs. The categories available for the data are listed below. 
 
 If a 'd' precedes a column name, e.g. `dmag`, this is an error column for the relevant datatype, the units are the same as for the datatype.
 
 If '_limit' comes after a column name, e.g. `mag_limit`, this is a limit column for the relevant datatype. Is the data an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
+
+# Keywords
+The following keywords appear in the headers of the webtool files. Not all keywords appear in all master files. They only appear if
+the original data fits into one of these categories. The list is organised by category, then column, 
+then the associated unit columns and units. 
 
 ### Common keywords
 Keywords that might appear in any file. 
