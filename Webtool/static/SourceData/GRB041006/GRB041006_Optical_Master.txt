@@ -1,4 +1,4 @@
-date	time	integration	band	instrument	extinction	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	reference
+date	time	exposure	filter	instrument	extinction	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	reference
 2004-Nov-2.3	26.7	3832	F775W	HST	0.044	I	23.47	0	0.05	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
 2004-Nov-2.3	26.7	3430	F850LP	HST	0.041	z	23.01	0	0.04	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
 2004-Nov-27.4	51.9	4224	F775W	HST	0.044	I	24.57	0	0.1	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
