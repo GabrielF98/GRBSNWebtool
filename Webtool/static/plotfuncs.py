@@ -99,11 +99,14 @@ def deciday(date):
 def elapsed_time(dataframe, trigtime):    
 
     # Handle the different date formats
-    # yyyy-month-deciday
-    if dataframe['date_unit'][0] == "yyyy-month-deciday":
-        time = list()
+    time = list()
 
-        for i in range(len(dataframe['date'])):
+    for i in range(len(dataframe['date'])):
+
+        # yyyy-month-deciday
+        if dataframe['date_unit'][i] == "yyyy-month-deciday":
+
+            # Split the date. 
             date = dataframe['date'][i].split('-')
             year = date[0]
             month = month2number[date[1]]
@@ -121,13 +124,12 @@ def elapsed_time(dataframe, trigtime):
             time_list = [isotime, trigtime]
             t = Time(time_list, format='isot', scale='utc')
             time.append(t[0]-t[1])
-        dataframe['time'] = time
+            
 
-    # yyyy-mm-deciday
-    elif dataframe['date_unit'][0] == "yyyy-mm-deciday":
-        time = list()
+        # yyyy-mm-deciday
+        elif dataframe['date_unit'][i] == "yyyy-mm-deciday":
 
-        for i in range(len(dataframe['date'])):
+            # Split up the date. 
             date = dataframe['date'][i].split('-')
             year = date[0]
             month = date[1]
@@ -145,12 +147,11 @@ def elapsed_time(dataframe, trigtime):
             time_list = [isotime, trigtime]
             t = Time(time_list, format='isot', scale='utc')
             time.append(t[0]-t[1])
-        dataframe['time'] = time
 
-    # yyyy-mm-deciday-deciday
-    elif dataframe['date_unit'][0] == "yyyy-mm-deciday-deciday":
-        time = list()
-        for i in range(len(dataframe['date'])):
+        # yyyy-mm-deciday-deciday
+        elif dataframe['date_unit'][i] == "yyyy-mm-deciday-deciday":
+
+            # Split up the date. 
             date = dataframe['date'][i].split('-')
             year = date[0]
             month = date[1]
@@ -173,12 +174,10 @@ def elapsed_time(dataframe, trigtime):
             isotime = t[0]+((t[1]-t[0])/2)
             time.append(isotime-t[2])
 
-        dataframe['time'] = time
+        # yyyy-month-deciday-deciday
+        elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
 
-    # yyyy-month-deciday-deciday
-    elif dataframe['date_unit'][0] == "yyyy-month-deciday-deciday":
-        time = list()
-        for i in range(len(dataframe['date'])):
+            # Split up the date. 
             date = dataframe['date'][i].split('-')
             year = date[0]
             month = month2number[date[1]]
@@ -201,12 +200,10 @@ def elapsed_time(dataframe, trigtime):
             isotime = t[0]+((t[1]-t[0])/2)
             time.append(isotime-t[2])
 
-        dataframe['time'] = time
+        # yyyy-mm-deciday-deciday
+        elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
 
-    # yyyy-mm-deciday-deciday
-    elif dataframe['date_unit'][0] == "yyyy-month-deciday-deciday":
-        time = list()
-        for i in range(len(dataframe['date'])):
+            # Split up the date. 
             date = dataframe['date'][i].split('-')
             year = date[0]
             month = date[1]
@@ -229,12 +226,9 @@ def elapsed_time(dataframe, trigtime):
             isotime = t[0]+((t[1]-t[0])/2)
             time.append(isotime-t[2])
 
-        dataframe['time'] = time
-
-    # yyyy-mm-dd-hh:mm-hh:mm
-    elif dataframe['date_unit'][0] == "yyyy-mm-dd-hh:mm-hh:mm":
-        time = list()
-        for i in range(len(dataframe['date'])):
+        # yyyy-mm-dd-hh:mm-hh:mm
+        elif dataframe['date_unit'][i] == "yyyy-mm-dd-hh:mm-hh:mm":
+            # Split up the date.
             date = dataframe['date'][i].split('-')
             year = date[0]
             month = date[1]
@@ -262,13 +256,10 @@ def elapsed_time(dataframe, trigtime):
             t = Time(time_list, format='isot', scale='utc')
             isotime = t[0]+((t[1]-t[0])/2)
             time.append(isotime-t[2])
-        dataframe['time'] = time
 
-    # MJD
-    elif dataframe['date_unit'][0] == "MJD":
-        print(file, ' used MJD')
-        time = list()
-        for i in range(len(dataframe['date'])):
+        # MJD
+        elif dataframe['date_unit'][i] == "MJD":
+            print(file, ' used MJD')
             # Split the two MJDs
             mjd = dataframe['date'][i]
 
@@ -284,12 +275,8 @@ def elapsed_time(dataframe, trigtime):
             # Append the isotime-trigtime (elapsed time)
             time.append(obstime-Time(trigtime, format='isot'))
 
-        dataframe['time'] = time
-
-    # yyyy-month-day-hh:mm
-    elif dataframe['date_unit'][0] == 'yyyy-month-day-hh:mm':
-        time = list()
-        for i in range(len(dataframe['date'])):
+        # yyyy-month-day-hh:mm
+        elif dataframe['date_unit'][i] == 'yyyy-month-day-hh:mm':
             date = dataframe['date'][i].split('-')
             year = date[0]
             month = date[1]
@@ -312,13 +299,9 @@ def elapsed_time(dataframe, trigtime):
             t = Time(time_list, format='isot', scale='utc')
             time.append(t[0]-t[1])
 
-        dataframe['time'] = time
 
-    # MJD-MJD
-    elif dataframe['date_unit'][0] == 'MJD-MJD':
-        time = list()
-
-        for i in range(len(dataframe['date'])):
+        # MJD-MJD
+        elif dataframe['date_unit'][i] == 'MJD-MJD':
 
             # Split the two MJDs
             mjds = dataframe['date'][i].split('-')
@@ -343,13 +326,10 @@ def elapsed_time(dataframe, trigtime):
             # Append the isotime-trigtime (elapsed time)
             time.append(obstime-Time(trigtime, format='isot'))
 
-        dataframe['time'] = time
 
-    # yyyy-month-deciday-month-deciday Note that this could have issues if only the date is given. 
-    elif dataframe['date_unit'][0] == 'yyyy-month-deciday-month-deciday':
-        time = list()
-
-        for i in range(len(dataframe['date'])):
+        # yyyy-month-deciday-month-deciday Note that this could have issues if only the date is given. 
+        elif dataframe['date_unit'][i] == 'yyyy-month-deciday-month-deciday':
+            
             # Split the date up.
             date = dataframe['date'][i].split('-')
 
@@ -378,11 +358,12 @@ def elapsed_time(dataframe, trigtime):
             # Append the isotime-trigtime (elapsed time)
             time.append(obstime-Time(trigtime, format='isot', scale='utc'))
 
-        dataframe['time'] = time
-
-    # Alert me that I have encountered a date format that isn't supported yet.
-    else:
-        raise Exception('No date2time function found, time to write a new function for converting dates to times.')
+        # Alert me that I have encountered a date format that isn't supported yet.
+        else:
+            raise Exception('No date2time function found for'+dataframe['date_unit'][i]+' , time to write a new function for converting dates to times.')
+    
+    # update the dataframe time column with the parsed time data. 
+    dataframe['time'] = time
 
     return dataframe
 
@@ -399,7 +380,7 @@ def limits(df, wave_range):
         if 'flux_density' in list(df.keys()):
             i = 'flux_density'
 
-        elif 'flux' in list(df.keys()):
+        if 'flux' in list(df.keys()):
             i = 'flux'
 
     # Optical files
@@ -580,7 +561,7 @@ for i in range(len(trial_list)):
                 data = pd.read_csv(file, sep='\t')
 
                 # Find and catalogue limit values
-                if 'flux_density_limit' not in list(data.keys()):
+                if 'flux_density_limit' not in list(data.keys()) and 'flux_limit' not in list(data.keys()):
                     data = limits(data, file)
 
                 # Tag any non-detections.
