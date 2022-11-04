@@ -464,7 +464,7 @@ def nondetections(df, wave_range):
 
 def masterfileformat(filelist, event):
     '''
-    Iterate over any txt files with data for a GRB in a specific wavelength range. Put them all together with an outer join on their pandas. Save to a csv called GRBXXXXXX-SNXXXXxx_wave_range_Master.txt
+    Iterate over any txt files with data for a GRB in a specific wavelength range. Put them all together with an outer join on their pandas. Save to a csv called GRBXXXXXX-SNXXXXxx_waverange_Master.txt
     '''
 
     optical_pandas = []
