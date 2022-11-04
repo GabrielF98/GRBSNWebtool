@@ -490,6 +490,14 @@ def masterfileformat(filelist, event):
             if data['time_unit'][0] == 'seconds':
                 data['time'] = data['time'].astype(float)/86400
                 data['time_unit'] = 'days'
+
+            if data['time_unit'][0] == 'minutes':
+                data['time'] = data['time'].astype(float)/1440
+                data['time_unit'] = 'days'
+
+            if data['time_unit'][0] == 'hours':
+                data['time'] = data['time'].astype(float)/24
+                data['time_unit'] = 'days'
             
             # Append pandas
             radio_pandas.append(data)
@@ -504,6 +512,14 @@ def masterfileformat(filelist, event):
             # Make sure the elapsed time is in days, if its in seconds then convert it. 
             if data['time_unit'][0] == 'seconds':
                 data['time'] = data['time'].astype(float)/86400
+                data['time_unit'] = 'days'
+
+            if data['time_unit'][0] == 'minutes':
+                data['time'] = data['time'].astype(float)/1440
+                data['time_unit'] = 'days'
+
+            if data['time_unit'][0] == 'hours':
+                data['time'] = data['time'].astype(float)/24
                 data['time_unit'] = 'days'
 
             # Append pandas
