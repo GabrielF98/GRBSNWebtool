@@ -367,6 +367,63 @@ def elapsed_time(dataframe, trigtime):
 
     return dataframe
 
+# This function will handle any days-days, seconds-seconds and minutes-minutes in the time columns. 
+def time_formats(dataframe):
+    
+    # Create a dtime column if these exist in the time column. Initially fill it with zeros.
+    check = 0
+    if 'dtime' not in list(dataframe.keys()):
+        dtime = np.zeros(len(dataframe['time_unit']))
+
+    # Handle the different date formats
+    for i in range(len(dataframe['time'])):
+
+        # seconds-seconds
+        if dataframe['time_unit'][i] == "seconds-seconds":
+            check = 1
+            # Initial time and second time. 
+            t1 = float(str(dataframe['time'][i]).split('-')[0])
+            t2 = float(str(dataframe['time'][i]).split('-')[1])
+            dataframe['time'][i] = t1+(t2-t1)/2
+            dtime[i] = (t2-t1)/2
+            dataframe['time_unit'][i] = 'seconds'
+
+        # minutes-minutes
+        if dataframe['time_unit'][i] == "minutes-minutes":
+            check = 1
+            # Initial time and second time. 
+            t1 = float(str(dataframe['time'][i]).split('-')[0])
+            t2 = float(str(dataframe['time'][i]).split('-')[1])
+            dataframe['time'][i] = t1+(t2-t1)/2
+            dtime[i] = (t2-t1)/2
+            dataframe['time_unit'][i] = 'minutes'
+
+        # hours-hours
+        if dataframe['time_unit'][i] == "hours-hours":
+            check = 1
+            # Initial time and second time. 
+            t1 = float(str(dataframe['time'][i]).split('-')[0])
+            t2 = float(str(dataframe['time'][i]).split('-')[1])
+            dataframe['time'][i] = t1+(t2-t1)/2
+            dtime[i] = (t2-t1)/2
+            dataframe['time_unit'][i] = 'hours'
+
+        # days-days
+        if dataframe['time_unit'][i] == "days-days":
+            check = 1
+            # Initial time and second time. 
+            t1 = float(str(dataframe['time'][i]).split('-')[0])
+            t2 = float(str(dataframe['time'][i]).split('-')[1])
+            dataframe['time'][i] = t1+(t2-t1)/2
+            dtime[i] = (t2-t1)/2
+            dataframe['time_unit'][i] = 'days'
+
+    # If there was a need to make the dtime column then make a dtime column.
+    if check==1:
+        dataframe['dtime'] = dtime 
+
+    return dataframe
+
 # Filename keywords
 wavelength_names = ['xray', 'uv', 'optical', 'nir', 'ir', 'radio'] # Possible wavelengths in the filenames. 
 optical_filetags = ['optical', 'nir', 'uv', 'ir'] # Possible optical data tags in filenames
@@ -594,6 +651,9 @@ for i in range(len(trial_list)):
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
                     data['time_unit'] = 'days'
+
+                else:
+                    time_formats(data)
                 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
@@ -612,6 +672,9 @@ for i in range(len(trial_list)):
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
                     data['time_unit'] = 'days'
+
+                else:
+                    time_formats(data)
                 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
@@ -630,6 +693,9 @@ for i in range(len(trial_list)):
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
                     data['time_unit'] = 'days'
+
+                else:
+                    time_formats(data)
 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 

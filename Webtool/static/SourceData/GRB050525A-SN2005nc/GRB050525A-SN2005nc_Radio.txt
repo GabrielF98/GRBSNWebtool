@@ -1,3 +1,3 @@
-date	time	freq	flux	flux_limit	beam	position_angle	date_unit	freq_unit	beam_unit	flux_unit	time_unit
-2005-05-25.9188–26.3479	0.9168-1.3459	92.682	1.02	1	7.05×5.58	74	yyyy-mm-deciday-deciday	GHz	arcseconds^2	milliJy	days-days
-2005-05-25.9188–26.3479	0.9168-1.3459	214.712	3.66	1	3.10×2.36	78	yyyy-mm-deciday-deciday	GHz	arcseconds^2	milliJy	days-days
+date	time	freq	flux	flux_limit	beam	position_angle	date_unit	freq_unit	beam_unit	flux_unit	time_unit	dtime
+2005-05-25.9188–26.3479	1.13135	92.682	1.02	1	7.05×5.58	74	yyyy-mm-deciday-deciday	GHz	arcseconds^2	milliJy	days	0.21455
+2005-05-25.9188–26.3479	1.13135	214.712	3.66	1	3.10×2.36	78	yyyy-mm-deciday-deciday	GHz	arcseconds^2	milliJy	days	0.21455
