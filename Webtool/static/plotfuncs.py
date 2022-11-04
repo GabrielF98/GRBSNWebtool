@@ -486,7 +486,7 @@ def masterfileformat(filelist, event):
             # print(data)
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
 
-            # Make sure the elapsed time is in days, if its in seconds then convert it. 
+            # Make sure the elapsed time is in days, if its in seconds/minutes/hours then convert it. 
             if data['time_unit'][0] == 'seconds':
                 data['time'] = data['time'].astype(float)/86400
                 data['time_unit'] = 'days'
@@ -509,7 +509,7 @@ def masterfileformat(filelist, event):
             # Add a column for the ads abstract link - source
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
 
-            # Make sure the elapsed time is in days, if its in seconds then convert it. 
+            # Make sure the elapsed time is in days, if its in seconds/minutes/hours then convert it. 
             if data['time_unit'][0] == 'seconds':
                 data['time'] = data['time'].astype(float)/86400
                 data['time_unit'] = 'days'
@@ -532,9 +532,17 @@ def masterfileformat(filelist, event):
             # Add a column for the ads abstract link - source
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
 
-            # Make sure the elapsed time is in seconds, if its in days then convert it. 
+            # Make sure the elapsed time is in seconds, if its in days/minutes/hours then convert it. 
             if data['time_unit'][0] == 'days':
                 data['time'] = data['time'].astype(float)*86400
+                data['time_unit'] = 'seconds'
+
+            if data['time_unit'][0] == 'minutes':
+                data['time'] = data['time'].astype(float)*60
+                data['time_unit'] = 'seconds'
+
+            if data['time_unit'][0] == 'hours':
+                data['time'] = data['time'].astype(float)*3600
                 data['time_unit'] = 'seconds'
 
             # Append pandas
