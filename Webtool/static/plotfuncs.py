@@ -203,6 +203,34 @@ def elapsed_time(dataframe, trigtime):
 
         dataframe['time'] = time
 
+    # yyyy-mm-deciday-deciday
+    elif dataframe['date_unit'][0] == "yyyy-month-deciday-deciday":
+        time = list()
+        for i in range(len(dataframe['date'])):
+            date = dataframe['date'][i].split('-')
+            year = date[0]
+            month = date[1]
+
+            # Get the deciday to days, hours, min, sec
+            day1, hour1, minute1, second1 = deciday(date[2])
+            day2, hour2, minute2, second2 = deciday(date[3])
+
+            # Turn into isotime
+            isotime1 = str(year)+'-'+str(month)+'-'+str(day1)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
+            isotime2 = str(year)+'-'+str(month)+'-'+str(day2)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
+
+            # Handle an absence of triggertime. Set to the first time in the observations. 
+            if trigtime == 'no_tt' and i==0:
+                trigtime = isotime1
+
+            # astropy to subtract the two isotimes
+            time_list = [isotime1, isotime2, trigtime]
+            t = Time(time_list, format='isot', scale='utc')
+            isotime = t[0]+((t[1]-t[0])/2)
+            time.append(isotime-t[2])
+
+        dataframe['time'] = time
+
     # yyyy-mm-dd-hh:mm-hh:mm
     elif dataframe['date_unit'][0] == "yyyy-mm-dd-hh:mm-hh:mm":
         time = list()
@@ -368,7 +396,11 @@ xray_filetags = ['xray'] # Possible tags in the xray filenames.
 def limits(df, wave_range):
     # Radio files
     if any(substring in wave_range.lower() for substring in radio_filetags):
-        i = 'flux_density'
+        if 'flux_density' in list(df.keys()):
+            i = 'flux_density'
+
+        elif 'flux' in list(df.keys()):
+            i = 'flux'
 
     # Optical files
     if any(substring in wave_range.lower() for substring in optical_filetags):
@@ -403,9 +435,15 @@ def nondetections(df, wave_range):
 
     # Radio files
     if any(substring in wave_range.lower() for substring in radio_filetags):
-        i = 'flux_density'
-        j = 'dflux_density'
-        k = 'flux_density_limit'
+        if 'flux_density' in list(df.keys()):
+            i = 'flux_density'
+            j = 'dflux_density'
+            k = 'flux_density_limit'
+
+        elif 'flux' in list(df.keys()):
+            i = 'flux'
+            j = 'dflux'
+            k = 'flux_limit'
 
     # Optical files
     if any(substring in wave_range.lower() for substring in optical_filetags):
