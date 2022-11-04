@@ -16,7 +16,7 @@ date	time	mag	mag_limit	dmag	integration	band	instrument	date_unit	time_unit	mag
 2005-05-25.8376	0.8426	20.85	0	0.079	1200	R	2.0-m HCT	yyyy-mm-deciday	days	unspecified
 2005-05-25.9111	0.9143	21.37	0	0.27	900	R	1.0-m ST	yyyy-mm-deciday	days	unspecified
 2005-05-25.9130	0.9144	21.399	0	0.23	600	R	2.0-m HCT	yyyy-mm-deciday	days	unspecified
-2011-05-26.1508–30.0955	2131.1488–2135.0935	24.3	-1	NaN	18×900	r	2.2-m CAHA	yyyy-mm-deciday-deciday	days	unspecified
+2011-05-26.1508–30.0955	2131.1488–2135.0935	24.3	-1	NaN	18×900	r	2.2-m CAHA	yyyy-mm-deciday-deciday	days-days	unspecified
 2005-05-25.0485	0.0483	16.533	0	0.093	300	I	1.2-m Mercator	yyyy-mm-deciday	days	unspecified
 2005-05-25.0544	0.0541	16.517	0	0.097	300	I	1.2-m Mercator	yyyy-mm-deciday	days	unspecified
 2005-05-25.0594	0.0591	16.656	0	0.043	300	I	1.2-m Mercator	yyyy-mm-deciday	days	unspecified
@@ -38,8 +38,8 @@ date	time	mag	mag_limit	dmag	integration	band	instrument	date_unit	time_unit	mag
 2005-05-25.9223	0.9256	20.739	0	0.28	900	I	1.0-m ST	yyyy-mm-deciday	days	unspecified
 2005-05-27.1116	2.1096	22.39	0	0.54	200×12	I	1.5-m OSN	yyyy-mm-deciday	days	unspecified
 2005-06-30.9721	36.048	23.0	-1	NaN	450×30	I	2.2-m CAHA	yyyy-mm-deciday	days	unspecified
-2011-05-28.9855–30.0955	2133.9845–2135.0935	25.1	0	0.4	17×900	i	2.2-m CAHA	yyyy-mm-deciday-deciday	days	unspecified
-2011-05-26.1508–30.0955	2131.1488–2135.0935	24.1	-1	NaN	18×900	g	2.2-m CAHA	yyyy-mm-deciday-deciday	days	unspecified
+2011-05-28.9855–30.0955	2133.9845–2135.0935	25.1	0	0.4	17×900	i	2.2-m CAHA	yyyy-mm-deciday-deciday	days-days	unspecified
+2011-05-26.1508–30.0955	2131.1488–2135.0935	24.1	-1	NaN	18×900	g	2.2-m CAHA	yyyy-mm-deciday-deciday	days-days	unspecified
 2005-05-25.0953	0.0936	15.779	0	0.068	60.240	H	3.5-m CAHA	yyyy-mm-deciday	days	unspecified
 2005-05-25.0963	0.0946	15.611	0	0.072	60.240	H	3.5-m CAHA	yyyy-mm-deciday	days	unspecified
 2005-05-25.0973	0.0956	15.713	0	0.064	60.240	H	3.5-m CAHA	yyyy-mm-deciday	days	unspecified
