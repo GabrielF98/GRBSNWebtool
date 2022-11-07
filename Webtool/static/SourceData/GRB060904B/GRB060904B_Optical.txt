@@ -1,0 +1,68 @@
+time	band	mag	dmag	instrument	time_unit	mag_unit
+18.5-23.5	R	17.30	0.10	ROTSE-III	seconds-seconds	unspecified
+23.0-41.3	C	>17.2	NaN	TAROT	seconds-seconds	unspecified
+41.3-44.3	C	>15.9	NaN	TAROT	seconds-seconds	unspecified
+44.3-86.0	C	>17.2	NaN	TAROT	seconds-seconds	unspecified
+57.8-147.8	R	18.21	0.02	5511	seconds-seconds	unspecified
+90.8-120.8	C	18.38	0.47	TAROT	seconds-seconds	unspecified
+128.1-157.4	C	17.76	0.32	TAROT	seconds-seconds	unspecified
+164.1-194.7	C	17.99	0.35	TAROT	seconds-seconds	unspecified
+71.0-316.0	V	18.64	0.30	5519	seconds-seconds	unspecified
+200.7-230.7	C	17.61	0.26	TAROT	seconds-seconds	unspecified
+237.8-267.9	C	17.15	0.20	TAROT	seconds-seconds	unspecified
+177.8-358.8	B	18.32	0.04	Crni Vrh 60cm	seconds-seconds	unspecified
+283.5-373.5	C	17.31	0.13	TAROT	seconds-seconds	unspecified
+380.1-470.1	C	17.02	0.11	TAROT	seconds-seconds	unspecified
+387.8-477.8	R	17.01	0.02	Crni Vrh 60cm	seconds-seconds	unspecified
+502.0-527.0	R	16.90	0.12	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+479.7-569.7	R	16.78	0.09	TAROT	seconds-seconds	unspecified
+526.2-526.2	R	16.75	0.02	RTT150	seconds-seconds	unspecified
+597.6-597.6	R	16.86	0.03	RTT150	seconds-seconds	unspecified
+507.8-687.8	B	17.51	0.04	Crni Vrh 60cm	seconds-seconds	unspecified
+578.0-668.0	C	16.94	0.11	TAROT	seconds-seconds	unspecified
+664.2-664.2	R	16.99	0.03	RTT150	seconds-seconds	unspecified
+653.0-678.0	R	17.09	0.16	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+674.7-765.3	C	17.06	0.11	TAROT	seconds-seconds	unspecified
+735.0-735.0	R	17.05	0.04	RTT150	seconds-seconds	unspecified
+718.8-808.8	R	17.11	0.02	Crni Vrh 60cm	seconds-seconds	unspecified
+784.8-784.8	R	17.22	0.05	RTT150	seconds-seconds	unspecified
+777.0-803.0	R	17.24	0.19	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+774.3-864.3	R	17.22	0.14	TAROT	seconds-seconds	unspecified
+874.8-874.8	R	17.34	0.06	RTT150	seconds-seconds	unspecified
+889.0-914.0	R	17.36	0.17	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+881.1-971.1	C	17.52	0.17	TAROT	seconds-seconds	unspecified
+838.8-1018.8	B	18.56	0.04	Crni Vrh 60cm	seconds-seconds	unspecified
+1014.0-1014.0	R	17.48	0.09	RTT150	seconds-seconds	unspecified
+1004.0-1029.0	R	17.44	0.14	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+978.3-1067.7	C	17.54	0.16	TAROT	seconds-seconds	unspecified
+1083.0-1083.0	R	17.50	0.09	RTT150	seconds-seconds	unspecified
+1073.0-1098.0	R	17.58	0.14	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+1048.8-1138.8	R	17.79	0.02	Crni Vrh 60cm	seconds-seconds	unspecified
+1077.3-1167.3	R	17.34	0.16	TAROT	seconds-seconds	unspecified
+1153.8-1153.8	R	17.64	0.10	RTT150	seconds-seconds	unspecified
+1175.6-1265.6	C	17.56	0.16	TAROT	seconds-seconds	unspecified
+1168.8-1348.8	B	18.81	0.04	Crni Vrh 60cm	seconds-seconds	unspecified
+1272.8-1362.3	C	17.93	0.22	TAROT	seconds-seconds	unspecified
+1371.3-1461.8	R	17.86	0.24	TAROT	seconds-seconds	unspecified
+1378.8-1468.8	R	18.21	0.02	Crni Vrh 60cm	seconds-seconds	unspecified
+1466.0-1491.0	R	17.70	0.22	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+1505.0-1530.0	R	17.75	0.20	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+1479.3-1659.8	C	17.63	0.17	TAROT	seconds-seconds	unspecified
+1669.0-1694.0	R	17.94	0.18	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+1665.8-1846.5	C	17.96	0.20	TAROT	seconds-seconds	unspecified
+1712.8-1802.8	R	17.66	0.02	Crni Vrh 60cm	seconds-seconds	unspecified
+1751.0-1776.0	R	17.79	0.21	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+1802.0-1827.0	R	17.89	0.14	OPTIMA-Burst/1.3m Skinakas Observatory	seconds-seconds	unspecified
+1854.8-2034.8	R	17.67	0.17	TAROT	seconds-seconds	unspecified
+2044.5-2223.8	C	17.78	0.20	TAROT	seconds-seconds	unspecified
+2231.1-2410.4	C	17.96	0.18	TAROT	seconds-seconds	unspecified
+2242.8-2422.8	R	17.78	0.02	Crni Vrh 60cm	seconds-seconds	unspecified
+2419.5-2600.0	R	17.61	0.22	TAROT	seconds-seconds	unspecified
+2538.8-2718.8	R	17.79	0.02	Crni Vrh 60cm	seconds-seconds	unspecified
+2805.8-2985.8	R	17.99	0.02	Crni Vrh 60cm	seconds-seconds	unspecified
+56592.0-56592.0	R	21.40	0.20	Kiso 1.05m Schmidt	seconds-seconds	unspecified
+76529.4-77969.4	R	21.63	0.18	INTEGRAL SPI ACS Trigger	seconds-seconds	unspecified
+86477.4-87377.4	R	21.75	0.11	152 cm Cassini Telescope	seconds-seconds	unspecified
+87514.2-88414.2	R	21.74	0.12	152 cm Cassini Telescope	seconds-seconds	unspecified
+89415.0-90315.0	R	21.80	0.20	152 cm Cassini Telescope	seconds-seconds	unspecified
+162531.0-163731.0	R	22.40	0.30	INTEGRAL SPI ACS Trigger	seconds-seconds	unspecified
