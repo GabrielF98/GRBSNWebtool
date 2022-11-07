@@ -1,22 +1,22 @@
-time	band	mag	dmag	instrument	time_unit	mag_unit
-39.9-48.9	C	>16.75	NaN	TAROT	seconds-seconds	unspecified
-48.9-57.3	C	>16.45	NaN	TAROT	seconds-seconds	unspecified
-57.3-65.7	C	>16.25	NaN	TAROT	seconds-seconds	unspecified
-65.7-74.7	C	>16.75	NaN	TAROT	seconds-seconds	unspecified
-74.7-83.1	C	>16.75	NaN	TAROT	seconds-seconds	unspecified
-83.1-91.5	C	>16.75	NaN	TAROT	seconds-seconds	unspecified
-90.0-100.0	V	17.90	0.10	Swift/UVOT	seconds-seconds	unspecified
-101.1-131.0	C	16.64	0.18	TAROT	seconds-seconds	unspecified
-137.6-166.4	C	16.46	0.13	TAROT	seconds-seconds	unspecified
-109.0-208.0	V	17.40	0.10	Swift/UVOT	seconds-seconds	unspecified
-173.1-203.1	C	16.03	0.11	TAROT	seconds-seconds	unspecified
-296.1-386.1	C	16.38	0.12	TAROT	seconds-seconds	unspecified
-392.1-482.0	C	16.73	0.17	TAROT	seconds-seconds	unspecified
-491.6-582.3	R	16.84	0.23	TAROT	seconds-seconds	unspecified
-590.0-680.0	C	17.05	0.31	TAROT	seconds-seconds	unspecified
-693.0-703.0	B	18.80	0.10	Swift/UVOT	seconds-seconds	unspecified
-686.0-776.0	C	17.05	0.26	TAROT	seconds-seconds	unspecified
-890.0-980.1	C	17.50	0.41	TAROT	seconds-seconds	unspecified
-986.1-1075.5	C	17.65	0.47	TAROT	seconds-seconds	unspecified
-10530.0-11154.0	R	19.70	0.40	2-m Faulkes Telescope South	seconds-seconds	unspecified
-12678.0-13308.0	I	19.30	0.50	2-m Faulkes Telescope South	seconds-seconds	unspecified
+time	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit	dtime
+44.4	C	16.75	-1	NaN	TAROT	seconds	unspecified	4.5
+53.099999999999994	C	16.45	-1	NaN	TAROT	seconds	unspecified	4.199999999999999
+61.5	C	16.25	-1	NaN	TAROT	seconds	unspecified	4.200000000000003
+70.2	C	16.75	-1	NaN	TAROT	seconds	unspecified	4.5
+78.9	C	16.75	-1	NaN	TAROT	seconds	unspecified	4.199999999999996
+87.3	C	16.75	-1	NaN	TAROT	seconds	unspecified	4.200000000000003
+95.0	V	17.9	0	0.1	Swift/UVOT	seconds	unspecified	5.0
+116.05	C	16.64	0	0.18	TAROT	seconds	unspecified	14.950000000000003
+152.0	C	16.46	0	0.13	TAROT	seconds	unspecified	14.400000000000006
+158.5	V	17.4	0	0.1	Swift/UVOT	seconds	unspecified	49.5
+188.1	C	16.03	0	0.11	TAROT	seconds	unspecified	15.0
+341.1	C	16.38	0	0.12	TAROT	seconds	unspecified	45.0
+437.05	C	16.73	0	0.17	TAROT	seconds	unspecified	44.94999999999999
+536.95	R	16.84	0	0.23	TAROT	seconds	unspecified	45.349999999999966
+635.0	C	17.05	0	0.31	TAROT	seconds	unspecified	45.0
+698.0	B	18.8	0	0.1	Swift/UVOT	seconds	unspecified	5.0
+731.0	C	17.05	0	0.26	TAROT	seconds	unspecified	45.0
+935.05	C	17.5	0	0.41	TAROT	seconds	unspecified	45.05000000000001
+1030.8	C	17.65	0	0.47	TAROT	seconds	unspecified	44.69999999999999
+10842.0	R	19.7	0	0.4	2-m Faulkes Telescope South	seconds	unspecified	312.0
+12993.0	I	19.3	0	0.5	2-m Faulkes Telescope South	seconds	unspecified	315.0
