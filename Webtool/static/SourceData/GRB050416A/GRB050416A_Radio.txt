@@ -1,26 +1,26 @@
-date	time	flux_density	flux_density_limit	dflux_density	freq	date_unit	time_unit	flux_density_unit	freq_unit
-2005-Apr-16.49	0.026	20.0	0	51	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-Apr-22.03	5.57	200.0	0	46	4.86	yyyy-month-deciday	days	microJy	GHz
-2005-Apr-22.03	5.57	101.0	0	34	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-Apr-28.29	11.83	188.0	0	42	4.86	yyyy-month-deciday	days	microJy	GHz
-2005-Apr-28.29	11.83	132.0	0	30	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-May-1.35	14.89	201.0	0	43	4.86	yyyy-month-deciday	days	microJy	GHz
-2005-May-31.10	44.64	431.0	0	46	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-Jun-3.99	48.53	585.0	0	48	4.86	yyyy-month-deciday	days	microJy	GHz
-2005-Jun-8.03	52.57	420.0	0	190	1.43	yyyy-month-deciday	days	microJy	GHz
-2005-Jun-8.03	52.57	562.0	0	51	4.86	yyyy-month-deciday	days	microJy	GHz
-2005-Jun-8.03	52.57	398.0	0	33	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-Jun-16.97	61.51	505.0	0	49	4.86	yyyy-month-deciday	days	microJy	GHz
-2005-Jun-16.97	61.51	330.0	0	35	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-Jun-20.16	64.7	286.0	0	33	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-Jul-1.92	76.46	843.0	0	214	1.43	yyyy-month-deciday	days	microJy	GHz
-2005-Jul-1.92	76.46	321.0	0	48	4.86	yyyy-month-deciday	days	microJy	GHz
-2005-Jul-1.92	76.46	189.0	0	36	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-Jul-30.02	104.56	0.0	0	192	1.43	yyyy-month-deciday	days	microJy	GHz
-2005-Jul-30.02	104.56	68.0	0	36	4.86	yyyy-month-deciday	days	microJy	GHz
-2005-Jul-30.02	104.56	93.0	0	41	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-Aug-14.97	120.51	72.0	0	42	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-Aug-21.89	127.42	41.0	0	47	8.46	yyyy-month-deciday	days	microJy	GHz
-2005-Sep-19.90	156.44	0.0	0	54	4.86	yyyy-month-deciday	days	microJy	GHz
-2005-Oct-15.73	182.27	33.0	0	47	4.86	yyyy-month-deciday	days	microJy	GHz
-2005-Oct-15.73	182.27	89.0	0	38	8.46	yyyy-month-deciday	days	microJy	GHz
+date	time	flux_density	flux_density_limit	dflux_density	freq	date_unit	time_unit	flux_density_unit	freq_unit	dtime
+2005-Apr-16.49	0.026	20.0	0	51	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Apr-22.03	5.57	200.0	0	46	4.86	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Apr-22.03	5.57	101.0	0	34	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Apr-28.29	11.83	188.0	0	42	4.86	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Apr-28.29	11.83	132.0	0	30	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-May-1.35	14.89	201.0	0	43	4.86	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-May-31.10	44.64	431.0	0	46	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jun-3.99	48.53	585.0	0	48	4.86	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jun-8.03	52.57	420.0	0	190	1.43	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jun-8.03	52.57	562.0	0	51	4.86	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jun-8.03	52.57	398.0	0	33	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jun-16.97	61.51	505.0	0	49	4.86	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jun-16.97	61.51	330.0	0	35	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jun-20.16	64.7	286.0	0	33	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jul-1.92	76.46	843.0	0	214	1.43	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jul-1.92	76.46	321.0	0	48	4.86	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jul-1.92	76.46	189.0	0	36	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jul-30.02	104.56	0.0	0	192	1.43	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jul-30.02	104.56	68.0	0	36	4.86	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Jul-30.02	104.56	93.0	0	41	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Aug-14.97	120.51	72.0	0	42	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Aug-21.89	127.42	41.0	0	47	8.46	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Sep-19.90	156.44	0.0	0	54	4.86	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Oct-15.73	182.27	33.0	0	47	4.86	yyyy-month-deciday	days	microJy	GHz	NaN
+2005-Oct-15.73	182.27	89.0	0	38	8.46	yyyy-month-deciday	days	microJy	GHz	NaN

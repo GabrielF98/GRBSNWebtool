@@ -1,49 +1,49 @@
-date	time	band	mag	mag_limit	dmag	instrument	mag_unit	time_unit	date_unit
-2001-Nov-22.2149	0.4323	R	19.06	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.2214	0.4388	R	19.09	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.2519	0.4693	I	18.55	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.2637	0.4811	V	19.87	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.2714	0.4888	R	19.26	0	0.4	CTIO 0.9 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.2796	0.497	R	19.31	0	0.3	CTIO 0.9 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.2824	0.4998	B	20.68	0	0.8	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.2871	0.5045	I	18.61	0	0.3	CTIO 0.9 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.2947	0.5121	B	20.71	0	0.6	CTIO 0.9 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.3021	0.5195	V	20.0	0	0.4	CTIO 0.9 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.3057	0.5231	R	19.45	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.3121	0.5295	V	20.05	0	0.5	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.3183	0.5357	I	18.81	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.3265	0.5439	R	19.5	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.3357	0.5531	V	20.16	0	0.4	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.3452	0.5626	U	20.46	0	0.15	CTIO 0.9 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.3454	0.5628	I	18.86	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-22.3542	0.5716	R	19.59	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-23.2400	1.4574	I	20.6	0	0.1	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-23.2679	1.4853	V	21.19	0	0.1	OGLE 1.3 m	Vega	days	yyyy-month-deciday
-2001-Nov-23.3149	1.5323	R	21.41	0	0.5	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Nov-23.3177	1.5351	R	21.43	0	0.4	CTIO 4 m	Vega	days	yyyy-month-deciday
-2001-Nov-23.3201	1.5375	R	21.4	0	0.6	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Nov-23.3231	1.5405	B	22.86	0	0.6	CTIO 4 m	Vega	days	yyyy-month-deciday
-2001-Nov-23.3327	1.5501	U	22.4	0	0.2	CTIO 4 m	Vega	days	yyyy-month-deciday
-2001-Nov-23.3450	1.5624	I	20.86	0	0.3	CTIO 4 m	Vega	days	yyyy-month-deciday
-2001-Nov-24.361	2.578	R	22.24	0	0.12	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Nov-29.31	7.53	J	22.31	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Nov-30.30	8.52	J	22.09	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Dec-1.30	9.52	J	22.11	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Dec-4.33	12.55	R	23.07	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Dec-4.90	13.12	F450W	24.67	0	0.13	HST	Vega	days	yyyy-month-deciday
-2001-Dec-4.97	13.19	F555W	23.87	0	0.1	HST	Vega	days	yyyy-month-deciday
-2001-Dec-5.04	13.26	F702W	23.14	0	0.7	HST	Vega	days	yyyy-month-deciday
-2001-Dec-5.33	13.55	R	23.11	0	0.12	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Dec-5.83	14.05	F814W	22.78	0	0.8	HST	Vega	days	yyyy-month-deciday
-2001-Dec-5.94	14.16	F850LP	22.78	0	0.13	HST	Vega	days	yyyy-month-deciday
-2001-Dec-6.35	14.57	R	23.23	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Dec-7.31	15.53	R	23.19	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Dec-9.06	17.28	R	23.1	0	0.13	Baade 6.5 m	Vega	days	yyyy-month-deciday
-2001-Dec-14.82	23.04	F555W	24.51	0	0.11	HST	Vega	days	yyyy-month-deciday
-2001-Dec-14.88	23.1	F702W	23.37	0	0.8	HST	Vega	days	yyyy-month-deciday
-2001-Dec-16.64	24.86	F814W	23.12	0	0.1	HST	Vega	days	yyyy-month-deciday
-2001-Dec-16.75	24.97	F850LP	22.73	0	0.13	HST	Vega	days	yyyy-month-deciday
-2001-Dec-19.02	27.24	F555W	25.02	0	0.12	HST	Vega	days	yyyy-month-deciday
-2001-Dec-19.08	27.3	F702W	23.66	0	0.1	HST	Vega	days	yyyy-month-deciday
-2001-Dec-19.89	28.11	F814W	23.21	0	0.1	HST	Vega	days	yyyy-month-deciday
-2001-Dec-19.95	28.17	F850LP	22.78	0	0.13	HST	Vega	days	yyyy-month-deciday
+date	time	band	mag	mag_limit	dmag	instrument	mag_unit	time_unit	date_unit	dtime
+2001-Nov-22.2149	0.4323	R	19.06	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.2214	0.4388	R	19.09	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.2519	0.4693	I	18.55	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.2637	0.4811	V	19.87	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.2714	0.4888	R	19.26	0	0.4	CTIO 0.9 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.2796	0.497	R	19.31	0	0.3	CTIO 0.9 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.2824	0.4998	B	20.68	0	0.8	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.2871	0.5045	I	18.61	0	0.3	CTIO 0.9 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.2947	0.5121	B	20.71	0	0.6	CTIO 0.9 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.3021	0.5195	V	20.0	0	0.4	CTIO 0.9 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.3057	0.5231	R	19.45	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.3121	0.5295	V	20.05	0	0.5	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.3183	0.5357	I	18.81	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.3265	0.5439	R	19.5	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.3357	0.5531	V	20.16	0	0.4	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.3452	0.5626	U	20.46	0	0.15	CTIO 0.9 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.3454	0.5628	I	18.86	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-22.3542	0.5716	R	19.59	0	0.3	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-23.2400	1.4574	I	20.6	0	0.1	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-23.2679	1.4853	V	21.19	0	0.1	OGLE 1.3 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-23.3149	1.5323	R	21.41	0	0.5	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-23.3177	1.5351	R	21.43	0	0.4	CTIO 4 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-23.3201	1.5375	R	21.4	0	0.6	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-23.3231	1.5405	B	22.86	0	0.6	CTIO 4 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-23.3327	1.5501	U	22.4	0	0.2	CTIO 4 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-23.3450	1.5624	I	20.86	0	0.3	CTIO 4 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-24.361	2.578	R	22.24	0	0.12	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-29.31	7.53	J	22.31	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Nov-30.30	8.52	J	22.09	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-1.30	9.52	J	22.11	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-4.33	12.55	R	23.07	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-4.90	13.12	F450W	24.67	0	0.13	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-4.97	13.19	F555W	23.87	0	0.1	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-5.04	13.26	F702W	23.14	0	0.7	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-5.33	13.55	R	23.11	0	0.12	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-5.83	14.05	F814W	22.78	0	0.8	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-5.94	14.16	F850LP	22.78	0	0.13	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-6.35	14.57	R	23.23	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-7.31	15.53	R	23.19	0	0.15	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-9.06	17.28	R	23.1	0	0.13	Baade 6.5 m	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-14.82	23.04	F555W	24.51	0	0.11	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-14.88	23.1	F702W	23.37	0	0.8	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-16.64	24.86	F814W	23.12	0	0.1	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-16.75	24.97	F850LP	22.73	0	0.13	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-19.02	27.24	F555W	25.02	0	0.12	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-19.08	27.3	F702W	23.66	0	0.1	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-19.89	28.11	F814W	23.21	0	0.1	HST	Vega	days	yyyy-month-deciday	NaN
+2001-Dec-19.95	28.17	F850LP	22.78	0	0.13	HST	Vega	days	yyyy-month-deciday	NaN

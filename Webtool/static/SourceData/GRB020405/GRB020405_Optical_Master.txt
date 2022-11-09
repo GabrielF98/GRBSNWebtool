@@ -1,55 +1,55 @@
-date	band	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	reference	instrument	integration	seeing
-2002-Apr-24.272	F555W	25.05	0	0.04	yyyy-month-deciday	Vega	19.24322106481481	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-May-5.631	F555W	25.83	0	0.05	yyyy-month-deciday	Vega	30.60222569444445	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-Jun-2.711	F555W	27.25	0	0.15	yyyy-month-deciday	Vega	58.68222569444445	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-Aug-23.246	F555W	27.5	-1	NaN	yyyy-month-deciday	Vega	140.21722569444444	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-Apr-28.452	F702W	23.99	0	0.02	yyyy-month-deciday	Vega	23.42322106481481	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-May-1.620	F702W	24.31	0	0.02	yyyy-month-deciday	Vega	26.591230324074075	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-May-3.625	F702W	24.38	0	0.02	yyyy-month-deciday	Vega	28.596230324074075	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-Jun-1.614	F702W	25.91	0	0.12	yyyy-month-deciday	Vega	57.58522337962963	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-Aug-23.451	F702W	26.7	-1	NaN	yyyy-month-deciday	Vega	140.42222569444445	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-Apr-26.275	F814W	23.13	0	0.01	yyyy-month-deciday	Vega	21.24621875	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-May-1.486	F814W	23.45	0	0.02	yyyy-month-deciday	Vega	26.45722569444445	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-Jun-9.560	F814W	25.42	0	0.15	yyyy-month-deciday	Vega	65.53123032407407	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
-2002-Apr-5.812	I	19.3	0	0.06	yyyy-month-deciday	Vega	0.7832210648148148	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1m SO CCD	2\times600	2.6
-2002-Apr-6.069	V	20.66	0	0.02	yyyy-month-deciday	Vega	1.0402233796296296	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	TNG DOLoRes	2\times 300	1.8
-2002-Apr-6.013	R	20.17	0	0.03	yyyy-month-deciday	Vega	0.9842280092592592	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	300	2.3
-2002-Apr-6.109	U	20.48	0	0.06	yyyy-month-deciday	Vega	1.0802233796296297	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	900	2.2
-2002-Apr-6.118	B	21.21	0	0.03	yyyy-month-deciday	Vega	1.0892280092592592	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	600	2.5
-2002-Apr-6.124	V	20.73	0	0.03	yyyy-month-deciday	Vega	1.0952233796296296	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	300	2.0
-2002-Apr-6.129	R	20.28	0	0.04	yyyy-month-deciday	Vega	1.1002233796296297	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	300	2.8
-2002-Apr-6.134	I	19.61	0	0.08	yyyy-month-deciday	Vega	1.1052233796296296	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	300	3.2
-2002-Apr-6.136	R	20.38	0	0.02	yyyy-month-deciday	Vega	1.1072256944444443	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.4
-2002-Apr-6.186	R	20.48	0	0.01	yyyy-month-deciday	Vega	1.1572256944444446	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	60	0.7
-2002-Apr-6.197	R	20.46	0	0.01	yyyy-month-deciday	Vega	1.1682210648148148	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	30	0.8
-2002-Apr-6.211	R	20.44	0	0.02	yyyy-month-deciday	Vega	1.1822256944444445	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.4
-2002-Apr-6.220	V	20.81	0	0.02	yyyy-month-deciday	Vega	1.19121875	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.4
-2002-Apr-6.220	H	18.07	0	0.07	yyyy-month-deciday	Vega	1.19121875	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	300	1.0
-2002-Apr-6.224	J	18.69	0	0.06	yyyy-month-deciday	Vega	1.1952233796296297	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	300	1.0
-2002-Apr-6.230	B	21.31	0	0.03	yyyy-month-deciday	Vega	1.201230324074074	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.4
-2002-Apr-6.230	K_{\rm s}	17.34	0	0.06	yyyy-month-deciday	Vega	1.201230324074074	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	600	0.9
-2002-Apr-6.234	R	20.53	0	0.02	yyyy-month-deciday	Vega	1.2052233796296297	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	20	0.8
-2002-Apr-6.246	Gunn i	19.88	0	0.02	yyyy-month-deciday	Vega	1.2172256944444444	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.1
-2002-Apr-6.797	I	20.0	-1	NaN	yyyy-month-deciday	Vega	1.768221064814815	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1m SO CCD	5\times 600	2.5
-2002-Apr-7.132	R	21.2	0	0.04	yyyy-month-deciday	Vega	2.103221064814815	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.2
-2002-Apr-7.240	R	21.3	0	0.06	yyyy-month-deciday	Vega	2.211230324074074	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	0.9
-2002-Apr-7.249	V	21.79	0	0.05	yyyy-month-deciday	Vega	2.22022337962963	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.1
-2002-Apr-7.266	B	22.29	0	0.07	yyyy-month-deciday	Vega	2.2372256944444446	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.2
-2002-Apr-7.270	H	18.9	0	0.07	yyyy-month-deciday	Vega	2.24121875	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	600	0.8
-2002-Apr-7.278	J	19.55	0	0.06	yyyy-month-deciday	Vega	2.249228009259259	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	600	0.8
-2002-Apr-7.281	V	21.95	0	0.04	yyyy-month-deciday	Vega	2.2522256944444443	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	2\times30	0.7
-2002-Apr-7.294	K_{\rm s}	18.18	0	0.06	yyyy-month-deciday	Vega	2.2652233796296297	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	1800	0.7
-2002-Apr-7.381	R	21.32	0	0.06	yyyy-month-deciday	Vega	2.3522256944444444	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.2
-2002-Apr-8.280	V	22.49	0	0.02	yyyy-month-deciday	Vega	3.25121875	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SUSI2	10\times60	0.8
-2002-Apr-8.294	R	22.09	0	0.03	yyyy-month-deciday	Vega	3.2652233796296297	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SUSI2	10\times60	0.8
-2002-Apr-8.310	I	21.44	0	0.02	yyyy-month-deciday	Vega	3.281230324074074	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SUSI2	5 \times 60+3 \times300	0.8
-2002-Apr-9.205	R	22.23	0	0.04	yyyy-month-deciday	Vega	4.176230324074074	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT EMMI	2\times 300	1.0
-2002-Apr-9.194	V	22.76	0	0.06	yyyy-month-deciday	Vega	4.16522337962963	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT EMMI	2\times 300	1.0
-2002-Apr-9.215	I	21.7	0	0.06	yyyy-month-deciday	Vega	4.18621875	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT EMMI	2\times 300	1.0
-2002-Apr-12.097	V	23.59	0	0.04	yyyy-month-deciday	Vega	7.068221064814815	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Yepun FORS2	3\times180	0.7
-2002-Apr-12.107	R	23.09	0	0.04	yyyy-month-deciday	Vega	7.078221064814815	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Yepun FORS2	3\times180	0.7
-2002-Apr-15.238	V	23.99	0	0.07	yyyy-month-deciday	Vega	10.20922800925926	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	2\times180	0.7
-2002-Apr-15.244	R	23.36	0	0.04	yyyy-month-deciday	Vega	10.215223379629627	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	2\times180	0.6
-2002-Apr-15.250	I	22.53	0	0.06	yyyy-month-deciday	Vega	10.221230324074076	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	2\times180	0.6
-2002-Apr-27.193	J_{\rm s}	22.4	0	0.1	yyyy-month-deciday	Vega	22.16422800925925	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Antu ISAAC	3600	0.5
-2002-May-8.193	J_{\rm s}	22.7	-1	NaN	yyyy-month-deciday	Vega	33.16422800925926	days	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Antu ISAAC	3600	0.6
+date	band	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	dtime	reference	instrument	integration	seeing
+2002-Apr-24.272	F555W	25.05	0	0.04	yyyy-month-deciday	Vega	19.24322106481481	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-May-5.631	F555W	25.83	0	0.05	yyyy-month-deciday	Vega	30.60222569444445	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-Jun-2.711	F555W	27.25	0	0.15	yyyy-month-deciday	Vega	58.68222569444445	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-Aug-23.246	F555W	27.5	-1	NaN	yyyy-month-deciday	Vega	140.21722569444444	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-Apr-28.452	F702W	23.99	0	0.02	yyyy-month-deciday	Vega	23.42322106481481	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-May-1.620	F702W	24.31	0	0.02	yyyy-month-deciday	Vega	26.591230324074075	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-May-3.625	F702W	24.38	0	0.02	yyyy-month-deciday	Vega	28.596230324074075	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-Jun-1.614	F702W	25.91	0	0.12	yyyy-month-deciday	Vega	57.58522337962963	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-Aug-23.451	F702W	26.7	-1	NaN	yyyy-month-deciday	Vega	140.42222569444445	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-Apr-26.275	F814W	23.13	0	0.01	yyyy-month-deciday	Vega	21.24621875	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-May-1.486	F814W	23.45	0	0.02	yyyy-month-deciday	Vega	26.45722569444445	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-Jun-9.560	F814W	25.42	0	0.15	yyyy-month-deciday	Vega	65.53123032407407	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NaN	NaN	NaN
+2002-Apr-5.812	I	19.3	0	0.06	yyyy-month-deciday	Vega	0.7832210648148148	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1m SO CCD	2\times600	2.6
+2002-Apr-6.069	V	20.66	0	0.02	yyyy-month-deciday	Vega	1.0402233796296296	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	TNG DOLoRes	2\times 300	1.8
+2002-Apr-6.013	R	20.17	0	0.03	yyyy-month-deciday	Vega	0.9842280092592592	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	300	2.3
+2002-Apr-6.109	U	20.48	0	0.06	yyyy-month-deciday	Vega	1.0802233796296297	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	900	2.2
+2002-Apr-6.118	B	21.21	0	0.03	yyyy-month-deciday	Vega	1.0892280092592592	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	600	2.5
+2002-Apr-6.124	V	20.73	0	0.03	yyyy-month-deciday	Vega	1.0952233796296296	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	300	2.0
+2002-Apr-6.129	R	20.28	0	0.04	yyyy-month-deciday	Vega	1.1002233796296297	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	300	2.8
+2002-Apr-6.134	I	19.61	0	0.08	yyyy-month-deciday	Vega	1.1052233796296296	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	WHT PFIP	300	3.2
+2002-Apr-6.136	R	20.38	0	0.02	yyyy-month-deciday	Vega	1.1072256944444443	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.4
+2002-Apr-6.186	R	20.48	0	0.01	yyyy-month-deciday	Vega	1.1572256944444446	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	60	0.7
+2002-Apr-6.197	R	20.46	0	0.01	yyyy-month-deciday	Vega	1.1682210648148148	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	30	0.8
+2002-Apr-6.211	R	20.44	0	0.02	yyyy-month-deciday	Vega	1.1822256944444445	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.4
+2002-Apr-6.220	V	20.81	0	0.02	yyyy-month-deciday	Vega	1.19121875	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.4
+2002-Apr-6.220	H	18.07	0	0.07	yyyy-month-deciday	Vega	1.19121875	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	300	1.0
+2002-Apr-6.224	J	18.69	0	0.06	yyyy-month-deciday	Vega	1.1952233796296297	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	300	1.0
+2002-Apr-6.230	B	21.31	0	0.03	yyyy-month-deciday	Vega	1.201230324074074	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.4
+2002-Apr-6.230	K_{\rm s}	17.34	0	0.06	yyyy-month-deciday	Vega	1.201230324074074	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	600	0.9
+2002-Apr-6.234	R	20.53	0	0.02	yyyy-month-deciday	Vega	1.2052233796296297	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	20	0.8
+2002-Apr-6.246	Gunn i	19.88	0	0.02	yyyy-month-deciday	Vega	1.2172256944444444	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.1
+2002-Apr-6.797	I	20.0	-1	NaN	yyyy-month-deciday	Vega	1.768221064814815	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1m SO CCD	5\times 600	2.5
+2002-Apr-7.132	R	21.2	0	0.04	yyyy-month-deciday	Vega	2.103221064814815	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.2
+2002-Apr-7.240	R	21.3	0	0.06	yyyy-month-deciday	Vega	2.211230324074074	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	0.9
+2002-Apr-7.249	V	21.79	0	0.05	yyyy-month-deciday	Vega	2.22022337962963	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.1
+2002-Apr-7.266	B	22.29	0	0.07	yyyy-month-deciday	Vega	2.2372256944444446	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.2
+2002-Apr-7.270	H	18.9	0	0.07	yyyy-month-deciday	Vega	2.24121875	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	600	0.8
+2002-Apr-7.278	J	19.55	0	0.06	yyyy-month-deciday	Vega	2.249228009259259	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	600	0.8
+2002-Apr-7.281	V	21.95	0	0.04	yyyy-month-deciday	Vega	2.2522256944444443	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	2\times30	0.7
+2002-Apr-7.294	K_{\rm s}	18.18	0	0.06	yyyy-month-deciday	Vega	2.2652233796296297	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SofI	1800	0.7
+2002-Apr-7.381	R	21.32	0	0.06	yyyy-month-deciday	Vega	2.3522256944444444	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1.54D DFOSC	600	1.2
+2002-Apr-8.280	V	22.49	0	0.02	yyyy-month-deciday	Vega	3.25121875	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SUSI2	10\times60	0.8
+2002-Apr-8.294	R	22.09	0	0.03	yyyy-month-deciday	Vega	3.2652233796296297	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SUSI2	10\times60	0.8
+2002-Apr-8.310	I	21.44	0	0.02	yyyy-month-deciday	Vega	3.281230324074074	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT SUSI2	5 \times 60+3 \times300	0.8
+2002-Apr-9.205	R	22.23	0	0.04	yyyy-month-deciday	Vega	4.176230324074074	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT EMMI	2\times 300	1.0
+2002-Apr-9.194	V	22.76	0	0.06	yyyy-month-deciday	Vega	4.16522337962963	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT EMMI	2\times 300	1.0
+2002-Apr-9.215	I	21.7	0	0.06	yyyy-month-deciday	Vega	4.18621875	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	NTT EMMI	2\times 300	1.0
+2002-Apr-12.097	V	23.59	0	0.04	yyyy-month-deciday	Vega	7.068221064814815	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Yepun FORS2	3\times180	0.7
+2002-Apr-12.107	R	23.09	0	0.04	yyyy-month-deciday	Vega	7.078221064814815	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Yepun FORS2	3\times180	0.7
+2002-Apr-15.238	V	23.99	0	0.07	yyyy-month-deciday	Vega	10.20922800925926	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	2\times180	0.7
+2002-Apr-15.244	R	23.36	0	0.04	yyyy-month-deciday	Vega	10.215223379629627	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	2\times180	0.6
+2002-Apr-15.250	I	22.53	0	0.06	yyyy-month-deciday	Vega	10.221230324074076	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Melipal FORS1	2\times180	0.6
+2002-Apr-27.193	J_{\rm s}	22.4	0	0.1	yyyy-month-deciday	Vega	22.16422800925925	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Antu ISAAC	3600	0.5
+2002-May-8.193	J_{\rm s}	22.7	-1	NaN	yyyy-month-deciday	Vega	33.16422800925926	days	NaN	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	Antu ISAAC	3600	0.6

@@ -1,15 +1,15 @@
 time	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit	dtime
 21.0	R	17.3	0	0.1	ROTSE-III	seconds	unspecified	2.5
-32.15	C	17.2	-1	NaN	TAROT	seconds	unspecified	9.149999999999999
+32.15	C	17.2	-1	NaN	TAROT	seconds	unspecified	9.15
 42.8	C	15.9	-1	NaN	TAROT	seconds	unspecified	1.5
 65.15	C	17.2	-1	NaN	TAROT	seconds	unspecified	20.85
-102.80000000000001	R	18.21	0	0.02	5511	seconds	unspecified	45.00000000000001
+102.8	R	18.21	0	0.02	5511	seconds	unspecified	45.00000000000001
 105.8	C	18.38	0	0.47	TAROT	seconds	unspecified	15.0
 142.75	C	17.76	0	0.32	TAROT	seconds	unspecified	14.650000000000006
-179.39999999999998	C	17.99	0	0.35	TAROT	seconds	unspecified	15.299999999999997
+179.39999999999998	C	17.99	0	0.35	TAROT	seconds	unspecified	15.299999999999995
 193.5	V	18.64	0	0.3	5519	seconds	unspecified	122.5
 215.7	C	17.61	0	0.26	TAROT	seconds	unspecified	15.0
-252.85	C	17.15	0	0.2	TAROT	seconds	unspecified	15.049999999999983
+252.85	C	17.15	0	0.2	TAROT	seconds	unspecified	15.049999999999985
 268.3	B	18.32	0	0.04	Crni Vrh 60cm	seconds	unspecified	90.5
 328.5	C	17.31	0	0.13	TAROT	seconds	unspecified	45.0
 425.1	C	17.02	0	0.11	TAROT	seconds	unspecified	45.0
@@ -22,7 +22,7 @@ time	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit	dtime
 623.0	C	16.94	0	0.11	TAROT	seconds	unspecified	45.0
 664.2	R	16.99	0	0.03	RTT150	seconds	unspecified	0.0
 665.5	R	17.09	0	0.16	OPTIMA-Burst/1.3m Skinakas Observatory	seconds	unspecified	12.5
-720.0	C	17.06	0	0.11	TAROT	seconds	unspecified	45.299999999999955
+720.0	C	17.06	0	0.11	TAROT	seconds	unspecified	45.29999999999996
 735.0	R	17.05	0	0.04	RTT150	seconds	unspecified	0.0
 763.8	R	17.11	0	0.02	Crni Vrh 60cm	seconds	unspecified	45.0
 784.8	R	17.22	0	0.05	RTT150	seconds	unspecified	0.0
