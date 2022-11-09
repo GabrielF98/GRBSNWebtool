@@ -1,11 +1,11 @@
-date	time	integration	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit
-2005-May-23.38	36.92	3282	F775W	24.35	0	0.02	yyyy-month-deciday	days	AB
-2005-May-23.46	37.0	3430	F850LP	23.83	0	0.03	yyyy-month-deciday	days	AB
-2005-Jun-16.17	60.71	3986	F775W	25.88	0	0.1	yyyy-month-deciday	days	AB
-2005-Jul-11.15	85.69	4224	F775W	26.44	0	0.22	yyyy-month-deciday	days	AB
-2005-Nov-21.06	218.6	4224	F850LP	NaN	0	NaN	yyyy-month-deciday	days	AB
-2005-Nov-21.19	218.73	4224	F775W	NaN	0	NaN	yyyy-month-deciday	days	AB
-2005-May-23.38	36.92	3282	I	23.82	0	0.02	yyyy-month-deciday	days	Vega
-2005-May-23.46	37.0	3430	I	NaN	0	NaN	yyyy-month-deciday	days	Vega
-2005-Jun-16.17	60.71	3986	I	25.36	0	0.1	yyyy-month-deciday	days	Vega
-2005-Jul-11.15	85.69	4224	I	25.92	0	0.22	yyyy-month-deciday	days	Vega
+date	time	integration	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	dtime
+2005-May-23.38	36.92	3282	F775W	24.35	0	0.02	yyyy-month-deciday	days	AB	NaN
+2005-May-23.46	37.0	3430	F850LP	23.83	0	0.03	yyyy-month-deciday	days	AB	NaN
+2005-Jun-16.17	60.71	3986	F775W	25.88	0	0.1	yyyy-month-deciday	days	AB	NaN
+2005-Jul-11.15	85.69	4224	F775W	26.44	0	0.22	yyyy-month-deciday	days	AB	NaN
+2005-Nov-21.06	218.6	4224	F850LP	NaN	0	NaN	yyyy-month-deciday	days	AB	NaN
+2005-Nov-21.19	218.73	4224	F775W	NaN	0	NaN	yyyy-month-deciday	days	AB	NaN
+2005-May-23.38	36.92	3282	I	23.82	0	0.02	yyyy-month-deciday	days	Vega	NaN
+2005-May-23.46	37.0	3430	I	NaN	0	NaN	yyyy-month-deciday	days	Vega	NaN
+2005-Jun-16.17	60.71	3986	I	25.36	0	0.1	yyyy-month-deciday	days	Vega	NaN
+2005-Jul-11.15	85.69	4224	I	25.92	0	0.22	yyyy-month-deciday	days	Vega	NaN

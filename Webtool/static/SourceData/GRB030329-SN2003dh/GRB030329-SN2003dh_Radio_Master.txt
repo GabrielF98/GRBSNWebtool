@@ -1,290 +1,290 @@
-date	time	integration	freq	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	integration_unit	freq_unit	flux_density_unit	dtime	reference	instrument	beam	position_angle	VLA_Project_Code	system_noise_temp	seeing	optical_depth
-2003-Mar-30.658-31.138	1.414	3.3	1.4	0.21	0.0	0.07	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.24	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Mar-30.674-31.148	1.427	3.6	2.3	0.28	0.0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2370023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Mar-30.691-31.157	1.44	3.6	4.8	1.05	0.0	0.03	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2329976851851851	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Mar-31.655-Apr-1.110	2.399	3.6	4.8	5.98	0.0	0.03	yyyy-month-deciday-month-deciday	days	hours	GHz	milliJy	0.2275	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Mar-31.672-Apr-1.126	2.415	3.6	2.3	2.17	0.0	0.05	yyyy-month-deciday-month-deciday	days	hours	GHz	milliJy	0.2270023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Mar-31.688-Apr-1.142	2.431	3.3	1.4	0.63	0.0	0.04	yyyy-month-deciday-month-deciday	days	hours	GHz	milliJy	0.2269965277777778	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-2.650-3.088	4.385	4.0	4.8	3.64	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2190046296296296	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-2.694-3.132	4.429	4.0	2.3	0.79	0.0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2189988425925925	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-2.738-3.149	4.459	3.3	1.4	0.43	0.0	0.15	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2054976851851851	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-4.644-5.083	6.38	4.0	4.8	4.89	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2195023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-4.688-5.127	6.424	4.0	2.3	1.21	0.0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2194965277777777	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-4.732-5.143	6.454	3.3	1.4	0.37	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2055034722222222	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-5.641-5.818	7.246	4.2	2.3	1.0	0.0	0.07	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0885011574074074	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-7.072-7.138	8.621	1.6	4.8	4.21	0.0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0330034722222222	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-7.636-8.135	9.401	12.0	4.8	3.96	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2494965277777778	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-11.625-11.693	13.175	1.6	4.8	6.42	0.0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0339988425925926	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-12.622-12.806	14.23	2.5	4.8	5.25	0.0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0920023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-12.659-12.843	14.267	2.5	2.3	0.26	0.0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0920023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-18.606-18.908	20.273	7.0	4.8	6.96	0.0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1510011574074074	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-20.600-21.055	22.344	3.3	4.8	6.5	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2274884259259258	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-20.617-21.072	22.36	3.3	2.3	1.21	0.0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2275	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-20.633-21.087	22.376	3.3	1.4	0.64	0.0	0.08	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2269965277777778	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-27.583-28.062	29.338	3.9	4.8	9.17	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2394965277777778	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-27.606-28.078	29.357	5.5	2.3	2.32	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2360011574074074	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-May-2.568-2.816	34.208	6.0	2.3	3.04	0.0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1239988425925926	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-May-3.732-3.955	37.36	5.3	4.8	8.9	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1115046296296295	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-May-9.783-9.811	41.313	0.7	4.8	8.05	0.0	0.1	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0139988425925925	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-May-9.813-9.841	41.343	0.7	2.3	3.11	0.0	0.18	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0139988425925925	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-9.714-9.963	72.354	2.5	4.8	4.59	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1245023148148147	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-9.737-9.944	72.356	2.5	2.3	3.84	0.0	0.07	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1035011574074073	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-16.567-16.645	79.122	1.9	4.8	4.39	0.0	0.08	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0389988425925926	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-17.750-17.792	80.287	1.0	4.8	3.79	0.0	0.08	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0209953703703703	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-18.777-18.819	81.314	1.0	4.8	3.74	0.0	0.1	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0210011574074074	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-30.430-30.440	92.951	0.3	4.8	2.34	0.0	0.18	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.005005787037037	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-1.652-1.743	94.214	1.0	4.8	3.82	0.0	0.1	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0455034722222222	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-2.488-2.524	95.022	0.9	4.8	2.67	0.0	0.08	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0179976851851851	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-3.548-3.587	96.084	1.6	4.8	3.57	0.0	0.07	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0194965277777777	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-5.892-5.933	98.429	1.0	4.8	3.09	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0205034722222222	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-19.580-19.854	112.233	6.6	4.8	2.27	0.0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1370023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-23.673-23.843	116.274	4.1	4.8	2.43	0.0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0849999999999999	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-29.519-29.644	122.097	3.0	2.3	3.0	0.0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0625	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-29.675-29.800	122.254	3.0	1.4	1.72	0.0	0.15	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0625	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-2.546-2.595	126.086	1.2	4.8	2.13	0.0	0.07	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0245023148148147	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-2.619-2.668	126.159	1.2	2.3	0.8	0.0	0.27	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0245023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-2.692-2.740	126.232	1.2	1.4	1.93	0.0	0.18	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0240046296296296	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-13.535-13.701	168.134	4.0	4.8	1.28	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0829976851851851	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-16.196-16.250	170.739	1.3	1.4	2.29	0.0	0.19	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0270023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-28.161-28.285	182.739	3.0	2.3	1.95	0.0	0.09	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0620023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Oct-11.291-11.458	195.891	4.0	1.4	1.4	0.0	0.21	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0835011574074074	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Nov-29.248-29.491	244.885	5.8	1.4	1.15	0.0	0.09	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1214988425925926	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Dec-1.128-1.288	246.724	3.8	4.8	0.85	0.0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.08	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Mar-31-18:30	2.286635763888889	NaN	1280.0	0.33	0.0	0.09	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Apr-01-20:30	3.369969097222222	NaN	1280.0	0.33	0.0	0.09	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-May-30-16:30	62.20330243055555	NaN	1280.0	1.1	0.0	0.15	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-28-11:00	90.9741357638889	NaN	1280.0	1.4	0.0	0.16	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-09-07:30	132.82830243055557	NaN	1280.0	2.5	0.0	0.25	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Oct-20-05:00	204.72413576388888	NaN	1280.0	1.5	0.0	0.17	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Dec-03-00:20	248.52969131944445	NaN	1280.0	1.3	0.0	0.14	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jan-29-22:12	306.44080243055555	NaN	1280.0	1.2	0.0	0.18	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Apr-18-14:32	386.1213579861111	NaN	1280.0	1.1	0.0	0.12	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Apr-13.11	380.63	NaN	4.86	631.0	0.0	50	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-C	NaN	NaN	NaN	NaN	NaN	NaN
-2004-May-29.12	426.64	NaN	4.86	516.0	0.0	39	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-C	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jun-01.15	429.67	NaN	4.86	485.0	0.0	44	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-D	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jul-19.94	478.46	NaN	4.86	441.0	0.0	43	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-D	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Aug-15.79	505.31	NaN	4.86	528.0	0.0	53	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-D	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Sep-03.79	524.31	NaN	4.86	331.0	0.0	28	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-A	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Dec-09.66	621.18	NaN	4.86	361.0	0.0	36	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-B	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Jan-29.38	671.9	NaN	4.86	346.0	0.0	51	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-B	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Apr-07.21	739.73	NaN	4.86	292.0	0.0	37	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-C	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Jun-12.78	806.3	NaN	4.99	240.0	0.0	17	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	EB+GBT+WB+AR+JB	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jan-4.97	281.49	NaN	610.0	0.9	0.0	0.2	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Feb-26.63	334.15	NaN	610.0	1.14	0.0	0.25	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Apr-10.49	378.01	NaN	610.0	0.61	0.0	0.11	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jun-27.28	455.8	NaN	610.0	1.01	0.0	0.18	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jun-28.28	456.8	NaN	1280.0	1.11	0.0	0.13	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jul-18.31	476.83	NaN	1280.0	1.04	0.0	0.11	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jul-20.28	478.8	NaN	610.0	0.84	0.0	0.17	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Aug-20.04	509.56	NaN	1280.0	1.03	0.0	0.11	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Sep-06.00	526.52	NaN	610.0	0.98	0.0	0.15	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Sep-17.96	538.48	NaN	1280.0	0.48	0.0	0.1	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Dec-3.00	614.52	NaN	610.0	1.08	0.0	0.35	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Jan-6.82	649.34	NaN	610.0	0.5	0.0	0.11	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Feb-8.81	682.33	NaN	325.0	1.5	1.0	NaN	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Feb-13.84	687.34	NaN	1280.0	0.97	0.0	0.14	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Feb-21.71	695.23	NaN	610.0	0.47	0.0	0.13	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Mar-10.77	712.29	NaN	1280.0	0.72	0.0	0.07	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Mar-18.66	720.18	NaN	610.0	0.69	0.0	0.13	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Jun-17.54	811.06	NaN	610.0	1.1	1.0	NaN	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Jun-28.59	702.11	NaN	325.0	1.8	1.0	NaN	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Jul-1.19	824.71	NaN	1280.0	0.53	0.0	0.09	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Sep-2.99	888.51	NaN	610.0	0.68	0.0	0.13	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Oct-8.20	923.72	NaN	1280.0	0.49	0.0	0.09	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Dec-22.926-23.196	268.577	6.5	2.3	1618.0	0.0	31.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.135	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Dec-25.005-25.188	270.612	4.4	1.4	2502.0	0.0	139.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0915046296296296	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jan-25.833-26.333	302.599	12.0	0.35	951.0	1.0	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jan-29.822-29.961	306.408	3.3	1.4	1552.0	0.0	111.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0695023148148148	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jan-29.995-30.134	306.58	3.3	4.8	648.0	1.0	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0694965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jan-30.168-30.307	306.753	3.3	2.3	1389.0	0.0	67.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0694965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jan-31.012-31.137	307.591	3.0	8.4	815.0	0.0	225.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0625	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Feb-10.790-11.289	318.555	12.0	0.84	2332.0	0.0	288.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2495023148148148	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Mar-26.667-26.934	363.816	6.4	4.8	597.0	0.0	27.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1335011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Mar-27.664-28.152	364.424	11.7	1.4	1318.0	0.0	104.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2439988425925925	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Mar-28.862-29.153	365.524	7.0	2.3	871.0	0.0	29.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1455034722222222	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Apr-11.623-11.880	379.267	6.2	0.84	1525.0	0.0	389.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1285011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-May-2.566-3.065	400.331	12.0	0.35	1305.0	1.0	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2494965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-May-19.634-20.018	417.342	9.2	1.4	1824.0	0.0	100.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1920023148148148	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-May-22.511-22.794	420.168	6.8	2.3	933.0	0.0	34.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1414988425925926	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jul-3.396-3.729	462.078	8.0	2.3	707.0	0.0	39.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1664988425925926	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jul-4.394-4.726	463.076	8.0	4.8	329.0	0.0	27.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1660011574074073	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Aug-1.317-1.598	490.974	6.7	1.4	622.0	0.0	95.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1405034722222222	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Sep-25.328-25.667	546.013	8.1	4.8	274.0	0.0	34.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1694965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Nov-2.063-2.271	583.683	5.0	2.3	543.0	0.0	46.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1039988425925926	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Nov-11.039-11.371	592.721	8.0	1.4	1162.0	0.0	63.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1660011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Nov-12.036-12.536	593.802	12.0	0.84	1306.0	0.0	366.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Nov-20.014-20.486	601.766	11.3	0.35	2124.0	1.0	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2360011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Mar-24.673-25.172	726.439	12.0	0.84	1199.0	0.0	238.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2494965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Mar-26.667-27.167	728.433	12.0	0.35	996.0	1.0	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Apr-9.629-10.129	742.395	12.0	1.4	1078.0	0.0	72.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Apr-10.627-11.126	743.892	12.0	2.3	504.0	0.0	48.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2495023148148147	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-May-14.534-14.919	777.242	9.2	4.8	409.0	0.0	27.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1925	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-May-15.531-15.883	778.223	8.1	8.4	309.0	1.0	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1760011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Nov-27.993-28.493	974.759	12.0	4.8	150.0	0.0	19.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Dec-7.004-8.292	984.163	13.8	2.3	318.0	0.0	58.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.6439988425925925	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Dec-9.000-10.233	986.132	12.5	1.4	842.0	0.0	127.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.6164988425925926	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2006-Apr-9.637-10.129	1107.399	11.8	0.84	817.0	0.0	392.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2460011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2006-Apr-30.573-May-1.072	1128.338	12.0	4.8	157.0	0.0	22.0	yyyy-month-deciday-month-deciday	days	hours	GHz	microJy	0.2494965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Jan-29	671.9	NaN	4.86	324.0	0.0	28	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-B^1	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Mar-31	732.74	NaN	4.86	196.0	0.0	31	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-A^2	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Apr-07	739.73	NaN	4.86	270.0	0.0	29	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-C^1	NaN	NaN	NaN	NaN	NaN	NaN
-2005-May-14	777.06	NaN	4.85	276.0	0.0	38	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	WSRT^5	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Jun-08	801.53	NaN	4.86	279.0	0.0	27	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-A^2	NaN	NaN	NaN	NaN	NaN	NaN
-2005-Nov-27	974.51	NaN	4.8	197.0	0.0	40	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	WSRT^6	NaN	NaN	NaN	NaN	NaN	NaN
-2006-Mar-22	1088.7	NaN	4.86	169.0	0.0	31	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-A^3	NaN	NaN	NaN	NaN	NaN	NaN
-2006-Apr-30	1128.0	NaN	4.8	149.0	0.0	34	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	WSRT^7	NaN	NaN	NaN	NaN	NaN	NaN
-2008-Feb-04	1773.3	NaN	4.86	70.0	0.0	17	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-A^4	NaN	NaN	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	1.582121875	NaN	58.6	0.0	0.5	14.1x4.0	GHz	days	NaN	milliJy	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	86.253	55$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	46.8	0.0	3.1	5.2x1.5	GHz	NaN	NaN	milliJy	1.582121875	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	232.032	55$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	58.2	0.0	0.6	6.4x4.2	GHz	NaN	NaN	milliJy	2.401219097222222	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	98.473	98$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	40.6	0.0	2.1	2.8x1.6	GHz	NaN	NaN	milliJy	2.401219097222222	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	238.5	84$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	51.7	0.0	0.9	9.1x4.2	GHz	NaN	NaN	milliJy	3.396010763888889	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	86.673	98$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	23.8	0.0	3.2	3.9x1.6	GHz	NaN	NaN	milliJy	3.396010763888889	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	240.528	100$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	40.4	0.0	3.7	10.3x3.1	GHz	NaN	NaN	milliJy	7.2442746527777775	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	115.447	-53$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	23.5	0.0	0.4	11.0x4.2	GHz	NaN	NaN	milliJy	12.284552430555555	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	86.244	-62$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	12.8	0.0	1.3	4.5x1.5	GHz	NaN	NaN	milliJy	12.284552430555555	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	232.171	-65$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	14.9	0.0	0.4	8.1x4.2	GHz	NaN	NaN	milliJy	16.399830208333334	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	91.333	84$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	9.2	0.0	2.2	3.6x1.7	GHz	NaN	NaN	milliJy	16.399830208333334	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	217.029	80$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	7.7	0.0	1.0	6.3x3.3	GHz	NaN	NaN	milliJy	20.36614965277778	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	115.271	90$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	6.5	0.0	1.8	3.3x1.5	GHz	NaN	NaN	milliJy	20.36614965277778	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	232.032	87$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	4.7	0.0	0.7	8.2x4.0	GHz	NaN	NaN	milliJy	26.289413541666665	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	96.25	-67$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	0.0	0.0	3.8	3.5x1.4	GHz	NaN	NaN	milliJy	26.289413541666665	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	241.48	105$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	2.9	0.0	0.3	9.5x4.4	GHz	NaN	NaN	milliJy	35.26163576388889	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	86.243	108$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-6Dp	days	NaN	1.4	0.0	1.3	3.6x1.6	GHz	NaN	NaN	milliJy	35.26163576388889	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	233.467	-76$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-5Dp	days	NaN	1.1	0.0	0.8	12.4x5.3	GHz	NaN	NaN	milliJy	48.125871875	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	86.243	-54$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-5Dp	days	NaN	0.0	0.0	10.1	4.6x1.9	GHz	NaN	NaN	milliJy	48.125871875	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	231.49	-59$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-5Dp	days	NaN	0.4	0.0	0.7	16.6x5.5	GHz	NaN	NaN	milliJy	60.45017743055556	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	84.443	52$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-5Dp	days	NaN	0.0	0.0	8.0	5.5x1.9	GHz	NaN	NaN	milliJy	60.45017743055556	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	238.5	52$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-IRAM/PdB-4Dp	days	NaN	0.6	0.0	1.3	5.92x5.63	GHz	NaN	NaN	milliJy	83.15121909722222	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	95.434	64$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	NaN	NaN	NaN	NaN
-2003-Mar-29-Mar-30	0.0158024305555555	NaN	86.0	82.0	0.0	52	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	57	NaN	NaN	NaN	NaN	NaN
-2003-Mar-29-Mar-30	0.0158024305555555	NaN	215.0	201.0	0.0	308	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	23	NaN	NaN	NaN	NaN	NaN
-2003-Mar-30-Mar-31	1.0158024305555555	NaN	86.0	-2.0	0.0	78	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	57	NaN	NaN	NaN	NaN	NaN
-2003-Mar-30-Mar-31	1.0158024305555555	NaN	215.0	-49.0	0.0	262	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	23	NaN	NaN	NaN	NaN	NaN
-2003-Mar-31-Apr-01	2.0158024305555555	NaN	86.0	38.0	0.0	65	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	57	NaN	NaN	NaN	NaN	NaN
-2003-Mar-31-Apr-01	2.0158024305555555	NaN	215.0	-144.0	0.0	250	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	23	NaN	NaN	NaN	NaN	NaN
-NaN	5.09	NaN	43.0	41.0	0.0	4.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	5.09	NaN	90.0	65.0	0.0	9.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	5.14	NaN	43.0	42.0	0.0	3.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	5.14	NaN	90.0	67.0	0.0	9.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	5.19	NaN	23.5	32.2	0.0	1.6	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	8.03	NaN	43.0	48.0	0.0	3.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	8.03	NaN	90.0	36.0	0.0	10.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	8.06	NaN	43.0	39.0	0.0	3.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	8.14	NaN	23.5	28.2	0.0	1.6	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	8.22	NaN	23.5	33.7	0.0	1.5	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	9.06	NaN	23.5	33.7	0.0	1.3	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	9.15	NaN	43.0	29.0	0.0	4.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	11.03	NaN	23.5	34.6	0.0	1.1	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	11.12	NaN	43.0	27.0	0.0	3.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	11.16	NaN	43.0	29.0	0.0	4.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	12.07	NaN	43.0	22.0	0.0	4.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	12.07	NaN	90.0	20.0	1.0	NaN	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	17.14	NaN	23.5	21.8	0.0	1.2	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	17.19	NaN	23.5	27.3	0.0	1.7	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	19.04	NaN	23.5	16.0	0.0	5.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	19.04	NaN	43.0	28.0	1.0	NaN	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	19.17	NaN	23.5	15.5	0.0	1.1	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	22.95	NaN	23.5	4.6	0.0	0.6	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Dec-09	621.2	NaN	1.4	650.0	0.0	70	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AF414	NaN	NaN	NaN
-2004-Dec-09	621.2	NaN	8.5	250.0	0.0	30	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AF414	NaN	NaN	NaN
-2004-Dec-23	635.1	NaN	1.4	590.0	0.0	70	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AF414	NaN	NaN	NaN
-2004-Dec-23	635.1	NaN	4.9	370.0	0.0	60	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AF414	NaN	NaN	NaN
-2004-Dec-23	635.1	NaN	8.5	300.0	0.0	40	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AF414	NaN	NaN	NaN
-2005-Jan-23	665.9	NaN	1.4	420.0	0.0	80	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AK583	NaN	NaN	NaN
-2005-Jan-30	672.9	NaN	1.4	480.0	0.0	70	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AK583	NaN	NaN	NaN
-2005-Jan-31	673.7	NaN	1.4	510.0	0.0	80	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AS796	NaN	NaN	NaN
-2005-Mar-31	732.7	NaN	8.5	260.0	0.0	40	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AK583	NaN	NaN	NaN
-2005-Apr-07	739.7	NaN	1.4	650.0	0.0	40	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AF414	NaN	NaN	NaN
-2005-Apr-07	739.7	NaN	8.5	300.0	0.0	30	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AF414	NaN	NaN	NaN
-2005-Jun-08	801.5	NaN	1.4	380.0	0.0	10	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AK583	NaN	NaN	NaN
-2005-Oct-21	937.0	NaN	8.5	100.0	0.0	30	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AK583	NaN	NaN	NaN
-2005-Oct-29	944.5	NaN	8.5	120.0	0.0	30	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AK583	NaN	NaN	NaN
-2005-Dec-14	990.5	NaN	8.5	180.0	0.0	20	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AK583	NaN	NaN	NaN
-2005-Dec-26	1003.1	NaN	8.5	140.0	0.0	30	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AK583	NaN	NaN	NaN
-2006-Mar-22	1088.7	NaN	1.4	630.0	0.0	30	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AS864	NaN	NaN	NaN
-2006-Mar-22	1088.7	NaN	8.5	170.0	0.0	20	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AS864	NaN	NaN	NaN
-2006-Apr-15	1266.2	NaN	8.5	80.0	0.0	30	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AS864	NaN	NaN	NaN
-2006-Apr-29	1126.5	NaN	4.9	80.0	0.0	20	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AS933	NaN	NaN	NaN
-2006-Sep-15	1266.2	NaN	4.9	170.0	0.0	50	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	AS864	NaN	NaN	NaN
-2011-Jul-03	3018.2	NaN	4.9	32.0	0.0	10	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	10C-203	NaN	NaN	NaN
-2003-April-06-08.77-15.58	8.23	6.5	141.0	41.0	0.0	3.2	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	160	Bad	NaN
-2003-April-07-10.35-16.25	9.07	5.9	141.0	42.5	0.0	2.4	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	220	NaN	NaN
-2003-April-10-12.75-17.58	12.15	4.8	93.0	18.7	0.0	2.1	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	210	NaN	NaN
-2003-April-13-09.50-15.92	15.05	6.4	93.0	17.8	0.0	1.9	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	150	NaN	NaN
-2003-April-15-11.53-16.75	17.11	5.2	93.0	16.1	0.0	3.1	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	360	NaN	NaN
-2003-April-16-09.87-16.75	18.07	6.9	93.0	9.1	0.0	1.9	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	220	Bad	NaN
-2003-April-19-11.45-16.58	21.1	5.1	93.0	8.8	0.0	4.2	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	260	Bad	NaN
-2003-April-21-09.42-16.58	23.06	7.2	93.0	8.9	0.0	1.3	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	140	Good	NaN
-2003-April-23-09.52-14.92	25.03	5.4	93.0	NaN	0.0	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	Bad	NaN	NaN
-2003-April-30-08.43-15.50	32.02	7.1	93.0	2.8	1.0	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	200	Bad	NaN
-2003-May-21-08.33-14.25	52.99	5.9	93.0	1.3	1.0	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	180	Good	NaN
-2003-May-22-07.10-13.92	53.95	6.8	93.0	NaN	0.0	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	Bad	NaN	NaN
-2003-May-29-08.43-13.58	60.98	5.2	93.0	2.0	1.0	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	210	NaN	NaN
-2003-May-30-08.50-13.42	61.97	4.9	93.0	1.7	1.0	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	200	NaN	NaN
-2003-Jun-10.00	72.52	NaN	1.43	1009.0	0.0	116	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-10.00	72.52	NaN	4.86	4808.0	0.0	67	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-10.00	72.52	NaN	8.46	3454.0	0.0	69	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-10.00	72.52	NaN	15.0	2328.0	0.0	207	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-15.00	77.52	NaN	1.43	1111.0	0.0	84	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-15.00	77.52	NaN	4.86	4613.0	0.0	66	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-15.00	77.52	NaN	8.46	3572.0	0.0	54	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-15.00	77.52	NaN	15.0	2680.0	0.0	200	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-25.01	87.53	NaN	8.46	3016.0	0.0	31	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-25.01	87.53	NaN	15.0	2100.0	0.0	165	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-25.01	87.53	NaN	22.5	1650.0	0.0	65	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-30.94	93.46	NaN	1.43	1360.0	0.0	40	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-30.94	93.46	NaN	4.86	3290.0	0.0	57	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jun-30.94	93.46	NaN	8.46	2130.0	0.0	55	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-09.02	101.54	NaN	8.46	2299.0	0.0	65	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-09.02	101.54	NaN	15.0	1729.0	0.0	182	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-09.02	101.54	NaN	22.5	1290.0	0.0	65	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Jul-27.88	120.4	NaN	8.46	1190.0	0.0	35	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-06.06	129.58	NaN	1.43	1276.0	0.0	69	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-06.06	129.58	NaN	4.86	1955.0	0.0	62	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-11.96	135.48	NaN	8.46	1525.0	0.0	56	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-11.96	135.48	NaN	15.0	997.0	0.0	171	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-11.96	135.48	NaN	22.5	794.0	0.0	119	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-25.89	149.41	NaN	1.43	1677.0	0.0	66	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-25.89	149.41	NaN	4.86	1677.0	0.0	55	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Aug-25.89	149.41	NaN	8.46	1277.0	0.0	51	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-18.79	173.31	NaN	1.43	3470.0	0.0	65	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-18.79	173.31	NaN	4.86	1590.0	0.0	52	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-18.79	173.31	NaN	8.46	1122.0	0.0	45	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-22.74	177.26	NaN	8.46	1002.0	0.0	91	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-22.74	177.26	NaN	15.0	436.0	0.0	200	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-22.74	177.26	NaN	22.5	374.0	0.0	166	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-27.75	182.27	NaN	1.43	2240.0	0.0	66	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-27.75	182.27	NaN	4.86	1600.0	0.0	46	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Sep-27.75	182.27	NaN	8.46	1050.0	0.0	38	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Oct-06.73	191.25	NaN	1.43	2450.0	0.0	58	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Oct-06.73	191.25	NaN	4.86	1407.0	0.0	44	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Oct-06.73	191.25	NaN	8.46	931.0	0.0	41	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Oct-30.72	215.24	NaN	1.43	1709.0	0.0	52	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Oct-30.72	215.24	NaN	4.86	1154.0	0.0	43	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Oct-30.72	215.24	NaN	8.46	874.0	0.0	44	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Dec-02.58	248.1	NaN	1.43	1276.0	0.0	40	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Dec-02.58	248.1	NaN	4.86	999.0	0.0	32	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Dec-02.58	248.1	NaN	8.46	637.0	0.0	33	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Dec-07.58	253.1	NaN	1.43	1541.0	0.0	41	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Dec-07.58	253.1	NaN	4.86	949.0	0.0	32	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-Dec-07.58	253.1	NaN	8.46	696.0	0.0	31	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jan-31.53	308.05	NaN	1.43	1240.0	0.0	54	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Jan-31.53	308.05	NaN	8.46	686.0	0.0	38	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Feb-05.36	312.88	NaN	1.43	1800.0	0.0	53	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Feb-05.36	312.88	NaN	4.86	1029.0	0.0	26	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Feb-05.36	312.88	NaN	8.46	675.0	0.0	24	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Feb-26.27	333.79	NaN	1.43	1360.0	0.0	96	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Feb-26.27	333.79	NaN	4.86	865.0	0.0	33	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Feb-26.27	333.79	NaN	8.46	547.0	0.0	27	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Mar-06.33	342.85	NaN	1.43	1075.0	0.0	124	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Mar-06.33	342.85	NaN	4.86	886.0	0.0	45	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Mar-06.33	342.85	NaN	8.46	447.0	0.0	33	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Mar-29.41	365.93	NaN	1.43	904.0	0.0	102	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Mar-29.41	365.93	NaN	4.86	767.0	0.0	34	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2004-Mar-29.41	365.93	NaN	8.46	528.0	0.0	29	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-2003-04-03.383-03.414	4.914	1800.0	350.0	37.8	0.0	4.5	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0154976851851851	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	0.623
-2003-04-04.369-04.401	5.901	1800.0	350.0	27.6	0.0	2.9	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0160011574074074	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	0.467
-2003-04-05.269-05.302	6.801	1800.0	350.0	33.9	0.0	2.8	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0164988425925925	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	0.356
-2003-04-09.222-09.266	10.76	1836.0	350.0	10.9	0.0	5.1	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0220023148148147	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	0.433
-2003-04-15.223-15.254	16.754	1800.0	350.0	-0.2	0.0	1.9	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0154976851851852	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	0.3
-2003-04-16.339-16.370	17.87	1800.0	350.0	-1.9	0.0	2.7	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0155034722222222	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	0.192
+date	time	integration	freq	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	integration_unit	freq_unit	flux_density_unit	dtime	reference	instrument	beam	position_angle	 	VLA_Project_Code	system_noise_temp	seeing	optical_depth
+2003-Mar-30.658-31.138	1.414	3.3	1.4	0.21	0	0.07	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.24	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-30.674-31.148	1.427	3.6	2.3	0.28	0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2370023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-30.691-31.157	1.44	3.6	4.8	1.05	0	0.03	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2329976851851851	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-31.655-Apr-1.110	2.399	3.6	4.8	5.98	0	0.03	yyyy-month-deciday-month-deciday	days	hours	GHz	milliJy	0.2275	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-31.672-Apr-1.126	2.415	3.6	2.3	2.17	0	0.05	yyyy-month-deciday-month-deciday	days	hours	GHz	milliJy	0.2270023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-31.688-Apr-1.142	2.431	3.3	1.4	0.63	0	0.04	yyyy-month-deciday-month-deciday	days	hours	GHz	milliJy	0.2269965277777778	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-2.650-3.088	4.385	4.0	4.8	3.64	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2190046296296296	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-2.694-3.132	4.429	4.0	2.3	0.79	0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2189988425925925	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-2.738-3.149	4.459	3.3	1.4	0.43	0	0.15	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2054976851851851	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-4.644-5.083	6.38	4.0	4.8	4.89	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2195023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-4.688-5.127	6.424	4.0	2.3	1.21	0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2194965277777777	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-4.732-5.143	6.454	3.3	1.4	0.37	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2055034722222222	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-5.641-5.818	7.246	4.2	2.3	1.0	0	0.07	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0885011574074074	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-7.072-7.138	8.621	1.6	4.8	4.21	0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0330034722222222	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-7.636-8.135	9.401	12.0	4.8	3.96	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2494965277777778	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-11.625-11.693	13.175	1.6	4.8	6.42	0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0339988425925926	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-12.622-12.806	14.23	2.5	4.8	5.25	0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0920023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-12.659-12.843	14.267	2.5	2.3	0.26	0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0920023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-18.606-18.908	20.273	7.0	4.8	6.96	0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1510011574074074	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-20.600-21.055	22.344	3.3	4.8	6.5	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2274884259259258	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-20.617-21.072	22.36	3.3	2.3	1.21	0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2275	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-20.633-21.087	22.376	3.3	1.4	0.64	0	0.08	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2269965277777778	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-27.583-28.062	29.338	3.9	4.8	9.17	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2394965277777778	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-27.606-28.078	29.357	5.5	2.3	2.32	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.2360011574074074	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-May-2.568-2.816	34.208	6.0	2.3	3.04	0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1239988425925926	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-May-3.732-3.955	37.36	5.3	4.8	8.9	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1115046296296295	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-May-9.783-9.811	41.313	0.7	4.8	8.05	0	0.1	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0139988425925925	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-May-9.813-9.841	41.343	0.7	2.3	3.11	0	0.18	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0139988425925925	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-9.714-9.963	72.354	2.5	4.8	4.59	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1245023148148147	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-9.737-9.944	72.356	2.5	2.3	3.84	0	0.07	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1035011574074073	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-16.567-16.645	79.122	1.9	4.8	4.39	0	0.08	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0389988425925926	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-17.750-17.792	80.287	1.0	4.8	3.79	0	0.08	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0209953703703703	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-18.777-18.819	81.314	1.0	4.8	3.74	0	0.1	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0210011574074074	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-30.430-30.440	92.951	0.3	4.8	2.34	0	0.18	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.005005787037037	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-1.652-1.743	94.214	1.0	4.8	3.82	0	0.1	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0455034722222222	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-2.488-2.524	95.022	0.9	4.8	2.67	0	0.08	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0179976851851851	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-3.548-3.587	96.084	1.6	4.8	3.57	0	0.07	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0194965277777777	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-5.892-5.933	98.429	1.0	4.8	3.09	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0205034722222222	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-19.580-19.854	112.233	6.6	4.8	2.27	0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1370023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-23.673-23.843	116.274	4.1	4.8	2.43	0	0.05	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0849999999999999	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-29.519-29.644	122.097	3.0	2.3	3.0	0	0.06	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0625	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-29.675-29.800	122.254	3.0	1.4	1.72	0	0.15	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0625	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-2.546-2.595	126.086	1.2	4.8	2.13	0	0.07	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0245023148148147	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-2.619-2.668	126.159	1.2	2.3	0.8	0	0.27	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0245023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-2.692-2.740	126.232	1.2	1.4	1.93	0	0.18	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0240046296296296	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-13.535-13.701	168.134	4.0	4.8	1.28	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0829976851851851	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-16.196-16.250	170.739	1.3	1.4	2.29	0	0.19	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0270023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-28.161-28.285	182.739	3.0	2.3	1.95	0	0.09	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0620023148148148	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Oct-11.291-11.458	195.891	4.0	1.4	1.4	0	0.21	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.0835011574074074	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Nov-29.248-29.491	244.885	5.8	1.4	1.15	0	0.09	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.1214988425925926	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Dec-1.128-1.288	246.724	3.8	4.8	0.85	0	0.04	yyyy-month-deciday-deciday	days	hours	GHz	milliJy	0.08	https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-31-18:30	2.286635763888889	NaN	1280.0	0.33	0	0.09	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Apr-01-20:30	3.369969097222222	NaN	1280.0	0.33	0	0.09	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-May-30-16:30	62.20330243055555	NaN	1280.0	1.1	0	0.15	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-28-11:00	90.9741357638889	NaN	1280.0	1.4	0	0.16	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-09-07:30	132.82830243055557	NaN	1280.0	2.5	0	0.25	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Oct-20-05:00	204.72413576388888	NaN	1280.0	1.5	0	0.17	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Dec-03-00:20	248.52969131944445	NaN	1280.0	1.3	0	0.14	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jan-29-22:12	306.44080243055555	NaN	1280.0	1.2	0	0.18	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Apr-18-14:32	386.1213579861111	NaN	1280.0	1.1	0	0.12	yyyy-month-day-hh:mm	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Apr-13.11	380.63	NaN	4.86	631.0	0	50.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-C	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-May-29.12	426.64	NaN	4.86	516.0	0	39.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-C	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jun-01.15	429.67	NaN	4.86	485.0	0	44.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-D	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jul-19.94	478.46	NaN	4.86	441.0	0	43.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-D	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Aug-15.79	505.31	NaN	4.86	528.0	0	53.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-D	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Sep-03.79	524.31	NaN	4.86	331.0	0	28.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-A	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Dec-09.66	621.18	NaN	4.86	361.0	0	36.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-B	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Jan-29.38	671.9	NaN	4.86	346.0	0	51.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-B	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Apr-07.21	739.73	NaN	4.86	292.0	0	37.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	VLA-C	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Jun-12.78	806.3	NaN	4.99	240.0	0	17.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract	EB+GBT+WB+AR+JB	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jan-4.97	281.49	NaN	610.0	0.9	0	0.2	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Feb-26.63	334.15	NaN	610.0	1.14	0	0.25	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Apr-10.49	378.01	NaN	610.0	0.61	0	0.11	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jun-27.28	455.8	NaN	610.0	1.01	0	0.18	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jun-28.28	456.8	NaN	1280.0	1.11	0	0.13	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jul-18.31	476.83	NaN	1280.0	1.04	0	0.11	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jul-20.28	478.8	NaN	610.0	0.84	0	0.17	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Aug-20.04	509.56	NaN	1280.0	1.03	0	0.11	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Sep-06.00	526.52	NaN	610.0	0.98	0	0.15	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Sep-17.96	538.48	NaN	1280.0	0.48	0	0.1	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Dec-3.00	614.52	NaN	610.0	1.08	0	0.35	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Jan-6.82	649.34	NaN	610.0	0.5	0	0.11	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Feb-8.81	682.33	NaN	325.0	1.5	1	NaN	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Feb-13.84	687.34	NaN	1280.0	0.97	0	0.14	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Feb-21.71	695.23	NaN	610.0	0.47	0	0.13	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Mar-10.77	712.29	NaN	1280.0	0.72	0	0.07	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Mar-18.66	720.18	NaN	610.0	0.69	0	0.13	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Jun-17.54	811.06	NaN	610.0	1.1	1	NaN	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Jun-28.59	702.11	NaN	325.0	1.8	1	NaN	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Jul-1.19	824.71	NaN	1280.0	0.53	0	0.09	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Sep-2.99	888.51	NaN	610.0	0.68	0	0.13	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Oct-8.20	923.72	NaN	1280.0	0.49	0	0.09	yyyy-month-deciday	days	NaN	MHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Dec-22.926-23.196	268.577	6.5	2.3	1618.0	0	31.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.135	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Dec-25.005-25.188	270.612	4.4	1.4	2502.0	0	139.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0915046296296296	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jan-25.833-26.333	302.599	12.0	0.35	951.0	1	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jan-29.822-29.961	306.408	3.3	1.4	1552.0	0	111.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0695023148148148	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jan-29.995-30.134	306.58	3.3	4.8	648.0	1	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0694965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jan-30.168-30.307	306.753	3.3	2.3	1389.0	0	67.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0694965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jan-31.012-31.137	307.591	3.0	8.4	815.0	0	225.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0625	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Feb-10.790-11.289	318.555	12.0	0.84	2332.0	0	288.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2495023148148148	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Mar-26.667-26.934	363.816	6.4	4.8	597.0	0	27.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1335011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Mar-27.664-28.152	364.424	11.7	1.4	1318.0	0	104.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2439988425925925	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Mar-28.862-29.153	365.524	7.0	2.3	871.0	0	29.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1455034722222222	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Apr-11.623-11.880	379.267	6.2	0.84	1525.0	0	389.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1285011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-May-2.566-3.065	400.331	12.0	0.35	1305.0	1	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2494965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-May-19.634-20.018	417.342	9.2	1.4	1824.0	0	100.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1920023148148148	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-May-22.511-22.794	420.168	6.8	2.3	933.0	0	34.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1414988425925926	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jul-3.396-3.729	462.078	8.0	2.3	707.0	0	39.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1664988425925926	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jul-4.394-4.726	463.076	8.0	4.8	329.0	0	27.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1660011574074073	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Aug-1.317-1.598	490.974	6.7	1.4	622.0	0	95.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1405034722222222	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Sep-25.328-25.667	546.013	8.1	4.8	274.0	0	34.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1694965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Nov-2.063-2.271	583.683	5.0	2.3	543.0	0	46.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1039988425925926	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Nov-11.039-11.371	592.721	8.0	1.4	1162.0	0	63.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1660011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Nov-12.036-12.536	593.802	12.0	0.84	1306.0	0	366.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Nov-20.014-20.486	601.766	11.3	0.35	2124.0	1	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2360011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Mar-24.673-25.172	726.439	12.0	0.84	1199.0	0	238.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2494965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Mar-26.667-27.167	728.433	12.0	0.35	996.0	1	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Apr-9.629-10.129	742.395	12.0	1.4	1078.0	0	72.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Apr-10.627-11.126	743.892	12.0	2.3	504.0	0	48.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2495023148148147	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-May-14.534-14.919	777.242	9.2	4.8	409.0	0	27.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1925	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-May-15.531-15.883	778.223	8.1	8.4	309.0	1	NaN	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1760011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Nov-27.993-28.493	974.759	12.0	4.8	150.0	0	19.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Dec-7.004-8.292	984.163	13.8	2.3	318.0	0	58.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.6439988425925925	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Dec-9.000-10.233	986.132	12.5	1.4	842.0	0	127.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.6164988425925926	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2006-Apr-9.637-10.129	1107.399	11.8	0.84	817.0	0	392.0	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2460011574074074	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2006-Apr-30.573-May-1.072	1128.338	12.0	4.8	157.0	0	22.0	yyyy-month-deciday-month-deciday	days	hours	GHz	microJy	0.2494965277777777	https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Jan-29	671.9	NaN	4.86	324.0	0	28.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-B^1	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Mar-31	732.74	NaN	4.86	196.0	0	31.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-A^2	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Apr-07	739.73	NaN	4.86	270.0	0	29.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-C^1	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-May-14	777.06	NaN	4.85	276.0	0	38.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	WSRT^5	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Jun-08	801.53	NaN	4.86	279.0	0	27.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-A^2	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2005-Nov-27	974.51	NaN	4.8	197.0	0	40.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	WSRT^6	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2006-Mar-22	1088.7	NaN	4.86	169.0	0	31.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-A^3	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2006-Apr-30	1128.0	NaN	4.8	149.0	0	34.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	WSRT^7	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2008-Feb-04	1773.3	NaN	4.86	70.0	0	17.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract	VLA-A^4	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-03-31-00:04-03:07	1.582121875	NaN	86.253	58.6	0	0.5	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0635416666666666	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	14.1x4.0	55$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-03-31-00:04-03:07	1.582121875	NaN	232.032	46.8	0	3.1	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0635416666666666	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	5.2x1.5	55$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-03-31-18:33-23:57	2.401219097222222	NaN	98.473	58.2	0	0.6	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.1124999999999999	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	6.4x4.2	98$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-03-31-18:33-23:57	2.401219097222222	NaN	238.5	40.6	0	2.1	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.1124999999999999	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	2.8x1.6	84$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-01-20:20-21:55	3.396010763888889	NaN	86.673	51.7	0	0.9	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0329861111111111	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	9.1x4.2	98$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-01-20:20-21:55	3.396010763888889	NaN	240.528	23.8	0	3.2	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0329861111111111	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	3.9x1.6	100$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-05-16:54-18:04	7.2442746527777775	NaN	115.447	40.4	0	3.7	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0243055555555555	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	10.3x3.1	-53$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-10-17:42-19:12	12.284552430555555	NaN	86.244	23.5	0	0.4	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.03125	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	11.0x4.2	-62$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-10-17:42-19:12	12.284552430555555	NaN	232.171	12.8	0	1.3	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.03125	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	4.5x1.5	-65$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-14-20:10-22:16	16.399830208333334	NaN	91.333	14.9	0	0.4	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.04375	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	8.1x4.2	84$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-14-20:10-22:16	16.399830208333334	NaN	217.029	9.2	0	2.2	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.04375	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	3.6x1.7	80$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-18-19:39-21:10	20.36614965277778	NaN	115.271	7.7	0	1.0	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0315972222222222	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	6.3x3.3	90$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-18-19:39-21:10	20.36614965277778	NaN	232.032	6.5	0	1.8	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0315972222222222	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	3.3x1.5	87$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-24-17:36-19:32	26.289413541666665	NaN	96.25	4.7	0	0.7	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0402777777777778	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	8.2x4.0	-67$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-04-24-17:36-19:32	26.289413541666665	NaN	241.48	0.0	0	3.8	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0402777777777778	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	3.5x1.4	105$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-05-03-15:59-19:49	35.26163576388889	NaN	86.243	2.9	0	0.3	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0798611111111111	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	9.5x4.4	108$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-05-03-15:59-19:49	35.26163576388889	NaN	233.467	1.4	0	1.3	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0798611111111111	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-6Dp	3.6x1.6	-76$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-05-16-13:20-15:57	48.125871875	NaN	86.243	1.1	0	0.8	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0545138888888888	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-5Dp	12.4x5.3	-54$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-05-16-13:20-15:57	48.125871875	NaN	231.49	0.0	0	10.1	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.0545138888888888	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-5Dp	4.6x1.9	-59$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-05-28-21:29-23:22	60.45017743055556	NaN	84.443	0.4	0	0.7	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.039236111111111	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-5Dp	16.6x5.5	52$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-05-28-21:29-23:22	60.45017743055556	NaN	238.5	0.0	0	8.0	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.039236111111111	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-5Dp	5.5x1.9	52$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-06-20-12:41-17:49	83.15121909722222	NaN	95.434	0.6	0	1.3	yyyy-mm-dd-hh:mm-hh:mm	days	NaN	GHz	milliJy	0.1069444444444444	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	IRAM/PdB-4Dp	5.92x5.63	64$^{\circ}$	NaN	NaN	NaN	NaN	NaN
+2003-Mar-29-Mar-30	0.0158024305555555	NaN	86.0	82.0	0	52.0	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	57	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-29-Mar-30	0.0158024305555555	NaN	215.0	201.0	0	308.0	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	23	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-30-Mar-31	1.0158024305555555	NaN	86.0	-2.0	0	78.0	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	57	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-30-Mar-31	1.0158024305555555	NaN	215.0	-49.0	0	262.0	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	23	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-31-Apr-01	2.0158024305555555	NaN	86.0	38.0	0	65.0	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	57	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Mar-31-Apr-01	2.0158024305555555	NaN	215.0	-144.0	0	250.0	yyyy-month-deciday-month-deciday	days	NaN	GHz	milliJy	0.5	https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract	NaN	23	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	5.09	NaN	43.0	41.0	0	4.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	5.09	NaN	90.0	65.0	0	9.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	5.14	NaN	43.0	42.0	0	3.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	5.14	NaN	90.0	67.0	0	9.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	5.19	NaN	23.5	32.2	0	1.6	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	8.03	NaN	43.0	48.0	0	3.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	8.03	NaN	90.0	36.0	0	10.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	8.06	NaN	43.0	39.0	0	3.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	8.14	NaN	23.5	28.2	0	1.6	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	8.22	NaN	23.5	33.7	0	1.5	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	9.06	NaN	23.5	33.7	0	1.3	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	9.15	NaN	43.0	29.0	0	4.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	11.03	NaN	23.5	34.6	0	1.1	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	11.12	NaN	43.0	27.0	0	3.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	11.16	NaN	43.0	29.0	0	4.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	12.07	NaN	43.0	22.0	0	4.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	12.07	NaN	90.0	20.0	1	NaN	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	17.14	NaN	23.5	21.8	0	1.2	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	17.19	NaN	23.5	27.3	0	1.7	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	19.04	NaN	23.5	16.0	0	5.0	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	19.04	NaN	43.0	28.0	1	NaN	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	19.17	NaN	23.5	15.5	0	1.1	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	22.95	NaN	23.5	4.6	0	0.6	NaN	days	NaN	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Dec-09	621.2	NaN	1.4	650.0	0	70.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AF414	NaN	NaN	NaN
+2004-Dec-09	621.2	NaN	8.5	250.0	0	30.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AF414	NaN	NaN	NaN
+2004-Dec-23	635.1	NaN	1.4	590.0	0	70.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AF414	NaN	NaN	NaN
+2004-Dec-23	635.1	NaN	4.9	370.0	0	60.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AF414	NaN	NaN	NaN
+2004-Dec-23	635.1	NaN	8.5	300.0	0	40.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AF414	NaN	NaN	NaN
+2005-Jan-23	665.9	NaN	1.4	420.0	0	80.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AK583	NaN	NaN	NaN
+2005-Jan-30	672.9	NaN	1.4	480.0	0	70.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AK583	NaN	NaN	NaN
+2005-Jan-31	673.7	NaN	1.4	510.0	0	80.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AS796	NaN	NaN	NaN
+2005-Mar-31	732.7	NaN	8.5	260.0	0	40.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AK583	NaN	NaN	NaN
+2005-Apr-07	739.7	NaN	1.4	650.0	0	40.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AF414	NaN	NaN	NaN
+2005-Apr-07	739.7	NaN	8.5	300.0	0	30.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AF414	NaN	NaN	NaN
+2005-Jun-08	801.5	NaN	1.4	380.0	0	10.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AK583	NaN	NaN	NaN
+2005-Oct-21	937.0	NaN	8.5	100.0	0	30.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AK583	NaN	NaN	NaN
+2005-Oct-29	944.5	NaN	8.5	120.0	0	30.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AK583	NaN	NaN	NaN
+2005-Dec-14	990.5	NaN	8.5	180.0	0	20.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AK583	NaN	NaN	NaN
+2005-Dec-26	1003.1	NaN	8.5	140.0	0	30.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AK583	NaN	NaN	NaN
+2006-Mar-22	1088.7	NaN	1.4	630.0	0	30.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AS864	NaN	NaN	NaN
+2006-Mar-22	1088.7	NaN	8.5	170.0	0	20.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AS864	NaN	NaN	NaN
+2006-Apr-15	1266.2	NaN	8.5	80.0	0	30.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AS864	NaN	NaN	NaN
+2006-Apr-29	1126.5	NaN	4.9	80.0	0	20.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AS933	NaN	NaN	NaN
+2006-Sep-15	1266.2	NaN	4.9	170.0	0	50.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	AS864	NaN	NaN	NaN
+2011-Jul-03	3018.2	NaN	4.9	32.0	0	10.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract	NaN	NaN	NaN	NaN	10C-203	NaN	NaN	NaN
+2003-April-06-08.77-15.58	8.23	6.5	141.0	41.0	0	3.2	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.141880787037037	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	160	Bad	NaN
+2003-April-07-10.35-16.25	9.07	5.9	141.0	42.5	0	2.4	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1229224537037037	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	220	NaN	NaN
+2003-April-10-12.75-17.58	12.15	4.8	93.0	18.7	0	2.1	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1006192129629629	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	210	NaN	NaN
+2003-April-13-09.50-15.92	15.05	6.4	93.0	17.8	0	1.9	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.133744212962963	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	150	NaN	NaN
+2003-April-15-11.53-16.75	17.11	5.2	93.0	16.1	0	3.1	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1087557870370369	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	360	NaN	NaN
+2003-April-16-09.87-16.75	18.07	6.9	93.0	9.1	0	1.9	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1433391203703703	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	220	Bad	NaN
+2003-April-19-11.45-16.58	21.1	5.1	93.0	8.8	0	4.2	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.106875	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	260	Bad	NaN
+2003-April-21-09.42-16.58	23.06	7.2	93.0	8.9	0	1.3	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1491666666666666	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	140	Good	NaN
+2003-April-23-09.52-14.92	25.03	5.4	93.0	NaN	0	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1124999999999999	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	Bad	NaN	NaN
+2003-April-30-08.43-15.50	32.02	7.1	93.0	2.8	1	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1472974537037037	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	200	Bad	NaN
+2003-May-21-08.33-14.25	52.99	5.9	93.0	1.3	1	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1233333333333333	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	180	Good	NaN
+2003-May-22-07.10-13.92	53.95	6.8	93.0	NaN	0	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1420833333333333	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	Bad	NaN	NaN
+2003-May-29-08.43-13.58	60.98	5.2	93.0	2.0	1	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1072974537037037	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	210	NaN	NaN
+2003-May-30-08.50-13.42	61.97	4.9	93.0	1.7	1	NaN	yyyy-month-dd-hh.h-hh.h	days	hours	GHz	milliJy	0.1024942129629629	https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract	NaN	NaN	NaN	NaN	NaN	200	NaN	NaN
+2003-Jun-10.00	72.52	NaN	1.43	1009.0	0	116.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-10.00	72.52	NaN	4.86	4808.0	0	67.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-10.00	72.52	NaN	8.46	3454.0	0	69.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-10.00	72.52	NaN	15.0	2328.0	0	207.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-15.00	77.52	NaN	1.43	1111.0	0	84.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-15.00	77.52	NaN	4.86	4613.0	0	66.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-15.00	77.52	NaN	8.46	3572.0	0	54.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-15.00	77.52	NaN	15.0	2680.0	0	200.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-25.01	87.53	NaN	8.46	3016.0	0	31.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-25.01	87.53	NaN	15.0	2100.0	0	165.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-25.01	87.53	NaN	22.5	1650.0	0	65.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-30.94	93.46	NaN	1.43	1360.0	0	40.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-30.94	93.46	NaN	4.86	3290.0	0	57.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jun-30.94	93.46	NaN	8.46	2130.0	0	55.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-09.02	101.54	NaN	8.46	2299.0	0	65.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-09.02	101.54	NaN	15.0	1729.0	0	182.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-09.02	101.54	NaN	22.5	1290.0	0	65.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Jul-27.88	120.4	NaN	8.46	1190.0	0	35.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-06.06	129.58	NaN	1.43	1276.0	0	69.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-06.06	129.58	NaN	4.86	1955.0	0	62.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-11.96	135.48	NaN	8.46	1525.0	0	56.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-11.96	135.48	NaN	15.0	997.0	0	171.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-11.96	135.48	NaN	22.5	794.0	0	119.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-25.89	149.41	NaN	1.43	1677.0	0	66.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-25.89	149.41	NaN	4.86	1677.0	0	55.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Aug-25.89	149.41	NaN	8.46	1277.0	0	51.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-18.79	173.31	NaN	1.43	3470.0	0	65.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-18.79	173.31	NaN	4.86	1590.0	0	52.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-18.79	173.31	NaN	8.46	1122.0	0	45.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-22.74	177.26	NaN	8.46	1002.0	0	91.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-22.74	177.26	NaN	15.0	436.0	0	200.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-22.74	177.26	NaN	22.5	374.0	0	166.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-27.75	182.27	NaN	1.43	2240.0	0	66.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-27.75	182.27	NaN	4.86	1600.0	0	46.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Sep-27.75	182.27	NaN	8.46	1050.0	0	38.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Oct-06.73	191.25	NaN	1.43	2450.0	0	58.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Oct-06.73	191.25	NaN	4.86	1407.0	0	44.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Oct-06.73	191.25	NaN	8.46	931.0	0	41.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Oct-30.72	215.24	NaN	1.43	1709.0	0	52.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Oct-30.72	215.24	NaN	4.86	1154.0	0	43.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Oct-30.72	215.24	NaN	8.46	874.0	0	44.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Dec-02.58	248.1	NaN	1.43	1276.0	0	40.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Dec-02.58	248.1	NaN	4.86	999.0	0	32.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Dec-02.58	248.1	NaN	8.46	637.0	0	33.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Dec-07.58	253.1	NaN	1.43	1541.0	0	41.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Dec-07.58	253.1	NaN	4.86	949.0	0	32.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-Dec-07.58	253.1	NaN	8.46	696.0	0	31.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jan-31.53	308.05	NaN	1.43	1240.0	0	54.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Jan-31.53	308.05	NaN	8.46	686.0	0	38.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Feb-05.36	312.88	NaN	1.43	1800.0	0	53.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Feb-05.36	312.88	NaN	4.86	1029.0	0	26.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Feb-05.36	312.88	NaN	8.46	675.0	0	24.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Feb-26.27	333.79	NaN	1.43	1360.0	0	96.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Feb-26.27	333.79	NaN	4.86	865.0	0	33.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Feb-26.27	333.79	NaN	8.46	547.0	0	27.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Mar-06.33	342.85	NaN	1.43	1075.0	0	124.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Mar-06.33	342.85	NaN	4.86	886.0	0	45.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Mar-06.33	342.85	NaN	8.46	447.0	0	33.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Mar-29.41	365.93	NaN	1.43	904.0	0	102.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Mar-29.41	365.93	NaN	4.86	767.0	0	34.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2004-Mar-29.41	365.93	NaN	8.46	528.0	0	29.0	yyyy-month-deciday	days	NaN	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+2003-04-03.383-03.414	4.914	1800.0	350.0	37.8	0	4.5	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0154976851851851	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	NaN	0.623
+2003-04-04.369-04.401	5.901	1800.0	350.0	27.6	0	2.9	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0160011574074074	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	NaN	0.467
+2003-04-05.269-05.302	6.801	1800.0	350.0	33.9	0	2.8	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0164988425925925	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	NaN	0.356
+2003-04-09.222-09.266	10.76	1836.0	350.0	10.9	0	5.1	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0220023148148147	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	NaN	0.433
+2003-04-15.223-15.254	16.754	1800.0	350.0	-0.2	0	1.9	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0154976851851852	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	NaN	0.3
+2003-04-16.339-16.370	17.87	1800.0	350.0	-1.9	0	2.7	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0155034722222222	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract	SCUBA	NaN	NaN	NaN	NaN	NaN	NaN	0.192
