@@ -1,7 +1,7 @@
-date	time	integration	optical_depth	freq	flux_density	flux_density_limit	dflux_density	instrument	date_unit	time_unit	integration_unit	freq_unit	flux_density_unit
-2003-04-03.383-03.414	4.914	1800	0.623	350	37.8	0	4.5	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy
-2003-04-04.369-04.401	5.901	1800	0.467	350	27.6	0	2.9	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy
-2003-04-05.269-05.302	6.801	1800	0.356	350	33.9	0	2.8	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy
-2003-04-09.222-09.266	10.76	1836	0.433	350	10.9	0	5.1	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy
-2003-04-15.223-15.254	16.754	1800	0.3	350	-0.2	0	1.9	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy
-2003-04-16.339-16.370	17.87	1800	0.192	350	-1.9	0	2.7	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy
+date	time	integration	optical_depth	freq	flux_density	flux_density_limit	dflux_density	instrument	date_unit	time_unit	integration_unit	freq_unit	flux_density_unit	dtime
+2003-04-03.383-03.414	4.914	1800	0.623	350	37.8	0	4.5	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0154976851851851
+2003-04-04.369-04.401	5.901	1800	0.467	350	27.6	0	2.9	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0160011574074074
+2003-04-05.269-05.302	6.801	1800	0.356	350	33.9	0	2.8	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0164988425925925
+2003-04-09.222-09.266	10.76	1836	0.433	350	10.9	0	5.1	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0220023148148147
+2003-04-15.223-15.254	16.754	1800	0.3	350	-0.2	0	1.9	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0154976851851852
+2003-04-16.339-16.370	17.87	1800	0.192	350	-1.9	0	2.7	SCUBA	yyyy-mm-deciday-deciday	days	seconds	GHz	milliJy	0.0155034722222222
