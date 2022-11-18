@@ -835,7 +835,7 @@ def event(event_id):
         colors = d3['Category20'][20]
 
         # List all bands
-        bands = list(set(list(optical_df['band'])))
+        bands = list(set(list(optical_df['band'].astype(str))))
 
         optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
 
@@ -994,7 +994,12 @@ def event(event_id):
 
         # Get the units right
         radio_df['flux_density'] = radio_df['flux_density'].astype(float)
-        radio_df['dflux_density'] = radio_df['dflux_density'].astype(float)
+
+        if 'dflux_density' in list(radio_df.keys()):
+            radio_df['dflux_density'] = radio_df['dflux_density'].astype(float)
+        else:
+            radio_df['dflux_density'] = np.ones(len(radio_df['flux_density']))*np.nan
+
         for i in range(len(radio_df['flux_density_unit'])):
             # Convert microJy to millyJy by dividing by 1000
             if radio_df['flux_density_unit'][i] == 'microJy':
