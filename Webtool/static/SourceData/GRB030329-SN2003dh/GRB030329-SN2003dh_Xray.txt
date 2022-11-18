@@ -1,9 +1,9 @@
-time	instrument	flux	flux_limit	dflux	time_unit	energy_range	flux_unit
-0.2065	Rossi-XTE	1.53e-10	0	1.5e-11	days	0.5-2keV	erg/cm^2/sec
-0.2125	Rossi-XTE	1.46e-10	0	1.5e-11	days	0.5-2keV	erg/cm^2/sec
-0.2185	Rossi-XTE	1.62e-10	0	1.5e-11	days	0.5-2keV	erg/cm^2/sec
-0.2515	Rossi-XTE	1.34e-10	0	1.8e-11	days	0.5-2keV	erg/cm^2/sec
-1.2762	Rossi-XTE	9.3e-12	0	3e-12	days	0.5-2keV	erg/cm^2/sec
-37.3	XMM-Newton	1.43e-14	0	7e-16	days	0.5-2keV	erg/cm^2/sec
-60.9	XMM-Newton	7.9e-15	0	5e-16	days	0.5-2keV	erg/cm^2/sec
-258.3	XMM-Newton	6.2e-16	0	2.3e-16	days	0.5-2keV	erg/cm^2/sec
+time	instrument	flux	flux_limit	dflux	time_unit	energy_range	flux_unit	dtime
+0.2065	Rossi-XTE	1.53e-10	0	1.5e-11	days	0.5-2keV	erg/cm^2/sec	NaN
+0.2125	Rossi-XTE	1.46e-10	0	1.5e-11	days	0.5-2keV	erg/cm^2/sec	NaN
+0.2185	Rossi-XTE	1.62e-10	0	1.5e-11	days	0.5-2keV	erg/cm^2/sec	NaN
+0.2515	Rossi-XTE	1.34e-10	0	1.8e-11	days	0.5-2keV	erg/cm^2/sec	NaN
+1.2762	Rossi-XTE	9.3e-12	0	3e-12	days	0.5-2keV	erg/cm^2/sec	NaN
+37.3	XMM-Newton	1.43e-14	0	7e-16	days	0.5-2keV	erg/cm^2/sec	NaN
+60.9	XMM-Newton	7.9e-15	0	5e-16	days	0.5-2keV	erg/cm^2/sec	NaN
+258.3	XMM-Newton	6.2e-16	0	2.3e-16	days	0.5-2keV	erg/cm^2/sec	NaN

@@ -22,15 +22,27 @@ radio_keywords = []
 optical_keywords = []
 spectra_keywords = []
 
+# date formats used
+date_formats = []
+
+# Loop over the Master files. 
 for i in range(len(trial_list)):
 	print(trial_list[i])
 	if exists(trial_list[i]+'/'+trial_list[i]+'_Optical_Master.txt'):
 		op_master = pd.read_csv(trial_list[i]+'/'+trial_list[i]+'_Optical_Master.txt', header=0, sep='\t', index_col=None)
 		optical_keywords = optical_keywords+list(op_master.keys())
+		
+		if 'date_unit' in list(op_master.keys()):
+			date_formats = date_formats+list(op_master['date_unit'])
+
 
 	if exists(trial_list[i]+'/'+trial_list[i]+'_Radio_Master.txt'):
 		rad_master = pd.read_csv(trial_list[i]+'/'+trial_list[i]+'_Radio_Master.txt', header=0, sep='\t')
 		radio_keywords = radio_keywords+list(rad_master.keys())
+		
+		if 'date_unit' in list(rad_master.keys()):
+			date_formats = date_formats+list(rad_master['date_unit'])
+
 
 	if exists(trial_list[i]+'/'+trial_list[i]+'_Spectra_Master.txt'):
 		spec_master = pd.read_csv(trial_list[i]+'/'+trial_list[i]+'_Spectra_Master.txt', header=0, sep='\t')
@@ -40,10 +52,16 @@ for i in range(len(trial_list)):
 		x_master = pd.read_csv(trial_list[i]+'/'+trial_list[i]+'_Xray_Master.txt', header=0, sep='\t')
 		xray_keywords = xray_keywords+list(x_master.keys())
 
+		if 'date_unit' in list(x_master.keys()):
+			date_formats = date_formats+list(x_master['date_unit'])
+
+
 xray = list(set(xray_keywords))
 radio = list(set(radio_keywords))
 optical = list(set(optical_keywords))
 spectra = list(set(spectra_keywords))
+
+dateunits = list(set(date_formats))
 
 # Prints
 print('The xray master files use these keywords: \n')
@@ -58,3 +76,7 @@ print(len(radio))
 print('The spectra master files use these keywords: \n')
 print(spectra)
 print(len(spectra))
+
+print('These units are used for dates: \n')
+print(dateunits)
+print(len(dateunits))

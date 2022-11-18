@@ -1,15 +1,15 @@
-date	time	band	instrument	mag	mag_limit	dmag	date_unit	time_unit	mag_unit
-2004-Oct-6.537	0.024	V	40 inch	18.11	0	0.02	yyyy-month-deciday	days	unspecified
-2004-Oct-6.541	0.028	V	40 inch	18.2	0	0.04	yyyy-month-deciday	days	unspecified
-2004-Oct-6.546	0.033	V	40 inch	18.29	0	0.02	yyyy-month-deciday	days	unspecified
-2004-Oct-6.550	0.037	V	40 inch	18.38	0	0.03	yyyy-month-deciday	days	unspecified
-2004-Oct-6.555	0.042	V	40 inch	18.48	0	0.03	yyyy-month-deciday	days	unspecified
-2004-Oct-6.582	0.069	B	40 inch	19.18	0	0.07	yyyy-month-deciday	days	unspecified
-2004-Oct-6.586	0.073	B	40 inch	19.24	0	0.06	yyyy-month-deciday	days	unspecified
-2004-Oct-6.590	0.077	B	40 inch	19.29	0	0.07	yyyy-month-deciday	days	unspecified
-2004-Oct-6.595	0.082	V	40 inch	18.99	0	0.03	yyyy-month-deciday	days	unspecified
-2004-Oct-6.605	0.092	H	2.3 m	17.16	0	0.07	yyyy-month-deciday	days	unspecified
-2004-Oct-6.612	0.099	H	2.3 m	17.12	0	0.06	yyyy-month-deciday	days	unspecified
-2004-Oct-6.620	0.107	H	2.3 m	17.19	0	0.06	yyyy-month-deciday	days	unspecified
-2004-Oct-6.627	0.114	H	2.3 m	17.47	0	0.06	yyyy-month-deciday	days	unspecified
-2004-Oct-6.635	0.122	H	2.3 m	17.43	0	0.07	yyyy-month-deciday	days	unspecified
+date	time	band	instrument	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	dtime
+2004-Oct-6.537	0.024	V	40 inch	18.11	0	0.02	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.541	0.028	V	40 inch	18.2	0	0.04	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.546	0.033	V	40 inch	18.29	0	0.02	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.550	0.037	V	40 inch	18.38	0	0.03	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.555	0.042	V	40 inch	18.48	0	0.03	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.582	0.069	B	40 inch	19.18	0	0.07	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.586	0.073	B	40 inch	19.24	0	0.06	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.590	0.077	B	40 inch	19.29	0	0.07	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.595	0.082	V	40 inch	18.99	0	0.03	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.605	0.092	H	2.3 m	17.16	0	0.07	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.612	0.099	H	2.3 m	17.12	0	0.06	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.620	0.107	H	2.3 m	17.19	0	0.06	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.627	0.114	H	2.3 m	17.47	0	0.06	yyyy-month-deciday	days	unspecified	NaN
+2004-Oct-6.635	0.122	H	2.3 m	17.43	0	0.07	yyyy-month-deciday	days	unspecified	NaN

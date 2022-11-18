@@ -71,7 +71,7 @@ def get_trigtime(event_id):
     return trigtime
 
 # Dictionary to convert months to numbers
-month2number = {'Jan':'01', 'Feb':'02', 'Mar':'03', 'Apr':'04', 'May':'05', 'Jun':'06', 'Jul':'07', 'Aug':'08', 'Sep':'09', 'Oct':'10', 'Nov':'11', 'Dec':'12'}
+month2number = {'Jan':'01', 'Feb':'02', 'Mar':'03', 'Apr':'04', 'May':'05', 'Jun':'06', 'Jul':'07', 'Aug':'08', 'Sep':'09', 'Oct':'10', 'Nov':'11', 'Dec':'12', 'January':'01', 'February':'02', 'March':'03', 'April':'04', 'May':'05', 'June':'06', 'July':'07', 'August':'08', 'September':'09', 'October':'10', 'November':'11', 'December':'12'}
 
 # A function to turn decimal days into days, hours, minutes and seconds
 def deciday(date):
@@ -95,14 +95,30 @@ def deciday(date):
         second = '0'+str(second)
     return(day, hour, minute, second)
 
+# A function to turn decimal hours into hours, minutes and seconds
+def decihour(decimalhour):
+    # The hour is everything before the .
+    l = float(decimalhour)
+    hour =  int(l)
+    minute = np.floor(((l-hour)*60) % 60)
+    second = ((l-hour)*3600) % 60
+
+    # Make sure the days will match isotime format 2020-02-03T18:14:24 2004-11-02T07:11:59
+    if hour<10:
+        hour = '0'+str(hour)
+    if minute<10:
+        minute = '0'+str(minute)
+    if second<10:
+        second = '0'+str(second)
+    return(hour, minute, second)
+
 # A function to parse date info. This will convert the date data to elapsed time since trigger.
 def elapsed_time(dataframe, trigtime):    
-
     # Handle the different date formats
     time = list()
 
-    for i in range(len(dataframe['date'])):
 
+    for i in range(len(dataframe['date'])):
         # yyyy-month-deciday
         if dataframe['date_unit'][i] == "yyyy-month-deciday":
 
@@ -123,7 +139,10 @@ def elapsed_time(dataframe, trigtime):
             # astropy to subtract the two isotimes
             time_list = [isotime, trigtime]
             t = Time(time_list, format='isot', scale='utc')
-            time.append(t[0]-t[1])
+            time.append(float(t[0])-float(t[1]))
+
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
             
 
         # yyyy-mm-deciday
@@ -147,6 +166,9 @@ def elapsed_time(dataframe, trigtime):
             time_list = [isotime, trigtime]
             t = Time(time_list, format='isot', scale='utc')
             time.append(t[0]-t[1])
+
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
 
         # yyyy-mm-deciday-deciday
         elif dataframe['date_unit'][i] == "yyyy-mm-deciday-deciday":
@@ -174,6 +196,13 @@ def elapsed_time(dataframe, trigtime):
             isotime = t[0]+((t[1]-t[0])/2)
             time.append(isotime-t[2])
 
+            # # This one has a range of times. Add the error on the range to the dtime array. 
+            # delta_time = ((t[1]-t[0])/2)
+            # dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
+
         # yyyy-month-deciday-deciday
         elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
 
@@ -200,31 +229,12 @@ def elapsed_time(dataframe, trigtime):
             isotime = t[0]+((t[1]-t[0])/2)
             time.append(isotime-t[2])
 
-        # yyyy-mm-deciday-deciday
-        elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
-
-            # Split up the date. 
-            date = dataframe['date'][i].split('-')
-            year = date[0]
-            month = date[1]
-
-            # Get the deciday to days, hours, min, sec
-            day1, hour1, minute1, second1 = deciday(date[2])
-            day2, hour2, minute2, second2 = deciday(date[3])
-
-            # Turn into isotime
-            isotime1 = str(year)+'-'+str(month)+'-'+str(day1)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
-            isotime2 = str(year)+'-'+str(month)+'-'+str(day2)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
-
-            # Handle an absence of triggertime. Set to the first time in the observations. 
-            if trigtime == 'no_tt' and i==0:
-                trigtime = isotime1
-
-            # astropy to subtract the two isotimes
-            time_list = [isotime1, isotime2, trigtime]
-            t = Time(time_list, format='isot', scale='utc')
-            isotime = t[0]+((t[1]-t[0])/2)
-            time.append(isotime-t[2])
+            # # This one has a range of times. Add the error on the range to the dtime array. 
+            # delta_time = ((t[1]-t[0])/2)
+            # dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+            
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
 
         # yyyy-mm-dd-hh:mm-hh:mm
         elif dataframe['date_unit'][i] == "yyyy-mm-dd-hh:mm-hh:mm":
@@ -257,6 +267,51 @@ def elapsed_time(dataframe, trigtime):
             isotime = t[0]+((t[1]-t[0])/2)
             time.append(isotime-t[2])
 
+            # # This one has a range of times. Add the error on the range to the dtime array. 
+            # delta_time = ((t[1]-t[0])/2)
+            # dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
+
+        # yyyy-month-dd-hh:mm-hh:mm
+        elif dataframe['date_unit'][i] == "yyyy-month-dd-hh:mm-hh:mm":
+            # Split up the date.
+            date = dataframe['date'][i].split('-')
+            year = date[0]
+            month = month2number[date[1]]
+            day = date[2]
+
+            # hours, minutes, seconds
+            a = str(date[3]).split(":")
+            hour1 = a[0]
+            minute1 =  a[1]
+
+            b = str(date[4]).split(":")
+            hour2 = b[0]
+            minute2 =  b[1]
+
+            # Turn into isotime
+            isotime1 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour1)+':'+str(minute1)[:2]+':00'
+            isotime2 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour2)+':'+str(minute2)[:2]+':00'
+
+            # Handle an absence of triggertime. Set to the first time in the observations. 
+            if trigtime == 'no_tt' and i==0:
+                trigtime = isotime1
+
+            # astropy to subtract the two isotimes and get the median time
+            time_list = [isotime1, isotime2, trigtime]
+            t = Time(time_list, format='isot', scale='utc')
+            isotime = t[0]+((t[1]-t[0])/2)
+            time.append(isotime-t[2])
+
+            # # This one has a range of times. Add the error on the range to the dtime array. 
+            # delta_time = ((t[1]-t[0])/2)
+            # dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
+
         # MJD
         elif dataframe['date_unit'][i] == "MJD":
             print(file, ' used MJD')
@@ -268,12 +323,15 @@ def elapsed_time(dataframe, trigtime):
             obstime = Time(mjd1iso.isot, format='isot')
 
             # Handle an absence of triggertime. Set to the first time in the observations. 
-            print(trigtime)
+            # print(trigtime)
             if trigtime == 'no_tt' and i==0:
                 trigtime = obstime
 
             # Append the isotime-trigtime (elapsed time)
             time.append(obstime-Time(trigtime, format='isot'))
+
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
 
         # yyyy-month-day-hh:mm
         elif dataframe['date_unit'][i] == 'yyyy-month-day-hh:mm':
@@ -299,6 +357,9 @@ def elapsed_time(dataframe, trigtime):
             t = Time(time_list, format='isot', scale='utc')
             time.append(t[0]-t[1])
 
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
+
 
         # MJD-MJD
         elif dataframe['date_unit'][i] == 'MJD-MJD':
@@ -319,13 +380,19 @@ def elapsed_time(dataframe, trigtime):
             obstime = mjd1iso+((mjd2iso-mjd1iso)/2)
 
             # Handle an absence of triggertime. Set to the first time in the observations. 
-            print(trigtime)
+            # print(trigtime)
             if trigtime == 'no_tt' and i==0:
                 trigtime = obstime
 
             # Append the isotime-trigtime (elapsed time)
             time.append(obstime-Time(trigtime, format='isot'))
 
+            # Time error
+            delta_time = ((mjd2iso-mjd1iso)/2)
+            dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
 
         # yyyy-month-deciday-month-deciday Note that this could have issues if only the date is given. 
         elif dataframe['date_unit'][i] == 'yyyy-month-deciday-month-deciday':
@@ -358,14 +425,286 @@ def elapsed_time(dataframe, trigtime):
             # Append the isotime-trigtime (elapsed time)
             time.append(obstime-Time(trigtime, format='isot', scale='utc'))
 
+            # # This one has a range of times. Add the error on the range to the dtime array. 
+            # delta_time = ((t[1]-t[0])/2)
+            # dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
+
+        # yyyy-month-dd-hh.h-hh.h 
+        elif dataframe['date_unit'][i] == 'yyyy-month-dd-hh.h-hh.h':
+            
+            # Split the date up.
+            date = dataframe['date'][i].split('-')
+
+            # Write out the dates as isotimes. 
+            year = date[0]
+            month = month2number[date[1]]
+            day = date[2]
+
+            # Get the decimal hours into hours, minutes, seconds.
+            hour1, minute1, second1 = decihour(date[3])
+            hour2, minute2, second2 = decihour(date[4])
+
+            # Turn into isotime
+            isotime1 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
+            isotime2 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
+
+            # Work out the time in the middle of the two isotimes. 
+            time_list = [isotime1, isotime2]
+            t = Time(time_list, format='isot', scale='utc')
+            obstime = t[0]+((t[1]-t[0])/2)
+
+            # Handle an absence of triggertime. Set to the first time in the observations. 
+            if trigtime == 'no_tt' and i==0:
+                trigtime = obstime
+
+            # Append the isotime-trigtime (elapsed time)
+            time.append(obstime-Time(trigtime, format='isot', scale='utc'))
+
+            # # This one has a range of times. Add the error on the range to the dtime array. 
+            # delta_time = ((t[1]-t[0])/2)
+            # dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+            # Time unit is now in days
+            dataframe['time_unit'] = 'days'
+
         # Alert me that I have encountered a date format that isn't supported yet.
         else:
-            raise Exception('No date2time function found for'+dataframe['date_unit'][i]+' , time to write a new function for converting dates to times.')
-    
-    # update the dataframe time column with the parsed time data. 
+            raise Exception('No date2time function found for '+dataframe['date_unit'][i]+' , time to write a new function for converting dates to times.')
+
+    # # update the dataframe time column with the parsed time deltas.  
+    # dataframe['dtime'] = dtime
+
+    # update the time column with the new times. 
     dataframe['time'] = time
 
     return dataframe
+
+
+# It calculates the delta value when the times/dates are ranges. 
+def delta_time(dataframe): 
+    # Create the dtime array, fill with NaN.
+    dtime = np.empty(len(dataframe[list(dataframe.keys())[0]]))
+    dtime[:] = np.NaN
+
+    if 'date' in list(dataframe.keys()):
+        for i in range(len(dataframe['date'])):
+
+            # yyyy-mm-deciday-deciday
+            if dataframe['date_unit'][i] == "yyyy-mm-deciday-deciday":
+
+                # Split up the date. 
+                date = dataframe['date'][i].split('-')
+                year = date[0]
+                month = date[1]
+
+                # Get the deciday to days, hours, min, sec
+                day1, hour1, minute1, second1 = deciday(date[2])
+                day2, hour2, minute2, second2 = deciday(date[3])
+
+                # Turn into isotime
+                isotime1 = str(year)+'-'+str(month)+'-'+str(day1)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
+                isotime2 = str(year)+'-'+str(month)+'-'+str(day2)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
+
+                # astropy to subtract the two isotimes
+                time_list = [isotime1, isotime2]
+                t = Time(time_list, format='isot', scale='utc')
+
+                # This one has a range of times. Add the error on the range to the dtime array. 
+                delta_time = ((t[1]-t[0])/2)
+                dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+                # Time unit is now in days
+                dataframe['time_unit'] = 'days'
+
+            # yyyy-month-deciday-deciday
+            elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
+
+                # Split up the date. 
+                date = dataframe['date'][i].split('-')
+                year = date[0]
+                month = month2number[date[1]]
+
+                # Get the deciday to days, hours, min, sec
+                day1, hour1, minute1, second1 = deciday(date[2])
+                day2, hour2, minute2, second2 = deciday(date[3])
+
+                # Turn into isotime
+                isotime1 = str(year)+'-'+str(month)+'-'+str(day1)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
+                isotime2 = str(year)+'-'+str(month)+'-'+str(day2)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
+
+                # astropy to subtract the two isotimes
+                time_list = [isotime1, isotime2]
+                t = Time(time_list, format='isot', scale='utc')
+
+                # This one has a range of times. Add the error on the range to the dtime array. 
+                delta_time = ((t[1]-t[0])/2)
+                dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+                # Time unit is now in days
+                dataframe['time_unit'] = 'days'
+
+
+            # yyyy-mm-dd-hh:mm-hh:mm
+            elif dataframe['date_unit'][i] == "yyyy-mm-dd-hh:mm-hh:mm":
+                # Split up the date.
+                date = dataframe['date'][i].split('-')
+                year = date[0]
+                month = date[1]
+                day = date[2]
+
+                # hours, minutes, seconds
+                a = str(date[3]).split(":")
+                hour1 = a[0]
+                minute1 =  a[1]
+
+                b = str(date[4]).split(":")
+                hour2 = b[0]
+                minute2 =  b[1]
+
+                # Turn into isotime
+                isotime1 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour1)+':'+str(minute1)[:2]+':00'
+                isotime2 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour2)+':'+str(minute2)[:2]+':00'
+
+                # astropy to subtract the two isotimes and get the median time
+                time_list = [isotime1, isotime2]
+                t = Time(time_list, format='isot', scale='utc')
+
+                # This one has a range of times. Add the error on the range to the dtime array. 
+                delta_time = ((t[1]-t[0])/2)
+                dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+                # Time unit is now in days
+                dataframe['time_unit'] = 'days'
+
+            # yyyy-month-dd-hh:mm-hh:mm
+            elif dataframe['date_unit'][i] == "yyyy-month-dd-hh:mm-hh:mm":
+                # Split up the date.
+                date = dataframe['date'][i].split('-')
+                year = date[0]
+                month = month2number[date[1]]
+                day = date[2]
+
+                # hours, minutes, seconds
+                a = str(date[3]).split(":")
+                hour1 = a[0]
+                minute1 =  a[1]
+
+                b = str(date[4]).split(":")
+                hour2 = b[0]
+                minute2 =  b[1]
+
+                # Turn into isotime
+                isotime1 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour1)+':'+str(minute1)[:2]+':00'
+                isotime2 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour2)+':'+str(minute2)[:2]+':00'
+
+                # astropy to subtract the two isotimes and get the median time
+                time_list = [isotime1, isotime2]
+                t = Time(time_list, format='isot', scale='utc')
+
+                # This one has a range of times. Add the error on the range to the dtime array. 
+                delta_time = ((t[1]-t[0])/2)
+                dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+                # Time unit is now in days
+                dataframe['time_unit'] = 'days'
+
+            # MJD-MJD
+            elif dataframe['date_unit'][i] == 'MJD-MJD':
+
+                # Split the two MJDs
+                mjds = dataframe['date'][i].split('-')
+
+                mjd1 = mjds[0]
+                mjd2 = mjds[1]
+
+                # Convert the MJDs to isotimes.
+                mjd1iso = Time(mjd1, format='mjd')
+                mjd1iso = Time(mjd1iso.isot, format='isot')
+                mjd2iso = Time(mjd2, format='mjd')
+                mjd2iso = Time(mjd2iso.isot, format='isot')
+
+                # Work out the central time. 
+                obstime = mjd1iso+((mjd2iso-mjd1iso)/2)
+
+                # This one has a range of times. Add the error on the range to the dtime array. 
+                delta_time = ((mjd2iso-mjd1iso)/2)
+                dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+                # Time unit is now in days
+                dataframe['time_unit'] = 'days'
+
+            # yyyy-month-deciday-month-deciday Note that this could have issues if only the date is given. 
+            elif dataframe['date_unit'][i] == 'yyyy-month-deciday-month-deciday':
+                
+                # Split the date up.
+                date = dataframe['date'][i].split('-')
+
+                # Write out the dates as isotimes. 
+                year = date[0]
+                month1 = month2number[date[1]]
+                month2 = month2number[date[3]]
+
+                # Get the deciday to days, hours, min, sec
+                day1, hour1, minute1, second1 = deciday(date[2])
+                day2, hour2, minute2, second2 = deciday(date[4])
+
+                # Turn into isotime
+                isotime1 = str(year)+'-'+str(month1)+'-'+str(day1)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
+                isotime2 = str(year)+'-'+str(month2)+'-'+str(day2)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
+
+                # Work out the time in the middle of the two isotimes. 
+                time_list = [isotime1, isotime2]
+                t = Time(time_list, format='isot', scale='utc')
+
+                # This one has a range of times. Add the error on the range to the dtime array. 
+                delta_time = ((t[1]-t[0])/2)
+                dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+                # Time unit is now in days
+                dataframe['time_unit'] = 'days'
+
+            # yyyy-month-dd-hh.h-hh.h 
+            elif dataframe['date_unit'][i] == 'yyyy-month-dd-hh.h-hh.h':
+                
+                # Split the date up.
+                date = dataframe['date'][i].split('-')
+
+                # Write out the dates as isotimes. 
+                year = date[0]
+                month = month2number[date[1]]
+                day = date[2]
+
+                # Get the decimal hours into hours, minutes, seconds.
+                hour1, minute1, second1 = decihour(date[3])
+                hour2, minute2, second2 = decihour(date[4])
+
+                # Turn into isotime
+                isotime1 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour1)+':'+str(minute1)[:2]+':'+str(second1)[:2]
+                isotime2 = str(year)+'-'+str(month)+'-'+str(day)+'T'+str(hour2)+':'+str(minute2)[:2]+':'+str(second2)[:2]
+
+                # Work out the time in the middle of the two isotimes. 
+                time_list = [isotime1, isotime2]
+                t = Time(time_list, format='isot', scale='utc')
+                obstime = t[0]+((t[1]-t[0])/2)
+
+                # This one has a range of times. Add the error on the range to the dtime array. 
+                delta_time = ((t[1]-t[0])/2)
+                dtime[i] = (delta_time.to_value(format='sec', subfmt='decimal'))/86400
+
+                # Time unit is now in days
+                dataframe['time_unit'] = 'days'
+        dataframe['dtime'] = dtime
+
+    # The dtime should just be nan.
+    else:
+        dataframe['dtime'] = dtime
+
+    return dataframe
+
+            
 
 # This function will handle any days-days, seconds-seconds and minutes-minutes in the time columns. 
 def time_formats(dataframe):
@@ -529,10 +868,10 @@ def masterfileformat(filelist, event):
     xray_pandas = []
 
     # Get the file sources for each data file of the GRB
-    file_sources = pd.read_csv(trial_list[i]+'filesources.csv', header=0, sep=',')
+    file_sources = pd.read_csv(event+'filesources.csv', header=0, sep=',')
 
     for file in file_list:
-        # print(file)
+        print(file)
         if 'Master' in file:
             continue
         # Radio master db
@@ -544,17 +883,19 @@ def masterfileformat(filelist, event):
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
 
             # Make sure the elapsed time is in days, if its in seconds/minutes/hours then convert it. 
-            if data['time_unit'][0] == 'seconds':
-                data['time'] = data['time'].astype(float)/86400
-                data['time_unit'] = 'days'
+            time = np.array(data['time'], dtype=np.float64)
+            for i in range(len(data['time_unit'])):
+                if data['time_unit'][i] == 'seconds':
+                    time[i] = float(time[i])/86400
+                    
+                elif data['time_unit'][i] == 'minutes':
+                    time[i] = float(time[i])/1440
 
-            if data['time_unit'][0] == 'minutes':
-                data['time'] = data['time'].astype(float)/1440
-                data['time_unit'] = 'days'
-
-            if data['time_unit'][0] == 'hours':
-                data['time'] = data['time'].astype(float)/24
-                data['time_unit'] = 'days'
+                elif data['time_unit'][i] == 'hours':
+                    time[i] = float(time[i])/24
+            
+            data['time'] = time
+            data['time_unit'] = 'days'
             
             # Append pandas
             radio_pandas.append(data)
@@ -567,18 +908,20 @@ def masterfileformat(filelist, event):
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
 
             # Make sure the elapsed time is in days, if its in seconds/minutes/hours then convert it. 
-            if data['time_unit'][0] == 'seconds':
-                data['time'] = data['time'].astype(float)/86400
-                data['time_unit'] = 'days'
+            time = np.array(data['time'], dtype=np.float64)
+            for i in range(len(data['time_unit'])):
+                if data['time_unit'][i] == 'seconds':
+                    time[i] = float(time[i])/86400
+                    
+                elif data['time_unit'][i] == 'minutes':
+                    time[i] = float(time[i])/1440
 
-            if data['time_unit'][0] == 'minutes':
-                data['time'] = data['time'].astype(float)/1440
-                data['time_unit'] = 'days'
-
-            if data['time_unit'][0] == 'hours':
-                data['time'] = data['time'].astype(float)/24
-                data['time_unit'] = 'days'
-
+                elif data['time_unit'][i] == 'hours':
+                    time[i] = float(time[i])/24
+            
+            data['time'] = time
+            data['time_unit'] = 'days'
+            
             # Append pandas
             optical_pandas.append(data)
 
@@ -590,17 +933,19 @@ def masterfileformat(filelist, event):
             data['reference'] = len(data['time'])*[file_sources.at[file_sources[file_sources['Filename']==file].index[0], 'Reference']]
 
             # Make sure the elapsed time is in seconds, if its in days/minutes/hours then convert it. 
-            if data['time_unit'][0] == 'days':
-                data['time'] = data['time'].astype(float)*86400
-                data['time_unit'] = 'seconds'
+            time = np.array(data['time'], dtype=np.float64)
+            for i in range(len(data['time_unit'])):
+                if data['time_unit'][i] == 'days':
+                    time[i] = float(time[i])*86400
 
-            if data['time_unit'][0] == 'minutes':
-                data['time'] = data['time'].astype(float)*60
-                data['time_unit'] = 'seconds'
+                elif data['time_unit'][i] == 'minutes':
+                    time[i] = float(time[i])*60
 
-            if data['time_unit'][0] == 'hours':
-                data['time'] = data['time'].astype(float)*3600
-                data['time_unit'] = 'seconds'
+                elif data['time_unit'][i] == 'hours':
+                    time[i] = float(time[i])*3600
+            
+            data['time'] = time
+            data['time_unit'] = 'seconds'
 
             # Append pandas
             xray_pandas.append(data)
@@ -634,10 +979,13 @@ for i in range(len(trial_list)):
     # Check if the readme exists already. If it does then the files are ready to parse. 
     if 'readme.txt' in file_list:
         for file in file_list:
-            print(file)
-
+            
+            if 'Master' in file:
+                print('Skipping ', file)
+                continue
+            
             # Radio files
-            if any(substring in file.lower() for substring in radio_filetags):
+            elif any(substring in file.lower() for substring in radio_filetags):
 
                 data = pd.read_csv(file, sep='\t')
 
@@ -648,12 +996,13 @@ for i in range(len(trial_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
+                # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
-                    data['time_unit'] = 'days'
-
-                else:
-                    time_formats(data)
+                if 'dtime' not in list(data.keys()):
+                    data = delta_time(data)
+                
+                time_formats(data)
                 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
@@ -669,12 +1018,13 @@ for i in range(len(trial_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
+                # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
-                    data['time_unit'] = 'days'
-
-                else:
-                    time_formats(data)
+                if 'dtime' not in list(data.keys()):
+                    data = delta_time(data)
+                
+                time_formats(data)
                 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
@@ -690,12 +1040,13 @@ for i in range(len(trial_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
+                # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
-                    data['time_unit'] = 'days'
-
-                else:
-                    time_formats(data)
+                if 'dtime' not in list(data.keys()):
+                    data = delta_time(data)
+                
+                time_formats(data)
 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 

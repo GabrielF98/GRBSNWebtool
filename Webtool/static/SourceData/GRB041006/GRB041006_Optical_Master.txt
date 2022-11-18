@@ -1,13 +1,13 @@
-date	time	integration	instrument	extinction	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	reference
-2004-Nov-2.3	26.7	3832	HST	NaN	F775W	24.01	0	0.05	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2004-Nov-2.3	26.7	3430	HST	NaN	F850LP	23.58	0	0.04	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2004-Nov-27.4	51.9	4224	HST	NaN	F775W	25.11	0	0.1	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2004-Dec-23.4	77.8	4224	HST	NaN	F775W	25.83	0	0.19	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2005-Feb-10.3	126.8	4224	HST	NaN	F775W	26.26	0	0.25	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2005-Feb-11.2	127.7	4224	HST	NaN	F850LP	25.9	0	0.21	yyyy-month-deciday	days	AB	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2004-Nov-2.3	26.7	3832	HST	0.044	I	23.47	0	0.05	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2004-Nov-2.3	26.7	3430	HST	0.041	z	23.01	0	0.04	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2004-Nov-27.4	51.9	4224	HST	0.044	I	24.57	0	0.1	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2004-Dec-23.4	77.8	4224	HST	0.044	I	25.29	0	0.19	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2005-Feb-10.3	126.8	4224	HST	0.044	I	25.73	0	0.25	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
-2005-Feb-11.2	127.7	4224	HST	0.041	z	25.32	0	0.21	yyyy-month-deciday	days	Vega	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+date	time	integration	instrument	extinction	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	dtime	reference
+2004-Nov-2.3	26.7	3832	HST	NaN	F775W	24.01	0	0.05	yyyy-month-deciday	days	AB	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2004-Nov-2.3	26.7	3430	HST	NaN	F850LP	23.58	0	0.04	yyyy-month-deciday	days	AB	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2004-Nov-27.4	51.9	4224	HST	NaN	F775W	25.11	0	0.1	yyyy-month-deciday	days	AB	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2004-Dec-23.4	77.8	4224	HST	NaN	F775W	25.83	0	0.19	yyyy-month-deciday	days	AB	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2005-Feb-10.3	126.8	4224	HST	NaN	F775W	26.26	0	0.25	yyyy-month-deciday	days	AB	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2005-Feb-11.2	127.7	4224	HST	NaN	F850LP	25.9	0	0.21	yyyy-month-deciday	days	AB	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2004-Nov-2.3	26.7	3832	HST	0.044	I	23.47	0	0.05	yyyy-month-deciday	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2004-Nov-2.3	26.7	3430	HST	0.041	z	23.01	0	0.04	yyyy-month-deciday	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2004-Nov-27.4	51.9	4224	HST	0.044	I	24.57	0	0.1	yyyy-month-deciday	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2004-Dec-23.4	77.8	4224	HST	0.044	I	25.29	0	0.19	yyyy-month-deciday	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2005-Feb-10.3	126.8	4224	HST	0.044	I	25.73	0	0.25	yyyy-month-deciday	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+2005-Feb-11.2	127.7	4224	HST	0.041	z	25.32	0	0.21	yyyy-month-deciday	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
