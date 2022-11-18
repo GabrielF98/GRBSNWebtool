@@ -18,6 +18,6 @@ date	instrument	freq	flux_density	flux_density_limit	dflux_density	beam	position
 2003-05-03-15:59-19:49	IRAM/PdB-6Dp	233.467	1.4	0	1.3	3.6x1.6	-76$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	GHz	milliJy	NaN	35.26163576388889	days
 2003-05-16-13:20-15:57	IRAM/PdB-5Dp	86.243	1.1	0	0.8	12.4x5.3	-54$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	GHz	milliJy	NaN	48.125871875	days
 2003-05-16-13:20-15:57	IRAM/PdB-5Dp	231.49	0.0	0	10.1	4.6x1.9	-59$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	GHz	milliJy	NaN	48.125871875	days
-2003-05-28-21:29-23:22	IRAM/PdB-5Dp	84.443	0.4	0	0.7	16.6x5.5	52$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	GHz	milliJy	NaN	60.450177430555556	days
-2003-05-28-21:29-23:22	IRAM/PdB-5Dp	238.5	0.0	0	8.0	5.5x1.9	52$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	GHz	milliJy	NaN	60.450177430555556	days
+2003-05-28-21:29-23:22	IRAM/PdB-5Dp	84.443	0.4	0	0.7	16.6x5.5	52$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	GHz	milliJy	NaN	60.45017743055556	days
+2003-05-28-21:29-23:22	IRAM/PdB-5Dp	238.5	0.0	0	8.0	5.5x1.9	52$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	GHz	milliJy	NaN	60.45017743055556	days
 2003-06-20-12:41-17:49	IRAM/PdB-4Dp	95.434	0.6	0	1.3	5.92x5.63	64$^{\circ}$	yyyy-mm-dd-hh:mm-hh:mm	GHz	milliJy	NaN	83.15121909722222	days
