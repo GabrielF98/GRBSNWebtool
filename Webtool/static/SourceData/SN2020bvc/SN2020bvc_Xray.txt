@@ -1,6 +1,6 @@
-instrument	date	flux	dflux	HR	dHR	date_unit	flux_unit
-Swift/XRT	58884.8	<3.23e−14	NaN	NaN	MJD	erg/cm^2/sec
-Swift/XRT	58886.9	1.20e−13	8.65e−14	−0.99	0.71	MJD	erg/cm^2/sec
-Swift/XRT	58892.3	3.51e−14	2.19e−14	−0.93	0.56	MJD	erg/cm^2/sec
-Chandra	58895.8	1.53e−14	0.54e−14	−0.39	0.32	MJD	erg/cm^2/sec
-Chandra	58907.0	1.35e−14	0.51e−14	−0.77	0.30	MJD	erg/cm^2/sec
+instrument	date	flux	flux_limit	dflux	HR	dHR	date_unit	flux_unit	time_unit	time	dtime
+Swift/XRT	58884.8	3.23e-14	1	NaN	NaN	NaN	MJD	erg/cm^2/sec	days	2.04	NaN
+Swift/XRT	58886.9	1.2e-13	0	8.65e−14	−0.99	0.71	MJD	erg/cm^2/sec	days	4.14	NaN
+Swift/XRT	58892.3	3.51e-14	0	2.19e−14	−0.93	0.56	MJD	erg/cm^2/sec	days	9.54	NaN
+Chandra	58895.8	1.53e-14	0	0.54e−14	−0.39	0.32	MJD	erg/cm^2/sec	days	13.04	NaN
+Chandra	58907.0	1.35e-14	0	0.51e−14	−0.77	0.3	MJD	erg/cm^2/sec	days	24.24	NaN

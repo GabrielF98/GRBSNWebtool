@@ -314,13 +314,12 @@ def elapsed_time(dataframe, trigtime):
 
         # MJD
         elif dataframe['date_unit'][i] == "MJD":
-            print(file, ' used MJD')
-            # Split the two MJDs
+            
             mjd = dataframe['date'][i]
 
             # Convert the MJDs to isotimes.
-            mjdiso = Time(mjd1, format='mjd')
-            obstime = Time(mjd1iso.isot, format='isot')
+            mjdiso = Time(mjd, format='mjd')
+            obstime = Time(mjdiso.isot, format='isot')
 
             # Handle an absence of triggertime. Set to the first time in the observations. 
             # print(trigtime)
@@ -979,6 +978,7 @@ for i in range(len(trial_list)):
     # Check if the readme exists already. If it does then the files are ready to parse. 
     if 'readme.txt' in file_list:
         for file in file_list:
+            print(file)
             
             if 'Master' in file:
                 print('Skipping ', file)
@@ -1050,7 +1050,7 @@ for i in range(len(trial_list)):
 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
-            # Don't go over the master data.
+            # Don't go over the readmes or other data.
             else:
                 print('Skipping: ', file)
         
