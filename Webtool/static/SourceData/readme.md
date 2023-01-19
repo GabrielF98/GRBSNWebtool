@@ -123,6 +123,8 @@ Time should always appear in all files. Sometimes the date will also appear.
    *  `calibrated` is used when some calibration has been done but the units were not provided; 
    *  `erg/s/cm2/A` erg per second per square cm per angstrom.
 
+* `dflux` The error on the source flux. 
+
 * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
 
 * `sky_flux` Sometimes measured when spectra are taken. It is in the same units as the flux of the source. 
@@ -138,6 +140,10 @@ Time should always appear in all files. Sometimes the date will also appear.
 * `flux_limit` Is the source flux an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
 
 * `energy_range` The energy range of the xray data.
+
+* `HR` The harndess ratio.
+
+* `dHR` The error on the harness ratio.
 
 ### Radio keywords
 * `freq` The frequency of the radio band. 
