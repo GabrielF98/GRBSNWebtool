@@ -141,6 +141,10 @@ Time should always appear in all files. Sometimes the date will also appear.
 
 * `energy_range` The energy range of the xray data.
 
+* `HR` The harndess ratio.
+
+* `dHR` The error on the harness ratio.
+
 ### Radio keywords
 * `freq` The frequency of the radio band. 
 
