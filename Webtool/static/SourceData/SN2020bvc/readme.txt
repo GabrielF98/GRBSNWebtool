@@ -280,3 +280,107 @@ Filename: SN2020bvc_Spectra2.txt
 ---------------------------------------------------------
 Taken from the transient name server. 
 The original name of the file was: tns_2020bvc_2020-02-05_13-08-02_FTN_FLOYDS-N_Global_SN_Project.ascii
+=========================================================
+Filename: SN2020bvc_Optical_1.txt
+---------------------------------------------------------
+Title: Near-Infrared and Optical Observations of Type IC SN2020oi and 
+       broad-lined IC SN2020bvc: Carbon Monoxide, Dust and High-Velocity 
+       Supernova Ejecta  
+Authors: Rho J., Evans A., Geballe T.R., Banerjee D.P.K., Hoeflich P., 
+         Shahbandeh M., Valenti S., Yoon S.-C., Jin H., Williamson M., 
+         Modjaz M., Hiramatsu D., Howell D.A., Pellegrino C., Vinko J., 
+         Cartier R., Burke J., McCully C., An H., Cha H., Pritchard T., 
+         Wang X., Andrews J., Galbany L., Van Dyk S., Graham M.L., 
+         Blinnikov S., Joshi V., Pal A., Kriskovics L., Ordash A., Szakats R.,
+         Vida K., Chen Z., Li X., Zhang J., Yan S. 
+Figure: Multi-color light curves of SN2020bvc
+================================================================================
+Byte-by-byte Description of file: dbf4.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  9 F9.3   d       MJD     Modified Julian Date
+  11- 19 F9.6   mag     mag     Apparent magnitude in Filter
+  21- 34 F14.10 mag   e_mag     Uncertainty in mag
+      36 A1     ---     Filter  Filter used
+  38- 40 A3     ---     Tel     Telescope code (1)
+--------------------------------------------------------------------------------
+Note (1):
+    ZTF = Zwicky Transient Facility;
+    KON = The 0.8m RC80 telescope of Konkoly Observatory;
+    LCO = Las Cumbres Observatory network with the Sinistro cameras on the 1m
+          telescopes at Sutherland (South Africa), CTIO (Chile), Siding Spring
+          (Australia), and McDonald (USA), through the Global Supernova Project.
+--------------------------------------------------------------------------------
+=========================================================
+Filename: SN2020bvc_Optical_2.txt
+---------------------------------------------------------
+Title: SN2020bvc: a Broad-lined Type IC Supernova with a Double-peaked 
+       Optical Light Curve and a Luminous X-ray and Radio Counterpart  
+Authors: Ho A.Y.Q., Kulkarni S.R., Perley D.A., Cenko S.B., Corsi A., 
+         Schulze S., Lunnan R., Sollerman J., Gal-Yam A., Anand S., 
+         Barbarino C., Bellm E.C., Bruch R.J., Burns E., De K., Dekany R., 
+         Delacroix A., Duev D.A., Frederiks D.D., Fremling C., Goldstein D.A.,
+         Golkhou V.Z., Graham M.J., Hale D., Kasliwal M.M., Kupfer T., 
+         Laher R.R., Martikainen J., Masci F.J., Neill J.D., Ridnaia A., 
+         Rusholme B., Savchenko V., Shupe D.L., Soumagnac M.T., 
+         Strotjohann N.L., Svinkin D.S., Taggart K., Tartaglia L., 
+         Yan L., Zolkower J. 
+Table: UVOIR photometry for SN2020bvc, corrected for Milky Way extinction
+================================================================================
+Byte-by-byte Description of file: apjaba630t6_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1- 10 F10.4  d       MJD     Modified Julian Date
+  12- 16 F5.2   d       DeltaT  Time since t_0_; 2020 Feb 03.67 UTC
+  18- 27 A10    ---     Inst    Instrument used  
+  29- 32 A4     ---     Filt    Filter used
+  34- 38 F5.2   mag     mag     Apparent AB magnitude in Filt
+  40- 43 F4.2   mag   e_mag     Uncertainty in mag  
+--------------------------------------------------------------------------------
+=========================================================
+Filename: SN2020bvc_Spectra.txt
+---------------------------------------------------------
+Title: SN2020bvc: a Broad-lined Type IC Supernova with a Double-peaked 
+       Optical Light Curve and a Luminous X-ray and Radio Counterpart  
+Authors: Ho A.Y.Q., Kulkarni S.R., Perley D.A., Cenko S.B., Corsi A., 
+         Schulze S., Lunnan R., Sollerman J., Gal-Yam A., Anand S., 
+         Barbarino C., Bellm E.C., Bruch R.J., Burns E., De K., Dekany R., 
+         Delacroix A., Duev D.A., Frederiks D.D., Fremling C., Goldstein D.A.,
+         Golkhou V.Z., Graham M.J., Hale D., Kasliwal M.M., Kupfer T., 
+         Laher R.R., Martikainen J., Masci F.J., Neill J.D., Ridnaia A., 
+         Rusholme B., Savchenko V., Shupe D.L., Soumagnac M.T., 
+         Strotjohann N.L., Svinkin D.S., Taggart K., Tartaglia L., 
+         Yan L., Zolkower J. 
+Figure: Optical spectra of SN2020bvc
+================================================================================
+Byte-by-byte Description of file: dbf4.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units    Label  Explanations
+--------------------------------------------------------------------------------
+   1-  5 F5.2   d        t0     Time since reference epoch; 2020 Feb 03.67 UTC
+   7- 15 F9.3   0.1nm    Wave   Wavelength; Angstroms
+  17- 29 E13.6  cW/m2/nm Flux   ? Flux density; erg/s/cm2/A (1)
+--------------------------------------------------------------------------------
+Note (1): Except for the LT/SPRAT data (t0 = 4.6 and 42.6) which are 
+          normalized fluxes.
+--------------------------------------------------------------------------------
+=========================================================
+Filename: SN2020bvc_Optical_UV.txt
+---------------------------------------------------------
+Magnitudes are not corrected for the Galactic extinction (E(B−V) = 0.01 mag).
+=========================================================
+Filename: SN2020bvc_Optical_3.txt
+---------------------------------------------------------
+Magnitudes are not corrected for the Galactic extinction (E(B−V) = 0.01 mag).
+=========================================================
+Filename: SN2020bvc_Xray.txt
+---------------------------------------------------------
+luxes and corresponding uncertainties are reported in Cols. 2 and 3, while the HR values and its uncertainties are in Cols. 4 and 5.
+=========================================================
+Filename: SN2020bvc_Radio.txt
+---------------------------------------------------------
+Table 2 
+Submillimeter- and Centimeter-wavelength Radio Observations of SN 2020bvc
+Note. The 230 GHz measurement was obtained using the SMA (upper limit given as 1sigma rms), and the lower-frequency measurements were obtained using the VLA.
