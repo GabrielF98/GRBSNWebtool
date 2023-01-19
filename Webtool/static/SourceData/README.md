@@ -93,6 +93,8 @@ Time should always appear in all files. Sometimes the date will also appear.
 ***Miscellaneous***
 * `integration` The duration of the observation. The default unit is seconds. This may have been converted from an exposure column in the original file. 
 
+* `dintegration` The error on the integration time.
+
 * `integration_unit` The units for the integration time. Standard time units will be used. 
 
 * `reference` Usually added by the plotfuncs.py code, this is taken from the `filesources.csv` file and provides a direct url to the paper or resource from which the file came.
@@ -122,6 +124,8 @@ Time should always appear in all files. Sometimes the date will also appear.
    *  `uncalibrated` used when we don't know the unit or when the flux is uncalibrated; 
    *  `calibrated` is used when some calibration has been done but the units were not provided; 
    *  `erg/s/cm2/A` erg per second per square cm per angstrom.
+
+* `dflux` The error on the source flux. 
 
 * `redshift` If not already in the file this will be obtained from one of the references in the table at the top of the event webpage. 
 
