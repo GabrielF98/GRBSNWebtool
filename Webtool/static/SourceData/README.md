@@ -93,8 +93,6 @@ Time should always appear in all files. Sometimes the date will also appear.
 ***Miscellaneous***
 * `integration` The duration of the observation. The default unit is seconds. This may have been converted from an exposure column in the original file. 
 
-* `dintegration` The error on the integration time.
-
 * `integration_unit` The units for the integration time. Standard time units will be used. 
 
 * `reference` Usually added by the plotfuncs.py code, this is taken from the `filesources.csv` file and provides a direct url to the paper or resource from which the file came.
