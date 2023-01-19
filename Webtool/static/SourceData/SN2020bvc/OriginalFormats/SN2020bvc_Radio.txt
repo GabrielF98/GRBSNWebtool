@@ -1,0 +1,15 @@
+Table 2 
+Submillimeter- and Centimeter-wavelength Radio Observations of SN 2020bvc
+
+
+Start Date	Time on-source	${\rm{\Delta }}t$	nu	Flux Density	
+(UTC)	(hr)	(days)	(GHz)	(muJy)	
+Feb 9.42	4.7	5.8	230	<250	
+Feb 16.67	0.4	13.0	10	63 +or- 6	
+Feb 20.64	0.4	17.0	6	83 +or- 6	
+Feb 27.64	0.4	24.0	3	$111\pm 10$	
+Mar 2.63	0.4	28.0	15	33 +or- 4	
+Mar 9.60	0.4	35.0	10	50 +or- 5	
+Mar 13.59	0.4	39.0	3	$106\pm 10$	
+Mar 17.33	0.4	42.7	6	63 +or- 6	
+Note. The 230 GHz measurement was obtained using the SMA (upper limit given as 1sigma rms), and the lower-frequency measurements were obtained using the VLA.
