@@ -1,6 +1,8 @@
 Event Name: SN2020bvc
 =========================================================
 Filename: SN2020bvc_Spectra1.txt
+Source: https://www.wis-tns.org/object/2020bvc
+Data-type: Spectra
 ---------------------------------------------------------
 Taken from the transient name server. 
 The original name of the file was: tns_2020bvc_2020-02-08_05-52-18_LT_SPRAT_ZTF.spec
@@ -277,11 +279,15 @@ The file contained the following preamble:
 # END                                                                             ```
 =========================================================
 Filename: SN2020bvc_Spectra2.txt
+Source: https://www.wis-tns.org/object/2020bvc
+Data-type: Spectra
 ---------------------------------------------------------
 Taken from the transient name server. 
 The original name of the file was: tns_2020bvc_2020-02-05_13-08-02_FTN_FLOYDS-N_Global_SN_Project.ascii
 =========================================================
 Filename: SN2020bvc_Optical_1.txt
+Source: https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 Title: Near-Infrared and Optical Observations of Type IC SN2020oi and 
        broad-lined IC SN2020bvc: Carbon Monoxide, Dust and High-Velocity 
@@ -314,6 +320,8 @@ Note (1):
 --------------------------------------------------------------------------------
 =========================================================
 Filename: SN2020bvc_Optical_2.txt
+Source: https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 Title: SN2020bvc: a Broad-lined Type IC Supernova with a Double-peaked 
        Optical Light Curve and a Luminous X-ray and Radio Counterpart  
@@ -341,6 +349,8 @@ Byte-by-byte Description of file: apjaba630t6_mrt.txt
 --------------------------------------------------------------------------------
 =========================================================
 Filename: SN2020bvc_Spectra.txt
+Source: https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Data-type: Early, Late, Optical, Spectra
 ---------------------------------------------------------
 Title: SN2020bvc: a Broad-lined Type IC Supernova with a Double-peaked 
        Optical Light Curve and a Luminous X-ray and Radio Counterpart  
@@ -368,18 +378,26 @@ Note (1): Except for the LT/SPRAT data (t0 = 4.6 and 42.6) which are
 --------------------------------------------------------------------------------
 =========================================================
 Filename: SN2020bvc_Optical_UV.txt
+Source: https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+Data-type: Early, Optical, UV
 ---------------------------------------------------------
 Magnitudes are not corrected for the Galactic extinction (E(B−V) = 0.01 mag).
 =========================================================
 Filename: SN2020bvc_Optical_3.txt
+Source: https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 Magnitudes are not corrected for the Galactic extinction (E(B−V) = 0.01 mag).
 =========================================================
 Filename: SN2020bvc_Xray.txt
+Source: https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+Data-type: Early, Xray
 ---------------------------------------------------------
 luxes and corresponding uncertainties are reported in Cols. 2 and 3, while the HR values and its uncertainties are in Cols. 4 and 5.
 =========================================================
 Filename: SN2020bvc_Radio.txt
+Source: https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Data-type: Early, Late, Radio
 ---------------------------------------------------------
 Table 2 
 Submillimeter- and Centimeter-wavelength Radio Observations of SN 2020bvc
