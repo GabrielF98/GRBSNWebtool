@@ -51,6 +51,14 @@
         "names": "McKenzie & Schaefer",
         "year": "1999"
     },
+    "https://ui.adsabs.harvard.edu/abs/2004ApJ...608..872K/abstract": {
+        "names": "Kouveliotou et al.",
+        "year": "2004"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract": {
+        "names": "Peters et al.",
+        "year": "2019"
+    },
     "https://ui.adsabs.harvard.edu/abs/2001ApJ...552L.121B/abstract": {
         "names": "Bj\u00f6rnsson et al.",
         "year": "2001"
@@ -314,10 +322,6 @@
     "https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract": {
         "names": "Kaneko et al.",
         "year": "2007"
-    },
-    "https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract": {
-        "names": "Peters et al.",
-        "year": "2019"
     },
     "https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract": {
         "names": "Kocevski et al.",
