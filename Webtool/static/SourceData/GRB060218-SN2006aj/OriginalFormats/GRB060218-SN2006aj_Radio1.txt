@@ -1,0 +1,16 @@
+Table 3 
+Summary of Measurements from Radio Observations
+
+
+Source	Frequency	Image rms	3sigma Upper Limit	Time since SN	Luminosity^a	
+	(GHz)	(muJy/beam)	(muJy)	(yr)	(10^27 erg s^-1 Hz^-1)	
+GRB 030329/	6	5.0	17.6	13.0	<13.8	
+SN 2003dh	1.85	55	170	13.0	<133	
+	1.22	80	245	13.0	<192	
+GRB 060218/	6	5.1	15.3	10.0	<0.4	
+SN 2006aj	1.85	55	165	10.0	<4.1	
+	1.22	91	281	10.0	<6.9	
+GRB 980425/	1.65	90	270	17.6	<0.42	
+SN 1998bw						
+Note.
+^a 3sigma limit on the spectral luminosity assuming redshifts listed in Table 1.

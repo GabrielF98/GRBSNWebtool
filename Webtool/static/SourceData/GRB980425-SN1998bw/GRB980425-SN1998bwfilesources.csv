@@ -7,6 +7,8 @@ GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_3.html,"Late, Optical",https://ui.
 GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_4.html,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract
 GRB980425-SN1998bw,Xraydata.gif,"Early, Xray",https://ui.adsabs.harvard.edu/abs/1999A%26AS..138..463P/abstract
 GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_5.html,"Late, Optical",https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract
+GRB980425-SN1998bw,,Xray,https://ui.adsabs.harvard.edu/abs/2004ApJ...608..872K/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Radio.txt,Radio,https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract
 GRB980425-SN1998bw,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN1998bw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
 GRB980425-SN1998bw,OpenSNSpectra2.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=2&format=json
 GRB980425-SN1998bw,OpenSNSpectra27.json,Spectra,https://api.astrocats.space/SN1998bw/spectra/?item=27&format=json

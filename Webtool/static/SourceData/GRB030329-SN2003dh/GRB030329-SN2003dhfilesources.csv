@@ -25,6 +25,7 @@ GRB030329-SN2003dh,GRB030329-SN2003dh_Optical5.txt,"Early, Optical",https://ui.a
 GRB030329-SN2003dh,,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...593L..19K/abstract,
 GRB030329-SN2003dh,,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...591L..17S/abstract,
 GRB030329-SN2003dh,,Spectra,https://ui.adsabs.harvard.edu/abs/2003BSAO...56....5S/abstract,
+GRB030329-SN2003dh,GRB030329-SN2003dh_Radio15.txt,"Late, Radio",https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract,
 GRB030329-SN2003dh,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2003dh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
 GRB030329-SN2003dh,OpenSNSpectra2.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=2&format=json
 GRB030329-SN2003dh,OpenSNSpectra11.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=11&format=json
