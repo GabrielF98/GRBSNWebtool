@@ -1,9 +1,10 @@
 '''
-Converts any Swift xrtlc files to the correct format to be plotted by the tool. 
+Converts any Swift xrtlc files to the correct format to be plotted by the tool.
 '''
 
-import numpy as np
 import os
+import numpy as np
+
 root = os.getcwd()
 dirs = [ item for item in os.listdir(root) if os.path.isdir(os.path.join(root, item)) ]
 
@@ -16,10 +17,10 @@ print(eventlist)
 for folder in eventlist:
     #Check if that folder has an xrtlc
     filelist = os.listdir(folder)
-    if str(folder).split('-')[0]+'xrtlc.txt' in filelist:
-        print(str(folder).split('-')[0]+'xrtlc.txt')
+    if str(folder).split('-', maxsplit=1)[0]+'xrtlc.txt' in filelist:
+        print(str(folder).split('-', maxsplit=1)[0]+'xrtlc.txt')
         #Read and write to the file
-        with open(str(folder)+'/'+str(folder).split('-')[0]+'xrtlc.txt', 'r') as fnew: 
+        with open(str(folder)+'/'+str(folder).split('-', maxsplit=1)[0]+'xrtlc.txt', 'r') as fnew:
             #Open and read lines of the file
             f = fnew.readlines()
             f = np.array(f)
@@ -28,7 +29,8 @@ for folder in eventlist:
         if f[0]=='col1\tcol2\tcol3\tcol4\tcol5\tcol6\tcol7\n':
             print("already fixed")
         else:
-            with open(str(folder)+'/'+str(folder).split('-')[0]+'xrtlc.txt', 'w') as fnew:
+            with open(str(folder)+'/'+
+                str(folder).split('-', maxsplit=1)[0]+'xrtlc.txt', 'w', encoding='utf-8') as fnew:
 
                 #Skip the big header line
                 start = 0
@@ -44,7 +46,8 @@ for folder in eventlist:
                 code = 0
 
                 for i in range(start, len(f)):
-                    if 'Flux' not in str(f[i]) and 'NO' not in str(f[i]): #make sure its not a 'NO NO NO NO NO' line etc
+                    #make sure its not a 'NO NO NO NO NO' line etc
+                    if 'Flux' not in str(f[i]) and 'NO' not in str(f[i]):
                         if 'WTSLEW' in str(f[i]):
                             code = 1
                             if 'upper limits' in str(f[i]):
