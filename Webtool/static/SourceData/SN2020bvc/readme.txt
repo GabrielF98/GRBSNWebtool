@@ -318,6 +318,25 @@ Note (1):
           telescopes at Sutherland (South Africa), CTIO (Chile), Siding Spring
           (Australia), and McDonald (USA), through the Global Supernova Project.
 --------------------------------------------------------------------------------
+
+IMPORTANT: There were some issues in this file relating to large errors of 999 on the magnitude values in the g and r bands. 
+These have been replaced with NaN values. The affected observations are those with the following MJDs:
+58975.275
+58941.474
+58940.431
+58917.391
+58881.557
+58881.494
+58878.555
+58878.528
+58875.552
+58875.495
+58872.554
+58872.448
+58863.453
+58859.468
+58856.573
+58856.558
 =========================================================
 Filename: SN2020bvc_Optical_2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
