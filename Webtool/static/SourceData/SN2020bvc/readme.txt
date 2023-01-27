@@ -421,3 +421,37 @@ Data-type: Early, Late, Radio
 Table 2 
 Submillimeter- and Centimeter-wavelength Radio Observations of SN 2020bvc
 Note. The 230 GHz measurement was obtained using the SMA (upper limit given as 1sigma rms), and the lower-frequency measurements were obtained using the VLA.
+=========================================================
+Filename: SN2020bvc_Optical_4.txt
+Source: https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+Data-type: Early, Late, Optical
+---------------------------------------------------------
+Title: Near-Infrared and Optical Observations of Type IC SN2020oi and 
+       broad-lined IC SN2020bvc: Carbon Monoxide, Dust and High-Velocity 
+       Supernova Ejecta  
+Authors: Rho J., Evans A., Geballe T.R., Banerjee D.P.K., Hoeflich P., 
+         Shahbandeh M., Valenti S., Yoon S.-C., Jin H., Williamson M., 
+         Modjaz M., Hiramatsu D., Howell D.A., Pellegrino C., Vinko J., 
+         Cartier R., Burke J., McCully C., An H., Cha H., Pritchard T., 
+         Wang X., Andrews J., Galbany L., Van Dyk S., Graham M.L., 
+         Blinnikov S., Joshi V., Pal A., Kriskovics L., Ordash A., Szakats R.,
+         Vida K., Chen Z., Li X., Zhang J., Yan S. 
+Figure: Multi-color light curves of SN2020oi
+================================================================================
+Byte-by-byte Description of file: dbf1.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  9 F9.3   d       MJD     Modified Julian Date
+  11- 19 F9.6   mag     mag     Apparent magnitude in Filter
+  21- 31 F11.9  mag   e_mag     Uncertainty in mag
+      33 A1     ---     Filter  Filter used
+  35- 37 A3     ---     Tel     Telescope code (1)
+--------------------------------------------------------------------------------
+Note (1): 
+    ZTF = Zwicky Transient Facility;
+    KON = The 0.8m RC80 telescope of Konkoly Observatory;
+    LCO = Las Cumbres Observatory network with the Sinistro cameras on the 1m 
+          telescopes at Sutherland (South Africa), CTIO (Chile), Siding Spring 
+          (Australia), and McDonald (USA), through the Global Supernova Project.
+--------------------------------------------------------------------------------
