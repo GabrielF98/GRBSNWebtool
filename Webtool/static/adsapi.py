@@ -30,13 +30,16 @@ def bibcode_names(type):
         if i not in urls:
             urls.append(i)
 
-    for i in urls2:
-        if i not in urls:
-            urls.append(i)
+    # We don't want to get the sources from TrigCoords and PeakTimesMags
+    # if we are using this funcition for secondary sources.
+    if type == 'PrimarySources':
+        for i in urls2:
+            if i not in urls:
+                urls.append(i)
 
-    for i in urls3:
-        if i not in urls:
-            urls.append(i)
+        for i in urls3:
+            if i not in urls:
+                urls.append(i)
 
     bibcodes = []
     hyperlinks = []
