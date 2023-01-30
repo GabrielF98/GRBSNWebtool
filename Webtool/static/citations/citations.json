@@ -95,6 +95,10 @@
         "names": "Ho et al.",
         "year": "2020"
     },
+    "https://ui.adsabs.harvard.edu/abs/2023arXiv230111170F/abstract": {
+        "names": "Fulton et al.",
+        "year": "2023"
+    },
     "https://ui.adsabs.harvard.edu/abs/1998ApJ...502L.123G/abstract": {
         "names": "Groot et al.",
         "year": "1998"
@@ -180,7 +184,6 @@
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/29033.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/29033.gcn3",
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/31596.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/31596.gcn3",
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/31739.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/31739.gcn3",
-    "https://gcn.gsfc.nasa.gov/other/221009A.gcn3": "https://gcn.gsfc.nasa.gov/other/221009A.gcn3",
     "https://swift.gsfc.nasa.gov/archive/grb_table/": "https://swift.gsfc.nasa.gov/archive/grb_table/",
     "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3": "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3"
 }
