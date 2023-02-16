@@ -42,8 +42,13 @@
   {% block content %}
 
   {% if 'GCN' in event[0]['Notes']|string() %}
-  <p>
-    <b>NOTE:</b> This GRB-SN has been added to the tool based on a GCN. This means that it has not yet been peer reviewed in a published paper. Any data presented here may be subject to change. The GCN can be found <a href="{{event[0]['PrimarySources']}}" target='_blank'>here </a>.
+  <p style="color:yellow">
+    <b>NOTE:</b> This GRB-SN has been added to the tool based on a GCN. This means that it has not yet been peer reviewed in a published paper. Any data presented here may be subject to change. The GCN can be found <a style="color:#F5B041" href="{{event[0]['PrimarySources']}}" target='_blank'>here</a>.
+  </p>
+
+  {% elif 'Disputed:' in event[0]['Notes']|string() %}
+    <p style="color:yellow">
+    <b>Disputed Classification:</b> {{event[0]['Notes'][9:]|string()}}.
   </p>
   {% endif %}
 
