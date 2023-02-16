@@ -224,6 +224,9 @@ login_manager.init_app(app)
 def load_user(user_id):
     return User.get(user_id)
 
+@app.errorhandler(404)
+def page_not_found(error):
+   return render_template('404.html', title = '404'), 404
 
 # The homepage and its location
 @app.route('/', methods=['POST', 'GET'])
@@ -362,6 +365,9 @@ with open("static/citations/citations(ADSdatadownloads).json") as file3:
 @app.route('/<event_id>')
 def event(event_id):
     event, radec, peakmag = get_post(event_id)
+    print(event)
+    if len(event) == 0:
+        abort(404)
 
     ######################################################
     ########### Referencing for table data ###############
