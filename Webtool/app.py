@@ -198,10 +198,22 @@ def sne_names():
 
 sne = sne_names()
 
+def processing_tag(event_id, band):
+    df = pd.read_csv('static/SourceData/tags.csv')
+    
+    df2 = df[df['Name']==event_id]
+    tag = str(df2.iloc[0][band])
+    if tag == 'Yes':
+        tag = "Pending"
+    
+    else:
+        tag = "No Data"
+
+    return tag
+
 # Creating the instance of the app
 app = Flask(__name__, instance_relative_config=True)
 app.config.from_pyfile('config.py')
-
 
 # Login to the website (to be used only prior to publication)
 login_manager = LoginManager()  # The login manager class created
@@ -212,6 +224,9 @@ login_manager.init_app(app)
 def load_user(user_id):
     return User.get(user_id)
 
+@app.errorhandler(404)
+def page_not_found(error):
+   return render_template('404.html', title = '404'), 404
 
 # The homepage and its location
 @app.route('/', methods=['POST', 'GET'])
@@ -350,6 +365,9 @@ with open("static/citations/citations(ADSdatadownloads).json") as file3:
 @app.route('/<event_id>')
 def event(event_id):
     event, radec, peakmag = get_post(event_id)
+    print(event)
+    if len(event) == 0:
+        abort(404)
 
     ######################################################
     ########### Referencing for table data ###############
@@ -654,7 +672,7 @@ def event(event_id):
         xray.x_range = Range1d(1, 150000)
 
         nodata_warn = Label(x=10, y=1.3e-12, x_units='data', y_units='data',
-                         text='NO DATA', render_mode='css', text_font_size='50pt',
+                         text=processing_tag(event_id, 'Xray'), render_mode='css', text_font_size='50pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         xray.add_layout(nodata_warn)
 
@@ -925,14 +943,14 @@ def event(event_id):
     optical.background_fill_color = 'white'
     optical.border_fill_color = 'white'
 
-    # If track is still 0 print nodata
+    # If track is still 0 print nodata/pending
     if track==0:
         # Set a range so we can always centre the nodata for the spectra plot
         optical.y_range = Range1d(20,17)
         optical.x_range = Range1d(1, 100)
 
         nodata_warn = Label(x=2, y=18.8, x_units='data', y_units='data',
-                         text='NO DATA', render_mode='css', text_font_size='50pt',
+                         text=processing_tag(event_id, 'Optical'), render_mode='css', text_font_size='50pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         optical.add_layout(nodata_warn)
 
@@ -1047,7 +1065,7 @@ def event(event_id):
         radio.y_range = Range1d(1, 3)
 
         nodata_warn = Label(x=1.7, y=1.55, x_units='data', y_units='data',
-                         text='NO DATA', render_mode='css', text_font_size='50pt',
+                         text=processing_tag(event_id, 'Radio'), render_mode='css', text_font_size='50pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         radio.add_layout(nodata_warn)
 
@@ -1232,7 +1250,7 @@ def event(event_id):
         spectrum.y_range = Range1d(0, 1)
 
         citation = Label(x=6100, y=0.405, x_units='data', y_units='data',
-                         text='NO DATA', render_mode='css', text_font_size='80pt',
+                         text=processing_tag(event_id, 'Optical Spectra'), render_mode='css', text_font_size='80pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         spectrum.add_layout(citation)
 
