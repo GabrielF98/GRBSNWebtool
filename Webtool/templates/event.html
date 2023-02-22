@@ -43,11 +43,13 @@
 
   {% if 'GCN' in event[0]['Notes']|string() %}
   <p style="color:yellow">
-    <b>NOTE:</b> This GRB-SN has been added to the tool based on a GCN. This means that it has not yet been peer reviewed in a published paper. Any data presented here may be subject to change. The GCN can be found <a style="color:#F5B041" href="{{event[0]['PrimarySources']}}" target='_blank'>here</a>.
+    <b>NOTE:</b> This GRB-SN has been added to the tool based on a GCN. This means that it has not yet been peer
+    reviewed in a published paper. Any data presented here may be subject to change. The GCN can be found <a
+      style="color:#F5B041" href="{{event[0]['PrimarySources']}}" target='_blank'>here</a>.
   </p>
 
   {% elif 'Disputed:' in event[0]['Notes']|string() %}
-    <p style="color:yellow">
+  <p style="color:yellow">
     <b>Disputed Classification:</b> {{event[0]['Notes'][9:]|string()}}.
   </p>
   {% endif %}
@@ -495,26 +497,36 @@
       href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from
     refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
       href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>.  The download includes a readme file showing the origin of all the data. </p>
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are marked with the "Pending" label. 
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are included in the above download. </p>
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. The download includes a readme file
+    showing the origin of all the data. </p>
+  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
+    marked with the "Pending" label.
+    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
+    included in the above download. </p>
   {% elif event[0]['GRB'] == None %}
   <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
       href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">click here</a>. This data was drawn from refereed
     papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS</a> as well as from <a
       href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>.  The download includes a readme file showing the origin of all the data. </p>
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are marked with the "Pending" label. 
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are included in the above download. </p>
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. The download includes a readme file
+    showing the origin of all the data. </p>
+  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
+    marked with the "Pending" label.
+    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
+    included in the above download. </p>
   {% else %}
   <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-    href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">click here</a>. This data was drawn from refereed
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">click here</a>. This data
+    was drawn from refereed
     papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
       href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. The download includes a readme file showing the origin of all the data. </p>
-    
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are marked with the "Pending" label. 
-    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are included in the above download. </p>
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. The download includes a readme file
+    showing the origin of all the data. </p>
+
+  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
+    marked with the "Pending" label.
+    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
+    included in the above download. </p>
   {% endif %}
   {% else %}
   {% if event[0]['SNe'] == None %}
@@ -522,26 +534,35 @@
       href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from
     refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
       href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>.  The download includes a readme file showing the origin of all the data. </p>
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are marked with the "Pending" label. 
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are included in the above download. </p>
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. The download includes a readme file
+    showing the origin of all the data. </p>
+  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
+    marked with the "Pending" label.
+    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
+    included in the above download. </p>
   {% elif event[0]['GRB'] == None %}
   <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
       href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">click here</a>. This data was drawn from
     refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
       href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>.  The download includes a readme file showing the origin of all the data. </p>
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are marked with the "Pending" label. 
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are included in the above download. </p>
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. The download includes a readme file
+    showing the origin of all the data. </p>
+  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
+    marked with the "Pending" label.
+    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
+    included in the above download. </p>
   {% else %}
   <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
       href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">click here</a>. This data
     was drawn from refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as
     from <a href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>.  The download includes a readme file showing the origin of all the data. </p>
+      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. The download includes a readme file
+    showing the origin of all the data. </p>
 
-    <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are marked with the "Pending" label. 
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are included in the above download. </p>
+  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
+    marked with the "Pending" label.
+    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
+    included in the above download. </p>
   {% endif %}
   {% endif %}
 
@@ -696,7 +717,8 @@
         {% if '20' in needed_dict[radio_refs[i]]['year'] %}
         <tr>
           <td><a href="{{radio_refs}}"
-              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+optical_refs|length+1}} </a>
+              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+optical_refs|length+1}}
+            </a>
           </td>
           <td> {{needed_dict[radio_refs[i]]['names']}}<b> {{needed_dict[radio_refs[i]]['year']}}</b>: <a
               href="{{radio_refs[i]}}" target='_blank'>{{radio_refs[i]}} </a></td>
@@ -704,7 +726,8 @@
         {% elif '19' in needed_dict[radio_refs[i]]['year'] %}
         <tr>
           <td><a href="{{radio_refs[i]}}"
-              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+optical_refs|length+1}} </a>
+              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+optical_refs|length+1}}
+            </a>
           </td>
           <td> {{needed_dict[radio_refs[i]]['names']}}<b> {{needed_dict[radio_refs[i]]['year']}}</b>: <a
               href="{{radio_refs[i]}}" target='_blank'>{{radio_refs[i]}} </a></td>
@@ -712,10 +735,11 @@
         {% else %}
         <tr>
           <td><a href="{{radio_refs[i]}}"
-              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+optical_refs|length+1}} </a>
+              target='_blank'>{{i+event|length+radec_refs|length+swift_refs|length+peakmag_refs|length+optical_refs|length+1}}
+            </a>
           </td>
-          <td> {{needed_dict[radio_refs[i]]['names']}}: <a href="{{radio_refs[i]}}"
-              target='_blank'>{{radio_refs[i]}} </a></td>
+          <td> {{needed_dict[radio_refs[i]]['names']}}: <a href="{{radio_refs[i]}}" target='_blank'>{{radio_refs[i]}}
+            </a></td>
         </tr>
         {% endif %}
         {% endfor %}
@@ -755,9 +779,13 @@
   </div>
 
   <h2><b>Github</b></h2>
-  <p>View the source data <a href="https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData/{{event_id}}" target="_blank">here</a>.</p>
+  <p>View the source data <a
+      href="https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData/{{event_id}}"
+      target="_blank">here</a>.</p>
 
-  <p>Let us know about any missing or erroneous data <a href="https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E" target="_blank">here</a>.</p>
+  <p>Let us know about any missing or erroneous data <a
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E"
+      target="_blank">here</a>.</p>
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.js"></script>
