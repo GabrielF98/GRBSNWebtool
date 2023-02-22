@@ -167,6 +167,7 @@ folder_names = grb_names()
 # Get the bibcodes and hyperlinks
 bibcodes = []
 hyperlinks = []
+randoms = []
 for folder in folder_names:
     df = pd.read_csv('SourceData/'+str(folder)+'/'+str(folder)+'filesources.csv')
     citations = df['Reference']
@@ -177,6 +178,9 @@ for folder in folder_names:
             #Split the bibcode into a list by breaking it each time a / appears
             bibcodes.append(str(i).split('/')[4].replace('%26', '&'))
             hyperlinks.append(str(i))
+        
+        elif 'tns' in str(i):
+            randoms.append(str(i))
 
 
 dictionary3 = {}
@@ -200,6 +204,10 @@ for i in range(len(bibcodes)):
         dictionary_a['names'] = author_list[:-6]
         dictionary_a['year'] = author_list[-5:-1]
     dictionary3[str(hyperlinks[i])] = dictionary_a
+
+# Deal with the randoms
+for i in range(len(randoms)):
+    dictionary3[randoms[i]] = {'names':'Transient Name Server', 'year':''}
 
 #Save the dictionary with json.dump()
 with open("citations/citations(ADSdatadownloads).json", 'w', encoding='utf-8') as file:
