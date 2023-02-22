@@ -11,6 +11,7 @@ from os.path import exists  # Check if a file exists
 import zipfile  # Creating zipfiles for download
 from astropy.time import Time  # Converting MJD to UTC
 import io  # Downloadable zipfiles and for updateable plots
+from scipy.interpolate import interp1d
 
 #################################
 #################################
@@ -1214,18 +1215,23 @@ def event(event_id):
                 wavelength, flux = zip(
                     *data_i['SN'+str(event[0]['SNe'])]['spectra']['data'])
 
-                wavelength, flux = list(wavelength), list(flux)
+                wavelength = np.array(wavelength, dtype=np.float32)
+
+                # Scale the flux using the 5000A flux
+                flux = np.array(flux, dtype=np.float32)
+                if min(wavelength) < 5000:
+                    flux = flux/(interp1d(wavelength, flux)(np.array([5000])))
+                else:
+                    flux = flux/(interp1d(wavelength, flux))(np.array([np.min(wavelength)]))
+
 
                 # Calculating the extent of the limits on the plots
-                float_flux = []
-                for j in flux:
-                    float_flux.append(float(j))
 
-                max_spec[i] = max(float_flux)
-                min_spec[i] = min(float_flux)
+                max_spec[i] = max(flux)
+                min_spec[i] = min(flux)
 
                 # Create a dictionary of the necessary info
-                data_dict = {'wavelength': wavelength, 'flux': float_flux,
+                data_dict = {'wavelength': wavelength, 'flux': flux,
                              'time': [data_i['SN'+str(event[0]['SNe'])]['spectra']['time']]*len(wavelength)}
 
                 ############ SOURCES ############
@@ -1300,11 +1306,13 @@ def event(event_id):
 
                 # Legend label will be the elapsed time since the trigger for now
                 spectrum.line('wavelength', 'flux', source=data_source,
-                              color=color[i], muted_color='gray', muted_alpha=0.1, legend_label=str(np.round(float(data_dict['time_since'][0]), 2))+' days')
+                              color=color[i], muted_color='gray', muted_alpha=0.1, legend_label=str(np.round(float(data_dict['time_since'][0]), 2))+' days', line_width=2)
 
         # Range
-        spectrum.y_range = Range1d(
-            min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
+        spectrum.y_range = Range1d(max(min(min_spec)-0.1*min(min_spec), -1), min(0.1*max(max_spec)+max(max_spec), 5))
+        # spectrum.y_range = Range1d(
+        #     min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
+
 
     #################################
     # ADS data ######################
@@ -1344,7 +1352,7 @@ def event(event_id):
 
         # Choose colours
         colour = viridis(len(epochs))
-        from scipy.interpolate import interp1d
+        
         # Plot
         for i in range(len(epochs)):
             # Perform scaling of the spectrum
@@ -1363,7 +1371,7 @@ def event(event_id):
             ]
 
             spectrum.line('rest_wavelength', 'scaled_flux', source=spectra_cds,
-                          legend_label=str(np.round(float(epochs[i]), 2))+' days', color=colour[i], muted_color='gray', muted_alpha=0.1)
+                          legend_label=str(np.round(float(epochs[i]), 2))+' days', color=colour[i], muted_color='gray', muted_alpha=0.1, line_width=2)
 
     else:
         # Notify when there is no data present
