@@ -634,5 +634,25 @@
     "https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract": {
         "names": "Rhodes et al.",
         "year": "2021"
+    },
+    "https://www.wis-tns.org/object/2016jca": {
+        "names": "Transient Name Server",
+        "year": ""
+    },
+    "https://www.wis-tns.org/object/2017htp": {
+        "names": "Transient Name Server",
+        "year": ""
+    },
+    "https://www.wis-tns.org/object/2017iuk": {
+        "names": "Transient Name Server",
+        "year": ""
+    },
+    "https://www.wis-tns.org/object/2019jrj": {
+        "names": "Transient Name Server",
+        "year": ""
+    },
+    "https://www.wis-tns.org/object/2020bvc": {
+        "names": "Transient Name Server",
+        "year": ""
     }
 }
