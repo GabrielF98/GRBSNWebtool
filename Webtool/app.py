@@ -1219,14 +1219,15 @@ def event(event_id):
 
                 # Scale the flux using the 5000A flux
                 flux = np.array(flux, dtype=np.float32)
-                if min(wavelength) < 5000:
-                    flux = flux/(interp1d(wavelength, flux)(np.array([5000])))
+                if max(wavelength) < 5000:
+                    flux = flux/flux[-1]
+                elif min(wavelength) > 5000:
+                    flux = flux/flux[0]
                 else:
-                    flux = flux/(interp1d(wavelength, flux))(np.array([np.min(wavelength)]))
+                    flux = flux/(interp1d(wavelength, flux)(np.array([5000])))
 
 
                 # Calculating the extent of the limits on the plots
-
                 max_spec[i] = max(flux)
                 min_spec[i] = min(flux)
 
