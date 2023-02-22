@@ -1086,21 +1086,21 @@ def masterfileformat(event):
                                                    [file_sources[file_sources['Filename'] ==
                                                                  file].index[0], 'Reference']]
 
-            # Make sure the elapsed time is in seconds,
-            # if its in days/minutes/hours then convert it.
+            # Make sure the elapsed time is in days,
+            # if its in seconds/minutes/hours then convert it.
             time = np.array(data['time'], dtype=np.float64)
             for i in range(len(data['time_unit'])):
-                if data['time_unit'][i] == 'days':
-                    time[i] = float(time[i])*86400
+                if data['time_unit'][i] == 'seconds':
+                    time[i] = float(time[i])/86400
 
                 elif data['time_unit'][i] == 'minutes':
-                    time[i] = float(time[i])*60
+                    time[i] = float(time[i])/1440
 
                 elif data['time_unit'][i] == 'hours':
-                    time[i] = float(time[i])*3600
+                    time[i] = float(time[i])/24
 
             data['time'] = time
-            data['time_unit'] = 'seconds'
+            data['time_unit'] = 'days'
 
             # Append pandas
             spectra_pandas.append(data)
