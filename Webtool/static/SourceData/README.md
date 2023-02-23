@@ -90,7 +90,9 @@ Time should always appear in all files. Sometimes the date will also appear.
     
  * `dtime` Error on the time. 
  
- * `time_frame` Are the times in the rest frame of the observer or of the event. This was a late addition to the webtool files so it is not included for GRBs between 2000-2005. We will work to updated this in future.
+ * `time_frame` Are the times in the rest frame of the observer or of the event. This was a late addition to the webtool files so it is not included for GRBs between 2000-2005. We will work to updated this in future. Options are:
+    * `event` For times given in the rest frame of the event.
+    * `observer` For times given in the rest frame of the observer. 
 
 ***Miscellaneous***
 * `integration` The duration of the observation. The default unit is seconds. This may have been converted from an exposure column in the original file. 
