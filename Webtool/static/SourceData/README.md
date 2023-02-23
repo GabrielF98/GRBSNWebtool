@@ -198,6 +198,8 @@ Time should always appear in all files. Sometimes the date will also appear.
 
   * `unspecified` Used when neither AB nor Vega are clearly specified.
 
+* `mag_type` Supplied only when data are in absolute magnitudes. The value will be set to `absolute`.
+
 * `mag_limit` Is the magnitude an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
 
 * `seeing` The seeing. Default unit is `arcseconds`.
