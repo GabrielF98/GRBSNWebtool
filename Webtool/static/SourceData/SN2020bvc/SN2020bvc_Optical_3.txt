@@ -1,5 +1,5 @@
 instrument	band	date	mag	mag_limit	dmag	date_unit	mag_unit	time_unit	time	dtime
-ASAS-SN	g	58883.6	18.6	-1	NaN	MJD	unspecified	days	0.84	NaN
+ASAS-SN	g	58883.6	18.6	1	NaN	MJD	unspecified	days	0.84	NaN
 ASAS-SN	g	58884.1	17.0	0	NaN	MJD	unspecified	days	1.34	NaN
 ZTF	g	58884.5	17.33	0	0.05	MJD	unspecified	days	1.74	NaN
 ZTF	g	58887.5	17.06	0	0.05	MJD	unspecified	days	4.74	NaN
