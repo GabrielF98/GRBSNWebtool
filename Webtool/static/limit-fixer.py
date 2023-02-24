@@ -9,9 +9,10 @@ import pandas as pd
 from plotfuncs import list_grbs_with_data as events_lister
 
 event_list = events_lister()
+# Possible optical data tags in filenames.
+optical_filetags = ['optical', 'nir', 'uv', 'ir']
 
 # Run through all the files. Convert them to the format we want.
-event_list = 
 for i in range(len(event_list)):
 
 	os.chdir("SourceData/")
@@ -29,7 +30,7 @@ for i in range(len(event_list)):
 				new_mag_limit = np.zeros(len(data['mag_limit']))
 
 				for i in range(len(data['mag_limit'])):
-					new_mag_limit[i] = data['mag_limit'][i]*(-1)
+					new_mag_limit[i] = int(data['mag_limit'][i]*(-1))
 				
 				data['mag_limit'] = new_mag_limit
 
