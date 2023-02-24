@@ -1025,29 +1025,59 @@ def masterfileformat(event):
         elif any(substring in file.lower() for substring in optical_filetags):
             data = pd.read_csv(file, sep='\t')
 
-            # Add a column for the ads abstract link - source
-            data['reference'] = len(data['time'])*[file_sources.at
-                                                   [file_sources[file_sources['Filename'] ==
-                                                                 file].index[0], 'Reference']]
+            keys = list(data.keys())
 
-            # Make sure the elapsed time is in days,
-            # if its in seconds/minutes/hours then convert it.
-            time = np.array(data['time'], dtype=np.float64)
-            for i in range(len(data['time_unit'])):
-                if data['time_unit'][i] == 'seconds':
-                    time[i] = float(time[i])/86400
+            if 'mag_type' in keys:
+                if data['mag_type'][0] != 'absolute':
 
-                elif data['time_unit'][i] == 'minutes':
-                    time[i] = float(time[i])/1440
+                    # Add a column for the ads abstract link - source
+                    data['reference'] = len(data['time'])*[file_sources.at
+                                                        [file_sources[file_sources['Filename'] ==
+                                                                        file].index[0], 'Reference']]
 
-                elif data['time_unit'][i] == 'hours':
-                    time[i] = float(time[i])/24
+                    # Make sure the elapsed time is in days,
+                    # if its in seconds/minutes/hours then convert it.
+                    time = np.array(data['time'], dtype=np.float64)
+                    for i in range(len(data['time_unit'])):
+                        if data['time_unit'][i] == 'seconds':
+                            time[i] = float(time[i])/86400
 
-            data['time'] = time
-            data['time_unit'] = 'days'
+                        elif data['time_unit'][i] == 'minutes':
+                            time[i] = float(time[i])/1440
 
-            # Append pandas
-            optical_pandas.append(data)
+                        elif data['time_unit'][i] == 'hours':
+                            time[i] = float(time[i])/24
+
+                    data['time'] = time
+                    data['time_unit'] = 'days'
+
+                    # Append pandas
+                    optical_pandas.append(data)
+            
+            else:
+                # Add a column for the ads abstract link - source
+                data['reference'] = len(data['time'])*[file_sources.at
+                                                    [file_sources[file_sources['Filename'] ==
+                                                                    file].index[0], 'Reference']]
+
+                # Make sure the elapsed time is in days,
+                # if its in seconds/minutes/hours then convert it.
+                time = np.array(data['time'], dtype=np.float64)
+                for i in range(len(data['time_unit'])):
+                    if data['time_unit'][i] == 'seconds':
+                        time[i] = float(time[i])/86400
+
+                    elif data['time_unit'][i] == 'minutes':
+                        time[i] = float(time[i])/1440
+
+                    elif data['time_unit'][i] == 'hours':
+                        time[i] = float(time[i])/24
+
+                data['time'] = time
+                data['time_unit'] = 'days'
+
+                # Append pandas
+                optical_pandas.append(data)
 
         # Xray files
         elif any(substring in file.lower() for substring in xray_filetags):
