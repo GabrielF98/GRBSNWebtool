@@ -1,11 +1,11 @@
-freq	image_rms	flux_density	flux_density_limit	time	luminosity	freq_unit	image_rms_unit	flux_density_unit	time_unit	luminosity_unit	dtime	reference	date	integration	dflux_density	date_unit	integration_unit
-6.0	5.1	15.3	1	10.0	<0.4e27	GHz	muJy/beam	microJy	days	erg s^-1 Hz^-1	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract	NaN	NaN	NaN	NaN	NaN
-1.85	55.0	165.0	1	10.0	<4.1e27	GHz	muJy/beam	microJy	days	erg s^-1 Hz^-1	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract	NaN	NaN	NaN	NaN	NaN
-1.22	91.0	281.0	1	10.0	<6.9e27	GHz	muJy/beam	microJy	days	erg s^-1 Hz^-1	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract	NaN	NaN	NaN	NaN	NaN
-1.4	NaN	89.0	0	3.55	NaN	GHz	NaN	microJy	days	NaN	0.25	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Feb-21.452-21.951	5.9	108.0	yyyy-month-deciday-deciday	hours
-2.3	NaN	-35.0	0	10.535	NaN	GHz	NaN	microJy	days	NaN	0.2249999999999996	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Feb-28.463-28.908	5.2	70.0	yyyy-month-deciday-deciday	hours
-4.9	NaN	257.0	0	3.555	NaN	GHz	NaN	microJy	days	NaN	0.2249999999999998	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Feb-21.481-21.927	5.2	36.0	yyyy-month-deciday-deciday	hours
-4.9	NaN	125.0	0	6.665	NaN	GHz	NaN	microJy	days	NaN	0.125	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Feb-24.688-24.943	5.9	38.0	yyyy-month-deciday-deciday	hours
-4.9	NaN	106.0	0	10.53	NaN	GHz	NaN	microJy	days	NaN	0.25	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Feb-28.433-28.932	5.8	42.0	yyyy-month-deciday-deciday	hours
-4.9	NaN	6.0	0	20.625	NaN	GHz	NaN	microJy	days	NaN	0.1350000000000015	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Mar-10.642-10.905	6.1	34.0	yyyy-month-deciday-deciday	hours
-4.9	NaN	8.0	0	42.45	NaN	GHz	NaN	microJy	days	NaN	0.25	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Apr-01.345-01.844	12.0	24.0	yyyy-month-deciday-deciday	hours
+freq	image_rms	flux_density	flux_density_limit	time	luminosity	freq_unit	image_rms_unit	flux_density_unit	time_unit	luminosity_unit	dtime	instrument	reference	date	integration	dflux_density	date_unit	integration_unit
+6.0	5.1	15.3	1	10.0	<0.4e27	GHz	muJy/beam	microJy	days	erg s^-1 Hz^-1	NaN	VLA	https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract	NaN	NaN	NaN	NaN	NaN
+1.85	55.0	165.0	1	10.0	<4.1e27	GHz	muJy/beam	microJy	days	erg s^-1 Hz^-1	NaN	VLA	https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract	NaN	NaN	NaN	NaN	NaN
+1.22	91.0	281.0	1	10.0	<6.9e27	GHz	muJy/beam	microJy	days	erg s^-1 Hz^-1	NaN	VLA	https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract	NaN	NaN	NaN	NaN	NaN
+1.4	NaN	89.0	0	3.55	NaN	GHz	NaN	microJy	days	NaN	0.25	WSRT	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Feb-21.452-21.951	5.9	108.0	yyyy-month-deciday-deciday	hours
+2.3	NaN	-35.0	0	10.535	NaN	GHz	NaN	microJy	days	NaN	0.2249999999999996	WSRT	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Feb-28.463-28.908	5.2	70.0	yyyy-month-deciday-deciday	hours
+4.9	NaN	257.0	0	3.555	NaN	GHz	NaN	microJy	days	NaN	0.2249999999999998	WSRT	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Feb-21.481-21.927	5.2	36.0	yyyy-month-deciday-deciday	hours
+4.9	NaN	125.0	0	6.665	NaN	GHz	NaN	microJy	days	NaN	0.125	WSRT	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Feb-24.688-24.943	5.9	38.0	yyyy-month-deciday-deciday	hours
+4.9	NaN	106.0	0	10.53	NaN	GHz	NaN	microJy	days	NaN	0.25	WSRT	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Feb-28.433-28.932	5.8	42.0	yyyy-month-deciday-deciday	hours
+4.9	NaN	6.0	0	20.625	NaN	GHz	NaN	microJy	days	NaN	0.1350000000000015	WSRT	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Mar-10.642-10.905	6.1	34.0	yyyy-month-deciday-deciday	hours
+4.9	NaN	8.0	0	42.45	NaN	GHz	NaN	microJy	days	NaN	0.25	WSRT	https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract	2006-Apr-01.345-01.844	12.0	24.0	yyyy-month-deciday-deciday	hours
