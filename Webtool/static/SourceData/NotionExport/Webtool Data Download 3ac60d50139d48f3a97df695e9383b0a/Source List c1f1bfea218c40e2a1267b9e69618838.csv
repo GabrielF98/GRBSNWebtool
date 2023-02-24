@@ -53,7 +53,7 @@ GRB211023A,New Event,Unprocessed,No,No,No,No,No
 GRB220219B,New Event,Unprocessed,No,No,No,No,No
 GRB221009A-SN2022xiw,New Event,Unprocessed,Yes,No,No,No,No
 GRB970228,ADS Exhausted,Unprocessed,No,Yes,No,Yes,No
-GRB980326,ADS Exhausted,Unprocessed,No,Yes,No,No,No
+GRB980326,ADS Exhausted,Processed,No,Yes,No,No,Yes
 GRB980425-SN1998bw,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 GRB990712,ADS Exhausted,Unprocessed,No,Yes,No,No,No
 GRB991208,ADS Exhausted,Unprocessed,No,Yes,No,Yes,No
