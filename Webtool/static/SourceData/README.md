@@ -89,6 +89,10 @@ Time should always appear in all files. Sometimes the date will also appear.
     * `days`
     
  * `dtime` Error on the time. 
+ 
+ * `time_frame` Are the times in the rest frame of the observer or of the event. This was a late addition to the webtool files so it is not included for GRBs between 2000-2005. We will work to updated this in future. Options are:
+    * `event` For times given in the rest frame of the event.
+    * `observer` For times given in the rest frame of the observer. 
 
 ***Miscellaneous***
 * `integration` The duration of the observation. The default unit is seconds. This may have been converted from an exposure column in the original file. 
@@ -198,6 +202,10 @@ Time should always appear in all files. Sometimes the date will also appear.
 
   * `unspecified` Used when neither AB nor Vega are clearly specified.
 
+* `mag_type` Supplied only when data are in absolute magnitudes. Not included for GRBs from 2000-2005. Options are:
+   * `apparent`
+   * `absolute`.
+
 * `mag_limit` Is the magnitude an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
 
 * `seeing` The seeing. Default unit is `arcseconds`.
@@ -217,6 +225,10 @@ Time should always appear in all files. Sometimes the date will also appear.
 * `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
 
 * `extinction` The correction to the magnitude due to extinction, measured in the associated band and with the associated units.
+
+* `extinction_corrected` Have the data been extinction-corrected. Not included for GRBs from 2000-2005. Options are:
+   * `true`
+   * `false`
 
 * `kcorr` The k correction. Used in optical/NIR/UV This will be followed by the relevant bands being corrected between e.g. `kcorr_vs` for correction from V to STIS.
   * `kcorr_bs`
