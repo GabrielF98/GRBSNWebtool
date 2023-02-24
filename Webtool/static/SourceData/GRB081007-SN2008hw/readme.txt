@@ -1,10 +1,14 @@
 Event Name: GRB081007-SN2008hw
 =========================================================
 Filename: GRB081007-SN2008hw_NIR_Optical.txt
+Source: https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract
+Data-type: Early, NIR, Optical
 ---------------------------------------------------------
 Notes. The GRB trigger time is t0 = 54 746.225 MJD. All data corrected for AV,host = 0.68 ± 0.08 mag (SMC). Image subtraction of the host was performed for g′r′i′z′.
 =========================================================
 Filename: GRB081007-SN2008hw_Optical1.txt
+Source: https://ui.adsabs.harvard.edu/abs/2013ApJ...774..114J/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 Title: GRB081007 and GRB090424: the surrounding medium, outflows and supernovae 
 Authors: Jin Z.-P., Covino S., Della Valle M., Ferrero P., Fugazza D.,
