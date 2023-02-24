@@ -1216,9 +1216,22 @@ def event(event_id):
                     *data_i['SN'+str(event[0]['SNe'])]['spectra']['data'])
 
                 wavelength = np.array(wavelength, dtype=np.float32)
-
-                # Scale the flux using the 5000A flux
                 flux = np.array(flux, dtype=np.float32)
+
+                # Convert to rest wavelength if necessary
+                redshift = []
+                for o in range(len(event)):
+                    if event[o]['z'] is not None:
+                        redshift.append(float(event[o]['z']))
+                
+                if 'deredshifted' in list(data_i['SN'+str(event[0]['SNe'])]['spectra'].keys()):
+                    if data_i['SN'+str(event[0]['SNe'])]['spectra']['deredshifted'] == 'False':
+                        wavelength = wavelength/(1+redshift[0])
+                
+                else:
+                    wavelength = wavelength/(1+redshift[0])
+                
+                # Scale the flux using the 5000A flux
                 if max(wavelength) < 5000:
                     flux = flux/flux[-1]
                 elif min(wavelength) > 5000:
@@ -1297,7 +1310,7 @@ def event(event_id):
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
                 tooltips = [
-                    ('Wavelength', '@wavelength{0}'),
+                    ('Rest wavelength', '@wavelength{0}'),
                     ('Wavelength unit', '@wave_unit'),
                     ('Flux', '@flux'),
                     ('Flux unit', '@flux_unit'),
@@ -1364,7 +1377,7 @@ def event(event_id):
             spectra_cds = ColumnDataSource(scaled_spectrum)
 
             tooltips = [
-                ('Wavelength', '@obs_wavelength{0}'),
+                ('Rest wavelength', '@obs_wavelength{0}'),
                 ('Flux', '@scaled_flux'),
                 ('Instrument', '@instrument'),
                 ('Time [days]', '@time'),
@@ -1417,7 +1430,7 @@ def event(event_id):
     spectrum.yaxis.minor_tick_line_color = 'black'
 
     # Axis labels
-    spectrum.xaxis.axis_label = 'Wavelength [Å]'
+    spectrum.xaxis.axis_label = 'Rest Frame Wavelength [Å]'
     spectrum.yaxis.axis_label = 'Flux'
 
     # Axis Colors
