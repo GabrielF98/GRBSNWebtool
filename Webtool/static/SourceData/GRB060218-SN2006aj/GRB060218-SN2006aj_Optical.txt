@@ -1,7 +1,7 @@
-date	mag	mag_limit	dmag	band	time_frame	extinction_corrected	mag_type	mag_unit	date_unit	time	time_unit	dtime
-2006-09-17T00:00:00	20.64	0	0.1	B	observer	False	apparent	Vega	utc	210.8510300925926	days	NaN
-2006-09-17T00:00:00	20.23	0	0.1	V	observer	False	apparent	Vega	utc	210.8510300925926	days	NaN
-2006-09-17T00:00:00	19.82	0	0.1	R	observer	False	apparent	Vega	utc	210.8510300925926	days	NaN
-2006-11-27T00:00:00	20.71	0	0.1	B	observer	False	apparent	Vega	utc	281.85103009259257	days	NaN
-2006-11-27T00:00:00	20.34	0	0.1	V	observer	False	apparent	Vega	utc	281.85103009259257	days	NaN
-2006-11-27T00:00:00	19.86	0	0.1	R	observer	False	apparent	Vega	utc	281.85103009259257	days	NaN
+date	mag	mag_limit	dmag	band	time_frame	extinction_corrected	mag_type	mag_unit	date_unit	time	time_unit	dtime	instrument
+2006-09-17T00:00:00	20.64	0	0.1	B	observer	False	apparent	Vega	utc	210.8510300925926	days	NaN	Subaru 8.2m
+2006-09-17T00:00:00	20.23	0	0.1	V	observer	False	apparent	Vega	utc	210.8510300925926	days	NaN	Subaru 8.2m
+2006-09-17T00:00:00	19.82	0	0.1	R	observer	False	apparent	Vega	utc	210.8510300925926	days	NaN	Subaru 8.2m
+2006-11-27T00:00:00	20.71	0	0.1	B	observer	False	apparent	Vega	utc	281.85103009259257	days	NaN	Subaru 8.2m
+2006-11-27T00:00:00	20.34	0	0.1	V	observer	False	apparent	Vega	utc	281.85103009259257	days	NaN	Subaru 8.2m
+2006-11-27T00:00:00	19.86	0	0.1	R	observer	False	apparent	Vega	utc	281.85103009259257	days	NaN	Subaru 8.2m
