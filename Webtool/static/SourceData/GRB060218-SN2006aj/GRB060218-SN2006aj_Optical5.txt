@@ -1,0 +1,16 @@
+date	instrument	integration	seeing	mag	mag_limit	dmag	time_frame	extinction_corrected	date_unit	mag_unit	band	mag_type	time	time_unit	dtime
+2006-Feb-21.041	UT1+FORS2 (300V+GG435)	1800	1.7	18.36	0	0.04	observer	False	yyyy-month-deciday	unspecified	V	apparent	2.892025462962963	days	NaN
+2006-Feb-22.159	Lick+KDBS (D55+600/4310+300/7500)	6000	2.02	18.06	0	0.09	observer	False	yyyy-month-deciday	unspecified	V	apparent	4.010023148148148	days	NaN
+2006-Feb-23.026	UT1+FORS2 (300V)	1800	1.68	17.93	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	4.877025462962963	days	NaN
+2006-Feb-25.023	UT1+FORS2 (300V)	1800	1.13	17.68	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	6.874027777777778	days	NaN
+2006-Feb-26.016	UT1+FORS2 (300V)	1800	1.08	17.61	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	7.867025462962963	days	NaN
+2006-Feb-27.023	UT1+FORS1 (300V)	1800	1.77	17.55	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	8.874027777777778	days	NaN
+2006-Feb-28.025	UT1+FORS2 (300V)	2593	1.14	17.54	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	9.87601851851852	days	NaN
+2006-Mar-01.009	UT1+FORS2 (300V)	1800	1.63	17.56	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	10.860023148148148	days	NaN
+2006-Mar-02.007	UT1+FORS2 (300V)	1800	1.12	17.61	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	11.858020833333333	days	NaN
+2006-Mar-03.010	UT1+FORS2 (300V)	1800	1.26	17.66	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	12.861018518518518	days	NaN
+2006-Mar-05.027	UT1+FORS1 (300V)	1800	0.83	17.71	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	14.878020833333334	days	NaN
+2006-Mar-06.014	UT1+FORS2 (300V)	1800	1.7	17.79	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	15.865023148148149	days	NaN
+2006-Mar-08.007	UT1+FORS1 (300V)	1800	1.89	18.0	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	17.858020833333335	days	NaN
+2006-Mar-09.013	UT1+FORS1 (300V)	1800	0.95	18.06	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	18.86402777777778	days	NaN
+2006-Mar-10.013	UT1+FORS1 (300V)	1800	1.4	18.17	0	0.03	observer	False	yyyy-month-deciday	unspecified	V	apparent	19.86402777777778	days	NaN
