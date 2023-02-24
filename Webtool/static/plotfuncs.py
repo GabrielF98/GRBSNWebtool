@@ -586,7 +586,6 @@ def delta_time(dataframe):
 
             # yyyy-month-deciday-deciday
             elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
-                print(dataframe)
                 # Split up the date.
                 date = dataframe['date'][i].split('-')
                 year = date[0]
@@ -828,7 +827,6 @@ def time_formats(dataframe):
 
             # days-days
             if dataframe['time_unit'][i] == "days-days":
-                print('Hello I am doing this one')
                 check = 1
                 # Initial time and second time.
                 t1 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[0])
@@ -836,7 +834,6 @@ def time_formats(dataframe):
                 time[i] = t1+(t2-t1)/2
                 dtime[i] = (t2-t1)/2
                 dataframe['time_unit'][i] = 'days'
-        print(time)
     # If there was a need to make the dtime column then make a dtime column.
     if check == 1:
         dataframe['dtime'] = dtime
