@@ -114,53 +114,53 @@ date	time	mag	mag_limit	dmag	integration	band	instrument	date_unit	extinction_co
 2006-Mar-11.9993	21.8503	17.19	0	0.05	60+30	I	VLT	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006A%26A...457..857F/abstract	NaN	NaN
 2006-Mar-13.0181	22.8691	17.21	0	0.05	60	I	VLT	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006A%26A...457..857F/abstract	NaN	NaN
 2006-Mar-14.0027	23.8537	17.34	0	0.03	60	I	VLT	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006A%26A...457..857F/abstract	NaN	NaN
-NaN	4.88	17.51	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	4.88	17.26	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	5.87	17.34	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	5.87	17.2	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	6.87	17.22	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	6.87	17.08	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	7.86	17.13	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	7.86	17.02	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	8.87	17.06	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	8.87	16.88	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	9.86	16.95	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	9.86	16.82	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	11.86	16.75	0	0.04	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	12.86	16.68	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	13.87	16.92	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	13.87	16.76	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	14.86	16.93	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	14.86	16.7	0	0.02	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	15.87	16.97	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	15.87	16.68	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	16.86	16.98	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	16.86	16.65	0	0.02	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	17.86	16.99	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	17.86	16.61	0	0.02	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	18.86	17.03	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	18.86	16.68	0	0.02	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	19.86	17.11	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	19.86	16.65	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	20.86	17.11	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	20.86	16.67	0	0.02	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	21.85	17.18	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	21.85	16.68	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	22.85	17.21	0	0.02	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	22.85	16.71	0	0.04	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	23.86	17.27	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	24.85	17.3	0	0.04	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	24.85	16.78	0	0.05	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	25.85	17.4	0	0.02	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	25.85	16.76	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	26.84	17.4	0	0.02	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	26.84	16.91	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	27.86	17.5	0	0.02	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	27.86	16.91	0	0.04	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	28.85	17.55	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	28.85	16.82	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	29.85	17.6	0	0.01	NaN	I	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
-NaN	29.85	16.96	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	4.88	17.51	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	4.88	17.26	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	5.87	17.34	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	5.87	17.2	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	6.87	17.22	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	6.87	17.08	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	7.86	17.13	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	7.86	17.02	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	8.87	17.06	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	8.87	16.88	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	9.86	16.95	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	9.86	16.82	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	11.86	16.75	0	0.04	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	12.86	16.68	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	13.87	16.92	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	13.87	16.76	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	14.86	16.93	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	14.86	16.7	0	0.02	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	15.87	16.97	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	15.87	16.68	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	16.86	16.98	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	16.86	16.65	0	0.02	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	17.86	16.99	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	17.86	16.61	0	0.02	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	18.86	17.03	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	18.86	16.68	0	0.02	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	19.86	17.11	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	19.86	16.65	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	20.86	17.11	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	20.86	16.67	0	0.02	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	21.85	17.18	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	21.85	16.68	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	22.85	17.21	0	0.02	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	22.85	16.71	0	0.04	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	23.86	17.27	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	24.85	17.3	0	0.04	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	24.85	16.78	0	0.05	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	25.85	17.4	0	0.02	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	25.85	16.76	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	26.84	17.4	0	0.02	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	26.84	16.91	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	27.86	17.5	0	0.02	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	27.86	16.91	0	0.04	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	28.85	17.55	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	28.85	16.82	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	29.85	17.6	0	0.01	NaN	I	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
+NaN	29.85	16.96	0	0.03	NaN	J	ANDICAM	NaN	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract	NaN	NaN
 2006-Feb-23.932	5.783	17.74	0	0.06	900	U	NOT	yyyy-month-deciday	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006A%26A...454..503S/abstract	NaN	NaN
 2006-Feb-24.006	5.857	17.43	0	0.3	120	U	D1.5m	yyyy-month-deciday	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006A%26A...454..503S/abstract	NaN	NaN
 2006-Feb-24.009	5.86	17.33	0	0.16	200	U	D1.5m	yyyy-month-deciday	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006A%26A...454..503S/abstract	NaN	NaN
@@ -310,113 +310,113 @@ NaN	29.85	16.96	0	0.03	NaN	J	NaN	NaN	False	observer	unspecified	apparent	days	Na
 2006-Mar-08.007	17.858020833333335	18.0	0	0.03	1800	V	UT1+FORS1 (300V)	yyyy-month-deciday	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006Natur.442.1011P/abstract	1.89	NaN
 2006-Mar-09.013	18.86402777777778	18.06	0	0.03	1800	V	UT1+FORS1 (300V)	yyyy-month-deciday	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006Natur.442.1011P/abstract	0.95	NaN
 2006-Mar-10.013	19.86402777777778	18.17	0	0.03	1800	V	UT1+FORS1 (300V)	yyyy-month-deciday	False	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006Natur.442.1011P/abstract	1.4	NaN
-2006-Feb-22.173	4.0240277777777775	17.1	0	0.07	NaN	U	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-20.208	2.0590277777777777	17.89	0	0.06	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-25.114	6.965023148148148	16.96	0	0.02	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-23.210	5.061030092592593	16.87	0	0.04	NaN	U	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-21.196	3.047025462962963	17.73	0	0.06	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-26.112	7.963020833333333	16.82	0	0.03	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-25.119	6.970023148148148	16.82	0	0.04	NaN	U	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-22.186	4.037025462962963	17.5	0	0.03	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-27.162	9.013020833333334	16.84	0	0.1	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-26.154	8.005023148148148	16.92	0	0.05	NaN	U	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-23.196	5.047025462962963	17.3	0	0.03	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-28.136	9.987025462962963	16.83	0	0.02	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-28.160	10.011030092592591	16.93	0	0.04	NaN	U	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-25.112	6.963020833333333	17.1	0	0.02	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-02.140	11.991030092592592	16.83	0	0.04	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-02.153	12.004027777777775	17.32	0	0.07	NaN	U	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-26.140	7.991030092592593	17.01	0	0.03	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-03.098	12.949027777777776	16.85	0	0.04	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-04.106	13.957025462962964	17.62	0	0.06	NaN	U	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-27.167	9.018020833333331	17.0	0	0.11	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-04.094	13.945023148148149	16.88	0	0.04	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-06.135	15.986018518518518	17.98	0	0.2	NaN	U	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-28.168	10.019027777777778	16.93	0	0.02	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-06.113	15.964027777777778	16.9	0	0.06	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-16.111	25.962025462962963	19.96	0	0.13	NaN	U	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-02.143	11.994027777777776	16.97	0	0.03	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-16.106	25.957025462962964	17.6	0	0.04	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-20.214	2.065023148148148	18.08	0	0.1	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-3.102	12.953020833333332	17.04	0	0.02	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-20.191	2.042025462962963	17.65	0	0.08	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-22.169	4.020023148148148	17.79	0	0.03	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-04.097	13.948020833333333	17.09	0	0.05	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-21.172	3.0230208333333333	17.82	0	0.2	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-23.202	5.053020833333333	17.66	0	0.03	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-06.118	15.969027777777775	17.25	0	0.04	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-22.177	4.028020833333334	17.36	0	0.03	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-25.109	6.9600231481481485	17.47	0	0.02	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-13.112	22.96302083333333	17.86	0	0.03	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-23.100	4.951041666666667	17.24	0	0.04	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-26.126	7.977025462962963	17.44	0	0.02	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-16.108	25.959027777777777	18.07	0	0.03	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-25.116	6.967025462962963	16.86	0	0.03	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-27.173	9.024027777777778	17.37	0	0.13	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-19.146	0.9970254629629628	17.25	0	0.1	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-26.102	7.953020833333333	16.81	0	0.1	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-28.015	9.866030092592592	17.47	0	0.02	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-19.230	1.0810300925925926	17.34	0	0.1	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-27.158	9.009027777777778	16.74	0	0.06	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-02.147	11.998020833333332	17.66	0	0.02	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-20.162	2.013020833333333	17.76	0	0.06	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-28.134	9.985023148148148	16.77	0	0.06	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-03.105	12.95601851851852	17.78	0	0.02	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-20.168	2.0190277777777776	17.76	0	0.06	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-02.130	11.98101851851852	16.7	0	0.1	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-04.100	13.951018518518518	17.89	0	0.03	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-20.191	2.042025462962963	17.77	0	0.06	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-03.089	12.940023148148148	16.72	0	0.05	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-06.124	15.975023148148148	18.19	0	0.07	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-20.240	2.0910185185185184	17.78	0	0.06	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-04.091	13.942025462962963	16.65	0	0.06	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-13.114	22.96502314814815	19.2	0	0.05	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-21.180	3.0310185185185183	17.78	0	0.15	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-06.109	15.960023148148148	16.73	0	0.06	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-16.109	25.96002314814815	19.58	0	0.04	NaN	B	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-22.161	4.012025462962963	17.4	0	0.02	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-13.109	22.96002314814815	17.09	0	0.06	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-20.162	2.013020833333333	17.84	0	0.06	NaN	V	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Feb-23.192	5.043020833333333	17.22	0	0.03	NaN	R	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-Mar-16.105	25.95603009259259	17.17	0	0.04	NaN	I	NaN	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
-2006-09-17T00:00:00	210.8510300925926	20.64	0	0.1	NaN	B	NaN	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
-2006-09-17T00:00:00	210.8510300925926	20.23	0	0.1	NaN	V	NaN	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
-2006-09-17T00:00:00	210.8510300925926	19.82	0	0.1	NaN	R	NaN	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
-2006-11-27T00:00:00	281.85103009259257	20.71	0	0.1	NaN	B	NaN	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
-2006-11-27T00:00:00	281.85103009259257	20.34	0	0.1	NaN	V	NaN	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
-2006-11-27T00:00:00	281.85103009259257	19.86	0	0.1	NaN	R	NaN	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
-NaN	1.99	18.31	0	0.09	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.93	1.1
-NaN	1.99	17.97	0	0.21	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.93	1.1
-NaN	1.99	17.72	0	0.48	NaN	Ks	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.93	1.1
-NaN	2.98	18.18	0	0.09	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.11
-NaN	2.98	18.04	0	0.33	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.11
-NaN	2.98	17.26	0	0.15	NaN	Ks	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.11
-NaN	4.01	17.85	0	0.19	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.76	1.2
-NaN	4.01	17.89	0	0.17	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.76	1.2
-NaN	4.01	17.1	0	0.1	NaN	Ks	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.76	1.2
-NaN	4.98	17.58	0	0.02	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.77	1.22
-NaN	4.98	17.59	0	0.13	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.77	1.22
-NaN	4.98	16.91	0	0.2	NaN	Ks	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.77	1.22
-NaN	5.98	17.25	0	0.05	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.89	1.32
-NaN	5.98	17.34	0	0.13	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.89	1.32
-NaN	5.98	16.63	0	0.42	NaN	Ks	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.89	1.32
-NaN	6.96	17.15	0	0.07	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.85	1.32
-NaN	6.96	17.15	0	0.11	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.85	1.32
-NaN	6.96	16.69	0	0.1	NaN	Ks	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.85	1.32
-NaN	7.97	17.12	0	0.04	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.92	1.43
-NaN	7.97	17.13	0	0.3	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.92	1.43
-NaN	7.97	16.28	0	0.11	NaN	Ks	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.92	1.43
-NaN	8.96	16.96	0	0.06	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.95	1.29
-NaN	8.96	16.89	0	0.11	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.95	1.29
-NaN	8.96	16.35	0	0.16	NaN	Ks	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.95	1.29
-NaN	9.98	17.14	0	0.07	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.85	1.29
-NaN	9.98	16.79	0	0.04	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.85	1.29
-NaN	12.98	16.88	0	0.04	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	1.45	1.21
-NaN	12.98	16.85	0	0.03	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	1.45	1.21
-NaN	12.98	16.32	0	0.21	NaN	Ks	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	1.45	1.21
-NaN	13.99	16.97	0	0.02	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.82	1.22
-NaN	13.99	16.73	0	0.05	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.82	1.22
-NaN	14.96	16.89	0	0.03	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.39
-NaN	14.96	16.83	0	0.05	NaN	H	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.39
-NaN	14.96	16.48	0	0.09	NaN	Ks	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.39
-NaN	16.0	16.93	0	0.05	NaN	J	NaN	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.83	1.37
+2006-Feb-22.173	4.0240277777777775	17.1	0	0.07	NaN	U	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-20.208	2.0590277777777777	17.89	0	0.06	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-25.114	6.965023148148148	16.96	0	0.02	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-23.210	5.061030092592593	16.87	0	0.04	NaN	U	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-21.196	3.047025462962963	17.73	0	0.06	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-26.112	7.963020833333333	16.82	0	0.03	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-25.119	6.970023148148148	16.82	0	0.04	NaN	U	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-22.186	4.037025462962963	17.5	0	0.03	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-27.162	9.013020833333334	16.84	0	0.1	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-26.154	8.005023148148148	16.92	0	0.05	NaN	U	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-23.196	5.047025462962963	17.3	0	0.03	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-28.136	9.987025462962963	16.83	0	0.02	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-28.160	10.011030092592591	16.93	0	0.04	NaN	U	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-25.112	6.963020833333333	17.1	0	0.02	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-02.140	11.991030092592592	16.83	0	0.04	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-02.153	12.004027777777775	17.32	0	0.07	NaN	U	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-26.140	7.991030092592593	17.01	0	0.03	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-03.098	12.949027777777776	16.85	0	0.04	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-04.106	13.957025462962964	17.62	0	0.06	NaN	U	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-27.167	9.018020833333331	17.0	0	0.11	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-04.094	13.945023148148149	16.88	0	0.04	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-06.135	15.986018518518518	17.98	0	0.2	NaN	U	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-28.168	10.019027777777778	16.93	0	0.02	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-06.113	15.964027777777778	16.9	0	0.06	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-16.111	25.962025462962963	19.96	0	0.13	NaN	U	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-02.143	11.994027777777776	16.97	0	0.03	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-16.106	25.957025462962964	17.6	0	0.04	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-20.214	2.065023148148148	18.08	0	0.1	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-3.102	12.953020833333332	17.04	0	0.02	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-20.191	2.042025462962963	17.65	0	0.08	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-22.169	4.020023148148148	17.79	0	0.03	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-04.097	13.948020833333333	17.09	0	0.05	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-21.172	3.0230208333333333	17.82	0	0.2	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-23.202	5.053020833333333	17.66	0	0.03	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-06.118	15.969027777777775	17.25	0	0.04	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-22.177	4.028020833333334	17.36	0	0.03	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-25.109	6.9600231481481485	17.47	0	0.02	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-13.112	22.96302083333333	17.86	0	0.03	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-23.100	4.951041666666667	17.24	0	0.04	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-26.126	7.977025462962963	17.44	0	0.02	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-16.108	25.959027777777777	18.07	0	0.03	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-25.116	6.967025462962963	16.86	0	0.03	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-27.173	9.024027777777778	17.37	0	0.13	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-19.146	0.9970254629629628	17.25	0	0.1	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-26.102	7.953020833333333	16.81	0	0.1	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-28.015	9.866030092592592	17.47	0	0.02	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-19.230	1.0810300925925926	17.34	0	0.1	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-27.158	9.009027777777778	16.74	0	0.06	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-02.147	11.998020833333332	17.66	0	0.02	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-20.162	2.013020833333333	17.76	0	0.06	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-28.134	9.985023148148148	16.77	0	0.06	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-03.105	12.95601851851852	17.78	0	0.02	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-20.168	2.0190277777777776	17.76	0	0.06	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-02.130	11.98101851851852	16.7	0	0.1	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-04.100	13.951018518518518	17.89	0	0.03	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-20.191	2.042025462962963	17.77	0	0.06	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-03.089	12.940023148148148	16.72	0	0.05	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-06.124	15.975023148148148	18.19	0	0.07	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-20.240	2.0910185185185184	17.78	0	0.06	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-04.091	13.942025462962963	16.65	0	0.06	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-13.114	22.96502314814815	19.2	0	0.05	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-21.180	3.0310185185185183	17.78	0	0.15	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-06.109	15.960023148148148	16.73	0	0.06	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-16.109	25.96002314814815	19.58	0	0.04	NaN	B	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-22.161	4.012025462962963	17.4	0	0.02	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-13.109	22.96002314814815	17.09	0	0.06	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-20.162	2.013020833333333	17.84	0	0.06	NaN	V	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Feb-23.192	5.043020833333333	17.22	0	0.03	NaN	R	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-Mar-16.105	25.95603009259259	17.17	0	0.04	NaN	I	MDM 2.4m RETROCAM	yyyy-month-deciday	True	observer	unspecified	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract	NaN	NaN
+2006-09-17T00:00:00	210.8510300925926	20.64	0	0.1	NaN	B	Subaru 8.2m	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
+2006-09-17T00:00:00	210.8510300925926	20.23	0	0.1	NaN	V	Subaru 8.2m	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
+2006-09-17T00:00:00	210.8510300925926	19.82	0	0.1	NaN	R	Subaru 8.2m	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
+2006-11-27T00:00:00	281.85103009259257	20.71	0	0.1	NaN	B	Subaru 8.2m	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
+2006-11-27T00:00:00	281.85103009259257	20.34	0	0.1	NaN	V	Subaru 8.2m	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
+2006-11-27T00:00:00	281.85103009259257	19.86	0	0.1	NaN	R	Subaru 8.2m	utc	False	observer	Vega	apparent	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract	NaN	NaN
+NaN	1.99	18.31	0	0.09	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.93	1.1
+NaN	1.99	17.97	0	0.21	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.93	1.1
+NaN	1.99	17.72	0	0.48	NaN	Ks	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.93	1.1
+NaN	2.98	18.18	0	0.09	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.11
+NaN	2.98	18.04	0	0.33	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.11
+NaN	2.98	17.26	0	0.15	NaN	Ks	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.11
+NaN	4.01	17.85	0	0.19	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.76	1.2
+NaN	4.01	17.89	0	0.17	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.76	1.2
+NaN	4.01	17.1	0	0.1	NaN	Ks	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.76	1.2
+NaN	4.98	17.58	0	0.02	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.77	1.22
+NaN	4.98	17.59	0	0.13	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.77	1.22
+NaN	4.98	16.91	0	0.2	NaN	Ks	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.77	1.22
+NaN	5.98	17.25	0	0.05	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.89	1.32
+NaN	5.98	17.34	0	0.13	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.89	1.32
+NaN	5.98	16.63	0	0.42	NaN	Ks	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.89	1.32
+NaN	6.96	17.15	0	0.07	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.85	1.32
+NaN	6.96	17.15	0	0.11	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.85	1.32
+NaN	6.96	16.69	0	0.1	NaN	Ks	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.85	1.32
+NaN	7.97	17.12	0	0.04	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.92	1.43
+NaN	7.97	17.13	0	0.3	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.92	1.43
+NaN	7.97	16.28	0	0.11	NaN	Ks	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.92	1.43
+NaN	8.96	16.96	0	0.06	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.95	1.29
+NaN	8.96	16.89	0	0.11	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.95	1.29
+NaN	8.96	16.35	0	0.16	NaN	Ks	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.95	1.29
+NaN	9.98	17.14	0	0.07	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.85	1.29
+NaN	9.98	16.79	0	0.04	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.85	1.29
+NaN	12.98	16.88	0	0.04	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	1.45	1.21
+NaN	12.98	16.85	0	0.03	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	1.45	1.21
+NaN	12.98	16.32	0	0.21	NaN	Ks	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	1.45	1.21
+NaN	13.99	16.97	0	0.02	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.82	1.22
+NaN	13.99	16.73	0	0.05	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.82	1.22
+NaN	14.96	16.89	0	0.03	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.39
+NaN	14.96	16.83	0	0.05	NaN	H	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.39
+NaN	14.96	16.48	0	0.09	NaN	Ks	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.64	1.39
+NaN	16.0	16.93	0	0.05	NaN	J	PAIRITEL	NaN	NaN	NaN	unspecified	NaN	days	NaN	https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract	2.83	1.37

@@ -1,48 +1,48 @@
-time	mag	mag_limit	dmag	band	time_unit	time_frame	mag_unit	mag_type	extinction_corrected	dtime
-4.88	17.51	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-4.88	17.26	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-5.87	17.34	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-5.87	17.2	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-6.87	17.22	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-6.87	17.08	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-7.86	17.13	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-7.86	17.02	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-8.87	17.06	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-8.87	16.88	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-9.86	16.95	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-9.86	16.82	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-11.86	16.75	0	0.04	J	days	observer	unspecified	apparent	False	NaN
-12.86	16.68	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-13.87	16.92	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-13.87	16.76	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-14.86	16.93	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-14.86	16.7	0	0.02	J	days	observer	unspecified	apparent	False	NaN
-15.87	16.97	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-15.87	16.68	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-16.86	16.98	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-16.86	16.65	0	0.02	J	days	observer	unspecified	apparent	False	NaN
-17.86	16.99	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-17.86	16.61	0	0.02	J	days	observer	unspecified	apparent	False	NaN
-18.86	17.03	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-18.86	16.68	0	0.02	J	days	observer	unspecified	apparent	False	NaN
-19.86	17.11	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-19.86	16.65	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-20.86	17.11	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-20.86	16.67	0	0.02	J	days	observer	unspecified	apparent	False	NaN
-21.85	17.18	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-21.85	16.68	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-22.85	17.21	0	0.02	I	days	observer	unspecified	apparent	False	NaN
-22.85	16.71	0	0.04	J	days	observer	unspecified	apparent	False	NaN
-23.86	17.27	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-24.85	17.3	0	0.04	I	days	observer	unspecified	apparent	False	NaN
-24.85	16.78	0	0.05	J	days	observer	unspecified	apparent	False	NaN
-25.85	17.4	0	0.02	I	days	observer	unspecified	apparent	False	NaN
-25.85	16.76	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-26.84	17.4	0	0.02	I	days	observer	unspecified	apparent	False	NaN
-26.84	16.91	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-27.86	17.5	0	0.02	I	days	observer	unspecified	apparent	False	NaN
-27.86	16.91	0	0.04	J	days	observer	unspecified	apparent	False	NaN
-28.85	17.55	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-28.85	16.82	0	0.03	J	days	observer	unspecified	apparent	False	NaN
-29.85	17.6	0	0.01	I	days	observer	unspecified	apparent	False	NaN
-29.85	16.96	0	0.03	J	days	observer	unspecified	apparent	False	NaN
+time	mag	mag_limit	dmag	band	time_unit	time_frame	mag_unit	mag_type	extinction_corrected	dtime	instrument
+4.88	17.51	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+4.88	17.26	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+5.87	17.34	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+5.87	17.2	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+6.87	17.22	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+6.87	17.08	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+7.86	17.13	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+7.86	17.02	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+8.87	17.06	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+8.87	16.88	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+9.86	16.95	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+9.86	16.82	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+11.86	16.75	0	0.04	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+12.86	16.68	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+13.87	16.92	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+13.87	16.76	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+14.86	16.93	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+14.86	16.7	0	0.02	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+15.87	16.97	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+15.87	16.68	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+16.86	16.98	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+16.86	16.65	0	0.02	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+17.86	16.99	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+17.86	16.61	0	0.02	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+18.86	17.03	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+18.86	16.68	0	0.02	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+19.86	17.11	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+19.86	16.65	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+20.86	17.11	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+20.86	16.67	0	0.02	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+21.85	17.18	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+21.85	16.68	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+22.85	17.21	0	0.02	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+22.85	16.71	0	0.04	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+23.86	17.27	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+24.85	17.3	0	0.04	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+24.85	16.78	0	0.05	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+25.85	17.4	0	0.02	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+25.85	16.76	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+26.84	17.4	0	0.02	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+26.84	16.91	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+27.86	17.5	0	0.02	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+27.86	16.91	0	0.04	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+28.85	17.55	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+28.85	16.82	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
+29.85	17.6	0	0.01	I	days	observer	unspecified	apparent	False	NaN	ANDICAM
+29.85	16.96	0	0.03	J	days	observer	unspecified	apparent	False	NaN	ANDICAM
