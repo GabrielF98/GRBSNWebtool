@@ -53,7 +53,7 @@
 51,GRB220219B,New Event,Unprocessed,No,No,No,No,No
 52,GRB221009A-SN2022xiw,New Event,Unprocessed,Yes,No,No,No,No
 53,GRB970228,ADS Exhausted,Unprocessed,No,Yes,No,Yes,No
-54,GRB980326,ADS Exhausted,Unprocessed,No,Yes,No,No,No
+54,GRB980326,ADS Exhausted,Processed,No,Yes,No,No,Yes
 55,GRB980425-SN1998bw,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 56,GRB990712,ADS Exhausted,Unprocessed,No,Yes,No,No,No
 57,GRB991208,ADS Exhausted,Unprocessed,No,Yes,No,Yes,No
