@@ -1,8 +1,8 @@
 date	time	integration	freq	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	integration_unit	freq_unit	flux_density_unit	dtime
-2006-Feb-21.452-21.951	3.30-3.80	5.9	1.4	89.0	0	108	yyyy-month-deciday-deciday	days-days	hours	GHz	microJy	0.2495023148148148
-2006-Feb-28.463-28.908	10.31-10.76	5.2	2.3	-35.0	0	70	yyyy-month-deciday-deciday	days-days	hours	GHz	microJy	0.22249999999999995
-2006-Feb-21.481-21.927	3.33-3.78	5.2	4.9	257.0	0	36	yyyy-month-deciday-deciday	days-days	hours	GHz	microJy	0.22299768518518515
-2006-Feb-24.688-24.943	6.54-6.79	5.9	4.9	125.0	0	38	yyyy-month-deciday-deciday	days-days	hours	GHz	microJy	0.1275
-2006-Feb-28.433-28.932	10.28-10.78	5.8	4.9	106.0	0	42	yyyy-month-deciday-deciday	days-days	hours	GHz	microJy	0.24949652777777773
-2006-Mar-10.642-10.905	20.49-20.76	6.1	4.9	6.0	0	34	yyyy-month-deciday-deciday	days-days	hours	GHz	microJy	0.1314988425925926
-2006-Apr-1.345-1.844	42.20-42.70	12.0	4.9	8.0	0	24	yyyy-month-deciday-deciday	days-days	hours	GHz	microJy	0.2495023148148148
+2006-Feb-21.452-21.951	3.55	5.9	1.4	89.0	0	108	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25
+2006-Feb-28.463-28.908	10.535	5.2	2.3	-35.0	0	70	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.22499999999999964
+2006-Feb-21.481-21.927	3.5549999999999997	5.2	4.9	257.0	0	36	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.22499999999999987
+2006-Feb-24.688-24.943	6.665	5.9	4.9	125.0	0	38	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.125
+2006-Feb-28.433-28.932	10.53	5.8	4.9	106.0	0	42	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25
+2006-Mar-10.642-10.905	20.625	6.1	4.9	6.0	0	34	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.13500000000000156
+2006-Apr-01.345-01.844	42.45	12.0	4.9	8.0	0	24	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.25
