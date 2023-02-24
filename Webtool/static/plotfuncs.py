@@ -207,7 +207,7 @@ def elapsed_time(dataframe, trigtime):
             # astropy to subtract the two isotimes
             time_list = [isotime, trigtime]
             t = Time(time_list, format='isot', scale='utc')
-            time[i] = (float(t[0])-float(t[1])).value
+            time[i] = (t[0]-t[1]).value
 
             # Time unit is now in days
             time_unit.append('days')
@@ -586,7 +586,7 @@ def delta_time(dataframe):
 
             # yyyy-month-deciday-deciday
             elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
-
+                print(dataframe)
                 # Split up the date.
                 date = dataframe['date'][i].split('-')
                 year = date[0]
@@ -791,56 +791,56 @@ def time_formats(dataframe):
     check = 0
     if 'dtime' not in list(dataframe.keys()):
         dtime = np.zeros(len(dataframe['time_unit']))
-        time_unit = dataframe['time_unit'].tonumpy()
+        time = np.zeros(len(dataframe['time_unit']))
+        
+        # Handle the different date formats
+        for i in range(len(dataframe['time'])):
 
-    # Handle the different date formats
-    for i in range(len(dataframe['time'])):
+            # seconds-seconds
+            if dataframe['time_unit'][i] == "seconds-seconds":
+                check = 1
+                # Initial time and second time.
+                t1 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[0])
+                t2 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[1])
+                time[i] = t1+(t2-t1)/2
+                dtime[i] = (t2-t1)/2
+                dataframe['time_unit'][i] = 'seconds'
 
-        # seconds-seconds
-        if dataframe['time_unit'][i] == "seconds-seconds":
-            check = 1
-            # Initial time and second time.
-            t1 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[0])
-            t2 = float(str(dataframe['time'][i]).split('-')[1])
-            dataframe['time'][i] = t1+(t2-t1)/2
-            dtime[i] = (t2-t1)/2
-            time_unit[i] = 'seconds'
+            # minutes-minutes
+            if dataframe['time_unit'][i] == "minutes-minutes":
+                check = 1
+                # Initial time and second time.
+                t1 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[0])
+                t2 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[1])
+                time[i] = t1+(t2-t1)/2
+                dtime[i] = (t2-t1)/2
+                dataframe['time_unit'][i] = 'minutes'
 
-        # minutes-minutes
-        if dataframe['time_unit'][i] == "minutes-minutes":
-            check = 1
-            # Initial time and second time.
-            t1 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[0])
-            t2 = float(str(dataframe['time'][i]).split('-')[1])
-            dataframe['time'][i] = t1+(t2-t1)/2
-            dtime[i] = (t2-t1)/2
-            time_unit[i] = 'minutes'
+            # hours-hours
+            if dataframe['time_unit'][i] == "hours-hours":
+                check = 1
+                # Initial time and second time.
+                t1 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[0])
+                t2 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[1])
+                time[i] = t1+(t2-t1)/2
+                dtime[i] = (t2-t1)/2
+                dataframe['time_unit'][i] = 'hours'
 
-        # hours-hours
-        if dataframe['time_unit'][i] == "hours-hours":
-            check = 1
-            # Initial time and second time.
-            t1 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[0])
-            t2 = float(str(dataframe['time'][i]).split('-')[1])
-            dataframe['time'][i] = t1+(t2-t1)/2
-            dtime[i] = (t2-t1)/2
-            time_unit[i] = 'hours'
-
-        # days-days
-        if dataframe['time_unit'][i] == "days-days":
-            check = 1
-            # Initial time and second time.
-            t1 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[0])
-            t2 = float(str(dataframe['time'][i]).split('-')[1])
-            dataframe['time'][i] = t1+(t2-t1)/2
-            dtime[i] = (t2-t1)/2
-            time_unit.append('days')
-
+            # days-days
+            if dataframe['time_unit'][i] == "days-days":
+                print('Hello I am doing this one')
+                check = 1
+                # Initial time and second time.
+                t1 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[0])
+                t2 = float(str(dataframe['time'][i]).split('-', maxsplit=1)[1])
+                time[i] = t1+(t2-t1)/2
+                dtime[i] = (t2-t1)/2
+                dataframe['time_unit'][i] = 'days'
+        print(time)
     # If there was a need to make the dtime column then make a dtime column.
     if check == 1:
         dataframe['dtime'] = dtime
-        dataframe['time_unit'] = time_unit
-
+        dataframe['time'] = time
     return dataframe
 
 
@@ -1025,29 +1025,59 @@ def masterfileformat(event):
         elif any(substring in file.lower() for substring in optical_filetags):
             data = pd.read_csv(file, sep='\t')
 
-            # Add a column for the ads abstract link - source
-            data['reference'] = len(data['time'])*[file_sources.at
-                                                   [file_sources[file_sources['Filename'] ==
-                                                                 file].index[0], 'Reference']]
+            keys = list(data.keys())
 
-            # Make sure the elapsed time is in days,
-            # if its in seconds/minutes/hours then convert it.
-            time = np.array(data['time'], dtype=np.float64)
-            for i in range(len(data['time_unit'])):
-                if data['time_unit'][i] == 'seconds':
-                    time[i] = float(time[i])/86400
+            if 'mag_type' in keys:
+                if data['mag_type'][0] != 'absolute':
 
-                elif data['time_unit'][i] == 'minutes':
-                    time[i] = float(time[i])/1440
+                    # Add a column for the ads abstract link - source
+                    data['reference'] = len(data['time'])*[file_sources.at
+                                                        [file_sources[file_sources['Filename'] ==
+                                                                        file].index[0], 'Reference']]
 
-                elif data['time_unit'][i] == 'hours':
-                    time[i] = float(time[i])/24
+                    # Make sure the elapsed time is in days,
+                    # if its in seconds/minutes/hours then convert it.
+                    time = np.array(data['time'], dtype=np.float64)
+                    for i in range(len(data['time_unit'])):
+                        if data['time_unit'][i] == 'seconds':
+                            time[i] = float(time[i])/86400
 
-            data['time'] = time
-            data['time_unit'] = 'days'
+                        elif data['time_unit'][i] == 'minutes':
+                            time[i] = float(time[i])/1440
 
-            # Append pandas
-            optical_pandas.append(data)
+                        elif data['time_unit'][i] == 'hours':
+                            time[i] = float(time[i])/24
+
+                    data['time'] = time
+                    data['time_unit'] = 'days'
+
+                    # Append pandas
+                    optical_pandas.append(data)
+            
+            else:
+                # Add a column for the ads abstract link - source
+                data['reference'] = len(data['time'])*[file_sources.at
+                                                    [file_sources[file_sources['Filename'] ==
+                                                                    file].index[0], 'Reference']]
+
+                # Make sure the elapsed time is in days,
+                # if its in seconds/minutes/hours then convert it.
+                time = np.array(data['time'], dtype=np.float64)
+                for i in range(len(data['time_unit'])):
+                    if data['time_unit'][i] == 'seconds':
+                        time[i] = float(time[i])/86400
+
+                    elif data['time_unit'][i] == 'minutes':
+                        time[i] = float(time[i])/1440
+
+                    elif data['time_unit'][i] == 'hours':
+                        time[i] = float(time[i])/24
+
+                data['time'] = time
+                data['time_unit'] = 'days'
+
+                # Append pandas
+                optical_pandas.append(data)
 
         # Xray files
         elif any(substring in file.lower() for substring in xray_filetags):
@@ -1161,13 +1191,16 @@ for i in range(len(event_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
+                # Do the time formats before checking for dtime
+                data=time_formats(data)
+
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
 
-                time_formats(data)
+                
 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
@@ -1183,13 +1216,14 @@ for i in range(len(event_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
+                # Do the time formats before checking for dtime
+                data=time_formats(data)
+
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
-
-                time_formats(data)
 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
@@ -1205,13 +1239,14 @@ for i in range(len(event_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
+                # Do the time formats before checking for dtime
+                data=time_formats(data)
+
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
-
-                time_formats(data)
 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
@@ -1220,13 +1255,14 @@ for i in range(len(event_list)):
 
                 data = pd.read_csv(file, sep='\t')
 
+                # Do the time formats before checking for dtime
+                data=time_formats(data)
+
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
-
-                time_formats(data)
 
                 # Calculate the rest wavelength
                 data['rest_wavelength'] = rest_wavelength(

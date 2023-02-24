@@ -38,4 +38,4 @@ This page contains information regarding the status of the data downlinked for a
 
 `**Late`** Data contains observations taken 15 days after the GRB trigger time or the first observation of the SN. 
 
-[Source List](Webtool%20Data%20Download%203ac60d50139d48f3a97df695e9383b0a/Source%20List%20c1f1bfea218c40e2a1267b9e69618838.csv)
+[Source List](Webtool%20Data%20Download%203ac60d50139d48f3a97df695e9383b0a/Source%20List%20c1f1bfea218c40e2a1267b9e69618838.md)
