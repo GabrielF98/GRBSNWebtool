@@ -1,7 +1,7 @@
 date	time	band	integration	instrument	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	dtime	reference
 2003-Jul-23.44329	0.1736	R	300	D1.5m/DFOSC	20.92	0	0.11	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
 2003-Jul-23.6090	0.3394	BV-MOA	3\times300	0.6m/MOA	21.47	0	0.25	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
-2003-Jul-23.6090	0.3394	RI-MOA	3\times300	0.6m/MOA	20.9	-1	NaN	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
+2003-Jul-23.6090	0.3394	RI-MOA	3\times300	0.6m/MOA	20.9	1	NaN	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
 2003-Jul-24.133	0.863	R	3\times600	D1.5m/DFOSC	20.98	0	0.05	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
 2003-Jul-24.333	1.063	R	3\times600	D1.5m/DFOSC	21.15	0	0.05	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
 2003-Jul-24.360	1.09	V	3\times600	D1.5m/DFOSC	21.63	0	0.03	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
@@ -51,8 +51,8 @@ date	time	band	integration	instrument	mag	mag_limit	dmag	date_unit	time_unit	mag
 2003-Aug-10.335	18.065	R	14\times600	D1.5m/DFOSC	23.88	0	0.44	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
 2003-Aug-14.168	21.898	K_{s}	150\times60	VLT/ISAAC	21.19	0	0.11	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
 2003-Aug-17.052	24.782	R	15\times600	NTT/SUSI2	25.08	0	0.09	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
-2003-Aug-19.007	26.737	B	3\times600	VLT/FORS1	26.8	-1	NaN	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
-2003-Aug-19.091	26.821	U	15\times600	VLT/FORS1	27.0	-1	NaN	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
+2003-Aug-19.007	26.737	B	3\times600	VLT/FORS1	26.8	1	NaN	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
+2003-Aug-19.091	26.821	U	15\times600	VLT/FORS1	27.0	1	NaN	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
 2003-Aug-19.168	26.898	R	3\times600	VLT/FORS1	24.99	0	0.06	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
 2003-Aug-19.191	26.921	i	3\times600	VLT/FORS1	23.88	0	0.05	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
 2003-Sep-3.291	42.021	R	6\times600	VLT/FORS1	25.97	0	0.12	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract

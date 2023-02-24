@@ -3,13 +3,13 @@ date	time	instrument	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	dtime
 2002-Oct-10.177	36.757	DK 1.5 m	B	24.59	0	0.26	yyyy-month-deciday	days	unspecified	NaN
 2002-Oct-11.193	37.772	DK 1.5 m	B	24.76	0	0.31	yyyy-month-deciday	days	unspecified	NaN
 2002-Oct-12.169	38.749	DK 1.5 m	B	24.77	0	0.32	yyyy-month-deciday	days	unspecified	NaN
-2002-Oct-13.163	39.743	DK 1.5 m	B	24.5	-1	NaN	yyyy-month-deciday	days	unspecified	NaN
-2002-Oct-14.137	40.716	DK 1.5 m	B	24.4	-1	NaN	yyyy-month-deciday	days	unspecified	NaN
-2002-Oct-2.953	29.533	TNG	V	22.8	-1	NaN	yyyy-month-deciday	days	unspecified	NaN
-2002-Oct-10.192	36.772	DK 1.5 m	V	23.4	-1	NaN	yyyy-month-deciday	days	unspecified	NaN
+2002-Oct-13.163	39.743	DK 1.5 m	B	24.5	1	NaN	yyyy-month-deciday	days	unspecified	NaN
+2002-Oct-14.137	40.716	DK 1.5 m	B	24.4	1	NaN	yyyy-month-deciday	days	unspecified	NaN
+2002-Oct-2.953	29.533	TNG	V	22.8	1	NaN	yyyy-month-deciday	days	unspecified	NaN
+2002-Oct-10.192	36.772	DK 1.5 m	V	23.4	1	NaN	yyyy-month-deciday	days	unspecified	NaN
 2002-Oct-11.7	38.279	DK 1.5 m	V	23.45	0	0.21	yyyy-month-deciday	days	unspecified	NaN
-2002-Oct-13.179	39.758	DK 1.5 m	V	23.2	-1	NaN	yyyy-month-deciday	days	unspecified	NaN
-2002-Oct-14.152	40.731	DK 1.5 m	V	23.1	-1	NaN	yyyy-month-deciday	days	unspecified	NaN
+2002-Oct-13.179	39.758	DK 1.5 m	V	23.2	1	NaN	yyyy-month-deciday	days	unspecified	NaN
+2002-Oct-14.152	40.731	DK 1.5 m	V	23.1	1	NaN	yyyy-month-deciday	days	unspecified	NaN
 2002-Sep-4.080	0.66	CTIO 4 m	R	20.858	0	0.007	yyyy-month-deciday	days	unspecified	NaN
 2002-Sep-4.32	0.9	Palomar 5 m	R	19.52	0	0.22	yyyy-month-deciday	days	unspecified	NaN
 2002-Sep-9.130	5.709	CTIO 4 m	R	21.129	0	0.01	yyyy-month-deciday	days	unspecified	NaN

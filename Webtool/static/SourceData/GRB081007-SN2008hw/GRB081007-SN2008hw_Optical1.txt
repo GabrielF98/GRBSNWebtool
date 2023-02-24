@@ -181,7 +181,7 @@ VLT	Rc	60264.0	6.0	24.14	0	0.1	AB	apparent	days	observer	False	NaN
 VLT	Rc	73152.0	6.0	24.39	0	0.11	AB	apparent	days	observer	False	NaN
 VLT	Rc	87566.4	6.0	24.37	0	0.18	AB	apparent	days	observer	False	NaN
 VLT	Rc	97660.8	12.0	24.44	0	0.12	AB	apparent	days	observer	False	NaN
-VLT	Rc	125712.0	27.0	24.67	-1	NaN	AB	apparent	days	observer	False	NaN
+VLT	Rc	125712.0	27.0	24.67	1	NaN	AB	apparent	days	observer	False	NaN
 VLT	Ic	60278.4	6.0	23.18	0	0.1	AB	apparent	days	observer	False	NaN
 VLT	Ic	73166.4	6.0	23.67	0	0.11	AB	apparent	days	observer	False	NaN
 VLT	Ic	87566.4	6.0	24.12	0	0.22	AB	apparent	days	observer	False	NaN
