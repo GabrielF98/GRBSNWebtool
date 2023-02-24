@@ -191,6 +191,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Split the date.
             date = dataframe['date'][i].split('-')
+            print(date)
             year = date[0]
             month = month2number[date[1]]
 
@@ -1188,12 +1189,14 @@ for i in range(len(event_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
-                # Do the time formats before checking for dtime
-                data=time_formats(data)
+                
 
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
+                
+                # Do the time formats before checking for dtime
+                data=time_formats(data)
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
 
@@ -1213,12 +1216,13 @@ for i in range(len(event_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
-                # Do the time formats before checking for dtime
-                data=time_formats(data)
-
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
+                
+                # Do the time formats before checking for dtime
+                data=time_formats(data)
+
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
 
@@ -1236,12 +1240,13 @@ for i in range(len(event_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
-                # Do the time formats before checking for dtime
-                data=time_formats(data)
-
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
+
+                # Do the time formats before checking for dtime
+                data=time_formats(data)
+
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
 
@@ -1252,12 +1257,13 @@ for i in range(len(event_list)):
 
                 data = pd.read_csv(file, sep='\t')
 
-                # Do the time formats before checking for dtime
-                data=time_formats(data)
-
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
+                
+                # Do the time formats before checking for dtime
+                data=time_formats(data)
+
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
 
