@@ -1,6 +1,8 @@
 Event Name: GRB060218-SN2006aj
 =========================================================
 Filename: GRB060218-SN2006aj_Radio.txt
+Source: https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract
+Data-type: Early, Late, Radio
 ---------------------------------------------------------
 The flux density column was called flux in the original paper. However, as it was measured in mJy it is obviously a flux density. 
 
@@ -8,17 +10,23 @@ Log of the Radio Observations for GRB 060218.
 The flux calibration has been performed using the source 3C 286 as standard. The observations on February 21 and February 28 were alternated between 1.4 and 4.9 GHz, and 2.3 and 4.9 GHz, respectively, observing in 40 minute blocks at each frequency. 
 =========================================================
 Filename: GRB060218-SN2006aj_Radio1.txt
+Source: https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract
+Data-type: Late, Radio
 ---------------------------------------------------------
 Summary of Measurements from Radio Observations. 3sigma limit on the spectral luminosity assuming redshifts listed in Table 1.
 
 The luminosity column show the 3sigma limit on the spectral luminosity assuming redshifts listed in Table 1.
 =========================================================
 Filename: GRB060218-SN2006aj_IR.txt
+Source: https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract
+Data-type: Early, IR
 ---------------------------------------------------------
 Table 1: Host-subtracted Photometry of XRF 060218/SN 2006aj.
 The times are in the observer frame. Magnitudes are not corrected for extinction.
 =========================================================
 Filename: GRB060218-SN2006aj_IR2.txt
+Source: https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract
+Data-type: Early, IR
 ---------------------------------------------------------
 This file contains absolute magnitude observations. As such it will not be displayed in the webtool plots but is provided for completeness.
 
@@ -26,6 +34,8 @@ Table 3: XRF 060218/SN 2006aj Absolute Magnitudes.
 Times are in the GRB rest frame. The magnitudes are host-subtracted and extinction corrected.
 =========================================================
 Filename: GRB060218-SN2006aj_Optical.txt
+Source: https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 As the times given were only to the nearest day we have set the time of observation to midnight.
 We removed the host observation Host (Subaru)	\ldots	20.53	20.16.
@@ -40,16 +50,22 @@ c The intrinsic SN magnitude obtained after subtracting the host contribution an
 d The host magnitude estimated by Sollerman et al. (2006).
 =========================================================
 Filename: GRB060218-SN2006aj_Optical1.txt
+Source: https://ui.adsabs.harvard.edu/abs/2006A%26A...457..857F/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 We only took the extinction corrected data for the webtool.
 
 Table 1: The photometry of SN 2006aj from the Very Large Telescope (VLT), the Liverpool Telescope (LT) and the Katzman Automatic Imaging Telescope (KAIT), including the acquisition images for the VLT spectroscopy (Pian et al. 2006). The date is the UT exposure mid-time. Column t-t0 refers to the time in days after the burst trigger at t0 = 3:34:30 UT of Feb. 18, 2006 (Cusumano et al. 2006). The third column gives measured magnitudes which are corrected neither for extinction nor flux from the host galaxy. The fourth column gives the pure supernova magnitudes after correcting for Galactic extinction, host-galaxy flux and host-galaxy extinction. Exposure times are in seconds.
 =========================================================
 Filename: GRB060218-SN2006aj_Optical2.txt
+Source: https://ui.adsabs.harvard.edu/abs/2006A%26A...454..503S/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 Table 1: Log of observations and photometry of supernova 2006aj.
 =========================================================
 Filename: GRB060218-SN2006aj_Optical3.txt
+Source: https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 Title: SN 2006aj and the Nature of Low-Luminosity Gamma-Ray Bursts
 Authors: Cobb B.E., Bailyn C.D., van Dokkum P.G, Natarajan P.
@@ -71,11 +87,15 @@ Note (1): These values have not been corrected for Galactic extinction.  There
 --------------------------------------------------------------------------------
 =========================================================
 Filename: GRB060218-SN2006aj_Optical4.txt
+Source: https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract
+Data-type: Early, Optical
 ---------------------------------------------------------
 Table 1: Optical Photometry of GRB 060218
 Note.—The host galaxy with U = 20.10, B = 20.41, V = 20.09, R = 19.91, and I = 19.54 was subtracted, and then remainders were corrected for Galactic extinction: AU = 0.77, AB = 0.61, AV = 0.47, AR = 0.38, and AI = 0.28, respectively. 
 =========================================================
 Filename: GRB060218-SN2006aj_Optical5.txt
+Source: https://ui.adsabs.harvard.edu/abs/2006Natur.442.1011P/abstract
+Data-type: Optical
 ---------------------------------------------------------
 We did not include an observation on the 4th of March as no upper limit is given for this non-detection.
 We quote the host subtracted values.
