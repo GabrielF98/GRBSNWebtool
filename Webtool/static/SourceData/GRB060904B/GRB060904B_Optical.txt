@@ -1,8 +1,8 @@
 time	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit	dtime
 21.0	R	17.3	0	0.1	ROTSE-III	seconds	unspecified	2.5
-32.15	C	17.2	-1	NaN	TAROT	seconds	unspecified	9.15
-42.8	C	15.9	-1	NaN	TAROT	seconds	unspecified	1.5
-65.15	C	17.2	-1	NaN	TAROT	seconds	unspecified	20.85
+32.15	C	17.2	1	NaN	TAROT	seconds	unspecified	9.15
+42.8	C	15.9	1	NaN	TAROT	seconds	unspecified	1.5
+65.15	C	17.2	1	NaN	TAROT	seconds	unspecified	20.85
 102.8	R	18.21	0	0.02	5511	seconds	unspecified	45.00000000000001
 105.8	C	18.38	0	0.47	TAROT	seconds	unspecified	15.0
 142.75	C	17.76	0	0.32	TAROT	seconds	unspecified	14.650000000000006

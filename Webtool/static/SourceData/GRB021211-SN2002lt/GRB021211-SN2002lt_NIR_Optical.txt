@@ -1,15 +1,15 @@
 date	time	instrument	band	mag	mag_limit	dmag	seeing	integration	date_unit	time_unit	mag_unit	dtime
-2002-Dec-12.17617	0.70494	Magellan 1 ClassicCam	K_{s}	21.01	-1	NaN	0.44	660	yyyy-month-deciday	days	unspecified	NaN
+2002-Dec-12.17617	0.70494	Magellan 1 ClassicCam	K_{s}	21.01	1	NaN	0.44	660	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-12.22002	0.74879	Magellan 1 ClassicCam	J	21.85	0	0.11	0.48	3720	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-12.31163	0.8404	Magellan 1 ClassicCam	H	20.92	0	0.22	0.35	240	yyyy-month-deciday	days	unspecified	NaN
-2002-Dec-12.31873	0.8475	Magellan 1 ClassicCam	K_{s}	19.4	-1	NaN	0.49	240	yyyy-month-deciday	days	unspecified	NaN
+2002-Dec-12.31873	0.8475	Magellan 1 ClassicCam	K_{s}	19.4	1	NaN	0.49	240	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-12.33329	0.86206	MMT Minicam	V	23.32	0	0.15	0.76	500	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-12.34816	0.87693	MMT Minicam	B	23.28	0	0.23	0.66	900	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-12.35336	0.88213	Magellan 1 ClassicCam	J	21.7	0	0.08	0.4	4680	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-12.35917	0.88794	MMT Minicam	R_{C}	22.88	0	0.09	0.51	900	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-13.34512	1.87389	Magellan 1 ClassicCam	J	22.81	0	0.26	0.45	4320	yyyy-month-deciday	days	unspecified	NaN
-2002-Dec-13.36368	1.89245	Magellan 1 ClassicCam	J	22.04	-1	NaN	0.41	2400	yyyy-month-deciday	days	unspecified	NaN
-2002-Dec-13.38875	1.91752	Magellan 1 ClassicCam	K_{s}	20.0	-1	NaN	0.42	210	yyyy-month-deciday	days	unspecified	NaN
+2002-Dec-13.36368	1.89245	Magellan 1 ClassicCam	J	22.04	1	NaN	0.41	2400	yyyy-month-deciday	days	unspecified	NaN
+2002-Dec-13.38875	1.91752	Magellan 1 ClassicCam	K_{s}	20.0	1	NaN	0.42	210	yyyy-month-deciday	days	unspecified	NaN
 2003-Jan-2.06488	21.59365	Magellan 2 LDSS-2	R_{C}	24.93	0	0.17	1.13	300	yyyy-month-deciday	days	unspecified	NaN
 2003-Jan-2.08051	21.60928	Magellan 2 LDSS-2	V	25.42	0	0.16	0.75	300	yyyy-month-deciday	days	unspecified	NaN
 2003-Jan-29.27962	48.80839	WIYN Minimosaic	R_{C}	25.07	0	0.12	0.58	600	yyyy-month-deciday	days	unspecified	NaN

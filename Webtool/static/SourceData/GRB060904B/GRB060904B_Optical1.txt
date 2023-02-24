@@ -1,10 +1,10 @@
 time	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit	dtime
-44.4	C	16.75	-1	NaN	TAROT	seconds	unspecified	4.5
-53.1	C	16.45	-1	NaN	TAROT	seconds	unspecified	4.199999999999999
-61.5	C	16.25	-1	NaN	TAROT	seconds	unspecified	4.200000000000003
-70.2	C	16.75	-1	NaN	TAROT	seconds	unspecified	4.5
-78.9	C	16.75	-1	NaN	TAROT	seconds	unspecified	4.199999999999996
-87.3	C	16.75	-1	NaN	TAROT	seconds	unspecified	4.200000000000003
+44.4	C	16.75	1	NaN	TAROT	seconds	unspecified	4.5
+53.1	C	16.45	1	NaN	TAROT	seconds	unspecified	4.199999999999999
+61.5	C	16.25	1	NaN	TAROT	seconds	unspecified	4.200000000000003
+70.2	C	16.75	1	NaN	TAROT	seconds	unspecified	4.5
+78.9	C	16.75	1	NaN	TAROT	seconds	unspecified	4.199999999999996
+87.3	C	16.75	1	NaN	TAROT	seconds	unspecified	4.200000000000003
 95.0	V	17.9	0	0.1	Swift/UVOT	seconds	unspecified	5.0
 116.05	C	16.64	0	0.18	TAROT	seconds	unspecified	14.950000000000005
 152.0	C	16.46	0	0.13	TAROT	seconds	unspecified	14.400000000000006
