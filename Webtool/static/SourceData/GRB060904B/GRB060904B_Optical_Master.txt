@@ -1,10 +1,10 @@
 time	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit	dtime	reference
-0.0005138888888888889	C	16.75	-1	NaN	TAROT	days	unspecified	4.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0006145833333333333	C	16.45	-1	NaN	TAROT	days	unspecified	4.199999999999999	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0007118055555555556	C	16.25	-1	NaN	TAROT	days	unspecified	4.200000000000003	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0008125000000000001	C	16.75	-1	NaN	TAROT	days	unspecified	4.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0009131944444444446	C	16.75	-1	NaN	TAROT	days	unspecified	4.199999999999996	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0010104166666666666	C	16.75	-1	NaN	TAROT	days	unspecified	4.200000000000003	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0005138888888888889	C	16.75	1	NaN	TAROT	days	unspecified	4.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0006145833333333333	C	16.45	1	NaN	TAROT	days	unspecified	4.199999999999999	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0007118055555555556	C	16.25	1	NaN	TAROT	days	unspecified	4.200000000000003	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0008125000000000001	C	16.75	1	NaN	TAROT	days	unspecified	4.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0009131944444444446	C	16.75	1	NaN	TAROT	days	unspecified	4.199999999999996	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0010104166666666666	C	16.75	1	NaN	TAROT	days	unspecified	4.200000000000003	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.001099537037037037	V	17.9	0	0.1	Swift/UVOT	days	unspecified	5.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.0013431712962962963	C	16.64	0	0.18	TAROT	days	unspecified	14.950000000000005	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.0017592592592592592	C	16.46	0	0.13	TAROT	days	unspecified	14.400000000000006	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
@@ -21,9 +21,9 @@ time	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit	dtime	reference
 0.1254861111111111	R	19.7	0	0.4	2-m Faulkes Telescope South	days	unspecified	312.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.15038194444444444	I	19.3	0	0.5	2-m Faulkes Telescope South	days	unspecified	315.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.00024305555555555555	R	17.3	0	0.1	ROTSE-III	days	unspecified	2.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.00037210648148148145	C	17.2	-1	NaN	TAROT	days	unspecified	9.15	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0004953703703703703	C	15.9	-1	NaN	TAROT	days	unspecified	1.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.000754050925925926	C	17.2	-1	NaN	TAROT	days	unspecified	20.85	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.00037210648148148145	C	17.2	1	NaN	TAROT	days	unspecified	9.15	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0004953703703703703	C	15.9	1	NaN	TAROT	days	unspecified	1.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.000754050925925926	C	17.2	1	NaN	TAROT	days	unspecified	20.85	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.0011898148148148148	R	18.21	0	0.02	5511	days	unspecified	45.00000000000001	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.001224537037037037	C	18.38	0	0.47	TAROT	days	unspecified	15.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.0016521990740740742	C	17.76	0	0.32	TAROT	days	unspecified	14.650000000000006	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract

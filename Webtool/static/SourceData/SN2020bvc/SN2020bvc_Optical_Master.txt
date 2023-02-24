@@ -1,5 +1,5 @@
 instrument	band	date	mag	mag_limit	dmag	date_unit	mag_unit	time_unit	time	dtime	reference
-ASAS-SN	g	58883.6	18.6	-1	NaN	MJD	unspecified	days	0.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ASAS-SN	g	58883.6	18.6	1	NaN	MJD	unspecified	days	0.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
 ASAS-SN	g	58884.1	17.0	0	NaN	MJD	unspecified	days	1.34	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
 ZTF	g	58884.5	17.33	0	0.05	MJD	unspecified	days	1.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
 ZTF	g	58887.5	17.06	0	0.05	MJD	unspecified	days	4.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
@@ -364,7 +364,7 @@ ZTF	r	58980.329	19.32	0	0.11	MJD	AB	days	97.569	NaN	https://ui.adsabs.harvard.ed
 ZTF	g	58979.24	19.621	0	0.146	MJD	AB	days	96.48	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	r	58976.298	19.134	0	0.187	MJD	AB	days	93.538	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	g	58976.201	19.44	0	0.253	MJD	AB	days	93.441	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58975.275	18.558	0	NaN	MJD	AB	days	92.515	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58975.275	18.558	1	NaN	MJD	AB	days	92.515	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	r	58973.304	19.066	0	0.113	MJD	AB	days	90.544	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	g	58973.267	19.53	0	0.15	MJD	AB	days	90.507	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	r	58970.391	19.174	0	0.099	MJD	AB	days	87.631	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
@@ -383,14 +383,14 @@ ZTF	g	58954.387	19.331	0	0.18	MJD	AB	days	71.627	NaN	https://ui.adsabs.harvard.e
 ZTF	g	58944.474	19.063	0	0.121	MJD	AB	days	61.714	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	r	58943.467	18.396	0	0.078	MJD	AB	days	60.707	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	g	58943.425	18.915	0	0.119	MJD	AB	days	60.665	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58941.474	20.708	0	NaN	MJD	AB	days	58.714	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58941.474	20.708	1	NaN	MJD	AB	days	58.714	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	r	58941.426	18.397	0	0.087	MJD	AB	days	58.666	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58940.431	16.945	0	NaN	MJD	AB	days	57.671	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58940.431	16.945	1	NaN	MJD	AB	days	57.671	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	g	58939.453	18.937	0	0.198	MJD	AB	days	56.693	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	r	58939.425	18.204	0	0.086	MJD	AB	days	56.665	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	g	58936.47	19.025	0	0.116	MJD	AB	days	53.71	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	r	58936.406	18.228	0	0.068	MJD	AB	days	53.646	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58917.391	17.07	0	NaN	MJD	AB	days	34.631	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58917.391	17.07	1	NaN	MJD	AB	days	34.631	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	r	58914.53	17.153	0	0.039	MJD	AB	days	31.77	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	g	58914.5	18.15	0	0.07	MJD	AB	days	31.74	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
 ZTF	g	58911.552	17.885	0	0.079	MJD	AB	days	28.792	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract

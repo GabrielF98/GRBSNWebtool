@@ -40,9 +40,9 @@ time	integration	mag	mag_limit	dmag	flux_density	dflux_density	band	time_unit	in
 18575	156.0	18.15	0	0.41	2.0	0.9	V	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 22163	580.0	19.1	0	0.27	0.8	0.2	V	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 35638	750.0	18.86	0	0.27	1.0	0.3	V	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-49320	4982.0	20.62	-1	NaN	<0.2	NaN	V	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-971360	33800.0	22.09	-1	NaN	<0.1	NaN	V	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-1171176	6081.0	21.16	-1	NaN	<0.1	NaN	V	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+49320	4982.0	20.62	1	NaN	<0.2	NaN	V	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+971360	33800.0	22.09	1	NaN	<0.1	NaN	V	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+1171176	6081.0	21.16	1	NaN	<0.1	NaN	V	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 229	10.0	14.79	0	0.12	72.2	8.4	B	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 313	10.0	15.19	0	0.12	49.9	5.8	B	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 397	10.0	15.51	0	0.13	37.2	4.7	B	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
@@ -57,8 +57,8 @@ time	integration	mag	mag_limit	dmag	flux_density	dflux_density	band	time_unit	in
 16182	190.0	18.69	0	0.17	2.0	0.3	B	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 30031	388.0	19.82	0	0.52	0.7	0.4	B	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 33898	900.0	20.84	0	0.45	0.3	0.1	B	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-45468	896.0	20.7	-1	NaN	<0.3	NaN	B	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-62549	6513.0	21.55	-1	NaN	<0.1	NaN	B	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+45468	896.0	20.7	1	NaN	<0.3	NaN	B	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+62549	6513.0	21.55	1	NaN	<0.1	NaN	B	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 215	10.0	13.7	0	0.18	110.3	19.9	U	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 299	10.0	14.08	0	0.18	77.8	14.0	U	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 419	10.0	14.47	0	0.19	54.3	10.4	U	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
@@ -73,8 +73,8 @@ time	integration	mag	mag_limit	dmag	flux_density	dflux_density	band	time_unit	in
 28664	194.0	18.85	0	0.3	1.0	0.3	U	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 29380	900.0	18.79	0	0.2	1.0	0.2	U	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 41040	758.0	19.99	0	0.54	0.3	0.2	U	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-52994	780.0	19.68	-1	NaN	<0.4	NaN	U	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-128928	1548.0	20.05	-1	NaN	<0.3	NaN	U	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+52994	780.0	19.68	1	NaN	<0.4	NaN	U	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+128928	1548.0	20.05	1	NaN	<0.3	NaN	U	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 202	10.0	13.61	0	0.07	162.8	10.4	UVW1 (260 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 286	10.0	14.18	0	0.09	96.3	8.0	UVW1 (260 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 370	10.0	14.77	0	0.12	56.2	6.2	UVW1 (260 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
@@ -88,8 +88,8 @@ time	integration	mag	mag_limit	dmag	flux_density	dflux_density	band	time_unit	in
 6761	638.0	17.33	0	0.06	5.3	0.3	UVW1 (260 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 28111	900.0	19.49	0	0.19	0.7	0.1	UVW1 (260 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 40585	900.0	20.33	0	0.39	0.3	0.1	UVW1 (260 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-52100	898.0	21.05	-1	NaN	<0.3	NaN	UVW1 (260 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-63738	900.0	21.2	-1	NaN	<0.3	NaN	UVW1 (260 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+52100	898.0	21.05	1	NaN	<0.3	NaN	UVW1 (260 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+63738	900.0	21.2	1	NaN	<0.3	NaN	UVW1 (260 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 187	10.0	13.54	0	0.1	218.9	20.0	UVM2 (220 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 272	10.0	14.32	0	0.14	106.8	14.1	UVM2 (220 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 356	10.0	14.6	0	0.16	82.4	12.4	UVM2 (220 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
@@ -104,7 +104,7 @@ time	integration	mag	mag_limit	dmag	flux_density	dflux_density	band	time_unit	in
 24007	864.0	18.96	0	0.19	1.5	0.3	UVM2 (220 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 39683	897.0	19.72	0	0.3	0.7	0.2	UVM2 (220 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 51257	900.0	20.34	0	0.48	0.4	0.2	UVM2 (220 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-74798	931.0	21.59	-1	NaN	<0.6	NaN	UVM2 (220 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+74798	931.0	21.59	1	NaN	<0.6	NaN	UVM2 (220 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 245	10.0	14.69	0	0.11	88.4	9.5	UVW2 (198 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 329	10.0	15.3	0	0.16	50.2	7.2	UVW2 (198 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 413	10.0	15.13	0	0.14	58.6	7.7	UVW2 (198 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
@@ -117,4 +117,4 @@ time	integration	mag	mag_limit	dmag	flux_density	dflux_density	band	time_unit	in
 1140	100.0	16.35	0	0.08	19.1	1.5	UVW2 (198 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 17973	882.0	18.99	0	0.13	1.7	0.2	UVW2 (198 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
 34806	900.0	20.05	0	0.25	0.6	0.1	UVW2 (198 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
-52162	1800.0	21.76	-1	NaN	<0.3	NaN	UVW2 (198 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
+52162	1800.0	21.76	1	NaN	<0.3	NaN	UVW2 (198 nm) Filter	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	NaN
