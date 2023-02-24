@@ -1,22 +1,22 @@
-date	instrument	integration	mag	dmag	mag_unit	mag_type	date_unit	time_frame	extinction_corrected
-1998-Mar-27.31	Keck II	NaN	R	21.19	0.1	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-27.401	AAT	240	R	21.98	0.16		Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-27.437	AAT	240	R	22.18	0.16		Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-27.84	BO 1.5 m	3600	R	>21.85	NaN	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-27.852	CAHA	3300	R	>22.0	NaN	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-28.016	ESO NTT	1200	R	23.66	0.12		Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-28.017	ESO 1.5Dan	2700	R	23.43	0.25		Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-28.045	CTIO 4 m	600	R	23.50	0.12		Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-28.120	FLW 1.2 m	3600	R	>22.5	NaN		Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-28.178	ESO NTT	1200	R	23.60	0.12		Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-28.25	Keck II	NaN	R	23.69	0.1	GCN 32	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-29.09	CTIO 4 m	3120	B	25.03	0.33		Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-29.035	ESO NTT	1800	I	>22.4	NaN	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-29.008	ESO NTT	1800	V	>24.2	NaN	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-29.424	AAT	480	R	>23.0	NaN	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-30.078	ESO NTT	5400	R	24.88	0.32		Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-30.2	Keck II	NaN	R	25.03	0.15	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Mar-31.082	ESO NTT	5400	R	25.20	0.23	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Apr-01.080	ESO NTT	5400	R	>24.9	NaN	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Apr-7.15	KPNO 4 m	3300	R	>24.4	NaN	Vega	apparent	yyyy-month-deciday	observer	false
-1998-Apr-17.3	Keck II	NaN	R	25.5	0.5	Vega	apparent	yyyy-month-deciday	observer	false
+date	instrument	integration	band	mag	mag_limit	dmag	mag_unit	mag_type	date_unit	time_frame	extinction_corrected	time	time_unit	dtime
+1998-Mar-27.31	Keck II	NaN	R	21.19	0	0.1	Vega	apparent	yyyy-month-deciday	observer	False	0.4219884259259259	days	NaN
+1998-Mar-27.401	AAT	240.0	R	21.98	0	0.16	Vega	apparent	yyyy-month-deciday	observer	False	0.5129953703703704	days	NaN
+1998-Mar-27.437	AAT	240.0	R	22.18	0	0.16	Vega	apparent	yyyy-month-deciday	observer	False	0.5489907407407407	days	NaN
+1998-Mar-27.84	BO 1.5 m	3600.0	R	21.85	-1	NaN	Vega	apparent	yyyy-month-deciday	observer	False	0.951988425925926	days	NaN
+1998-Mar-27.852	CAHA	3300.0	R	22.0	-1	NaN	Vega	apparent	yyyy-month-deciday	observer	False	0.9639907407407408	days	NaN
+1998-Mar-28.016	ESO NTT	1200.0	R	23.66	0	0.12	Vega	apparent	yyyy-month-deciday	observer	False	1.1279953703703702	days	NaN
+1998-Mar-28.017	ESO 1.5Dan	2700.0	R	23.43	0	0.25	Vega	apparent	yyyy-month-deciday	observer	False	1.128990740740741	days	NaN
+1998-Mar-28.045	CTIO 4 m	600.0	R	23.5	0	0.12	Vega	apparent	yyyy-month-deciday	observer	False	1.157	days	NaN
+1998-Mar-28.120	FLW 1.2 m	3600.0	R	22.5	-1	NaN	Vega	apparent	yyyy-month-deciday	observer	False	1.232	days	NaN
+1998-Mar-28.178	ESO NTT	1200.0	R	23.6	0	0.12	Vega	apparent	yyyy-month-deciday	observer	False	1.289997685185185	days	NaN
+1998-Mar-28.25	Keck II	NaN	R	23.69	0	0.1	Vega	apparent	yyyy-month-deciday	observer	False	1.362	days	NaN
+1998-Mar-29.09	CTIO 4 m	3120.0	B	25.03	0	0.33	Vega	apparent	yyyy-month-deciday	observer	False	2.2019884259259257	days	NaN
+1998-Mar-29.035	ESO NTT	1800.0	I	22.4	-1	NaN	Vega	apparent	yyyy-month-deciday	observer	False	2.147	days	NaN
+1998-Mar-29.008	ESO NTT	1800.0	V	24.2	-1	NaN	Vega	apparent	yyyy-month-deciday	observer	False	2.119997685185185	days	NaN
+1998-Mar-29.424	AAT	480.0	R	23.0	-1	NaN	Vega	apparent	yyyy-month-deciday	observer	False	2.535993055555556	days	NaN
+1998-Mar-30.078	ESO NTT	5400.0	R	24.88	0	0.32	Vega	apparent	yyyy-month-deciday	observer	False	3.189997685185185	days	NaN
+1998-Mar-30.2	Keck II	NaN	R	25.03	0	0.15	Vega	apparent	yyyy-month-deciday	observer	False	3.311988425925926	days	NaN
+1998-Mar-31.082	ESO NTT	5400.0	R	25.2	0	0.23	Vega	apparent	yyyy-month-deciday	observer	False	4.193990740740741	days	NaN
+1998-Apr-01.080	ESO NTT	5400.0	R	24.9	-1	NaN	Vega	apparent	yyyy-month-deciday	observer	False	5.192	days	NaN
+1998-Apr-7.15	KPNO 4 m	3300.0	R	24.4	-1	NaN	Vega	apparent	yyyy-month-deciday	observer	False	11.26203472222222	days	NaN
+1998-Apr-17.3	Keck II	NaN	R	25.5	0	0.5	Vega	apparent	yyyy-month-deciday	observer	False	21.412069444444445	days	NaN
