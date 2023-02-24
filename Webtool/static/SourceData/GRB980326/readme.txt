@@ -1,6 +1,8 @@
 Event Name: GRB980326
 =========================================================
 Filename: GRB980326_Optical.txt
+Source: https://ui.adsabs.harvard.edu/abs/1998ApJ...502L.123G/abstract
+Data-type: Early, Late, Optical
 ---------------------------------------------------------
 TABLE 1
 LOG OF OBSERVATIONS OF GRB 980326, SUPPLEMENTED WITH PUBLISHED OBSERVATIONS OF THE KECK II AND KPNO 4 METER TELESCOPES
