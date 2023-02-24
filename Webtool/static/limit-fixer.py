@@ -27,7 +27,7 @@ for i in range(len(event_list)):
 			if any(substring in file.lower() for substring in optical_filetags):
 				data = pd.read_csv(file, sep='\t')
 
-				new_mag_limit = np.zeros(len(data['mag_limit']))
+				new_mag_limit = np.zeros(len(data['mag_limit']), dtype=int)
 
 				for i in range(len(data['mag_limit'])):
 					new_mag_limit[i] = int(data['mag_limit'][i]*(-1))
