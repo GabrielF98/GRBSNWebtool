@@ -1,0 +1,6 @@
+Additional data not based on GROND observations.
+B	2189	25.99±0.12	Keck/LRIS
+g′	1763	26.06±0.06	Gemini North/GMOS
+r′	290	25.47±0.11	Gemini North/GMOS
+Rc	2189	25.43±0.18	Keck/LRIS
+3.6 μm	1826	23.59±0.11	Spitzer/IRAC
