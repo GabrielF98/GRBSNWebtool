@@ -1,6 +1,6 @@
-band	time	mag	dmag	instrument	time_unit	time_frame	mag_unit	mag_type	extinction_corrected
-B	2189	25.99	0.12	Keck/LRIS	days	observer	AB	apparent	false
-g′	1763	26.06	0.06	Gemini North/GMOS	days	observer	AB	apparent	false
-r′	290	25.47	0.11	Gemini North/GMOS	days	observer	AB	apparent	false
-Rc	2189	25.43	0.18	Keck/LRIS	days	observer	AB	apparent	false
-3.6 μm	1826	23.59	0.11	Spitzer/IRAC	days	observer	AB	apparent	false
+band	time	mag	mag_limit	dmag	instrument	time_unit	time_frame	mag_unit	mag_type	extinction_corrected	dtime
+B	2189	25.99	0	0.12	Keck/LRIS	days	observer	AB	apparent	False	NaN
+g′	1763	26.06	0	0.06	Gemini North/GMOS	days	observer	AB	apparent	False	NaN
+r′	290	25.47	0	0.11	Gemini North/GMOS	days	observer	AB	apparent	False	NaN
+Rc	2189	25.43	0	0.18	Keck/LRIS	days	observer	AB	apparent	False	NaN
+3.6 μm	1826	23.59	0	0.11	Spitzer/IRAC	days	observer	AB	apparent	False	NaN
