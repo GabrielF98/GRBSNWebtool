@@ -885,7 +885,7 @@ def limits(df, wave_range):
     df[i] = df[i].astype(str)
 
     # Upper limit = 1, Lower limit = -1, Neither = 0
-    conditions = [(df[i].str.contains('<')), (df[i].str.contains('>'))]
+    conditions = [(df[i].str.contains('>')), (df[i].str.contains('<'))]
     choices = [-1, 1]
     df.insert(df.columns.get_loc(i)+1, i+str('_limit'),
               np.select(conditions, choices, default=0))
