@@ -884,18 +884,34 @@ def limits(df, wave_range):
     # Convert the column to string
     df[i] = df[i].astype(str)
 
-    # Upper limit = 1, Lower limit = -1, Neither = 0
-    conditions = [(df[i].str.contains('>')), (df[i].str.contains('<'))]
-    choices = [-1, 1]
-    df.insert(df.columns.get_loc(i)+1, i+str('_limit'),
-              np.select(conditions, choices, default=0))
+    # The assignment of -1 and 1 to >/< is different for optical because the mag scale is upside down.
+    if any(substring in wave_range.lower() for substring in optical_filetags):
+        # Upper limit = 1, Lower limit = -1, Neither = 0
+        conditions = [(df[i].str.contains('<')), (df[i].str.contains('>'))]
+        choices = [-1, 1]
+        df.insert(df.columns.get_loc(i)+1, i+str('_limit'),
+                np.select(conditions, choices, default=0))
 
-    # Replace any < or > there may be
-    df[i] = df[i].str.replace('<', '')
-    df[i] = df[i].str.replace('>', '')
+        # Replace any < or > there may be
+        df[i] = df[i].str.replace('<', '')
+        df[i] = df[i].str.replace('>', '')
 
-    # Convert back to float
-    df[i] = df[i].astype(float)
+        # Convert back to float
+        df[i] = df[i].astype(float)
+    
+    else:
+        # Upper limit = 1, Lower limit = -1, Neither = 0
+        conditions = [(df[i].str.contains('>')), (df[i].str.contains('<'))]
+        choices = [-1, 1]
+        df.insert(df.columns.get_loc(i)+1, i+str('_limit'),
+                np.select(conditions, choices, default=0))
+
+        # Replace any < or > there may be
+        df[i] = df[i].str.replace('<', '')
+        df[i] = df[i].str.replace('>', '')
+
+        # Convert back to float
+        df[i] = df[i].astype(float)
 
     return df
 
