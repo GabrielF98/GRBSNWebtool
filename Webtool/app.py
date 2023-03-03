@@ -19,7 +19,7 @@ from scipy.interpolate import interp1d
 #################################
 
 # Basic flask stuff
-from flask import Flask, Blueprint, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort, send_from_directory
+from flask import Flask, Blueprint, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
 
 # Errors for pages that dont exist
 from werkzeug.exceptions import abort
@@ -50,6 +50,9 @@ from bokeh.transform import factor_mark, factor_cmap
 # Matplotlib
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 # Create config.py file
 with open('instance/config.py', 'w') as f:
@@ -258,7 +261,7 @@ class Downloads(Resource):
         filestream.seek(0)
         return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
     
-@api.route('/filteredbyredshift/<max_redshift>/<min_redshift>')
+@api.route('/filteredbyredshift/max_redshift_<max_redshift>+min_redshift_<min_redshift>')
 class Downloads2(Resource):
     def get(self, max_redshift, min_redshift):
 
@@ -291,6 +294,157 @@ class Downloads2(Resource):
                             folder+'/'+file, folder+'/'+file)
         filestream.seek(0)
         return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
+
+
+
+def plot_optical(event):
+    # Select the optical master file and import it
+    optical = pd.read_csv(os.path.join(app.root_path, 'static/SourceData/', event, event+'_Optical_Master.txt'), sep='\t')
+
+    # Extract info about the filters in the data
+    bands = list(set(list(optical['band'])))
+
+    # Choose colours/fillstyles for the plots
+    colours = ["#D81B60","#1E88E5","#FFC107","#004D40", "#6661B9", "#9F48E1", "#444297"]
+    fills = ['none', 'full']
+
+    # Choose an offset for the data in the plot
+    offset = 1
+
+    # Get the limits for the plots
+    max_time = np.max(optical['time'])
+    min_time = np.min(optical['time'])
+    max_mag = np.max(optical['mag'].to_numpy()+offset*(len(bands)-1))
+    min_mag = np.min(optical['mag'])
+
+    for j, band in enumerate(bands):
+        # Use pandas to select the points that correspond to the desired filter.
+        
+        # Use pandas to select the points that are upper limits.
+        # Upper limits are represented by a 1 in the mag_limit column.
+        upper_limits = optical.loc[(optical['band']==band) & (optical['mag_limit']==1)]['mag']
+        limit_times = optical.loc[(optical['band']==band) & (optical['mag_limit']==1)]['time']
+        
+        # Use pandas to select the errors on the non-upper-limit points
+        errors = optical.loc[(optical['band']==band) & (optical['mag_limit']!=1)]['dmag']
+        
+        # Use pandas to select the observation times and values.
+        observations = optical.loc[(optical['band']==band) & (optical['mag_limit']!=1)]['mag']
+        obs_times = optical.loc[(optical['band']==band) & (optical['mag_limit']!=1)]['time']
+        
+        # Plotting
+        plt.plot(obs_times, observations+offset*j, label=str(band)+'+'+str(j*offset), marker='o', 
+                linestyle='', color=colours[j%7], fillstyle=fills[j%2])
+        plt.errorbar(obs_times, observations+offset*j, errors, 
+                    linestyle='', color=colours[j%7], marker='')
+        plt.plot(limit_times, upper_limits+offset*j, marker='v', linestyle='', 
+                color=colours[j%7], fillstyle=fills[j%2])
+        
+    # Make it look good
+    plt.xlabel('Time since GRB [days]')
+    plt.xscale('log')
+    plt.ylabel('Magnitude')
+    plt.legend()
+    plt.xlim([0.6*(min_time), max_time+(5)*max_time])
+    plt.ylim([max_mag+0.5, min_mag-0.5])
+    plt.tick_params(which="minor", axis="x", direction="in")
+    plt.tick_params(which="major", axis="x", direction="in")
+    plt.tick_params(which="major", axis="y", direction="in")
+
+    # save this pyplot into a BytesIO string
+    byte_io = io.BytesIO()
+    plt.savefig(byte_io, format='pdf')
+    byte_io.seek(0)
+    plt.close()
+    return byte_io
+
+def plot_radio(event):
+    # Select the radio master file and import it.
+    radio = pd.read_csv(os.path.join(app.root_path, 'static/SourceData/', event, event+'_Radio_Master.txt'), sep='\t')
+
+    # Select the frequency bands used
+    freqs = list(set(list(radio['freq'])))
+
+    # Choose colours for the plots
+    colours = ["#D81B60","#1E88E5","#FFC107","#004D40", "#6661B9", "#9F48E1", "#444297"]
+    fillstyles = ['none', 'full']
+
+    # Make sure all fluxes are in mircoJy
+    radio['flux_density'] = np.where(radio['flux_density_unit'] == 'milliJy',
+                                        radio['flux_density']*1000,
+                                        radio['flux_density'])
+    radio['dflux_density'] = np.where(radio['flux_density_unit'] == 'milliJy',
+                                        radio['dflux_density']*1000,
+                                        radio['dflux_density'])
+    radio['flux_density'] = np.where(radio['flux_density_unit'] == 'Jy',
+                                        radio['flux_density']*1000000,
+                                        radio['flux_density'])
+    radio['dflux_density'] = np.where(radio['flux_density_unit'] == 'Jy',
+                                        radio['dflux_density']*1000000,
+                                        radio['dflux_density'])
+
+    for j, freq in enumerate(freqs):
+        # Use pandas to select the points that correspond to the desired frequency range.
+        
+        # Use pandas to select the points that are upper limits.
+        # Upper limits are represented by a 1 in the flux_density_limit column.
+        upper_limits = radio.loc[(radio['freq']==freq) & (radio['flux_density_limit']==1)]['flux_density']
+        limit_times = radio.loc[(radio['freq']==freq) & (radio['flux_density_limit']==1)]['time']
+        
+        # Use pandas to select the errors on the non-upper-limit points
+        errors = radio.loc[(radio['freq']==freq) & (radio['flux_density_limit']!=1)]['dflux_density']
+        
+        # Use pandas to select the observation times and values.
+        observations = radio.loc[(radio['freq']==freq) & (radio['flux_density_limit']!=1)]['flux_density']
+        obs_times = radio.loc[(radio['freq']==freq) & (radio['flux_density_limit']!=1)]['time']
+        
+        # Plotting
+        plt.plot(obs_times, observations, label=str(freq)+'GHz', marker='o', 
+                                            linestyle='', color=colours[j%7], fillstyle=fillstyles[j%2])
+        plt.errorbar(obs_times, observations, errors, linestyle='', color=colours[j%7], marker='')
+        plt.plot(limit_times, upper_limits, marker='v', linestyle='', color=colours[j%7], fillstyle=fillstyles[j%2])
+
+    # Make it look good.
+    plt.xlabel('Time since GRB [days]')
+    plt.xscale('log')
+    plt.ylabel('Flux density [μJy]')
+    plt.yscale('log')
+    plt.legend()
+    plt.tick_params(which="minor", axis="x", direction="in")
+    plt.tick_params(which="major", axis="x", direction="in")
+    plt.tick_params(which="major", axis="y", direction="in")
+
+    # save this pyplot into a BytesIO string
+    byte_io = io.BytesIO()
+    plt.savefig(byte_io, format='pdf')
+    byte_io.seek(0)
+    plt.close()
+    return byte_io
+
+@api.route('/plotting/events_<events>+waverange_<waveranges>')
+class Plotting(Resource):
+    def get(self, waveranges, events):
+        # Convert the string to a list
+        waverange_list = ast.literal_eval('['+waveranges+']')
+        event_list = ast.literal_eval('['+events+']')
+            
+        stream = io.BytesIO()
+        with zipfile.ZipFile(stream, 'w') as zf:
+            for event in event_list:
+                for waverange in waverange_list:
+                    if waverange == 'Optical':
+                        if exists(os.path.join(app.root_path, 'static/SourceData/', event, event+'_Optical_Master.txt')):
+                            optical_io = plot_optical(event)
+                            zf.writestr(event+'_'+waverange+'.pdf',optical_io.getvalue())
+                    elif waverange == 'Radio':
+                        if exists(os.path.join(app.root_path, 'static/SourceData/', event, event+'_Radio_Master.txt')):
+                            radio_io = plot_radio(event)
+                            zf.writestr(event+'_'+waverange+'.pdf',radio_io.getvalue())
+        stream.seek(0)
+
+        return send_file(stream, as_attachment=True, attachment_filename='plots.zip')
+
+
 
 # The homepage and its location
 
