@@ -1,6 +1,5 @@
 # Imports
 import sqlite3  # Database access
-import requests  # API Access to ADS
 import ast  # Convert strings to lists
 import glob  # Find the txt files with the right names
 import numpy as np
@@ -20,19 +19,18 @@ from scipy.interpolate import interp1d
 #################################
 
 # Basic flask stuff
-from flask import Flask, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
+from flask import Flask, Blueprint, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort, send_from_directory
 
 # Errors for pages that dont exist
 from werkzeug.exceptions import abort
-
-# Dealing with the flask login
-from flask_login import LoginManager
 
 # Search bars
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import Optional
 
+# API
+from flask_restx import Api, Resource
 
 #################################
 #################################
@@ -232,21 +230,67 @@ def processing_tag(event_id, band):
 
 # Creating the instance of the app
 app = Flask(__name__, instance_relative_config=True)
+blueprint = Blueprint('api', __name__, url_prefix='/api')
+api = Api(blueprint)
+app.register_blueprint(blueprint)
 app.config.from_pyfile('config.py')
 
-# Login to the website (to be used only prior to publication)
-login_manager = LoginManager()  # The login manager class created
-login_manager.init_app(app)
 
-
-@login_manager.user_loader
-def load_user(user_id):
-    return User.get(user_id)
 
 
 @app.errorhandler(404)
-def page_not_found(error):
+def page_not_found():
     return render_template('404.html', title='404'), 404
+
+# API page
+@api.route('/download/<directory_list>')
+class Downloads(Resource):
+    def get(self, directory_list):
+        # Convert the string to a list
+        directory_list = ast.literal_eval(directory_list)
+
+        filestream = io.BytesIO()
+        with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
+            for folder in directory_list:
+                for file in os.listdir(current_app.root_path+'/static/SourceData/'+folder+'/'):
+                    zipf.write(current_app.root_path+'/static/SourceData/' +
+                            folder+'/'+file, folder+'/'+file)
+        filestream.seek(0)
+        return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
+    
+@api.route('/filteredbyredshift/<max_redshift>/<min_redshift>')
+class Downloads2(Resource):
+    def get(self, max_redshift, min_redshift):
+
+        conn = get_db_connection()
+
+        names = conn.execute("SELECT DISTINCT GRB, SNe from SQLDataGRBSNe WHERE z>? AND z<?", (min_redshift, max_redshift,)).fetchall()
+        
+        directory_list = []
+        for name in names:
+            print(name[0])
+            if name['GRB'] == None:
+                directory_list.append('SN'+name['SNe'])
+            
+            elif name['SNe'] == None:
+                directory_list.append('GRB'+name['GRB'])
+            
+            
+            
+            else:
+                if 'AT' in name['SNe']:
+                    directory_list.append('GRB'+name['GRB']+'-'+name['SNe'])
+                else:
+                    directory_list.append('GRB'+name['GRB']+'-'+'SN'+name['SNe'])
+
+        filestream = io.BytesIO()
+        with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
+            for folder in directory_list:
+                for file in os.listdir(current_app.root_path+'/static/SourceData/'+folder+'/'):
+                    zipf.write(current_app.root_path+'/static/SourceData/' +
+                            folder+'/'+file, folder+'/'+file)
+        filestream.seek(0)
+        return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
 
 # The homepage and its location
 
@@ -343,8 +387,6 @@ def z_plotter():
                 grb_name = i['GRB']
                 z_photometric.append(float(i['z']))
 
-    z = z_photometric+z_spectroscopic
-
     conn.close()
     # Do graphing
     # E_iso plot
@@ -365,8 +407,6 @@ def z_plotter():
     response = make_response(output.getvalue())
     response.mimetype = 'image/png'
     return response
-
-    return render_template('home.html', form=form, data=data)
 
 
 # References
