@@ -32,7 +32,7 @@ GRB111209A-SN2011kl,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 GRB111211A,No ADS Data,Unprocessed,Yes,No,No,No,No
 GRB111228A,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 GRB120422A-SN2012bz,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
-GRB120714B-SN2012eb,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
+GRB120714B-SN2012eb,ADS Exhausted,Processed,Yes,Yes,No,No,Yes
 GRB120729A,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 GRB130215A-SN2013ez,ADS Exhausted,Unprocessed,No,Yes,No,No,No
 GRB130427A-SN2013cq,Completed,Unprocessed,Yes,Yes,Yes,Yes,No
