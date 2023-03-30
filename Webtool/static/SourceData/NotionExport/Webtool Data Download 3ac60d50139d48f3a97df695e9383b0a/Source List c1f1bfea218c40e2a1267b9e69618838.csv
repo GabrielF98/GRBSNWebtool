@@ -26,7 +26,7 @@ GRB090618,ADS Exhausted,Unprocessed,Yes,No,Yes,No,No
 GRB091127-SN2009nz,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 GRB100316D-SN2010bh,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
 GRB100418A,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
-GRB101219B-SN2010ma,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
+GRB101219B-SN2010ma,ADS Exhausted,Processed,Yes,Yes,No,No,No
 GRB101225A,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 GRB111209A-SN2011kl,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 GRB111211A,No ADS Data,Unprocessed,Yes,No,No,No,No
