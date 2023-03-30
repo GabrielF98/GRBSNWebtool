@@ -1,10 +1,6 @@
-Webtool/.DS_Store
-Webtool/static/.DS_Store
-.DS_Store
-Webtool/static/SNE-OpenSN-Data/.DS_Store
+**/.DS_Store
 __pycache__
 Webtool/instance/
-.DS_Store
 Webtool/env/
 .ipynb_checkpoints
 Paper/
