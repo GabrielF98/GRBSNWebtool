@@ -1,3 +1,9 @@
+Event Name: GRB120729A
+=========================================================
+Filename: GRB120729A_Optical.txt
+Source: https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
+Data-type: Early, Optical
+---------------------------------------------------------
 J/A+A/568/A19       Photometry of 3 {gamma}-ray burst supernovae (Cano+, 2014)
 ================================================================================
 A trio of gamma-ray burst supernovae:
@@ -57,31 +63,12 @@ File Summary:
 --------------------------------------------------------------------------------
  FileName   Lrecl  Records   Explanations
 --------------------------------------------------------------------------------
-ReadMe         80        .   This file
-stars.dat      56        3   List of studied GRB
 table3.dat     47      318   Optical and near-infrared (NIR) photometry
 --------------------------------------------------------------------------------
 
 See also:
      B/sn : Asiago Supernova Catalogue (Barbon et al., 1999-)
    II/256 : Sternberg Supernova Catalogue, 2004 version (Tsvetkov+, 2004)
-
-Byte-by-byte Description of file: stars.dat
---------------------------------------------------------------------------------
-   Bytes Format Units   Label     Explanations
---------------------------------------------------------------------------------
-   1-  7  A7    ---     GRB       GRB name
-   9- 10  I2    h       RAh       Simbad right ascension (J2000)
-  12- 13  I2    min     RAm       Simbad right ascension (J2000)
-  15- 19  F5.2  s       RAs       Simbad right ascension (J2000)
-      21  A1    ---     DE-       Declination sign (J2000)
-  22- 23  I2    deg     DEd       Declination (J2000)
-  25- 26  I2    arcmin  DEm       Declination (J2000)
-  28- 31  F4.1  arcsec  DEs       Declination (J2000)
-  33- 37  F5.3  ---     z         Redshift
-  39- 44  F6.1  Mpc     Dist      GRB distance
-  46- 56  A11   ---     Name      Other name
---------------------------------------------------------------------------------
 
 Byte-by-byte Description of file: table3.dat
 --------------------------------------------------------------------------------
@@ -124,3 +111,15 @@ Acknowledgements:
 
 ================================================================================
 (End)     Zach Cano [University of Iceland], Patricia Vannier [CDS]  12-Jun-2014
+
+=========================================================
+Filename: GRB120729A_Optical1.txt
+Source: https://ui.adsabs.harvard.edu/abs/2018ApJ...859..163H/abstract
+Data-type: Early, Optical
+---------------------------------------------------------
+Table 1 
+KAIT Observations of GRB 120729A
+Notes.
+^a $T-{T}_{0}$ is the midpoint of each observation. The reference time T_0 is the time of initial BAT detection, which is 3.08 s before the BAT trigger.
+^b Magnitude column does not take into account the Galactic extinction.
+^c sigma is the uncertainty in the magnitude. Here we present the statistic uncertainty only.
