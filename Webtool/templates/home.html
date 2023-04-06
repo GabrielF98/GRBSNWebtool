@@ -86,18 +86,35 @@
     <tbody>
 		{% for i in range(data|length) %}
 		<tr>
-			<!-- GRB and SN have a name -->
-			{% if data[i][0]!=None and data[i][1]!=None %}
-			<th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}-SN{{ data[i][1] }}" target='_blank'>{{ data[i][0] }}</th>
-			<th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}-SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
-			<!-- GRB has name -->
-			{% elif data[i][0]!=None and data[i][1]==None %}
-			<th><a href="http://127.0.0.1:5000/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
-			<th> </th>
-			<!-- SN has a name -->
-			{% elif data[i][0]==None and data[i][1]!=None %}
-			<th> </th>
-			<th><a href="http://127.0.0.1:5000/SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+			
+			{% if numerics[i] == 1 %}
+				<!-- GRB and SN have a name -->
+				{% if data[i][0]!=None and data[i][1]!=None %}
+				<th><a href="/GRB{{ data[i][0] }}-SN{{ data[i][1] }}" target='_blank'>{{ data[i][0] }}</th>
+				<th><a href="/GRB{{ data[i][0] }}-SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+				<!-- GRB has name -->
+				{% elif data[i][0]!=None and data[i][1]==None %}
+				<th><a href="/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
+				<th> </th>
+				<!-- SN has a name -->
+				{% elif data[i][0]==None and data[i][1]!=None %}
+				<th> </th>
+				<th><a href="/SN{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+				{% endif %}
+			{% else %}
+				<!-- GRB and SN have a name -->
+				{% if data[i][0]!=None and data[i][1]!=None %}
+				<th><a href="/GRB{{ data[i][0] }}-{{ data[i][1] }}" target='_blank'>{{ data[i][0] }}</th>
+				<th><a href="/GRB{{ data[i][0] }}-{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+				<!-- GRB has name -->
+				{% elif data[i][0]!=None and data[i][1]==None %}
+				<th><a href="/GRB{{ data[i][0] }}" target='_blank'>{{ data[i][0] }}</th>
+				<th> </th>
+				<!-- SN has a name -->
+				{% elif data[i][0]==None and data[i][1]!=None %}
+				<th> </th>
+				<th><a href="/{{ data[i][1] }}" target='_blank'>{{ data[i][1] }}</th>
+				{% endif %}
 			{% endif %}
 
 			<!-- EISO -->
