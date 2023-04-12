@@ -31,14 +31,14 @@
 29,GRB111209A-SN2011kl,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 30,GRB111211A,No ADS Data,Unprocessed,Yes,No,No,No,No
 31,GRB111228A,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
-32,GRB120422A-SN2012bz,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
+32,GRB120422A-SN2012bz,Mostly Completed,Processed,Yes,Yes,No,Yes,No
 33,GRB120714B-SN2012eb,ADS Exhausted,Processed,Yes,Yes,No,No,Yes
 34,GRB120729A,ADS Exhausted,Processed,Yes,Yes,No,No,Yes
 35,GRB130215A-SN2013ez,ADS Exhausted,Unprocessed,No,Yes,No,No,No
 36,GRB130427A-SN2013cq,Completed,Unprocessed,Yes,Yes,Yes,Yes,No
 37,GRB130702A-SN2013dx,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
 38,GRB130831A-SN2013fu,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
-39,GRB140606B,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
+39,GRB140606B-iPTF14bfu,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
 40,GRB150518A,No ADS Data,Unprocessed,No,No,No,No,No
 41,GRB150818A,No ADS Data,Unprocessed,Yes,No,No,No,No
 42,GRB161219B-SN2016jca,Completed,Unprocessed,Yes,Yes,Yes,Yes,No
@@ -47,9 +47,9 @@
 45,GRB180728A-SN2018fip,No ADS Data,Unprocessed,Yes,No,Yes,No,No
 46,GRB190114C-SN2019jrj,Completed,Unprocessed,Yes,Yes,Yes,Yes,No
 47,GRB190829A-AT2019oyw,Completed,Unprocessed,Yes,Yes,Yes,Yes,No
-48,GRB200826A,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
+48,GRB200826A-SN2020scz,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
 49,GRB201015A,New Event,Unprocessed,Yes,No,No,No,No
-50,GRB211023A,New Event,Unprocessed,No,No,No,No,No
+50,GRB211023A-SN2021acco,New Event,Unprocessed,No,No,No,No,No
 51,GRB220219B,New Event,Unprocessed,No,No,No,No,No
 52,GRB221009A-SN2022xiw,New Event,Unprocessed,Yes,No,No,No,No
 53,GRB970228,ADS Exhausted,Unprocessed,No,Yes,No,Yes,No
