@@ -20,7 +20,7 @@
   {% block title %}
   <!-- Take care of AT Names for the SNs -->
 
-  {% if 'AT' in event[0]['SNe']|string()%}
+  {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
   {% if event[0]['SNe'] == None %}
   <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
   {% elif event[0]['GRB'] == None %}
@@ -448,7 +448,7 @@
     <b>Download Table Data</b>
   </h2>
   <!-- Download Database Data -->
-  {% if 'AT' in event[0]['SNe']|string()%}
+  {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
   {% if event[0]['SNe'] == None %}
   <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data
     about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected
@@ -491,7 +491,7 @@
     {{ script|safe }}
 
   <h2> <b>Download Observations</b> </h2>
-  {% if 'AT' in event[0]['SNe']|string()%}
+  {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
   {% if event[0]['SNe'] == None %}
   <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
       href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from

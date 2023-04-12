@@ -192,7 +192,7 @@ Time should always appear in all files. Sometimes the date will also appear.
 ### Optical keywords 
 * `mag` Magnitude of the source.
 
-* `dmag`/`dmag2` Error on the magnitude. `dmag2` represents a second error column used when there are assymmetric errors. 
+* `dmag`/`dmag2` Error on the magnitude. `dmag2` represents a second error column used when there are assymmetric errors, in this case the first column is th e + error and the second is the - error.
 
 * `mag_unit` The units used for the magnitude of the source. The options are:
 
