@@ -106,7 +106,7 @@ def get_post(event_id):
     # Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
     conn = get_db_connection()
     if 'GRB' in event_id:
-        # GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
+        # GRB202005A-SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         # This solves the GRBs with SNs and without
         grb_name = event_id.split('-')[0][3:]
 
@@ -125,7 +125,7 @@ def get_post(event_id):
             abort(404)
 
     # This should ideally solve the lone SN cases
-    elif 'SN' or 'AT' in event_id:
+    else:
         sn_name = event_id[2:]
 
         # The main db table with most of the info
@@ -161,17 +161,50 @@ def table_query(max_z, min_z, max_eiso, min_eiso):
 # Get a dictionary of grb-sn pairs for ease of use in some functions later
 
 
-def grb_sne_dict():
+def sne_grb_dict():
     conn = get_db_connection()
     data = conn.execute('SELECT GRB, SNe FROM SQLDataGRBSNe GROUP BY GRB')
-    grb_sne_dict = {}
+    sne_grb_dict = {}
     for i in data:
         if i['SNe'] != None:
-            grb_sne_dict[i['SNe']] = i['GRB']
+            sne_grb_dict[i['SNe']] = i['GRB']
+    return sne_grb_dict
+
+
+def grb_sne_dict():
+    conn = get_db_connection()
+    data = conn.execute('SELECT GRB, SNe FROM SQLDataGRBSNe GROUP BY SNe')
+    grb_sne_dict = {}
+    for i in data:
+        if i['GRB'] != None:
+            grb_sne_dict[i['GRB']] = i['SNe']
     return (grb_sne_dict)
 
 
 grb_sne = grb_sne_dict()
+sne_grb = sne_grb_dict()
+
+
+def event_id_maker(partial_event, grb_sne=grb_sne, sne_grb=sne_grb):
+    if 'GRB' in partial_event:
+        if grb_sne[partial_event[3:]] is not None:
+            event_id = partial_event+'-SN'+grb_sne[partial_event[3:]]
+        else:
+            event_id = partial_event
+    else:
+        if partial_event[:2] == 'SN':
+            if sne_grb[partial_event[2:]] is not None:
+                event_id = 'GRB'+sne_grb[partial_event[2:]]+'-'+partial_event
+            else:
+                event_id = partial_event
+        else:
+            if sne_grb[partial_event] is not None:
+                event_id = 'GRB'+sne_grb[partial_event]+'-'+partial_event
+            else:
+                event_id = partial_event
+
+    return event_id
+
 
 # Get all the GRB names
 
@@ -218,7 +251,6 @@ sne = sne_names()
 
 def processing_tag(event_id, band):
     df = pd.read_csv('static/SourceData/tags.csv')
-
     df2 = df[df['Name'] == event_id]
     tag = str(df2.iloc[0][band])
     if tag == 'Yes':
@@ -233,6 +265,34 @@ def processing_tag(event_id, band):
 # Creating the instance of the app
 app = Flask(__name__, instance_relative_config=True)
 app.config.from_pyfile('config.py')
+
+
+@app.context_processor
+def grb_names():
+    conn = get_db_connection()
+    names = conn.execute('SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe')
+    grbs = []
+    for i in names:
+        if str(i[0]) != 'None' and str(i[1]) != 'None':
+            if str(i[1][:4]).isnumeric():
+                grbs.append('GRB'+str(i[0])+'-SN'+str(i[1]))
+            else:
+                grbs.append('GRB'+str(i[0])+'-'+str(i[1]))
+
+        elif str(i[1]) == 'None':
+            grbs.append('GRB'+str(i[0]))
+
+        elif str(i[0]) == 'None':
+            if str(i[1][:4]).isnumeric():
+                grbs.append('SN'+str(i[1]))
+            else:
+                grbs.append(str(i[1]))
+
+    length = len(grbs)
+    conn.close()
+
+    return {'grbs': grbs[::-1], 'number1': length}
+
 
 # Login to the website (to be used only prior to publication)
 login_manager = LoginManager()  # The login manager class created
@@ -262,19 +322,28 @@ def home():
         f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90), GROUP_CONCAT(ej_m), GROUP_CONCAT(ni_m), GROUP_CONCAT(E_p), GROUP_CONCAT(e_k) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
     data = conn.execute(initial_query).fetchall()
 
+    numeric = np.zeros(len(data))
+    for i, row in enumerate(data):
+        if row[1] != None:
+            if row[1][:4].isnumeric():
+                numeric[i] = 1
+
     form = SearchForm(request.form)
 
     if request.method == 'POST':
         event_id = form.object_name.data
-        # print(event_id)
-        if str(event_id)[2:] in sne:  # if they search an SN
+        print(event_id, sne)
+        if str(event_id)[2:] in sne or str(event_id) in sne:  # if they search an SN
+            event_id = event_id_maker(event_id)
             return redirect(url_for('event', event_id=event_id))
         elif str(event_id)[3:] in grbs:  # if they search an GRB
+            event_id = event_id_maker(event_id)
             return redirect(url_for('event', event_id=event_id))
         else:
             flash('This object is not in our database.')
-            return render_template('home.html', form=form, data=data)
-    return render_template('home.html', form=form, data=data)
+            return render_template('home.html', form=form, data=data, numerics=numeric)
+
+    return render_template('home.html', form=form, data=data, numerics=numeric)
 
 
 @app.route('/plot/e_iso')
@@ -389,7 +458,6 @@ with open("static/citations/citations(ADSdatadownloads).json") as file3:
 @app.route('/<event_id>')
 def event(event_id):
     event, radec, peakmag = get_post(event_id)
-    print(event)
     if len(event) == 0:
         abort(404)
 
@@ -462,7 +530,6 @@ def event(event_id):
     # The time of the GRB
     if radec[0]['trigtime'] != None:
         grb_time = radec[0]['trigtime']
-        # print(grb_time)
     else:
         grb_time = '00:00:00'
 
@@ -1030,7 +1097,6 @@ def event(event_id):
         # Sub list of the indices for the radio data from the ADS
         radio_source_indices_sub = []
         for ref in radio_refs:
-            # print(ref)
             if ref in needed_dict.keys():
                 radio_source_indices_sub.append(
                     (list(needed_dict.keys()).index(ref)+1))
@@ -1086,8 +1152,6 @@ def event(event_id):
             if radio_df['flux_density_unit'][i] == 'Jy':
                 radio_df['flux_density'][i] = radio_df['flux_density'][i]*1000
                 radio_df['dflux_density'][i] = radio_df['dflux_density'][i]*1000
-
-        # print(radio_df['dflux_density'])
 
         # Errors on flux densities
         radio_error_df = radio_df[[
@@ -1223,14 +1287,14 @@ def event(event_id):
                 for o in range(len(event)):
                     if event[o]['z'] is not None:
                         redshift.append(float(event[o]['z']))
-                
+
                 if 'deredshifted' in list(data_i['SN'+str(event[0]['SNe'])]['spectra'].keys()):
                     if data_i['SN'+str(event[0]['SNe'])]['spectra']['deredshifted'] == 'False':
                         wavelength = wavelength/(1+redshift[0])
-                
+
                 else:
                     wavelength = wavelength/(1+redshift[0])
-                
+
                 # Scale the flux using the 5000A flux
                 if max(wavelength) < 5000:
                     flux = flux/flux[-1]
@@ -1238,7 +1302,6 @@ def event(event_id):
                     flux = flux/flux[0]
                 else:
                     flux = flux/(interp1d(wavelength, flux)(np.array([5000])))
-
 
                 # Calculating the extent of the limits on the plots
                 max_spec[i] = max(flux)
@@ -1323,10 +1386,10 @@ def event(event_id):
                               color=color[i], muted_color='gray', muted_alpha=0.1, legend_label=str(np.round(float(data_dict['time_since'][0]), 2))+' days', line_width=2)
 
         # Range
-        spectrum.y_range = Range1d(max(min(min_spec)-0.1*min(min_spec), -1), min(0.1*max(max_spec)+max(max_spec), 5))
+        spectrum.y_range = Range1d(
+            max(min(min_spec)-0.1*min(min_spec), -1), min(0.1*max(max_spec)+max(max_spec), 5))
         # spectrum.y_range = Range1d(
         #     min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
-
 
     #################################
     # ADS data ######################
@@ -1349,7 +1412,8 @@ def event(event_id):
 
             else:
                 # Add to needed dict
-                needed_dict[ref] = {'names': dict_refs3[ref]['names'], 'year': dict_refs3[ref]['year']}
+                needed_dict[ref] = {'names': dict_refs3[ref]
+                                    ['names'], 'year': dict_refs3[ref]['year']}
 
                 # Save the spectra ref to use as a key in event html when accessing the reference
                 spec_refs.append(ref)
@@ -1366,12 +1430,14 @@ def event(event_id):
 
         # Choose colours
         colour = viridis(len(epochs))
-        
+
         # Plot
         for i in range(len(epochs)):
             # Perform scaling of the spectrum
-            scaled_spectrum = spectra_df.loc[spectra_df['time'] == float(epochs[i])]
-            scaled_spectrum['scaled_flux'] = scaled_spectrum['flux']/(interp1d(scaled_spectrum['rest_wavelength'], scaled_spectrum['flux']))(np.array([5000]))
+            scaled_spectrum = spectra_df.loc[spectra_df['time'] == float(
+                epochs[i])]
+            scaled_spectrum['scaled_flux'] = scaled_spectrum['flux']/(interp1d(
+                scaled_spectrum['rest_wavelength'], scaled_spectrum['flux']))(np.array([5000]))
 
             # Create a CDS
             spectra_cds = ColumnDataSource(scaled_spectrum)
@@ -1531,10 +1597,9 @@ def get_table(event_id):
     conn.close()
 
     if 'GRB' in event_id:
-        # GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
+        # GRB202005A-SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         # This solves the GRBs with SNs and without
         grb_name = str(event_id).split('-')[0][3:]
-        # print(grb_name)
 
         # Set the index of the df to be based on GRB name
         downloadabledf = df.loc[df['GRB'] == grb_name]
@@ -1542,7 +1607,7 @@ def get_table(event_id):
         downloadabledf3 = df3.loc[df3['grb_id'] == grb_name]
 
     # This should ideally solve the lone SN cases
-    elif 'SN' or 'AT' in event_id:
+    else:
         sn_name = event_id[2:]
 
         # The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
@@ -1650,19 +1715,15 @@ def graphs():
             if str(row[2]).split(',')[0] != 'None' and str(row[3]).split(',')[0] != 'None':
 
                 if '<' in str(row[2]).split(',')[0]:
-                    # print('case1'+str(row[2]).split(',')[0])
                     x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '>' in str(row[2]).split(',')[0]:
-                    # print('case2'+row[2].split(',')[0])
                     x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '<' in str(row[3]).split(',')[0]:
-                    # print('case3'+row[3].split(',')[0])
                     x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '>' in str(row[3]).split(',')[0]:
-                    # print('case4'+row[3].split(',')[0])
                     x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
                 else:
@@ -1740,39 +1801,10 @@ def download_graph_data(title, grb_name, sne_name, raw_x, raw_y):
 
     name = str(title)+'grbsntool.txt'
     name = name.encode('utf-8')
-    # print(name)
     resp.headers.set("Content-Disposition", "attachment", filename=name)
     return resp
 
 # Pass the data to be used by the dropdown menu (decorating)
-
-
-@app.context_processor
-def grb_names():
-    conn = get_db_connection()
-    names = conn.execute('SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe')
-    grbs = []
-    years = []
-    for i in names:
-        if str(i[0]) != 'None' and str(i[1]) != 'None':
-            if 'AT' in str(i[1]):
-                grbs.append('GRB'+str(i[0])+'-'+str(i[1]))
-            else:
-                grbs.append('GRB'+str(i[0])+'-SN'+str(i[1]))
-
-        # years.append(str(i[0])[:2])
-        elif str(i[1]) == 'None':
-            grbs.append('GRB'+str(i[0]))
-
-        elif str(i[0]) == 'None':
-            if 'AT' in str(i[1]):
-                grbs.append(str(i[1]))
-            else:
-                grbs.append('SN'+str(i[1]))
-    length = len(grbs)
-    conn.close()
-
-    return {'grbs': grbs[::-1], 'number1': length}
 
 # Help
 
@@ -1797,26 +1829,25 @@ def advsearch():
     event_list = []
     for i in data:
         if i[0] != None:
-            if i[1] != None and 'AT' not in str(i[1]):
+            if i[1] != None and str(i[1][:4]).isnumeric():
                 # Add the SN and GRB name
                 event_list.append('GRB'+str(i[0])+'-SN'+str(i[1]))
-            elif i[1] != None and 'AT' in str(i[1]):
+            elif i[1] != None and str(i[1][:4]).isnumeric() is False:
                 # Add the SN and GRB name
                 event_list.append('GRB'+str(i[0])+'-'+str(i[1]))
             else:
                 # GRB only
                 event_list.append('GRB'+str(i[0]))
         elif i[1] != None:
-            if 'AT' in str(i[1]):
-                # SN only
-                event_list.append(str(i[1]))
-            else:
+            if str(i[1][:4]).isnumeric():
                 # SN only
                 event_list.append('SN'+str(i[1]))
+            else:
+                # SN only
+                event_list.append(str(i[1]))
 
     # Create a form to take in user data
     form = TableForm(request.form)
-    #print("The errors were", form.errors)
 
     if request.method == 'POST' and form.validate_on_submit():
         # List of vars to include in the query
@@ -1852,9 +1883,13 @@ def advsearch():
         # Check if the variables are as expected
         if event_id != str():
 
-            if str(event_id)[2:] in sne:  # if they search an SN
+            if str(event_id)[2:] in sne:  # if they search an SNYYYYxx sn type
                 querylist.append(f"SNe=?")
                 varlist.append(str(event_id[2:]))
+
+            elif str(event_id) in sne:  # if they search an non-SNYYYYxx sn type
+                querylist.append(f"SNe=?")
+                varlist.append(str(event_id))
 
             elif str(event_id)[3:] in grbs:  # if they search an GRB
                 querylist.append(f"GRB=?")
@@ -2055,22 +2090,22 @@ def advsearch():
         event_list = []
         for i in data:
             if i[0] != None:
-                if i[1] != None and 'AT' not in str(i[1]):
+                if i[1] != None and str(i[1][:4]).isnumeric():
                     # Add the SN and GRB name
                     event_list.append('GRB'+str(i[0])+'-SN'+str(i[1]))
-                elif i[1] != None and 'AT' in str(i[1]):
+                elif i[1] != None and str(i[1][:4]).isnumeric() is False:
                     # Add the SN and GRB name
                     event_list.append('GRB'+str(i[0])+'-'+str(i[1]))
                 else:
                     # GRB only
                     event_list.append('GRB'+str(i[0]))
             elif i[1] != None:
-                if 'AT' in str(i[1]):
-                    # SN only
-                    event_list.append(str(i[1]))
-                else:
+                if str(i[1][:4]).isnumeric():
                     # SN only
                     event_list.append('SN'+str(i[1]))
+                else:
+                    # SN only
+                    event_list.append(str(i[1]))
 
         return render_template('advancedsearch.html', form=form, data=data, mid_query=mid_query, varlist=varlist, event_list=event_list)
 
@@ -2103,7 +2138,6 @@ def get_advsearch_table(query, varlist):
             "SELECT * FROM PeakTimesMags", conn)
     else:
         # Read the main db table
-        #print("The query is", query)
         df1 = pd.read_sql_query(
             "SELECT * FROM SQLDataGRBSNe"+query, conn, params=tuple(varlist, ))
 
