@@ -1,0 +1,13 @@
+date	time	instrument	freq	freq_unit	integration	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	time_frame	flux_density_unit	extinction_corrected	integration_unit	dtime
+56039.3291	0.0537	SCUBA-2	350.0	GHz	5639.0	7.2	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56039.3291	0.0537	SCUBA-2	665.0	GHz	5639.0	225.0	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56039.5676	0.267	AMI-LA	15.0	GHz	NaN	0.62	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56040.1923	0.8917	SMA	272.0	GHz	3420.0	3.6	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56041.6806	2.38	AMI-LA	15.0	GHz	NaN	0.47	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56041.9422	2.6416	PdBI	86.7	GHz	5040.0	0.39	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56041.9943	2.6937	CARMA	92.5	GHz	3480.0	1.15	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56043.6806	4.38	AMI-LA	15.0	GHz	NaN	0.37	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56046.7206	7.42	AMI-LA	15.0	GHz	NaN	0.24	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56048.8054	9.5048	PdBI	86.7	GHz	5040.0	0.24	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56052.7506	13.45	AMI-LA	15.0	GHz	NaN	0.23	1	NaN	MJD	days	observer	milliJy	False	days	NaN
+56067.8906	28.59	AMI-LA	15.0	GHz	NaN	0.46	1	NaN	MJD	days	observer	milliJy	False	days	NaN
