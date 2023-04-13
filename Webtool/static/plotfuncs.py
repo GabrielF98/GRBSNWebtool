@@ -61,13 +61,23 @@ def get_trigtime(event_id):
 
                 # Make it a full UTC time
                 if np.float64(grb_name[:2]) > 90:
-                    trigtime = '19' + \
+                    if isinstance(grb_name[-2:], int):
+                        trigtime = '19' + \
+                            grb_name[:2]+'-'+grb_name[2:4] + \
+                            '-'+grb_name[-2:]+'T'+trigtime
+                    else:
+                        trigtime = '19' + \
                         grb_name[:2]+'-'+grb_name[2:4] + \
-                        '-'+grb_name[-2:]+'T'+trigtime
+                        '-'+grb_name[-3:-1]+'T'+trigtime
                 else:
-                    trigtime = '20' + \
+                    if isinstance(grb_name[-2], int):
+                        trigtime = '20' + \
                         grb_name[:2]+'-'+grb_name[2:4] + \
                         '-'+grb_name[-2:]+'T'+trigtime
+                    else:
+                        trigtime = '20' + \
+                        grb_name[:2]+'-'+grb_name[2:4] + \
+                        '-'+grb_name[-3:-1]+'T'+trigtime
 
             else:
                 trigtime = "no_tt"
@@ -744,7 +754,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
+                time_unit.append('days')
+                time_frame.append('observer')
 
             # yyyy-month-dd-hh.h-hh.h
             elif dataframe['date_unit'][i] == 'yyyy-month-dd-hh.h-hh.h':
@@ -779,6 +790,12 @@ def delta_time(dataframe):
                 # Time unit is now in days
                 time_unit.append('days')
                 time_frame.append('observer')
+            
+            else:
+                # Time unit is now in days
+                time_unit.append('days')
+                time_frame.append('observer')
+                
         dataframe['dtime'] = dtime
         dataframe['time_frame'] = time_frame
         dataframe['time_unit'] = time_unit
@@ -1196,6 +1213,7 @@ for i in range(len(event_list)):
     # Check if the readme exists already. If it does then the files are ready to parse.
     if 'readme.txt' in file_list:
         for file in file_list:
+            print(file)
             if 'Master' in file:
                 print('Skipping ', file)
                 continue
