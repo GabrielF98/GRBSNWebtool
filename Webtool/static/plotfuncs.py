@@ -10,17 +10,42 @@ from astropy.time import Time
 import pandas as pd
 
 
-def flux_density_to_AB_mag(flux_density, dflux_density):
-    if isinstance(flux_density, float):
-        mag = -2.5*np.log10(flux_density)+8.9
-        dmag = np.sqrt((-2.5/(flux_density*np.log(10)))**2*dflux_density**2)
-    else:
-        if flux_density[0] == '>':
-            mag = '<'+str(-2.5*np.log10(flux_density)+8.9)  # > ---> <
-            dmag = dflux_density  # Which is nan in this case
-        elif flux_density[0] == '<':
-            mag = '>'+str(-2.5*np.log10(flux_density)+8.9)  # < ---> >
-            dmag = dflux_density  # Which is nan in this case
+def milli_micro_convert(quantity, unit):
+    '''Convert from milli and micro to full unit. Eg milliJy to Jy.'''
+    new_quantity = quantity
+    if 'milli' in unit:
+        print('Doing')
+        new_quantity = quantity/1e3
+    elif 'micro' in unit:
+        print('Doing')
+        new_quantity = quantity/1e6
+    return new_quantity
+
+
+def flux_density_to_AB_mag(flux_densities, dflux_densities, flux_density_unit):
+    mag = []
+    dmag = []
+    for i, flux_density in enumerate(flux_densities):
+        if isinstance(flux_density, float):
+            flux_density = milli_micro_convert(
+                float(flux_density), flux_density_unit[i])
+            dflux_density = milli_micro_convert(
+                float(dflux_densities[i]), flux_density_unit[i])
+            mag.append(-2.5*np.log10(flux_density)+8.9)
+            dmag.append(
+                np.sqrt((-2.5/(flux_density*np.log(10)))**2*dflux_density**2))
+        else:
+            # Account for upper and lower limits.
+            flux_density = milli_micro_convert(
+                flux_density[1:], flux_density_unit)
+            if flux_density[0] == '>':
+                # > ---> <
+                mag.append('<'+str(-2.5*np.log10(flux_density[1:])+8.9))
+                dmag.append(dflux_density[i])  # Which is nan in this case
+            elif flux_density[0] == '<':
+                # < ---> >
+                mag.append('>'+str(-2.5*np.log10(flux_density[1:])+8.9))
+                dmag.append(dflux_density[i])  # Which is nan in this case
 
     return mag, dmag
 
@@ -82,17 +107,17 @@ def get_trigtime(event_id):
                             '-'+grb_name[-2:]+'T'+trigtime
                     else:
                         trigtime = '19' + \
-                        grb_name[:2]+'-'+grb_name[2:4] + \
-                        '-'+grb_name[-3:-1]+'T'+trigtime
+                            grb_name[:2]+'-'+grb_name[2:4] + \
+                            '-'+grb_name[-3:-1]+'T'+trigtime
                 else:
                     if isinstance(grb_name[-2], int):
                         trigtime = '20' + \
-                        grb_name[:2]+'-'+grb_name[2:4] + \
-                        '-'+grb_name[-2:]+'T'+trigtime
+                            grb_name[:2]+'-'+grb_name[2:4] + \
+                            '-'+grb_name[-2:]+'T'+trigtime
                     else:
                         trigtime = '20' + \
-                        grb_name[:2]+'-'+grb_name[2:4] + \
-                        '-'+grb_name[-3:-1]+'T'+trigtime
+                            grb_name[:2]+'-'+grb_name[2:4] + \
+                            '-'+grb_name[-3:-1]+'T'+trigtime
 
             else:
                 trigtime = "no_tt"
@@ -401,17 +426,11 @@ def elapsed_time(dataframe, trigtime):
             time_frame.append('observer')
         # MJD
         elif dataframe['date_unit'][i] == "MJD":
-            print(file, ' used MJD')
-            # Split the two MJDs.
             mjd = dataframe['date'][i]
 
-            # Convert the MJDs to isotimes.
+            # Convert the MJD to isotimes.
             mjdiso = Time(mjd, format='mjd')
             obstime = Time(mjdiso.isot, format='isot')
-
-            # Handle an absence of triggertime. Set to the first time in the observations.
-            # if trigtime == 'no_tt' and i==0:
-            #     trigtime = obstime
 
             # Append the isotime-trigtime (elapsed time)
             time[i] = (obstime-Time(trigtime, format='isot')).value
@@ -805,12 +824,12 @@ def delta_time(dataframe):
                 # Time unit is now in days
                 time_unit.append('days')
                 time_frame.append('observer')
-            
+
             else:
                 # Time unit is now in days
                 time_unit.append('days')
                 time_frame.append('observer')
-                
+
         dataframe['dtime'] = dtime
         dataframe['time_frame'] = time_frame
         dataframe['time_unit'] = time_unit
@@ -1266,8 +1285,9 @@ for i in range(len(event_list)):
                 if 'mag' not in list(data.keys()) and 'flux_density' in list(data.keys()):
                     flux_density = data['flux_density']
                     dflux_density = data['dflux_density']
+                    flux_density_unit = data['flux_density_unit']
                     mag, dmag = flux_density_to_AB_mag(
-                        flux_density, dflux_density)
+                        flux_density, dflux_density, flux_density_unit)
                     data['mag'] = mag
                     data['dmag'] = dmag
                     data['mag_unit'] = 'AB'
