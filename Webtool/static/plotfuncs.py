@@ -10,6 +10,44 @@ from astropy.time import Time
 import pandas as pd
 
 
+def milli_micro_convert(quantity, unit):
+    '''Convert from milli and micro to full unit. Eg milliJy to Jy.'''
+    new_quantity = quantity
+    if 'milli' in unit:
+        new_quantity = quantity/1e3
+    elif 'micro' in unit:
+        new_quantity = quantity/1e6
+    return new_quantity
+
+
+def flux_density_to_AB_mag(flux_densities, dflux_densities, flux_density_unit):
+    mag = []
+    dmag = []
+    for i, flux_density in enumerate(flux_densities):
+        if isinstance(flux_density, float):
+            flux_density = milli_micro_convert(
+                float(flux_density), flux_density_unit[i])
+            dflux_density = milli_micro_convert(
+                float(dflux_densities[i]), flux_density_unit[i])
+            mag.append(-2.5*np.log10(flux_density)+8.9)
+            dmag.append(
+                np.sqrt((-2.5/(flux_density*np.log(10)))**2*dflux_density**2))
+        else:
+            # Account for upper and lower limits.
+            flux_density = milli_micro_convert(
+                flux_density[1:], flux_density_unit)
+            if flux_density[0] == '>':
+                # > ---> <
+                mag.append('<'+str(-2.5*np.log10(flux_density[1:])+8.9))
+                dmag.append(dflux_density[i])  # Which is nan in this case
+            elif flux_density[0] == '<':
+                # < ---> >
+                mag.append('>'+str(-2.5*np.log10(flux_density[1:])+8.9))
+                dmag.append(dflux_density[i])  # Which is nan in this case
+
+    return mag, dmag
+
+
 def list_grbs_with_data():
     """
     List of GRB-SNe that I have text file data on so far.
@@ -61,13 +99,23 @@ def get_trigtime(event_id):
 
                 # Make it a full UTC time
                 if np.float64(grb_name[:2]) > 90:
-                    trigtime = '19' + \
-                        grb_name[:2]+'-'+grb_name[2:4] + \
-                        '-'+grb_name[-2:]+'T'+trigtime
+                    if isinstance(grb_name[-2:], int):
+                        trigtime = '19' + \
+                            grb_name[:2]+'-'+grb_name[2:4] + \
+                            '-'+grb_name[-2:]+'T'+trigtime
+                    else:
+                        trigtime = '19' + \
+                            grb_name[:2]+'-'+grb_name[2:4] + \
+                            '-'+grb_name[-3:-1]+'T'+trigtime
                 else:
-                    trigtime = '20' + \
-                        grb_name[:2]+'-'+grb_name[2:4] + \
-                        '-'+grb_name[-2:]+'T'+trigtime
+                    if isinstance(grb_name[-2], int):
+                        trigtime = '20' + \
+                            grb_name[:2]+'-'+grb_name[2:4] + \
+                            '-'+grb_name[-2:]+'T'+trigtime
+                    else:
+                        trigtime = '20' + \
+                            grb_name[:2]+'-'+grb_name[2:4] + \
+                            '-'+grb_name[-3:-1]+'T'+trigtime
 
             else:
                 trigtime = "no_tt"
@@ -103,9 +151,9 @@ def get_redshift(event_id):
 
         z = conn.execute(
             'SELECT z FROM SQLDataGRBSNe WHERE GRB=?', (grb_name,))
-        
+
         for redshift in z:
-            if redshift[0]!=0:
+            if redshift[0] != 0:
                 z = redshift[0]
 
     # Lone SN cases
@@ -115,9 +163,9 @@ def get_redshift(event_id):
         # Table with triggertimes
         z = conn.execute(
             'SELECT z FROM SQLDataGRBSNe WHERE SNe=?', (sn_name,))
-        
+
         for redshift in z:
-            if redshift[0]!=0:
+            if redshift[0] != 0:
                 z = redshift[0]
 
     conn.close()
@@ -184,6 +232,7 @@ def elapsed_time(dataframe, trigtime):
     # Handle the different date formats
     time = np.zeros(len(dataframe['date']))
     time_unit = []
+    time_frame = []
 
     for i in range(len(dataframe['date'])):
         # yyyy-month-deciday
@@ -212,7 +261,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-mm-deciday
         elif dataframe['date_unit'][i] == "yyyy-mm-deciday":
 
@@ -238,7 +287,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-mm-deciday-deciday
         elif dataframe['date_unit'][i] == "yyyy-mm-deciday-deciday":
 
@@ -269,7 +318,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-month-deciday-deciday
         elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
 
@@ -300,7 +349,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-mm-dd-hh:mm-hh:mm
         elif dataframe['date_unit'][i] == "yyyy-mm-dd-hh:mm-hh:mm":
             # Split up the date.
@@ -336,7 +385,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days.
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-month-dd-hh:mm-hh:mm
         elif dataframe['date_unit'][i] == "yyyy-month-dd-hh:mm-hh:mm":
             # Split up the date.
@@ -372,27 +421,21 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days.
             time_unit.append('days')
-
+            time_frame.append('observer')
         # MJD
         elif dataframe['date_unit'][i] == "MJD":
-            print(file, ' used MJD')
-            # Split the two MJDs.
             mjd = dataframe['date'][i]
 
-            # Convert the MJDs to isotimes.
+            # Convert the MJD to isotimes.
             mjdiso = Time(mjd, format='mjd')
             obstime = Time(mjdiso.isot, format='isot')
-
-            # Handle an absence of triggertime. Set to the first time in the observations.
-            # if trigtime == 'no_tt' and i==0:
-            #     trigtime = obstime
 
             # Append the isotime-trigtime (elapsed time)
             time[i] = (obstime-Time(trigtime, format='isot')).value
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-month-day-hh:mm
         elif dataframe['date_unit'][i] == 'yyyy-month-day-hh:mm':
             date = dataframe['date'][i].split('-')
@@ -420,7 +463,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # MJD-MJD
         elif dataframe['date_unit'][i] == 'MJD-MJD':
 
@@ -449,7 +492,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-month-deciday-month-deciday
         # This could have issues if only the date is given.
         elif dataframe['date_unit'][i] == 'yyyy-month-deciday-month-deciday':
@@ -486,7 +529,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-month-dd-hh.h-hh.h
         elif dataframe['date_unit'][i] == 'yyyy-month-dd-hh.h-hh.h':
 
@@ -522,14 +565,14 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         elif dataframe['date_unit'][i] == 'utc':
             obstime = Time(dataframe['date'][i], format='isot', scale='utc')
 
             time[i] = (obstime-Time(trigtime, format='isot', scale='utc')).value
 
             time_unit.append('days')
-
+            time_frame.append('observer')
         # Alert me that I have encountered a date format that isn't supported yet.
         else:
             raise Exception('No date2time function found for ' +
@@ -539,7 +582,7 @@ def elapsed_time(dataframe, trigtime):
     # update the time column with the new times.
     dataframe['time'] = time
     dataframe['time_unit'] = time_unit
-
+    dataframe['time_frame'] = time_frame
     return dataframe
 
 
@@ -551,7 +594,8 @@ def delta_time(dataframe):
     # Create the dtime array, fill with NaN.
     dtime = np.empty(len(dataframe[list(dataframe.keys())[0]]))
     dtime[:] = np.NaN
-
+    time_frame = []
+    time_unit = []
     if 'date' in list(dataframe.keys()):
         for i in range(len(dataframe['date'])):
 
@@ -583,7 +627,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
+                time_unit.append('days')
+                time_frame.append('observer')
 
             # yyyy-month-deciday-deciday
             elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
@@ -612,8 +657,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
-
+                time_unit.append('days')
+                time_frame.append('observer')
             # yyyy-mm-dd-hh:mm-hh:mm
             elif dataframe['date_unit'][i] == "yyyy-mm-dd-hh:mm-hh:mm":
                 # Split up the date.
@@ -647,8 +692,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
-
+                time_unit.append('days')
+                time_frame.append('observer')
             # yyyy-month-dd-hh:mm-hh:mm
             elif dataframe['date_unit'][i] == "yyyy-month-dd-hh:mm-hh:mm":
                 # Split up the date.
@@ -682,7 +727,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
+                time_unit.append('days')
+                time_frame.append('observer')
 
             # MJD-MJD
             elif dataframe['date_unit'][i] == 'MJD-MJD':
@@ -705,7 +751,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
+                time_unit.append('days')
+                time_frame.append('observer')
 
             # yyyy-month-deciday-month-deciday
             # Note that this could have issues if only the date is given.
@@ -739,7 +786,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
+                time_unit.append('days')
+                time_frame.append('observer')
 
             # yyyy-month-dd-hh.h-hh.h
             elif dataframe['date_unit'][i] == 'yyyy-month-dd-hh.h-hh.h':
@@ -772,13 +820,22 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
-        dataframe['dtime'] = dtime
+                time_unit.append('days')
+                time_frame.append('observer')
 
+            else:
+                # Time unit is now in days
+                time_unit.append('days')
+                time_frame.append('observer')
+
+        dataframe['dtime'] = dtime
+        dataframe['time_frame'] = time_frame
+        dataframe['time_unit'] = time_unit
     # The dtime should just be nan.
     else:
         dataframe['dtime'] = dtime
-
+        dataframe['time_frame'] = len(dtime)*['observer']
+        dataframe['time_unit'] = len(dtime)*['days']
     return dataframe
 
 
@@ -792,7 +849,7 @@ def time_formats(dataframe):
     if 'dtime' not in list(dataframe.keys()):
         dtime = np.zeros(len(dataframe['time_unit']))
         time = np.zeros(len(dataframe['time_unit']))
-        
+
         # Handle the different date formats
         for i in range(len(dataframe['time'])):
 
@@ -890,7 +947,7 @@ def limits(df, wave_range):
         conditions = [(df[i].str.contains('<')), (df[i].str.contains('>'))]
         choices = [-1, 1]
         df.insert(df.columns.get_loc(i)+1, i+str('_limit'),
-                np.select(conditions, choices, default=0))
+                  np.select(conditions, choices, default=0))
 
         # Replace any < or > there may be
         df[i] = df[i].str.replace('<', '')
@@ -898,13 +955,13 @@ def limits(df, wave_range):
 
         # Convert back to float
         df[i] = df[i].astype(float)
-    
+
     else:
         # Upper limit = 1, Lower limit = -1, Neither = 0
         conditions = [(df[i].str.contains('>')), (df[i].str.contains('<'))]
         choices = [-1, 1]
         df.insert(df.columns.get_loc(i)+1, i+str('_limit'),
-                np.select(conditions, choices, default=0))
+                  np.select(conditions, choices, default=0))
 
         # Replace any < or > there may be
         df[i] = df[i].str.replace('<', '')
@@ -1046,8 +1103,8 @@ def masterfileformat(event):
 
                     # Add a column for the ads abstract link - source
                     data['reference'] = len(data['time'])*[file_sources.at
-                                                        [file_sources[file_sources['Filename'] ==
-                                                                        file].index[0], 'Reference']]
+                                                           [file_sources[file_sources['Filename'] ==
+                                                                         file].index[0], 'Reference']]
 
                     # Make sure the elapsed time is in days,
                     # if its in seconds/minutes/hours then convert it.
@@ -1067,12 +1124,12 @@ def masterfileformat(event):
 
                     # Append pandas
                     optical_pandas.append(data)
-            
+
             else:
                 # Add a column for the ads abstract link - source
                 data['reference'] = len(data['time'])*[file_sources.at
-                                                    [file_sources[file_sources['Filename'] ==
-                                                                    file].index[0], 'Reference']]
+                                                       [file_sources[file_sources['Filename'] ==
+                                                                     file].index[0], 'Reference']]
 
                 # Make sure the elapsed time is in days,
                 # if its in seconds/minutes/hours then convert it.
@@ -1188,6 +1245,7 @@ for i in range(len(event_list)):
     # Check if the readme exists already. If it does then the files are ready to parse.
     if 'readme.txt' in file_list:
         for file in file_list:
+            print(file)
             if 'Master' in file:
                 print('Skipping ', file)
                 continue
@@ -1205,18 +1263,14 @@ for i in range(len(event_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
-                
-
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
-                
+
                 # Do the time formats before checking for dtime
-                data=time_formats(data)
+                data = time_formats(data)
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
-
-                
 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
@@ -1224,6 +1278,17 @@ for i in range(len(event_list)):
             elif any(substring in file.lower() for substring in optical_filetags):
 
                 data = pd.read_csv(file, sep='\t')
+
+                # Convert to mag from flux density if necessary
+                if 'mag' not in list(data.keys()) and 'flux_density' in list(data.keys()):
+                    flux_density = data['flux_density']
+                    dflux_density = data['dflux_density']
+                    flux_density_unit = data['flux_density_unit']
+                    mag, dmag = flux_density_to_AB_mag(
+                        flux_density, dflux_density, flux_density_unit)
+                    data['mag'] = mag
+                    data['dmag'] = dmag
+                    data['mag_unit'] = 'AB'
 
                 # Find and catalogue limit values
                 if 'mag_limit' not in list(data.keys()):
@@ -1235,9 +1300,9 @@ for i in range(len(event_list)):
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
-                
+
                 # Do the time formats before checking for dtime
-                data=time_formats(data)
+                data = time_formats(data)
 
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
@@ -1261,7 +1326,7 @@ for i in range(len(event_list)):
                     data = elapsed_time(data, trigtime)
 
                 # Do the time formats before checking for dtime
-                data=time_formats(data)
+                data = time_formats(data)
 
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
@@ -1276,9 +1341,9 @@ for i in range(len(event_list)):
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
-                
+
                 # Do the time formats before checking for dtime
-                data=time_formats(data)
+                data = time_formats(data)
 
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
