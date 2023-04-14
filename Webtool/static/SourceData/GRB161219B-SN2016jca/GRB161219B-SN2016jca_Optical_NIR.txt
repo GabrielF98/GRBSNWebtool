@@ -1,4 +1,4 @@
-time	instrument	band	freq	flux_desnity	dflux_density	time_unit	freq_unit	flux_density_unit	extinction_corrected	time_frame
+time	instrument	band	freq	flux_density	dflux_density	time_unit	freq_unit	flux_density_unit	extinction_corrected	time_frame
 5.440E-04	SAAO_MASTER	R	4.67E+14	1.338E+00	4.258E-01	days	Hz	milliJy	false	observer
 7.331E-03	Terksol_K-800	R	4.67E+14	6.518E-01	2.355E-02	days	Hz	milliJy	false	observer
 8.823E-03	Terksol_K-800	R	4.67E+14	7.293E-01	2.814E-02	days	Hz	milliJy	false	observer
