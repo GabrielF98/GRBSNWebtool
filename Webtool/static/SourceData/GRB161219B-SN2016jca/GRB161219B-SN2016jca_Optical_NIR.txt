@@ -1,501 +1,473 @@
-Title: First ALMA Light Curve Constrains Refreshed Reverse 
-       Shocks & Jet Magnetization in GRB 161219B  
-Authors: Laskar T., Alexander K.D., Berger E., Guidorzi C., Margutti R., 
-         Fong W.-F.., Kilpatrick C.D., Milne P., Drout M.R., Mundell C.G., 
-         Kobayashi S., Lunnan R., Duran R.B., Menten K.M., Ioka K., 
-         Williams P.K.G. 
-Table: Optical and Near-IR Observations of GRB 161219B
-================================================================================
-Byte-by-byte Description of file: apjaacbcct3_mrt.txt
---------------------------------------------------------------------------------
-   Bytes Format Units   Label   Explanations
---------------------------------------------------------------------------------
-   1-  9 E9.3   d       Time    Mid-time of observation (1)
-  11- 27 A17    ---     Obs     Observatory and instrument identifiers
-  29- 34 A6     ---     Filter  Filter used (2)
-  36- 43 E8.2   Hz      Freq    Frequency of Filter
-  45- 53 E9.3   mJy     Flux    Flux density in Filter (3)
-  55- 63 E9.3   mJy   e_Flux    Uncertainty in Flux (4)
-      65 I1     ---     Detect  Detection code (5)
-  67-117 A51    ---     Ref     Observation reference
---------------------------------------------------------------------------------
-Note (1): Since discovery, 2016 December 19 18:48:39 UT.
-Note (2): CR is clear filter calibrated to the R band.
-Note (3): Not corrected for Galactic extinction.
-Note (4): An uncertainty of 0.2 AB mag is assumed where not provided. 
-Note (5):
-    1 = Yes;
-    0 = No.
---------------------------------------------------------------------------------
-5.440E-04 SAAO MASTER       CR     4.67E+14 1.338E+00 4.258E-01 1 Buckley et al. (2016) [2016GCN.20330....1B]        
-7.331E-03 Terksol K-800     CR     4.67E+14 6.518E-01 2.355E-02 1 Mazaeva et al. (2016) [2016GCN.20309....1M]        
-8.823E-03 Terksol K-800     CR     4.67E+14 7.293E-01 2.814E-02 1 Mazaeva et al. (2016) [2016GCN.20309....1M]        
-1.194E-02 Terksol K-800     CR     4.67E+14 6.017E-01 1.380E-02 1 Mazaeva et al. (2016) [2016GCN.20309....1M]        
-1.585E-02 Terksol K-800     CR     4.67E+14 5.680E-01 1.286E-02 1 Mazaeva et al. (2016) [2016GCN.20309....1M]        
-2.116E-02 Terksol K-800     CR     4.67E+14 5.846E-01 7.887E-03 1 Mazaeva et al. (2016) [2016GCN.20309....1M]        
-2.905E-02 Terksol K-800     CR     4.67E+14 5.249E-01 1.077E-02 1 Mazaeva et al. (2016) [2016GCN.20309....1M]        
-3.905E-02 Terksol K-800     CR     4.67E+14 4.960E-01 7.675E-03 1 Mazaeva et al. (2016) [2016GCN.20309....1M]        
-5.224E-02 Terksol K-800     CR     4.67E+14 4.296E-01 7.304E-03 1 Mazaeva et al. (2016) [2016GCN.20309....1M]        
-6.305E-02 Terksol K-800     CR     4.67E+14 3.814E-01 1.223E-02 1 Mazaeva et al. (2016) [2016GCN.20309....1M]        
-8.042E-02 LCO Sutherland    i'     4.03E+14 4.786E-01 2.256E-02 1 This work                                          
-8.047E-02 LCO Sutherland    r'     4.90E+14 4.130E-01 1.947E-02 1 This work                                          
-8.228E-02 LCO Sutherland    i'     4.03E+14 4.487E-01 2.115E-02 1 This work                                          
-8.234E-02 LCO Sutherland    r'     4.90E+14 3.981E-01 1.494E-02 1 This work                                          
-8.413E-02 LCO Sutherland    i'     4.03E+14 4.365E-01 2.480E-02 1 This work                                          
-8.419E-02 LCO Sutherland    r'     4.90E+14 4.018E-01 1.894E-02 1 This work                                          
-8.598E-02 LCO Sutherland    i'     4.03E+14 4.487E-01 2.115E-02 1 This work                                          
-8.604E-02 LCO Sutherland    r'     4.90E+14 3.767E-01 1.414E-02 1 This work                                          
-8.784E-02 LCO Sutherland    i'     4.03E+14 4.365E-01 2.057E-02 1 This work                                          
-8.788E-02 LCO Sutherland    r'     4.90E+14 3.837E-01 1.440E-02 1 This work                                          
-2.470E-01 Boyden Watcher    r'     4.90E+14 2.168E-01 6.899E-02 1 Martin-Carrillo et al. (2016) [2016GCN.20305....1M]
-2.820E-01 MPG GROND         H      1.84E+14 3.607E-01 1.011E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.830E-01 MPG GROND         K      1.37E+14 2.951E-01 1.391E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.830E-01 MPG GROND         J      2.38E+14 3.113E-01 8.722E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.850E-01 MPG GROND         z'     3.37E+14 2.606E-01 7.301E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.850E-01 MPG GROND         i'     4.03E+14 2.421E-01 6.783E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.850E-01 MPG GROND         g'     6.46E+14 2.249E-01 4.181E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.860E-01 MPG GROND         r'     4.90E+14 2.148E-01 1.987E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.960E-01 MPG GROND         K      1.37E+14 3.357E-01 1.260E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.980E-01 MPG GROND         H      1.84E+14 3.382E-01 1.269E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.980E-01 MPG GROND         J      2.38E+14 2.973E-01 8.329E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.000E-01 MPG GROND         z'     3.37E+14 2.512E-01 7.037E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.000E-01 MPG GROND         i'     4.03E+14 2.355E-01 4.378E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.000E-01 MPG GROND         r'     4.90E+14 2.089E-01 1.933E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.000E-01 MPG GROND         g'     6.46E+14 1.995E-01 3.709E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.080E-01 MPG GROND         K      1.37E+14 3.296E-01 1.553E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.080E-01 MPG GROND         J      2.38E+14 2.762E-01 7.738E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.090E-01 MPG GROND         H      1.84E+14 3.574E-01 1.001E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.110E-01 MPG GROND         z'     3.37E+14 2.512E-01 4.670E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.110E-01 MPG GROND         i'     4.03E+14 2.312E-01 2.139E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.110E-01 MPG GROND         r'     4.90E+14 2.051E-01 1.898E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.110E-01 MPG GROND         g'     6.46E+14 1.977E-01 3.675E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.485E-01 FTN 2m            r'     4.90E+14 1.247E-01 9.538E-03 1 This work                                          
-6.503E-01 FTN 2m            i'     4.03E+14 1.432E-01 1.382E-02 1 This work                                          
-7.420E-01 Akeno MITSuME     Ic     3.76E+14 1.340E-01 1.429E-02 1 Fujiwara et al. (2016) [2016GCN..20314...1F]       
-7.420E-01 Akeno MITSuME     g'     6.46E+14 1.067E-01 1.137E-02 1 Fujiwara et al. (2016) [2016GCN..20314...1F]       
-1.030E+00 SALT SALTICAM     r'     4.90E+14 9.638E-02 5.476E-03 1 Buckley et al. (2016) [2016GCN..20322...1B]        
-1.086E+00 LCO Sutherland    r'     4.90E+14 8.395E-02 4.770E-03 1 This work                                          
-1.090E+00 LCO Sutherland    i'     4.03E+14 1.169E-01 8.943E-03 1 This work                                          
-1.554E+00 MPG GROND         K      1.37E+14 1.466E-01 1.267E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.554E+00 MPG GROND         H      1.84E+14 1.410E-01 5.291E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.554E+00 MPG GROND         J      2.38E+14 1.141E-01 3.196E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.556E+00 MPG GROND         r'     4.90E+14 7.244E-02 1.347E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.557E+00 MPG GROND         z'     3.37E+14 9.036E-02 2.532E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.557E+00 MPG GROND         i'     4.03E+14 8.551E-02 1.590E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.557E+00 MPG GROND         g'     6.46E+14 7.112E-02 1.993E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.664E+00 FTS 2m            r'     4.90E+14 6.310E-02 4.202E-03 1 This work                                          
-1.666E+00 FTS 2m            i'     4.03E+14 8.472E-02 6.478E-03 1 This work                                          
-2.296E+00 VLT NA            I      3.76E+14 6.717E-02 6.216E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.296E+00 VLT NA            R      4.67E+14 5.375E-02 4.974E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.296E+00 VLT NA            V      5.51E+14 6.093E-02 5.637E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.296E+00 VLT NA            B      6.88E+14 4.751E-02 4.396E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.533E+00 LCO Swope         B      6.88E+14 4.394E-02 2.466E-03 1 This work                                          
-2.540E+00 LCO Swope         V      5.51E+14 6.938E-02 2.779E-03 1 This work                                          
-2.548E+00 LCO Swope         u'     8.34E+14 3.443E-02 5.181E-03 1 This work                                          
-2.556E+00 LCO Swope         g'     6.46E+14 4.961E-02 1.633E-03 1 This work                                          
-2.557E+00 MPG GROND         K      1.37E+14 9.333E-02 1.091E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.559E+00 MPG GROND         H      1.84E+14 9.489E-02 5.391E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.559E+00 MPG GROND         J      2.38E+14 8.039E-02 3.789E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.561E+00 MPG GROND         z'     3.37E+14 7.379E-02 2.067E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.561E+00 MPG GROND         i'     4.03E+14 6.486E-02 1.206E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.561E+00 MPG GROND         r'     4.90E+14 5.395E-02 4.992E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.561E+00 MPG GROND         g'     6.46E+14 6.138E-02 1.141E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.563E+00 LCO Swope         i'     4.03E+14 6.763E-02 3.451E-03 1 This work                                          
-2.571E+00 LCO Swope         r'     4.90E+14 5.535E-02 3.039E-03 1 This work                                          
-2.585E+00 UKIRT WFCAM       UKIRTJ 2.41E+14 9.612E-02 6.118E-03 1 This work                                          
-2.606E+00 UKIRT WFCAM       UKIRTH 1.85E+14 1.151E-01 7.216E-03 1 This work                                          
-2.628E+00 UKIRT WFCAM       UKIRTK 1.37E+14 1.044E-01 6.647E-03 1 This work                                          
-2.689E+00 FTS 2m            r'     4.90E+14 4.571E-02 3.495E-03 1 This work                                          
-2.691E+00 FTS 2m            i'     4.03E+14 5.598E-02 5.968E-03 1 This work                                          
-3.585E+00 UKIRT WFCAM       UKIRTJ 2.41E+14 8.519E-02 5.925E-03 1 This work                                          
-3.607E+00 FTN 2m            r'     4.90E+14 3.837E-02 1.440E-03 1 This work                                          
-3.611E+00 FTN 2m            i'     4.03E+14 4.571E-02 2.597E-03 1 This work                                          
-3.613E+00 UKIRT WFCAM       UKIRTH 1.85E+14 8.527E-02 6.267E-03 1 This work                                          
-3.638E+00 UKIRT WFCAM       UKIRTK 1.37E+14 7.958E-02 4.677E-03 1 This work                                          
-4.296E+00 VLT NA            I      3.76E+14 4.479E-02 4.145E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-4.296E+00 VLT NA            R      4.67E+14 3.894E-02 3.603E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-4.296E+00 VLT NA            V      5.51E+14 5.162E-02 4.776E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-4.296E+00 VLT NA            B      6.88E+14 3.916E-02 3.623E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-4.448E+00 LCO Swope         B      6.88E+14 4.657E-02 5.166E-04 1 This work                                          
-4.452E+00 LCO Swope         V      5.51E+14 5.946E-02 2.764E-03 1 This work                                          
-4.457E+00 LCO Swope         u'     8.34E+14 3.241E-02 5.344E-03 1 This work                                          
-4.463E+00 LCO Swope         g'     6.46E+14 4.822E-02 1.352E-03 1 This work                                          
-4.502E+00 MPG GROND         H      1.84E+14 6.042E-02 4.024E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.502E+00 MPG GROND         J      2.38E+14 5.214E-02 2.963E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.504E+00 MPG GROND         i'     4.03E+14 4.831E-02 8.981E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.504E+00 MPG GROND         g'     6.46E+14 5.649E-02 1.050E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.505E+00 MPG GROND         z'     3.37E+14 5.702E-02 1.060E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.505E+00 MPG GROND         r'     4.90E+14 4.571E-02 8.498E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.498E+00 MPG GROND         K      1.37E+14 4.721E-02 2.682E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.498E+00 MPG GROND         H      1.84E+14 5.460E-02 4.175E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.498E+00 MPG GROND         J      2.38E+14 5.119E-02 2.413E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.501E+00 MPG GROND         z'     3.37E+14 5.297E-02 9.847E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.501E+00 MPG GROND         i'     4.03E+14 4.529E-02 8.420E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.501E+00 MPG GROND         r'     4.90E+14 4.613E-02 8.577E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.501E+00 MPG GROND         g'     6.46E+14 5.297E-02 1.484E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.858E+00 FTS 2m            r'     4.90E+14 3.837E-02 2.555E-03 1 This work                                          
-5.861E+00 FTS 2m            i'     4.03E+14 4.093E-02 3.537E-03 1 This work                                          
-6.336E+00 VLT NA            I      3.76E+14 3.901E-02 3.610E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-6.336E+00 VLT NA            R      4.67E+14 3.930E-02 3.636E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-6.336E+00 VLT NA            V      5.51E+14 5.258E-02 4.865E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-6.336E+00 VLT NA            B      6.88E+14 3.257E-02 3.014E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-6.487E+00 MPG GROND         H      1.84E+14 6.098E-02 7.127E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.487E+00 MPG GROND         J      2.38E+14 5.932E-02 5.127E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.487E+00 MPG GROND         r'     4.90E+14 4.742E-02 1.329E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.488E+00 MPG GROND         z'     3.37E+14 5.012E-02 1.881E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.488E+00 MPG GROND         i'     4.03E+14 4.613E-02 1.292E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.488E+00 MPG GROND         g'     6.46E+14 4.529E-02 1.269E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.246E+00 TNG NA            I      3.76E+14 4.397E-02 2.072E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-7.246E+00 TNG NA            R      4.67E+14 4.725E-02 8.784E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-7.246E+00 TNG NA            V      5.51E+14 6.149E-02 5.932E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-7.246E+00 TNG NA            B      6.88E+14 3.348E-02 9.380E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-7.263E+00 RdlMO GTC         g'     6.46E+14 4.055E-02 1.136E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.270E+00 RdlMO GTC         r'     4.90E+14 4.446E-02 1.246E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.273E+00 RdlMO GTC         i'     4.03E+14 4.325E-02 8.041E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.276E+00 RdlMO GTC         z'     3.37E+14 4.831E-02 8.981E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-8.206E+00 LT NA             i'     4.03E+14 4.365E-02 1.223E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-8.206E+00 LT NA             r'     4.90E+14 5.105E-02 3.400E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-8.206E+00 LT NA             V      5.51E+14 5.355E-02 1.083E-02 1 Ashall et al. (2017) [2017arXiv170204339A]         
-8.206E+00 LT NA             g'     6.46E+14 4.325E-02 2.038E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-8.206E+00 LT NA             B      6.88E+14 3.442E-02 4.378E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-8.216E+00 LT NA             i'     4.03E+14 4.365E-02 1.223E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-8.216E+00 LT NA             r'     4.90E+14 5.105E-02 3.400E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-8.216E+00 LT NA             V      5.51E+14 5.355E-02 1.083E-02 1 Ashall et al. (2017) [2017arXiv170204339A]         
-8.216E+00 LT NA             g'     6.46E+14 4.365E-02 2.057E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-8.245E+00 RdlMO NOT         g'     6.46E+14 4.018E-02 7.470E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-8.253E+00 RdlMO NOT         r'     4.90E+14 4.831E-02 8.981E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-8.261E+00 RdlMO NOT         i'     4.03E+14 4.571E-02 8.498E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-8.271E+00 RdlMO NOT         z'     3.37E+14 4.786E-02 1.796E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-8.568E+00 LCO Swope         B      6.88E+14 3.287E-02 4.743E-03 1 This work                                          
-8.573E+00 LCO Swope         V      5.51E+14 5.330E-02 6.484E-03 1 This work                                          
-8.583E+00 LCO Swope         g'     6.46E+14 3.546E-02 1.304E-02 1 This work                                          
-8.656E+00 UKIRT WFCAM       UKIRTJ 2.41E+14 6.861E-02 4.166E-03 1 This work                                          
-8.677E+00 UKIRT WFCAM       UKIRTH 1.85E+14 6.773E-02 7.637E-03 1 This work                                          
-8.710E+00 UKIRT WFCAM       UKIRTK 1.37E+14 6.540E-02 5.196E-03 1 This work                                          
-8.746E+00 FTS 2m            r'     4.90E+14 4.285E-02 2.854E-03 1 This work                                          
-8.761E+00 FTS 2m            i'     4.03E+14 3.664E-02 5.043E-03 1 This work                                          
-9.251E+00 RdlMO NOT         g'     6.46E+14 4.169E-02 2.369E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-9.259E+00 RdlMO NOT         r'     4.90E+14 5.058E-02 1.417E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-9.270E+00 RdlMO NOT         i'     4.03E+14 5.297E-02 1.484E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-9.280E+00 RdlMO NOT         z'     3.37E+14 4.786E-02 4.137E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-9.296E+00 MPG GROND         H      1.84E+14 4.104E-02 5.648E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-9.296E+00 MPG GROND         J      2.38E+14 4.142E-02 3.580E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-9.296E+00 MPG GROND         z'     3.37E+14 5.200E-02 1.457E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-9.296E+00 MPG GROND         i'     4.03E+14 4.831E-02 8.981E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-9.296E+00 MPG GROND         r'     4.90E+14 4.875E-02 9.064E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-9.296E+00 MPG GROND         g'     6.46E+14 4.130E-02 1.157E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-9.306E+00 VLT NA            I      3.76E+14 4.048E-02 3.745E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-9.306E+00 VLT NA            R      4.67E+14 4.270E-02 3.951E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-9.306E+00 VLT NA            V      5.51E+14 5.405E-02 5.001E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-9.306E+00 VLT NA            B      6.88E+14 2.660E-02 2.461E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.020E+01 LT NA             i'     4.03E+14 4.529E-02 3.463E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.020E+01 LT NA             r'     4.90E+14 5.546E-02 4.793E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.020E+01 LT NA             V      5.51E+14 6.263E-02 2.952E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.020E+01 LT NA             g'     6.46E+14 3.908E-02 1.842E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.021E+01 LT NA             i'     4.03E+14 4.571E-02 3.495E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.021E+01 LT NA             r'     4.90E+14 5.546E-02 4.793E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.021E+01 LT NA             V      5.51E+14 6.263E-02 2.952E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.021E+01 LT NA             g'     6.46E+14 3.908E-02 1.842E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.031E+01 MPG GROND         J      2.38E+14 4.542E-02 3.024E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.031E+01 MPG GROND         z'     3.37E+14 5.152E-02 1.934E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.031E+01 MPG GROND         i'     4.03E+14 5.012E-02 9.318E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.031E+01 MPG GROND         r'     4.90E+14 5.105E-02 9.491E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.031E+01 MPG GROND         g'     6.46E+14 4.055E-02 7.539E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.053E+01 LCO Swope         g'     6.46E+14 3.644E-02 1.511E-03 1 This work                                          
-1.053E+01 LCO Swope         u'     8.34E+14 8.387E-03 2.796E-03 0 This work                                          
-1.054E+01 LCO Swope         V      5.51E+14 5.512E-02 3.487E-03 1 This work                                          
-1.054E+01 LCO Swope         B      6.88E+14 3.363E-02 2.785E-03 1 This work                                          
-1.134E+01 MPG GROND         z'     3.37E+14 4.786E-02 1.341E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.134E+01 MPG GROND         i'     4.03E+14 5.058E-02 1.417E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.134E+01 MPG GROND         r'     4.90E+14 5.012E-02 9.318E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.134E+01 MPG GROND         g'     6.46E+14 3.767E-02 1.414E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.221E+01 TNG NA            I      3.76E+14 4.397E-02 5.139E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.221E+01 TNG NA            R      4.67E+14 5.181E-02 2.944E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.221E+01 TNG NA            V      5.51E+14 5.506E-02 3.128E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.221E+01 TNG NA            B      6.88E+14 2.517E-02 5.370E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.225E+01 RdlMO NOT         g'     6.46E+14 3.499E-02 1.313E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.226E+01 RdlMO NOT         r'     4.90E+14 5.058E-02 2.384E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.226E+01 RdlMO NOT         i'     4.03E+14 5.445E-02 6.363E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.229E+01 MPG GROND         H      1.84E+14 4.459E-02 4.754E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.229E+01 MPG GROND         J      2.38E+14 5.311E-02 1.375E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.229E+01 MPG GROND         z'     3.37E+14 4.656E-02 1.304E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.229E+01 MPG GROND         i'     4.03E+14 4.920E-02 9.148E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.229E+01 MPG GROND         r'     4.90E+14 5.012E-02 9.318E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.229E+01 MPG GROND         g'     6.46E+14 3.908E-02 1.095E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.250E+01 LCO Swope         g'     6.46E+14 3.756E-02 1.304E-03 1 This work                                          
-1.250E+01 VLT NA            I      3.76E+14 4.200E-02 3.886E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.250E+01 VLT NA            R      4.67E+14 4.725E-02 4.372E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.250E+01 VLT NA            V      5.51E+14 5.258E-02 4.865E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.250E+01 VLT NA            B      6.88E+14 2.403E-02 2.224E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.250E+01 LCO Swope         u'     8.34E+14 1.244E-02 3.509E-03 1 This work                                          
-1.251E+01 LCO Swope         V      5.51E+14 5.787E-02 2.811E-03 1 This work                                          
-1.251E+01 LCO Swope         B      6.88E+14 3.092E-02 1.558E-03 1 This work                                          
-1.321E+01 RdlMO NOT         g'     6.46E+14 3.251E-02 6.044E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.321E+01 RdlMO NOT         r'     4.90E+14 4.920E-02 9.148E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.322E+01 RdlMO NOT         i'     4.03E+14 4.875E-02 1.366E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.328E+01 RdlMO GTC         g'     6.46E+14 3.251E-02 9.108E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.328E+01 RdlMO GTC         r'     4.90E+14 4.613E-02 1.292E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.328E+01 RdlMO GTC         i'     4.03E+14 4.786E-02 1.341E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.328E+01 RdlMO GTC         z'     3.37E+14 4.529E-02 1.269E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.335E+01 MPG GROND         H      1.84E+14 5.026E-02 4.849E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.335E+01 MPG GROND         J      2.38E+14 4.800E-02 1.299E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.335E+01 MPG GROND         z'     3.37E+14 4.365E-02 1.223E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.335E+01 MPG GROND         i'     4.03E+14 5.105E-02 9.491E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.335E+01 MPG GROND         r'     4.90E+14 4.831E-02 8.981E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.335E+01 MPG GROND         g'     6.46E+14 3.664E-02 1.027E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.357E+01 UKIRT WFCAM       UKIRTJ 2.41E+14 6.380E-02 4.437E-03 1 This work                                          
-1.359E+01 UKIRT WFCAM       UKIRTH 1.85E+14 7.565E-02 7.146E-03 1 This work                                          
-1.361E+01 UKIRT WFCAM       UKIRTK 1.37E+14 5.016E-02 6.747E-03 1 This work                                          
-1.363E+01 FTN 2m            r'     4.90E+14 4.093E-02 1.929E-03 1 This work                                          
-1.363E+01 FTS 2m            i'     4.03E+14 3.981E-02 3.044E-03 1 This work                                          
-1.436E+01 MPG GROND         H      1.84E+14 4.712E-02 6.485E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.436E+01 MPG GROND         J      2.38E+14 4.712E-02 1.443E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.436E+01 MPG GROND         z'     3.37E+14 4.487E-02 1.257E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.436E+01 MPG GROND         i'     4.03E+14 5.200E-02 9.667E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.436E+01 MPG GROND         r'     4.90E+14 4.831E-02 8.981E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.436E+01 MPG GROND         g'     6.46E+14 2.911E-02 8.155E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.444E+01 LCO Swope         B      6.88E+14 2.528E-02 1.588E-03 1 This work                                          
-1.445E+01 LCO Swope         V      5.51E+14 5.409E-02 2.052E-03 1 This work                                          
-1.446E+01 LCO Swope         u'     8.34E+14 8.507E-03 2.531E-03 1 This work                                          
-1.447E+01 LCO Swope         g'     6.46E+14 3.118E-02 1.112E-03 1 This work                                          
-1.448E+01 LCO Swope         u'     8.34E+14 8.432E-03 2.629E-03 1 This work                                          
-1.458E+01 Keck NA           I      3.76E+14 4.048E-02 1.519E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.458E+01 Keck NA           R      4.67E+14 4.270E-02 1.196E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.458E+01 Keck NA           V      5.51E+14 3.809E-02 1.067E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.458E+01 Keck NA           B      6.88E+14 1.823E-02 1.687E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.522E+01 LT NA             i'     4.03E+14 4.529E-02 8.420E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.522E+01 LT NA             r'     4.90E+14 5.058E-02 1.417E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.522E+01 LT NA             V      5.51E+14 3.705E-02 3.575E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.522E+01 LT NA             g'     6.46E+14 2.805E-02 7.860E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.522E+01 LT NA             B      6.88E+14 2.338E-02 2.020E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.523E+01 LT NA             i'     4.03E+14 4.529E-02 8.420E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.523E+01 LT NA             r'     4.90E+14 5.058E-02 1.417E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.523E+01 LT NA             V      5.51E+14 3.705E-02 3.575E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.523E+01 LT NA             g'     6.46E+14 2.805E-02 7.860E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.523E+01 LT NA             B      6.88E+14 2.338E-02 2.020E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.529E+01 RdlMO NOT         g'     6.46E+14 2.965E-02 5.512E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.530E+01 RdlMO NOT         r'     4.90E+14 4.966E-02 1.391E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.531E+01 RdlMO NOT         i'     4.03E+14 4.742E-02 8.817E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.532E+01 RdlMO NOT         z'     3.37E+14 4.529E-02 1.269E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.537E+01 MPG GROND         z'     3.37E+14 4.406E-02 1.653E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.537E+01 MPG GROND         i'     4.03E+14 5.012E-02 9.318E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.537E+01 MPG GROND         r'     4.90E+14 4.786E-02 8.898E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.537E+01 MPG GROND         g'     6.46E+14 3.020E-02 8.461E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.620E+01 LT NA             i'     4.03E+14 4.529E-02 2.134E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.620E+01 LT NA             r'     4.90E+14 4.487E-02 2.988E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.620E+01 LT NA             V      5.51E+14 4.333E-02 1.214E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.620E+01 LT NA             g'     6.46E+14 2.535E-02 9.514E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.620E+01 LT NA             B      6.88E+14 1.773E-02 1.008E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.626E+01 VLT NA            I      3.76E+14 4.161E-02 3.850E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.626E+01 VLT NA            R      4.67E+14 4.512E-02 4.175E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.626E+01 VLT NA            V      5.51E+14 4.622E-02 4.276E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.626E+01 VLT NA            B      6.88E+14 1.741E-02 3.237E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.668E+01 LT 2m             r'     4.90E+14 4.018E-02 2.283E-03 1 This work                                          
-1.669E+01 LT 2m             i'     4.03E+14 4.325E-02 3.738E-03 1 This work                                          
-1.718E+01 LT NA             i'     4.03E+14 5.297E-02 3.009E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.718E+01 LT NA             r'     4.90E+14 4.925E-02 3.766E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.718E+01 LT NA             g'     6.46E+14 2.421E-02 1.851E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.828E+01 VLT NA            I      3.76E+14 3.937E-02 3.643E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.828E+01 VLT NA            R      4.67E+14 4.192E-02 3.879E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.828E+01 VLT NA            V      5.51E+14 3.988E-02 3.690E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.828E+01 VLT NA            B      6.88E+14 1.370E-02 2.547E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-1.839E+01 MPG GROND         J      2.38E+14 4.337E-02 3.748E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.839E+01 MPG GROND         z'     3.37E+14 4.487E-02 1.257E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.839E+01 MPG GROND         i'     4.03E+14 5.105E-02 9.491E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.839E+01 MPG GROND         r'     4.90E+14 4.571E-02 8.498E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.839E+01 MPG GROND         g'     6.46E+14 2.188E-02 6.129E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-1.956E+01 UKIRT WFCAM       UKIRTJ 2.41E+14 6.969E-02 6.935E-03 1 This work                                          
-1.959E+01 UKIRT WFCAM       UKIRTK 1.37E+14 5.143E-02 7.837E-03 1 This work                                          
-1.961E+01 UKIRT WFCAM       UKIRTH 1.85E+14 4.048E-02 8.053E-03 1 This work                                          
-2.034E+01 MPG GROND         H      1.84E+14 4.800E-02 4.148E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.034E+01 MPG GROND         J      2.38E+14 3.777E-02 3.644E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.034E+01 MPG GROND         z'     3.37E+14 4.571E-02 1.281E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.034E+01 MPG GROND         i'     4.03E+14 5.105E-02 9.491E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.034E+01 MPG GROND         r'     4.90E+14 4.246E-02 7.894E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.034E+01 MPG GROND         g'     6.46E+14 1.959E-02 7.351E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.122E+01 RdlMO NOT         J      2.38E+14 5.026E-02 9.062E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.125E+01 RdlMO NOT         H      1.84E+14 4.258E-02 6.761E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.128E+01 RdlMO GTC         g'     6.46E+14 2.128E-02 7.987E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.128E+01 RdlMO GTC         r'     4.90E+14 4.285E-02 1.201E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.128E+01 RdlMO GTC         i'     4.03E+14 4.699E-02 1.316E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.128E+01 RdlMO GTC         z'     3.37E+14 3.873E-02 1.453E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.148E+01 VLT NA            I      3.76E+14 3.937E-02 3.643E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.148E+01 VLT NA            R      4.67E+14 3.930E-02 3.636E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.148E+01 VLT NA            V      5.51E+14 3.287E-02 6.111E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.148E+01 VLT NA            B      6.88E+14 9.480E-03 5.386E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.229E+01 MPG GROND         H      1.84E+14 5.770E-02 4.987E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.229E+01 MPG GROND         J      2.38E+14 4.980E-02 1.465E-02 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.229E+01 MPG GROND         z'     3.37E+14 4.406E-02 1.653E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.229E+01 MPG GROND         i'     4.03E+14 4.786E-02 1.341E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.229E+01 MPG GROND         r'     4.90E+14 3.802E-02 7.068E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.229E+01 MPG GROND         g'     6.46E+14 1.786E-02 8.419E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.538E+01 MPG GROND         H      1.84E+14 3.260E-02 3.810E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.538E+01 MPG GROND         J      2.38E+14 3.883E-02 2.969E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.538E+01 MPG GROND         z'     3.37E+14 4.093E-02 1.147E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.538E+01 MPG GROND         i'     4.03E+14 4.285E-02 2.020E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.538E+01 MPG GROND         r'     4.90E+14 3.373E-02 6.271E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.538E+01 MPG GROND         g'     6.46E+14 1.585E-02 7.469E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.539E+01 VLT NA            I      3.76E+14 3.461E-02 6.434E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.539E+01 VLT NA            R      4.67E+14 3.151E-02 5.857E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.539E+01 VLT NA            V      5.51E+14 2.785E-02 7.802E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.551E+01 UKIRT WFCAM       UKIRTJ 2.41E+14 5.760E-02 3.015E-03 1 This work                                          
-2.554E+01 UKIRT WFCAM       UKIRTK 1.37E+14 4.800E-02 4.728E-03 1 This work                                          
-2.560E+01 FTN 2m            i'     4.03E+14 3.565E-02 3.081E-03 1 This work                                          
-2.560E+01 FTN 2m            r'     4.90E+14 2.729E-02 2.910E-03 1 This work                                          
-2.815E+01 RdlMO NOT         g'     6.46E+14 1.614E-02 3.001E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.816E+01 RdlMO NOT         r'     4.90E+14 3.162E-02 5.879E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.817E+01 RdlMO NOT         i'     4.03E+14 3.981E-02 7.401E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.818E+01 RdlMO NOT         z'     3.37E+14 3.532E-02 1.325E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.820E+01 LT NA             i'     4.03E+14 3.467E-02 6.446E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.820E+01 LT NA             r'     4.90E+14 2.630E-02 1.240E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.913E+01 LT NA             i'     4.03E+14 3.281E-02 6.100E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-2.913E+01 LT NA             r'     4.90E+14 2.679E-02 1.005E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.019E+01 RdlMO NOT         g'     6.46E+14 1.500E-02 4.202E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.020E+01 RdlMO NOT         r'     4.90E+14 3.076E-02 5.719E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.020E+01 RdlMO NOT         i'     4.03E+14 3.908E-02 1.095E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.021E+01 RdlMO NOT         z'     3.37E+14 3.565E-02 1.338E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.026E+01 VLT NA            I      3.76E+14 2.852E-02 2.639E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.026E+01 VLT NA            R      4.67E+14 2.434E-02 2.253E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.026E+01 VLT NA            V      5.51E+14 1.891E-02 1.750E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.026E+01 VLT NA            B      6.88E+14 6.558E-03 6.068E-05 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.113E+01 LT NA             i'     4.03E+14 2.965E-02 5.512E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.113E+01 LT NA             r'     4.90E+14 2.291E-02 9.035E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.150E+01 MPG GROND         H      1.84E+14 3.142E-02 3.996E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.150E+01 MPG GROND         J      2.38E+14 4.029E-02 3.482E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.150E+01 MPG GROND         z'     3.37E+14 3.162E-02 8.860E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.150E+01 MPG GROND         i'     4.03E+14 3.532E-02 6.566E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.150E+01 MPG GROND         r'     4.90E+14 2.831E-02 5.264E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.150E+01 MPG GROND         g'     6.46E+14 1.180E-02 3.307E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.252E+01 LCO Swope         B      6.88E+14 1.357E-02 6.522E-03 1 This work                                          
-3.253E+01 LCO Swope         V      5.51E+14 2.328E-02 5.696E-03 1 This work                                          
-3.254E+01 LCO Swope         g'     6.46E+14 8.943E-03 3.370E-03 1 This work                                          
-3.415E+01 RdlMO NOT         g'     6.46E+14 1.419E-02 3.976E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.416E+01 RdlMO NOT         r'     4.90E+14 2.630E-02 4.890E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.417E+01 RdlMO NOT         i'     4.03E+14 3.221E-02 5.988E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.418E+01 RdlMO NOT         z'     3.37E+14 3.281E-02 1.231E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.423E+01 RdlMO GTC         g'     6.46E+14 1.380E-02 3.867E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.423E+01 RdlMO GTC         r'     4.90E+14 2.679E-02 4.981E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.423E+01 RdlMO GTC         i'     4.03E+14 3.342E-02 9.363E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.423E+01 RdlMO GTC         z'     3.37E+14 3.251E-02 9.108E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.520E+01 RdlMO NOT         i'     4.03E+14 3.162E-02 8.860E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.520E+01 LT 2m             i'     4.03E+14 2.512E-02 9.427E-04 1 This work                                          
-3.520E+01 LT 2m             r'     4.90E+14 2.089E-02 3.884E-04 1 This work                                          
-3.521E+01 RdlMO NOT         r'     4.90E+14 2.535E-02 4.713E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.522E+01 RdlMO NOT         g'     6.46E+14 1.318E-02 2.451E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.642E+01 LCO Swope         g'     6.46E+14 1.434E-02 1.211E-03 1 This work                                          
-3.643E+01 LCO Swope         V      5.51E+14 1.990E-02 2.762E-03 1 This work                                          
-3.644E+01 LCO Swope         B      6.88E+14 8.207E-03 2.183E-03 1 This work                                          
-3.710E+01 LT NA             i'     4.03E+14 2.831E-02 7.933E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.710E+01 LT NA             r'     4.90E+14 2.249E-02 1.498E-03 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.717E+01 RdlMO NOT         g'     6.46E+14 1.380E-02 3.867E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.718E+01 RdlMO NOT         r'     4.90E+14 2.421E-02 4.501E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.719E+01 RdlMO NOT         i'     4.03E+14 3.076E-02 8.618E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.720E+01 RdlMO NOT         z'     3.37E+14 3.048E-02 1.144E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.737E+01 MPG GROND         J      2.38E+14 3.919E-02 7.067E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.737E+01 MPG GROND         z'     3.37E+14 3.048E-02 1.144E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.737E+01 MPG GROND         i'     4.03E+14 2.992E-02 8.383E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.737E+01 MPG GROND         r'     4.90E+14 2.443E-02 6.846E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.737E+01 MPG GROND         g'     6.46E+14 1.159E-02 3.246E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.744E+01 VLT NA            I      3.76E+14 2.245E-02 2.077E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.744E+01 VLT NA            R      4.67E+14 1.830E-02 1.693E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.744E+01 VLT NA            V      5.51E+14 1.435E-02 2.668E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.744E+01 VLT NA            B      6.88E+14 5.506E-03 1.024E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.814E+01 LT NA             i'     4.03E+14 2.399E-02 6.721E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.814E+01 LT NA             r'     4.90E+14 1.854E-02 5.193E-04 1 Ashall et al. (2017) [2017arXiv170204339A]         
-3.821E+01 RdlMO GTC         g'     6.46E+14 1.282E-02 2.384E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.821E+01 RdlMO GTC         r'     4.90E+14 2.291E-02 8.597E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.822E+01 RdlMO GTC         i'     4.03E+14 3.162E-02 5.879E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.822E+01 RdlMO GTC         z'     3.37E+14 3.133E-02 8.778E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-3.946E+01 LCO Swope         g'     6.46E+14 1.183E-02 1.383E-03 1 This work                                          
-3.946E+01 LCO Swope         u'     8.34E+14 6.233E-03 3.632E-03 1 This work                                          
-3.947E+01 LCO Swope         V      5.51E+14 2.187E-02 2.995E-03 1 This work                                          
-3.947E+01 LCO Swope         B      6.88E+14 1.116E-02 2.585E-03 1 This work                                          
-4.015E+01 RdlMO NOT         g'     6.46E+14 1.247E-02 3.495E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.016E+01 RdlMO NOT         r'     4.90E+14 2.377E-02 4.419E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.016E+01 RdlMO NOT         i'     4.03E+14 3.048E-02 5.666E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.017E+01 RdlMO NOT         z'     3.37E+14 2.489E-02 1.903E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.042E+01 LCO Swope         r'     4.90E+14 3.980E-02 2.100E-02 1 This work                                          
-4.042E+01 LCO Swope         g'     6.46E+14 9.172E-03 1.447E-03 1 This work                                          
-4.043E+01 LCO Swope         u'     8.34E+14 4.958E-03 1.653E-03 0 This work                                          
-4.044E+01 LCO Swope         V      5.51E+14 1.256E-02 3.577E-03 1 This work                                          
-4.045E+01 LCO Swope         B      6.88E+14 6.253E-03 2.752E-03 1 This work                                          
-4.234E+01 MPG GROND         H      1.84E+14 3.001E-02 4.764E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.234E+01 MPG GROND         J      2.38E+14 3.351E-02 2.896E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.234E+01 MPG GROND         i'     4.03E+14 2.884E-02 8.080E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.234E+01 MPG GROND         r'     4.90E+14 2.032E-02 3.778E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.234E+01 MPG GROND         g'     6.46E+14 1.180E-02 4.430E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.245E+01 LCO Swope         r'     4.90E+14 2.250E-02 7.499E-03 0 This work                                          
-4.245E+01 LCO Swope         g'     6.46E+14 1.013E-02 1.502E-03 1 This work                                          
-4.248E+01 LCO Swope         V      5.51E+14 1.941E-02 3.826E-03 1 This work                                          
-4.248E+01 LCO Swope         B      6.88E+14 1.175E-02 3.114E-03 1 This work                                          
-4.739E+01 MPG GROND         H      1.84E+14 2.787E-02 3.546E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.739E+01 MPG GROND         J      2.38E+14 2.613E-02 2.521E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.739E+01 MPG GROND         z'     3.37E+14 2.780E-02 7.788E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.739E+01 MPG GROND         i'     4.03E+14 2.679E-02 7.506E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.739E+01 MPG GROND         r'     4.90E+14 2.070E-02 3.849E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-4.739E+01 MPG GROND         g'     6.46E+14 9.550E-03 3.584E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.043E+01 LCO Swope         r'     4.90E+14 1.986E-02 8.141E-03 1 This work                                          
-5.118E+01 RdlMO GTC         g'     6.46E+14 1.169E-02 7.788E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.118E+01 RdlMO GTC         r'     4.90E+14 1.854E-02 8.735E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.119E+01 RdlMO GTC         i'     4.03E+14 2.312E-02 6.478E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.119E+01 RdlMO GTC         z'     3.37E+14 2.466E-02 9.255E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.120E+01 RdlMO GTC         J      2.38E+14 2.496E-02 1.662E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.121E+01 RdlMO GTC         H      1.84E+14 2.318E-02 1.093E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.121E+01 RdlMO GTC         K      1.37E+14 2.198E-02 1.036E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-5.937E+01 LCO Swope         g'     6.46E+14 1.333E-02 2.681E-03 1 This work                                          
-5.938E+01 LCO Swope         u'     8.34E+14 6.871E-03 2.290E-03 0 This work                                          
-5.938E+01 LCO Swope         V      5.51E+14 1.814E-02 5.533E-03 1 This work                                          
-5.939E+01 LCO Swope         B      6.88E+14 5.625E-03 1.875E-03 0 This work                                          
-6.034E+01 MPG GROND         H      1.84E+14 3.743E-02 9.691E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.034E+01 MPG GROND         J      2.38E+14 2.762E-02 7.798E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.034E+01 MPG GROND         z'     3.37E+14 2.128E-02 5.962E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.034E+01 MPG GROND         i'     4.03E+14 2.312E-02 4.298E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.034E+01 MPG GROND         r'     4.90E+14 1.770E-02 3.291E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.034E+01 MPG GROND         g'     6.46E+14 1.009E-02 3.788E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-6.135E+01 LCO Swope         g'     6.46E+14 1.204E-02 1.320E-03 1 This work                                          
-6.136E+01 LCO Swope         V      5.51E+14 1.244E-02 3.022E-03 1 This work                                          
-6.136E+01 LCO Swope         B      6.88E+14 6.194E-03 2.420E-03 1 This work                                          
-6.439E+01 LCO Swope         g'     6.46E+14 9.967E-03 1.498E-03 1 This work                                          
-6.441E+01 LCO Swope         B      6.88E+14 1.249E-02 2.879E-03 1 This work                                          
-6.638E+01 LCO Swope         r'     4.90E+14 2.895E-02 9.648E-03 0 This work                                          
-6.639E+01 LCO Swope         g'     6.46E+14 1.080E-02 1.442E-03 1 This work                                          
-6.640E+01 LCO Swope         V      5.51E+14 1.823E-02 3.176E-03 1 This work                                          
-7.008E+01 RdlMO NOT         g'     6.46E+14 9.550E-03 2.676E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.009E+01 RdlMO NOT         r'     4.90E+14 1.690E-02 3.143E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.010E+01 RdlMO NOT         i'     4.03E+14 2.188E-02 6.129E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.011E+01 RdlMO NOT         z'     3.37E+14 2.168E-02 1.232E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.114E+01 RdlMO GTC         g'     6.46E+14 1.138E-02 4.269E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.114E+01 RdlMO GTC         r'     4.90E+14 1.675E-02 6.286E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.114E+01 RdlMO GTC         i'     4.03E+14 2.399E-02 6.721E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.115E+01 RdlMO GTC         z'     3.37E+14 2.270E-02 1.070E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-7.436E+01 LCO Swope         g'     6.46E+14 9.995E-03 1.429E-03 1 This work                                          
-7.437E+01 LCO Swope         V      5.51E+14 1.893E-02 3.275E-03 1 This work                                          
-7.438E+01 LCO Swope         B      6.88E+14 6.133E-03 2.964E-03 1 This work                                          
-7.933E+01 LCO Swope         r'     4.90E+14 1.423E-02 5.595E-03 1 This work                                          
-7.934E+01 LCO Swope         i'     4.03E+14 1.435E-02 5.974E-03 1 This work                                          
-8.131E+01 LCO Swope         r'     4.90E+14 2.029E-02 5.371E-03 1 This work                                          
-8.132E+01 LCO Swope         i'     4.03E+14 2.529E-02 5.911E-03 1 This work                                          
-8.132E+01 LCO Swope         g'     6.46E+14 7.955E-03 2.652E-03 0 This work                                          
-8.431E+01 LCO Swope         r'     4.90E+14 1.478E-02 6.919E-03 1 This work                                          
-8.432E+01 LCO Swope         i'     4.03E+14 2.939E-02 5.300E-03 1 This work                                          
-8.627E+01 LCO Swope         r'     4.90E+14 1.621E-02 4.462E-03 1 This work                                          
-8.628E+01 LCO Swope         i'     4.03E+14 1.172E-02 7.235E-03 1 This work                                          
-8.629E+01 LCO Swope         g'     6.46E+14 8.716E-03 2.838E-03 1 This work                                          
-9.021E+01 LCO Swope         r'     4.90E+14 1.293E-02 3.851E-03 1 This work                                          
-9.021E+01 LCO Swope         i'     4.03E+14 2.813E-02 3.374E-03 1 This work                                          
-9.124E+01 LCO Swope         r'     4.90E+14 1.688E-02 1.955E-03 1 This work                                          
-9.124E+01 LCO Swope         i'     4.03E+14 2.026E-02 3.413E-03 1 This work                                          
-9.765E+01 LCO Siding Spring r'     4.90E+14 7.244E-03 2.394E-03 1 This work                                          
-9.766E+01 LCO Siding Spring i'     4.03E+14 1.445E-02 7.423E-03 1 This work                                          
-9.946E+01 Keck LRIS         I      3.76E+14 1.719E-02 4.490E-04 1 This work                                          
-9.946E+01 Keck LRIS         R      4.67E+14 1.716E-02 4.320E-04 1 This work                                          
-9.946E+01 Keck LRIS         g'     6.46E+14 1.180E-02 3.531E-04 1 This work                                          
-9.946E+01 Keck LRIS         B      6.88E+14 8.488E-03 2.349E-05 1 This work                                          
-9.946E+01 Keck LRIS         u'     8.34E+14 4.786E-03 9.681E-04 1 This work                                          
-2.000E+02 Haleaka PS1       z'     3.37E+14 1.905E-02 1.647E-03 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.000E+02 Haleaka PS1       i'     4.03E+14 1.343E-02 7.629E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.000E+02 Haleaka PS1       r'     4.90E+14 1.343E-02 6.328E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.000E+02 Haleaka PS1       g'     6.46E+14 7.656E-03 5.099E-04 1 Cano et al. (2017) [2017A&A...605A.107C]           
-2.698E+02 UKIRT WFCAM       UKIRTJ 2.41E+14 2.785E-02 2.185E-03 1 This work                                          
-2.768E+02 UKIRT WFCAM       UKIRTK 1.37E+14 3.702E-02 4.632E-03 1 This work                                          
-2.769E+02 UKIRT WFCAM       UKIRTH 1.85E+14 2.694E-02 3.121E-03 1 This work                                          
+time	instrument	band	freq	flux_desnity	dflux_density	time_unit	freq_unit	flux_density_unit	extinction_corrected	time_frame
+5.440E-04	SAAO_MASTER	R	4.67E+14	1.338E+00	4.258E-01	days	Hz	milliJy	false	observer
+7.331E-03	Terksol_K-800	R	4.67E+14	6.518E-01	2.355E-02	days	Hz	milliJy	false	observer
+8.823E-03	Terksol_K-800	R	4.67E+14	7.293E-01	2.814E-02	days	Hz	milliJy	false	observer
+1.194E-02	Terksol_K-800	R	4.67E+14	6.017E-01	1.380E-02	days	Hz	milliJy	false	observer
+1.585E-02	Terksol_K-800	R	4.67E+14	5.680E-01	1.286E-02	days	Hz	milliJy	false	observer
+2.116E-02	Terksol_K-800	R	4.67E+14	5.846E-01	7.887E-03	days	Hz	milliJy	false	observer
+2.905E-02	Terksol_K-800	R	4.67E+14	5.249E-01	1.077E-02	days	Hz	milliJy	false	observer
+3.905E-02	Terksol_K-800	R	4.67E+14	4.960E-01	7.675E-03	days	Hz	milliJy	false	observer
+5.224E-02	Terksol_K-800	R	4.67E+14	4.296E-01	7.304E-03	days	Hz	milliJy	false	observer
+6.305E-02	Terksol_K-800	R	4.67E+14	3.814E-01	1.223E-02	days	Hz	milliJy	false	observer
+8.042E-02	LCO_Sutherland	i'	4.03E+14	4.786E-01	2.256E-02	days	Hz	milliJy	false	observer
+8.047E-02	LCO_Sutherland	r'	4.90E+14	4.130E-01	1.947E-02	days	Hz	milliJy	false	observer
+8.228E-02	LCO_Sutherland	i'	4.03E+14	4.487E-01	2.115E-02	days	Hz	milliJy	false	observer
+8.234E-02	LCO_Sutherland	r'	4.90E+14	3.981E-01	1.494E-02	days	Hz	milliJy	false	observer
+8.413E-02	LCO_Sutherland	i'	4.03E+14	4.365E-01	2.480E-02	days	Hz	milliJy	false	observer
+8.419E-02	LCO_Sutherland	r'	4.90E+14	4.018E-01	1.894E-02	days	Hz	milliJy	false	observer
+8.598E-02	LCO_Sutherland	i'	4.03E+14	4.487E-01	2.115E-02	days	Hz	milliJy	false	observer
+8.604E-02	LCO_Sutherland	r'	4.90E+14	3.767E-01	1.414E-02	days	Hz	milliJy	false	observer
+8.784E-02	LCO_Sutherland	i'	4.03E+14	4.365E-01	2.057E-02	days	Hz	milliJy	false	observer
+8.788E-02	LCO_Sutherland	r'	4.90E+14	3.837E-01	1.440E-02	days	Hz	milliJy	false	observer
+2.470E-01	Boyden_Watcher	r'	4.90E+14	2.168E-01	6.899E-02	days	Hz	milliJy	false	observer
+2.820E-01	MPG_GROND	H	1.84E+14	3.607E-01	1.011E-02	days	Hz	milliJy	false	observer
+2.830E-01	MPG_GROND	K	1.37E+14	2.951E-01	1.391E-02	days	Hz	milliJy	false	observer
+2.830E-01	MPG_GROND	J	2.38E+14	3.113E-01	8.722E-03	days	Hz	milliJy	false	observer
+2.850E-01	MPG_GROND	z'	3.37E+14	2.606E-01	7.301E-03	days	Hz	milliJy	false	observer
+2.850E-01	MPG_GROND	i'	4.03E+14	2.421E-01	6.783E-03	days	Hz	milliJy	false	observer
+2.850E-01	MPG_GROND	g'	6.46E+14	2.249E-01	4.181E-03	days	Hz	milliJy	false	observer
+2.860E-01	MPG_GROND	r'	4.90E+14	2.148E-01	1.987E-03	days	Hz	milliJy	false	observer
+2.960E-01	MPG_GROND	K	1.37E+14	3.357E-01	1.260E-02	days	Hz	milliJy	false	observer
+2.980E-01	MPG_GROND	H	1.84E+14	3.382E-01	1.269E-02	days	Hz	milliJy	false	observer
+2.980E-01	MPG_GROND	J	2.38E+14	2.973E-01	8.329E-03	days	Hz	milliJy	false	observer
+3.000E-01	MPG_GROND	z'	3.37E+14	2.512E-01	7.037E-03	days	Hz	milliJy	false	observer
+3.000E-01	MPG_GROND	i'	4.03E+14	2.355E-01	4.378E-03	days	Hz	milliJy	false	observer
+3.000E-01	MPG_GROND	r'	4.90E+14	2.089E-01	1.933E-03	days	Hz	milliJy	false	observer
+3.000E-01	MPG_GROND	g'	6.46E+14	1.995E-01	3.709E-03	days	Hz	milliJy	false	observer
+3.080E-01	MPG_GROND	K	1.37E+14	3.296E-01	1.553E-02	days	Hz	milliJy	false	observer
+3.080E-01	MPG_GROND	J	2.38E+14	2.762E-01	7.738E-03	days	Hz	milliJy	false	observer
+3.090E-01	MPG_GROND	H	1.84E+14	3.574E-01	1.001E-02	days	Hz	milliJy	false	observer
+3.110E-01	MPG_GROND	z'	3.37E+14	2.512E-01	4.670E-03	days	Hz	milliJy	false	observer
+3.110E-01	MPG_GROND	i'	4.03E+14	2.312E-01	2.139E-03	days	Hz	milliJy	false	observer
+3.110E-01	MPG_GROND	r'	4.90E+14	2.051E-01	1.898E-03	days	Hz	milliJy	false	observer
+3.110E-01	MPG_GROND	g'	6.46E+14	1.977E-01	3.675E-03	days	Hz	milliJy	false	observer
+6.485E-01	FTN_2m	r'	4.90E+14	1.247E-01	9.538E-03	days	Hz	milliJy	false	observer
+6.503E-01	FTN_2m	i'	4.03E+14	1.432E-01	1.382E-02	days	Hz	milliJy	false	observer
+7.420E-01	Akeno_MITSuME	Ic	3.76E+14	1.340E-01	1.429E-02	days	Hz	milliJy	false	observer
+7.420E-01	Akeno_MITSuME	g'	6.46E+14	1.067E-01	1.137E-02	days	Hz	milliJy	false	observer
+1.030E+00	SALT_SALTICAM	r'	4.90E+14	9.638E-02	5.476E-03	days	Hz	milliJy	false	observer
+1.086E+00	LCO_Sutherland	r'	4.90E+14	8.395E-02	4.770E-03	days	Hz	milliJy	false	observer
+1.090E+00	LCO_Sutherland	i'	4.03E+14	1.169E-01	8.943E-03	days	Hz	milliJy	false	observer
+1.554E+00	MPG_GROND	K	1.37E+14	1.466E-01	1.267E-02	days	Hz	milliJy	false	observer
+1.554E+00	MPG_GROND	H	1.84E+14	1.410E-01	5.291E-03	days	Hz	milliJy	false	observer
+1.554E+00	MPG_GROND	J	2.38E+14	1.141E-01	3.196E-03	days	Hz	milliJy	false	observer
+1.556E+00	MPG_GROND	r'	4.90E+14	7.244E-02	1.347E-03	days	Hz	milliJy	false	observer
+1.557E+00	MPG_GROND	z'	3.37E+14	9.036E-02	2.532E-03	days	Hz	milliJy	false	observer
+1.557E+00	MPG_GROND	i'	4.03E+14	8.551E-02	1.590E-03	days	Hz	milliJy	false	observer
+1.557E+00	MPG_GROND	g'	6.46E+14	7.112E-02	1.993E-03	days	Hz	milliJy	false	observer
+1.664E+00	FTS_2m	r'	4.90E+14	6.310E-02	4.202E-03	days	Hz	milliJy	false	observer
+1.666E+00	FTS_2m	i'	4.03E+14	8.472E-02	6.478E-03	days	Hz	milliJy	false	observer
+2.296E+00	VLT	I	3.76E+14	6.717E-02	6.216E-04	days	Hz	milliJy	false	observer
+2.296E+00	VLT	R	4.67E+14	5.375E-02	4.974E-04	days	Hz	milliJy	false	observer
+2.296E+00	VLT	V	5.51E+14	6.093E-02	5.637E-04	days	Hz	milliJy	false	observer
+2.296E+00	VLT	B	6.88E+14	4.751E-02	4.396E-04	days	Hz	milliJy	false	observer
+2.533E+00	LCO_Swope	B	6.88E+14	4.394E-02	2.466E-03	days	Hz	milliJy	false	observer
+2.540E+00	LCO_Swope	V	5.51E+14	6.938E-02	2.779E-03	days	Hz	milliJy	false	observer
+2.548E+00	LCO_Swope	u'	8.34E+14	3.443E-02	5.181E-03	days	Hz	milliJy	false	observer
+2.556E+00	LCO_Swope	g'	6.46E+14	4.961E-02	1.633E-03	days	Hz	milliJy	false	observer
+2.557E+00	MPG_GROND	K	1.37E+14	9.333E-02	1.091E-02	days	Hz	milliJy	false	observer
+2.559E+00	MPG_GROND	H	1.84E+14	9.489E-02	5.391E-03	days	Hz	milliJy	false	observer
+2.559E+00	MPG_GROND	J	2.38E+14	8.039E-02	3.789E-03	days	Hz	milliJy	false	observer
+2.561E+00	MPG_GROND	z'	3.37E+14	7.379E-02	2.067E-03	days	Hz	milliJy	false	observer
+2.561E+00	MPG_GROND	i'	4.03E+14	6.486E-02	1.206E-03	days	Hz	milliJy	false	observer
+2.561E+00	MPG_GROND	r'	4.90E+14	5.395E-02	4.992E-04	days	Hz	milliJy	false	observer
+2.561E+00	MPG_GROND	g'	6.46E+14	6.138E-02	1.141E-03	days	Hz	milliJy	false	observer
+2.563E+00	LCO_Swope	i'	4.03E+14	6.763E-02	3.451E-03	days	Hz	milliJy	false	observer
+2.571E+00	LCO_Swope	r'	4.90E+14	5.535E-02	3.039E-03	days	Hz	milliJy	false	observer
+2.585E+00	UKIRT_WFCAM	J	2.41E+14	9.612E-02	6.118E-03	days	Hz	milliJy	false	observer
+2.606E+00	UKIRT_WFCAM	H	1.85E+14	1.151E-01	7.216E-03	days	Hz	milliJy	false	observer
+2.628E+00	UKIRT_WFCAM	K	1.37E+14	1.044E-01	6.647E-03	days	Hz	milliJy	false	observer
+2.689E+00	FTS_2m	r'	4.90E+14	4.571E-02	3.495E-03	days	Hz	milliJy	false	observer
+2.691E+00	FTS_2m	i'	4.03E+14	5.598E-02	5.968E-03	days	Hz	milliJy	false	observer
+3.585E+00	UKIRT_WFCAM	J	2.41E+14	8.519E-02	5.925E-03	days	Hz	milliJy	false	observer
+3.607E+00	FTN_2m	r'	4.90E+14	3.837E-02	1.440E-03	days	Hz	milliJy	false	observer
+3.611E+00	FTN_2m	i'	4.03E+14	4.571E-02	2.597E-03	days	Hz	milliJy	false	observer
+3.613E+00	UKIRT_WFCAM	H	1.85E+14	8.527E-02	6.267E-03	days	Hz	milliJy	false	observer
+3.638E+00	UKIRT_WFCAM	K	1.37E+14	7.958E-02	4.677E-03	days	Hz	milliJy	false	observer
+4.296E+00	VLT	I	3.76E+14	4.479E-02	4.145E-04	days	Hz	milliJy	false	observer
+4.296E+00	VLT	R	4.67E+14	3.894E-02	3.603E-04	days	Hz	milliJy	false	observer
+4.296E+00	VLT	V	5.51E+14	5.162E-02	4.776E-04	days	Hz	milliJy	false	observer
+4.296E+00	VLT	B	6.88E+14	3.916E-02	3.623E-04	days	Hz	milliJy	false	observer
+4.448E+00	LCO_Swope	B	6.88E+14	4.657E-02	5.166E-04	days	Hz	milliJy	false	observer
+4.452E+00	LCO_Swope	V	5.51E+14	5.946E-02	2.764E-03	days	Hz	milliJy	false	observer
+4.457E+00	LCO_Swope	u'	8.34E+14	3.241E-02	5.344E-03	days	Hz	milliJy	false	observer
+4.463E+00	LCO_Swope	g'	6.46E+14	4.822E-02	1.352E-03	days	Hz	milliJy	false	observer
+4.502E+00	MPG_GROND	H	1.84E+14	6.042E-02	4.024E-03	days	Hz	milliJy	false	observer
+4.502E+00	MPG_GROND	J	2.38E+14	5.214E-02	2.963E-03	days	Hz	milliJy	false	observer
+4.504E+00	MPG_GROND	i'	4.03E+14	4.831E-02	8.981E-04	days	Hz	milliJy	false	observer
+4.504E+00	MPG_GROND	g'	6.46E+14	5.649E-02	1.050E-03	days	Hz	milliJy	false	observer
+4.505E+00	MPG_GROND	z'	3.37E+14	5.702E-02	1.060E-03	days	Hz	milliJy	false	observer
+4.505E+00	MPG_GROND	r'	4.90E+14	4.571E-02	8.498E-04	days	Hz	milliJy	false	observer
+5.498E+00	MPG_GROND	K	1.37E+14	4.721E-02	2.682E-03	days	Hz	milliJy	false	observer
+5.498E+00	MPG_GROND	H	1.84E+14	5.460E-02	4.175E-03	days	Hz	milliJy	false	observer
+5.498E+00	MPG_GROND	J	2.38E+14	5.119E-02	2.413E-03	days	Hz	milliJy	false	observer
+5.501E+00	MPG_GROND	z'	3.37E+14	5.297E-02	9.847E-04	days	Hz	milliJy	false	observer
+5.501E+00	MPG_GROND	i'	4.03E+14	4.529E-02	8.420E-04	days	Hz	milliJy	false	observer
+5.501E+00	MPG_GROND	r'	4.90E+14	4.613E-02	8.577E-04	days	Hz	milliJy	false	observer
+5.501E+00	MPG_GROND	g'	6.46E+14	5.297E-02	1.484E-03	days	Hz	milliJy	false	observer
+5.858E+00	FTS_2m	r'	4.90E+14	3.837E-02	2.555E-03	days	Hz	milliJy	false	observer
+5.861E+00	FTS_2m	i'	4.03E+14	4.093E-02	3.537E-03	days	Hz	milliJy	false	observer
+6.336E+00	VLT	I	3.76E+14	3.901E-02	3.610E-04	days	Hz	milliJy	false	observer
+6.336E+00	VLT	R	4.67E+14	3.930E-02	3.636E-04	days	Hz	milliJy	false	observer
+6.336E+00	VLT	V	5.51E+14	5.258E-02	4.865E-04	days	Hz	milliJy	false	observer
+6.336E+00	VLT	B	6.88E+14	3.257E-02	3.014E-04	days	Hz	milliJy	false	observer
+6.487E+00	MPG_GROND	H	1.84E+14	6.098E-02	7.127E-03	days	Hz	milliJy	false	observer
+6.487E+00	MPG_GROND	J	2.38E+14	5.932E-02	5.127E-03	days	Hz	milliJy	false	observer
+6.487E+00	MPG_GROND	r'	4.90E+14	4.742E-02	1.329E-03	days	Hz	milliJy	false	observer
+6.488E+00	MPG_GROND	z'	3.37E+14	5.012E-02	1.881E-03	days	Hz	milliJy	false	observer
+6.488E+00	MPG_GROND	i'	4.03E+14	4.613E-02	1.292E-03	days	Hz	milliJy	false	observer
+6.488E+00	MPG_GROND	g'	6.46E+14	4.529E-02	1.269E-03	days	Hz	milliJy	false	observer
+7.246E+00	TNG	I	3.76E+14	4.397E-02	2.072E-03	days	Hz	milliJy	false	observer
+7.246E+00	TNG	R	4.67E+14	4.725E-02	8.784E-04	days	Hz	milliJy	false	observer
+7.246E+00	TNG	V	5.51E+14	6.149E-02	5.932E-03	days	Hz	milliJy	false	observer
+7.246E+00	TNG	B	6.88E+14	3.348E-02	9.380E-04	days	Hz	milliJy	false	observer
+7.263E+00	RdlMO_GTC	g'	6.46E+14	4.055E-02	1.136E-03	days	Hz	milliJy	false	observer
+7.270E+00	RdlMO_GTC	r'	4.90E+14	4.446E-02	1.246E-03	days	Hz	milliJy	false	observer
+7.273E+00	RdlMO_GTC	i'	4.03E+14	4.325E-02	8.041E-04	days	Hz	milliJy	false	observer
+7.276E+00	RdlMO_GTC	z'	3.37E+14	4.831E-02	8.981E-04	days	Hz	milliJy	false	observer
+8.206E+00	LT	i'	4.03E+14	4.365E-02	1.223E-03	days	Hz	milliJy	false	observer
+8.206E+00	LT	r'	4.90E+14	5.105E-02	3.400E-03	days	Hz	milliJy	false	observer
+8.206E+00	LT	V	5.51E+14	5.355E-02	1.083E-02	days	Hz	milliJy	false	observer
+8.206E+00	LT	g'	6.46E+14	4.325E-02	2.038E-03	days	Hz	milliJy	false	observer
+8.206E+00	LT	B	6.88E+14	3.442E-02	4.378E-03	days	Hz	milliJy	false	observer
+8.216E+00	LT	i'	4.03E+14	4.365E-02	1.223E-03	days	Hz	milliJy	false	observer
+8.216E+00	LT	r'	4.90E+14	5.105E-02	3.400E-03	days	Hz	milliJy	false	observer
+8.216E+00	LT	V	5.51E+14	5.355E-02	1.083E-02	days	Hz	milliJy	false	observer
+8.216E+00	LT	g'	6.46E+14	4.365E-02	2.057E-03	days	Hz	milliJy	false	observer
+8.245E+00	RdlMO_NOT	g'	6.46E+14	4.018E-02	7.470E-04	days	Hz	milliJy	false	observer
+8.253E+00	RdlMO_NOT	r'	4.90E+14	4.831E-02	8.981E-04	days	Hz	milliJy	false	observer
+8.261E+00	RdlMO_NOT	i'	4.03E+14	4.571E-02	8.498E-04	days	Hz	milliJy	false	observer
+8.271E+00	RdlMO_NOT	z'	3.37E+14	4.786E-02	1.796E-03	days	Hz	milliJy	false	observer
+8.568E+00	LCO_Swope	B	6.88E+14	3.287E-02	4.743E-03	days	Hz	milliJy	false	observer
+8.573E+00	LCO_Swope	V	5.51E+14	5.330E-02	6.484E-03	days	Hz	milliJy	false	observer
+8.583E+00	LCO_Swope	g'	6.46E+14	3.546E-02	1.304E-02	days	Hz	milliJy	false	observer
+8.656E+00	UKIRT_WFCAM	J	2.41E+14	6.861E-02	4.166E-03	days	Hz	milliJy	false	observer
+8.677E+00	UKIRT_WFCAM	H	1.85E+14	6.773E-02	7.637E-03	days	Hz	milliJy	false	observer
+8.710E+00	UKIRT_WFCAM	K	1.37E+14	6.540E-02	5.196E-03	days	Hz	milliJy	false	observer
+8.746E+00	FTS_2m	r'	4.90E+14	4.285E-02	2.854E-03	days	Hz	milliJy	false	observer
+8.761E+00	FTS_2m	i'	4.03E+14	3.664E-02	5.043E-03	days	Hz	milliJy	false	observer
+9.251E+00	RdlMO_NOT	g'	6.46E+14	4.169E-02	2.369E-03	days	Hz	milliJy	false	observer
+9.259E+00	RdlMO_NOT	r'	4.90E+14	5.058E-02	1.417E-03	days	Hz	milliJy	false	observer
+9.270E+00	RdlMO_NOT	i'	4.03E+14	5.297E-02	1.484E-03	days	Hz	milliJy	false	observer
+9.280E+00	RdlMO_NOT	z'	3.37E+14	4.786E-02	4.137E-03	days	Hz	milliJy	false	observer
+9.296E+00	MPG_GROND	H	1.84E+14	4.104E-02	5.648E-03	days	Hz	milliJy	false	observer
+9.296E+00	MPG_GROND	J	2.38E+14	4.142E-02	3.580E-03	days	Hz	milliJy	false	observer
+9.296E+00	MPG_GROND	z'	3.37E+14	5.200E-02	1.457E-03	days	Hz	milliJy	false	observer
+9.296E+00	MPG_GROND	i'	4.03E+14	4.831E-02	8.981E-04	days	Hz	milliJy	false	observer
+9.296E+00	MPG_GROND	r'	4.90E+14	4.875E-02	9.064E-04	days	Hz	milliJy	false	observer
+9.296E+00	MPG_GROND	g'	6.46E+14	4.130E-02	1.157E-03	days	Hz	milliJy	false	observer
+9.306E+00	VLT	I	3.76E+14	4.048E-02	3.745E-04	days	Hz	milliJy	false	observer
+9.306E+00	VLT	R	4.67E+14	4.270E-02	3.951E-04	days	Hz	milliJy	false	observer
+9.306E+00	VLT	V	5.51E+14	5.405E-02	5.001E-04	days	Hz	milliJy	false	observer
+9.306E+00	VLT	B	6.88E+14	2.660E-02	2.461E-04	days	Hz	milliJy	false	observer
+1.020E+01	LT	i'	4.03E+14	4.529E-02	3.463E-03	days	Hz	milliJy	false	observer
+1.020E+01	LT	r'	4.90E+14	5.546E-02	4.793E-03	days	Hz	milliJy	false	observer
+1.020E+01	LT	V	5.51E+14	6.263E-02	2.952E-03	days	Hz	milliJy	false	observer
+1.020E+01	LT	g'	6.46E+14	3.908E-02	1.842E-03	days	Hz	milliJy	false	observer
+1.021E+01	LT	i'	4.03E+14	4.571E-02	3.495E-03	days	Hz	milliJy	false	observer
+1.021E+01	LT	r'	4.90E+14	5.546E-02	4.793E-03	days	Hz	milliJy	false	observer
+1.021E+01	LT	V	5.51E+14	6.263E-02	2.952E-03	days	Hz	milliJy	false	observer
+1.021E+01	LT	g'	6.46E+14	3.908E-02	1.842E-03	days	Hz	milliJy	false	observer
+1.031E+01	MPG_GROND	J	2.38E+14	4.542E-02	3.024E-03	days	Hz	milliJy	false	observer
+1.031E+01	MPG_GROND	z'	3.37E+14	5.152E-02	1.934E-03	days	Hz	milliJy	false	observer
+1.031E+01	MPG_GROND	i'	4.03E+14	5.012E-02	9.318E-04	days	Hz	milliJy	false	observer
+1.031E+01	MPG_GROND	r'	4.90E+14	5.105E-02	9.491E-04	days	Hz	milliJy	false	observer
+1.031E+01	MPG_GROND	g'	6.46E+14	4.055E-02	7.539E-04	days	Hz	milliJy	false	observer
+1.053E+01	LCO_Swope	g'	6.46E+14	3.644E-02	1.511E-03	days	Hz	milliJy	false	observer
+1.053E+01	LCO_Swope	u'	8.34E+14	8.387E-03	2.796E-03	days	Hz	milliJy	false	observer
+1.054E+01	LCO_Swope	V	5.51E+14	5.512E-02	3.487E-03	days	Hz	milliJy	false	observer
+1.054E+01	LCO_Swope	B	6.88E+14	3.363E-02	2.785E-03	days	Hz	milliJy	false	observer
+1.134E+01	MPG_GROND	z'	3.37E+14	4.786E-02	1.341E-03	days	Hz	milliJy	false	observer
+1.134E+01	MPG_GROND	i'	4.03E+14	5.058E-02	1.417E-03	days	Hz	milliJy	false	observer
+1.134E+01	MPG_GROND	r'	4.90E+14	5.012E-02	9.318E-04	days	Hz	milliJy	false	observer
+1.134E+01	MPG_GROND	g'	6.46E+14	3.767E-02	1.414E-03	days	Hz	milliJy	false	observer
+1.221E+01	TNG	I	3.76E+14	4.397E-02	5.139E-03	days	Hz	milliJy	false	observer
+1.221E+01	TNG	R	4.67E+14	5.181E-02	2.944E-03	days	Hz	milliJy	false	observer
+1.221E+01	TNG	V	5.51E+14	5.506E-02	3.128E-03	days	Hz	milliJy	false	observer
+1.221E+01	TNG	B	6.88E+14	2.517E-02	5.370E-03	days	Hz	milliJy	false	observer
+1.225E+01	RdlMO_NOT	g'	6.46E+14	3.499E-02	1.313E-03	days	Hz	milliJy	false	observer
+1.226E+01	RdlMO_NOT	r'	4.90E+14	5.058E-02	2.384E-03	days	Hz	milliJy	false	observer
+1.226E+01	RdlMO_NOT	i'	4.03E+14	5.445E-02	6.363E-03	days	Hz	milliJy	false	observer
+1.229E+01	MPG_GROND	H	1.84E+14	4.459E-02	4.754E-03	days	Hz	milliJy	false	observer
+1.229E+01	MPG_GROND	J	2.38E+14	5.311E-02	1.375E-02	days	Hz	milliJy	false	observer
+1.229E+01	MPG_GROND	z'	3.37E+14	4.656E-02	1.304E-03	days	Hz	milliJy	false	observer
+1.229E+01	MPG_GROND	i'	4.03E+14	4.920E-02	9.148E-04	days	Hz	milliJy	false	observer
+1.229E+01	MPG_GROND	r'	4.90E+14	5.012E-02	9.318E-04	days	Hz	milliJy	false	observer
+1.229E+01	MPG_GROND	g'	6.46E+14	3.908E-02	1.095E-03	days	Hz	milliJy	false	observer
+1.250E+01	LCO_Swope	g'	6.46E+14	3.756E-02	1.304E-03	days	Hz	milliJy	false	observer
+1.250E+01	VLT	I	3.76E+14	4.200E-02	3.886E-04	days	Hz	milliJy	false	observer
+1.250E+01	VLT	R	4.67E+14	4.725E-02	4.372E-04	days	Hz	milliJy	false	observer
+1.250E+01	VLT	V	5.51E+14	5.258E-02	4.865E-04	days	Hz	milliJy	false	observer
+1.250E+01	VLT	B	6.88E+14	2.403E-02	2.224E-04	days	Hz	milliJy	false	observer
+1.250E+01	LCO_Swope	u'	8.34E+14	1.244E-02	3.509E-03	days	Hz	milliJy	false	observer
+1.251E+01	LCO_Swope	V	5.51E+14	5.787E-02	2.811E-03	days	Hz	milliJy	false	observer
+1.251E+01	LCO_Swope	B	6.88E+14	3.092E-02	1.558E-03	days	Hz	milliJy	false	observer
+1.321E+01	RdlMO_NOT	g'	6.46E+14	3.251E-02	6.044E-04	days	Hz	milliJy	false	observer
+1.321E+01	RdlMO_NOT	r'	4.90E+14	4.920E-02	9.148E-04	days	Hz	milliJy	false	observer
+1.322E+01	RdlMO_NOT	i'	4.03E+14	4.875E-02	1.366E-03	days	Hz	milliJy	false	observer
+1.328E+01	RdlMO_GTC	g'	6.46E+14	3.251E-02	9.108E-04	days	Hz	milliJy	false	observer
+1.328E+01	RdlMO_GTC	r'	4.90E+14	4.613E-02	1.292E-03	days	Hz	milliJy	false	observer
+1.328E+01	RdlMO_GTC	i'	4.03E+14	4.786E-02	1.341E-03	days	Hz	milliJy	false	observer
+1.328E+01	RdlMO_GTC	z'	3.37E+14	4.529E-02	1.269E-03	days	Hz	milliJy	false	observer
+1.335E+01	MPG_GROND	H	1.84E+14	5.026E-02	4.849E-03	days	Hz	milliJy	false	observer
+1.335E+01	MPG_GROND	J	2.38E+14	4.800E-02	1.299E-02	days	Hz	milliJy	false	observer
+1.335E+01	MPG_GROND	z'	3.37E+14	4.365E-02	1.223E-03	days	Hz	milliJy	false	observer
+1.335E+01	MPG_GROND	i'	4.03E+14	5.105E-02	9.491E-04	days	Hz	milliJy	false	observer
+1.335E+01	MPG_GROND	r'	4.90E+14	4.831E-02	8.981E-04	days	Hz	milliJy	false	observer
+1.335E+01	MPG_GROND	g'	6.46E+14	3.664E-02	1.027E-03	days	Hz	milliJy	false	observer
+1.357E+01	UKIRT_WFCAM	J	2.41E+14	6.380E-02	4.437E-03	days	Hz	milliJy	false	observer
+1.359E+01	UKIRT_WFCAM	H	1.85E+14	7.565E-02	7.146E-03	days	Hz	milliJy	false	observer
+1.361E+01	UKIRT_WFCAM	K	1.37E+14	5.016E-02	6.747E-03	days	Hz	milliJy	false	observer
+1.363E+01	FTN_2m	r'	4.90E+14	4.093E-02	1.929E-03	days	Hz	milliJy	false	observer
+1.363E+01	FTS_2m	i'	4.03E+14	3.981E-02	3.044E-03	days	Hz	milliJy	false	observer
+1.436E+01	MPG_GROND	H	1.84E+14	4.712E-02	6.485E-03	days	Hz	milliJy	false	observer
+1.436E+01	MPG_GROND	J	2.38E+14	4.712E-02	1.443E-02	days	Hz	milliJy	false	observer
+1.436E+01	MPG_GROND	z'	3.37E+14	4.487E-02	1.257E-03	days	Hz	milliJy	false	observer
+1.436E+01	MPG_GROND	i'	4.03E+14	5.200E-02	9.667E-04	days	Hz	milliJy	false	observer
+1.436E+01	MPG_GROND	r'	4.90E+14	4.831E-02	8.981E-04	days	Hz	milliJy	false	observer
+1.436E+01	MPG_GROND	g'	6.46E+14	2.911E-02	8.155E-04	days	Hz	milliJy	false	observer
+1.444E+01	LCO_Swope	B	6.88E+14	2.528E-02	1.588E-03	days	Hz	milliJy	false	observer
+1.445E+01	LCO_Swope	V	5.51E+14	5.409E-02	2.052E-03	days	Hz	milliJy	false	observer
+1.446E+01	LCO_Swope	u'	8.34E+14	8.507E-03	2.531E-03	days	Hz	milliJy	false	observer
+1.447E+01	LCO_Swope	g'	6.46E+14	3.118E-02	1.112E-03	days	Hz	milliJy	false	observer
+1.448E+01	LCO_Swope	u'	8.34E+14	8.432E-03	2.629E-03	days	Hz	milliJy	false	observer
+1.458E+01	Keck	I	3.76E+14	4.048E-02	1.519E-03	days	Hz	milliJy	false	observer
+1.458E+01	Keck	R	4.67E+14	4.270E-02	1.196E-03	days	Hz	milliJy	false	observer
+1.458E+01	Keck	V	5.51E+14	3.809E-02	1.067E-03	days	Hz	milliJy	false	observer
+1.458E+01	Keck	B	6.88E+14	1.823E-02	1.687E-04	days	Hz	milliJy	false	observer
+1.522E+01	LT	i'	4.03E+14	4.529E-02	8.420E-04	days	Hz	milliJy	false	observer
+1.522E+01	LT	r'	4.90E+14	5.058E-02	1.417E-03	days	Hz	milliJy	false	observer
+1.522E+01	LT	V	5.51E+14	3.705E-02	3.575E-03	days	Hz	milliJy	false	observer
+1.522E+01	LT	g'	6.46E+14	2.805E-02	7.860E-04	days	Hz	milliJy	false	observer
+1.522E+01	LT	B	6.88E+14	2.338E-02	2.020E-03	days	Hz	milliJy	false	observer
+1.523E+01	LT	i'	4.03E+14	4.529E-02	8.420E-04	days	Hz	milliJy	false	observer
+1.523E+01	LT	r'	4.90E+14	5.058E-02	1.417E-03	days	Hz	milliJy	false	observer
+1.523E+01	LT	V	5.51E+14	3.705E-02	3.575E-03	days	Hz	milliJy	false	observer
+1.523E+01	LT	g'	6.46E+14	2.805E-02	7.860E-04	days	Hz	milliJy	false	observer
+1.523E+01	LT	B	6.88E+14	2.338E-02	2.020E-03	days	Hz	milliJy	false	observer
+1.529E+01	RdlMO_NOT	g'	6.46E+14	2.965E-02	5.512E-04	days	Hz	milliJy	false	observer
+1.530E+01	RdlMO_NOT	r'	4.90E+14	4.966E-02	1.391E-03	days	Hz	milliJy	false	observer
+1.531E+01	RdlMO_NOT	i'	4.03E+14	4.742E-02	8.817E-04	days	Hz	milliJy	false	observer
+1.532E+01	RdlMO_NOT	z'	3.37E+14	4.529E-02	1.269E-03	days	Hz	milliJy	false	observer
+1.537E+01	MPG_GROND	z'	3.37E+14	4.406E-02	1.653E-03	days	Hz	milliJy	false	observer
+1.537E+01	MPG_GROND	i'	4.03E+14	5.012E-02	9.318E-04	days	Hz	milliJy	false	observer
+1.537E+01	MPG_GROND	r'	4.90E+14	4.786E-02	8.898E-04	days	Hz	milliJy	false	observer
+1.537E+01	MPG_GROND	g'	6.46E+14	3.020E-02	8.461E-04	days	Hz	milliJy	false	observer
+1.620E+01	LT	i'	4.03E+14	4.529E-02	2.134E-03	days	Hz	milliJy	false	observer
+1.620E+01	LT	r'	4.90E+14	4.487E-02	2.988E-03	days	Hz	milliJy	false	observer
+1.620E+01	LT	V	5.51E+14	4.333E-02	1.214E-03	days	Hz	milliJy	false	observer
+1.620E+01	LT	g'	6.46E+14	2.535E-02	9.514E-04	days	Hz	milliJy	false	observer
+1.620E+01	LT	B	6.88E+14	1.773E-02	1.008E-03	days	Hz	milliJy	false	observer
+1.626E+01	VLT	I	3.76E+14	4.161E-02	3.850E-04	days	Hz	milliJy	false	observer
+1.626E+01	VLT	R	4.67E+14	4.512E-02	4.175E-04	days	Hz	milliJy	false	observer
+1.626E+01	VLT	V	5.51E+14	4.622E-02	4.276E-04	days	Hz	milliJy	false	observer
+1.626E+01	VLT	B	6.88E+14	1.741E-02	3.237E-04	days	Hz	milliJy	false	observer
+1.668E+01	LT2m	r'	4.90E+14	4.018E-02	2.283E-03	days	Hz	milliJy	false	observer
+1.669E+01	LT2m	i'	4.03E+14	4.325E-02	3.738E-03	days	Hz	milliJy	false	observer
+1.718E+01	LT	i'	4.03E+14	5.297E-02	3.009E-03	days	Hz	milliJy	false	observer
+1.718E+01	LT	r'	4.90E+14	4.925E-02	3.766E-03	days	Hz	milliJy	false	observer
+1.718E+01	LT	g'	6.46E+14	2.421E-02	1.851E-03	days	Hz	milliJy	false	observer
+1.828E+01	VLT	I	3.76E+14	3.937E-02	3.643E-04	days	Hz	milliJy	false	observer
+1.828E+01	VLT	R	4.67E+14	4.192E-02	3.879E-04	days	Hz	milliJy	false	observer
+1.828E+01	VLT	V	5.51E+14	3.988E-02	3.690E-04	days	Hz	milliJy	false	observer
+1.828E+01	VLT	B	6.88E+14	1.370E-02	2.547E-04	days	Hz	milliJy	false	observer
+1.839E+01	MPG_GROND	J	2.38E+14	4.337E-02	3.748E-03	days	Hz	milliJy	false	observer
+1.839E+01	MPG_GROND	z'	3.37E+14	4.487E-02	1.257E-03	days	Hz	milliJy	false	observer
+1.839E+01	MPG_GROND	i'	4.03E+14	5.105E-02	9.491E-04	days	Hz	milliJy	false	observer
+1.839E+01	MPG_GROND	r'	4.90E+14	4.571E-02	8.498E-04	days	Hz	milliJy	false	observer
+1.839E+01	MPG_GROND	g'	6.46E+14	2.188E-02	6.129E-04	days	Hz	milliJy	false	observer
+1.956E+01	UKIRT_WFCAM	J	2.41E+14	6.969E-02	6.935E-03	days	Hz	milliJy	false	observer
+1.959E+01	UKIRT_WFCAM	K	1.37E+14	5.143E-02	7.837E-03	days	Hz	milliJy	false	observer
+1.961E+01	UKIRT_WFCAM	H	1.85E+14	4.048E-02	8.053E-03	days	Hz	milliJy	false	observer
+2.034E+01	MPG_GROND	H	1.84E+14	4.800E-02	4.148E-03	days	Hz	milliJy	false	observer
+2.034E+01	MPG_GROND	J	2.38E+14	3.777E-02	3.644E-03	days	Hz	milliJy	false	observer
+2.034E+01	MPG_GROND	z'	3.37E+14	4.571E-02	1.281E-03	days	Hz	milliJy	false	observer
+2.034E+01	MPG_GROND	i'	4.03E+14	5.105E-02	9.491E-04	days	Hz	milliJy	false	observer
+2.034E+01	MPG_GROND	r'	4.90E+14	4.246E-02	7.894E-04	days	Hz	milliJy	false	observer
+2.034E+01	MPG_GROND	g'	6.46E+14	1.959E-02	7.351E-04	days	Hz	milliJy	false	observer
+2.122E+01	RdlMO_NOT	J	2.38E+14	5.026E-02	9.062E-03	days	Hz	milliJy	false	observer
+2.125E+01	RdlMO_NOT	H	1.84E+14	4.258E-02	6.761E-03	days	Hz	milliJy	false	observer
+2.128E+01	RdlMO_GTC	g'	6.46E+14	2.128E-02	7.987E-04	days	Hz	milliJy	false	observer
+2.128E+01	RdlMO_GTC	r'	4.90E+14	4.285E-02	1.201E-03	days	Hz	milliJy	false	observer
+2.128E+01	RdlMO_GTC	i'	4.03E+14	4.699E-02	1.316E-03	days	Hz	milliJy	false	observer
+2.128E+01	RdlMO_GTC	z'	3.37E+14	3.873E-02	1.453E-03	days	Hz	milliJy	false	observer
+2.148E+01	VLT	I	3.76E+14	3.937E-02	3.643E-04	days	Hz	milliJy	false	observer
+2.148E+01	VLT	R	4.67E+14	3.930E-02	3.636E-04	days	Hz	milliJy	false	observer
+2.148E+01	VLT	V	5.51E+14	3.287E-02	6.111E-04	days	Hz	milliJy	false	observer
+2.148E+01	VLT	B	6.88E+14	9.480E-03	5.386E-04	days	Hz	milliJy	false	observer
+2.229E+01	MPG_GROND	H	1.84E+14	5.770E-02	4.987E-03	days	Hz	milliJy	false	observer
+2.229E+01	MPG_GROND	J	2.38E+14	4.980E-02	1.465E-02	days	Hz	milliJy	false	observer
+2.229E+01	MPG_GROND	z'	3.37E+14	4.406E-02	1.653E-03	days	Hz	milliJy	false	observer
+2.229E+01	MPG_GROND	i'	4.03E+14	4.786E-02	1.341E-03	days	Hz	milliJy	false	observer
+2.229E+01	MPG_GROND	r'	4.90E+14	3.802E-02	7.068E-04	days	Hz	milliJy	false	observer
+2.229E+01	MPG_GROND	g'	6.46E+14	1.786E-02	8.419E-04	days	Hz	milliJy	false	observer
+2.538E+01	MPG_GROND	H	1.84E+14	3.260E-02	3.810E-03	days	Hz	milliJy	false	observer
+2.538E+01	MPG_GROND	J	2.38E+14	3.883E-02	2.969E-03	days	Hz	milliJy	false	observer
+2.538E+01	MPG_GROND	z'	3.37E+14	4.093E-02	1.147E-03	days	Hz	milliJy	false	observer
+2.538E+01	MPG_GROND	i'	4.03E+14	4.285E-02	2.020E-03	days	Hz	milliJy	false	observer
+2.538E+01	MPG_GROND	r'	4.90E+14	3.373E-02	6.271E-04	days	Hz	milliJy	false	observer
+2.538E+01	MPG_GROND	g'	6.46E+14	1.585E-02	7.469E-04	days	Hz	milliJy	false	observer
+2.539E+01	VLT	I	3.76E+14	3.461E-02	6.434E-04	days	Hz	milliJy	false	observer
+2.539E+01	VLT	R	4.67E+14	3.151E-02	5.857E-04	days	Hz	milliJy	false	observer
+2.539E+01	VLT	V	5.51E+14	2.785E-02	7.802E-04	days	Hz	milliJy	false	observer
+2.551E+01	UKIRT_WFCAM	J	2.41E+14	5.760E-02	3.015E-03	days	Hz	milliJy	false	observer
+2.554E+01	UKIRT_WFCAM	K	1.37E+14	4.800E-02	4.728E-03	days	Hz	milliJy	false	observer
+2.560E+01	FTN_2m	i'	4.03E+14	3.565E-02	3.081E-03	days	Hz	milliJy	false	observer
+2.560E+01	FTN_2m	r'	4.90E+14	2.729E-02	2.910E-03	days	Hz	milliJy	false	observer
+2.815E+01	RdlMO_NOT	g'	6.46E+14	1.614E-02	3.001E-04	days	Hz	milliJy	false	observer
+2.816E+01	RdlMO_NOT	r'	4.90E+14	3.162E-02	5.879E-04	days	Hz	milliJy	false	observer
+2.817E+01	RdlMO_NOT	i'	4.03E+14	3.981E-02	7.401E-04	days	Hz	milliJy	false	observer
+2.818E+01	RdlMO_NOT	z'	3.37E+14	3.532E-02	1.325E-03	days	Hz	milliJy	false	observer
+2.820E+01	LT	i'	4.03E+14	3.467E-02	6.446E-04	days	Hz	milliJy	false	observer
+2.820E+01	LT	r'	4.90E+14	2.630E-02	1.240E-03	days	Hz	milliJy	false	observer
+2.913E+01	LT	i'	4.03E+14	3.281E-02	6.100E-04	days	Hz	milliJy	false	observer
+2.913E+01	LT	r'	4.90E+14	2.679E-02	1.005E-03	days	Hz	milliJy	false	observer
+3.019E+01	RdlMO_NOT	g'	6.46E+14	1.500E-02	4.202E-04	days	Hz	milliJy	false	observer
+3.020E+01	RdlMO_NOT	r'	4.90E+14	3.076E-02	5.719E-04	days	Hz	milliJy	false	observer
+3.020E+01	RdlMO_NOT	i'	4.03E+14	3.908E-02	1.095E-03	days	Hz	milliJy	false	observer
+3.021E+01	RdlMO_NOT	z'	3.37E+14	3.565E-02	1.338E-03	days	Hz	milliJy	false	observer
+3.026E+01	VLT	I	3.76E+14	2.852E-02	2.639E-04	days	Hz	milliJy	false	observer
+3.026E+01	VLT	R	4.67E+14	2.434E-02	2.253E-04	days	Hz	milliJy	false	observer
+3.026E+01	VLT	V	5.51E+14	1.891E-02	1.750E-04	days	Hz	milliJy	false	observer
+3.026E+01	VLT	B	6.88E+14	6.558E-03	6.068E-05	days	Hz	milliJy	false	observer
+3.113E+01	LT	i'	4.03E+14	2.965E-02	5.512E-04	days	Hz	milliJy	false	observer
+3.113E+01	LT	r'	4.90E+14	2.291E-02	9.035E-04	days	Hz	milliJy	false	observer
+3.150E+01	MPG_GROND	H	1.84E+14	3.142E-02	3.996E-03	days	Hz	milliJy	false	observer
+3.150E+01	MPG_GROND	J	2.38E+14	4.029E-02	3.482E-03	days	Hz	milliJy	false	observer
+3.150E+01	MPG_GROND	z'	3.37E+14	3.162E-02	8.860E-04	days	Hz	milliJy	false	observer
+3.150E+01	MPG_GROND	i'	4.03E+14	3.532E-02	6.566E-04	days	Hz	milliJy	false	observer
+3.150E+01	MPG_GROND	r'	4.90E+14	2.831E-02	5.264E-04	days	Hz	milliJy	false	observer
+3.150E+01	MPG_GROND	g'	6.46E+14	1.180E-02	3.307E-04	days	Hz	milliJy	false	observer
+3.252E+01	LCO_Swope	B	6.88E+14	1.357E-02	6.522E-03	days	Hz	milliJy	false	observer
+3.253E+01	LCO_Swope	V	5.51E+14	2.328E-02	5.696E-03	days	Hz	milliJy	false	observer
+3.254E+01	LCO_Swope	g'	6.46E+14	8.943E-03	3.370E-03	days	Hz	milliJy	false	observer
+3.415E+01	RdlMO_NOT	g'	6.46E+14	1.419E-02	3.976E-04	days	Hz	milliJy	false	observer
+3.416E+01	RdlMO_NOT	r'	4.90E+14	2.630E-02	4.890E-04	days	Hz	milliJy	false	observer
+3.417E+01	RdlMO_NOT	i'	4.03E+14	3.221E-02	5.988E-04	days	Hz	milliJy	false	observer
+3.418E+01	RdlMO_NOT	z'	3.37E+14	3.281E-02	1.231E-03	days	Hz	milliJy	false	observer
+3.423E+01	RdlMO_GTC	g'	6.46E+14	1.380E-02	3.867E-04	days	Hz	milliJy	false	observer
+3.423E+01	RdlMO_GTC	r'	4.90E+14	2.679E-02	4.981E-04	days	Hz	milliJy	false	observer
+3.423E+01	RdlMO_GTC	i'	4.03E+14	3.342E-02	9.363E-04	days	Hz	milliJy	false	observer
+3.423E+01	RdlMO_GTC	z'	3.37E+14	3.251E-02	9.108E-04	days	Hz	milliJy	false	observer
+3.520E+01	RdlMO_NOT	i'	4.03E+14	3.162E-02	8.860E-04	days	Hz	milliJy	false	observer
+3.520E+01	LT_2m	i'	4.03E+14	2.512E-02	9.427E-04	days	Hz	milliJy	false	observer
+3.520E+01	LT_2m	r'	4.90E+14	2.089E-02	3.884E-04	days	Hz	milliJy	false	observer
+3.521E+01	RdlMO_NOT	r'	4.90E+14	2.535E-02	4.713E-04	days	Hz	milliJy	false	observer
+3.522E+01	RdlMO_NOT	g'	6.46E+14	1.318E-02	2.451E-04	days	Hz	milliJy	false	observer
+3.642E+01	LCO_Swope	g'	6.46E+14	1.434E-02	1.211E-03	days	Hz	milliJy	false	observer
+3.643E+01	LCO_Swope	V	5.51E+14	1.990E-02	2.762E-03	days	Hz	milliJy	false	observer
+3.644E+01	LCO_Swope	B	6.88E+14	8.207E-03	2.183E-03	days	Hz	milliJy	false	observer
+3.710E+01	LT	i'	4.03E+14	2.831E-02	7.933E-04	days	Hz	milliJy	false	observer
+3.710E+01	LT	r'	4.90E+14	2.249E-02	1.498E-03	days	Hz	milliJy	false	observer
+3.717E+01	RdlMO_NOT	g'	6.46E+14	1.380E-02	3.867E-04	days	Hz	milliJy	false	observer
+3.718E+01	RdlMO_NOT	r'	4.90E+14	2.421E-02	4.501E-04	days	Hz	milliJy	false	observer
+3.719E+01	RdlMO_NOT	i'	4.03E+14	3.076E-02	8.618E-04	days	Hz	milliJy	false	observer
+3.720E+01	RdlMO_NOT	z'	3.37E+14	3.048E-02	1.144E-03	days	Hz	milliJy	false	observer
+3.737E+01	MPG_GROND	J	2.38E+14	3.919E-02	7.067E-03	days	Hz	milliJy	false	observer
+3.737E+01	MPG_GROND	z'	3.37E+14	3.048E-02	1.144E-03	days	Hz	milliJy	false	observer
+3.737E+01	MPG_GROND	i'	4.03E+14	2.992E-02	8.383E-04	days	Hz	milliJy	false	observer
+3.737E+01	MPG_GROND	r'	4.90E+14	2.443E-02	6.846E-04	days	Hz	milliJy	false	observer
+3.737E+01	MPG_GROND	g'	6.46E+14	1.159E-02	3.246E-04	days	Hz	milliJy	false	observer
+3.744E+01	VLT	I	3.76E+14	2.245E-02	2.077E-04	days	Hz	milliJy	false	observer
+3.744E+01	VLT	R	4.67E+14	1.830E-02	1.693E-04	days	Hz	milliJy	false	observer
+3.744E+01	VLT	V	5.51E+14	1.435E-02	2.668E-04	days	Hz	milliJy	false	observer
+3.744E+01	VLT	B	6.88E+14	5.506E-03	1.024E-04	days	Hz	milliJy	false	observer
+3.814E+01	LT	i'	4.03E+14	2.399E-02	6.721E-04	days	Hz	milliJy	false	observer
+3.814E+01	LT	r'	4.90E+14	1.854E-02	5.193E-04	days	Hz	milliJy	false	observer
+3.821E+01	RdlMO_GTC	g'	6.46E+14	1.282E-02	2.384E-04	days	Hz	milliJy	false	observer
+3.821E+01	RdlMO_GTC	r'	4.90E+14	2.291E-02	8.597E-04	days	Hz	milliJy	false	observer
+3.822E+01	RdlMO_GTC	i'	4.03E+14	3.162E-02	5.879E-04	days	Hz	milliJy	false	observer
+3.822E+01	RdlMO_GTC	z'	3.37E+14	3.133E-02	8.778E-04	days	Hz	milliJy	false	observer
+3.946E+01	LCO_Swope	g'	6.46E+14	1.183E-02	1.383E-03	days	Hz	milliJy	false	observer
+3.946E+01	LCO_Swope	u'	8.34E+14	6.233E-03	3.632E-03	days	Hz	milliJy	false	observer
+3.947E+01	LCO_Swope	V	5.51E+14	2.187E-02	2.995E-03	days	Hz	milliJy	false	observer
+3.947E+01	LCO_Swope	B	6.88E+14	1.116E-02	2.585E-03	days	Hz	milliJy	false	observer
+4.015E+01	RdlMO_NOT	g'	6.46E+14	1.247E-02	3.495E-04	days	Hz	milliJy	false	observer
+4.016E+01	RdlMO_NOT	r'	4.90E+14	2.377E-02	4.419E-04	days	Hz	milliJy	false	observer
+4.016E+01	RdlMO_NOT	i'	4.03E+14	3.048E-02	5.666E-04	days	Hz	milliJy	false	observer
+4.017E+01	RdlMO_NOT	z'	3.37E+14	2.489E-02	1.903E-03	days	Hz	milliJy	false	observer
+4.042E+01	LCO_Swope	r'	4.90E+14	3.980E-02	2.100E-02	days	Hz	milliJy	false	observer
+4.042E+01	LCO_Swope	g'	6.46E+14	9.172E-03	1.447E-03	days	Hz	milliJy	false	observer
+4.043E+01	LCO_Swope	u'	8.34E+14	4.958E-03	1.653E-03	days	Hz	milliJy	false	observer
+4.044E+01	LCO_Swope	V	5.51E+14	1.256E-02	3.577E-03	days	Hz	milliJy	false	observer
+4.045E+01	LCO_Swope	B	6.88E+14	6.253E-03	2.752E-03	days	Hz	milliJy	false	observer
+4.234E+01	MPG_GROND	H	1.84E+14	3.001E-02	4.764E-03	days	Hz	milliJy	false	observer
+4.234E+01	MPG_GROND	J	2.38E+14	3.351E-02	2.896E-03	days	Hz	milliJy	false	observer
+4.234E+01	MPG_GROND	i'	4.03E+14	2.884E-02	8.080E-04	days	Hz	milliJy	false	observer
+4.234E+01	MPG_GROND	r'	4.90E+14	2.032E-02	3.778E-04	days	Hz	milliJy	false	observer
+4.234E+01	MPG_GROND	g'	6.46E+14	1.180E-02	4.430E-04	days	Hz	milliJy	false	observer
+4.245E+01	LCO_Swope	r'	4.90E+14	2.250E-02	7.499E-03	days	Hz	milliJy	false	observer
+4.245E+01	LCO_Swope	g'	6.46E+14	1.013E-02	1.502E-03	days	Hz	milliJy	false	observer
+4.248E+01	LCO_Swope	V	5.51E+14	1.941E-02	3.826E-03	days	Hz	milliJy	false	observer
+4.248E+01	LCO_Swope	B	6.88E+14	1.175E-02	3.114E-03	days	Hz	milliJy	false	observer
+4.739E+01	MPG_GROND	H	1.84E+14	2.787E-02	3.546E-03	days	Hz	milliJy	false	observer
+4.739E+01	MPG_GROND	J	2.38E+14	2.613E-02	2.521E-03	days	Hz	milliJy	false	observer
+4.739E+01	MPG_GROND	z'	3.37E+14	2.780E-02	7.788E-04	days	Hz	milliJy	false	observer
+4.739E+01	MPG_GROND	i'	4.03E+14	2.679E-02	7.506E-04	days	Hz	milliJy	false	observer
+4.739E+01	MPG_GROND	r'	4.90E+14	2.070E-02	3.849E-04	days	Hz	milliJy	false	observer
+4.739E+01	MPG_GROND	g'	6.46E+14	9.550E-03	3.584E-04	days	Hz	milliJy	false	observer
+5.043E+01	LCO_Swope	r'	4.90E+14	1.986E-02	8.141E-03	days	Hz	milliJy	false	observer
+5.118E+01	RdlMO_GTC	g'	6.46E+14	1.169E-02	7.788E-04	days	Hz	milliJy	false	observer
+5.118E+01	RdlMO_GTC	r'	4.90E+14	1.854E-02	8.735E-04	days	Hz	milliJy	false	observer
+5.119E+01	RdlMO_GTC	i'	4.03E+14	2.312E-02	6.478E-04	days	Hz	milliJy	false	observer
+5.119E+01	RdlMO_GTC	z'	3.37E+14	2.466E-02	9.255E-04	days	Hz	milliJy	false	observer
+5.120E+01	RdlMO_GTC	J	2.38E+14	2.496E-02	1.662E-03	days	Hz	milliJy	false	observer
+5.121E+01	RdlMO_GTC	H	1.84E+14	2.318E-02	1.093E-03	days	Hz	milliJy	false	observer
+5.121E+01	RdlMO_GTC	K	1.37E+14	2.198E-02	1.036E-03	days	Hz	milliJy	false	observer
+5.937E+01	LCO_Swope	g'	6.46E+14	1.333E-02	2.681E-03	days	Hz	milliJy	false	observer
+5.938E+01	LCO_Swope	u'	8.34E+14	6.871E-03	2.290E-03	days	Hz	milliJy	false	observer
+5.938E+01	LCO_Swope	V	5.51E+14	1.814E-02	5.533E-03	days	Hz	milliJy	false	observer
+5.939E+01	LCO_Swope	B	6.88E+14	5.625E-03	1.875E-03	days	Hz	milliJy	false	observer
+6.034E+01	MPG_GROND	H	1.84E+14	3.743E-02	9.691E-03	days	Hz	milliJy	false	observer
+6.034E+01	MPG_GROND	J	2.38E+14	2.762E-02	7.798E-03	days	Hz	milliJy	false	observer
+6.034E+01	MPG_GROND	z'	3.37E+14	2.128E-02	5.962E-04	days	Hz	milliJy	false	observer
+6.034E+01	MPG_GROND	i'	4.03E+14	2.312E-02	4.298E-04	days	Hz	milliJy	false	observer
+6.034E+01	MPG_GROND	r'	4.90E+14	1.770E-02	3.291E-04	days	Hz	milliJy	false	observer
+6.034E+01	MPG_GROND	g'	6.46E+14	1.009E-02	3.788E-04	days	Hz	milliJy	false	observer
+6.135E+01	LCO_Swope	g'	6.46E+14	1.204E-02	1.320E-03	days	Hz	milliJy	false	observer
+6.136E+01	LCO_Swope	V	5.51E+14	1.244E-02	3.022E-03	days	Hz	milliJy	false	observer
+6.136E+01	LCO_Swope	B	6.88E+14	6.194E-03	2.420E-03	days	Hz	milliJy	false	observer
+6.439E+01	LCO_Swope	g'	6.46E+14	9.967E-03	1.498E-03	days	Hz	milliJy	false	observer
+6.441E+01	LCO_Swope	B	6.88E+14	1.249E-02	2.879E-03	days	Hz	milliJy	false	observer
+6.638E+01	LCO_Swope	r'	4.90E+14	2.895E-02	9.648E-03	days	Hz	milliJy	false	observer
+6.639E+01	LCO_Swope	g'	6.46E+14	1.080E-02	1.442E-03	days	Hz	milliJy	false	observer
+6.640E+01	LCO_Swope	V	5.51E+14	1.823E-02	3.176E-03	days	Hz	milliJy	false	observer
+7.008E+01	RdlMO_NOT	g'	6.46E+14	9.550E-03	2.676E-04	days	Hz	milliJy	false	observer
+7.009E+01	RdlMO_NOT	r'	4.90E+14	1.690E-02	3.143E-04	days	Hz	milliJy	false	observer
+7.010E+01	RdlMO_NOT	i'	4.03E+14	2.188E-02	6.129E-04	days	Hz	milliJy	false	observer
+7.011E+01	RdlMO_NOT	z'	3.37E+14	2.168E-02	1.232E-03	days	Hz	milliJy	false	observer
+7.114E+01	RdlMO_GTC	g'	6.46E+14	1.138E-02	4.269E-04	days	Hz	milliJy	false	observer
+7.114E+01	RdlMO_GTC	r'	4.90E+14	1.675E-02	6.286E-04	days	Hz	milliJy	false	observer
+7.114E+01	RdlMO_GTC	i'	4.03E+14	2.399E-02	6.721E-04	days	Hz	milliJy	false	observer
+7.115E+01	RdlMO_GTC	z'	3.37E+14	2.270E-02	1.070E-03	days	Hz	milliJy	false	observer
+7.436E+01	LCO_Swope	g'	6.46E+14	9.995E-03	1.429E-03	days	Hz	milliJy	false	observer
+7.437E+01	LCO_Swope	V	5.51E+14	1.893E-02	3.275E-03	days	Hz	milliJy	false	observer
+7.438E+01	LCO_Swope	B	6.88E+14	6.133E-03	2.964E-03	days	Hz	milliJy	false	observer
+7.933E+01	LCO_Swope	r'	4.90E+14	1.423E-02	5.595E-03	days	Hz	milliJy	false	observer
+7.934E+01	LCO_Swope	i'	4.03E+14	1.435E-02	5.974E-03	days	Hz	milliJy	false	observer
+8.131E+01	LCO_Swope	r'	4.90E+14	2.029E-02	5.371E-03	days	Hz	milliJy	false	observer
+8.132E+01	LCO_Swope	i'	4.03E+14	2.529E-02	5.911E-03	days	Hz	milliJy	false	observer
+8.132E+01	LCO_Swope	g'	6.46E+14	7.955E-03	2.652E-03	days	Hz	milliJy	false	observer
+8.431E+01	LCO_Swope	r'	4.90E+14	1.478E-02	6.919E-03	days	Hz	milliJy	false	observer
+8.432E+01	LCO_Swope	i'	4.03E+14	2.939E-02	5.300E-03	days	Hz	milliJy	false	observer
+8.627E+01	LCO_Swope	r'	4.90E+14	1.621E-02	4.462E-03	days	Hz	milliJy	false	observer
+8.628E+01	LCO_Swope	i'	4.03E+14	1.172E-02	7.235E-03	days	Hz	milliJy	false	observer
+8.629E+01	LCO_Swope	g'	6.46E+14	8.716E-03	2.838E-03	days	Hz	milliJy	false	observer
+9.021E+01	LCO_Swope	r'	4.90E+14	1.293E-02	3.851E-03	days	Hz	milliJy	false	observer
+9.021E+01	LCO_Swope	i'	4.03E+14	2.813E-02	3.374E-03	days	Hz	milliJy	false	observer
+9.124E+01	LCO_Swope	r'	4.90E+14	1.688E-02	1.955E-03	days	Hz	milliJy	false	observer
+9.124E+01	LCO_Swope	i'	4.03E+14	2.026E-02	3.413E-03	days	Hz	milliJy	false	observer
+9.765E+01	LCO_Siding_Spring	r'	4.90E+14	7.244E-03	2.394E-03	days	Hz	milliJy	false	observer
+9.766E+01	LCO_Siding_Spring	i'	4.03E+14	1.445E-02	7.423E-03	days	Hz	milliJy	false	observer
+9.946E+01	Keck_LRIS	I	3.76E+14	1.719E-02	4.490E-04	days	Hz	milliJy	false	observer
+9.946E+01	Keck_LRIS	R	4.67E+14	1.716E-02	4.320E-04	days	Hz	milliJy	false	observer
+9.946E+01	Keck_LRIS	g'	6.46E+14	1.180E-02	3.531E-04	days	Hz	milliJy	false	observer
+9.946E+01	Keck_LRIS	B	6.88E+14	8.488E-03	2.349E-05	days	Hz	milliJy	false	observer
+9.946E+01	Keck_LRIS	u'	8.34E+14	4.786E-03	9.681E-04	days	Hz	milliJy	false	observer
+2.000E+02	Haleaka_PS1	z'	3.37E+14	1.905E-02	1.647E-03	days	Hz	milliJy	false	observer
+2.000E+02	Haleaka_PS1	i'	4.03E+14	1.343E-02	7.629E-04	days	Hz	milliJy	false	observer
+2.000E+02	Haleaka_PS1	r'	4.90E+14	1.343E-02	6.328E-04	days	Hz	milliJy	false	observer
+2.000E+02	Haleaka_PS1	g'	6.46E+14	7.656E-03	5.099E-04	days	Hz	milliJy	false	observer
+2.698E+02	UKIRT_WFCAM	J	2.41E+14	2.785E-02	2.185E-03	days	Hz	milliJy	false	observer
+2.768E+02	UKIRT_WFCAM	K	1.37E+14	3.702E-02	4.632E-03	days	Hz	milliJy	false	observer
+2.769E+02	UKIRT_WFCAM	H	1.85E+14	2.694E-02	3.121E-03	days	Hz	milliJy	false	observer

@@ -76,13 +76,23 @@ def get_trigtime(event_id):
 
                 # Make it a full UTC time
                 if np.float64(grb_name[:2]) > 90:
-                    trigtime = '19' + \
+                    if isinstance(grb_name[-2:], int):
+                        trigtime = '19' + \
+                            grb_name[:2]+'-'+grb_name[2:4] + \
+                            '-'+grb_name[-2:]+'T'+trigtime
+                    else:
+                        trigtime = '19' + \
                         grb_name[:2]+'-'+grb_name[2:4] + \
-                        '-'+grb_name[-2:]+'T'+trigtime
+                        '-'+grb_name[-3:-1]+'T'+trigtime
                 else:
-                    trigtime = '20' + \
+                    if isinstance(grb_name[-2], int):
+                        trigtime = '20' + \
                         grb_name[:2]+'-'+grb_name[2:4] + \
                         '-'+grb_name[-2:]+'T'+trigtime
+                    else:
+                        trigtime = '20' + \
+                        grb_name[:2]+'-'+grb_name[2:4] + \
+                        '-'+grb_name[-3:-1]+'T'+trigtime
 
             else:
                 trigtime = "no_tt"
@@ -199,6 +209,7 @@ def elapsed_time(dataframe, trigtime):
     # Handle the different date formats
     time = np.zeros(len(dataframe['date']))
     time_unit = []
+    time_frame = []
 
     for i in range(len(dataframe['date'])):
         # yyyy-month-deciday
@@ -227,7 +238,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-mm-deciday
         elif dataframe['date_unit'][i] == "yyyy-mm-deciday":
 
@@ -253,7 +264,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-mm-deciday-deciday
         elif dataframe['date_unit'][i] == "yyyy-mm-deciday-deciday":
 
@@ -284,7 +295,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-month-deciday-deciday
         elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
 
@@ -315,7 +326,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-mm-dd-hh:mm-hh:mm
         elif dataframe['date_unit'][i] == "yyyy-mm-dd-hh:mm-hh:mm":
             # Split up the date.
@@ -351,7 +362,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days.
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-month-dd-hh:mm-hh:mm
         elif dataframe['date_unit'][i] == "yyyy-month-dd-hh:mm-hh:mm":
             # Split up the date.
@@ -387,7 +398,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days.
             time_unit.append('days')
-
+            time_frame.append('observer')
         # MJD
         elif dataframe['date_unit'][i] == "MJD":
             print(file, ' used MJD')
@@ -407,7 +418,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-month-day-hh:mm
         elif dataframe['date_unit'][i] == 'yyyy-month-day-hh:mm':
             date = dataframe['date'][i].split('-')
@@ -435,7 +446,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # MJD-MJD
         elif dataframe['date_unit'][i] == 'MJD-MJD':
 
@@ -464,7 +475,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-month-deciday-month-deciday
         # This could have issues if only the date is given.
         elif dataframe['date_unit'][i] == 'yyyy-month-deciday-month-deciday':
@@ -501,7 +512,7 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         # yyyy-month-dd-hh.h-hh.h
         elif dataframe['date_unit'][i] == 'yyyy-month-dd-hh.h-hh.h':
 
@@ -537,14 +548,14 @@ def elapsed_time(dataframe, trigtime):
 
             # Time unit is now in days
             time_unit.append('days')
-
+            time_frame.append('observer')
         elif dataframe['date_unit'][i] == 'utc':
             obstime = Time(dataframe['date'][i], format='isot', scale='utc')
 
             time[i] = (obstime-Time(trigtime, format='isot', scale='utc')).value
 
             time_unit.append('days')
-
+            time_frame.append('observer')
         # Alert me that I have encountered a date format that isn't supported yet.
         else:
             raise Exception('No date2time function found for ' +
@@ -554,7 +565,7 @@ def elapsed_time(dataframe, trigtime):
     # update the time column with the new times.
     dataframe['time'] = time
     dataframe['time_unit'] = time_unit
-
+    dataframe['time_frame'] = time_frame
     return dataframe
 
 
@@ -566,7 +577,8 @@ def delta_time(dataframe):
     # Create the dtime array, fill with NaN.
     dtime = np.empty(len(dataframe[list(dataframe.keys())[0]]))
     dtime[:] = np.NaN
-
+    time_frame = []
+    time_unit = []
     if 'date' in list(dataframe.keys()):
         for i in range(len(dataframe['date'])):
 
@@ -598,7 +610,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
+                time_unit.append('days')
+                time_frame.append('observer')
 
             # yyyy-month-deciday-deciday
             elif dataframe['date_unit'][i] == "yyyy-month-deciday-deciday":
@@ -627,8 +640,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
-
+                time_unit.append('days')
+                time_frame.append('observer')
             # yyyy-mm-dd-hh:mm-hh:mm
             elif dataframe['date_unit'][i] == "yyyy-mm-dd-hh:mm-hh:mm":
                 # Split up the date.
@@ -662,8 +675,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
-
+                time_unit.append('days')
+                time_frame.append('observer')
             # yyyy-month-dd-hh:mm-hh:mm
             elif dataframe['date_unit'][i] == "yyyy-month-dd-hh:mm-hh:mm":
                 # Split up the date.
@@ -697,7 +710,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
+                time_unit.append('days')
+                time_frame.append('observer')
 
             # MJD-MJD
             elif dataframe['date_unit'][i] == 'MJD-MJD':
@@ -720,7 +734,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
+                time_unit.append('days')
+                time_frame.append('observer')
 
             # yyyy-month-deciday-month-deciday
             # Note that this could have issues if only the date is given.
@@ -754,7 +769,8 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
+                time_unit.append('days')
+                time_frame.append('observer')
 
             # yyyy-month-dd-hh.h-hh.h
             elif dataframe['date_unit'][i] == 'yyyy-month-dd-hh.h-hh.h':
@@ -787,13 +803,22 @@ def delta_time(dataframe):
                     format='sec', subfmt='decimal'))/86400
 
                 # Time unit is now in days
-                dataframe['time_unit'] = 'days'
+                time_unit.append('days')
+                time_frame.append('observer')
+            
+            else:
+                # Time unit is now in days
+                time_unit.append('days')
+                time_frame.append('observer')
+                
         dataframe['dtime'] = dtime
-
+        dataframe['time_frame'] = time_frame
+        dataframe['time_unit'] = time_unit
     # The dtime should just be nan.
     else:
         dataframe['dtime'] = dtime
-
+        dataframe['time_frame'] = len(dtime)*['observer']
+        dataframe['time_unit'] = len(dtime)*['days']
     return dataframe
 
 
@@ -1203,6 +1228,7 @@ for i in range(len(event_list)):
     # Check if the readme exists already. If it does then the files are ready to parse.
     if 'readme.txt' in file_list:
         for file in file_list:
+            print(file)
             if 'Master' in file:
                 print('Skipping ', file)
                 continue
