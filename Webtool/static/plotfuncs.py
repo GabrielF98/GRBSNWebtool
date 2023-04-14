@@ -10,18 +10,19 @@ from astropy.time import Time
 import pandas as pd
 
 
-def _load_yaml_config(yamlconfigfile):
-    """
-    Loads the YAML file containing configuration data relating to the onboard storage channels.
-    """
-    with open(yamlconfigfile, 'r', encoding='utf-8') as yaml_file:
-        yamltxt = yaml_file.read()
-        confyaml = yaml.load(yamltxt, Loader=yaml.SafeLoader)
+def flux_density_to_AB_mag(flux_density, dflux_density):
+    if isinstance(flux_density, float):
+        mag = -2.5*np.log10(flux_density)+8.9
+        dmag = np.sqrt((-2.5/(flux_density*np.log(10)))**2*dflux_density**2)
+    else:
+        if flux_density[0] == '>':
+            mag = '<'+str(-2.5*np.log10(flux_density)+8.9)  # > ---> <
+            dmag = dflux_density  # Which is nan in this case
+        elif flux_density[0] == '<':
+            mag = '>'+str(-2.5*np.log10(flux_density)+8.9)  # < ---> >
+            dmag = dflux_density  # Which is nan in this case
 
-    return confyaml
-
-
-flux_zeropoints = _load_yaml_config('flux_zeropoints.yaml')
+    return mag, dmag
 
 
 def list_grbs_with_data():
@@ -1234,6 +1235,16 @@ for i in range(len(event_list)):
             elif any(substring in file.lower() for substring in optical_filetags):
 
                 data = pd.read_csv(file, sep='\t')
+
+                # Convert to mag from flux density if necessary
+                if 'mag' not in list(data.keys()) and 'flux_density' in list(data.keys()):
+                    flux_density = data['flux_density']
+                    dflux_density = data['dflux_density']
+                    mag, dmag = flux_density_to_AB_mag(
+                        flux_density, dflux_density)
+                    data['mag'] = mag
+                    data['dmag'] = dmag
+                    data['mag_unit'] = 'AB'
 
                 # Find and catalogue limit values
                 if 'mag_limit' not in list(data.keys()):
