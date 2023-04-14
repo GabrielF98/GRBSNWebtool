@@ -10,6 +10,20 @@ from astropy.time import Time
 import pandas as pd
 
 
+def _load_yaml_config(yamlconfigfile):
+    """
+    Loads the YAML file containing configuration data relating to the onboard storage channels.
+    """
+    with open(yamlconfigfile, 'r', encoding='utf-8') as yaml_file:
+        yamltxt = yaml_file.read()
+        confyaml = yaml.load(yamltxt, Loader=yaml.SafeLoader)
+
+    return confyaml
+
+
+flux_zeropoints = _load_yaml_config('flux_zeropoints.yaml')
+
+
 def list_grbs_with_data():
     """
     List of GRB-SNe that I have text file data on so far.
@@ -103,9 +117,9 @@ def get_redshift(event_id):
 
         z = conn.execute(
             'SELECT z FROM SQLDataGRBSNe WHERE GRB=?', (grb_name,))
-        
+
         for redshift in z:
-            if redshift[0]!=0:
+            if redshift[0] != 0:
                 z = redshift[0]
 
     # Lone SN cases
@@ -115,9 +129,9 @@ def get_redshift(event_id):
         # Table with triggertimes
         z = conn.execute(
             'SELECT z FROM SQLDataGRBSNe WHERE SNe=?', (sn_name,))
-        
+
         for redshift in z:
-            if redshift[0]!=0:
+            if redshift[0] != 0:
                 z = redshift[0]
 
     conn.close()
@@ -792,7 +806,7 @@ def time_formats(dataframe):
     if 'dtime' not in list(dataframe.keys()):
         dtime = np.zeros(len(dataframe['time_unit']))
         time = np.zeros(len(dataframe['time_unit']))
-        
+
         # Handle the different date formats
         for i in range(len(dataframe['time'])):
 
@@ -890,7 +904,7 @@ def limits(df, wave_range):
         conditions = [(df[i].str.contains('<')), (df[i].str.contains('>'))]
         choices = [-1, 1]
         df.insert(df.columns.get_loc(i)+1, i+str('_limit'),
-                np.select(conditions, choices, default=0))
+                  np.select(conditions, choices, default=0))
 
         # Replace any < or > there may be
         df[i] = df[i].str.replace('<', '')
@@ -898,13 +912,13 @@ def limits(df, wave_range):
 
         # Convert back to float
         df[i] = df[i].astype(float)
-    
+
     else:
         # Upper limit = 1, Lower limit = -1, Neither = 0
         conditions = [(df[i].str.contains('>')), (df[i].str.contains('<'))]
         choices = [-1, 1]
         df.insert(df.columns.get_loc(i)+1, i+str('_limit'),
-                np.select(conditions, choices, default=0))
+                  np.select(conditions, choices, default=0))
 
         # Replace any < or > there may be
         df[i] = df[i].str.replace('<', '')
@@ -1046,8 +1060,8 @@ def masterfileformat(event):
 
                     # Add a column for the ads abstract link - source
                     data['reference'] = len(data['time'])*[file_sources.at
-                                                        [file_sources[file_sources['Filename'] ==
-                                                                        file].index[0], 'Reference']]
+                                                           [file_sources[file_sources['Filename'] ==
+                                                                         file].index[0], 'Reference']]
 
                     # Make sure the elapsed time is in days,
                     # if its in seconds/minutes/hours then convert it.
@@ -1067,12 +1081,12 @@ def masterfileformat(event):
 
                     # Append pandas
                     optical_pandas.append(data)
-            
+
             else:
                 # Add a column for the ads abstract link - source
                 data['reference'] = len(data['time'])*[file_sources.at
-                                                    [file_sources[file_sources['Filename'] ==
-                                                                    file].index[0], 'Reference']]
+                                                       [file_sources[file_sources['Filename'] ==
+                                                                     file].index[0], 'Reference']]
 
                 # Make sure the elapsed time is in days,
                 # if its in seconds/minutes/hours then convert it.
@@ -1205,18 +1219,14 @@ for i in range(len(event_list)):
                 # Tag any non-detections.
                 data = nondetections(data, file)
 
-                
-
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
-                
+
                 # Do the time formats before checking for dtime
-                data=time_formats(data)
+                data = time_formats(data)
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
-
-                
 
                 data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
@@ -1235,9 +1245,9 @@ for i in range(len(event_list)):
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
-                
+
                 # Do the time formats before checking for dtime
-                data=time_formats(data)
+                data = time_formats(data)
 
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
@@ -1261,7 +1271,7 @@ for i in range(len(event_list)):
                     data = elapsed_time(data, trigtime)
 
                 # Do the time formats before checking for dtime
-                data=time_formats(data)
+                data = time_formats(data)
 
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
@@ -1276,9 +1286,9 @@ for i in range(len(event_list)):
                 # Calculate the elapsed time
                 if 'time' not in list(data.keys()):
                     data = elapsed_time(data, trigtime)
-                
+
                 # Do the time formats before checking for dtime
-                data=time_formats(data)
+                data = time_formats(data)
 
                 if 'dtime' not in list(data.keys()):
                     data = delta_time(data)
