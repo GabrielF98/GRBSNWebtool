@@ -1,429 +1,429 @@
-date	mag	dmag	band	instrument	date_unit	mag_unit	mag_type	extinction_corrected
-57744.08	19.83	0.01	B	VLT	MJD	AB	apparent	true
-57744.08	19.66	0.01	V	VLT	MJD	AB	apparent	true
-57744.08	19.39	0.01	R	VLT	MJD	AB	apparent	true
-57744.08	18.89	0.00	I	VLT	MJD	AB	apparent	true
-57746.08	20.04	0.01	B	VLT	MJD	AB	apparent	true
-57746.08	19.84	0.01	V	VLT	MJD	AB	apparent	true
-57746.08	19.74	0.01	R	VLT	MJD	AB	apparent	true
-57746.08	19.33	0.01	I	VLT	MJD	AB	apparent	true
-57748.12	20.24	0.01	B	VLT	MJD	AB	apparent	true
-57748.12	19.82	0.01	V	VLT	MJD	AB	apparent	true
-57748.12	19.73	0.01	R	VLT	MJD	AB	apparent	true
-57748.12	19.48	0.01	I	VLT	MJD	AB	apparent	true
-57749.03	20.21	0.03	B	TNG	MJD	AB	apparent	true
-57749.03	19.65	0.10	V	TNG	MJD	AB	apparent	true
-57749.03	19.53	0.02	R	TNG	MJD	AB	apparent	true
-57749.03	19.35	0.05	I	TNG	MJD	AB	apparent	true
-57749.99	20.18	0.13	B	LT	MJD	AB	apparent	true
-57749.99	19.80	0.2	V	LT	MJD	AB	apparent	true
-57749.99	19.81	0.05	g	LT	MJD	AB	apparent	true
-57749.99	19.63	0.07	r	LT	MJD	AB	apparent	true
-57749.99	19.80	0.03	I	LT	MJD	AB	apparent	true
-57750.00	19.80	0.2	V	LT	MJD	AB	apparent	true
-57750.00	19.80	0.05	g	LT	MJD	AB	apparent	true
-57750.00	19.63	0.07	r	LT	MJD	AB	apparent	true
-57750.00	19.80	0.03	I	LT	MJD	AB	apparent	true
-57751.09	20.46	0.01	B	VLT	MJD	AB	apparent	true
-57751.09	19.79	0.01	V	VLT	MJD	AB	apparent	true
-57751.09	19.64	0.01	R	VLT	MJD	AB	apparent	true
-57751.09	19.44	0.01	I	VLT	MJD	AB	apparent	true
-57751.98	19.63	0.05	V	LT	MJD	AB	apparent	true
-57751.98	19.92	0.05	g	LT	MJD	AB	apparent	true
-57751.98	19.54	0.09	r	LT	MJD	AB	apparent	true
-57751.98	19.76	0.08	i	LT	MJD	AB	apparent	true
-57751.99	19.63	0.05	V	LT	MJD	AB	apparent	true
-57751.99	19.92	0.05	g	LT	MJD	AB	apparent	true
-57751.99	19.54	0.09	r	LT	MJD	AB	apparent	true
-57751.99	19.76	0.08	i	LT	MJD	AB	apparent	true
-57753.99	20.52	0.21	B	TNG	MJD	AB	apparent	true
-57753.99	19.77	0.06	V	TNG	MJD	AB	apparent	true
-57753.99	19.43	0.06	R	TNG	MJD	AB	apparent	true
-57753.99	19.35	0.12	I	TNG	MJD	AB	apparent	true
-57754.28	20.57	0.01	B	VLT	MJD	AB	apparent	true
-57754.28	19.82	0.01	V	VLT	MJD	AB	apparent	true
-57754.28	19.53	0.01	R	VLT	MJD	AB	apparent	true
-57754.28	19.40	0.01	I	VLT	MJD	AB	apparent	true
-57756.36	20.87	0.01	B	Keck	MJD	AB	apparent	true
-57756.36	20.17	0.03	V	Keck	MJD	AB	apparent	true
-57756.36	19.64	0.03	R	Keck	MJD	AB	apparent	true
-57756.36	19.44	0.04	I	Keck	MJD	AB	apparent	true
-57757.00	20.60	0.09	B	LT	MJD	AB	apparent	true
-57757.00	20.20	0.10	V	LT	MJD	AB	apparent	true
-57757.00	20.28	0.03	g	LT	MJD	AB	apparent	true
-57757.00	19.64	0.03	r	LT	MJD	AB	apparent	true
-57757.00	19.76	0.02	i	LT	MJD	AB	apparent	true
-57757.01	20.60	0.09	B	LT	MJD	AB	apparent	true
-57757.01	20.20	0.10	V	LT	MJD	AB	apparent	true
-57757.01	20.28	0.03	g	LT	MJD	AB	apparent	true
-57757.01	19.64	0.03	r	LT	MJD	AB	apparent	true
-57757.01	19.76	0.02	i	LT	MJD	AB	apparent	true
-57757.98	20.90	0.06	B	LT	MJD	AB	apparent	true
-57757.98	20.03	0.03	V	LT	MJD	AB	apparent	true
-57757.98	20.39	0.04	g	LT	MJD	AB	apparent	true
-57757.98	19.77	0.07	r	LT	MJD	AB	apparent	true
-57757.98	19.76	0.05	i	LT	MJD	AB	apparent	true
-57757.98	20.90	0.06	B	LT	MJD	AB	apparent	true
-57757.98	20.03	0.03	V	LT	MJD	AB	apparent	true
-57757.98	20.38	0.04	g	LT	MJD	AB	apparent	true
-57757.98	19.75	0.08	r	LT	MJD	AB	apparent	true
-57757.98	19.75	0.05	i	LT	MJD	AB	apparent	true
-57758.04	20.92	0.02	B	VLT	MJD	AB	apparent	true
-57758.04	19.96	0.01	V	VLT	MJD	AB	apparent	true
-57758.04	19.58	0.01	R	VLT	MJD	AB	apparent	true
-57758.04	19.41	0.01	I	VLT	MJD	AB	apparent	true
-57758.96	20.44	0.08	g	LT	MJD	AB	apparent	true
-57758.96	19.669	0.08	r	LT	MJD	AB	apparent	true
-57758.96	19.59	0.06	i	LT	MJD	AB	apparent	true
-57760.06	21.18	0.02	B	VLT	MJD	AB	apparent	true
-57760.06	20.12	0.01	V	VLT	MJD	AB	apparent	true
-57760.06	19.66	0.01	R	VLT	MJD	AB	apparent	true
-57760.06	19.47	0.01	I	VLT	MJD	AB	apparent	true
-57763.26	21.58	0.06	B	VLT	MJD	AB	apparent	true
-57763.26	20.33	0.02	V	VLT	MJD	AB	apparent	true
-57763.26	19.73	0.01	R	VLT	MJD	AB	apparent	true
-57763.26	19.47	0.01	I	VLT	MJD	AB	apparent	true
-57767.17	20.51	0.03	V	VLT	MJD	AB	apparent	true
-57767.17	19.97	0.02	R	VLT	MJD	AB	apparent	true
-57767.17	19.61	0.02	I	VLT	MJD	AB	apparent	true
-57769.98	20.35	0.05	r	LT	MJD	AB	apparent	true
-57769.98	20.05	0.02	i	LT	MJD	AB	apparent	true
-57770.91	20.33	0.04	r	LT	MJD	AB	apparent	true
-57770.91	20.11	0.02	i	LT	MJD	AB	apparent	true
-57772.04	21.98	0.01	B	VLT	MJD	AB	apparent	true
-57772.04	20.93	0.01	V	VLT	MJD	AB	apparent	true
-57772.04	20.25	0.01	R	VLT	MJD	AB	apparent	true
-57772.04	19.82	0.01	I	VLT	MJD	AB	apparent	true
-57772.91	20.50	0.042	r	LT	MJD	AB	apparent	true
-57772.91	20.22	0.02	i	LT	MJD	AB	apparent	true
-57778.88	20.52	0.07	r	LT	MJD	AB	apparent	true
-57778.88	20.27	0.03	i	LT	MJD	AB	apparent	true
-57779.22	22.17	0.02	B	VLT	MJD	AB	apparent	true
-57779.22	21.23	0.02	V	VLT	MJD	AB	apparent	true
-57779.22	20.56	0.01	R	VLT	MJD	AB	apparent	true
-57779.22	20.08	0.01	I	VLT	MJD	AB	apparent	true
-57779.92	20.73	0.03	r	LT	MJD	AB	apparent	true
-57779.92	20.45	0.03	i	LT	MJD	AB	apparent	true
-57836.04	22.64	0.03	B	VLT	MJD	AB	apparent	true
-57836.04	21.24	0.01	R	VLT	MJD	AB	apparent	true
-57744.08	19.83	0.01	B	VLT	MJD	AB	apparent	true
-57744.08	19.66	0.01	V	VLT	MJD	AB	apparent	true
-57744.08	19.39	0.01	R	VLT	MJD	AB	apparent	true
-57744.08	18.89	0.00	I	VLT	MJD	AB	apparent	true
-57746.08	20.04	0.01	B	VLT	MJD	AB	apparent	true
-57746.08	19.84	0.01	V	VLT	MJD	AB	apparent	true
-57746.08	19.74	0.01	R	VLT	MJD	AB	apparent	true
-57746.08	19.33	0.01	I	VLT	MJD	AB	apparent	true
-57748.12	20.24	0.01	B	VLT	MJD	AB	apparent	true
-57748.12	19.82	0.01	V	VLT	MJD	AB	apparent	true
-57748.12	19.73	0.01	R	VLT	MJD	AB	apparent	true
-57748.12	19.48	0.01	I	VLT	MJD	AB	apparent	true
-57749.03	20.21	0.03	B	TNG	MJD	AB	apparent	true
-57749.03	19.65	0.10	V	TNG	MJD	AB	apparent	true
-57749.03	19.53	0.02	R	TNG	MJD	AB	apparent	true
-57749.03	19.35	0.05	I	TNG	MJD	AB	apparent	true
-57749.99	20.18	0.13	B	LT	MJD	AB	apparent	true
-57749.99	19.8	0.20	V	LT	MJD	AB	apparent	true
-57749.99	19.81	0.05	g	LT	MJD	AB	apparent	true
-57749.99	19.63	0.07	r	LT	MJD	AB	apparent	true
-57749.99	19.80	0.03	i	LT	MJD	AB	apparent	true
-57750.00	19.8	0.20	V	LT	MJD	AB	apparent	true
-57750.00	19.80	0.05	g	LT	MJD	AB	apparent	true
-57750.00	19.63	0.07	r	LT	MJD	AB	apparent	true
-57750.00	19.80	0.03	i	LT	MJD	AB	apparent	true
-57751.09	20.46	0.01	B	VLT	MJD	AB	apparent	true
-57751.09	19.79	0.01	V	VLT	MJD	AB	apparent	true
-57751.09	19.64	0.01	R	VLT	MJD	AB	apparent	true
-57751.09	19.44	0.01	I	VLT	MJD	AB	apparent	true
-57751.98	19.63	0.05	V	LT	MJD	AB	apparent	true
-57751.98	19.92	0.05	g	LT	MJD	AB	apparent	true
-57751.98	19.54	0.09	r	LT	MJD	AB	apparent	true
-57751.98	19.76	0.08	i	LT	MJD	AB	apparent	true
-57751.99	19.63	0.05	V	LT	MJD	AB	apparent	true
-57751.99	19.92	0.05	g	LT	MJD	AB	apparent	true
-57751.99	19.54	0.09	r	LT	MJD	AB	apparent	true
-57751.99	19.75	0.08	i	LT	MJD	AB	apparent	true
-57753.99	20.52	0.21	B	TNG	MJD	AB	apparent	true
-57753.99	19.77	0.06	V	TNG	MJD	AB	apparent	true
-57753.99	19.43	0.06	R	TNG	MJD	AB	apparent	true
-57753.99	19.35	0.12	I	TNG	MJD	AB	apparent	true
-57754.28	20.57	0.01	B	VLT	MJD	AB	apparent	true
-57754.28	19.82	0.01	V	VLT	MJD	AB	apparent	true
-57754.28	19.53	0.01	R	VLT	MJD	AB	apparent	true
-57754.28	19.40	0.01	I	VLT	MJD	AB	apparent	true
-57756.36	20.87	0.01	B	Keck	MJD	AB	apparent	true
-57756.36	20.17	0.03	V	Keck	MJD	AB	apparent	true
-57756.36	19.64	0.03	R	Keck	MJD	AB	apparent	true
-57756.36	19.44	0.04	I	Keck	MJD	AB	apparent	true
-57757.00	20.60	0.09	B	LT	MJD	AB	apparent	true
-57757.00	20.2	0.10	V	LT	MJD	AB	apparent	true
-57757.00	20.28	0.03	g	LT	MJD	AB	apparent	true
-57757.00	19.64	0.03	r	LT	MJD	AB	apparent	true
-57757.00	19.76	0.02	i	LT	MJD	AB	apparent	true
-57757.01	20.60	0.09	B	LT	MJD	AB	apparent	true
-57757.01	20.2	0.10	V	LT	MJD	AB	apparent	true
-57757.01	20.28	0.03	g	LT	MJD	AB	apparent	true
-57757.01	19.64	0.03	r	LT	MJD	AB	apparent	true
-57757.01	19.76	0.02	i	LT	MJD	AB	apparent	true
-57757.98	20.90	0.06	B	LT	MJD	AB	apparent	true
-57757.98	20.03	0.03	V	LT	MJD	AB	apparent	true
-57757.98	20.39	0.04	g	LT	MJD	AB	apparent	true
-57757.98	19.77	0.07	r	LT	MJD	AB	apparent	true
-57757.98	19.76	0.05	i	LT	MJD	AB	apparent	true
-57757.98	20.90	0.06	B	LT	MJD	AB	apparent	true
-57757.98	20.03	0.03	V	LT	MJD	AB	apparent	true
-57757.98	20.38	0.04	g	LT	MJD	AB	apparent	true
-57757.98	19.75	0.08	r	LT	MJD	AB	apparent	true
-57757.98	19.75	0.05	i	LT	MJD	AB	apparent	true
-57758.04	20.92	0.02	B	VLT	MJD	AB	apparent	true
-57758.04	19.96	0.01	V	VLT	MJD	AB	apparent	true
-57758.04	19.58	0.01	R	VLT	MJD	AB	apparent	true
-57758.04	19.41	0.01	I	VLT	MJD	AB	apparent	true
-57758.96	20.44	0.08	g	LT	MJD	AB	apparent	true
-57758.96	19.669	0.08	r	LT	MJD	AB	apparent	true
-57758.96	19.59	0.06	i	LT	MJD	AB	apparent	true
-57760.06	21.18	0.02	B	VLT	MJD	AB	apparent	true
-57760.06	20.12	0.01	V	VLT	MJD	AB	apparent	true
-57760.06	19.66	0.01	R	VLT	MJD	AB	apparent	true
-57760.06	19.47	0.01	I	VLT	MJD	AB	apparent	true
-57763.26	21.58	0.06	B	VLT	MJD	AB	apparent	true
-57763.26	20.33	0.02	V	VLT	MJD	AB	apparent	true
-57763.26	19.73	0.01	R	VLT	MJD	AB	apparent	true
-57763.26	19.47	0.01	I	VLT	MJD	AB	apparent	true
-57767.17	20.51	0.03	V	VLT	MJD	AB	apparent	true
-57767.17	19.97	0.02	R	VLT	MJD	AB	apparent	true
-57767.17	19.61	0.02	I	VLT	MJD	AB	apparent	true
-57769.98	20.35	0.05	r	LT	MJD	AB	apparent	true
-57769.98	20.05	0.02	i	LT	MJD	AB	apparent	true
-57770.91	20.33	0.04	r	LT	MJD	AB	apparent	true
-57770.91	20.11	0.02	i	LT	MJD	AB	apparent	true
-57772.04	21.98	0.01	B	VLT	MJD	AB	apparent	true
-57772.04	20.93	0.01	V	VLT	MJD	AB	apparent	true
-57772.04	20.25	0.01	R	VLT	MJD	AB	apparent	true
-57772.04	19.82	0.01	I	VLT	MJD	AB	apparent	true
-57772.91	20.50	0.042	r	LT	MJD	AB	apparent	true
-57772.91	20.22	0.02	i	LT	MJD	AB	apparent	true
-57778.88	20.52	0.07	r	LT	MJD	AB	apparent	true
-57778.88	20.27	0.03	i	LT	MJD	AB	apparent	true
-57779.22	22.17	0.02	B	VLT	MJD	AB	apparent	true
-57779.22	21.23	0.02	V	VLT	MJD	AB	apparent	true
-57779.22	20.56	0.01	R	VLT	MJD	AB	apparent	true
-57779.22	20.08	0.01	I	VLT	MJD	AB	apparent	true
-57779.92	20.73	0.03	r	LT	MJD	AB	apparent	true
-57779.92	20.45	0.03	i	LT	MJD	AB	apparent	true
-57836.04	22.64	0.03	B	VLT	MJD	AB	apparent	true
-57836.04	21.24	0.01	R	VLT	MJD	AB	apparent	true
-57744.08	19.83	0.01	B	VLT	MJD	AB	apparent	true
-57744.08	19.66	0.01	V	VLT	MJD	AB	apparent	true
-57744.08	19.39	0.01	R	VLT	MJD	AB	apparent	true
-57744.08	18.89	0.00	I	VLT	MJD	AB	apparent	true
-57746.08	20.04	0.01	B	VLT	MJD	AB	apparent	true
-57746.08	19.84	0.01	V	VLT	MJD	AB	apparent	true
-57746.08	19.74	0.01	R	VLT	MJD	AB	apparent	true
-57746.08	19.33	0.01	I	VLT	MJD	AB	apparent	true
-57748.12	20.24	0.01	B	VLT	MJD	AB	apparent	true
-57748.12	19.82	0.01	V	VLT	MJD	AB	apparent	true
-57748.12	19.73	0.01	R	VLT	MJD	AB	apparent	true
-57748.12	19.48	0.01	I	VLT	MJD	AB	apparent	true
-57749.03	20.21	0.03	B	TNG	MJD	AB	apparent	true
-57749.03	19.65	0.10	V	TNG	MJD	AB	apparent	true
-57749.03	19.53	0.02	R	TNG	MJD	AB	apparent	true
-57749.03	19.35	0.05	I	TNG	MJD	AB	apparent	true
-57749.99	20.18	0.13	B	LT	MJD	AB	apparent	true
-57749.99	19.8	0.20	V	LT	MJD	AB	apparent	true
-57749.99	19.81	0.05	g	LT	MJD	AB	apparent	true
-57749.99	19.63	0.07	r	LT	MJD	AB	apparent	true
-57749.99	19.80	0.03	i	LT	MJD	AB	apparent	true
-57750.00	19.8	0.2	V	LT	MJD	AB	apparent	true
-57750.00	19.80	0.05	g	LT	MJD	AB	apparent	true
-57750.00	19.63	0.07	r	LT	MJD	AB	apparent	true
-57750.00	19.80	0.03	i	LT	MJD	AB	apparent	true
-57751.09	20.46	0.01	B	VLT	MJD	AB	apparent	true
-57751.09	19.79	0.01	V	VLT	MJD	AB	apparent	true
-57751.09	19.64	0.01	R	VLT	MJD	AB	apparent	true
-57751.09	19.44	0.01	I	VLT	MJD	AB	apparent	true
-57751.98	19.63	0.05	V	LT	MJD	AB	apparent	true
-57751.98	19.92	0.05	g	LT	MJD	AB	apparent	true
-57751.98	19.54	0.09	r	LT	MJD	AB	apparent	true
-57751.98	19.76	0.08	i	LT	MJD	AB	apparent	true
-57751.99	19.63	0.05	V	LT	MJD	AB	apparent	true
-57751.99	19.92	0.05	g	LT	MJD	AB	apparent	true
-57751.99	19.54	0.09	r	LT	MJD	AB	apparent	true
-57751.99	19.75	0.08	i	LT	MJD	AB	apparent	true
-57753.99	20.52	0.21	B	TNG	MJD	AB	apparent	true
-57751.99	19.77	0.06	V	TNG	MJD	AB	apparent	true
-57751.99	19.43	0.06	R	TNG	MJD	AB	apparent	true
-57751.99	19.35	0.12	I	TNG	MJD	AB	apparent	true
-57754.28	20.57	0.01	B	VLT	MJD	AB	apparent	true
-57754.28	19.82	0.01	V	VLT	MJD	AB	apparent	true
-57754.28	19.53	0.01	R	VLT	MJD	AB	apparent	true
-57754.28	19.40	0.01	I	VLT	MJD	AB	apparent	true
-57756.36	20.87	0.01	B	Keck	MJD	AB	apparent	true
-57756.36	20.17	0.03	V	Keck	MJD	AB	apparent	true
-57756.36	19.64	0.03	R	Keck	MJD	AB	apparent	true
-57756.36	19.44	0.04	I	Keck	MJD	AB	apparent	true
-57757.00	20.60	0.09	B	LT	MJD	AB	apparent	true
-57757.00	20.2	0.1	V	LT	MJD	AB	apparent	true
-57757.00	20.28	0.03	g	LT	MJD	AB	apparent	true
-57757.00	19.64	0.03	r	LT	MJD	AB	apparent	true
-57757.00	19.76	0.02	i	LT	MJD	AB	apparent	true
-57757.01	20.60	0.09	B	LT	MJD	AB	apparent	true
-57757.01	20.2	0.1	V	LT	MJD	AB	apparent	true
-57757.01	20.28	0.03	g	LT	MJD	AB	apparent	true
-57757.01	19.64	0.03	r	LT	MJD	AB	apparent	true
-57757.01	19.76	0.02	i	LT	MJD	AB	apparent	true
-57757.98	20.90	0.06	B	LT	MJD	AB	apparent	true
-57757.98	20.03	0.03	V	LT	MJD	AB	apparent	true
-57757.98	20.39	0.04	g	LT	MJD	AB	apparent	true
-57757.98	19.77	0.07	r	LT	MJD	AB	apparent	true
-57757.98	19.76	0.05	i	LT	MJD	AB	apparent	true
-57757.98	20.90	0.06	B	LT	MJD	AB	apparent	true
-57757.98	20.03	0.03	V	LT	MJD	AB	apparent	true
-57757.98	20.38	0.04	g	LT	MJD	AB	apparent	true
-57757.98	19.75	0.08	r	LT	MJD	AB	apparent	true
-57757.98	19.75	0.05	i	LT	MJD	AB	apparent	true
-57758.04	20.92	0.02	B	VLT	MJD	AB	apparent	true
-57758.04	19.96	0.01	V	VLT	MJD	AB	apparent	true
-57758.04	19.58	0.01	R	VLT	MJD	AB	apparent	true
-57758.04	19.41	0.01	I	VLT	MJD	AB	apparent	true
-57758.96	20.44	0.08	g	LT	MJD	AB	apparent	true
-57758.96	19.669	0.08	r	LT	MJD	AB	apparent	true
-57758.96	19.59	0.06	i	LT	MJD	AB	apparent	true
-57760.06	21.18	0.02	B	VLT	MJD	AB	apparent	true
-57760.06	20.12	0.01	V	VLT	MJD	AB	apparent	true
-57760.06	19.66	0.01	R	VLT	MJD	AB	apparent	true
-57760.06	19.47	0.01	I	VLT	MJD	AB	apparent	true
-57763.26	21.58	0.06	B	VLT	MJD	AB	apparent	true
-57763.26	20.33	0.02	V	VLT	MJD	AB	apparent	true
-57763.26	19.73	0.01	R	VLT	MJD	AB	apparent	true
-57763.26	19.47	0.01	I	VLT	MJD	AB	apparent	true
-57767.17	20.51	0.03	V	VLT	MJD	AB	apparent	true
-57767.17	19.97	0.02	R	VLT	MJD	AB	apparent	true
-57767.17	19.61	0.02	I	VLT	MJD	AB	apparent	true
-57769.98	20.35	0.05	r	LT	MJD	AB	apparent	true
-57769.98	20.05	0.02	i	LT	MJD	AB	apparent	true
-57770.91	20.33	0.04	r	LT	MJD	AB	apparent	true
-57770.91	20.11	0.02	i	LT	MJD	AB	apparent	true
-57772.04	21.98	0.01	B	VLT	MJD	AB	apparent	true
-57772.04	20.93	0.01	V	VLT	MJD	AB	apparent	true
-57772.04	20.25	0.01	R	VLT	MJD	AB	apparent	true
-57772.04	19.82	0.01	I	VLT	MJD	AB	apparent	true
-57772.91	20.50	0.042	r	LT	MJD	AB	apparent	true
-57772.91	20.22	0.02	i	LT	MJD	AB	apparent	true
-57778.88	20.52	0.07	r	LT	MJD	AB	apparent	true
-57778.88	20.27	0.03	i	LT	MJD	AB	apparent	true
-57779.22	22.17	0.02	B	VLT	MJD	AB	apparent	true
-57779.22	21.23	0.02	V	VLT	MJD	AB	apparent	true
-57779.22	20.56	0.01	R	VLT	MJD	AB	apparent	true
-57779.22	20.08	0.01	I	VLT	MJD	AB	apparent	true
-57779.92	20.73	0.03	r	LT	MJD	AB	apparent	true
-57779.92	20.45	0.03	i	LT	MJD	AB	apparent	true
-57836.04	22.64	0.03	B	VLT	MJD	AB	apparent	true
-57836.04	21.24	0.01	R	VLT	MJD	AB	apparent	true
-57744.08	19.83	0.01	B	VLT	MJD	AB	apparent	true
-57744.08	19.66	0.01	V	VLT	MJD	AB	apparent	true
-57744.08	19.39	0.01	R	VLT	MJD	AB	apparent	true
-57744.08	18.89	0.00	I	VLT	MJD	AB	apparent	true
-57746.08	20.04	0.01	B	VLT	MJD	AB	apparent	true
-57746.08	19.84	0.01	V	VLT	MJD	AB	apparent	true
-57746.08	19.74	0.01	R	VLT	MJD	AB	apparent	true
-57746.08	19.33	0.01	I	VLT	MJD	AB	apparent	true
-57748.12	20.24	0.01	B	VLT	MJD	AB	apparent	true
-57748.12	19.82	0.01	V	VLT	MJD	AB	apparent	true
-57748.12	19.73	0.01	R	VLT	MJD	AB	apparent	true
-57748.12	19.48	0.01	I	VLT	MJD	AB	apparent	true
-57749.03	20.21	0.03	B	TNG	MJD	AB	apparent	true
-57749.03	19.65	0.10	V	TNG	MJD	AB	apparent	true
-57749.03	19.53	0.02	R	TNG	MJD	AB	apparent	true
-57749.03	19.35	0.05	I	TNG	MJD	AB	apparent	true
-57749.99	20.18	0.13	B	LT	MJD	AB	apparent	true
-57749.99	19.8	0.2	V	LT	MJD	AB	apparent	true
-57749.99	19.81	0.05	g	LT	MJD	AB	apparent	true
-57749.99	19.63	0.07	r	LT	MJD	AB	apparent	true
-57749.99	19.80	0.03	i	LT	MJD	AB	apparent	true
-57750.00	19.8	0.2	V	LT	MJD	AB	apparent	true
-57750.00	19.80	0.05	g	LT	MJD	AB	apparent	true
-57750.00	19.63	0.07	r	LT	MJD	AB	apparent	true
-57750.00	19.80	0.03	i	LT	MJD	AB	apparent	true
-57751.09	20.46	0.01	B	VLT	MJD	AB	apparent	true
-57751.09	19.79	0.01	V	VLT	MJD	AB	apparent	true
-57751.09	19.64	0.01	R	VLT	MJD	AB	apparent	true
-57751.09	19.44	0.01	I	VLT	MJD	AB	apparent	true
-57751.98	19.63	0.05	V	LT	MJD	AB	apparent	true
-57751.98	19.92	0.05	g	LT	MJD	AB	apparent	true
-57751.98	19.54	0.09	r	LT	MJD	AB	apparent	true
-57751.98	19.76	0.08	i	LT	MJD	AB	apparent	true
-57751.99	19.63	0.05	V	LT	MJD	AB	apparent	true
-57751.99	19.92	0.05	g	LT	MJD	AB	apparent	true
-57751.99	19.54	0.09	r	LT	MJD	AB	apparent	true
-57751.99	19.75	0.08	i	LT	MJD	AB	apparent	true
-57753.99	20.52	0.21	B	TNG	MJD	AB	apparent	true
-57753.99	19.77	0.06	V	TNG	MJD	AB	apparent	true
-57753.99	19.43	0.06	R	TNG	MJD	AB	apparent	true
-57753.99	19.35	0.12	I	TNG	MJD	AB	apparent	true
-57754.28	20.57	0.01	B	VLT	MJD	AB	apparent	true
-57754.28	19.82	0.01	V	VLT	MJD	AB	apparent	true
-57754.28	19.53	0.01	R	VLT	MJD	AB	apparent	true
-57754.28	19.40	0.01	I	VLT	MJD	AB	apparent	true
-57756.36	20.87	0.01	B	Keck	MJD	AB	apparent	true
-57756.36	20.17	0.03	V	Keck	MJD	AB	apparent	true
-57756.36	19.64	0.03	R	Keck	MJD	AB	apparent	true
-57756.36	19.44	0.04	I	Keck	MJD	AB	apparent	true
-57757.00	20.60	0.09	B	LT	MJD	AB	apparent	true
-57757.00	20.2	0.1	V	LT	MJD	AB	apparent	true
-57757.00	20.28	0.03	g	LT	MJD	AB	apparent	true
-57757.00	19.64	0.03	r	LT	MJD	AB	apparent	true
-57757.00	19.76	0.02	i	LT	MJD	AB	apparent	true
-57757.01	20.60	0.09	B	LT	MJD	AB	apparent	true
-57757.01	20.2	0.1	V	LT	MJD	AB	apparent	true
-57757.01	20.28	0.03	g	LT	MJD	AB	apparent	true
-57757.01	19.64	0.03	r	LT	MJD	AB	apparent	true
-57757.01	19.76	0.02	i	LT	MJD	AB	apparent	true
-57757.98	20.90	0.06	B	LT	MJD	AB	apparent	true
-57757.98	20.03	0.03	V	LT	MJD	AB	apparent	true
-57757.98	20.39	0.04	g	LT	MJD	AB	apparent	true
-57757.98	19.77	0.07	r	LT	MJD	AB	apparent	true
-57757.98	19.76	0.05	i	LT	MJD	AB	apparent	true
-57757.98	20.90	0.06	B	LT	MJD	AB	apparent	true
-57757.98	20.03	0.03	V	LT	MJD	AB	apparent	true
-57757.98	20.38	0.04	g	LT	MJD	AB	apparent	true
-57757.98	19.75	0.08	r	LT	MJD	AB	apparent	true
-57757.98	19.75	0.05	i	LT	MJD	AB	apparent	true
-57758.04	20.92	0.02	B	VLT	MJD	AB	apparent	true
-57758.04	19.96	0.01	V	VLT	MJD	AB	apparent	true
-57758.04	19.58	0.01	R	VLT	MJD	AB	apparent	true
-57758.04	19.41	0.01	I	VLT	MJD	AB	apparent	true
-57758.96	20.44	0.08	g	LT	MJD	AB	apparent	true
-57758.96	19.669	0.08	r	LT	MJD	AB	apparent	true
-57758.96	19.59	0.06	i	LT	MJD	AB	apparent	true
-57760.06	21.18	0.02	B	VLT	MJD	AB	apparent	true
-57760.06	20.12	0.01	V	VLT	MJD	AB	apparent	true
-57760.06	19.66	0.01	R	VLT	MJD	AB	apparent	true
-57760.06	19.47	0.01	I	VLT	MJD	AB	apparent	true
-57763.26	21.58	0.06	B	VLT	MJD	AB	apparent	true
-57763.26	20.33	0.02	V	VLT	MJD	AB	apparent	true
-57763.26	19.73	0.01	R	VLT	MJD	AB	apparent	true
-57763.26	19.47	0.01	I	VLT	MJD	AB	apparent	true
-57767.17	20.51	0.03	V	VLT	MJD	AB	apparent	true
-57767.17	19.97	0.02	R	VLT	MJD	AB	apparent	true
-57767.17	19.61	0.02	I	VLT	MJD	AB	apparent	true
-57769.98	20.35	0.05	r	LT	MJD	AB	apparent	true
-57769.98	20.05	0.02	i	LT	MJD	AB	apparent	true
-57770.91	20.33	0.04	r	LT	MJD	AB	apparent	true
-57770.91	20.11	0.02	i	LT	MJD	AB	apparent	true
-57772.04	21.98	0.01	B	VLT	MJD	AB	apparent	true
-57772.04	220.93	0.01	V	VLT	MJD	AB	apparent	true
-57772.04	220.25	0.01	R	VLT	MJD	AB	apparent	true
-57772.04	219.82	0.01	I	VLT	MJD	AB	apparent	true
-57772.91	20.50	0.042	r	LT	MJD	AB	apparent	true
-57772.91	20.22	0.02	i	LT	MJD	AB	apparent	true
-57778.88	20.52	0.07	r	LT	MJD	AB	apparent	true
-57778.88	0.27	0.03	i	LT	MJD	AB	apparent	true
-57779.22	22.17	0.02	B	VLT	MJD	AB	apparent	true
-57779.22	21.23	0.02	V	VLT	MJD	AB	apparent	true
-57779.22	20.56	0.01	R	VLT	MJD	AB	apparent	true
-57779.22	20.08	0.01	I	VLT	MJD	AB	apparent	true
-57779.92	20.73	0.03	r	LT	MJD	AB	apparent	true
-57779.92	20.45	0.03	i	LT	MJD	AB	apparent	true
-57836.04	22.64	0.03	B	VLT	MJD	AB	apparent	true
-57836.04	21.24	0.01	R	VLT	MJD	AB	apparent	true
+date	mag	mag_limit	dmag	band	instrument	date_unit	mag_unit	mag_type	extinction_corrected	time	time_unit	time_frame	dtime
+57744.08	19.83	0	0.01	B	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	19.66	0	0.01	V	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	19.39	0	0.01	R	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	18.89	0	0.0	I	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57746.08	20.04	0	0.01	B	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.84	0	0.01	V	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.74	0	0.01	R	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.33	0	0.01	I	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57748.12	20.24	0	0.01	B	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.82	0	0.01	V	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.73	0	0.01	R	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.48	0	0.01	I	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57749.03	20.21	0	0.03	B	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.65	0	0.1	V	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.53	0	0.02	R	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.35	0	0.05	I	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.99	20.18	0	0.13	B	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.8	0	0.2	V	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.81	0	0.05	g	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.63	0	0.07	r	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.8	0	0.03	I	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57750.0	19.8	0	0.2	V	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.8	0	0.05	g	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.63	0	0.07	r	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.8	0	0.03	I	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57751.09	20.46	0	0.01	B	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.79	0	0.01	V	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.64	0	0.01	R	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.44	0	0.01	I	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.98	19.63	0	0.05	V	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.92	0	0.05	g	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.54	0	0.09	r	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.76	0	0.08	i	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.99	19.63	0	0.05	V	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.92	0	0.05	g	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.54	0	0.09	r	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.76	0	0.08	i	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57753.99	20.52	0	0.21	B	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57753.99	19.77	0	0.06	V	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57753.99	19.43	0	0.06	R	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57753.99	19.35	0	0.12	I	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57754.28	20.57	0	0.01	B	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.82	0	0.01	V	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.53	0	0.01	R	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.4	0	0.01	I	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57756.36	20.87	0	0.01	B	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	20.17	0	0.03	V	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	19.64	0	0.03	R	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	19.44	0	0.04	I	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57757.0	20.6	0	0.09	B	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	20.2	0	0.1	V	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	20.28	0	0.03	g	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	19.64	0	0.03	r	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	19.76	0	0.02	i	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.01	20.6	0	0.09	B	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	20.2	0	0.1	V	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	20.28	0	0.03	g	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	19.64	0	0.03	r	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	19.76	0	0.02	i	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.98	20.9	0	0.06	B	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.03	0	0.03	V	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.39	0	0.04	g	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.77	0	0.07	r	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.76	0	0.05	i	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.9	0	0.06	B	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.03	0	0.03	V	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.38	0	0.04	g	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.75	0	0.08	r	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.75	0	0.05	i	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57758.04	20.92	0	0.02	B	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.96	0	0.01	V	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.58	0	0.01	R	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.41	0	0.01	I	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.96	20.44	0	0.08	g	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57758.96	19.669	0	0.08	r	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57758.96	19.59	0	0.06	i	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57760.06	21.18	0	0.02	B	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	20.12	0	0.01	V	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	19.66	0	0.01	R	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	19.47	0	0.01	I	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57763.26	21.58	0	0.06	B	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	20.33	0	0.02	V	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	19.73	0	0.01	R	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	19.47	0	0.01	I	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57767.17	20.51	0	0.03	V	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57767.17	19.97	0	0.02	R	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57767.17	19.61	0	0.02	I	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57769.98	20.35	0	0.05	r	LT	MJD	AB	apparent	True	28.19622685185185	days	observer	NaN
+57769.98	20.05	0	0.02	i	LT	MJD	AB	apparent	True	28.19622685185185	days	observer	NaN
+57770.91	20.33	0	0.04	r	LT	MJD	AB	apparent	True	29.12622685185185	days	observer	NaN
+57770.91	20.11	0	0.02	i	LT	MJD	AB	apparent	True	29.12622685185185	days	observer	NaN
+57772.04	21.98	0	0.01	B	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	20.93	0	0.01	V	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	20.25	0	0.01	R	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	19.82	0	0.01	I	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.91	20.5	0	0.042	r	LT	MJD	AB	apparent	True	31.12622685185185	days	observer	NaN
+57772.91	20.22	0	0.02	i	LT	MJD	AB	apparent	True	31.12622685185185	days	observer	NaN
+57778.88	20.52	0	0.07	r	LT	MJD	AB	apparent	True	37.09622685185185	days	observer	NaN
+57778.88	20.27	0	0.03	i	LT	MJD	AB	apparent	True	37.09622685185185	days	observer	NaN
+57779.22	22.17	0	0.02	B	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	21.23	0	0.02	V	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	20.56	0	0.01	R	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	20.08	0	0.01	I	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.92	20.73	0	0.03	r	LT	MJD	AB	apparent	True	38.13622685185185	days	observer	NaN
+57779.92	20.45	0	0.03	i	LT	MJD	AB	apparent	True	38.13622685185185	days	observer	NaN
+57836.04	22.64	0	0.03	B	VLT	MJD	AB	apparent	True	94.25622685185184	days	observer	NaN
+57836.04	21.24	0	0.01	R	VLT	MJD	AB	apparent	True	94.25622685185184	days	observer	NaN
+57744.08	19.83	0	0.01	B	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	19.66	0	0.01	V	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	19.39	0	0.01	R	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	18.89	0	0.0	I	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57746.08	20.04	0	0.01	B	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.84	0	0.01	V	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.74	0	0.01	R	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.33	0	0.01	I	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57748.12	20.24	0	0.01	B	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.82	0	0.01	V	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.73	0	0.01	R	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.48	0	0.01	I	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57749.03	20.21	0	0.03	B	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.65	0	0.1	V	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.53	0	0.02	R	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.35	0	0.05	I	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.99	20.18	0	0.13	B	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.8	0	0.2	V	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.81	0	0.05	g	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.63	0	0.07	r	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.8	0	0.03	i	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57750.0	19.8	0	0.2	V	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.8	0	0.05	g	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.63	0	0.07	r	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.8	0	0.03	i	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57751.09	20.46	0	0.01	B	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.79	0	0.01	V	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.64	0	0.01	R	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.44	0	0.01	I	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.98	19.63	0	0.05	V	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.92	0	0.05	g	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.54	0	0.09	r	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.76	0	0.08	i	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.99	19.63	0	0.05	V	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.92	0	0.05	g	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.54	0	0.09	r	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.75	0	0.08	i	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57753.99	20.52	0	0.21	B	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57753.99	19.77	0	0.06	V	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57753.99	19.43	0	0.06	R	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57753.99	19.35	0	0.12	I	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57754.28	20.57	0	0.01	B	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.82	0	0.01	V	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.53	0	0.01	R	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.4	0	0.01	I	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57756.36	20.87	0	0.01	B	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	20.17	0	0.03	V	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	19.64	0	0.03	R	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	19.44	0	0.04	I	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57757.0	20.6	0	0.09	B	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	20.2	0	0.1	V	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	20.28	0	0.03	g	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	19.64	0	0.03	r	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	19.76	0	0.02	i	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.01	20.6	0	0.09	B	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	20.2	0	0.1	V	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	20.28	0	0.03	g	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	19.64	0	0.03	r	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	19.76	0	0.02	i	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.98	20.9	0	0.06	B	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.03	0	0.03	V	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.39	0	0.04	g	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.77	0	0.07	r	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.76	0	0.05	i	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.9	0	0.06	B	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.03	0	0.03	V	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.38	0	0.04	g	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.75	0	0.08	r	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.75	0	0.05	i	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57758.04	20.92	0	0.02	B	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.96	0	0.01	V	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.58	0	0.01	R	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.41	0	0.01	I	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.96	20.44	0	0.08	g	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57758.96	19.669	0	0.08	r	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57758.96	19.59	0	0.06	i	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57760.06	21.18	0	0.02	B	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	20.12	0	0.01	V	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	19.66	0	0.01	R	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	19.47	0	0.01	I	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57763.26	21.58	0	0.06	B	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	20.33	0	0.02	V	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	19.73	0	0.01	R	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	19.47	0	0.01	I	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57767.17	20.51	0	0.03	V	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57767.17	19.97	0	0.02	R	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57767.17	19.61	0	0.02	I	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57769.98	20.35	0	0.05	r	LT	MJD	AB	apparent	True	28.19622685185185	days	observer	NaN
+57769.98	20.05	0	0.02	i	LT	MJD	AB	apparent	True	28.19622685185185	days	observer	NaN
+57770.91	20.33	0	0.04	r	LT	MJD	AB	apparent	True	29.12622685185185	days	observer	NaN
+57770.91	20.11	0	0.02	i	LT	MJD	AB	apparent	True	29.12622685185185	days	observer	NaN
+57772.04	21.98	0	0.01	B	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	20.93	0	0.01	V	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	20.25	0	0.01	R	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	19.82	0	0.01	I	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.91	20.5	0	0.042	r	LT	MJD	AB	apparent	True	31.12622685185185	days	observer	NaN
+57772.91	20.22	0	0.02	i	LT	MJD	AB	apparent	True	31.12622685185185	days	observer	NaN
+57778.88	20.52	0	0.07	r	LT	MJD	AB	apparent	True	37.09622685185185	days	observer	NaN
+57778.88	20.27	0	0.03	i	LT	MJD	AB	apparent	True	37.09622685185185	days	observer	NaN
+57779.22	22.17	0	0.02	B	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	21.23	0	0.02	V	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	20.56	0	0.01	R	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	20.08	0	0.01	I	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.92	20.73	0	0.03	r	LT	MJD	AB	apparent	True	38.13622685185185	days	observer	NaN
+57779.92	20.45	0	0.03	i	LT	MJD	AB	apparent	True	38.13622685185185	days	observer	NaN
+57836.04	22.64	0	0.03	B	VLT	MJD	AB	apparent	True	94.25622685185184	days	observer	NaN
+57836.04	21.24	0	0.01	R	VLT	MJD	AB	apparent	True	94.25622685185184	days	observer	NaN
+57744.08	19.83	0	0.01	B	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	19.66	0	0.01	V	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	19.39	0	0.01	R	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	18.89	0	0.0	I	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57746.08	20.04	0	0.01	B	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.84	0	0.01	V	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.74	0	0.01	R	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.33	0	0.01	I	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57748.12	20.24	0	0.01	B	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.82	0	0.01	V	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.73	0	0.01	R	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.48	0	0.01	I	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57749.03	20.21	0	0.03	B	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.65	0	0.1	V	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.53	0	0.02	R	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.35	0	0.05	I	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.99	20.18	0	0.13	B	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.8	0	0.2	V	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.81	0	0.05	g	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.63	0	0.07	r	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.8	0	0.03	i	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57750.0	19.8	0	0.2	V	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.8	0	0.05	g	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.63	0	0.07	r	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.8	0	0.03	i	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57751.09	20.46	0	0.01	B	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.79	0	0.01	V	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.64	0	0.01	R	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.44	0	0.01	I	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.98	19.63	0	0.05	V	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.92	0	0.05	g	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.54	0	0.09	r	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.76	0	0.08	i	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.99	19.63	0	0.05	V	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.92	0	0.05	g	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.54	0	0.09	r	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.75	0	0.08	i	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57753.99	20.52	0	0.21	B	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57751.99	19.77	0	0.06	V	TNG	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.43	0	0.06	R	TNG	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.35	0	0.12	I	TNG	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57754.28	20.57	0	0.01	B	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.82	0	0.01	V	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.53	0	0.01	R	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.4	0	0.01	I	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57756.36	20.87	0	0.01	B	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	20.17	0	0.03	V	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	19.64	0	0.03	R	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	19.44	0	0.04	I	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57757.0	20.6	0	0.09	B	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	20.2	0	0.1	V	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	20.28	0	0.03	g	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	19.64	0	0.03	r	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	19.76	0	0.02	i	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.01	20.6	0	0.09	B	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	20.2	0	0.1	V	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	20.28	0	0.03	g	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	19.64	0	0.03	r	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	19.76	0	0.02	i	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.98	20.9	0	0.06	B	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.03	0	0.03	V	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.39	0	0.04	g	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.77	0	0.07	r	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.76	0	0.05	i	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.9	0	0.06	B	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.03	0	0.03	V	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.38	0	0.04	g	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.75	0	0.08	r	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.75	0	0.05	i	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57758.04	20.92	0	0.02	B	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.96	0	0.01	V	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.58	0	0.01	R	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.41	0	0.01	I	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.96	20.44	0	0.08	g	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57758.96	19.669	0	0.08	r	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57758.96	19.59	0	0.06	i	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57760.06	21.18	0	0.02	B	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	20.12	0	0.01	V	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	19.66	0	0.01	R	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	19.47	0	0.01	I	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57763.26	21.58	0	0.06	B	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	20.33	0	0.02	V	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	19.73	0	0.01	R	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	19.47	0	0.01	I	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57767.17	20.51	0	0.03	V	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57767.17	19.97	0	0.02	R	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57767.17	19.61	0	0.02	I	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57769.98	20.35	0	0.05	r	LT	MJD	AB	apparent	True	28.19622685185185	days	observer	NaN
+57769.98	20.05	0	0.02	i	LT	MJD	AB	apparent	True	28.19622685185185	days	observer	NaN
+57770.91	20.33	0	0.04	r	LT	MJD	AB	apparent	True	29.12622685185185	days	observer	NaN
+57770.91	20.11	0	0.02	i	LT	MJD	AB	apparent	True	29.12622685185185	days	observer	NaN
+57772.04	21.98	0	0.01	B	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	20.93	0	0.01	V	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	20.25	0	0.01	R	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	19.82	0	0.01	I	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.91	20.5	0	0.042	r	LT	MJD	AB	apparent	True	31.12622685185185	days	observer	NaN
+57772.91	20.22	0	0.02	i	LT	MJD	AB	apparent	True	31.12622685185185	days	observer	NaN
+57778.88	20.52	0	0.07	r	LT	MJD	AB	apparent	True	37.09622685185185	days	observer	NaN
+57778.88	20.27	0	0.03	i	LT	MJD	AB	apparent	True	37.09622685185185	days	observer	NaN
+57779.22	22.17	0	0.02	B	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	21.23	0	0.02	V	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	20.56	0	0.01	R	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	20.08	0	0.01	I	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.92	20.73	0	0.03	r	LT	MJD	AB	apparent	True	38.13622685185185	days	observer	NaN
+57779.92	20.45	0	0.03	i	LT	MJD	AB	apparent	True	38.13622685185185	days	observer	NaN
+57836.04	22.64	0	0.03	B	VLT	MJD	AB	apparent	True	94.25622685185184	days	observer	NaN
+57836.04	21.24	0	0.01	R	VLT	MJD	AB	apparent	True	94.25622685185184	days	observer	NaN
+57744.08	19.83	0	0.01	B	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	19.66	0	0.01	V	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	19.39	0	0.01	R	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57744.08	18.89	0	0.0	I	VLT	MJD	AB	apparent	True	2.296215277777778	days	observer	NaN
+57746.08	20.04	0	0.01	B	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.84	0	0.01	V	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.74	0	0.01	R	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57746.08	19.33	0	0.01	I	VLT	MJD	AB	apparent	True	4.296215277777778	days	observer	NaN
+57748.12	20.24	0	0.01	B	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.82	0	0.01	V	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.73	0	0.01	R	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57748.12	19.48	0	0.01	I	VLT	MJD	AB	apparent	True	6.336215277777778	days	observer	NaN
+57749.03	20.21	0	0.03	B	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.65	0	0.1	V	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.53	0	0.02	R	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.03	19.35	0	0.05	I	TNG	MJD	AB	apparent	True	7.246215277777778	days	observer	NaN
+57749.99	20.18	0	0.13	B	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.8	0	0.2	V	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.81	0	0.05	g	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.63	0	0.07	r	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57749.99	19.8	0	0.03	i	LT	MJD	AB	apparent	True	8.206215277777778	days	observer	NaN
+57750.0	19.8	0	0.2	V	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.8	0	0.05	g	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.63	0	0.07	r	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57750.0	19.8	0	0.03	i	LT	MJD	AB	apparent	True	8.216215277777778	days	observer	NaN
+57751.09	20.46	0	0.01	B	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.79	0	0.01	V	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.64	0	0.01	R	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.09	19.44	0	0.01	I	VLT	MJD	AB	apparent	True	9.306215277777778	days	observer	NaN
+57751.98	19.63	0	0.05	V	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.92	0	0.05	g	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.54	0	0.09	r	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.98	19.76	0	0.08	i	LT	MJD	AB	apparent	True	10.196215277777778	days	observer	NaN
+57751.99	19.63	0	0.05	V	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.92	0	0.05	g	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.54	0	0.09	r	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57751.99	19.75	0	0.08	i	LT	MJD	AB	apparent	True	10.206215277777778	days	observer	NaN
+57753.99	20.52	0	0.21	B	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57753.99	19.77	0	0.06	V	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57753.99	19.43	0	0.06	R	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57753.99	19.35	0	0.12	I	TNG	MJD	AB	apparent	True	12.20622673611111	days	observer	NaN
+57754.28	20.57	0	0.01	B	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.82	0	0.01	V	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.53	0	0.01	R	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57754.28	19.4	0	0.01	I	VLT	MJD	AB	apparent	True	12.496226851851851	days	observer	NaN
+57756.36	20.87	0	0.01	B	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	20.17	0	0.03	V	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	19.64	0	0.03	R	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57756.36	19.44	0	0.04	I	Keck	MJD	AB	apparent	True	14.576226851851851	days	observer	NaN
+57757.0	20.6	0	0.09	B	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	20.2	0	0.1	V	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	20.28	0	0.03	g	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	19.64	0	0.03	r	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.0	19.76	0	0.02	i	LT	MJD	AB	apparent	True	15.216226851851852	days	observer	NaN
+57757.01	20.6	0	0.09	B	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	20.2	0	0.1	V	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	20.28	0	0.03	g	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	19.64	0	0.03	r	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.01	19.76	0	0.02	i	LT	MJD	AB	apparent	True	15.226226851851852	days	observer	NaN
+57757.98	20.9	0	0.06	B	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.03	0	0.03	V	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.39	0	0.04	g	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.77	0	0.07	r	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.76	0	0.05	i	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.9	0	0.06	B	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.03	0	0.03	V	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	20.38	0	0.04	g	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.75	0	0.08	r	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57757.98	19.75	0	0.05	i	LT	MJD	AB	apparent	True	16.19622685185185	days	observer	NaN
+57758.04	20.92	0	0.02	B	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.96	0	0.01	V	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.58	0	0.01	R	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.04	19.41	0	0.01	I	VLT	MJD	AB	apparent	True	16.256226851851853	days	observer	NaN
+57758.96	20.44	0	0.08	g	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57758.96	19.669	0	0.08	r	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57758.96	19.59	0	0.06	i	LT	MJD	AB	apparent	True	17.17622685185185	days	observer	NaN
+57760.06	21.18	0	0.02	B	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	20.12	0	0.01	V	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	19.66	0	0.01	R	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57760.06	19.47	0	0.01	I	VLT	MJD	AB	apparent	True	18.27622685185185	days	observer	NaN
+57763.26	21.58	0	0.06	B	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	20.33	0	0.02	V	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	19.73	0	0.01	R	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57763.26	19.47	0	0.01	I	VLT	MJD	AB	apparent	True	21.47622685185185	days	observer	NaN
+57767.17	20.51	0	0.03	V	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57767.17	19.97	0	0.02	R	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57767.17	19.61	0	0.02	I	VLT	MJD	AB	apparent	True	25.38622685185185	days	observer	NaN
+57769.98	20.35	0	0.05	r	LT	MJD	AB	apparent	True	28.19622685185185	days	observer	NaN
+57769.98	20.05	0	0.02	i	LT	MJD	AB	apparent	True	28.19622685185185	days	observer	NaN
+57770.91	20.33	0	0.04	r	LT	MJD	AB	apparent	True	29.12622685185185	days	observer	NaN
+57770.91	20.11	0	0.02	i	LT	MJD	AB	apparent	True	29.12622685185185	days	observer	NaN
+57772.04	21.98	0	0.01	B	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	20.93	0	0.01	V	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	20.25	0	0.01	R	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.04	19.82	0	0.01	I	VLT	MJD	AB	apparent	True	30.256226851851853	days	observer	NaN
+57772.91	20.5	0	0.042	r	LT	MJD	AB	apparent	True	31.12622685185185	days	observer	NaN
+57772.91	20.22	0	0.02	i	LT	MJD	AB	apparent	True	31.12622685185185	days	observer	NaN
+57778.88	20.52	0	0.07	r	LT	MJD	AB	apparent	True	37.09622685185185	days	observer	NaN
+57778.88	20.27	0	0.03	i	LT	MJD	AB	apparent	True	37.09622685185185	days	observer	NaN
+57779.22	22.17	0	0.02	B	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	21.23	0	0.02	V	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	20.56	0	0.01	R	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.22	20.08	0	0.01	I	VLT	MJD	AB	apparent	True	37.43622685185185	days	observer	NaN
+57779.92	20.73	0	0.03	r	LT	MJD	AB	apparent	True	38.13622685185185	days	observer	NaN
+57779.92	20.45	0	0.03	i	LT	MJD	AB	apparent	True	38.13622685185185	days	observer	NaN
+57836.04	22.64	0	0.03	B	VLT	MJD	AB	apparent	True	94.25622685185184	days	observer	NaN
+57836.04	21.24	0	0.01	R	VLT	MJD	AB	apparent	True	94.25622685185184	days	observer	NaN

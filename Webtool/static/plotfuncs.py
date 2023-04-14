@@ -14,10 +14,8 @@ def milli_micro_convert(quantity, unit):
     '''Convert from milli and micro to full unit. Eg milliJy to Jy.'''
     new_quantity = quantity
     if 'milli' in unit:
-        print('Doing')
         new_quantity = quantity/1e3
     elif 'micro' in unit:
-        print('Doing')
         new_quantity = quantity/1e6
     return new_quantity
 
