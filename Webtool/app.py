@@ -25,9 +25,6 @@ from flask import Flask, current_app, render_template, redirect, url_for, flash,
 # Errors for pages that dont exist
 from werkzeug.exceptions import abort
 
-# Dealing with the flask login
-from flask_login import LoginManager
-
 # Search bars
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
@@ -292,16 +289,6 @@ def grb_names():
     conn.close()
 
     return {'grbs': grbs[::-1], 'number1': length}
-
-
-# Login to the website (to be used only prior to publication)
-login_manager = LoginManager()  # The login manager class created
-login_manager.init_app(app)
-
-
-@login_manager.user_loader
-def load_user(user_id):
-    return User.get(user_id)
 
 
 @app.errorhandler(404)
