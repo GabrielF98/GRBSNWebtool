@@ -1,3 +1,9 @@
+Event Name: GRB130215A-SN2013ez
+=========================================================
+Filename: GRB130215A-SN2013ez_Optical.txt
+Source: https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
+Data-type: Early, Late, Optical
+---------------------------------------------------------
 J/A+A/568/A19       Photometry of 3 {gamma}-ray burst supernovae (Cano+, 2014)
 ================================================================================
 A trio of gamma-ray burst supernovae:
