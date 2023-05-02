@@ -1040,7 +1040,7 @@ def event(event_id):
     optical.yaxis.axis_line_color = 'black'
 
     # Allow user to mute spectra by clicking the legend
-    #optical.legend.click_policy = "mute"
+    # optical.legend.click_policy = "mute"
 
     # Make ticks larger
     optical.xaxis.major_label_text_font_size = '16pt'
@@ -1208,7 +1208,7 @@ def event(event_id):
     radio.yaxis.minor_tick_line_color = 'black'
 
     # Allow user to mute spectra by clicking the legend
-    #radio.legend.click_policy = "mute"
+    # radio.legend.click_policy = "mute"
 
     # Axis labels
     radio.xaxis.axis_label = 'Time [days] after '+grb_time_str
@@ -1600,8 +1600,8 @@ def get_table(event_id):
         # The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
         # Set the index of the df to be based on SN name
         downloadabledf = df.loc[df['SNe'] == sn_name]
-        downloadabledf2 = df2.loc[df2['grb_id'] == grb_name]
-        downloadabledf3 = df3.loc[df3['grb_id'] == grb_name]
+        downloadabledf2 = df2.loc[df2['sn_name'] == sn_name]
+        downloadabledf3 = df3.loc[df3['sn_name'] == sn_name]
 
     # Write to an input output object
     # Main data
