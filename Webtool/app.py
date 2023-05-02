@@ -2165,7 +2165,7 @@ def get_advsearch_table(query, varlist):
 
     zipf.seek(0)
 
-    return send_file(zipf, mimetype='zip', attachment_filename='GRBSNData.zip', as_attachment=True)
+    return send_file(zipf, mimetype='zip', download_name='GRBSNData.zip', as_attachment=True)
 
 
 @app.route('/megadownload/<directory_list>', methods=['GET', 'POST'])
@@ -2181,7 +2181,7 @@ def get_observations(directory_list):
                 zipf.write(current_app.root_path+'/static/SourceData/' +
                            folder+'/'+file, folder+'/'+file)
     filestream.seek(0)
-    return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
+    return send_file(filestream, download_name='Observations.zip', as_attachment=True)
 
 
 # Run app
