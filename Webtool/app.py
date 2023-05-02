@@ -1,34 +1,43 @@
 # Imports
-import sqlite3  # Database access
-import requests  # API Access to ADS
 import ast  # Convert strings to lists
 import glob  # Find the txt files with the right names
-import numpy as np
-import json  # Reading in data
-import pandas as pd  # Pandas
-import os  # Import os to find files in the event folders
-from os.path import exists  # Check if a file exists
-import zipfile  # Creating zipfiles for download
-from astropy.time import Time  # Converting MJD to UTC
 import io  # Downloadable zipfiles and for updateable plots
+import json  # Reading in data
+import os  # Import os to find files in the event folders
+import sqlite3  # Database access
+import zipfile  # Creating zipfiles for download
+from os.path import exists  # Check if a file exists
+
+import numpy as np
+import pandas as pd  # Pandas
+from astropy.time import Time  # Converting MJD to UTC
+from bokeh.embed import components
+from bokeh.layouts import layout
+# Pieces for Bokeh
+from bokeh.models import ColumnDataSource, HoverTool, Label, Range1d
+from bokeh.palettes import Category20_20, d3, viridis
+from bokeh.plotting import figure
+from bokeh.transform import factor_cmap, factor_mark
+# Basic flask stuff
+from flask import (Flask, Response, abort, current_app, flash, make_response,
+                   redirect, render_template, request, send_file, url_for)
+# Search bars
+from flask_wtf import FlaskForm
+# Matplotlib
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+from matplotlib.figure import Figure
 from scipy.interpolate import interp1d
+# Errors for pages that dont exist
+from werkzeug.exceptions import abort
+# Forms
+from wtforms import StringField, SubmitField
+from wtforms.validators import Optional
 
 #################################
 #################################
 # Flask app stuff ###############
 #################################
 #################################
-
-# Basic flask stuff
-from flask import Flask, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
-
-# Errors for pages that dont exist
-from werkzeug.exceptions import abort
-
-# Search bars
-from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField
-from wtforms.validators import Optional
 
 
 #################################
@@ -37,18 +46,6 @@ from wtforms.validators import Optional
 #################################
 #################################
 
-# Pieces for Bokeh
-from bokeh.models import ColumnDataSource, HoverTool, Range1d, Label
-from bokeh.embed import components
-from bokeh.layouts import layout
-from bokeh.plotting import figure
-from bokeh.palettes import viridis, Category20_20, d3
-from bokeh.transform import factor_mark, factor_cmap
-
-
-# Matplotlib
-from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-from matplotlib.figure import Figure
 
 # Create config.py file
 with open('instance/config.py', 'w') as f:
