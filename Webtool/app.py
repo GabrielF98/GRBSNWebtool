@@ -1513,7 +1513,7 @@ def get_files2(directory):
             zipf.write(current_app.root_path+'/static/SourceData/' +
                        directory+'/'+file, directory+'/'+file)
     filestream.seek(0)
-    return send_file(filestream, download_name=directory+'.zip', as_attachment=True)
+    return send_file(filestream, attachment_filename=directory+'.zip', as_attachment=True)
 
 
 @app.route('/docs')
@@ -1569,7 +1569,7 @@ def get_master_table():
 
     zipf.seek(0)
 
-    return send_file(zipf, mimetype='zip', download_nameNData.zip', as_attachment=True)
+    return send_file(zipf, mimetype='zip', attachment_filename='GRBSNData.zip', as_attachment=True)
 
 # The downloadable df data
 
@@ -1630,7 +1630,7 @@ def get_table(event_id):
 
     zipf.seek(0)
 
-    return send_file(zipf, mimetype='zip', download_name=event_id+'_dbdata.zip', as_attachment=True)
+    return send_file(zipf, mimetype='zip', attachment_filename=event_id+'_dbdata.zip', as_attachment=True)
 
 # User modifiable graphs
 
