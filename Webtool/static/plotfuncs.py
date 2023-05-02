@@ -2,12 +2,13 @@
 This file converts any text file in the webtool SourceData folder into a standard format.
 '''
 
-import sqlite3
 import glob
 import os
+import sqlite3
+
 import numpy as np
-from astropy.time import Time
 import pandas as pd
+from astropy.time import Time
 
 
 def milli_micro_convert(quantity, unit):
