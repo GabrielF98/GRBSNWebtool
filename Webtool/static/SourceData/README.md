@@ -161,8 +161,12 @@ Time should always appear in all files. Sometimes the date will also appear.
 * `dflux_density` Error on the flux density. 
 
 * `flux_density_unit` The unit for the flux density of the source. The options are:
+   * `Jy` Jansky.
    * `milliJy` milli Jansky. 
    * `microJy` micro Jansky. 
+   * `Jy beam^-1` Jansky per beam.
+   * `milliJy beam^-1' milli Jansky per beam.
+   * `microJy beam^-1' micro Jansky per beam.
 
 * `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.  
 
