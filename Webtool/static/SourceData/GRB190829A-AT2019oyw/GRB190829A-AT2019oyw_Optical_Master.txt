@@ -76,7 +76,7 @@ NaN	0.05728703703703704	NaN	uvw2	19.19	0	0.28	NaN	days	observer	NaN	unspecified	
 NaN	0.07390740740740741	NaN	uvw2	19.11	0	0.28	NaN	days	observer	NaN	unspecified	apparent	False	UVOT	99.90000000000008	https://ui.adsabs.harvard.edu/abs/2020ApJ...898...42C/abstract	0.017	0.004	milliJy
 NaN	0.13744270833333333	NaN	uvw2	20.01	0	0.33	NaN	days	observer	NaN	unspecified	apparent	False	UVOT	237.75	https://ui.adsabs.harvard.edu/abs/2020ApJ...898...42C/abstract	0.007	0.002	milliJy
 NaN	0.33745254629629634	NaN	uvw2	19.71	0	0.29	NaN	days	observer	NaN	unspecified	apparent	False	UVOT	1233.300000000001	https://ui.adsabs.harvard.edu/abs/2020ApJ...898...42C/abstract	0.010	0.003	milliJy
-NaN	0.4264276620370371	NaN	uvw2	20.14	0	0.26	NaN	days	observer	NaN	unspecified	apparent	False	UVOT	3169.5499999999997	https://ui.adsabs.harvard.edu/abs/2020ApJ...898...42C/abstract	0.007	0.002	milliJy
+NaN	0.4264276620370371	NaN	uvw2	20.14	0	0.26	NaN	days	observer	NaN	unspecified	apparent	False	UVOT	3169.55	https://ui.adsabs.harvard.edu/abs/2020ApJ...898...42C/abstract	0.007	0.002	milliJy
 NaN	1.9705457175925924	NaN	uvw2	20.62	1	NaN	NaN	days	observer	NaN	unspecified	apparent	False	UVOT	3566.75	https://ui.adsabs.harvard.edu/abs/2020ApJ...898...42C/abstract	>0.004	NaN	milliJy
 NaN	0.062027777777777786	NaN	uvm2	19.33	1	NaN	NaN	days	observer	NaN	unspecified	apparent	False	UVOT	99.90000000000008	https://ui.adsabs.harvard.edu/abs/2020ApJ...898...42C/abstract	>0.014	NaN	milliJy
 NaN	0.07864988425925927	NaN	uvm2	19.22	1	NaN	NaN	days	observer	NaN	unspecified	apparent	False	UVOT	99.84999999999992	https://ui.adsabs.harvard.edu/abs/2020ApJ...898...42C/abstract	>0.016	NaN	milliJy
