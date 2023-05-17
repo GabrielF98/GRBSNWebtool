@@ -1417,11 +1417,20 @@ def event(event_id):
 
         # Plot
         for i in range(len(epochs)):
-            # Perform scaling of the spectrum
+
+            # Scale the flux using the 5000A flux
             scaled_spectrum = spectra_df.loc[spectra_df['time'] == float(
                 epochs[i])]
-            scaled_spectrum['scaled_flux'] = scaled_spectrum['flux']/(interp1d(
-                scaled_spectrum['rest_wavelength'], scaled_spectrum['flux']))(np.array([5000]))
+            if np.array(scaled_spectrum['flux'])[-1] < 5000:
+                scaled_spectrum['scaled_flux'] = np.array(scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[0]
+            elif np.array(scaled_spectrum['flux'])[0] > 5000:
+                scaled_spectrum['scaled_flux'] = np.array(scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[-1]
+            else:
+                scaled_spectrum['scaled_flux'] = scaled_spectrum['flux']/(interp1d(
+            scaled_spectrum['rest_wavelength'], scaled_spectrum['flux']))(np.array([5000]))
+            # Perform scaling of the spectrum
+            
+            
 
             # Create a CDS
             spectra_cds = ColumnDataSource(scaled_spectrum)
