@@ -1,6 +1,6 @@
 **/.DS_Store
 __pycache__
 Webtool/instance/
-Webtool/env/
+**/env/
 .ipynb_checkpoints
 Paper/
