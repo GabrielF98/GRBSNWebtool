@@ -1,254 +1,254 @@
-time	integration	band	mag	mag_limit	dmag	time_unit	integration_unit	mag_unnit	mag_type	extinction_corrected	dtime	time_frame	reference	Instrument	mag_unit	telescope	Unnamed: 11	teslescope
-1.075	1.55	g'	19.69	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.075	1.55	r'	19.5	0	0.05	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.075	1.55	i'	19.37	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.075	1.55	z'	19.17	0	0.01	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.26	0.69	g'	19.94	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.26	0.69	r'	19.77	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.26	0.69	i'	19.69	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.26	0.69	z'	19.46	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.079	1.7	g'	20.81	0	0.04	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.079	1.7	r'	20.58	0	0.04	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.079	1.7	i'	20.47	0	0.01	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.079	1.7	z'	20.38	0	0.02	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.198	1.71	g'	20.88	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.198	1.71	r'	20.65	0	0.04	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.198	1.71	i'	20.53	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.198	1.71	z'	20.41	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-3.207	1.71	g'	21.64	0	0.07	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-3.207	1.71	r'	21.32	0	0.04	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-3.207	1.71	i'	21.26	0	0.05	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-3.207	1.71	z'	21.13	0	0.05	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-4.212	1.7	g'	22.1	0	0.09	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-4.212	1.7	r'	21.87	0	0.06	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-4.212	1.7	i'	21.85	0	0.01	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-4.212	1.7	z'	21.6	0	0.07	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-6.175	1.71	g'	22.68	0	0.13	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-6.175	1.71	r'	22.4	0	0.1	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-6.175	1.71	i'	22.51	0	0.14	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-6.175	1.71	z'	22.22	0	0.1	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-11.1	1.71	g'	23.76	0	0.12	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-11.1	1.71	r'	22.76	0	0.06	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-11.1	1.71	i'	22.5	0	0.1	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-11.1	1.71	z'	22.86	0	0.13	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-23.17	0.34	g'	22.87	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-23.17	0.34	r'	22.85	0	0.23	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-23.17	0.34	i'	22.05	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-23.17	0.34	z'	22.15	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-46.13	3.92	g'	24.43	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-46.13	3.92	r'	24.08	0	0.13	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-46.13	3.92	i'	23.58	0	0.27	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-46.13	3.92	z'	23.2	0	0.22	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-49.12	1.7	g'	24.69	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-49.12	1.7	r'	24.49	0	0.32	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-49.12	1.7	i'	23.41	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-49.12	1.7	z'	23.28	0	0.26	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-54.09	1.9	g'	21.26	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-54.09	1.9	r'	23.88	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-54.09	1.9	i'	18.86	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-54.09	1.9	z'	22.51	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.07	0.75	J	19.04	0	0.08	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.07	0.75	H	18.81	0	0.09	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.08	0.73	J	19.09	0	0.08	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.08	0.73	H	18.88	0	0.09	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.243	1.75	J	19.23	0	0.06	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-1.243	1.75	H	18.99	0	0.07	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.08	1.75	J	20.09	0	0.09	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.08	1.75	H	19.86	0	0.1	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.198	1.77	J	20.09	0	0.07	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-2.198	1.77	H	19.9	0	0.12	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-3.207	1.76	J	20.54	0	0.32	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-3.207	1.76	H	20.52	0	0.22	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-4.212	1.75	J	20.88	0	0.18	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-4.212	1.75	H	20.99	0	0.28	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-6.175	1.75	J	21.53	0	0.31	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-6.175	1.75	H	21.26	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-11.1	1.75	J	21.63	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-11.1	1.75	H	21.16	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-46.13	3.97	J	21.74	0	0.27	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-46.13	3.97	H	21.35	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-49.12	1.75	J	21.69	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-49.12	1.75	H	21.19	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-54.09	1.75	J	21.37	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-54.09	1.75	H	20.0	0	0.0	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN	NaN
-146.0	10	r'	15.41	0	0.02	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-168.2	10	r'	15.45	0	0.02	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-191.0	10	r'	15.58	0	0.02	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-422.0	10	r'	15.95	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-444.8	10	r'	16.02	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-468.8	10	r'	16.0	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-760.2	120	r'	16.16	0	0.01	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-1413.0	120	r'	16.32	0	0.01	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-1546.2	120	r'	16.34	0	0.01	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-2662.8	120	r'	16.52	0	0.01	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-2794.8	120	r'	16.53	0	0.02	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-2926.8	120	r'	16.55	0	0.02	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-4878.2	10	r'	16.74	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-4899.8	10	r'	16.71	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-4922.0	10	r'	16.72	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-5157.8	10	r'	16.76	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-5180.0	10	r'	16.82	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-5204.0	10	r'	16.77	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-5494.8	120	r'	16.83	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-6139.2	120	r'	16.88	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-6271.8	120	r'	16.91	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-7390.2	120	r'	17.0	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-7521.0	120	r'	16.99	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-7654.2	120	r'	16.99	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-77200.2	300	r'	19.25	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-77512.2	300	r'	19.27	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-77824.2	300	r'	19.29	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-78138.0	300	r'	19.3	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-78448.8	300	r'	19.27	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-78760.8	300	r'	19.34	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-88690.2	300	r'	19.5	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-89002.2	300	r'	19.44	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-89314.2	300	r'	19.45	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-89628.0	300	r'	19.53	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-162917.0	1800	r'	20.44	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-509520.0	1800	r'	20.8	0	0´	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-979.8	120	i'	16.17	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-1831.2	120	i'	16.35	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-1963.8	120	i'	16.37	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-3277.2	120	i'	16.54	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-3409.2	120	i'	16.54	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-3541.2	120	i'	16.57	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-5707.8	120	i'	16.78	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-6553.8	120	i'	16.85	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-6685.8	120	i'	16.86	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-8004.0	120	i'	16.98	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-8136.0	120	i'	17.0	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-8268.0	120	i'	17.01	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-75250.8	300	i'	19.09	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-75562.2	300	i'	19.12	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-75877.2	300	i'	19.08	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-76189.2	300	i'	19.12	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-76501.2	300	i'	19.05	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-76813.2	300	i'	19.11	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-165408.0	1800	i'	20.41	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-336499.0	1800	i'	21.25	0	0.15	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-511463.0	1800	i'	20.0	0	0	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-1200.0	120	z'	16.25	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-2242.8	120	z'	16.43	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-2374.8	120	z'	16.41	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-5925.0	120	z'	16.84	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-6976.2	120	z'	16.87	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-7108.2	120	z'	16.91	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN	NaN
-153.0	10	C	15.09	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-212.0	10	C	15.23	0	0.09	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-274.0	10	C	15.49	0	0.11	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-56647.8	300	V	18.82	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-333.0	10	C	15.8	0	0.14	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-393.0	10	C	15.62	0	0.12	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-453.0	10	C	15.75	0	0.13	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-513.0	10	C	15.88	0	0.14	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-573.0	10	C	16.0	0	0.16	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-664.0	10	C	15.82	0	0.10	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-783.5	10	C	16.08	0	0.13	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-903.5	10	C	16.04	0	0.11	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-1023.0	10	C	15.89	0	0.10	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-1144.0	10	C	15.92	0	0.11	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-1265.0	10	C	16.14	0	0.13	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-1382.5	10	C	16.09	0	0.12	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-1504.0	10	C	15.93	0	0.10	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-1623.0	10	C	16.27	0	0.14	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-1743.5	10	C	15.96	0	0.10	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN	NaN
-48385.2	300	B	18.78	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-48708.0	300	B	18.82	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-49029.0	300	B	18.71	0	0.09	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-49351.2	300	B	18.84	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-55294.2	300	B	19.03	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-55615.8	300	B	18.94	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-55936.8	300	B	19.06	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-56259.0	300	B	18.98	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-40923.0	300	V	18.37	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-41244.0	300	V	18.46	0	0.10	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-41566.2	300	V	18.38	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-41887.2	300	V	18.36	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-49773.0	300	V	18.6	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-50094.0	300	V	18.61	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-50416.2	300	V	18.63	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-50737.8	300	V	18.64	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-56968.8	300	V	18.83	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-57291.0	300	V	18.8	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-57612.0	300	V	18.8	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-47032.2	300	R	18.51	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-47353.8	300	R	18.3	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-47676.0	300	R	18.37	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-47998.2	300	R	18.45	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-53940.0	300	R	18.56	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-54262.2	300	R	18.64	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-54583.8	300	R	18.6	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-54906.0	300	R	18.65	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-301208.1	900	R	21.16	0	0.15	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-42283.8	300	i'	18.34	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-42606.0	300	i'	18.37	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-42928.2	300	i'	18.34	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-43249.2	300	i'	18.46	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-43570.8	300	i'	18.39	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-51415.2	300	i'	18.59	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-51736.8	300	i'	18.59	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-52057.8	300	i'	18.59	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-52380.0	300	i'	18.64	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-52702.2	300	i'	18.61	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-58005.0	300	i'	18.77	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-58327.2	300	i'	18.76	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-58648.8	300	i'	18.76	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN	NaN
-0.04263	UVM2	0.05	0.02861	0	15.64	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	196.6	True	NaN
-0.0441	UVW1	0.07	0.0296	0	15.7	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	40.9	True	NaN
-0.06419	UVW1	0.05	0.04308	0	16.01	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	115.2	True	NaN
-0.06713	U	0.13	0.04505	0	16.26	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	10.6	True	NaN
-0.09183	B	0.01	0.06163	0	17.29	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	180.0	True	NaN
-0.09183	V	0.01	0.06163	0	17.05	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	120.0	True	NaN
-0.09183	R	0.01	0.06163	0	16.76	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	180.0	True	NaN
-0.09183	I	0.01	0.06163	0	16.48	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	180.0	True	NaN
-0.09183	J	0.03	0.06163	0	15.87	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	180.0	True	NaN
-0.09183	H	0.03	0.06163	0	15.35	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	120.0	True	NaN
-0.09183	K	0.03	0.06163	0	14.82	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	180.0	True	NaN
-0.10804	U	0.02	0.07251	0	16.57	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	542.9	True	NaN
-0.13365	U	0.11	0.0897	0	16.76	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	25.4	True	NaN
-0.15803	I	0.02	0.10606	0	16.76	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	180.0	True	NaN
-0.17632	U	0.02	0.11834	0	16.86	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	819.6	True	NaN
-0.22483	I	0.02	0.15089	0	17.02	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	180.0	True	NaN
-1.15758	I	0.03	0.7769	0	19.2	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	1080.0	True	NaN
-1.27663	I	0.03	0.8568	0	19.22	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	1080.0	True	NaN
-4.19824	I	0.06	2.81761	0	21.24	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	2160.0	True	NaN
-6.15057	I	0.05	4.1279	0	21.35	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	2160.0	True	NaN
-9.17582	I	0.02	6.15827	0	21.6	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	900.0	True	NaN
-9.18961	I	0.07	6.16752	0	21.63	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	2160.0	True	NaN
-11.1951	I	0.07	7.51349	0	21.57	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	2160.0	True	NaN
-13.1673	I	0.07	8.83711	0	21.55	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	2160.0	True	NaN
-18.0581	I	0.01	12.1195	0	21.55	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	900.0	True	NaN
-20.1625	I	0.07	13.5319	0	21.59	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	2160.0	True	NaN
-22.1342	I	0.06	14.8552	0	21.54	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	2160.0	True	NaN
-24.1225	I	0.07	16.1896	0	21.56	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	2160.0	True	NaN
-47.1072	I	0.02	31.6156	0	22.13	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	900.0	True	NaN
-76.1124	I	0.01	51.0821	0	22.31	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	900.0	True	NaN
-102.03562	I	0.05	68.4803	0	22.54	days	apparent	NaN	Vega	s	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	days	900.0	True	NaN
-368.946	1200.0	B	24.25	0	0.18	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	TNG
-8.94568	90.0	g	23.03	0	0.1	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-34.9434	30.0	g	23.38	0	0.38	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-256.219	840.0	g	24.23	0	0.26	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-48.8811	3200.0	V	23.43	0	0.05	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	NOT
-368.963	1200.0	V	23.73	0	0.18	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	TNG
-5.9503	960.0	R	21.75	0	0.11	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	TNG
-6.95917	1800.0	R	21.94	0	0.18	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	OSN
-8.94099	90.0	r	22.21	0	0.06	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-34.9392	30.0	r	22.52	0	0.11	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-256.23	600.0	r	23.15	0	0.13	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-0.03599	120.0	I	15.28	0	0.35	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	1.23mCAHA
-0.06309	120.0	I	16.4	0	0.05	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	1.23mCAHA
-48.844	720.0	I	22.51	0	0.08	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	NOT
-368.978	900.0	I	22.77	0	0.19	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	TNG
-8.95059	90.0	i	22.0	0	0.07	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-34.9407	30.0	i	22.03	0	0.06	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-256.241	840.0	i	22.86	0	0.11	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-8.95529	90.0	z	22.17	0	0.11	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-34.9767	30.0	z	21.97	0	0.08	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-256.254	810.0	z	22.39	0	0.28	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	NaN	GTC
-0.05176	150.0	J	15.23	0	0.18	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	REM
-0.06481	300.0	J	15.31	0	0.14	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	REM
-0.0473	150.0	H	15.15	0	0.18	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	REM
-0.05692	300.0	H	14.9	0	0.11	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	REM
-383.154	906.0	H	21.62	0	0.04	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	HST
-4.93481	1895.4	K	19.45	0	0.17	days	s	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NaN	3.5mCAHA
+time	integration	band	mag	mag_limit	dmag	time_unit	integration_unit	mag_unnit	mag_type	extinction_corrected	dtime	time_frame	reference	Instrument	mag_unit	telescope	teslescope
+1.075	1.55	g'	19.69	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.075	1.55	r'	19.5	0	0.05	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.075	1.55	i'	19.37	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.075	1.55	z'	19.17	0	0.01	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.26	0.69	g'	19.94	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.26	0.69	r'	19.77	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.26	0.69	i'	19.69	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.26	0.69	z'	19.46	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.079	1.7	g'	20.81	0	0.04	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.079	1.7	r'	20.58	0	0.04	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.079	1.7	i'	20.47	0	0.01	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.079	1.7	z'	20.38	0	0.02	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.198	1.71	g'	20.88	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.198	1.71	r'	20.65	0	0.04	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.198	1.71	i'	20.53	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.198	1.71	z'	20.41	0	0.03	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+3.207	1.71	g'	21.64	0	0.07	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+3.207	1.71	r'	21.32	0	0.04	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+3.207	1.71	i'	21.26	0	0.05	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+3.207	1.71	z'	21.13	0	0.05	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+4.212	1.7	g'	22.1	0	0.09	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+4.212	1.7	r'	21.87	0	0.06	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+4.212	1.7	i'	21.85	0	0.01	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+4.212	1.7	z'	21.6	0	0.07	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+6.175	1.71	g'	22.68	0	0.13	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+6.175	1.71	r'	22.4	0	0.1	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+6.175	1.71	i'	22.51	0	0.14	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+6.175	1.71	z'	22.22	0	0.1	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+11.1	1.71	g'	23.76	0	0.12	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+11.1	1.71	r'	22.76	0	0.06	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+11.1	1.71	i'	22.5	0	0.1	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+11.1	1.71	z'	22.86	0	0.13	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+23.17	0.34	g'	22.87	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+23.17	0.34	r'	22.85	0	0.23	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+23.17	0.34	i'	22.05	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+23.17	0.34	z'	22.15	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+46.13	3.92	g'	24.43	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+46.13	3.92	r'	24.08	0	0.13	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+46.13	3.92	i'	23.58	0	0.27	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+46.13	3.92	z'	23.2	0	0.22	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+49.12	1.7	g'	24.69	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+49.12	1.7	r'	24.49	0	0.32	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+49.12	1.7	i'	23.41	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+49.12	1.7	z'	23.28	0	0.26	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+54.09	1.9	g'	21.26	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+54.09	1.9	r'	23.88	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+54.09	1.9	i'	18.86	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+54.09	1.9	z'	22.51	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.07	0.75	J	19.04	0	0.08	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.07	0.75	H	18.81	0	0.09	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.08	0.73	J	19.09	0	0.08	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.08	0.73	H	18.88	0	0.09	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.243	1.75	J	19.23	0	0.06	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+1.243	1.75	H	18.99	0	0.07	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.08	1.75	J	20.09	0	0.09	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.08	1.75	H	19.86	0	0.1	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.198	1.77	J	20.09	0	0.07	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+2.198	1.77	H	19.9	0	0.12	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+3.207	1.76	J	20.54	0	0.32	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+3.207	1.76	H	20.52	0	0.22	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+4.212	1.75	J	20.88	0	0.18	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+4.212	1.75	H	20.99	0	0.28	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+6.175	1.75	J	21.53	0	0.31	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+6.175	1.75	H	21.26	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+11.1	1.75	J	21.63	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+11.1	1.75	H	21.16	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+46.13	3.97	J	21.74	0	0.27	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+46.13	3.97	H	21.35	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+49.12	1.75	J	21.69	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+49.12	1.75	H	21.19	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+54.09	1.75	J	21.37	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+54.09	1.75	H	20.0	1	NaN	days	kiloseconds	AB	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract	NaN	NaN	NaN	NaN
+146.0	10.0	r'	15.41	0	0.02	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+168.2	10.0	r'	15.45	0	0.02	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+191.0	10.0	r'	15.58	0	0.02	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+422.0	10.0	r'	15.95	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+444.8	10.0	r'	16.02	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+468.8	10.0	r'	16.0	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+760.2	120.0	r'	16.16	0	0.01	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+1413.0	120.0	r'	16.32	0	0.01	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+1546.2	120.0	r'	16.34	0	0.01	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+2662.8	120.0	r'	16.52	0	0.01	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+2794.8	120.0	r'	16.53	0	0.02	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+2926.8	120.0	r'	16.55	0	0.02	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+4878.2	10.0	r'	16.74	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+4899.8	10.0	r'	16.71	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+4922.0	10.0	r'	16.72	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+5157.8	10.0	r'	16.76	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+5180.0	10.0	r'	16.82	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+5204.0	10.0	r'	16.77	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+5494.8	120.0	r'	16.83	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+6139.2	120.0	r'	16.88	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+6271.8	120.0	r'	16.91	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+7390.2	120.0	r'	17.0	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+7521.0	120.0	r'	16.99	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+7654.2	120.0	r'	16.99	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+77200.2	300.0	r'	19.25	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+77512.2	300.0	r'	19.27	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+77824.2	300.0	r'	19.29	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+78138.0	300.0	r'	19.3	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+78448.8	300.0	r'	19.27	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+78760.8	300.0	r'	19.34	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+88690.2	300.0	r'	19.5	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+89002.2	300.0	r'	19.44	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+89314.2	300.0	r'	19.45	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+89628.0	300.0	r'	19.53	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+162917.0	1800.0	r'	20.44	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+509520.0	1800.0	r'	20.8	0	NaN	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+979.8	120.0	i'	16.17	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+1831.2	120.0	i'	16.35	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+1963.8	120.0	i'	16.37	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+3277.2	120.0	i'	16.54	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+3409.2	120.0	i'	16.54	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+3541.2	120.0	i'	16.57	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+5707.8	120.0	i'	16.78	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+6553.8	120.0	i'	16.85	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+6685.8	120.0	i'	16.86	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+8004.0	120.0	i'	16.98	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+8136.0	120.0	i'	17.0	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+8268.0	120.0	i'	17.01	0	0.03	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+75250.8	300.0	i'	19.09	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+75562.2	300.0	i'	19.12	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+75877.2	300.0	i'	19.08	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+76189.2	300.0	i'	19.12	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+76501.2	300.0	i'	19.05	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+76813.2	300.0	i'	19.11	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+165408.0	1800.0	i'	20.41	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+336499.0	1800.0	i'	21.25	0	0.15	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+511463.0	1800.0	i'	20.0	0	0.0	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+1200.0	120.0	z'	16.25	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+2242.8	120.0	z'	16.43	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+2374.8	120.0	z'	16.41	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+5925.0	120.0	z'	16.84	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+6976.2	120.0	z'	16.87	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+7108.2	120.0	z'	16.91	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	LT	unspecified	NaN	NaN
+153.0	10.0	C	15.09	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+212.0	10.0	C	15.23	0	0.09	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+274.0	10.0	C	15.49	0	0.11	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+56647.8	300.0	V	18.82	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+333.0	10.0	C	15.8	0	0.14	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+393.0	10.0	C	15.62	0	0.12	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+453.0	10.0	C	15.75	0	0.13	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+513.0	10.0	C	15.88	0	0.14	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+573.0	10.0	C	16.0	0	0.16	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+664.0	10.0	C	15.82	0	0.1	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+783.5	10.0	C	16.08	0	0.13	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+903.5	10.0	C	16.04	0	0.11	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+1023.0	10.0	C	15.89	0	0.1	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+1144.0	10.0	C	15.92	0	0.11	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+1265.0	10.0	C	16.14	0	0.13	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+1382.5	10.0	C	16.09	0	0.12	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+1504.0	10.0	C	15.93	0	0.1	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+1623.0	10.0	C	16.27	0	0.14	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+1743.5	10.0	C	15.96	0	0.1	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	Skycam	unspecified	NaN	NaN
+48385.2	300.0	B	18.78	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+48708.0	300.0	B	18.82	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+49029.0	300.0	B	18.71	0	0.09	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+49351.2	300.0	B	18.84	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+55294.2	300.0	B	19.03	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+55615.8	300.0	B	18.94	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+55936.8	300.0	B	19.06	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+56259.0	300.0	B	18.98	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+40923.0	300.0	V	18.37	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+41244.0	300.0	V	18.46	0	0.1	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+41566.2	300.0	V	18.38	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+41887.2	300.0	V	18.36	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+49773.0	300.0	V	18.6	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+50094.0	300.0	V	18.61	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+50416.2	300.0	V	18.63	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+50737.8	300.0	V	18.64	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+56968.8	300.0	V	18.83	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+57291.0	300.0	V	18.8	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+57612.0	300.0	V	18.8	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+47032.2	300.0	R	18.51	0	0.08	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+47353.8	300.0	R	18.3	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+47676.0	300.0	R	18.37	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+47998.2	300.0	R	18.45	0	0.07	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+53940.0	300.0	R	18.56	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+54262.2	300.0	R	18.64	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+54583.8	300.0	R	18.6	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+54906.0	300.0	R	18.65	0	0.04	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+301208.1	900.0	R	21.16	0	0.15	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+42283.8	300.0	i'	18.34	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+42606.0	300.0	i'	18.37	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+42928.2	300.0	i'	18.34	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+43249.2	300.0	i'	18.46	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+43570.8	300.0	i'	18.39	0	0.06	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+51415.2	300.0	i'	18.59	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+51736.8	300.0	i'	18.59	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+52057.8	300.0	i'	18.59	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+52380.0	300.0	i'	18.64	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+52702.2	300.0	i'	18.61	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+58005.0	300.0	i'	18.77	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+58327.2	300.0	i'	18.76	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+58648.8	300.0	i'	18.76	0	0.05	days	s	NaN	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract	FTS	unspecified	NaN	NaN
+0.04263	196.6	UVM2	15.64	0	0.05	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.0441	40.9	UVW1	15.7	0	0.07	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.06419	115.2	UVW1	16.01	0	0.05	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.06713	10.6	U	16.26	0	0.13	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.09183	180.0	B	17.29	0	0.01	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.09183	120.0	V	17.05	0	0.01	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.09183	180.0	R	16.76	0	0.01	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.09183	180.0	I	16.48	0	0.01	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.09183	180.0	J	15.87	0	0.03	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.09183	120.0	H	15.35	0	0.03	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.09183	180.0	K	14.82	0	0.03	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.10804	542.9	U	16.57	0	0.02	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.13365	25.4	U	16.76	0	0.11	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.15803	180.0	I	16.76	0	0.02	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.17632	819.6	U	16.86	0	0.02	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+0.22483	180.0	I	17.02	0	0.02	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+1.15758	1080.0	I	19.2	0	0.03	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+1.27663	1080.0	I	19.22	0	0.03	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+4.19824	2160.0	I	21.24	0	0.06	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+6.15057	2160.0	I	21.35	0	0.05	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+9.17582	900.0	I	21.6	0	0.02	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+9.18961	2160.0	I	21.63	0	0.07	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+11.1951	2160.0	I	21.57	0	0.07	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+13.1673	2160.0	I	21.55	0	0.07	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+18.0581	900.0	I	21.55	0	0.01	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+20.1625	2160.0	I	21.59	0	0.07	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+22.1342	2160.0	I	21.54	0	0.06	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+24.1225	2160.0	I	21.56	0	0.07	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+47.1072	900.0	I	22.13	0	0.02	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+76.1124	900.0	I	22.31	0	0.01	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+102.03562	900.0	I	22.54	0	0.05	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract	NaN	Vega	days	NaN
+368.946	1200.0	B	24.25	0	0.18	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	TNG
+8.94568	90.0	g	23.03	0	0.1	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+34.9434	30.0	g	23.38	0	0.38	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+256.219	840.0	g	24.23	0	0.26	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+48.8811	3200.0	V	23.43	0	0.05	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NOT
+368.963	1200.0	V	23.73	0	0.18	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	TNG
+5.9503	960.0	R	21.75	0	0.11	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	TNG
+6.95917	1800.0	R	21.94	0	0.18	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	OSN
+8.94099	90.0	r	22.21	0	0.06	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+34.9392	30.0	r	22.52	0	0.11	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+256.23	600.0	r	23.15	0	0.13	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+0.03599	120.0	I	15.28	0	0.35	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	1.23m CAHA
+0.06309	120.0	I	16.4	0	0.05	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	1.23m CAHA
+48.844	720.0	I	22.51	0	0.08	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	NOT
+368.978	900.0	I	22.77	0	0.19	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	TNG
+8.95059	90.0	i	22.0	0	0.07	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+34.9407	30.0	i	22.03	0	0.06	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+256.241	840.0	i	22.86	0	0.11	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+8.95529	90.0	z	22.17	0	0.11	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+34.9767	30.0	z	21.97	0	0.08	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+256.254	810.0	z	22.39	0	0.28	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	AB	NaN	GTC
+0.05176	150.0	J	15.23	0	0.18	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	REM
+0.06481	300.0	J	15.31	0	0.14	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	REM
+0.0473	150.0	H	15.15	0	0.18	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	REM
+0.05692	300.0	H	14.9	0	0.11	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	REM
+383.154	906.0	H	21.62	0	0.04	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	HST
+4.93481	1895.4	K	19.45	0	0.17	days	seconds	NaN	apparent	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract	NaN	Vega	NaN	3.5m CAHA

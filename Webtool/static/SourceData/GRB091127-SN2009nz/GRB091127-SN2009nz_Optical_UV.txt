@@ -1,32 +1,32 @@
-time	mag	mag_limit	dmag	band	integration	telescope	time_unit	mag_unit	mag_type	integration_unit	extinction_corrected	Unnamed: 11	dtime	time_frame
-0.04263	0.02861	0	15.64	0.05	UVM2	196.6	days	days	Vega	apparent	s	True	NaN	observer
-0.0441	0.0296	0	15.7	0.07	UVW1	40.9	days	days	Vega	apparent	s	True	NaN	observer
-0.06419	0.04308	0	16.01	0.05	UVW1	115.2	days	days	Vega	apparent	s	True	NaN	observer
-0.06713	0.04505	0	16.26	0.13	U	10.6	days	days	Vega	apparent	s	True	NaN	observer
-0.09183	0.06163	0	17.29	0.01	B	180.0	days	days	Vega	apparent	s	True	NaN	observer
-0.09183	0.06163	0	17.05	0.01	V	120.0	days	days	Vega	apparent	s	True	NaN	observer
-0.09183	0.06163	0	16.76	0.01	R	180.0	days	days	Vega	apparent	s	True	NaN	observer
-0.09183	0.06163	0	16.48	0.01	I	180.0	days	days	Vega	apparent	s	True	NaN	observer
-0.09183	0.06163	0	15.87	0.03	J	180.0	days	days	Vega	apparent	s	True	NaN	observer
-0.09183	0.06163	0	15.35	0.03	H	120.0	days	days	Vega	apparent	s	True	NaN	observer
-0.09183	0.06163	0	14.82	0.03	K	180.0	days	days	Vega	apparent	s	True	NaN	observer
-0.10804	0.07251	0	16.57	0.02	U	542.9	days	days	Vega	apparent	s	True	NaN	observer
-0.13365	0.0897	0	16.76	0.11	U	25.4	days	days	Vega	apparent	s	True	NaN	observer
-0.15803	0.10606	0	16.76	0.02	I	180.0	days	days	Vega	apparent	s	True	NaN	observer
-0.17632	0.11834	0	16.86	0.02	U	819.6	days	days	Vega	apparent	s	True	NaN	observer
-0.22483	0.15089	0	17.02	0.02	I	180.0	days	days	Vega	apparent	s	True	NaN	observer
-1.15758	0.7769	0	19.2	0.03	I	1080.0	days	days	Vega	apparent	s	True	NaN	observer
-1.27663	0.8568	0	19.22	0.03	I	1080.0	days	days	Vega	apparent	s	True	NaN	observer
-4.19824	2.81761	0	21.24	0.06	I	2160.0	days	days	Vega	apparent	s	True	NaN	observer
-6.15057	4.1279	0	21.35	0.05	I	2160.0	days	days	Vega	apparent	s	True	NaN	observer
-9.17582	6.15827	0	21.6	0.02	I	900.0	days	days	Vega	apparent	s	True	NaN	observer
-9.18961	6.16752	0	21.63	0.07	I	2160.0	days	days	Vega	apparent	s	True	NaN	observer
-11.1951	7.51349	0	21.57	0.07	I	2160.0	days	days	Vega	apparent	s	True	NaN	observer
-13.1673	8.83711	0	21.55	0.07	I	2160.0	days	days	Vega	apparent	s	True	NaN	observer
-18.0581	12.1195	0	21.55	0.01	I	900.0	days	days	Vega	apparent	s	True	NaN	observer
-20.1625	13.5319	0	21.59	0.07	I	2160.0	days	days	Vega	apparent	s	True	NaN	observer
-22.1342	14.8552	0	21.54	0.06	I	2160.0	days	days	Vega	apparent	s	True	NaN	observer
-24.1225	16.1896	0	21.56	0.07	I	2160.0	days	days	Vega	apparent	s	True	NaN	observer
-47.1072	31.6156	0	22.13	0.02	I	900.0	days	days	Vega	apparent	s	True	NaN	observer
-76.1124	51.0821	0	22.31	0.01	I	900.0	days	days	Vega	apparent	s	True	NaN	observer
-102.03562	68.4803	0	22.54	0.05	I	900.0	days	days	Vega	apparent	s	True	NaN	observer
+time	mag_limit	mag	dmag	band	integration	telescope	time_unit	mag_unit	mag_type	integration_unit	extinction_corrected	dtime	time_frame
+0.04263	0	15.64	0.05	UVM2	196.6	days	days	Vega	apparent	seconds	True	NaN	observer
+0.0441	0	15.7	0.07	UVW1	40.9	days	days	Vega	apparent	seconds	True	NaN	observer
+0.06419	0	16.01	0.05	UVW1	115.2	days	days	Vega	apparent	seconds	True	NaN	observer
+0.06713	0	16.26	0.13	U	10.6	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	17.29	0.01	B	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	17.05	0.01	V	120.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	16.76	0.01	R	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	16.48	0.01	I	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	15.87	0.03	J	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	15.35	0.03	H	120.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	14.82	0.03	K	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.10804	0	16.57	0.02	U	542.9	days	days	Vega	apparent	seconds	True	NaN	observer
+0.13365	0	16.76	0.11	U	25.4	days	days	Vega	apparent	seconds	True	NaN	observer
+0.15803	0	16.76	0.02	I	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.17632	0	16.86	0.02	U	819.6	days	days	Vega	apparent	seconds	True	NaN	observer
+0.22483	0	17.02	0.02	I	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+1.15758	0	19.2	0.03	I	1080.0	days	days	Vega	apparent	seconds	True	NaN	observer
+1.27663	0	19.22	0.03	I	1080.0	days	days	Vega	apparent	seconds	True	NaN	observer
+4.19824	0	21.24	0.06	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+6.15057	0	21.35	0.05	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+9.17582	0	21.6	0.02	I	900.0	days	days	Vega	apparent	seconds	True	NaN	observer
+9.18961	0	21.63	0.07	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+11.1951	0	21.57	0.07	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+13.1673	0	21.55	0.07	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+18.0581	0	21.55	0.01	I	900.0	days	days	Vega	apparent	seconds	True	NaN	observer
+20.1625	0	21.59	0.07	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+22.1342	0	21.54	0.06	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+24.1225	0	21.56	0.07	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+47.1072	0	22.13	0.02	I	900.0	days	days	Vega	apparent	seconds	True	NaN	observer
+76.1124	0	22.31	0.01	I	900.0	days	days	Vega	apparent	seconds	True	NaN	observer
+102.03562	0	22.54	0.05	I	900.0	days	days	Vega	apparent	seconds	True	NaN	observer
