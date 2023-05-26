@@ -21,7 +21,7 @@ pytz==2023.3
 PyYAML==6.0
 scipy==1.6.3
 six==1.16.0
-tornado==6.3.1
+tornado==6.3.2
 typing_extensions==4.5.0
 tzdata==2023.3
 Werkzeug==2.3.3
@@ -55,7 +55,7 @@ requests==2.31.0
 scipy==1.6.3
 six==1.16.0
 snakemd==2.1.0
-tornado==6.3.1
+tornado==6.3.2
 typing_extensions==4.5.0
 tzdata==2023.3
 urllib3==1.26.15
