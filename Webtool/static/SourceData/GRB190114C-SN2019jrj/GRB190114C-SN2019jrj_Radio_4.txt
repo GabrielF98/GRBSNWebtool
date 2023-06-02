@@ -1,31 +1,26 @@
-Table 1 
-Radio and Millimeter Stokes I Observations of GRB 190114C
-
-
-Telescope	Frequency	Time	Flux Density	Uncertainty	
-	(GHz)	(days)	(mJy)	(muJy)	
-ALMA	97.5	0.0995	11.5	21.8	
-ALMA	97.5	0.107	11.1	21.2	
-ALMA	97.5	0.115	10.7	25.7	
-ALMA	97.5	0.125	10.2	31.4	
-ALMA	97.5	0.129	10.1	60.8	
-ALMA	97.5	0.140	9.58	20.8	
-ALMA	97.5	0.146	9.26	35.5	
-ALMA	97.5	0.154	8.60	29.6	
-ALMA	97.5	0.161	8.24	22.2	
-ALMA	97.5	0.168	8.05	25.5	
-ALMA	97.5	0.188	7.53	23.0	
-ALMA	97.5	0.196	7.27	23.1	
-ALMA	97.5	0.203	7.04	23.7	
-ALMA	97.5	0.213	7.00	28.8	
-ALMA	97.5	0.217	6.87	56.7	
-VLA	37.0	0.197	3.95	39.0	
-VLA	30.0	0.197	3.28	32.0	
-VLA	24.5	0.219	2.66	23.0	
-VLA	19.2	0.219	1.96	18.0	
-VLA	16.0	0.236	1.52	24.4	
-VLA	13.5	0.236	1.22	29.9	
-VLA	11.0	0.249	0.838	19.0	
-VLA	8.55	0.249	0.607	17.3	
-VLA	7.10	0.261	0.397	19.3	
-VLA	5.00	0.261	0.118	32.0	
+time	freq	flux_density	flux_density_limit	dflux_density	time_unit	freq_unit	flux_density_unit	telescope	dtime	time_frame
+0.0995	97.5	11.5	0	21.8	days	GHz	milliJy	ALMA	NaN	observer
+0.107	97.5	11.1	0	21.2	days	GHz	milliJy	ALMA	NaN	observer
+0.115	97.5	10.7	0	25.7	days	GHz	milliJy	ALMA	NaN	observer
+0.125	97.5	10.2	0	31.4	days	GHz	milliJy	ALMA	NaN	observer
+0.129	97.5	10.1	0	60.8	days	GHz	milliJy	ALMA	NaN	observer
+0.14	97.5	9.58	0	20.8	days	GHz	milliJy	ALMA	NaN	observer
+0.146	97.5	9.26	0	35.5	days	GHz	milliJy	ALMA	NaN	observer
+0.154	97.5	8.6	0	29.6	days	GHz	milliJy	ALMA	NaN	observer
+0.161	97.5	8.24	0	22.2	days	GHz	milliJy	ALMA	NaN	observer
+0.168	97.5	8.05	0	25.5	days	GHz	milliJy	ALMA	NaN	observer
+0.188	97.5	7.53	0	23.0	days	GHz	milliJy	ALMA	NaN	observer
+0.196	97.5	7.27	0	23.1	days	GHz	milliJy	ALMA	NaN	observer
+0.203	97.5	7.04	0	23.7	days	GHz	milliJy	ALMA	NaN	observer
+0.213	97.5	7.0	0	28.8	days	GHz	milliJy	ALMA	NaN	observer
+0.217	97.5	6.87	0	56.7	days	GHz	milliJy	ALMA	NaN	observer
+0.197	37.0	3.95	0	39.0	days	GHz	milliJy	VLA	NaN	observer
+0.197	30.0	3.28	0	32.0	days	GHz	milliJy	VLA	NaN	observer
+0.219	24.5	2.66	0	23.0	days	GHz	milliJy	VLA	NaN	observer
+0.219	19.2	1.96	0	18.0	days	GHz	milliJy	VLA	NaN	observer
+0.236	16.0	1.52	0	24.4	days	GHz	milliJy	VLA	NaN	observer
+0.236	13.5	1.22	0	29.9	days	GHz	milliJy	VLA	NaN	observer
+0.249	11.0	0.838	0	19.0	days	GHz	milliJy	VLA	NaN	observer
+0.249	8.55	0.607	0	17.3	days	GHz	milliJy	VLA	NaN	observer
+0.261	7.1	0.397	0	19.3	days	GHz	milliJy	VLA	NaN	observer
+0.261	5.0	0.118	0	32.0	days	GHz	milliJy	VLA	NaN	observer

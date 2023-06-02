@@ -1,11 +1,11 @@
 GRB/SN,Filename,Status,Reference,Notes
-GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_Optical_1.html,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract,
-GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_Radio_1.html,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract,
-GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_Radio_2.html,"Early, Radio",https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract,
-GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_Radio_3.html,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract,
+GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_Optical_1.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract,
+GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_Radio_1.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract,
+GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_Radio_2.txt,"Early, Radio",https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract,
+GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_Radio_3.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract,
 GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_MultibandSpectra.csv,,https://ui.adsabs.harvard.edu/abs/2019Natur.575..459M/abstract,VHE Spectra (MAGIC)
 GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_MultibandSpectra2.csv,,https://ui.adsabs.harvard.edu/abs/2019Natur.575..459M/abstract,VHE Spectra (MAGIC)
 GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_Radio_4.txt,"Early, Radio",https://ui.adsabs.harvard.edu/abs/2019ApJ...878L..26L/abstract,
 GRB190114C-SN2019jrj,GRB190114C-SN2019jrj_Spectra.txt,Spectra,https://www.wis-tns.org/object/2019jrj,
-GRB190114C-SN2019jrj,GRB190114Cxrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/
+GRB190114C-SN2019jrj,GRB190114Cxrtlc.txt,,swift database,
 GRB190114C-SN2019jrj,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2019jrj/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
