@@ -1,4 +1,4 @@
-time	freq	flux_density	flux_density_limit	dflux_density	time_unit	freq_unit	flux_density_unit	dtime	time_frame	reference	telescope
+time	freq	flux_density	flux_density_limit	dflux_density	time_unit	freq_unit	flux_density_unit	dtime	time_frame	reference	instrument
 3.291	45.0	1.311	0	0.101	days	GHz	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	NaN
 9.334	45.0	0.547	0	0.127	days	GHz	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	NaN
 10.331	45.0	0.516	0	0.143	days	GHz	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	NaN
