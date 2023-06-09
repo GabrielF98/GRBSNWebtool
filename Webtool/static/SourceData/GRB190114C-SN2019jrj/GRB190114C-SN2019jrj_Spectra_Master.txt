@@ -2,7 +2,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	6099.2587891	-0.0198302	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4281.683951632152	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6102.0576172	-0.0483235	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4283.648730923131	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6104.8574219	-0.0454335	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4285.614195787995	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	6107.65625	-0.0739124	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4287.5789750789745	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	6107.65625	-0.0739124	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4287.578975078975	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6110.4550781	-0.1053398	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4289.543754369954	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6113.2543945	-0.1366945	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4291.508876447876	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6116.0532227	-0.1680419	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4293.473655809055	https://www.wis-tns.org/object/2019jrj
@@ -95,7 +95,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	6359.5673828	0.0356184	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4464.420767146366	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6362.3662109	0.0222014	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4466.3855464373455	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6365.1660156	0.0173914	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4468.351011302211	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	6367.9648438	0.0324327	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4470.3157906633905	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	6367.9648438	0.0324327	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4470.315790663391	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6370.7636719	0.0426283	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4472.28056995437	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6373.5629883	0.0424382	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4474.245692032292	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6376.3618164	0.0355903	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4476.210471323271	https://www.wis-tns.org/object/2019jrj
@@ -118,7 +118,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	6423.9453125	0.0289175	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4509.614118989119	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6426.7441406	0.027005	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4511.578898280098	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6429.543457	0.0316003	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4513.54402035802	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	6432.3422852	0.0331548	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4515.5087997191995	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	6432.3422852	0.0331548	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4515.5087997192	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6435.1411133	0.031245	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4517.473579010179	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6437.9399414	0.0267318	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4519.438358301158	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6440.7387695	0.0322867	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4521.403137592137	https://www.wis-tns.org/object/2019jrj
@@ -142,7 +142,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	6491.121582	0.0477869	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4556.771907335907	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6493.9204102	0.0718628	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4558.736686697087	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6496.7192383	0.0812068	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4560.701465988066	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	6499.5185547	0.07458	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4562.6665880659875	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	6499.5185547	0.07458	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4562.666588065988	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6502.3173828	0.0711398	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4564.631367356967	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6505.1166992	0.0870836	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4566.596489434889	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6507.9160156	0.0800031	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4568.561611512811	https://www.wis-tns.org/object/2019jrj
@@ -204,7 +204,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	6664.6611328	0.0446953	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4678.596793822393	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6667.4599609	0.0717628	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4680.561573113373	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6670.2587891	0.0790381	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4682.526352474552	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	6673.0576172	0.0821768	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4684.4911317655315	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	6673.0576172	0.0821768	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4684.491131765532	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6675.8564453	0.0947751	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4686.455911056511	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6678.6552734	0.0910411	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4688.42069034749	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6681.4545898	0.0835251	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4690.385812425412	https://www.wis-tns.org/object/2019jrj
@@ -228,7 +228,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	6731.8369141	0.0616908	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4725.754239452439	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6734.6362305	0.0640534	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4727.719361530361	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6737.4350586	0.0681058	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4729.68414082134	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	6740.2338867	0.0685149	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4731.6489201123195	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	6740.2338867	0.0685149	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4731.64892011232	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6743.0336914	0.0669788	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4733.614384977184	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6745.8325195	0.0666697	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4735.579164268163	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6748.6313477	0.0680174	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4737.543943629344	https://www.wis-tns.org/object/2019jrj
@@ -321,10 +321,10 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	6992.1455078	0.0591281	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4908.491054966655	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6994.9448242	0.0544259	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4910.456177044576	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	6997.7436523	0.0481884	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4912.420956335556	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	7000.5424805	0.0448559	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4914.3857356967355	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	7000.5424805	0.0448559	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4914.385735696736	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7003.3422852	0.0437928	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4916.3512005616	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7006.1411133	0.0333739	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4918.315979852579	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	7008.9399414	0.0327746	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4920.2807591435585	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	7008.9399414	0.0327746	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4920.280759143559	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7011.7387695	0.028441	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4922.245538434538	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7014.5375977	0.0311043	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4924.210317795718	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7017.3364258	0.0422973	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4926.175097086697	https://www.wis-tns.org/object/2019jrj
@@ -343,7 +343,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	7053.7241211	0.0949642	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4951.719284731485	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7056.5229492	0.1985909	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4953.684064022464	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7059.3217773	0.3205804	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4955.648843313443	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	7062.121582	0.3862387	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4957.6143081783075	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	7062.121582	0.3862387	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4957.614308178308	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7064.9204102	0.4012795	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4959.579087539488	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7067.7192383	0.4060604	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4961.543866830467	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7070.5180664	0.4040089	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	4963.508646121446	https://www.wis-tns.org/object/2019jrj
@@ -383,7 +383,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	7165.6850586	0.0544485	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5030.315941453141	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7168.4838867	0.0410389	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5032.28072074412	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7171.2827148	0.0342185	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5034.245500035099	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	7174.081543	0.0239682	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5036.2102793962795	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	7174.081543	0.0239682	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5036.21027939628	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7176.8808594	0.0188003	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5038.175401474201	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7179.6796875	0.0277873	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5040.14018076518	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7182.4790039	0.0329717	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5042.105302843102	https://www.wis-tns.org/object/2019jrj
@@ -417,7 +417,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	7260.8515625	0.0595358	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5097.122893997894	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7263.6508789	0.0421849	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5099.088016075816	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7266.449707	0.0418635	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5101.052795366795	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	7269.2485352	0.0535417	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5103.0175747279745	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	7269.2485352	0.0535417	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5103.017574727975	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7272.0473633	0.0609243	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5104.982354018954	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7274.8461914	0.0740929	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5106.947133309933	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7277.6450195	0.0801952	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5108.911912600912	https://www.wis-tns.org/object/2019jrj
@@ -479,7 +479,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	7434.3901367	0.1059667	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5218.947094910494	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7437.1894531	0.0986875	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5220.912216988417	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7439.9882812	0.0818051	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5222.876996279396	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	7442.7875977	0.0755472	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5224.8421184275185	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	7442.7875977	0.0755472	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5224.842118427519	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7445.5869141	0.0771207	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5226.80724050544	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7448.3857422	0.0713713	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5228.772019796419	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7451.1845703	0.0783082	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5230.736799087399	https://www.wis-tns.org/object/2019jrj
@@ -522,7 +522,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	7554.7480469	0.1049357	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5303.438432362233	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7557.546875	0.1031279	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5305.403211653212	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7560.3466797	0.1032384	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5307.368676518076	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	7563.1455078	0.10285	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5309.3334558090555	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	7563.1455078	0.10285	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5309.333455809056	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7565.9443359	0.0860301	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5311.298235100035	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7568.7431641	0.0746434	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5313.263014461214	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7571.5424805	0.0730495	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5315.228136539136	https://www.wis-tns.org/object/2019jrj
@@ -589,7 +589,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	7742.2827148	0.1172569	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5435.0879008775	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7745.081543	0.1150721	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5437.05268023868	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7747.8803711	0.102744	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5439.017459529659	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	7750.6791992	0.1043463	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5440.9822388206385	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	7750.6791992	0.1043463	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5440.982238820639	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7753.4785156	0.1186407	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5442.94736089856	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7756.2773438	0.1232542	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5444.91214025974	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7759.0761719	0.117605	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5446.876919550719	https://www.wis-tns.org/object/2019jrj
@@ -608,7 +608,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	7795.4633789	0.1663391	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5472.420764408564	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7798.262207	0.1772659	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5474.385543699543	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7801.0620117	0.155522	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5476.351008564408	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	7803.8608398	0.1138469	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5478.3157878553875	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	7803.8608398	0.1138469	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5478.315787855388	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7806.659668	0.1027282	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5480.280567216567	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7809.4589844	0.1069348	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5482.245689294489	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7812.2578125	0.109187	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5484.210468585468	https://www.wis-tns.org/object/2019jrj
@@ -646,7 +646,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	7901.8266602	0.1404054	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5547.087862548263	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7904.6254883	0.1650169	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5549.052641839242	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7907.4243164	0.1642325	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5551.017421130221	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	7910.2236328	0.1753632	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5552.9825432081425	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	7910.2236328	0.1753632	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5552.982543208143	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7913.0224609	0.1630919	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5554.947322499122	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7915.8212891	0.1668874	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5556.912101860302	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	7918.6201172	0.1674717	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5558.876881151281	https://www.wis-tns.org/object/2019jrj
@@ -682,7 +682,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8002.5913086	0.1399934	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5617.824716461916	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8005.3901367	0.1427195	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5619.789495752895	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8008.1889648	0.1147714	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5621.754275043874	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8010.987793	0.1028129	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5623.7190544050545	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8010.987793	0.1028129	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5623.719054405055	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8013.7871094	0.1100061	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5625.684176482976	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8016.5859375	0.1273942	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5627.648955773955	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8019.3852539	0.1153812	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5629.6140778518775	https://www.wis-tns.org/object/2019jrj
@@ -700,12 +700,12 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8052.9731445	0.1175874	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5653.1928006318	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8055.7719727	0.1161054	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5655.15757999298	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8058.5717773	0.1069138	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5657.123044787644	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8061.3706055	0.10846	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5659.0878241488235	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8061.3706055	0.10846	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5659.087824148824	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8064.1694336	0.0942836	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5661.052603439803	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8066.9682617	0.0893321	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5663.017382730783	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8069.7675781	0.0925095	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5664.982504808704	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8072.5664062	0.093326	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5666.947284099683	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8075.3652344	0.0900114	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5668.9120634608635	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8075.3652344	0.0900114	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5668.912063460864	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8078.1640625	0.0943763	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5670.876842751843	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8080.9638672	0.0943371	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5672.842307616707	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8083.7626953	0.1077158	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5674.807086907686	https://www.wis-tns.org/object/2019jrj
@@ -739,7 +739,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8162.1352539	0.0852223	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5729.824678062478	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8164.934082	0.0745043	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5731.789457353457	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8167.7329102	0.0597111	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5733.754236714636	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8170.5322266	0.0551658	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5735.7193587925585	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8170.5322266	0.0551658	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5735.719358792559	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8173.3310547	0.0585032	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5737.684138083538	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8176.1298828	0.0560654	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5739.648917374517	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8178.9296875	0.0526048	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5741.6143822393815	https://www.wis-tns.org/object/2019jrj
@@ -753,12 +753,12 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8201.3212891	0.0884916	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5757.333302281502	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8204.1201172	0.089072	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5759.298081572481	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8206.9189453	0.0833998	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5761.26286086346	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8209.7177734	0.0715329	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5763.2276401544395	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8209.7177734	0.0715329	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5763.22764015444	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8212.5175781	0.0816582	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5765.193105019304	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8215.3164062	0.0744612	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5767.157884310283	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8218.1152344	0.0682809	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5769.122663671464	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8220.9150391	0.0707006	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5771.088128536328	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8223.7138672	0.069813	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5773.0529078273075	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8223.7138672	0.069813	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5773.052907827308	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8226.5126953	0.068705	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5775.017687118287	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8229.3115234	0.0774831	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5776.982466409266	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8232.1103516	0.0768367	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5778.947245770446	https://www.wis-tns.org/object/2019jrj
@@ -767,7 +767,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8240.5078125	0.0824175	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5784.842269217269	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8243.3066406	0.0791839	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5786.807048508248	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8246.1054688	0.085865	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5788.771827869427	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8248.9042969	0.0901269	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5790.7366071604065	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8248.9042969	0.0901269	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5790.736607160407	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8251.703125	0.0815517	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5792.7013864513865	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8254.5019531	0.0820616	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5794.666165742366	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8257.3017578	0.0806055	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5796.63163060723	https://www.wis-tns.org/object/2019jrj
@@ -786,7 +786,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8293.6884766	0.1172573	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5822.1751327483325	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8296.4873047	0.1173375	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5824.139912039312	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8299.2871094	0.1244863	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5826.105376904176	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8302.0859375	0.111042	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5828.0701561951555	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8302.0859375	0.111042	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5828.070156195156	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8304.8847656	0.1193	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5830.034935486135	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8307.6835938	0.1121996	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5831.999714847315	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8310.4824219	0.0705487	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5833.964494138294	https://www.wis-tns.org/object/2019jrj
@@ -801,7 +801,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8335.6738281	-0.0120628	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5851.648878975078	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8338.4736328	-0.0234744	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5853.614343839943	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8341.2724609	-0.0211213	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5855.579123130922	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8344.0712891	-0.0248426	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5857.5439024921025	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8344.0712891	-0.0248426	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5857.543902492103	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8346.8701172	0.0008224	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5859.508681783082	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8349.6689453	0.0342851	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5861.473461074061	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8352.4677734	0.0765907	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5863.43824036504	https://www.wis-tns.org/object/2019jrj
@@ -849,7 +849,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8470.0263672	0.0759637	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5945.964455738856	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8472.8261719	0.0893027	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5947.92992060372	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8475.625	0.063971	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5949.894699894699	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8478.4238281	0.0481514	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5951.8594791856785	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8478.4238281	0.0481514	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5951.859479185679	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8481.2236328	0.0450123	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5953.824944050543	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8484.0224609	0.0546859	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5955.789723341522	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8486.8212891	0.0673882	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	5957.754502702703	https://www.wis-tns.org/object/2019jrj
@@ -877,7 +877,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8548.3994141	0.1131468	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6000.982389680589	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8551.1982422	0.1099224	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6002.947168971568	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8553.9970703	0.1041307	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6004.911948262547	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8556.7958984	0.0873952	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6006.8767275535265	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8556.7958984	0.0873952	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6006.876727553527	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8559.5957031	0.0762862	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6008.842192418392	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8562.3945312	0.0862121	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6010.806971709371	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8565.1933594	0.0918087	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6012.771751070551	https://www.wis-tns.org/object/2019jrj
@@ -911,7 +911,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8643.5664062	0.1093893	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6067.789684942084	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8646.3652344	0.107171	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6069.754464303264	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8649.1640625	0.0943917	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6071.719243594243	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8651.9628906	0.0907914	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6073.6840228852225	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8651.9628906	0.0907914	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6073.684022885223	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8654.7617188	0.0908876	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6075.648802246402	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8657.5615234	0.1073386	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6077.614267041066	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8660.3603516	0.1029965	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6079.579046402247	https://www.wis-tns.org/object/2019jrj
@@ -930,7 +930,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8696.7480469	0.1035509	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6105.123234047034	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8699.546875	0.0888554	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6107.088013338013	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8702.3457031	0.086443	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6109.052792628992	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8705.1445312	0.089029	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6111.0175719199715	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8705.1445312	0.089029	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6111.017571919972	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8707.9433594	0.0994308	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6112.982351281151	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8710.7421875	0.1010417	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6114.94713057213	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8713.5410156	0.0989019	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6116.911909863109	https://www.wis-tns.org/object/2019jrj
@@ -941,7 +941,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8727.5361328	0.0999309	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6126.736491962091	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8730.3349609	0.1078658	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6128.70127125307	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8733.1347656	0.1091847	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6130.666736117935	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8735.9335938	0.1104735	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6132.6315154791155	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8735.9335938	0.1104735	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6132.631515479116	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8738.7324219	0.1086633	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6134.596294770095	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8741.5322266	0.1128105	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6136.561759634959	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8744.3310547	0.0979959	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6138.526538925938	https://www.wis-tns.org/object/2019jrj
@@ -1004,7 +1004,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8903.875	0.0689908	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6250.5265005265	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8906.6738281	0.0561737	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6252.491279817479	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8909.4726562	0.0633835	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6254.456059108458	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8912.2714844	0.0762921	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6256.4208384696385	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8912.2714844	0.0762921	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6256.420838469639	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8915.0703125	0.0720661	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6258.385617760618	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8917.8701172	0.0753789	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6260.351082625482	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8920.6689453	0.0873289	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6262.3158619164615	https://www.wis-tns.org/object/2019jrj
@@ -1022,7 +1022,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8954.2568359	0.0042188	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6285.894584696384	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8957.0566406	0.0059442	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6287.860049561249	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8959.8554688	0.0138565	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6289.824828922428	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8962.6542969	0.0471046	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6291.7896082134075	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8962.6542969	0.0471046	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6291.789608213408	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8965.453125	0.0679333	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6293.754387504387	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8968.2519531	0.1092738	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6295.719166795367	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8971.0507812	0.1251666	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6297.683946086346	https://www.wis-tns.org/object/2019jrj
@@ -1032,7 +1032,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	8982.2470703	0.0987122	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6305.543748894348	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8985.0458984	0.0806215	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6307.508528185327	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8987.8447266	0.0329473	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6309.473307546507	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	8990.6435547	0.0159253	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6311.4380868374865	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	8990.6435547	0.0159253	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6311.438086837487	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8993.4433594	0.0304152	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6313.403551702351	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8996.2421875	0.0412482	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6315.36833099333	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	8999.0410156	0.0524801	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6317.333110284309	https://www.wis-tns.org/object/2019jrj
@@ -1051,12 +1051,12 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9035.4277344	0.0760083	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6342.8766124254125	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9038.2275391	0.0605567	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6344.842077290277	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9041.0263672	0.0607684	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6346.806856581256	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9043.8251953	0.0757434	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6348.7716358722355	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9043.8251953	0.0757434	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6348.771635872236	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9046.625	0.0714677	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6350.7371007371	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9049.4238281	0.064532	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6352.701880028079	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9052.2226562	0.0612883	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6354.666659319058	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9055.0214844	0.0641964	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6356.631438680239	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9057.8212891	0.0763863	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6358.5969035451035	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9057.8212891	0.0763863	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6358.596903545104	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9060.6201172	0.0759384	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6360.561682836083	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9063.4189453	0.0630606	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6362.526462127062	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9066.2177734	0.0627031	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6364.491241418041	https://www.wis-tns.org/object/2019jrj
@@ -1084,7 +1084,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9127.7958984	0.0550521	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6407.719128395927	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9130.5947266	0.0563258	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6409.683907757108	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9133.3935547	0.0540661	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6411.648687048087	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9136.1933594	0.0524558	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6413.6141519129515	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9136.1933594	0.0524558	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6413.614151912952	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9138.9921875	0.0589001	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6415.578931203931	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9141.7910156	0.0557064	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6417.54371049491	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9144.5898438	0.044742	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6419.50848985609	https://www.wis-tns.org/object/2019jrj
@@ -1132,7 +1132,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9262.1494141	0.0415834	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6502.03539073359	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9264.9482422	0.0381273	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6504.000170024569	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9267.7470703	0.0364349	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6505.964949315548	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9270.5458984	0.0337824	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6507.9297286065275	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9270.5458984	0.0337824	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6507.929728606528	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9273.3447266	0.0232716	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6509.894507967708	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9276.1445312	0.0154184	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6511.859972762372	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9278.9433594	0.0222865	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6513.824752123552	https://www.wis-tns.org/object/2019jrj
@@ -1144,7 +1144,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9295.7373047	-0.0070885	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6525.614113513513	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9298.5361328	0.0004791	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6527.578892804492	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9301.3349609	0.0076683	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6529.543672095471	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9304.1337891	0.0090025	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6531.5084514566515	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9304.1337891	0.0090025	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6531.508451456652	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9306.9335938	0.0214949	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6533.473916321516	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9309.7324219	0.0190829	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6535.438695612495	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9312.53125	0.0296761	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6537.4034749034745	https://www.wis-tns.org/object/2019jrj
@@ -1166,7 +1166,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9357.3154297	0.685726	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6568.8420004914005	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9360.1142578	0.4290408	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6570.80677978238	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9362.9140625	0.2068516	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6572.772244647244	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9365.7128906	0.072757	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6574.7370239382235	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9365.7128906	0.072757	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6574.737023938224	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9368.5117188	0.0324977	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6576.701803299403	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9371.3105469	0.0758924	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6578.666582590382	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9374.109375	0.1163183	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6580.631361881361	https://www.wis-tns.org/object/2019jrj
@@ -1194,7 +1194,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9435.6884766	-0.0776931	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6623.859934433134	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9438.4873047	-0.0781647	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6625.824713724113	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9441.2861328	-0.0979525	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6627.789493015092	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9444.0849609	-0.0748983	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6629.7542723060715	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9444.0849609	-0.0748983	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6629.754272306072	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9446.8837891	-0.0418542	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6631.719051667252	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9449.6826172	-0.0044335	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6633.683830958231	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9452.4814453	0.0079355	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6635.64861024921	https://www.wis-tns.org/object/2019jrj
@@ -1254,15 +1254,15 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9603.6289062	0.0772533	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6741.754233906633	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9606.4277344	0.0536081	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6743.719013267813	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9609.2265625	0.0486994	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6745.683792558792	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9612.0253906	0.0593905	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6747.6485718497715	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9612.0253906	0.0593905	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6747.648571849772	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9614.8251953	0.0590976	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6749.614036714636	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9617.6240234	0.0571485	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6751.578816005615	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9620.4228516	0.0544946	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6753.543595366795	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9623.2226562	0.049387	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6755.509060161459	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9626.0214844	0.0563189	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6757.4738395226395	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9626.0214844	0.0563189	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6757.47383952264	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9628.8203125	0.0663477	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6759.438618813619	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9631.6191406	0.0667023	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6761.403398104598	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9634.4189453	0.0686405	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6763.3688629694625	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9634.4189453	0.0686405	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6763.368862969463	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9637.2177734	0.0556806	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6765.333642260442	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9640.0166016	0.0401961	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6767.298421621621	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9642.8154297	0.0397302	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6769.263200912601	https://www.wis-tns.org/object/2019jrj
@@ -1287,7 +1287,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9695.9970703	0.0241792	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6806.596749947349	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9698.7958984	0.0193674	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6808.561529238328	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9701.5947266	0.0604198	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6810.526308599508	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9704.3935547	0.0691505	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6812.4910878904875	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9704.3935547	0.0691505	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6812.491087890488	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9707.1923828	0.066464	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6814.455867181467	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9709.9912109	0.0437644	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6816.420646472446	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9712.7900391	0.0609817	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6818.385425833626	https://www.wis-tns.org/object/2019jrj
@@ -1320,7 +1320,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9788.3642578	0.1747004	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6871.43858041418	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9791.1630859	0.1684668	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6873.403359705159	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9793.9628906	0.2023061	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6875.368824570024	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9796.7617188	0.2161831	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6877.3336039312035	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9796.7617188	0.2161831	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6877.333603931204	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9799.5605469	0.164528	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6879.298383222183	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9802.359375	0.1572779	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6881.263162513162	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9805.1582031	0.1286949	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6883.227941804141	https://www.wis-tns.org/object/2019jrj
@@ -1355,7 +1355,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9886.3300781	0.1663876	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6940.210655036854	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9889.1289062	0.1890851	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6942.1754343278335	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9891.9277344	0.1856151	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6944.140213689014	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9894.7275391	0.1579602	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6946.1056785538785	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9894.7275391	0.1579602	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6946.105678553879	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9897.5263672	0.156106	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6948.070457844858	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9900.3251953	0.1100204	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6950.035237135837	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9903.1240234	0.1027203	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6952.000016426816	https://www.wis-tns.org/object/2019jrj
@@ -1383,7 +1383,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	9964.7021484	0.2417656	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6995.227903404702	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9967.5009766	0.2093206	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6997.192682765883	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9970.2998047	0.1803948	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	6999.157462056862	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	9973.0996094	0.1543353	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7001.1229269217265	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	9973.0996094	0.1543353	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7001.122926921727	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9975.8984375	0.1789444	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7003.087706212706	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9978.6972656	0.1945727	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7005.052485503685	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	9981.4960938	0.1946983	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7007.017264864865	https://www.wis-tns.org/object/2019jrj
@@ -1397,7 +1397,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	10003.8886719	0.1697749	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7022.73687041067	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10006.6875	0.1173929	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7024.701649701649	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10009.4863281	0.0960453	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7026.666428992628	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	10012.2851562	0.0763651	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7028.6312082836075	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	10012.2851562	0.0763651	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7028.631208283608	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10015.0849609	0.1137367	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7030.596673148472	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10017.8837891	0.1047748	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7032.561452509653	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10020.6826172	0.0343002	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7034.526231800632	https://www.wis-tns.org/object/2019jrj
@@ -1411,7 +1411,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	10043.0751953	0.027824	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7050.245837346437	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10045.8740234	0.0491099	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7052.210616637416	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10048.6728516	0.0732423	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7054.175395998595	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	10051.4716797	0.0766065	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7056.1401752895745	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	10051.4716797	0.0766065	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7056.140175289575	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10054.2714844	0.1044565	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7058.10564015444	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10057.0703125	0.0991375	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7060.070419445419	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10059.8691406	0.1103248	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7062.035198736398	https://www.wis-tns.org/object/2019jrj
@@ -1430,7 +1430,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	10096.2568359	0.0152851	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7087.579386381186	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10099.0556641	0.0072472	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7089.544165742365	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10101.8544922	-0.000558	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7091.508945033344	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	10104.6533203	-0.0014721	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7093.4737243243235	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	10104.6533203	-0.0014721	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7093.473724324324	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10107.4521484	-0.005582	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7095.438503615303	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10110.2509766	-0.0096394	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7097.403282976483	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10113.0507812	-0.0092038	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7099.368747771147	https://www.wis-tns.org/object/2019jrj
@@ -1489,7 +1489,7 @@ date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
 2019-02-03T00:00:00	10261.3984375	0.0163812	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7203.508906633906	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10264.1972656	0.0163809	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7205.473685924885	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10266.9960938	0.0168768	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7207.438465286065	https://www.wis-tns.org/object/2019jrj
-2019-02-03T00:00:00	10269.7949219	0.0173772	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7209.4032445770445	https://www.wis-tns.org/object/2019jrj
+2019-02-03T00:00:00	10269.7949219	0.0173772	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7209.403244577044	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10272.5947266	0.0178757	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7211.368709441909	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10275.3935547	0.0183785	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7213.333488732888	https://www.wis-tns.org/object/2019jrj
 2019-02-03T00:00:00	10278.1923828	0.0188826	0.4245	VLT-UT1 FORS2 0	utc	angstroms	uncalibrated	19.12704861111111	days	observer	NaN	7215.298268023867	https://www.wis-tns.org/object/2019jrj

@@ -1,8 +1,8 @@
-time	freq	flux_density	flux_density_limit	dflux_density	time_unit	freq_unit	flux_density_unit	dtime	time_frame
-2.815	1.26	0.144	0	0.017	days	GHz	milliJy	NaN	observer
-9.71	1.26	0.303	0	0.012	days	GHz	milliJy	NaN	observer
-49.69	1.26	0.153	0	0.015	days	GHz	milliJy	NaN	observer
-68.669	1.26	0.162	0	0.012	days	GHz	milliJy	NaN	observer
-21.752	0.65	0.104	0	0.03	days	GHz	milliJy	NaN	observer
-48.544	0.65	0.12	0	0.0	days	GHz	milliJy	NaN	observer
-66.565	0.65	0.18	0	0.0	days	GHz	milliJy	NaN	observer
+time	freq	flux_density	flux_density_limit	dflux_density	time_unit	freq_unit	flux_density_unit	dtime	time_frame	instrument
+2.815	1.26	0.144	0	0.017	days	GHz	milliJy	NaN	observer	uGMRT
+9.71	1.26	0.303	0	0.012	days	GHz	milliJy	NaN	observer	uGMRT
+49.69	1.26	0.153	0	0.015	days	GHz	milliJy	NaN	observer	uGMRT
+68.669	1.26	0.162	0	0.012	days	GHz	milliJy	NaN	observer	uGMRT
+21.752	0.65	0.104	0	0.03	days	GHz	milliJy	NaN	observer	uGMRT
+48.544	0.65	0.12	0	0.0	days	GHz	milliJy	NaN	observer	uGMRT
+66.565	0.65	0.18	0	0.0	days	GHz	milliJy	NaN	observer	uGMRT

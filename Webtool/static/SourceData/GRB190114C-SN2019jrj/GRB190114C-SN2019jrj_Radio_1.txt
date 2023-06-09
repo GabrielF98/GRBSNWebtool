@@ -1,59 +1,59 @@
-time	freq	flux_density	flux_density_limit	dflux_density	time_unit	freq_unit	flux_density_unit	dtime	time_frame
-3.291	45.0	1.311	0	0.101	days	GHz	milliJy	NaN	observer
-9.334	45.0	0.547	0	0.127	days	GHz	milliJy	NaN	observer
-10.331	45.0	0.516	0	0.143	days	GHz	milliJy	NaN	observer
-12.321	45.0	0.113	0	0.0	days	GHz	milliJy	NaN	observer
-20.377	45.0	0.094	0	0.0	days	GHz	milliJy	NaN	observer
-3.291	43.0	1.491	0	0.085	days	GHz	milliJy	NaN	observer
-9.334	43.0	0.583	0	0.084	days	GHz	milliJy	NaN	observer
-10.331	43.0	0.534	0	0.11	days	GHz	milliJy	NaN	observer
-12.321	43.0	0.403	0	0.104	days	GHz	milliJy	NaN	observer
-20.377	43.0	0.362	0	0.088	days	GHz	milliJy	NaN	observer
-3.322	19.0	2.81	0	0.059	days	GHz	milliJy	NaN	observer
-5.332	19.0	2.44	0	0.2	days	GHz	milliJy	NaN	observer
-9.366	19.0	2.73	0	0.054	days	GHz	milliJy	NaN	observer
-10.362	19.0	2.0	0	0.07	days	GHz	milliJy	NaN	observer
-16.328	19.0	1.18	0	0.031	days	GHz	milliJy	NaN	observer
-35.43	19.0	0.732	0	0.028	days	GHz	milliJy	NaN	observer
-1.455	18.0	2.0	0	0.8	days	GHz	milliJy	NaN	observer
-3.322	18.0	2.53	0	0.28	days	GHz	milliJy	NaN	observer
-5.332	18.0	2.06	0	0.26	days	GHz	milliJy	NaN	observer
-9.366	18.0	1.82	0	0.078	days	GHz	milliJy	NaN	observer
-10.362	18.0	1.82	0	0.12	days	GHz	milliJy	NaN	observer
-16.328	18.0	0.77	0	0.05	days	GHz	milliJy	NaN	observer
-35.43	18.0	0.52	0	0.09	days	GHz	milliJy	NaN	observer
-52.338	18.0	0.48	0	0.0	days	GHz	milliJy	NaN	observer
-3.322	17.0	3.18	0	0.037	days	GHz	milliJy	NaN	observer
-5.332	17.0	2.995	0	0.068	days	GHz	milliJy	NaN	observer
-9.366	17.0	2.081	0	0.033	days	GHz	milliJy	NaN	observer
-10.362	17.0	2.13	0	0.03	days	GHz	milliJy	NaN	observer
-12.352	17.0	1.05	0	0.15	days	GHz	milliJy	NaN	observer
-16.328	17.0	1.142	0	0.01	days	GHz	milliJy	NaN	observer
-24.422	17.0	0.56	0	0.08	days	GHz	milliJy	NaN	observer
-35.43	17.0	0.614	0	0.032	days	GHz	milliJy	NaN	observer
-1.424	9.0	1.82	0	0.04	days	GHz	milliJy	NaN	observer
-3.489	9.0	2.08	0	0.04	days	GHz	milliJy	NaN	observer
-5.301	9.0	2.23	0	0.045	days	GHz	milliJy	NaN	observer
-9.334	9.0	1.58	0	0.017	days	GHz	milliJy	NaN	observer
-10.331	9.0	1.5	0	0.021	days	GHz	milliJy	NaN	observer
-16.297	9.0	0.927	0	0.019	days	GHz	milliJy	NaN	observer
-20.377	9.0	0.802	0	0.016	days	GHz	milliJy	NaN	observer
-24.262	9.0	0.56	0	0.05	days	GHz	milliJy	NaN	observer
-35.315	9.0	0.42	0	0.02	days	GHz	milliJy	NaN	observer
-52.307	9.0	0.24	0	0.02	days	GHz	milliJy	NaN	observer
-72.515	9.0	0.15	0	0.01	days	GHz	milliJy	NaN	observer
-119.282	9.0	0.108	0	0.015	days	GHz	milliJy	NaN	observer
-138.217	9.0	0.094	0	0.014	days	GHz	milliJy	NaN	observer
-1.424	5.5	1.93	0	0.03	days	GHz	milliJy	NaN	observer
-3.489	5.5	1.14	0	0.03	days	GHz	milliJy	NaN	observer
-5.301	5.5	1.77	0	0.037	days	GHz	milliJy	NaN	observer
-9.334	5.5	2.21	0	0.032	days	GHz	milliJy	NaN	observer
-10.331	5.5	1.2	0	0.031	days	GHz	milliJy	NaN	observer
-16.297	5.5	0.735	0	0.023	days	GHz	milliJy	NaN	observer
-20.377	5.5	0.72	0	0.018	days	GHz	milliJy	NaN	observer
-24.262	5.5	0.67	0	0.04	days	GHz	milliJy	NaN	observer
-35.315	5.5	0.48	0	0.03	days	GHz	milliJy	NaN	observer
-52.307	5.5	0.34	0	0.02	days	GHz	milliJy	NaN	observer
-72.515	5.5	0.24	0	0.02	days	GHz	milliJy	NaN	observer
-119.282	5.5	0.14	0	0.015	days	GHz	milliJy	NaN	observer
-138.217	5.5	0.126	0	0.013	days	GHz	milliJy	NaN	observer
+time	freq	flux_density	flux_density_limit	dflux_density	time_unit	freq_unit	flux_density_unit	dtime	time_frame	instrument
+3.291	45.0	1.311	0	0.101	days	GHz	milliJy	NaN	observer	ATCA
+9.334	45.0	0.547	0	0.127	days	GHz	milliJy	NaN	observer	ATCA
+10.331	45.0	0.516	0	0.143	days	GHz	milliJy	NaN	observer	ATCA
+12.321	45.0	0.113	0	0.0	days	GHz	milliJy	NaN	observer	ATCA
+20.377	45.0	0.094	0	0.0	days	GHz	milliJy	NaN	observer	ATCA
+3.291	43.0	1.491	0	0.085	days	GHz	milliJy	NaN	observer	ATCA
+9.334	43.0	0.583	0	0.084	days	GHz	milliJy	NaN	observer	ATCA
+10.331	43.0	0.534	0	0.11	days	GHz	milliJy	NaN	observer	ATCA
+12.321	43.0	0.403	0	0.104	days	GHz	milliJy	NaN	observer	ATCA
+20.377	43.0	0.362	0	0.088	days	GHz	milliJy	NaN	observer	ATCA
+3.322	19.0	2.81	0	0.059	days	GHz	milliJy	NaN	observer	ATCA
+5.332	19.0	2.44	0	0.2	days	GHz	milliJy	NaN	observer	ATCA
+9.366	19.0	2.73	0	0.054	days	GHz	milliJy	NaN	observer	ATCA
+10.362	19.0	2.0	0	0.07	days	GHz	milliJy	NaN	observer	ATCA
+16.328	19.0	1.18	0	0.031	days	GHz	milliJy	NaN	observer	ATCA
+35.43	19.0	0.732	0	0.028	days	GHz	milliJy	NaN	observer	ATCA
+1.455	18.0	2.0	0	0.8	days	GHz	milliJy	NaN	observer	ATCA
+3.322	18.0	2.53	0	0.28	days	GHz	milliJy	NaN	observer	ATCA
+5.332	18.0	2.06	0	0.26	days	GHz	milliJy	NaN	observer	ATCA
+9.366	18.0	1.82	0	0.078	days	GHz	milliJy	NaN	observer	ATCA
+10.362	18.0	1.82	0	0.12	days	GHz	milliJy	NaN	observer	ATCA
+16.328	18.0	0.77	0	0.05	days	GHz	milliJy	NaN	observer	ATCA
+35.43	18.0	0.52	0	0.09	days	GHz	milliJy	NaN	observer	ATCA
+52.338	18.0	0.48	0	0.0	days	GHz	milliJy	NaN	observer	ATCA
+3.322	17.0	3.18	0	0.037	days	GHz	milliJy	NaN	observer	ATCA
+5.332	17.0	2.995	0	0.068	days	GHz	milliJy	NaN	observer	ATCA
+9.366	17.0	2.081	0	0.033	days	GHz	milliJy	NaN	observer	ATCA
+10.362	17.0	2.13	0	0.03	days	GHz	milliJy	NaN	observer	ATCA
+12.352	17.0	1.05	0	0.15	days	GHz	milliJy	NaN	observer	ATCA
+16.328	17.0	1.142	0	0.01	days	GHz	milliJy	NaN	observer	ATCA
+24.422	17.0	0.56	0	0.08	days	GHz	milliJy	NaN	observer	ATCA
+35.43	17.0	0.614	0	0.032	days	GHz	milliJy	NaN	observer	ATCA
+1.424	9.0	1.82	0	0.04	days	GHz	milliJy	NaN	observer	ATCA
+3.489	9.0	2.08	0	0.04	days	GHz	milliJy	NaN	observer	ATCA
+5.301	9.0	2.23	0	0.045	days	GHz	milliJy	NaN	observer	ATCA
+9.334	9.0	1.58	0	0.017	days	GHz	milliJy	NaN	observer	ATCA
+10.331	9.0	1.5	0	0.021	days	GHz	milliJy	NaN	observer	ATCA
+16.297	9.0	0.927	0	0.019	days	GHz	milliJy	NaN	observer	ATCA
+20.377	9.0	0.802	0	0.016	days	GHz	milliJy	NaN	observer	ATCA
+24.262	9.0	0.56	0	0.05	days	GHz	milliJy	NaN	observer	ATCA
+35.315	9.0	0.42	0	0.02	days	GHz	milliJy	NaN	observer	ATCA
+52.307	9.0	0.24	0	0.02	days	GHz	milliJy	NaN	observer	ATCA
+72.515	9.0	0.15	0	0.01	days	GHz	milliJy	NaN	observer	ATCA
+119.282	9.0	0.108	0	0.015	days	GHz	milliJy	NaN	observer	ATCA
+138.217	9.0	0.094	0	0.014	days	GHz	milliJy	NaN	observer	ATCA
+1.424	5.5	1.93	0	0.03	days	GHz	milliJy	NaN	observer	ATCA
+3.489	5.5	1.14	0	0.03	days	GHz	milliJy	NaN	observer	ATCA
+5.301	5.5	1.77	0	0.037	days	GHz	milliJy	NaN	observer	ATCA
+9.334	5.5	2.21	0	0.032	days	GHz	milliJy	NaN	observer	ATCA
+10.331	5.5	1.2	0	0.031	days	GHz	milliJy	NaN	observer	ATCA
+16.297	5.5	0.735	0	0.023	days	GHz	milliJy	NaN	observer	ATCA
+20.377	5.5	0.72	0	0.018	days	GHz	milliJy	NaN	observer	ATCA
+24.262	5.5	0.67	0	0.04	days	GHz	milliJy	NaN	observer	ATCA
+35.315	5.5	0.48	0	0.03	days	GHz	milliJy	NaN	observer	ATCA
+52.307	5.5	0.34	0	0.02	days	GHz	milliJy	NaN	observer	ATCA
+72.515	5.5	0.24	0	0.02	days	GHz	milliJy	NaN	observer	ATCA
+119.282	5.5	0.14	0	0.015	days	GHz	milliJy	NaN	observer	ATCA
+138.217	5.5	0.126	0	0.013	days	GHz	milliJy	NaN	observer	ATCA
