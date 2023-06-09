@@ -1,4 +1,4 @@
-time	freq	flux_density	flux_density_limit	dflux_density	time_unit	freq_unit	flux_density_unit	telescope	dtime	time_frame
+time	freq	flux_density	flux_density_limit	dflux_density	time_unit	freq_unit	flux_density_unit	instrument	dtime	time_frame
 0.0995	97.5	11.5	0	21.8	days	GHz	milliJy	ALMA	NaN	observer
 0.107	97.5	11.1	0	21.2	days	GHz	milliJy	ALMA	NaN	observer
 0.115	97.5	10.7	0	25.7	days	GHz	milliJy	ALMA	NaN	observer
