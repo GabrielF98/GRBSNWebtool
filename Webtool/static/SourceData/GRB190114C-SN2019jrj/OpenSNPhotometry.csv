@@ -1,5 +1,5 @@
 event,time,magnitude,e_magnitude,band,ra,dec,source,refs
-2019jrj,58498.2236609338,18.2425,0.0236722,i,,,Pan-STARRS 3Pi,"[{'name': 'Pan-STARRS 3Pi', 'url': 'https://www.wis-tns.org/object/2019jrj'}]"
-2019jrj,58498.2346116454,18.2439,0.0245855,i,,,Pan-STARRS 3Pi,"[{'name': 'Pan-STARRS 3Pi', 'url': 'https://www.wis-tns.org/object/2019jrj'}]"
-2019jrj,58498.2455789922,18.2571,0.0252281,i,,,Pan-STARRS 3Pi,"[{'name': 'Pan-STARRS 3Pi', 'url': 'https://www.wis-tns.org/object/2019jrj'}]"
-2019jrj,58498.2565488525,18.2432,0.0246111,i,,,Pan-STARRS 3Pi,"[{'name': 'Pan-STARRS 3Pi', 'url': 'https://www.wis-tns.org/object/2019jrj'}]"
+2019jrj,58498.2236609338,18.2425,0.0236722,i,,,Pan-STARRS 3Pi,"[{'name': 'Transient Name Server', 'url': 'https://www.wis-tns.org/object/2019jrj'}]"
+2019jrj,58498.2346116454,18.2439,0.0245855,i,,,Pan-STARRS 3Pi,"[{'name': 'Transient Name Server', 'url': 'https://www.wis-tns.org/object/2019jrj'}]"
+2019jrj,58498.2455789922,18.2571,0.0252281,i,,,Pan-STARRS 3Pi,"[{'name': 'Transient Name Server', 'url': 'https://www.wis-tns.org/object/2019jrj'}]"
+2019jrj,58498.2565488525,18.2432,0.0246111,i,,,Pan-STARRS 3Pi,"[{'name': 'Transient Name Server', 'url': 'https://www.wis-tns.org/object/2019jrj'}]"
