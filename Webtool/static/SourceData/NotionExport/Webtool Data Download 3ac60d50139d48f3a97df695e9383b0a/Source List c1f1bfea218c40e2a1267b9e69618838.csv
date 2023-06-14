@@ -35,7 +35,7 @@ GRB120422A-SN2012bz,Mostly Completed,Processed,Yes,Yes,No,Yes,No
 GRB120714B-SN2012eb,ADS Exhausted,Processed,Yes,Yes,No,No,Yes
 GRB120729A,ADS Exhausted,Processed,Yes,Yes,No,No,Yes
 GRB130215A-SN2013ez,ADS Exhausted,Processed,No,Yes,No,No,Yes
-GRB130427A-SN2013cq,Completed,Unprocessed,Yes,Yes,Yes,Yes,No
+GRB130427A-SN2013cq,Completed,Processed,Yes,Yes,Yes,Yes,No
 GRB130702A-SN2013dx,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
 GRB130831A-SN2013fu,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 GRB140606B-iPTF14bfu,Mostly Completed,Processed,Yes,Yes,No,Yes,Yes
@@ -45,7 +45,7 @@ GRB161219B-SN2016jca,Completed,Processed,Yes,Yes,Yes,Yes,Yes
 GRB171010A-SN2017htp,Completed,Processed,Yes,Yes,Yes,Yes,Yes
 GRB171205A-SN2017iuk,Completed,Unprocessed,Yes,Yes,Yes,Yes,No
 GRB180728A-SN2018fip,No ADS Data,Unprocessed,Yes,No,Yes,No,No
-GRB190114C-SN2019jrj,Completed,Unprocessed,Yes,Yes,Yes,Yes,No
+GRB190114C-SN2019jrj,Completed,Processed,Yes,Yes,Yes,Yes,No
 GRB190829A-AT2019oyw,Completed,Processed,Yes,Yes,Yes,Yes,Yes
 GRB200826A-SN2020scz,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
 GRB201015A,New Event,Unprocessed,Yes,No,No,No,No
