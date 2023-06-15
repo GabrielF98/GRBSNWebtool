@@ -1,8 +1,8 @@
-time	telescope	flux	flux_limit	dflux	time_unit	flux_units	dtime	time_frame	reference
-119232000.0	XMM–Newton	849.94	0	0.85	seconds	erg/s/cm2/s-1	NaN	observer	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
-402624000.0	XMM–Newton	165.62	0	4.97	seconds	erg/s/cm2/s-1	NaN	observer	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
-1512000000.0	XMM–Newton	26.57	0	2.15	seconds	erg/s/cm2/s-1	NaN	observer	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
-2165184000.0	Chandra	16.74	0	3.16	seconds	erg/s/cm2/s-1	NaN	observer	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
-3137184000.0	Chandra	12.12	0	2.11	seconds	erg/s/cm2/s-1	NaN	observer	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
-5707584000.0	XMM–Newton	5.0	0	0.81	seconds	erg/s/cm2/s-1	NaN	observer	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
-7210080000.0	XMM–Newton	3.54	0	0.84	seconds	cerg/s/cm2/s-1	NaN	observer	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
+time	instrument	flux	flux_limit	dflux	time_unit	flux_units	dtime	time_frame	energy_range	reference
+1380000.0	XMM–Newton	8.4994e-13	0	8.5e-16	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
+4660000.0	XMM–Newton	1.6562e-13	0	4.97e-15	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
+17500000.0	XMM–Newton	2.657e-14	0	2.15e-15	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
+25060000.0	Chandra	1.674e-14	0	3.16e-15	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
+36310000.0	Chandra	1.212e-14	0	2.11e-15	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
+66060000.0	XMM–Newton	5e-15	0	8.1e-16	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
+83450000.0	XMM–Newton	3.54e-15	0	8.4e-16	seconds	cerg/cm^2/sec	NaN	observer	0.3–10keV	https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract

@@ -10,7 +10,9 @@ Filename: GRB130427A-SN2013cq_Optical2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2017ApJ...837..116B/abstract
 Data-type: Optical,Late, NIR, Early
 ---------------------------------------------------------
-Notes: Peak Flux Densities and Absolute Magnitudes for SN 2013cq Shifted to z = 0.34. Removed data for 1998bw. The peak flux desnity and magnitudes by averaging the residuals from days 18 to 26 (post GRB trigger).
+Notes: Peak Flux Densities and Absolute Magnitudes for SN 2013cq and SN 1998bw shifted to z = 0.34. Removed data for 1998bw. The peak flux desnity and magnitudes by averaging the residuals from days 18 to 26 (post GRB trigger). 
+
+GRB-SN have provided the peak times from the paper as the times at which the peak absolute mags were calculated. No estimate of peak time was available for the Infrared bands.
 =========================================================
 Filename: GRB130427A-SN2013cq_Optical3.txt
 Source: https://ui.adsabs.harvard.edu/abs/2014ApJ...792..115L/abstract

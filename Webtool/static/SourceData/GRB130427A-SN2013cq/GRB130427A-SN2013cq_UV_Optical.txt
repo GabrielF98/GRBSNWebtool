@@ -1,4 +1,4 @@
-telescope	time	band	integration	mag	mag_limit	dmag	flux_density	dflux_density	time_unit	integration_unit	mag_unit	mag_type	flux_density_unit	time_frame	extinction_corrected	dtime
+instrument	time	band	integration	mag	mag_limit	dmag	flux_density	dflux_density	time_unit	integration_unit	mag_unit	mag_type	flux_density_unit	time_frame	extinction_corrected	dtime
 UVOT	0.00492	UVW2	19.5	11.044	0	0.04	29499.0	1067.0	days	seconds	AB	apparent	microJy	observer	False	NaN
 UVOT	0.0052	UVV	19.5	12.169	0	0.03	53489.0	1458.0	days	seconds	AB	apparent	microJy	observer	False	NaN
 UVOT	0.00549	UVM2	19.5	11.158	0	0.03	31324.0	854.0	days	seconds	AB	apparent	microJy	observer	False	NaN
