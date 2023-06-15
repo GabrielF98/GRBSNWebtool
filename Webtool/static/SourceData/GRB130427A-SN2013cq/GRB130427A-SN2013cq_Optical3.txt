@@ -1,8 +1,8 @@
-date	time	band	integration	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	mag_type	time_frame	extinction	extinction_corrected	dtime
-2013-May-20	22.78	F336W	1266	23.28	0	0.02	yyyy-month-deciday	days	AB	apparent	observer	0.09	False	NaN
-2013-May-20	22.8	F160W	1048	21.604	0	0.01	yyyy-month-deciday	days	AB	apparent	observer	0.01	False	NaN
-2013-May-20	23.05	F606W	180	21.76	0	0.01	yyyy-month-deciday	days	AB	apparent	observer	0.05	False	NaN
-2013-May-20	23.05	G800L	1880	NaN	0	NaN	yyyy-month-deciday	days	AB	apparent	observer	NaN	False	NaN
-2014-Apr-12	349.82	F336W	2508	26.17	0	0.09	yyyy-month-deciday	days	AB	apparent	observer	0.09	False	NaN
-2014-Apr-18	355.86	F606W	180	25.67	0	0.11	yyyy-month-deciday	days	AB	apparent	observer	0.05	False	NaN
-2014-Apr-18	56765.18459	G800L	1880	NaN	0	NaN	yyyy-month-deciday	days	AB	apparent	observer	NaN	False	NaN
+date	time	band	integration	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	mag_type	time_frame	extinction	extinction_corrected	dtime	instrument
+2013-May-20	22.78	F336W	1266	23.28	0	0.02	yyyy-month-deciday	days	AB	apparent	observer	0.09	False	NaN	HST
+2013-May-20	22.8	F160W	1048	21.604	0	0.01	yyyy-month-deciday	days	AB	apparent	observer	0.01	False	NaN	HST
+2013-May-20	23.05	F606W	180	21.76	0	0.01	yyyy-month-deciday	days	AB	apparent	observer	0.05	False	NaN	HST
+2013-May-20	23.05	G800L	1880	NaN	0	NaN	yyyy-month-deciday	days	AB	apparent	observer	NaN	False	NaN	HST
+2014-Apr-12	349.82	F336W	2508	26.17	0	0.09	yyyy-month-deciday	days	AB	apparent	observer	0.09	False	NaN	HST
+2014-Apr-18	355.86	F606W	180	25.67	0	0.11	yyyy-month-deciday	days	AB	apparent	observer	0.05	False	NaN	HST
+2014-Apr-18	56765.18459	G800L	1880	NaN	0	NaN	yyyy-month-deciday	days	AB	apparent	observer	NaN	False	NaN	HST

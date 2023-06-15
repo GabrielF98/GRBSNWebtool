@@ -1,39 +1,39 @@
-date	time	integration	frequency	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	integration_unit	frequency_units	flux_density_unit	dtime	time_frame
-2013-Apr-28.611-29.110	1.52	12.0	4.8	2500.0	0	25	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2494965277777778	observer
-2013-Apr-29.608-30.001	2.47	9.4	4.8	1424.0	0	24	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1964988425925926	observer
-2013-May-1.651-2.102	4.55	5.4	1.4	283.0	0	711	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2254976851851851	observer
-2013-May-1.651-2.102	4.55	5.4	4.8	746.0	0	37	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2254976851851851	observer
-2013-May-3.660-4.097	6.55	10.5	4.8	523.0	0	43	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2184953703703703	observer
-2013-May-5.592-6.091	8.51	12.0	1.4	375.0	0	44	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2495023148148147	observer
-2013-May-6.592-7.088	9.51	12.0	4.8	389.0	0	31	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2480034722222222	observer
-2013-May-13.570-13.796	16.36	5.4	1.4	351.0	0	85	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1129976851851852	observer
-2013-May-14.567-14.793	17.36	5.4	4.8	322.0	0	41	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1130034722222222	observer
-2013-May-17.559-18.058	20.48	12.0	1.4	293.0	0	53	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2495023148148147	observer
-2013-May-18.557-19.055	21.48	12.0	4.8	286.0	0	28	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2489988425925925	observer
-2013-May-30.524-30.855	33.36	8.0	1.4	284.0	0	143	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1655034722222222	observer
-2013-May-31.521-31.852	34.36	8.0	4.8	207.0	0	34	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1654976851851852	observer
-2013-Jun-25.453-25.951	59.38	12.0	4.8	111.0	0	30	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2489988425925925	observer
-2013-Jun-26.450-26.949	60.37	12.0	1.4	209.0	0	51	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2495023148148148	observer
-2013-Jul-25.371-25.869	89.3	12.0	4.8	105.0	0	36	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2489988425925925	observer
-2013-Jul-29.360-29.858	93.28	12.0	1.4	234.0	0	55	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2490046296296295	observer
-2013-Apr-28.611-28.653	1.31	1.0	4.8	2132.0	0	124	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0210011574074074	observer
-2013-Apr-28.653-28.694	1.35	1.0	4.8	2047.0	0	108	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0204976851851851	observer
-2013-Apr-28.694-28.736	1.39	1.0	4.8	2244.0	0	95	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0210011574074073	observer
-2013-Apr-28.736-28.777	1.43	1.0	4.8	2433.0	0	98	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0204976851851851	observer
-2013-Apr-28.777-28.819	1.47	1.0	4.8	2743.0	0	101	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0210011574074074	observer
-2013-Apr-28.819-28.860	1.51	1.0	4.8	2640.0	0	105	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0204976851851851	observer
-2013-Apr-28.860-28.902	1.56	1.0	4.8	2728.0	0	101	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0210011574074073	observer
-2013-Apr-28.902-28.943	1.6	1.0	4.8	2707.0	0	107	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0205034722222222	observer
-2013-Apr-28.943-28.985	1.64	1.0	4.8	2551.0	0	103	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0209953703703703	observer
-2013-Apr-28.985-29.026	1.68	1.0	4.8	2654.0	0	105	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0205034722222222	observer
-2013-Apr-29.026-29.068	1.72	1.0	4.8	2300.0	0	102	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0210011574074074	observer
-2013-Apr-29.068-29.110	1.76	1.0	4.8	2117.0	0	121	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0209953703703703	observer
-2013-Apr-29.608-29.652	2.31	1.0	4.8	1399.0	0	113	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0219965277777777	observer
-2013-Apr-29.652-29.695	2.35	1.0	4.8	1773.0	0	110	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0215046296296296	observer
-2013-Apr-29.695-29.739	2.39	1.0	4.8	1511.0	0	111	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0219965277777777	observer
-2013-Apr-29.739-29.782	2.43	1.0	4.8	1278.0	0	101	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0214988425925926	observer
-2013-Apr-29.782-29.826	2.48	1.0	4.8	1543.0	0	102	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0220023148148148	observer
-2013-Apr-29.826-29.869	2.52	1.0	4.8	1298.0	0	99	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0214988425925925	observer
-2013-Apr-29.869-29.913	2.57	1.0	4.8	1311.0	0	87	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0220023148148148	observer
-2013-Apr-29.913-29.956	2.61	1.0	4.8	1247.0	0	95	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0214988425925926	observer
-2013-Apr-29.956-30.001	2.65	1.0	4.8	1174.0	0	99	yyyy-month-deciday-deciday	days	hours	GHz	microJyf	0.0224999999999999	observer
+date	time	integration	freq	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	integration_unit	freq_unit	flux_density_unit	dtime	time_frame	instrument
+2013-Apr-28.611-29.110	1.52	12.0	4.8	2500.0	0	25	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2494965277777778	observer	WSRT
+2013-Apr-29.608-30.001	2.47	9.4	4.8	1424.0	0	24	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1964988425925926	observer	WSRT
+2013-May-1.651-2.102	4.55	5.4	1.4	283.0	0	711	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2254976851851851	observer	WSRT
+2013-May-1.651-2.102	4.55	5.4	4.8	746.0	0	37	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2254976851851851	observer	WSRT
+2013-May-3.660-4.097	6.55	10.5	4.8	523.0	0	43	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2184953703703703	observer	WSRT
+2013-May-5.592-6.091	8.51	12.0	1.4	375.0	0	44	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2495023148148147	observer	WSRT
+2013-May-6.592-7.088	9.51	12.0	4.8	389.0	0	31	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2480034722222222	observer	WSRT
+2013-May-13.570-13.796	16.36	5.4	1.4	351.0	0	85	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1129976851851852	observer	WSRT
+2013-May-14.567-14.793	17.36	5.4	4.8	322.0	0	41	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1130034722222222	observer	WSRT
+2013-May-17.559-18.058	20.48	12.0	1.4	293.0	0	53	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2495023148148147	observer	WSRT
+2013-May-18.557-19.055	21.48	12.0	4.8	286.0	0	28	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2489988425925925	observer	WSRT
+2013-May-30.524-30.855	33.36	8.0	1.4	284.0	0	143	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1655034722222222	observer	WSRT
+2013-May-31.521-31.852	34.36	8.0	4.8	207.0	0	34	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.1654976851851852	observer	WSRT
+2013-Jun-25.453-25.951	59.38	12.0	4.8	111.0	0	30	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2489988425925925	observer	WSRT
+2013-Jun-26.450-26.949	60.37	12.0	1.4	209.0	0	51	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2495023148148148	observer	WSRT
+2013-Jul-25.371-25.869	89.3	12.0	4.8	105.0	0	36	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2489988425925925	observer	WSRT
+2013-Jul-29.360-29.858	93.28	12.0	1.4	234.0	0	55	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.2490046296296295	observer	WSRT
+2013-Apr-28.611-28.653	1.31	1.0	4.8	2132.0	0	124	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0210011574074074	observer	WSRT
+2013-Apr-28.653-28.694	1.35	1.0	4.8	2047.0	0	108	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0204976851851851	observer	WSRT
+2013-Apr-28.694-28.736	1.39	1.0	4.8	2244.0	0	95	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0210011574074073	observer	WSRT
+2013-Apr-28.736-28.777	1.43	1.0	4.8	2433.0	0	98	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0204976851851851	observer	WSRT
+2013-Apr-28.777-28.819	1.47	1.0	4.8	2743.0	0	101	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0210011574074074	observer	WSRT
+2013-Apr-28.819-28.860	1.51	1.0	4.8	2640.0	0	105	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0204976851851851	observer	WSRT
+2013-Apr-28.860-28.902	1.56	1.0	4.8	2728.0	0	101	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0210011574074073	observer	WSRT
+2013-Apr-28.902-28.943	1.6	1.0	4.8	2707.0	0	107	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0205034722222222	observer	WSRT
+2013-Apr-28.943-28.985	1.64	1.0	4.8	2551.0	0	103	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0209953703703703	observer	WSRT
+2013-Apr-28.985-29.026	1.68	1.0	4.8	2654.0	0	105	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0205034722222222	observer	WSRT
+2013-Apr-29.026-29.068	1.72	1.0	4.8	2300.0	0	102	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0210011574074074	observer	WSRT
+2013-Apr-29.068-29.110	1.76	1.0	4.8	2117.0	0	121	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0209953703703703	observer	WSRT
+2013-Apr-29.608-29.652	2.31	1.0	4.8	1399.0	0	113	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0219965277777777	observer	WSRT
+2013-Apr-29.652-29.695	2.35	1.0	4.8	1773.0	0	110	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0215046296296296	observer	WSRT
+2013-Apr-29.695-29.739	2.39	1.0	4.8	1511.0	0	111	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0219965277777777	observer	WSRT
+2013-Apr-29.739-29.782	2.43	1.0	4.8	1278.0	0	101	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0214988425925926	observer	WSRT
+2013-Apr-29.782-29.826	2.48	1.0	4.8	1543.0	0	102	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0220023148148148	observer	WSRT
+2013-Apr-29.826-29.869	2.52	1.0	4.8	1298.0	0	99	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0214988425925925	observer	WSRT
+2013-Apr-29.869-29.913	2.57	1.0	4.8	1311.0	0	87	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0220023148148148	observer	WSRT
+2013-Apr-29.913-29.956	2.61	1.0	4.8	1247.0	0	95	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0214988425925926	observer	WSRT
+2013-Apr-29.956-30.001	2.65	1.0	4.8	1174.0	0	99	yyyy-month-deciday-deciday	days	hours	GHz	microJy	0.0224999999999999	observer	WSRT

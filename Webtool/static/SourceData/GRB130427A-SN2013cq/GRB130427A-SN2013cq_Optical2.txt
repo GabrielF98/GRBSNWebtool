@@ -1,7 +1,7 @@
-time	band	flux_density	dflux_density	mag	mag_limit	dmag	Unnamed: 6	time_unit	flux_density_units	mag_type	mag_unit	time_frame	extinction_corrected	dtime
-19	g	1.77	0.12	-17.97	0	0.07	days	days	absolute	AB	observer	observer	NaN	NaN
-20	r	2.7	0.28	-18.43	0	0.11	days	days	absolute	AB	observer	observer	NaN	NaN
-21	i	3.59	0.23	-18.74	0	0.07	days	days	absolute	AB	observer	observer	NaN	NaN
-22	Z	2.8	0.87	-18.47	0	0.33	days	days	absolute	AB	observer	observer	NaN	NaN
-23	Y	3.3	1.86	-18.65	0	0.61	days	days	absolute	AB	observer	observer	NaN	NaN
-24	J	2.28	2.69	-18.24	0	0.28	days	days	absolute	AB	observer	observer	NaN	NaN
+time	band	flux_density	dflux_density	mag	mag_limit	dmag	time_unit	flux_density_unit	mag_type	mag_unit	time_frame	extinction_corrected	dtime	instrument
+17.66	g	1.77	0.12	-17.97	0	0.07	days	microJy	absolute	AB	observer	False	NaN	RATIR
+17.33	r	2.7	0.28	-18.43	0	0.11	days	microJy	absolute	AB	observer	False	NaN	RATIR
+22.0	i	3.59	0.23	-18.74	0	0.07	days	microJy	absolute	AB	observer	False	NaN	RATIR
+NaN	Z	2.8	0.87	-18.47	0	0.33	days	microJy	absolute	AB	observer	False	NaN	RATIR
+NaN	Y	3.3	1.86	-18.65	0	0.61	days	microJy	absolute	AB	observer	False	NaN	RATIR
+NaN	J	2.28	2.69	-18.24	0	0.28	days	microJy	absolute	AB	observer	False	NaN	RATIR

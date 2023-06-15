@@ -1,8 +1,8 @@
-time	telescope	flux	flux_limit	dflux	time_unit	flux_units	dtime	time_frame
-1380	XMM–Newton	849.94	0	0.85	days	erg/s/cm2/s-1	NaN	observer
-4660	XMM–Newton	165.62	0	4.97	days	erg/s/cm2/s-1	NaN	observer
-17500	XMM–Newton	26.57	0	2.15	days	erg/s/cm2/s-1	NaN	observer
-25060	Chandra	16.74	0	3.16	days	erg/s/cm2/s-1	NaN	observer
-36310	Chandra	12.12	0	2.11	days	erg/s/cm2/s-1	NaN	observer
-66060	XMM–Newton	5.0	0	0.81	days	erg/s/cm2/s-1	NaN	observer
-83450	XMM–Newton	3.54	0	0.84	days	cerg/s/cm2/s-1	NaN	observer
+time	instrument	flux	flux_limit	dflux	time_unit	flux_units	dtime	time_frame	energy_range
+1380000.0	XMM–Newton	8.4994e-13	0	8.5e-16	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV
+4660000.0	XMM–Newton	1.6562e-13	0	4.97e-15	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV
+17500000.0	XMM–Newton	2.657e-14	0	2.15e-15	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV
+25060000.0	Chandra	1.674e-14	0	3.16e-15	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV
+36310000.0	Chandra	1.212e-14	0	2.11e-15	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV
+66060000.0	XMM–Newton	5e-15	0	8.1e-16	seconds	erg/cm^2/sec	NaN	observer	0.3–10keV
+83450000.0	XMM–Newton	3.54e-15	0	8.4e-16	seconds	cerg/cm^2/sec	NaN	observer	0.3–10keV
