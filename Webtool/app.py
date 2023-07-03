@@ -451,13 +451,38 @@ def event(event_id):
 
     # Find out how many of the references are needed
     needed_dict = {}
+    event_nos = []
+    event_refs = []
     for i in range(len(event)):
         if event[i]['PrimarySources'] != None:
-            needed_dict[event[i]['PrimarySources']
+            
+            
+            # If its not in the list save the citation and the number.
+            if event[i]['PrimarySources'] not in list(needed_dict.keys()):
+                needed_dict[event[i]['PrimarySources']
                         ] = dict_refs[event[i]['PrimarySources']]
+                event_nos.append(
+                    list(needed_dict.keys()).index(event[i]['PrimarySources'])+1)
+                event_refs.append(event[i]['PrimarySources'])
+
+             # If its already in the list theres no need to cite it again we just need the right number.
+            else:
+                event_nos.append(
+                    list(needed_dict.keys()).index(event[i]['PrimarySources'])+1)
+            
         elif event[i]['SecondarySources'] != None:
-            needed_dict[event[i]['SecondarySources']
+            # If its not in the list save the citation and the number.
+            if radec[i]['source'] not in list(needed_dict.keys()):
+                needed_dict[event[i]['SecondarySources']
                         ] = dict_refs2[event[i]['SecondarySources']]
+                event_nos.append(
+                    list(needed_dict.keys()).index(event[i]['SecondarySources'])+1)
+                event_refs.append(event[i]['SecondarySources'])
+
+             # If its already in the list theres no need to cite it again we just need the right number.
+            else:
+                event_nos.append(
+                    list(needed_dict.keys()).index(event[i]['SecondarySources'])+1)
 
     # Add the radec swift stuff to the master dictionary of references for this event.
     radec_refs = []
@@ -1508,7 +1533,7 @@ def event(event_id):
     kwargs['title'] = 'bokeh-with-flask'
 
     # Return everything
-    return render_template('event.html', event=event, event_id=event_id, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=xray_refs, swift_nos=swift_reference_no, optical_refs=optical_refs, radio_refs=rad_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, event_id=event_id, radec=radec, peakmag=peakmag, event_nos=event_nos, event_refs=event_refs, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=xray_refs, swift_nos=swift_reference_no, optical_refs=optical_refs, radio_refs=rad_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
