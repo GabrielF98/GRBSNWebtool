@@ -1,9 +1,10 @@
 ﻿Filename,Status,Reference,Notes
-GRB171205A-SN2017iuk_Radio_1.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract,
-GRB171205A-SN2017iuk_Radio_2.txt,"Early, Radio",https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract,
-GRB171205A-SN2017iuk_Optical_1.csv,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract,Spectra on GRBSpec
-GRB171205A-SN2017iuk_UVOT1.html,"Early, Late, Optical, UV",https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract,
-GRB171205A-SN2017iuk_UVOT2.html,"Optical, UV",https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract,
-GRB171205A-SN2017iuk_UVOT3.html,"Optical, UV",https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract,
-GRB171205A-SN2017iuk_UVOT4.html,"Optical, UV",https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract,
+GRB171205A-SN2017iuk_Radio1.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract,
+GRB171205A-SN2017iuk_Radio2.txt,"Early, Radio",https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract,
+GRB171205A-SN2017iuk_Optical1.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract,Spectra on GRBSpec
+GRB171205A-SN2017iuk_Radio3.txt,"Early, Radio",https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract,
+GRB171205A-SN2017iuk_Optical_UV1.txt,"Early, Late, Optical, UV",https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract,
+GRB171205A-SN2017iuk_Optical_UV2.txt,"Optical, UV",https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract,
+GRB171205A-SN2017iuk_Optical_UV3.txt,"Optical, UV",https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract,
+GRB171205A-SN2017iuk_Optical_UV4.txt,"Optical, UV",https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract,
 GRB171205A-SN2017iuk_Spectra.txt,Spectra,https://www.wis-tns.org/object/2017iuk,
