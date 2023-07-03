@@ -1,0 +1,14 @@
+Table 1 
+Log of HST Observations of GRB 130427A
+
+
+Date-obs	MJD-obs	DeltaT	Filter	Exp.	AB-magnitude	
+(yy-mm-dd)	(days)	(s)	
+2013-May-20	56432.10521	22.78	F336W	1266	23.280 +or- 0.02	
+2013-May-20	56432.12503	22.80	F160W	1048	21.604 +or- 0.01	
+2013-May-20	56432.37207	23.05	F606W	180	21.760 +or- 0.01	
+2013-May-20	56432.37603	23.05	G800L	1880	 sdotsdotsdot 	
+2014-Apr-12	56759.14866	349.82	F336W	2508	26.17 +or- 0.09	
+2014-Apr-18	56765.18459	355.86	F606W	180	25.67 +or- 0.11	
+2014-Apr-18	56765.18459	355.86	G800L	1880	 sdotsdotsdot 	
+Notes. Log of HST observations of GRB 130427A. Optical observations were obtained with ACS, while UV and IR imaging was taken with WFC3 in the UVIS and IR channels respectively. The magnitudes shown are for a point source at the GRB location and not for the overall host galaxy + afterglow combination. The magnitudes are corrected for a foreground extinction of A_F336W = 0.090 mag, A_F606W = 0.050 mag, and A_F160W = 0.010 mag. Errors in the magnitudes are only statistical.
