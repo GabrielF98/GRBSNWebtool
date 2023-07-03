@@ -11364,7 +11364,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 2.405	4252.079985	3.780709e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3942.586912378304	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 2.405	4254.139985	2.361795e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3944.496972647195	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 2.405	4256.199985	1.151712e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3946.4070329160872	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
-2.405	4258.259984	1.5606300000000008e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3948.3170922577656	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
+2.405	4258.259984	1.5606300000000013e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3948.3170922577656	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 2.405	4260.319984	1.5013480000000001e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3950.227152526657	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 2.405	4262.379984	3.745135e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3952.1372127955497	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 2.405	4264.439984	2.036848e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3954.047273064441	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
@@ -15212,7 +15212,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.407	4107.879989	4.760808e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3808.88269726472	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 4.407	4109.939989	2.729955e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3810.792757533612	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 4.407	4111.999989	1.800811e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3812.702817802504	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
-4.407	4114.059988	1.6623600000000008e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3814.6128771441818	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
+4.407	4114.059988	1.6623600000000013e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3814.6128771441818	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 4.407	4116.119988	2.123922e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3816.522937413074	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 4.407	4118.179988	1.879748e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3818.432997681965	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 4.407	4120.239988	2.3733980000000002e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3820.3430579508577	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
@@ -15340,7 +15340,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.407	4371.559981	2.546131e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4053.370404265184	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 4.407	4373.619981	2.573191e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4055.280464534075	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 4.407	4375.679981	2.3894630000000002e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4057.190524802967	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
-4.407	4377.739981	1.3108300000000008e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4059.100585071859	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
+4.407	4377.739981	1.3108300000000013e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4059.100585071859	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 4.407	4379.799981	1.316078e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4061.010645340751	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 4.407	4381.859981	4.209536e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4062.9207056096425	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
 4.407	4383.919981	2.594354e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4064.830765878535	https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract

@@ -154,7 +154,8 @@ def get_redshift(event_id):
             'SELECT z FROM SQLDataGRBSNe WHERE GRB=?', (grb_name,))
 
         for redshift in z:
-            if redshift[0] != 0:
+
+            if redshift[0] is not None:
                 z = redshift[0]
 
     # Lone SN cases
@@ -166,7 +167,7 @@ def get_redshift(event_id):
             'SELECT z FROM SQLDataGRBSNe WHERE SNe=?', (sn_name,))
 
         for redshift in z:
-            if redshift[0] != 0:
+            if redshift[0] is not None:
                 z = redshift[0]
 
     conn.close()
@@ -1040,7 +1041,9 @@ def rest_wavelength(obs_wavelength, z):
     """
     Compute a supernova spectrum's rest frame wavelength.
     """
+
     rest_wavelength = obs_wavelength/(1+float(z))
+    
 
     return rest_wavelength
 
@@ -1234,7 +1237,7 @@ def masterfileformat(event):
 ###################
 # Run through all the files. Convert them to the format we want.
 for i in range(len(event_list)):
-    # print('I am now doing folder: ', event_list[i])
+    #print('I am now doing folder: ', event_list[i])
     trigtime = get_trigtime(event_list[i])
     redshift = get_redshift(event_list[i])
 
@@ -1350,6 +1353,7 @@ for i in range(len(event_list)):
                     data = delta_time(data)
 
                 # Calculate the rest wavelength
+               
                 data['rest_wavelength'] = rest_wavelength(
                     data['obs_wavelength'].to_numpy(), redshift)
 
