@@ -1,4 +1,4 @@
-# GRB171205A-SN2017iuk_Optical_1.csv
+# GRB171205A-SN2017iuk_Optical1.txt
 
 Notes: Spectra on GRBSpec
 Reference: https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract

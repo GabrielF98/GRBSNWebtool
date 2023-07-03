@@ -154,7 +154,8 @@ def get_redshift(event_id):
             'SELECT z FROM SQLDataGRBSNe WHERE GRB=?', (grb_name,))
 
         for redshift in z:
-            if redshift[0] != 0:
+
+            if redshift[0] is not None:
                 z = redshift[0]
 
     # Lone SN cases
@@ -166,7 +167,7 @@ def get_redshift(event_id):
             'SELECT z FROM SQLDataGRBSNe WHERE SNe=?', (sn_name,))
 
         for redshift in z:
-            if redshift[0] != 0:
+            if redshift[0] is not None:
                 z = redshift[0]
 
     conn.close()
@@ -960,9 +961,9 @@ def limits(df, wave_range):
     else:
         # Upper limit = 1, Lower limit = -1, Neither = 0
         conditions = [(df[i].str.contains('>')), (df[i].str.contains('<'))]
-        choices = [-1, 1]
+        choices = [int(-1), int(1)]
         df.insert(df.columns.get_loc(i)+1, i+str('_limit'),
-                  np.select(conditions, choices, default=0))
+                  np.select(conditions, choices, default=int(0)))
 
         # Replace any < or > there may be
         df[i] = df[i].str.replace('<', '')
@@ -1040,7 +1041,9 @@ def rest_wavelength(obs_wavelength, z):
     """
     Compute a supernova spectrum's rest frame wavelength.
     """
+
     rest_wavelength = obs_wavelength/(1+float(z))
+    
 
     return rest_wavelength
 
@@ -1234,7 +1237,7 @@ def masterfileformat(event):
 ###################
 # Run through all the files. Convert them to the format we want.
 for i in range(len(event_list)):
-    # print('I am now doing folder: ', event_list[i])
+    #print('I am now doing folder: ', event_list[i])
     trigtime = get_trigtime(event_list[i])
     redshift = get_redshift(event_list[i])
 
@@ -1260,6 +1263,10 @@ for i in range(len(event_list)):
                 if 'flux_density_limit' not in list(data.keys()) and \
                         'flux_limit' not in list(data.keys()):
                     data = limits(data, file)
+                elif 'flux_density_limit' in list(data.keys()):
+                    data['flux_density_limit'] = data['flux_density_limit'].astype(int)
+                elif 'flux_limit' in list(data.keys()):
+                    data['flux_limit'] = data['flux_limit'].astype(int)
 
                 # Tag any non-detections.
                 data = nondetections(data, file)
@@ -1294,6 +1301,8 @@ for i in range(len(event_list)):
                 # Find and catalogue limit values
                 if 'mag_limit' not in list(data.keys()):
                     data = limits(data, file)
+                elif 'mag_limit' in list(data.keys()):
+                    data['mag_limit'] = data['mag_limit'].astype(int)
 
                 # Tag any non-detections.
                 data = nondetections(data, file)
@@ -1318,6 +1327,8 @@ for i in range(len(event_list)):
                 # Find and catalogue limit values
                 if 'flux_limit' not in list(data.keys()):
                     data = limits(data, file)
+                elif 'flux_limit' in list(data.keys()):
+                    data['flux_limit'] = data['flux_limit'].astype(int)
 
                 # Tag any non-detections.
                 data = nondetections(data, file)
@@ -1350,6 +1361,7 @@ for i in range(len(event_list)):
                     data = delta_time(data)
 
                 # Calculate the rest wavelength
+               
                 data['rest_wavelength'] = rest_wavelength(
                     data['obs_wavelength'].to_numpy(), redshift)
 
