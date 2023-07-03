@@ -1,90 +1,91 @@
-date	band	freq	time	flux_density	flux_density_limit	dflux_denity	date_unit	freq_unit	time_unit	flux_density_unit	dtime	time_frame	reference	instrument	dflux_density	polarisation	position_angle
-2017-Dec-10.10	5	1255.0	4.79	0.07	0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2017-Dec-11.02	4	648.0	5.71	0.06	0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2017-Dec-19.91	5	1265.0	14.6	0.64	0	0.05	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2017-Dec-26.90	5	1265.0	21.59	1.0	0	0.07	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2017-Dec-28.91	4	607.0	23.6	0.39	0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Jan-16.94	5	1265.0	42.63	1.75	0	0.05	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Feb-12.85	5	1370.0	68.54	3.04	0	0.09	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Feb-17.85	4	607.0	73.54	1.37	0	0.15	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Mar-20.68	5	1352.0	105.37	5.79	0	0.08	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Jun-8.44	3	402.0	185.13	2.94	0	0.41	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Jun-10.68	5	1255.0	187.37	3.07	0	0.11	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Jun-11.42	4	745.0	188.11	2.46	0	0.49	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Jul-13.47	5	1250.0	220.16	3.55	0	0.12	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Jul-15.35	4	610.0	222.04	3.13	0	0.18	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Jul-23.35	3	402.0	230.04	2.3	0	0.22	yyyy-month-dxeciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Jul-26.57	5	1265.0	233.26	2.6	0	0.08	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Jul-28.35	4	750.0	235.0	2.92	0	0.31	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Aug-24.32	5	1265.0	262.01	3.32	0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Aug-25.22	4	607.0	262.91	1.06	0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Sep-21.35	5	1265.0	290.04	3.03	0	0.1	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Sep-23.16	3	402.0	291.85	2.01	0	0.15	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Oct-20.28	5	1250.0	319.0	3.18	0	0.13	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Oct-26.09	3	400.0	324.78	1.77	0	0.27	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Oct-26.33	4	607.0	325.02	2.61	0	0.26	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Dec-21.88	3	402.0	381.57	1.61	0	0.31	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Dec-22.02	5	1255.0	381.71	2.83	0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2018-Dec-22.14	4	610.0	381.83	1.52	0	0.17	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-Feb-26.98	4	610.0	448.67	1.52	0	0.21	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-Feb-26.70	3	402.0	448.39	1.05	0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-Feb-26.87	5	1250.0	448.56	1.87	0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-May-13.49	5	1250.0	524.18	1.74	0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-May-13.62	3	402.0	524.31	1.43	0	0.26	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-May-13.77	4	607.0	524.46	2.09	0	0.18	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-Sep-10.16	5	1250.0	643.85	1.74	0	0.03	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-Sep-10.31	3	402.0	644.0	1.67	0	0.21	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-Sep-10.43	4	750.0	644.12	1.93	0	0.1	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-Dec-9.91	4	647.0	734.6	1.38	0	0.12	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-Dec-10.02	5	1265.0	734.71	1.71	0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2019-Dec-10.19	3	402.0	734.88	1.3	0	0.17	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2020-Jun-26.37	4	648.0	934.06	1.29	0	0.11	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2020-Jun-26.49	5	1255.0	934.18	1.23	0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-2020-Jun-29.44	3	402.0	937.13	1.12	0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN	NaN	NaN
-NaN	NaN	5.0	4.306	2.41	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	VLA	0.12	NaN	NaN
-NaN	NaN	7.1	4.306	4.32	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	VLA	0.05	NaN	NaN
-NaN	NaN	8.5	4.306	5.71	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	VLA	0.05	NaN	NaN
-NaN	NaN	11.0	4.306	8.42	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	VLA	0.06	NaN	NaN
-NaN	NaN	13.5	4.306	11.26	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	VLA	0.09	NaN	NaN
-NaN	NaN	16.0	4.306	14.01	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	VLA	0.11	NaN	NaN
-NaN	NaN	230.0	1.496	53.6	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	SMA	0.9	NaN	NaN
-NaN	NaN	230.0	2.412	48.4	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	SMA	0.6	NaN	NaN
-NaN	NaN	230.0	3.478	41.2	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	SMA	0.8	NaN	NaN
-NaN	NaN	230.0	4.272	30.0	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	SMA	0.7	NaN	NaN
-NaN	NaN	230.0	8.398	11.1	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	SMA	1.0	NaN	NaN
-NaN	NaN	230.0	11.033	8.9	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	SMA	0.4	NaN	NaN
-NaN	NaN	345.0	3.478	21.9	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	SMA	2.3	NaN	NaN
-NaN	NaN	345.0	5.126	17.0	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	ACA	0.8	NaN	NaN
-NaN	NaN	345.0	7.069	12.9	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	ACA	0.1	NaN	NaN
-NaN	NaN	345.0	8.398	15.8	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	SMA	NaN	NaN	NaN
-NaN	NaN	345.0	11.18	6.9	0	NaN	NaN	GHz	days	milliJy	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	ACA	0.3	NaN	NaN
-2017-Dec-10-10:23-13:17	I	97.5	5.187	31.944	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.44	0.27	-71.3
-2017-Dec-10-10:23-13:17	Q	97.5	5.187	-0.069	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.009	0.27	-71.0
-2017-Dec-10-10:23-13:17	U	97.5	5.187	-0.053	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.011	0.27	-71.0
-2017-Dec-10-10:23-13:17	I	90.5	5.187	32.719	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.413	0.3	-67.9
-2017-Dec-10-10:23-13:17	Q	90.5	5.187	-0.07	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.01	0.3	-67.9
-2017-Dec-10-10:23-13:17	U	90.5	5.187	-0.069	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.02	0.3	-67.9
-2017-Dec-10-10:23-13:17	I	92.4	5.187	32.514	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.365	0.32	-78.1
-2017-Dec-10-10:23-13:17	Q	92.4	5.187	-0.094	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.026	0.32	-78.1
-2017-Dec-10-10:23-13:17	U	92.4	5.187	0.014	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.32	-78.1
-2017-Dec-10-10:23-13:17	I	102.5	5.187	31.172	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.399	0.35	-71.3
-2017-Dec-10-10:23-13:17	Q	102.5	5.187	-0.086	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.025	0.35	-71.3
-2017-Dec-10-10:23-13:17	U	102.5	5.187	-0.066	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.018	0.35	-71.3
-2017-Dec-10-10:23-13:17	I	104.5	5.187	30.898	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.412	0.31	-58.0
-2017-Dec-10-10:23-13:17	Q	104.5	5.187	-0.043	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.012	0.31	-58.0
-2017-Dec-10-10:23-13:17	U	104.5	5.187	-0.087	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.029	0.31	-58.0
-2017-Dec-16-11:14-14:33	I	97.5	11.231	15.705	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.09	0.27	NaN
-2017-Dec-16-11:14-14:33	Q	97.5	11.231	0.01	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.27	NaN
-2017-Dec-16-11:14-14:33	U	97.5	11.231	0.01	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.27	NaN
-2017-Dec-16-11:14-14:33	I	90.5	11.231	16.171	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.106	0.52	NaN
-2017-Dec-16-11:14-14:33	Q	90.5	11.231	0.02	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.52	NaN
-2017-Dec-16-11:14-14:33	U	90.5	11.231	0.02	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.52	NaN
-2017-Dec-16-11:14-14:33	I	92.4	11.231	16.054	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.11	0.52	NaN
-2017-Dec-16-11:14-14:33	Q	92.4	11.231	0.019	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.52	NaN
-2017-Dec-16-11:14-14:33	U	92.4	11.231	0.019	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.52	NaN
-2017-Dec-16-11:14-14:33	I	102.5	11.231	15.37	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.113	0.52	NaN
-2017-Dec-16-11:14-14:33	Q	102.5	11.231	0.019	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.52	NaN
-2017-Dec-16-11:14-14:33	U	102.5	11.231	0.019	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.52	NaN
-2017-Dec-16-11:14-14:33	I	104.5	11.231	15.206	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	0.111	0.54	NaN
-2017-Dec-16-11:14-14:33	Q	104.5	11.231	0.019	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.54	NaN
-2017-Dec-16-11:14-14:33	U	104.5	11.231	0.019	0	NaN	yyyy-month-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN	0.54	NaN
+date	band	freq	time	flux_density	flux_density_limit	dflux_density	date_unit	freq_unit	time_unit	flux_density_unit	dtime	time_frame	instrument	reference	polarisation	position_angle
+2017-Dec-10.10	5	1255.0	4.79	0.07	0.0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2017-Dec-11.02	4	648.0	5.71	0.06	0.0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2017-Dec-19.91	5	1265.0	14.6	0.64	0.0	0.05	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2017-Dec-26.90	5	1265.0	21.59	1.0	0.0	0.07	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2017-Dec-28.91	4	607.0	23.6	0.39	0.0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Jan-16.94	5	1265.0	42.63	1.75	0.0	0.05	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Feb-12.85	5	1370.0	68.54	3.04	0.0	0.09	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Feb-17.85	4	607.0	73.54	1.37	0.0	0.15	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Mar-20.68	5	1352.0	105.37	5.79	0.0	0.08	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Jun-8.44	3	402.0	185.13	2.94	0.0	0.41	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Jun-10.68	5	1255.0	187.37	3.07	0.0	0.11	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Jun-11.42	4	745.0	188.11	2.46	0.0	0.49	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Jul-13.47	5	1250.0	220.16	3.55	0.0	0.12	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Jul-15.35	4	610.0	222.04	3.13	0.0	0.18	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Jul-23.35	3	402.0	230.04	2.3	0.0	0.22	yyyy-month-dxeciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Jul-26.57	5	1265.0	233.26	2.6	0.0	0.08	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Jul-28.35	4	750.0	235.0	2.92	0.0	0.31	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Aug-24.32	5	1265.0	262.01	3.32	0.0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Aug-25.22	4	607.0	262.91	1.06	0.0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Sep-21.35	5	1265.0	290.04	3.03	0.0	0.1	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Sep-23.16	3	402.0	291.85	2.01	0.0	0.15	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Oct-20.28	5	1250.0	319.0	3.18	0.0	0.13	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Oct-26.09	3	400.0	324.78	1.77	0.0	0.27	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Oct-26.33	4	607.0	325.02	2.61	0.0	0.26	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Dec-21.88	3	402.0	381.57	1.61	0.0	0.31	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Dec-22.02	5	1255.0	381.71	2.83	0.0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2018-Dec-22.14	4	610.0	381.83	1.52	0.0	0.17	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-Feb-26.98	4	610.0	448.67	1.52	0.0	0.21	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-Feb-26.70	3	402.0	448.39	1.05	0.0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-Feb-26.87	5	1250.0	448.56	1.87	0.0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-May-13.49	5	1250.0	524.18	1.74	0.0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-May-13.62	3	402.0	524.31	1.43	0.0	0.26	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-May-13.77	4	607.0	524.46	2.09	0.0	0.18	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-Sep-10.16	5	1250.0	643.85	1.74	0.0	0.03	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-Sep-10.31	3	402.0	644.0	1.67	0.0	0.21	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-Sep-10.43	4	750.0	644.12	1.93	0.0	0.1	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-Dec-9.91	4	647.0	734.6	1.38	0.0	0.12	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-Dec-10.02	5	1265.0	734.71	1.71	0.0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2019-Dec-10.19	3	402.0	734.88	1.3	0.0	0.17	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2020-Jun-26.37	4	648.0	934.06	1.29	0.0	0.11	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2020-Jun-26.49	5	1255.0	934.18	1.23	0.0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+2020-Jun-29.44	3	402.0	937.13	1.12	0.0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+NaN	uGMRT	NaN	NaN	NaN	NaN	NaN	NaN	NaN	days	NaN	NaN	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract	NaN	NaN
+NaN	NaN	5.0	4.306	2.41	0.0	0.12	NaN	GHz	days	milliJy	NaN	observer	VLA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	7.1	4.306	4.32	0.0	0.05	NaN	GHz	days	milliJy	NaN	observer	VLA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	8.5	4.306	5.71	0.0	0.05	NaN	GHz	days	milliJy	NaN	observer	VLA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	11.0	4.306	8.42	0.0	0.06	NaN	GHz	days	milliJy	NaN	observer	VLA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	13.5	4.306	11.26	0.0	0.09	NaN	GHz	days	milliJy	NaN	observer	VLA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	16.0	4.306	14.01	0.0	0.11	NaN	GHz	days	milliJy	NaN	observer	VLA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	230.0	1.496	53.6	0.0	0.9	NaN	GHz	days	milliJy	NaN	observer	SMA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	230.0	2.412	48.4	0.0	0.6	NaN	GHz	days	milliJy	NaN	observer	SMA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	230.0	3.478	41.2	0.0	0.8	NaN	GHz	days	milliJy	NaN	observer	SMA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	230.0	4.272	30.0	0.0	0.7	NaN	GHz	days	milliJy	NaN	observer	SMA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	230.0	8.398	11.1	0.0	1.0	NaN	GHz	days	milliJy	NaN	observer	SMA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	230.0	11.033	8.9	0.0	0.4	NaN	GHz	days	milliJy	NaN	observer	SMA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	345.0	3.478	21.9	0.0	2.3	NaN	GHz	days	milliJy	NaN	observer	SMA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	345.0	5.126	17.0	0.0	0.8	NaN	GHz	days	milliJy	NaN	observer	ACA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	345.0	7.069	12.9	0.0	0.1	NaN	GHz	days	milliJy	NaN	observer	ACA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	345.0	8.398	15.8	0.0	NaN	NaN	GHz	days	milliJy	NaN	observer	SMA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+NaN	NaN	345.0	11.18	6.9	0.0	0.3	NaN	GHz	days	milliJy	NaN	observer	ACA	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	NaN	NaN
+2017-Dec-10-10:23-13:17	I	97.5	5.187	31.944	0.0	0.44	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.27	-71.3
+2017-Dec-10-10:23-13:17	Q	97.5	5.187	-0.069	0.0	0.009	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.27	-71.0
+2017-Dec-10-10:23-13:17	U	97.5	5.187	-0.053	0.0	0.011	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.27	-71.0
+2017-Dec-10-10:23-13:17	I	90.5	5.187	32.719	0.0	0.413	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.3	-67.9
+2017-Dec-10-10:23-13:17	Q	90.5	5.187	-0.07	0.0	0.01	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.3	-67.9
+2017-Dec-10-10:23-13:17	U	90.5	5.187	-0.069	0.0	0.02	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.3	-67.9
+2017-Dec-10-10:23-13:17	I	92.4	5.187	32.514	0.0	0.365	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.32	-78.1
+2017-Dec-10-10:23-13:17	Q	92.4	5.187	-0.094	0.0	0.026	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.32	-78.1
+2017-Dec-10-10:23-13:17	U	92.4	5.187	0.014	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.32	-78.1
+2017-Dec-10-10:23-13:17	I	102.5	5.187	31.172	0.0	0.399	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.35	-71.3
+2017-Dec-10-10:23-13:17	Q	102.5	5.187	-0.086	0.0	0.025	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.35	-71.3
+2017-Dec-10-10:23-13:17	U	102.5	5.187	-0.066	0.0	0.018	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.35	-71.3
+2017-Dec-10-10:23-13:17	I	104.5	5.187	30.898	0.0	0.412	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.31	-58.0
+2017-Dec-10-10:23-13:17	Q	104.5	5.187	-0.043	0.0	0.012	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.31	-58.0
+2017-Dec-10-10:23-13:17	U	104.5	5.187	-0.087	0.0	0.029	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0604166666666666	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.31	-58.0
+2017-Dec-16-11:14-14:33	I	97.5	11.231	15.705	0.0	0.09	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.27	NaN
+2017-Dec-16-11:14-14:33	Q	97.5	11.231	0.01	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.27	NaN
+2017-Dec-16-11:14-14:33	U	97.5	11.231	0.01	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.27	NaN
+2017-Dec-16-11:14-14:33	I	90.5	11.231	16.171	0.0	0.106	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.52	NaN
+2017-Dec-16-11:14-14:33	Q	90.5	11.231	0.02	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.52	NaN
+2017-Dec-16-11:14-14:33	U	90.5	11.231	0.02	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.52	NaN
+2017-Dec-16-11:14-14:33	I	92.4	11.231	16.054	0.0	0.11	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.52	NaN
+2017-Dec-16-11:14-14:33	Q	92.4	11.231	0.019	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.52	NaN
+2017-Dec-16-11:14-14:33	U	92.4	11.231	0.019	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.52	NaN
+2017-Dec-16-11:14-14:33	I	102.5	11.231	15.37	0.0	0.113	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.52	NaN
+2017-Dec-16-11:14-14:33	Q	102.5	11.231	0.019	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.52	NaN
+2017-Dec-16-11:14-14:33	U	102.5	11.231	0.019	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.52	NaN
+2017-Dec-16-11:14-14:33	I	104.5	11.231	15.206	0.0	0.111	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.54	NaN
+2017-Dec-16-11:14-14:33	Q	104.5	11.231	0.019	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.54	NaN
+2017-Dec-16-11:14-14:33	U	104.5	11.231	0.019	0.0	NaN	yyyy-mm-dd-hh:mm-hh:mm	GHz	days	milliJy	0.0690972222222222	observer	NaN	https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract	0.54	NaN

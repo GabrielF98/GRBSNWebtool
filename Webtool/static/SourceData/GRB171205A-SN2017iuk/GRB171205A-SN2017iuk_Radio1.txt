@@ -1,43 +1,44 @@
-date	band	freq	time	flux_density	flux_density_limit	dflux_denity	date_unit	freq_unit	time_unit	flux_density_unit	dtime	time_frame
-2017-Dec-10.10	5	1255	4.79	0.07	0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2017-Dec-11.02	4	648	5.71	0.06	0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2017-Dec-19.91	5	1265	14.6	0.64	0	0.05	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2017-Dec-26.90	5	1265	21.59	1.0	0	0.07	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2017-Dec-28.91	4	607	23.6	0.39	0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Jan-16.94	5	1265	42.63	1.75	0	0.05	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Feb-12.85	5	1370	68.54	3.04	0	0.09	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Feb-17.85	4	607	73.54	1.37	0	0.15	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Mar-20.68	5	1352	105.37	5.79	0	0.08	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Jun-8.44	3	402	185.13	2.94	0	0.41	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Jun-10.68	5	1255	187.37	3.07	0	0.11	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Jun-11.42	4	745	188.11	2.46	0	0.49	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Jul-13.47	5	1250	220.16	3.55	0	0.12	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Jul-15.35	4	610	222.04	3.13	0	0.18	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Jul-23.35	3	402	230.04	2.3	0	0.22	yyyy-month-dxeciday	MHz	days	milliJy	NaN	observer
-2018-Jul-26.57	5	1265	233.26	2.6	0	0.08	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Jul-28.35	4	750	235.0	2.92	0	0.31	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Aug-24.32	5	1265	262.01	3.32	0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Aug-25.22	4	607	262.91	1.06	0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Sep-21.35	5	1265	290.04	3.03	0	0.1	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Sep-23.16	3	402	291.85	2.01	0	0.15	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Oct-20.28	5	1250	319.0	3.18	0	0.13	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Oct-26.09	3	400	324.78	1.77	0	0.27	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Oct-26.33	4	607	325.02	2.61	0	0.26	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Dec-21.88	3	402	381.57	1.61	0	0.31	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Dec-22.02	5	1255	381.71	2.83	0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2018-Dec-22.14	4	610	381.83	1.52	0	0.17	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-Feb-26.98	4	610	448.67	1.52	0	0.21	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-Feb-26.70	3	402	448.39	1.05	0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-Feb-26.87	5	1250	448.56	1.87	0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-May-13.49	5	1250	524.18	1.74	0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-May-13.62	3	402	524.31	1.43	0	0.26	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-May-13.77	4	607	524.46	2.09	0	0.18	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-Sep-10.16	5	1250	643.85	1.74	0	0.03	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-Sep-10.31	3	402	644.0	1.67	0	0.21	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-Sep-10.43	4	750	644.12	1.93	0	0.1	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-Dec-9.91	4	647	734.6	1.38	0	0.12	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-Dec-10.02	5	1265	734.71	1.71	0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2019-Dec-10.19	3	402	734.88	1.3	0	0.17	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2020-Jun-26.37	4	648	934.06	1.29	0	0.11	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2020-Jun-26.49	5	1255	934.18	1.23	0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
-2020-Jun-29.44	3	402	937.13	1.12	0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer
+date	band	freq	time	flux_density	flux_density_limit	dflux_density	date_unit	freq_unit	time_unit	flux_density_unit	dtime	time_frame	instrument
+2017-Dec-10.10	5	1255.0	4.79	0.07	0.0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2017-Dec-11.02	4	648.0	5.71	0.06	0.0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2017-Dec-19.91	5	1265.0	14.6	0.64	0.0	0.05	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2017-Dec-26.90	5	1265.0	21.59	1.0	0.0	0.07	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2017-Dec-28.91	4	607.0	23.6	0.39	0.0	NaN	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Jan-16.94	5	1265.0	42.63	1.75	0.0	0.05	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Feb-12.85	5	1370.0	68.54	3.04	0.0	0.09	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Feb-17.85	4	607.0	73.54	1.37	0.0	0.15	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Mar-20.68	5	1352.0	105.37	5.79	0.0	0.08	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Jun-8.44	3	402.0	185.13	2.94	0.0	0.41	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Jun-10.68	5	1255.0	187.37	3.07	0.0	0.11	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Jun-11.42	4	745.0	188.11	2.46	0.0	0.49	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Jul-13.47	5	1250.0	220.16	3.55	0.0	0.12	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Jul-15.35	4	610.0	222.04	3.13	0.0	0.18	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Jul-23.35	3	402.0	230.04	2.3	0.0	0.22	yyyy-month-dxeciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Jul-26.57	5	1265.0	233.26	2.6	0.0	0.08	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Jul-28.35	4	750.0	235.0	2.92	0.0	0.31	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Aug-24.32	5	1265.0	262.01	3.32	0.0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Aug-25.22	4	607.0	262.91	1.06	0.0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Sep-21.35	5	1265.0	290.04	3.03	0.0	0.1	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Sep-23.16	3	402.0	291.85	2.01	0.0	0.15	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Oct-20.28	5	1250.0	319.0	3.18	0.0	0.13	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Oct-26.09	3	400.0	324.78	1.77	0.0	0.27	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Oct-26.33	4	607.0	325.02	2.61	0.0	0.26	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Dec-21.88	3	402.0	381.57	1.61	0.0	0.31	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Dec-22.02	5	1255.0	381.71	2.83	0.0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2018-Dec-22.14	4	610.0	381.83	1.52	0.0	0.17	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-Feb-26.98	4	610.0	448.67	1.52	0.0	0.21	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-Feb-26.70	3	402.0	448.39	1.05	0.0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-Feb-26.87	5	1250.0	448.56	1.87	0.0	0.06	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-May-13.49	5	1250.0	524.18	1.74	0.0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-May-13.62	3	402.0	524.31	1.43	0.0	0.26	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-May-13.77	4	607.0	524.46	2.09	0.0	0.18	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-Sep-10.16	5	1250.0	643.85	1.74	0.0	0.03	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-Sep-10.31	3	402.0	644.0	1.67	0.0	0.21	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-Sep-10.43	4	750.0	644.12	1.93	0.0	0.1	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-Dec-9.91	4	647.0	734.6	1.38	0.0	0.12	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-Dec-10.02	5	1265.0	734.71	1.71	0.0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2019-Dec-10.19	3	402.0	734.88	1.3	0.0	0.17	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2020-Jun-26.37	4	648.0	934.06	1.29	0.0	0.11	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2020-Jun-26.49	5	1255.0	934.18	1.23	0.0	0.04	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+2020-Jun-29.44	3	402.0	937.13	1.12	0.0	0.16	yyyy-month-deciday	MHz	days	milliJy	NaN	observer	uGMRT
+NaN	uGMRT	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
