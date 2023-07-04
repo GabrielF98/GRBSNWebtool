@@ -1,27 +1,21 @@
-Table 1 
-HST Photometry of XRF 100316D/SN 2010bh
-
-
-Filter	t - t_0	Mag	sigma	Calibrated to	
-	(days)		(mag)		
-F336W	8.650	21.86	0.06	AB	
-F336W	15.810	22.80	0.08	AB	
-F336W	24.860	23.56	0.11	AB	
-F336W	47.340	24.05	0.14	AB	
-V	8.663	19.50	0.01	Vega	
-V	15.822	19.81	0.01	Vega	
-V	24.869	20.52	0.02	Vega	
-V	47.352	21.63	0.03	Vega	
-V	137.490	23.07	0.08	Vega	
-i	8.675	19.00	0.01	AB	
-i	15.844	19.12	0.01	AB	
-i	24.881	19.59	0.01	AB	
-i	47.370	20.87	0.02	AB	
-i	137.518	22.70	0.06	AB	
-F125W	8.720	19.89	0.07	AB	
-F125W	15.870	20.09	0.07	AB	
-F125W	25.480	20.10	0.07	AB	
-F160W	8.730	19.93	0.08	AB	
-F160W	15.880	20.18	0.08	AB	
-F160W	25.520	20.32	0.07	AB	
-Note. All magnitudes have been corrected for foreground extinction.
+band	time	mag	dmag	mag_unit	time_unit	time_frame	extinction_corrected	instrument
+F336W	8.650	21.86	0.06	AB	days	observer	true	HST
+F336W	15.810	22.80	0.08	AB	days	observer	true	HST
+F336W	24.860	23.56	0.11	AB	days	observer	true	HST
+F336W	47.340	24.05	0.14	AB	days	observer	true	HST
+V	8.663	19.50	0.01	Vega	days	observer	true	HST
+V	15.822	19.81	0.01	Vega	days	observer	true	HST
+V	24.869	20.52	0.02	Vega	days	observer	true	HST
+V	47.352	21.63	0.03	Vega	days	observer	true	HST
+V	137.490	23.07	0.08	Vega	days	observer	true	HST
+i	8.675	19.00	0.01	AB	days	observer	true	HST
+i	15.844	19.12	0.01	AB	days	observer	true	HST
+i	24.881	19.59	0.01	AB	days	observer	true	HST
+i	47.370	20.87	0.02	AB	days	observer	true	HST
+i	137.518	22.70	0.06	AB	days	observer	true	HST
+F125W	8.720	19.89	0.07	AB	days	observer	true	HST
+F125W	15.870	20.09	0.07	AB	days	observer	true	HST
+F125W	25.480	20.10	0.07	AB	days	observer	true	HST
+F160W	8.730	19.93	0.08	AB	days	observer	true	HST
+F160W	15.880	20.18	0.08	AB	days	observer	true	HST
+F160W	25.520	20.32	0.07	AB	days	observer	true	HST
