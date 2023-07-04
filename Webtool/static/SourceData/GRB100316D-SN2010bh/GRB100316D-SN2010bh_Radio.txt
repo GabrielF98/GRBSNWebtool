@@ -1,15 +1,15 @@
-date	time	flux_density	dflux_density	freq	date_unit	time_unit	time_frame	flux_density_unit	instrument
-2010-Mar-18.35	1.81	<78	NaN	5.4	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Mar-18.35	1.81	<120	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Mar-27.10	10.57	<81	NaN	5.4	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Mar-27.10	10.57	<135	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Apr-4.46	18.93	90	20	5.4	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Apr-4.46	18.93	<63	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Apr-15.40	29.87	128	19	5.4	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Apr-15.40	29.87	81	26	9.0	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Apr-22.50	36.97	68	21	5.4	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Apr-22.50	36.97	<72	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-May-25.40	69.87	50	16	5.4	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-May-25.40	69.87	<60	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Sep-6.77	174.24	<42	NaN	5.4	yyyy-month-deciday	days	observer	microJy	ATCA
-2010-Sep-6.77	174.24	<60	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA
+date	time	flux_density	flux_density_limit	dflux_density	freq	date_unit	time_unit	time_frame	flux_density_unit	instrument	dtime	freq_unit
+2010-Mar-18.35	1.81	78.0	1	NaN	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Mar-18.35	1.81	120.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Mar-27.10	10.57	81.0	1	NaN	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Mar-27.10	10.57	135.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-4.46	18.93	90.0	0	20.0	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-4.46	18.93	63.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-15.40	29.87	128.0	0	19.0	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-15.40	29.87	81.0	0	26.0	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-22.50	36.97	68.0	0	21.0	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-22.50	36.97	72.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-May-25.40	69.87	50.0	0	16.0	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-May-25.40	69.87	60.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Sep-6.77	174.24	42.0	1	NaN	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Sep-6.77	174.24	60.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
