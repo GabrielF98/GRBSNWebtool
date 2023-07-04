@@ -58,7 +58,7 @@ Notes: Polarisation in this case is given in percent. There was errors in the pl
 
 Notes: This file was origionally in radio 2 file but divided into another file due to different headers.
 
-### GRB171205A-SN2017iuk_UV_Optical1.txt
+### GRB171205A-SN2017iuk_Optical_UV1.txt
 
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
@@ -67,20 +67,9 @@ Notes: This file was origionally in radio 2 file but divided into another file d
 
 **Notes:**
 
-Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed.
+Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed. 3 sigma errors on mag and flux were given and removed from data.Additionally, the light curves were adjusted to correct for Galactic extinction, E(B-V)=0.0434 (Schlafly & Finkbeiner 2011). No correction for the host galaxy absorption was performed.
 
-### GRB171205A-SN2017iuk_UV_Optical2.txt
-
-
-**Source:** https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
-
-**Data-type:** Optical, UV
-
-**Notes:**
-
-Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed.
-
-### GRB171205A-SN2017iuk_UV_Optical3.txt
+### GRB171205A-SN2017iuk_Optical_UV2.txt
 
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
@@ -89,9 +78,9 @@ Notes: Removed data on S/N. Times show all the mid-times of observations. Positi
 
 **Notes:**
 
-Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed.
+Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed. 3 sigma errors on mag and flux were given and removed from data.Additionally, the light curves were adjusted to correct for Galactic extinction, E(B-V)=0.0434 (Schlafly & Finkbeiner 2011). No correction for the host galaxy absorption was performed.
 
-### GRB171205A-SN2017iuk_UV_Optical4.txt
+### GRB171205A-SN2017iuk_Optical_UV3.txt
 
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
@@ -100,7 +89,18 @@ Notes: Removed data on S/N. Times show all the mid-times of observations. Positi
 
 **Notes:**
 
-Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed. 3 sigma errors on mag and flux were given and removed from data.
+Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed. 3 sigma errors on mag and flux were given and removed from data.Additionally, the light curves were adjusted to correct for Galactic extinction, E(B-V)=0.0434 (Schlafly & Finkbeiner 2011). No correction for the host galaxy absorption was performed.
+
+### GRB171205A-SN2017iuk_Optical_UV4.txt
+
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
+
+**Data-type:** Optical, UV
+
+**Notes:**
+
+Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed. 3 sigma errors on mag and flux were given and removed from data.Additionally, the light curves were adjusted to correct for Galactic extinction, E(B-V)=0.0434 (Schlafly & Finkbeiner 2011). No correction for the host galaxy absorption was performed.
 
 
 
