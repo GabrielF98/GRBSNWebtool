@@ -1,43 +1,70 @@
-Table 2 
-Ground-based Photometry of XRF 100316D/SN 2010bh
-
-
-Filter	t - t_0	Mag	sigma	Calibrated to	Telescope^a	Filter	t - t_0	Mag	sigma	Calibrated to	Telescope^a	
-	(days)		(mag)				(days)		(mag)			
-B	0.598	20.45	0.03	Vega	GS	R_c	11.015	19.33	0.02	Vega	FTS	
-B	3.489	20.53	0.01	Vega	GS	R_c	11.985	19.32	0.04	Vega	FTS	
-B	5.467	20.22	0.01	Vega	GS	R_c	16.045	19.49	0.04	Vega	FTS	
-B	7.061	20.25	0.05	Vega	FTS	R_c	17.023	19.52	0.02	Vega	FTS	
-B	7.940	20.14	0.03	Vega	FTS	R_c	19.922	19.71	0.02	Vega	FTS	
-B	9.956	20.13	0.03	Vega	FTS	R_c	22.978	19.83	0.02	Vega	FTS	
-B	10.965	20.19	0.06	Vega	FTS	R_c	25.956	20.07	0.03	Vega	FTS	
-B	16.987	21.18	0.07	Vega	FTS	R_c	29.941	20.54	0.04	Vega	FTS	
-B	17.863	21.30	0.05	Vega	FTS	R_c	33.901	20.83	0.04	Vega	FTS	
-B	19.958	21.44	0.13	Vega	FTS	R_c	36.901	21.08	0.07	Vega	FTS	
-B	22.994	21.83	0.11	Vega	FTS	R_c	37.988	21.20	0.13	Vega	FTS	
-B	25.955	21.88	0.16	Vega	FTS	R_c	45.921	21.36	0.08	Vega	FTS	
-B	30.974	22.27	0.10	Vega	FTS	R_c	48.867	21.45	0.07	Vega	FTS	
-B	33.910	22.09	0.14	Vega	FTS	R_c	54.853	21.57	0.07	Vega	FTS	
-V	5.007	19.64	0.02	Vega	FTS	R_c	57.358	21.64	0.07	Vega	FTS	
-V	7.085	19.49	0.03	Vega	FTS	i	0.479	20.04	0.01	AB	GS	
-V	7.956	19.48	0.02	Vega	FTS	i	3.497	19.44	0.01	AB	GS	
-V	8.937	19.47	0.02	Vega	FTS	i	5.002	19.14	0.02	AB	FTS	
-V	9.970	19.47	0.03	Vega	FTS	i	5.475	19.12	0.01	AB	GS	
-V	16.995	19.91	0.04	Vega	FTS	i	8.972	19.04	0.01	AB	FTS	
-V	17.899	19.96	0.02	Vega	FTS	i	16.028	19.12	0.03	AB	FTS	
-V	19.009	20.03	0.07	Vega	FTS	i	17.005	19.18	0.02	AB	FTS	
-V	23.031	20.29	0.04	Vega	FTS	i	18.958	19.27	0.05	AB	FTS	
-V	25.939	20.61	0.04	Vega	FTS	i	19.940	19.34	0.02	AB	FTS	
-V	35.423	21.16	0.06	Vega	FTS	i	23.013	19.55	0.03	AB	FTS	
-R_c	0.466	20.21	0.01	Vega	GS	i	25.977	19.59	0.05	AB	FTS	
-R_c	1.467	20.09	0.01	Vega	GS	i	33.892	20.26	0.08	AB	FTS	
-R_c	2.028	20.03	0.03	Vega	FTS	i	37.014	20.63	0.08	AB	FTS	
-R_c	2.462	19.96	0.01	Vega	GS	i	46.456	20.85	0.07	AB	FTS	
-R_c	2.891	19.87	0.02	Vega	FTS	i	49.393	20.99	0.06	AB	FTS	
-R_c	3.493	19.77	0.01	Vega	GS	i	56.887	21.20	0.09	AB	FTS	
-R_c	5.003	19.47	0.02	Vega	FTS	z	0.470	19.91	0.11	AB	GS	
-R_c	5.471	19.46	0.01	Vega	GS	z	3.490	19.40	0.01	AB	GS	
-R_c	7.891	19.33	0.02	Vega	FTS	z	5.470	19.15	0.01	AB	GS	
-R_c	9.072	19.29	0.02	Vega	FTS							
-Note.
-a Telescope key - FTS: 2 m Faulkes Telescope South; GS: 8.1 m Gemini-South Telescope. All magnitudes have been corrected for foreground extinction.
+band	time	mag	mag_limit	dmag	mag_unit	instrument	time_unit	time_frame	extinction_corrected	dtime
+B	0.598	20.45	0	0.03	Vega	GS	days	observer	True	NaN
+R_c	11.015	19.33	0	0.02	Vega	FTS	days	observer	True	NaN
+B	3.489	20.53	0	0.01	Vega	GS	days	observer	True	NaN
+R_c	11.985	19.32	0	0.04	Vega	FTS	days	observer	True	NaN
+B	5.467	20.22	0	0.01	Vega	GS	days	observer	True	NaN
+R_c	16.045	19.49	0	0.04	Vega	FTS	days	observer	True	NaN
+B	7.061	20.25	0	0.05	Vega	FTS	days	observer	True	NaN
+R_c	17.023	19.52	0	0.02	Vega	FTS	days	observer	True	NaN
+B	7.94	20.14	0	0.03	Vega	FTS	days	observer	True	NaN
+R_c	19.922	19.71	0	0.02	Vega	FTS	days	observer	True	NaN
+B	9.956	20.13	0	0.03	Vega	FTS	days	observer	True	NaN
+R_c	22.978	19.83	0	0.02	Vega	FTS	days	observer	True	NaN
+B	10.965	20.19	0	0.06	Vega	FTS	days	observer	True	NaN
+R_c	25.956	20.07	0	0.03	Vega	FTS	days	observer	True	NaN
+B	16.987	21.18	0	0.07	Vega	FTS	days	observer	True	NaN
+R_c	29.941	20.54	0	0.04	Vega	FTS	days	observer	True	NaN
+B	17.863	21.3	0	0.05	Vega	FTS	days	observer	True	NaN
+R_c	33.901	20.83	0	0.04	Vega	FTS	days	observer	True	NaN
+B	19.958	21.44	0	0.13	Vega	FTS	days	observer	True	NaN
+R_c	36.901	21.08	0	0.07	Vega	FTS	days	observer	True	NaN
+B	22.994	21.83	0	0.11	Vega	FTS	days	observer	True	NaN
+R_c	37.988	21.2	0	0.13	Vega	FTS	days	observer	True	NaN
+B	25.955	21.88	0	0.16	Vega	FTS	days	observer	True	NaN
+R_c	45.921	21.36	0	0.08	Vega	FTS	days	observer	True	NaN
+B	30.974	22.27	0	0.1	Vega	FTS	days	observer	True	NaN
+R_c	48.867	21.45	0	0.07	Vega	FTS	days	observer	True	NaN
+B	33.91	22.09	0	0.14	Vega	FTS	days	observer	True	NaN
+R_c	54.853	21.57	0	0.07	Vega	FTS	days	observer	True	NaN
+V	5.007	19.64	0	0.02	Vega	FTS	days	observer	True	NaN
+R_c	57.358	21.64	0	0.07	Vega	FTS	days	observer	True	NaN
+V	7.085	19.49	0	0.03	Vega	FTS	days	observer	True	NaN
+i	0.479	20.04	0	0.01	AB	GS	days	observer	True	NaN
+V	7.956	19.48	0	0.02	Vega	FTS	days	observer	True	NaN
+i	3.497	19.44	0	0.01	AB	GS	days	observer	True	NaN
+V	8.937	19.47	0	0.02	Vega	FTS	days	observer	True	NaN
+i	5.002	19.14	0	0.02	AB	FTS	days	observer	True	NaN
+V	9.97	19.47	0	0.03	Vega	FTS	days	observer	True	NaN
+i	5.475	19.12	0	0.01	AB	GS	days	observer	True	NaN
+V	16.995	19.91	0	0.04	Vega	FTS	days	observer	True	NaN
+i	8.972	19.04	0	0.01	AB	FTS	days	observer	True	NaN
+V	17.899	19.96	0	0.02	Vega	FTS	days	observer	True	NaN
+i	16.028	19.12	0	0.03	AB	FTS	days	observer	True	NaN
+V	19.009	20.03	0	0.07	Vega	FTS	days	observer	True	NaN
+i	17.005	19.18	0	0.02	AB	FTS	days	observer	True	NaN
+V	23.031	20.29	0	0.04	Vega	FTS	days	observer	True	NaN
+i	18.958	19.27	0	0.05	AB	FTS	days	observer	True	NaN
+V	25.939	20.61	0	0.04	Vega	FTS	days	observer	True	NaN
+i	19.94	19.34	0	0.02	AB	FTS	days	observer	True	NaN
+V	35.423	21.16	0	0.06	Vega	FTS	days	observer	True	NaN
+i	23.013	19.55	0	0.03	AB	FTS	days	observer	True	NaN
+R_c	0.466	20.21	0	0.01	Vega	GS	days	observer	True	NaN
+i	25.977	19.59	0	0.05	AB	FTS	days	observer	True	NaN
+R_c	1.467	20.09	0	0.01	Vega	GS	days	observer	True	NaN
+i	33.892	20.26	0	0.08	AB	FTS	days	observer	True	NaN
+R_c	2.028	20.03	0	0.03	Vega	FTS	days	observer	True	NaN
+i	37.014	20.63	0	0.08	AB	FTS	days	observer	True	NaN
+R_c	2.462	19.96	0	0.01	Vega	GS	days	observer	True	NaN
+i	46.456	20.85	0	0.07	AB	FTS	days	observer	True	NaN
+R_c	2.891	19.87	0	0.02	Vega	FTS	days	observer	True	NaN
+i	49.393	20.99	0	0.06	AB	FTS	days	observer	True	NaN
+R_c	3.493	19.77	0	0.01	Vega	GS	days	observer	True	NaN
+i	56.887	21.2	0	0.09	AB	FTS	days	observer	True	NaN
+R_c	5.003	19.47	0	0.02	Vega	FTS	days	observer	True	NaN
+z	0.47	19.91	0	0.11	AB	GS	days	observer	True	NaN
+R_c	5.471	19.46	0	0.01	Vega	GS	days	observer	True	NaN
+z	3.49	19.4	0	0.01	AB	GS	days	observer	True	NaN
+R_c	7.891	19.33	0	0.02	Vega	FTS	days	observer	True	NaN
+z	5.47	19.15	0	0.01	AB	GS	days	observer	True	NaN
+R_c	9.072	19.29	0	0.02	Vega	FTS	days	observer	True	NaN
