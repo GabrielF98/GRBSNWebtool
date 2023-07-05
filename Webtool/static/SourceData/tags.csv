@@ -36,7 +36,7 @@
 34,GRB120729A,ADS Exhausted,Processed,Yes,Yes,No,No,Yes
 35,GRB130215A-SN2013ez,ADS Exhausted,Processed,No,Yes,No,No,Yes
 36,GRB130427A-SN2013cq,Completed,Processed,Yes,Yes,Yes,Yes,No
-37,GRB130702A-SN2013dx,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
+37,GRB130702A-SN2013dx,Mostly Completed,Processed,Yes,Yes,No,Yes,Yes
 38,GRB130831A-SN2013fu,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 39,GRB140606B-iPTF14bfu,Mostly Completed,Processed,Yes,Yes,No,Yes,Yes
 40,GRB150518A,No ADS Data,Unprocessed,No,No,No,No,No
