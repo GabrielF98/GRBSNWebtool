@@ -1,0 +1,242 @@
+Table 2 
+Imaging Log
+
+
+Filter	Epoch	Telescope	Exp.	AB mag	
+	(days)		(s)		
+${u}^{\prime }$	330.49	Keck/LRIS	203	24.50 +or- 0.14	
+${g}^{\prime }$	1.17	P60	120	18.80 +or- 0.04	
+${g}^{\prime }$	1.26	P60	120	18.86 +or- 0.04	
+${g}^{\prime }$	2.21	P60	270	19.52 +or- 0.04	
+${g}^{\prime }$	3.23	P60	450	20.02 +or- 0.05	
+${g}^{\prime }$	4.19	P60	1260	20.22 +or- 0.04	
+${g}^{\prime }$	5.27	P60	540	20.35 +or- 0.04	
+${g}^{\prime }$	6.28	P60	540	20.31 +or- 0.04	
+${g}^{\prime }$	7.20	P60	720	20.32 +or- 0.04	
+${g}^{\prime }$	9.87	Liverpool	130	20.35 +or- 0.33	
+${g}^{\prime }$	10.87	Liverpool	130	20.39 +or- 0.35	
+${g}^{\prime }$	11.26	P60	720	20.22 +or- 0.05	
+${g}^{\prime }$	11.87	Liverpool	130	20.06 +or- 0.21	
+${g}^{\prime }$	12.18	P60	660	20.23 +or- 0.03	
+${g}^{\prime }$	12.86	Liverpool	130	20.00 +or- 0.23	
+${g}^{\prime }$	13.86	Liverpool	130	20.39 +or- 0.34	
+${g}^{\prime }$	14.18	P60	720	20.31 +or- 0.06	
+${g}^{\prime }$	15.18	P60	720	20.43 +or- 0.07	
+${g}^{\prime }$	16.18	P60	720	20.36 +or- 0.13	
+${g}^{\prime }$	17.87	Liverpool	150	20.32 +or- 0.13	
+${g}^{\prime }$	19.87	Liverpool	150	20.78 +or- 0.19	
+${g}^{\prime }$	21.87	Liverpool	150	20.98 +or- 0.15	
+${g}^{\prime }$	23.87	Liverpool	150	21.25 +or- 0.30	
+${g}^{\prime }$	27.92	Liverpool	150	21.53 +or- 0.07	
+${g}^{\prime }$	29.21	P60	540	21.62 +or- 0.12	
+${g}^{\prime }$	30.19	P60	1080	21.72 +or- 0.09	
+${g}^{\prime }$	34.17	P60	1080	21.84 +or- 0.08	
+${g}^{\prime }$	37.89	Liverpool	450	22.06 +or- 0.08	
+${g}^{\prime }$	39.88	Liverpool	450	22.11 +or- 0.09	
+${g}^{\prime }$	45.88	Liverpool	450	22.64 +or- 0.34	
+${g}^{\prime }$	53.88	Liverpool	150	22.42 +or- 0.07	
+${g}^{\prime }$	58.88	Liverpool	150	22.56 +or- 0.06	
+${g}^{\prime }$	62.87	Liverpool	150	22.60 +or- 0.09	
+${g}^{\prime }$	330.48	Keck/LRIS	203	23.51 +or- 0.03	
+${g}^{\prime }$	632.37	DCT	1200	23.66 +or- 0.04	
+${r}^{\prime }$	0.18	P48	60	17.38 +or- 0.04	
+${r}^{\prime }$	0.21	P48	60	17.52 +or- 0.04	
+${r}^{\prime }$	1.26	P60	360	18.66 +or- 0.05	
+${r}^{\prime }$	2.16	RATIR	7600	19.23 +or- 0.06	
+${r}^{\prime }$	2.21	P60	420	19.32 +or- 0.04	
+${r}^{\prime }$	3.21	RATIR	5040	19.67 +or- 0.04	
+${r}^{\prime }$	3.25	P60	120	19.70 +or- 0.08	
+${r}^{\prime }$	4.18	P60	1320	19.97 +or- 0.04	
+${r}^{\prime }$	4.21	RATIR	5360	19.88 +or- 0.05	
+${r}^{\prime }$	5.21	RATIR	4960	19.95 +or- 0.05	
+${r}^{\prime }$	5.27	P60	540	20.00 +or- 0.04	
+${r}^{\prime }$	6.20	RATIR	4880	19.94 +or- 0.05	
+${r}^{\prime }$	6.27	P60	540	20.04 +or- 0.04	
+${r}^{\prime }$	7.19	RATIR	2640	19.90 +or- 0.05	
+${r}^{\prime }$	7.19	P60	720	20.06 +or- 0.04	
+${r}^{\prime }$	8.22	RATIR	3920	19.82 +or- 0.05	
+${r}^{\prime }$	9.87	Liverpool	130	19.86 +or- 0.07	
+${r}^{\prime }$	10.87	Liverpool	130	19.69 +or- 0.07	
+${r}^{\prime }$	11.25	P60	660	19.82 +or- 0.02	
+${r}^{\prime }$	11.87	Liverpool	130	19.73 +or- 0.07	
+${r}^{\prime }$	12.18	P60	660	19.78 +or- 0.04	
+${r}^{\prime }$	12.22	RATIR	2880	19.70 +or- 0.04	
+${r}^{\prime }$	12.87	Liverpool	130	19.74 +or- 0.08	
+${r}^{\prime }$	13.16	RATIR	1280	19.68 +or- 0.05	
+${r}^{\prime }$	13.87	Liverpool	130	19.68 +or- 0.10	
+${r}^{\prime }$	14.18	P60	660	19.70 +or- 0.04	
+${r}^{\prime }$	14.18	RATIR	3760	19.68 +or- 0.07	
+${r}^{\prime }$	15.16	RATIR	5280	19.70 +or- 0.05	
+${r}^{\prime }$	15.17	P60	660	19.64 +or- 0.04	
+${r}^{\prime }$	15.87	Liverpool	150	19.80 +or- 0.07	
+${r}^{\prime }$	16.17	P60	660	19.76 +or- 0.08	
+${r}^{\prime }$	17.87	Liverpool	150	19.83 +or- 0.03	
+${r}^{\prime }$	19.87	Liverpool	150	19.92 +or- 0.04	
+${r}^{\prime }$	21.88	Liverpool	150	20.00 +or- 0.03	
+${r}^{\prime }$	23.87	Liverpool	150	20.20 +or- 0.02	
+${r}^{\prime }$	25.17	RATIR	4560	20.16 +or- 0.07	
+${r}^{\prime }$	26.15	RATIR	2160	20.22 +or- 0.05	
+${r}^{\prime }$	27.15	RATIR	5200	20.31 +or- 0.05	
+${r}^{\prime }$	27.91	Liverpool	150	20.42 +or- 0.03	
+${r}^{\prime }$	28.16	RATIR	5120	20.38 +or- 0.05	
+${r}^{\prime }$	29.15	RATIR	5200	20.52 +or- 0.06	
+${r}^{\prime }$	29.19	P60	540	20.49 +or- 0.05	
+${r}^{\prime }$	30.18	P60	540	20.54 +or- 0.06	
+${r}^{\prime }$	30.19	RATIR	3120	20.63 +or- 0.06	
+${r}^{\prime }$	31.15	RATIR	3920	20.62 +or- 0.15	
+${r}^{\prime }$	32.15	RATIR	4960	20.73 +or- 0.06	
+${r}^{\prime }$	34.16	P60	540	20.87 +or- 0.07	
+${r}^{\prime }$	35.17	RATIR	3680	20.96 +or- 0.06	
+${r}^{\prime }$	37.88	Liverpool	150	21.22 +or- 0.04	
+${r}^{\prime }$	39.88	Liverpool	150	21.27 +or- 0.06	
+${r}^{\prime }$	41.16	RATIR	3840	21.25 +or- 0.08	
+${r}^{\prime }$	45.15	RATIR	2080	21.33 +or- 0.12	
+${r}^{\prime }$	45.87	Liverpool	150	21.46 +or- 0.14	
+${r}^{\prime }$	46.15	RATIR	3120	21.36 +or- 0.11	
+${r}^{\prime }$	47.88	Liverpool	150	21.42 +or- 0.15	
+${r}^{\prime }$	53.87	Liverpool	150	21.75 +or- 0.06	
+${r}^{\prime }$	58.87	Liverpool	150	21.81 +or- 0.06	
+${r}^{\prime }$	62.86	Liverpool	150	21.80 +or- 0.10	
+R	330.48	Keck/LRIS	200	23.26 +or- 0.06	
+${r}^{\prime }$	632.39	DCT	1200	23.15 +or- 0.04	
+${i}^{\prime }$	1.17	P60	120	18.42 +or- 0.04	
+${i}^{\prime }$	1.26	P60	120	18.56 +or- 0.06	
+${i}^{\prime }$	2.16	RATIR	7600	19.09 +or- 0.07	
+${i}^{\prime }$	2.21	P60	420	19.12 +or- 0.04	
+${i}^{\prime }$	3.21	RATIR	5040	19.59 +or- 0.06	
+${i}^{\prime }$	3.24	P60	450	19.64 +or- 0.05	
+${i}^{\prime }$	4.17	P60	1320	19.97 +or- 0.06	
+${i}^{\prime }$	4.21	RATIR	5360	19.93 +or- 0.06	
+${i}^{\prime }$	5.21	RATIR	4960	20.05 +or- 0.12	
+${i}^{\prime }$	5.26	P60	540	20.13 +or- 0.05	
+${i}^{\prime }$	6.20	RATIR	4880	20.13 +or- 0.09	
+${i}^{\prime }$	6.27	P60	660	20.09 +or- 0.05	
+${i}^{\prime }$	7.18	P60	660	20.17 +or- 0.05	
+${i}^{\prime }$	7.19	RATIR	3280	20.07 +or- 0.17	
+${i}^{\prime }$	8.22	RATIR	3920	20.10 +or- 0.07	
+${i}^{\prime }$	9.87	Liverpool	130	19.93 +or- 0.13	
+${i}^{\prime }$	10.87	Liverpool	130	19.86 +or- 0.16	
+${i}^{\prime }$	11.17	P60	180	19.88 +or- 0.11	
+${i}^{\prime }$	11.87	Liverpool	130	19.87 +or- 0.15	
+${i}^{\prime }$	12.19	P60	660	19.94 +or- 0.04	
+${i}^{\prime }$	12.22	RATIR	2880	19.91 +or- 0.05	
+${i}^{\prime }$	12.87	Liverpool	130	19.94 +or- 0.14	
+${i}^{\prime }$	13.16	RATIR	1280	19.86 +or- 0.05	
+${i}^{\prime }$	13.87	Liverpool	130	20.01 +or- 0.21	
+${i}^{\prime }$	14.18	RATIR	3760	19.84 +or- 0.05	
+${i}^{\prime }$	14.19	P60	660	19.86 +or- 0.06	
+${i}^{\prime }$	15.16	RATIR	5280	19.83 +or- 0.05	
+${i}^{\prime }$	15.19	P60	660	19.77 +or- 0.06	
+${i}^{\prime }$	15.87	Liverpool	150	19.91 +or- 0.10	
+${i}^{\prime }$	16.19	P60	660	20.02 +or- 0.10	
+${i}^{\prime }$	17.87	Liverpool	150	19.94 +or- 0.07	
+${i}^{\prime }$	19.87	Liverpool	150	19.88 +or- 0.05	
+${i}^{\prime }$	21.87	Liverpool	150	19.97 +or- 0.04	
+${i}^{\prime }$	23.87	Liverpool	150	20.09 +or- 0.05	
+${i}^{\prime }$	25.17	RATIR	4560	20.04 +or- 0.06	
+${i}^{\prime }$	26.15	RATIR	2160	20.09 +or- 0.05	
+${i}^{\prime }$	27.15	RATIR	5200	20.15 +or- 0.06	
+${i}^{\prime }$	27.91	Liverpool	150	20.18 +or- 0.02	
+${i}^{\prime }$	28.16	RATIR	5120	20.21 +or- 0.05	
+${i}^{\prime }$	29.15	RATIR	5200	20.30 +or- 0.07	
+${i}^{\prime }$	29.22	P60	540	20.31 +or- 0.06	
+${i}^{\prime }$	30.19	RATIR	3120	20.41 +or- 0.07	
+${i}^{\prime }$	30.20	P60	540	20.44 +or- 0.08	
+${i}^{\prime }$	31.15	RATIR	4000	20.43 +or- 0.14	
+${i}^{\prime }$	32.15	RATIR	5440	20.52 +or- 0.07	
+${i}^{\prime }$	34.18	P60	540	20.67 +or- 0.07	
+${i}^{\prime }$	35.17	RATIR	3680	20.68 +or- 0.07	
+${i}^{\prime }$	37.88	Liverpool	150	21.01 +or- 0.05	
+${i}^{\prime }$	39.87	Liverpool	150	21.03 +or- 0.08	
+${i}^{\prime }$	41.16	RATIR	3840	20.88 +or- 0.08	
+${i}^{\prime }$	45.15	RATIR	2080	21.05 +or- 0.11	
+${i}^{\prime }$	45.87	Liverpool	150	21.16 +or- 0.10	
+${i}^{\prime }$	46.15	RATIR	3120	21.12 +or- 0.10	
+${i}^{\prime }$	47.88	Liverpool	150	21.14 +or- 0.13	
+${i}^{\prime }$	53.86	Liverpool	150	21.56 +or- 0.09	
+${i}^{\prime }$	58.86	Liverpool	150	21.65 +or- 0.09	
+${i}^{\prime }$	62.86	Liverpool	150	21.53 +or- 0.12	
+${i}^{\prime }$	632.39	DCT	1200	23.03 +or- 0.06	
+${z}^{\prime }$	2.16	RATIR	5700	18.91 +or- 0.09	
+${z}^{\prime }$	2.21	P60	870	19.02 +or- 0.08	
+${z}^{\prime }$	3.21	RATIR	3780	19.36 +or- 0.07	
+${z}^{\prime }$	3.24	P60	840	19.43 +or- 0.09	
+${z}^{\prime }$	4.19	P60	1320	19.53 +or- 0.10	
+${z}^{\prime }$	4.21	RATIR	4020	19.72 +or- 0.12	
+${z}^{\prime }$	5.20	P60	1020	19.84 +or- 0.12	
+${z}^{\prime }$	5.21	RATIR	3720	19.84 +or- 0.08	
+${z}^{\prime }$	6.20	RATIR	3660	19.94 +or- 0.11	
+${z}^{\prime }$	6.26	P60	540	19.95 +or- 0.12	
+${z}^{\prime }$	7.18	P60	540	20.04 +or- 0.11	
+${z}^{\prime }$	7.19	RATIR	2820	19.71 +or- 0.35	
+${z}^{\prime }$	8.22	RATIR	2940	19.98 +or- 0.13	
+${z}^{\prime }$	9.87	Liverpool	150	20.11 +or- 0.12	
+${z}^{\prime }$	10.87	Liverpool	150	19.99 +or- 0.12	
+${z}^{\prime }$	11.87	Liverpool	150	20.13 +or- 0.11	
+${z}^{\prime }$	12.22	RATIR	2160	19.94 +or- 0.13	
+${z}^{\prime }$	12.87	Liverpool	150	20.02 +or- 0.11	
+${z}^{\prime }$	13.16	RATIR	960	20.02 +or- 0.12	
+${z}^{\prime }$	13.87	Liverpool	150	19.82 +or- 0.13	
+${z}^{\prime }$	14.18	RATIR	2820	19.87 +or- 0.12	
+${z}^{\prime }$	15.16	RATIR	3960	20.01 +or- 0.10	
+${z}^{\prime }$	15.87	Liverpool	150	20.21 +or- 0.20	
+${z}^{\prime }$	17.88	Liverpool	150	20.10 +or- 0.08	
+${z}^{\prime }$	19.88	Liverpool	150	20.08 +or- 0.05	
+${z}^{\prime }$	21.88	Liverpool	150	20.19 +or- 0.06	
+${z}^{\prime }$	23.88	Liverpool	150	20.27 +or- 0.04	
+${z}^{\prime }$	25.17	RATIR	3300	20.46 +or- 0.14	
+${z}^{\prime }$	26.15	RATIR	1560	20.06 +or- 0.13	
+${z}^{\prime }$	27.15	RATIR	3900	20.30 +or- 0.09	
+${z}^{\prime }$	27.90	Liverpool	150	20.33 +or- 0.07	
+${z}^{\prime }$	28.16	RATIR	3780	20.23 +or- 0.09	
+${z}^{\prime }$	29.15	RATIR	3900	20.49 +or- 0.10	
+${z}^{\prime }$	30.19	RATIR	2340	20.44 +or- 0.15	
+${z}^{\prime }$	31.15	RATIR	2940	20.45 +or- 0.11	
+${z}^{\prime }$	32.15	RATIR	4080	20.81 +or- 0.15	
+${z}^{\prime }$	34.15	RATIR	3660	20.87 +or- 0.12	
+${z}^{\prime }$	35.17	RATIR	2820	20.96 +or- 0.14	
+${z}^{\prime }$	37.87	Liverpool	150	21.15 +or- 0.15	
+${z}^{\prime }$	39.87	Liverpool	150	21.33 +or- 0.20	
+${z}^{\prime }$	45.86	Liverpool	150	21.41 +or- 0.30	
+${z}^{\prime }$	53.85	Liverpool	150	21.27 +or- 0.13	
+${z}^{\prime }$	58.85	Liverpool	150	21.60 +or- 0.20	
+${z}^{\prime }$	62.85	Liverpool	150	21.85 +or- 0.29	
+${z}^{\prime }$	632.41	DCT	1200	23.02 +or- 0.12	
+y	2.16	RATIR	5700	18.78 +or- 0.08	
+y	3.21	RATIR	3780	19.23 +or- 0.08	
+y	4.21	RATIR	4020	19.53 +or- 0.09	
+y	5.21	RATIR	3720	19.70 +or- 0.09	
+y	6.20	RATIR	3660	19.79 +or- 0.07	
+y	12.22	RATIR	2160	19.49 +or- 0.10	
+y	13.16	RATIR	960	19.70 +or- 0.13	
+y	14.18	RATIR	2820	19.75 +or- 0.09	
+y	15.16	RATIR	3960	19.73 +or- 0.11	
+y	22.16	RATIR	2340	19.85 +or- 0.13	
+y	25.17	RATIR	3300	19.69 +or- 0.14	
+y	26.15	RATIR	1560	20.00 +or- 0.13	
+y	27.15	RATIR	3900	20.05 +or- 0.09	
+y	28.16	RATIR	3780	20.01 +or- 0.09	
+y	29.15	RATIR	3900	20.03 +or- 0.10	
+y	30.19	RATIR	2340	20.04 +or- 0.11	
+y	31.15	RATIR	2940	20.28 +or- 0.12	
+y	32.15	RATIR	4080	20.00 +or- 0.11	
+y	34.15	RATIR	3660	20.49 +or- 0.14	
+y	35.17	RATIR	2820	20.51 +or- 0.14	
+J	2.16	RATIR	6380	18.75 +or- 0.09	
+J	3.21	RATIR	4230	19.22 +or- 0.07	
+J	4.21	RATIR	4500	19.65 +or- 0.09	
+J	5.21	RATIR	4160	19.64 +or- 0.10	
+J	6.20	RATIR	4090	19.85 +or- 0.10	
+J	14.18	RATIR	3150	20.07 +or- 0.12	
+J	15.16	RATIR	4430	19.86 +or- 0.11	
+J	27.15	RATIR	4360	19.92 +or- 0.13	
+J	28.16	RATIR	4230	20.05 +or- 0.12	
+J	29.15	RATIR	4360	20.23 +or- 0.13	
+J	349.45	Keck/MOSFIRE	132	23.18 +or- 0.32	
+H	2.16	RATIR	6380	18.60 +or- 0.09	
+H	3.21	RATIR	4230	18.96 +or- 0.08	
+H	4.21	RATIR	4500	19.37 +or- 0.11	
+H	5.21	RATIR	4160	19.83 +or- 0.12	
+H	6.20	RATIR	4090	19.89 +or- 0.13	
+K_s	349.44	Keck/MOSFIRE	79	$\gt 22.29$	
+Note. AB magnitudes, not corrected for Galactic extinction.
