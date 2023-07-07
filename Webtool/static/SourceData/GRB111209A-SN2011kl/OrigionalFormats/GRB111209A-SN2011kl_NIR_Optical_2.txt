@@ -1,0 +1,37 @@
+Table 8 
+Ground-based Photometric Observations of the GRB 111209A Afterglow
+
+
+Date-obs	MJD-obs	DeltaT	Telescope	Band	Exp.	Mag	
+(s)	(AB)	
+2011 Dec 9	55905.2060	0.9059	Gemini-N	g	 3 x 60	20.24 +or- 0.04	
+2011 Dec 9	55905.2025	0.9024	Gemini-N	r	 3 x 60	19.82 +or- 0.02	
+2011 Dec 9	55905.1991	0.8990	Gemini-N	i	 3 x 60	19.52 +or- 0.02	
+2011 Dec 9	55905.1956	0.8955	Gemini-N	z	 3 x 60	19.43 +or- 0.02	
+2011 Dec 19	55915.0757	10.7756	Gemini-S	u	 8 x 180	23.41 +or- 0.08	
+2011 Dec 25	55920.0293	15.7292	VLT/FORS2	u	 4 x 300	23.97 +or- 0.10	
+2011 Dec 25	55920.0462	15.7461	VLT/FORS2	i	 8 x 120	22.36 +or- 0.03	
+2011 Dec 25	55920.0610	15.7609	VLT/FORS2	z	 8 x 120	22.18 +or- 0.08	
+2011 Dec 25	55920.0252	15.7251	VLT/HAWKI	J	35 x 60	21.59 +or- 0.04	
+2011 Dec 25	55920.0611	15.7783	VLT/HAWKI	H	35 x 60	21.56 +or- 0.09	
+2011 Dec 25	55920.0974	15.8164	VLT/HAWKI	K	38 x 60	21.19 +or- 0.06	
+2011 Dec 29	55924.0348	19.7347	VLT/FORS2	g	 4 x 250	23.22 +or- 0.02	
+2011 Dec 29	55924.0484	19.7483	VLT/FORS2	R	 4 x 250	22.86 +or- 0.02	
+2012 Jan 2	55928.0362	23.7361	VLT/FORS2	u	 6 x 300	24.50 +or- 0.23	
+2012 Jan 2	55928.0264	23.7263	VLT/HAWKI	J	35 x 60	21.77 +or- 0.04	
+2012 Jan 9	55935.1356	30.8355	VLT/HAWKI	J	35 x 60	22.21 +or- 0.10	
+2012 Jan 14	55940.0406	35.7405	VLT/FORS2	u	 4 x 300	25.29 +or- 0.24	
+2012 Jan 14	55940.0173	35.7172	VLT/HAWKI	J	35 x 60	22.10 +or- 0.05	
+2012 Jan 19	55945.0319	40.7318	VLT/FORS2	u	 9 x 300	25.22 +or- 0.24	
+2012 Jan 19	55945.0241	40.7240	VLT/HAWKI	J	35 x 60	22.43 +or- 0.06	
+2012 Jan 21	55947.0652	42.7651	VLT/FORS2	g	 4 x 250	24.16 +or- 0.04	
+2012 Jan 21	55947.0787	42.7786	VLT/FORS2	R	 4 x 250	23.62 +or- 0.03	
+2012 Jan 21	55947.0351	42.7350	VLT/FORS2	i	 8 x 120	23.05 +or- 0.05	
+2012 Jan 21	55947.0499	42.7497	VLT/FORS2	z	 8 x 120	22.84 +or- 0.11	
+2012 Jan 24	55950.0425	45.7424	VLT/FORS2	u	 9 x 300	25.44 +or- 0.20	
+2012 Jan 24	55950.0275	45.7274	VLT/HAWKI	J	35 x 60	22.45 +or- 0.06	
+2012 Jun 24	56102.4181	198.118	Gemini-S	u	 5 x 300	25.36 +or- 0.25	
+2012 Jun 24	56102.3876	198.088	Gemini-S	g	 5 x 180	25.72 +or- 0.07	
+2012 Jun 24	56102.4012	198.101	Gemini-S	r	 5 x 180	24.94 +or- 0.06	
+2012 November 6	56237.2979	332.998	Gemini-N	J	45 x 60	>24.0	
+Notes. Photometric observations of GRB 111209A obtained at Gemini-N, Gemini-S, and the Very Large Telescope. The magnitudes have not been corrected for Galactic extinction; to do so would require corrections based on Schlafly & Finkbeiner (2011) of A_u = 0.08, A_g = 0.06, A_r = 0.04, A_i = 0.03, A_z = 0.02, A_J = 0.0013, A_H = 0.008, and A_K = 0.005.
