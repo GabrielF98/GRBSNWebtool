@@ -1,0 +1,14 @@
+time	band	integration	mag	mag_limit	dmag	instrument	time_unit	integration_unit	mag_unit	mag_type	time_frame	extinction	extinction_corrected	dtime
+139.3566	u	546.0	20.23	0	0.11	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+187.4401	u	157.0	21.14	0	0.77	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+199.3795	u	157.0	21.24	0	0.58	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+211.8172	u	157.0	21.72	0	0.77	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+223.9091	u	235.5	21.25	0	0.42	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+245.1895	u	156.9	20.82	0	0.55	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+256.7393	u	157.0	21.74	0	2.17	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+286.4793	u	84.7	20.66	0	NaN	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+315.623	u	314.1	21.84	0	0.7	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+332.6649	u	382.4	21.98	0	0.52	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+357.8214	u	844.0	21.78	0	0.51	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+428.4023	u	578.3	22.05	0	0.44	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
+465.3887	u	342.0	21.45	0	0.42	UVOT	seconds	seconds	AB	apparent	observer	0.085	True	NaN
