@@ -1,15 +1,14 @@
 GRB/SN,Filename,Status,Reference
-GRB080319B,GRB080319B_Optical.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2010ApJ...725..625T/abstract
+GRB080319B,GRB080319B_Optical_5.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2010ApJ...725..625T/abstract
 GRB080319B,GRB080319B_Radio_1.txt,"Late, Radio",https://ui.adsabs.harvard.edu/abs/2010ApJ...711..641C/abstract
-GRB080319B,GRB080319B_Radio.html,Radio,https://ui.adsabs.harvard.edu/abs/2009A%26A...504...45P/abstract
-GRB080319B,GRB080319B_NIR.html,"Early, Late, NIR",https://ui.adsabs.harvard.edu/abs/2009A%26A...504...45P/abstract
-GRB080319B,GRB080319B_NIR_1.txt,"Early, NIR",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
-GRB080319B,GRB080319B_NIR_2.txt,"Early, NIR",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
-GRB080319B,GRB080319B_NIR_3.txt,"Early, NIR",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+GRB080319B,GRB080319B_Radio_2.txt,Radio,https://ui.adsabs.harvard.edu/abs/2009A%26A...504...45P/abstract
+GRB080319B,GRB080319B_NIR_Optical_4.txt,"Early, Late, NIR",https://ui.adsabs.harvard.edu/abs/2009A%26A...504...45P/abstract
+GRB080319B,GRB080319B_NIR_Optical_1.txt,"Early, NIR",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+GRB080319B,GRB080319B_NIR_Optical_2.txt,"Early, NIR",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+GRB080319B,GRB080319B_NIR_Optical_3.txt,"Early, NIR",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 GRB080319B,GRB080319B_Optical_1.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 GRB080319B,GRB080319B_Optical_2.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
-GRB080319B,GRB080319B_Optical_UV.txt,"Early, Optical, UV",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+GRB080319B,GRB080319B_Optical_UV_1.txt,"Early, Optical, UV",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 GRB080319B,GRB080319B_Optical_3.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
-GRB080319B,GRB080319B_IR_Optical.txt,"Early, IR, Late, NIR, Optical",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+GRB080319B,GRB080319B_IR_Optical_1.txt,"Early, IR, Late, NIR, Optical",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 GRB080319B,GRB080319B_Optical_4.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2009ApJ...691..495W/abstract
-GRB080319B,GRB080319Bxrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/
