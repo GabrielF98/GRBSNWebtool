@@ -1,118 +1,344 @@
-Table 2 
-RAPTOR Observations of GRB 080319B
-
-
-t_mid (s)	Deltat_exp (s)	C_R (mag)	V (mag)	R (mag)	I (mag)	
-RAPTOR-Q						
-6.87	10.00	8.412 +or- 0.118	 ... 	 ... 	 ... 	
-37.22	10.00	5.497 +or- 0.017	 ... 	 ... 	 ... 	
-60.48	10.00	6.747 +or- 0.035	 ... 	 ... 	 ... 	
-83.81	10.00	7.943 +or- 0.089	 ... 	 ... 	 ... 	
-RAPTOR-P						
-100.31	10.00	8.348 +or- 0.020	 ... 	 ... 	 ... 	
-116.19	10.00	8.758 +or- 0.020	 ... 	 ... 	 ... 	
-132.25	10.00	9.085 +or- 0.021	 ... 	 ... 	 ... 	
-148.22	10.00	9.392 +or- 0.021	 ... 	 ... 	 ... 	
-164.07	10.00	9.591 +or- 0.021	 ... 	 ... 	 ... 	
-179.95	10.00	9.832 +or- 0.021	 ... 	 ... 	 ... 	
-195.98	10.00	9.981 +or- 0.022	 ... 	 ... 	 ... 	
-211.85	10.00	10.151 +or- 0.022	 ... 	 ... 	 ... 	
-228.09	10.00	10.431 +or- 0.023	 ... 	 ... 	 ... 	
-243.72	10.00	10.567 +or- 0.024	 ... 	 ... 	 ... 	
-259.71	10.00	10.715 +or- 0.024	 ... 	 ... 	 ... 	
-275.57	10.00	10.865 +or- 0.026	 ... 	 ... 	 ... 	
-291.53	10.00	11.047 +or- 0.028	 ... 	 ... 	 ... 	
-307.18	10.00	11.248 +or- 0.028	 ... 	 ... 	 ... 	
-323.25	10.00	11.357 +or- 0.030	 ... 	 ... 	 ... 	
-339.30	10.00	11.572 +or- 0.035	 ... 	 ... 	 ... 	
-355.19	10.00	11.576 +or- 0.035	 ... 	 ... 	 ... 	
-370.71	10.00	11.800 +or- 0.039	 ... 	 ... 	 ... 	
-386.57	10.00	11.817 +or- 0.039	 ... 	 ... 	 ... 	
-416.62	30.00	11.965 +or- 0.030	 ... 	 ... 	 ... 	
-456.57	30.00	12.222 +or- 0.033	 ... 	 ... 	 ... 	
-495.99	30.00	12.423 +or- 0.038	 ... 	 ... 	 ... 	
-534.69	30.00	12.617 +or- 0.043	 ... 	 ... 	 ... 	
-575.05	30.00	12.699 +or- 0.047	 ... 	 ... 	 ... 	
-614.77	30.00	12.751 +or- 0.047	 ... 	 ... 	 ... 	
-RAPTOR-T						
-101.63	10.00	 ... 	8.713 +or- 0.020	 ... 	7.991 +or- 0.020	
-114.96	10.00	 ... 	9.052 +or- 0.020	8.756 +or- 0.020	8.248 +or- 0.020	
-127.89	10.00	 ... 	9.322 +or- 0.020	8.981 +or- 0.020	8.540 +or- 0.020	
-140.81	10.00	 ... 	9.521 +or- 0.020	9.197 +or- 0.020	8.739 +or- 0.020	
-153.74	10.00	 ... 	9.717 +or- 0.020	9.430 +or- 0.020	9.002 +or- 0.020	
-166.66	10.00	 ... 	9.925 +or- 0.020	9.609 +or- 0.020	9.156 +or- 0.020	
-180.60	10.00	 ... 	10.059 +or- 0.020	9.808 +or- 0.020	9.318 +or- 0.020	
-193.52	10.00	 ... 	10.230 +or- 0.020	9.985 +or- 0.020	9.503 +or- 0.020	
-206.25	10.00	 ... 	10.437 +or- 0.020	10.140 +or- 0.020	9.661 +or- 0.020	
-218.97	10.00	10.250 +or- 0.020	10.546 +or- 0.020	10.291 +or- 0.020	9.869 +or- 0.020	
-231.70	10.00	10.399 +or- 0.020	10.723 +or- 0.020	10.452 +or- 0.020	9.993 +or- 0.020	
-244.43	10.00	10.515 +or- 0.020	10.876 +or- 0.020	10.568 +or- 0.020	10.141 +or- 0.020	
-257.45	10.00	10.637 +or- 0.020	11.000 +or- 0.020	10.709 +or- 0.020	10.286 +or- 0.020	
-270.38	10.00	10.791 +or- 0.020	11.116 +or- 0.020	10.815 +or- 0.020	10.431 +or- 0.020	
-283.30	10.00	10.925 +or- 0.020	11.232 +or- 0.020	10.971 +or- 0.020	10.483 +or- 0.020	
-296.23	10.00	11.053 +or- 0.020	11.356 +or- 0.020	11.100 +or- 0.020	10.623 +or- 0.020	
-309.15	10.00	11.156 +or- 0.020	11.519 +or- 0.020	11.194 +or- 0.020	10.771 +or- 0.020	
-322.08	10.00	11.320 +or- 0.020	11.608 +or- 0.020	11.333 +or- 0.020	10.879 +or- 0.020	
-334.80	10.00	11.409 +or- 0.020	11.724 +or- 0.020	11.451 +or- 0.020	11.030 +or- 0.020	
-360.05	30.00	11.579 +or- 0.020	11.914 +or- 0.020	11.615 +or- 0.020	11.203 +or- 0.020	
-395.50	30.00	11.773 +or- 0.020	12.203 +or- 0.020	11.878 +or- 0.020	11.506 +or- 0.020	
-431.04	30.00	12.046 +or- 0.020	12.400 +or- 0.020	12.024 +or- 0.020	11.670 +or- 0.020	
-466.29	30.00	12.113 +or- 0.020	12.542 +or- 0.020	12.164 +or- 0.020	11.857 +or- 0.020	
-502.44	30.00	12.303 +or- 0.020	12.739 +or- 0.020	12.343 +or- 0.020	12.021 +or- 0.021	
-537.68	30.00	12.484 +or- 0.020	12.795 +or- 0.020	12.545 +or- 0.021	12.129 +or- 0.021	
-573.23	30.00	12.511 +or- 0.020	12.956 +or- 0.020	12.602 +or- 0.021	12.249 +or- 0.021	
-608.77	30.00	12.731 +or- 0.020	13.060 +or- 0.020	12.759 +or- 0.021	12.414 +or- 0.021	
-644.32	30.00	12.799 +or- 0.020	13.192 +or- 0.020	12.838 +or- 0.021	12.556 +or- 0.021	
-679.86	30.00	12.904 +or- 0.020	13.283 +or- 0.020	13.007 +or- 0.021	12.599 +or- 0.022	
-715.21	30.00	12.972 +or- 0.020	13.304 +or- 0.020	13.038 +or- 0.021	12.687 +or- 0.021	
-750.45	30.00	13.034 +or- 0.020	13.417 +or- 0.021	13.141 +or- 0.021	12.795 +or- 0.022	
-786.09	30.00	13.185 +or- 0.020	13.522 +or- 0.021	13.224 +or- 0.022	12.856 +or- 0.022	
-821.85	30.00	13.280 +or- 0.021	13.576 +or- 0.021	13.274 +or- 0.022	12.898 +or- 0.022	
-857.39	30.00	13.316 +or- 0.021	13.622 +or- 0.021	13.371 +or- 0.022	13.028 +or- 0.022	
-892.84	30.00	13.413 +or- 0.021	13.809 +or- 0.021	13.473 +or- 0.022	13.131 +or- 0.023	
-928.38	30.00	13.528 +or- 0.021	13.823 +or- 0.021	13.557 +or- 0.022	13.297 +or- 0.023	
-963.52	30.00	13.690 +or- 0.021	13.911 +or- 0.021	13.681 +or- 0.023	13.335 +or- 0.024	
-998.76	30.00	13.744 +or- 0.021	13.997 +or- 0.021	13.724 +or- 0.023	13.318 +or- 0.024	
-1034.51	30.00	13.753 +or- 0.021	14.060 +or- 0.021	13.836 +or- 0.023	13.436 +or- 0.024	
-1070.46	30.00	13.886 +or- 0.021	14.157 +or- 0.021	13.870 +or- 0.023	13.471 +or- 0.024	
-1106.31	30.00	13.914 +or- 0.022	14.237 +or- 0.022	13.932 +or- 0.024	13.610 +or- 0.026	
-1142.56	30.00	13.935 +or- 0.022	14.328 +or- 0.022	13.973 +or- 0.024	13.660 +or- 0.026	
-1177.80	30.00	14.010 +or- 0.022	14.391 +or- 0.022	14.064 +or- 0.024	13.741 +or- 0.026	
-1213.45	30.00	14.156 +or- 0.022	14.438 +or- 0.023	14.162 +or- 0.026	13.802 +or- 0.028	
-1249.20	30.00	14.145 +or- 0.022	14.396 +or- 0.022	14.179 +or- 0.026	13.863 +or- 0.028	
-1284.84	30.00	14.305 +or- 0.022	14.520 +or- 0.022	14.280 +or- 0.026	13.900 +or- 0.028	
-1320.29	30.00	14.277 +or- 0.022	14.616 +or- 0.023	14.419 +or- 0.028	14.030 +or- 0.031	
-1355.93	30.00	14.332 +or- 0.022	14.718 +or- 0.023	14.328 +or- 0.026	14.044 +or- 0.030	
-1391.59	30.00	14.408 +or- 0.023	14.683 +or- 0.024	14.362 +or- 0.028	14.150 +or- 0.033	
-1426.92	30.00	14.455 +or- 0.022	14.776 +or- 0.023	14.511 +or- 0.028	14.139 +or- 0.030	
-1462.27	30.00	14.446 +or- 0.023	14.857 +or- 0.024	14.535 +or- 0.028	14.230 +or- 0.031	
-1497.71	30.00	14.728 +or- 0.024	14.891 +or- 0.025	14.591 +or- 0.032	14.309 +or- 0.038	
-1532.96	30.00	14.614 +or- 0.022	14.891 +or- 0.023	14.629 +or- 0.028	14.315 +or- 0.032	
-1568.30	30.00	14.637 +or- 0.024	14.932 +or- 0.025	14.735 +or- 0.032	14.379 +or- 0.037	
-1603.85	30.00	14.678 +or- 0.024	15.012 +or- 0.025	14.796 +or- 0.034	14.421 +or- 0.038	
-1639.29	30.00	14.734 +or- 0.024	15.038 +or- 0.025	14.805 +or- 0.032	14.537 +or- 0.038	
-1674.64	30.00	14.784 +or- 0.025	15.085 +or- 0.027	14.886 +or- 0.036	14.479 +or- 0.041	
-1710.48	30.00	14.804 +or- 0.024	15.082 +or- 0.026	14.927 +or- 0.034	14.623 +or- 0.040	
-1745.83	30.00	14.808 +or- 0.024	15.156 +or- 0.026	14.895 +or- 0.034	14.594 +or- 0.039	
-1780.96	30.00	14.932 +or- 0.026	15.229 +or- 0.028	15.061 +or- 0.039	14.750 +or- 0.047	
-1816.52	30.00	15.003 +or- 0.024	15.263 +or- 0.026	14.966 +or- 0.034	14.715 +or- 0.041	
-1852.06	30.00	15.028 +or- 0.026	15.274 +or- 0.028	15.019 +or- 0.037	14.666 +or- 0.043	
-1887.61	30.00	14.996 +or- 0.028	15.269 +or- 0.029	14.994 +or- 0.039	14.774 +or- 0.049	
-1923.25	30.00	15.004 +or- 0.027	15.342 +or- 0.030	15.209 +or- 0.043	14.726 +or- 0.047	
-1958.70	30.00	15.046 +or- 0.028	15.352 +or- 0.030	15.073 +or- 0.041	14.832 +or- 0.053	
-1993.94	30.00	15.079 +or- 0.026	15.443 +or- 0.028	15.143 +or- 0.039	14.882 +or- 0.047	
-2029.29	30.00	15.176 +or- 0.028	15.333 +or- 0.030	15.197 +or- 0.044	14.889 +or- 0.055	
-2064.93	30.00	15.157 +or- 0.025	15.457 +or- 0.028	15.182 +or- 0.036	14.954 +or- 0.048	
-2100.88	30.00	15.188 +or- 0.028	15.455 +or- 0.031	15.371 +or- 0.047	14.925 +or- 0.052	
-2136.02	30.00	15.222 +or- 0.028	15.403 +or- 0.029	15.268 +or- 0.042	14.965 +or- 0.052	
-2171.37	30.00	15.294 +or- 0.028	15.477 +or- 0.030	15.338 +or- 0.044	14.858 +or- 0.048	
-2224.64	150.00	15.229 +or- 0.024	15.516 +or- 0.025	15.330 +or- 0.031	14.985 +or- 0.035	
-2401.79	150.00	15.379 +or- 0.025	15.680 +or- 0.027	15.479 +or- 0.034	15.139 +or- 0.041	
-2667.83	300.00	15.549 +or- 0.023	15.884 +or- 0.024	15.593 +or- 0.028	15.281 +or- 0.033	
-3023.57	300.00	15.828 +or- 0.024	16.044 +or- 0.025	15.799 +or- 0.031	15.537 +or- 0.039	
-3379.09	300.00	15.934 +or- 0.025	16.227 +or- 0.027	15.989 +or- 0.034	15.625 +or- 0.042	
-3734.19	300.00	15.981 +or- 0.026	16.306 +or- 0.028	16.071 +or- 0.037	15.822 +or- 0.047	
-4265.78	600.00	16.260 +or- 0.024	16.471 +or- 0.025	16.260 +or- 0.032	15.965 +or- 0.039	
-4976.18	600.00	16.407 +or- 0.026	16.763 +or- 0.028	16.496 +or- 0.036	16.151 +or- 0.046	
-5686.59	600.00	16.660 +or- 0.027	16.930 +or- 0.030	16.661 +or- 0.040	16.322 +or- 0.050	
-6396.62	600.00	16.780 +or- 0.028	17.046 +or- 0.030	16.853 +or- 0.043	16.635 +or- 0.064	
+time	integration	band	mag	dmag	mag_limit	instrument	time_unit	integration_unit	mag_unit	mag_type	time_frame	extinction_corrected	dtime
+6.87	10.0	C_R	8.412	0.118	0	RAPTOR-Q	days	seconds	AB	apparent	observer	False	NaN
+37.22	10.0	C_R	5.497	0.017	0	RAPTOR-Q	days	seconds	AB	apparent	observer	False	NaN
+60.48	10.0	C_R	6.747	0.035	0	RAPTOR-Q	days	seconds	AB	apparent	observer	False	NaN
+83.81	10.0	C_R	7.943	0.089	0	RAPTOR-Q	days	seconds	AB	apparent	observer	False	NaN
+100.31	10.0	C_R	8.348	0.02	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+116.19	10.0	C_R	8.758	0.02	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+132.25	10.0	C_R	9.085	0.021	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+148.22	10.0	C_R	9.392	0.021	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+164.07	10.0	C_R	9.591	0.021	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+179.95	10.0	C_R	9.832	0.021	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+195.98	10.0	C_R	9.981	0.022	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+211.85	10.0	C_R	10.151	0.022	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+228.09	10.0	C_R	10.431	0.023	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+243.72	10.0	C_R	10.567	0.024	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+259.71	10.0	C_R	10.715	0.024	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+275.57	10.0	C_R	10.865	0.026	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+291.53	10.0	C_R	11.047	0.028	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+307.18	10.0	C_R	11.248	0.028	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+323.25	10.0	C_R	11.357	0.03	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+339.3	10.0	C_R	11.572	0.035	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+355.19	10.0	C_R	11.576	0.035	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+370.71	10.0	C_R	11.8	0.039	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+386.57	10.0	C_R	11.817	0.039	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+416.62	30.0	C_R	11.965	0.03	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+456.57	30.0	C_R	12.222	0.033	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+495.99	30.0	C_R	12.423	0.038	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+534.69	30.0	C_R	12.617	0.043	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+575.05	30.0	C_R	12.699	0.047	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+614.77	30.0	C_R	12.751	0.047	0	RAPTOR-P	days	seconds	AB	apparent	observer	False	NaN
+101.63	10.0	V	8.713	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+101.63	10.0	R	7.991	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+114.96	10.0	V	9.052	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+114.96	10.0	R	8.756	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+114.96	10.0	I	8.248	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+127.89	10.0	V	9.322	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+127.89	10.0	R	8.981	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+127.89	10.0	I	8.54	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+140.81	10.0	V	9.521	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+140.81	10.0	R	9.197	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+140.81	10.0	I	8.739	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+153.74	10.0	V	9.717	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+153.74	10.0	R	9.43	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+153.74	10.0	I	9.002	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+166.66	10.0	V	9.925	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+166.66	10.0	R	9.609	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+166.66	10.0	I	9.156	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+180.6	10.0	V	10.059	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+180.6	10.0	R	9.808	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+180.6	10.0	I	9.318	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+193.52	10.0	V	10.23	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+193.52	10.0	R	9.985	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+193.52	10.0	I	9.503	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+206.25	10.0	V	10.437	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+206.25	10.0	R	10.14	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+206.25	10.0	I	9.661	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+218.97	10.0	C_R	10.25	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+218.97	10.0	V	10.546	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+218.97	10.0	R	10.291	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+218.97	10.0	I	9.869	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+231.7	10.0	C_R	10.399	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+231.7	10.0	V	10.723	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+231.7	10.0	R	10.452	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+231.7	10.0	I	9.993	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+244.43	10.0	C_R	10.515	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+244.43	10.0	V	10.876	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+244.43	10.0	R	10.568	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+244.43	10.0	I	10.141	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+257.45	10.0	C_R	10.637	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+257.45	10.0	V	11.0	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+257.45	10.0	R	10.709	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+257.45	10.0	I	10.286	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+270.38	10.0	C_R	10.791	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+270.38	10.0	V	11.116	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+270.38	10.0	R	10.815	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+270.38	10.0	I	10.431	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+283.3	10.0	C_R	10.925	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+283.3	10.0	V	11.232	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+283.3	10.0	R	10.971	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+283.3	10.0	I	10.483	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+296.23	10.0	C_R	11.053	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+296.23	10.0	V	11.356	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+296.23	10.0	R	11.1	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+296.23	10.0	I	10.623	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+309.15	10.0	C_R	11.156	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+309.15	10.0	V	11.519	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+309.15	10.0	R	11.194	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+309.15	10.0	I	10.771	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+322.08	10.0	C_R	11.32	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+322.08	10.0	V	11.608	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+322.08	10.0	R	11.333	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+322.08	10.0	I	10.879	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+334.8	10.0	C_R	11.409	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+334.8	10.0	V	11.724	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+334.8	10.0	R	11.451	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+334.8	10.0	I	11.03	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+360.05	30.0	C_R	11.579	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+360.05	30.0	V	11.914	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+360.05	30.0	R	11.615	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+360.05	30.0	I	11.203	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+395.5	30.0	C_R	11.773	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+395.5	30.0	V	12.203	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+395.5	30.0	R	11.878	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+395.5	30.0	I	11.506	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+431.04	30.0	C_R	12.046	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+431.04	30.0	V	12.4	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+431.04	30.0	R	12.024	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+431.04	30.0	I	11.67	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+466.29	30.0	C_R	12.113	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+466.29	30.0	V	12.542	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+466.29	30.0	R	12.164	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+466.29	30.0	I	11.857	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+502.44	30.0	C_R	12.303	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+502.44	30.0	V	12.739	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+502.44	30.0	R	12.343	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+502.44	30.0	I	12.021	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+537.68	30.0	C_R	12.484	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+537.68	30.0	V	12.795	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+537.68	30.0	R	12.545	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+537.68	30.0	I	12.129	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+573.23	30.0	C_R	12.511	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+573.23	30.0	V	12.956	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+573.23	30.0	R	12.602	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+573.23	30.0	I	12.249	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+608.77	30.0	C_R	12.731	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+608.77	30.0	V	13.06	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+608.77	30.0	R	12.759	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+608.77	30.0	I	12.414	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+644.32	30.0	C_R	12.799	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+644.32	30.0	V	13.192	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+644.32	30.0	R	12.838	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+644.32	30.0	I	12.556	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+679.86	30.0	C_R	12.904	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+679.86	30.0	V	13.283	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+679.86	30.0	R	13.007	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+679.86	30.0	I	12.599	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+715.21	30.0	V	12.972	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+715.21	30.0	R	13.304	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+715.21	30.0	I	13.038	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+715.21	30.0	C_R	12.687	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+750.45	30.0	V	13.034	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+750.45	30.0	R	13.417	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+750.45	30.0	I	13.141	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+750.45	30.0	C_R	12.795	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+786.09	30.0	V	13.185	0.02	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+786.09	30.0	R	13.522	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+786.09	30.0	I	13.224	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+786.09	30.0	C_R	12.856	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+821.85	30.0	V	13.28	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+821.85	30.0	R	13.576	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+821.85	30.0	I	13.274	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+821.85	30.0	C_R	12.898	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+857.39	30.0	V	13.316	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+857.39	30.0	R	13.622	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+857.39	30.0	I	13.371	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+857.39	30.0	C_R	13.028	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+892.84	30.0	V	13.413	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+857.39	30.0	R	13.809	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+857.39	30.0	I	13.473	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+857.39	30.0	C_R	13.131	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+928.38	30.0	V	13.528	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+928.38	30.0	R	13.823	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+928.38	30.0	I	13.557	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+928.38	30.0	C_R	13.297	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+963.52	30.0	V	13.69	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+963.52	30.0	R	13.911	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+963.52	30.0	I	13.681	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+963.52	30.0	C_R	13.335	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+998.76	30.0	V	13.744	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+998.76	30.0	R	13.997	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+998.76	30.0	I	13.724	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+998.76	30.0	C_R	13.318	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1034.51	30.0	V	13.753	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1034.51	30.0	R	14.06	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1034.51	30.0	I	13.836	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1034.51	30.0	C_R	13.436	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1070.46	30.0	V	13.886	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1070.46	30.0	R	14.157	0.021	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1070.46	30.0	I	13.87	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1070.46	30.0	C_R	13.471	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1106.31	30.0	V	13.914	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1106.31	30.0	R	14.237	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1106.31	30.0	I	13.932	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1106.31	30.0	C_R	13.61	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1142.56	30.0	V	13.935	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1142.56	30.0	R	14.328	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1142.56	30.0	I	13.973	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1142.56	30.0	C_R	13.66	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1177.8	30.0	V	14.01	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1177.8	30.0	R	14.391	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1177.8	30.0	I	14.064	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1177.8	30.0	C_R	13.741	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1213.45	30.0	V	14.156	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1213.45	30.0	R	14.438	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1213.45	30.0	I	14.162	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1213.45	30.0	C_R	13.802	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1249.2	30.0	V	14.145	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1249.2	30.0	R	14.396	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1249.2	30.0	I	14.179	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1249.2	30.0	C_R	13.863	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1284.84	30.0	V	14.305	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1284.84	30.0	R	14.52	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1284.84	30.0	I	14.28	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1284.84	30.0	C_R	13.9	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1320.29	30.0	V	14.277	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1320.29	30.0	R	14.616	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1320.29	30.0	I	14.419	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1320.29	30.0	C_R	14.03	0.031	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1355.93	30.0	V	14.332	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1355.93	30.0	R	14.718	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1355.93	30.0	I	14.328	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1355.93	30.0	C_R	14.044	0.03	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1391.59	30.0	V	14.408	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1391.59	30.0	R	14.683	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1391.59	30.0	I	14.362	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1391.59	30.0	C_R	14.15	0.033	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1426.92	30.0	V	14.455	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1426.92	30.0	R	14.776	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1426.92	30.0	I	14.511	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1426.92	30.0	C_R	14.139	0.03	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1462.27	30.0	V	14.446	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1462.27	30.0	R	14.857	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1462.27	30.0	I	14.535	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1462.27	30.0	C_R	14.23	0.031	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1497.71	30.0	V	14.728	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1497.71	30.0	R	14.891	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1497.71	30.0	I	14.591	0.032	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1497.71	30.0	C_R	14.309	0.038	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1532.96	30.0	V	14.614	0.022	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1532.96	30.0	R	14.891	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1532.96	30.0	I	14.629	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1532.96	30.0	C_R	14.315	0.032	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1568.3	30.0	V	14.637	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1568.3	30.0	R	14.932	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1568.3	30.0	I	14.735	0.032	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1568.3	30.0	C_R	14.379	0.037	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1603.85	30.0	V	14.678	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1603.85	30.0	R	15.012	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1603.85	30.0	I	14.796	0.034	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1603.85	30.0	C_R	14.421	0.038	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1639.29	30.0	V	14.734	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1639.29	30.0	R	15.038	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1639.29	30.0	I	14.805	0.032	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1639.29	30.0	C_R	14.537	0.038	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1674.64	30.0	V	14.784	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1674.64	30.0	R	15.085	0.027	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1674.64	30.0	I	14.886	0.036	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1674.64	30.0	C_R	14.479	0.041	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1710.48	30.0	V	14.804	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1710.48	30.0	R	15.082	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1710.48	30.0	I	14.927	0.034	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1710.48	30.0	C_R	14.623	0.04	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1745.83	30.0	V	14.808	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1745.83	30.0	R	15.156	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1745.83	30.0	I	14.895	0.034	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1745.83	30.0	C_R	14.594	0.039	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1780.96	30.0	V	14.932	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1780.96	30.0	R	15.229	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1780.96	30.0	I	15.061	0.039	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1780.96	30.0	C_R	14.75	0.047	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1816.52	30.0	V	15.003	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1816.52	30.0	R	15.263	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1816.52	30.0	I	14.966	0.034	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1816.52	30.0	C_R	14.715	0.041	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1852.06	30.0	V	15.028	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1852.06	30.0	R	15.274	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1852.06	30.0	I	15.019	0.037	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1852.06	30.0	C_R	14.666	0.043	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1887.61	30.0	V	14.996	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1887.61	30.0	R	15.269	0.029	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1887.61	30.0	I	14.994	0.039	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1887.61	30.0	C_R	14.774	0.049	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1923.25	30.0	V	15.004	0.027	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1923.25	30.0	R	15.342	0.03	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1923.25	30.0	I	15.209	0.043	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1923.25	30.0	C_R	14.726	0.047	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1958.7	30.0	V	15.046	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1958.7	30.0	R	15.352	0.03	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1958.7	30.0	I	15.073	0.041	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1958.7	30.0	C_R	14.832	0.053	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1993.94	30.0	V	15.079	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1993.94	30.0	R	15.443	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1993.94	30.0	I	15.143	0.039	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+1993.94	30.0	C_R	14.882	0.047	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2029.29	30.0	V	15.176	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2029.29	30.0	R	15.333	0.03	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2029.29	30.0	I	15.197	0.044	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2029.29	30.0	C_R	14.889	0.055	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2064.93	30.0	V	15.157	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2064.93	30.0	R	15.457	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2064.93	30.0	I	15.182	0.036	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2064.93	30.0	C_R	14.954	0.048	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2100.88	30.0	V	15.188	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2100.88	30.0	R	15.455	0.031	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2100.88	30.0	I	15.371	0.047	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2100.88	30.0	C_R	14.925	0.052	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2136.02	30.0	V	15.222	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2136.02	30.0	R	15.403	0.029	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2136.02	30.0	I	15.268	0.042	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2136.02	30.0	C_R	14.965	0.052	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2171.37	30.0	V	15.294	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2171.37	30.0	R	15.477	0.03	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2171.37	30.0	I	15.338	0.044	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2171.37	30.0	C_R	14.858	0.048	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2224.64	150.0	V	15.229	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2224.64	150.0	R	15.516	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2224.64	150.0	I	15.33	0.031	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2224.64	150.0	C_R	14.985	0.035	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2401.79	150.0	V	15.379	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2401.79	150.0	R	15.68	0.027	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2401.79	150.0	I	15.479	0.034	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2401.79	150.0	C_R	15.139	0.041	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2667.83	300.0	V	15.549	0.023	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2667.83	300.0	R	15.884	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2667.83	300.0	I	15.593	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+2667.83	300.0	C_R	15.281	0.033	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3023.57	300.0	V	15.828	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3023.57	300.0	R	16.044	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3023.57	300.0	I	15.799	0.031	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3023.57	300.0	C_R	15.537	0.039	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3379.09	300.0	V	15.934	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3379.09	300.0	R	16.227	0.027	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3379.09	300.0	I	15.989	0.034	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3379.09	300.0	C_R	15.625	0.042	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3734.19	300.0	V	15.981	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3734.19	300.0	R	16.306	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3734.19	300.0	I	16.071	0.037	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+3734.19	300.0	C_R	15.822	0.047	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+4265.78	600.0	V	16.26	0.024	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+4265.78	600.0	R	16.471	0.025	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+4265.78	600.0	I	16.26	0.032	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+4265.78	600.0	C_R	15.965	0.039	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+4976.18	600.0	V	16.407	0.026	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+4976.18	600.0	R	16.763	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+4976.18	600.0	I	16.496	0.036	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+4976.18	600.0	C_R	16.151	0.046	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+5686.59	600.0	V	16.66	0.027	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+5686.59	600.0	R	16.93	0.03	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+5686.59	600.0	I	16.661	0.04	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+5686.59	600.0	C_R	16.322	0.05	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+6396.62	600.0	V	16.78	0.028	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+6396.62	600.0	R	17.046	0.03	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+6396.62	600.0	I	16.853	0.043	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN
+6396.62	600.0	C_R	16.635	0.064	0	RAPTOR-T	days	seconds	AB	apparent	observer	False	NaN

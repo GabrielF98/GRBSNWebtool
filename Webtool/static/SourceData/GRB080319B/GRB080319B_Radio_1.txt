@@ -1,18 +1,9 @@
-Table 3 
-Radio/Submillimeter Observations of GRB 080319B
-
-
-UT Date^a	Time Since Burst^b	Frequency	Flux Density^c	
-	(d)	(GHz)	(muJy)	
-2008 Mar 20.48	1.11	95.0	123 +or- 250	
-2008 Mar 21.56	2.30	4.86	204 +or- 40	
-2008 Mar 21.56	2.30	8.46	232 +or- 42	
-2008 Mar 21.81	2.55	1.90 x 10^4	35.7 +or- 3.9	
-2008 Mar 26.48	7.22	4.86	167 +or- 61	
-2008 Mar 26.48	7.22	8.46	  8 +or- 55	
-2008 Mar 29.89	10.63	1.90 x 10^4	<8.0	
-2008 Dec 25.83	281.57	1.46	-9 +or- 14	
-Notes.
-a UT at midpoint of exposure.
-b Time from midpoint of exposure to Swift/BAT trigger.
-c Upper limits are reported as 2sigma rms per beam area.
+date	time	freq	flux_density	dflux_density	flux_density_limit	date_unit	time_unit	freq_unit	flux_density_unit	time_frame	extinction_corrected	dtime
+2008-Mar-20.48	1.11	95.0	123	250.0	0	yyyy-month-deciday	days	GHz	microJy	observer	False	NaN
+2008-Mar-21.56	2.3	4.86	204	40.0	0	yyyy-month-deciday	days	GHz	microJy	observer	False	NaN
+2008-Mar-21.56	2.3	8.46	232	42.0	0	yyyy-month-deciday	days	GHz	microJy	observer	False	NaN
+2008-Mar-21.81	2.55	19000.0	35.7	3.9	0	yyyy-month-deciday	days	GHz	microJy	observer	False	NaN
+2008-Mar-26.48	7.22	4.86	167	61.0	0	yyyy-month-deciday	days	GHz	microJy	observer	False	NaN
+2008-Mar-26.48	7.22	8.46	8	55.0	0	yyyy-month-deciday	days	GHz	microJy	observer	False	NaN
+2008-Mar-29.89	10.63	19000.0	<8.0	NaN	-1	yyyy-month-deciday	days	GHz	microJy	observer	False	NaN
+2008-Dec-25.83	281.57	1.46	-9	14.0	0	yyyy-month-deciday	days	GHz	microJy	observer	False	NaN
