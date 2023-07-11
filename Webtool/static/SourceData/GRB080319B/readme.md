@@ -3,12 +3,12 @@
 
 The text files listed below were downloaded from papers on [NASA/ADS](https://ui.adsabs.harvard.edu) and converted to the GRBSN [format](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). The 'Master.txt' file(s) are a combination of these text files and contain all of the downloaded data for a paticular wavelength range.
 
-### GRB080319B_IR_Optical.txt
+### GRB080319B_IR_Optical_1.txt
 
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 
-**Data-type:** Late, Early,Optical,NIR,IR
+**Data-type:** Early, IR, Late, NIR, Optical
 
 **Notes:**
 
@@ -21,7 +21,7 @@ a Exposure midtime, measured from the Swift trigger (UTC 06:12:49).Zero-point de
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 
-**Data-type:** NIR,Early
+**Data-type:** Early, NIR
 
 **Notes:**
 
@@ -34,7 +34,7 @@ Zero-point determinations were made in comparison to the 2MASS catalog. Vega was
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 
-**Data-type:** NIR,Early
+**Data-type:** Early, NIR
 
 **Notes:**
 
@@ -45,7 +45,7 @@ Notes: ecause of the large number of exposures acquired, only a few representati
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 
-**Data-type:** NIR,Early
+**Data-type:** Early, NIR
 
 **Notes:**
 
@@ -56,7 +56,7 @@ Notes: Because of the large number of exposures acquired, only a few representat
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2009A%26A...504...45P/abstract
 
-**Data-type:** NIR,Early,Late
+**Data-type:** Early, Late, NIR
 
 **Notes:**
 
@@ -67,7 +67,7 @@ Notes: Calibrated using Henden, A. 2008, GCNC, 7528 to AB mag.
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 
-**Data-type:** Optical,Early
+**Data-type:** Early, Optical
 
 **Notes:**
 
@@ -78,7 +78,7 @@ Notes: Because of the very large number of exposures acquired, only the first fi
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 
-**Data-type:** Optical,Early
+**Data-type:** Early, Optical
 
 **Notes:**
 
@@ -89,7 +89,7 @@ Notes: Exposure midtime, measured from the Swift trigger (UTC 06:12:49). Observe
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 
-**Data-type:** Optical,Early, Late
+**Data-type:** Early, Late, Optical
 
 **Notes:**
 
@@ -100,7 +100,7 @@ Notes: Exposure midtime, measured from the Swift trigger (UTC 06:12:49). Observe
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2009ApJ...691..495W/abstract
 
-**Data-type:** Optical,Early
+**Data-type:** Early, Optical
 
 **Notes:**
 
@@ -111,7 +111,7 @@ Notes: Calibrated using Henden, A. 2008, GCNC, 7528 to AB mag.
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2010ApJ...725..625T/abstract
 
-**Data-type:** Optical, Late
+**Data-type:** Late, Optical
 
 **Notes:**
 
@@ -119,12 +119,37 @@ Notes: This photometry is not corrected for extinction, but the small-aperture H
 
 108.3 days are there twice due to to differnt fluxes being obtained at different magnitudes.
 
+### GRB080319B_Optical_UV_1.txt
 
 
+**Source:** https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+
+**Data-type:** Early, Optical, UV
+
+**Notes:**
+
+Notes: Exposure midtime, measured from the Swift trigger (UTC 06:12:49). Observed value; not corrected for Galactic extinction.Point not used in modeling. Zero-point determinations were made in comparison to the 2MASS catalog. Vega was the magnitude system.
+
+### GRB080319B_Radio_1.txt
 
 
-a Exposure midtime, measured from the Swift trigger (UTC 06:12:49).
+**Source:** https://ui.adsabs.harvard.edu/abs/2010ApJ...711..641C/abstract
 
-b Observed value; not corrected for Galactic extinction.
+**Data-type:** Late, Radio
 
-x Point not used in modeling.
+**Notes:**
+
+Notes: UT at midpoint of exposure.. Time from midpoint of exposure to Swift/BAT trigger.Upper limits are reported as 2sigma rms per beam area.
+
+2008-Mar-20.00 and 2008-Dec-27.00 came directly from the text.
+
+### GRB080319B_Radio_2.txt
+
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2009A%26A...504...45P/abstract
+
+**Data-type:** Radio
+
+**Notes:**
+
+Notes: Observations of GRB 080319B afterglow at millimeter frequencies were performed with the Plateau de Bure (PdB) Interferometer (Guilloteau et al. 1992) in a six-antenna extended configuration on the dates. The afterglow was detected in the first round of observations starting 0.5 days after the burst and upper limits were established at two later epochs. Radio observations were also performed using RATAN-600 at 4.8 GHz between 9 and 19 days after the burst and the afterglow was not detected. The afterglow was also monitored using the radio telescope RT-22/CrAO at 2.0 and 8.0 GHz on 25th May 2008. The upper limits (3$\sigma$) inferred from RATAN-600 and RT-22/CrAO observations.
