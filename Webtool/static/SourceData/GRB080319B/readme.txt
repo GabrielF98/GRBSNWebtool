@@ -80,4 +80,5 @@ Filename: GRB080319B_Radio_2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2009A%26A...504...45P/abstract
 Data-type: Radio
 ---------------------------------------------------------
+UT at midpoint of exposure.. Time from midpoint of exposure to Swift/BAT trigger.
 Notes: Based on observations obtained with the 0.22 m telescope at Russia the 0.7 m telescope at of Kharkov University, Ukraine, the 0.8 m telescope at Observatorio del Teide (IAC-80), Spain the 1.2 m Mercator telescope at La Palma, Spain, the 1.5 m telescope of Maidanak observatory Uzbekistan, the 2.0 m IGO Telescope at IUCAA Pune, India, the 2.5 m NOT, the PdB millimeter interferometric array France, the RATAN-600 Radio Telescope at Russia and the RT-22 radio telescope of CrAO, Ukraine.
