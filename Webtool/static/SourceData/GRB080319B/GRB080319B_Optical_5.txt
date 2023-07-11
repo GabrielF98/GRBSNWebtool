@@ -10,9 +10,9 @@ time	instrument	band	integration	flux_density	dflux_density	flux_density_limit	a
 26.3	Gemini-N/GMOS	i	1080	0.74	0.03	0	1.5	days	seconds	microJy	observer	False	24.22692070067256	0	0.0440163326253295	AB	NaN
 27.7	Gemini-N/GMOS	z	1080	1.09	0.16	0	1.5	days	seconds	microJy	observer	False	23.80643375514844	0	0.1593741217993584	AB	NaN
 53.2	Gemini-N/GMOS	g	2700	0.099	0.02	0	1.5	days	seconds	microJy	observer	False	26.410912013506127	0	0.2193406474258847	AB	NaN
-106.1	Gemini-N/GMOS	g	3150	0.072	0.007	0	1.5	days	seconds	microJy	observer	False	26.756668758921833	0	0.105557686573707	AB	NaN
+106.1	Gemini-N/GMOS	g	3150	0.072	0.007	0	1.5	days	seconds	microJy	observer	False	26.75666875892184	0	0.105557686573707	AB	NaN
 319.3	Gemini-N/GMOS	r	4500	0.062	0.009	0	1.5	days	seconds	microJy	observer	False	26.919020776254364	0	0.1576068684326317	AB	NaN
-463.1	Gemini-N/GMOS	i	3600	0.125	0.019	0	1.5	days	seconds	microJy	observer	False	26.157724967479854	0	0.1650319031232356	AB	NaN
+463.1	Gemini-N/GMOS	i	3600	0.125	0.019	0	1.5	days	seconds	microJy	observer	False	26.15772496747985	0	0.1650319031232356	AB	NaN
 16.0	VLT/FORS1	B	1800	0.49	0.08	0	1.5	days	seconds	microJy	observer	False	24.67450979992871	0	0.1772630538380619	AB	NaN
 25.0	VLT/FORS1	B	1800	0.24	0.04	0	1.5	days	seconds	microJy	observer	False	25.449471895720983	0	0.1809560341263549	AB	NaN
 51.0	VLT/FORS2	B	5400	0.071	0.023	0	1.5	days	seconds	microJy	observer	False	26.77185412820231	0	0.3517173621047462	AB	NaN
@@ -20,7 +20,7 @@ time	instrument	band	integration	flux_density	dflux_density	flux_density_limit	a
 19.1	HST/WFPC2	F814W	3200	0.81	0.02	0	0.2	days	seconds	microJy	observer	False	24.128787452803376	0	0.0268083013520525	AB	NaN
 53.4	HST/WFPC2	F814W	3200	0.2	0.023	0	0.2	days	seconds	microJy	observer	False	25.647425010840045	0	0.1248596635471848	AB	NaN
 53.6	HST/WFPC2	F606W	3200	0.066	0.006	0	0.2	days	seconds	microJy	observer	False	26.85114016114533	0	0.0987032913416481	AB	NaN
-106.4	HST/WFPC2	F606W	3200	0.033	0.009	0	0.2	days	seconds	microJy	observer	False	27.603715150305277	0	0.2961098740249443	AB	NaN
+106.4	HST/WFPC2	F606W	3200	0.033	0.009	0	0.2	days	seconds	microJy	observer	False	27.60371515030528	0	0.2961098740249443	AB	NaN
 106.4	HST/WFPC2	F606W	3200	0.065	0.028	0	1.0	days	seconds	microJy	observer	False	26.86771660839286	0	0.4677017497419634	AB	NaN
 108.3	HST/WFPC2	F814W	3200	0.046	0.027	0	0.2	days	seconds	microJy	observer	False	27.243105420796063	0	0.637279946271076	AB	NaN
 108.3	HST/WFPC2	F814W	3200	0.219	0.045	0	1.0	days	seconds	microJy	observer	False	25.5488897128997	0	0.2230964804297526	AB	NaN
