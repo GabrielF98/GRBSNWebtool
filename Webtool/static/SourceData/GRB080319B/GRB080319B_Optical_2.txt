@@ -1,41 +1,41 @@
-time	band	integration	mag	dmag	mag_limit	flux_density	dflux_density	flux_density_limit	time_unit	integration_unit	mag_unit	mag_type	flux_density_unit	instrument	time_frame	extinction_corrected	Unnamed: 17	dtime
-7154.7	B	360.0	17.365	0.005	0	467.7	2.1	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-8579.2	B	360.0	17.646	0.006	0	361.1	2.0	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-10013.4	B	360.0	17.866	0.008	0	294.8	2.2	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-11512.3	B	360.0	18.09	0.008	0	239.9	1.8	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-13015.9	B	360.0	18.248	0.011	0	207.4	2.1	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-14473.6	B	360.0	18.389	0.011	0	182.1	1.8	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-16436.8	B	360.0	18.587	0.015	0	151.8	2.1	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-17937.4	B	360.0	18.77	0.018	0	128.2	2.1	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-19398.1	B	360.0	18.858	0.015	0	118.2	1.6	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-20965.3	B	360.0	18.97	0.023	0	106.7	2.2	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-7444.0	V	300.0	17.251	0.005	0	464.1	2.1	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-8860.5	V	300.0	17.484	0.007	0	374.5	2.4	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-10291.9	V	300.0	17.727	0.007	0	299.4	1.9	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-11829.3	V	300.0	17.899	0.007	0	255.5	1.6	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-13294.2	V	300.0	18.062	0.007	0	219.9	1.4	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-14767.2	V	300.0	18.236	0.014	0	187.3	2.4	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-16714.4	V	300.0	18.424	0.012	0	157.5	1.7	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-18236.5	V	300.0	18.559	0.016	0	139.1	2.0	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-19700.4	V	300.0	18.637	0.013	0	129.5	1.5	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-22996.8	V	300.0	18.902	0.021	0	101.4	1.9	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-7782.0	R	300.0	16.991	0.006	0	496.1	2.7	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-9196.4	R	300.0	17.239	0.005	0	394.8	1.8	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-10635.4	R	300.0	17.435	0.008	0	329.6	2.4	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-12181.0	R	300.0	17.637	0.009	0	273.7	2.3	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-13652.0	R	300.0	17.799	0.007	0	235.7	1.5	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-15110.2	R	300.0	17.917	0.007	0	211.4	1.4	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-17071.9	R	300.0	18.107	0.011	0	177.5	1.8	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-18582.1	R	300.0	18.218	0.008	0	160.3	1.2	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-20035.8	R	300.0	18.308	0.017	0	147.5	2.3	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-23331.8	R	300.0	18.541	0.021	0	119.0	2.3	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-8122.0	I	300.0	16.797	0.004	0	464.7	1.7	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-9531.2	I	300.0	17.013	0.005	0	380.9	1.7	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-10995.4	I	300.0	17.189	0.005	0	323.9	1.5	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-12520.7	I	300.0	17.394	0.005	0	268.2	1.2	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-14003.3	I	300.0	17.537	0.009	0	235.1	1.9	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-15973.2	I	300.0	17.704	0.008	0	201.6	1.5	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-17412.9	I	300.0	17.817	0.011	0	181.6	1.8	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-18936.7	I	300.0	17.921	0.01	0	165.0	1.5	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-20447.9	I	300.0	18.045	0.014	0	147.2	1.9	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
-23665.5	I	300.0	18.111	0.118	0	138.5	14.3	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN	NaN
+time	band	integration	mag	dmag	mag_limit	flux_density	dflux_density	flux_density_limit	time_unit	integration_unit	mag_unit	mag_type	flux_density_unit	instrument	time_frame	extinction_corrected	dtime
+7154.7	B	360.0	17.365	0.005	0	467.7	2.1	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+8579.2	B	360.0	17.646	0.006	0	361.1	2.0	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+10013.4	B	360.0	17.866	0.008	0	294.8	2.2	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+11512.3	B	360.0	18.09	0.008	0	239.9	1.8	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+13015.9	B	360.0	18.248	0.011	0	207.4	2.1	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+14473.6	B	360.0	18.389	0.011	0	182.1	1.8	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+16436.8	B	360.0	18.587	0.015	0	151.8	2.1	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+17937.4	B	360.0	18.77	0.018	0	128.2	2.1	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+19398.1	B	360.0	18.858	0.015	0	118.2	1.6	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+20965.3	B	360.0	18.97	0.023	0	106.7	2.2	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+7444.0	V	300.0	17.251	0.005	0	464.1	2.1	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+8860.5	V	300.0	17.484	0.007	0	374.5	2.4	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+10291.9	V	300.0	17.727	0.007	0	299.4	1.9	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+11829.3	V	300.0	17.899	0.007	0	255.5	1.6	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+13294.2	V	300.0	18.062	0.007	0	219.9	1.4	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+14767.2	V	300.0	18.236	0.014	0	187.3	2.4	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+16714.4	V	300.0	18.424	0.012	0	157.5	1.7	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+18236.5	V	300.0	18.559	0.016	0	139.1	2.0	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+19700.4	V	300.0	18.637	0.013	0	129.5	1.5	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+22996.8	V	300.0	18.902	0.021	0	101.4	1.9	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+7782.0	R	300.0	16.991	0.006	0	496.1	2.7	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+9196.4	R	300.0	17.239	0.005	0	394.8	1.8	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+10635.4	R	300.0	17.435	0.008	0	329.6	2.4	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+12181.0	R	300.0	17.637	0.009	0	273.7	2.3	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+13652.0	R	300.0	17.799	0.007	0	235.7	1.5	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+15110.2	R	300.0	17.917	0.007	0	211.4	1.4	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+17071.9	R	300.0	18.107	0.011	0	177.5	1.8	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+18582.1	R	300.0	18.218	0.008	0	160.3	1.2	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+20035.8	R	300.0	18.308	0.017	0	147.5	2.3	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+23331.8	R	300.0	18.541	0.021	0	119.0	2.3	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+8122.0	I	300.0	16.797	0.004	0	464.7	1.7	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+9531.2	I	300.0	17.013	0.005	0	380.9	1.7	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+10995.4	I	300.0	17.189	0.005	0	323.9	1.5	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+12520.7	I	300.0	17.394	0.005	0	268.2	1.2	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+14003.3	I	300.0	17.537	0.009	0	235.1	1.9	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+15973.2	I	300.0	17.704	0.008	0	201.6	1.5	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+17412.9	I	300.0	17.817	0.011	0	181.6	1.8	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+18936.7	I	300.0	17.921	0.01	0	165.0	1.5	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+20447.9	I	300.0	18.045	0.014	0	147.2	1.9	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN
+23665.5	I	300.0	18.111	0.118	0	138.5	14.3	0	seconds	seconds	Vega	apparent	microJy	Nickel	observer	False	NaN

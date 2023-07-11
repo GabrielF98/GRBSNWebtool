@@ -74,6 +74,7 @@ Source: https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
 Data-type: Radio, Late
 ---------------------------------------------------------
 Notes: UT at midpoint of exposure.. Time from midpoint of exposure to Swift/BAT trigger.Upper limits are reported as 2sigma rms per beam area.
+2008-Mar-20.00 and 2008-Dec-27.00 came directly from the text.
 =========================================================
 Filename: GRB080319B_Radio_2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2009A%26A...504...45P/abstract
