@@ -136,7 +136,7 @@ Time should always appear in all files. Sometimes the date will also appear.
 ### Xray keywords
 * `flux` The received flux of the source.
  
-* `flux_unit`  The units used for the flux of the source. The options are:
+* `flux unit`  The units used for the flux of the source. The options are:
    * `erg/cm^2/sec`
 
 * `dflux` The error on the source flux. 
