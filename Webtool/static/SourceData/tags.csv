@@ -20,7 +20,7 @@
 18,GRB060904B,ADS Exhausted,Processed,Yes,Yes,No,No,No
 19,GRB070419A,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
 20,GRB071112C,ADS Exhausted,Processed,Yes,Yes,No,No,Yes
-21,GRB080319B,Mostly Completed,Unprocessed,Yes,Yes,No,Yes,No
+21,GRB080319B,Mostly Completed,Processed,Yes,Yes,No,Yes,No
 22,GRB081007-SN2008hw,ADS Exhausted,Processed,Yes,Yes,No,No,Yes
 23,GRB090618,Mostly Completed,Processed,Yes,Yes,No,Yes,Yes
 24,GRB091127-SN2009nz,ADS Exhausted,Processed,Yes,Yes,No,No,No
@@ -37,7 +37,7 @@
 35,GRB130215A-SN2013ez,ADS Exhausted,Processed,No,Yes,No,No,Yes
 36,GRB130427A-SN2013cq,Completed,Processed,Yes,Yes,Yes,Yes,No
 37,GRB130702A-SN2013dx,Mostly Completed,Processed,Yes,Yes,No,Yes,Yes
-38,GRB130831A-SN2013fu,ADS Exhausted,Unprocessed,Yes,Yes,No,No,No
+38,GRB130831A-SN2013fu,ADS Exhausted,Processed,Yes,Yes,No,No,No
 39,GRB140606B-iPTF14bfu,Mostly Completed,Processed,Yes,Yes,No,Yes,Yes
 40,GRB150518A,No ADS Data,Unprocessed,No,No,No,No,No
 41,GRB150818A,No ADS Data,Unprocessed,Yes,No,No,No,No
