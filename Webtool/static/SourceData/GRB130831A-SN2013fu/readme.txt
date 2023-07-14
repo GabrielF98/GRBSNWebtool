@@ -22,4 +22,10 @@ Filename: GRB130831A-SN2013fu_Xray_1.txt
 Source: https://ui.adsabs.harvard.edu/abs/2016MNRAS.455.1027D/abstract
 Data-type: IR, NIR, Optical, Late
 ---------------------------------------------------------
-Notes: Given magnitudes are not corrected for Galactic extinction. The time refers to how many days after the corresponding burst the data were taken. Errors on the flux are the 90 percent confidence interval.pectral index cstat and dof columns removed.
+Notes: Given magnitudes are not corrected for Galactic extinction. The time refers to how many days after the corresponding burst the data were taken. Errors on the flux are the 90 percent confidence interval. Spectral index cstat and dof columns removed.
+=========================================================
+Filename: GRB130831A-SN2013fu_Optical_2.txt
+Source: https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+Data-type: IR, NIR, Optical, Late
+---------------------------------------------------------
+Additional data not based on GROND observations.
