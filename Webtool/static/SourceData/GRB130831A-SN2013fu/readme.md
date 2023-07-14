@@ -41,13 +41,13 @@ Notes: t-t0 is the time in units of days after the burst (t0=31 August 2013, 13:
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2016MNRAS.455.1027D/abstract
 
-**Data-type:** Early, Xray
+**Data-type:** IR, NIR, Optical, Late
 
 **Notes:**
 
-Notes: Spectral index cstat and dof columns removed.
+Notes: Given magnitudes are not corrected for Galactic extinction. The time refers to how many days after the corresponding burst the data were taken. Errors on the flux are the 90 percent confidence interval. Spectral index cstat and dof columns removed.
 
-### GRB130831A-SN2013fu_Xray_1.txt
+### GRB130831A-SN2013fu_Optical_2.txt
 
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
@@ -56,4 +56,4 @@ Notes: Spectral index cstat and dof columns removed.
 
 **Notes:**
 
-Notes: Given magnitudes are not corrected for Galactic extinction. The time refers to how many days after the corresponding burst the data were taken.
+Additional data not based on GROND observations.
