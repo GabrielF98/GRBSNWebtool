@@ -3,6 +3,7 @@ import ast  # Convert strings to lists
 import glob  # Find the txt files with the right names
 import io  # Downloadable zipfiles and for updateable plots
 import json  # Reading in data
+import math
 import os  # Import os to find files in the event folders
 import sqlite3  # Database access
 import zipfile  # Creating zipfiles for download
@@ -14,7 +15,7 @@ from astropy.time import Time  # Converting MJD to UTC
 from bokeh.embed import components
 from bokeh.layouts import layout
 # Pieces for Bokeh
-from bokeh.models import ColumnDataSource, HoverTool, Label, Range1d
+from bokeh.models import ColumnDataSource, HoverTool, Label, Legend, Range1d
 from bokeh.palettes import Category20_20, d3, viridis
 from bokeh.plotting import figure
 from bokeh.transform import factor_cmap, factor_mark
@@ -455,12 +456,11 @@ def event(event_id):
     event_refs = []
     for i in range(len(event)):
         if event[i]['PrimarySources'] != None:
-            
-            
+
             # If its not in the list save the citation and the number.
             if event[i]['PrimarySources'] not in list(needed_dict.keys()):
                 needed_dict[event[i]['PrimarySources']
-                        ] = dict_refs[event[i]['PrimarySources']]
+                            ] = dict_refs[event[i]['PrimarySources']]
                 event_nos.append(
                     list(needed_dict.keys()).index(event[i]['PrimarySources'])+1)
                 event_refs.append(event[i]['PrimarySources'])
@@ -469,12 +469,12 @@ def event(event_id):
             else:
                 event_nos.append(
                     list(needed_dict.keys()).index(event[i]['PrimarySources'])+1)
-            
+
         elif event[i]['SecondarySources'] != None:
             # If its not in the list save the citation and the number.
             if radec[i]['source'] not in list(needed_dict.keys()):
                 needed_dict[event[i]['SecondarySources']
-                        ] = dict_refs2[event[i]['SecondarySources']]
+                            ] = dict_refs2[event[i]['SecondarySources']]
                 event_nos.append(
                     list(needed_dict.keys()).index(event[i]['SecondarySources'])+1)
                 event_refs.append(event[i]['SecondarySources'])
@@ -640,7 +640,7 @@ def event(event_id):
                         color='orange', line_width=2)
         xray.multi_line("terror", "te_locs", source=xray_source,
                         color='orange', line_width=2)
-        xray.scatter('time', 'flux', source=xray_source, legend_label="0.3-10keV", size=10,
+        xray.scatter('time', 'flux', source=xray_source, legend_label="0.3-10keV", size=15,
                      color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
 
         # Tooltips of what will display in the hover mode
@@ -726,7 +726,7 @@ def event(event_id):
         marks2 = ['triangle', 'circle', 'inverted_triangle']
         xray.multi_line("dflux_locs", "dfluxes", source=xray_error_cds, color=factor_cmap(
             'energy_range', colors, energy_ranges), line_width=2)
-        xray.scatter('time', 'flux', source=xray_cds, size=10, legend_field='energy_range', color=factor_cmap('energy_range', colors,
+        xray.scatter('time', 'flux', source=xray_cds, size=15, legend_field='energy_range', color=factor_cmap('energy_range', colors,
                      energy_ranges), fill_color=factor_cmap('energy_range', colors, energy_ranges), marker=factor_mark('flux_limit_str', marks2, types2))
 
         # Tooltips of what will display in the hover mode
@@ -920,7 +920,7 @@ def event(event_id):
                 optical.multi_line(
                     "dmag_locs", "dmags", source=optical_error, color=col, line_width=2)
                 optical.scatter('time_since', 'magnitude', source=optical_data,
-                                legend_label=band_label, size=10, color=col)
+                                legend_label=band_label, size=15, color=col)
 
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
@@ -939,7 +939,7 @@ def event(event_id):
     #################################
     # ADS data ######################
     #################################
-
+    legend_it = []
     # Check if the optical master file exists yet.
     if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt'):
         # Add 1 to track variable if openSN had data
@@ -975,13 +975,12 @@ def event(event_id):
         optical_df['indices'] = optical_source_indices_sub
 
         ####### Plot Data ###########
+
+        # Set the string values for the bands
+        optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
+
         # Select colours for the data
         colors = d3['Category20'][20]
-
-        # List all bands
-        bands = list(set(list(optical_df['band'].astype(str))))
-
-        optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
 
         # Create the error columns that bokeh wants
         # Errors on flux densities
@@ -992,21 +991,32 @@ def event(event_id):
         optical_error_df['dmag_locs'] = list(
             zip(optical_error_df['time'], optical_error_df['time']))
 
-        # Create a cds
-        optical_cds = ColumnDataSource(optical_df)
+        # List all bands
+        bands = list(set(list(optical_df['band'].astype(str))))
 
-        # Create a cds for errors
-        optical_error_cds = ColumnDataSource(optical_error_df)
+        for k, band in enumerate(bands):
+            band_data = optical_df.loc[optical_df['band'] == band]
+            band_error = optical_error_df.loc[optical_error_df['band'] == band]
 
-        # Plotting
+            # Create a cds
+            optical_cds = ColumnDataSource(band_data)
 
-        types2 = ['-1', '0', '1']
-        marks2 = ['triangle', 'circle', 'inverted_triangle']
-        optical.multi_line("dmag_locs", "dmags", source=optical_error_cds,
-                           color=factor_cmap('band', colors, bands), line_width=2)
-        optical.scatter('time', 'mag', source=optical_cds, size=10, legend_field='band', color=factor_cmap(
-            'band', colors, bands), fill_color=factor_cmap('band', colors, bands), marker=factor_mark('mag_limit_str', marks2, types2))
+            # Create a cds for errors
+            optical_error_cds = ColumnDataSource(band_error)
 
+            # Plotting
+
+            types2 = ['-1', '0', '1']
+            marks2 = ['triangle', 'circle', 'inverted_triangle']
+            b = optical.multi_line("dmag_locs", "dmags", source=optical_error_cds,
+                                   color=colors[int(k % 20)], line_width=2, muted_color='gray', muted_alpha=0.05)
+            if k < 20:
+                c = optical.scatter('time', 'mag', source=optical_cds, size=15, line_color=colors[int(k % 20)], color=colors[int(
+                    k % 20)], muted_color='gray', muted_alpha=0.05, fill_color=colors[int(k % 20)], marker=factor_mark('mag_limit_str', marks2, types2))
+            else:
+                c = optical.scatter('time', 'mag', source=optical_cds, size=15, line_color=colors[int(k % 20)], color=colors[int(
+                    k % 20)], muted_color='gray', muted_alpha=0.05, fill_color='none', marker=factor_mark('mag_limit_str', marks2, types2))
+            legend_it.append((band+'  ', [c, b]))
         # Tooltips of what will display in the hover mode
         # Format the tooltip
         # Tooltips of what will display in the hover mode
@@ -1061,8 +1071,21 @@ def event(event_id):
     optical.xaxis.axis_line_color = 'black'
     optical.yaxis.axis_line_color = 'black'
 
-    # Allow user to mute spectra by clicking the legend
-    # optical.legend.click_policy = "mute"
+    # Allow user to mute individual bands by clicking the legend
+    num = 10
+    for i in range(math.ceil(len(legend_it)/num)):
+        if i+1 < len(legend_it)/num:
+            legend2 = Legend(items=legend_it[i*num:i*num+num])
+            legend2.click_policy = "mute"
+            legend2.orientation = "horizontal"
+            optical.add_layout(legend2, 'below')
+            legend2.label_text_font_size = '16pt'
+        else:
+            legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
+            legend2.click_policy = "mute"
+            legend2.orientation = "horizontal"
+            optical.add_layout(legend2, 'below')
+            legend2.label_text_font_size = '16pt'
 
     # Make ticks larger
     optical.xaxis.major_label_text_font_size = '16pt'
@@ -1180,7 +1203,7 @@ def event(event_id):
         radio.multi_line("dfd_locs", "dfds", source=radio_error, color=factor_cmap(
             'freq_str', colors, freqs), line_width=2)
         radio.scatter('time', 'flux_density', source=radio_cds, legend_field='unit_col', color=factor_cmap('freq_str', colors, freqs),
-                      fill_color=factor_cmap('freq_str', colors, freqs), size=10, marker=factor_mark('flux_density_limit_str', marks2, types2))
+                      fill_color=factor_cmap('freq_str', colors, freqs), size=15, marker=factor_mark('flux_density_limit_str', marks2, types2))
 
         # Tooltips of what will display in the hover mode
         # Format the tooltip
@@ -1255,7 +1278,7 @@ def event(event_id):
 
     # Figure
     spectrum = figure(title='Spectrum (SN)', toolbar_location="right",
-                      tools=select_tools, height=260, sizing_mode='scale_width', margin=5)
+                      tools=select_tools, sizing_mode='scale_both', margin=5)
 
     # Blank tooltips
     tooltips = []
@@ -1447,15 +1470,15 @@ def event(event_id):
             scaled_spectrum = spectra_df.loc[spectra_df['time'] == float(
                 epochs[i])]
             if np.array(scaled_spectrum['flux'])[-1] < 5000:
-                scaled_spectrum['scaled_flux'] = np.array(scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[0]
+                scaled_spectrum['scaled_flux'] = np.array(
+                    scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[0]
             elif np.array(scaled_spectrum['flux'])[0] > 5000:
-                scaled_spectrum['scaled_flux'] = np.array(scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[-1]
+                scaled_spectrum['scaled_flux'] = np.array(
+                    scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[-1]
             else:
                 scaled_spectrum['scaled_flux'] = scaled_spectrum['flux']/(interp1d(
-            scaled_spectrum['rest_wavelength'], scaled_spectrum['flux']))(np.array([5000]))
+                    scaled_spectrum['rest_wavelength'], scaled_spectrum['flux']))(np.array([5000]))
             # Perform scaling of the spectrum
-            
-            
 
             # Create a CDS
             spectra_cds = ColumnDataSource(scaled_spectrum)
@@ -1528,7 +1551,8 @@ def event(event_id):
     spectrum.background_fill_color = 'white'
     spectrum.border_fill_color = 'white'
 
-    script, div = components(layout([xray, optical, radio], [spectrum]))
+    script, div = components(
+        layout([radio, optical], [xray, spectrum], sizing_mode='stretch_width'))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
