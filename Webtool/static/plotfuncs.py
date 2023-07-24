@@ -1086,6 +1086,9 @@ def masterfileformat(event):
 
                 elif data['time_unit'][i] == 'hours':
                     time[i] = float(time[i])/24
+                    
+                elif data['time_unit'][i] == 'years':
+                            time[i] = float(time[i])*365
 
             data['time'] = time
             data['time_unit'] = 'days'
@@ -1120,6 +1123,9 @@ def masterfileformat(event):
                         elif data['time_unit'][i] == 'hours':
                             time[i] = float(time[i])/24
 
+                        elif data['time_unit'][i] == 'years':
+                            time[i] = float(time[i])*365
+
                     data['time'] = time
                     data['time_unit'] = 'days'
 
@@ -1144,6 +1150,9 @@ def masterfileformat(event):
 
                     elif data['time_unit'][i] == 'hours':
                         time[i] = float(time[i])/24
+
+                    elif data['time_unit'][i] == 'years':
+                            time[i] = float(time[i])*365
 
                 data['time'] = time
                 data['time_unit'] = 'days'
