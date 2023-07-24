@@ -241,7 +241,6 @@ def elapsed_time(dataframe, trigtime):
 
             # Split the date.
             date = dataframe['date'][i].split('-')
-            print(date)
             year = date[0]
             month = month2number[date[1]]
 
@@ -411,14 +410,13 @@ def elapsed_time(dataframe, trigtime):
                 ':'+str(minute2)[:2]+':00'
 
             # Handle an absence of triggertime. Set to the first time in the observations.
-            # if trigtime == 'no_tt' and i==0:
-            #     trigtime = isotime1
-
             # astropy to subtract the two isotimes and get the median time.
             time_list = [isotime1, isotime2, trigtime]
+            print(time_list)
             t = Time(time_list, format='isot', scale='utc')
-            isotime = (t[0]+((t[1]-t[0])/2)).value
-            time[i] = isotime-t[2]
+            isotime = (t[0]+((t[1]-t[0])/2))
+            elapsed_time = isotime-t[2]
+            time[i] = elapsed_time.value
 
             # Time unit is now in days.
             time_unit.append('days')
@@ -1236,7 +1234,6 @@ def masterfileformat(event):
 ###################
 # Run through all the files. Convert them to the format we want.
 for i in range(len(event_list)):
-    #print('I am now doing folder: ', event_list[i])
     trigtime = get_trigtime(event_list[i])
     redshift = get_redshift(event_list[i])
 

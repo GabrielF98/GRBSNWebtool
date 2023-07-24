@@ -1,13 +1,13 @@
-date	mag	mag_limit	dmag	integration	band	instrument	date_unit	mag_unit
-2002-Dec-11.9347	22.7	0	0.14	2\times1200	B	104-cm	yyyy-month-deciday	unspecified
-2002-Dec-11.8264	22.3	0	0.2	1800	V	104-cm	yyyy-month-deciday	unspecified
-2002-Dec-11.9632	22.6	1		1800	V	104-cm	yyyy-month-deciday	unspecified
-2002-Dec-11.7549	21.9	0	0.21	2\times900	R	104-cm	yyyy-month-deciday	unspecified
-2002-Dec-11.7792	21.9	0	0.16	2\times900	R	104-cm	yyyy-month-deciday	unspecified
-2002-Dec-11.8640	22.1	0	0.18	600	R	HCT	yyyy-month-deciday	unspecified
-2002-Dec-11.8730	22.1	0	0.18	600	R	HCT	yyyy-month-deciday	unspecified
-2002-Dec-11.8822	22.1	0	0.14	600	R	HCT	yyyy-month-deciday	unspecified
-2002-Dec-11.8914	22.4	0	0.24	600	R	HCT	yyyy-month-deciday	unspecified
-2002-Dec-11.8993	22.5	0	0.21	2\times1800	R	104-cm	yyyy-month-deciday	unspecified
-2002-Dec-11.9318	22.2	0	0.18	2\times600	R	HCT	yyyy-month-deciday	unspecified
-2002-Dec-11.8028	21.4	1		2\times900	I	104-cm	yyyy-month-deciday	unspecified
+date	mag	mag_limit	dmag	integration	band	instrument	date_unit	mag_unit	time	time_unit	time_frame	dtime
+2002-Dec-11.9347	22.7	0	0.14	2\times1200	B	104-cm	yyyy-month-deciday	unspecified	0.4634722222222222	days	observer	NaN
+2002-Dec-11.8264	22.3	0	0.2	1800	V	104-cm	yyyy-month-deciday	unspecified	0.3551620370370369	days	observer	NaN
+2002-Dec-11.9632	22.6	1	NaN	1800	V	104-cm	yyyy-month-deciday	unspecified	0.4919675925925926	days	observer	NaN
+2002-Dec-11.7549	21.9	0	0.21	2\times900	R	104-cm	yyyy-month-deciday	unspecified	0.2836689814814814	days	observer	NaN
+2002-Dec-11.7792	21.9	0	0.16	2\times900	R	104-cm	yyyy-month-deciday	unspecified	0.307962962962963	days	observer	NaN
+2002-Dec-11.8640	22.1	0	0.18	600	R	HCT	yyyy-month-deciday	unspecified	0.3927662037037036	days	observer	NaN
+2002-Dec-11.8730	22.1	0	0.18	600	R	HCT	yyyy-month-deciday	unspecified	0.4017708333333333	days	observer	NaN
+2002-Dec-11.8822	22.1	0	0.14	600	R	HCT	yyyy-month-deciday	unspecified	0.4109722222222222	days	observer	NaN
+2002-Dec-11.8914	22.4	0	0.24	600	R	HCT	yyyy-month-deciday	unspecified	0.420162037037037	days	observer	NaN
+2002-Dec-11.8993	22.5	0	0.21	2\times1800	R	104-cm	yyyy-month-deciday	unspecified	0.4280671296296295	days	observer	NaN
+2002-Dec-11.9318	22.2	0	0.18	2\times600	R	HCT	yyyy-month-deciday	unspecified	0.4605671296296296	days	observer	NaN
+2002-Dec-11.8028	21.4	1	NaN	2\times900	I	104-cm	yyyy-month-deciday	unspecified	0.3315625	days	observer	NaN
