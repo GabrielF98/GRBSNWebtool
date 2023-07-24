@@ -1471,8 +1471,6 @@ def event(event_id):
         # Range
         spectrum.y_range = Range1d(
             max(min(min_spec)-0.1*min(min_spec), -1), min(0.1*max(max_spec)+max(max_spec), 5))
-        # spectrum.y_range = Range1d(
-        #     min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
 
     #################################
     # ADS data ######################
@@ -1561,9 +1559,6 @@ def event(event_id):
     # Add the HoverTool to the figure
     spectrum.add_tools(HoverTool(tooltips=tooltips))
 
-    # Allow user to mute spectra by clicking the legend
-    spectrum.legend.click_policy = "mute"
-
     # Aesthetics
     # Title
     spectrum.title.text_font_size = '20pt'
@@ -1626,7 +1621,7 @@ def event(event_id):
             legend2.label_text_font_size = '16pt'
 
     script, div = components(
-        layout([radio, optical], [xray, spectrum], sizing_mode='stretch_width'))
+        layout([radio, optical], [xray, spectrum], sizing_mode='scale_width'))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
