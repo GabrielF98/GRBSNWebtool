@@ -30,6 +30,6 @@ def remove_columns_and_save(file_path, columns_to_remove):
 
 # Example usage:
 if __name__ == "__main__":
-    file_path = "GRB031203-SN2003lw/GRB031203-SN2003lw_Optical2.txt"  # Replace with the path to your text file
+    file_path = "GRB060218-SN2006aj/GRB060218-SN2006aj_Optical5.txt"  # Replace with the path to your text file
     columns_to_remove = ["time", "dtime", "time_unit"]  # Replace with the names of the columns you want to remove
     remove_columns_and_save(file_path, columns_to_remove)
