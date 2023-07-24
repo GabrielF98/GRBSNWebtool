@@ -136,7 +136,6 @@ def get_trigtime(event_id):
             else:
                 trigtime = "no_tt"
     conn.close()
-    print(f'The name and trigtime are {grb_name} and {trigtime}')
     return trigtime
 
 
