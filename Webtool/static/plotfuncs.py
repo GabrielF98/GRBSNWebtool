@@ -100,7 +100,7 @@ def get_trigtime(event_id):
 
                 # Make it a full UTC time
                 if np.float64(grb_name[:2]) > 90:
-                    if isinstance(grb_name[-2:], int):
+                    if grb_name[-1].isdigit():
                         trigtime = '19' + \
                             grb_name[:2]+'-'+grb_name[2:4] + \
                             '-'+grb_name[-2:]+'T'+trigtime
@@ -109,7 +109,7 @@ def get_trigtime(event_id):
                             grb_name[:2]+'-'+grb_name[2:4] + \
                             '-'+grb_name[-3:-1]+'T'+trigtime
                 else:
-                    if isinstance(grb_name[-2], int):
+                    if grb_name[-1].isdigit():
                         trigtime = '20' + \
                             grb_name[:2]+'-'+grb_name[2:4] + \
                             '-'+grb_name[-2:]+'T'+trigtime
@@ -136,7 +136,7 @@ def get_trigtime(event_id):
             else:
                 trigtime = "no_tt"
     conn.close()
-    # print(trigtime)
+    print(f'The name and trigtime are {grb_name} and {trigtime}')
     return trigtime
 
 
