@@ -1,0 +1,6 @@
+date	integration	count_rate	dcount_rate	flux	dflux	N_H	date_unit	integraition_unit	flux_unit	time_frame	energy_range
+2007-Mar-17-13:02-14:54	4701	3.93e-4	1.28e-4	4.261e-15	1.39e-15	1.34e+21	yyyy-month-dd-hh:mm-hh:mm	seconds	erg/s/cm^2	observer	0.3-10keV
+2007-May-16-09:30-20:56	40268	2.67e-4	0.96e-4	2.90e-15	1.04e-15	1.34e+21	yyyy-month-dd-hh:mm-hh:mm	seconds	erg/s/cm^2	observer	0.3-10keV
+2007-Jun-30-06:19-23:48	60400	2.07e-4	0.72e-4	2.25e-15	0.78e-15	1.34e+21	yyyy-month-dd-hh:mm-hh:mm	seconds	erg/s/cm^2	observer	0.3-10keV
+2007-Dec-29.7895835-30.050694	20239	0.69e-4	0.35e-4	0.75e-15	0.38e-15	1.34e+21	yyyy-month-deciday-deciday	seconds	erg/s/cm^2	observer	0.3-10keV
+2008-May-3-15:51-23:35	26382	0.26e-4	0.18e-4	0.28e-15	0.19e-15	1.34e+21	yyyy-month-dd-hh:mm-hh:mm	seconds	erg/s/cm^2	observer	0.3-10keV
