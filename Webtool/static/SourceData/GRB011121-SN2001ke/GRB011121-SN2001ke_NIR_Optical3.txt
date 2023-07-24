@@ -1,48 +1,48 @@
-date	band	mag	mag_limit	dmag	instrument	date_unit	mag_unit	time	time_unit	dtime
-2001-Nov-22.3560	J	17.852	0	0.045	dP	yyyy-month-deciday	Undefined	0.5731134259259258	days	NaN
-2001-Nov-22.3573	J	17.73	0	0.037	dP	yyyy-month-deciday	Undefined	0.5744097222222222	days	NaN
-2001-Nov-22.3587	J	17.763	0	0.044	dP	yyyy-month-deciday	Undefined	0.5758101851851851	days	NaN
-2001-Nov-22.3600	J	17.801	0	0.04	dP	yyyy-month-deciday	Undefined	0.5771064814814815	days	NaN
-2001-Nov-22.3614	J	17.821	0	0.037	dP	yyyy-month-deciday	Undefined	0.5785069444444444	days	NaN
-2001-Nov-22.3627	J	17.799	0	0.039	dP	yyyy-month-deciday	Undefined	0.5798148148148148	days	NaN
-2001-Nov-22.3641	J	17.785	0	0.035	dP	yyyy-month-deciday	Undefined	0.5812152777777777	days	NaN
-2001-Nov-22.3654	J	17.77	0	0.036	dP	yyyy-month-deciday	Undefined	0.5825115740740741	days	NaN
-2001-Nov-22.3667	J	17.795	0	0.041	dP	yyyy-month-deciday	Undefined	0.5838078703703704	days	NaN
-2001-Nov-22.3681	J	17.739	0	0.038	dP	yyyy-month-deciday	Undefined	0.5852083333333333	days	NaN
-2001-Nov-22.7177	J	18.352	0	0.1	AAT	yyyy-month-deciday	Undefined	0.9348148148148148	days	NaN
-2001-Nov-23.3193	J	19.463	0	0.068	dP	yyyy-month-deciday	Undefined	1.5364120370370369	days	NaN
-2001-Nov-28.5	J	21.291	0	0.282	Baade	yyyy-month-deciday	Undefined	6.717118055555556	days	NaN
-2001-Nov-22.3178	K	15.959	0	0.045	dP	yyyy-month-deciday	Undefined	0.5349074074074074	days	NaN
-2001-Nov-22.3194	K	15.987	0	0.04	dP	yyyy-month-deciday	Undefined	0.5365162037037037	days	NaN
-2001-Nov-22.3211	K	15.908	0	0.037	dP	yyyy-month-deciday	Undefined	0.5382175925925925	days	NaN
-2001-Nov-22.3227	K	15.994	0	0.04	dP	yyyy-month-deciday	Undefined	0.5398148148148147	days	NaN
-2001-Nov-22.3244	K	15.958	0	0.04	dP	yyyy-month-deciday	Undefined	0.5415162037037037	days	NaN
-2001-Nov-22.3263	K	16.002	0	0.041	dP	yyyy-month-deciday	Undefined	0.5434143518518518	days	NaN
-2001-Nov-22.3279	K	16.006	0	0.041	dP	yyyy-month-deciday	Undefined	0.545011574074074	days	NaN
-2001-Nov-22.3296	K	16.003	0	0.039	dP	yyyy-month-deciday	Undefined	0.546712962962963	days	NaN
-2001-Nov-22.3296	K	16.003	0	0.039	dP	yyyy-month-deciday	Undefined	0.546712962962963	days	NaN
-2001-Nov-22.3313	K	15.981	0	0.037	dP	yyyy-month-deciday	Undefined	0.5484143518518518	days	NaN
-2001-Nov-22.3329	K	16.053	0	0.039	dP	yyyy-month-deciday	Undefined	0.5500115740740741	days	NaN
-2001-Nov-22.3349	K	16.039	0	0.04	dP	yyyy-month-deciday	Undefined	0.5520138888888888	days	NaN
-2001-Nov-22.3365	K	15.997	0	0.039	dP	yyyy-month-deciday	Undefined	0.553611111111111	days	NaN
-2001-Nov-22.3382	K	16.12	0	0.041	dP	yyyy-month-deciday	Undefined	0.5553125	days	NaN
-2001-Nov-22.3398	K	15.996	0	0.063	dP	yyyy-month-deciday	Undefined	0.5569097222222221	days	NaN
-2001-Nov-22.3454	K	16.027	0	0.038	dP	yyyy-month-deciday	Undefined	0.562511574074074	days	NaN
-2001-Nov-22.3470	K	16.069	0	0.036	dP	yyyy-month-deciday	Undefined	0.5641087962962963	days	NaN
-2001-Nov-22.3487	K	16.1	0	0.042	dP	yyyy-month-deciday	Undefined	0.5658101851851851	days	NaN
-2001-Nov-22.3503	K	16.015	0	0.043	dP	yyyy-month-deciday	Undefined	0.5674074074074074	days	NaN
-2001-Nov-22.3520	K	16.098	0	0.043	dP	yyyy-month-deciday	Undefined	0.5691087962962962	days	NaN
-2001-Nov-22.4771	K	16.421	0	0.041	AAT	yyyy-month-deciday	Undefined	0.694212962962963	days	NaN
-2001-Nov-22.4954	K	16.537	0	0.041	AAT	yyyy-month-deciday	Undefined	0.7125115740740741	days	NaN
-2001-Nov-22.5126	K	16.495	0	0.035	AAT	yyyy-month-deciday	Undefined	0.7297106481481481	days	NaN
-2001-Nov-22.6066	K	16.605	0	0.058	AAT	yyyy-month-deciday	Undefined	0.8237152777777778	days	NaN
-2001-Nov-22.6169	K	16.788	0	0.042	AAT	yyyy-month-deciday	Undefined	0.8340162037037037	days	NaN
-2001-Nov-22.6397	K	16.782	0	0.038	AAT	yyyy-month-deciday	Undefined	0.8568171296296296	days	NaN
-2001-Nov-22.6506	K	16.862	0	0.036	AAT	yyyy-month-deciday	Undefined	0.8677083333333333	days	NaN
-2001-Nov-22.6612	K	17.019	0	0.052	AAT	yyyy-month-deciday	Undefined	0.8783101851851851	days	NaN
-2001-Nov-22.6716	K	16.852	0	0.039	AAT	yyyy-month-deciday	Undefined	0.8887152777777777	days	NaN
-2001-Nov-22.6822	K	17.035	0	0.083	AAT	yyyy-month-deciday	Undefined	0.8993171296296296	days	NaN
-2001-Nov-22.7272	K	17.005	0	0.051	AAT	yyyy-month-deciday	Undefined	0.9443171296296295	days	NaN
-2001-Nov-22.7384	K	17.087	0	0.079	AAT	yyyy-month-deciday	Undefined	0.9555092592592592	days	NaN
-2001-Nov-23.3336	K	17.924	0	0.051	dP	yyyy-month-deciday	Undefined	1.5507175925925925	days	NaN
-2001-Nov-28.7092	K	19.346	0	0.234	AAT	yyyy-month-deciday	Undefined	6.92630787037037	days	NaN
+date	band	mag	mag_limit	dmag	instrument	date_unit	mag_unit
+2001-Nov-22.3560	J	17.852	0	0.045	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3573	J	17.73	0	0.037	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3587	J	17.763	0	0.044	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3600	J	17.801	0	0.04	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3614	J	17.821	0	0.037	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3627	J	17.799	0	0.039	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3641	J	17.785	0	0.035	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3654	J	17.77	0	0.036	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3667	J	17.795	0	0.041	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3681	J	17.739	0	0.038	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.7177	J	18.352	0	0.1	AAT	yyyy-month-deciday	Undefined
+2001-Nov-23.3193	J	19.463	0	0.068	dP	yyyy-month-deciday	Undefined
+2001-Nov-28.5	J	21.291	0	0.282	Baade	yyyy-month-deciday	Undefined
+2001-Nov-22.3178	K	15.959	0	0.045	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3194	K	15.987	0	0.04	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3211	K	15.908	0	0.037	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3227	K	15.994	0	0.04	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3244	K	15.958	0	0.04	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3263	K	16.002	0	0.041	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3279	K	16.006	0	0.041	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3296	K	16.003	0	0.039	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3296	K	16.003	0	0.039	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3313	K	15.981	0	0.037	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3329	K	16.053	0	0.039	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3349	K	16.039	0	0.04	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3365	K	15.997	0	0.039	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3382	K	16.12	0	0.041	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3398	K	15.996	0	0.063	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3454	K	16.027	0	0.038	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3470	K	16.069	0	0.036	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3487	K	16.1	0	0.042	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3503	K	16.015	0	0.043	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.3520	K	16.098	0	0.043	dP	yyyy-month-deciday	Undefined
+2001-Nov-22.4771	K	16.421	0	0.041	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.4954	K	16.537	0	0.041	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.5126	K	16.495	0	0.035	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.6066	K	16.605	0	0.058	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.6169	K	16.788	0	0.042	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.6397	K	16.782	0	0.038	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.6506	K	16.862	0	0.036	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.6612	K	17.019	0	0.052	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.6716	K	16.852	0	0.039	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.6822	K	17.035	0	0.083	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.7272	K	17.005	0	0.051	AAT	yyyy-month-deciday	Undefined
+2001-Nov-22.7384	K	17.087	0	0.079	AAT	yyyy-month-deciday	Undefined
+2001-Nov-23.3336	K	17.924	0	0.051	dP	yyyy-month-deciday	Undefined
+2001-Nov-28.7092	K	19.346	0	0.234	AAT	yyyy-month-deciday	Undefined
