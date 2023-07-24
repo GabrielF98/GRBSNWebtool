@@ -412,7 +412,7 @@ def elapsed_time(dataframe, trigtime):
             # Handle an absence of triggertime. Set to the first time in the observations.
             # astropy to subtract the two isotimes and get the median time.
             time_list = [isotime1, isotime2, trigtime]
-            print(time_list)
+            #print(time_list)
             t = Time(time_list, format='isot', scale='utc')
             isotime = (t[0]+((t[1]-t[0])/2))
             elapsed_time = isotime-t[2]
@@ -482,7 +482,7 @@ def elapsed_time(dataframe, trigtime):
             obstime = mjd1iso+((mjd2iso-mjd1iso)/2)
 
             # Handle an absence of triggertime. Set to the first time in the observations.
-            # print(trigtime)
+            # #print(trigtime)
             # if trigtime == 'no_tt' and i==0:
             #     trigtime = obstime
 
