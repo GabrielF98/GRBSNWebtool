@@ -1,99 +1,99 @@
-date	seeing	instrument	band	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	dtime	reference	integration	integration_unit
-2003-Dec-20.247	0.3	FORS2	V	20.347	0	0.02	yyyy-month-deciday	unspecified	16.329305555555557	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-30.250	0.5	FORS1	V	20.37	0	0.05	yyyy-month-deciday	unspecified	26.33231481481481	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Feb-29.193	0.7	FORS1	V	20.535	0	0.012	yyyy-month-deciday	unspecified	87.2753125	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Mar-02.064	0.7	FORS1	V	20.539	0	0.015	yyyy-month-deciday	unspecified	89.14630787037036	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-15.314	0.6	FORS1	R	20.14	0	0.03	yyyy-month-deciday	unspecified	11.39630787037037	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-17.284	0.7	FORS1	R	20.131	0	0.016	yyyy-month-deciday	unspecified	13.36630787037037	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-23.295	0.5	FORS1	R	20.08	0	0.016	yyyy-month-deciday	unspecified	19.377314814814817	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-28.296	0.6	FORS1	R	20.089	0	0.01	yyyy-month-deciday	unspecified	24.378310185185185	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-30.241	0.5	FORS1	R	20.096	0	0.013	yyyy-month-deciday	unspecified	26.323310185185186	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Jan-16.171	0.8	FORS1	R	20.27	0	0.013	yyyy-month-deciday	unspecified	43.25331018518519	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Jan-17.185	0.5	FORS1	R	20.279	0	0.014	yyyy-month-deciday	unspecified	44.26730324074074	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Feb-21.101	0.7	FORS1	R	20.388	0	0.019	yyyy-month-deciday	unspecified	79.18331018518519	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Feb-29.198	0.7	FORS1	R	20.382	0	0.012	yyyy-month-deciday	unspecified	87.2803125	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Mar-02.069	0.6	FORS1	R	20.395	0	0.016	yyyy-month-deciday	unspecified	89.15130787037037	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-15.321	0.5	FORS1	I	19.18	0	0.03	yyyy-month-deciday	unspecified	11.403310185185186	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-17.291	0.6	FORS1	I	19.166	0	0.015	yyyy-month-deciday	unspecified	13.373310185185185	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-23.300	0.4	FORS1	I	19.128	0	0.013	yyyy-month-deciday	unspecified	19.382384259259258	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-28.301	0.6	FORS1	I	19.136	0	0.015	yyyy-month-deciday	unspecified	24.383310185185184	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-30.245	0.4	FORS1	I	19.128	0	0.009	yyyy-month-deciday	unspecified	26.327314814814816	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Jan-16.177	0.6	FORS1	I	19.23	0	0.008	yyyy-month-deciday	unspecified	43.25930555555556	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Jan-17.179	0.6	FORS1	I	19.234	0	0.007	yyyy-month-deciday	unspecified	44.26130787037037	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Feb-21.107	0.5	FORS1	I	19.331	0	0.013	yyyy-month-deciday	unspecified	79.18930555555555	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Feb-29.203	0.8	FORS1	I	19.33	0	0.013	yyyy-month-deciday	unspecified	87.2853125	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-04.288	0.9	SofI	J	18.13	0	0.034	yyyy-month-deciday	unspecified	0.3703125	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-05.258	0.5	ISAAC	J	18.273	0	0.03	yyyy-month-deciday	unspecified	1.3403125	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-15.140	1.1	SofI	J	18.144	0	0.032	yyyy-month-deciday	unspecified	11.222314814814816	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-24.191	1.0	SofI	J	18.046	0	0.069	yyyy-month-deciday	unspecified	20.273310185185185	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Feb-28.111	0.5	ISAAC	J	18.24	0	0.045	yyyy-month-deciday	unspecified	86.19331018518518	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-04.300	0.9	SofI	H	17.36	0	0.042	yyyy-month-deciday	unspecified	0.3823032407407407	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-05.271	0.5	ISAAC	H	17.617	0	0.035	yyyy-month-deciday	unspecified	1.3533101851851852	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-14.148	0.9	SofI	H	17.354	0	0.033	yyyy-month-deciday	unspecified	10.2303125	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Feb-28.104	0.5	ISAAC	H	17.55	0	0.019	yyyy-month-deciday	unspecified	86.18630787037037	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-04.204	0.9	SofI	K	16.38	0	0.036	yyyy-month-deciday	unspecified	0.2863078703703704	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-04.312	0.8	SofI	K	16.343999999999998	0	0.033	yyyy-month-deciday	unspecified	0.3943055555555556	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-05.267	0.5	ISAAC	K	16.541	0	0.025	yyyy-month-deciday	unspecified	1.3493055555555555	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-14.154	0.8	SofI	K	16.426	0	0.044	yyyy-month-deciday	unspecified	10.23630787037037	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-23.188	1.0	SofI	K	16.462	0	0.107	yyyy-month-deciday	unspecified	19.2703125	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Feb-28.095	0.5	ISAAC	K	16.634999999999998	0	0.055	yyyy-month-deciday	unspecified	86.17730324074074	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-24.507	1.5	MAGNUM	I	19.16	0	0.03	yyyy-month-deciday	unspecified	20.589305555555555	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Jan-06.447	1.4	MAGNUM	I	19.16	0	0.03	yyyy-month-deciday	unspecified	33.52930555555555	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2003-Dec-24.503	1.1	MAGNUM	K	16.61	0	0.04	yyyy-month-deciday	unspecified	20.5853125	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-Jan-06.445	1.1	MAGNUM	K	16.58	0	0.04	yyyy-month-deciday	unspecified	33.527314814814815	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
-2004-May-22.02	0.6	FORS1	R	20.44	0	0.02	yyyy-month-deciday	NaN	170.10230324074075	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract	2 \times 2	minutes
-2004-May-22.02	0.6	FORS1	I	19.4	0	0.04	yyyy-month-deciday	NaN	170.10230324074075	days	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract	2 \times 2	minutes
-NaN	NaN	SMARTS	I	19.12	0	0.03	NaN	unspecified	0.21	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.19	0	0.03	NaN	unspecified	0.26	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.23	0	0.03	NaN	unspecified	0.29	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.17	0	0.03	NaN	unspecified	0.31	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.22	0	0.03	NaN	unspecified	1.31	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.15	0	0.03	NaN	unspecified	2.31	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.22	0	0.03	NaN	unspecified	3.33	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.13	0	0.03	NaN	unspecified	4.37	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.07	0	0.03	NaN	unspecified	5.38	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.06	0	0.03	NaN	unspecified	6.38	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.14	0	0.03	NaN	unspecified	7.31	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.09	0	0.03	NaN	unspecified	8.33	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.05	0	0.03	NaN	unspecified	9.34	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.09	0	0.03	NaN	unspecified	10.32	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.09	0	0.03	NaN	unspecified	11.32	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.07	0	0.03	NaN	unspecified	12.34	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.1	0	0.03	NaN	unspecified	13.36	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.05	0	0.03	NaN	unspecified	15.35	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.08	0	0.03	NaN	unspecified	17.34	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.05	0	0.03	NaN	unspecified	20.37	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.04	0	0.03	NaN	unspecified	23.36	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.01	0	0.03	NaN	unspecified	26.33	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	18.99	0	0.03	NaN	unspecified	30.32	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.04	0	0.03	NaN	unspecified	34.37	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.08	0	0.03	NaN	unspecified	38.32	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.18	0	0.03	NaN	unspecified	44.31	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.21	0	0.03	NaN	unspecified	50.34	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.19	0	0.03	NaN	unspecified	57.31	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.22	0	0.03	NaN	unspecified	69.24	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.17	0	0.03	NaN	unspecified	78.2	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	I	19.25	0	0.03	NaN	unspecified	92.19	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.28	0	0.06	NaN	unspecified	2.31	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.38	0	0.06	NaN	unspecified	3.33	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.32	0	0.06	NaN	unspecified	5.38	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.18	0	0.06	NaN	unspecified	6.38	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.19	0	0.06	NaN	unspecified	7.31	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.17	0	0.06	NaN	unspecified	8.33	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.19	0	0.06	NaN	unspecified	9.34	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.19	0	0.06	NaN	unspecified	10.32	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.1	0	0.06	NaN	unspecified	11.32	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.03	0	0.06	NaN	unspecified	12.34	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.25	0	0.09	NaN	unspecified	13.36	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.09	0	0.06	NaN	unspecified	15.35	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.13	0	0.06	NaN	unspecified	17.34	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	17.97	0	0.06	NaN	unspecified	20.37	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.12	0	0.06	NaN	unspecified	23.36	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.01	0	0.06	NaN	unspecified	26.33	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.05	0	0.06	NaN	unspecified	30.32	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.02	0	0.06	NaN	unspecified	38.32	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.19	0	0.06	NaN	unspecified	50.34	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.27	0	0.09	NaN	unspecified	57.31	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.29	0	0.06	NaN	unspecified	69.24	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.32	0	0.06	NaN	unspecified	78.2	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
-NaN	NaN	SMARTS	J	18.29	0	0.06	NaN	unspecified	92.19	days	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+date	seeing	instrument	band	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	time_frame	dtime	reference	integration	integration_unit
+2003-Dec-20.247	0.3	FORS2	V	20.347	0	0.02	yyyy-month-deciday	unspecified	16.329305555555557	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-30.250	0.5	FORS1	V	20.37	0	0.05	yyyy-month-deciday	unspecified	26.33231481481481	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Feb-29.193	0.7	FORS1	V	20.535	0	0.012	yyyy-month-deciday	unspecified	87.2753125	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Mar-02.064	0.7	FORS1	V	20.539	0	0.015	yyyy-month-deciday	unspecified	89.14630787037036	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-15.314	0.6	FORS1	R	20.14	0	0.03	yyyy-month-deciday	unspecified	11.39630787037037	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-17.284	0.7	FORS1	R	20.131	0	0.016	yyyy-month-deciday	unspecified	13.36630787037037	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-23.295	0.5	FORS1	R	20.08	0	0.016	yyyy-month-deciday	unspecified	19.377314814814817	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-28.296	0.6	FORS1	R	20.089	0	0.01	yyyy-month-deciday	unspecified	24.378310185185185	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-30.241	0.5	FORS1	R	20.096	0	0.013	yyyy-month-deciday	unspecified	26.323310185185186	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Jan-16.171	0.8	FORS1	R	20.27	0	0.013	yyyy-month-deciday	unspecified	43.25331018518519	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Jan-17.185	0.5	FORS1	R	20.279	0	0.014	yyyy-month-deciday	unspecified	44.26730324074074	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Feb-21.101	0.7	FORS1	R	20.388	0	0.019	yyyy-month-deciday	unspecified	79.18331018518519	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Feb-29.198	0.7	FORS1	R	20.382	0	0.012	yyyy-month-deciday	unspecified	87.2803125	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Mar-02.069	0.6	FORS1	R	20.395	0	0.016	yyyy-month-deciday	unspecified	89.15130787037037	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-15.321	0.5	FORS1	I	19.18	0	0.03	yyyy-month-deciday	unspecified	11.403310185185186	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-17.291	0.6	FORS1	I	19.166	0	0.015	yyyy-month-deciday	unspecified	13.373310185185185	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-23.300	0.4	FORS1	I	19.128	0	0.013	yyyy-month-deciday	unspecified	19.382384259259258	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-28.301	0.6	FORS1	I	19.136	0	0.015	yyyy-month-deciday	unspecified	24.383310185185184	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-30.245	0.4	FORS1	I	19.128	0	0.009	yyyy-month-deciday	unspecified	26.327314814814816	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Jan-16.177	0.6	FORS1	I	19.23	0	0.008	yyyy-month-deciday	unspecified	43.25930555555556	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Jan-17.179	0.6	FORS1	I	19.234	0	0.007	yyyy-month-deciday	unspecified	44.26130787037037	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Feb-21.107	0.5	FORS1	I	19.331	0	0.013	yyyy-month-deciday	unspecified	79.18930555555555	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Feb-29.203	0.8	FORS1	I	19.33	0	0.013	yyyy-month-deciday	unspecified	87.2853125	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-04.288	0.9	SofI	J	18.13	0	0.034	yyyy-month-deciday	unspecified	0.3703125	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-05.258	0.5	ISAAC	J	18.273	0	0.03	yyyy-month-deciday	unspecified	1.3403125	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-15.140	1.1	SofI	J	18.144	0	0.032	yyyy-month-deciday	unspecified	11.222314814814816	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-24.191	1.0	SofI	J	18.046	0	0.069	yyyy-month-deciday	unspecified	20.273310185185185	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Feb-28.111	0.5	ISAAC	J	18.24	0	0.045	yyyy-month-deciday	unspecified	86.19331018518518	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-04.300	0.9	SofI	H	17.36	0	0.042	yyyy-month-deciday	unspecified	0.3823032407407407	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-05.271	0.5	ISAAC	H	17.617	0	0.035	yyyy-month-deciday	unspecified	1.3533101851851852	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-14.148	0.9	SofI	H	17.354	0	0.033	yyyy-month-deciday	unspecified	10.2303125	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Feb-28.104	0.5	ISAAC	H	17.55	0	0.019	yyyy-month-deciday	unspecified	86.18630787037037	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-04.204	0.9	SofI	K	16.38	0	0.036	yyyy-month-deciday	unspecified	0.2863078703703704	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-04.312	0.8	SofI	K	16.343999999999998	0	0.033	yyyy-month-deciday	unspecified	0.3943055555555556	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-05.267	0.5	ISAAC	K	16.541	0	0.025	yyyy-month-deciday	unspecified	1.3493055555555555	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-14.154	0.8	SofI	K	16.426	0	0.044	yyyy-month-deciday	unspecified	10.23630787037037	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-23.188	1.0	SofI	K	16.462	0	0.107	yyyy-month-deciday	unspecified	19.2703125	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Feb-28.095	0.5	ISAAC	K	16.634999999999998	0	0.055	yyyy-month-deciday	unspecified	86.17730324074074	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-24.507	1.5	MAGNUM	I	19.16	0	0.03	yyyy-month-deciday	unspecified	20.589305555555555	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Jan-06.447	1.4	MAGNUM	I	19.16	0	0.03	yyyy-month-deciday	unspecified	33.52930555555555	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2003-Dec-24.503	1.1	MAGNUM	K	16.61	0	0.04	yyyy-month-deciday	unspecified	20.5853125	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-Jan-06.445	1.1	MAGNUM	K	16.58	0	0.04	yyyy-month-deciday	unspecified	33.527314814814815	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract	NaN	NaN
+2004-May-22.02	0.6	FORS1	R	20.44	0	0.02	yyyy-month-deciday	NaN	170.10230324074075	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract	2 \times 2	minutes
+2004-May-22.02	0.6	FORS1	I	19.4	0	0.04	yyyy-month-deciday	NaN	170.10230324074075	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract	2 \times 2	minutes
+NaN	NaN	SMARTS	I	19.12	0	0.03	NaN	unspecified	0.21	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.19	0	0.03	NaN	unspecified	0.26	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.23	0	0.03	NaN	unspecified	0.29	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.17	0	0.03	NaN	unspecified	0.31	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.22	0	0.03	NaN	unspecified	1.31	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.15	0	0.03	NaN	unspecified	2.31	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.22	0	0.03	NaN	unspecified	3.33	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.13	0	0.03	NaN	unspecified	4.37	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.07	0	0.03	NaN	unspecified	5.38	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.06	0	0.03	NaN	unspecified	6.38	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.14	0	0.03	NaN	unspecified	7.31	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.09	0	0.03	NaN	unspecified	8.33	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.05	0	0.03	NaN	unspecified	9.34	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.09	0	0.03	NaN	unspecified	10.32	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.09	0	0.03	NaN	unspecified	11.32	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.07	0	0.03	NaN	unspecified	12.34	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.1	0	0.03	NaN	unspecified	13.36	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.05	0	0.03	NaN	unspecified	15.35	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.08	0	0.03	NaN	unspecified	17.34	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.05	0	0.03	NaN	unspecified	20.37	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.04	0	0.03	NaN	unspecified	23.36	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.01	0	0.03	NaN	unspecified	26.33	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	18.99	0	0.03	NaN	unspecified	30.32	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.04	0	0.03	NaN	unspecified	34.37	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.08	0	0.03	NaN	unspecified	38.32	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.18	0	0.03	NaN	unspecified	44.31	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.21	0	0.03	NaN	unspecified	50.34	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.19	0	0.03	NaN	unspecified	57.31	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.22	0	0.03	NaN	unspecified	69.24	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.17	0	0.03	NaN	unspecified	78.2	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	I	19.25	0	0.03	NaN	unspecified	92.19	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.28	0	0.06	NaN	unspecified	2.31	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.38	0	0.06	NaN	unspecified	3.33	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.32	0	0.06	NaN	unspecified	5.38	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.18	0	0.06	NaN	unspecified	6.38	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.19	0	0.06	NaN	unspecified	7.31	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.17	0	0.06	NaN	unspecified	8.33	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.19	0	0.06	NaN	unspecified	9.34	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.19	0	0.06	NaN	unspecified	10.32	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.1	0	0.06	NaN	unspecified	11.32	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.03	0	0.06	NaN	unspecified	12.34	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.25	0	0.09	NaN	unspecified	13.36	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.09	0	0.06	NaN	unspecified	15.35	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.13	0	0.06	NaN	unspecified	17.34	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	17.97	0	0.06	NaN	unspecified	20.37	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.12	0	0.06	NaN	unspecified	23.36	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.01	0	0.06	NaN	unspecified	26.33	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.05	0	0.06	NaN	unspecified	30.32	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.02	0	0.06	NaN	unspecified	38.32	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.19	0	0.06	NaN	unspecified	50.34	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.27	0	0.09	NaN	unspecified	57.31	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.29	0	0.06	NaN	unspecified	69.24	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.32	0	0.06	NaN	unspecified	78.2	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
+NaN	NaN	SMARTS	J	18.29	0	0.06	NaN	unspecified	92.19	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract	NaN	NaN
