@@ -1,235 +1,230 @@
-Table 1 
-Optical Afterglow Photometry Log of GRB 090426
-
-
-$T-T0$ (mid, hr)	Exposure (s)	Mag	sigma	Filter	Telescope	
-0.0292	20	16.297	0.081	W	TNT	
-0.0356	20	17.115	0.149	W	TNT	
-0.0422	20	17.285	0.145	W	TNT	
-0.0484	20	16.980	0.119	W	TNT	
-0.0547	20	16.995	0.112	W	TNT	
-0.0611	20	16.930	0.095	W	TNT	
-0.0675	20	16.904	0.123	W	TNT	
-0.0736	20	16.817	0.115	W	TNT	
-0.0780	20	16.897	0.103	W	TNT	
-0.0864	20	16.805	0.091	W	TNT	
-0.0925	20	16.907	0.128	W	TNT	
-0.0989	20	17.191	0.145	W	TNT	
-0.1053	20	16.931	0.120	W	TNT	
-0.1117	20	17.085	0.150	W	TNT	
-0.1181	20	17.084	0.111	W	TNT	
-0.1242	20	17.056	0.149	W	TNT	
-0.1306	20	16.930	0.132	W	TNT	
-0.1370	20	16.969	0.134	W	TNT	
-0.1434	20	16.810	0.086	W	TNT	
-0.1495	20	17.224	0.146	W	TNT	
-0.1636	60	17.055	0.081	R	TNT	
-0.1855	60	17.015	0.095	R	TNT	
-0.2075	60	16.996	0.069	R	TNT	
-0.2294	60	17.096	0.113	R	TNT	
-0.2511	60	17.224	0.095	R	TNT	
-0.2730	60	17.180	0.091	R	TNT	
-0.2947	60	17.218	0.104	R	TNT	
-0.3164	60	17.160	0.110	R	TNT	
-0.3383	60	17.231	0.107	R	TNT	
-0.3602	60	17.117	0.080	R	TNT	
-0.3819	60	17.295	0.123	R	TNT	
-0.4036	60	17.375	0.125	R	TNT	
-0.4255	60	17.233	0.137	R	TNT	
-0.4472	60	17.271	0.130	R	TNT	
-0.4691	60	17.425	0.157	R	TNT	
-0.4908	60	17.500	0.149	R	TNT	
-0.5127	60	17.200	0.129	R	TNT	
-0.5344	60	17.395	0.141	R	TNT	
-0.5564	60	17.153	0.107	R	TNT	
-0.5780	60	17.337	0.134	R	TNT	
-0.1636	60	17.055	0.081	R	TNT	
-0.1855	60	17.015	0.095	R	TNT	
-0.2075	60	16.996	0.069	R	TNT	
-0.2294	60	17.096	0.113	R	TNT	
-0.2511	60	17.224	0.095	R	TNT	
-0.2730	60	17.180	0.091	R	TNT	
-0.2947	60	17.218	0.104	R	TNT	
-0.3164	60	17.160	0.110	R	TNT	
-0.3383	60	17.231	0.107	R	TNT	
-0.3602	60	17.117	0.080	R	TNT	
-0.3819	60	17.295	0.123	R	TNT	
-0.4036	60	17.375	0.125	R	TNT	
-0.4255	60	17.233	0.137	R	TNT	
-0.4472	60	17.271	0.130	R	TNT	
-0.4691	60	17.425	0.157	R	TNT	
-0.4908	60	17.500	0.149	R	TNT	
-0.5127	60	17.200	0.129	R	TNT	
-0.5344	60	17.395	0.141	R	TNT	
-0.5564	60	17.153	0.107	R	TNT	
-0.5780	60	17.337	0.134	R	TNT	
-0.6336	300	17.272	0.056	R	TNT	
-0.7220	300	17.460	0.056	R	TNT	
-0.9120	300	17.549	0.059	R	TNT	
-1.0902	300	17.550	0.058	R	TNT	
-1.2686	300	17.603	0.060	R	TNT	
-1.4467	300	17.817	0.066	R	TNT	
-1.6250	300	17.813	0.060	R	TNT	
-1.8034	300	17.860	0.058	R	TNT	
-1.9817	300	17.943	0.058	R	TNT	
-2.1598	300	17.981	0.073	R	TNT	
-2.3381	300	18.097	0.108	R	TNT	
-2.5164	300	18.203	0.077	R	TNT	
-2.6945	300	18.120	0.071	R	TNT	
-2.8728	300	18.153	0.067	R	TNT	
-3.0511	300	18.128	0.057	R	TNT	
-3.2295	300	18.222	0.062	R	TNT	
-3.4075	300	18.309	0.073	R	TNT	
-3.5859	300	18.406	0.085	R	TNT	
-3.7642	300	18.297	0.118	R	TNT	
-3.9423	300	18.163	0.142	R	TNT	
-4.2989	300	18.386	0.132	R	TNT	
-4.4773	300	18.489	0.139	R	TNT	
-4.6553	300	18.382	0.098	R	TNT	
-4.8336	300	18.705	0.124	R	TNT	
-5.0120	300	18.487	0.514	R	TNT	
-5.1900	300	18.428	0.142	R	TNT	
-5.9031	300	18.756	0.098	R	TNT	
-0.7792	300	17.811	0.080	V	TNT	
-0.9594	300	17.724	0.074	V	TNT	
-1.1378	300	18.008	0.087	V	TNT	
-1.3161	300	18.031	0.094	V	TNT	
-1.4942	300	18.017	0.087	V	TNT	
-1.6725	300	18.188	0.074	V	TNT	
-1.8508	300	18.183	0.083	V	TNT	
-2.0289	300	18.356	0.074	V	TNT	
-2.2072	300	18.450	0.107	V	TNT	
-2.3856	300	18.542	0.123	V	TNT	
-2.5639	300	18.618	0.126	V	TNT	
-2.7419	300	18.574	0.101	V	TNT	
-2.9203	300	18.406	0.056	V	TNT	
-3.0986	300	18.508	0.065	V	TNT	
-3.2767	300	18.581	0.069	V	TNT	
-3.4550	300	18.886	0.133	V	TNT	
-3.6333	300	18.574	0.086	V	TNT	
-3.8117	300	18.559	0.185	V	TNT	
-4.3464	300	18.838	0.187	V	TNT	
-4.5244	300	18.938	0.129	V	TNT	
-4.7028	300	18.733	0.125	V	TNT	
-4.8811	300	19.104	0.151	V	TNT	
-5.5942	300	18.982	0.107	V	TNT	
-5.7722	300	19.499	0.236	V	TNT	
-5.9506	300	19.143	0.123	V	TNT	
-24.8198	600	20.946	0.060	B	LJ2.4 m	
-25.4064	600	21.064	0.064	B	LJ2.4 m	
-26.0269	600	21.076	0.062	B	LJ2.4 m	
-50.7076	1800	22.026	0.100	B	LJ2.4 m	
-24.6368	600	20.600	0.060	V	LJ2.4 m	
-25.2281	600	20.755	0.063	V	LJ2.4 m	
-25.8323	600	20.715	0.061	V	LJ2.4 m	
-50.5283	1800	21.615	0.104	V	LJ2.4 m	
-0.8654	600	17.440	0.010	R	LJ2.4 m	
-1.5753	600	17.742	0.01	R	LJ2.4 m	
-2.0040	600	17.885	0.01	R	LJ2.4 m	
-2.1923	600	17.950	0.01	R	LJ2.4 m	
-24.4650	600	20.431	0.06	R	LJ2.4 m	
-25.1342	600	20.383	0.06	R	LJ2.4 m	
-25.7355	600	20.532	0.06	R	LJ2.4 m	
-50.5942	1800	21.100	0.10	R	LJ2.4 m	
-0.311	180.00	17.700	0.019	SDSS-g	LOT	
-0.505	180.00	17.782	0.021	SDSS-g	LOT	
-0.697	180.00	17.859	0.020	SDSS-g	LOT	
-0.893	180.00	17.913	0.021	SDSS-g	LOT	
-1.089	180.00	18.031	0.021	SDSS-g	LOT	
-1.350	180.00	18.139	0.018	SDSS-g	LOT	
-1.647	180.00	18.278	0.017	SDSS-g	LOT	
-1.946	180.00	18.369	0.017	SDSS-g	LOT	
-2.239	180.00	18.453	0.019	SDSS-g	LOT	
-2.538	180.00	18.557	0.018	SDSS-g	LOT	
-2.834	180.00	18.650	0.018	SDSS-g	LOT	
-3.134	180.00	18.740	0.018	SDSS-g	LOT	
-3.481	180.00	18.808	0.021	SDSS-g	LOT	
-3.779	180.00	18.880	0.021	SDSS-g	LOT	
-4.079	180.00	18.973	0.020	SDSS-g	LOT	
-4.375	180.00	19.055	0.019	SDSS-g	LOT	
-4.671	180.00	19.086	0.021	SDSS-g	LOT	
-4.968	180.00	19.132	0.020	SDSS-g	LOT	
-5.266	180.00	19.171	0.024	SDSS-g	LOT	
-0.376	180.00	17.381	0.019	SDSS-r	LOT	
-0.569	180.00	17.450	0.018	SDSS-r	LOT	
-0.763	180.00	17.509	0.019	SDSS-r	LOT	
-0.958	180.00	17.624	0.020	SDSS-r	LOT	
-1.153	180.00	17.701	0.021	SDSS-r	LOT	
-1.414	180.00	17.787	0.017	SDSS-r	LOT	
-1.713	180.00	17.938	0.018	SDSS-r	LOT	
-2.011	180.00	18.024	0.018	SDSS-r	LOT	
-2.306	180.00	18.126	0.019	SDSS-r	LOT	
-2.601	180.00	18.206	0.020	SDSS-r	LOT	
-2.899	180.00	18.270	0.019	SDSS-r	LOT	
-3.199	180.00	18.332	0.022	SDSS-r	LOT	
-3.547	180.00	18.430	0.019	SDSS-r	LOT	
-3.845	180.00	18.495	0.020	SDSS-r	LOT	
-4.144	180.00	18.562	0.021	SDSS-r	LOT	
-4.439	180.00	18.643	0.023	SDSS-r	LOT	
-4.734	180.00	18.684	0.024	SDSS-r	LOT	
-5.032	180.00	18.816	0.026	SDSS-r	LOT	
-5.332	180.00	18.802	0.025	SDSS-r	LOT	
-0.439	180.00	17.173	0.025	SDSS-i	LOT	
-0.634	180.00	17.301	0.023	SDSS-i	LOT	
-0.827	180.00	17.341	0.025	SDSS-i	LOT	
-1.023	180.00	17.523	0.027	SDSS-i	LOT	
-1.216	180.00	17.555	0.028	SDSS-i	LOT	
-1.479	180.00	17.667	0.021	SDSS-i	LOT	
-1.778	180.00	17.786	0.021	SDSS-i	LOT	
-2.074	180.00	17.868	0.023	SDSS-i	LOT	
-2.371	180.00	17.963	0.024	SDSS-i	LOT	
-2.663	180.00	18.011	0.023	SDSS-i	LOT	
-2.965	180.00	18.134	0.027	SDSS-i	LOT	
-3.263	180.00	18.192	0.028	SDSS-i	LOT	
-3.610	180.00	18.247	0.024	SDSS-i	LOT	
-3.908	180.00	18.371	0.026	SDSS-i	LOT	
-4.208	180.00	18.446	0.026	SDSS-i	LOT	
-4.504	180.00	18.396	0.029	SDSS-i	LOT	
-4.798	180.00	18.512	0.028	SDSS-i	LOT	
-5.097	180.00	18.549	0.029	SDSS-i	LOT	
-5.396	180.00	18.636	0.034	SDSS-i	LOT	
-1.565	300.00	17.457	0.030	SDSS-z	LOT	
-1.863	300.00	17.589	0.028	SDSS-z	LOT	
-2.157	300.00	17.570	0.029	SDSS-z	LOT	
-2.456	300.00	17.763	0.031	SDSS-z	LOT	
-2.749	300.00	17.858	0.033	SDSS-z	LOT	
-3.050	300.00	17.937	0.034	SDSS-z	LOT	
-3.348	300.00	17.969	0.039	SDSS-z	LOT	
-3.695	300.00	18.057	0.045	SDSS-z	LOT	
-3.995	300.00	18.250	0.042	SDSS-z	LOT	
-4.294	300.00	18.237	0.040	SDSS-z	LOT	
-4.587	300.00	18.458	0.044	SDSS-z	LOT	
-4.883	300.00	18.356	0.040	SDSS-z	LOT	
-5.182	300.00	18.462	0.046	SDSS-z	LOT	
-5.483	300.00	18.469	0.044	SDSS-z	LOT	
-19.5149	29.5	18.595	0.030	J	CFHT	
-19.6680	29.5	18.675	0.028	J	CFHT	
-19.7438	29.5	18.642	0.025	J	CFHT	
-19.8216	29.5	18.654	0.028	J	CFHT	
-19.9781	29.5	18.674	0.027	J	CFHT	
-20.0539	29.5	18.692	0.027	J	CFHT	
-20.2066	29.5	18.692	0.029	J	CFHT	
-20.2834	29.5	18.670	0.029	J	CFHT	
-20.3609	29.5	18.659	0.026	J	CFHT	
-20.5133	29.5	18.724	0.025	J	CFHT	
-20.5908	29.5	18.741	0.025	J	CFHT	
-20.7425	29.5	18.814	0.029	J	CFHT	
-20.8010	29.5	17.213	0.029	K	CFHT	
-20.8582	29.5	17.223	0.026	K	CFHT	
-20.9136	29.5	17.250	0.027	K	CFHT	
-20.9707	29.5	17.212	0.028	K	CFHT	
-21.0262	29.5	17.265	0.026	K	CFHT	
-21.0804	29.5	17.265	0.025	K	CFHT	
-21.1378	29.5	17.257	0.024	K	CFHT	
-21.1934	29.5	17.272	0.026	K	CFHT	
-21.2489	29.5	17.280	0.025	K	CFHT	
-21.3046	29.5	17.298	0.024	K	CFHT	
-21.3614	29.5	17.229	0.024	K	CFHT	
-21.4169	29.5	17.295	0.026	K	CFHT	
-21.4730	29.5	17.260	0.027	K	CFHT	
-21.5304	29.5	17.271	0.025	K	CFHT	
-21.6986	29.5	17.306	0.024	K	CFHT	
-21.7541	29.5	17.270	0.024	K	CFHT	
-21.8110	29.5	17.278	0.023	K	CFHT	
-21.8662	29.5	17.328	0.025	K	CFHT	
-Note. The reference time T_0 is Swift BAT burst trigger time. "T - T0" is the middle time in hours for each data point. "Exposure" is the exposure time for each data in seconds. All data are not corrected for the Galactic extinction (which is ${E}_{B-V}=0.03$, Schlegel et al. 1998). B-band data is calibrated by USNO B1.0 B2 mag with 2 stars. Other data are calibrated by SDSS reference stars. The magnitudes in SDSS filters are in AB magnitude system, and others are in the Vega magnitude system.
+time	integration	mag	mag_limit	dmag	band	instrument	time_unit	integration_unit	mag_unit	mag_type	time_frame	extinction_corrected	dtime
+0.0292	20.0	16.297	0	0.081	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.0356	20.0	17.115	0	0.149	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.0422	20.0	17.285	0	0.145	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.0484	20.0	16.98	0	0.119	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.0547	20.0	16.995	0	0.112	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.0611	20.0	16.93	0	0.095	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.0675	20.0	16.904	0	0.123	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.0736	20.0	16.817	0	0.115	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.078	20.0	16.897	0	0.103	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.0864	20.0	16.805	0	0.091	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.0925	20.0	16.907	0	0.128	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.0989	20.0	17.191	0	0.145	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1053	20.0	16.931	0	0.12	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1117	20.0	17.085	0	0.15	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1181	20.0	17.084	0	0.111	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1242	20.0	17.056	0	0.149	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1306	20.0	16.93	0	0.132	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.137	20.0	16.969	0	0.134	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1434	20.0	16.81	0	0.086	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1495	20.0	17.224	0	0.146	W	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1636	60.0	17.055	0	0.081	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1855	60.0	17.015	0	0.095	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.2075	60.0	16.996	0	0.069	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.2294	60.0	17.096	0	0.113	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.2511	60.0	17.224	0	0.095	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.273	60.0	17.18	0	0.091	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.2947	60.0	17.218	0	0.104	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.3164	60.0	17.16	0	0.11	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.3383	60.0	17.231	0	0.107	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.3602	60.0	17.117	0	0.08	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.3819	60.0	17.295	0	0.123	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.4036	60.0	17.375	0	0.125	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.4255	60.0	17.233	0	0.137	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.4472	60.0	17.271	0	0.13	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.4691	60.0	17.425	0	0.157	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.4908	60.0	17.5	0	0.149	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.5127	60.0	17.2	0	0.129	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.5344	60.0	17.395	0	0.141	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.5564	60.0	17.153	0	0.107	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.578	60.0	17.337	0	0.134	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1636	60.0	17.055	0	0.081	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.1855	60.0	17.015	0	0.095	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.2075	60.0	16.996	0	0.069	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.2294	60.0	17.096	0	0.113	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.2511	60.0	17.224	0	0.095	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.273	60.0	17.18	0	0.091	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.2947	60.0	17.218	0	0.104	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.3164	60.0	17.16	0	0.11	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.3383	60.0	17.231	0	0.107	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.3602	60.0	17.117	0	0.08	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.3819	60.0	17.295	0	0.123	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.4036	60.0	17.375	0	0.125	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.4255	60.0	17.233	0	0.137	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.4472	60.0	17.271	0	0.13	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.4691	60.0	17.425	0	0.157	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.4908	60.0	17.5	0	0.149	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.5127	60.0	17.2	0	0.129	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.5344	60.0	17.395	0	0.141	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.5564	60.0	17.153	0	0.107	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.578	60.0	17.337	0	0.134	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.6336	300.0	17.272	0	0.056	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.722	300.0	17.46	0	0.056	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.912	300.0	17.549	0	0.059	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.0902	300.0	17.55	0	0.058	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.2686	300.0	17.603	0	0.06	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.4467	300.0	17.817	0	0.066	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.625	300.0	17.813	0	0.06	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.8034	300.0	17.86	0	0.058	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.9817	300.0	17.943	0	0.058	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.1598	300.0	17.981	0	0.073	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.3381	300.0	18.097	0	0.108	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.5164	300.0	18.203	0	0.077	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.6945	300.0	18.12	0	0.071	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.8728	300.0	18.153	0	0.067	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.0511	300.0	18.128	0	0.057	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.2295	300.0	18.222	0	0.062	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.4075	300.0	18.309	0	0.073	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.5859	300.0	18.406	0	0.085	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.7642	300.0	18.297	0	0.118	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.9423	300.0	18.163	0	0.142	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+4.2989	300.0	18.386	0	0.132	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+4.4773	300.0	18.489	0	0.139	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+4.6553	300.0	18.382	0	0.098	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+4.8336	300.0	18.705	0	0.124	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+5.012	300.0	18.487	0	0.514	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+5.19	300.0	18.428	0	0.142	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+5.9031	300.0	18.756	0	0.098	R	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.7792	300.0	17.811	0	0.08	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+0.9594	300.0	17.724	0	0.074	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.1378	300.0	18.008	0	0.087	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.3161	300.0	18.031	0	0.094	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.4942	300.0	18.017	0	0.087	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.6725	300.0	18.188	0	0.074	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+1.8508	300.0	18.183	0	0.083	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.0289	300.0	18.356	0	0.074	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.2072	300.0	18.45	0	0.107	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.3856	300.0	18.542	0	0.123	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.5639	300.0	18.618	0	0.126	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.7419	300.0	18.574	0	0.101	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+2.9203	300.0	18.406	0	0.056	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.0986	300.0	18.508	0	0.065	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.2767	300.0	18.581	0	0.069	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.455	300.0	18.886	0	0.133	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.6333	300.0	18.574	0	0.086	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+3.8117	300.0	18.559	0	0.185	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+4.3464	300.0	18.838	0	0.187	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+4.5244	300.0	18.938	0	0.129	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+4.7028	300.0	18.733	0	0.125	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+4.8811	300.0	19.104	0	0.151	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+5.5942	300.0	18.982	0	0.107	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+5.7722	300.0	19.499	0	0.236	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+5.9506	300.0	19.143	0	0.123	V	TNT	days	seconds	Vega	apparent	observer	False	NaN
+24.8198	600.0	20.946	0	0.06	B	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+25.4064	600.0	21.064	0	0.064	B	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+26.0269	600.0	21.076	0	0.062	B	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+50.7076	1800.0	22.026	0	0.1	B	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+24.6368	600.0	20.6	0	0.06	V	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+25.2281	600.0	20.755	0	0.063	V	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+25.8323	600.0	20.715	0	0.061	V	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+50.5283	1800.0	21.615	0	0.104	V	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+0.8654	600.0	17.44	0	0.01	R	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+1.5753	600.0	17.742	0	0.01	R	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+2.004	600.0	17.885	0	0.01	R	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+2.1923	600.0	17.95	0	0.01	R	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+24.465	600.0	20.431	0	0.06	R	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+25.1342	600.0	20.383	0	0.06	R	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+25.7355	600.0	20.532	0	0.06	R	LJ2.4m	days	seconds	Vega	apparent	observer	False	NaN
+50.5942	1800.0	21.1	0	0.1	R	LJ2.4m	days	seconds	AB	apparent	observer	False	NaN
+0.311	180.0	17.7	0	0.019	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+0.505	180.0	17.782	0	0.021	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+0.697	180.0	17.859	0	0.02	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+0.893	180.0	17.913	0	0.021	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.089	180.0	18.031	0	0.021	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.35	180.0	18.139	0	0.018	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.647	180.0	18.278	0	0.017	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.946	180.0	18.369	0	0.017	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.239	180.0	18.453	0	0.019	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.538	180.0	18.557	0	0.018	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.834	180.0	18.65	0	0.018	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.134	180.0	18.74	0	0.018	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.481	180.0	18.808	0	0.021	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.779	180.0	18.88	0	0.021	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.079	180.0	18.973	0	0.02	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.375	180.0	19.055	0	0.019	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.671	180.0	19.086	0	0.021	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.968	180.0	19.132	0	0.02	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+5.266	180.0	19.171	0	0.024	SDSS-g	LOT	days	seconds	AB	apparent	observer	False	NaN
+0.376	180.0	17.381	0	0.019	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+0.569	180.0	17.45	0	0.018	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+0.763	180.0	17.509	0	0.019	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+0.958	180.0	17.624	0	0.02	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.153	180.0	17.701	0	0.021	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.414	180.0	17.787	0	0.017	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.713	180.0	17.938	0	0.018	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.011	180.0	18.024	0	0.018	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.306	180.0	18.126	0	0.019	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.601	180.0	18.206	0	0.02	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.899	180.0	18.27	0	0.019	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.199	180.0	18.332	0	0.022	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.547	180.0	18.43	0	0.019	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.845	180.0	18.495	0	0.02	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.144	180.0	18.562	0	0.021	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.439	180.0	18.643	0	0.023	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.734	180.0	18.684	0	0.024	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+5.032	180.0	18.816	0	0.026	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+5.332	180.0	18.802	0	0.025	SDSS-r	LOT	days	seconds	AB	apparent	observer	False	NaN
+0.439	180.0	17.173	0	0.025	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+0.634	180.0	17.301	0	0.023	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+0.827	180.0	17.341	0	0.025	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.023	180.0	17.523	0	0.027	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.216	180.0	17.555	0	0.028	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.479	180.0	17.667	0	0.021	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.778	180.0	17.786	0	0.021	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.074	180.0	17.868	0	0.023	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.371	180.0	17.963	0	0.024	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.663	180.0	18.011	0	0.023	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.965	180.0	18.134	0	0.027	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.263	180.0	18.192	0	0.028	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.61	180.0	18.247	0	0.024	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.908	180.0	18.371	0	0.026	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.208	180.0	18.446	0	0.026	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.504	180.0	18.396	0	0.029	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.798	180.0	18.512	0	0.028	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+5.097	180.0	18.549	0	0.029	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+5.396	180.0	18.636	0	0.034	SDSS-i	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.565	300.0	17.457	0	0.03	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+1.863	300.0	17.589	0	0.028	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.157	300.0	17.57	0	0.029	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.456	300.0	17.763	0	0.031	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+2.749	300.0	17.858	0	0.033	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.05	300.0	17.937	0	0.034	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.348	300.0	17.969	0	0.039	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.695	300.0	18.057	0	0.045	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+3.995	300.0	18.25	0	0.042	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.294	300.0	18.237	0	0.04	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.587	300.0	18.458	0	0.044	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+4.883	300.0	18.356	0	0.04	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+5.182	300.0	18.462	0	0.046	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+5.483	300.0	18.469	0	0.044	SDSS-z	LOT	days	seconds	AB	apparent	observer	False	NaN
+19.5149	29.5	18.595	0	0.03	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+19.668	29.5	18.675	0	0.028	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+19.7438	29.5	18.642	0	0.025	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+19.8216	29.5	18.654	0	0.028	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+19.9781	29.5	18.674	0	0.027	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.0539	29.5	18.692	0	0.027	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.2066	29.5	18.692	0	0.029	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.2834	29.5	18.67	0	0.029	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.3609	29.5	18.659	0	0.026	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.5133	29.5	18.724	0	0.025	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.5908	29.5	18.741	0	0.025	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.7425	29.5	18.814	0	0.029	J	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.801	29.5	17.213	0	0.029	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.8582	29.5	17.223	0	0.026	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.9136	29.5	17.25	0	0.027	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+20.9707	29.5	17.212	0	0.028	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.0262	29.5	17.265	0	0.026	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.0804	29.5	17.265	0	0.025	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.1378	29.5	17.257	0	0.024	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.1934	29.5	17.272	0	0.026	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.2489	29.5	17.28	0	0.025	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.3046	29.5	17.298	0	0.024	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.3614	29.5	17.229	0	0.024	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.4169	29.5	17.295	0	0.026	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.473	29.5	17.26	0	0.027	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.5304	29.5	17.271	0	0.025	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.6986	29.5	17.306	0	0.024	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.7541	29.5	17.27	0	0.024	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.811	29.5	17.278	0	0.023	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
+21.8662	29.5	17.328	0	0.025	K	CFHT	days	seconds	Vega	apparent	observer	False	NaN
