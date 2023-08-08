@@ -1,39 +1,39 @@
-
-1997 Feb 28.81	RAO	R_{C} = 20.0 \pm 0.5	Unfiltered OT+GAL
-1997 Feb 28.83	BUT	R_{C} = 20.58 \pm 0.28	OT+GAL
-1997 Feb 28.99	WHT	V = 21.01 \pm 0.10	OT+GAL
-1997 Feb 28.99	WHT	I_{C} = 20.51 \pm 0.21	OT+GAL
-1997 Mar 03.10	APO	B_{J} = 24.5 \pm 0.7	OT+GAL
-1997 Mar 03.90	NOT	R_{C} > 22.70 \pm 0.20	Unfiltered OT+GAL
-1997 Mar 04.86	NOT	R_{C} = 23.28 \pm 0.40	Unfiltered OT+GAL
-1997 Mar 04.87	NOT	V > 23.96 \pm 0.12	OT+GAL
-1997 Mar 04.89	NOT	B > 23.87 \pm 0.10	OT+GAL
-1997 Mar 06.32	Keck	R_{C} = 23.60 \pm 0.22	OT+GAL
-1997 Mar 08.86	INT	V > 24.00 \pm 0.10	OT+GAL
-1997 Mar 08.88	WHT	I_{C} > 22.68 \pm 0.10	OT+GAL
-1997 Mar 08.89	INT	R_{C} > 23.35 \pm 0.08	OT+GAL
-1997 Mar 09.85	INT	B = 25.43 \pm 0.31	OT+GAL
-1997 Mar 09.89	INT	R_{C} = 23.75 \pm 0.28	OT+GAL
-1997 Mar 13.00	NTT	R_{C} = 24.36 \pm 0.15	OT+GAL
-1997 Mar 17.84	CA	J > 21.45 \pm 0.15	OT+GAL
-1997 Mar 17.83	CA	H > 20.02 \pm 0.15	OT+GAL
-1997 Mar 17.81	CA	K^{\prime } > 20.13 \pm 0.15	OT+GAL
-1997 Mar 26.38	HST	V = 25.98 \pm 0.22	OT
-1997 Mar 26.47	HST	I_{C} = 23.76 \pm 0.11	OT
-1997 Mar 30.27	Keck	K = 22.85 \pm 0.25	OT+GAL
-1997 Mar 30.30+31.26	Keck	J = 23.27 \pm 0.15	OT+GAL
-1997 Apr 05.76	Keck	R_{C} = 24.97 \pm 0.25	OT+GAL
-1997 Apr 07.22	HST	V = 26.36 \pm 0.26	OT
-1997 Apr 07.30	HST	I_{C} = 24.10 \pm 0.15	OT
-1997 Mar 26+Apr 7	HST WFPC2	V = 25.75 \pm 0.35	GAL
-1997 Mar 26+Apr 7	HST WFPC2	I_{C} = 24.7 \pm 0.5	GAL
-1997 Sep 04	P5m	R = 25.5 \pm 0.5	GAL
-1997 Sep 04.71	HST STIS	V = 28.80 \pm 0.40	OT
-1997 Sep 04.71	HST STIS	R_{C} = 27.69 \pm 0.40	OT
-1997 Sep 04.71	HST STIS	I_{C} = 26.54 \pm 0.40	OT
-1997 Sep 04.71	HST STIS	V = 25.77 \pm 0.20	GAL
-1997 Sep 04.71	HST STIS	R_{C} = 25.22 \pm 0.20	GAL
-1997 Sep 04.71	HST STIS	I_{C} = 24.73 \pm 0.20	GAL
-1998 Sep 01.35	VLT-UT1	B > 26.08 \pm 0.08	GAL
-1998 Sep 01.35	VLT-UT1	V > 25.33 \pm 0.05	GAL
-1998 Sep 01.35	VLT-UT1	R_{C} > 25.29 \pm 0.06	GAL
+date	instrument	band	mag	mag_limit	dmag	date_unit	mag_type	mag_unit	time_frame	extinction_corrected	time	time_unit	dtime
+1997-Feb-28.81	RAO	R_{C}	20.0	0	0.5	yyyy-month-deciday	AB	apparent	observer	True	0.6863657407407409	days	NaN
+1997-Feb-28.83	BUT	R_{C}	20.58	0	0.28	yyyy-month-deciday	AB	apparent	observer	True	0.7063657407407409	days	NaN
+1997-Feb-28.99	WHT	V	21.01	0	0.1	yyyy-month-deciday	AB	apparent	observer	True	0.8663657407407408	days	NaN
+1997-Feb-28.99	WHT	I_{C}	20.51	0	0.21	yyyy-month-deciday	AB	apparent	observer	True	0.8663657407407408	days	NaN
+1997-Mar-03.10	APO	B_{J}	24.5	0	0.7	yyyy-month-deciday	AB	apparent	observer	True	2.9764583333333334	days	NaN
+1997-Mar-03.90	NOT	R_{C}	22.7	1	0.2	yyyy-month-deciday	AB	apparent	observer	True	3.776365740740741	days	NaN
+1997-Mar-04.86	NOT	R_{C}	23.28	0	0.4	yyyy-month-deciday	AB	apparent	observer	True	4.736377314814815	days	NaN
+1997-Mar-04.87	NOT	V	23.96	1	0.12	yyyy-month-deciday	AB	apparent	observer	True	4.746377314814815	days	NaN
+1997-Mar-04.89	NOT	B	23.87	1	0.1	yyyy-month-deciday	AB	apparent	observer	True	4.766365740740741	days	NaN
+1997-Mar-06.32	Keck	R_{C}	23.6	0	0.22	yyyy-month-deciday	AB	apparent	observer	True	6.196377314814815	days	NaN
+1997-Mar-08.86	INT	V	24.0	1	0.1	yyyy-month-deciday	AB	apparent	observer	True	8.736365740740741	days	NaN
+1997-Mar-08.88	WHT	I_{C}	22.68	1	0.1	yyyy-month-deciday	AB	apparent	observer	True	8.756377314814815	days	NaN
+1997-Mar-08.89	INT	R_{C}	23.35	1	0.08	yyyy-month-deciday	AB	apparent	observer	True	8.766377314814815	days	NaN
+1997-Mar-09.85	INT	B	25.43	0	0.31	yyyy-month-deciday	AB	apparent	observer	True	9.72636574074074	days	NaN
+1997-Mar-09.89	INT	R_{C}	23.75	0	0.28	yyyy-month-deciday	AB	apparent	observer	True	9.766377314814816	days	NaN
+1997-Mar-13.00	NTT	R_{C}	24.36	0	0.15	yyyy-month-deciday	AB	apparent	observer	True	12.876377314814816	days	NaN
+1997-Mar-17.84	CA	J	21.45	1	0.15	yyyy-month-deciday	AB	apparent	observer	True	17.71636574074074	days	NaN
+1997-Mar-17.83	CA	H	20.02	1	0.15	yyyy-month-deciday	AB	apparent	observer	True	17.70636574074074	days	NaN
+1997-Mar-17.81	CA	K'	20.13	1	0.15	yyyy-month-deciday	AB	apparent	observer	True	17.68636574074074	days	NaN
+1997-Mar-26.38	HST	V	25.98	0	0.22	yyyy-month-deciday	AB	apparent	observer	True	26.25636574074074	days	NaN
+1997-Mar-26.47	HST	I_{C}	23.76	0	0.11	yyyy-month-deciday	AB	apparent	observer	True	26.34636574074074	days	NaN
+1997-Mar-30.27	Keck	K	22.85	0	0.25	yyyy-month-deciday	AB	apparent	observer	True	30.14636574074074	days	NaN
+1997-Mar-30.30-31.26	Keck	J	23.27	0	0.15	yyyy-month-deciday-deciday	AB	apparent	observer	True	30.656412037037036	days	0.4799652777777777
+1997-Apr-05.76	Keck	R_{C}	24.97	0	0.25	yyyy-month-deciday	AB	apparent	observer	True	36.63636574074074	days	NaN
+1997-Apr-07.22	HST	V	26.36	0	0.26	yyyy-month-deciday	AB	apparent	observer	True	38.096365740740744	days	NaN
+1997-Apr-07.30	HST	I_{C}	24.1	0	0.15	yyyy-month-deciday	AB	apparent	observer	True	38.17636574074074	days	NaN
+1997-Mar-26-Apr-7	HST_WFPC2	V	25.75	0	0.35	yyyy-month-deciday-month-deciday	AB	apparent	observer	True	31.876377314814818	days	6.0
+1997-Mar-26-Apr-7	HST_WFPC2	I_{C}	24.7	0	0.5	yyyy-month-deciday-month-deciday	AB	apparent	observer	True	31.876377314814818	days	6.0
+1997-Sep-04	P5m	R	25.5	0	0.5	yyyy-month-deciday	AB	apparent	observer	True	187.8763888888889	days	NaN
+1997-Sep-04.71	HST_STIS	V	28.8	0	0.4	yyyy-month-deciday	AB	apparent	observer	True	188.58638888888888	days	NaN
+1997-Sep-04.71	HST_STIS	R_{C}	27.69	0	0.4	yyyy-month-deciday	AB	apparent	observer	True	188.58638888888888	days	NaN
+1997-Sep-04.71	HST_STIS	I_{C}	26.54	0	0.4	yyyy-month-deciday	AB	apparent	observer	True	188.58638888888888	days	NaN
+1997-Sep-04.71	HST_STIS	V	25.77	0	0.2	yyyy-month-deciday	AB	apparent	observer	True	188.58638888888888	days	NaN
+1997-Sep-04.71	HST_STIS	R_{C}	25.22	0	0.2	yyyy-month-deciday	AB	apparent	observer	True	188.58638888888888	days	NaN
+1997-Sep-04.71	HST_STIS	I_{C}	24.73	0	0.2	yyyy-month-deciday	AB	apparent	observer	True	188.58638888888888	days	NaN
+1998-Sep-01.35	VLT-UT1	B	26.08	1	0.08	yyyy-month-deciday	AB	apparent	observer	True	550.2264699074074	days	NaN
+1998-Sep-01.35	VLT-UT1	V	25.33	1	0.05	yyyy-month-deciday	AB	apparent	observer	True	550.2264699074074	days	NaN
+1998-Sep-01.35	VLT-UT1	R_{C}	25.29	1	0.06	yyyy-month-deciday	AB	apparent	observer	True	550.2264699074074	days	NaN
