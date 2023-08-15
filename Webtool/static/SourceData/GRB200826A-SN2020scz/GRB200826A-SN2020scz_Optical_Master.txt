@@ -1,0 +1,12 @@
+time	dtime	instrument	band	mag	mag_limit	dmag	flux_density	dflux_density	time_unit	mag_unit	mag_type	flux_density_unit	extinction_corrected	time_frame	reference	date	extinction	date_unit
+3.99	0.002	Gran_Telescopio_Canarias	r	24.9	1	NaN	<0.40	NaN	days	AB	apparent	microJy	True	observer	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..911Z/abstract	NaN	NaN	NaN
+72.05	0.006	LCOGT_network_observatory	I	22.7	1	NaN	<3.02	NaN	days	AB	apparent	microJy	True	observer	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..911Z/abstract	NaN	NaN	NaN
+72.48	NaN	Lijiang_2.4-meter_telescope	g	22.58	1	NaN	<3.37	NaN	days	AB	apparent	microJy	True	observer	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..911Z/abstract	NaN	NaN	NaN
+72.48	NaN	Lijiang_2.4-meter_telescope	r	22.07	1	NaN	<5.40	NaN	days	AB	apparent	microJy	True	observet	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..911Z/abstract	NaN	NaN	NaN
+72.48	NaN	Lijiang_2.4-meter_telescope	i	21.81	1	NaN	<6.85	NaN	days	AB	apparent	microJy	True	observer	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..911Z/abstract	NaN	NaN	NaN
+0.21	NaN	P48+ZTF	g	20.86	0	0.04	NaN	NaN	days	AB	apparent	NaN	True	observer	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459087.8986	0.21	MJD
+0.23	NaN	P48+ZTF	r	20.69	0	0.05	NaN	NaN	days	AB	apparent	NaN	True	observer	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459087.9181	0.15	MJD
+0.28	NaN	P48+ZTF	g	20.95	0	0.16	NaN	NaN	days	AB	apparent	NaN	True	observer	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459087.9651	0.21	MJD
+1.15	NaN	P48+ZTF	g	22.75	0	0.26	NaN	NaN	days	AB	apparent	NaN	True	observer	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459088.834	0.21	MJD
+3.23	NaN	LDT+FMI	r	24.46	0	0.12	NaN	NaN	days	AB	apparent	NaN	True	observer	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459090.92	0.15	MJD
+28.28	NaN	Gemini+GMOS	i	25.45	0	0.15	NaN	NaN	days	AB	apparent	NaN	True	observer	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459115.9675	0.11	MJD

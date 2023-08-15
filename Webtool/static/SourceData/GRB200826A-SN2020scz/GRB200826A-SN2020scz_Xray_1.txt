@@ -1,0 +1,8 @@
+date	time	instrument	energy_range	counts	dcounts	dcounts2	date_unit	time_unit	N_H	dtime	time_frame
+2459088.386616	0.7	XRT	0.3–10keV	2.16	0.53	−0.53	MJD	days	6.02e+20	NaN	observer
+2459088.44194	0.75	XRT	0.3–10keV	1.91	0.49	−0.49	MJD	days	6.02e+20	NaN	observer
+2459088.522328	0.83	XRT	0.3–10keV	1.66	0.41	−0.41	MJD	days	6.02e+20	NaN	observer
+2459089.43786	1.75	XRT	0.3–10keV	5.64	1.21	−1.21	MJD	days	6.02e+20	NaN	observer
+2459090.285972	2.6	XRT	0.3–10keV	5.36	1.22	−1.22	MJD	days	6.02e+20	NaN	observer
+2459094.09085	6.4	XRT	0.3–10keV	3.33	0.77	−0.77	MJD	days	6.02e+20	NaN	observer
+2459104.352156	16.66	XRT	0.3–10keV	1.22	0.98	-0.67	MJD	days	6.02e+20	NaN	observer
