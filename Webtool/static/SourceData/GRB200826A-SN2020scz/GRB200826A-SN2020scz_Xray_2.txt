@@ -1,0 +1,7 @@
+time	dtime	flux_density	dflux_density	energy_range	time_unit	flux_density_unit	instrument
+0.7	0.01	0.4	0.1	0.3-10keV	days	microJy	Swift
+0.75	0.01	0.035	0.009	0.3-10keV	days	microJy	Swift
+0.8	0.1	0.028	0.007	0.3-10keV	days	microJy	Swift
+1.8	0.3	0.005	0.001	0.3-10keV	days	microJy	Swift
+2.6	0.3	0.0035	0.0008	0.3-10keV	days	microJy	Swift
+6.4	2.2	0.0027	0.0006	0.3-10keV	days	microJy	Swift
