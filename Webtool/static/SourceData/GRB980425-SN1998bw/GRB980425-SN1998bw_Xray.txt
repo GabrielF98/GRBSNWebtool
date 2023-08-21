@@ -1,0 +1,5 @@
+date	integration	energy_range	flux	flux_limit	dflux	date_unit	integration_unit	flux_unit	instrument	time_frame	time	time_unit	dtime
+1998-Apr-26.334-27.458	37220	1.6-10keV	0.0046	0	0.0006	yyyy-month-deciday-deciday	seconds	cts/s	BeppoSax-MECS	observer	0.9868402777777777	days	0.5620023148148148
+1998-Apr-27.469-28.160	21805	1.6-10keV	0.0045	0	0.0007	yyyy-month-deciday-deciday	seconds	cts/s	BeppoSax-MECS	observer	1.9053414351851852	days	0.3455034722222222
+1998-May-02.605-03.621	31975	1.6-10keV	0.003	0	0.0005	yyyy-month-deciday-deciday	seconds	cts/s	BeppoSax-MECS	observer	7.203842592592593	days	0.5079976851851852
+1998-Nov-10.754-12.004	5312	1.6-10keV	0.0018	0	0.0004	yyyy-month-deciday-deciday	seconds	cts/s	BeppoSax-MECS	observer	199.46983796296297	days	0.625
