@@ -1,2 +1,3 @@
-GRB/SN,Filename,Datatypes,Reference
+GRB/SN,Filename,Status,Reference
+GRB050824,,,
 GRB050824,GRB050824xrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/

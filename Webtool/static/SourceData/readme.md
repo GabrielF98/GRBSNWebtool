@@ -141,13 +141,20 @@ Time should always appear in all files. Sometimes the date will also appear.
 
 * `dflux` The error on the source flux. 
 
-* `flux_limit` Is the source flux an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
+* `flux_limit` Is the source flux an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
+
+* `unabsorbed flux` The unabsorbed flux of the source.
+
+* `unabsorbed flux unit`  The units used for the flux of the source. The options are:
+   * `erg/cm^2/sec`
 
 * `energy_range` The energy range of the xray data.
 
 * `HR` The harndess ratio.
 
 * `dHR` The error on the harness ratio.
+ 
+* `N_H` The excess Galactic absorption. Default unit is `cm^-2`
 
 ### Radio keywords
 * `freq` The frequency of the radio band. 
@@ -227,6 +234,8 @@ Time should always appear in all files. Sometimes the date will also appear.
    * `microJy` micro Jansky. 
 
 * `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
+
+* `aperture` The size of the aperture used in the observation. Default unit is `arcseconds`.
 
 * `extinction` The correction to the magnitude due to extinction, measured in the associated band and with the associated units.
 
