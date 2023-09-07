@@ -367,6 +367,10 @@
         "names": "Klotz et al.",
         "year": "2008"
     },
+    "https://ui.adsabs.harvard.edu/abs/2010MNRAS.401.2005X/abstract": {
+        "names": "Xin et al.",
+        "year": "2010"
+    },
     "https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract": {
         "names": "Melandri et al.",
         "year": "2009"
@@ -443,6 +447,10 @@
         "names": "Moin et al.",
         "year": "2013"
     },
+    "https://ui.adsabs.harvard.edu/abs/2012PASJ...64..115N/abstract": {
+        "names": "Niino et al.",
+        "year": "2012"
+    },
     "https://ui.adsabs.harvard.edu/abs/2011ApJ...727..132M/abstract": {
         "names": "Marshall et al.",
         "year": "2011"
@@ -453,6 +461,10 @@
     },
     "https://ui.adsabs.harvard.edu/abs/2011Natur.480...72T/abstract": {
         "names": "Th\u00f6ne et al.",
+        "year": "2011"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2011Natur.480...69C/abstract": {
+        "names": "Campana et al.",
         "year": "2011"
     },
     "https://ui.adsabs.harvard.edu/abs/2015Natur.523..189G/abstract": {
