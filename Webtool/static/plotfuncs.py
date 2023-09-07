@@ -100,7 +100,7 @@ def get_trigtime(event_id):
 
                 # Make it a full UTC time
                 if np.float64(grb_name[:2]) > 90:
-                    if isinstance(grb_name[-2:], int):
+                    if grb_name[-1].isdigit():
                         trigtime = '19' + \
                             grb_name[:2]+'-'+grb_name[2:4] + \
                             '-'+grb_name[-2:]+'T'+trigtime
@@ -109,7 +109,7 @@ def get_trigtime(event_id):
                             grb_name[:2]+'-'+grb_name[2:4] + \
                             '-'+grb_name[-3:-1]+'T'+trigtime
                 else:
-                    if isinstance(grb_name[-2], int):
+                    if grb_name[-1].isdigit():
                         trigtime = '20' + \
                             grb_name[:2]+'-'+grb_name[2:4] + \
                             '-'+grb_name[-2:]+'T'+trigtime
@@ -136,7 +136,6 @@ def get_trigtime(event_id):
             else:
                 trigtime = "no_tt"
     conn.close()
-    # print(trigtime)
     return trigtime
 
 
@@ -242,7 +241,6 @@ def elapsed_time(dataframe, trigtime):
 
             # Split the date.
             date = dataframe['date'][i].split('-')
-            print(date)
             year = date[0]
             month = month2number[date[1]]
 
@@ -412,14 +410,13 @@ def elapsed_time(dataframe, trigtime):
                 ':'+str(minute2)[:2]+':00'
 
             # Handle an absence of triggertime. Set to the first time in the observations.
-            # if trigtime == 'no_tt' and i==0:
-            #     trigtime = isotime1
-
             # astropy to subtract the two isotimes and get the median time.
             time_list = [isotime1, isotime2, trigtime]
+            #print(time_list)
             t = Time(time_list, format='isot', scale='utc')
-            isotime = (t[0]+((t[1]-t[0])/2)).value
-            time[i] = isotime-t[2]
+            isotime = (t[0]+((t[1]-t[0])/2))
+            elapsed_time = isotime-t[2]
+            time[i] = elapsed_time.value
 
             # Time unit is now in days.
             time_unit.append('days')
@@ -485,7 +482,7 @@ def elapsed_time(dataframe, trigtime):
             obstime = mjd1iso+((mjd2iso-mjd1iso)/2)
 
             # Handle an absence of triggertime. Set to the first time in the observations.
-            # print(trigtime)
+            # #print(trigtime)
             # if trigtime == 'no_tt' and i==0:
             #     trigtime = obstime
 
@@ -1089,6 +1086,9 @@ def masterfileformat(event):
 
                 elif data['time_unit'][i] == 'hours':
                     time[i] = float(time[i])/24
+                    
+                elif data['time_unit'][i] == 'years':
+                            time[i] = float(time[i])*365
 
             data['time'] = time
             data['time_unit'] = 'days'
@@ -1123,6 +1123,9 @@ def masterfileformat(event):
                         elif data['time_unit'][i] == 'hours':
                             time[i] = float(time[i])/24
 
+                        elif data['time_unit'][i] == 'years':
+                            time[i] = float(time[i])*365
+
                     data['time'] = time
                     data['time_unit'] = 'days'
 
@@ -1147,6 +1150,9 @@ def masterfileformat(event):
 
                     elif data['time_unit'][i] == 'hours':
                         time[i] = float(time[i])/24
+
+                    elif data['time_unit'][i] == 'years':
+                            time[i] = float(time[i])*365
 
                 data['time'] = time
                 data['time_unit'] = 'days'
@@ -1237,7 +1243,6 @@ def masterfileformat(event):
 ###################
 # Run through all the files. Convert them to the format we want.
 for i in range(len(event_list)):
-    #print('I am now doing folder: ', event_list[i])
     trigtime = get_trigtime(event_list[i])
     redshift = get_redshift(event_list[i])
 
