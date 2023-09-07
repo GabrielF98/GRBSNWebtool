@@ -7,7 +7,7 @@ itsdangerous==2.1.2
 Jinja2==3.1.2
 zipp==3.15.0
 blinker==1.6.2
-certifi==2022.12.7
+certifi==2023.7.22
 charset-normalizer==3.1.0
 Flask==2.3.2
 idna==3.4
@@ -25,10 +25,10 @@ python-dateutil==2.8.2
 pytz==2023.3
 PyYAML==6.0
 requests==2.31.0
-scipy==1.6.3
+scipy==1.10.0
 six==1.16.0
 snakemd==2.1.0
-tornado==6.3.2
+tornado==6.3.3
 typing_extensions==4.5.0
 tzdata==2023.3
 urllib3==1.26.15
