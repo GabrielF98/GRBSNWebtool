@@ -577,7 +577,7 @@ def event(event_id):
 
     # create a new plot with a title and axis labels
     xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log",
-                  x_axis_type="log", sizing_mode='scale_both', margin=5)
+                  x_axis_type="log", margin=5, aspect_ratio= 16/9, max_width=1000)
 
     legend_it = []
     #################################
@@ -641,7 +641,7 @@ def event(event_id):
                             color='orange', line_width=2, muted_color='gray', muted_alpha=0.05)
         b = xray.multi_line("terror", "te_locs", source=xray_source,
                             color='orange', line_width=2, muted_color='gray', muted_alpha=0.05)
-        c = xray.scatter('time', 'flux', source=xray_source, size=15,
+        c = xray.scatter('time', 'flux', source=xray_source, size=7,
                          color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types), muted_color='gray', muted_alpha=0.05)
         legend_it.append(("0.3-10keV  ", [a, b, c]))
         # Tooltips of what will display in the hover mode
@@ -730,7 +730,7 @@ def event(event_id):
             marks2 = ['triangle', 'circle', 'inverted_triangle']
             b = xray.multi_line("dflux_locs", "dfluxes", source=xray_error_cds, color=colors[int(
                 k % 20)], line_width=2, muted_color='gray', muted_alpha=0.05)
-            c = xray.scatter('time', 'flux', source=xray_cds, size=15, color=colors[int(
+            c = xray.scatter('time', 'flux', source=xray_cds, size=7, color=colors[int(
                 k % 20)], muted_color='gray', muted_alpha=0.05, fill_color=colors[int(k % 20)], marker=factor_mark('flux_limit_str', marks2, types2))
             legend_it.append((energy_range+'  ', [c, b]))
 
@@ -791,15 +791,15 @@ def event(event_id):
         if i+1 < len(legend_it)/num:
             legend2 = Legend(items=legend_it[i*num:i*num+num])
             legend2.click_policy = "mute"
-            legend2.orientation = "horizontal"
-            xray.add_layout(legend2, 'below')
-            legend2.label_text_font_size = '16pt'
+            legend2.orientation = "vertical"
+            xray.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
         else:
             legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
             legend2.click_policy = "mute"
-            legend2.orientation = "horizontal"
-            xray.add_layout(legend2, 'below')
-            legend2.label_text_font_size = '16pt'
+            legend2.orientation = "vertical"
+            xray.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
 
     # If track is still 0 print nodata
     if track == 0:
@@ -821,7 +821,7 @@ def event(event_id):
     t0_utc = '0'
 
     optical = figure(title='Optical (GRB+SN)', toolbar_location="right",
-                     x_axis_type="log", sizing_mode='scale_both', margin=5)
+                     x_axis_type="log", margin=5, aspect_ratio= 16/9, max_width=1000)
 
     ####### References #############
     optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
@@ -942,7 +942,7 @@ def event(event_id):
                 b = optical.multi_line(
                     "dmag_locs", "dmags", source=optical_error, muted_color='gray', muted_alpha=0.05, color=col, line_color=col, line_width=2)
                 c = optical.scatter('time_since', 'magnitude', source=optical_data,
-                                    muted_color='gray', muted_alpha=0.05, size=15, fill_color=col, color=col)
+                                    muted_color='gray', muted_alpha=0.05, size=7, fill_color=col, color=col)
                 legend_it.append((j+'  ', [c, b]))
 
                 # Tooltips of what will display in the hover mode
@@ -1033,10 +1033,10 @@ def event(event_id):
             b = optical.multi_line("dmag_locs", "dmags", source=optical_error_cds,
                                    color=colors[int(k % 20)], line_width=2, muted_color='gray', muted_alpha=0.05)
             if k < 20:
-                c = optical.scatter('time', 'mag', source=optical_cds, size=15, line_color=colors[int(k % 20)], color=colors[int(
+                c = optical.scatter('time', 'mag', source=optical_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
                     k % 20)], muted_color='gray', muted_alpha=0.05, fill_color=colors[int(k % 20)], marker=factor_mark('mag_limit_str', marks2, types2))
             else:
-                c = optical.scatter('time', 'mag', source=optical_cds, size=15, line_color=colors[int(k % 20)], color=colors[int(
+                c = optical.scatter('time', 'mag', source=optical_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
                     k % 20)], muted_color='gray', muted_alpha=0.05, fill_color='none', marker=factor_mark('mag_limit_str', marks2, types2))
             legend_it.append((band+'  ', [c, b]))
         # Tooltips of what will display in the hover mode
@@ -1094,20 +1094,20 @@ def event(event_id):
     optical.yaxis.axis_line_color = 'black'
 
     # Allow user to mute individual bands by clicking the legend
-    num = 10
+    num = 20
     for i in range(math.ceil(len(legend_it)/num)):
         if i+1 < len(legend_it)/num:
             legend2 = Legend(items=legend_it[i*num:i*num+num])
             legend2.click_policy = "mute"
-            legend2.orientation = "horizontal"
-            optical.add_layout(legend2, 'below')
-            legend2.label_text_font_size = '16pt'
+            legend2.orientation = "vertical"
+            optical.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
         else:
             legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
             legend2.click_policy = "mute"
-            legend2.orientation = "horizontal"
-            optical.add_layout(legend2, 'below')
-            legend2.label_text_font_size = '16pt'
+            legend2.orientation = "vertical"
+            optical.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
 
     # Make ticks larger
     optical.xaxis.major_label_text_font_size = '16pt'
@@ -1131,7 +1131,7 @@ def event(event_id):
     ##### RADIO############################################################################
     ######################################################################################
     radio = figure(title='Radio (GRB)', toolbar_location="right",
-                   y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
+                   y_axis_type="log", x_axis_type="log", margin=5, aspect_ratio= 16/9, max_width=1000)
 
     #################################
     # ADS data ######################
@@ -1232,10 +1232,10 @@ def event(event_id):
                 k % 20)], line_width=2, muted_color='gray', muted_alpha=0.05)
 
             if k < 20:
-                c = radio.scatter('time', 'flux_density', source=radio_cds, size=15, line_color=colors[int(k % 20)], color=colors[int(
+                c = radio.scatter('time', 'flux_density', source=radio_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
                     k % 20)], muted_color='gray', muted_alpha=0.05, fill_color=colors[int(k % 20)], marker=factor_mark('flux_density_limit_str', marks2, types2))
             else:
-                c = radio.scatter('time', 'flux_density', source=radio_cds, size=15, line_color=colors[int(k % 20)], color=colors[int(
+                c = radio.scatter('time', 'flux_density', source=radio_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
                     k % 20)], muted_color='gray', muted_alpha=0.05, fill_color='none', marker=factor_mark('flux_density_limit_str', marks2, types2))
             legend_it.append((freq_unit+'  ', [c, b]))
 
@@ -1303,20 +1303,20 @@ def event(event_id):
 
     # Legend
     # Allow user to mute individual bands by clicking the legend
-    num = 5
+    num = 20
     for i in range(math.ceil(len(legend_it)/num)):
         if i+1 < len(legend_it)/num:
             legend2 = Legend(items=legend_it[i*num:i*num+num])
             legend2.click_policy = "mute"
-            legend2.orientation = "horizontal"
-            radio.add_layout(legend2, 'below')
-            legend2.label_text_font_size = '16pt'
+            legend2.orientation = "vertical"
+            radio.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
         else:
             legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
             legend2.click_policy = "mute"
-            legend2.orientation = "horizontal"
-            radio.add_layout(legend2, 'below')
-            legend2.label_text_font_size = '16pt'
+            legend2.orientation = "vertical"
+            radio.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
 
     ######################################################################################
     ##### SNe SPECTRA######################################################################
@@ -1328,7 +1328,7 @@ def event(event_id):
 
     # Figure
     spectrum = figure(title='Spectrum (SN)', toolbar_location="right",
-                      tools=select_tools, sizing_mode='scale_both', margin=5)
+                      tools=select_tools, margin=5, aspect_ratio= 1, max_width=1000)
 
     # Blank tooltips
     tooltips = []
@@ -1605,23 +1605,23 @@ def event(event_id):
     sort_index = np.argsort(epochs)
     legend_it = [legend_it[i] for i in sort_index]
     # Allow user to mute individual spectra by clicking the legend
-    num = 6
+    num = 35
     for i in range(math.ceil(len(legend_it)/num)):
         if i+1 < len(legend_it)/num:
             legend2 = Legend(items=legend_it[i*num:i*num+num])
             legend2.click_policy = "mute"
-            legend2.orientation = "horizontal"
-            spectrum.add_layout(legend2, 'below')
-            legend2.label_text_font_size = '16pt'
+            legend2.orientation = "vertical"
+            spectrum.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
         else:
             legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
             legend2.click_policy = "mute"
-            legend2.orientation = "horizontal"
-            spectrum.add_layout(legend2, 'below')
-            legend2.label_text_font_size = '16pt'
+            legend2.orientation = "vertical"
+            spectrum.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
 
     script, div = components(
-        layout([radio, optical], [xray, spectrum], sizing_mode='scale_width'))
+        layout([radio], [optical], [xray], [spectrum], sizing_mode='scale_both'))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
