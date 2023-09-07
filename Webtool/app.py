@@ -954,6 +954,7 @@ def event(event_id):
                     ('Magnitude', '@magnitude'),
                     ('Band', '@band'),
                     ('Source', '@indices'),
+                    ('Unit', '@mag_unit'),
                 ]
 
                 # Add the HoverTool to the figure
@@ -1049,6 +1050,7 @@ def event(event_id):
             ('Band', '@band'),
             ('Instrument', '@instrument'),
             ('Source', '@indices'),
+            ('Unit', '@mag_unit'),
         ]
 
         # Add the HoverTool to the figure
@@ -1244,7 +1246,7 @@ def event(event_id):
         # Tooltips of what will display in the hover mode
         # Format the tooltip
         tooltips = [('Time', '@time'),
-                    ('Freq.', '@freq'),
+                    ('Freq', '@freq'),
                     ('Flux Density', '@flux_density'),
                     ('Instrument', '@instrument'),
                     ('Source', '@indices'), ]
@@ -1533,8 +1535,10 @@ def event(event_id):
             spectra_cds = ColumnDataSource(scaled_spectrum)
 
             tooltips = [
-                ('Rest wavelength', '@obs_wavelength{0}'),
+                ('Rest wavelength', '@rest_wavelength{0}'),
+                ('Obs. wavelength', '@obs_wavelength{0}'),
                 ('Flux', '@scaled_flux'),
+                ('Unit', '@flux_unit'),
                 ('Instrument', '@instrument'),
                 ('Time [days]', '@time'),
                 ('Source', '@indices'),
