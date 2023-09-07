@@ -615,6 +615,9 @@ def event(event_id):
         # Add the references
         data['sources'] = [swift_reference_no]*len(data['time'])
 
+        # Add units
+        data['units'] = ['erg/cm^2/sec']*len(data['time'])
+
         # Add the instrument
         data['instrument'] = ['Swift XRT']*len(data['time'])
 
@@ -652,6 +655,7 @@ def event(event_id):
             ('Flux', '@flux'),
             ('Instrument', '@instrument'),
             ('Source', '@sources'),
+            ('Unit', '@units')
         ]
 
         # Add the HoverTool to the figure
@@ -742,6 +746,7 @@ def event(event_id):
             ('Flux', '@flux'),
             ('Instrument', '@instrument'),
             ('Source', '@sources'),
+            ('Unit', '@flux_unit')
         ]
 
         # Add the HoverTool to the figure
