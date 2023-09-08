@@ -1163,12 +1163,12 @@ def masterfileformat(event):
         # Xray files
         elif any(substring in file.lower() for substring in xray_filetags):
             data = pd.read_csv(file, sep='\t')
-
+            print(file_sources['Filename'])
+            print(file)
             # Add a column for the ads abstract link - source
             data['reference'] = len(data['time'])*[file_sources.at
                                                    [file_sources[file_sources['Filename'] ==
                                                                  file].index[0], 'Reference']]
-
             # Make sure the elapsed time is in seconds,
             # if its in days/minutes/hours then convert it.
             time = np.array(data['time'], dtype=np.float64)
