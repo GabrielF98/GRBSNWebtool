@@ -40,8 +40,8 @@ date	time	flux_density	flux_density_limit	dflux	freq	instrument	date_unit	time_u
 1999-Dec-18.72	10.53	888.0	0	NaN	4.85	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2003ApJ...585..899G/abstract	74.0	NaN
 1999-Dec-26.70	18.51	430.0	0	NaN	8.35	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2003ApJ...585..899G/abstract	75.0	NaN
 1999-Dec-26.70	18.51	431.0	0	NaN	4.85	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2003ApJ...585..899G/abstract	92.0	NaN
-1999-Jan-4.69	27.5	474.0	0	NaN	8.35	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2003ApJ...585..899G/abstract	56.0	NaN
-1999-Jan-4.69	27.5	440.0	0	NaN	4.85	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2003ApJ...585..899G/abstract	64.0	NaN
+2000-Jan-4.69	27.5	474.0	0	NaN	8.35	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2003ApJ...585..899G/abstract	56.0	NaN
+2000-Jan-4.69	27.5	440.0	0	NaN	4.85	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2003ApJ...585..899G/abstract	64.0	NaN
 1999-12-15.82	7.63	3.4	0	NaN	NaN	SCUBA	yyyy-mm-deciday	days	milliJy	observer	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...380...81S/abstract	3.7	353.0
 1999-12-19.82	11.63	-0.8	0	NaN	NaN	SCUBA	yyyy-mm-deciday	days	milliJy	observer	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...380...81S/abstract	1.8	353.0
 1999-Dec-11.77	3.5777199074074075	2600.0	0	NaN	250.0	MAMBO	yyyy-month-deciday	days	microJy	observer	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...541L..45G/abstract	800.0	NaN
