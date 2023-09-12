@@ -16,7 +16,7 @@ Filename: GRB991208_Radio_2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2003ApJ...585..899G/abstract
 Data-type: Radio, Late, Early
 ---------------------------------------------------------
-Notes: Summary of VLBA Observations of GRB 991208: the Date, the Time Passed Since the Event Δt, and the Fluxes at 8.35 and 4.85 GHz
+Notes: Summary of VLBA Observations of GRB 991208: the Date, the Time Passed Since the Event Δt, and the Fluxes at 8.35 and 4.85 GHz. The final data point has a mistake in the date it should read 2000-Jan not 1999-Jan.
 =========================================================
 Filename: GRB991208_Radio_3.txt
 Source: https://ui.adsabs.harvard.edu/abs/2001A%26A...380...81S/abstract

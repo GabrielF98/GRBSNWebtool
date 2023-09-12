@@ -5,5 +5,5 @@ date	time	flux_density	flux_density_limit	dflux_density	freq	instrument	date_uni
 1999-Dec-18.72	10.53	888.0	0	74	4.85	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN
 1999-Dec-26.70	18.51	430.0	0	75	8.35	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN
 1999-Dec-26.70	18.51	431.0	0	92	4.85	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN
-1999-Jan-4.69	27.5	474.0	0	56	8.35	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN
-1999-Jan-4.69	27.5	440.0	0	64	4.85	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN
+2000-Jan-4.69	27.5	474.0	0	56	8.35	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN
+2000-Jan-4.69	27.5	440.0	0	64	4.85	VLBA	yyyy-month-deciday	days	microJy	observer	GHz	NaN
