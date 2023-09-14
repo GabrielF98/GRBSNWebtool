@@ -28,7 +28,7 @@ for folder in folders:
         for j, line in enumerate(readmelines):
             if '=========================================================\n' == line:
                 linenos.append(j)
-        print(linenos)
+
         # Create a markdown doc in the correct folder.
         doc = new_doc()
 
