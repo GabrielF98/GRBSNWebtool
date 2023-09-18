@@ -1,39 +1,41 @@
 {% extends "base.html" %}
 
 {% block title %}
+<div class="primary">
 <h1>
   <b>Gamma-ray Burst and Supernova Associations Project</b>
 </h1>
+</div>
 
 {% endblock %}
 
 {% block content %}
-
+<div class="primary">
 <!-- Images -->
 <!-- <h2><b>Overview of Events</b></h2> -->
 
 <div class="card-group">
-  <div2 class="card text-center">
+  <div class="card text-center">
     <img class="card-img-top" src="/plot/e_iso">
-    <div2 class="card-body">
+    <div class="card-body">
       <h5 class="card-title">E$_{iso}$ distribution of the events.</h5>
       <!-- <p2 class="card-text">E$_{iso}$ distribution across the objects</p2> -->
-    </div2>
-  </div2>
-  <div2 class="card text-center">
+    </div>
+  </div>
+  <div class="card text-center">
     <img class="card-img-top" src="/plot/z">
-    <div2 class="card-body">
+    <div class="card-body">
       <h5 class="card-title">Redshift distribution of the events.</h5>
 
-    </div2>
-  </div2>
-  <div2 class="card text-center">
+    </div>
+  </div>
+  <div class="card text-center">
     <img class="card-img-top" src="static/stats/IcBLAssociationsNumberperyear(Bar).pdf" alt="Card image cap">
-    <div2 class="card-body">
+    <div class="card-body">
       <h5 class="card-title">Number of events per year (Taken from the <a href="https://www.wis-tns.org" target='_blank'
           style="color: blue">Transient Name Server</a>)</h5>
-    </div2>
-  </div2>
+    </div>
+  </div>
 </div>
 
 <!-- Forms -->
@@ -67,7 +69,7 @@
   data stored in the database. The download will include all information stored within the database as a .txt file. </p>
 
 <!-- Table of all the sources -->
-<div>
+
   <table class="table table-striped table-bordered table-sm">
     <thead>
       <tr>
