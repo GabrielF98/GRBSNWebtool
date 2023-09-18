@@ -1,5 +1,5 @@
 band	instrument	time	integration	mag	mag_limit	dmag	flux_density	dflux_density	time_unit	integration_unit	mag_unit	mag_type	flux_density_unit	time_frame	extinction_corrected	extinction	dtime	reference
-R	S-Lotis	0.002386111111111111	150.0	19.6	0	0.21	0.0476	0.0092	days	seconds	B	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
+R	S-Lotis	0.002386111111111111	150.0	19.6	0	0.21	0.0476	0.0092	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 B	FTN	0.0346087962962963	100.2	20.86	0	0.3	0.0205	0.0057	days	seconds	AB	apparent	milliJy	observer	False	0.12	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	S-Lotis	0.0027256944444444446	120.0	19.75	0	0.23	0.0415	0.0088	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 B	FTN	0.0390625	120.0	21.62	0	0.35	0.0102	0.0033	days	seconds	AB	apparent	milliJy	observer	False	0.12	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
