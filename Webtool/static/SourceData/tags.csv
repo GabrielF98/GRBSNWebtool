@@ -14,7 +14,7 @@
 12,GRB041006,ADS Exhausted,Processed,Yes,No,Yes,No,No
 13,GRB050416A,Mostly Completed,Processed,Yes,Yes,Yes,No,Yes
 14,GRB050525A-SN2005nc,ADS Exhausted,Processed,Yes,Yes,Yes,No,Yes
-15,GRB050824,No Downloadables,Unprocessed,No,Yes,No,No,No
+15,GRB050824,No Downloadables,,No,Yes,No,No,No
 16,GRB060218-SN2006aj,Mostly Completed,Processed,Yes,Yes,Yes,No,Yes
 17,GRB060729,ADS Exhausted,Processed,No,Yes,Yes,No,No
 18,GRB060904B,ADS Exhausted,Processed,Yes,Yes,Yes,No,No
@@ -29,7 +29,7 @@
 27,GRB101219B-SN2010ma,ADS Exhausted,Processed,Yes,Yes,Yes,No,No
 28,GRB101225A,ADS Exhausted,Processed,No,Yes,Yes,No,No
 29,GRB111209A-SN2011kl,ADS Exhausted,Processed,Yes,Yes,Yes,No,No
-30,GRB111211A,No ADS Data,Unprocessed,No,Yes,No,No,No
+30,GRB111211A,No ADS Data,,No,Yes,No,No,No
 31,GRB111228A,ADS Exhausted,Processed,No,Yes,Yes,No,No
 32,GRB120422A-SN2012bz,Mostly Completed,Processed,Yes,Yes,Yes,No,Yes
 33,GRB120714B-SN2012eb,ADS Exhausted,Processed,Yes,Yes,Yes,No,No
@@ -39,22 +39,24 @@
 37,GRB130702A-SN2013dx,Mostly Completed,Processed,Yes,Yes,Yes,No,Yes
 38,GRB130831A-SN2013fu,ADS Exhausted,Processed,Yes,Yes,Yes,No,No
 39,GRB140606B-iPTF14bfu,Mostly Completed,Processed,Yes,Yes,Yes,No,Yes
-40,GRB150518A,No ADS Data,Unprocessed,No,No,No,No,No
-41,GRB150818A,No ADS Data,Unprocessed,No,Yes,No,No,No
+40,GRB150518A,No ADS Data,,No,No,No,No,No
+41,GRB150818A,No ADS Data,,No,Yes,No,No,No
 42,GRB161219B-SN2016jca,Completed,Processed,Yes,Yes,Yes,Yes,Yes
 43,GRB171010A-SN2017htp,Completed,Processed,Yes,Yes,Yes,Yes,Yes
 44,GRB171205A-SN2017iuk,Completed,Processed,Yes,Yes,Yes,Yes,Yes
-45,GRB180728A-SN2018fip,No ADS Data,Unprocessed,No,Yes,No,Yes,No
+45,GRB180728A-SN2018fip,No ADS Data,,No,Yes,No,Yes,No
 46,GRB190114C-SN2019jrj,Completed,Processed,Yes,Yes,Yes,Yes,Yes
 47,GRB190829A-AT2019oyw,Completed,Processed,Yes,Yes,Yes,Yes,Yes
 48,GRB200826A-SN2020scz,Mostly Completed,Processed,No,Yes,Yes,No,Yes
-49,GRB201015A,New Event,Unprocessed,No,Yes,No,No,No
+49,GRB201015A,New Event,Processed,No,Yes,No,No,No
 50,GRB211023A-SN2021acco,New Event,Unprocessed,No,No,No,No,No
 51,GRB220219B,New Event,Unprocessed,No,No,No,No,No
 52,GRB221009A-SN2022xiw,New Event,Unprocessed,No,Yes,No,No,No
-53,GRB970228,ADS Exhausted,Processed,No,No,Yes,No,Yes
-54,GRB980326,ADS Exhausted,Processed,Yes,No,Yes,No,No
-55,GRB980425-SN1998bw,ADS Exhausted,Unprocessed,No,Yes,Yes,No,No
-56,GRB990712,ADS Exhausted,Unprocessed,No,No,Yes,No,No
-57,GRB991208,ADS Exhausted,Processed,No,No,Yes,No,Yes
-58,SN2020bvc,Mostly Completed,Processed,Yes,Yes,Yes,Yes,No
+53,SN2023lcr,New Event,Unprocessed,No,No,No,No,No
+54,GRB230812B-SN2023pel,New Event,Unprocessed,No,No,No,No,No
+55,GRB970228,ADS Exhausted,Processed,No,No,Yes,No,Yes
+56,GRB980326,ADS Exhausted,Processed,Yes,No,Yes,No,No
+57,GRB980425-SN1998bw,ADS Exhausted,Processed,No,Yes,Yes,No,No
+58,GRB990712,ADS Exhausted,Processed,No,No,Yes,No,No
+59,GRB991208,ADS Exhausted,Processed,No,No,Yes,No,Yes
+60,SN2020bvc,Mostly Completed,Processed,Yes,Yes,Yes,Yes,No
