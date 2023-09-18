@@ -1,0 +1,13 @@
+date	instrument	mag	mag_limit	dmag	band	date_unit	mag_unit	mag_type	time_frame	extinction_corrected	time	time_unit	dtime
+1999-Jul-13.156	VLT	20.515	0	0.013	V	yyyy-month-deciday	AB	apparent	observer	True	0.4594456018518518	days	NaN
+1999-Jul-13.158	VLT	20.5	0	0.012	V	yyyy-month-deciday	AB	apparent	observer	True	0.4614479166666666	days	NaN
+1999-Jul-13.405	VLT	20.834	0	0.026	V	yyyy-month-deciday	AB	apparent	observer	True	0.7084386574074073	days	NaN
+1999-Jul-13.406	VLT	20.831	0	0.029	V	yyyy-month-deciday	AB	apparent	observer	True	0.7094456018518518	days	NaN
+1999-Jul-14.157	VLT	21.248	0	0.04	V	yyyy-month-deciday	AB	apparent	observer	True	1.460440972222222	days	NaN
+1999-Jul-14.292	NTT	21.335	0	0.083	V	yyyy-month-deciday	AB	apparent	observer	True	1.5954409722222225	days	NaN
+1999-Jul-14.298	NTT	21.322	0	0.076	V	yyyy-month-deciday	AB	apparent	observer	True	1.6014479166666666	days	NaN
+1999-Jul-14.787	SAAO	21.795	0	0.089	V	yyyy-month-deciday	AB	apparent	observer	True	2.090440972222222	days	NaN
+1999-Jul-20.433	NTT	22.065	0	0.1	V	yyyy-month-deciday	AB	apparent	observer	True	7.736447916666666	days	NaN
+1999-Aug-02.511	AAT	22.136	0	0.042	V	yyyy-month-deciday	AB	apparent	observer	True	20.81444560185185	days	NaN
+1999-Aug-16.471	AAT	22.305	0	0.054	V	yyyy-month-deciday	AB	apparent	observer	True	34.77444560185185	days	NaN
+1999-Aug-29.403	HST	25.25	0	0.2	V	yyyy-month-deciday	AB	apparent	observer	True	47.70644791666667	days	NaN
