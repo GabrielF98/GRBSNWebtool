@@ -1,0 +1,3 @@
+date	time	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	flux_density_unit	instrument	time_frame	dtime	frq	freq_unit
+1999-12-15.82	7.63	3.4	0	3.7	yyyy-mm-deciday	days	milliJy	SCUBA	observer	NaN	353	GHz
+1999-12-19.82	11.63	-0.8	0	1.8	yyyy-mm-deciday	days	milliJy	SCUBA	observer	NaN	353	GHz

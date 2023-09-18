@@ -99,6 +99,10 @@
         "names": "Fulton et al.",
         "year": "2023"
     },
+    "https://ui.adsabs.harvard.edu/abs/1997Natur.387..783C/abstract": {
+        "names": "Costa et al.",
+        "year": "1997"
+    },
     "https://ui.adsabs.harvard.edu/abs/1998ApJ...502L.123G/abstract": {
         "names": "Groot et al.",
         "year": "1998"
@@ -184,6 +188,8 @@
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/29033.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/29033.gcn3",
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/31596.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/31596.gcn3",
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/31739.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/31739.gcn3",
+    "https://gcn.nasa.gov/circulars/34597": "https://gcn.nasa.gov/circulars/34597",
+    "https://gcn.nasa.gov/circulars/34385?query=JWST": "https://gcn.nasa.gov/circulars/34385?query=JWST",
     "https://swift.gsfc.nasa.gov/archive/grb_table/": "https://swift.gsfc.nasa.gov/archive/grb_table/",
     "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3": "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3"
 }
