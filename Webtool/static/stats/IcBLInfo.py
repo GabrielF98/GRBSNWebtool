@@ -1,9 +1,9 @@
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
-
 import pandas as pd
 
-data = pd.read_csv('tns_IcBLs_Nov22022.csv')
+data = pd.read_csv('tns_IcBLs_Aug2023.csv')
 
 redshift = data['Redshift']
 sn_names = data['Name']
@@ -12,23 +12,28 @@ sn_names = data['Name']
 
 #Number of SN events per year with and without GRBs
 event_years_with = [1, 2, 1, 2, 1, 0, 1] # SpecGRB
-event_years_with_grb = [0, 0, 0, 0, 2, 1, 1] # PhotGRB
+event_years_with_grb = [0, 0, 0, 0, 2, 1, 2] # PhotGRB
 event_years_without = [0, 0, 0, 0, 0, 0, 0]
 
 #Loop over the names of the Ic-BLs
 for i in sn_names:
-	print(i)
-	print(int(i[3:7])-2016)
-	event_years_without[int(i[3:7])-2016]+=1
+	if int(i[3:7]) != 2023:
+		print(i)
+		print(int(i[3:7])-2016)
+		event_years_without[int(i[3:7])-2016]+=1
 
 for i in range(len(event_years_without)):
 	event_years_without[i] = event_years_without[i]-event_years_with[i]
 
-labels = ['2016', '2017', '2018', '2019', '2020', '2021', 'Nov. 22']
+labels = ['2016', '2017', '2018', '2019', '2020', '2021', '2022']
 width = 0.6
 
 fig, ax = plt.subplots()
-plt.rcParams.update({'font.size': 14})
+
+# Say, "the default sans-serif font is COMIC SANS"
+matplotlib.rcParams['font.sans-serif'] = "Times"
+# Then, "ALWAYS use sans-serif fonts"
+matplotlib.rcParams['font.family'] = "sans-serif"
 
 ax.bar(labels, event_years_without, width, color='green', alpha=0.5, label='Without GRB')
 ax.bar(labels, event_years_with, width, color='purple', alpha=0.5, bottom=event_years_without, label='With GRB (spec)')
