@@ -3,6 +3,7 @@ import ast  # Convert strings to lists
 import glob  # Find the txt files with the right names
 import io  # Downloadable zipfiles and for updateable plots
 import json  # Reading in data
+import math
 import os  # Import os to find files in the event folders
 import sqlite3  # Database access
 import zipfile  # Creating zipfiles for download
@@ -14,7 +15,7 @@ from astropy.time import Time  # Converting MJD to UTC
 from bokeh.embed import components
 from bokeh.layouts import layout
 # Pieces for Bokeh
-from bokeh.models import ColumnDataSource, HoverTool, Label, Range1d
+from bokeh.models import ColumnDataSource, HoverTool, Label, Legend, Range1d
 from bokeh.palettes import Category20_20, d3, viridis
 from bokeh.plotting import figure
 from bokeh.transform import factor_cmap, factor_mark
@@ -455,12 +456,11 @@ def event(event_id):
     event_refs = []
     for i in range(len(event)):
         if event[i]['PrimarySources'] != None:
-            
-            
+
             # If its not in the list save the citation and the number.
             if event[i]['PrimarySources'] not in list(needed_dict.keys()):
                 needed_dict[event[i]['PrimarySources']
-                        ] = dict_refs[event[i]['PrimarySources']]
+                            ] = dict_refs[event[i]['PrimarySources']]
                 event_nos.append(
                     list(needed_dict.keys()).index(event[i]['PrimarySources'])+1)
                 event_refs.append(event[i]['PrimarySources'])
@@ -469,12 +469,12 @@ def event(event_id):
             else:
                 event_nos.append(
                     list(needed_dict.keys()).index(event[i]['PrimarySources'])+1)
-            
+
         elif event[i]['SecondarySources'] != None:
             # If its not in the list save the citation and the number.
             if radec[i]['source'] not in list(needed_dict.keys()):
                 needed_dict[event[i]['SecondarySources']
-                        ] = dict_refs2[event[i]['SecondarySources']]
+                            ] = dict_refs2[event[i]['SecondarySources']]
                 event_nos.append(
                     list(needed_dict.keys()).index(event[i]['SecondarySources'])+1)
                 event_refs.append(event[i]['SecondarySources'])
@@ -577,8 +577,9 @@ def event(event_id):
 
     # create a new plot with a title and axis labels
     xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log",
-                  x_axis_type="log", sizing_mode='scale_both', margin=5)
+                  x_axis_type="log", margin=5, aspect_ratio= 16/9, max_width=1000)
 
+    legend_it = []
     #################################
     # Swift data ####################
     #################################
@@ -614,6 +615,9 @@ def event(event_id):
         # Add the references
         data['sources'] = [swift_reference_no]*len(data['time'])
 
+        # Add units
+        data['units'] = ['erg/cm^2/sec']*len(data['time'])
+
         # Add the instrument
         data['instrument'] = ['Swift XRT']*len(data['time'])
 
@@ -636,13 +640,13 @@ def event(event_id):
                  'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle']
 
         # add a line renderer with legend and line thickness
-        xray.multi_line("e_locs", "error", source=xray_source,
-                        color='orange', line_width=2)
-        xray.multi_line("terror", "te_locs", source=xray_source,
-                        color='orange', line_width=2)
-        xray.scatter('time', 'flux', source=xray_source, legend_label="0.3-10keV", size=10,
-                     color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
-
+        a = xray.multi_line("e_locs", "error", source=xray_source,
+                            color='orange', line_width=2, muted_color='gray', muted_alpha=0.05)
+        b = xray.multi_line("terror", "te_locs", source=xray_source,
+                            color='orange', line_width=2, muted_color='gray', muted_alpha=0.05)
+        c = xray.scatter('time', 'flux', source=xray_source, size=7,
+                         color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types), muted_color='gray', muted_alpha=0.05)
+        legend_it.append(("0.3-10keV  ", [a, b, c]))
         # Tooltips of what will display in the hover mode
         # Format the tooltip
 
@@ -651,6 +655,7 @@ def event(event_id):
             ('Flux', '@flux'),
             ('Instrument', '@instrument'),
             ('Source', '@sources'),
+            ('Unit', '@units')
         ]
 
         # Add the HoverTool to the figure
@@ -696,7 +701,7 @@ def event(event_id):
 
         ####### Plot Data ###########
         # Select colours for the data
-        colors = d3['Category20'][5]
+        colors = d3['Category20'][20]
 
         # List of the energy ranges
         energy_ranges = list(set(list(xray_df['energy_range'])))
@@ -714,20 +719,24 @@ def event(event_id):
         xray_error_df['dflux_locs'] = list(
             zip(xray_error_df['time'], xray_error_df['time']))
 
-        # Create a cds
-        xray_cds = ColumnDataSource(xray_df)
+        for k, energy_range in enumerate(energy_ranges):
+            xray_data = xray_df.loc[xray_df['energy_range'] == energy_range]
+            xray_error = xray_error_df.loc[xray_error_df['energy_range']
+                                           == energy_range]
+            # Create a cds
+            xray_cds = ColumnDataSource(xray_data)
 
-        # Create a cds for errors
-        xray_error_cds = ColumnDataSource(xray_error_df)
+            # Create a cds for errors
+            xray_error_cds = ColumnDataSource(xray_error)
 
-        # Plotting
-
-        types2 = ['-1', '0', '1']
-        marks2 = ['triangle', 'circle', 'inverted_triangle']
-        xray.multi_line("dflux_locs", "dfluxes", source=xray_error_cds, color=factor_cmap(
-            'energy_range', colors, energy_ranges), line_width=2)
-        xray.scatter('time', 'flux', source=xray_cds, size=10, legend_field='energy_range', color=factor_cmap('energy_range', colors,
-                     energy_ranges), fill_color=factor_cmap('energy_range', colors, energy_ranges), marker=factor_mark('flux_limit_str', marks2, types2))
+            # Plotting
+            types2 = ['-1', '0', '1']
+            marks2 = ['triangle', 'circle', 'inverted_triangle']
+            b = xray.multi_line("dflux_locs", "dfluxes", source=xray_error_cds, color=colors[int(
+                k % 20)], line_width=2, muted_color='gray', muted_alpha=0.05)
+            c = xray.scatter('time', 'flux', source=xray_cds, size=7, color=colors[int(
+                k % 20)], muted_color='gray', muted_alpha=0.05, fill_color=colors[int(k % 20)], marker=factor_mark('flux_limit_str', marks2, types2))
+            legend_it.append((energy_range+'  ', [c, b]))
 
         # Tooltips of what will display in the hover mode
         # Format the tooltip
@@ -737,6 +746,7 @@ def event(event_id):
             ('Flux', '@flux'),
             ('Instrument', '@instrument'),
             ('Source', '@sources'),
+            ('Unit', '@flux_unit')
         ]
 
         # Add the HoverTool to the figure
@@ -780,6 +790,22 @@ def event(event_id):
     xray.background_fill_color = 'white'
     xray.border_fill_color = 'white'
 
+    # Allow user to mute individual bands by clicking the legend
+    num = 10
+    for i in range(math.ceil(len(legend_it)/num)):
+        if i+1 < len(legend_it)/num:
+            legend2 = Legend(items=legend_it[i*num:i*num+num])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            xray.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+        else:
+            legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            xray.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+
     # If track is still 0 print nodata
     if track == 0:
         # Set a range so we can always centre the nodata for the spectra plot
@@ -800,7 +826,7 @@ def event(event_id):
     t0_utc = '0'
 
     optical = figure(title='Optical (GRB+SN)', toolbar_location="right",
-                     x_axis_type="log", sizing_mode='scale_both', margin=5)
+                     x_axis_type="log", margin=5, aspect_ratio= 16/9, max_width=1000)
 
     ####### References #############
     optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
@@ -808,6 +834,7 @@ def event(event_id):
     ################################
     ######## Open SN ###############
     ################################
+    legend_it = []
     if exists('./static/SourceData/'+str(event_id)+'/'+'OpenSNPhotometry.csv'):
         # Add 1 to track variable if openSN had data
         track += 1
@@ -917,10 +944,11 @@ def event(event_id):
 
                 # New color
                 col = next(color)
-                optical.multi_line(
-                    "dmag_locs", "dmags", source=optical_error, color=col, line_width=2)
-                optical.scatter('time_since', 'magnitude', source=optical_data,
-                                legend_label=band_label, size=10, color=col)
+                b = optical.multi_line(
+                    "dmag_locs", "dmags", source=optical_error, muted_color='gray', muted_alpha=0.05, color=col, line_color=col, line_width=2)
+                c = optical.scatter('time_since', 'magnitude', source=optical_data,
+                                    muted_color='gray', muted_alpha=0.05, size=7, fill_color=col, color=col)
+                legend_it.append((j+'  ', [c, b]))
 
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
@@ -931,6 +959,7 @@ def event(event_id):
                     ('Magnitude', '@magnitude'),
                     ('Band', '@band'),
                     ('Source', '@indices'),
+                    ('Unit', '@mag_unit'),
                 ]
 
                 # Add the HoverTool to the figure
@@ -939,7 +968,6 @@ def event(event_id):
     #################################
     # ADS data ######################
     #################################
-
     # Check if the optical master file exists yet.
     if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt'):
         # Add 1 to track variable if openSN had data
@@ -975,13 +1003,12 @@ def event(event_id):
         optical_df['indices'] = optical_source_indices_sub
 
         ####### Plot Data ###########
+
+        # Set the string values for the bands
+        optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
+
         # Select colours for the data
         colors = d3['Category20'][20]
-
-        # List all bands
-        bands = list(set(list(optical_df['band'].astype(str))))
-
-        optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
 
         # Create the error columns that bokeh wants
         # Errors on flux densities
@@ -992,21 +1019,32 @@ def event(event_id):
         optical_error_df['dmag_locs'] = list(
             zip(optical_error_df['time'], optical_error_df['time']))
 
-        # Create a cds
-        optical_cds = ColumnDataSource(optical_df)
+        # List all bands
+        bands = list(set(list(optical_df['band'].astype(str))))
 
-        # Create a cds for errors
-        optical_error_cds = ColumnDataSource(optical_error_df)
+        for k, band in enumerate(bands):
+            band_data = optical_df.loc[optical_df['band'] == band]
+            band_error = optical_error_df.loc[optical_error_df['band'] == band]
 
-        # Plotting
+            # Create a cds
+            optical_cds = ColumnDataSource(band_data)
 
-        types2 = ['-1', '0', '1']
-        marks2 = ['triangle', 'circle', 'inverted_triangle']
-        optical.multi_line("dmag_locs", "dmags", source=optical_error_cds,
-                           color=factor_cmap('band', colors, bands), line_width=2)
-        optical.scatter('time', 'mag', source=optical_cds, size=10, legend_field='band', color=factor_cmap(
-            'band', colors, bands), fill_color=factor_cmap('band', colors, bands), marker=factor_mark('mag_limit_str', marks2, types2))
+            # Create a cds for errors
+            optical_error_cds = ColumnDataSource(band_error)
 
+            # Plotting
+
+            types2 = ['-1', '0', '1']
+            marks2 = ['triangle', 'circle', 'inverted_triangle']
+            b = optical.multi_line("dmag_locs", "dmags", source=optical_error_cds,
+                                   color=colors[int(k % 20)], line_width=2, muted_color='gray', muted_alpha=0.05)
+            if k < 20:
+                c = optical.scatter('time', 'mag', source=optical_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
+                    k % 20)], muted_color='gray', muted_alpha=0.05, fill_color=colors[int(k % 20)], marker=factor_mark('mag_limit_str', marks2, types2))
+            else:
+                c = optical.scatter('time', 'mag', source=optical_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
+                    k % 20)], muted_color='gray', muted_alpha=0.05, fill_color='none', marker=factor_mark('mag_limit_str', marks2, types2))
+            legend_it.append((band+'  ', [c, b]))
         # Tooltips of what will display in the hover mode
         # Format the tooltip
         # Tooltips of what will display in the hover mode
@@ -1017,6 +1055,7 @@ def event(event_id):
             ('Band', '@band'),
             ('Instrument', '@instrument'),
             ('Source', '@indices'),
+            ('Unit', '@mag_unit'),
         ]
 
         # Add the HoverTool to the figure
@@ -1061,8 +1100,21 @@ def event(event_id):
     optical.xaxis.axis_line_color = 'black'
     optical.yaxis.axis_line_color = 'black'
 
-    # Allow user to mute spectra by clicking the legend
-    # optical.legend.click_policy = "mute"
+    # Allow user to mute individual bands by clicking the legend
+    num = 20
+    for i in range(math.ceil(len(legend_it)/num)):
+        if i+1 < len(legend_it)/num:
+            legend2 = Legend(items=legend_it[i*num:i*num+num])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            optical.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+        else:
+            legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            optical.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
 
     # Make ticks larger
     optical.xaxis.major_label_text_font_size = '16pt'
@@ -1086,12 +1138,13 @@ def event(event_id):
     ##### RADIO############################################################################
     ######################################################################################
     radio = figure(title='Radio (GRB)', toolbar_location="right",
-                   y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
+                   y_axis_type="log", x_axis_type="log", margin=5, aspect_ratio= 16/9, max_width=1000)
 
     #################################
     # ADS data ######################
     #################################
     rad_refs = []
+    legend_it = []
     # Check if the radio master file exists yet.
     if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt'):
 
@@ -1128,11 +1181,7 @@ def event(event_id):
         radio_df['indices'] = radio_source_indices_sub
 
         # Plot the radio data we have gathered.
-        colors = viridis(len(freqs))
-
-        # Setting up to map the upper limits to different symbols.
-        types2 = ['-1', '0', '1']
-        marks2 = ['triangle', 'circle', 'inverted_triangle']
+        colors = d3['Category20'][20]
 
         # Get strings for the mapper functions
         radio_df['flux_density_limit_str'] = radio_df['flux_density_limit'].astype(
@@ -1141,6 +1190,7 @@ def event(event_id):
 
         radio_df['unit_col'] = radio_df['freq'].astype(
             str)+' '+radio_df['freq_unit'].astype(str)
+        freq_unit = list(set(list(radio_df['unit_col'].astype(str))))
 
         # Get the units right
         radio_df['flux_density'] = radio_df['flux_density'].astype(float)
@@ -1164,7 +1214,7 @@ def event(event_id):
 
         # Errors on flux densities
         radio_error_df = radio_df[[
-            'time', 'flux_density', 'dflux_density', 'freq_str']].copy()
+            'time', 'flux_density', 'dflux_density', 'freq_str', 'unit_col']].copy()
         radio_error_df = radio_error_df[~radio_error_df['dflux_density'].isnull(
         )]
         radio_error_df['dfds'] = list(zip(radio_error_df['flux_density']-radio_error_df['dflux_density'],
@@ -1172,22 +1222,36 @@ def event(event_id):
         radio_error_df['dfd_locs'] = list(
             zip(radio_error_df['time'], radio_error_df['time']))
 
-        # Create a column data source object to make some of the plotting easier.
-        radio_cds = ColumnDataSource(radio_df)
-        radio_error = ColumnDataSource(radio_error_df)
+        for k, freq_unit in enumerate(freq_unit):
+            freq_data = radio_df.loc[radio_df['unit_col'] == freq_unit]
+            freq_error = radio_error_df.loc[radio_error_df['unit_col'] == freq_unit]
 
-        # Plot the data and the error
-        radio.multi_line("dfd_locs", "dfds", source=radio_error, color=factor_cmap(
-            'freq_str', colors, freqs), line_width=2)
-        radio.scatter('time', 'flux_density', source=radio_cds, legend_field='unit_col', color=factor_cmap('freq_str', colors, freqs),
-                      fill_color=factor_cmap('freq_str', colors, freqs), size=10, marker=factor_mark('flux_density_limit_str', marks2, types2))
+            # Create a column data source object to make some of the plotting easier.
+            radio_cds = ColumnDataSource(freq_data)
+            radio_error = ColumnDataSource(freq_error)
+
+            # Setting up to map the upper limits to different symbols.
+            types2 = ['-1', '0', '1']
+            marks2 = ['triangle', 'circle', 'inverted_triangle']
+
+            # Plot the data and the error
+            b = radio.multi_line("dfd_locs", "dfds", source=radio_error, color=colors[int(
+                k % 20)], line_width=2, muted_color='gray', muted_alpha=0.05)
+
+            if k < 20:
+                c = radio.scatter('time', 'flux_density', source=radio_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
+                    k % 20)], muted_color='gray', muted_alpha=0.05, fill_color=colors[int(k % 20)], marker=factor_mark('flux_density_limit_str', marks2, types2))
+            else:
+                c = radio.scatter('time', 'flux_density', source=radio_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
+                    k % 20)], muted_color='gray', muted_alpha=0.05, fill_color='none', marker=factor_mark('flux_density_limit_str', marks2, types2))
+            legend_it.append((freq_unit+'  ', [c, b]))
 
         # Tooltips of what will display in the hover mode
         # Format the tooltip
         # Tooltips of what will display in the hover mode
         # Format the tooltip
         tooltips = [('Time', '@time'),
-                    ('Freq.', '@freq'),
+                    ('Freq', '@freq'),
                     ('Flux Density', '@flux_density'),
                     ('Instrument', '@instrument'),
                     ('Source', '@indices'), ]
@@ -1229,9 +1293,6 @@ def event(event_id):
     radio.xaxis.minor_tick_line_color = 'black'
     radio.yaxis.minor_tick_line_color = 'black'
 
-    # Allow user to mute spectra by clicking the legend
-    # radio.legend.click_policy = "mute"
-
     # Axis labels
     radio.xaxis.axis_label = 'Time [days] after '+grb_time_str
     radio.yaxis.axis_label = 'Flux Density [mJy]'
@@ -1247,15 +1308,34 @@ def event(event_id):
     radio.background_fill_color = 'white'
     radio.border_fill_color = 'white'
 
+    # Legend
+    # Allow user to mute individual bands by clicking the legend
+    num = 20
+    for i in range(math.ceil(len(legend_it)/num)):
+        if i+1 < len(legend_it)/num:
+            legend2 = Legend(items=legend_it[i*num:i*num+num])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            radio.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+        else:
+            legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            radio.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+
     ######################################################################################
     ##### SNe SPECTRA######################################################################
     ######################################################################################
+    legend_it = []
+
     # Selection tools we want to display
     select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset']
 
     # Figure
     spectrum = figure(title='Spectrum (SN)', toolbar_location="right",
-                      tools=select_tools, height=260, sizing_mode='scale_width', margin=5)
+                      tools=select_tools, margin=5, aspect_ratio= 1, max_width=1000)
 
     # Blank tooltips
     tooltips = []
@@ -1391,14 +1471,13 @@ def event(event_id):
                 ]
 
                 # Legend label will be the elapsed time since the trigger for now
-                spectrum.line('wavelength', 'flux', source=data_source,
-                              color=color[i], muted_color='gray', muted_alpha=0.1, legend_label=str(np.round(float(data_dict['time_since'][0]), 2))+' days', line_width=2)
-
+                c = spectrum.line('wavelength', 'flux', source=data_source,
+                                  color=color[i], muted_color='gray', muted_alpha=0.1, line_width=2)
+                legend_it.append(
+                    (str(np.round(float(data_dict['time_since'][0]), 2))+' days  ', [c]))
         # Range
         spectrum.y_range = Range1d(
             max(min(min_spec)-0.1*min(min_spec), -1), min(0.1*max(max_spec)+max(max_spec), 5))
-        # spectrum.y_range = Range1d(
-        #     min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
 
     #################################
     # ADS data ######################
@@ -1447,30 +1526,33 @@ def event(event_id):
             scaled_spectrum = spectra_df.loc[spectra_df['time'] == float(
                 epochs[i])]
             if np.array(scaled_spectrum['flux'])[-1] < 5000:
-                scaled_spectrum['scaled_flux'] = np.array(scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[0]
+                scaled_spectrum['scaled_flux'] = np.array(
+                    scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[0]
             elif np.array(scaled_spectrum['flux'])[0] > 5000:
-                scaled_spectrum['scaled_flux'] = np.array(scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[-1]
+                scaled_spectrum['scaled_flux'] = np.array(
+                    scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[-1]
             else:
                 scaled_spectrum['scaled_flux'] = scaled_spectrum['flux']/(interp1d(
-            scaled_spectrum['rest_wavelength'], scaled_spectrum['flux']))(np.array([5000]))
+                    scaled_spectrum['rest_wavelength'], scaled_spectrum['flux']))(np.array([5000]))
             # Perform scaling of the spectrum
-            
-            
 
             # Create a CDS
             spectra_cds = ColumnDataSource(scaled_spectrum)
 
             tooltips = [
-                ('Rest wavelength', '@obs_wavelength{0}'),
+                ('Rest wavelength', '@rest_wavelength{0}'),
+                ('Obs. wavelength', '@obs_wavelength{0}'),
                 ('Flux', '@scaled_flux'),
+                ('Unit', '@flux_unit'),
                 ('Instrument', '@instrument'),
                 ('Time [days]', '@time'),
                 ('Source', '@indices'),
             ]
 
-            spectrum.line('rest_wavelength', 'scaled_flux', source=spectra_cds,
-                          legend_label=str(np.round(float(epochs[i]), 2))+' days', color=colour[i], muted_color='gray', muted_alpha=0.1, line_width=2)
-
+            c = spectrum.line('rest_wavelength', 'scaled_flux', source=spectra_cds,
+                              color=colour[i], muted_color='gray', muted_alpha=0.1, line_width=2)
+            legend_it.append(
+                (str(np.round(float(epochs[i]), 2))+' days  ', [c]))
     else:
         # Notify when there is no data present
 
@@ -1479,15 +1561,12 @@ def event(event_id):
         spectrum.y_range = Range1d(0, 1)
 
         citation = Label(x=6100, y=0.405, x_units='data', y_units='data',
-                         text=processing_tag(event_id, 'Optical Spectra'), render_mode='css', text_font_size='80pt',
+                         text=processing_tag(event_id, 'Optical Spectra'), render_mode='css', text_font_size='50pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         spectrum.add_layout(citation)
 
     # Add the HoverTool to the figure
     spectrum.add_tools(HoverTool(tooltips=tooltips))
-
-    # Allow user to mute spectra by clicking the legend
-    spectrum.legend.click_policy = "mute"
 
     # Aesthetics
     # Title
@@ -1528,7 +1607,30 @@ def event(event_id):
     spectrum.background_fill_color = 'white'
     spectrum.border_fill_color = 'white'
 
-    script, div = components(layout([xray, optical, radio], [spectrum]))
+    # Sort the legends by time
+    epochs = []
+    for legend in legend_it:
+        epochs.append(float(legend[0][:-7]))
+    sort_index = np.argsort(epochs)
+    legend_it = [legend_it[i] for i in sort_index]
+    # Allow user to mute individual spectra by clicking the legend
+    num = 35
+    for i in range(math.ceil(len(legend_it)/num)):
+        if i+1 < len(legend_it)/num:
+            legend2 = Legend(items=legend_it[i*num:i*num+num])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            spectrum.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+        else:
+            legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            spectrum.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+
+    script, div = components(
+        layout([radio], [optical], [xray], [spectrum], sizing_mode='scale_both'))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
