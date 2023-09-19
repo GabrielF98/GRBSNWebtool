@@ -1,0 +1,75 @@
+
+
+# keys in GRB-SNe tables
+PeakTimesMags:
+  grb_id: 101A
+  sn_name: 101B
+  time: 
+  dtime: 
+  reltime: 
+  mag: 
+  dmag: 
+  delmag15: 
+  ddelmag15:
+  absmag: 
+  dabsmag: 
+  band: 
+  unit: 
+  source: 
+
+SQLDataGRBSNe:
+  GRB:
+  SNe:
+  e_iso:
+  d_neg_e_iso:
+  d_pos_e_iso:
+  ni_m :
+  d_neg_ni_m:
+  d_pos_ni_m :
+  ej_m :
+  d_neg_ej_m :
+  d_pos_ej_m :
+  E_p:
+  dE_p :
+  e_k:
+  d_neg_e_k:
+  d_pos_e_k:
+  open_deg :
+  d_open_deg :
+  v_Fe_expansion :
+  dv_Fe_expansion:
+  v_Si_expansion :
+  dv_Si_expansion:
+  v_photospheric :
+  d_neg_v_photospheric :
+  d_pos_v_photospheric:
+  z:
+  dz :
+  T90:
+  dT90 :
+  log_e_gam:
+  dlog_e_gam :
+  log_e_radio:
+  d_log_e_radio:
+  t_peak :
+  dt_peak:
+  n:
+  p:
+  dp :
+  PrimarySources :
+  SecondarySources :
+  Notes:
+  Data:
+
+TrigCoords:
+  grb_id:
+  sn_name :
+  trigtime:
+  ra:
+  ra_decimal:
+  dec :
+  dec_decimal :
+  ra_deci_err :
+  dec_deci_err:
+  source:
+  satellite:
