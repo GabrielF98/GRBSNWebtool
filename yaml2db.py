@@ -45,7 +45,7 @@ def build_query(table_name, yaml_dict):
     return sql, values
 
 
-def dict2db(dict):
+def dict2db(yaml_db_info):
     '''
     Create a connection to the DB.
 
@@ -54,13 +54,16 @@ def dict2db(dict):
     conn = get_db_connection()
 
     # INSERT for the SQLDataGRBSNe table.
+    sql, values = build_query('SQLDataGRBSNe', yaml_db_info)
+    conn.execute(sql, values)
+    conn.commit()
+
+    # INSERT for the PeakMagsTimes table.
     sql, values = build_query('PeakTimesMags', yaml_db_info)
     conn.execute(sql, values)
     conn.commit()
-    # INSERT for the PeakMagsTimes table.
 
     # INSERT for the TrigCoords table.
-
-
-yaml_db_info = _load_yaml_config('database_entry.yaml')
-dict2db(yaml_db_info)
+    sql, values = build_query('TrigCoords', yaml_db_info)
+    conn.execute(sql, values)
+    conn.commit()

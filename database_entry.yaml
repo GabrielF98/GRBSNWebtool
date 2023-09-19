@@ -2,8 +2,8 @@
 
 # keys in GRB-SNe tables
 PeakTimesMags:
-  grb_id: '101A'
-  sn_name: '101B'
+  grb_id:
+  sn_name:
   time: 
   dtime: 
   reltime: 
