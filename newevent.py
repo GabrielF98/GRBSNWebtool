@@ -2,15 +2,49 @@
 Create a new folder, OriginalFormats, filesources.csv and readme.txt file for a GRB-SN.
 '''
 
+import json
 import os
 
 import numpy as np
 import pandas as pd
+import requests
 
 from yaml2db import _load_yaml_config, dict2db
 
-# Find new GRB-SNe
-notion_events = pd.read_csv('Webtool/static/SourceData/tags.csv')
+# Find new GRB-SNe in Notion
+# Initialisation
+token = 'secret_NQONcPqFCcw0jzEHQ2gxcPyhzrIy0lizo5LLp0eWRvF'
+databaseID = "c1f1bfea218c40e2a1267b9e69618838"
+headers = {
+    "Authorization": "Bearer " + token,
+    "Content-Type": "application/json",
+    "Notion-Version": "2022-02-22"
+}
+
+
+def readDatabase(databaseID, headers):
+    readUrl = f"https://api.notion.com/v1/databases/{databaseID}/query"
+    res = requests.request("POST", readUrl, headers=headers)
+    data = res.json()
+    print(res.status_code)
+    # print(res.text)
+    bundle = data['results']
+    event_names = []
+    for page_list in bundle:
+        for page in page_list:
+            properties = page_list['properties']
+            name = properties['Name']
+            name = name['title'][0]['text']['content']
+            event_names.append(name)
+
+    # with open('./full-properties.json', 'w', encoding='utf8') as f:
+    #     json.dump(data, f, ensure_ascii=False)
+    # return data
+
+    return list(set(event_names))
+
+
+notion_events = readDatabase(databaseID, headers)
 
 # List all GRB-SN folders in source data.
 folders = []
@@ -19,12 +53,12 @@ for it in os.scandir(rootdir):
     if it.is_dir():
         folders.append(it.path.split('/')[-1])
 
-print(folders)
+# print(folders)
 
 # Check if any GRB-SN have not yet been created.
-for event in notion_events['Name']:
+for event in notion_events:
     if event not in folders:
-        print(f'{event} is missing.')
+        # print(f'{event} is missing.')
 
         # Create the folder
         cwd = os.getcwd()
