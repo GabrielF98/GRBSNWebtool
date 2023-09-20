@@ -2,6 +2,7 @@
 Reads a YAML file containing data about a GRB-SN event. Creates an SQL statement and logs that data in the database.
 '''
 
+import argparse
 import sqlite3
 
 import yaml
@@ -67,3 +68,12 @@ def dict2db(yaml_db_info):
     sql, values = build_query('TrigCoords', yaml_db_info)
     conn.execute(sql, values)
     conn.commit()
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(
+        description='Pass the location of the yaml file.')
+    parser.add_argument('--file', type=str, required=False)
+    args = parser.parse_args()
+    yaml_db_info = _load_yaml_config(args.file+'/data.yaml')
+    dict2db(yaml_db_info)
