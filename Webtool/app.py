@@ -24,7 +24,7 @@ from flask import (Blueprint, Flask, Response, abort, current_app, flash,
                    make_response, redirect, render_template, request,
                    send_file, url_for)
 # API
-from flask_restx import Api, Resource
+from flask_restx import Api, Resource, reqparse
 # Search bars
 from flask_wtf import FlaskForm
 # Matplotlib
@@ -299,23 +299,30 @@ def grb_names():
 def page_not_found():
     return render_template('404.html', title='404'), 404
 
+
 # API page
+parser = reqparse.RequestParser()
+parser.add_argument('event', type=str,
+                    help='You need to provide the name of a GRB-SN.', location='args')
 
 
-@api.route('/download/<directory_list>')
+@api.route('/get-event')
 class Downloads(Resource):
-    def get(self, directory_list):
-        # Convert the string to a list
-        directory_list = ast.literal_eval(directory_list)
+    api.doc(parser=parser)
 
+    # @api.representation('application/octet-stream')
+    def get(self):
+        args = parser.parse_args()
+        folder = args['event']
+        print(folder)
         filestream = io.BytesIO()
         with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
-            for folder in directory_list:
-                for file in os.listdir(current_app.root_path+'/static/SourceData/'+folder+'/'):
-                    zipf.write(current_app.root_path+'/static/SourceData/' +
-                               folder+'/'+file, folder+'/'+file)
+            for file in os.listdir(current_app.root_path+'/static/SourceData/'+folder+'/'):
+                zipf.write(current_app.root_path+'/static/SourceData/' +
+                           folder+'/'+file, folder+'/'+file)
         filestream.seek(0)
-        return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
+        return send_file(filestream, download_name='Observations.zip',
+                         as_attachment=True)
 
 
 @api.route('/filteredbyredshift/max_redshift_<max_redshift>+min_redshift_<min_redshift>')
