@@ -1,0 +1,51 @@
+time	integration	flux_density	flux_density_limit	dflux_density	time_unit	time_frame	instrument	integration_unit	flux_density_unit	freq	freq_unit	dtime	reference	bandwidth	bandwidth_unit
+1.35	4.0	2.26	0	0.13	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+2.37	3.5	2.52	0	0.14	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+3.31	4.0	2.48	0	0.14	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+4.31	4.0	2.08	0	0.13	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+5.31	4.0	2.07	0	0.14	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+8.33	3.0	1.11	0	0.13	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+12.27	4.0	0.69	0	0.07	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+13.27	4.0	0.52	0	0.12	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+14.27	4.0	0.7	0	0.09	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+19.37	3.0	0.37	0	0.07	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+20.3	4.0	0.36	0	0.08	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+22.36	3.0	0.43	0	0.1	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+26.25	4.0	0.21	0	0.05	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+27.8	8.0	0.37	0	0.07	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+29.24	4.0	0.25	0	0.07	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+30.66	8.0	0.23	0	0.08	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+33.42	8.0	0.23	0	0.05	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+38.24	4.0	0.19	0	0.05	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+46.21	4.0	0.17	0	0.04	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+60.66	11.0	0.13	0	0.06	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+86.15	4.0	0.09	1	NaN	days	observer	AMI-LA	hours	milliJy	15.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	NaN	NaN
+2.57	NaN	369.0	0	21.0	days	observer	VLA	NaN	microJy beam^-1	4.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+2.57	NaN	510.0	0	21.0	days	observer	VLA	NaN	microJy beam^-1	5.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+2.57	NaN	719.0	0	26.0	days	observer	VLA	NaN	microJy beam^-1	6.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+2.57	NaN	936.0	0	33.0	days	observer	VLA	NaN	microJy beam^-1	7.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+2.56	NaN	1204.0	0	40.0	days	observer	VLA	NaN	microJy beam^-1	8.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+2.56	NaN	1580.0	0	54.0	days	observer	VLA	NaN	microJy beam^-1	9.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+2.56	NaN	1858.0	0	64.0	days	observer	VLA	NaN	microJy beam^-1	10.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+2.56	NaN	2009.0	0	71.0	days	observer	VLA	NaN	microJy beam^-1	11.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+9.66	NaN	929.0	0	42.0	days	observer	VLA	NaN	microJy beam^-1	4.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+9.66	NaN	978.0	0	33.0	days	observer	VLA	NaN	microJy beam^-1	5.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+9.66	NaN	1025.0	0	35.0	days	observer	VLA	NaN	microJy beam^-1	6.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+9.66	NaN	1090.0	0	35.0	days	observer	VLA	NaN	microJy beam^-1	7.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+9.67	NaN	1147.0	0	37.0	days	observer	VLA	NaN	microJy beam^-1	8.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+9.67	NaN	1161.0	0	38.0	days	observer	VLA	NaN	microJy beam^-1	9.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+9.67	NaN	1140.0	0	38.0	days	observer	VLA	NaN	microJy beam^-1	10.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+9.67	NaN	1187.0	0	41.0	days	observer	VLA	NaN	microJy beam^-1	11.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+9.64	NaN	1034.0	0	60.0	days	observer	VLA	NaN	microJy beam^-1	19.1	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	2.0	GHz
+9.64	NaN	930.0	0	55.0	days	observer	VLA	NaN	microJy beam^-1	21.1	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	2.0	GHz
+9.64	NaN	822.0	0	51.0	days	observer	VLA	NaN	microJy beam^-1	23.0	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	2.0	GHz
+9.64	NaN	829.0	0	55.0	days	observer	VLA	NaN	microJy beam^-1	25.1	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	2.0	GHz
+28.59	NaN	367.0	0	20.0	days	observer	VLA	NaN	microJy beam^-1	4.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+28.59	NaN	393.0	0	18.0	days	observer	VLA	NaN	microJy beam^-1	5.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+28.59	NaN	405.0	0	17.0	days	observer	VLA	NaN	microJy beam^-1	6.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+28.59	NaN	386.0	0	17.0	days	observer	VLA	NaN	microJy beam^-1	7.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+28.6	NaN	341.0	0	16.0	days	observer	VLA	NaN	microJy beam^-1	8.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+28.6	NaN	345.0	0	17.0	days	observer	VLA	NaN	microJy beam^-1	9.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+28.6	NaN	306.0	0	15.0	days	observer	VLA	NaN	microJy beam^-1	10.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+28.6	NaN	303.0	0	20.0	days	observer	VLA	NaN	microJy beam^-1	11.5	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	1.0	GHz
+28.57	NaN	141.0	0	29.0	days	observer	VLA	NaN	microJy beam^-1	20.0	GHz	NaN	https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract	4.0	GHz

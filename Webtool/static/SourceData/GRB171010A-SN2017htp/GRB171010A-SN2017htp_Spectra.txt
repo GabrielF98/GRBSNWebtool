@@ -1,292 +1,292 @@
-date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit
-2017-11-01.25	3389.7850	5.2193382e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	3449.8020	2.1586818e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	3509.8200	2.5582138e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	3569.8370	-1.2221972e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	3629.8550	4.4330238e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	3689.8720	-1.0997382e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	3749.8900	-3.4767817e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	3809.9070	-2.9982442e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	3869.9250	-3.4044222e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	3929.9420	-1.1470622e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	3989.9600	-3.0331202e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4049.9780	-2.4819322e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4109.9950	-1.8685032e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4170.0130	-3.1384612e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4230.0310	-1.0728382e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4290.0490	2.0327778e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4350.0660	-8.3241146e-21	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4410.0840	-6.5529715e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4470.1020	1.2031839e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4530.1200	-1.9761712e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4590.1380	1.1485239e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4650.1550	1.2231579e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4710.1730	1.4006359e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4770.1910	3.4575879e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4830.2090	5.7386599e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4890.2270	3.9335979e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	4950.2450	7.5715378e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5010.2630	7.3594719e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5070.2810	6.5677579e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5130.2990	8.9923678e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5190.3170	7.1560958e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5250.3350	7.4419658e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5310.3530	6.2769178e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5369.9700	8.6058998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5429.9880	9.9770558e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5490.0060	8.6931918e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5550.0240	6.0559078e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5610.0420	1.0494474e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5670.0610	8.0469038e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5730.0790	9.2464898e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5790.0970	6.1754718e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5850.1150	6.9387578e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5910.1330	9.4642698e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	5970.1510	1.0382408e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6030.1690	1.2501744e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6090.1870	1.0373852e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6150.2050	1.0145194e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6210.2230	1.0734564e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6270.2410	9.1421978e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6330.2590	8.8970618e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6390.2780	1.0709476e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6450.2960	8.5767658e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6510.3140	1.1515856e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6570.3320	1.0601420e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6630.3500	1.2993454e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6690.3680	1.1198990e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6750.3860	1.2114512e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6810.4040	1.1693934e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6870.4220	1.2163006e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6930.4410	1.3100148e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	6990.4590	1.4456008e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7050.4770	1.3769340e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7110.4950	1.4655794e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7170.5130	1.3417890e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7230.5310	1.3143724e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7290.5500	9.8756439e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7350.5680	1.2177910e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7410.5860	1.2490224e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7470.6040	1.1095930e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7530.6220	9.7930659e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7590.6400	8.8485779e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7650.6580	8.9454919e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7710.6770	1.1614942e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7770.6950	1.1955100e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7830.7130	1.0923074e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7890.7310	1.0397884e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	7950.7490	8.4739319e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8010.7670	9.1950419e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8070.7860	9.0000739e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8130.8040	9.4204439e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8190.8220	8.8525619e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8250.8400	9.3783459e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8310.8590	1.0445172e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8370.8770	9.8442299e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8430.8950	1.0856998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8490.9130	1.0758470e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8550.9310	9.5585179e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8610.9490	9.6354019e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8670.9680	9.2275379e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8730.9860	1.1033928e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8791.0040	9.7193039e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8851.0220	9.2561859e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8911.0410	9.4511919e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	8971.0590	7.0777979e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9031.0770	9.0205159e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9091.0950	8.4031879e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9151.1130	8.7044379e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9211.1320	9.1107859e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9271.1500	8.6989439e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9331.1680	6.9912339e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9391.1860	7.7322399e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9451.2050	7.6308399e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9511.2230	6.7961659e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9571.2410	7.6399659e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9631.2600	6.6363679e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9691.2780	6.4542179e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9751.2960	5.5725119e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	9954.3600	7.3469419e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10014.380	3.9427096e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10074.400	1.4450734e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10134.420	1.5337474e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10194.430	5.2355259e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10254.450	4.7728619e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10314.470	2.0066379e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10374.490	4.0833139e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10434.510	5.4583619e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10494.520	1.9902209e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10554.540	2.2794449e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10614.560	5.2530419e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10674.580	7.0194079e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10734.600	3.9626319e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10794.620	3.8179579e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10854.630	4.4573979e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10914.650	5.2626139e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	10974.670	2.5937359e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11034.690	4.1393639e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11094.710	2.3670839e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11154.730	5.4581579e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11214.740	4.1203279e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11274.760	3.4820959e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11334.780	3.3983979e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11394.800	5.4709759e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11454.820	2.4133559e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11514.840	1.6401999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11574.850	3.2901669e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11634.870	4.8115279e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11694.890	5.2412999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11754.910	5.0808999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11814.930	4.6109239e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11874.950	5.7229039e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11934.960	3.6086679e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	11994.980	3.3639479e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12055.000	6.3141059e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12115.020	4.2670679e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12175.040	3.9122599e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12235.060	4.3980879e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12295.070	3.9539719e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12355.090	4.7082899e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12415.110	5.1176759e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12475.130	6.4833599e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12535.150	5.8791719e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12595.160	5.6930899e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12655.180	1.6363209e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12715.200	3.1508849e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12775.220	1.6106429e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12835.240	2.6366469e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12895.260	2.1809909e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	12955.270	5.9299119e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13015.290	4.6325139e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13075.310	5.6430839e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13135.330	4.1337829e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13195.350	1.8953849e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13255.370	3.3863729e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13315.380	8.9820093e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13375.400	1.7900509e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13435.420	1.9369259e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13495.440	1.7448649e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13555.460	-1.9648943e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13615.480	1.6999108e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13675.490	2.0615338e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13735.510	1.8450716e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13795.530	1.2853292e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13855.550	-1.0823001e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13915.570	1.0180390e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	13975.590	1.1681756e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14035.600	1.9482658e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14095.620	1.5925430e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14155.640	1.2080260e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14215.660	2.4420880e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14275.680	1.7062139e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14335.700	7.4178495e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14395.710	2.0224139e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14455.730	3.5375159e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14515.750	3.2381019e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14575.770	3.2046599e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14635.790	1.8944289e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14695.810	2.8276889e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14755.820	3.2833229e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14815.840	3.5479989e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14875.860	2.0610639e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14935.880	2.1553319e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	14995.900	1.2580409e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15055.920	1.4159599e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15115.930	3.0475469e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15175.950	3.4121679e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15235.970	3.0812509e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15295.990	3.8815669e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15356.010	2.5051329e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15416.030	2.2453029e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15476.040	3.4975379e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15536.060	2.5623879e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15596.080	3.2095119e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15656.100	3.4975379e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15716.120	2.4608279e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15776.140	2.9889929e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15836.150	2.1617369e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15896.170	1.4088359e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	15956.190	2.6922829e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16016.210	1.8350689e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16076.230	1.5315639e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16136.250	2.0032199e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16196.260	2.9117409e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16256.280	1.7428819e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16316.300	2.7794579e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16376.320	2.0045919e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16436.340	1.2497499e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16496.350	1.5696489e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16556.370	1.5176069e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16616.390	1.7792639e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16676.410	2.0001349e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16736.430	1.2215989e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16796.450	1.4065289e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16856.470	2.3931509e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16916.480	1.9797179e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	16976.500	1.5391389e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17036.520	2.3670039e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17096.540	4.6539893e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17156.560	8.2976093e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17216.580	1.6543409e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17276.590	6.4533593e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17336.610	6.7097994e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17396.630	8.0499693e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17456.650	9.6177094e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17516.670	6.7659893e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17576.690	4.8849094e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17636.700	1.8305249e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17696.720	1.6791189e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17756.740	9.1244994e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17816.760	7.4125894e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17876.780	1.4452620e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17936.790	1.0380910e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	17996.810	1.0165160e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18056.830	3.9565595e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18116.850	8.2233396e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18176.870	4.1735177e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18236.890	1.1710162e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18296.900	2.9737878e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18356.920	2.2374229e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18416.940	2.7596919e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18476.960	2.8577859e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18536.980	6.2722999e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18597.000	8.8192659e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18657.010	-2.8056841e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18717.030	-6.3379130e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18777.050	8.8110718e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18837.070	5.6548198e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18897.090	1.2219482e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	18957.110	3.1921398e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19017.120	1.1842064e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19077.140	1.0167748e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19137.160	-4.1089921e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19197.180	-4.4948562e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19257.200	6.0929278e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19317.220	4.4368638e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19377.230	8.3391497e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19437.250	1.8432737e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19497.270	7.9571997e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19557.290	-7.7805462e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19617.310	1.2348228e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19677.330	1.5964176e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19737.340	1.0945930e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19797.360	6.4868896e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19857.380	1.3185780e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19917.400	7.0123195e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	19977.420	1.2092100e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20037.440	1.2950800e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20097.450	7.4076618e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20157.470	1.3782664e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20217.490	1.8524130e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20277.510	9.0419295e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20337.530	1.2269450e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20397.550	1.6113010e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20457.560	1.9618140e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20517.580	1.1023770e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20577.600	3.1407976e-21	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20637.620	1.6520838e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20697.640	-1.1678422e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20757.660	6.1906799e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20817.670	-6.1803461e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20877.690	1.3601817e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
-2017-11-01.25	20937.710	1.3286943e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated
+date	obs_wavelength	flux	redshift	instrument	date_unit	wavelength_unit	flux_unit	time	time_unit	time_frame	dtime	rest_wavelength
+2017-11-01.25	3389.785	5.2193382e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2548.710526315789
+2017-11-01.25	3449.802	2.1586817999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2593.836090225564
+2017-11-01.25	3509.82	2.5582137999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2638.9624060150377
+2017-11-01.25	3569.837	-1.2221972e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2684.0879699248117
+2017-11-01.25	3629.855	4.4330238e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2729.214285714286
+2017-11-01.25	3689.872	-1.0997382e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2774.3398496240598
+2017-11-01.25	3749.89	-3.4767817e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2819.4661654135334
+2017-11-01.25	3809.907	-2.9982442e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2864.5917293233083
+2017-11-01.25	3869.925	-3.4044221999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2909.718045112782
+2017-11-01.25	3929.942	-1.1470621999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2954.8436090225564
+2017-11-01.25	3989.96	-3.0331202e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	2999.96992481203
+2017-11-01.25	4049.978	-2.4819322e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3045.0962406015037
+2017-11-01.25	4109.995	-1.8685032e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3090.221804511278
+2017-11-01.25	4170.013	-3.1384612e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3135.348120300752
+2017-11-01.25	4230.031	-1.0728381999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3180.4744360902255
+2017-11-01.25	4290.049	2.0327777999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3225.600751879699
+2017-11-01.25	4350.066	-8.324114600000001e-21	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3270.7263157894736
+2017-11-01.25	4410.084	-6.5529715e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3315.8526315789472
+2017-11-01.25	4470.102	1.2031839e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3360.978947368421
+2017-11-01.25	4530.12	-1.9761712e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3406.1052631578946
+2017-11-01.25	4590.138	1.1485239e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3451.2315789473682
+2017-11-01.25	4650.155	1.2231579e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3496.3571428571427
+2017-11-01.25	4710.173	1.4006359e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3541.4834586466163
+2017-11-01.25	4770.191	3.4575878999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3586.60977443609
+2017-11-01.25	4830.209	5.738659899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3631.7360902255637
+2017-11-01.25	4890.227	3.9335979e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3676.8624060150373
+2017-11-01.25	4950.245	7.5715378e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3721.988721804511
+2017-11-01.25	5010.263	7.359471899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3767.1150375939847
+2017-11-01.25	5070.281	6.5677579e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3812.2413533834583
+2017-11-01.25	5130.299	8.9923678e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3857.367669172932
+2017-11-01.25	5190.317	7.156095799999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3902.4939849624056
+2017-11-01.25	5250.335	7.4419658e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3947.6203007518793
+2017-11-01.25	5310.353	6.2769178e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	3992.7466165413534
+2017-11-01.25	5369.97	8.6058998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4037.5714285714284
+2017-11-01.25	5429.988	9.9770558e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4082.697744360902
+2017-11-01.25	5490.006	8.6931918e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4127.824060150376
+2017-11-01.25	5550.024	6.0559078e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4172.950375939849
+2017-11-01.25	5610.042	1.0494473999999999e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4218.076691729323
+2017-11-01.25	5670.061	8.0469038e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4263.203759398496
+2017-11-01.25	5730.079	9.246489799999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4308.33007518797
+2017-11-01.25	5790.097	6.1754718e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4353.456390977443
+2017-11-01.25	5850.115	6.9387578e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4398.582706766917
+2017-11-01.25	5910.133	9.4642698e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4443.709022556391
+2017-11-01.25	5970.151	1.0382408e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4488.835338345864
+2017-11-01.25	6030.169	1.2501743999999998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4533.961654135338
+2017-11-01.25	6090.187	1.0373851999999998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4579.087969924812
+2017-11-01.25	6150.205	1.0145194e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4624.214285714285
+2017-11-01.25	6210.223	1.0734564e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4669.340601503759
+2017-11-01.25	6270.241	9.1421978e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4714.466917293233
+2017-11-01.25	6330.259	8.8970618e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4759.593233082706
+2017-11-01.25	6390.278	1.0709476e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4804.720300751879
+2017-11-01.25	6450.296	8.576765799999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4849.846616541353
+2017-11-01.25	6510.314	1.1515855999999999e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4894.9729323308275
+2017-11-01.25	6570.332	1.060142e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4940.099248120301
+2017-11-01.25	6630.35	1.2993453999999998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	4985.225563909775
+2017-11-01.25	6690.368	1.1198989999999998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5030.3518796992485
+2017-11-01.25	6750.386	1.2114512e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5075.478195488722
+2017-11-01.25	6810.404	1.1693934e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5120.604511278196
+2017-11-01.25	6870.422	1.2163005999999998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5165.7308270676685
+2017-11-01.25	6930.441	1.3100147999999999e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5210.857894736841
+2017-11-01.25	6990.459	1.4456007999999999e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5255.984210526315
+2017-11-01.25	7050.477	1.376934e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5301.110526315789
+2017-11-01.25	7110.495	1.4655793999999999e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5346.236842105262
+2017-11-01.25	7170.513	1.3417889999999998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5391.363157894736
+2017-11-01.25	7230.531	1.3143723999999998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5436.48947368421
+2017-11-01.25	7290.55	9.8756439e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5481.616541353384
+2017-11-01.25	7350.568	1.217791e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5526.742857142857
+2017-11-01.25	7410.586	1.2490223999999998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5571.869172932331
+2017-11-01.25	7470.604	1.1095929999999998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5616.995488721805
+2017-11-01.25	7530.622	9.7930659e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5662.121804511278
+2017-11-01.25	7590.64	8.8485779e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5707.248120300752
+2017-11-01.25	7650.658	8.945491899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5752.374436090226
+2017-11-01.25	7710.677	1.1614941999999998e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5797.501503759398
+2017-11-01.25	7770.695	1.19551e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5842.627819548871
+2017-11-01.25	7830.713	1.0923074e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5887.754135338346
+2017-11-01.25	7890.731	1.0397883999999999e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5932.8804511278195
+2017-11-01.25	7950.749	8.473931899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	5978.006766917293
+2017-11-01.25	8010.767	9.1950419e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6023.133082706767
+2017-11-01.25	8070.786	9.0000739e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6068.26015037594
+2017-11-01.25	8130.804	9.4204439e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6113.386466165413
+2017-11-01.25	8190.822	8.8525619e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6158.512781954887
+2017-11-01.25	8250.84	9.3783459e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6203.639097744361
+2017-11-01.25	8310.859	1.0445172e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6248.766165413534
+2017-11-01.25	8370.877	9.8442299e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6293.892481203007
+2017-11-01.25	8430.895	1.0856997999999999e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6339.018796992481
+2017-11-01.25	8490.913	1.075847e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6384.145112781955
+2017-11-01.25	8550.931	9.5585179e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6429.271428571428
+2017-11-01.25	8610.949	9.6354019e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6474.397744360902
+2017-11-01.25	8670.968	9.2275379e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6519.524812030076
+2017-11-01.25	8730.986	1.1033928e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6564.651127819549
+2017-11-01.25	8791.004	9.7193039e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6609.777443609023
+2017-11-01.25	8851.022	9.256185899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6654.903759398497
+2017-11-01.25	8911.041	9.4511919e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6700.030827067668
+2017-11-01.25	8971.059	7.0777979e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6745.157142857142
+2017-11-01.25	9031.077	9.0205159e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6790.283458646616
+2017-11-01.25	9091.095	8.4031879e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6835.40977443609
+2017-11-01.25	9151.113	8.7044379e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6880.536090225563
+2017-11-01.25	9211.132	9.1107859e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6925.663157894736
+2017-11-01.25	9271.15	8.6989439e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	6970.78947368421
+2017-11-01.25	9331.168	6.9912339e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7015.915789473684
+2017-11-01.25	9391.186	7.7322399e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7061.042105263157
+2017-11-01.25	9451.205	7.630839899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7106.16917293233
+2017-11-01.25	9511.223	6.7961659e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7151.295488721804
+2017-11-01.25	9571.241	7.6399659e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7196.4218045112775
+2017-11-01.25	9631.26	6.6363679e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7241.548872180451
+2017-11-01.25	9691.278	6.4542179e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7286.675187969925
+2017-11-01.25	9751.296	5.572511899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7331.801503759399
+2017-11-01.25	9954.36	7.346941899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7484.481203007519
+2017-11-01.25	10014.38	3.9427095999999995e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7529.60902255639
+2017-11-01.25	10074.4	1.4450734e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7574.736842105262
+2017-11-01.25	10134.42	1.5337473999999999e-18	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7619.864661654135
+2017-11-01.25	10194.43	5.2355259e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7664.984962406015
+2017-11-01.25	10254.45	4.772861899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7710.112781954887
+2017-11-01.25	10314.47	2.0066378999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7755.240601503759
+2017-11-01.25	10374.49	4.0833139e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7800.368421052631
+2017-11-01.25	10434.51	5.458361899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7845.496240601504
+2017-11-01.25	10494.52	1.9902208999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7890.616541353384
+2017-11-01.25	10554.54	2.2794448999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7935.744360902256
+2017-11-01.25	10614.56	5.2530419e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	7980.872180451127
+2017-11-01.25	10674.58	7.0194079e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8025.999999999999
+2017-11-01.25	10734.6	3.9626319e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8071.127819548872
+2017-11-01.25	10794.62	3.8179579e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8116.255639097744
+2017-11-01.25	10854.63	4.457397899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8161.375939849623
+2017-11-01.25	10914.65	5.2626138999999995e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8206.503759398496
+2017-11-01.25	10974.67	2.5937358999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8251.631578947368
+2017-11-01.25	11034.69	4.1393639e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8296.75939849624
+2017-11-01.25	11094.71	2.3670839e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8341.88721804511
+2017-11-01.25	11154.73	5.4581579e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8387.015037593985
+2017-11-01.25	11214.74	4.1203279e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8432.135338345865
+2017-11-01.25	11274.76	3.4820959e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8477.263157894737
+2017-11-01.25	11334.78	3.3983979e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8522.390977443609
+2017-11-01.25	11394.8	5.4709759e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8567.518796992481
+2017-11-01.25	11454.82	2.4133558999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8612.646616541353
+2017-11-01.25	11514.84	1.6401998999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8657.774436090225
+2017-11-01.25	11574.85	3.2901669e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8702.894736842105
+2017-11-01.25	11634.87	4.8115279e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8748.022556390977
+2017-11-01.25	11694.89	5.2412999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8793.15037593985
+2017-11-01.25	11754.91	5.0808999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8838.278195488721
+2017-11-01.25	11814.93	4.6109239e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8883.406015037594
+2017-11-01.25	11874.95	5.722903899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8928.533834586466
+2017-11-01.25	11934.96	3.6086679e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	8973.654135338345
+2017-11-01.25	11994.98	3.3639479e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9018.781954887218
+2017-11-01.25	12055.0	6.3141059e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9063.90977443609
+2017-11-01.25	12115.02	4.2670678999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9109.037593984962
+2017-11-01.25	12175.04	3.9122598999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9154.165413533834
+2017-11-01.25	12235.06	4.3980879e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9199.293233082706
+2017-11-01.25	12295.07	3.9539719e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9244.413533834586
+2017-11-01.25	12355.09	4.708289899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9289.541353383458
+2017-11-01.25	12415.11	5.1176759e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9334.66917293233
+2017-11-01.25	12475.13	6.4833599e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9379.796992481202
+2017-11-01.25	12535.15	5.879171899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9424.924812030074
+2017-11-01.25	12595.16	5.6930899e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9470.045112781954
+2017-11-01.25	12655.18	1.6363209e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9515.172932330826
+2017-11-01.25	12715.2	3.1508848999999996e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9560.300751879699
+2017-11-01.25	12775.22	1.6106428999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9605.42857142857
+2017-11-01.25	12835.24	2.6366468999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9650.556390977443
+2017-11-01.25	12895.26	2.1809908999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9695.684210526315
+2017-11-01.25	12955.27	5.9299119e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9740.804511278195
+2017-11-01.25	13015.29	4.6325138999999995e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9785.932330827069
+2017-11-01.25	13075.31	5.643083899999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9831.060150375939
+2017-11-01.25	13135.33	4.1337828999999996e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9876.187969924811
+2017-11-01.25	13195.35	1.8953848999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9921.315789473683
+2017-11-01.25	13255.37	3.3863728999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	9966.443609022557
+2017-11-01.25	13315.38	8.9820093e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10011.563909774435
+2017-11-01.25	13375.4	1.7900508999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10056.691729323307
+2017-11-01.25	13435.42	1.9369259e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10101.81954887218
+2017-11-01.25	13495.44	1.7448649e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10146.947368421052
+2017-11-01.25	13555.46	-1.9648943e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10192.075187969924
+2017-11-01.25	13615.48	1.6999107999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10237.203007518796
+2017-11-01.25	13675.49	2.0615338e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10282.323308270676
+2017-11-01.25	13735.51	1.8450716e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10327.451127819548
+2017-11-01.25	13795.53	1.2853291999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10372.578947368422
+2017-11-01.25	13855.55	-1.0823001e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10417.706766917292
+2017-11-01.25	13915.57	1.0180389999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10462.834586466164
+2017-11-01.25	13975.59	1.1681756e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10507.962406015036
+2017-11-01.25	14035.6	1.9482658e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10553.082706766918
+2017-11-01.25	14095.62	1.5925429999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10598.21052631579
+2017-11-01.25	14155.64	1.2080259999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10643.33834586466
+2017-11-01.25	14215.66	2.442088e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10688.466165413533
+2017-11-01.25	14275.68	1.7062139e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10733.593984962406
+2017-11-01.25	14335.7	7.4178495e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10778.721804511279
+2017-11-01.25	14395.71	2.0224139e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10823.842105263157
+2017-11-01.25	14455.73	3.5375159e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10868.969924812029
+2017-11-01.25	14515.75	3.2381018999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10914.0977443609
+2017-11-01.25	14575.77	3.2046599e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	10959.225563909775
+2017-11-01.25	14635.79	1.8944289e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11004.353383458647
+2017-11-01.25	14695.81	2.8276889e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11049.481203007517
+2017-11-01.25	14755.82	3.2833229e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11094.601503759397
+2017-11-01.25	14815.84	3.5479988999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11139.729323308271
+2017-11-01.25	14875.86	2.0610639e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11184.857142857143
+2017-11-01.25	14935.88	2.1553319e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11229.984962406013
+2017-11-01.25	14995.9	1.2580409e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11275.112781954886
+2017-11-01.25	15055.92	1.4159599e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11320.24060150376
+2017-11-01.25	15115.93	3.0475469e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11365.36090225564
+2017-11-01.25	15175.95	3.4121679e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11410.488721804511
+2017-11-01.25	15235.97	3.0812509e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11455.616541353382
+2017-11-01.25	15295.99	3.8815668999999996e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11500.744360902256
+2017-11-01.25	15356.01	2.5051329e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11545.872180451128
+2017-11-01.25	15416.03	2.2453029e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11591.0
+2017-11-01.25	15476.04	3.4975379e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11636.12030075188
+2017-11-01.25	15536.06	2.5623878999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11681.24812030075
+2017-11-01.25	15596.08	3.2095119e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11726.375939849624
+2017-11-01.25	15656.1	3.4975379e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11771.503759398496
+2017-11-01.25	15716.12	2.4608279e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11816.631578947368
+2017-11-01.25	15776.14	2.9889928999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11861.759398496239
+2017-11-01.25	15836.15	2.1617369e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11906.87969924812
+2017-11-01.25	15896.17	1.4088359e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11952.007518796992
+2017-11-01.25	15956.19	2.6922829e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	11997.135338345865
+2017-11-01.25	16016.21	1.8350689e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12042.263157894735
+2017-11-01.25	16076.23	1.5315639e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12087.390977443609
+2017-11-01.25	16136.25	2.0032199e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12132.518796992481
+2017-11-01.25	16196.26	2.9117408999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12177.63909774436
+2017-11-01.25	16256.28	1.7428819e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12222.766917293233
+2017-11-01.25	16316.3	2.7794578999999997e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12267.894736842103
+2017-11-01.25	16376.32	2.0045919e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12313.022556390977
+2017-11-01.25	16436.34	1.2497499e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12358.15037593985
+2017-11-01.25	16496.35	1.5696489e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12403.270676691727
+2017-11-01.25	16556.37	1.5176068999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12448.3984962406
+2017-11-01.25	16616.39	1.7792638999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12493.526315789473
+2017-11-01.25	16676.41	2.0001349e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12538.654135338345
+2017-11-01.25	16736.43	1.2215989e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12583.781954887218
+2017-11-01.25	16796.45	1.4065289e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12628.90977443609
+2017-11-01.25	16856.47	2.3931509e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12674.037593984962
+2017-11-01.25	16916.48	1.9797178999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12719.157894736842
+2017-11-01.25	16976.5	1.5391389e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12764.285714285714
+2017-11-01.25	17036.52	2.3670039e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12809.413533834586
+2017-11-01.25	17096.54	4.6539893e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12854.541353383458
+2017-11-01.25	17156.56	8.2976093e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12899.669172932332
+2017-11-01.25	17216.58	1.6543408999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12944.796992481204
+2017-11-01.25	17276.59	6.4533593e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	12989.917293233082
+2017-11-01.25	17336.61	6.7097994e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13035.045112781954
+2017-11-01.25	17396.63	8.0499693e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13080.172932330826
+2017-11-01.25	17456.65	9.6177094e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13125.3007518797
+2017-11-01.25	17516.67	6.7659893e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13170.428571428569
+2017-11-01.25	17576.69	4.8849094e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13215.556390977443
+2017-11-01.25	17636.7	1.8305248999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13260.676691729323
+2017-11-01.25	17696.72	1.6791189e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13305.804511278197
+2017-11-01.25	17756.74	9.1244994e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13350.932330827069
+2017-11-01.25	17816.76	7.4125894e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13396.060150375937
+2017-11-01.25	17876.78	1.4452619999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13441.187969924811
+2017-11-01.25	17936.79	1.038091e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13486.30827067669
+2017-11-01.25	17996.81	1.016516e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13531.436090225565
+2017-11-01.25	18056.83	3.9565595e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13576.563909774437
+2017-11-01.25	18116.85	8.2233396e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13621.691729323307
+2017-11-01.25	18176.87	4.1735177e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13666.81954887218
+2017-11-01.25	18236.89	1.1710162e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13711.947368421052
+2017-11-01.25	18296.9	2.9737878e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13757.067669172933
+2017-11-01.25	18356.92	2.2374229e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13802.195488721802
+2017-11-01.25	18416.94	2.7596919e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13847.323308270676
+2017-11-01.25	18476.96	2.8577859e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13892.451127819548
+2017-11-01.25	18536.98	6.2722999e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13937.57894736842
+2017-11-01.25	18597.0	8.8192659e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	13982.706766917292
+2017-11-01.25	18657.01	-2.8056841e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14027.827067669172
+2017-11-01.25	18717.03	-6.337913e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14072.954887218044
+2017-11-01.25	18777.05	8.8110718e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14118.082706766916
+2017-11-01.25	18837.07	5.6548198e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14163.210526315788
+2017-11-01.25	18897.09	1.2219482e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14208.33834586466
+2017-11-01.25	18957.11	3.1921398e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14253.466165413534
+2017-11-01.25	19017.12	1.1842064e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14298.586466165412
+2017-11-01.25	19077.14	1.0167748e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14343.714285714284
+2017-11-01.25	19137.16	-4.1089921e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14388.842105263157
+2017-11-01.25	19197.18	-4.4948562e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14433.969924812029
+2017-11-01.25	19257.2	6.0929278e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14479.097744360903
+2017-11-01.25	19317.22	4.4368638e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14524.225563909775
+2017-11-01.25	19377.23	8.3391497e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14569.345864661653
+2017-11-01.25	19437.25	1.8432737e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14614.473684210525
+2017-11-01.25	19497.27	7.9571997e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14659.601503759399
+2017-11-01.25	19557.29	-7.780546199999999e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14704.729323308271
+2017-11-01.25	19617.31	1.2348228e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14749.857142857143
+2017-11-01.25	19677.33	1.5964176e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14794.984962406015
+2017-11-01.25	19737.34	1.094593e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14840.105263157893
+2017-11-01.25	19797.36	6.4868896e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14885.233082706767
+2017-11-01.25	19857.38	1.3185779999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14930.36090225564
+2017-11-01.25	19917.4	7.0123195e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	14975.488721804511
+2017-11-01.25	19977.42	1.20921e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15020.616541353382
+2017-11-01.25	20037.44	1.2950799999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15065.744360902254
+2017-11-01.25	20097.45	7.4076618e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15110.864661654135
+2017-11-01.25	20157.47	1.3782664e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15155.992481203008
+2017-11-01.25	20217.49	1.8524129999999999e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15201.12030075188
+2017-11-01.25	20277.51	9.041929499999999e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15246.24812030075
+2017-11-01.25	20337.53	1.226945e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15291.375939849622
+2017-11-01.25	20397.55	1.6113009999999998e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15336.503759398494
+2017-11-01.25	20457.56	1.961814e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15381.624060150376
+2017-11-01.25	20517.58	1.102377e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15426.751879699248
+2017-11-01.25	20577.6	3.1407976e-21	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15471.879699248118
+2017-11-01.25	20637.62	1.6520838e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15517.00751879699
+2017-11-01.25	20697.64	-1.1678422e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15562.135338345863
+2017-11-01.25	20757.66	6.1906799e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15607.263157894737
+2017-11-01.25	20817.67	-6.1803461e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15652.383458646615
+2017-11-01.25	20877.69	1.3601817e-19	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15697.511278195487
+2017-11-01.25	20937.71	1.3286943e-20	0.328	VLT-UT2 X-Shooter STARGATE	yyyy-mm-deciday	angstroms	uncalibrated	21.45774796296296	days	observer	NaN	15742.639097744359

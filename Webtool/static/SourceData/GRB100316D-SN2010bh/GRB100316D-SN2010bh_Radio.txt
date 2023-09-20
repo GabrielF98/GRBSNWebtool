@@ -1,14 +1,15 @@
-Table 1 
-ATCA Observations of GRB 100316D/SN 2010bh
-
-
-Date	Time (Obs. Frame)	F_nu, 5.4	F_nu, 9.0	
-(UT)	(days)	(muJy)	(muJy)	
-2010 Mar 18.35	1.81	<78  	<120  	
-2010 Mar 27.10	10.57	<81  	<135  	
-2010 Apr 4.46	18.93	90 +or- 20	<63  	
-2010 Apr 15.40	29.87	128 +or- 19	81 +or- 26	
-2010 Apr 22.50	36.97	68 +or- 21	<72  	
-2010 May 25.40	69.87	50 +or- 16	<60  	
-2010 Sep 6.77	174.24	<42  	<60  	
-Note. Errors are 1sigma and upper limits are 3sigma.
+date	time	flux_density	flux_density_limit	dflux_density	freq	date_unit	time_unit	time_frame	flux_density_unit	instrument	dtime	freq_unit
+2010-Mar-18.35	1.81	78.0	1	NaN	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Mar-18.35	1.81	120.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Mar-27.10	10.57	81.0	1	NaN	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Mar-27.10	10.57	135.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-4.46	18.93	90.0	0	20.0	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-4.46	18.93	63.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-15.40	29.87	128.0	0	19.0	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-15.40	29.87	81.0	0	26.0	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-22.50	36.97	68.0	0	21.0	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Apr-22.50	36.97	72.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-May-25.40	69.87	50.0	0	16.0	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-May-25.40	69.87	60.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Sep-6.77	174.24	42.0	1	NaN	5.4	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
+2010-Sep-6.77	174.24	60.0	1	NaN	9.0	yyyy-month-deciday	days	observer	microJy	ATCA	NaN	GHz
