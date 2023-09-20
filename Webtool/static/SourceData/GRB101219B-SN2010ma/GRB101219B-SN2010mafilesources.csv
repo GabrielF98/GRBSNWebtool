@@ -1,5 +1,5 @@
 GRB/SN,Filename,Status,Reference
-GRB101219B-SN2010ma,GRB101219B-SN2010ma_NIR_Optical1.html,"Early, NIR, Optical",https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract
+GRB101219B-SN2010ma,GRB101219B-SN2010ma_NIR_Optical.txt,"Early, NIR, Optical",https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract
 GRB101219B-SN2010ma,GRB101219Bxrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/
 GRB101219B-SN2010ma,OpenSNSpectra2.json,Spectra,https://api.astrocats.space/SN2010ma/spectra/?item=2&format=json
 GRB101219B-SN2010ma,OpenSNSpectra3.json,Spectra,https://api.astrocats.space/SN2010ma/spectra/?item=3&format=json

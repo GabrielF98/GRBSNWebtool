@@ -1,16 +1,41 @@
 # Imports
-import sqlite3  # Database access
 import ast  # Convert strings to lists
 import glob  # Find the txt files with the right names
-import numpy as np
-import json  # Reading in data
-import pandas as pd  # Pandas
-import os  # Import os to find files in the event folders
-from os.path import exists  # Check if a file exists
-import zipfile  # Creating zipfiles for download
-from astropy.time import Time  # Converting MJD to UTC
 import io  # Downloadable zipfiles and for updateable plots
+import json  # Reading in data
+import math
+import os  # Import os to find files in the event folders
+import sqlite3  # Database access
+import zipfile  # Creating zipfiles for download
+from os.path import exists  # Check if a file exists
+
+import numpy as np
+import pandas as pd  # Pandas
+from astropy.time import Time  # Converting MJD to UTC
+from bokeh.embed import components
+from bokeh.layouts import layout
+# Pieces for Bokeh
+from bokeh.models import ColumnDataSource, HoverTool, Label, Legend, Range1d
+from bokeh.palettes import Category20_20, d3, viridis
+from bokeh.plotting import figure
+from bokeh.transform import factor_cmap, factor_mark
+# Basic flask stuff
+from flask import (Blueprint, Flask, Response, abort, current_app, flash,
+                   make_response, redirect, render_template, request,
+                   send_file, url_for)
+# API
+from flask_restx import Api, Resource
+# Search bars
+from flask_wtf import FlaskForm
+# Matplotlib
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+from matplotlib.figure import Figure
 from scipy.interpolate import interp1d
+# Errors for pages that dont exist
+from werkzeug.exceptions import abort
+# Forms
+from wtforms import StringField, SubmitField
+from wtforms.validators import Optional
 
 #################################
 #################################
@@ -18,19 +43,6 @@ from scipy.interpolate import interp1d
 #################################
 #################################
 
-# Basic flask stuff
-from flask import Flask, Blueprint, current_app, render_template, redirect, url_for, flash, send_file, make_response, Response, request, abort
-
-# Errors for pages that dont exist
-from werkzeug.exceptions import abort
-
-# Search bars
-from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField
-from wtforms.validators import Optional
-
-# API
-from flask_restx import Api, Resource
 
 #################################
 #################################
@@ -38,21 +50,6 @@ from flask_restx import Api, Resource
 #################################
 #################################
 
-# Pieces for Bokeh
-from bokeh.models import ColumnDataSource, HoverTool, Range1d, Label
-from bokeh.embed import components
-from bokeh.layouts import layout
-from bokeh.plotting import figure
-from bokeh.palettes import viridis, Category20_20, d3
-from bokeh.transform import factor_mark, factor_cmap
-
-
-# Matplotlib
-from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-from matplotlib.figure import Figure
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 
 # Create config.py file
 with open('instance/config.py', 'w') as f:
@@ -107,7 +104,7 @@ def get_post(event_id):
     # Removed the search for '_' since it was always true for some reason. It now works for SN and GRB alone and together.
     conn = get_db_connection()
     if 'GRB' in event_id:
-        # GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
+        # GRB202005A-SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         # This solves the GRBs with SNs and without
         grb_name = event_id.split('-')[0][3:]
 
@@ -126,7 +123,7 @@ def get_post(event_id):
             abort(404)
 
     # This should ideally solve the lone SN cases
-    elif 'SN' or 'AT' in event_id:
+    else:
         sn_name = event_id[2:]
 
         # The main db table with most of the info
@@ -162,17 +159,50 @@ def table_query(max_z, min_z, max_eiso, min_eiso):
 # Get a dictionary of grb-sn pairs for ease of use in some functions later
 
 
-def grb_sne_dict():
+def sne_grb_dict():
     conn = get_db_connection()
     data = conn.execute('SELECT GRB, SNe FROM SQLDataGRBSNe GROUP BY GRB')
-    grb_sne_dict = {}
+    sne_grb_dict = {}
     for i in data:
         if i['SNe'] != None:
-            grb_sne_dict[i['SNe']] = i['GRB']
+            sne_grb_dict[i['SNe']] = i['GRB']
+    return sne_grb_dict
+
+
+def grb_sne_dict():
+    conn = get_db_connection()
+    data = conn.execute('SELECT GRB, SNe FROM SQLDataGRBSNe GROUP BY SNe')
+    grb_sne_dict = {}
+    for i in data:
+        if i['GRB'] != None:
+            grb_sne_dict[i['GRB']] = i['SNe']
     return (grb_sne_dict)
 
 
 grb_sne = grb_sne_dict()
+sne_grb = sne_grb_dict()
+
+
+def event_id_maker(partial_event, grb_sne=grb_sne, sne_grb=sne_grb):
+    if 'GRB' in partial_event:
+        if grb_sne[partial_event[3:]] is not None:
+            event_id = partial_event+'-SN'+grb_sne[partial_event[3:]]
+        else:
+            event_id = partial_event
+    else:
+        if partial_event[:2] == 'SN':
+            if sne_grb[partial_event[2:]] is not None:
+                event_id = 'GRB'+sne_grb[partial_event[2:]]+'-'+partial_event
+            else:
+                event_id = partial_event
+        else:
+            if sne_grb[partial_event] is not None:
+                event_id = 'GRB'+sne_grb[partial_event]+'-'+partial_event
+            else:
+                event_id = partial_event
+
+    return event_id
+
 
 # Get all the GRB names
 
@@ -219,7 +249,6 @@ sne = sne_names()
 
 def processing_tag(event_id, band):
     df = pd.read_csv('static/SourceData/tags.csv')
-
     df2 = df[df['Name'] == event_id]
     tag = str(df2.iloc[0][band])
     if tag == 'Yes':
@@ -239,6 +268,31 @@ app.register_blueprint(blueprint)
 app.config.from_pyfile('config.py')
 
 
+@app.context_processor
+def grb_names():
+    conn = get_db_connection()
+    names = conn.execute('SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe')
+    grbs = []
+    for i in names:
+        if str(i[0]) != 'None' and str(i[1]) != 'None':
+            if str(i[1][:4]).isnumeric():
+                grbs.append('GRB'+str(i[0])+'-SN'+str(i[1]))
+            else:
+                grbs.append('GRB'+str(i[0])+'-'+str(i[1]))
+
+        elif str(i[1]) == 'None':
+            grbs.append('GRB'+str(i[0]))
+
+        elif str(i[0]) == 'None':
+            if str(i[1][:4]).isnumeric():
+                grbs.append('SN'+str(i[1]))
+            else:
+                grbs.append(str(i[1]))
+
+    length = len(grbs)
+    conn.close()
+
+    return {'grbs': grbs[::-1], 'number1': length}
 
 
 @app.errorhandler(404)
@@ -246,6 +300,8 @@ def page_not_found():
     return render_template('404.html', title='404'), 404
 
 # API page
+
+
 @api.route('/download/<directory_list>')
 class Downloads(Resource):
     def get(self, directory_list):
@@ -257,55 +313,57 @@ class Downloads(Resource):
             for folder in directory_list:
                 for file in os.listdir(current_app.root_path+'/static/SourceData/'+folder+'/'):
                     zipf.write(current_app.root_path+'/static/SourceData/' +
-                            folder+'/'+file, folder+'/'+file)
+                               folder+'/'+file, folder+'/'+file)
         filestream.seek(0)
         return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
-    
+
+
 @api.route('/filteredbyredshift/max_redshift_<max_redshift>+min_redshift_<min_redshift>')
 class Downloads2(Resource):
     def get(self, max_redshift, min_redshift):
 
         conn = get_db_connection()
 
-        names = conn.execute("SELECT DISTINCT GRB, SNe from SQLDataGRBSNe WHERE z>? AND z<?", (min_redshift, max_redshift,)).fetchall()
-        
+        names = conn.execute("SELECT DISTINCT GRB, SNe from SQLDataGRBSNe WHERE z>? AND z<?",
+                             (min_redshift, max_redshift,)).fetchall()
+
         directory_list = []
         for name in names:
             print(name[0])
             if name['GRB'] == None:
                 directory_list.append('SN'+name['SNe'])
-            
+
             elif name['SNe'] == None:
                 directory_list.append('GRB'+name['GRB'])
-            
-            
-            
+
             else:
                 if 'AT' in name['SNe']:
                     directory_list.append('GRB'+name['GRB']+'-'+name['SNe'])
                 else:
-                    directory_list.append('GRB'+name['GRB']+'-'+'SN'+name['SNe'])
+                    directory_list.append(
+                        'GRB'+name['GRB']+'-'+'SN'+name['SNe'])
 
         filestream = io.BytesIO()
         with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
             for folder in directory_list:
                 for file in os.listdir(current_app.root_path+'/static/SourceData/'+folder+'/'):
                     zipf.write(current_app.root_path+'/static/SourceData/' +
-                            folder+'/'+file, folder+'/'+file)
+                               folder+'/'+file, folder+'/'+file)
         filestream.seek(0)
         return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
 
 
-
 def plot_optical(event):
     # Select the optical master file and import it
-    optical = pd.read_csv(os.path.join(app.root_path, 'static/SourceData/', event, event+'_Optical_Master.txt'), sep='\t')
+    optical = pd.read_csv(os.path.join(
+        app.root_path, 'static/SourceData/', event, event+'_Optical_Master.txt'), sep='\t')
 
     # Extract info about the filters in the data
     bands = list(set(list(optical['band'])))
 
     # Choose colours/fillstyles for the plots
-    colours = ["#D81B60","#1E88E5","#FFC107","#004D40", "#6661B9", "#9F48E1", "#444297"]
+    colours = ["#D81B60", "#1E88E5", "#FFC107",
+               "#004D40", "#6661B9", "#9F48E1", "#444297"]
     fills = ['none', 'full']
 
     # Choose an offset for the data in the plot
@@ -319,27 +377,32 @@ def plot_optical(event):
 
     for j, band in enumerate(bands):
         # Use pandas to select the points that correspond to the desired filter.
-        
+
         # Use pandas to select the points that are upper limits.
         # Upper limits are represented by a 1 in the mag_limit column.
-        upper_limits = optical.loc[(optical['band']==band) & (optical['mag_limit']==1)]['mag']
-        limit_times = optical.loc[(optical['band']==band) & (optical['mag_limit']==1)]['time']
-        
+        upper_limits = optical.loc[(optical['band'] == band) & (
+            optical['mag_limit'] == 1)]['mag']
+        limit_times = optical.loc[(optical['band'] == band) & (
+            optical['mag_limit'] == 1)]['time']
+
         # Use pandas to select the errors on the non-upper-limit points
-        errors = optical.loc[(optical['band']==band) & (optical['mag_limit']!=1)]['dmag']
-        
+        errors = optical.loc[(optical['band'] == band) &
+                             (optical['mag_limit'] != 1)]['dmag']
+
         # Use pandas to select the observation times and values.
-        observations = optical.loc[(optical['band']==band) & (optical['mag_limit']!=1)]['mag']
-        obs_times = optical.loc[(optical['band']==band) & (optical['mag_limit']!=1)]['time']
-        
+        observations = optical.loc[(optical['band'] == band) & (
+            optical['mag_limit'] != 1)]['mag']
+        obs_times = optical.loc[(optical['band'] == band) & (
+            optical['mag_limit'] != 1)]['time']
+
         # Plotting
-        plt.plot(obs_times, observations+offset*j, label=str(band)+'+'+str(j*offset), marker='o', 
-                linestyle='', color=colours[j%7], fillstyle=fills[j%2])
-        plt.errorbar(obs_times, observations+offset*j, errors, 
-                    linestyle='', color=colours[j%7], marker='')
-        plt.plot(limit_times, upper_limits+offset*j, marker='v', linestyle='', 
-                color=colours[j%7], fillstyle=fills[j%2])
-        
+        plt.plot(obs_times, observations+offset*j, label=str(band)+'+'+str(j*offset), marker='o',
+                 linestyle='', color=colours[j % 7], fillstyle=fills[j % 2])
+        plt.errorbar(obs_times, observations+offset*j, errors,
+                     linestyle='', color=colours[j % 7], marker='')
+        plt.plot(limit_times, upper_limits+offset*j, marker='v', linestyle='',
+                 color=colours[j % 7], fillstyle=fills[j % 2])
+
     # Make it look good
     plt.xlabel('Time since GRB [days]')
     plt.xscale('log')
@@ -358,51 +421,61 @@ def plot_optical(event):
     plt.close()
     return byte_io
 
+
 def plot_radio(event):
     # Select the radio master file and import it.
-    radio = pd.read_csv(os.path.join(app.root_path, 'static/SourceData/', event, event+'_Radio_Master.txt'), sep='\t')
+    radio = pd.read_csv(os.path.join(
+        app.root_path, 'static/SourceData/', event, event+'_Radio_Master.txt'), sep='\t')
 
     # Select the frequency bands used
     freqs = list(set(list(radio['freq'])))
 
     # Choose colours for the plots
-    colours = ["#D81B60","#1E88E5","#FFC107","#004D40", "#6661B9", "#9F48E1", "#444297"]
+    colours = ["#D81B60", "#1E88E5", "#FFC107",
+               "#004D40", "#6661B9", "#9F48E1", "#444297"]
     fillstyles = ['none', 'full']
 
     # Make sure all fluxes are in mircoJy
     radio['flux_density'] = np.where(radio['flux_density_unit'] == 'milliJy',
-                                        radio['flux_density']*1000,
-                                        radio['flux_density'])
+                                     radio['flux_density']*1000,
+                                     radio['flux_density'])
     radio['dflux_density'] = np.where(radio['flux_density_unit'] == 'milliJy',
-                                        radio['dflux_density']*1000,
-                                        radio['dflux_density'])
+                                      radio['dflux_density']*1000,
+                                      radio['dflux_density'])
     radio['flux_density'] = np.where(radio['flux_density_unit'] == 'Jy',
-                                        radio['flux_density']*1000000,
-                                        radio['flux_density'])
+                                     radio['flux_density']*1000000,
+                                     radio['flux_density'])
     radio['dflux_density'] = np.where(radio['flux_density_unit'] == 'Jy',
-                                        radio['dflux_density']*1000000,
-                                        radio['dflux_density'])
+                                      radio['dflux_density']*1000000,
+                                      radio['dflux_density'])
 
     for j, freq in enumerate(freqs):
         # Use pandas to select the points that correspond to the desired frequency range.
-        
+
         # Use pandas to select the points that are upper limits.
         # Upper limits are represented by a 1 in the flux_density_limit column.
-        upper_limits = radio.loc[(radio['freq']==freq) & (radio['flux_density_limit']==1)]['flux_density']
-        limit_times = radio.loc[(radio['freq']==freq) & (radio['flux_density_limit']==1)]['time']
-        
+        upper_limits = radio.loc[(radio['freq'] == freq) & (
+            radio['flux_density_limit'] == 1)]['flux_density']
+        limit_times = radio.loc[(radio['freq'] == freq) & (
+            radio['flux_density_limit'] == 1)]['time']
+
         # Use pandas to select the errors on the non-upper-limit points
-        errors = radio.loc[(radio['freq']==freq) & (radio['flux_density_limit']!=1)]['dflux_density']
-        
+        errors = radio.loc[(radio['freq'] == freq) & (
+            radio['flux_density_limit'] != 1)]['dflux_density']
+
         # Use pandas to select the observation times and values.
-        observations = radio.loc[(radio['freq']==freq) & (radio['flux_density_limit']!=1)]['flux_density']
-        obs_times = radio.loc[(radio['freq']==freq) & (radio['flux_density_limit']!=1)]['time']
-        
+        observations = radio.loc[(radio['freq'] == freq) & (
+            radio['flux_density_limit'] != 1)]['flux_density']
+        obs_times = radio.loc[(radio['freq'] == freq) & (
+            radio['flux_density_limit'] != 1)]['time']
+
         # Plotting
-        plt.plot(obs_times, observations, label=str(freq)+'GHz', marker='o', 
-                                            linestyle='', color=colours[j%7], fillstyle=fillstyles[j%2])
-        plt.errorbar(obs_times, observations, errors, linestyle='', color=colours[j%7], marker='')
-        plt.plot(limit_times, upper_limits, marker='v', linestyle='', color=colours[j%7], fillstyle=fillstyles[j%2])
+        plt.plot(obs_times, observations, label=str(freq)+'GHz', marker='o',
+                 linestyle='', color=colours[j % 7], fillstyle=fillstyles[j % 2])
+        plt.errorbar(obs_times, observations, errors,
+                     linestyle='', color=colours[j % 7], marker='')
+        plt.plot(limit_times, upper_limits, marker='v', linestyle='',
+                 color=colours[j % 7], fillstyle=fillstyles[j % 2])
 
     # Make it look good.
     plt.xlabel('Time since GRB [days]')
@@ -421,13 +494,14 @@ def plot_radio(event):
     plt.close()
     return byte_io
 
+
 @api.route('/plotting/events_<events>+waverange_<waveranges>')
 class Plotting(Resource):
     def get(self, waveranges, events):
         # Convert the string to a list
         waverange_list = ast.literal_eval('['+waveranges+']')
         event_list = ast.literal_eval('['+events+']')
-            
+
         stream = io.BytesIO()
         with zipfile.ZipFile(stream, 'w') as zf:
             for event in event_list:
@@ -435,15 +509,16 @@ class Plotting(Resource):
                     if waverange == 'Optical':
                         if exists(os.path.join(app.root_path, 'static/SourceData/', event, event+'_Optical_Master.txt')):
                             optical_io = plot_optical(event)
-                            zf.writestr(event+'_'+waverange+'.pdf',optical_io.getvalue())
+                            zf.writestr(event+'_'+waverange+'.pdf',
+                                        optical_io.getvalue())
                     elif waverange == 'Radio':
                         if exists(os.path.join(app.root_path, 'static/SourceData/', event, event+'_Radio_Master.txt')):
                             radio_io = plot_radio(event)
-                            zf.writestr(event+'_'+waverange+'.pdf',radio_io.getvalue())
+                            zf.writestr(event+'_'+waverange +
+                                        '.pdf', radio_io.getvalue())
         stream.seek(0)
 
         return send_file(stream, as_attachment=True, attachment_filename='plots.zip')
-
 
 
 # The homepage and its location
@@ -460,19 +535,28 @@ def home():
         f"SELECT GRB, SNe, GROUP_CONCAT(e_iso), GROUP_CONCAT(z), GROUP_CONCAT(T90), GROUP_CONCAT(ej_m), GROUP_CONCAT(ni_m), GROUP_CONCAT(E_p), GROUP_CONCAT(e_k) FROM SQLDataGRBSNe GROUP BY GRB, SNe ORDER BY GRB, SNe;")
     data = conn.execute(initial_query).fetchall()
 
+    numeric = np.zeros(len(data))
+    for i, row in enumerate(data):
+        if row[1] != None:
+            if row[1][:4].isnumeric():
+                numeric[i] = 1
+
     form = SearchForm(request.form)
 
     if request.method == 'POST':
         event_id = form.object_name.data
-        # print(event_id)
-        if str(event_id)[2:] in sne:  # if they search an SN
+        print(event_id, sne)
+        if str(event_id)[2:] in sne or str(event_id) in sne:  # if they search an SN
+            event_id = event_id_maker(event_id)
             return redirect(url_for('event', event_id=event_id))
         elif str(event_id)[3:] in grbs:  # if they search an GRB
+            event_id = event_id_maker(event_id)
             return redirect(url_for('event', event_id=event_id))
         else:
             flash('This object is not in our database.')
-            return render_template('home.html', form=form, data=data)
-    return render_template('home.html', form=form, data=data)
+            return render_template('home.html', form=form, data=data, numerics=numeric)
+
+    return render_template('home.html', form=form, data=data, numerics=numeric)
 
 
 @app.route('/plot/e_iso')
@@ -583,7 +667,6 @@ with open("static/citations/citations(ADSdatadownloads).json") as file3:
 @app.route('/<event_id>')
 def event(event_id):
     event, radec, peakmag = get_post(event_id)
-    print(event)
     if len(event) == 0:
         abort(404)
 
@@ -593,13 +676,37 @@ def event(event_id):
 
     # Find out how many of the references are needed
     needed_dict = {}
+    event_nos = []
+    event_refs = []
     for i in range(len(event)):
         if event[i]['PrimarySources'] != None:
-            needed_dict[event[i]['PrimarySources']
-                        ] = dict_refs[event[i]['PrimarySources']]
+
+            # If its not in the list save the citation and the number.
+            if event[i]['PrimarySources'] not in list(needed_dict.keys()):
+                needed_dict[event[i]['PrimarySources']
+                            ] = dict_refs[event[i]['PrimarySources']]
+                event_nos.append(
+                    list(needed_dict.keys()).index(event[i]['PrimarySources'])+1)
+                event_refs.append(event[i]['PrimarySources'])
+
+             # If its already in the list theres no need to cite it again we just need the right number.
+            else:
+                event_nos.append(
+                    list(needed_dict.keys()).index(event[i]['PrimarySources'])+1)
+
         elif event[i]['SecondarySources'] != None:
-            needed_dict[event[i]['SecondarySources']
-                        ] = dict_refs2[event[i]['SecondarySources']]
+            # If its not in the list save the citation and the number.
+            if radec[i]['source'] not in list(needed_dict.keys()):
+                needed_dict[event[i]['SecondarySources']
+                            ] = dict_refs2[event[i]['SecondarySources']]
+                event_nos.append(
+                    list(needed_dict.keys()).index(event[i]['SecondarySources'])+1)
+                event_refs.append(event[i]['SecondarySources'])
+
+             # If its already in the list theres no need to cite it again we just need the right number.
+            else:
+                event_nos.append(
+                    list(needed_dict.keys()).index(event[i]['SecondarySources'])+1)
 
     # Add the radec swift stuff to the master dictionary of references for this event.
     radec_refs = []
@@ -656,7 +763,6 @@ def event(event_id):
     # The time of the GRB
     if radec[0]['trigtime'] != None:
         grb_time = radec[0]['trigtime']
-        # print(grb_time)
     else:
         grb_time = '00:00:00'
 
@@ -695,8 +801,9 @@ def event(event_id):
 
     # create a new plot with a title and axis labels
     xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log",
-                  x_axis_type="log", sizing_mode='scale_both', margin=5)
+                  x_axis_type="log", margin=5, aspect_ratio=16/9, max_width=1000)
 
+    legend_it = []
     #################################
     # Swift data ####################
     #################################
@@ -732,6 +839,9 @@ def event(event_id):
         # Add the references
         data['sources'] = [swift_reference_no]*len(data['time'])
 
+        # Add units
+        data['units'] = ['erg/cm^2/sec']*len(data['time'])
+
         # Add the instrument
         data['instrument'] = ['Swift XRT']*len(data['time'])
 
@@ -754,13 +864,13 @@ def event(event_id):
                  'inverted_triangle', 'triangle', 'circle', 'inverted_triangle', 'triangle']
 
         # add a line renderer with legend and line thickness
-        xray.multi_line("e_locs", "error", source=xray_source,
-                        color='orange', line_width=2)
-        xray.multi_line("terror", "te_locs", source=xray_source,
-                        color='orange', line_width=2)
-        xray.scatter('time', 'flux', source=xray_source, legend_label="0.3-10keV", size=10,
-                     color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types))
-
+        a = xray.multi_line("e_locs", "error", source=xray_source,
+                            color='orange', line_width=2, muted_color='gray', muted_alpha=0.05)
+        b = xray.multi_line("terror", "te_locs", source=xray_source,
+                            color='orange', line_width=2, muted_color='gray', muted_alpha=0.05)
+        c = xray.scatter('time', 'flux', source=xray_source, size=7,
+                         color='orange', fill_color="orange", marker=factor_mark('stringlimit', marks, types), muted_color='gray', muted_alpha=0.05)
+        legend_it.append(("0.3-10keV  ", [a, b, c]))
         # Tooltips of what will display in the hover mode
         # Format the tooltip
 
@@ -769,6 +879,7 @@ def event(event_id):
             ('Flux', '@flux'),
             ('Instrument', '@instrument'),
             ('Source', '@sources'),
+            ('Unit', '@units')
         ]
 
         # Add the HoverTool to the figure
@@ -814,7 +925,7 @@ def event(event_id):
 
         ####### Plot Data ###########
         # Select colours for the data
-        colors = d3['Category20'][5]
+        colors = d3['Category20'][20]
 
         # List of the energy ranges
         energy_ranges = list(set(list(xray_df['energy_range'])))
@@ -832,20 +943,24 @@ def event(event_id):
         xray_error_df['dflux_locs'] = list(
             zip(xray_error_df['time'], xray_error_df['time']))
 
-        # Create a cds
-        xray_cds = ColumnDataSource(xray_df)
+        for k, energy_range in enumerate(energy_ranges):
+            xray_data = xray_df.loc[xray_df['energy_range'] == energy_range]
+            xray_error = xray_error_df.loc[xray_error_df['energy_range']
+                                           == energy_range]
+            # Create a cds
+            xray_cds = ColumnDataSource(xray_data)
 
-        # Create a cds for errors
-        xray_error_cds = ColumnDataSource(xray_error_df)
+            # Create a cds for errors
+            xray_error_cds = ColumnDataSource(xray_error)
 
-        # Plotting
-
-        types2 = ['-1', '0', '1']
-        marks2 = ['triangle', 'circle', 'inverted_triangle']
-        xray.multi_line("dflux_locs", "dfluxes", source=xray_error_cds, color=factor_cmap(
-            'energy_range', colors, energy_ranges), line_width=2)
-        xray.scatter('time', 'flux', source=xray_cds, size=10, legend_field='energy_range', color=factor_cmap('energy_range', colors,
-                     energy_ranges), fill_color=factor_cmap('energy_range', colors, energy_ranges), marker=factor_mark('flux_limit_str', marks2, types2))
+            # Plotting
+            types2 = ['-1', '0', '1']
+            marks2 = ['triangle', 'circle', 'inverted_triangle']
+            b = xray.multi_line("dflux_locs", "dfluxes", source=xray_error_cds, color=colors[int(
+                k % 20)], line_width=2, muted_color='gray', muted_alpha=0.05)
+            c = xray.scatter('time', 'flux', source=xray_cds, size=7, color=colors[int(
+                k % 20)], muted_color='gray', muted_alpha=0.05, fill_color=colors[int(k % 20)], marker=factor_mark('flux_limit_str', marks2, types2))
+            legend_it.append((energy_range+'  ', [c, b]))
 
         # Tooltips of what will display in the hover mode
         # Format the tooltip
@@ -855,6 +970,7 @@ def event(event_id):
             ('Flux', '@flux'),
             ('Instrument', '@instrument'),
             ('Source', '@sources'),
+            ('Unit', '@flux_unit')
         ]
 
         # Add the HoverTool to the figure
@@ -898,6 +1014,22 @@ def event(event_id):
     xray.background_fill_color = 'white'
     xray.border_fill_color = 'white'
 
+    # Allow user to mute individual bands by clicking the legend
+    num = 10
+    for i in range(math.ceil(len(legend_it)/num)):
+        if i+1 < len(legend_it)/num:
+            legend2 = Legend(items=legend_it[i*num:i*num+num])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            xray.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+        else:
+            legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            xray.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+
     # If track is still 0 print nodata
     if track == 0:
         # Set a range so we can always centre the nodata for the spectra plot
@@ -918,7 +1050,7 @@ def event(event_id):
     t0_utc = '0'
 
     optical = figure(title='Optical (GRB+SN)', toolbar_location="right",
-                     x_axis_type="log", sizing_mode='scale_both', margin=5)
+                     x_axis_type="log", margin=5, aspect_ratio=16/9, max_width=1000)
 
     ####### References #############
     optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
@@ -926,6 +1058,7 @@ def event(event_id):
     ################################
     ######## Open SN ###############
     ################################
+    legend_it = []
     if exists('./static/SourceData/'+str(event_id)+'/'+'OpenSNPhotometry.csv'):
         # Add 1 to track variable if openSN had data
         track += 1
@@ -1035,10 +1168,11 @@ def event(event_id):
 
                 # New color
                 col = next(color)
-                optical.multi_line(
-                    "dmag_locs", "dmags", source=optical_error, color=col, line_width=2)
-                optical.scatter('time_since', 'magnitude', source=optical_data,
-                                legend_label=band_label, size=10, color=col)
+                b = optical.multi_line(
+                    "dmag_locs", "dmags", source=optical_error, muted_color='gray', muted_alpha=0.05, color=col, line_color=col, line_width=2)
+                c = optical.scatter('time_since', 'magnitude', source=optical_data,
+                                    muted_color='gray', muted_alpha=0.05, size=7, fill_color=col, color=col)
+                legend_it.append((j+'  ', [c, b]))
 
                 # Tooltips of what will display in the hover mode
                 # Format the tooltip
@@ -1049,6 +1183,7 @@ def event(event_id):
                     ('Magnitude', '@magnitude'),
                     ('Band', '@band'),
                     ('Source', '@indices'),
+                    ('Unit', '@mag_unit'),
                 ]
 
                 # Add the HoverTool to the figure
@@ -1057,7 +1192,6 @@ def event(event_id):
     #################################
     # ADS data ######################
     #################################
-
     # Check if the optical master file exists yet.
     if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Optical_Master.txt'):
         # Add 1 to track variable if openSN had data
@@ -1093,13 +1227,12 @@ def event(event_id):
         optical_df['indices'] = optical_source_indices_sub
 
         ####### Plot Data ###########
+
+        # Set the string values for the bands
+        optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
+
         # Select colours for the data
         colors = d3['Category20'][20]
-
-        # List all bands
-        bands = list(set(list(optical_df['band'].astype(str))))
-
-        optical_df['mag_limit_str'] = optical_df['mag_limit'].astype(str)
 
         # Create the error columns that bokeh wants
         # Errors on flux densities
@@ -1110,21 +1243,32 @@ def event(event_id):
         optical_error_df['dmag_locs'] = list(
             zip(optical_error_df['time'], optical_error_df['time']))
 
-        # Create a cds
-        optical_cds = ColumnDataSource(optical_df)
+        # List all bands
+        bands = list(set(list(optical_df['band'].astype(str))))
 
-        # Create a cds for errors
-        optical_error_cds = ColumnDataSource(optical_error_df)
+        for k, band in enumerate(bands):
+            band_data = optical_df.loc[optical_df['band'] == band]
+            band_error = optical_error_df.loc[optical_error_df['band'] == band]
 
-        # Plotting
+            # Create a cds
+            optical_cds = ColumnDataSource(band_data)
 
-        types2 = ['-1', '0', '1']
-        marks2 = ['triangle', 'circle', 'inverted_triangle']
-        optical.multi_line("dmag_locs", "dmags", source=optical_error_cds,
-                           color=factor_cmap('band', colors, bands), line_width=2)
-        optical.scatter('time', 'mag', source=optical_cds, size=10, legend_field='band', color=factor_cmap(
-            'band', colors, bands), fill_color=factor_cmap('band', colors, bands), marker=factor_mark('mag_limit_str', marks2, types2))
+            # Create a cds for errors
+            optical_error_cds = ColumnDataSource(band_error)
 
+            # Plotting
+
+            types2 = ['-1', '0', '1']
+            marks2 = ['triangle', 'circle', 'inverted_triangle']
+            b = optical.multi_line("dmag_locs", "dmags", source=optical_error_cds,
+                                   color=colors[int(k % 20)], line_width=2, muted_color='gray', muted_alpha=0.05)
+            if k < 20:
+                c = optical.scatter('time', 'mag', source=optical_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
+                    k % 20)], muted_color='gray', muted_alpha=0.05, fill_color=colors[int(k % 20)], marker=factor_mark('mag_limit_str', marks2, types2))
+            else:
+                c = optical.scatter('time', 'mag', source=optical_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
+                    k % 20)], muted_color='gray', muted_alpha=0.05, fill_color='none', marker=factor_mark('mag_limit_str', marks2, types2))
+            legend_it.append((band+'  ', [c, b]))
         # Tooltips of what will display in the hover mode
         # Format the tooltip
         # Tooltips of what will display in the hover mode
@@ -1135,6 +1279,7 @@ def event(event_id):
             ('Band', '@band'),
             ('Instrument', '@instrument'),
             ('Source', '@indices'),
+            ('Unit', '@mag_unit'),
         ]
 
         # Add the HoverTool to the figure
@@ -1179,8 +1324,21 @@ def event(event_id):
     optical.xaxis.axis_line_color = 'black'
     optical.yaxis.axis_line_color = 'black'
 
-    # Allow user to mute spectra by clicking the legend
-    #optical.legend.click_policy = "mute"
+    # Allow user to mute individual bands by clicking the legend
+    num = 20
+    for i in range(math.ceil(len(legend_it)/num)):
+        if i+1 < len(legend_it)/num:
+            legend2 = Legend(items=legend_it[i*num:i*num+num])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            optical.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+        else:
+            legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            optical.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
 
     # Make ticks larger
     optical.xaxis.major_label_text_font_size = '16pt'
@@ -1204,12 +1362,13 @@ def event(event_id):
     ##### RADIO############################################################################
     ######################################################################################
     radio = figure(title='Radio (GRB)', toolbar_location="right",
-                   y_axis_type="log", x_axis_type="log", sizing_mode='scale_both', margin=5)
+                   y_axis_type="log", x_axis_type="log", margin=5, aspect_ratio=16/9, max_width=1000)
 
     #################################
     # ADS data ######################
     #################################
     rad_refs = []
+    legend_it = []
     # Check if the radio master file exists yet.
     if exists('static/SourceData/'+str(event_id)+'/'+str(event_id)+'_Radio_Master.txt'):
 
@@ -1224,7 +1383,6 @@ def event(event_id):
         # Sub list of the indices for the radio data from the ADS
         radio_source_indices_sub = []
         for ref in radio_refs:
-            # print(ref)
             if ref in needed_dict.keys():
                 radio_source_indices_sub.append(
                     (list(needed_dict.keys()).index(ref)+1))
@@ -1247,11 +1405,7 @@ def event(event_id):
         radio_df['indices'] = radio_source_indices_sub
 
         # Plot the radio data we have gathered.
-        colors = viridis(len(freqs))
-
-        # Setting up to map the upper limits to different symbols.
-        types2 = ['-1', '0', '1']
-        marks2 = ['triangle', 'circle', 'inverted_triangle']
+        colors = d3['Category20'][20]
 
         # Get strings for the mapper functions
         radio_df['flux_density_limit_str'] = radio_df['flux_density_limit'].astype(
@@ -1260,6 +1414,7 @@ def event(event_id):
 
         radio_df['unit_col'] = radio_df['freq'].astype(
             str)+' '+radio_df['freq_unit'].astype(str)
+        freq_unit = list(set(list(radio_df['unit_col'].astype(str))))
 
         # Get the units right
         radio_df['flux_density'] = radio_df['flux_density'].astype(float)
@@ -1281,11 +1436,9 @@ def event(event_id):
                 radio_df['flux_density'][i] = radio_df['flux_density'][i]*1000
                 radio_df['dflux_density'][i] = radio_df['dflux_density'][i]*1000
 
-        # print(radio_df['dflux_density'])
-
         # Errors on flux densities
         radio_error_df = radio_df[[
-            'time', 'flux_density', 'dflux_density', 'freq_str']].copy()
+            'time', 'flux_density', 'dflux_density', 'freq_str', 'unit_col']].copy()
         radio_error_df = radio_error_df[~radio_error_df['dflux_density'].isnull(
         )]
         radio_error_df['dfds'] = list(zip(radio_error_df['flux_density']-radio_error_df['dflux_density'],
@@ -1293,22 +1446,36 @@ def event(event_id):
         radio_error_df['dfd_locs'] = list(
             zip(radio_error_df['time'], radio_error_df['time']))
 
-        # Create a column data source object to make some of the plotting easier.
-        radio_cds = ColumnDataSource(radio_df)
-        radio_error = ColumnDataSource(radio_error_df)
+        for k, freq_unit in enumerate(freq_unit):
+            freq_data = radio_df.loc[radio_df['unit_col'] == freq_unit]
+            freq_error = radio_error_df.loc[radio_error_df['unit_col'] == freq_unit]
 
-        # Plot the data and the error
-        radio.multi_line("dfd_locs", "dfds", source=radio_error, color=factor_cmap(
-            'freq_str', colors, freqs), line_width=2)
-        radio.scatter('time', 'flux_density', source=radio_cds, legend_field='unit_col', color=factor_cmap('freq_str', colors, freqs),
-                      fill_color=factor_cmap('freq_str', colors, freqs), size=10, marker=factor_mark('flux_density_limit_str', marks2, types2))
+            # Create a column data source object to make some of the plotting easier.
+            radio_cds = ColumnDataSource(freq_data)
+            radio_error = ColumnDataSource(freq_error)
+
+            # Setting up to map the upper limits to different symbols.
+            types2 = ['-1', '0', '1']
+            marks2 = ['triangle', 'circle', 'inverted_triangle']
+
+            # Plot the data and the error
+            b = radio.multi_line("dfd_locs", "dfds", source=radio_error, color=colors[int(
+                k % 20)], line_width=2, muted_color='gray', muted_alpha=0.05)
+
+            if k < 20:
+                c = radio.scatter('time', 'flux_density', source=radio_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
+                    k % 20)], muted_color='gray', muted_alpha=0.05, fill_color=colors[int(k % 20)], marker=factor_mark('flux_density_limit_str', marks2, types2))
+            else:
+                c = radio.scatter('time', 'flux_density', source=radio_cds, size=7, line_color=colors[int(k % 20)], color=colors[int(
+                    k % 20)], muted_color='gray', muted_alpha=0.05, fill_color='none', marker=factor_mark('flux_density_limit_str', marks2, types2))
+            legend_it.append((freq_unit+'  ', [c, b]))
 
         # Tooltips of what will display in the hover mode
         # Format the tooltip
         # Tooltips of what will display in the hover mode
         # Format the tooltip
         tooltips = [('Time', '@time'),
-                    ('Freq.', '@freq'),
+                    ('Freq', '@freq'),
                     ('Flux Density', '@flux_density'),
                     ('Instrument', '@instrument'),
                     ('Source', '@indices'), ]
@@ -1350,9 +1517,6 @@ def event(event_id):
     radio.xaxis.minor_tick_line_color = 'black'
     radio.yaxis.minor_tick_line_color = 'black'
 
-    # Allow user to mute spectra by clicking the legend
-    #radio.legend.click_policy = "mute"
-
     # Axis labels
     radio.xaxis.axis_label = 'Time [days] after '+grb_time_str
     radio.yaxis.axis_label = 'Flux Density [mJy]'
@@ -1368,15 +1532,34 @@ def event(event_id):
     radio.background_fill_color = 'white'
     radio.border_fill_color = 'white'
 
+    # Legend
+    # Allow user to mute individual bands by clicking the legend
+    num = 20
+    for i in range(math.ceil(len(legend_it)/num)):
+        if i+1 < len(legend_it)/num:
+            legend2 = Legend(items=legend_it[i*num:i*num+num])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            radio.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+        else:
+            legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            radio.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+
     ######################################################################################
     ##### SNe SPECTRA######################################################################
     ######################################################################################
+    legend_it = []
+
     # Selection tools we want to display
     select_tools = ['box_zoom', 'pan', 'wheel_zoom', 'save', 'reset']
 
     # Figure
     spectrum = figure(title='Spectrum (SN)', toolbar_location="right",
-                      tools=select_tools, height=260, sizing_mode='scale_width', margin=5)
+                      tools=select_tools, margin=5, aspect_ratio=1, max_width=1000)
 
     # Blank tooltips
     tooltips = []
@@ -1417,14 +1600,14 @@ def event(event_id):
                 for o in range(len(event)):
                     if event[o]['z'] is not None:
                         redshift.append(float(event[o]['z']))
-                
+
                 if 'deredshifted' in list(data_i['SN'+str(event[0]['SNe'])]['spectra'].keys()):
                     if data_i['SN'+str(event[0]['SNe'])]['spectra']['deredshifted'] == 'False':
                         wavelength = wavelength/(1+redshift[0])
-                
+
                 else:
                     wavelength = wavelength/(1+redshift[0])
-                
+
                 # Scale the flux using the 5000A flux
                 if max(wavelength) < 5000:
                     flux = flux/flux[-1]
@@ -1432,7 +1615,6 @@ def event(event_id):
                     flux = flux/flux[0]
                 else:
                     flux = flux/(interp1d(wavelength, flux)(np.array([5000])))
-
 
                 # Calculating the extent of the limits on the plots
                 max_spec[i] = max(flux)
@@ -1513,14 +1695,13 @@ def event(event_id):
                 ]
 
                 # Legend label will be the elapsed time since the trigger for now
-                spectrum.line('wavelength', 'flux', source=data_source,
-                              color=color[i], muted_color='gray', muted_alpha=0.1, legend_label=str(np.round(float(data_dict['time_since'][0]), 2))+' days', line_width=2)
-
+                c = spectrum.line('wavelength', 'flux', source=data_source,
+                                  color=color[i], muted_color='gray', muted_alpha=0.1, line_width=2)
+                legend_it.append(
+                    (str(np.round(float(data_dict['time_since'][0]), 2))+' days  ', [c]))
         # Range
-        spectrum.y_range = Range1d(max(min(min_spec)-0.1*min(min_spec), -1), min(0.1*max(max_spec)+max(max_spec), 5))
-        # spectrum.y_range = Range1d(
-        #     min(min_spec)-0.1*min(min_spec), 0.1*max(max_spec)+max(max_spec))
-
+        spectrum.y_range = Range1d(
+            max(min(min_spec)-0.1*min(min_spec), -1), min(0.1*max(max_spec)+max(max_spec), 5))
 
     #################################
     # ADS data ######################
@@ -1543,7 +1724,8 @@ def event(event_id):
 
             else:
                 # Add to needed dict
-                needed_dict[ref] = {'names': dict_refs3[ref]['names'], 'year': dict_refs3[ref]['year']}
+                needed_dict[ref] = {'names': dict_refs3[ref]
+                                    ['names'], 'year': dict_refs3[ref]['year']}
 
                 # Save the spectra ref to use as a key in event html when accessing the reference
                 spec_refs.append(ref)
@@ -1560,27 +1742,41 @@ def event(event_id):
 
         # Choose colours
         colour = viridis(len(epochs))
-        
+
         # Plot
         for i in range(len(epochs)):
+
+            # Scale the flux using the 5000A flux
+            scaled_spectrum = spectra_df.loc[spectra_df['time'] == float(
+                epochs[i])]
+            if np.array(scaled_spectrum['flux'])[-1] < 5000:
+                scaled_spectrum['scaled_flux'] = np.array(
+                    scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[0]
+            elif np.array(scaled_spectrum['flux'])[0] > 5000:
+                scaled_spectrum['scaled_flux'] = np.array(
+                    scaled_spectrum['flux'])/np.array(scaled_spectrum['flux'])[-1]
+            else:
+                scaled_spectrum['scaled_flux'] = scaled_spectrum['flux']/(interp1d(
+                    scaled_spectrum['rest_wavelength'], scaled_spectrum['flux']))(np.array([5000]))
             # Perform scaling of the spectrum
-            scaled_spectrum = spectra_df.loc[spectra_df['time'] == float(epochs[i])]
-            scaled_spectrum['scaled_flux'] = scaled_spectrum['flux']/(interp1d(scaled_spectrum['rest_wavelength'], scaled_spectrum['flux']))(np.array([5000]))
 
             # Create a CDS
             spectra_cds = ColumnDataSource(scaled_spectrum)
 
             tooltips = [
-                ('Rest wavelength', '@obs_wavelength{0}'),
+                ('Rest wavelength', '@rest_wavelength{0}'),
+                ('Obs. wavelength', '@obs_wavelength{0}'),
                 ('Flux', '@scaled_flux'),
+                ('Unit', '@flux_unit'),
                 ('Instrument', '@instrument'),
                 ('Time [days]', '@time'),
                 ('Source', '@indices'),
             ]
 
-            spectrum.line('rest_wavelength', 'scaled_flux', source=spectra_cds,
-                          legend_label=str(np.round(float(epochs[i]), 2))+' days', color=colour[i], muted_color='gray', muted_alpha=0.1, line_width=2)
-
+            c = spectrum.line('rest_wavelength', 'scaled_flux', source=spectra_cds,
+                              color=colour[i], muted_color='gray', muted_alpha=0.1, line_width=2)
+            legend_it.append(
+                (str(np.round(float(epochs[i]), 2))+' days  ', [c]))
     else:
         # Notify when there is no data present
 
@@ -1589,15 +1785,12 @@ def event(event_id):
         spectrum.y_range = Range1d(0, 1)
 
         citation = Label(x=6100, y=0.405, x_units='data', y_units='data',
-                         text=processing_tag(event_id, 'Optical Spectra'), render_mode='css', text_font_size='80pt',
+                         text=processing_tag(event_id, 'Optical Spectra'), render_mode='css', text_font_size='50pt',
                          border_line_color='grey', border_line_alpha=0, text_alpha=0.2,  background_fill_alpha=1.0, text_color='black')
         spectrum.add_layout(citation)
 
     # Add the HoverTool to the figure
     spectrum.add_tools(HoverTool(tooltips=tooltips))
-
-    # Allow user to mute spectra by clicking the legend
-    spectrum.legend.click_policy = "mute"
 
     # Aesthetics
     # Title
@@ -1638,12 +1831,35 @@ def event(event_id):
     spectrum.background_fill_color = 'white'
     spectrum.border_fill_color = 'white'
 
-    script, div = components(layout([xray, optical, radio], [spectrum]))
+    # Sort the legends by time
+    epochs = []
+    for legend in legend_it:
+        epochs.append(float(legend[0][:-7]))
+    sort_index = np.argsort(epochs)
+    legend_it = [legend_it[i] for i in sort_index]
+    # Allow user to mute individual spectra by clicking the legend
+    num = 35
+    for i in range(math.ceil(len(legend_it)/num)):
+        if i+1 < len(legend_it)/num:
+            legend2 = Legend(items=legend_it[i*num:i*num+num])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            spectrum.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+        else:
+            legend2 = Legend(items=legend_it[i*num:i*num+len(legend_it)])
+            legend2.click_policy = "mute"
+            legend2.orientation = "vertical"
+            spectrum.add_layout(legend2, 'left')
+            legend2.label_text_font_size = '10pt'
+
+    script, div = components(
+        layout([radio], [optical], [xray], [spectrum], sizing_mode='scale_both'))
     kwargs = {'script': script, 'div': div}
     kwargs['title'] = 'bokeh-with-flask'
 
     # Return everything
-    return render_template('event.html', event=event, event_id=event_id, radec=radec, peakmag=peakmag, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=xray_refs, swift_nos=swift_reference_no, optical_refs=optical_refs, radio_refs=rad_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
+    return render_template('event.html', event=event, event_id=event_id, radec=radec, peakmag=peakmag, event_nos=event_nos, event_refs=event_refs, ptime_bandlist=ptime_bandlist, mag_bandlist=mag_bandlist, grb_time_str=grb_time_str, radec_nos=radec_nos, radec_refs=radec_refs, peakmag_refs=peakmag_refs, peakmag_nos=peakmag_nos, swift_refs=xray_refs, swift_nos=swift_reference_no, optical_refs=optical_refs, radio_refs=rad_refs, spec_refs=spec_refs, needed_dict=needed_dict, **kwargs)
 
 
 @app.route('/static/SourceData/<directory>', methods=['GET', 'POST'])
@@ -1654,7 +1870,7 @@ def get_files2(directory):
             zipf.write(current_app.root_path+'/static/SourceData/' +
                        directory+'/'+file, directory+'/'+file)
     filestream.seek(0)
-    return send_file(filestream, attachment_filename=directory+'.zip', as_attachment=True)
+    return send_file(filestream, download_name=directory+'.zip', as_attachment=True)
 
 
 @app.route('/docs')
@@ -1710,7 +1926,7 @@ def get_master_table():
 
     zipf.seek(0)
 
-    return send_file(zipf, mimetype='zip', attachment_filename='GRBSNData.zip', as_attachment=True)
+    return send_file(zipf, mimetype='zip', download_name='GRBSNData.zip', as_attachment=True)
 
 # The downloadable df data
 
@@ -1725,10 +1941,9 @@ def get_table(event_id):
     conn.close()
 
     if 'GRB' in event_id:
-        # GRB202005A_SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
+        # GRB202005A-SN2001a -  GRB is 0, 1, 2 so we want from 3 to the end of the split list
         # This solves the GRBs with SNs and without
         grb_name = str(event_id).split('-')[0][3:]
-        # print(grb_name)
 
         # Set the index of the df to be based on GRB name
         downloadabledf = df.loc[df['GRB'] == grb_name]
@@ -1736,14 +1951,14 @@ def get_table(event_id):
         downloadabledf3 = df3.loc[df3['grb_id'] == grb_name]
 
     # This should ideally solve the lone SN cases
-    elif 'SN' or 'AT' in event_id:
+    else:
         sn_name = event_id[2:]
 
         # The list was empty because im searching for SN2020oi but the names in the database dont have the SN bit
         # Set the index of the df to be based on SN name
         downloadabledf = df.loc[df['SNe'] == sn_name]
-        downloadabledf2 = df2.loc[df2['grb_id'] == grb_name]
-        downloadabledf3 = df3.loc[df3['grb_id'] == grb_name]
+        downloadabledf2 = df2.loc[df2['sn_name'] == sn_name]
+        downloadabledf3 = df3.loc[df3['sn_name'] == sn_name]
 
     # Write to an input output object
     # Main data
@@ -1772,7 +1987,7 @@ def get_table(event_id):
 
     zipf.seek(0)
 
-    return send_file(zipf, mimetype='zip', attachment_filename=event_id+'_dbdata.zip', as_attachment=True)
+    return send_file(zipf, mimetype='zip', download_name=event_id+'_dbdata.zip', as_attachment=True)
 
 # User modifiable graphs
 
@@ -1844,19 +2059,15 @@ def graphs():
             if str(row[2]).split(',')[0] != 'None' and str(row[3]).split(',')[0] != 'None':
 
                 if '<' in str(row[2]).split(',')[0]:
-                    # print('case1'+str(row[2]).split(',')[0])
                     x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '>' in str(row[2]).split(',')[0]:
-                    # print('case2'+row[2].split(',')[0])
                     x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '<' in str(row[3]).split(',')[0]:
-                    # print('case3'+row[3].split(',')[0])
                     x_data_upperx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_upperx.append(float(str(row[3]).split(',')[0][1:]))
                 elif '>' in str(row[3]).split(',')[0]:
-                    # print('case4'+row[3].split(',')[0])
                     x_data_lowerx.append(float(str(row[2]).split(',')[0][1:]))
                     y_data_lowerx.append(float(str(row[3]).split(',')[0][1:]))
                 else:
@@ -1934,39 +2145,10 @@ def download_graph_data(title, grb_name, sne_name, raw_x, raw_y):
 
     name = str(title)+'grbsntool.txt'
     name = name.encode('utf-8')
-    # print(name)
     resp.headers.set("Content-Disposition", "attachment", filename=name)
     return resp
 
 # Pass the data to be used by the dropdown menu (decorating)
-
-
-@app.context_processor
-def grb_names():
-    conn = get_db_connection()
-    names = conn.execute('SELECT DISTINCT GRB, SNe FROM SQLDataGRBSNe')
-    grbs = []
-    years = []
-    for i in names:
-        if str(i[0]) != 'None' and str(i[1]) != 'None':
-            if 'AT' in str(i[1]):
-                grbs.append('GRB'+str(i[0])+'-'+str(i[1]))
-            else:
-                grbs.append('GRB'+str(i[0])+'-SN'+str(i[1]))
-
-        # years.append(str(i[0])[:2])
-        elif str(i[1]) == 'None':
-            grbs.append('GRB'+str(i[0]))
-
-        elif str(i[0]) == 'None':
-            if 'AT' in str(i[1]):
-                grbs.append(str(i[1]))
-            else:
-                grbs.append('SN'+str(i[1]))
-    length = len(grbs)
-    conn.close()
-
-    return {'grbs': grbs[::-1], 'number1': length}
 
 # Help
 
@@ -1991,26 +2173,25 @@ def advsearch():
     event_list = []
     for i in data:
         if i[0] != None:
-            if i[1] != None and 'AT' not in str(i[1]):
+            if i[1] != None and str(i[1][:4]).isnumeric():
                 # Add the SN and GRB name
                 event_list.append('GRB'+str(i[0])+'-SN'+str(i[1]))
-            elif i[1] != None and 'AT' in str(i[1]):
+            elif i[1] != None and str(i[1][:4]).isnumeric() is False:
                 # Add the SN and GRB name
                 event_list.append('GRB'+str(i[0])+'-'+str(i[1]))
             else:
                 # GRB only
                 event_list.append('GRB'+str(i[0]))
         elif i[1] != None:
-            if 'AT' in str(i[1]):
-                # SN only
-                event_list.append(str(i[1]))
-            else:
+            if str(i[1][:4]).isnumeric():
                 # SN only
                 event_list.append('SN'+str(i[1]))
+            else:
+                # SN only
+                event_list.append(str(i[1]))
 
     # Create a form to take in user data
     form = TableForm(request.form)
-    #print("The errors were", form.errors)
 
     if request.method == 'POST' and form.validate_on_submit():
         # List of vars to include in the query
@@ -2046,9 +2227,13 @@ def advsearch():
         # Check if the variables are as expected
         if event_id != str():
 
-            if str(event_id)[2:] in sne:  # if they search an SN
+            if str(event_id)[2:] in sne:  # if they search an SNYYYYxx sn type
                 querylist.append(f"SNe=?")
                 varlist.append(str(event_id[2:]))
+
+            elif str(event_id) in sne:  # if they search an non-SNYYYYxx sn type
+                querylist.append(f"SNe=?")
+                varlist.append(str(event_id))
 
             elif str(event_id)[3:] in grbs:  # if they search an GRB
                 querylist.append(f"GRB=?")
@@ -2249,22 +2434,22 @@ def advsearch():
         event_list = []
         for i in data:
             if i[0] != None:
-                if i[1] != None and 'AT' not in str(i[1]):
+                if i[1] != None and str(i[1][:4]).isnumeric():
                     # Add the SN and GRB name
                     event_list.append('GRB'+str(i[0])+'-SN'+str(i[1]))
-                elif i[1] != None and 'AT' in str(i[1]):
+                elif i[1] != None and str(i[1][:4]).isnumeric() is False:
                     # Add the SN and GRB name
                     event_list.append('GRB'+str(i[0])+'-'+str(i[1]))
                 else:
                     # GRB only
                     event_list.append('GRB'+str(i[0]))
             elif i[1] != None:
-                if 'AT' in str(i[1]):
-                    # SN only
-                    event_list.append(str(i[1]))
-                else:
+                if str(i[1][:4]).isnumeric():
                     # SN only
                     event_list.append('SN'+str(i[1]))
+                else:
+                    # SN only
+                    event_list.append(str(i[1]))
 
         return render_template('advancedsearch.html', form=form, data=data, mid_query=mid_query, varlist=varlist, event_list=event_list)
 
@@ -2297,7 +2482,6 @@ def get_advsearch_table(query, varlist):
             "SELECT * FROM PeakTimesMags", conn)
     else:
         # Read the main db table
-        #print("The query is", query)
         df1 = pd.read_sql_query(
             "SELECT * FROM SQLDataGRBSNe"+query, conn, params=tuple(varlist, ))
 
@@ -2338,7 +2522,7 @@ def get_advsearch_table(query, varlist):
 
     zipf.seek(0)
 
-    return send_file(zipf, mimetype='zip', attachment_filename='GRBSNData.zip', as_attachment=True)
+    return send_file(zipf, mimetype='zip', download_name='GRBSNData.zip', as_attachment=True)
 
 
 @app.route('/megadownload/<directory_list>', methods=['GET', 'POST'])
@@ -2354,7 +2538,7 @@ def get_observations(directory_list):
                 zipf.write(current_app.root_path+'/static/SourceData/' +
                            folder+'/'+file, folder+'/'+file)
     filestream.seek(0)
-    return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
+    return send_file(filestream, download_name='Observations.zip', as_attachment=True)
 
 
 # Run app

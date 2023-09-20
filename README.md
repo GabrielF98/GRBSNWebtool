@@ -1,9 +1,11 @@
 # The GRB-SN Webtool repository 
-![Latest Stable Release](https://img.shields.io/badge/latestrelease-v1.0.5-teal)
+![Latest Stable Release](https://img.shields.io/badge/latestrelease-v1.0.10-teal)
 
-This repository hosts the data and code for the [GRB-SN Webtool](). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
+This repository hosts the data and code for the [GRB-SN Webtool](https://ucdatoms.eu.pythonanywhere.com). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
 
 The GRB-SN Webtool was created by Gabriel Finneran and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper]().
+
+To get in touch please email Gabriel Finneran at gabriel.finneran@ucdconnect.ie
 
 # Missing/bad data or missing GRB-SN associations 
 If you are aware of any missing observations, erroneous data or additional bulk data (e.g. isotropic energy/magnitude) for any of the events in the catalogue you can log this as an issue [here](https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E). 
