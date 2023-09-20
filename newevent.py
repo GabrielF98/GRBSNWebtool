@@ -13,7 +13,7 @@ import requests
 from yaml2db import _load_yaml_config, dict2db
 
 
-def readDatabase(databaseID, headers):
+def readDatabase():
     # Find new GRB-SNe in Notion
     # Initialisation
     token = 'secret_NQONcPqFCcw0jzEHQ2gxcPyhzrIy0lizo5LLp0eWRvF'
@@ -113,7 +113,7 @@ def main(event_name):
         create_new_stuff(event_list=[event_name])
 
     else:
-        notion_events = readDatabase(databaseID, headers)
+        notion_events = readDatabase()
         create_new_stuff(notion_events)
 
 
