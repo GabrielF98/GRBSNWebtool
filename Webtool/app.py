@@ -20,8 +20,11 @@ from bokeh.palettes import Category20_20, d3, viridis
 from bokeh.plotting import figure
 from bokeh.transform import factor_cmap, factor_mark
 # Basic flask stuff
-from flask import (Flask, Response, abort, current_app, flash, make_response,
-                   redirect, render_template, request, send_file, url_for)
+from flask import (Blueprint, Flask, Response, abort, current_app, flash,
+                   make_response, redirect, render_template, request,
+                   send_file, url_for)
+# API
+from flask_restx import Api, Resource, reqparse
 # Search bars
 from flask_wtf import FlaskForm
 # Matplotlib
@@ -259,6 +262,9 @@ def processing_tag(event_id, band):
 
 # Creating the instance of the app
 app = Flask(__name__, instance_relative_config=True)
+blueprint = Blueprint('api', __name__, url_prefix='/api')
+api = Api(blueprint)
+app.register_blueprint(blueprint)
 app.config.from_pyfile('config.py')
 
 
@@ -290,8 +296,237 @@ def grb_names():
 
 
 @app.errorhandler(404)
-def page_not_found(error):
+def page_not_found():
     return render_template('404.html', title='404'), 404
+
+
+# API page
+parser = reqparse.RequestParser()
+parser.add_argument('event', type=str,
+                    help='You need to provide the name of a GRB-SN.', location='args')
+
+
+@api.route('/get-event')
+class Downloads(Resource):
+    api.doc(parser=parser)
+
+    # @api.representation('application/octet-stream')
+    def get(self):
+        args = parser.parse_args()
+        folder = args['event']
+        print(folder)
+        filestream = io.BytesIO()
+        with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
+            for file in os.listdir(current_app.root_path+'/static/SourceData/'+folder+'/'):
+                zipf.write(current_app.root_path+'/static/SourceData/' +
+                           folder+'/'+file, folder+'/'+file)
+        filestream.seek(0)
+        return send_file(filestream, download_name='Observations.zip',
+                         as_attachment=True)
+
+
+@api.route('/filteredbyredshift/max_redshift_<max_redshift>+min_redshift_<min_redshift>')
+class Downloads2(Resource):
+    def get(self, max_redshift, min_redshift):
+
+        conn = get_db_connection()
+
+        names = conn.execute("SELECT DISTINCT GRB, SNe from SQLDataGRBSNe WHERE z>? AND z<?",
+                             (min_redshift, max_redshift,)).fetchall()
+
+        directory_list = []
+        for name in names:
+            print(name[0])
+            if name['GRB'] == None:
+                directory_list.append('SN'+name['SNe'])
+
+            elif name['SNe'] == None:
+                directory_list.append('GRB'+name['GRB'])
+
+            else:
+                if 'AT' in name['SNe']:
+                    directory_list.append('GRB'+name['GRB']+'-'+name['SNe'])
+                else:
+                    directory_list.append(
+                        'GRB'+name['GRB']+'-'+'SN'+name['SNe'])
+
+        filestream = io.BytesIO()
+        with zipfile.ZipFile(filestream, mode='w', compression=zipfile.ZIP_DEFLATED) as zipf:
+            for folder in directory_list:
+                for file in os.listdir(current_app.root_path+'/static/SourceData/'+folder+'/'):
+                    zipf.write(current_app.root_path+'/static/SourceData/' +
+                               folder+'/'+file, folder+'/'+file)
+        filestream.seek(0)
+        return send_file(filestream, download_name='Observations.zip', as_attachment=True)
+
+
+def plot_optical(event):
+    # Select the optical master file and import it
+    optical = pd.read_csv(os.path.join(
+        app.root_path, 'static/SourceData/', event, event+'_Optical_Master.txt'), sep='\t')
+
+    # Extract info about the filters in the data
+    bands = list(set(list(optical['band'])))
+
+    # Choose colours/fillstyles for the plots
+    colours = ["#D81B60", "#1E88E5", "#FFC107",
+               "#004D40", "#6661B9", "#9F48E1", "#444297"]
+    fills = ['none', 'full']
+
+    # Choose an offset for the data in the plot
+    offset = 1
+
+    # Get the limits for the plots
+    max_time = np.max(optical['time'])
+    min_time = np.min(optical['time'])
+    max_mag = np.max(optical['mag'].to_numpy()+offset*(len(bands)-1))
+    min_mag = np.min(optical['mag'])
+
+    for j, band in enumerate(bands):
+        # Use pandas to select the points that correspond to the desired filter.
+
+        # Use pandas to select the points that are upper limits.
+        # Upper limits are represented by a 1 in the mag_limit column.
+        upper_limits = optical.loc[(optical['band'] == band) & (
+            optical['mag_limit'] == 1)]['mag']
+        limit_times = optical.loc[(optical['band'] == band) & (
+            optical['mag_limit'] == 1)]['time']
+
+        # Use pandas to select the errors on the non-upper-limit points
+        errors = optical.loc[(optical['band'] == band) &
+                             (optical['mag_limit'] != 1)]['dmag']
+
+        # Use pandas to select the observation times and values.
+        observations = optical.loc[(optical['band'] == band) & (
+            optical['mag_limit'] != 1)]['mag']
+        obs_times = optical.loc[(optical['band'] == band) & (
+            optical['mag_limit'] != 1)]['time']
+
+        # Plotting
+        plt.plot(obs_times, observations+offset*j, label=str(band)+'+'+str(j*offset), marker='o',
+                 linestyle='', color=colours[j % 7], fillstyle=fills[j % 2])
+        plt.errorbar(obs_times, observations+offset*j, errors,
+                     linestyle='', color=colours[j % 7], marker='')
+        plt.plot(limit_times, upper_limits+offset*j, marker='v', linestyle='',
+                 color=colours[j % 7], fillstyle=fills[j % 2])
+
+    # Make it look good
+    plt.xlabel('Time since GRB [days]')
+    plt.xscale('log')
+    plt.ylabel('Magnitude')
+    plt.legend()
+    plt.xlim([0.6*(min_time), max_time+(5)*max_time])
+    plt.ylim([max_mag+0.5, min_mag-0.5])
+    plt.tick_params(which="minor", axis="x", direction="in")
+    plt.tick_params(which="major", axis="x", direction="in")
+    plt.tick_params(which="major", axis="y", direction="in")
+
+    # save this pyplot into a BytesIO string
+    byte_io = io.BytesIO()
+    plt.savefig(byte_io, format='pdf')
+    byte_io.seek(0)
+    plt.close()
+    return byte_io
+
+
+def plot_radio(event):
+    # Select the radio master file and import it.
+    radio = pd.read_csv(os.path.join(
+        app.root_path, 'static/SourceData/', event, event+'_Radio_Master.txt'), sep='\t')
+
+    # Select the frequency bands used
+    freqs = list(set(list(radio['freq'])))
+
+    # Choose colours for the plots
+    colours = ["#D81B60", "#1E88E5", "#FFC107",
+               "#004D40", "#6661B9", "#9F48E1", "#444297"]
+    fillstyles = ['none', 'full']
+
+    # Make sure all fluxes are in mircoJy
+    radio['flux_density'] = np.where(radio['flux_density_unit'] == 'milliJy',
+                                     radio['flux_density']*1000,
+                                     radio['flux_density'])
+    radio['dflux_density'] = np.where(radio['flux_density_unit'] == 'milliJy',
+                                      radio['dflux_density']*1000,
+                                      radio['dflux_density'])
+    radio['flux_density'] = np.where(radio['flux_density_unit'] == 'Jy',
+                                     radio['flux_density']*1000000,
+                                     radio['flux_density'])
+    radio['dflux_density'] = np.where(radio['flux_density_unit'] == 'Jy',
+                                      radio['dflux_density']*1000000,
+                                      radio['dflux_density'])
+
+    for j, freq in enumerate(freqs):
+        # Use pandas to select the points that correspond to the desired frequency range.
+
+        # Use pandas to select the points that are upper limits.
+        # Upper limits are represented by a 1 in the flux_density_limit column.
+        upper_limits = radio.loc[(radio['freq'] == freq) & (
+            radio['flux_density_limit'] == 1)]['flux_density']
+        limit_times = radio.loc[(radio['freq'] == freq) & (
+            radio['flux_density_limit'] == 1)]['time']
+
+        # Use pandas to select the errors on the non-upper-limit points
+        errors = radio.loc[(radio['freq'] == freq) & (
+            radio['flux_density_limit'] != 1)]['dflux_density']
+
+        # Use pandas to select the observation times and values.
+        observations = radio.loc[(radio['freq'] == freq) & (
+            radio['flux_density_limit'] != 1)]['flux_density']
+        obs_times = radio.loc[(radio['freq'] == freq) & (
+            radio['flux_density_limit'] != 1)]['time']
+
+        # Plotting
+        plt.plot(obs_times, observations, label=str(freq)+'GHz', marker='o',
+                 linestyle='', color=colours[j % 7], fillstyle=fillstyles[j % 2])
+        plt.errorbar(obs_times, observations, errors,
+                     linestyle='', color=colours[j % 7], marker='')
+        plt.plot(limit_times, upper_limits, marker='v', linestyle='',
+                 color=colours[j % 7], fillstyle=fillstyles[j % 2])
+
+    # Make it look good.
+    plt.xlabel('Time since GRB [days]')
+    plt.xscale('log')
+    plt.ylabel('Flux density [μJy]')
+    plt.yscale('log')
+    plt.legend()
+    plt.tick_params(which="minor", axis="x", direction="in")
+    plt.tick_params(which="major", axis="x", direction="in")
+    plt.tick_params(which="major", axis="y", direction="in")
+
+    # save this pyplot into a BytesIO string
+    byte_io = io.BytesIO()
+    plt.savefig(byte_io, format='pdf')
+    byte_io.seek(0)
+    plt.close()
+    return byte_io
+
+
+@api.route('/plotting/events_<events>+waverange_<waveranges>')
+class Plotting(Resource):
+    def get(self, waveranges, events):
+        # Convert the string to a list
+        waverange_list = ast.literal_eval('['+waveranges+']')
+        event_list = ast.literal_eval('['+events+']')
+
+        stream = io.BytesIO()
+        with zipfile.ZipFile(stream, 'w') as zf:
+            for event in event_list:
+                for waverange in waverange_list:
+                    if waverange == 'Optical':
+                        if exists(os.path.join(app.root_path, 'static/SourceData/', event, event+'_Optical_Master.txt')):
+                            optical_io = plot_optical(event)
+                            zf.writestr(event+'_'+waverange+'.pdf',
+                                        optical_io.getvalue())
+                    elif waverange == 'Radio':
+                        if exists(os.path.join(app.root_path, 'static/SourceData/', event, event+'_Radio_Master.txt')):
+                            radio_io = plot_radio(event)
+                            zf.writestr(event+'_'+waverange +
+                                        '.pdf', radio_io.getvalue())
+        stream.seek(0)
+
+        return send_file(stream, as_attachment=True, download_name='plots.zip')
+
 
 # The homepage and its location
 
@@ -397,8 +632,6 @@ def z_plotter():
                 grb_name = i['GRB']
                 z_photometric.append(float(i['z']))
 
-    z = z_photometric+z_spectroscopic
-
     conn.close()
     # Do graphing
     # E_iso plot
@@ -419,8 +652,6 @@ def z_plotter():
     response = make_response(output.getvalue())
     response.mimetype = 'image/png'
     return response
-
-    return render_template('home.html', form=form, data=data)
 
 
 # References
@@ -577,7 +808,7 @@ def event(event_id):
 
     # create a new plot with a title and axis labels
     xray = figure(title='X-ray', toolbar_location="right", y_axis_type="log",
-                  x_axis_type="log", margin=5, aspect_ratio= 16/9, max_width=1000)
+                  x_axis_type="log", margin=5, aspect_ratio=16/9, max_width=1000)
 
     legend_it = []
     #################################
@@ -826,7 +1057,7 @@ def event(event_id):
     t0_utc = '0'
 
     optical = figure(title='Optical (GRB+SN)', toolbar_location="right",
-                     x_axis_type="log", margin=5, aspect_ratio= 16/9, max_width=1000)
+                     x_axis_type="log", margin=5, aspect_ratio=16/9, max_width=1000)
 
     ####### References #############
     optical_refs = []  # Has to be outside the loop so it wont crash for non SN pages
@@ -1138,7 +1369,7 @@ def event(event_id):
     ##### RADIO############################################################################
     ######################################################################################
     radio = figure(title='Radio (GRB)', toolbar_location="right",
-                   y_axis_type="log", x_axis_type="log", margin=5, aspect_ratio= 16/9, max_width=1000)
+                   y_axis_type="log", x_axis_type="log", margin=5, aspect_ratio=16/9, max_width=1000)
 
     #################################
     # ADS data ######################
@@ -1335,7 +1566,7 @@ def event(event_id):
 
     # Figure
     spectrum = figure(title='Spectrum (SN)', toolbar_location="right",
-                      tools=select_tools, margin=5, aspect_ratio= 1, max_width=1000)
+                      tools=select_tools, margin=5, aspect_ratio=1, max_width=1000)
 
     # Blank tooltips
     tooltips = []
