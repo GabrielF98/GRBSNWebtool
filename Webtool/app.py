@@ -357,7 +357,7 @@ class Downloads2(Resource):
                     zipf.write(current_app.root_path+'/static/SourceData/' +
                                folder+'/'+file, folder+'/'+file)
         filestream.seek(0)
-        return send_file(filestream, attachment_filename='Observations.zip', as_attachment=True)
+        return send_file(filestream, download_name='Observations.zip', as_attachment=True)
 
 
 def plot_optical(event):
@@ -525,7 +525,7 @@ class Plotting(Resource):
                                         '.pdf', radio_io.getvalue())
         stream.seek(0)
 
-        return send_file(stream, as_attachment=True, attachment_filename='plots.zip')
+        return send_file(stream, as_attachment=True, download_name='plots.zip')
 
 
 # The homepage and its location
