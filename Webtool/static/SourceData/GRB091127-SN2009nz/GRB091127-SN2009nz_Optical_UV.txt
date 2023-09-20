@@ -1,44 +1,32 @@
-Table 1 
-GRB 091127 OT Photometry
-
-
-Observed	Rest-frame	Magnitude^c	Filter	Exp.	Instrument	m_I	m_I	M_V	
-Days^a	Days^b			Time (s)		OAG+SN^d	SN^e	SN^f	
-0.04263	0.02861	15.64 +or- 0.05	UVM2	196.6	Swift/UVOT	 ... 	 ... 	 ... 	
-0.04410	0.02960	15.70 +or- 0.07	UVW1	40.9	Swift/UVOT	 ... 	 ... 	 ... 	
-0.06419	0.04308	16.01 +or- 0.05	UVW1	115.2	Swift/UVOT	 ... 	 ... 	 ... 	
-0.06713	0.04505	16.26 +or- 0.13	U	10.6	Swift/UVOT	 ... 	 ... 	 ... 	
-0.09183	0.06163	17.29 +or- 0.01	B	180	SMARTS/ANDICAM	 ... 	 ... 	 ... 	
-0.09183	0.06163	17.05 +or- 0.01	V	120	SMARTS/ANDICAM	 ... 	 ... 	 ... 	
-0.09183	0.06163	16.76 +or- 0.01	R	180	SMARTS/ANDICAM	 ... 	 ... 	 ... 	
-0.09183	0.06163	16.48 +or- 0.01	I	180	SMARTS/ANDICAM	16.48	 ... 	 ... 	
-0.09183	0.06163	15.87 +or- 0.03	J	180	SMARTS/ANDICAM	 ... 	 ... 	 ... 	
-0.09183	0.06163	15.35 +or- 0.03	H	120	SMARTS/ANDICAM	 ... 	 ... 	 ... 	
-0.09183	0.06163	14.82 +or- 0.03	K	180	SMARTS/ANDICAM	 ... 	 ... 	 ... 	
-0.10804	0.07251	16.57 +or- 0.02	U	542.9	Swift/UVOT	 ... 	 ... 	 ... 	
-0.13365	0.08970	16.76 +or- 0.11	U	25.4	Swift/UVOT	 ... 	 ... 	 ... 	
-0.15803	0.10606	16.76 +or- 0.02	I	180	SMARTS/ANDICAM	16.77	 ... 	 ... 	
-0.17632	0.11834	16.86 +or- 0.02	U	819.6	Swift/UVOT	 ... 	 ... 	 ... 	
-0.22483	0.15089	17.02 +or- 0.02	I	180	SMARTS/ANDICAM	17.03	 ... 	 ... 	
-1.15758	0.77690	19.20 +or- 0.03	I	1080	SMARTS/ANDICAM	19.25	 ... 	 ... 	
-1.27663	0.85680	19.22 +or- 0.03	I	1080	SMARTS/ANDICAM	19.27	 ... 	 ... 	
-4.19824	2.81761	21.24 +or- 0.06	I	2160	SMARTS/ANDICAM	21.63	 ... 	 ... 	
-6.15057	4.12790	21.35 +or- 0.05	I	2160	SMARTS/ANDICAM	21.79	23.96	-17.39	
-9.17582	6.15827	21.60 +or- 0.02	I	900	Gemini/GMOS	22.20	23.46	-17.89	
-9.18961	6.16752	21.63 +or- 0.07	I	2160	SMARTS/ANDICAM	22.24	23.58	-17.78	
-11.19510	7.51349	21.57 +or- 0.07	I	2160	SMARTS/ANDICAM	22.14	22.85	-18.51	
-13.16730	8.83711	21.55 +or- 0.07	I	2160	SMARTS/ANDICAM	22.11	22.60	-18.75	
-18.05810	12.11950	21.55 +or- 0.01	I	900	Gemini/GMOS	22.10	22.38	-18.97	
-20.16250	13.53190	21.59 +or- 0.07	I	2160	SMARTS/ANDICAM	22.18	22.42	-18.93	
-22.13420	14.85520	21.54 +or- 0.06	I	2160	SMARTS/ANDICAM	22.09	22.28	-19.07	
-24.12250	16.18960	21.56 +or- 0.07	I	2160	SMARTS/ANDICAM	22.13	22.30	-19.05	
-47.10720	31.61560	22.13 +or- 0.02	I	900	Gemini/GMOS	23.39	23.60	-17.76	
-76.11240	51.08210	22.31 +or- 0.01	I	900	Gemini/GMOS	24.14	24.33	-17.02	
-102.03562	68.48030	22.54 +or- 0.05	I	900	Gemini/GMOS	 ... 	 ... 	 ... 	
-Notes.
-a Observer-frame days after burst trigger at 2009 November 27, 23:25:45.
-b Rest-frame days after trigger; t_rest = t_obs/(1 + z).
-c Vega magnitudes corrected for Galactic extinction (E_B-V = 0.038). In addition to the errors quoted, there is a systematic uncertainty of 0.05 mag in the SMARTS/Gemini photometric zero point.
-d Observed I-band magnitude of the OT after subtraction of the host galaxy (I_host = 22.54 mag); it is a combination of the burst's OAG and SN.
-e Observed I-band magnitude of SN 2009nz. Both the host galaxy and the OAG have been subtracted from the raw observed magnitude of the OT. The brightness of the OAG is modeled by a fit 1-6 days post-burst (after host subtraction), with OAG magnitude =18.944 + 3.812 x log(t_obs), where t_obs is days post-burst in the observer frame (Column 1).
-f V-band absolute magnitude of SN 2009nz, assuming a distance modulus of 42.2 mag and a K-correction of -0.85 mag.
+time	mag_limit	mag	dmag	band	integration	telescope	time_unit	mag_unit	mag_type	integration_unit	extinction_corrected	dtime	time_frame
+0.04263	0	15.64	0.05	UVM2	196.6	days	days	Vega	apparent	seconds	True	NaN	observer
+0.0441	0	15.7	0.07	UVW1	40.9	days	days	Vega	apparent	seconds	True	NaN	observer
+0.06419	0	16.01	0.05	UVW1	115.2	days	days	Vega	apparent	seconds	True	NaN	observer
+0.06713	0	16.26	0.13	U	10.6	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	17.29	0.01	B	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	17.05	0.01	V	120.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	16.76	0.01	R	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	16.48	0.01	I	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	15.87	0.03	J	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	15.35	0.03	H	120.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.09183	0	14.82	0.03	K	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.10804	0	16.57	0.02	U	542.9	days	days	Vega	apparent	seconds	True	NaN	observer
+0.13365	0	16.76	0.11	U	25.4	days	days	Vega	apparent	seconds	True	NaN	observer
+0.15803	0	16.76	0.02	I	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+0.17632	0	16.86	0.02	U	819.6	days	days	Vega	apparent	seconds	True	NaN	observer
+0.22483	0	17.02	0.02	I	180.0	days	days	Vega	apparent	seconds	True	NaN	observer
+1.15758	0	19.2	0.03	I	1080.0	days	days	Vega	apparent	seconds	True	NaN	observer
+1.27663	0	19.22	0.03	I	1080.0	days	days	Vega	apparent	seconds	True	NaN	observer
+4.19824	0	21.24	0.06	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+6.15057	0	21.35	0.05	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+9.17582	0	21.6	0.02	I	900.0	days	days	Vega	apparent	seconds	True	NaN	observer
+9.18961	0	21.63	0.07	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+11.1951	0	21.57	0.07	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+13.1673	0	21.55	0.07	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+18.0581	0	21.55	0.01	I	900.0	days	days	Vega	apparent	seconds	True	NaN	observer
+20.1625	0	21.59	0.07	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+22.1342	0	21.54	0.06	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+24.1225	0	21.56	0.07	I	2160.0	days	days	Vega	apparent	seconds	True	NaN	observer
+47.1072	0	22.13	0.02	I	900.0	days	days	Vega	apparent	seconds	True	NaN	observer
+76.1124	0	22.31	0.01	I	900.0	days	days	Vega	apparent	seconds	True	NaN	observer
+102.03562	0	22.54	0.05	I	900.0	days	days	Vega	apparent	seconds	True	NaN	observer
