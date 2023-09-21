@@ -791,9 +791,13 @@ def event(event_id):
                 2:4]+'-'+str(radec[0]['grb_id'])[4:6]+'T'+grb_time
 
     else:
-        grb_time_str_split = radec[0]['trigtime'].split('T')
-        grb_time_str = grb_time_str_split[0]+' '+grb_time_str_split[1]
-        grb_time_iso = str(radec[0]['trigtime'])
+        if grb_time == '00:00:00':
+            grb_time_str = '1970-01-01 00:00:00'
+            grb_time_iso = '1970-01-01T00:00:00'
+        else:
+            grb_time_str_split = radec[0]['trigtime'].split('T')
+            grb_time_str = grb_time_str_split[0]+' '+grb_time_str_split[1]
+            grb_time_iso = str(radec[0]['trigtime'])
 
     # Convert to MJD
     # make the isotime object
