@@ -1,15 +1,6 @@
 band	time	mag	mag_limit	dmag	instrument	time_unit	mag_unit	mag_type	time_frame	extinction_corrected	dtime
-B	2189.0	25.99	0	0.12	Keck/LRIS	days	AB	apparent	observer	False	NaN
-g′	1763.0	26.06	0	0.06	Gemini_North/GMOS	days	AB	apparent	observer	False	NaN
-r′	290.0	25.47	0	0.11	Gemini_North/GMOS	days	AB	apparent	observer	False	NaN
-Rc	2189.0	25.43	0	0.18	Keck/LRIS	days	AB	apparent	observer	False	NaN
-3.6μm	1826.0	23.59	0	0.11	Spitzer/IRAC	days	AB	apparent	observer	False	NaN
 Rc	29.33	24.08	0	0.16	TNG/DoLoRes	days	AB	apparent	observer	False	NaN
 Rc	34.51	24.12	0	0.13	TNG/DoLoRes	days	AB	apparent	observer	False	NaN
 Rc	76.23	24.53	0	0.22	TNG/DoLoRes	days	AB	apparent	observer	False	NaN
 Ic	34.44	23.33	0	0.1	TNG/DoLoRes	days	AB	apparent	observer	False	NaN
 Ic	76.3	24.1	0	0.14	TNG/DoLoRes	days	AB	apparent	observer	False	NaN
-J	455.0	22.34	0	0.13	VLT/HAWKI	days	AB	apparent	observer	False	NaN
-K_{s}	455.0	22.22	0	0.14	VLT/HAWKI	days	AB	apparent	observer	False	NaN
-J	289.0	23.53	0	0.22	Keck/MOSFIRE	days	AB	apparent	observer	False	NaN
-3.6μm	756.0	24.0	1	NaN	Spitzer/IRAC	days	AB	apparent	observer	False	NaN
