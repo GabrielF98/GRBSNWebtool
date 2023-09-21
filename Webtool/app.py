@@ -2009,7 +2009,7 @@ def graphs():
                      'spec': 'Spectroscopic SNe Only', 'phot': 'Photometric SNe Only'}
     name_dict = {'e_iso': 'Eiso [erg]', 'z': 'Redshift',
                  'ni_m': u'SN Nickel Mass [M\u2609]', 'ej_m': u'SN Ejecta Mass [M\u2609]',
-                 'E_p': "GRB Peak Energy [erg]", 'e_k': 'GRB Kinetic Energy [erg]',
+                 'E_p': "GRB Peak Energy [erg]", 'e_k': 'SN Kinetic Energy [erg]',
                  'T90': "T90 [sec]"}
 
     axis = {'e_iso': 'log', 'z': 'linear', 'ni_m': 'linear', 'ej_m': 'linear',
@@ -2092,9 +2092,10 @@ def graphs():
         data_source = ColumnDataSource(data_dict)
 
         # Plot the data
-        graph = figure(x_axis_type=str(axis[x]), y_axis_type=str(
-            axis[y]), toolbar_location="right", plot_width=1200, plot_height=700)
-
+        graph = figure(x_axis_type=str(axis[x]), y_axis_type=str(axis[y]),
+                       toolbar_location="right", plot_width=1200, plot_height=700)
+        graph.xaxis.ticker.desired_num_ticks = 2
+        graph.yaxis.ticker.desired_num_ticks = 2
         graph.circle(x, y, source=data_source,
                      size=10, fill_color='orange')
         graph.inverted_triangle(
