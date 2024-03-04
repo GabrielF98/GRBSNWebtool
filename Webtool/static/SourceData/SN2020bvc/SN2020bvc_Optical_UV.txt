@@ -1,49 +1,49 @@
-instrument	band	date	mag	mag_limit	dmag	date_unit	mag_unit	time_unit	time	dtime
-UVOT	V	58884.0	17.18	0	0.22	MJD	unspecified	days	1.24	NaN
-UVOT	V	58885.6	17.12	0	0.22	MJD	unspecified	days	2.84	NaN
-UVOT	V	58886.5	17.47	0	0.26	MJD	unspecified	days	3.74	NaN
-UVOT	V	58887.3	17.24	0	0.25	MJD	unspecified	days	4.54	NaN
-UVOT	V	58888.9	17.13	0	0.22	MJD	unspecified	days	6.14	NaN
-UVOT	V	58891.6	16.59	0	0.14	MJD	unspecified	days	8.84	NaN
-UVOT	V	58893.5	16.4	0	0.14	MJD	unspecified	days	10.74	NaN
-UVOT	V	58895.0	16.25	0	0.17	MJD	unspecified	days	12.24	NaN
-UVOT	B	58884.0	17.22	0	0.15	MJD	unspecified	days	1.24	NaN
-UVOT	B	58885.6	17.45	0	0.17	MJD	unspecified	days	2.84	NaN
-UVOT	B	58886.5	17.63	0	0.18	MJD	unspecified	days	3.74	NaN
-UVOT	B	58887.3	17.48	0	0.18	MJD	unspecified	days	4.54	NaN
-UVOT	B	58888.9	17.02	0	0.14	MJD	unspecified	days	6.14	NaN
-UVOT	B	58891.6	16.93	0	0.12	MJD	unspecified	days	8.84	NaN
-UVOT	B	58893.5	17.01	0	0.13	MJD	unspecified	days	10.74	NaN
-UVOT	B	58895.0	17.34	0	0.17	MJD	unspecified	days	12.24	NaN
-UVOT	U	58884.0	17.12	0	0.14	MJD	unspecified	days	1.24	NaN
-UVOT	U	58885.6	18.27	0	0.21	MJD	unspecified	days	2.84	NaN
-UVOT	U	58886.5	18.18	0	0.2	MJD	unspecified	days	3.74	NaN
-UVOT	U	58887.3	17.96	0	0.19	MJD	unspecified	days	4.54	NaN
-UVOT	U	58888.9	18.19	0	0.2	MJD	unspecified	days	6.14	NaN
-UVOT	U	58891.6	18.03	0	0.15	MJD	unspecified	days	8.84	NaN
-UVOT	U	58893.5	18.2	0	0.17	MJD	unspecified	days	10.74	NaN
-UVOT	U	58895.0	18.22	0	0.21	MJD	unspecified	days	12.24	NaN
-UVOT	W1	58884.0	17.32	0	0.13	MJD	unspecified	days	1.24	NaN
-UVOT	W1	58885.6	19.08	0	0.24	MJD	unspecified	days	2.84	NaN
-UVOT	W1	58886.5	18.96	0	0.22	MJD	unspecified	days	3.74	NaN
-UVOT	W1	58887.3	19.25	0	0.26	MJD	unspecified	days	4.54	NaN
-UVOT	W1	58888.9	18.92	0	0.22	MJD	unspecified	days	6.14	NaN
-UVOT	W1	58891.6	19.25	0	0.19	MJD	unspecified	days	8.84	NaN
-UVOT	W1	58893.5	19.3	0	0.21	MJD	unspecified	days	10.74	NaN
-UVOT	W1	58895.0	19.34	0	0.28	MJD	unspecified	days	12.24	NaN
-UVOT	M2	58884.0	17.47	0	0.12	MJD	unspecified	days	1.24	NaN
-UVOT	M2	58885.6	19.8	0	0.25	MJD	unspecified	days	2.84	NaN
-UVOT	M2	58886.5	19.92	0	0.26	MJD	unspecified	days	3.74	NaN
-UVOT	M2	58887.3	19.86	0	0.27	MJD	unspecified	days	4.54	NaN
-UVOT	M2	58888.9	19.62	0	0.22	MJD	unspecified	days	6.14	NaN
-UVOT	M2	58891.6	20.17	0	0.22	MJD	unspecified	days	8.84	NaN
-UVOT	M2	58893.5	19.93	0	0.21	MJD	unspecified	days	10.74	NaN
-UVOT	M2	58895.0	19.71	0	0.26	MJD	unspecified	days	12.24	NaN
-UVOT	W2	58884.0	17.83	0	0.14	MJD	unspecified	days	1.24	NaN
-UVOT	W2	58885.6	19.64	0	0.26	MJD	unspecified	days	2.84	NaN
-UVOT	W2	58886.5	19.43	0	0.24	MJD	unspecified	days	3.74	NaN
-UVOT	W2	58887.3	19.82	0	0.29	MJD	unspecified	days	4.54	NaN
-UVOT	W2	58888.9	19.75	0	0.26	MJD	unspecified	days	6.14	NaN
-UVOT	W2	58891.6	19.73	0	0.21	MJD	unspecified	days	8.84	NaN
-UVOT	W2	58893.5	19.65	0	0.21	MJD	unspecified	days	10.74	NaN
-UVOT	W2	58895.0	20.39	0	0.37	MJD	unspecified	days	12.24	NaN
+instrument	band	date	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	time_frame	dtime
+UVOT	V	58884.0	17.18	0	0.22	MJD	unspecified	1.33	days	observer	NaN
+UVOT	V	58885.6	17.12	0	0.22	MJD	unspecified	2.9299999999999997	days	observer	NaN
+UVOT	V	58886.5	17.47	0	0.26	MJD	unspecified	3.83	days	observer	NaN
+UVOT	V	58887.3	17.24	0	0.25	MJD	unspecified	4.63	days	observer	NaN
+UVOT	V	58888.9	17.13	0	0.22	MJD	unspecified	6.23	days	observer	NaN
+UVOT	V	58891.6	16.59	0	0.14	MJD	unspecified	8.93	days	observer	NaN
+UVOT	V	58893.5	16.4	0	0.14	MJD	unspecified	10.83	days	observer	NaN
+UVOT	V	58895.0	16.25	0	0.17	MJD	unspecified	12.33	days	observer	NaN
+UVOT	B	58884.0	17.22	0	0.15	MJD	unspecified	1.33	days	observer	NaN
+UVOT	B	58885.6	17.45	0	0.17	MJD	unspecified	2.9299999999999997	days	observer	NaN
+UVOT	B	58886.5	17.63	0	0.18	MJD	unspecified	3.83	days	observer	NaN
+UVOT	B	58887.3	17.48	0	0.18	MJD	unspecified	4.63	days	observer	NaN
+UVOT	B	58888.9	17.02	0	0.14	MJD	unspecified	6.23	days	observer	NaN
+UVOT	B	58891.6	16.93	0	0.12	MJD	unspecified	8.93	days	observer	NaN
+UVOT	B	58893.5	17.01	0	0.13	MJD	unspecified	10.83	days	observer	NaN
+UVOT	B	58895.0	17.34	0	0.17	MJD	unspecified	12.33	days	observer	NaN
+UVOT	U	58884.0	17.12	0	0.14	MJD	unspecified	1.33	days	observer	NaN
+UVOT	U	58885.6	18.27	0	0.21	MJD	unspecified	2.9299999999999997	days	observer	NaN
+UVOT	U	58886.5	18.18	0	0.2	MJD	unspecified	3.83	days	observer	NaN
+UVOT	U	58887.3	17.96	0	0.19	MJD	unspecified	4.63	days	observer	NaN
+UVOT	U	58888.9	18.19	0	0.2	MJD	unspecified	6.23	days	observer	NaN
+UVOT	U	58891.6	18.03	0	0.15	MJD	unspecified	8.93	days	observer	NaN
+UVOT	U	58893.5	18.2	0	0.17	MJD	unspecified	10.83	days	observer	NaN
+UVOT	U	58895.0	18.22	0	0.21	MJD	unspecified	12.33	days	observer	NaN
+UVOT	W1	58884.0	17.32	0	0.13	MJD	unspecified	1.33	days	observer	NaN
+UVOT	W1	58885.6	19.08	0	0.24	MJD	unspecified	2.9299999999999997	days	observer	NaN
+UVOT	W1	58886.5	18.96	0	0.22	MJD	unspecified	3.83	days	observer	NaN
+UVOT	W1	58887.3	19.25	0	0.26	MJD	unspecified	4.63	days	observer	NaN
+UVOT	W1	58888.9	18.92	0	0.22	MJD	unspecified	6.23	days	observer	NaN
+UVOT	W1	58891.6	19.25	0	0.19	MJD	unspecified	8.93	days	observer	NaN
+UVOT	W1	58893.5	19.3	0	0.21	MJD	unspecified	10.83	days	observer	NaN
+UVOT	W1	58895.0	19.34	0	0.28	MJD	unspecified	12.33	days	observer	NaN
+UVOT	M2	58884.0	17.47	0	0.12	MJD	unspecified	1.33	days	observer	NaN
+UVOT	M2	58885.6	19.8	0	0.25	MJD	unspecified	2.9299999999999997	days	observer	NaN
+UVOT	M2	58886.5	19.92	0	0.26	MJD	unspecified	3.83	days	observer	NaN
+UVOT	M2	58887.3	19.86	0	0.27	MJD	unspecified	4.63	days	observer	NaN
+UVOT	M2	58888.9	19.62	0	0.22	MJD	unspecified	6.23	days	observer	NaN
+UVOT	M2	58891.6	20.17	0	0.22	MJD	unspecified	8.93	days	observer	NaN
+UVOT	M2	58893.5	19.93	0	0.21	MJD	unspecified	10.83	days	observer	NaN
+UVOT	M2	58895.0	19.71	0	0.26	MJD	unspecified	12.33	days	observer	NaN
+UVOT	W2	58884.0	17.83	0	0.14	MJD	unspecified	1.33	days	observer	NaN
+UVOT	W2	58885.6	19.64	0	0.26	MJD	unspecified	2.9299999999999997	days	observer	NaN
+UVOT	W2	58886.5	19.43	0	0.24	MJD	unspecified	3.83	days	observer	NaN
+UVOT	W2	58887.3	19.82	0	0.29	MJD	unspecified	4.63	days	observer	NaN
+UVOT	W2	58888.9	19.75	0	0.26	MJD	unspecified	6.23	days	observer	NaN
+UVOT	W2	58891.6	19.73	0	0.21	MJD	unspecified	8.93	days	observer	NaN
+UVOT	W2	58893.5	19.65	0	0.21	MJD	unspecified	10.83	days	observer	NaN
+UVOT	W2	58895.0	20.39	0	0.37	MJD	unspecified	12.33	days	observer	NaN
