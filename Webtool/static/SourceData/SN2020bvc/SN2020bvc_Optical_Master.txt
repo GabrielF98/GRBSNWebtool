@@ -1,566 +1,566 @@
-instrument	band	date	mag	mag_limit	dmag	date_unit	mag_unit	time_unit	time	dtime	reference
-ASAS-SN	g	58883.6	18.6	1	NaN	MJD	unspecified	days	0.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ASAS-SN	g	58884.1	17.0	0	NaN	MJD	unspecified	days	1.34	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58884.5	17.33	0	0.05	MJD	unspecified	days	1.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58887.5	17.06	0	0.05	MJD	unspecified	days	4.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58890.6	16.71	0	0.05	MJD	unspecified	days	7.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58893.5	16.64	0	0.04	MJD	unspecified	days	10.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58898.5	16.86	0	0.03	MJD	unspecified	days	15.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58903.5	17.18	0	0.05	MJD	unspecified	days	20.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58911.4	17.81	0	0.06	MJD	unspecified	days	28.64	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58911.6	17.77	0	0.08	MJD	unspecified	days	28.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58914.5	18.03	0	0.07	MJD	unspecified	days	31.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58936.5	18.91	0	0.12	MJD	unspecified	days	53.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58939.5	18.82	0	0.2	MJD	unspecified	days	56.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58943.4	18.8	0	0.12	MJD	unspecified	days	60.64	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	g	58944.5	18.94	0	0.12	MJD	unspecified	days	61.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58884.5	17.55	0	0.06	MJD	unspecified	days	1.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58887.5	17.02	0	0.04	MJD	unspecified	days	4.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58890.5	16.59	0	0.04	MJD	unspecified	days	7.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58898.5	16.36	0	0.04	MJD	unspecified	days	15.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58903.5	16.48	0	0.04	MJD	unspecified	days	20.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58911.5	16.82	0	0.04	MJD	unspecified	days	28.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58914.5	17.07	0	0.04	MJD	unspecified	days	31.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58936.4	18.15	0	0.07	MJD	unspecified	days	53.64	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58939.4	18.13	0	0.09	MJD	unspecified	days	56.64	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58941.4	18.32	0	0.09	MJD	unspecified	days	58.64	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-ZTF	r	58943.5	18.32	0	0.08	MJD	unspecified	days	60.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-P48+ZTF	i	58883.3406	17.44	0	0.05	MJD	AB	days	0.67	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58883.3901	17.46	0	0.04	MJD	AB	days	0.72	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58883.4763	16.82	0	0.04	MJD	AB	days	0.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58883.4966	16.83	0	0.05	MJD	AB	days	0.83	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58883.524	17.19	0	0.04	MJD	AB	days	0.85	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW1	58884.0245	17.15	0	0.01	MJD	AB	days	1.35	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	U	58884.0253	17.08	0	0.01	MJD	AB	days	1.36	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	B	58884.0257	17.23	0	0.01	MJD	AB	days	1.36	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58884.0268	17.9	0	0.01	MJD	AB	days	1.36	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	V	58884.028	17.12	0	0.01	MJD	AB	days	1.36	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVM2	58884.0297	17.39	0	0.01	MJD	AB	days	1.36	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	g	58884.1362	17.3	0	0.01	MJD	AB	days	1.47	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P60+SEDM	i	58884.3634	17.5	0	0.03	MJD	AB	days	1.69	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58884.3889	17.66	0	0.05	MJD	AB	days	1.72	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58884.4109	17.63	0	0.04	MJD	AB	days	1.74	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58884.4212	17.4	0	0.06	MJD	AB	days	1.75	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58884.469	17.38	0	0.05	MJD	AB	days	1.8	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58884.4754	17.37	0	0.05	MJD	AB	days	1.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58884.5473	17.58	0	0.06	MJD	AB	days	1.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58884.5533	17.57	0	0.04	MJD	AB	days	1.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58885.3891	17.67	0	0.06	MJD	AB	days	2.72	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58885.4111	17.65	0	0.04	MJD	AB	days	2.74	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58885.429	17.4	0	0.05	MJD	AB	days	2.76	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58885.4774	17.44	0	0.07	MJD	AB	days	2.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58885.5211	17.51	0	0.04	MJD	AB	days	2.85	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58885.538	17.52	0	0.05	MJD	AB	days	2.87	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW1	58885.5533	19.48	0	0.01	MJD	AB	days	2.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	U	58885.554	18.33	0	0.01	MJD	AB	days	2.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	B	58885.5543	17.48	0	0.01	MJD	AB	days	2.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58885.5553	20.03	0	0.01	MJD	AB	days	2.89	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	V	58885.5563	17.19	0	0.01	MJD	AB	days	2.89	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVM2	58885.5577	20.3	0	0.01	MJD	AB	days	2.89	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58886.3926	17.52	0	0.04	MJD	AB	days	3.72	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58886.4112	17.52	0	0.03	MJD	AB	days	3.74	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P60+SEDM	r	58886.4337	17.2	0	0.01	MJD	AB	days	3.76	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P60+SEDM	g	58886.4354	17.34	0	0.02	MJD	AB	days	3.77	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P60+SEDM	i	58886.437	17.47	0	0.01	MJD	AB	days	3.77	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58886.4768	17.29	0	0.04	MJD	AB	days	3.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW1	58886.4809	19.17	0	0.01	MJD	AB	days	3.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	U	58886.4816	18.17	0	0.01	MJD	AB	days	3.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	B	58886.4819	17.55	0	0.01	MJD	AB	days	3.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58886.4829	20.05	0	0.01	MJD	AB	days	3.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	V	58886.4839	17.55	0	0.01	MJD	AB	days	3.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVM2	58886.4854	20.87	0	0.01	MJD	AB	days	3.82	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58886.4941	17.29	0	0.05	MJD	AB	days	3.82	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58886.5229	17.29	0	0.05	MJD	AB	days	3.85	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58886.5506	17.33	0	0.04	MJD	AB	days	3.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW1	58887.2802	19.48	0	0.01	MJD	AB	days	4.61	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	U	58887.2808	17.94	0	0.01	MJD	AB	days	4.61	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	B	58887.2812	17.54	0	0.01	MJD	AB	days	4.61	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58887.2821	20.47	0	0.01	MJD	AB	days	4.61	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	V	58887.2829	17.1	0	0.01	MJD	AB	days	4.61	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVM2	58887.2842	20.63	0	0.01	MJD	AB	days	4.61	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58887.3208	17.33	0	0.05	MJD	AB	days	4.65	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58887.429	17.07	0	0.04	MJD	AB	days	4.76	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58887.468	17.1	0	0.05	MJD	AB	days	4.8	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58887.4751	17.1	0	0.05	MJD	AB	days	4.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58887.5039	17.07	0	0.05	MJD	AB	days	4.83	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58887.5305	17.08	0	0.05	MJD	AB	days	4.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58887.5314	17.05	0	0.04	MJD	AB	days	4.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P60+SEDM	r	58888.3553	16.81	0	0.02	MJD	AB	days	5.69	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P60+SEDM	g	58888.357	16.98	0	0.03	MJD	AB	days	5.69	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58888.36	17.16	0	0.04	MJD	AB	days	5.69	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58888.3928	17.14	0	0.05	MJD	AB	days	5.72	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58888.4746	16.88	0	0.04	MJD	AB	days	5.8	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58888.4892	16.87	0	0.05	MJD	AB	days	5.82	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58888.5373	16.92	0	0.05	MJD	AB	days	5.87	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW1	58888.9397	19.06	0	0.01	MJD	AB	days	6.27	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	U	58888.9404	18.29	0	0.01	MJD	AB	days	6.27	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	B	58888.9408	17.09	0	0.01	MJD	AB	days	6.27	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58888.9418	20.72	0	0.01	MJD	AB	days	6.27	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	V	58888.9428	17.08	0	0.01	MJD	AB	days	6.27	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVM2	58888.9444	20.37	0	0.01	MJD	AB	days	6.27	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58890.3717	16.93	0	0.03	MJD	AB	days	7.7	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58890.3941	16.94	0	0.03	MJD	AB	days	7.72	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58890.4565	16.65	0	0.04	MJD	AB	days	7.79	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58890.4747	16.62	0	0.06	MJD	AB	days	7.8	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58890.4756	16.62	0	0.04	MJD	AB	days	7.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58890.5276	16.74	0	0.05	MJD	AB	days	7.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58890.5588	16.75	0	0.05	MJD	AB	days	7.89	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58890.5597	16.75	0	0.05	MJD	AB	days	7.89	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58891.3937	16.84	0	0.03	MJD	AB	days	8.72	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58891.4157	16.88	0	0.03	MJD	AB	days	8.75	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58891.4552	16.71	0	0.04	MJD	AB	days	8.79	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58891.4626	16.7	0	0.04	MJD	AB	days	8.79	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW1	58891.7595	19.49	0	0.01	MJD	AB	days	9.09	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	U	58891.7608	18.22	0	0.01	MJD	AB	days	9.09	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	B	58891.7615	17.02	0	0.01	MJD	AB	days	9.09	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58891.7634	20.37	0	0.01	MJD	AB	days	9.09	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	V	58891.7654	16.44	0	0.01	MJD	AB	days	9.1	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVM2	58891.7683	20.77	0	0.01	MJD	AB	days	9.1	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58892.3651	16.68	0	0.05	MJD	AB	days	9.7	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58892.3832	16.69	0	0.04	MJD	AB	days	9.71	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58892.4559	16.83	0	0.03	MJD	AB	days	9.79	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58892.5181	16.46	0	0.04	MJD	AB	days	9.85	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58892.534	16.45	0	0.04	MJD	AB	days	9.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58893.3186	20.06	0	0.01	MJD	AB	days	10.65	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58893.4023	16.8	0	0.03	MJD	AB	days	10.73	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58893.4715	16.67	0	0.04	MJD	AB	days	10.8	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58893.4965	16.67	0	0.04	MJD	AB	days	10.83	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58893.4974	16.67	0	0.04	MJD	AB	days	10.83	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58893.521	16.41	0	0.04	MJD	AB	days	10.85	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	V	58893.53	16.49	0	0.01	MJD	AB	days	10.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVM2	58893.5325	20.9	0	0.01	MJD	AB	days	10.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58893.5338	16.43	0	0.03	MJD	AB	days	10.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW1	58893.7579	19.63	0	0.01	MJD	AB	days	11.09	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	U	58893.759	18.4	0	0.01	MJD	AB	days	11.09	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	B	58893.7595	17.11	0	0.01	MJD	AB	days	11.09	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58893.7604	20.43	0	0.01	MJD	AB	days	11.09	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58894.3388	16.68	0	0.04	MJD	AB	days	11.67	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58894.4351	16.75	0	0.03	MJD	AB	days	11.77	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58894.4554	16.74	0	0.03	MJD	AB	days	11.79	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58894.5153	16.38	0	0.04	MJD	AB	days	11.85	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58894.535	16.37	0	0.04	MJD	AB	days	11.87	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58894.5468	16.7	0	0.03	MJD	AB	days	11.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW1	58895.137	19.89	0	0.01	MJD	AB	days	12.47	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	U	58895.1377	18.63	0	0.01	MJD	AB	days	12.47	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	B	58895.138	17.35	0	0.01	MJD	AB	days	12.47	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58895.1391	20.41	0	0.01	MJD	AB	days	12.47	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	V	58895.14	16.35	0	0.01	MJD	AB	days	12.47	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVM2	58895.1417	20.97	0	0.01	MJD	AB	days	12.47	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58895.4968	16.35	0	0.03	MJD	AB	days	12.83	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58895.4972	16.33	0	0.04	MJD	AB	days	12.83	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58896.3318	16.72	0	0.03	MJD	AB	days	13.66	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58896.3934	16.7	0	0.03	MJD	AB	days	13.72	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	r	58898.1568	16.32	0	0.02	MJD	AB	days	15.49	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	i	58898.1576	16.76	0	0.02	MJD	AB	days	15.49	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	g	58898.1585	16.75	0	0.02	MJD	AB	days	15.49	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	u	58898.1593	18.66	0	0.04	MJD	AB	days	15.49	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58898.445	16.92	0	0.04	MJD	AB	days	15.77	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58898.4558	16.9	0	0.03	MJD	AB	days	15.79	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58898.4955	16.38	0	0.03	MJD	AB	days	15.83	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58898.5119	16.39	0	0.04	MJD	AB	days	15.84	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58898.5128	16.35	0	0.04	MJD	AB	days	15.84	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58898.5335	16.36	0	0.03	MJD	AB	days	15.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58898.5463	16.93	0	0.04	MJD	AB	days	15.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58899.4051	16.92	0	0.04	MJD	AB	days	16.74	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58899.4351	16.94	0	0.04	MJD	AB	days	16.77	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58899.4828	16.34	0	0.04	MJD	AB	days	16.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58899.5057	16.36	0	0.03	MJD	AB	days	16.84	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58899.5302	16.95	0	0.05	MJD	AB	days	16.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58900.3929	16.98	0	0.05	MJD	AB	days	17.72	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58900.4467	16.26	0	0.04	MJD	AB	days	17.78	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P60+SEDM	r	58900.4499	16.38	0	0.01	MJD	AB	days	17.78	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P60+SEDM	g	58900.4516	16.98	0	0.02	MJD	AB	days	17.78	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P60+SEDM	i	58900.4532	16.64	0	0.02	MJD	AB	days	17.78	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58900.4787	16.35	0	0.03	MJD	AB	days	17.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58900.4938	16.34	0	0.04	MJD	AB	days	17.82	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58900.5289	16.98	0	0.07	MJD	AB	days	17.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58901.4137	16.38	0	0.03	MJD	AB	days	18.74	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58901.4335	16.39	0	0.03	MJD	AB	days	18.76	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58901.4546	16.37	0	0.03	MJD	AB	days	18.78	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58901.4546	16.37	0	0.03	MJD	AB	days	18.78	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW1	58902.6701	20.56	0	0.01	MJD	AB	days	20.0	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	U	58902.6715	19.52	0	0.01	MJD	AB	days	20.0	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	B	58902.6725	17.82	0	0.01	MJD	AB	days	20.0	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58902.6748	20.22	0	0.01	MJD	AB	days	20.0	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	V	58902.6772	16.49	0	0.01	MJD	AB	days	20.01	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVM2	58902.6791	22.23	0	0.01	MJD	AB	days	20.01	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58903.36	17.21	0	0.06	MJD	AB	days	20.69	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58903.412	16.48	0	0.03	MJD	AB	days	20.74	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58903.4217	16.45	0	0.03	MJD	AB	days	20.75	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58903.4571	16.48	0	0.03	MJD	AB	days	20.79	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58903.4605	16.46	0	0.05	MJD	AB	days	20.79	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58903.4953	16.47	0	0.03	MJD	AB	days	20.83	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58903.4962	16.51	0	0.04	MJD	AB	days	20.83	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58903.5079	16.45	0	0.04	MJD	AB	days	20.84	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58903.5409	17.22	0	0.05	MJD	AB	days	20.87	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58904.3954	16.79	0	0.03	MJD	AB	days	21.73	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58904.4029	16.81	0	0.02	MJD	AB	days	21.73	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58904.4461	17.28	0	0.05	MJD	AB	days	21.78	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58904.489	16.5	0	0.03	MJD	AB	days	21.82	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58906.3392	17.44	0	0.05	MJD	AB	days	23.67	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58906.4339	16.89	0	0.02	MJD	AB	days	23.76	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58906.4868	16.56	0	0.04	MJD	AB	days	23.82	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58906.4878	16.57	0	0.03	MJD	AB	days	23.82	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58906.5057	16.57	0	0.03	MJD	AB	days	23.84	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58906.5381	17.41	0	0.05	MJD	AB	days	23.87	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58906.539	17.45	0	0.06	MJD	AB	days	23.87	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58906.5551	16.88	0	0.04	MJD	AB	days	23.89	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW1	58908.3226	19.63	0	0.01	MJD	AB	days	25.65	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	U	58908.3236	20.53	0	0.01	MJD	AB	days	25.65	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	B	58908.3243	18.19	0	0.01	MJD	AB	days	25.65	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVW2	58908.3259	20.45	0	0.01	MJD	AB	days	25.66	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	V	58908.3275	16.99	0	0.01	MJD	AB	days	25.66	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-Swift+UVOT	UVM2	58908.3288	21.54	0	0.01	MJD	AB	days	25.66	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58908.4122	16.98	0	0.03	MJD	AB	days	25.74	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P60+SEDM	r	58908.4158	16.77	0	0.02	MJD	AB	days	25.75	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58908.4258	16.99	0	0.03	MJD	AB	days	25.76	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58908.4624	16.73	0	0.04	MJD	AB	days	25.79	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58908.4949	16.76	0	0.04	MJD	AB	days	25.82	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58908.5315	17.46	0	0.09	MJD	AB	days	25.86	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58908.5565	17.45	0	0.05	MJD	AB	days	25.89	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	r	58909.175	16.75	0	0.02	MJD	AB	days	26.5	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	i	58909.1758	17.03	0	0.02	MJD	AB	days	26.51	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	g	58909.1766	17.54	0	0.02	MJD	AB	days	26.51	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	u	58909.1775	19.98	0	0.07	MJD	AB	days	26.51	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	z	58909.1789	16.66	0	0.01	MJD	AB	days	26.51	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58911.2535	17.07	0	0.05	MJD	AB	days	28.58	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58911.3516	17.14	0	0.03	MJD	AB	days	28.68	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58911.4256	17.85	0	0.06	MJD	AB	days	28.76	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58911.4265	17.89	0	0.07	MJD	AB	days	28.76	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58911.4766	16.87	0	0.04	MJD	AB	days	28.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58911.4826	16.87	0	0.04	MJD	AB	days	28.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58911.4836	16.85	0	0.04	MJD	AB	days	28.81	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58911.551	17.85	0	0.07	MJD	AB	days	28.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58911.5515	17.81	0	0.08	MJD	AB	days	28.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58911.5533	17.73	0	0.07	MJD	AB	days	28.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58911.5538	17.79	0	0.06	MJD	AB	days	28.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	r	58912.1515	16.94	0	0.02	MJD	AB	days	29.48	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	i	58912.1523	17.21	0	0.02	MJD	AB	days	29.48	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	g	58912.1532	17.75	0	0.01	MJD	AB	days	29.48	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	u	58912.154	20.15	0	0.1	MJD	AB	days	29.48	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LT+IOO	z	58912.1554	16.81	0	0.02	MJD	AB	days	29.49	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58912.3746	17.19	0	0.03	MJD	AB	days	29.7	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	i	58912.3792	17.16	0	0.04	MJD	AB	days	29.71	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58912.4747	16.95	0	0.04	MJD	AB	days	29.8	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	r	58912.4973	16.96	0	0.04	MJD	AB	days	29.83	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58912.5209	17.93	0	0.08	MJD	AB	days	29.85	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-P48+ZTF	g	58912.5468	17.94	0	0.07	MJD	AB	days	29.88	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-LCO	U	58887.51	17.0628	0	0.0348	MJD	Vega	days	4.75	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58887.513	17.46	0	0.0249	MJD	Vega	days	4.753	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58887.515	17.4641	0	0.0249	MJD	Vega	days	4.755	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58887.517	16.9854	0	0.0216	MJD	Vega	days	4.757	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58887.518	16.9766	0	0.0222	MJD	Vega	days	4.758	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58887.519	17.4785	0	0.0145	MJD	AB	days	4.759	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58887.521	17.4341	0	0.0144	MJD	AB	days	4.761	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58887.523	17.3416	0	0.0139	MJD	AB	days	4.763	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58887.524	17.3056	0	0.0119	MJD	AB	days	4.764	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58887.526	17.6325	0	0.0169	MJD	AB	days	4.766	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58887.527	17.7097	0	0.0188	MJD	AB	days	4.767	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58892.394	17.062	0	0.0395	MJD	Vega	days	9.634	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58892.397	16.9733	0	0.0448	MJD	Vega	days	9.637	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58892.399	17.2307	0	0.0164	MJD	Vega	days	9.639	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58892.401	17.1197	0	0.0131	MJD	Vega	days	9.641	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58892.403	16.441	0	0.0128	MJD	Vega	days	9.643	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58892.405	16.4517	0	0.0121	MJD	Vega	days	9.645	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58892.406	16.748	0	0.0107	MJD	AB	days	9.646	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58892.408	16.7442	0	0.0107	MJD	AB	days	9.648	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58892.41	16.53	0	0.0114	MJD	AB	days	9.65	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58892.411	16.5362	0	0.0114	MJD	AB	days	9.651	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58892.413	16.7866	0	0.0134	MJD	AB	days	9.653	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58892.414	16.7801	0	0.0134	MJD	AB	days	9.654	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58893.423	17.2038	0	0.0282	MJD	Vega	days	10.663	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58893.426	17.2042	0	0.0269	MJD	Vega	days	10.666	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58893.428	17.2632	0	0.0141	MJD	Vega	days	10.668	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58893.43	17.2591	0	0.0141	MJD	Vega	days	10.67	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58893.432	16.4148	0	0.0124	MJD	Vega	days	10.672	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58893.433	16.4373	0	0.0118	MJD	Vega	days	10.673	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58893.435	16.5229	0	0.01	MJD	AB	days	10.675	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58893.437	16.5639	0	0.011	MJD	AB	days	10.677	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58893.439	16.5132	0	0.0115	MJD	AB	days	10.679	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58893.44	16.4959	0	0.0106	MJD	AB	days	10.68	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58893.441	16.7583	0	0.0135	MJD	AB	days	10.681	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58893.443	16.7667	0	0.0135	MJD	AB	days	10.683	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58896.316	17.2386	0	0.055	MJD	Vega	days	13.556	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58896.322	16.3383	0	0.0153	MJD	Vega	days	13.562	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58896.323	16.383	0	0.0144	MJD	Vega	days	13.563	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58896.327	16.7619	0	0.0085	MJD	AB	days	13.567	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58896.329	16.3397	0	0.0072	MJD	AB	days	13.569	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58896.33	16.3369	0	0.0072	MJD	AB	days	13.57	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58896.331	16.6957	0	0.0142	MJD	AB	days	13.571	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58896.333	16.6883	0	0.0122	MJD	AB	days	13.573	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58904.297	17.938	0	0.0801	MJD	Vega	days	21.537	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58904.3	17.9579	0	0.0853	MJD	Vega	days	21.54	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58904.302	17.7973	0	0.0248	MJD	Vega	days	21.542	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58904.304	17.7682	0	0.0299	MJD	Vega	days	21.544	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58904.305	16.6822	0	0.019	MJD	Vega	days	21.545	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58904.306	16.6753	0	0.017	MJD	Vega	days	21.546	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58904.307	17.4025	0	0.0105	MJD	AB	days	21.547	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58904.309	17.3039	0	0.0114	MJD	AB	days	21.549	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58904.31	16.4569	0	0.0094	MJD	AB	days	21.55	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58904.311	16.4097	0	0.0104	MJD	AB	days	21.551	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58904.312	16.8759	0	0.0162	MJD	AB	days	21.552	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58904.313	16.8353	0	0.0154	MJD	AB	days	21.553	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58906.299	18.0835	0	0.0773	MJD	Vega	days	23.539	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58906.302	18.0339	0	0.0673	MJD	Vega	days	23.542	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58906.305	17.9889	0	0.0228	MJD	Vega	days	23.545	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58906.306	17.9789	0	0.0235	MJD	Vega	days	23.546	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58906.308	16.8317	0	0.0153	MJD	Vega	days	23.548	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58906.31	16.8539	0	0.0159	MJD	Vega	days	23.55	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58906.311	17.3911	0	0.0102	MJD	AB	days	23.551	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58906.313	17.3571	0	0.0083	MJD	AB	days	23.553	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58906.315	16.4688	0	0.0073	MJD	AB	days	23.555	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58906.316	16.4686	0	0.0074	MJD	AB	days	23.556	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58906.317	16.7611	0	0.0113	MJD	AB	days	23.557	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58906.319	16.7623	0	0.0113	MJD	AB	days	23.559	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58919.282	18.6942	0	0.2967	MJD	Vega	days	36.522	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	U	58919.284	18.344	0	0.2025	MJD	Vega	days	36.524	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58919.287	18.8595	0	0.1794	MJD	Vega	days	36.527	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58919.288	18.7488	0	0.0896	MJD	Vega	days	36.528	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58919.29	17.6052	0	0.0384	MJD	Vega	days	36.53	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58919.291	17.6326	0	0.0423	MJD	Vega	days	36.531	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58919.292	18.2309	0	0.0434	MJD	AB	days	36.532	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58919.293	18.2989	0	0.0463	MJD	AB	days	36.533	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58919.295	17.3813	0	0.0252	MJD	AB	days	36.535	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58919.296	17.361	0	0.0282	MJD	AB	days	36.536	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58919.297	17.5568	0	0.0342	MJD	AB	days	36.537	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58925.426	18.7771	0	0.0181	MJD	Vega	days	42.666	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58925.431	18.8132	0	0.0181	MJD	Vega	days	42.671	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58925.436	17.86	0	0.0152	MJD	Vega	days	42.676	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58925.439	17.8687	0	0.0142	MJD	Vega	days	42.679	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58925.442	18.4282	0	0.0113	MJD	AB	days	42.682	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58925.445	18.3745	0	0.0184	MJD	AB	days	42.685	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58925.449	17.6958	0	0.0542	MJD	AB	days	42.689	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58925.452	17.7219	0	0.0773	MJD	AB	days	42.692	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58925.455	17.8135	0	0.0262	MJD	AB	days	42.695	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58925.457	17.8521	0	0.0144	MJD	AB	days	42.697	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58938.548	19.1529	0	0.0273	MJD	Vega	days	55.788	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58938.549	18.3358	0	0.0317	MJD	Vega	days	55.789	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58938.55	18.7095	0	0.0116	MJD	AB	days	55.79	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58938.552	18.0881	0	0.0123	MJD	AB	days	55.792	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58938.553	18.2361	0	0.0183	MJD	AB	days	55.793	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58942.363	19.2085	0	0.0845	MJD	Vega	days	59.603	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58942.365	18.7659	0	0.1192	MJD	Vega	days	59.605	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58942.366	18.9149	0	0.0359	MJD	AB	days	59.606	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58942.368	18.2743	0	0.0183	MJD	AB	days	59.608	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58942.369	18.4634	0	0.0303	MJD	AB	days	59.609	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58950.357	19.5005	0	0.0624	MJD	Vega	days	67.597	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58950.359	18.6013	0	0.0266	MJD	Vega	days	67.599	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58950.36	19.0586	0	0.0238	MJD	AB	days	67.6	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58950.362	18.4015	0	0.0226	MJD	AB	days	67.602	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58950.363	18.5987	0	0.0324	MJD	AB	days	67.603	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58955.426	19.5326	0	0.0355	MJD	Vega	days	72.666	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58955.428	18.7903	0	0.0354	MJD	Vega	days	72.668	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58955.429	18.941	0	0.0165	MJD	AB	days	72.669	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58955.431	18.4878	0	0.0126	MJD	AB	days	72.671	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58955.432	18.6769	0	0.0187	MJD	AB	days	72.672	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	B	58959.307	19.5326	0	0.0451	MJD	Vega	days	76.547	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	V	58959.309	18.7698	0	0.0365	MJD	Vega	days	76.549	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	g	58959.31	19.0274	0	0.0175	MJD	AB	days	76.55	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	r	58959.312	18.6269	0	0.0143	MJD	AB	days	76.552	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-LCO	i	58959.313	18.7988	0	0.0315	MJD	AB	days	76.553	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58997.29	19.957	0	0.147	MJD	AB	days	114.53	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58991.235	19.794	0	0.136	MJD	AB	days	108.475	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58980.329	19.32	0	0.11	MJD	AB	days	97.569	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58979.24	19.621	0	0.146	MJD	AB	days	96.48	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58976.298	19.134	0	0.187	MJD	AB	days	93.538	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58976.201	19.44	0	0.253	MJD	AB	days	93.441	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58975.275	18.558	1	NaN	MJD	AB	days	92.515	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58973.304	19.066	0	0.113	MJD	AB	days	90.544	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58973.267	19.53	0	0.15	MJD	AB	days	90.507	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58970.391	19.174	0	0.099	MJD	AB	days	87.631	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58970.307	19.508	0	0.146	MJD	AB	days	87.547	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58967.341	19.093	0	0.106	MJD	AB	days	84.581	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58967.288	19.659	0	0.172	MJD	AB	days	84.528	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58964.345	19.359	0	0.113	MJD	AB	days	81.585	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58964.283	18.995	0	0.084	MJD	AB	days	81.523	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58961.41	18.967	0	0.097	MJD	AB	days	78.65	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58956.369	19.334	0	0.148	MJD	AB	days	73.609	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58956.343	18.894	0	0.091	MJD	AB	days	73.583	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58955.426	18.834	0	0.087	MJD	AB	days	72.666	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58955.404	19.483	0	0.145	MJD	AB	days	72.644	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58954.444	18.727	0	0.091	MJD	AB	days	71.684	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58954.387	19.331	0	0.18	MJD	AB	days	71.627	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58944.474	19.063	0	0.121	MJD	AB	days	61.714	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58943.467	18.396	0	0.078	MJD	AB	days	60.707	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58943.425	18.915	0	0.119	MJD	AB	days	60.665	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58941.474	20.708	1	NaN	MJD	AB	days	58.714	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58941.426	18.397	0	0.087	MJD	AB	days	58.666	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58940.431	16.945	1	NaN	MJD	AB	days	57.671	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58939.453	18.937	0	0.198	MJD	AB	days	56.693	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58939.425	18.204	0	0.086	MJD	AB	days	56.665	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58936.47	19.025	0	0.116	MJD	AB	days	53.71	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58936.406	18.228	0	0.068	MJD	AB	days	53.646	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58917.391	17.07	1	NaN	MJD	AB	days	34.631	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58914.53	17.153	0	0.039	MJD	AB	days	31.77	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58914.5	18.15	0	0.07	MJD	AB	days	31.74	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58911.552	17.885	0	0.079	MJD	AB	days	28.792	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58911.484	16.896	0	0.038	MJD	AB	days	28.724	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58911.426	17.931	0	0.06	MJD	AB	days	28.666	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58906.538	17.489	0	0.054	MJD	AB	days	23.778	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58906.487	16.613	0	0.038	MJD	AB	days	23.727	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58903.541	17.299	0	0.049	MJD	AB	days	20.781	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58903.496	16.559	0	0.036	MJD	AB	days	20.736	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58898.512	16.436	0	0.035	MJD	AB	days	15.752	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58898.456	16.983	0	0.031	MJD	AB	days	15.696	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58893.497	16.755	0	0.038	MJD	AB	days	10.737	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58890.559	16.831	0	0.047	MJD	AB	days	7.798999999999999	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58890.476	16.672	0	0.038	MJD	AB	days	7.716	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58887.531	17.097	0	0.043	MJD	AB	days	4.771	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58887.468	17.181	0	0.05	MJD	AB	days	4.708	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58884.547	17.632	0	0.056	MJD	AB	days	1.787	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58884.475	17.45	0	0.051	MJD	AB	days	1.715	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58881.557	20.672	1	NaN	MJD	AB	days	-1.2029999999999998	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58881.494	20.771	1	NaN	MJD	AB	days	-1.266	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58878.555	20.227	1	NaN	MJD	AB	days	-4.205	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58878.528	20.458	1	NaN	MJD	AB	days	-4.232	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58875.552	20.298	1	NaN	MJD	AB	days	-7.208	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58875.495	20.658	1	NaN	MJD	AB	days	-7.265	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58872.554	20.425	1	NaN	MJD	AB	days	-10.206	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58872.448	19.986	1	NaN	MJD	AB	days	-10.312	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58863.453	19.638	1	NaN	MJD	AB	days	-19.307	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58859.468	19.618	1	NaN	MJD	AB	days	-23.292	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	r	58856.573	20.289	1	NaN	MJD	AB	days	-26.187	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-ZTF	g	58856.558	20.644	1	NaN	MJD	AB	days	-26.202	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58898.0	17.5927	0	0.121637	MJD	Vega	days	15.24	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58899.93	17.7634	0	0.123899	MJD	Vega	days	17.17	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58913.79	18.6626	0	1.08864	MJD	Vega	days	31.03	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58921.94	19.1324	0	0.167476	MJD	Vega	days	39.18	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58922.9	19.0954	0	0.162426	MJD	Vega	days	40.14	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58924.11	19.2436	0	0.125191	MJD	Vega	days	41.35	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58925.1	19.2056	0	0.130046	MJD	Vega	days	42.34	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58925.92	19.2294	0	0.153094	MJD	Vega	days	43.16	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58935.91	19.5941	0	0.136254	MJD	Vega	days	53.15	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58939.96	19.58	0	0.336582	MJD	Vega	days	57.2	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58941.06	19.5626	0	0.129825	MJD	Vega	days	58.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58945.06	19.4956	0	0.309785	MJD	Vega	days	62.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58947.06	19.6852	0	0.381681	MJD	Vega	days	64.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58954.07	19.6424	0	0.294933	MJD	Vega	days	71.31	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58955.03	19.7895	0	0.136951	MJD	Vega	days	72.27	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	B	58960.01	20.0695	0	0.417769	MJD	Vega	days	77.25	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58898.0	16.4791	0	0.0668901	MJD	Vega	days	15.24	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58899.93	16.5234	0	0.0540181	MJD	Vega	days	17.17	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58913.79	17.0523	0	0.369746	MJD	Vega	days	31.03	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58921.94	17.9553	0	0.0722324	MJD	Vega	days	39.18	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58922.9	17.9791	0	0.0829488	MJD	Vega	days	40.14	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58924.11	18.0303	0	0.0588385	MJD	Vega	days	41.35	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58925.1	18.0619	0	0.0501352	MJD	Vega	days	42.34	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58925.92	18.2596	0	0.0832459	MJD	Vega	days	43.16	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58935.91	18.5913	0	0.063387	MJD	Vega	days	53.15	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58939.96	18.6744	0	0.0858278	MJD	Vega	days	57.2	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58941.06	18.5982	0	0.0677861	MJD	Vega	days	58.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58945.06	18.6359	0	0.164548	MJD	Vega	days	62.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58947.06	18.5886	0	0.157431	MJD	Vega	days	64.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58954.07	18.9742	0	0.162578	MJD	Vega	days	71.31	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58955.03	19.046	0	0.069051	MJD	Vega	days	72.27	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	V	58960.01	19.1058	0	0.232373	MJD	Vega	days	77.25	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58898.0	16.8297	0	0.0522808	MJD	AB	days	15.24	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58899.93	16.9253	0	0.04808	MJD	AB	days	17.17	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58913.79	17.5509	0	0.443172	MJD	AB	days	31.03	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58921.94	18.4414	0	0.0828066	MJD	AB	days	39.18	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58922.9	18.3944	0	0.0724095	MJD	AB	days	40.14	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58924.11	18.4394	0	0.0562311	MJD	AB	days	41.35	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58925.1	18.484	0	0.0528371	MJD	AB	days	42.34	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58925.92	18.5781	0	0.0674877	MJD	AB	days	43.16	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58935.91	18.8299	0	0.0557551	MJD	AB	days	53.15	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58939.96	18.9569	0	0.0805666	MJD	AB	days	57.2	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58941.06	18.8987	0	0.061867	MJD	AB	days	58.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58945.06	18.9828	0	0.170928	MJD	AB	days	62.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58947.06	18.9917	0	0.180165	MJD	AB	days	64.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58954.07	19.2445	0	0.171033	MJD	AB	days	71.31	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58955.03	19.2404	0	0.0611189	MJD	AB	days	72.27	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	g	58960.01	19.4627	0	0.213894	MJD	AB	days	77.25	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58898.0	16.3844	0	0.0350355	MJD	AB	days	15.24	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58899.93	16.4026	0	0.0300233	MJD	AB	days	17.17	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58913.79	16.8895	0	0.228689	MJD	AB	days	31.03	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58921.94	17.5633	0	0.0437607	MJD	AB	days	39.18	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58922.9	17.5976	0	0.0384489	MJD	AB	days	40.14	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58924.11	17.6819	0	0.0338612	MJD	AB	days	41.35	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58925.1	17.748	0	0.032403	MJD	AB	days	42.34	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58925.92	17.7454	0	0.0481906	MJD	AB	days	43.16	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58935.91	18.1962	0	0.0356091	MJD	AB	days	53.15	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58939.96	18.2794	0	0.0562791	MJD	AB	days	57.2	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58941.06	18.3315	0	0.0456018	MJD	AB	days	58.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58945.06	18.4034	0	0.0963234	MJD	AB	days	62.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58947.06	18.3533	0	0.099519	MJD	AB	days	64.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58954.07	18.7539	0	0.0864857	MJD	AB	days	71.31	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58955.03	18.7577	0	0.0417026	MJD	AB	days	72.27	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	r	58960.01	18.9881	0	0.115553	MJD	AB	days	77.25	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58898.0	16.7113	0	0.0390753	MJD	AB	days	15.24	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58899.93	16.6891	0	0.0339193	MJD	AB	days	17.17	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58913.79	17.077	0	0.324298	MJD	AB	days	31.03	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58921.94	17.7214	0	0.0476976	MJD	AB	days	39.18	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58922.9	17.6573	0	0.0609731	MJD	AB	days	40.14	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58924.11	17.9215	0	0.0447056	MJD	AB	days	41.35	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58925.1	18.0107	0	0.0513559	MJD	AB	days	42.34	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58925.92	17.8849	0	0.0619244	MJD	AB	days	43.16	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58935.91	18.3742	0	0.0537132	MJD	AB	days	53.15	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58939.96	18.5063	0	0.0807167	MJD	AB	days	57.2	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58941.06	18.6081	0	0.0642618	MJD	AB	days	58.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58945.06	18.3865	0	0.164865	MJD	AB	days	62.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58947.06	18.8117	0	0.313671	MJD	AB	days	64.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58954.07	19.1285	0	0.169897	MJD	AB	days	71.31	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58955.03	19.3094	0	0.0851604	MJD	AB	days	72.27	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	i	58960.01	19.5563	0	0.281867	MJD	AB	days	77.25	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58898.0	16.3391	0	0.0715497	MJD	AB	days	15.24	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58899.93	16.301	0	0.0606193	MJD	AB	days	17.17	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58913.79	17.0123	0	0.792648	MJD	AB	days	31.03	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58921.94	17.203	0	0.0659962	MJD	AB	days	39.18	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58922.9	17.107	0	0.101668	MJD	AB	days	40.14	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58924.11	17.5723	0	0.0687693	MJD	AB	days	41.35	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58925.1	17.7779	0	0.0885373	MJD	AB	days	42.34	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58925.92	17.2556	0	0.0831562	MJD	AB	days	43.16	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58935.91	17.7593	0	0.097381	MJD	AB	days	53.15	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58939.96	17.968	0	0.133627	MJD	AB	days	57.2	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58941.06	18.5669	0	0.152606	MJD	AB	days	58.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58945.06	17.9961	0	0.310696	MJD	AB	days	62.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58947.06	18.0327	0	0.392437	MJD	AB	days	64.3	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58954.07	19.2	0	0.285632	MJD	AB	days	71.31	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-KON	z	58955.03	19.1862	0	0.234288	MJD	AB	days	72.27	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
-UVOT	V	58884.0	17.18	0	0.22	MJD	unspecified	days	1.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	V	58885.6	17.12	0	0.22	MJD	unspecified	days	2.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	V	58886.5	17.47	0	0.26	MJD	unspecified	days	3.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	V	58887.3	17.24	0	0.25	MJD	unspecified	days	4.54	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	V	58888.9	17.13	0	0.22	MJD	unspecified	days	6.14	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	V	58891.6	16.59	0	0.14	MJD	unspecified	days	8.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	V	58893.5	16.4	0	0.14	MJD	unspecified	days	10.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	V	58895.0	16.25	0	0.17	MJD	unspecified	days	12.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	B	58884.0	17.22	0	0.15	MJD	unspecified	days	1.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	B	58885.6	17.45	0	0.17	MJD	unspecified	days	2.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	B	58886.5	17.63	0	0.18	MJD	unspecified	days	3.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	B	58887.3	17.48	0	0.18	MJD	unspecified	days	4.54	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	B	58888.9	17.02	0	0.14	MJD	unspecified	days	6.14	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	B	58891.6	16.93	0	0.12	MJD	unspecified	days	8.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	B	58893.5	17.01	0	0.13	MJD	unspecified	days	10.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	B	58895.0	17.34	0	0.17	MJD	unspecified	days	12.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	U	58884.0	17.12	0	0.14	MJD	unspecified	days	1.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	U	58885.6	18.27	0	0.21	MJD	unspecified	days	2.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	U	58886.5	18.18	0	0.2	MJD	unspecified	days	3.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	U	58887.3	17.96	0	0.19	MJD	unspecified	days	4.54	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	U	58888.9	18.19	0	0.2	MJD	unspecified	days	6.14	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	U	58891.6	18.03	0	0.15	MJD	unspecified	days	8.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	U	58893.5	18.2	0	0.17	MJD	unspecified	days	10.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	U	58895.0	18.22	0	0.21	MJD	unspecified	days	12.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W1	58884.0	17.32	0	0.13	MJD	unspecified	days	1.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W1	58885.6	19.08	0	0.24	MJD	unspecified	days	2.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W1	58886.5	18.96	0	0.22	MJD	unspecified	days	3.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W1	58887.3	19.25	0	0.26	MJD	unspecified	days	4.54	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W1	58888.9	18.92	0	0.22	MJD	unspecified	days	6.14	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W1	58891.6	19.25	0	0.19	MJD	unspecified	days	8.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W1	58893.5	19.3	0	0.21	MJD	unspecified	days	10.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W1	58895.0	19.34	0	0.28	MJD	unspecified	days	12.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	M2	58884.0	17.47	0	0.12	MJD	unspecified	days	1.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	M2	58885.6	19.8	0	0.25	MJD	unspecified	days	2.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	M2	58886.5	19.92	0	0.26	MJD	unspecified	days	3.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	M2	58887.3	19.86	0	0.27	MJD	unspecified	days	4.54	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	M2	58888.9	19.62	0	0.22	MJD	unspecified	days	6.14	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	M2	58891.6	20.17	0	0.22	MJD	unspecified	days	8.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	M2	58893.5	19.93	0	0.21	MJD	unspecified	days	10.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	M2	58895.0	19.71	0	0.26	MJD	unspecified	days	12.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W2	58884.0	17.83	0	0.14	MJD	unspecified	days	1.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W2	58885.6	19.64	0	0.26	MJD	unspecified	days	2.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W2	58886.5	19.43	0	0.24	MJD	unspecified	days	3.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W2	58887.3	19.82	0	0.29	MJD	unspecified	days	4.54	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W2	58888.9	19.75	0	0.26	MJD	unspecified	days	6.14	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W2	58891.6	19.73	0	0.21	MJD	unspecified	days	8.84	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W2	58893.5	19.65	0	0.21	MJD	unspecified	days	10.74	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-UVOT	W2	58895.0	20.39	0	0.37	MJD	unspecified	days	12.24	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+instrument	band	date	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	time_frame	dtime	reference
+ASAS-SN	g	58883.6	18.6	1	NaN	MJD	unspecified	0.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ASAS-SN	g	58884.1	17.0	0	NaN	MJD	unspecified	1.43	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58884.5	17.33	0	0.05	MJD	unspecified	1.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58887.5	17.06	0	0.05	MJD	unspecified	4.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58890.6	16.71	0	0.05	MJD	unspecified	7.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58893.5	16.64	0	0.04	MJD	unspecified	10.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58898.5	16.86	0	0.03	MJD	unspecified	15.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58903.5	17.18	0	0.05	MJD	unspecified	20.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58911.4	17.81	0	0.06	MJD	unspecified	28.73	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58911.6	17.77	0	0.08	MJD	unspecified	28.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58914.5	18.03	0	0.07	MJD	unspecified	31.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58936.5	18.91	0	0.12	MJD	unspecified	53.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58939.5	18.82	0	0.2	MJD	unspecified	56.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58943.4	18.8	0	0.12	MJD	unspecified	60.73	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	g	58944.5	18.94	0	0.12	MJD	unspecified	61.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58884.5	17.55	0	0.06	MJD	unspecified	1.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58887.5	17.02	0	0.04	MJD	unspecified	4.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58890.5	16.59	0	0.04	MJD	unspecified	7.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58898.5	16.36	0	0.04	MJD	unspecified	15.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58903.5	16.48	0	0.04	MJD	unspecified	20.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58911.5	16.82	0	0.04	MJD	unspecified	28.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58914.5	17.07	0	0.04	MJD	unspecified	31.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58936.4	18.15	0	0.07	MJD	unspecified	53.73	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58939.4	18.13	0	0.09	MJD	unspecified	56.73	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58941.4	18.32	0	0.09	MJD	unspecified	58.73	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+ZTF	r	58943.5	18.32	0	0.08	MJD	unspecified	60.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+P48+ZTF	i	58883.3406	17.44	0	0.05	MJD	AB	0.67	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58883.3901	17.46	0	0.04	MJD	AB	0.72	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58883.4763	16.82	0	0.04	MJD	AB	0.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58883.4966	16.83	0	0.05	MJD	AB	0.83	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58883.524	17.19	0	0.04	MJD	AB	0.85	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW1	58884.0245	17.15	0	0.01	MJD	AB	1.35	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	U	58884.0253	17.08	0	0.01	MJD	AB	1.36	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	B	58884.0257	17.23	0	0.01	MJD	AB	1.36	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58884.0268	17.9	0	0.01	MJD	AB	1.36	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	V	58884.028	17.12	0	0.01	MJD	AB	1.36	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVM2	58884.0297	17.39	0	0.01	MJD	AB	1.36	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	g	58884.1362	17.3	0	0.01	MJD	AB	1.47	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P60+SEDM	i	58884.3634	17.5	0	0.03	MJD	AB	1.69	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58884.3889	17.66	0	0.05	MJD	AB	1.72	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58884.4109	17.63	0	0.04	MJD	AB	1.74	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58884.4212	17.4	0	0.06	MJD	AB	1.75	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58884.469	17.38	0	0.05	MJD	AB	1.8	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58884.4754	17.37	0	0.05	MJD	AB	1.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58884.5473	17.58	0	0.06	MJD	AB	1.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58884.5533	17.57	0	0.04	MJD	AB	1.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58885.3891	17.67	0	0.06	MJD	AB	2.72	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58885.4111	17.65	0	0.04	MJD	AB	2.74	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58885.429	17.4	0	0.05	MJD	AB	2.76	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58885.4774	17.44	0	0.07	MJD	AB	2.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58885.5211	17.51	0	0.04	MJD	AB	2.85	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58885.538	17.52	0	0.05	MJD	AB	2.87	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW1	58885.5533	19.48	0	0.01	MJD	AB	2.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	U	58885.554	18.33	0	0.01	MJD	AB	2.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	B	58885.5543	17.48	0	0.01	MJD	AB	2.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58885.5553	20.03	0	0.01	MJD	AB	2.89	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	V	58885.5563	17.19	0	0.01	MJD	AB	2.89	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVM2	58885.5577	20.3	0	0.01	MJD	AB	2.89	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58886.3926	17.52	0	0.04	MJD	AB	3.72	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58886.4112	17.52	0	0.03	MJD	AB	3.74	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P60+SEDM	r	58886.4337	17.2	0	0.01	MJD	AB	3.76	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P60+SEDM	g	58886.4354	17.34	0	0.02	MJD	AB	3.77	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P60+SEDM	i	58886.437	17.47	0	0.01	MJD	AB	3.77	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58886.4768	17.29	0	0.04	MJD	AB	3.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW1	58886.4809	19.17	0	0.01	MJD	AB	3.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	U	58886.4816	18.17	0	0.01	MJD	AB	3.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	B	58886.4819	17.55	0	0.01	MJD	AB	3.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58886.4829	20.05	0	0.01	MJD	AB	3.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	V	58886.4839	17.55	0	0.01	MJD	AB	3.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVM2	58886.4854	20.87	0	0.01	MJD	AB	3.82	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58886.4941	17.29	0	0.05	MJD	AB	3.82	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58886.5229	17.29	0	0.05	MJD	AB	3.85	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58886.5506	17.33	0	0.04	MJD	AB	3.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW1	58887.2802	19.48	0	0.01	MJD	AB	4.61	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	U	58887.2808	17.94	0	0.01	MJD	AB	4.61	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	B	58887.2812	17.54	0	0.01	MJD	AB	4.61	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58887.2821	20.47	0	0.01	MJD	AB	4.61	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	V	58887.2829	17.1	0	0.01	MJD	AB	4.61	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVM2	58887.2842	20.63	0	0.01	MJD	AB	4.61	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58887.3208	17.33	0	0.05	MJD	AB	4.65	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58887.429	17.07	0	0.04	MJD	AB	4.76	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58887.468	17.1	0	0.05	MJD	AB	4.8	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58887.4751	17.1	0	0.05	MJD	AB	4.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58887.5039	17.07	0	0.05	MJD	AB	4.83	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58887.5305	17.08	0	0.05	MJD	AB	4.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58887.5314	17.05	0	0.04	MJD	AB	4.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P60+SEDM	r	58888.3553	16.81	0	0.02	MJD	AB	5.69	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P60+SEDM	g	58888.357	16.98	0	0.03	MJD	AB	5.69	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58888.36	17.16	0	0.04	MJD	AB	5.69	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58888.3928	17.14	0	0.05	MJD	AB	5.72	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58888.4746	16.88	0	0.04	MJD	AB	5.8	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58888.4892	16.87	0	0.05	MJD	AB	5.82	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58888.5373	16.92	0	0.05	MJD	AB	5.87	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW1	58888.9397	19.06	0	0.01	MJD	AB	6.27	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	U	58888.9404	18.29	0	0.01	MJD	AB	6.27	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	B	58888.9408	17.09	0	0.01	MJD	AB	6.27	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58888.9418	20.72	0	0.01	MJD	AB	6.27	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	V	58888.9428	17.08	0	0.01	MJD	AB	6.27	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVM2	58888.9444	20.37	0	0.01	MJD	AB	6.27	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58890.3717	16.93	0	0.03	MJD	AB	7.7	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58890.3941	16.94	0	0.03	MJD	AB	7.72	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58890.4565	16.65	0	0.04	MJD	AB	7.79	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58890.4747	16.62	0	0.06	MJD	AB	7.8	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58890.4756	16.62	0	0.04	MJD	AB	7.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58890.5276	16.74	0	0.05	MJD	AB	7.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58890.5588	16.75	0	0.05	MJD	AB	7.89	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58890.5597	16.75	0	0.05	MJD	AB	7.89	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58891.3937	16.84	0	0.03	MJD	AB	8.72	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58891.4157	16.88	0	0.03	MJD	AB	8.75	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58891.4552	16.71	0	0.04	MJD	AB	8.79	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58891.4626	16.7	0	0.04	MJD	AB	8.79	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW1	58891.7595	19.49	0	0.01	MJD	AB	9.09	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	U	58891.7608	18.22	0	0.01	MJD	AB	9.09	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	B	58891.7615	17.02	0	0.01	MJD	AB	9.09	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58891.7634	20.37	0	0.01	MJD	AB	9.09	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	V	58891.7654	16.44	0	0.01	MJD	AB	9.1	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVM2	58891.7683	20.77	0	0.01	MJD	AB	9.1	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58892.3651	16.68	0	0.05	MJD	AB	9.7	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58892.3832	16.69	0	0.04	MJD	AB	9.71	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58892.4559	16.83	0	0.03	MJD	AB	9.79	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58892.5181	16.46	0	0.04	MJD	AB	9.85	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58892.534	16.45	0	0.04	MJD	AB	9.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58893.3186	20.06	0	0.01	MJD	AB	10.65	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58893.4023	16.8	0	0.03	MJD	AB	10.73	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58893.4715	16.67	0	0.04	MJD	AB	10.8	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58893.4965	16.67	0	0.04	MJD	AB	10.83	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58893.4974	16.67	0	0.04	MJD	AB	10.83	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58893.521	16.41	0	0.04	MJD	AB	10.85	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	V	58893.53	16.49	0	0.01	MJD	AB	10.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVM2	58893.5325	20.9	0	0.01	MJD	AB	10.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58893.5338	16.43	0	0.03	MJD	AB	10.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW1	58893.7579	19.63	0	0.01	MJD	AB	11.09	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	U	58893.759	18.4	0	0.01	MJD	AB	11.09	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	B	58893.7595	17.11	0	0.01	MJD	AB	11.09	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58893.7604	20.43	0	0.01	MJD	AB	11.09	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58894.3388	16.68	0	0.04	MJD	AB	11.67	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58894.4351	16.75	0	0.03	MJD	AB	11.77	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58894.4554	16.74	0	0.03	MJD	AB	11.79	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58894.5153	16.38	0	0.04	MJD	AB	11.85	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58894.535	16.37	0	0.04	MJD	AB	11.87	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58894.5468	16.7	0	0.03	MJD	AB	11.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW1	58895.137	19.89	0	0.01	MJD	AB	12.47	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	U	58895.1377	18.63	0	0.01	MJD	AB	12.47	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	B	58895.138	17.35	0	0.01	MJD	AB	12.47	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58895.1391	20.41	0	0.01	MJD	AB	12.47	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	V	58895.14	16.35	0	0.01	MJD	AB	12.47	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVM2	58895.1417	20.97	0	0.01	MJD	AB	12.47	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58895.4968	16.35	0	0.03	MJD	AB	12.83	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58895.4972	16.33	0	0.04	MJD	AB	12.83	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58896.3318	16.72	0	0.03	MJD	AB	13.66	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58896.3934	16.7	0	0.03	MJD	AB	13.72	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	r	58898.1568	16.32	0	0.02	MJD	AB	15.49	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	i	58898.1576	16.76	0	0.02	MJD	AB	15.49	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	g	58898.1585	16.75	0	0.02	MJD	AB	15.49	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	u	58898.1593	18.66	0	0.04	MJD	AB	15.49	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58898.445	16.92	0	0.04	MJD	AB	15.77	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58898.4558	16.9	0	0.03	MJD	AB	15.79	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58898.4955	16.38	0	0.03	MJD	AB	15.83	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58898.5119	16.39	0	0.04	MJD	AB	15.84	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58898.5128	16.35	0	0.04	MJD	AB	15.84	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58898.5335	16.36	0	0.03	MJD	AB	15.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58898.5463	16.93	0	0.04	MJD	AB	15.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58899.4051	16.92	0	0.04	MJD	AB	16.74	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58899.4351	16.94	0	0.04	MJD	AB	16.77	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58899.4828	16.34	0	0.04	MJD	AB	16.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58899.5057	16.36	0	0.03	MJD	AB	16.84	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58899.5302	16.95	0	0.05	MJD	AB	16.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58900.3929	16.98	0	0.05	MJD	AB	17.72	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58900.4467	16.26	0	0.04	MJD	AB	17.78	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P60+SEDM	r	58900.4499	16.38	0	0.01	MJD	AB	17.78	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P60+SEDM	g	58900.4516	16.98	0	0.02	MJD	AB	17.78	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P60+SEDM	i	58900.4532	16.64	0	0.02	MJD	AB	17.78	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58900.4787	16.35	0	0.03	MJD	AB	17.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58900.4938	16.34	0	0.04	MJD	AB	17.82	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58900.5289	16.98	0	0.07	MJD	AB	17.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58901.4137	16.38	0	0.03	MJD	AB	18.74	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58901.4335	16.39	0	0.03	MJD	AB	18.76	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58901.4546	16.37	0	0.03	MJD	AB	18.78	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58901.4546	16.37	0	0.03	MJD	AB	18.78	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW1	58902.6701	20.56	0	0.01	MJD	AB	20.0	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	U	58902.6715	19.52	0	0.01	MJD	AB	20.0	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	B	58902.6725	17.82	0	0.01	MJD	AB	20.0	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58902.6748	20.22	0	0.01	MJD	AB	20.0	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	V	58902.6772	16.49	0	0.01	MJD	AB	20.01	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVM2	58902.6791	22.23	0	0.01	MJD	AB	20.01	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58903.36	17.21	0	0.06	MJD	AB	20.69	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58903.412	16.48	0	0.03	MJD	AB	20.74	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58903.4217	16.45	0	0.03	MJD	AB	20.75	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58903.4571	16.48	0	0.03	MJD	AB	20.79	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58903.4605	16.46	0	0.05	MJD	AB	20.79	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58903.4953	16.47	0	0.03	MJD	AB	20.83	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58903.4962	16.51	0	0.04	MJD	AB	20.83	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58903.5079	16.45	0	0.04	MJD	AB	20.84	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58903.5409	17.22	0	0.05	MJD	AB	20.87	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58904.3954	16.79	0	0.03	MJD	AB	21.73	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58904.4029	16.81	0	0.02	MJD	AB	21.73	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58904.4461	17.28	0	0.05	MJD	AB	21.78	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58904.489	16.5	0	0.03	MJD	AB	21.82	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58906.3392	17.44	0	0.05	MJD	AB	23.67	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58906.4339	16.89	0	0.02	MJD	AB	23.76	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58906.4868	16.56	0	0.04	MJD	AB	23.82	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58906.4878	16.57	0	0.03	MJD	AB	23.82	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58906.5057	16.57	0	0.03	MJD	AB	23.84	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58906.5381	17.41	0	0.05	MJD	AB	23.87	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58906.539	17.45	0	0.06	MJD	AB	23.87	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58906.5551	16.88	0	0.04	MJD	AB	23.89	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW1	58908.3226	19.63	0	0.01	MJD	AB	25.65	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	U	58908.3236	20.53	0	0.01	MJD	AB	25.65	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	B	58908.3243	18.19	0	0.01	MJD	AB	25.65	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVW2	58908.3259	20.45	0	0.01	MJD	AB	25.66	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	V	58908.3275	16.99	0	0.01	MJD	AB	25.66	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+Swift+UVOT	UVM2	58908.3288	21.54	0	0.01	MJD	AB	25.66	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58908.4122	16.98	0	0.03	MJD	AB	25.74	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P60+SEDM	r	58908.4158	16.77	0	0.02	MJD	AB	25.75	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58908.4258	16.99	0	0.03	MJD	AB	25.76	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58908.4624	16.73	0	0.04	MJD	AB	25.79	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58908.4949	16.76	0	0.04	MJD	AB	25.82	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58908.5315	17.46	0	0.09	MJD	AB	25.86	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58908.5565	17.45	0	0.05	MJD	AB	25.89	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	r	58909.175	16.75	0	0.02	MJD	AB	26.5	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	i	58909.1758	17.03	0	0.02	MJD	AB	26.51	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	g	58909.1766	17.54	0	0.02	MJD	AB	26.51	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	u	58909.1775	19.98	0	0.07	MJD	AB	26.51	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	z	58909.1789	16.66	0	0.01	MJD	AB	26.51	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58911.2535	17.07	0	0.05	MJD	AB	28.58	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58911.3516	17.14	0	0.03	MJD	AB	28.68	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58911.4256	17.85	0	0.06	MJD	AB	28.76	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58911.4265	17.89	0	0.07	MJD	AB	28.76	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58911.4766	16.87	0	0.04	MJD	AB	28.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58911.4826	16.87	0	0.04	MJD	AB	28.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58911.4836	16.85	0	0.04	MJD	AB	28.81	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58911.551	17.85	0	0.07	MJD	AB	28.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58911.5515	17.81	0	0.08	MJD	AB	28.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58911.5533	17.73	0	0.07	MJD	AB	28.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58911.5538	17.79	0	0.06	MJD	AB	28.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	r	58912.1515	16.94	0	0.02	MJD	AB	29.48	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	i	58912.1523	17.21	0	0.02	MJD	AB	29.48	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	g	58912.1532	17.75	0	0.01	MJD	AB	29.48	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	u	58912.154	20.15	0	0.1	MJD	AB	29.48	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LT+IOO	z	58912.1554	16.81	0	0.02	MJD	AB	29.49	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58912.3746	17.19	0	0.03	MJD	AB	29.7	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	i	58912.3792	17.16	0	0.04	MJD	AB	29.71	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58912.4747	16.95	0	0.04	MJD	AB	29.8	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	r	58912.4973	16.96	0	0.04	MJD	AB	29.83	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58912.5209	17.93	0	0.08	MJD	AB	29.85	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+P48+ZTF	g	58912.5468	17.94	0	0.07	MJD	AB	29.88	days	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+LCO	U	58887.51	17.0628	0	0.0348	MJD	Vega	4.84	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58887.513	17.46	0	0.0249	MJD	Vega	4.843	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58887.515	17.4641	0	0.0249	MJD	Vega	4.845	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58887.517	16.9854	0	0.0216	MJD	Vega	4.847	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58887.518	16.9766	0	0.0222	MJD	Vega	4.848	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58887.519	17.4785	0	0.0145	MJD	AB	4.849	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58887.521	17.4341	0	0.0144	MJD	AB	4.851	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58887.523	17.3416	0	0.0139	MJD	AB	4.853	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58887.524	17.3056	0	0.0119	MJD	AB	4.854	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58887.526	17.6325	0	0.0169	MJD	AB	4.856	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58887.527	17.7097	0	0.0188	MJD	AB	4.857	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58892.394	17.062	0	0.0395	MJD	Vega	9.724	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58892.397	16.9733	0	0.0448	MJD	Vega	9.727	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58892.399	17.2307	0	0.0164	MJD	Vega	9.729	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58892.401	17.1197	0	0.0131	MJD	Vega	9.731	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58892.403	16.441	0	0.0128	MJD	Vega	9.733	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58892.405	16.4517	0	0.0121	MJD	Vega	9.735	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58892.406	16.748	0	0.0107	MJD	AB	9.736	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58892.408	16.7442	0	0.0107	MJD	AB	9.738	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58892.41	16.53	0	0.0114	MJD	AB	9.74	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58892.411	16.5362	0	0.0114	MJD	AB	9.741	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58892.413	16.7866	0	0.0134	MJD	AB	9.743	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58892.414	16.7801	0	0.0134	MJD	AB	9.744	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58893.423	17.2038	0	0.0282	MJD	Vega	10.753	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58893.426	17.2042	0	0.0269	MJD	Vega	10.756	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58893.428	17.2632	0	0.0141	MJD	Vega	10.758	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58893.43	17.2591	0	0.0141	MJD	Vega	10.76	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58893.432	16.4148	0	0.0124	MJD	Vega	10.762	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58893.433	16.4373	0	0.0118	MJD	Vega	10.763	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58893.435	16.5229	0	0.01	MJD	AB	10.765	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58893.437	16.5639	0	0.011	MJD	AB	10.767	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58893.439	16.5132	0	0.0115	MJD	AB	10.769	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58893.44	16.4959	0	0.0106	MJD	AB	10.77	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58893.441	16.7583	0	0.0135	MJD	AB	10.771	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58893.443	16.7667	0	0.0135	MJD	AB	10.773	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58896.316	17.2386	0	0.055	MJD	Vega	13.646	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58896.322	16.3383	0	0.0153	MJD	Vega	13.652	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58896.323	16.383	0	0.0144	MJD	Vega	13.653	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58896.327	16.7619	0	0.0085	MJD	AB	13.657	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58896.329	16.3397	0	0.0072	MJD	AB	13.659	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58896.33	16.3369	0	0.0072	MJD	AB	13.66	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58896.331	16.6957	0	0.0142	MJD	AB	13.661	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58896.333	16.6883	0	0.0122	MJD	AB	13.663	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58904.297	17.938	0	0.0801	MJD	Vega	21.627	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58904.3	17.9579	0	0.0853	MJD	Vega	21.63	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58904.302	17.7973	0	0.0248	MJD	Vega	21.632	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58904.304	17.7682	0	0.0299	MJD	Vega	21.634	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58904.305	16.6822	0	0.019	MJD	Vega	21.635	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58904.306	16.6753	0	0.017	MJD	Vega	21.636	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58904.307	17.4025	0	0.0105	MJD	AB	21.637	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58904.309	17.3039	0	0.0114	MJD	AB	21.639	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58904.31	16.4569	0	0.0094	MJD	AB	21.64	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58904.311	16.4097	0	0.0104	MJD	AB	21.641	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58904.312	16.8759	0	0.0162	MJD	AB	21.642	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58904.313	16.8353	0	0.0154	MJD	AB	21.643	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58906.299	18.0835	0	0.0773	MJD	Vega	23.629	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58906.302	18.0339	0	0.0673	MJD	Vega	23.632	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58906.305	17.9889	0	0.0228	MJD	Vega	23.635	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58906.306	17.9789	0	0.0235	MJD	Vega	23.636	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58906.308	16.8317	0	0.0153	MJD	Vega	23.638	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58906.31	16.8539	0	0.0159	MJD	Vega	23.64	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58906.311	17.3911	0	0.0102	MJD	AB	23.641	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58906.313	17.3571	0	0.0083	MJD	AB	23.643	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58906.315	16.4688	0	0.0073	MJD	AB	23.645	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58906.316	16.4686	0	0.0074	MJD	AB	23.646	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58906.317	16.7611	0	0.0113	MJD	AB	23.647	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58906.319	16.7623	0	0.0113	MJD	AB	23.649	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58919.282	18.6942	0	0.2967	MJD	Vega	36.612	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	U	58919.284	18.344	0	0.2025	MJD	Vega	36.614	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58919.287	18.8595	0	0.1794	MJD	Vega	36.617	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58919.288	18.7488	0	0.0896	MJD	Vega	36.618	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58919.29	17.6052	0	0.0384	MJD	Vega	36.62	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58919.291	17.6326	0	0.0423	MJD	Vega	36.621	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58919.292	18.2309	0	0.0434	MJD	AB	36.622	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58919.293	18.2989	0	0.0463	MJD	AB	36.623	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58919.295	17.3813	0	0.0252	MJD	AB	36.625	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58919.296	17.361	0	0.0282	MJD	AB	36.626	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58919.297	17.5568	0	0.0342	MJD	AB	36.627	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58925.426	18.7771	0	0.0181	MJD	Vega	42.756	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58925.431	18.8132	0	0.0181	MJD	Vega	42.761	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58925.436	17.86	0	0.0152	MJD	Vega	42.766	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58925.439	17.8687	0	0.0142	MJD	Vega	42.769	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58925.442	18.4282	0	0.0113	MJD	AB	42.772	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58925.445	18.3745	0	0.0184	MJD	AB	42.775	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58925.449	17.6958	0	0.0542	MJD	AB	42.779	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58925.452	17.7219	0	0.0773	MJD	AB	42.782	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58925.455	17.8135	0	0.0262	MJD	AB	42.785	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58925.457	17.8521	0	0.0144	MJD	AB	42.787	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58938.548	19.1529	0	0.0273	MJD	Vega	55.878	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58938.549	18.3358	0	0.0317	MJD	Vega	55.879	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58938.55	18.7095	0	0.0116	MJD	AB	55.88	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58938.552	18.0881	0	0.0123	MJD	AB	55.882	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58938.553	18.2361	0	0.0183	MJD	AB	55.883	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58942.363	19.2085	0	0.0845	MJD	Vega	59.693	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58942.365	18.7659	0	0.1192	MJD	Vega	59.695	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58942.366	18.9149	0	0.0359	MJD	AB	59.696	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58942.368	18.2743	0	0.0183	MJD	AB	59.698	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58942.369	18.4634	0	0.0303	MJD	AB	59.699	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58950.357	19.5005	0	0.0624	MJD	Vega	67.687	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58950.359	18.6013	0	0.0266	MJD	Vega	67.689	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58950.36	19.0586	0	0.0238	MJD	AB	67.69	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58950.362	18.4015	0	0.0226	MJD	AB	67.692	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58950.363	18.5987	0	0.0324	MJD	AB	67.693	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58955.426	19.5326	0	0.0355	MJD	Vega	72.756	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58955.428	18.7903	0	0.0354	MJD	Vega	72.758	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58955.429	18.941	0	0.0165	MJD	AB	72.759	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58955.431	18.4878	0	0.0126	MJD	AB	72.761	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58955.432	18.6769	0	0.0187	MJD	AB	72.762	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	B	58959.307	19.5326	0	0.0451	MJD	Vega	76.637	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	V	58959.309	18.7698	0	0.0365	MJD	Vega	76.639	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	g	58959.31	19.0274	0	0.0175	MJD	AB	76.64	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	r	58959.312	18.6269	0	0.0143	MJD	AB	76.642	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+LCO	i	58959.313	18.7988	0	0.0315	MJD	AB	76.643	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58997.29	19.957	0	0.147	MJD	AB	114.62	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58991.235	19.794	0	0.136	MJD	AB	108.565	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58980.329	19.32	0	0.11	MJD	AB	97.659	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58979.24	19.621	0	0.146	MJD	AB	96.57	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58976.298	19.134	0	0.187	MJD	AB	93.628	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58976.201	19.44	0	0.253	MJD	AB	93.531	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58975.275	18.558	1	NaN	MJD	AB	92.605	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58973.304	19.066	0	0.113	MJD	AB	90.634	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58973.267	19.53	0	0.15	MJD	AB	90.597	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58970.391	19.174	0	0.099	MJD	AB	87.721	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58970.307	19.508	0	0.146	MJD	AB	87.637	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58967.341	19.093	0	0.106	MJD	AB	84.671	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58967.288	19.659	0	0.172	MJD	AB	84.618	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58964.345	19.359	0	0.113	MJD	AB	81.675	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58964.283	18.995	0	0.084	MJD	AB	81.613	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58961.41	18.967	0	0.097	MJD	AB	78.74	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58956.369	19.334	0	0.148	MJD	AB	73.699	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58956.343	18.894	0	0.091	MJD	AB	73.673	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58955.426	18.834	0	0.087	MJD	AB	72.756	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58955.404	19.483	0	0.145	MJD	AB	72.734	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58954.444	18.727	0	0.091	MJD	AB	71.774	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58954.387	19.331	0	0.18	MJD	AB	71.717	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58944.474	19.063	0	0.121	MJD	AB	61.804	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58943.467	18.396	0	0.078	MJD	AB	60.797	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58943.425	18.915	0	0.119	MJD	AB	60.755	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58941.474	20.708	1	NaN	MJD	AB	58.804	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58941.426	18.397	0	0.087	MJD	AB	58.756	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58940.431	16.945	1	NaN	MJD	AB	57.761	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58939.453	18.937	0	0.198	MJD	AB	56.783	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58939.425	18.204	0	0.086	MJD	AB	56.755	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58936.47	19.025	0	0.116	MJD	AB	53.8	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58936.406	18.228	0	0.068	MJD	AB	53.736	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58917.391	17.07	1	NaN	MJD	AB	34.721	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58914.53	17.153	0	0.039	MJD	AB	31.86	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58914.5	18.15	0	0.07	MJD	AB	31.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58911.552	17.885	0	0.079	MJD	AB	28.882	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58911.484	16.896	0	0.038	MJD	AB	28.814	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58911.426	17.931	0	0.06	MJD	AB	28.756	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58906.538	17.489	0	0.054	MJD	AB	23.868	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58906.487	16.613	0	0.038	MJD	AB	23.817	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58903.541	17.299	0	0.049	MJD	AB	20.871	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58903.496	16.559	0	0.036	MJD	AB	20.826	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58898.512	16.436	0	0.035	MJD	AB	15.842	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58898.456	16.983	0	0.031	MJD	AB	15.786	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58893.497	16.755	0	0.038	MJD	AB	10.827	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58890.559	16.831	0	0.047	MJD	AB	7.889	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58890.476	16.672	0	0.038	MJD	AB	7.806	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58887.531	17.097	0	0.043	MJD	AB	4.861	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58887.468	17.181	0	0.05	MJD	AB	4.798	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58884.547	17.632	0	0.056	MJD	AB	1.877	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58884.475	17.45	0	0.051	MJD	AB	1.805	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58881.557	20.672	1	NaN	MJD	AB	-1.113	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58881.494	20.771	1	NaN	MJD	AB	-1.1760000000000002	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58878.555	20.227	1	NaN	MJD	AB	-4.115	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58878.528	20.458	1	NaN	MJD	AB	-4.142	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58875.552	20.298	1	NaN	MJD	AB	-7.118	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58875.495	20.658	1	NaN	MJD	AB	-7.175	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58872.554	20.425	1	NaN	MJD	AB	-10.116	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58872.448	19.986	1	NaN	MJD	AB	-10.222	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58863.453	19.638	1	NaN	MJD	AB	-19.217	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58859.468	19.618	1	NaN	MJD	AB	-23.202	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	r	58856.573	20.289	1	NaN	MJD	AB	-26.097	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+ZTF	g	58856.558	20.644	1	NaN	MJD	AB	-26.112	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58898.0	17.5927	0	0.121637	MJD	Vega	15.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58899.93	17.7634	0	0.123899	MJD	Vega	17.26	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58913.79	18.6626	0	1.08864	MJD	Vega	31.12	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58921.94	19.1324	0	0.167476	MJD	Vega	39.27	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58922.9	19.0954	0	0.162426	MJD	Vega	40.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58924.11	19.2436	0	0.125191	MJD	Vega	41.44	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58925.1	19.2056	0	0.130046	MJD	Vega	42.43	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58925.92	19.2294	0	0.153094	MJD	Vega	43.25	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58935.91	19.5941	0	0.136254	MJD	Vega	53.24	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58939.96	19.58	0	0.336582	MJD	Vega	57.29	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58941.06	19.5626	0	0.129825	MJD	Vega	58.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58945.06	19.4956	0	0.309785	MJD	Vega	62.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58947.06	19.6852	0	0.381681	MJD	Vega	64.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58954.07	19.6424	0	0.294933	MJD	Vega	71.4	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58955.03	19.7895	0	0.136951	MJD	Vega	72.36	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	B	58960.01	20.0695	0	0.417769	MJD	Vega	77.34	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58898.0	16.4791	0	0.0668901	MJD	Vega	15.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58899.93	16.5234	0	0.0540181	MJD	Vega	17.26	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58913.79	17.0523	0	0.369746	MJD	Vega	31.12	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58921.94	17.9553	0	0.0722324	MJD	Vega	39.27	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58922.9	17.9791	0	0.0829488	MJD	Vega	40.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58924.11	18.0303	0	0.0588385	MJD	Vega	41.44	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58925.1	18.0619	0	0.0501352	MJD	Vega	42.43	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58925.92	18.2596	0	0.0832459	MJD	Vega	43.25	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58935.91	18.5913	0	0.063387	MJD	Vega	53.24	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58939.96	18.6744	0	0.0858278	MJD	Vega	57.29	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58941.06	18.5982	0	0.0677861	MJD	Vega	58.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58945.06	18.6359	0	0.164548	MJD	Vega	62.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58947.06	18.5886	0	0.157431	MJD	Vega	64.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58954.07	18.9742	0	0.162578	MJD	Vega	71.4	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58955.03	19.046	0	0.069051	MJD	Vega	72.36	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	V	58960.01	19.1058	0	0.232373	MJD	Vega	77.34	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58898.0	16.8297	0	0.0522808	MJD	AB	15.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58899.93	16.9253	0	0.04808	MJD	AB	17.26	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58913.79	17.5509	0	0.443172	MJD	AB	31.12	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58921.94	18.4414	0	0.0828066	MJD	AB	39.27	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58922.9	18.3944	0	0.0724095	MJD	AB	40.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58924.11	18.4394	0	0.0562311	MJD	AB	41.44	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58925.1	18.484	0	0.0528371	MJD	AB	42.43	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58925.92	18.5781	0	0.0674877	MJD	AB	43.25	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58935.91	18.8299	0	0.0557551	MJD	AB	53.24	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58939.96	18.9569	0	0.0805666	MJD	AB	57.29	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58941.06	18.8987	0	0.061867	MJD	AB	58.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58945.06	18.9828	0	0.170928	MJD	AB	62.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58947.06	18.9917	0	0.180165	MJD	AB	64.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58954.07	19.2445	0	0.171033	MJD	AB	71.4	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58955.03	19.2404	0	0.0611189	MJD	AB	72.36	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	g	58960.01	19.4627	0	0.213894	MJD	AB	77.34	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58898.0	16.3844	0	0.0350355	MJD	AB	15.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58899.93	16.4026	0	0.0300233	MJD	AB	17.26	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58913.79	16.8895	0	0.228689	MJD	AB	31.12	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58921.94	17.5633	0	0.0437607	MJD	AB	39.27	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58922.9	17.5976	0	0.0384489	MJD	AB	40.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58924.11	17.6819	0	0.0338612	MJD	AB	41.44	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58925.1	17.748	0	0.032403	MJD	AB	42.43	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58925.92	17.7454	0	0.0481906	MJD	AB	43.25	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58935.91	18.1962	0	0.0356091	MJD	AB	53.24	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58939.96	18.2794	0	0.0562791	MJD	AB	57.29	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58941.06	18.3315	0	0.0456018	MJD	AB	58.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58945.06	18.4034	0	0.0963234	MJD	AB	62.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58947.06	18.3533	0	0.099519	MJD	AB	64.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58954.07	18.7539	0	0.0864857	MJD	AB	71.4	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58955.03	18.7577	0	0.0417026	MJD	AB	72.36	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	r	58960.01	18.9881	0	0.115553	MJD	AB	77.34	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58898.0	16.7113	0	0.0390753	MJD	AB	15.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58899.93	16.6891	0	0.0339193	MJD	AB	17.26	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58913.79	17.077	0	0.324298	MJD	AB	31.12	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58921.94	17.7214	0	0.0476976	MJD	AB	39.27	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58922.9	17.6573	0	0.0609731	MJD	AB	40.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58924.11	17.9215	0	0.0447056	MJD	AB	41.44	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58925.1	18.0107	0	0.0513559	MJD	AB	42.43	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58925.92	17.8849	0	0.0619244	MJD	AB	43.25	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58935.91	18.3742	0	0.0537132	MJD	AB	53.24	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58939.96	18.5063	0	0.0807167	MJD	AB	57.29	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58941.06	18.6081	0	0.0642618	MJD	AB	58.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58945.06	18.3865	0	0.164865	MJD	AB	62.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58947.06	18.8117	0	0.313671	MJD	AB	64.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58954.07	19.1285	0	0.169897	MJD	AB	71.4	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58955.03	19.3094	0	0.0851604	MJD	AB	72.36	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	i	58960.01	19.5563	0	0.281867	MJD	AB	77.34	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58898.0	16.3391	0	0.0715497	MJD	AB	15.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58899.93	16.301	0	0.0606193	MJD	AB	17.26	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58913.79	17.0123	0	0.792648	MJD	AB	31.12	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58921.94	17.203	0	0.0659962	MJD	AB	39.27	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58922.9	17.107	0	0.101668	MJD	AB	40.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58924.11	17.5723	0	0.0687693	MJD	AB	41.44	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58925.1	17.7779	0	0.0885373	MJD	AB	42.43	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58925.92	17.2556	0	0.0831562	MJD	AB	43.25	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58935.91	17.7593	0	0.097381	MJD	AB	53.24	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58939.96	17.968	0	0.133627	MJD	AB	57.29	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58941.06	18.5669	0	0.152606	MJD	AB	58.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58945.06	17.9961	0	0.310696	MJD	AB	62.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58947.06	18.0327	0	0.392437	MJD	AB	64.39	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58954.07	19.2	0	0.285632	MJD	AB	71.4	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+KON	z	58955.03	19.1862	0	0.234288	MJD	AB	72.36	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+UVOT	V	58884.0	17.18	0	0.22	MJD	unspecified	1.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	V	58885.6	17.12	0	0.22	MJD	unspecified	2.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	V	58886.5	17.47	0	0.26	MJD	unspecified	3.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	V	58887.3	17.24	0	0.25	MJD	unspecified	4.63	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	V	58888.9	17.13	0	0.22	MJD	unspecified	6.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	V	58891.6	16.59	0	0.14	MJD	unspecified	8.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	V	58893.5	16.4	0	0.14	MJD	unspecified	10.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	V	58895.0	16.25	0	0.17	MJD	unspecified	12.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	B	58884.0	17.22	0	0.15	MJD	unspecified	1.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	B	58885.6	17.45	0	0.17	MJD	unspecified	2.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	B	58886.5	17.63	0	0.18	MJD	unspecified	3.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	B	58887.3	17.48	0	0.18	MJD	unspecified	4.63	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	B	58888.9	17.02	0	0.14	MJD	unspecified	6.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	B	58891.6	16.93	0	0.12	MJD	unspecified	8.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	B	58893.5	17.01	0	0.13	MJD	unspecified	10.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	B	58895.0	17.34	0	0.17	MJD	unspecified	12.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	U	58884.0	17.12	0	0.14	MJD	unspecified	1.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	U	58885.6	18.27	0	0.21	MJD	unspecified	2.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	U	58886.5	18.18	0	0.2	MJD	unspecified	3.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	U	58887.3	17.96	0	0.19	MJD	unspecified	4.63	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	U	58888.9	18.19	0	0.2	MJD	unspecified	6.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	U	58891.6	18.03	0	0.15	MJD	unspecified	8.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	U	58893.5	18.2	0	0.17	MJD	unspecified	10.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	U	58895.0	18.22	0	0.21	MJD	unspecified	12.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W1	58884.0	17.32	0	0.13	MJD	unspecified	1.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W1	58885.6	19.08	0	0.24	MJD	unspecified	2.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W1	58886.5	18.96	0	0.22	MJD	unspecified	3.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W1	58887.3	19.25	0	0.26	MJD	unspecified	4.63	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W1	58888.9	18.92	0	0.22	MJD	unspecified	6.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W1	58891.6	19.25	0	0.19	MJD	unspecified	8.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W1	58893.5	19.3	0	0.21	MJD	unspecified	10.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W1	58895.0	19.34	0	0.28	MJD	unspecified	12.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	M2	58884.0	17.47	0	0.12	MJD	unspecified	1.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	M2	58885.6	19.8	0	0.25	MJD	unspecified	2.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	M2	58886.5	19.92	0	0.26	MJD	unspecified	3.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	M2	58887.3	19.86	0	0.27	MJD	unspecified	4.63	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	M2	58888.9	19.62	0	0.22	MJD	unspecified	6.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	M2	58891.6	20.17	0	0.22	MJD	unspecified	8.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	M2	58893.5	19.93	0	0.21	MJD	unspecified	10.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	M2	58895.0	19.71	0	0.26	MJD	unspecified	12.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W2	58884.0	17.83	0	0.14	MJD	unspecified	1.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W2	58885.6	19.64	0	0.26	MJD	unspecified	2.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W2	58886.5	19.43	0	0.24	MJD	unspecified	3.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W2	58887.3	19.82	0	0.29	MJD	unspecified	4.63	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W2	58888.9	19.75	0	0.26	MJD	unspecified	6.23	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W2	58891.6	19.73	0	0.21	MJD	unspecified	8.93	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W2	58893.5	19.65	0	0.21	MJD	unspecified	10.83	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+UVOT	W2	58895.0	20.39	0	0.37	MJD	unspecified	12.33	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
