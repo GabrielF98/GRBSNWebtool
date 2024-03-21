@@ -1,12 +1,12 @@
 GRB/SN,Filename,Status,Reference
 GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_1.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract
 GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_2.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract
-GRB980425-SN1998bw,GRB980425-SN1998bw_Optical+Other.html,Optical,https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract
-GRB980425-SN1998bw,GRB980425-SN1998bw_IR.html,IR,https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract
-GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_3.html,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract
-GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_4.html,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract
-GRB980425-SN1998bw,Xraydata.gif,"Early, Xray",https://ui.adsabs.harvard.edu/abs/1999A%26AS..138..463P/abstract
-GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_5.html,"Late, Optical",https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_6.txt,Optical,https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_IR.txt,"IR, Optical",https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_3.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_4.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Xray.txt,"Early, Xray",https://ui.adsabs.harvard.edu/abs/1999A%26AS..138..463P/abstract
+GRB980425-SN1998bw,GRB980425-SN1998bw_Optical_5.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract
 GRB980425-SN1998bw,,Xray,https://ui.adsabs.harvard.edu/abs/2004ApJ...608..872K/abstract
 GRB980425-SN1998bw,GRB980425-SN1998bw_Radio.txt,Radio,https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract
 GRB980425-SN1998bw,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN1998bw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
