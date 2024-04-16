@@ -164,12 +164,26 @@ for folder in folder_list:
     json_list = glob.glob('*.json')
 
     # Perform operations on all json files
-    for file in json_list:
-        if 'Spectra' in file:
-            file_dict = load_json(file)
-            all_keys = []
-            list_of_keys = find_keys(file_dict)
-            convert_key(list_of_keys, file_dict, file)
+    # for file in json_list:
+    #     if 'Spectra' in file:
+    #         file_dict = load_json(file)
+    #         all_keys = []
+    #         list_of_keys = find_keys(file_dict)
+    #         convert_key(list_of_keys, file_dict, file)
+
+    # Update the filesources csv
+    filesources_txt = glob.glob('*filesources*')
+    filesources = pd.read_csv(filesources_txt)
+
+    txt_list = glob.glob('*OpenSNSpectra*')
+    for file in txt_list:
+        info = pd.read_csv(file, delimiter='\t')
+        reference = info['reference'][0]
+
+        filesources.loc[(filesources['Filename'][:-5] == file[-4]), 'Filename'] = file
+        filesources.loc[(filesources['Filename'][:-5] == file[-4]), 'Reference'] = reference
+
+
 
     # Shuttle all json files to the OriginalFormats folder
     # for file in json_list:
@@ -178,6 +192,10 @@ for folder in folder_list:
     #     except FileNotFoundError:
     #         os.mkdir('OriginalFormats/')
     #         shutil.move(file, 'OriginalFormats/')
+
+
+
+
 
 
     # Return to the folder where you are running this code.
