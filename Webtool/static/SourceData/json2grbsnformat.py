@@ -1,6 +1,7 @@
 import glob
 import json
 import os
+import shutil
 
 import numpy as np
 import pandas as pd
@@ -118,7 +119,10 @@ def convert_key(key_list, data_dict, filename):
 
         for source in source_list:
             if 'adsabs' in source['url']:
-                spectrum['reference'] = length*[source['url']]
+                if source['url'] == 'https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract':
+                    continue
+                else:
+                    spectrum['reference'] = length*[source['url']]
 
 
 
@@ -166,6 +170,15 @@ for folder in folder_list:
             all_keys = []
             list_of_keys = find_keys(file_dict)
             convert_key(list_of_keys, file_dict, file)
+
+    # Shuttle all json files to the OriginalFormats folder
+    # for file in json_list:
+    #     try:
+    #         shutil.move(file, 'OriginalFormats/')
+    #     except FileNotFoundError:
+    #         os.mkdir('OriginalFormats/')
+    #         shutil.move(file, 'OriginalFormats/')
+
 
     # Return to the folder where you are running this code.
     os.chdir(pwd)
