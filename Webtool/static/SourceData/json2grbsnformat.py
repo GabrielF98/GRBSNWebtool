@@ -1,6 +1,7 @@
 import glob
 import json
 import os
+import shutil
 
 import numpy as np
 import pandas as pd
@@ -160,12 +161,20 @@ for folder in folder_list:
     json_list = glob.glob('*.json')
 
     # Perform operations on all json files
+    # for file in json_list:
+    #     if 'Spectra' in file:
+    #         file_dict = load_json(file)
+    #         all_keys = []
+    #         list_of_keys = find_keys(file_dict)
+    #         convert_key(list_of_keys, file_dict, file)
+
+    # Shuttle all json files to the OriginalFormats folder
     for file in json_list:
-        if 'Spectra' in file:
-            file_dict = load_json(file)
-            all_keys = []
-            list_of_keys = find_keys(file_dict)
-            convert_key(list_of_keys, file_dict, file)
+        try:
+            shutil.move(file, 'OriginalFormats/')
+        except FileNotFoundError:
+            os.mkdir('OriginalFormats/')
+            shutil.move(file, 'OriginalFormats/')
 
     # Return to the folder where you are running this code.
     os.chdir(pwd)
