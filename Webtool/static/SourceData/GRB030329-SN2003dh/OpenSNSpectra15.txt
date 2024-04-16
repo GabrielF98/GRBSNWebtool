@@ -1,90 +1,90 @@
-flux	obs_wavelength	redshift	rest_wavelength	date_unit	date	instrument	flux_unit	wavelength_unit	reference	time	time_unit	time_frame	dtime
-0.007	4050.0	0.1685	3465.477850890328	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.008	4090.0	0.1685	3499.7047926275163	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.009	4140.0	0.1685	3542.488469799002	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.008	4178.0	0.1685	3575.004064449331	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.009	4220.0	0.1685	3610.942353273379	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.01	4276.0	0.1685	3658.860071705443	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.011	4322.0	0.1685	3698.221054703209	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.012	4462.0	0.1685	3818.015350783369	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	4488.0	0.1685	3840.262862912541	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	4516.0	0.1685	3864.221722128573	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.015	4532.0	0.1685	3877.9124988234485	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.016	4548.0	0.1685	3891.6032755183237	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.015	4612.0	0.1685	3946.3663822978256	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	4642.0	0.1685	3972.0365886007166	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	4668.0	0.1685	3994.2841007298894	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.012	4698.0	0.1685	4019.9543070327804	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	4818.0	0.1685	4122.635132244346	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	4916.0	0.1685	4206.491139500457	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.015	5118.0	0.1685	4379.337195273259	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.016	5160.0	0.1685	4415.275484097307	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.017	5184.0	0.1685	4435.8116491396195	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.018	5244.0	0.1685	4487.1520617454025	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.017	5310.0	0.1685	4543.626515611763	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.018	5316.0	0.1685	4548.760556872342	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.019	5344.0	0.1685	4572.719416088374	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.02	5378.0	0.1685	4601.812316564984	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.019	5462.0	0.1685	4673.688894213079	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.018	5482.0	0.1685	4690.802365081674	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.017	5498.0	0.1685	4704.493141776549	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.016	5514.0	0.1685	4718.1839184714245	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.015	5524.0	0.1685	4726.740653905721	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	5536.0	0.1685	4737.008736426878	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	5558.0	0.1685	4755.833554382331	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.012	5596.0	0.1685	4788.3491490326605	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.011	5626.0	0.1685	4814.019355335552	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.012	5732.0	0.1685	4904.720750939101	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	5844.0	0.1685	5000.556187803229	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	5926.0	0.1685	5070.7214183644655	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	6020.0	0.1685	5151.154731446858	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	6114.0	0.1685	5231.5880445292505	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.015	6142.0	0.1685	5255.546903745283	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	6150.0	0.1685	5262.392292092721	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.015	6156.0	0.1685	5267.5263333532985	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.016	6192.0	0.1685	5298.330580916768	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.017	6224.0	0.1685	5325.712134306519	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.018	6278.0	0.1685	5371.9185056517235	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.019	6304.0	0.1685	5394.166017780895	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.02	6332.0	0.1685	5418.124876996928	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.019	6424.0	0.1685	5496.8468429924615	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.018	6442.0	0.1685	5512.248966774196	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.017	6462.0	0.1685	5529.36243764279	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.016	6482.0	0.1685	5546.475908511385	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.015	6502.0	0.1685	5563.589379379979	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	6522.0	0.1685	5580.702850248573	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	6558.0	0.1685	5611.507097812042	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.012	6600.0	0.1685	5647.44538663609	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.011	6650.0	0.1685	5690.229063807576	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.01	6724.0	0.1685	5753.548906021374	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.009	6788.0	0.1685	5808.312012800876	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.008	6814.0	0.1685	5830.559524930049	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.009	6952.0	0.1685	5948.642473923348	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.01	7014.0	0.1685	6001.69423361599	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.011	7050.0	0.1685	6032.49848117946	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.01	7100.0	0.1685	6075.282158350946	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.011	7110.0	0.1685	6083.838893785242	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.012	7122.0	0.1685	6094.106976306399	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	7132.0	0.1685	6102.663711740696	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	7192.0	0.1685	6154.004124346478	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.015	7214.0	0.1685	6172.828942301932	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.016	7240.0	0.1685	6195.076454431105	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.015	7270.0	0.1685	6220.746660733997	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	7288.0	0.1685	6236.148784515731	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	7324.0	0.1685	6266.953032079201	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.012	7386.0	0.1685	6320.004791771843	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.011	7426.0	0.1685	6354.231733509031	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.01	7486.0	0.1685	6405.572146114814	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.011	7522.0	0.1685	6436.376393678283	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.012	7544.0	0.1685	6455.201211633737	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	7554.0	0.1685	6463.757947068034	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.014	7560.0	0.1685	6468.891988328613	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.013	7600.0	0.1685	6503.118930065801	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.012	7664.0	0.1685	6557.8820368453025	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.011	7690.0	0.1685	6580.129548974474	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.01	7702.0	0.1685	6590.397631495632	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.009	7710.0	0.1685	6597.243019843069	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.01	7762.0	0.1685	6641.738044101414	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.009	7874.0	0.1685	6737.573480965541	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.008	7920.0	0.1685	6776.934463963308	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
-0.007	7944.0	0.1685	6797.470629005621	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract	84.51580243055555	days	observer	NaN
+flux	obs_wavelength	redshift	rest_wavelength	date_unit	date	instrument	flux_unit	wavelength_unit	reference
+0.007	4050.0	0.1685	3465.9822	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.008	4090.0	0.1685	3500.214	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.009	4140.0	0.1685	3543.004	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.008	4178.0	0.1685	3575.5244	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.009	4220.0	0.1685	3611.4678	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.01	4276.0	0.1685	3659.3926	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.011	4322.0	0.1685	3698.7593	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	4462.0	0.1685	3818.571	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	4488.0	0.1685	3840.8218	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	4516.0	0.1685	3864.7842	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	4532.0	0.1685	3878.4768	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.016	4548.0	0.1685	3892.1697	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	4612.0	0.1685	3946.9407	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	4642.0	0.1685	3972.6147	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	4668.0	0.1685	3994.8655	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	4698.0	0.1685	4020.5393	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	4818.0	0.1685	4123.235	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	4916.0	0.1685	4207.1035	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	5118.0	0.1685	4379.9746	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.016	5160.0	0.1685	4415.918	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.017	5184.0	0.1685	4436.457	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.018	5244.0	0.1685	4487.805	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.017	5310.0	0.1685	4544.2876	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.018	5316.0	0.1685	4549.4224	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.019	5344.0	0.1685	4573.385	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.02	5378.0	0.1685	4602.482	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.019	5462.0	0.1685	4674.369	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.018	5482.0	0.1685	4691.485	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.017	5498.0	0.1685	4705.1777	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.016	5514.0	0.1685	4718.8706	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	5524.0	0.1685	4727.4287	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	5536.0	0.1685	4737.698	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	5558.0	0.1685	4756.526	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	5596.0	0.1685	4789.046	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.011	5626.0	0.1685	4814.7197	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	5732.0	0.1685	4905.4346	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	5844.0	0.1685	5001.2837	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	5926.0	0.1685	5071.4595	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	6020.0	0.1685	5151.9043	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	6114.0	0.1685	5232.3496	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	6142.0	0.1685	5256.3115	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	6150.0	0.1685	5263.158	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	6156.0	0.1685	5268.293	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.016	6192.0	0.1685	5299.1016	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.017	6224.0	0.1685	5326.4873	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.018	6278.0	0.1685	5372.7	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.019	6304.0	0.1685	5394.951	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.02	6332.0	0.1685	5418.9136	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.019	6424.0	0.1685	5497.647	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.018	6442.0	0.1685	5513.0513	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.017	6462.0	0.1685	5530.167	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.016	6482.0	0.1685	5547.283	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	6502.0	0.1685	5564.399	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	6522.0	0.1685	5581.515	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	6558.0	0.1685	5612.3237	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	6600.0	0.1685	5648.267	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.011	6650.0	0.1685	5691.057	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.01	6724.0	0.1685	5754.386	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.009	6788.0	0.1685	5809.157	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.008	6814.0	0.1685	5831.408	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.009	6952.0	0.1685	5949.5083	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.01	7014.0	0.1685	6002.568	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.011	7050.0	0.1685	6033.3765	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.01	7100.0	0.1685	6076.1665	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.011	7110.0	0.1685	6084.724	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	7122.0	0.1685	6094.9937	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	7132.0	0.1685	6103.552	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	7192.0	0.1685	6154.9	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	7214.0	0.1685	6173.727	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.016	7240.0	0.1685	6195.978	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	7270.0	0.1685	6221.652	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	7288.0	0.1685	6237.056	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	7324.0	0.1685	6267.865	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	7386.0	0.1685	6320.9243	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.011	7426.0	0.1685	6355.1562	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.01	7486.0	0.1685	6406.5044	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.011	7522.0	0.1685	6437.313	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	7544.0	0.1685	6456.1406	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	7554.0	0.1685	6464.6987	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	7560.0	0.1685	6469.8335	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	7600.0	0.1685	6504.0654	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	7664.0	0.1685	6558.8364	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.011	7690.0	0.1685	6581.0874	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.01	7702.0	0.1685	6591.357	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.009	7710.0	0.1685	6598.203	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.01	7762.0	0.1685	6642.7046	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.009	7874.0	0.1685	6738.554	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.008	7920.0	0.1685	6777.921	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.007	7944.0	0.1685	6798.46	utc	2003-06-22T00:00:00.000	Subaru - FOCAS	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract

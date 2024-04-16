@@ -1,293 +1,293 @@
-flux	obs_wavelength	redshift	rest_wavelength	date_unit	date	instrument	flux_unit	wavelength_unit	reference	time	time_unit	time_frame	dtime
-0.032	2910.0	0.1685	2490.010011380458	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.031	2920.0	0.1685	2498.566746814755	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.032	2928.0	0.1685	2505.4121351621925	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.031	2940.0	0.1685	2515.6802176833494	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.03	2944.0	0.1685	2519.102911857068	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.029	2952.0	0.1685	2525.948300204506	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.028	2980.0	0.1685	2549.9071594205375	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.027	2988.0	0.1685	2556.7525477679756	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.026	2994.0	0.1685	2561.8865890285538	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.025	2996.0	0.1685	2563.597936115413	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.024	2998.0	0.1685	2565.3092832022726	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.023	3002.0	0.1685	2568.7319773759914	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.024	3008.0	0.1685	2573.8660186365696	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.023	3016.0	0.1685	2580.711406984007	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.022	3020.0	0.1685	2584.134101157726	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.023	3030.0	0.1685	2592.690836592023	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.024	3044.0	0.1685	2604.6702662000394	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.025	3048.0	0.1685	2608.092960373758	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.024	3058.0	0.1685	2616.649695808055	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.023	3060.0	0.1685	2618.3610428949146	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.022	3078.0	0.1685	2633.7631666766492	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.021	3096.0	0.1685	2649.165290458384	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.022	3102.0	0.1685	2654.2993317189625	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.021	3106.0	0.1685	2657.7220258926814	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.02	3112.0	0.1685	2662.8560671532596	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.019	3118.0	0.1685	2667.990108413838	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.018	3122.0	0.1685	2671.4128025875566	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.019	3132.0	0.1685	2679.9695380218536	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.018	3158.0	0.1685	2702.2170501510263	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.017	3166.0	0.1685	2709.062438498464	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.016	3176.0	0.1685	2717.619173932761	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.015	3182.0	0.1685	2722.753215193339	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.014	3186.0	0.1685	2726.175909367058	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.013	3196.0	0.1685	2734.732644801355	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.012	3206.0	0.1685	2743.289380235652	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.011	3224.0	0.1685	2758.691504017387	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.012	3226.0	0.1685	2760.4028511042466	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.011	3234.0	0.1685	2767.248239451684	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.012	3246.0	0.1685	2777.5163219728406	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.013	3262.0	0.1685	2791.207098667716	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.014	3270.0	0.1685	2798.052487015154	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.013	3302.0	0.1685	2825.4340404049044	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.014	3304.0	0.1685	2827.145387491764	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.015	3338.0	0.1685	2856.238287968374	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.016	3356.0	0.1685	2871.640411750109	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.017	3404.0	0.1685	2912.712741834735	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.016	3412.0	0.1685	2919.5581301821726	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.017	3434.0	0.1685	2938.3829481376265	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.018	3444.0	0.1685	2946.9396835719235	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.019	3460.0	0.1685	2960.6304602667988	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.02	3474.0	0.1685	2972.6098898748146	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.021	3488.0	0.1685	2984.589319482831	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.022	3496.0	0.1685	2991.4347078302685	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.023	3514.0	0.1685	3006.836831612003	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.024	3530.0	0.1685	3020.5276083068784	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.025	3546.0	0.1685	3034.218385001754	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.026	3562.0	0.1685	3047.9091616966293	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.027	3576.0	0.1685	3059.888591304645	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.028	3592.0	0.1685	3073.5793679995204	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.029	3604.0	0.1685	3083.8474505206773	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.03	3630.0	0.1685	3106.0949626498495	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.031	3666.0	0.1685	3136.8992102133193	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.03	3670.0	0.1685	3140.321904387038	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.031	3676.0	0.1685	3145.4559456476163	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.032	3690.0	0.1685	3157.435375255632	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.033	3714.0	0.1685	3177.9715402979455	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.032	3740.0	0.1685	3200.2190524271177	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.033	3750.0	0.1685	3208.7757878614148	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.034	3784.0	0.1685	3237.868688338025	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.035	3816.0	0.1685	3265.2502417277756	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.036	3824.0	0.1685	3272.0956300752136	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.037	3834.0	0.1685	3280.6523655095107	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.038	3864.0	0.1685	3306.3225718124017	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.039	3880.0	0.1685	3320.0133485072774	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.04	3890.0	0.1685	3328.5700839415745	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.041	3906.0	0.1685	3342.2608606364497	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.042	3924.0	0.1685	3357.6629844181844	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.043	3940.0	0.1685	3371.35376111306	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.044	3958.0	0.1685	3386.7558848947947	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.043	3968.0	0.1685	3395.3126203290917	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.044	4028.0	0.1685	3446.6530329348743	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.045	4062.0	0.1685	3475.7459334114847	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.046	4132.0	0.1685	3535.6430814515643	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.045	4134.0	0.1685	3537.3544285384237	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.046	4140.0	0.1685	3542.488469799002	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.045	4192.0	0.1685	3586.983494057347	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.046	4228.0	0.1685	3617.7877416208166	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.045	4246.0	0.1685	3633.1898654025513	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.046	4254.0	0.1685	3640.035253749989	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.045	4260.0	0.1685	3645.169295010567	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.046	4266.0	0.1685	3650.3033362711453	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.047	4274.0	0.1685	3657.1487246185834	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.048	4298.0	0.1685	3677.6848896608963	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.049	4318.0	0.1685	3694.7983605294903	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.05	4344.0	0.1685	3717.045872658663	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.051	4362.0	0.1685	3732.4479964403977	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.052	4378.0	0.1685	3746.138773135273	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.053	4390.0	0.1685	3756.40685565643	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.054	4402.0	0.1685	3766.6749381775862	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.055	4414.0	0.1685	3776.9430206987427	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.056	4440.0	0.1685	3799.1905328279154	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.057	4466.0	0.1685	3821.4380449570876	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.058	4482.0	0.1685	3835.128821651963	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.059	4492.0	0.1685	3843.68555708626	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.06	4518.0	0.1685	3865.9330692154326	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.061	4574.0	0.1685	3913.8507876474964	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.06	4590.0	0.1685	3927.5415643423717	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.059	4620.0	0.1685	3953.211770645263	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.058	4638.0	0.1685	3968.613894426998	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.057	4648.0	0.1685	3977.170629861295	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.056	4684.0	0.1685	4007.9748774247646	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.057	4688.0	0.1685	4011.3975715984834	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.058	4762.0	0.1685	4074.717413812282	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.059	4784.0	0.1685	4093.5422317677358	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.06	4796.0	0.1685	4103.810314288892	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.061	4824.0	0.1685	4127.769173504924	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	4844.0	0.1685	4144.882644373518	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	4862.0	0.1685	4160.284768155253	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	4910.0	0.1685	4201.357098239879	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	4994.0	0.1685	4273.233675887975	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	5054.0	0.1685	4324.574088493758	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	5064.0	0.1685	4333.130823928054	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	5068.0	0.1685	4336.553518101773	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.065	5088.0	0.1685	4353.666988970368	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	5108.0	0.1685	4370.780459838962	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	5118.0	0.1685	4379.337195273259	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.068	5130.0	0.1685	4389.605277794415	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.069	5144.0	0.1685	4401.584707402431	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.07	5156.0	0.1685	4411.852789923588	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.071	5172.0	0.1685	4425.543566618463	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.072	5182.0	0.1685	4434.1003020527605	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.073	5192.0	0.1685	4442.657037487058	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.074	5208.0	0.1685	4456.347814181933	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.075	5214.0	0.1685	4461.481855442511	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.076	5244.0	0.1685	4487.1520617454025	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.077	5268.0	0.1685	4507.688226787715	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.078	5304.0	0.1685	4538.492474351186	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.079	5328.0	0.1685	4559.028639393498	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.08	5346.0	0.1685	4574.430763175233	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.081	5366.0	0.1685	4591.544234043828	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.082	5380.0	0.1685	4603.523663651843	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.083	5390.0	0.1685	4612.0803990861405	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.084	5408.0	0.1685	4627.482522867875	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.085	5424.0	0.1685	4641.173299562751	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.086	5442.0	0.1685	4656.575423344485	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.085	5472.0	0.1685	4682.2456296473765	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.086	5478.0	0.1685	4687.379670907955	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.085	5484.0	0.1685	4692.513712168533	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.084	5498.0	0.1685	4704.493141776549	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.083	5508.0	0.1685	4713.049877210846	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.082	5520.0	0.1685	4723.317959732002	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.081	5532.0	0.1685	4733.58604225316	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.08	5542.0	0.1685	4742.142777687456	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.079	5554.0	0.1685	4752.410860208613	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.078	5564.0	0.1685	4760.96759564291	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.077	5572.0	0.1685	4767.812983990348	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.076	5576.0	0.1685	4771.2356781640665	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.075	5582.0	0.1685	4776.369719424645	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.074	5588.0	0.1685	4781.503760685223	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.073	5596.0	0.1685	4788.3491490326605	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.072	5608.0	0.1685	4798.617231553817	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.071	5618.0	0.1685	4807.173966988114	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.07	5626.0	0.1685	4814.019355335552	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.069	5638.0	0.1685	4824.2874378567085	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.068	5646.0	0.1685	4831.132826204146	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	5658.0	0.1685	4841.4009087253025	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.068	5674.0	0.1685	4855.091685420178	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	5678.0	0.1685	4858.514379593897	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	5702.0	0.1685	4879.05054463621	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	5732.0	0.1685	4904.720750939101	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	5742.0	0.1685	4913.2774863733985	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	5778.0	0.1685	4944.081733936868	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	5862.0	0.1685	5015.958311584964	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	5898.0	0.1685	5046.762559148433	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	5916.0	0.1685	5062.164682930168	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	5922.0	0.1685	5067.298724190747	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	5928.0	0.1685	5072.4327654513245	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.065	5942.0	0.1685	5084.412195059341	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	5950.0	0.1685	5091.257583406778	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.065	5954.0	0.1685	5094.680277580497	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	5968.0	0.1685	5106.659707188513	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	5976.0	0.1685	5113.505095535951	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	5982.0	0.1685	5118.639136796529	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	5996.0	0.1685	5130.618566404545	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6006.0	0.1685	5139.175301838842	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6008.0	0.1685	5140.886648925702	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6054.0	0.1685	5180.247631923468	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6066.0	0.1685	5190.515714444625	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6068.0	0.1685	5192.227061531484	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.061	6082.0	0.1685	5204.2064911395	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6100.0	0.1685	5219.608614921235	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.061	6112.0	0.1685	5229.876697442392	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6134.0	0.1685	5248.701515397845	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.061	6154.0	0.1685	5265.8149862664395	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.06	6162.0	0.1685	5272.660374613877	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.059	6208.0	0.1685	5312.021357611644	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.06	6216.0	0.1685	5318.8667459590815	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.061	6220.0	0.1685	5322.2894401328	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6254.0	0.1685	5351.382340609411	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6260.0	0.1685	5356.516381869988	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6282.0	0.1685	5375.341199825442	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6290.0	0.1685	5382.18658817288	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	6298.0	0.1685	5389.031976520318	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.065	6302.0	0.1685	5392.454670694036	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	6312.0	0.1685	5401.011406128334	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	6326.0	0.1685	5412.990835736349	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.068	6330.0	0.1685	5416.413529910068	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.069	6332.0	0.1685	5418.124876996928	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.07	6336.0	0.1685	5421.547571170647	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.071	6354.0	0.1685	5436.949694952381	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.072	6378.0	0.1685	5457.485859994695	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.073	6386.0	0.1685	5464.331248342132	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.074	6394.0	0.1685	5471.17663668957	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.073	6402.0	0.1685	5478.022025037008	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.072	6408.0	0.1685	5483.156066297585	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.073	6422.0	0.1685	5495.135495905602	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.074	6426.0	0.1685	5498.55819007932	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.075	6430.0	0.1685	5501.980884253039	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.076	6434.0	0.1685	5505.403578426758	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.077	6436.0	0.1685	5507.114925513618	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.076	6452.0	0.1685	5520.805702208493	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.075	6476.0	0.1685	5541.341867250806	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.074	6480.0	0.1685	5544.764561424525	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.073	6484.0	0.1685	5548.187255598244	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.072	6488.0	0.1685	5551.609949771962	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.073	6494.0	0.1685	5556.743991032541	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.074	6510.0	0.1685	5570.434767727416	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.075	6512.0	0.1685	5572.146114814275	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.074	6520.0	0.1685	5578.991503161713	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.075	6528.0	0.1685	5585.8368915091505	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.074	6546.0	0.1685	5601.239015290886	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.073	6550.0	0.1685	5604.661709464604	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.072	6554.0	0.1685	5608.084403638323	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.071	6558.0	0.1685	5611.507097812042	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.07	6566.0	0.1685	5618.35248615948	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.069	6574.0	0.1685	5625.197874506917	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.068	6580.0	0.1685	5630.331915767496	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	6582.0	0.1685	5632.043262854355	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	6586.0	0.1685	5635.465957028075	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.065	6590.0	0.1685	5638.888651201793	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	6594.0	0.1685	5642.311345375512	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6598.0	0.1685	5645.734039549231	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	6620.0	0.1685	5664.558857504684	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.065	6624.0	0.1685	5667.981551678403	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	6638.0	0.1685	5679.960981286419	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.065	6642.0	0.1685	5683.383675460138	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	6650.0	0.1685	5690.229063807576	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	6652.0	0.1685	5691.940410894435	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.068	6656.0	0.1685	5695.363105068154	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	6666.0	0.1685	5703.919840502451	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	6672.0	0.1685	5709.0538817630295	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.065	6676.0	0.1685	5712.476575936748	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	6678.0	0.1685	5714.187923023607	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6680.0	0.1685	5715.899270110467	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6682.0	0.1685	5717.610617197326	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6686.0	0.1685	5721.033311371045	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6688.0	0.1685	5722.744658457905	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6692.0	0.1685	5726.1673526316235	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6698.0	0.1685	5731.301393892202	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6702.0	0.1685	5734.724088065921	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	6704.0	0.1685	5736.43543515278	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	6706.0	0.1685	5738.14678223964	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	6708.0	0.1685	5739.858129326499	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.068	6710.0	0.1685	5741.569476413359	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.069	6714.0	0.1685	5744.992170587077	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.07	6716.0	0.1685	5746.703517673936	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.071	6720.0	0.1685	5750.126211847655	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.07	6726.0	0.1685	5755.260253108234	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.071	6734.0	0.1685	5762.1056414556715	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.072	6746.0	0.1685	5772.373723976828	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.073	6748.0	0.1685	5774.085071063687	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.072	6756.0	0.1685	5780.930459411125	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.071	6760.0	0.1685	5784.353153584844	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.07	6764.0	0.1685	5787.775847758563	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.069	6768.0	0.1685	5791.198541932282	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.068	6770.0	0.1685	5792.909889019141	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	6776.0	0.1685	5798.0439302797195	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.068	6782.0	0.1685	5803.177971540297	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.067	6792.0	0.1685	5811.734706974595	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	6794.0	0.1685	5813.446054061454	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.065	6798.0	0.1685	5816.8687482351725	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	6800.0	0.1685	5818.580095322032	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6804.0	0.1685	5822.002789495751	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6806.0	0.1685	5823.71413658261	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.061	6810.0	0.1685	5827.13683075633	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.06	6814.0	0.1685	5830.559524930049	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.061	6818.0	0.1685	5833.982219103767	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.062	6824.0	0.1685	5839.116260364345	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.063	6828.0	0.1685	5842.538954538064	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.064	6832.0	0.1685	5845.961648711783	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.065	6840.0	0.1685	5852.80703705922	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
-0.066	6848.0	0.1685	5859.652425406658	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	33.51580243055555	days	observer	NaN
+flux	obs_wavelength	redshift	rest_wavelength	date_unit	date	instrument	flux_unit	wavelength_unit	reference
+0.032	2910.0	0.1685	2490.3723	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.031	2920.0	0.1685	2498.9304	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.032	2928.0	0.1685	2505.7769	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.031	2940.0	0.1685	2516.0464	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.03	2944.0	0.1685	2519.4695	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.029	2952.0	0.1685	2526.316	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.028	2980.0	0.1685	2550.2783	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.027	2988.0	0.1685	2557.1248	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.026	2994.0	0.1685	2562.2595	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.025	2996.0	0.1685	2563.971	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.024	2998.0	0.1685	2565.6826	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.023	3002.0	0.1685	2569.1057	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.024	3008.0	0.1685	2574.2405	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.023	3016.0	0.1685	2581.087	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.022	3020.0	0.1685	2584.5103	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.023	3030.0	0.1685	2593.068	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.024	3044.0	0.1685	2605.0493	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.025	3048.0	0.1685	2608.4724	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.024	3058.0	0.1685	2617.0305	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.023	3060.0	0.1685	2618.7422	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.022	3078.0	0.1685	2634.1465	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.021	3096.0	0.1685	2649.5508	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.022	3102.0	0.1685	2654.6855	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.021	3106.0	0.1685	2658.109	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.02	3112.0	0.1685	2663.2437	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.019	3118.0	0.1685	2668.3784	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.018	3122.0	0.1685	2671.8015	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.019	3132.0	0.1685	2680.3596	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.018	3158.0	0.1685	2702.6104	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.017	3166.0	0.1685	2709.4568	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.016	3176.0	0.1685	2718.0146	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	3182.0	0.1685	2723.1494	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	3186.0	0.1685	2726.5728	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	3196.0	0.1685	2735.1306	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	3206.0	0.1685	2743.6887	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.011	3224.0	0.1685	2759.093	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	3226.0	0.1685	2760.8047	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.011	3234.0	0.1685	2767.651	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.012	3246.0	0.1685	2777.9207	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	3262.0	0.1685	2791.6133	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	3270.0	0.1685	2798.4597	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.013	3302.0	0.1685	2825.8452	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.014	3304.0	0.1685	2827.557	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.015	3338.0	0.1685	2856.654	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.016	3356.0	0.1685	2872.0583	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.017	3404.0	0.1685	2913.1367	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.016	3412.0	0.1685	2919.983	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.017	3434.0	0.1685	2938.8105	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.018	3444.0	0.1685	2947.3687	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.019	3460.0	0.1685	2961.0613	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.02	3474.0	0.1685	2973.0425	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.021	3488.0	0.1685	2985.0237	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.022	3496.0	0.1685	2991.87	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.023	3514.0	0.1685	3007.2744	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.024	3530.0	0.1685	3020.9673	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.025	3546.0	0.1685	3034.66	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.026	3562.0	0.1685	3048.3528	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.027	3576.0	0.1685	3060.334	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.028	3592.0	0.1685	3074.0266	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.029	3604.0	0.1685	3084.2961	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.03	3630.0	0.1685	3106.5469	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.031	3666.0	0.1685	3137.3557	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.03	3670.0	0.1685	3140.7788	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.031	3676.0	0.1685	3145.9138	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.032	3690.0	0.1685	3157.8948	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.033	3714.0	0.1685	3178.434	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.032	3740.0	0.1685	3200.6848	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.033	3750.0	0.1685	3209.2427	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.034	3784.0	0.1685	3238.3398	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.035	3816.0	0.1685	3265.7253	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.036	3824.0	0.1685	3272.5718	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.037	3834.0	0.1685	3281.13	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.038	3864.0	0.1685	3306.8037	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3880.0	0.1685	3320.4966	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3890.0	0.1685	3329.0544	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.041	3906.0	0.1685	3342.7473	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.042	3924.0	0.1685	3358.1516	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.043	3940.0	0.1685	3371.8445	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.044	3958.0	0.1685	3387.2488	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.043	3968.0	0.1685	3395.8066	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.044	4028.0	0.1685	3447.1545	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	4062.0	0.1685	3476.2517	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.046	4132.0	0.1685	3536.1577	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	4134.0	0.1685	3537.8691	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.046	4140.0	0.1685	3543.004	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	4192.0	0.1685	3587.5056	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.046	4228.0	0.1685	3618.3142	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	4246.0	0.1685	3633.7185	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.046	4254.0	0.1685	3640.565	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	4260.0	0.1685	3645.6997	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.046	4266.0	0.1685	3650.8345	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.047	4274.0	0.1685	3657.681	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.048	4298.0	0.1685	3678.2202	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.049	4318.0	0.1685	3695.3362	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.05	4344.0	0.1685	3717.587	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.051	4362.0	0.1685	3732.9912	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.052	4378.0	0.1685	3746.6838	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.053	4390.0	0.1685	3756.9536	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.054	4402.0	0.1685	3767.2231	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.055	4414.0	0.1685	3777.4927	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.056	4440.0	0.1685	3799.7434	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.057	4466.0	0.1685	3821.9941	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.058	4482.0	0.1685	3835.687	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.059	4492.0	0.1685	3844.2449	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.06	4518.0	0.1685	3866.4956	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.061	4574.0	0.1685	3914.4204	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.06	4590.0	0.1685	3928.113	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.059	4620.0	0.1685	3953.787	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.058	4638.0	0.1685	3969.1914	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.057	4648.0	0.1685	3977.7495	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.056	4684.0	0.1685	4008.558	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.057	4688.0	0.1685	4011.9814	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.058	4762.0	0.1685	4075.3103	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.059	4784.0	0.1685	4094.138	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.06	4796.0	0.1685	4104.4077	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.061	4824.0	0.1685	4128.37	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	4844.0	0.1685	4145.486	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	4862.0	0.1685	4160.89	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	4910.0	0.1685	4201.9688	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	4994.0	0.1685	4273.8555	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	5054.0	0.1685	4325.2036	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	5064.0	0.1685	4333.761	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	5068.0	0.1685	4337.1846	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	5088.0	0.1685	4354.301	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	5108.0	0.1685	4371.4165	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	5118.0	0.1685	4379.9746	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	5130.0	0.1685	4390.244	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.069	5144.0	0.1685	4402.225	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	5156.0	0.1685	4412.4946	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	5172.0	0.1685	4426.1875	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.072	5182.0	0.1685	4434.7456	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	5192.0	0.1685	4443.3037	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	5208.0	0.1685	4456.9966	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	5214.0	0.1685	4462.1313	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	5244.0	0.1685	4487.805	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	5268.0	0.1685	4508.344	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.078	5304.0	0.1685	4539.153	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.079	5328.0	0.1685	4559.692	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	5346.0	0.1685	4575.0967	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5366.0	0.1685	4592.2124	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5380.0	0.1685	4604.194	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5390.0	0.1685	4612.7515	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5408.0	0.1685	4628.156	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5424.0	0.1685	4641.8486	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5442.0	0.1685	4657.253	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5472.0	0.1685	4682.9272	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5478.0	0.1685	4688.062	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5484.0	0.1685	4693.197	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5498.0	0.1685	4705.1777	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5508.0	0.1685	4713.736	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5520.0	0.1685	4724.0054	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5532.0	0.1685	4734.275	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	5542.0	0.1685	4742.833	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.079	5554.0	0.1685	4753.1025	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.078	5564.0	0.1685	4761.6606	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	5572.0	0.1685	4768.507	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	5576.0	0.1685	4771.93	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	5582.0	0.1685	4777.065	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	5588.0	0.1685	4782.1997	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	5596.0	0.1685	4789.046	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.072	5608.0	0.1685	4799.3154	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	5618.0	0.1685	4807.8735	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	5626.0	0.1685	4814.7197	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.069	5638.0	0.1685	4824.9897	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	5646.0	0.1685	4831.836	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	5658.0	0.1685	4842.1055	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	5674.0	0.1685	4855.7983	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	5678.0	0.1685	4859.2217	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	5702.0	0.1685	4879.7607	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	5732.0	0.1685	4905.4346	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	5742.0	0.1685	4913.9927	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	5778.0	0.1685	4944.8013	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	5862.0	0.1685	5016.6885	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	5898.0	0.1685	5047.497	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	5916.0	0.1685	5062.9014	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	5922.0	0.1685	5068.036	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	5928.0	0.1685	5073.171	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	5942.0	0.1685	5085.1523	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	5950.0	0.1685	5091.9985	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	5954.0	0.1685	5095.422	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	5968.0	0.1685	5107.403	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	5976.0	0.1685	5114.2495	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	5982.0	0.1685	5119.3843	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	5996.0	0.1685	5131.365	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6006.0	0.1685	5139.9233	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6008.0	0.1685	5141.635	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6054.0	0.1685	5181.0015	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6066.0	0.1685	5191.271	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6068.0	0.1685	5192.983	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.061	6082.0	0.1685	5204.964	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6100.0	0.1685	5220.368	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.061	6112.0	0.1685	5230.6377	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6134.0	0.1685	5249.4653	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.061	6154.0	0.1685	5266.5815	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.06	6162.0	0.1685	5273.4277	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.059	6208.0	0.1685	5312.7944	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.06	6216.0	0.1685	5319.6406	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.061	6220.0	0.1685	5323.064	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6254.0	0.1685	5352.161	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6260.0	0.1685	5357.296	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6282.0	0.1685	5376.1235	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6290.0	0.1685	5382.9697	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	6298.0	0.1685	5389.8164	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	6302.0	0.1685	5393.2393	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	6312.0	0.1685	5401.7974	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	6326.0	0.1685	5413.779	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	6330.0	0.1685	5417.2017	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.069	6332.0	0.1685	5418.9136	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	6336.0	0.1685	5422.3364	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	6354.0	0.1685	5437.7407	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.072	6378.0	0.1685	5458.2803	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	6386.0	0.1685	5465.1265	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	6394.0	0.1685	5471.9727	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	6402.0	0.1685	5478.8193	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.072	6408.0	0.1685	5483.954	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	6422.0	0.1685	5495.935	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	6426.0	0.1685	5499.3584	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	6430.0	0.1685	5502.7817	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	6434.0	0.1685	5506.2046	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	6436.0	0.1685	5507.9165	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	6452.0	0.1685	5521.6094	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	6476.0	0.1685	5542.1484	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	6480.0	0.1685	5545.5713	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	6484.0	0.1685	5548.9946	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.072	6488.0	0.1685	5552.418	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	6494.0	0.1685	5557.5527	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	6510.0	0.1685	5571.2456	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	6512.0	0.1685	5572.957	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	6520.0	0.1685	5579.803	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	6528.0	0.1685	5586.65	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	6546.0	0.1685	5602.054	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	6550.0	0.1685	5605.4775	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.072	6554.0	0.1685	5608.9004	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	6558.0	0.1685	5612.3237	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	6566.0	0.1685	5619.17	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.069	6574.0	0.1685	5626.0166	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	6580.0	0.1685	5631.1514	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	6582.0	0.1685	5632.863	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	6586.0	0.1685	5636.286	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	6590.0	0.1685	5639.7095	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	6594.0	0.1685	5643.1323	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6598.0	0.1685	5646.5557	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	6620.0	0.1685	5665.3833	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	6624.0	0.1685	5668.8066	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	6638.0	0.1685	5680.7876	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	6642.0	0.1685	5684.211	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	6650.0	0.1685	5691.057	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	6652.0	0.1685	5692.7686	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	6656.0	0.1685	5696.192	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	6666.0	0.1685	5704.75	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	6672.0	0.1685	5709.885	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	6676.0	0.1685	5713.308	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	6678.0	0.1685	5715.0195	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6680.0	0.1685	5716.731	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6682.0	0.1685	5718.443	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6686.0	0.1685	5721.8657	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6688.0	0.1685	5723.5776	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6692.0	0.1685	5727.0005	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6698.0	0.1685	5732.1353	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6702.0	0.1685	5735.5586	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	6704.0	0.1685	5737.2705	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	6706.0	0.1685	5738.982	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	6708.0	0.1685	5740.6934	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	6710.0	0.1685	5742.4053	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.069	6714.0	0.1685	5745.828	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	6716.0	0.1685	5747.54	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	6720.0	0.1685	5750.963	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	6726.0	0.1685	5756.0977	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	6734.0	0.1685	5762.9443	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.072	6746.0	0.1685	5773.214	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	6748.0	0.1685	5774.9253	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.072	6756.0	0.1685	5781.772	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	6760.0	0.1685	5785.195	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	6764.0	0.1685	5788.618	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.069	6768.0	0.1685	5792.0415	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	6770.0	0.1685	5793.753	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	6776.0	0.1685	5798.8877	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	6782.0	0.1685	5804.0225	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	6792.0	0.1685	5812.5806	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	6794.0	0.1685	5814.292	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	6798.0	0.1685	5817.7153	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	6800.0	0.1685	5819.427	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6804.0	0.1685	5822.85	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6806.0	0.1685	5824.5615	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.061	6810.0	0.1685	5827.985	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.06	6814.0	0.1685	5831.408	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.061	6818.0	0.1685	5834.831	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	6824.0	0.1685	5839.966	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	6828.0	0.1685	5843.389	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	6832.0	0.1685	5846.8125	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	6840.0	0.1685	5853.6587	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	6848.0	0.1685	5860.5054	utc	2003-05-02T00:00:00.000	Magellan-Baade - Boller & Chivens	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract

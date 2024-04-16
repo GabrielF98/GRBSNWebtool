@@ -1,531 +1,531 @@
-flux	obs_wavelength	redshift	rest_wavelength	date_unit	date	instrument	flux_unit	wavelength_unit	reference	time	time_unit	time_frame	dtime
-0.043	2994.0	0.1685	2561.8865890285538	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.042	2998.0	0.1685	2565.3092832022726	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.041	3000.0	0.1685	2567.020630289132	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.042	3004.0	0.1685	2570.443324462851	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.043	3006.0	0.1685	2572.15467154971	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.044	3008.0	0.1685	2573.8660186365696	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.045	3016.0	0.1685	2580.711406984007	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.046	3020.0	0.1685	2584.134101157726	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.045	3024.0	0.1685	2587.556795331445	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.044	3026.0	0.1685	2589.2681424183043	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.045	3030.0	0.1685	2592.690836592023	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.046	3034.0	0.1685	2596.113530765742	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.045	3036.0	0.1685	2597.8248778526013	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.044	3040.0	0.1685	2601.24757202632	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.043	3048.0	0.1685	2608.092960373758	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.042	3058.0	0.1685	2616.649695808055	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.043	3062.0	0.1685	2620.072389981774	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.042	3070.0	0.1685	2626.9177783292116	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.041	3072.0	0.1685	2628.629125416071	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.042	3074.0	0.1685	2630.3404725029304	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.041	3076.0	0.1685	2632.05181958979	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.04	3080.0	0.1685	2635.4745137635086	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3096.0	0.1685	2649.165290458384	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.038	3102.0	0.1685	2654.2993317189625	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3104.0	0.1685	2656.010678805822	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.04	3106.0	0.1685	2657.7220258926814	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3108.0	0.1685	2659.4333729795408	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.038	3110.0	0.1685	2661.1447200664	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.037	3112.0	0.1685	2662.8560671532596	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.036	3126.0	0.1685	2674.8354967612754	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.037	3128.0	0.1685	2676.546843848135	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.038	3138.0	0.1685	2685.103579282432	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3146.0	0.1685	2691.9489676298695	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.04	3152.0	0.1685	2697.0830088904477	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3154.0	0.1685	2698.7943559773075	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.038	3162.0	0.1685	2705.639744324745	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3166.0	0.1685	2709.062438498464	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.04	3172.0	0.1685	2714.196479759042	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.041	3174.0	0.1685	2715.9078268459016	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.04	3178.0	0.1685	2719.3305210196204	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3182.0	0.1685	2722.753215193339	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.04	3186.0	0.1685	2726.175909367058	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.041	3188.0	0.1685	2727.8872564539174	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.042	3194.0	0.1685	2733.0212977144956	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.043	3198.0	0.1685	2736.4439918882144	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.042	3206.0	0.1685	2743.289380235652	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.041	3208.0	0.1685	2745.0007273225115	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.04	3216.0	0.1685	2751.8461156699495	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3220.0	0.1685	2755.2688098436684	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.04	3228.0	0.1685	2762.114198191106	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3234.0	0.1685	2767.248239451684	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.038	3238.0	0.1685	2770.670933625403	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3240.0	0.1685	2772.3822807122624	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.038	3248.0	0.1685	2779.2276690597	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3250.0	0.1685	2780.9390161465594	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.04	3262.0	0.1685	2791.207098667716	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.039	3264.0	0.1685	2792.9184457545753	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.04	3272.0	0.1685	2799.7638341020133	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.041	3278.0	0.1685	2804.8978753625915	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.042	3280.0	0.1685	2806.609222449451	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.044	3282.0	0.1685	2808.3205695363104	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.045	3292.0	0.1685	2816.8773049706074	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.044	3294.0	0.1685	2818.588652057467	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.045	3298.0	0.1685	2822.0113462311856	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.046	3304.0	0.1685	2827.145387491764	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.047	3310.0	0.1685	2832.279428752342	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.046	3312.0	0.1685	2833.9907758392014	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.047	3320.0	0.1685	2840.836164186639	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.048	3326.0	0.1685	2845.9702054472177	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.049	3330.0	0.1685	2849.3928996209365	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.05	3334.0	0.1685	2852.8155937946553	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.049	3338.0	0.1685	2856.238287968374	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.048	3342.0	0.1685	2859.660982142093	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.049	3346.0	0.1685	2863.0836763158118	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.048	3348.0	0.1685	2864.795023402671	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.049	3352.0	0.1685	2868.21771757639	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.048	3358.0	0.1685	2873.351758836968	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.049	3366.0	0.1685	2880.197147184406	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.048	3368.0	0.1685	2881.908494271265	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.047	3374.0	0.1685	2887.0425355318434	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.048	3378.0	0.1685	2890.4652297055627	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.049	3382.0	0.1685	2893.8879238792815	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.05	3390.0	0.1685	2900.733312226719	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.051	3398.0	0.1685	2907.5787005741568	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.052	3404.0	0.1685	2912.712741834735	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.053	3408.0	0.1685	2916.135436008454	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.052	3410.0	0.1685	2917.846783095313	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.053	3412.0	0.1685	2919.5581301821726	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.054	3420.0	0.1685	2926.40351852961	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.055	3424.0	0.1685	2929.826212703329	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.056	3428.0	0.1685	2933.248906877048	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.057	3440.0	0.1685	2943.5169893982047	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.058	3442.0	0.1685	2945.228336485064	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.06	3448.0	0.1685	2950.3623777456423	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.061	3450.0	0.1685	2952.0737248325017	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.062	3454.0	0.1685	2955.4964190062205	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.063	3462.0	0.1685	2962.341807353658	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.064	3466.0	0.1685	2965.764501527377	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.065	3468.0	0.1685	2967.4758486142364	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.066	3498.0	0.1685	2993.146054917128	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.065	3504.0	0.1685	2998.280096177706	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.066	3510.0	0.1685	3003.4141374382843	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.067	3516.0	0.1685	3008.5481786988626	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.068	3520.0	0.1685	3011.9708728725814	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.067	3528.0	0.1685	3018.816261220019	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.068	3534.0	0.1685	3023.950302480597	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.067	3536.0	0.1685	3025.6616495674566	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.068	3538.0	0.1685	3027.372996654316	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.069	3540.0	0.1685	3029.0843437411754	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.07	3548.0	0.1685	3035.9297320886135	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.071	3558.0	0.1685	3044.4864675229105	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.072	3562.0	0.1685	3047.9091616966293	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.073	3572.0	0.1685	3056.4658971309264	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.074	3574.0	0.1685	3058.1772442177858	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	3578.0	0.1685	3061.5999383915046	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3582.0	0.1685	3065.0226325652234	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.077	3590.0	0.1685	3071.868020912661	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3592.0	0.1685	3073.5793679995204	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	3604.0	0.1685	3083.8474505206773	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3608.0	0.1685	3087.270144694396	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.077	3612.0	0.1685	3090.692838868115	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3640.0	0.1685	3114.6516980841466	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	3652.0	0.1685	3124.919780605303	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3662.0	0.1685	3133.4765160396005	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	3672.0	0.1685	3142.0332514738975	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3676.0	0.1685	3145.4559456476163	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	3678.0	0.1685	3147.1672927344757	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3686.0	0.1685	3154.0126810819133	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.077	3694.0	0.1685	3160.858069429351	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.078	3700.0	0.1685	3165.992110689929	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.079	3706.0	0.1685	3171.1261519505074	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.078	3722.0	0.1685	3184.816928645383	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.079	3732.0	0.1685	3193.37366407968	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.078	3734.0	0.1685	3195.0850111665395	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.079	3738.0	0.1685	3198.5077053402583	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.078	3740.0	0.1685	3200.2190524271177	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.077	3742.0	0.1685	3201.930399513977	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3746.0	0.1685	3205.353093687696	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	3754.0	0.1685	3212.1984820351336	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3760.0	0.1685	3217.332523295712	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	3762.0	0.1685	3219.043870382571	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.074	3766.0	0.1685	3222.46656455629	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	3776.0	0.1685	3231.0232999905875	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.074	3780.0	0.1685	3234.4459941643063	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	3784.0	0.1685	3237.868688338025	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.074	3788.0	0.1685	3241.291382511744	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	3798.0	0.1685	3249.848117946041	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3824.0	0.1685	3272.0956300752136	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.077	3826.0	0.1685	3273.806977162073	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	3832.0	0.1685	3278.9410184226513	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.077	3836.0	0.1685	3282.36371259637	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.078	3838.0	0.1685	3284.0750596832295	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.079	3842.0	0.1685	3287.4977538569483	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.08	3846.0	0.1685	3290.920448030667	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	3854.0	0.1685	3297.7658363781047	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.08	3862.0	0.1685	3304.6112247255423	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	3874.0	0.1685	3314.8793072466988	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	3878.0	0.1685	3318.3020014204176	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	3904.0	0.1685	3340.5495135495903	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	3910.0	0.1685	3345.6835548101685	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	3918.0	0.1685	3352.528943157606	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	3922.0	0.1685	3355.951637331325	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	3924.0	0.1685	3357.6629844181844	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	3932.0	0.1685	3364.508372765622	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	3944.0	0.1685	3374.776455286779	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	3946.0	0.1685	3376.4878023736383	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.089	3954.0	0.1685	3383.333190721076	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.09	3956.0	0.1685	3385.0445378079353	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.091	3960.0	0.1685	3388.467231981654	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	3966.0	0.1685	3393.6012732422323	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.093	3968.0	0.1685	3395.3126203290917	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	3972.0	0.1685	3398.7353145028105	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.093	3974.0	0.1685	3400.44666158967	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	3978.0	0.1685	3403.8693557633887	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.093	3980.0	0.1685	3405.580702850248	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	3982.0	0.1685	3407.2920499371075	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.093	3990.0	0.1685	3414.137438284545	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	3996.0	0.1685	3419.271479545124	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.093	4000.0	0.1685	3422.6941737188426	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4008.0	0.1685	3429.5395620662803	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4022.0	0.1685	3441.518991674296	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4026.0	0.1685	3444.941685848015	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4028.0	0.1685	3446.6530329348743	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.096	4032.0	0.1685	3450.075727108593	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4046.0	0.1685	3462.055156716609	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4048.0	0.1685	3463.766503803469	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4066.0	0.1685	3479.1686275852035	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.096	4088.0	0.1685	3497.993445540657	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.097	4102.0	0.1685	3509.972875148673	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.096	4104.0	0.1685	3511.6842222355326	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.097	4106.0	0.1685	3513.395569322392	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.098	4118.0	0.1685	3523.6636518435485	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.097	4122.0	0.1685	3527.0863460172673	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.096	4126.0	0.1685	3530.509040190986	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4134.0	0.1685	3537.3544285384237	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.096	4138.0	0.1685	3540.7771227121425	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4146.0	0.1685	3547.62251105958	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4152.0	0.1685	3552.7565523201583	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4174.0	0.1685	3571.5813702756122	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4178.0	0.1685	3575.004064449331	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4182.0	0.1685	3578.42675862305	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4190.0	0.1685	3585.2721469704875	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4194.0	0.1685	3588.6948411442063	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4198.0	0.1685	3592.117535317925	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4200.0	0.1685	3593.8288824047845	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.096	4218.0	0.1685	3609.2310061865196	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4230.0	0.1685	3619.499088707676	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4234.0	0.1685	3622.921782881395	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.093	4236.0	0.1685	3624.6331299682543	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4238.0	0.1685	3626.3444770551137	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4250.0	0.1685	3636.61255957627	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4256.0	0.1685	3641.7466008368483	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4260.0	0.1685	3645.169295010567	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4276.0	0.1685	3658.860071705443	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.093	4284.0	0.1685	3665.7054600528804	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	4292.0	0.1685	3672.550848400318	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.091	4302.0	0.1685	3681.107583834615	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	4310.0	0.1685	3687.9529721820527	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.091	4320.0	0.1685	3696.5097076163497	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.09	4330.0	0.1685	3705.066443050647	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.091	4332.0	0.1685	3706.7777901375066	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.09	4340.0	0.1685	3713.623178484944	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.089	4344.0	0.1685	3717.045872658663	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.09	4348.0	0.1685	3720.468566832382	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.091	4352.0	0.1685	3723.8912610061006	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	4354.0	0.1685	3725.60260809296	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.091	4370.0	0.1685	3739.2933847878353	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	4392.0	0.1685	3758.118202743289	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.091	4394.0	0.1685	3759.8295498301486	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.09	4398.0	0.1685	3763.2522440038674	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.089	4404.0	0.1685	3768.3862852644456	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	4418.0	0.1685	3780.3657148724615	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.089	4424.0	0.1685	3785.4997561330397	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	4444.0	0.1685	3802.613227001634	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.089	4456.0	0.1685	3812.8813095227906	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	4460.0	0.1685	3816.3040036965094	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.089	4462.0	0.1685	3818.015350783369	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	4466.0	0.1685	3821.4380449570876	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	4474.0	0.1685	3828.2834333045253	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	4480.0	0.1685	3833.4174745651035	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	4482.0	0.1685	3835.128821651963	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	4490.0	0.1685	3841.9742099994005	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.089	4494.0	0.1685	3845.3969041731198	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	4498.0	0.1685	3848.8195983468386	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	4514.0	0.1685	3862.510375041714	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	4520.0	0.1685	3867.644416302292	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	4544.0	0.1685	3888.180581344605	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	4554.0	0.1685	3896.7373167789024	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	4562.0	0.1685	3903.58270512634	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	4566.0	0.1685	3907.005399300059	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	4570.0	0.1685	3910.4280934737776	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	4572.0	0.1685	3912.139440560637	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	4576.0	0.1685	3915.562134734356	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	4578.0	0.1685	3917.2734818212152	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	4582.0	0.1685	3920.696175994934	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	4590.0	0.1685	3927.5415643423717	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	4598.0	0.1685	3934.3869526898093	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	4602.0	0.1685	3937.809646863528	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	4606.0	0.1685	3941.2323410372474	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	4614.0	0.1685	3948.077729384685	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	4628.0	0.1685	3960.057158992701	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	4636.0	0.1685	3966.9025473401384	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.089	4640.0	0.1685	3970.3252415138572	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.09	4646.0	0.1685	3975.4592827744355	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.091	4654.0	0.1685	3982.304671121873	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	4662.0	0.1685	3989.150059469311	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.093	4670.0	0.1685	3995.9954478167488	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	4676.0	0.1685	4001.129489077327	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	4682.0	0.1685	4006.263530337905	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.096	4684.0	0.1685	4007.9748774247646	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.097	4688.0	0.1685	4011.3975715984834	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.098	4700.0	0.1685	4021.66565411964	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.099	4704.0	0.1685	4025.0883482933586	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.1	4706.0	0.1685	4026.799695380218	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.101	4710.0	0.1685	4030.222389553937	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.102	4716.0	0.1685	4035.3564308145155	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.103	4720.0	0.1685	4038.7791249882343	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.104	4724.0	0.1685	4042.201819161953	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.105	4728.0	0.1685	4045.624513335672	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.106	4730.0	0.1685	4047.3358604225314	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.107	4734.0	0.1685	4050.75855459625	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.108	4742.0	0.1685	4057.603942943688	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.107	4746.0	0.1685	4061.0266371174066	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.108	4748.0	0.1685	4062.737984204266	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.109	4754.0	0.1685	4067.8720254648442	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.11	4758.0	0.1685	4071.294719638563	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.111	4762.0	0.1685	4074.717413812282	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.112	4772.0	0.1685	4083.2741492465793	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.113	4780.0	0.1685	4090.119537594017	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.114	4782.0	0.1685	4091.8308846808764	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.113	4784.0	0.1685	4093.5422317677358	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.114	4792.0	0.1685	4100.387620115173	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.115	4794.0	0.1685	4102.098967202032	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.116	4802.0	0.1685	4108.944355549471	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.117	4804.0	0.1685	4110.65570263633	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.116	4812.0	0.1685	4117.501090983767	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.117	4824.0	0.1685	4127.769173504924	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.118	4828.0	0.1685	4131.191867678643	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.119	4830.0	0.1685	4132.9032147655025	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.12	4844.0	0.1685	4144.882644373518	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.119	4846.0	0.1685	4146.593991460378	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.118	4848.0	0.1685	4148.305338547237	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.117	4854.0	0.1685	4153.439379807815	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.116	4858.0	0.1685	4156.862073981534	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.117	4860.0	0.1685	4158.573421068394	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.118	4880.0	0.1685	4175.686891936988	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.117	4884.0	0.1685	4179.109586110707	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.118	4886.0	0.1685	4180.820933197566	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.117	4900.0	0.1685	4192.800362805582	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.115	4912.0	0.1685	4203.068445326739	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.114	4916.0	0.1685	4206.491139500457	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.115	4918.0	0.1685	4208.202486587317	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.114	4928.0	0.1685	4216.759222021614	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.113	4934.0	0.1685	4221.8932632821925	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.114	4940.0	0.1685	4227.02730454277	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.113	4950.0	0.1685	4235.584039977068	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.114	4954.0	0.1685	4239.0067341507865	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.113	4958.0	0.1685	4242.429428324505	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.112	4962.0	0.1685	4245.852122498224	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.111	4964.0	0.1685	4247.563469585083	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.11	4972.0	0.1685	4254.408857932522	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.109	4980.0	0.1685	4261.254246279959	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.11	4988.0	0.1685	4268.099634627397	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.109	4992.0	0.1685	4271.522328801116	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.108	4998.0	0.1685	4276.656370061693	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.107	5008.0	0.1685	4285.213105495991	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.108	5010.0	0.1685	4286.92445258285	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.109	5016.0	0.1685	4292.058493843429	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.108	5026.0	0.1685	4300.615229277726	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.107	5030.0	0.1685	4304.037923451445	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.106	5036.0	0.1685	4309.171964712023	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.107	5048.0	0.1685	4319.440047233179	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.108	5050.0	0.1685	4321.151394320039	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.107	5064.0	0.1685	4333.130823928054	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.108	5070.0	0.1685	4338.264865188633	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.107	5072.0	0.1685	4339.976212275492	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.108	5074.0	0.1685	4341.687559362352	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.107	5078.0	0.1685	4345.110253536071	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.106	5082.0	0.1685	4348.532947709789	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.105	5092.0	0.1685	4357.089683144087	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.104	5094.0	0.1685	4358.801030230946	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.105	5114.0	0.1685	4375.91450109954	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.104	5120.0	0.1685	4381.0485423601185	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.103	5122.0	0.1685	4382.7598894469775	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.104	5136.0	0.1685	4394.739319054994	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.103	5146.0	0.1685	4403.296054489291	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.104	5150.0	0.1685	4406.71874866301	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.103	5156.0	0.1685	4411.852789923588	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.104	5168.0	0.1685	4422.120872444744	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.105	5174.0	0.1685	4427.254913705323	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.106	5176.0	0.1685	4428.966260792182	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.105	5180.0	0.1685	4432.388954965901	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.104	5184.0	0.1685	4435.8116491396195	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.103	5192.0	0.1685	4442.657037487058	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.104	5194.0	0.1685	4444.368384573917	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.103	5220.0	0.1685	4466.61589670309	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.102	5222.0	0.1685	4468.327243789949	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.101	5224.0	0.1685	4470.0385908768085	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.1	5242.0	0.1685	4485.440714658543	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.099	5246.0	0.1685	4488.863408832262	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.1	5254.0	0.1685	4495.7087971797	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.099	5266.0	0.1685	4505.976879700856	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.098	5270.0	0.1685	4509.399573874575	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.097	5284.0	0.1685	4521.379003482591	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.096	5288.0	0.1685	4524.801697656309	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.095	5290.0	0.1685	4526.513044743169	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.094	5302.0	0.1685	4536.781127264326	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.093	5306.0	0.1685	4540.2038214380445	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	5312.0	0.1685	4545.337862698623	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.091	5314.0	0.1685	4547.049209785482	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.092	5316.0	0.1685	4548.760556872342	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.091	5326.0	0.1685	4557.317292306639	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.09	5328.0	0.1685	4559.028639393498	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	5342.0	0.1685	4571.008069001514	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	5344.0	0.1685	4572.719416088374	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5346.0	0.1685	4574.430763175233	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5348.0	0.1685	4576.1421102620925	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5358.0	0.1685	4584.69884569639	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5362.0	0.1685	4588.121539870109	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5366.0	0.1685	4591.544234043828	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5372.0	0.1685	4596.678275304405	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5382.0	0.1685	4605.235010738703	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5394.0	0.1685	4615.503093259859	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5396.0	0.1685	4617.214440346718	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5398.0	0.1685	4618.925787433578	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5404.0	0.1685	4624.059828694156	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	5408.0	0.1685	4627.482522867875	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.08	5422.0	0.1685	4639.461952475891	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	5426.0	0.1685	4642.88464664961	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5428.0	0.1685	4644.59599373647	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5434.0	0.1685	4649.730034997047	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5438.0	0.1685	4653.152729170766	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	5442.0	0.1685	4656.575423344485	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.08	5456.0	0.1685	4668.554852952501	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.079	5460.0	0.1685	4671.97754712622	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.078	5464.0	0.1685	4675.400241299939	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.079	5470.0	0.1685	4680.534282560518	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.08	5472.0	0.1685	4682.2456296473765	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.079	5484.0	0.1685	4692.513712168533	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.08	5490.0	0.1685	4697.647753429112	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	5494.0	0.1685	4701.07044760283	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5498.0	0.1685	4704.493141776549	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	5506.0	0.1685	4711.338530123987	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5514.0	0.1685	4718.1839184714245	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5516.0	0.1685	4719.895265558283	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5520.0	0.1685	4723.317959732002	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5522.0	0.1685	4725.029306818862	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5540.0	0.1685	4740.431430600597	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5542.0	0.1685	4742.142777687456	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5544.0	0.1685	4743.854124774316	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5548.0	0.1685	4747.276818948035	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5552.0	0.1685	4750.699513121754	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5554.0	0.1685	4752.410860208613	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5564.0	0.1685	4760.96759564291	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5566.0	0.1685	4762.678942729769	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5572.0	0.1685	4767.812983990348	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5574.0	0.1685	4769.524331077207	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5576.0	0.1685	4771.2356781640665	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5578.0	0.1685	4772.947025250925	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5582.0	0.1685	4776.369719424645	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5584.0	0.1685	4778.081066511504	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5586.0	0.1685	4779.792413598364	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5588.0	0.1685	4781.503760685223	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5592.0	0.1685	4784.926454858942	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5594.0	0.1685	4786.637801945802	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5596.0	0.1685	4788.3491490326605	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5598.0	0.1685	4790.06049611952	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	5600.0	0.1685	4791.771843206379	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5604.0	0.1685	4795.194537380098	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5606.0	0.1685	4796.905884466958	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5608.0	0.1685	4798.617231553817	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5610.0	0.1685	4800.328578640677	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5618.0	0.1685	4807.173966988114	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5634.0	0.1685	4820.86474368299	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5642.0	0.1685	4827.710132030427	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5646.0	0.1685	4831.132826204146	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5660.0	0.1685	4843.112255812162	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	5662.0	0.1685	4844.823602899021	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	5664.0	0.1685	4846.534949985881	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.089	5666.0	0.1685	4848.24629707274	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	5672.0	0.1685	4853.380338333319	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	5674.0	0.1685	4855.091685420178	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5676.0	0.1685	4856.803032507038	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5678.0	0.1685	4858.514379593897	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5684.0	0.1685	4863.648420854475	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	5686.0	0.1685	4865.359767941334	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.088	5688.0	0.1685	4867.071115028194	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.087	5696.0	0.1685	4873.916503375632	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5698.0	0.1685	4875.627850462492	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5700.0	0.1685	4877.3391975493505	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5702.0	0.1685	4879.05054463621	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5704.0	0.1685	4880.761891723069	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5706.0	0.1685	4882.473238809929	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5712.0	0.1685	4887.607280070507	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5716.0	0.1685	4891.029974244226	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5718.0	0.1685	4892.741321331086	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5730.0	0.1685	4903.009403852242	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5734.0	0.1685	4906.432098025961	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	5736.0	0.1685	4908.14344511282	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.08	5740.0	0.1685	4911.566139286539	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5746.0	0.1685	4916.700180547117	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5748.0	0.1685	4918.411527633976	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5752.0	0.1685	4921.834221807696	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5754.0	0.1685	4923.545568894555	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5760.0	0.1685	4928.679610155134	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5762.0	0.1685	4930.3909572419925	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5764.0	0.1685	4932.102304328852	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5766.0	0.1685	4933.813651415711	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	5768.0	0.1685	4935.524998502571	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5772.0	0.1685	4938.94769267629	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5774.0	0.1685	4940.659039763149	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5776.0	0.1685	4942.370386850009	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.086	5778.0	0.1685	4944.081733936868	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5784.0	0.1685	4949.215775197446	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5804.0	0.1685	4966.3292460660405	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5808.0	0.1685	4969.751940239759	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	5810.0	0.1685	4971.463287326619	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.08	5812.0	0.1685	4973.174634413478	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.081	5816.0	0.1685	4976.597328587197	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5820.0	0.1685	4980.020022760916	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5822.0	0.1685	4981.731369847776	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5824.0	0.1685	4983.4427169346345	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.085	5828.0	0.1685	4986.865411108353	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.084	5830.0	0.1685	4988.576758195213	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.083	5834.0	0.1685	4991.999452368932	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.082	5836.0	0.1685	4993.710799455791	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.08	5838.0	0.1685	4995.422146542651	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.079	5840.0	0.1685	4997.13349362951	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.077	5842.0	0.1685	4998.84484071637	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	5846.0	0.1685	5002.267534890088	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.077	5850.0	0.1685	5005.690229063807	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	5858.0	0.1685	5012.535617411245	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	5862.0	0.1685	5015.958311584964	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	5870.0	0.1685	5022.803699932401	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.077	5872.0	0.1685	5024.515047019261	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.078	5874.0	0.1685	5026.22639410612	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.077	5884.0	0.1685	5034.783129540418	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	5886.0	0.1685	5036.4944766272765	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	5888.0	0.1685	5038.205823714136	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.073	5890.0	0.1685	5039.917170800995	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.072	5892.0	0.1685	5041.628517887855	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.071	5894.0	0.1685	5043.339864974714	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.07	5896.0	0.1685	5045.051212061574	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.071	5898.0	0.1685	5046.762559148433	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.07	5900.0	0.1685	5048.473906235293	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.071	5902.0	0.1685	5050.185253322152	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.073	5906.0	0.1685	5053.607947495871	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.074	5910.0	0.1685	5057.030641669589	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.073	5916.0	0.1685	5062.164682930168	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.074	5928.0	0.1685	5072.4327654513245	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	5934.0	0.1685	5077.566806711903	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.076	5940.0	0.1685	5082.700847972481	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.075	5946.0	0.1685	5087.83488923306	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.073	5948.0	0.1685	5089.5462363199185	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.071	5950.0	0.1685	5091.257583406778	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.07	5952.0	0.1685	5092.968930493637	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.069	5954.0	0.1685	5094.680277580497	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.068	5956.0	0.1685	5096.391624667356	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.067	5958.0	0.1685	5098.102971754216	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.066	5962.0	0.1685	5101.525665927935	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.065	5966.0	0.1685	5104.948360101654	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.066	5970.0	0.1685	5108.371054275372	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.065	5974.0	0.1685	5111.793748449091	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.062	5978.0	0.1685	5115.21644262281	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.061	5982.0	0.1685	5118.639136796529	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.06	5988.0	0.1685	5123.7731780571075	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.059	5990.0	0.1685	5125.4845251439665	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.058	5992.0	0.1685	5127.195872230826	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.059	5998.0	0.1685	5132.329913491404	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
-0.06	6000.0	0.1685	5134.041260578264	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract	7.5158024305555555	days	observer	NaN
+flux	obs_wavelength	redshift	rest_wavelength	date_unit	date	instrument	flux_unit	wavelength_unit	reference
+0.043	2994.0	0.1685	2562.2595	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.042	2998.0	0.1685	2565.6826	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.041	3000.0	0.1685	2567.3943	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.042	3004.0	0.1685	2570.8174	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.043	3006.0	0.1685	2572.529	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.044	3008.0	0.1685	2574.2405	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	3016.0	0.1685	2581.087	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.046	3020.0	0.1685	2584.5103	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	3024.0	0.1685	2587.9333	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.044	3026.0	0.1685	2589.645	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	3030.0	0.1685	2593.068	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.046	3034.0	0.1685	2596.4915	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	3036.0	0.1685	2598.203	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.044	3040.0	0.1685	2601.6262	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.043	3048.0	0.1685	2608.4724	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.042	3058.0	0.1685	2617.0305	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.043	3062.0	0.1685	2620.4536	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.042	3070.0	0.1685	2627.3	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.041	3072.0	0.1685	2629.0117	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.042	3074.0	0.1685	2630.7234	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.041	3076.0	0.1685	2632.4348	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3080.0	0.1685	2635.8582	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3096.0	0.1685	2649.5508	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.038	3102.0	0.1685	2654.6855	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3104.0	0.1685	2656.3972	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3106.0	0.1685	2658.109	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3108.0	0.1685	2659.8203	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.038	3110.0	0.1685	2661.532	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.037	3112.0	0.1685	2663.2437	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.036	3126.0	0.1685	2675.2249	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.037	3128.0	0.1685	2676.9363	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.038	3138.0	0.1685	2685.4944	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3146.0	0.1685	2692.3408	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3152.0	0.1685	2697.4756	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3154.0	0.1685	2699.187	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.038	3162.0	0.1685	2706.0334	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3166.0	0.1685	2709.4568	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3172.0	0.1685	2714.5916	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.041	3174.0	0.1685	2716.303	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3178.0	0.1685	2719.7263	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3182.0	0.1685	2723.1494	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3186.0	0.1685	2726.5728	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.041	3188.0	0.1685	2728.2842	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.042	3194.0	0.1685	2733.419	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.043	3198.0	0.1685	2736.8423	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.042	3206.0	0.1685	2743.6887	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.041	3208.0	0.1685	2745.4001	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3216.0	0.1685	2752.2466	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3220.0	0.1685	2755.6697	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3228.0	0.1685	2762.516	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3234.0	0.1685	2767.651	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.038	3238.0	0.1685	2771.0742	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3240.0	0.1685	2772.7856	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.038	3248.0	0.1685	2779.632	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3250.0	0.1685	2781.3438	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3262.0	0.1685	2791.6133	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.039	3264.0	0.1685	2793.325	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.04	3272.0	0.1685	2800.1714	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.041	3278.0	0.1685	2805.3062	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.042	3280.0	0.1685	2807.0176	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.044	3282.0	0.1685	2808.7292	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	3292.0	0.1685	2817.2874	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.044	3294.0	0.1685	2818.9988	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.045	3298.0	0.1685	2822.422	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.046	3304.0	0.1685	2827.557	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.047	3310.0	0.1685	2832.6917	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.046	3312.0	0.1685	2834.4033	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.047	3320.0	0.1685	2841.2495	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.048	3326.0	0.1685	2846.3843	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.049	3330.0	0.1685	2849.8076	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.05	3334.0	0.1685	2853.2307	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.049	3338.0	0.1685	2856.654	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.048	3342.0	0.1685	2860.0771	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.049	3346.0	0.1685	2863.5002	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.048	3348.0	0.1685	2865.212	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.049	3352.0	0.1685	2868.6353	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.048	3358.0	0.1685	2873.77	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.049	3366.0	0.1685	2880.6162	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.048	3368.0	0.1685	2882.328	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.047	3374.0	0.1685	2887.4626	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.048	3378.0	0.1685	2890.886	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.049	3382.0	0.1685	2894.309	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.05	3390.0	0.1685	2901.1555	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.051	3398.0	0.1685	2908.002	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.052	3404.0	0.1685	2913.1367	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.053	3408.0	0.1685	2916.5598	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.052	3410.0	0.1685	2918.2715	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.053	3412.0	0.1685	2919.983	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.054	3420.0	0.1685	2926.8293	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.055	3424.0	0.1685	2930.2527	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.056	3428.0	0.1685	2933.6758	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.057	3440.0	0.1685	2943.9453	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.058	3442.0	0.1685	2945.657	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.06	3448.0	0.1685	2950.7917	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.061	3450.0	0.1685	2952.5034	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	3454.0	0.1685	2955.9265	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.063	3462.0	0.1685	2962.773	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.064	3466.0	0.1685	2966.196	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	3468.0	0.1685	2967.9077	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	3498.0	0.1685	2993.5815	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	3504.0	0.1685	2998.7166	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	3510.0	0.1685	3003.8513	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	3516.0	0.1685	3008.986	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	3520.0	0.1685	3012.4092	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	3528.0	0.1685	3019.2556	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	3534.0	0.1685	3024.3904	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	3536.0	0.1685	3026.102	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	3538.0	0.1685	3027.8135	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.069	3540.0	0.1685	3029.5251	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	3548.0	0.1685	3036.3716	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	3558.0	0.1685	3044.9294	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.072	3562.0	0.1685	3048.3528	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	3572.0	0.1685	3056.9106	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	3574.0	0.1685	3058.6223	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	3578.0	0.1685	3062.0454	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3582.0	0.1685	3065.4688	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	3590.0	0.1685	3072.3152	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3592.0	0.1685	3074.0266	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	3604.0	0.1685	3084.2961	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3608.0	0.1685	3087.7195	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	3612.0	0.1685	3091.1426	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3640.0	0.1685	3115.105	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	3652.0	0.1685	3125.3745	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3662.0	0.1685	3133.9326	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	3672.0	0.1685	3142.4905	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3676.0	0.1685	3145.9138	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	3678.0	0.1685	3147.6252	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3686.0	0.1685	3154.4717	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	3694.0	0.1685	3161.318	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.078	3700.0	0.1685	3166.453	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.079	3706.0	0.1685	3171.5876	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.078	3722.0	0.1685	3185.2805	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.079	3732.0	0.1685	3193.8384	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.078	3734.0	0.1685	3195.55	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.079	3738.0	0.1685	3198.9731	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.078	3740.0	0.1685	3200.6848	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	3742.0	0.1685	3202.3965	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3746.0	0.1685	3205.8196	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	3754.0	0.1685	3212.666	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3760.0	0.1685	3217.8008	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	3762.0	0.1685	3219.5125	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	3766.0	0.1685	3222.9355	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	3776.0	0.1685	3231.4934	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	3780.0	0.1685	3234.9167	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	3784.0	0.1685	3238.3398	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	3788.0	0.1685	3241.7632	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	3798.0	0.1685	3250.321	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3824.0	0.1685	3272.5718	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	3826.0	0.1685	3274.2834	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	3832.0	0.1685	3279.4182	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	3836.0	0.1685	3282.8413	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.078	3838.0	0.1685	3284.553	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.079	3842.0	0.1685	3287.976	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	3846.0	0.1685	3291.3994	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	3854.0	0.1685	3298.2458	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	3862.0	0.1685	3305.092	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	3874.0	0.1685	3315.3618	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	3878.0	0.1685	3318.785	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	3904.0	0.1685	3341.0356	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	3910.0	0.1685	3346.1704	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	3918.0	0.1685	3353.0168	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	3922.0	0.1685	3356.44	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	3924.0	0.1685	3358.1516	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	3932.0	0.1685	3364.998	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	3944.0	0.1685	3375.2676	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	3946.0	0.1685	3376.9792	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.089	3954.0	0.1685	3383.8257	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.09	3956.0	0.1685	3385.537	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.091	3960.0	0.1685	3388.9604	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	3966.0	0.1685	3394.0952	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.093	3968.0	0.1685	3395.8066	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	3972.0	0.1685	3399.23	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.093	3974.0	0.1685	3400.9417	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	3978.0	0.1685	3404.3647	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.093	3980.0	0.1685	3406.0764	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	3982.0	0.1685	3407.7878	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.093	3990.0	0.1685	3414.6343	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	3996.0	0.1685	3419.769	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.093	4000.0	0.1685	3423.1924	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4008.0	0.1685	3430.0386	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4022.0	0.1685	3442.0198	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4026.0	0.1685	3445.443	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4028.0	0.1685	3447.1545	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.096	4032.0	0.1685	3450.578	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4046.0	0.1685	3462.559	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4048.0	0.1685	3464.2705	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4066.0	0.1685	3479.675	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.096	4088.0	0.1685	3498.5024	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.097	4102.0	0.1685	3510.4836	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.096	4104.0	0.1685	3512.1953	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.097	4106.0	0.1685	3513.907	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.098	4118.0	0.1685	3524.1765	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.097	4122.0	0.1685	3527.5996	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.096	4126.0	0.1685	3531.023	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4134.0	0.1685	3537.8691	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.096	4138.0	0.1685	3541.2925	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4146.0	0.1685	3548.139	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4152.0	0.1685	3553.2737	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4174.0	0.1685	3572.101	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4178.0	0.1685	3575.5244	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4182.0	0.1685	3578.9475	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4190.0	0.1685	3585.794	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4194.0	0.1685	3589.217	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4198.0	0.1685	3592.6404	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4200.0	0.1685	3594.3518	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.096	4218.0	0.1685	3609.7563	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4230.0	0.1685	3620.026	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4234.0	0.1685	3623.449	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.093	4236.0	0.1685	3625.1606	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4238.0	0.1685	3626.8723	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4250.0	0.1685	3637.1418	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4256.0	0.1685	3642.2766	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4260.0	0.1685	3645.6997	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4276.0	0.1685	3659.3926	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.093	4284.0	0.1685	3666.239	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	4292.0	0.1685	3673.0852	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.091	4302.0	0.1685	3681.6433	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	4310.0	0.1685	3688.4897	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.091	4320.0	0.1685	3697.0476	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.09	4330.0	0.1685	3705.6057	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.091	4332.0	0.1685	3707.3171	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.09	4340.0	0.1685	3714.1636	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.089	4344.0	0.1685	3717.587	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.09	4348.0	0.1685	3721.01	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.091	4352.0	0.1685	3724.433	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	4354.0	0.1685	3726.1448	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.091	4370.0	0.1685	3739.8376	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	4392.0	0.1685	3758.665	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.091	4394.0	0.1685	3760.3767	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.09	4398.0	0.1685	3763.7998	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.089	4404.0	0.1685	3768.9348	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	4418.0	0.1685	3780.9158	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.089	4424.0	0.1685	3786.0508	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	4444.0	0.1685	3803.1667	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.089	4456.0	0.1685	3813.4363	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	4460.0	0.1685	3816.8594	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.089	4462.0	0.1685	3818.571	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	4466.0	0.1685	3821.9941	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	4474.0	0.1685	3828.8406	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	4480.0	0.1685	3833.9753	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	4482.0	0.1685	3835.687	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	4490.0	0.1685	3842.5334	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.089	4494.0	0.1685	3845.9565	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	4498.0	0.1685	3849.3796	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	4514.0	0.1685	3863.0725	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	4520.0	0.1685	3868.2073	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	4544.0	0.1685	3888.7463	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	4554.0	0.1685	3897.3044	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	4562.0	0.1685	3904.151	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	4566.0	0.1685	3907.574	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	4570.0	0.1685	3910.997	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	4572.0	0.1685	3912.7087	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	4576.0	0.1685	3916.132	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	4578.0	0.1685	3917.8435	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	4582.0	0.1685	3921.2668	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	4590.0	0.1685	3928.113	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	4598.0	0.1685	3934.9595	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	4602.0	0.1685	3938.3828	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	4606.0	0.1685	3941.806	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	4614.0	0.1685	3948.6523	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	4628.0	0.1685	3960.6335	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	4636.0	0.1685	3967.4797	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.089	4640.0	0.1685	3970.903	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.09	4646.0	0.1685	3976.0378	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.091	4654.0	0.1685	3982.8843	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	4662.0	0.1685	3989.7307	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.093	4670.0	0.1685	3996.577	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	4676.0	0.1685	4001.7117	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	4682.0	0.1685	4006.8467	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.096	4684.0	0.1685	4008.558	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.097	4688.0	0.1685	4011.9814	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.098	4700.0	0.1685	4022.251	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.099	4704.0	0.1685	4025.674	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.1	4706.0	0.1685	4027.3857	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.101	4710.0	0.1685	4030.8088	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.102	4716.0	0.1685	4035.9436	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.103	4720.0	0.1685	4039.367	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.104	4724.0	0.1685	4042.79	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.105	4728.0	0.1685	4046.2134	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.106	4730.0	0.1685	4047.9248	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.107	4734.0	0.1685	4051.3481	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.108	4742.0	0.1685	4058.1943	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.107	4746.0	0.1685	4061.6177	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.108	4748.0	0.1685	4063.3293	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.109	4754.0	0.1685	4068.464	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.11	4758.0	0.1685	4071.8872	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.111	4762.0	0.1685	4075.3103	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.112	4772.0	0.1685	4083.8684	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.113	4780.0	0.1685	4090.7148	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.114	4782.0	0.1685	4092.4263	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.113	4784.0	0.1685	4094.138	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.114	4792.0	0.1685	4100.9844	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.115	4794.0	0.1685	4102.696	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.116	4802.0	0.1685	4109.5425	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.117	4804.0	0.1685	4111.254	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.116	4812.0	0.1685	4118.1	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.117	4824.0	0.1685	4128.37	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.118	4828.0	0.1685	4131.793	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.119	4830.0	0.1685	4133.505	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.12	4844.0	0.1685	4145.486	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.119	4846.0	0.1685	4147.1973	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.118	4848.0	0.1685	4148.909	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.117	4854.0	0.1685	4154.044	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.116	4858.0	0.1685	4157.467	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.117	4860.0	0.1685	4159.1787	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.118	4880.0	0.1685	4176.2944	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.117	4884.0	0.1685	4179.718	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.118	4886.0	0.1685	4181.429	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.117	4900.0	0.1685	4193.4106	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.115	4912.0	0.1685	4203.68	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.114	4916.0	0.1685	4207.1035	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.115	4918.0	0.1685	4208.815	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.114	4928.0	0.1685	4217.373	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.113	4934.0	0.1685	4222.508	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.114	4940.0	0.1685	4227.6426	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.113	4950.0	0.1685	4236.2007	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.114	4954.0	0.1685	4239.6235	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.113	4958.0	0.1685	4243.047	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.112	4962.0	0.1685	4246.47	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.111	4964.0	0.1685	4248.1816	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.11	4972.0	0.1685	4255.028	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.109	4980.0	0.1685	4261.8745	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.11	4988.0	0.1685	4268.7207	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.109	4992.0	0.1685	4272.144	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.108	4998.0	0.1685	4277.279	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.107	5008.0	0.1685	4285.837	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.108	5010.0	0.1685	4287.5483	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.109	5016.0	0.1685	4292.683	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.108	5026.0	0.1685	4301.241	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.107	5030.0	0.1685	4304.664	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.106	5036.0	0.1685	4309.7993	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.107	5048.0	0.1685	4320.069	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.108	5050.0	0.1685	4321.7803	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.107	5064.0	0.1685	4333.761	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.108	5070.0	0.1685	4338.896	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.107	5072.0	0.1685	4340.608	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.108	5074.0	0.1685	4342.3193	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.107	5078.0	0.1685	4345.7427	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.106	5082.0	0.1685	4349.166	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.105	5092.0	0.1685	4357.7236	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.104	5094.0	0.1685	4359.4355	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.105	5114.0	0.1685	4376.5513	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.104	5120.0	0.1685	4381.686	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.103	5122.0	0.1685	4383.398	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.104	5136.0	0.1685	4395.379	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.103	5146.0	0.1685	4403.937	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.104	5150.0	0.1685	4407.36	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.103	5156.0	0.1685	4412.4946	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.104	5168.0	0.1685	4422.7646	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.105	5174.0	0.1685	4427.8994	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.106	5176.0	0.1685	4429.611	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.105	5180.0	0.1685	4433.034	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.104	5184.0	0.1685	4436.457	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.103	5192.0	0.1685	4443.3037	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.104	5194.0	0.1685	4445.015	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.103	5220.0	0.1685	4467.266	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.102	5222.0	0.1685	4468.9775	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.101	5224.0	0.1685	4470.689	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.1	5242.0	0.1685	4486.0933	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.099	5246.0	0.1685	4489.5166	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.1	5254.0	0.1685	4496.3633	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.099	5266.0	0.1685	4506.633	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.098	5270.0	0.1685	4510.0557	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.097	5284.0	0.1685	4522.037	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.096	5288.0	0.1685	4525.46	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.095	5290.0	0.1685	4527.172	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.094	5302.0	0.1685	4537.4414	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.093	5306.0	0.1685	4540.8647	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	5312.0	0.1685	4545.9995	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.091	5314.0	0.1685	4547.711	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.092	5316.0	0.1685	4549.4224	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.091	5326.0	0.1685	4557.9805	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.09	5328.0	0.1685	4559.692	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	5342.0	0.1685	4571.6733	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	5344.0	0.1685	4573.385	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5346.0	0.1685	4575.0967	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5348.0	0.1685	4576.808	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5358.0	0.1685	4585.366	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5362.0	0.1685	4588.789	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5366.0	0.1685	4592.2124	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5372.0	0.1685	4597.347	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5382.0	0.1685	4605.9053	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5394.0	0.1685	4616.175	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5396.0	0.1685	4617.886	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5398.0	0.1685	4619.598	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5404.0	0.1685	4624.733	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5408.0	0.1685	4628.156	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	5422.0	0.1685	4640.137	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5426.0	0.1685	4643.5605	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5428.0	0.1685	4645.272	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5434.0	0.1685	4650.4067	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5438.0	0.1685	4653.83	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5442.0	0.1685	4657.253	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	5456.0	0.1685	4669.2344	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.079	5460.0	0.1685	4672.657	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.078	5464.0	0.1685	4676.0806	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.079	5470.0	0.1685	4681.2153	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	5472.0	0.1685	4682.9272	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.079	5484.0	0.1685	4693.197	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	5490.0	0.1685	4698.3315	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5494.0	0.1685	4701.7544	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5498.0	0.1685	4705.1777	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5506.0	0.1685	4712.0244	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5514.0	0.1685	4718.8706	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5516.0	0.1685	4720.582	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5520.0	0.1685	4724.0054	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5522.0	0.1685	4725.717	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5540.0	0.1685	4741.121	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5542.0	0.1685	4742.833	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5544.0	0.1685	4744.5444	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5548.0	0.1685	4747.968	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5552.0	0.1685	4751.391	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5554.0	0.1685	4753.1025	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5564.0	0.1685	4761.6606	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5566.0	0.1685	4763.372	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5572.0	0.1685	4768.507	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5574.0	0.1685	4770.2183	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5576.0	0.1685	4771.93	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5578.0	0.1685	4773.6416	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5582.0	0.1685	4777.065	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5584.0	0.1685	4778.7764	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5586.0	0.1685	4780.488	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5588.0	0.1685	4782.1997	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5592.0	0.1685	4785.623	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5594.0	0.1685	4787.3345	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5596.0	0.1685	4789.046	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5598.0	0.1685	4790.758	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5600.0	0.1685	4792.469	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5604.0	0.1685	4795.8926	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5606.0	0.1685	4797.604	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5608.0	0.1685	4799.3154	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5610.0	0.1685	4801.0273	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5618.0	0.1685	4807.8735	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5634.0	0.1685	4821.5664	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5642.0	0.1685	4828.4126	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5646.0	0.1685	4831.836	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5660.0	0.1685	4843.817	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	5662.0	0.1685	4845.529	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	5664.0	0.1685	4847.24	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.089	5666.0	0.1685	4848.9517	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	5672.0	0.1685	4854.0864	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	5674.0	0.1685	4855.7983	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5676.0	0.1685	4857.51	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5678.0	0.1685	4859.2217	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5684.0	0.1685	4864.3564	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	5686.0	0.1685	4866.068	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.088	5688.0	0.1685	4867.7793	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.087	5696.0	0.1685	4874.626	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5698.0	0.1685	4876.3374	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5700.0	0.1685	4878.049	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5702.0	0.1685	4879.7607	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5704.0	0.1685	4881.472	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5706.0	0.1685	4883.1836	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5712.0	0.1685	4888.3184	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5716.0	0.1685	4891.7417	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5718.0	0.1685	4893.453	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5730.0	0.1685	4903.723	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5734.0	0.1685	4907.146	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5736.0	0.1685	4908.858	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	5740.0	0.1685	4912.281	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5746.0	0.1685	4917.4155	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5748.0	0.1685	4919.1274	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5752.0	0.1685	4922.5503	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5754.0	0.1685	4924.262	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5760.0	0.1685	4929.397	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5762.0	0.1685	4931.1084	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5764.0	0.1685	4932.8203	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5766.0	0.1685	4934.5317	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5768.0	0.1685	4936.243	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5772.0	0.1685	4939.6665	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5774.0	0.1685	4941.378	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5776.0	0.1685	4943.09	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.086	5778.0	0.1685	4944.8013	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5784.0	0.1685	4949.936	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5804.0	0.1685	4967.0522	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5808.0	0.1685	4970.475	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5810.0	0.1685	4972.187	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	5812.0	0.1685	4973.8984	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.081	5816.0	0.1685	4977.322	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5820.0	0.1685	4980.7446	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5822.0	0.1685	4982.4565	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5824.0	0.1685	4984.168	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.085	5828.0	0.1685	4987.5913	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.084	5830.0	0.1685	4989.3027	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.083	5834.0	0.1685	4992.726	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.082	5836.0	0.1685	4994.4375	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.08	5838.0	0.1685	4996.149	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.079	5840.0	0.1685	4997.861	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	5842.0	0.1685	4999.5723	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	5846.0	0.1685	5002.9956	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	5850.0	0.1685	5006.419	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	5858.0	0.1685	5013.265	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	5862.0	0.1685	5016.6885	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	5870.0	0.1685	5023.5347	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	5872.0	0.1685	5025.246	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.078	5874.0	0.1685	5026.958	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.077	5884.0	0.1685	5035.5156	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	5886.0	0.1685	5037.2275	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	5888.0	0.1685	5038.939	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	5890.0	0.1685	5040.651	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.072	5892.0	0.1685	5042.3623	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	5894.0	0.1685	5044.0737	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	5896.0	0.1685	5045.7856	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	5898.0	0.1685	5047.497	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	5900.0	0.1685	5049.2085	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	5902.0	0.1685	5050.9204	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	5906.0	0.1685	5054.3433	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	5910.0	0.1685	5057.7666	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	5916.0	0.1685	5062.9014	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.074	5928.0	0.1685	5073.171	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	5934.0	0.1685	5078.3057	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.076	5940.0	0.1685	5083.4404	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.075	5946.0	0.1685	5088.575	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.073	5948.0	0.1685	5090.287	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.071	5950.0	0.1685	5091.9985	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.07	5952.0	0.1685	5093.71	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.069	5954.0	0.1685	5095.422	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.068	5956.0	0.1685	5097.1333	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.067	5958.0	0.1685	5098.8447	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	5962.0	0.1685	5102.268	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	5966.0	0.1685	5105.6914	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.066	5970.0	0.1685	5109.1143	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.065	5974.0	0.1685	5112.5376	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.062	5978.0	0.1685	5115.961	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.061	5982.0	0.1685	5119.3843	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.06	5988.0	0.1685	5124.519	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.059	5990.0	0.1685	5126.2305	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.058	5992.0	0.1685	5127.942	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.059	5998.0	0.1685	5133.0767	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract
+0.06	6000.0	0.1685	5134.7886	utc	2003-04-06T00:00:00.000	MMT - MMT-Blue	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2012PASP..124..668Y/abstract

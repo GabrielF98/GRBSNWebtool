@@ -22,10 +22,11 @@ from astropy.time import Time
 # data - NA. Note: In OAC this is a list of wavelengths and fluxes (possibly also errors). Wavelengths could be either rest or observed (see above).
 # source - reference / Note: If there's more than one source, we will choose the paper on ADS if available
 
-# New dict for the new spectra file
-spectrum = {}
+
 
 def convert_key(key_list, data_dict, filename):
+    # New dict for the new spectra file
+    spectrum = {}
     # The first key is the name of the event, the type is the second key
     event = key_list[0]
     data_kind = key_list[1]
@@ -98,10 +99,14 @@ def convert_key(key_list, data_dict, filename):
     spectrum['instrument'] = length*[data_dict[event][data_kind].get('telescope', '')+data_dict[event][data_kind].get('instrument', '')]
 
     # units
-    if data_dict[event][data_kind].get('u_fluxes') == 'erg/s/cm2/A':
+    if data_dict[event][data_kind].get('u_fluxes') == 'erg/s/cm2/A' or data_dict[event][data_kind].get('u_fluxes') == 'erg/s/cm^2/Angstrom':
         spectrum['flux_unit'] = 'erg/s/cm2/A'
+
+    elif data_dict[event][data_kind].get('u_fluxes') == 'Uncalibrated':
+        spectrum['flux_unit'] = 'uncalibrated'
     else:
-        spectrum['flux_unit'] = str(data_dict[event][data_kind].get('u_fluxes')).lower()
+        print('The unit for flux isnt what was expected')
+
 
 
     spectrum['wavelength_unit'] = str(data_dict[event][data_kind].get('u_wavelengths')).lower()
@@ -126,7 +131,6 @@ def load_json(file):
         file_dict = json.load(f)
     return file_dict
 
-all_keys = []
 def find_keys(data_dict):
 
     for key in data_dict.keys():
@@ -148,6 +152,7 @@ for thing in os.listdir(directory):
         folder_list.append(thing)
 
 for folder in folder_list:
+    print(folder)
     # Go to each folder.
     os.chdir(os.path.join(directory, folder))
 
@@ -158,9 +163,9 @@ for folder in folder_list:
     for file in json_list:
         if 'Spectra' in file:
             file_dict = load_json(file)
+            all_keys = []
             list_of_keys = find_keys(file_dict)
             convert_key(list_of_keys, file_dict, file)
-
 
     # Return to the folder where you are running this code.
     os.chdir(pwd)
