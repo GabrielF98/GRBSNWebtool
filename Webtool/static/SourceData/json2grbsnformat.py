@@ -173,15 +173,16 @@ for folder in folder_list:
 
     # Update the filesources csv
     filesources_txt = glob.glob('*filesources*')
-    filesources = pd.read_csv(filesources_txt)
+    filesources = pd.read_csv(filesources_txt[0])
 
-    txt_list = glob.glob('*OpenSNSpectra*')
+    txt_list = glob.glob('*OpenSNSpectra*.txt')
     for file in txt_list:
         info = pd.read_csv(file, delimiter='\t')
         reference = info['reference'][0]
-
-        filesources.loc[(filesources['Filename'][:-5] == file[-4]), 'Filename'] = file
-        filesources.loc[(filesources['Filename'][:-5] == file[-4]), 'Reference'] = reference
+        print(file[:-4], reference)
+        print(filesources['Filename'])
+        filesources.loc[(filesources['Filename'].str.contains(file[:-4])), 'Filename'] = file
+        filesources.loc[(filesources['Filename'].str.contains(file[:-4])), 'Reference'] = reference
 
 
 
