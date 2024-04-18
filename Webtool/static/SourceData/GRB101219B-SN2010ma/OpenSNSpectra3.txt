@@ -1,501 +1,501 @@
-flux	obs_wavelength	redshift	rest_wavelength	date_unit	date	instrument	flux_unit	wavelength_unit	reference
-0.091579	3500.5	0.55185	2255.6948	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20547	3504.5	0.55185	2258.2725	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.31223	3508.5	0.55185	2260.85	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.29383	3512.5	0.55185	2263.4275	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.33258	3516.5	0.55185	2266.0051	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.32683	3520.5	0.55185	2268.5828	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.25816	3524.5	0.55185	2271.1604	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.3654	3528.5	0.55185	2273.7378	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18568	3532.5	0.55185	2276.3154	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12942	3536.5	0.55185	2278.893	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.26565	3540.7	0.55185	2281.5994	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.10867	3544.7	0.55185	2284.177	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17244	3548.7	0.55185	2286.7546	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18599	3552.7	0.55185	2289.332	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.10568	3556.9	0.55185	2292.0386	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.034482	3560.9	0.55185	2294.6162	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13121	3564.9	0.55185	2297.1936	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.055931	3569.1	0.55185	2299.9001	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15827	3573.1	0.55185	2302.4778	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12787	3577.1	0.55185	2305.0554	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14929	3581.1	0.55185	2307.633	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.086264	3585.1	0.55185	2310.2104	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12235	3589.1	0.55185	2312.788	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13994	3593.1	0.55185	2315.3657	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17159	3597.1	0.55185	2317.943	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19056	3601.3	0.55185	2320.6497	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.23173	3605.3	0.55185	2323.2273	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.30307	3609.3	0.55185	2325.8047	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.31655	3613.3	0.55185	2328.3823	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.27543	3617.3	0.55185	2330.96	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.31819	3621.3	0.55185	2333.5376	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.28509	3625.3	0.55185	2336.115	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.043581	3629.3	0.55185	2338.6926	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1353	3633.3	0.55185	2341.2703	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16015	3637.3	0.55185	2343.8477	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18927	3641.3	0.55185	2346.4253	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14878	3645.3	0.55185	2349.003	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1523	3649.3	0.55185	2351.5806	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18431	3653.3	0.55185	2354.158	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16706	3657.3	0.55185	2356.7356	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20912	3661.3	0.55185	2359.3132	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14139	3665.3	0.55185	2361.8906	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12447	3669.3	0.55185	2364.4683	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15463	3673.3	0.55185	2367.046	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15228	3677.3	0.55185	2369.6235	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.087033	3681.3	0.55185	2372.201	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1652	3685.3	0.55185	2374.7786	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14792	3689.3	0.55185	2377.3562	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16704	3693.3	0.55185	2379.9338	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14391	3697.3	0.55185	2382.5112	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21902	3701.3	0.55185	2385.0889	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.29914	3705.3	0.55185	2387.6665	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.29898	3709.3	0.55185	2390.244	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22458	3713.3	0.55185	2392.8215	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.26067	3717.3	0.55185	2395.3992	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18265	3721.3	0.55185	2397.9768	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15202	3725.3	0.55185	2400.5542	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20746	3729.3	0.55185	2403.1318	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14217	3733.3	0.55185	2405.7095	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.061078	3737.3	0.55185	2408.2869	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.085787	3741.3	0.55185	2410.8645	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16425	3745.3	0.55185	2413.4421	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.25806	3749.3	0.55185	2416.0198	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22826	3753.3	0.55185	2418.5972	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18385	3757.3	0.55185	2421.1748	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.2038	3761.3	0.55185	2423.7524	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20618	3765.3	0.55185	2426.33	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22261	3769.3	0.55185	2428.9075	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13148	3773.3	0.55185	2431.485	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.083016	3777.3	0.55185	2434.0627	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.074217	3781.3	0.55185	2436.6401	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.060123	3785.3	0.55185	2439.2178	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14589	3789.3	0.55185	2441.7954	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13614	3793.3	0.55185	2444.373	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19942	3797.3	0.55185	2446.9504	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.23104	3801.3	0.55185	2449.528	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.2554	3805.3	0.55185	2452.1057	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18633	3809.3	0.55185	2454.683	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21019	3813.3	0.55185	2457.2607	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20763	3817.3	0.55185	2459.8384	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.27287	3821.3	0.55185	2462.416	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.23252	3825.3	0.55185	2464.9934	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13298	3829.3	0.55185	2467.571	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13696	3833.3	0.55185	2470.1487	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18026	3837.3	0.55185	2472.726	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21194	3841.3	0.55185	2475.3037	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.26586	3845.3	0.55185	2477.8813	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21916	3849.3	0.55185	2480.459	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19245	3853.3	0.55185	2483.0364	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19666	3857.3	0.55185	2485.614	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21068	3861.3	0.55185	2488.1917	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18742	3865.3	0.55185	2490.7693	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19792	3869.3	0.55185	2493.3467	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14289	3873.3	0.55185	2495.9243	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13168	3877.3	0.55185	2498.502	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13435	3881.3	0.55185	2501.0793	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22712	3885.3	0.55185	2503.657	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21644	3889.3	0.55185	2506.2346	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21047	3893.3	0.55185	2508.8123	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22208	3897.3	0.55185	2511.3896	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18789	3901.3	0.55185	2513.9673	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15026	3905.3	0.55185	2516.545	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1461	3909.3	0.55185	2519.1223	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21925	3913.3	0.55185	2521.7	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.26364	3917.3	0.55185	2524.2776	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21885	3921.3	0.55185	2526.8552	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21192	3925.3	0.55185	2529.4326	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.23345	3929.3	0.55185	2532.0103	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1445	3933.5	0.55185	2534.7168	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13595	3937.7	0.55185	2537.423	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15391	3941.7	0.55185	2540.0007	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19213	3945.7	0.55185	2542.5781	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19641	3949.7	0.55185	2545.1558	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17771	3953.7	0.55185	2547.7334	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18882	3957.7	0.55185	2550.311	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17295	3961.7	0.55185	2552.8884	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.2083	3965.7	0.55185	2555.466	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19754	3969.7	0.55185	2558.0437	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21092	3973.7	0.55185	2560.6213	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13202	3977.7	0.55185	2563.1987	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14624	3981.7	0.55185	2565.7764	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19098	3985.7	0.55185	2568.354	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12629	3989.7	0.55185	2570.9314	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14604	3993.7	0.55185	2573.509	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14747	3997.7	0.55185	2576.0867	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.10893	4001.7	0.55185	2578.6643	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.065633	4005.7	0.55185	2581.2417	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19817	4009.7	0.55185	2583.8193	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21364	4013.7	0.55185	2586.397	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15348	4017.7	0.55185	2588.9744	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15331	4021.7	0.55185	2591.552	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15004	4025.7	0.55185	2594.1296	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16217	4029.7	0.55185	2596.7073	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19274	4033.7	0.55185	2599.2847	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18095	4037.7	0.55185	2601.8623	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19528	4041.7	0.55185	2604.44	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17999	4045.7	0.55185	2607.0176	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19792	4049.7	0.55185	2609.595	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16153	4053.7	0.55185	2612.1726	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16849	4057.7	0.55185	2614.7502	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17852	4061.7	0.55185	2617.3276	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19021	4065.7	0.55185	2619.9053	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15225	4069.7	0.55185	2622.483	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12662	4073.7	0.55185	2625.0605	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12833	4077.7	0.55185	2627.638	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15344	4081.7	0.55185	2630.2156	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11321	4085.7	0.55185	2632.7932	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15071	4089.7	0.55185	2635.3706	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15941	4093.7	0.55185	2637.9482	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15024	4097.7	0.55185	2640.5261	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18769	4101.7	0.55185	2643.1035	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.23183	4105.7	0.55185	2645.6812	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14262	4109.7	0.55185	2648.2588	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17982	4113.7	0.55185	2650.8362	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14443	4117.7	0.55185	2653.4138	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14324	4121.7	0.55185	2655.9915	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14573	4125.7	0.55185	2658.569	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17701	4129.7	0.55185	2661.1465	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16373	4133.7	0.55185	2663.724	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1567	4137.7	0.55185	2666.3018	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16392	4141.7	0.55185	2668.8792	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15715	4145.7	0.55185	2671.4568	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17398	4149.7	0.55185	2674.0344	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20989	4153.7	0.55185	2676.612	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19807	4157.7	0.55185	2679.1895	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13194	4161.7	0.55185	2681.767	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13159	4165.7	0.55185	2684.3447	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11857	4169.7	0.55185	2686.9224	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13562	4173.7	0.55185	2689.4998	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14037	4177.7	0.55185	2692.0774	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16373	4181.7	0.55185	2694.655	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13627	4185.7	0.55185	2697.2324	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16403	4189.7	0.55185	2699.81	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22014	4193.7	0.55185	2702.3877	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18641	4197.7	0.55185	2704.9653	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15314	4201.7	0.55185	2707.5427	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15039	4205.7	0.55185	2710.1204	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1717	4209.7	0.55185	2712.698	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13147	4213.7	0.55185	2715.2754	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16308	4217.7	0.55185	2717.853	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13158	4221.7	0.55185	2720.4307	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11516	4225.7	0.55185	2723.0083	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12042	4229.7	0.55185	2725.5857	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14859	4233.7	0.55185	2728.1633	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1627	4237.7	0.55185	2730.741	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22738	4241.7	0.55185	2733.3186	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19866	4245.7	0.55185	2735.896	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18615	4249.7	0.55185	2738.4736	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16829	4253.7	0.55185	2741.0513	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12508	4257.7	0.55185	2743.6287	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12539	4261.7	0.55185	2746.2063	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12697	4265.7	0.55185	2748.784	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16305	4269.7	0.55185	2751.3616	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1697	4273.7	0.55185	2753.939	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17687	4277.7	0.55185	2756.5166	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15178	4281.7	0.55185	2759.0942	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18449	4285.7	0.55185	2761.6716	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1798	4289.7	0.55185	2764.2493	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11931	4293.7	0.55185	2766.827	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16591	4297.7	0.55185	2769.4045	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15356	4301.7	0.55185	2771.982	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14156	4305.7	0.55185	2774.5596	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20362	4309.7	0.55185	2777.1372	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15997	4313.7	0.55185	2779.7148	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11988	4317.7	0.55185	2782.2922	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1267	4321.7	0.55185	2784.8699	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16856	4325.7	0.55185	2787.4475	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14025	4329.7	0.55185	2790.025	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1602	4333.7	0.55185	2792.6025	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19583	4337.7	0.55185	2795.1802	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14394	4341.7	0.55185	2797.7578	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18742	4345.7	0.55185	2800.3352	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1817	4349.7	0.55185	2802.9128	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15343	4353.7	0.55185	2805.4905	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11045	4357.7	0.55185	2808.0679	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12364	4361.7	0.55185	2810.6455	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15486	4365.7	0.55185	2813.2231	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16457	4369.7	0.55185	2815.8008	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15747	4373.7	0.55185	2818.3782	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14063	4377.7	0.55185	2820.9558	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11792	4381.7	0.55185	2823.5334	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.097351	4385.7	0.55185	2826.111	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.10529	4389.7	0.55185	2828.6885	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11491	4393.7	0.55185	2831.266	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13768	4397.7	0.55185	2833.8438	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19829	4401.7	0.55185	2836.4211	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20788	4405.7	0.55185	2838.9988	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15617	4409.7	0.55185	2841.5764	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15607	4413.7	0.55185	2844.154	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14511	4417.7	0.55185	2846.7314	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13581	4421.7	0.55185	2849.309	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15966	4425.7	0.55185	2851.8867	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15946	4429.7	0.55185	2854.464	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14098	4433.7	0.55185	2857.0417	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19443	4437.7	0.55185	2859.6194	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18032	4441.7	0.55185	2862.197	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17817	4445.7	0.55185	2864.7744	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14912	4449.7	0.55185	2867.352	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12346	4453.7	0.55185	2869.9297	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1372	4457.7	0.55185	2872.5073	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17459	4461.7	0.55185	2875.0847	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16825	4465.7	0.55185	2877.6624	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18958	4469.7	0.55185	2880.24	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17974	4473.7	0.55185	2882.8174	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11035	4477.7	0.55185	2885.395	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14614	4481.7	0.55185	2887.9727	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13452	4485.7	0.55185	2890.5503	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12807	4489.7	0.55185	2893.1277	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15735	4493.7	0.55185	2895.7053	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15555	4497.7	0.55185	2898.283	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16355	4501.7	0.55185	2900.8604	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20091	4505.7	0.55185	2903.438	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18052	4509.7	0.55185	2906.0156	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15363	4513.7	0.55185	2908.5933	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13553	4517.7	0.55185	2911.1707	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18235	4521.7	0.55185	2913.7483	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12419	4525.7	0.55185	2916.326	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14986	4529.7	0.55185	2918.9036	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21841	4533.7	0.55185	2921.481	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17298	4537.7	0.55185	2924.0586	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18464	4541.7	0.55185	2926.6362	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18613	4545.7	0.55185	2929.2136	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18086	4549.7	0.55185	2931.7913	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14139	4553.7	0.55185	2934.369	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15285	4557.7	0.55185	2936.9465	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17473	4561.7	0.55185	2939.524	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18187	4565.7	0.55185	2942.1016	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13443	4569.7	0.55185	2944.6792	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1251	4573.7	0.55185	2947.2566	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16652	4577.7	0.55185	2949.8342	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13714	4581.7	0.55185	2952.4119	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15704	4585.7	0.55185	2954.9895	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1487	4589.7	0.55185	2957.567	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13519	4593.7	0.55185	2960.1445	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15583	4597.7	0.55185	2962.7222	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1525	4601.7	0.55185	2965.2996	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14993	4605.7	0.55185	2967.8772	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14268	4609.7	0.55185	2970.4548	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11394	4613.7	0.55185	2973.0325	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15176	4617.7	0.55185	2975.6099	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15449	4621.7	0.55185	2978.1875	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15416	4625.7	0.55185	2980.7651	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1541	4629.7	0.55185	2983.3428	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15451	4633.7	0.55185	2985.9202	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18952	4637.7	0.55185	2988.4978	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18678	4641.7	0.55185	2991.0754	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17798	4645.7	0.55185	2993.6528	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16548	4649.7	0.55185	2996.2305	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16845	4653.7	0.55185	2998.808	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16095	4657.7	0.55185	3001.3857	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17968	4661.7	0.55185	3003.9631	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16494	4665.7	0.55185	3006.5408	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19671	4669.7	0.55185	3009.1184	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1845	4673.7	0.55185	3011.6958	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1693	4677.7	0.55185	3014.2734	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15712	4681.7	0.55185	3016.851	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16717	4685.9	0.55185	3019.5574	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15907	4689.9	0.55185	3022.1348	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15501	4693.9	0.55185	3024.7124	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13086	4697.9	0.55185	3027.29	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18908	4701.9	0.55185	3029.8677	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17724	4705.9	0.55185	3032.445	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15645	4709.9	0.55185	3035.0227	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15761	4713.9	0.55185	3037.6003	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16247	4717.9	0.55185	3040.178	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15245	4721.9	0.55185	3042.7554	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19047	4725.9	0.55185	3045.333	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17511	4729.9	0.55185	3047.9106	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17946	4733.9	0.55185	3050.488	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15179	4737.9	0.55185	3053.0657	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13912	4741.9	0.55185	3055.6433	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19901	4745.9	0.55185	3058.221	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21496	4749.9	0.55185	3060.7983	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20666	4753.9	0.55185	3063.376	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19996	4757.9	0.55185	3065.9536	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17611	4761.9	0.55185	3068.531	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18454	4765.9	0.55185	3071.1086	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1726	4769.9	0.55185	3073.6863	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15033	4773.9	0.55185	3076.264	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1492	4777.9	0.55185	3078.8413	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11827	4781.9	0.55185	3081.419	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.0813	4785.9	0.55185	3083.9966	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13318	4789.9	0.55185	3086.5742	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17318	4793.9	0.55185	3089.1516	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17098	4797.9	0.55185	3091.7292	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19691	4801.9	0.55185	3094.307	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15487	4805.9	0.55185	3096.8843	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16856	4809.9	0.55185	3099.462	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12734	4813.9	0.55185	3102.0396	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14278	4817.9	0.55185	3104.6172	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15911	4821.9	0.55185	3107.1946	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14715	4825.9	0.55185	3109.7722	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15735	4829.9	0.55185	3112.3499	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18099	4833.9	0.55185	3114.9272	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16467	4837.9	0.55185	3117.505	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18057	4841.9	0.55185	3120.0825	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13506	4845.9	0.55185	3122.6602	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15288	4849.9	0.55185	3125.2375	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17732	4853.9	0.55185	3127.8152	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16199	4857.9	0.55185	3130.3928	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14445	4861.9	0.55185	3132.9705	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12884	4865.9	0.55185	3135.5479	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.123	4869.9	0.55185	3138.1255	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11101	4873.9	0.55185	3140.7031	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.094865	4877.9	0.55185	3143.2805	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.097316	4881.9	0.55185	3145.8582	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16171	4885.9	0.55185	3148.4358	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17441	4889.9	0.55185	3151.0134	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16579	4893.9	0.55185	3153.5908	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17944	4897.9	0.55185	3156.1685	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14607	4901.9	0.55185	3158.746	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16529	4905.9	0.55185	3161.3235	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12312	4909.9	0.55185	3163.9011	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17899	4913.9	0.55185	3166.4788	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16143	4917.9	0.55185	3169.0564	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14426	4921.9	0.55185	3171.6338	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14758	4925.9	0.55185	3174.2114	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18234	4929.9	0.55185	3176.789	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13593	4933.9	0.55185	3179.3667	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11665	4937.9	0.55185	3181.944	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14047	4941.9	0.55185	3184.5217	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15444	4945.9	0.55185	3187.0994	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1663	4949.9	0.55185	3189.6768	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.12718	4953.9	0.55185	3192.2544	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13206	4957.9	0.55185	3194.832	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.14288	4961.9	0.55185	3197.4097	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15416	4965.9	0.55185	3199.987	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11717	4969.9	0.55185	3202.5647	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.11898	4973.9	0.55185	3205.1423	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.13908	4977.9	0.55185	3207.7197	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17094	4981.9	0.55185	3210.2974	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17466	4985.9	0.55185	3212.875	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17176	4989.9	0.55185	3215.4526	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18499	4993.9	0.55185	3218.03	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1566	4997.9	0.55185	3220.6077	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16623	5001.9	0.55185	3223.1853	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16879	5005.9	0.55185	3225.7627	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17455	5009.9	0.55185	3228.3403	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15691	5013.9	0.55185	3230.918	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16924	5017.9	0.55185	3233.4956	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16766	5021.9	0.55185	3236.073	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17327	5025.9	0.55185	3238.6506	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16918	5029.9	0.55185	3241.2283	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19649	5033.9	0.55185	3243.806	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18164	5037.9	0.55185	3246.3833	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17651	5041.9	0.55185	3248.961	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20805	5045.9	0.55185	3251.5386	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18266	5049.9	0.55185	3254.116	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15861	5053.9	0.55185	3256.6936	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18388	5057.9	0.55185	3259.2712	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20767	5061.9	0.55185	3261.8489	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16163	5065.9	0.55185	3264.4263	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1397	5069.9	0.55185	3267.004	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16903	5073.9	0.55185	3269.5815	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20484	5077.9	0.55185	3272.159	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21174	5081.9	0.55185	3274.7366	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19177	5085.9	0.55185	3277.3142	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19979	5089.9	0.55185	3279.8918	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.2047	5093.9	0.55185	3282.4692	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20205	5097.9	0.55185	3285.0469	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19631	5101.9	0.55185	3287.6245	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17916	5105.9	0.55185	3290.2021	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20377	5109.9	0.55185	3292.7795	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21656	5113.9	0.55185	3295.3572	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22969	5117.9	0.55185	3297.9348	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21925	5121.9	0.55185	3300.5122	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.24487	5125.9	0.55185	3303.0898	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20203	5129.9	0.55185	3305.6675	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17114	5133.9	0.55185	3308.245	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19705	5137.9	0.55185	3310.8225	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20234	5141.9	0.55185	3313.4001	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1925	5145.9	0.55185	3315.9778	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16414	5149.9	0.55185	3318.5552	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17568	5153.9	0.55185	3321.1328	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19874	5157.9	0.55185	3323.7104	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21272	5161.9	0.55185	3326.288	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19728	5165.9	0.55185	3328.8655	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22269	5169.9	0.55185	3331.443	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.2385	5173.9	0.55185	3334.0208	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18774	5177.9	0.55185	3336.5984	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16802	5181.9	0.55185	3339.1758	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18286	5185.9	0.55185	3341.7534	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18793	5189.9	0.55185	3344.331	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.16403	5193.9	0.55185	3346.9084	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17894	5197.9	0.55185	3349.486	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17208	5201.9	0.55185	3352.0637	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.25103	5205.9	0.55185	3354.6414	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.24705	5209.9	0.55185	3357.2188	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21418	5213.9	0.55185	3359.7964	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17052	5217.9	0.55185	3362.374	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17101	5221.9	0.55185	3364.9514	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.1754	5225.9	0.55185	3367.529	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18354	5229.9	0.55185	3370.1067	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18407	5233.9	0.55185	3372.6843	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21525	5237.9	0.55185	3375.2617	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.23947	5241.9	0.55185	3377.8394	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20144	5245.9	0.55185	3380.417	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18616	5249.9	0.55185	3382.9946	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17686	5253.9	0.55185	3385.572	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20999	5257.9	0.55185	3388.1497	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19477	5261.9	0.55185	3390.7273	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20396	5265.9	0.55185	3393.3047	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17905	5269.9	0.55185	3395.8823	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18139	5273.9	0.55185	3398.46	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21422	5277.9	0.55185	3401.0376	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17365	5281.9	0.55185	3403.615	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.17861	5285.9	0.55185	3406.1926	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.2064	5289.9	0.55185	3408.7703	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19807	5293.9	0.55185	3411.3477	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19441	5297.9	0.55185	3413.9253	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.26695	5301.9	0.55185	3416.503	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.25602	5305.9	0.55185	3419.0806	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21786	5309.9	0.55185	3421.658	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21793	5313.9	0.55185	3424.2356	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20361	5317.9	0.55185	3426.8132	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22088	5321.9	0.55185	3429.3909	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20018	5325.9	0.55185	3431.9683	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20511	5329.9	0.55185	3434.546	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22562	5333.9	0.55185	3437.1235	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22356	5337.9	0.55185	3439.701	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18925	5341.9	0.55185	3442.2786	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21747	5345.9	0.55185	3444.8562	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21894	5349.9	0.55185	3447.4338	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.24228	5353.9	0.55185	3450.0112	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22308	5357.9	0.55185	3452.5889	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20321	5361.9	0.55185	3455.1665	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21416	5365.9	0.55185	3457.744	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.25253	5369.9	0.55185	3460.3215	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22948	5373.9	0.55185	3462.8992	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19075	5377.9	0.55185	3465.4768	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22848	5381.9	0.55185	3468.0542	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20438	5385.9	0.55185	3470.6318	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20257	5389.9	0.55185	3473.2095	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.23862	5393.9	0.55185	3475.787	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.27529	5397.9	0.55185	3478.3645	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.23518	5401.9	0.55185	3480.9421	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21626	5405.9	0.55185	3483.5198	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21844	5409.9	0.55185	3486.0972	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19438	5413.9	0.55185	3488.6748	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.22385	5417.9	0.55185	3491.2524	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.2344	5421.9	0.55185	3493.83	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20955	5425.9	0.55185	3496.4075	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20852	5429.9	0.55185	3498.985	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.23844	5433.9	0.55185	3501.5627	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.27266	5437.9	0.55185	3504.1401	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.25849	5441.9	0.55185	3506.7178	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.23583	5445.9	0.55185	3509.2954	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20614	5449.9	0.55185	3511.873	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20231	5453.9	0.55185	3514.4504	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21934	5457.9	0.55185	3517.028	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.25927	5461.9	0.55185	3519.6057	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.21782	5465.9	0.55185	3522.183	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.20609	5469.9	0.55185	3524.7607	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.24435	5473.9	0.55185	3527.3384	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.2386	5477.9	0.55185	3529.916	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18238	5481.9	0.55185	3532.4934	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18174	5485.9	0.55185	3535.071	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.18967	5489.9	0.55185	3537.6487	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.19056	5493.9	0.55185	3540.2263	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
-0.15705	5497.9	0.55185	3542.8037	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract
+flux	obs_wavelength	redshift	rest_wavelength	date_unit	date	instrument	flux_unit	wavelength_unit	reference	time	time_unit	time_frame	dtime
+0.091579	3500.5	0.55185	2255.6948158649357	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20547	3504.5	0.55185	2258.272384573251	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.31223	3508.5	0.55185	2260.849953281567	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.29383	3512.5	0.55185	2263.427521989883	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.33258	3516.5	0.55185	2266.005090698199	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.32683	3520.5	0.55185	2268.5826594065147	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.25816	3524.5	0.55185	2271.1602281148307	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.3654	3528.5	0.55185	2273.7377968231467	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18568	3532.5	0.55185	2276.3153655314627	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12942	3536.5	0.55185	2278.8929342397782	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.26565	3540.7	0.55185	2281.59938138351	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.10867	3544.7	0.55185	2284.176950091826	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17244	3548.7	0.55185	2286.754518800142	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18599	3552.7	0.55185	2289.332087508458	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.10568	3556.9	0.55185	2292.0385346521894	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.034482	3560.9	0.55185	2294.6161033605053	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13121	3564.9	0.55185	2297.1936720688213	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.055931	3569.1	0.55185	2299.900119212553	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15827	3573.1	0.55185	2302.4776879208684	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12787	3577.1	0.55185	2305.0552566291844	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14929	3581.1	0.55185	2307.6328253375004	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.086264	3585.1	0.55185	2310.2103940458164	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12235	3589.1	0.55185	2312.787962754132	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13994	3593.1	0.55185	2315.365531462448	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17159	3597.1	0.55185	2317.943100170764	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19056	3601.3	0.55185	2320.649547314496	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.23173	3605.3	0.55185	2323.2271160228115	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.30307	3609.3	0.55185	2325.8046847311275	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.31655	3613.3	0.55185	2328.3822534394435	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.27543	3617.3	0.55185	2330.9598221477595	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.31819	3621.3	0.55185	2333.537390856075	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.28509	3625.3	0.55185	2336.114959564391	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.043581	3629.3	0.55185	2338.692528272707	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1353	3633.3	0.55185	2341.270096981023	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16015	3637.3	0.55185	2343.8476656893386	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18927	3641.3	0.55185	2346.4252343976545	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14878	3645.3	0.55185	2349.0028031059705	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1523	3649.3	0.55185	2351.5803718142865	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18431	3653.3	0.55185	2354.157940522602	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16706	3657.3	0.55185	2356.735509230918	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20912	3661.3	0.55185	2359.313077939234	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14139	3665.3	0.55185	2361.89064664755	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12447	3669.3	0.55185	2364.4682153558656	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15463	3673.3	0.55185	2367.0457840641816	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15228	3677.3	0.55185	2369.6233527724976	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.087033	3681.3	0.55185	2372.2009214808136	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1652	3685.3	0.55185	2374.778490189129	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14792	3689.3	0.55185	2377.356058897445	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16704	3693.3	0.55185	2379.933627605761	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14391	3697.3	0.55185	2382.511196314077	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21902	3701.3	0.55185	2385.0887650223926	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.29914	3705.3	0.55185	2387.6663337307086	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.29898	3709.3	0.55185	2390.2439024390246	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22458	3713.3	0.55185	2392.8214711473406	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.26067	3717.3	0.55185	2395.399039855656	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18265	3721.3	0.55185	2397.976608563972	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15202	3725.3	0.55185	2400.554177272288	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20746	3729.3	0.55185	2403.131745980604	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14217	3733.3	0.55185	2405.7093146889197	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.061078	3737.3	0.55185	2408.2868833972357	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.085787	3741.3	0.55185	2410.8644521055517	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16425	3745.3	0.55185	2413.4420208138677	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.25806	3749.3	0.55185	2416.019589522183	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22826	3753.3	0.55185	2418.597158230499	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18385	3757.3	0.55185	2421.174726938815	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.2038	3761.3	0.55185	2423.752295647131	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20618	3765.3	0.55185	2426.3298643554467	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22261	3769.3	0.55185	2428.9074330637627	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13148	3773.3	0.55185	2431.4850017720787	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.083016	3777.3	0.55185	2434.0625704803947	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.074217	3781.3	0.55185	2436.6401391887102	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.060123	3785.3	0.55185	2439.2177078970262	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14589	3789.3	0.55185	2441.795276605342	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13614	3793.3	0.55185	2444.372845313658	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19942	3797.3	0.55185	2446.9504140219738	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.23104	3801.3	0.55185	2449.5279827302898	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.2554	3805.3	0.55185	2452.1055514386057	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18633	3809.3	0.55185	2454.6831201469217	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21019	3813.3	0.55185	2457.2606888552373	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20763	3817.3	0.55185	2459.8382575635533	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.27287	3821.3	0.55185	2462.4158262718693	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.23252	3825.3	0.55185	2464.9933949801853	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13298	3829.3	0.55185	2467.570963688501	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13696	3833.3	0.55185	2470.148532396817	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18026	3837.3	0.55185	2472.726101105133	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21194	3841.3	0.55185	2475.303669813449	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.26586	3845.3	0.55185	2477.8812385217643	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21916	3849.3	0.55185	2480.4588072300803	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19245	3853.3	0.55185	2483.0363759383963	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19666	3857.3	0.55185	2485.6139446467123	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21068	3861.3	0.55185	2488.1915133550283	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18742	3865.3	0.55185	2490.769082063344	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19792	3869.3	0.55185	2493.34665077166	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14289	3873.3	0.55185	2495.924219479976	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13168	3877.3	0.55185	2498.501788188292	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13435	3881.3	0.55185	2501.0793568966074	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22712	3885.3	0.55185	2503.6569256049233	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21644	3889.3	0.55185	2506.2344943132393	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21047	3893.3	0.55185	2508.8120630215553	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22208	3897.3	0.55185	2511.389631729871	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18789	3901.3	0.55185	2513.967200438187	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15026	3905.3	0.55185	2516.544769146503	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1461	3909.3	0.55185	2519.122337854819	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21925	3913.3	0.55185	2521.6999065631344	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.26364	3917.3	0.55185	2524.2774752714504	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21885	3921.3	0.55185	2526.8550439797664	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21192	3925.3	0.55185	2529.4326126880824	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.23345	3929.3	0.55185	2532.010181396398	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1445	3933.5	0.55185	2534.7166285401295	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13595	3937.7	0.55185	2537.423075683861	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15391	3941.7	0.55185	2540.000644392177	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19213	3945.7	0.55185	2542.578213100493	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19641	3949.7	0.55185	2545.155781808809	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17771	3953.7	0.55185	2547.7333505171246	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18882	3957.7	0.55185	2550.3109192254406	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17295	3961.7	0.55185	2552.8884879337566	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.2083	3965.7	0.55185	2555.4660566420725	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19754	3969.7	0.55185	2558.043625350388	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21092	3973.7	0.55185	2560.621194058704	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13202	3977.7	0.55185	2563.19876276702	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14624	3981.7	0.55185	2565.776331475336	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19098	3985.7	0.55185	2568.3539001836516	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12629	3989.7	0.55185	2570.9314688919676	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14604	3993.7	0.55185	2573.5090376002836	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14747	3997.7	0.55185	2576.0866063085996	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.10893	4001.7	0.55185	2578.664175016915	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.065633	4005.7	0.55185	2581.241743725231	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19817	4009.7	0.55185	2583.819312433547	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21364	4013.7	0.55185	2586.396881141863	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15348	4017.7	0.55185	2588.9744498501786	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15331	4021.7	0.55185	2591.5520185584946	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15004	4025.7	0.55185	2594.1295872668106	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16217	4029.7	0.55185	2596.7071559751266	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19274	4033.7	0.55185	2599.284724683442	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18095	4037.7	0.55185	2601.862293391758	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19528	4041.7	0.55185	2604.439862100074	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17999	4045.7	0.55185	2607.01743080839	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19792	4049.7	0.55185	2609.5949995167057	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16153	4053.7	0.55185	2612.1725682250217	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16849	4057.7	0.55185	2614.7501369333377	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17852	4061.7	0.55185	2617.3277056416537	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19021	4065.7	0.55185	2619.905274349969	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15225	4069.7	0.55185	2622.482843058285	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12662	4073.7	0.55185	2625.060411766601	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12833	4077.7	0.55185	2627.637980474917	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15344	4081.7	0.55185	2630.2155491832327	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11321	4085.7	0.55185	2632.7931178915487	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15071	4089.7	0.55185	2635.3706865998647	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15941	4093.7	0.55185	2637.9482553081807	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15024	4097.7	0.55185	2640.5258240164962	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18769	4101.7	0.55185	2643.1033927248122	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.23183	4105.7	0.55185	2645.6809614331282	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14262	4109.7	0.55185	2648.258530141444	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17982	4113.7	0.55185	2650.8360988497598	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14443	4117.7	0.55185	2653.4136675580758	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14324	4121.7	0.55185	2655.9912362663918	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14573	4125.7	0.55185	2658.5688049747077	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17701	4129.7	0.55185	2661.1463736830233	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16373	4133.7	0.55185	2663.7239423913393	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1567	4137.7	0.55185	2666.3015110996553	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16392	4141.7	0.55185	2668.8790798079713	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15715	4145.7	0.55185	2671.456648516287	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17398	4149.7	0.55185	2674.034217224603	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20989	4153.7	0.55185	2676.611785932919	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19807	4157.7	0.55185	2679.189354641235	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13194	4161.7	0.55185	2681.7669233495503	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13159	4165.7	0.55185	2684.3444920578663	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11857	4169.7	0.55185	2686.9220607661823	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13562	4173.7	0.55185	2689.4996294744983	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14037	4177.7	0.55185	2692.077198182814	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16373	4181.7	0.55185	2694.65476689113	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13627	4185.7	0.55185	2697.232335599446	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16403	4189.7	0.55185	2699.809904307762	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22014	4193.7	0.55185	2702.3874730160774	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18641	4197.7	0.55185	2704.9650417243934	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15314	4201.7	0.55185	2707.5426104327094	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15039	4205.7	0.55185	2710.1201791410253	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1717	4209.7	0.55185	2712.697747849341	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13147	4213.7	0.55185	2715.275316557657	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16308	4217.7	0.55185	2717.852885265973	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13158	4221.7	0.55185	2720.430453974289	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11516	4225.7	0.55185	2723.0080226826044	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12042	4229.7	0.55185	2725.5855913909204	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14859	4233.7	0.55185	2728.1631600992364	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1627	4237.7	0.55185	2730.7407288075524	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22738	4241.7	0.55185	2733.318297515868	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19866	4245.7	0.55185	2735.895866224184	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18615	4249.7	0.55185	2738.4734349325	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16829	4253.7	0.55185	2741.051003640816	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12508	4257.7	0.55185	2743.6285723491314	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12539	4261.7	0.55185	2746.2061410574474	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12697	4265.7	0.55185	2748.7837097657634	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16305	4269.7	0.55185	2751.3612784740794	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1697	4273.7	0.55185	2753.938847182395	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17687	4277.7	0.55185	2756.516415890711	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15178	4281.7	0.55185	2759.093984599027	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18449	4285.7	0.55185	2761.671553307343	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1798	4289.7	0.55185	2764.2491220156585	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11931	4293.7	0.55185	2766.8266907239745	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16591	4297.7	0.55185	2769.4042594322905	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15356	4301.7	0.55185	2771.9818281406065	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14156	4305.7	0.55185	2774.559396848922	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20362	4309.7	0.55185	2777.136965557238	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15997	4313.7	0.55185	2779.714534265554	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11988	4317.7	0.55185	2782.29210297387	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1267	4321.7	0.55185	2784.8696716821855	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16856	4325.7	0.55185	2787.4472403905015	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14025	4329.7	0.55185	2790.0248090988175	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1602	4333.7	0.55185	2792.6023778071335	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19583	4337.7	0.55185	2795.179946515449	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14394	4341.7	0.55185	2797.757515223765	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18742	4345.7	0.55185	2800.335083932081	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1817	4349.7	0.55185	2802.912652640397	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15343	4353.7	0.55185	2805.490221348713	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11045	4357.7	0.55185	2808.0677900570286	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12364	4361.7	0.55185	2810.6453587653446	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15486	4365.7	0.55185	2813.2229274736605	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16457	4369.7	0.55185	2815.8004961819765	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15747	4373.7	0.55185	2818.378064890292	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14063	4377.7	0.55185	2820.955633598608	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11792	4381.7	0.55185	2823.533202306924	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.097351	4385.7	0.55185	2826.11077101524	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.10529	4389.7	0.55185	2828.6883397235556	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11491	4393.7	0.55185	2831.2659084318716	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13768	4397.7	0.55185	2833.8434771401876	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19829	4401.7	0.55185	2836.4210458485036	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20788	4405.7	0.55185	2838.998614556819	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15617	4409.7	0.55185	2841.576183265135	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15607	4413.7	0.55185	2844.153751973451	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14511	4417.7	0.55185	2846.731320681767	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13581	4421.7	0.55185	2849.3088893900826	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15966	4425.7	0.55185	2851.8864580983986	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15946	4429.7	0.55185	2854.4640268067146	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14098	4433.7	0.55185	2857.0415955150306	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19443	4437.7	0.55185	2859.619164223346	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18032	4441.7	0.55185	2862.196732931662	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17817	4445.7	0.55185	2864.774301639978	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14912	4449.7	0.55185	2867.351870348294	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12346	4453.7	0.55185	2869.9294390566097	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1372	4457.7	0.55185	2872.5070077649257	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17459	4461.7	0.55185	2875.0845764732417	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16825	4465.7	0.55185	2877.6621451815577	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18958	4469.7	0.55185	2880.239713889873	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17974	4473.7	0.55185	2882.817282598189	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11035	4477.7	0.55185	2885.394851306505	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14614	4481.7	0.55185	2887.972420014821	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13452	4485.7	0.55185	2890.5499887231367	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12807	4489.7	0.55185	2893.1275574314527	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15735	4493.7	0.55185	2895.7051261397687	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15555	4497.7	0.55185	2898.2826948480847	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16355	4501.7	0.55185	2900.8602635564002	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20091	4505.7	0.55185	2903.4378322647162	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18052	4509.7	0.55185	2906.0154009730322	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15363	4513.7	0.55185	2908.592969681348	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13553	4517.7	0.55185	2911.1705383896638	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18235	4521.7	0.55185	2913.7481070979798	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12419	4525.7	0.55185	2916.3256758062957	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14986	4529.7	0.55185	2918.9032445146117	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21841	4533.7	0.55185	2921.4808132229273	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17298	4537.7	0.55185	2924.0583819312433	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18464	4541.7	0.55185	2926.6359506395593	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18613	4545.7	0.55185	2929.2135193478753	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18086	4549.7	0.55185	2931.791088056191	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14139	4553.7	0.55185	2934.368656764507	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15285	4557.7	0.55185	2936.946225472823	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17473	4561.7	0.55185	2939.523794181139	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18187	4565.7	0.55185	2942.1013628894543	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13443	4569.7	0.55185	2944.6789315977703	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1251	4573.7	0.55185	2947.2565003060863	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16652	4577.7	0.55185	2949.8340690144023	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13714	4581.7	0.55185	2952.411637722718	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15704	4585.7	0.55185	2954.989206431034	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1487	4589.7	0.55185	2957.56677513935	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13519	4593.7	0.55185	2960.144343847666	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15583	4597.7	0.55185	2962.7219125559814	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1525	4601.7	0.55185	2965.2994812642974	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14993	4605.7	0.55185	2967.8770499726133	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14268	4609.7	0.55185	2970.4546186809293	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11394	4613.7	0.55185	2973.032187389245	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15176	4617.7	0.55185	2975.609756097561	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15449	4621.7	0.55185	2978.187324805877	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15416	4625.7	0.55185	2980.764893514193	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1541	4629.7	0.55185	2983.3424622225084	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15451	4633.7	0.55185	2985.9200309308244	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18952	4637.7	0.55185	2988.4975996391404	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18678	4641.7	0.55185	2991.0751683474564	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17798	4645.7	0.55185	2993.652737055772	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16548	4649.7	0.55185	2996.230305764088	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16845	4653.7	0.55185	2998.807874472404	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16095	4657.7	0.55185	3001.38544318072	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17968	4661.7	0.55185	3003.9630118890354	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16494	4665.7	0.55185	3006.5405805973514	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19671	4669.7	0.55185	3009.1181493056674	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1845	4673.7	0.55185	3011.6957180139834	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1693	4677.7	0.55185	3014.273286722299	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15712	4681.7	0.55185	3016.850855430615	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16717	4685.9	0.55185	3019.5573025743465	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15907	4689.9	0.55185	3022.1348712826625	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15501	4693.9	0.55185	3024.7124399909785	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13086	4697.9	0.55185	3027.290008699294	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18908	4701.9	0.55185	3029.86757740761	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17724	4705.9	0.55185	3032.445146115926	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15645	4709.9	0.55185	3035.022714824242	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15761	4713.9	0.55185	3037.6002835325576	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16247	4717.9	0.55185	3040.1778522408736	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15245	4721.9	0.55185	3042.7554209491896	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19047	4725.9	0.55185	3045.3329896575055	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17511	4729.9	0.55185	3047.910558365821	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17946	4733.9	0.55185	3050.488127074137	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15179	4737.9	0.55185	3053.065695782453	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13912	4741.9	0.55185	3055.643264490769	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19901	4745.9	0.55185	3058.2208331990846	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21496	4749.9	0.55185	3060.7984019074006	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20666	4753.9	0.55185	3063.3759706157166	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19996	4757.9	0.55185	3065.9535393240326	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17611	4761.9	0.55185	3068.531108032348	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18454	4765.9	0.55185	3071.108676740664	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1726	4769.9	0.55185	3073.68624544898	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15033	4773.9	0.55185	3076.263814157296	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1492	4777.9	0.55185	3078.8413828656116	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11827	4781.9	0.55185	3081.4189515739276	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.0813	4785.9	0.55185	3083.9965202822436	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13318	4789.9	0.55185	3086.5740889905596	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17318	4793.9	0.55185	3089.1516576988756	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17098	4797.9	0.55185	3091.729226407191	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19691	4801.9	0.55185	3094.306795115507	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15487	4805.9	0.55185	3096.884363823823	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16856	4809.9	0.55185	3099.461932532139	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12734	4813.9	0.55185	3102.0395012404547	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14278	4817.9	0.55185	3104.6170699487707	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15911	4821.9	0.55185	3107.1946386570867	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14715	4825.9	0.55185	3109.7722073654027	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15735	4829.9	0.55185	3112.349776073718	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18099	4833.9	0.55185	3114.927344782034	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16467	4837.9	0.55185	3117.50491349035	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18057	4841.9	0.55185	3120.082482198666	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13506	4845.9	0.55185	3122.6600509069817	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15288	4849.9	0.55185	3125.2376196152977	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17732	4853.9	0.55185	3127.8151883236137	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16199	4857.9	0.55185	3130.3927570319297	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14445	4861.9	0.55185	3132.9703257402452	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12884	4865.9	0.55185	3135.5478944485612	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.123	4869.9	0.55185	3138.1254631568772	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11101	4873.9	0.55185	3140.703031865193	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.094865	4877.9	0.55185	3143.2806005735088	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.097316	4881.9	0.55185	3145.8581692818248	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16171	4885.9	0.55185	3148.4357379901408	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17441	4889.9	0.55185	3151.0133066984567	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16579	4893.9	0.55185	3153.5908754067723	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17944	4897.9	0.55185	3156.1684441150883	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14607	4901.9	0.55185	3158.7460128234043	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16529	4905.9	0.55185	3161.3235815317203	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12312	4909.9	0.55185	3163.901150240036	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17899	4913.9	0.55185	3166.478718948352	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16143	4917.9	0.55185	3169.056287656668	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14426	4921.9	0.55185	3171.633856364984	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14758	4925.9	0.55185	3174.2114250732993	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18234	4929.9	0.55185	3176.7889937816153	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13593	4933.9	0.55185	3179.3665624899313	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11665	4937.9	0.55185	3181.9441311982473	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14047	4941.9	0.55185	3184.521699906563	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15444	4945.9	0.55185	3187.099268614879	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1663	4949.9	0.55185	3189.676837323195	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.12718	4953.9	0.55185	3192.254406031511	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13206	4957.9	0.55185	3194.8319747398264	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.14288	4961.9	0.55185	3197.4095434481424	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15416	4965.9	0.55185	3199.9871121564584	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11717	4969.9	0.55185	3202.5646808647743	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.11898	4973.9	0.55185	3205.14224957309	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.13908	4977.9	0.55185	3207.719818281406	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17094	4981.9	0.55185	3210.297386989722	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17466	4985.9	0.55185	3212.874955698038	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17176	4989.9	0.55185	3215.4525244063534	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18499	4993.9	0.55185	3218.0300931146694	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1566	4997.9	0.55185	3220.6076618229854	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16623	5001.9	0.55185	3223.1852305313014	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16879	5005.9	0.55185	3225.762799239617	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17455	5009.9	0.55185	3228.340367947933	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15691	5013.9	0.55185	3230.917936656249	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16924	5017.9	0.55185	3233.495505364565	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16766	5021.9	0.55185	3236.0730740728804	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17327	5025.9	0.55185	3238.6506427811964	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16918	5029.9	0.55185	3241.2282114895124	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19649	5033.9	0.55185	3243.8057801978284	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18164	5037.9	0.55185	3246.383348906144	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17651	5041.9	0.55185	3248.96091761446	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20805	5045.9	0.55185	3251.538486322776	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18266	5049.9	0.55185	3254.116055031092	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15861	5053.9	0.55185	3256.6936237394075	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18388	5057.9	0.55185	3259.2711924477235	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20767	5061.9	0.55185	3261.8487611560395	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16163	5065.9	0.55185	3264.4263298643555	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1397	5069.9	0.55185	3267.003898572671	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16903	5073.9	0.55185	3269.581467280987	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20484	5077.9	0.55185	3272.159035989303	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21174	5081.9	0.55185	3274.736604697619	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19177	5085.9	0.55185	3277.3141734059345	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19979	5089.9	0.55185	3279.8917421142505	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.2047	5093.9	0.55185	3282.4693108225665	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20205	5097.9	0.55185	3285.0468795308825	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19631	5101.9	0.55185	3287.624448239198	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17916	5105.9	0.55185	3290.202016947514	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20377	5109.9	0.55185	3292.77958565583	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21656	5113.9	0.55185	3295.357154364146	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22969	5117.9	0.55185	3297.9347230724616	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21925	5121.9	0.55185	3300.5122917807776	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.24487	5125.9	0.55185	3303.0898604890936	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20203	5129.9	0.55185	3305.6674291974095	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17114	5133.9	0.55185	3308.244997905725	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19705	5137.9	0.55185	3310.822566614041	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20234	5141.9	0.55185	3313.400135322357	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1925	5145.9	0.55185	3315.977704030673	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16414	5149.9	0.55185	3318.5552727389886	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17568	5153.9	0.55185	3321.1328414473046	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19874	5157.9	0.55185	3323.7104101556206	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21272	5161.9	0.55185	3326.2879788639366	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19728	5165.9	0.55185	3328.865547572252	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22269	5169.9	0.55185	3331.443116280568	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.2385	5173.9	0.55185	3334.020684988884	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18774	5177.9	0.55185	3336.5982536972	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16802	5181.9	0.55185	3339.1758224055156	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18286	5185.9	0.55185	3341.7533911138316	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18793	5189.9	0.55185	3344.3309598221476	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.16403	5193.9	0.55185	3346.9085285304636	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17894	5197.9	0.55185	3349.486097238779	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17208	5201.9	0.55185	3352.063665947095	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.25103	5205.9	0.55185	3354.641234655411	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.24705	5209.9	0.55185	3357.218803363727	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21418	5213.9	0.55185	3359.796372072043	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17052	5217.9	0.55185	3362.3739407803587	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17101	5221.9	0.55185	3364.9515094886747	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.1754	5225.9	0.55185	3367.5290781969907	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18354	5229.9	0.55185	3370.1066469053067	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18407	5233.9	0.55185	3372.684215613622	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21525	5237.9	0.55185	3375.261784321938	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.23947	5241.9	0.55185	3377.839353030254	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20144	5245.9	0.55185	3380.41692173857	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18616	5249.9	0.55185	3382.9944904468857	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17686	5253.9	0.55185	3385.5720591552017	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20999	5257.9	0.55185	3388.1496278635177	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19477	5261.9	0.55185	3390.7271965718337	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20396	5265.9	0.55185	3393.3047652801492	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17905	5269.9	0.55185	3395.8823339884652	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18139	5273.9	0.55185	3398.4599026967812	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21422	5277.9	0.55185	3401.037471405097	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17365	5281.9	0.55185	3403.6150401134128	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.17861	5285.9	0.55185	3406.1926088217288	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.2064	5289.9	0.55185	3408.7701775300447	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19807	5293.9	0.55185	3411.3477462383607	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19441	5297.9	0.55185	3413.9253149466763	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.26695	5301.9	0.55185	3416.5028836549923	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.25602	5305.9	0.55185	3419.0804523633083	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21786	5309.9	0.55185	3421.6580210716243	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21793	5313.9	0.55185	3424.23558977994	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20361	5317.9	0.55185	3426.813158488256	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22088	5321.9	0.55185	3429.390727196572	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20018	5325.9	0.55185	3431.968295904888	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20511	5329.9	0.55185	3434.5458646132033	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22562	5333.9	0.55185	3437.1234333215193	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22356	5337.9	0.55185	3439.7010020298353	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18925	5341.9	0.55185	3442.2785707381513	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21747	5345.9	0.55185	3444.856139446467	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21894	5349.9	0.55185	3447.433708154783	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.24228	5353.9	0.55185	3450.011276863099	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22308	5357.9	0.55185	3452.588845571415	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20321	5361.9	0.55185	3455.1664142797304	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21416	5365.9	0.55185	3457.7439829880464	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.25253	5369.9	0.55185	3460.3215516963623	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22948	5373.9	0.55185	3462.8991204046783	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19075	5377.9	0.55185	3465.476689112994	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22848	5381.9	0.55185	3468.05425782131	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20438	5385.9	0.55185	3470.631826529626	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20257	5389.9	0.55185	3473.209395237942	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.23862	5393.9	0.55185	3475.7869639462574	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.27529	5397.9	0.55185	3478.3645326545734	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.23518	5401.9	0.55185	3480.9421013628894	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21626	5405.9	0.55185	3483.5196700712054	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21844	5409.9	0.55185	3486.097238779521	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19438	5413.9	0.55185	3488.674807487837	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.22385	5417.9	0.55185	3491.252376196153	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.2344	5421.9	0.55185	3493.829944904469	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20955	5425.9	0.55185	3496.4075136127844	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20852	5429.9	0.55185	3498.9850823211004	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.23844	5433.9	0.55185	3501.5626510294164	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.27266	5437.9	0.55185	3504.1402197377324	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.25849	5441.9	0.55185	3506.717788446048	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.23583	5445.9	0.55185	3509.295357154364	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20614	5449.9	0.55185	3511.87292586268	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20231	5453.9	0.55185	3514.450494570996	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21934	5457.9	0.55185	3517.0280632793115	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.25927	5461.9	0.55185	3519.6056319876275	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.21782	5465.9	0.55185	3522.1832006959435	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.20609	5469.9	0.55185	3524.7607694042595	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.24435	5473.9	0.55185	3527.338338112575	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.2386	5477.9	0.55185	3529.915906820891	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18238	5481.9	0.55185	3532.493475529207	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18174	5485.9	0.55185	3535.071044237523	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.18967	5489.9	0.55185	3537.6486129458385	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.19056	5493.9	0.55185	3540.2261816541545	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
+0.15705	5497.9	0.55185	3542.8037503624705	utc	2011-01-05T00:00:00.000	VLT-UT2 - X-Shooter	uncalibrated	angstrom	https://ui.adsabs.harvard.edu/abs/2011ApJ...735L..24S/abstract	16.313969907407408	days	observer	NaN
