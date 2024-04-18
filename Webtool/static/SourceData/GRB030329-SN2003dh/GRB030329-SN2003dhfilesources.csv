@@ -17,29 +17,29 @@ GRB030329-SN2003dh,GRB030329-SN2003dh_Radio13.txt,"Late, Radio",https://ui.adsab
 GRB030329-SN2003dh,GRB030329-SN2003dh_Xray.txt,"Early, Late, Xray",https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract,
 GRB030329-SN2003dh,GRB030329-SN2003dh_Optical3.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2004ApJ...606..381L/abstract,
 GRB030329-SN2003dh,GRB030329-SN2003dh_Radio14.txt,Radio,https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract,
-GRB030329-SN2003dh,,Spectra,https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract,
+GRB030329-SN2003dh,NaN,Spectra,https://ui.adsabs.harvard.edu/abs/2004PASJ...56...61K/abstract,
 GRB030329-SN2003dh,GRB030329-SN2003dh_IR_Optical.txt,"IR, Optical",https://ui.adsabs.harvard.edu/abs/2004AJ....127..252B/abstract,
-GRB030329-SN2003dh,,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,NaN,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
 GRB030329-SN2003dh,GRB030329-SN2003dh_Optical4.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
 GRB030329-SN2003dh,GRB030329-SN2003dh_Optical5.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2003ApJ...597L.101T/abstract,
-GRB030329-SN2003dh,,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...593L..19K/abstract,
-GRB030329-SN2003dh,,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...591L..17S/abstract,
-GRB030329-SN2003dh,,Spectra,https://ui.adsabs.harvard.edu/abs/2003BSAO...56....5S/abstract,
+GRB030329-SN2003dh,NaN,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...593L..19K/abstract,
+GRB030329-SN2003dh,NaN,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...591L..17S/abstract,
+GRB030329-SN2003dh,NaN,Spectra,https://ui.adsabs.harvard.edu/abs/2003BSAO...56....5S/abstract,
 GRB030329-SN2003dh,GRB030329-SN2003dh_Radio15.txt,"Late, Radio",https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract,
-GRB030329-SN2003dh,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2003dh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-GRB030329-SN2003dh,OpenSNSpectra2.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=2&format=json
-GRB030329-SN2003dh,OpenSNSpectra11.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=11&format=json
-GRB030329-SN2003dh,OpenSNSpectra10.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=10&format=json
-GRB030329-SN2003dh,OpenSNSpectra3.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=3&format=json
-GRB030329-SN2003dh,OpenSNSpectra8.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=8&format=json
-GRB030329-SN2003dh,OpenSNSpectra4.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=4&format=json
-GRB030329-SN2003dh,OpenSNSpectra5.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=5&format=json
-GRB030329-SN2003dh,OpenSNSpectra9.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=9&format=json
-GRB030329-SN2003dh,OpenSNSpectra15.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=15&format=json
-GRB030329-SN2003dh,OpenSNSpectra6.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=6&format=json
-GRB030329-SN2003dh,OpenSNSpectra7.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=7&format=json
-GRB030329-SN2003dh,OpenSNSpectra14.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=14&format=json
-GRB030329-SN2003dh,OpenSNSpectra0.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=0&format=json
-GRB030329-SN2003dh,OpenSNSpectra13.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=13&format=json
-GRB030329-SN2003dh,OpenSNSpectra12.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=12&format=json
-GRB030329-SN2003dh,OpenSNSpectra1.json,Spectra,https://api.astrocats.space/SN2003dh/spectra/?item=1&format=json
+GRB030329-SN2003dh,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2003dh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv,
+GRB030329-SN2003dh,OpenSNSpectra2.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra1.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra1.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra3.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra8.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra4.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra5.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2012MNRAS.425.1789S/abstract,
+GRB030329-SN2003dh,OpenSNSpectra9.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra1.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra6.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra7.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra1.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra0.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra1.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra1.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
+GRB030329-SN2003dh,OpenSNSpectra1.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract,
