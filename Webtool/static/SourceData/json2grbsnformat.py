@@ -174,32 +174,32 @@ for folder in folder_list:
         #         convert_key(list_of_keys, file_dict, file)
 
         # Update the filesources csv
-        filesources_txt = glob.glob("*filesources*")
-        filesources = pd.read_csv(filesources_txt[0])
-        filesources["Filename"] = filesources["Filename"].fillna("NaN")
+        # filesources_txt = glob.glob("*filesources*")
+        # filesources = pd.read_csv(filesources_txt[0])
+        # filesources["Filename"] = filesources["Filename"].fillna("NaN")
 
-        txt_list = glob.glob("*OpenSNSpectra*.txt")
-        for file in txt_list:
-            info = pd.read_csv(file, delimiter="\t")
-            reference = info["reference"][0]
-            print(file[:-4], reference)
-            print(filesources["Filename"])
-            filesources.loc[
-                (filesources["Filename"].str.contains(file[:-4])), "Filename"
-            ] = file
-            filesources.loc[
-                (filesources["Filename"].str.contains(file[:-4])), "Reference"
-            ] = reference
+        # txt_list = glob.glob("*OpenSNSpectra*.txt")
+        # for file in txt_list:
+        #     info = pd.read_csv(file, delimiter="\t")
+        #     reference = info["reference"][0]
+        #     print(file[:-4], reference)
+        #     print(filesources["Filename"])
+        #     filesources.loc[
+        #         (filesources["Filename"].str.contains(file[:-4])), "Filename"
+        #     ] = file
+        #     filesources.loc[
+        #         (filesources["Filename"].str.contains(file[:-4])), "Reference"
+        #     ] = reference
 
-        filesources.to_csv(filesources_txt[0], index=False)
+        # filesources.to_csv(filesources_txt[0], index=False)
 
         # Shuttle all json files to the OriginalFormats folder
-        # for file in json_list:
-        #     try:
-        #         shutil.move(file, 'OriginalFormats/')
-        #     except FileNotFoundError:
-        #         os.mkdir('OriginalFormats/')
-        #         shutil.move(file, 'OriginalFormats/')
+        for file in json_list:
+            try:
+                shutil.move(file, "OriginalFormats/")
+            except FileNotFoundError:
+                os.mkdir("OriginalFormats/")
+                shutil.move(file, "OriginalFormats/")
 
         # Return to the folder where you are running this code.
         os.chdir(pwd)
