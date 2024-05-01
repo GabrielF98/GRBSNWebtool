@@ -1,556 +1,556 @@
 time	dtime	mag	mag_limit	dmag	flux_density	dflux_density	band	time_unit	mag_unit	mag_type	flux_density_unit	time_frame	instrument	extinction_corrected	reference	extinction_correted
-16.672014740740742	144046.2074	NaN	0	NaN	-0.004	0.00111	UMV2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-20.37690690625	176056.4757	NaN	0	NaN	−0.0009	0.00111	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-24.90510844097222	215180.1369	NaN	0	NaN	−0.0002	0.00107	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-30.439576982638886	262997.9451	NaN	0	NaN	−0.0006	0.00106	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-37.20392742361111	321441.9329	NaN	0	NaN	−0.0016	0.00113	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-45.47146685069445	392873.4736	NaN	0	NaN	−0.0022	0.00128	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.05523867939814815	77.2622	18.679	0	0.108	0.01163	0.15729	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.06751394212962963	83.3205	18.685	0	0.109	0.01167	0.15678	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.22505803356481482	944.5014	19.341	0	0.094	0.00553	0.08311	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.33619780208333333	904.749	20.249	0	0.974	0.01708	0.08006	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.4109084247685185	550.2488	21.276	0	0.945	0.01553	0.05779	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.5022214085648148	339.193	21.09	0	0.365	0.00379	0.02467	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.6138261655092593	303.4581	21.016	0	0.353	0.00395	0.02606	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.7502319803240741	482.0043	20.881	0	0.349	0.00443	0.02938	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.9169501979166665	922.4497	21.475	0	0.319	0.00237	0.01643	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.1207169097222223	682.9941	22.308	0	0.815	0.00228	0.01118	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.369765111111111	11834.7706	21.827	0	0.328	0.00674	0.00175	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.674157357638889	14464.7196	22.613	0	1.164	0.00327	0.00215	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-2.500901732638889	21607.791	22.487	0	0.488	0.00367	0.00133	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-3.0566576736111113	26409.5223	22.321	0	0.439	0.00428	0.00142	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-3.735914934027778	32278.305	22.181	0	0.417	0.00487	0.00155	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-4.566118252314815	39451.2617	22.52	0	1.362	0.00356	0.00255	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-6.82099146412037	58933.3662	24.91	0	1.572	0.00039	0.00128	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-8.336767344907408	72029.6699	23.776	0	0.811	0.00112	0.00124	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-10.189382310185184	88036.2632	23.556	0	2.878	0.00137	0.00127	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-12.453689489583335	107599.8772	23.587	0	1.626	0.00133	0.00103	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-15.221176043981481	131510.961	23.474	0	1.24	0.00148	0.00101	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-18.603659608796296	160735.619	24.002	0	0.841	0.00091	0.00106	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-22.737806188657405	196454.6455	25.797	0	2.04	0.00017	0.00097	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-27.790652008101855	240111.2333	23.777	0	2.001	0.00112	0.00094	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-33.966352453703706	293469.2852	24.076	0	0.859	0.00085	0.00102	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-41.514430777777775	358684.6819	NaN	0	NaN	−0.0005	0.00106	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-50.73985983912038	438392.389	23.881	0	1.222	0.00102	0.00211	UVW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.05787191203703704	500.0133	20.075	0	2.104	0.03377	0.02891	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.07073233680555556	611.1274	18.554	0	0.416	0.13698	0.04359	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.2357865659722222	2037.1959	19.03	0	0.305	0.0884	0.02166	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.28818357986111115	2489.9061	18.725	0	0.449	0.11708	0.03962	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.4304964594907407	3719.4894	19.078	0	1.998	0.08458	0.07115	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.5261623391203704	4546.0426	18.997	0	1.492	0.09115	0.06809	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.6430873043981481	5556.2743	19.695	0	0.798	0.04791	0.05202	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.78599559375	6791.0019	18.643	0	0.612	0.12619	0.05439	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.9606612812499999	8300.1135	19.589	0	3.147	0.05282	0.04991	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.1741415659722223	10144.5831	19.826	0	2.556	0.04247	0.03844	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.435061914351852	12398.9349	19.171	0	0.726	0.07759	0.03783	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.7539645613425927	15154.2538	18.478	0	0.587	0.14701	0.06137	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-2.1437344641203704	18521.8658	18.722	0	0.519	0.11742	0.04462	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-2.6201199004629627	22637.8359	19.169	0	0.366	0.0778	0.02224	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-3.202368767361111	27668.4661	20.01	0	1.551	0.03583	0.02724	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-3.914006270833333	33817.0142	19.277	0	0.455	0.07039	0.02408	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-7.146148623842592	61742.7241	18.195	0	0.152	0.19073	0.02487	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-8.734181650462963	75463.3295	17.902	0	0.124	0.24978	0.0268	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-10.67511090625	92232.9582	17.722	0	0.085	0.29489	0.0223	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-13.047357774305556	112729.1712	17.773	0	0.081	0.28143	0.02013	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-15.946770613425924	137780.0981	17.799	0	0.079	0.27459	0.01934	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-19.490497416666667	168397.8977	18.411	0	0.138	0.15634	0.0187	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-23.821719064814815	205819.6527	18.626	0	0.152	0.12818	0.0167	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-29.115434412037036	251557.3533	19.156	0	0.248	0.07869	0.01607	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-35.585530947916666	307458.9874	20.848	0	0.801	0.01657	0.01808	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-43.49342671527778	375783.2068	20.215	0	1.081	0.02966	0.0187	V	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.04641078356481482	400.9892	19.297	0	0.0	0.06881	0.01492	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.0693296886574074	599.0085	19.024	0	0.0	0.08848	0.01706	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.2824687962962963	2440.5304	18.855	0	0.0	0.10337	0.01406	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.3452396400462963	2982.8705	19.222	0	0.0	0.07374	0.01006	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.42195955902777776	3645.7306	18.831	0	0.0	0.10575	0.02749	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.5157283506944444	4455.8929	18.961	0	0.0	0.0938	0.02702	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.630334650462963	5446.0914	18.917	0	0.0	0.09771	0.01994	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.7704090173611111	6656.3339	19.073	0	0.0	0.08462	0.01682	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.9416110208333334	8135.5192	18.826	0	0.0	0.10621	0.02572	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.1508579143518518	9943.4124	19.397	0	0.0	0.0628	0.01868	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.4066041180555555	12153.0596	19.719	0	0.0	0.04667	0.01688	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.7191828101851854	14853.7395	NaN	0	NaN	-0.0139	0.02183	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-2.1012234351851853	18154.5705	20.157	0	1.017	0.03118	0.01896	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-2.5681619768518518	22188.9195	20.025	0	0.378	0.03521	0.01034	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-3.1388646377314817	27119.7905	19.895	0	0.378	0.03968	0.01166	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-3.836390113425926	33146.4106	19.9	0	0.355	0.03949	0.01101	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-4.688921248842593	40512.2796	19.681	0	2.19	0.04833	0.0419	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-7.00443791550926	60518.3436	19.32	0	0.193	0.06739	0.011	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-8.560979674768518	73966.8644	18.832	0	0.115	0.10566	0.01064	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-10.463419601851852	90403.9454	18.686	0	0.095	0.12084	0.01016	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-12.788623958333334	110493.711	18.769	0	0.086	0.11195	0.00856	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-15.630540393518517	135047.869	19.069	0	0.107	0.08491	0.00799	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-19.103993813657407	165058.5066	19.482	0	0.181	0.05805	0.00893	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-23.349325771990742	201738.1747	19.913	0	0.221	0.03905	0.0072	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-28.538064833333333	246568.8802	20.497	0	0.401	0.02279	0.00704	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-34.87985701736111	301361.9646	20.597	0	0.551	0.0208	0.00828	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-42.630936355324074	368331.2901	21.274	0	1.373	0.01115	0.008	B	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.004013270833333333	34.6747	19.12	0	0.272	0.08196	0.01813	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.06661942361111112	575.5918	18.746	0	0.109	0.1157	0.011	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.1816986712962963	1569.8765	18.776	0	0.073	0.11258	0.0073	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.4054641435185185	3503.2102	18.683	0	0.124	0.12263	0.01324	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.495567287037037	4281.7014	19.174	0	0.247	0.07801	0.01589	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.6056933506944444	5233.1905	18.865	0	0.141	0.10367	0.01261	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.7402918726851851	6396.1218	19.005	0	0.146	0.09114	0.01144	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.9048011770833333	7817.4822	19.818	0	0.3	0.04309	0.01041	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.105868105324074	9554.7004	19.607	0	0.279	0.05234	0.01188	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.3516165740740742	11677.9672	19.962	0	0.295	0.03775	0.00897	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.6519758125	14273.071	20.637	0	0.713	0.02026	0.00976	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-2.4677663368055556	21321.5012	21.026	0	0.452	0.01416	0.00483	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-3.0161588564814816	26059.6125	20.563	0	0.307	0.02171	0.00534	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-3.68641637962963	31850.6375	20.709	0	0.408	0.01897	0.00595	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-4.505620019675926	38928.557	21.431	0	1.812	0.00976	0.00792	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-6.730617561342593	58152.5357	21.527	0	1.127	0.00893	0.00577	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-8.226310351851852	71075.3214	21.198	0	0.481	0.0121	0.00433	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-10.054379319444445	86869.8373	21.048	0	0.452	0.01388	0.00473	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-12.288685834490742	106174.2456	21.13	0	0.375	0.01287	0.00376	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-15.019504908564814	129768.5224	21.254	0	0.422	0.01148	0.0037	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-18.357172666666667	158605.9718	21.874	0	0.92	0.00648	0.0037	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-22.43654437037037	193851.7434	21.832	0	0.782	0.00674	0.00346	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-27.422443119212964	236929.9086	21.955	0	0.885	0.00602	0.00336	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-33.516319368055555	289580.9993	21.747	0	0.715	0.00729	0.00352	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-40.96439033912037	353932.3325	22.329	0	2.665	0.00427	0.0039	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-50.067588192129634	432583.962	21.063	0	0.715	0.01369	0.0066	U	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.0016	NaN	18.1	0	0.93	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.1562	NaN	18.67	0	0.12	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.567	NaN	18.71	0	0.36	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.2195	NaN	18.65	0	0.19	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.4452	NaN	18.57	0	0.17	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.9067	NaN	18.85	0	0.2	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.9711	NaN	18.81	0	0.21	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.3596	NaN	17.93	0	0.11	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.1015	NaN	17.84	0	0.13	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-9.0221	NaN	17.63	0	0.11	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.2156	NaN	17.56	0	0.1	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-11.2158	NaN	17.58	0	0.08	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.1122	NaN	17.6	0	0.09	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-13.0014	NaN	17.62	0	0.09	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0687	NaN	17.7	0	0.09	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.2356	NaN	17.59	0	0.09	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0959	NaN	17.72	0	0.09	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.8563	NaN	17.71	0	0.09	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-18.0923	NaN	18.22	0	0.16	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.087	NaN	18.14	0	0.12	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.2463	NaN	18.06	0	0.16	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.4044	NaN	18.2	0	0.11	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-22.4368	NaN	18.25	0	0.13	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.1378	NaN	18.52	0	0.15	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-24.4657	NaN	18.53	0	0.15	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.1691	NaN	18.53	0	0.14	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-26.1336	NaN	18.96	0	0.32	NaN	NaN	v	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.0429	NaN	18.98	0	0.16	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.1899	NaN	18.86	0	0.07	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.542	NaN	18.74	0	0.11	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.1784	NaN	19.13	0	0.13	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.4406	NaN	19.38	0	0.16	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.9026	NaN	19.44	0	0.16	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.9695	NaN	19.34	0	0.16	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.354	NaN	19.07	0	0.12	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.0987	NaN	18.72	0	0.13	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-9.0176	NaN	18.53	0	0.1	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.2108	NaN	18.47	0	0.1	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-11.213	NaN	18.56	0	0.08	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.108	NaN	18.59	0	0.09	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.9971	NaN	18.69	0	0.1	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0644	NaN	18.6	0	0.09	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.2334	NaN	19.02	0	0.13	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0914	NaN	18.75	0	0.09	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.8517	NaN	18.93	0	0.1	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-18.0573	NaN	18.99	0	0.14	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.0522	NaN	19.22	0	0.13	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.2141	NaN	19.37	0	0.17	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.3996	NaN	19.34	0	0.14	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-22.4307	NaN	19.53	0	0.17	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.1332	NaN	19.42	0	0.14	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-24.4614	NaN	19.56	0	0.16	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.1653	NaN	19.55	0	0.15	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-26.13	NaN	19.57	0	0.22	NaN	NaN	b	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.0041	NaN	18.8	0	0.19	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.1254	NaN	18.72	0	0.06	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.5413	NaN	18.81	0	0.08	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.1781	NaN	19.73	0	0.12	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.9019	NaN	20.54	0	0.21	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.9692	NaN	20.5	0	0.22	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.3531	NaN	20.63	0	0.22	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.0982	NaN	20.58	0	0.3	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.2099	NaN	20.9	0	0.35	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-11.2126	NaN	20.89	0	0.24	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.1072	NaN	20.74	0	0.27	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.9963	NaN	21.0	0	0.32	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0636	NaN	21.23	0	0.36	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.233	NaN	20.86	0	0.31	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.8509	NaN	20.97	0	0.28	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-22.4297	NaN	21.03	0	0.31	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.1324	NaN	21.28	0	0.35	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.1647	NaN	21.35	0	0.36	NaN	NaN	u	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.1211	NaN	18.78	0	0.06	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.5405	NaN	19.7	0	0.11	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.1777	NaN	20.57	0	0.15	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.438	NaN	21.5	0	0.22	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.9005	NaN	21.44	0	0.2	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-11.2117	NaN	21.61	0	0.19	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.1058	NaN	21.73	0	0.26	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.2322	NaN	21.76	0	0.29	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.8494	NaN	21.83	0	0.25	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.212	NaN	21.5	0	0.26	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-22.4276	NaN	21.49	0	0.25	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.1309	NaN	21.83	0	0.29	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-26.1281	NaN	21.3	0	0.26	NaN	NaN	w1	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.0872	NaN	18.65	0	0.06	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.5682	NaN	20.3	0	0.16	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.2201	NaN	20.97	0	0.15	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.4475	NaN	21.86	0	0.19	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.9095	NaN	21.84	0	0.18	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.9728	NaN	21.8	0	0.18	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.1156	NaN	22.35	0	0.28	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0717	NaN	22.17	0	0.23	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0996	NaN	22.07	0	0.21	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.8597	NaN	22.15	0	0.24	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.0912	NaN	22.38	0	0.26	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.4071	NaN	22.16	0	0.25	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-22.4409	NaN	22.05	0	0.26	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.1414	NaN	22.08	0	0.23	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.1715	NaN	22.29	0	0.27	NaN	NaN	m2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.1894	NaN	19.05	0	0.07	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.019	NaN	21.19	0	0.12	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.2189	NaN	21.25	0	0.18	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.4424	NaN	21.7	0	0.17	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.9046	NaN	21.82	0	0.19	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.9702	NaN	21.72	0	0.18	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.357	NaN	22.35	0	0.27	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-11.2145	NaN	22.49	0	0.27	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0664	NaN	22.44	0	0.28	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0938	NaN	22.2	0	0.24	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-18.0603	NaN	22.32	0	0.32	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.4015	NaN	22.43	0	0.32	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.1356	NaN	22.32	0	0.28	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-24.4629	NaN	21.96	0	0.22	NaN	NaN	w2	days	AB	apparent	NaN	observer	UVOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.0145	NaN	18.998	0	0.086	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.0404	NaN	18.693	0	0.043	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.0066	NaN	19.087	0	0.045	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.0189	NaN	19.087	0	0.043	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.0154	NaN	18.921	0	0.042	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-5.018	NaN	18.747	0	0.042	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-6.0244	NaN	18.588	0	0.042	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.0078	NaN	18.378	0	0.043	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.0095	NaN	18.331	0	0.042	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.9806	NaN	18.24	0	0.041	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.9902	NaN	18.154	0	0.041	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.0265	NaN	18.168	0	0.041	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0005	NaN	NaN	0	NaN	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.0141	NaN	18.344	0	0.041	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0146	NaN	18.437	0	0.041	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.9808	NaN	18.512	0	0.041	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.9892	NaN	18.639	0	0.043	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.0471	NaN	18.742	0	0.041	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.01	NaN	18.825	0	0.041	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.02	NaN	18.924	0	0.041	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.0096	NaN	19.044	0	0.041	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.0149	NaN	19.167	0	0.042	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-27.0138	NaN	19.177	0	0.044	NaN	NaN	g'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.0145	NaN	18.835	0	0.048	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.0404	NaN	18.559	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.0066	NaN	18.9	0	0.042	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.0189	NaN	18.939	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.0154	NaN	18.743	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-5.018	NaN	18.559	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-6.0244	NaN	18.36	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.0078	NaN	18.12	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.0095	NaN	18.039	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.9806	NaN	17.93	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.9902	NaN	17.749	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.0265	NaN	17.677	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0005	NaN	17.596	0	0.045	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.0141	NaN	17.616	0	0.04	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0146	NaN	17.636	0	0.04	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.9808	NaN	17.633	0	0.04	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.9892	NaN	17.695	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.0471	NaN	17.725	0	0.04	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.01	NaN	17.768	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.02	NaN	17.815	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.0096	NaN	17.935	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.0149	NaN	18.042	0	0.041	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-27.0138	NaN	18.13	0	0.042	NaN	NaN	r'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.0145	NaN	18.706	0	0.052	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.0404	NaN	18.371	0	0.043	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.0066	NaN	18.816	0	0.044	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.0189	NaN	18.993	0	0.043	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.0154	NaN	18.965	0	0.043	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-5.018	NaN	18.956	0	0.043	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-6.0244	NaN	18.89	0	0.043	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.0078	NaN	NaN	0	NaN	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.0095	NaN	18.685	0	0.042	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.9806	NaN	18.611	0	0.042	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.9902	NaN	18.441	0	0.043	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.0265	NaN	18.375	0	0.041	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0005	NaN	18.28	0	0.045	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.0141	NaN	18.239	0	0.041	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0146	NaN	18.209	0	0.041	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.9808	NaN	18.162	0	0.041	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.9892	NaN	18.184	0	0.043	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.0471	NaN	18.154	0	0.041	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.01	NaN	18.16	0	0.041	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.02	NaN	18.166	0	0.041	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.0096	NaN	18.193	0	0.041	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.0149	NaN	18.237	0	0.041	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-27.0138	NaN	18.325	0	0.042	NaN	NaN	i'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.0145	NaN	18.511	0	0.056	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.0404	NaN	18.246	0	0.042	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.0066	NaN	18.48	0	0.044	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.0189	NaN	18.539	0	0.043	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.0154	NaN	18.461	0	0.043	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-5.018	NaN	18.319	0	0.043	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-6.0244	NaN	18.253	0	0.042	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.0078	NaN	18.048	0	0.042	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.0095	NaN	18.04	0	0.043	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.9806	NaN	17.956	0	0.041	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.9902	NaN	17.868	0	0.043	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.0265	NaN	17.792	0	0.041	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0005	NaN	17.695	0	0.04	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.0141	NaN	17.721	0	0.041	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0146	NaN	17.719	0	0.041	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.9808	NaN	17.707	0	0.041	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.9892	NaN	17.758	0	0.042	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.0471	NaN	17.734	0	0.041	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.01	NaN	17.773	0	0.041	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.02	NaN	17.801	0	0.041	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.0096	NaN	17.844	0	0.041	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.0149	NaN	17.924	0	0.041	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-27.0138	NaN	17.981	0	0.042	NaN	NaN	z'	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.0145	NaN	18.261	0	0.106	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.0404	NaN	18.061	0	0.057	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.0066	NaN	18.34	0	0.062	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.0189	NaN	18.555	0	0.064	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.0154	NaN	18.456	0	0.063	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-5.018	NaN	NaN	0	NaN	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-6.0244	NaN	18.323	0	0.06	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.0078	NaN	18.251	0	0.067	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.0095	NaN	18.184	0	0.08	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.9806	NaN	18.117	0	0.069	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.9902	NaN	18.007	0	0.073	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.0265	NaN	17.836	0	0.056	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0005	NaN	NaN	0	NaN	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.0141	NaN	17.796	0	0.055	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0146	NaN	17.792	0	0.058	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.9808	NaN	17.804	0	0.055	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.9892	NaN	17.799	0	0.067	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.0471	NaN	17.76	0	0.055	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.01	NaN	17.687	0	0.054	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.02	NaN	17.767	0	0.053	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.0096	NaN	17.779	0	0.055	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.0149	NaN	17.873	0	0.06	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-27.0138	NaN	17.859	0	0.058	NaN	NaN	J	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.0145	NaN	18.182	0	0.171	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.0404	NaN	17.801	0	0.068	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.0066	NaN	18.269	0	0.079	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.0189	NaN	18.412	0	0.079	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.0154	NaN	18.442	0	0.086	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-5.018	NaN	18.59	0	0.083	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-6.0244	NaN	18.503	0	0.08	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.0078	NaN	18.491	0	0.096	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.0095	NaN	18.541	0	0.102	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.9806	NaN	18.313	0	0.091	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.9902	NaN	18.408	0	0.095	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.0265	NaN	18.254	0	0.074	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0005	NaN	NaN	0	NaN	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.0141	NaN	18.189	0	0.07	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0146	NaN	18.187	0	0.08	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.9808	NaN	18.223	0	0.07	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.9892	NaN	18.232	0	0.1	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.0471	NaN	18.096	0	0.069	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.01	NaN	18.063	0	0.07	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.02	NaN	18.097	0	0.07	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.0096	NaN	18.155	0	0.07	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.0149	NaN	18.246	0	0.08	NaN	NaN	H	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-27.0138	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.0145	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.0404	NaN	17.69	0	0.1	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.0066	NaN	18.12	0	0.1	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.0189	NaN	18.48	0	0.14	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.0154	NaN	18.46	0	0.37	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-5.018	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-6.0244	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.0078	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.0095	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.9806	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.9902	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.0265	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.0005	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.0141	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.0146	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.9808	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.9892	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.0471	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.01	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.02	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.0096	NaN	19.22	0	0.25	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.0149	NaN	NaN	0	NaN	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-27.0138	NaN	18.86	0	0.2	NaN	NaN	K	days	AB	apparent	NaN	observer	GROND	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-9.93	NaN	17.79	0	0.03	NaN	NaN	V	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.93	NaN	17.89	0	0.08	NaN	NaN	V	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.9	NaN	17.69	0	0.07	NaN	NaN	V	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-13.95	NaN	17.81	0	0.06	NaN	NaN	V	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.84	NaN	17.96	0	0.06	NaN	NaN	V	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.89	NaN	17.97	0	0.02	NaN	NaN	V	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.86	NaN	18.13	0	0.03	NaN	NaN	V	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-24.85	NaN	18.6	0	0.04	NaN	NaN	V	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-29.93	NaN	18.94	0	0.13	NaN	NaN	V	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-9.93	NaN	17.88	0	0.05	NaN	NaN	Rc	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.93	NaN	17.63	0	0.07	NaN	NaN	Rc	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.9	NaN	17.75	0	0.06	NaN	NaN	Rc	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-13.95	NaN	17.63	0	0.04	NaN	NaN	Rc	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.84	NaN	17.58	0	0.04	NaN	NaN	Rc	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.89	NaN	17.54	0	0.02	NaN	NaN	Rc	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.86	NaN	17.59	0	0.02	NaN	NaN	Rc	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-24.85	NaN	17.91	0	0.03	NaN	NaN	Rc	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-29.93	NaN	18.27	0	0.08	NaN	NaN	Rc	days	AB	apparent	NaN	observer	NOT	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.214	NaN	20.008	0	0.231	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.177	NaN	19.783	0	0.136	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.21	NaN	19.324	0	0.09	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.196	NaN	19.16	0	0.082	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-11.188	NaN	18.825	0	0.06	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.198	NaN	19.051	0	0.064	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.188	NaN	19.232	0	0.082	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.22	NaN	19.412	0	0.112	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-18.187	NaN	19.805	0	0.2	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.202	NaN	19.592	0	0.121	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.198	NaN	19.791	0	0.142	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.219	NaN	19.791	0	0.15	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.206	NaN	19.872	0	0.135	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.204	NaN	19.633	0	0.078	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-26.187	NaN	19.839	0	0.12	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-31.193	NaN	20.439	0	0.281	NaN	NaN	B	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.214	NaN	19.132	0	0.231	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.177	NaN	19.237	0	0.136	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.21	NaN	18.275	0	0.09	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.196	NaN	18.227	0	0.082	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-11.188	NaN	17.833	0	0.06	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.198	NaN	17.961	0	0.064	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.188	NaN	18.113	0	0.082	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.22	NaN	18.224	0	0.112	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-18.187	NaN	18.462	0	0.2	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.202	NaN	18.366	0	0.121	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.198	NaN	18.558	0	0.142	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.219	NaN	18.537	0	0.15	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.206	NaN	18.729	0	0.135	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.204	NaN	18.866	0	0.078	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-26.187	NaN	18.862	0	0.12	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-31.193	NaN	19.238	0	0.281	NaN	NaN	V	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.214	NaN	18.851	0	0.142	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.177	NaN	18.807	0	0.123	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.21	NaN	18.226	0	0.062	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.196	NaN	18.398	0	0.103	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-11.188	NaN	17.966	0	0.071	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.198	NaN	17.692	0	0.042	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.188	NaN	17.771	0	0.056	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.22	NaN	17.905	0	0.07	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-18.187	NaN	17.789	0	0.056	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.202	NaN	17.832	0	0.052	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.198	NaN	17.978	0	0.064	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.219	NaN	17.988	0	0.071	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.206	NaN	18.011	0	0.061	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.204	NaN	18.188	0	0.074	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-26.187	NaN	18.29	0	0.083	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-31.193	NaN	18.559	0	0.106	NaN	NaN	Rc	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-3.214	NaN	18.446	0	0.129	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-4.177	NaN	18.634	0	0.163	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-7.21	NaN	18.395	0	0.129	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.196	NaN	18.138	0	0.074	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-11.188	NaN	18.066	0	0.09	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.198	NaN	17.838	0	0.067	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-16.188	NaN	17.809	0	0.068	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-17.22	NaN	17.777	0	0.055	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-18.187	NaN	17.879	0	0.094	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-19.202	NaN	17.75	0	0.054	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-20.198	NaN	17.739	0	0.053	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-21.219	NaN	17.865	0	0.088	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-23.206	NaN	17.904	0	0.077	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-25.204	NaN	17.904	0	0.06	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-26.187	NaN	18.051	0	0.081	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-31.193	NaN	18.213	0	0.1	NaN	NaN	Ic	days	AB	apparent	NaN	observer	PST2	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.888	NaN	18.91	0	0.18	NaN	NaN	B	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.886	NaN	19.52	0	0.21	NaN	NaN	B	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-5.881	NaN	19.35	0	0.15	NaN	NaN	B	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-9.864	NaN	18.63	0	0.12	NaN	NaN	B	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.96	NaN	18.61	0	0.09	NaN	NaN	B	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.95	NaN	18.43	0	0.14	NaN	NaN	B	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-13.942	NaN	18.45	0	0.09	NaN	NaN	B	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.889	NaN	18.89	0	0.08	NaN	NaN	B	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.888	NaN	18.18	0	0.12	NaN	NaN	V	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.886	NaN	18.34	0	0.18	NaN	NaN	V	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-5.881	NaN	18.14	0	0.23	NaN	NaN	V	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-9.864	NaN	17.73	0	0.1	NaN	NaN	V	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.96	NaN	17.41	0	0.09	NaN	NaN	V	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.95	NaN	17.24	0	0.16	NaN	NaN	V	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-13.942	NaN	17.42	0	0.09	NaN	NaN	V	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.889	NaN	17.66	0	0.06	NaN	NaN	V	days	Vega	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.888	NaN	18.09	0	0.14	NaN	NaN	r	days	AB	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.886	NaN	19.14	0	0.15	NaN	NaN	r	days	AB	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-5.881	NaN	17.66	0	0.33	NaN	NaN	r	days	AB	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-9.864	NaN	17.7	0	0.13	NaN	NaN	r	days	AB	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-10.96	NaN	17.47	0	0.09	NaN	NaN	r	days	AB	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.95	NaN	17.42	0	0.08	NaN	NaN	r	days	AB	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-13.942	NaN	17.43	0	0.09	NaN	NaN	r	days	AB	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-14.889	NaN	17.66	0	0.06	NaN	NaN	r	days	AB	apparent	NaN	observer	GOTO	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.899	NaN	19.02	0	0.25	NaN	NaN	B	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.892	NaN	19.44	0	0.29	NaN	NaN	B	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.902	NaN	NaN	0	NaN	NaN	NaN	B	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.899	NaN	18.45	0	0.15	NaN	NaN	V	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.892	NaN	18.8	0	0.2	NaN	NaN	V	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.902	NaN	NaN	0	NaN	NaN	NaN	V	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.899	NaN	18.19	0	0.11	NaN	NaN	Rc	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.892	NaN	18.37	0	0.13	NaN	NaN	Rc	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.902	NaN	18.42	0	0.22	NaN	NaN	Rc	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.899	NaN	17.69	0	0.11	NaN	NaN	Ic	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.892	NaN	17.98	0	0.13	NaN	NaN	Ic	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-2.902	NaN	17.99	0	0.2	NaN	NaN	Ic	days	AB	apparent	NaN	observer	OSN	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.488	NaN	17.96	0	0.07	NaN	NaN	Rc	days	AB	apparent	NaN	observer	iTelescope	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-1.455	NaN	18.65	0	0.36	NaN	NaN	Rc	days	AB	apparent	NaN	observer	iTelescope	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-8.35	NaN	17.79	0	0.07	NaN	NaN	Rc	days	AB	apparent	NaN	observer	iTelescope	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.78	NaN	18.26	0	0.81	NaN	NaN	Rc	days	AB	apparent	NaN	observer	OASDG	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-12.76	NaN	17.49	0	0.36	NaN	NaN	Rc	days	AB	apparent	NaN	observer	OASDG	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-13.76	NaN	17.58	0	0.51	NaN	NaN	Rc	days	AB	apparent	NaN	observer	OASDG	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-15.76	NaN	17.48	0	0.35	NaN	NaN	Rc	days	AB	apparent	NaN	observer	OASDG	NaN	https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
-0.06314291435185186	545.5548	18.739	0	0.108	0.11570	0.01093	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.11528562152777778	996.0678	18.654	0	0.107	0.12517	0.01173	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.17221679282407407	1487.9531	18.819	0	0.072	0.10756	0.00689	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.3843051469907407	3320.3965	19.109	0	0.196	0.08229	0.01359	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.46970629050925927	4058.2623	19.83	0	0.209	0.04236	0.00743	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.5740854652777778	4960.0984	19.617	0	0.27	0.05156	0.01135	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.7016600138888889	6062.3425	20.376	0	0.273	0.02563	0.0057	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.8575844606481481	7409.5297	20.658	0	0.426	0.01977	0.00642	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.0481587858796295	9056.0919	20.841	0	0.545	0.01670	0.00659	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.2810829606481482	11068.5568	22.052	0	2.3	0.00547	0.00481	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.5657680625000001	13528.2361	21.137	0	0.598	0.01272	0.00538	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-2.3389868587962965	20208.8465	21.826	0	0.467	0.00674	0.00236	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-2.8587617164351853	24699.7012	21.966	0	0.481	0.00592	0.00212	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-3.494042098379629	30188.5237	NaN	0	NaN	−0.0015	0.00382	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-4.270495898148148	36897.0846	22.406	0	0.999	0.00395	0.00238	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-6.379382760416667	55117.8671	22.547	0	2.477	0.00347	0.00312	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-7.797023373842593	67366.282	23.329	0	0.809	0.00169	0.00187	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-9.529695234953705	82336.5668	23.817	0	1.138	0.00108	0.002	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-11.647405287037037	100633.5817	22.602	0	0.754	0.00330	0.00165	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-14.235717574074073	122996.5998	23.093	0	1.814	0.00210	0.0017	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-17.399210368055556	150329.1776	23.625	0	0.874	0.00129	0.00159	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-21.265701560185185	183735.6615	24.392	0	1.338	0.00063	0.00154	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-25.991413018518518	224565.8085	24.009	0	1.07	0.00090	0.00151	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-31.767282577546297	274469.3215	23.7	0	0.899	0.00120	0.00155	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-38.82667870601852	335462.504	NaN	0	NaN	−0.0004	0.00174	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-47.454829530092596	410009.7271	24.259	0	1.623	0.00072	0.00248	UVW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.060503871527777774	522.7535	18.871	0	0.132	0.10296	0.01175	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.11046728819444444	954.4374	18.624	0	0.074	0.12922	0.00852	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.4500750335648148	3888.6483	20.174	0	0.323	0.03100	0.00797	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.5500917083333333	4752.7924	20.68	0	0.324	0.01946	0.00502	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.6723343090277778	5808.9684	20.817	0	0.616	0.01715	0.00742	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-0.8217419340277778	7099.8503	21.04	0	0.49	0.01397	0.00508	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.0043512523148148	8677.5948	21.624	0	0.697	0.00816	0.00386	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.2275404201388889	10605.9492	21.276	0	0.458	0.01124	0.00387	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-1.500327179398148	12962.8268	22.151	0	0.954	0.00502	0.00294	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-2.2412294907407406	19364.2228	23.031	0	1.506	0.00223	0.00167	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-2.739280488425926	23667.3834	24.237	0	1.151	0.00074	0.00139	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-3.348009486111111	28926.802	22.215	0	0.802	0.00473	0.00247	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-4.092011594907407	35354.9802	23.198	0	1.51	0.00191	0.00144	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-7.471148740740741	64550.7251	26.843	0	3.284	0.00007	0.00131	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-9.131404016203705	78895.3307	NaN	0	NaN	−0.0000	0.00138	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-11.160604909722222	96427.6264	NaN	0	NaN	−0.0011	0.00116	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
-13.640739333333334	117855.9878	NaN	0	NaN	−0.0005	0.00117	UVM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	NaN
+16.672014740740742	144046.2074		0		-0.004	0.00111	UMV2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+20.37690690625	176056.4757		0		−0.0009	0.00111	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+24.90510844097222	215180.1369		0		−0.0002	0.00107	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+30.439576982638886	262997.9451		0		−0.0006	0.00106	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+37.20392742361111	321441.9329		0		−0.0016	0.00113	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+45.47146685069445	392873.4736		0		−0.0022	0.00128	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.0552386793981481	77.2622	18.679	0	0.108	0.01163	0.15729	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.0675139421296296	83.3205	18.685	0	0.109	0.01167	0.15678	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.2250580335648148	944.5014	19.341	0	0.094	0.00553	0.08311	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.3361978020833333	904.749	20.249	0	0.974	0.01708	0.08006	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.4109084247685185	550.2488	21.276	0	0.945	0.01553	0.05779	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.5022214085648148	339.193	21.09	0	0.365	0.00379	0.02467	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.6138261655092593	303.4581	21.016	0	0.353	0.00395	0.02606	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.7502319803240741	482.0043	20.881	0	0.349	0.00443	0.02938	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.9169501979166664	922.4497	21.475	0	0.319	0.00237	0.01643	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.1207169097222225	682.9941	22.308	0	0.815	0.00228	0.01118	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.369765111111111	11834.7706	21.827	0	0.328	0.00674	0.00175	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.674157357638889	14464.7196	22.613	0	1.164	0.00327	0.00215	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+2.500901732638889	21607.791	22.487	0	0.488	0.00367	0.00133	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+3.0566576736111117	26409.5223	22.321	0	0.439	0.00428	0.00142	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+3.735914934027778	32278.305	22.181	0	0.417	0.00487	0.00155	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+4.566118252314815	39451.2617	22.52	0	1.362	0.00356	0.00255	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+6.82099146412037	58933.3662	24.91	0	1.572	0.00039	0.00128	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+8.336767344907408	72029.6699	23.776	0	0.811	0.00112	0.00124	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+10.189382310185184	88036.2632	23.556	0	2.878	0.00137	0.00127	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+12.453689489583336	107599.8772	23.587	0	1.626	0.00133	0.00103	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+15.22117604398148	131510.961	23.474	0	1.24	0.00148	0.00101	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+18.603659608796296	160735.619	24.002	0	0.841	0.00091	0.00106	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+22.737806188657405	196454.6455	25.797	0	2.04	0.00017	0.00097	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+27.79065200810185	240111.2333	23.777	0	2.001	0.00112	0.00094	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+33.966352453703706	293469.2852	24.076	0	0.859	0.00085	0.00102	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+41.514430777777775	358684.6819		0		−0.0005	0.00106	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+50.73985983912038	438392.389	23.881	0	1.222	0.00102	0.00211	UW2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.057871912037037	500.0133	20.075	0	2.104	0.03377	0.02891	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.0707323368055555	611.1274	18.554	0	0.416	0.13698	0.04359	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.2357865659722222	2037.1959	19.03	0	0.305	0.0884	0.02166	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.2881835798611111	2489.9061	18.725	0	0.449	0.11708	0.03962	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.4304964594907407	3719.4894	19.078	0	1.998	0.08458	0.07115	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.5261623391203704	4546.0426	18.997	0	1.492	0.09115	0.06809	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.6430873043981481	5556.2743	19.695	0	0.798	0.04791	0.05202	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.78599559375	6791.0019	18.643	0	0.612	0.12619	0.05439	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.96066128125	8300.1135	19.589	0	3.147	0.05282	0.04991	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.1741415659722223	10144.5831	19.826	0	2.556	0.04247	0.03844	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.435061914351852	12398.9349	19.171	0	0.726	0.07759	0.03783	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.7539645613425927	15154.2538	18.478	0	0.587	0.14701	0.06137	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+2.1437344641203704	18521.8658	18.722	0	0.519	0.11742	0.04462	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+2.6201199004629627	22637.8359	19.169	0	0.366	0.0778	0.02224	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+3.202368767361111	27668.4661	20.01	0	1.551	0.03583	0.02724	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+3.914006270833333	33817.0142	19.277	0	0.455	0.07039	0.02408	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+7.146148623842592	61742.7241	18.195	0	0.152	0.19073	0.02487	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+8.734181650462963	75463.3295	17.902	0	0.124	0.24978	0.0268	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+10.67511090625	92232.9582	17.722	0	0.085	0.29489	0.0223	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+13.047357774305556	112729.1712	17.773	0	0.081	0.28143	0.02013	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+15.946770613425924	137780.0981	17.799	0	0.079	0.27459	0.01934	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+19.490497416666667	168397.8977	18.411	0	0.138	0.15634	0.0187	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+23.82171906481481	205819.6527	18.626	0	0.152	0.12818	0.0167	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+29.11543441203704	251557.3533	19.156	0	0.248	0.07869	0.01607	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+35.585530947916666	307458.9874	20.848	0	0.801	0.01657	0.01808	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+43.49342671527778	375783.2068	20.215	0	1.081	0.02966	0.0187	UVV	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.0464107835648148	400.9892	19.297	0	0.0	0.06881	0.01492	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.0693296886574074	599.0085	19.024	0	0.0	0.08848	0.01706	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.2824687962962963	2440.5304	18.855	0	0.0	0.10337	0.01406	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.3452396400462963	2982.8705	19.222	0	0.0	0.07374	0.01006	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.4219595590277777	3645.7306	18.831	0	0.0	0.10575	0.02749	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.5157283506944444	4455.8929	18.961	0	0.0	0.0938	0.02702	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.630334650462963	5446.0914	18.917	0	0.0	0.09771	0.01994	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.7704090173611111	6656.3339	19.073	0	0.0	0.08462	0.01682	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.9416110208333334	8135.5192	18.826	0	0.0	0.10621	0.02572	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.1508579143518518	9943.4124	19.397	0	0.0	0.0628	0.01868	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.4066041180555555	12153.0596	19.719	0	0.0	0.04667	0.01688	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.7191828101851854	14853.7395		0		-0.0139	0.02183	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+2.1012234351851853	18154.5705	20.157	0	1.017	0.03118	0.01896	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+2.568161976851852	22188.9195	20.025	0	0.378	0.03521	0.01034	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+3.1388646377314817	27119.7905	19.895	0	0.378	0.03968	0.01166	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+3.836390113425926	33146.4106	19.9	0	0.355	0.03949	0.01101	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+4.688921248842593	40512.2796	19.681	0	2.19	0.04833	0.0419	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+7.00443791550926	60518.3436	19.32	0	0.193	0.06739	0.011	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+8.560979674768518	73966.8644	18.832	0	0.115	0.10566	0.01064	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+10.463419601851852	90403.9454	18.686	0	0.095	0.12084	0.01016	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+12.788623958333334	110493.711	18.769	0	0.086	0.11195	0.00856	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+15.630540393518515	135047.869	19.069	0	0.107	0.08491	0.00799	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+19.103993813657407	165058.5066	19.482	0	0.181	0.05805	0.00893	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+23.349325771990745	201738.1747	19.913	0	0.221	0.03905	0.0072	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+28.538064833333333	246568.8802	20.497	0	0.401	0.02279	0.00704	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+34.87985701736111	301361.9646	20.597	0	0.551	0.0208	0.00828	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+42.63093635532408	368331.2901	21.274	0	1.373	0.01115	0.008	UVB	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.0040132708333333	34.6747	19.12	0	0.272	0.08196	0.01813	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.0666194236111111	575.5918	18.746	0	0.109	0.1157	0.011	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.1816986712962963	1569.8765	18.776	0	0.073	0.11258	0.0073	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.4054641435185185	3503.2102	18.683	0	0.124	0.12263	0.01324	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.495567287037037	4281.7014	19.174	0	0.247	0.07801	0.01589	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.6056933506944444	5233.1905	18.865	0	0.141	0.10367	0.01261	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.7402918726851851	6396.1218	19.005	0	0.146	0.09114	0.01144	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.9048011770833332	7817.4822	19.818	0	0.3	0.04309	0.01041	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.105868105324074	9554.7004	19.607	0	0.279	0.05234	0.01188	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.3516165740740742	11677.9672	19.962	0	0.295	0.03775	0.00897	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.6519758125	14273.071	20.637	0	0.713	0.02026	0.00976	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+2.467766336805556	21321.5012	21.026	0	0.452	0.01416	0.00483	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+3.0161588564814816	26059.6125	20.563	0	0.307	0.02171	0.00534	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+3.68641637962963	31850.6375	20.709	0	0.408	0.01897	0.00595	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+4.505620019675926	38928.557	21.431	0	1.812	0.00976	0.00792	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+6.730617561342593	58152.5357	21.527	0	1.127	0.00893	0.00577	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+8.226310351851852	71075.3214	21.198	0	0.481	0.0121	0.00433	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+10.054379319444443	86869.8373	21.048	0	0.452	0.01388	0.00473	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+12.288685834490742	106174.2456	21.13	0	0.375	0.01287	0.00376	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+15.019504908564814	129768.5224	21.254	0	0.422	0.01148	0.0037	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+18.357172666666667	158605.9718	21.874	0	0.92	0.00648	0.0037	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+22.43654437037037	193851.7434	21.832	0	0.782	0.00674	0.00346	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+27.422443119212964	236929.9086	21.955	0	0.885	0.00602	0.00336	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+33.516319368055555	289580.9993	21.747	0	0.715	0.00729	0.00352	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+40.96439033912037	353932.3325	22.329	0	2.665	0.00427	0.0039	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+50.067588192129634	432583.962	21.063	0	0.715	0.01369	0.0066	UVU	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.0016		18.1	0	0.93			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.1562		18.67	0	0.12			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.567		18.71	0	0.36			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.2195		18.65	0	0.19			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.4452		18.57	0	0.17			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.9067		18.85	0	0.2			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.9711		18.81	0	0.21			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.3596		17.93	0	0.11			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.1015		17.84	0	0.13			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+9.0221		17.63	0	0.11			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.2156		17.56	0	0.1			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+11.2158		17.58	0	0.08			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.1122		17.6	0	0.09			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+13.0014		17.62	0	0.09			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0687		17.7	0	0.09			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.2356		17.59	0	0.09			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0959		17.72	0	0.09			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.8563		17.71	0	0.09			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+18.0923		18.22	0	0.16			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.087		18.14	0	0.12			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.2463		18.06	0	0.16			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.4044		18.2	0	0.11			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+22.4368		18.25	0	0.13			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.1378		18.52	0	0.15			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+24.4657		18.53	0	0.15			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.1691		18.53	0	0.14			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+26.1336		18.96	0	0.32			UVV	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0429		18.98	0	0.16			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.1899		18.86	0	0.07			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.542		18.74	0	0.11			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.1784		19.13	0	0.13			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.4406		19.38	0	0.16			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.9026		19.44	0	0.16			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.9695		19.34	0	0.16			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.354		19.07	0	0.12			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.0987		18.72	0	0.13			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+9.0176		18.53	0	0.1			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.2108		18.47	0	0.1			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+11.213		18.56	0	0.08			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.108		18.59	0	0.09			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.9971		18.69	0	0.1			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0644		18.6	0	0.09			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.2334		19.02	0	0.13			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0914		18.75	0	0.09			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.8517		18.93	0	0.1			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+18.0573		18.99	0	0.14			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.0522		19.22	0	0.13			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.2141		19.37	0	0.17			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.3996		19.34	0	0.14			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+22.4307		19.53	0	0.17			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.1332		19.42	0	0.14			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+24.4614		19.56	0	0.16			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.1653		19.55	0	0.15			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+26.13		19.57	0	0.22			UVB	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0041		18.8	0	0.19			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.1254		18.72	0	0.06			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.5413		18.81	0	0.08			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.1781		19.73	0	0.12			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.9019		20.54	0	0.21			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.9692		20.5	0	0.22			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.3531		20.63	0	0.22			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.0982		20.58	0	0.3			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.2099		20.9	0	0.35			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+11.2126		20.89	0	0.24			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.1072		20.74	0	0.27			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.9963		21.0	0	0.32			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0636		21.23	0	0.36			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.233		20.86	0	0.31			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.8509		20.97	0	0.28			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+22.4297		21.03	0	0.31			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.1324		21.28	0	0.35			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.1647		21.35	0	0.36			UVU	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.1211		18.78	0	0.06			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.5405		19.7	0	0.11			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.1777		20.57	0	0.15			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.438		21.5	0	0.22			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.9005		21.44	0	0.2			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+11.2117		21.61	0	0.19			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.1058		21.73	0	0.26			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.2322		21.76	0	0.29			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.8494		21.83	0	0.25			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.212		21.5	0	0.26			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+22.4276		21.49	0	0.25			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.1309		21.83	0	0.29			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+26.1281		21.3	0	0.26			UW1	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0872		18.65	0	0.06			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.5682		20.3	0	0.16			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.2201		20.97	0	0.15			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.4475		21.86	0	0.19			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.9095		21.84	0	0.18			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.9728		21.8	0	0.18			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.1156		22.35	0	0.28			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0717		22.17	0	0.23			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0996		22.07	0	0.21			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.8597		22.15	0	0.24			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.0912		22.38	0	0.26			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.4071		22.16	0	0.25			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+22.4409		22.05	0	0.26			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.1414		22.08	0	0.23			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.1715		22.29	0	0.27			UM2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.1894		19.05	0	0.07			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.019		21.19	0	0.12			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.2189		21.25	0	0.18			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.4424		21.7	0	0.17			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.9046		21.82	0	0.19			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.9702		21.72	0	0.18			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.357		22.35	0	0.27			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+11.2145		22.49	0	0.27			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0664		22.44	0	0.28			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0938		22.2	0	0.24			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+18.0603		22.32	0	0.32			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.4015		22.43	0	0.32			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.1356		22.32	0	0.28			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+24.4629		21.96	0	0.22			UW2	days	AB	apparent		observer	UVOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0145		18.998	0	0.086			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.0404		18.693	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.0066		19.087	0	0.045			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.0189		19.087	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.0154		18.921	0	0.042			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+5.018		18.747	0	0.042			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+6.0244		18.588	0	0.042			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.0078		18.378	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.0095		18.331	0	0.042			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.9806		18.24	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.9902		18.154	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.0265		18.168	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0005			0				g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.0141		18.344	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0146		18.437	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.9808		18.512	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.9892		18.639	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.0471		18.742	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.01		18.825	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.02		18.924	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.0096		19.044	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.0149		19.167	0	0.042			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+27.0138		19.177	0	0.044			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0145		18.835	0	0.048			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.0404		18.559	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.0066		18.9	0	0.042			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.0189		18.939	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.0154		18.743	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+5.018		18.559	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+6.0244		18.36	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.0078		18.12	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.0095		18.039	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.9806		17.93	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.9902		17.749	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.0265		17.677	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0005		17.596	0	0.045			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.0141		17.616	0	0.04			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0146		17.636	0	0.04			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.9808		17.633	0	0.04			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.9892		17.695	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.0471		17.725	0	0.04			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.01		17.768	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.02		17.815	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.0096		17.935	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.0149		18.042	0	0.041			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+27.0138		18.13	0	0.042			r	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0145		18.706	0	0.052			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.0404		18.371	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.0066		18.816	0	0.044			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.0189		18.993	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.0154		18.965	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+5.018		18.956	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+6.0244		18.89	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.0078			0				g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.0095		18.685	0	0.042			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.9806		18.611	0	0.042			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.9902		18.441	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.0265		18.375	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0005		18.28	0	0.045			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.0141		18.239	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0146		18.209	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.9808		18.162	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.9892		18.184	0	0.043			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.0471		18.154	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.01		18.16	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.02		18.166	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.0096		18.193	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.0149		18.237	0	0.041			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+27.0138		18.325	0	0.042			g	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0145		18.511	0	0.056			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.0404		18.246	0	0.042			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.0066		18.48	0	0.044			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.0189		18.539	0	0.043			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.0154		18.461	0	0.043			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+5.018		18.319	0	0.043			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+6.0244		18.253	0	0.042			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.0078		18.048	0	0.042			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.0095		18.04	0	0.043			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.9806		17.956	0	0.041			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.9902		17.868	0	0.043			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.0265		17.792	0	0.041			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0005		17.695	0	0.04			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.0141		17.721	0	0.041			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0146		17.719	0	0.041			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.9808		17.707	0	0.041			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.9892		17.758	0	0.042			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.0471		17.734	0	0.041			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.01		17.773	0	0.041			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.02		17.801	0	0.041			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.0096		17.844	0	0.041			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.0149		17.924	0	0.041			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+27.0138		17.981	0	0.042			z	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0145		18.261	0	0.106			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.0404		18.061	0	0.057			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.0066		18.34	0	0.062			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.0189		18.555	0	0.064			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.0154		18.456	0	0.063			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+5.018			0				J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+6.0244		18.323	0	0.06			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.0078		18.251	0	0.067			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.0095		18.184	0	0.08			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.9806		18.117	0	0.069			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.9902		18.007	0	0.073			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.0265		17.836	0	0.056			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0005			0				J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.0141		17.796	0	0.055			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0146		17.792	0	0.058			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.9808		17.804	0	0.055			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.9892		17.799	0	0.067			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.0471		17.76	0	0.055			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.01		17.687	0	0.054			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.02		17.767	0	0.053			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.0096		17.779	0	0.055			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.0149		17.873	0	0.06			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+27.0138		17.859	0	0.058			J	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0145		18.182	0	0.171			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.0404		17.801	0	0.068			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.0066		18.269	0	0.079			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.0189		18.412	0	0.079			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.0154		18.442	0	0.086			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+5.018		18.59	0	0.083			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+6.0244		18.503	0	0.08			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.0078		18.491	0	0.096			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.0095		18.541	0	0.102			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.9806		18.313	0	0.091			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.9902		18.408	0	0.095			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.0265		18.254	0	0.074			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0005			0				H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.0141		18.189	0	0.07			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0146		18.187	0	0.08			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.9808		18.223	0	0.07			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.9892		18.232	0	0.1			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.0471		18.096	0	0.069			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.01		18.063	0	0.07			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.02		18.097	0	0.07			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.0096		18.155	0	0.07			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.0149		18.246	0	0.08			H	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+27.0138			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0145			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.0404		17.69	0	0.1			K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.0066		18.12	0	0.1			K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.0189		18.48	0	0.14			K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.0154		18.46	0	0.37			K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+5.018			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+6.0244			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.0078			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.0095			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.9806			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.9902			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.0265			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.0005			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.0141			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.0146			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.9808			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.9892			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.0471			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.01			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.02			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.0096		19.22	0	0.25			K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.0149			0				K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+27.0138		18.86	0	0.2			K	days	AB	apparent		observer	GROND		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+9.93		17.79	0	0.03			UVV	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.93		17.89	0	0.08			UVV	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.9		17.69	0	0.07			UVV	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+13.95		17.81	0	0.06			UVV	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.84		17.96	0	0.06			UVV	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.89		17.97	0	0.02			UVV	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.86		18.13	0	0.03			UVV	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+24.85		18.6	0	0.04			UVV	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+29.93		18.94	0	0.13			UVV	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+9.93		17.88	0	0.05			R_{c}	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.93		17.63	0	0.07			R_{c}	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.9		17.75	0	0.06			R_{c}	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+13.95		17.63	0	0.04			R_{c}	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.84		17.58	0	0.04			R_{c}	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.89		17.54	0	0.02			R_{c}	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.86		17.59	0	0.02			R_{c}	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+24.85		17.91	0	0.03			R_{c}	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+29.93		18.27	0	0.08			R_{c}	days	AB	apparent		observer	NOT		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.214		20.008	0	0.231			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.177		19.783	0	0.136			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.21		19.324	0	0.09			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.196		19.16	0	0.082			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+11.188		18.825	0	0.06			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.198		19.051	0	0.064			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.188		19.232	0	0.082			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.22		19.412	0	0.112			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+18.187		19.805	0	0.2			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.202		19.592	0	0.121			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.198		19.791	0	0.142			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.219		19.791	0	0.15			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.206		19.872	0	0.135			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.204		19.633	0	0.078			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+26.187		19.839	0	0.12			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+31.193		20.439	0	0.281			UVB	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.214		19.132	0	0.231			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.177		19.237	0	0.136			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.21		18.275	0	0.09			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.196		18.227	0	0.082			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+11.188		17.833	0	0.06			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.198		17.961	0	0.064			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.188		18.113	0	0.082			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.22		18.224	0	0.112			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+18.187		18.462	0	0.2			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.202		18.366	0	0.121			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.198		18.558	0	0.142			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.219		18.537	0	0.15			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.206		18.729	0	0.135			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.204		18.866	0	0.078			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+26.187		18.862	0	0.12			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+31.193		19.238	0	0.281			UVV	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.214		18.851	0	0.142			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.177		18.807	0	0.123			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.21		18.226	0	0.062			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.196		18.398	0	0.103			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+11.188		17.966	0	0.071			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.198		17.692	0	0.042			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.188		17.771	0	0.056			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.22		17.905	0	0.07			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+18.187		17.789	0	0.056			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.202		17.832	0	0.052			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.198		17.978	0	0.064			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.219		17.988	0	0.071			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.206		18.011	0	0.061			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.204		18.188	0	0.074			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+26.187		18.29	0	0.083			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+31.193		18.559	0	0.106			R_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+3.214		18.446	0	0.129			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+4.177		18.634	0	0.163			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+7.21		18.395	0	0.129			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.196		18.138	0	0.074			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+11.188		18.066	0	0.09			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.198		17.838	0	0.067			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+16.188		17.809	0	0.068			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+17.22		17.777	0	0.055			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+18.187		17.879	0	0.094			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+19.202		17.75	0	0.054			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+20.198		17.739	0	0.053			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+21.219		17.865	0	0.088			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+23.206		17.904	0	0.077			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+25.204		17.904	0	0.06			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+26.187		18.051	0	0.081			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+31.193		18.213	0	0.1			I_{c}	days	AB	apparent		observer	PST2		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.888		18.91	0	0.18			UVB	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.886		19.52	0	0.21			UVB	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+5.881		19.35	0	0.15			UVB	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+9.864		18.63	0	0.12			UVB	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.96		18.61	0	0.09			UVB	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.95		18.43	0	0.14			UVB	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+13.942		18.45	0	0.09			UVB	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.889		18.89	0	0.08			UVB	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.888		18.18	0	0.12			UVV	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.886		18.34	0	0.18			UVV	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+5.881		18.14	0	0.23			UVV	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+9.864		17.73	0	0.1			UVV	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.96		17.41	0	0.09			UVV	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.95		17.24	0	0.16			UVV	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+13.942		17.42	0	0.09			UVV	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.889		17.66	0	0.06			UVV	days	Vega	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.888		18.09	0	0.14			r	days	AB	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.886		19.14	0	0.15			r	days	AB	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+5.881		17.66	0	0.33			r	days	AB	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+9.864		17.7	0	0.13			r	days	AB	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+10.96		17.47	0	0.09			r	days	AB	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.95		17.42	0	0.08			r	days	AB	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+13.942		17.43	0	0.09			r	days	AB	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+14.889		17.66	0	0.06			r	days	AB	apparent		observer	GOTO		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.899		19.02	0	0.25			UVB	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.892		19.44	0	0.29			UVB	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.902			0				UVB	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.899		18.45	0	0.15			UVV	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.892		18.8	0	0.2			UVV	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.902			0				UVV	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.899		18.19	0	0.11			R_{c}	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.892		18.37	0	0.13			R_{c}	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.902		18.42	0	0.22			R_{c}	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.899		17.69	0	0.11			I_{c}	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.892		17.98	0	0.13			I_{c}	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+2.902		17.99	0	0.2			I_{c}	days	AB	apparent		observer	OSN		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.488		17.96	0	0.07			R_{c}	days	AB	apparent		observer	iTelescope		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+1.455		18.65	0	0.36			R_{c}	days	AB	apparent		observer	iTelescope		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+8.35		17.79	0	0.07			R_{c}	days	AB	apparent		observer	iTelescope		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.78		18.26	0	0.81			R_{c}	days	AB	apparent		observer	OASDG		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+12.76		17.49	0	0.36			R_{c}	days	AB	apparent		observer	OASDG		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+13.76		17.58	0	0.51			R_{c}	days	AB	apparent		observer	OASDG		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+15.76		17.48	0	0.35			R_{c}	days	AB	apparent		observer	OASDG		https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract	False
+0.0631429143518518	545.5548	18.739	0	0.108	0.11570	0.01093	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.1152856215277777	996.0678	18.654	0	0.107	0.12517	0.01173	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.172216792824074	1487.9531	18.819	0	0.072	0.10756	0.00689	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.3843051469907407	3320.3965	19.109	0	0.196	0.08229	0.01359	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.4697062905092592	4058.2623	19.83	0	0.209	0.04236	0.00743	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.5740854652777778	4960.0984	19.617	0	0.27	0.05156	0.01135	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.7016600138888889	6062.3425	20.376	0	0.273	0.02563	0.0057	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.8575844606481481	7409.5297	20.658	0	0.426	0.01977	0.00642	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.0481587858796295	9056.0919	20.841	0	0.545	0.01670	0.00659	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.2810829606481482	11068.5568	22.052	0	2.3	0.00547	0.00481	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.5657680625	13528.2361	21.137	0	0.598	0.01272	0.00538	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+2.3389868587962965	20208.8465	21.826	0	0.467	0.00674	0.00236	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+2.8587617164351853	24699.7012	21.966	0	0.481	0.00592	0.00212	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+3.494042098379629	30188.5237		0		−0.0015	0.00382	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+4.270495898148148	36897.0846	22.406	0	0.999	0.00395	0.00238	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+6.379382760416667	55117.8671	22.547	0	2.477	0.00347	0.00312	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+7.797023373842593	67366.282	23.329	0	0.809	0.00169	0.00187	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+9.529695234953705	82336.5668	23.817	0	1.138	0.00108	0.002	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+11.647405287037037	100633.5817	22.602	0	0.754	0.00330	0.00165	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+14.235717574074071	122996.5998	23.093	0	1.814	0.00210	0.0017	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+17.399210368055556	150329.1776	23.625	0	0.874	0.00129	0.00159	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+21.265701560185185	183735.6615	24.392	0	1.338	0.00063	0.00154	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+25.99141301851852	224565.8085	24.009	0	1.07	0.00090	0.00151	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+31.767282577546297	274469.3215	23.7	0	0.899	0.00120	0.00155	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+38.82667870601852	335462.504		0		−0.0004	0.00174	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+47.4548295300926	410009.7271	24.259	0	1.623	0.00072	0.00248	UW1	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.0605038715277777	522.7535	18.871	0	0.132	0.10296	0.01175	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.1104672881944444	954.4374	18.624	0	0.074	0.12922	0.00852	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.4500750335648148	3888.6483	20.174	0	0.323	0.03100	0.00797	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.5500917083333333	4752.7924	20.68	0	0.324	0.01946	0.00502	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.6723343090277778	5808.9684	20.817	0	0.616	0.01715	0.00742	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+0.8217419340277778	7099.8503	21.04	0	0.49	0.01397	0.00508	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.0043512523148148	8677.5948	21.624	0	0.697	0.00816	0.00386	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.2275404201388889	10605.9492	21.276	0	0.458	0.01124	0.00387	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+1.500327179398148	12962.8268	22.151	0	0.954	0.00502	0.00294	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+2.2412294907407406	19364.2228	23.031	0	1.506	0.00223	0.00167	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+2.739280488425926	23667.3834	24.237	0	1.151	0.00074	0.00139	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+3.348009486111111	28926.802	22.215	0	0.802	0.00473	0.00247	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+4.092011594907407	35354.9802	23.198	0	1.51	0.00191	0.00144	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+7.471148740740741	64550.7251	26.843	0	3.284	0.00007	0.00131	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+9.131404016203703	78895.3307		0		−0.0000	0.00138	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+11.160604909722222	96427.6264		0		−0.0011	0.00116	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	
+13.640739333333334	117855.9878		0		−0.0005	0.00117	UM2	days	AB	apparent	milliJy	observer	UVOT	True	https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract	

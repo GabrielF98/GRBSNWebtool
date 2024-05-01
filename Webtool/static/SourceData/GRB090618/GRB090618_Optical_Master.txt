@@ -1,426 +1,426 @@
 time	band	mag	mag_limit	dmag	mag_unit	instrument	time_unit	time_frame	mag_type	extinction_corrected	dtime	reference
-0.057	B	17.349	0	0.055	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.059	B	17.381	0	0.053	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.062	B	17.434	0	0.053	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.067	B	17.507	0	0.069	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.073	B	17.606	0	0.055	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.081	B	17.691	0	0.055	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.085	B	17.81	0	0.17	AB	LOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.087	B	17.755	0	0.041	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.095	B	17.83	0	0.024	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.102	B	17.918	0	0.06	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.105	B	17.833	0	0.052	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.106	B	17.88	0	0.14	AB	LOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.108	B	17.909	0	0.037	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.112	B	17.969	0	0.041	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.118	B	18.048	0	0.046	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.126	B	18.113	0	0.037	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.141	B	18.199	0	0.029	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.148	B	18.31	0	0.077	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.151	B	18.317	0	0.082	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.154	B	18.239	0	0.026	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.158	B	18.318	0	0.033	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.164	B	18.387	0	0.047	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.172	B	18.421	0	0.028	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.178	B	18.43	0	0.049	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.187	B	18.492	0	0.044	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.192	B	18.472	0	0.092	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.195	B	18.615	0	0.063	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.198	B	18.599	0	0.05	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.202	B	18.56	0	0.044	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.209	B	18.607	0	0.027	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.216	B	18.689	0	0.035	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.223	B	18.661	0	0.023	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.232	B	18.748	0	0.043	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.236	B	18.84	0	0.123	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.239	B	18.732	0	0.067	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.242	B	18.759	0	0.05	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.246	B	18.791	0	0.034	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.252	B	18.881	0	0.045	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.475	B	19.842	0	0.167	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.478	B	19.792	0	0.157	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.481	B	19.382	0	0.13	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.488	B	19.605	0	0.23	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.491	B	19.52	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.491	B	19.528	0	0.227	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.494	B	19.608	0	0.285	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.495	B	19.54	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.503	B	19.508	0	0.303	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.506	B	19.608	0	0.195	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.508	B	19.57	0	0.03	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.509	B	19.588	0	0.159	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.512	B	19.57	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.513	B	19.725	0	0.298	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.516	B	19.882	0	0.168	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.519	B	19.595	0	0.121	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.522	B	19.685	0	0.082	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.525	B	19.62	0	0.03	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.528	B	19.61	0	0.03	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.528	B	19.895	0	0.079	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.531	B	19.738	0	0.085	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.534	B	19.765	0	0.077	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.537	B	19.762	0	0.084	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.54	B	19.63	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.541	B	19.842	0	0.097	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.544	B	19.965	0	0.095	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.544	B	19.65	0	0.03	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.547	B	19.972	0	0.092	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.55	B	19.858	0	0.091	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.553	B	19.68	0	0.03	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.553	B	19.852	0	0.093	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.556	B	19.865	0	0.089	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.561	B	19.825	0	0.068	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.564	B	19.855	0	0.081	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.567	B	19.962	0	0.092	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.57	B	19.945	0	0.11	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.573	B	19.918	0	0.088	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.575	B	19.865	0	0.079	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.578	B	19.838	0	0.087	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.581	B	19.912	0	0.102	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.584	B	20.068	0	0.091	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.587	B	20.122	0	0.102	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.59	B	20.055	0	0.111	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.593	B	19.928	0	0.078	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.597	B	19.988	0	0.114	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.599	B	19.988	0	0.141	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.602	B	20.262	0	0.19	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.605	B	19.985	0	0.213	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.608	B	20.028	0	0.179	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.611	B	20.032	0	0.139	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.615	B	20.075	0	0.145	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.618	B	20.055	0	0.174	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.621	B	20.062	0	0.191	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.624	B	19.885	0	0.142	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.627	B	19.955	0	0.131	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.63	B	20.128	0	0.14	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.633	B	20.135	0	0.116	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.636	B	20.168	0	0.104	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.639	B	20.015	0	0.112	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.642	B	20.018	0	0.092	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.645	B	20.148	0	0.141	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.648	B	20.085	0	0.124	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.651	B	20.242	0	0.101	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.654	B	20.035	0	0.095	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.657	B	20.168	0	0.112	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.66	B	20.225	0	0.161	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.663	B	20.045	0	0.132	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.666	B	20.192	0	0.184	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.669	B	20.048	0	0.241	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.672	B	20.168	0	0.22	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.675	B	20.078	0	0.276	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.678	B	19.972	0	0.328	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.46	B	21.12	0	0.05	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.464	B	21.05	0	0.05	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.473	B	21.11	0	0.05	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.477	B	21.1	0	0.05	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.485	B	21.02	0	0.07	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.489	B	21.02	0	0.05	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.497	B	21.14	0	0.07	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.652	B	21.204	0	0.092	AB	BTA-6	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-3.466	B	22.52	0	0.06	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.058	V	16.922	0	0.062	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.103	V	17.464	0	0.014	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.146	V	17.72	0	0.32	AB	BOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.149	V	17.799	0	0.02	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.151	V	17.69	0	0.25	AB	BOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.158	V	17.84	0	0.25	AB	BOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.163	V	17.95	0	0.28	AB	BOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.185	V	18.14	0	0.24	AB	BOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.193	V	18.018	0	0.024	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.237	V	18.345	0	0.094	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.476	V	19.15	0	0.085	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.478	V	19.026	0	0.075	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.482	V	19.05	0	0.101	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.489	V	19.2	0	0.152	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.492	V	19.263	0	0.151	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.495	V	19.22	0	0.213	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.498	V	19.433	0	0.243	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.501	V	19.343	0	0.235	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.504	V	19.233	0	0.162	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.507	V	19.223	0	0.142	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.51	V	19.153	0	0.121	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.513	V	19.136	0	0.13	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.516	V	19.226	0	0.073	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.519	V	19.206	0	0.056	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.523	V	19.216	0	0.055	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.529	V	19.313	0	0.041	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.532	V	19.37	0	0.043	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.535	V	19.326	0	0.042	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.538	V	19.276	0	0.051	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.541	V	19.326	0	0.044	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.543	V	19.32	0	0.14	AB	OAUV	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.544	V	19.323	0	0.044	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.548	V	19.383	0	0.045	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.551	V	19.34	0	0.046	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.554	V	19.33	0	0.044	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.557	V	19.22	0	0.09	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.557	V	19.3	0	0.034	AB	OAUV	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.561	V	19.343	0	0.043	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.564	V	19.396	0	0.057	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.567	V	19.443	0	0.055	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.57	V	19.396	0	0.056	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.573	V	19.433	0	0.066	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.576	V	19.41	0	0.054	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.579	V	19.376	0	0.046	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.582	V	19.4	0	0.042	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.585	V	19.533	0	0.053	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.588	V	19.513	0	0.075	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.591	V	19.446	0	0.065	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.593	V	19.27	0	0.09	AB	OAUV	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.594	V	19.52	0	0.081	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.597	V	19.52	0	0.082	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.6	V	19.483	0	0.084	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.603	V	19.7	0	0.118	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.606	V	19.653	0	0.122	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.609	V	19.483	0	0.1	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.613	V	19.473	0	0.091	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.616	V	19.456	0	0.091	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.619	V	19.51	0	0.085	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.62	V	19.58	0	0.11	AB	OAUV	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.622	V	19.453	0	0.095	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.625	V	19.58	0	0.098	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.628	V	19.576	0	0.088	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.631	V	19.686	0	0.088	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.634	V	19.546	0	0.064	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.637	V	19.53	0	0.062	AB	OAUV	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.637	V	19.61	0	0.13	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.64	V	19.483	0	0.068	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.643	V	19.65	0	0.091	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.646	V	19.523	0	0.082	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.649	V	19.533	0	0.059	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.652	V	19.56	0	0.062	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.655	V	19.6	0	0.083	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.658	V	19.683	0	0.08	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.661	V	19.686	0	0.082	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.664	V	19.723	0	0.088	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.667	V	19.58	0	0.07	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.67	V	19.52	0	0.114	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.673	V	19.726	0	0.129	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.676	V	19.63	0	0.144	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.679	V	19.623	0	0.157	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.682	V	19.73	0	0.272	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-3.742	V	22.221	0	0.144	AB	Zeiss-1000	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.037	R	16.46	0	0.08	AB	LOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.039	R	16.82	0	0.19	AB	LOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.056	R	16.695	0	0.025	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.06	R	16.805	0	0.017	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.064	R	16.824	0	0.01	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.069	R	16.89	0	0.009	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.069	R	16.9	0	0.08	AB	LOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.077	R	16.993	0	0.009	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.084	R	17.038	0	0.01	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.091	R	17.093	0	0.009	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.095	R	17.1	0	0.11	AB	LOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.102	R	17.133	0	0.036	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.106	R	17.215	0	0.023	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.109	R	17.302	0	0.018	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.115	R	17.259	0	0.013	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.117	R	17.22	0	0.06	AB	LOAO	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.122	R	17.403	0	0.009	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.129	R	17.376	0	0.013	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.136	R	17.375	0	0.015	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.148	R	17.449	0	0.049	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.152	R	17.561	0	0.028	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.155	R	17.621	0	0.021	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.161	R	17.671	0	0.014	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.168	R	17.684	0	0.012	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.175	R	17.762	0	0.017	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.182	R	17.867	0	0.015	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.196	R	17.855	0	0.036	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.199	R	17.881	0	0.029	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.205	R	17.882	0	0.02	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.212	R	17.935	0	0.017	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.219	R	17.959	0	0.02	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.226	R	17.943	0	0.016	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.236	R	17.966	0	0.076	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.239	R	18.127	0	0.045	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.243	R	18.134	0	0.034	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.249	R	18.042	0	0.021	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.256	R	18.09	0	0.021	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.408	R	18.77	0	0.13	AB	Mondy	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.422	R	18.81	0	0.13	AB	Mondy	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.459	R	18.85	0	0.04	AB	HCT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.464	R	18.88	0	0.04	AB	HCT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.476	R	18.838	0	0.065	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.479	R	18.844	0	0.058	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.482	R	18.754	0	0.08	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.483	R	18.89	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.487	R	18.89	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.49	R	18.811	0	0.085	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.493	R	18.774	0	0.102	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.499	R	18.96	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.502	R	19.014	0	0.111	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.503	R	18.94	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.505	R	18.814	0	0.101	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.508	R	18.901	0	0.1	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.511	R	18.771	0	0.101	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.514	R	18.921	0	0.1	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.516	R	18.99	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.517	R	19.008	0	0.044	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.52	R	18.991	0	0.051	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.52	R	18.97	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.524	R	18.941	0	0.047	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.53	R	18.974	0	0.03	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.532	R	19.0	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.533	R	19.024	0	0.042	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.536	R	19.048	0	0.028	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.536	R	19.02	0	0.01	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.539	R	19.084	0	0.039	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.542	R	19.051	0	0.026	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.545	R	19.031	0	0.028	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.549	R	19.05	0	0.02	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.551	R	19.028	0	0.044	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.555	R	19.158	0	0.039	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.558	R	19.098	0	0.039	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.56	R	19.082	0	0.019	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.562	R	19.128	0	0.032	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.564	R	19.099	0	0.017	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.565	R	19.074	0	0.031	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.567	R	19.073	0	0.016	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.568	R	19.081	0	0.04	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.571	R	19.134	0	0.036	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.574	R	19.164	0	0.049	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.577	R	19.141	0	0.041	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.58	R	19.141	0	0.053	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.583	R	19.158	0	0.042	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.586	R	19.141	0	0.037	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.589	R	19.164	0	0.049	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.592	R	19.131	0	0.044	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.595	R	19.201	0	0.048	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.598	R	19.171	0	0.05	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.601	R	19.158	0	0.047	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.603	R	19.169	0	0.02	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.604	R	19.214	0	0.056	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.607	R	19.173	0	0.018	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.607	R	19.148	0	0.058	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.61	R	19.184	0	0.016	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.61	R	19.151	0	0.062	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.614	R	19.184	0	0.061	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.617	R	19.141	0	0.06	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.62	R	19.238	0	0.067	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.623	R	19.321	0	0.071	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.626	R	19.228	0	0.061	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.629	R	19.258	0	0.052	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.632	R	19.374	0	0.073	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.635	R	19.278	0	0.063	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.638	R	19.338	0	0.057	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.641	R	19.284	0	0.067	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.644	R	19.308	0	0.048	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.647	R	19.358	0	0.08	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.65	R	19.388	0	0.053	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.65	R	19.254	0	0.017	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.653	R	19.258	0	0.037	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.654	R	19.254	0	0.016	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.656	R	19.284	0	0.044	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.657	R	19.289	0	0.018	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.659	R	19.381	0	0.054	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.662	R	19.294	0	0.047	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.665	R	19.394	0	0.017	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.665	R	19.384	0	0.056	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.668	R	19.396	0	0.018	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.668	R	19.418	0	0.07	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.671	R	19.328	0	0.069	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.672	R	19.407	0	0.02	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.674	R	19.204	0	0.068	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.677	R	19.254	0	0.098	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.68	R	19.381	0	0.109	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.683	R	19.468	0	0.188	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.74	R	19.416	0	0.027	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.743	R	19.394	0	0.028	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.747	R	19.412	0	0.029	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.456	R	20.38	0	0.04	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.461	R	20.44	0	0.12	AB	AZT-11	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.468	R	20.42	0	0.04	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.481	R	20.41	0	0.04	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.493	R	20.5	0	0.06	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.566	R	20.43	0	0.07	AB	HCT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.575	R	20.42	0	0.058	AB	BTA-6	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.594	R	20.514	0	0.024	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.8	R	20.659	0	0.023	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-2.552	R	21.262	0	0.061	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-2.555	R	21.33	0	0.23	AB	AZT-11	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-3.735	R	21.728	0	0.095	AB	Zeiss-1000	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-4.474	R	21.94	0	0.07	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-4.748	R	22.179	0	0.091	AB	Zeiss-1000	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-4.981	R	22.148	0	0.142	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-5.226	R	22.126	0	0.041	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-5.436	R	22.27	0	0.05	AB	Maidanak	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-5.78	R	22.227	0	0.158	AB	Zeiss-1000	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-8.795	R	22.66	0	0.172	AB	Zeiss-1000	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-10.967	R	22.734	0	0.14	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-18.532	R	22.747	0	0.176	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-20.785	R	22.672	0	0.128	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-25.679	R	22.714	0	0.051	AB	WHT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-23.474	R	22.747	0	0.176	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-28.695	R	22.756	0	0.076	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-29.061	R	22.765	0	0.015	AB	Gemini (N)	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-34.555	R	22.92	0	0.08	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-41.021	R	23.088	0	0.02	AB	Gemini (N)	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-52.575	R	23.24	0	0.08	AB	Shajn	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-53.974	R	23.206	0	0.026	AB	Gemini (N)	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-63.916	R	23.344	0	0.08	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-98.033	R	23.336	0	0.043	AB	INT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-354.76	R	23.448	0	0.059	AB	WHT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.058	i	16.724	0	0.015	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.061	i	16.775	0	0.01	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.065	i	16.816	0	0.006	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.07	i	16.904	0	0.005	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.078	i	16.973	0	0.004	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.085	i	17.045	0	0.006	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.092	i	17.114	0	0.005	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.104	i	17.179	0	0.022	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.107	i	17.226	0	0.013	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.11	i	17.289	0	0.011	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.116	i	17.316	0	0.007	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.124	i	17.369	0	0.006	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.13	i	17.403	0	0.007	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.138	i	17.474	0	0.007	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.15	i	17.528	0	0.029	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.153	i	17.585	0	0.017	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.156	i	17.603	0	0.012	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.162	i	17.636	0	0.009	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.17	i	17.671	0	0.007	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.176	i	17.725	0	0.01	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.184	i	17.76	0	0.008	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.197	i	17.724	0	0.021	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.2	i	17.851	0	0.017	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.206	i	17.896	0	0.011	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.214	i	17.931	0	0.011	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.22	i	17.938	0	0.012	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.228	i	17.977	0	0.009	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.238	i	17.905	0	0.044	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.24	i	17.95	0	0.024	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.244	i	18.018	0	0.019	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.25	i	18.094	0	0.012	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.258	i	18.11	0	0.013	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.571	i	19.058	0	0.017	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.575	i	19.044	0	0.015	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.579	i	19.078	0	0.014	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.614	i	19.092	0	0.02	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.618	i	19.064	0	0.015	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.621	i	19.073	0	0.013	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.676	i	19.233	0	0.014	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.679	i	19.192	0	0.012	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.683	i	19.202	0	0.014	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.751	i	19.359	0	0.014	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.754	i	19.364	0	0.014	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-0.758	i	19.41	0	0.017	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.615	i	20.411	0	0.02	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.654	i	20.502	0	0.069	AB	BTA-6	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-1.822	i	20.606	0	0.02	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-2.593	i	21.07	0	0.041	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-4.728	i	21.921	0	0.094	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-5.263	i	22.085	0	0.028	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-11.005	i	22.411	0	0.071	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-18.972	i	22.338	0	0.076	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-22.783	i	22.533	0	0.108	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-25.705	i	22.331	0	0.05	AB	WHT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-27.106	i	22.378	0	0.071	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-27.747	i	22.433	0	0.056	AB	LT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-29.085	i	22.451	0	0.014	AB	Gemini (N)	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-41.045	i	22.632	0	0.02	AB	Gemini (N)	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-53.998	i	22.793	0	0.02	AB	Gemini (N)	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-60.662	i	22.881	0	0.07	AB	WHT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-63.499	i	22.955	0	0.045	AB	FTN	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-99.554	i	23.105	0	0.041	AB	INT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-354.793	i	23.222	0	0.059	AB	WHT	days	observer	apparent	True	NaN	https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.057	UVB	17.349	0	0.055	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.059	UVB	17.381	0	0.053	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.062	UVB	17.434	0	0.053	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.067	UVB	17.507	0	0.069	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.073	UVB	17.606	0	0.055	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.081	UVB	17.691	0	0.055	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.085	UVB	17.81	0	0.17	AB	LOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.087	UVB	17.755	0	0.041	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.095	UVB	17.83	0	0.024	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.102	UVB	17.918	0	0.06	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.105	UVB	17.833	0	0.052	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.106	UVB	17.88	0	0.14	AB	LOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.108	UVB	17.909	0	0.037	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.112	UVB	17.969	0	0.041	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.118	UVB	18.048	0	0.046	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.126	UVB	18.113	0	0.037	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.141	UVB	18.199	0	0.029	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.148	UVB	18.31	0	0.077	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.151	UVB	18.317	0	0.082	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.154	UVB	18.239	0	0.026	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.158	UVB	18.318	0	0.033	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.164	UVB	18.387	0	0.047	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.172	UVB	18.421	0	0.028	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.178	UVB	18.43	0	0.049	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.187	UVB	18.492	0	0.044	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.192	UVB	18.472	0	0.092	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.195	UVB	18.615	0	0.063	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.198	UVB	18.599	0	0.05	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.202	UVB	18.56	0	0.044	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.209	UVB	18.607	0	0.027	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.216	UVB	18.689	0	0.035	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.223	UVB	18.661	0	0.023	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.232	UVB	18.748	0	0.043	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.236	UVB	18.84	0	0.123	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.239	UVB	18.732	0	0.067	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.242	UVB	18.759	0	0.05	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.246	UVB	18.791	0	0.034	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.252	UVB	18.881	0	0.045	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.475	UVB	19.842	0	0.167	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.478	UVB	19.792	0	0.157	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.481	UVB	19.382	0	0.13	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.488	UVB	19.605	0	0.23	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.491	UVB	19.52	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.491	UVB	19.528	0	0.227	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.494	UVB	19.608	0	0.285	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.495	UVB	19.54	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.503	UVB	19.508	0	0.303	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.506	UVB	19.608	0	0.195	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.508	UVB	19.57	0	0.03	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.509	UVB	19.588	0	0.159	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.512	UVB	19.57	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.513	UVB	19.725	0	0.298	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.516	UVB	19.882	0	0.168	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.519	UVB	19.595	0	0.121	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.522	UVB	19.685	0	0.082	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.525	UVB	19.62	0	0.03	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.528	UVB	19.61	0	0.03	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.528	UVB	19.895	0	0.079	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.531	UVB	19.738	0	0.085	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.534	UVB	19.765	0	0.077	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.537	UVB	19.762	0	0.084	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.54	UVB	19.63	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.541	UVB	19.842	0	0.097	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.544	UVB	19.965	0	0.095	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.544	UVB	19.65	0	0.03	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.547	UVB	19.972	0	0.092	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.55	UVB	19.858	0	0.091	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.553	UVB	19.68	0	0.03	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.553	UVB	19.852	0	0.093	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.556	UVB	19.865	0	0.089	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.561	UVB	19.825	0	0.068	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.564	UVB	19.855	0	0.081	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.567	UVB	19.962	0	0.092	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.57	UVB	19.945	0	0.11	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.573	UVB	19.918	0	0.088	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.575	UVB	19.865	0	0.079	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.578	UVB	19.838	0	0.087	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.581	UVB	19.912	0	0.102	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.584	UVB	20.068	0	0.091	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.587	UVB	20.122	0	0.102	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.59	UVB	20.055	0	0.111	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.593	UVB	19.928	0	0.078	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.597	UVB	19.988	0	0.114	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.599	UVB	19.988	0	0.141	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.602	UVB	20.262	0	0.19	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.605	UVB	19.985	0	0.213	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.608	UVB	20.028	0	0.179	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.611	UVB	20.032	0	0.139	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.615	UVB	20.075	0	0.145	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.618	UVB	20.055	0	0.174	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.621	UVB	20.062	0	0.191	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.624	UVB	19.885	0	0.142	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.627	UVB	19.955	0	0.131	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.63	UVB	20.128	0	0.14	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.633	UVB	20.135	0	0.116	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.636	UVB	20.168	0	0.104	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.639	UVB	20.015	0	0.112	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.642	UVB	20.018	0	0.092	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.645	UVB	20.148	0	0.141	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.648	UVB	20.085	0	0.124	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.651	UVB	20.242	0	0.101	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.654	UVB	20.035	0	0.095	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.657	UVB	20.168	0	0.112	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.66	UVB	20.225	0	0.161	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.663	UVB	20.045	0	0.132	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.666	UVB	20.192	0	0.184	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.669	UVB	20.048	0	0.241	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.672	UVB	20.168	0	0.22	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.675	UVB	20.078	0	0.276	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.678	UVB	19.972	0	0.328	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.46	UVB	21.12	0	0.05	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.464	UVB	21.05	0	0.05	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.473	UVB	21.11	0	0.05	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.477	UVB	21.1	0	0.05	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.485	UVB	21.02	0	0.07	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.489	UVB	21.02	0	0.05	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.497	UVB	21.14	0	0.07	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.652	UVB	21.204	0	0.092	AB	BTA-6	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+3.466	UVB	22.52	0	0.06	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.058	UVV	16.922	0	0.062	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.103	UVV	17.464	0	0.014	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.146	UVV	17.72	0	0.32	AB	BOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.149	UVV	17.799	0	0.02	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.151	UVV	17.69	0	0.25	AB	BOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.158	UVV	17.84	0	0.25	AB	BOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.163	UVV	17.95	0	0.28	AB	BOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.185	UVV	18.14	0	0.24	AB	BOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.193	UVV	18.018	0	0.024	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.237	UVV	18.345	0	0.094	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.476	UVV	19.15	0	0.085	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.478	UVV	19.026	0	0.075	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.482	UVV	19.05	0	0.101	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.489	UVV	19.2	0	0.152	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.492	UVV	19.263	0	0.151	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.495	UVV	19.22	0	0.213	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.498	UVV	19.433	0	0.243	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.501	UVV	19.343	0	0.235	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.504	UVV	19.233	0	0.162	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.507	UVV	19.223	0	0.142	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.51	UVV	19.153	0	0.121	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.513	UVV	19.136	0	0.13	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.516	UVV	19.226	0	0.073	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.519	UVV	19.206	0	0.056	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.523	UVV	19.216	0	0.055	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.529	UVV	19.313	0	0.041	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.532	UVV	19.37	0	0.043	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.535	UVV	19.326	0	0.042	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.538	UVV	19.276	0	0.051	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.541	UVV	19.326	0	0.044	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.543	UVV	19.32	0	0.14	AB	OAUV	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.544	UVV	19.323	0	0.044	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.548	UVV	19.383	0	0.045	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.551	UVV	19.34	0	0.046	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.554	UVV	19.33	0	0.044	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.557	UVV	19.22	0	0.09	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.557	UVV	19.3	0	0.034	AB	OAUV	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.561	UVV	19.343	0	0.043	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.564	UVV	19.396	0	0.057	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.567	UVV	19.443	0	0.055	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.57	UVV	19.396	0	0.056	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.573	UVV	19.433	0	0.066	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.576	UVV	19.41	0	0.054	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.579	UVV	19.376	0	0.046	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.582	UVV	19.4	0	0.042	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.585	UVV	19.533	0	0.053	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.588	UVV	19.513	0	0.075	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.591	UVV	19.446	0	0.065	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.593	UVV	19.27	0	0.09	AB	OAUV	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.594	UVV	19.52	0	0.081	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.597	UVV	19.52	0	0.082	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.6	UVV	19.483	0	0.084	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.603	UVV	19.7	0	0.118	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.606	UVV	19.653	0	0.122	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.609	UVV	19.483	0	0.1	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.613	UVV	19.473	0	0.091	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.616	UVV	19.456	0	0.091	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.619	UVV	19.51	0	0.085	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.62	UVV	19.58	0	0.11	AB	OAUV	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.622	UVV	19.453	0	0.095	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.625	UVV	19.58	0	0.098	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.628	UVV	19.576	0	0.088	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.631	UVV	19.686	0	0.088	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.634	UVV	19.546	0	0.064	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.637	UVV	19.53	0	0.062	AB	OAUV	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.637	UVV	19.61	0	0.13	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.64	UVV	19.483	0	0.068	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.643	UVV	19.65	0	0.091	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.646	UVV	19.523	0	0.082	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.649	UVV	19.533	0	0.059	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.652	UVV	19.56	0	0.062	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.655	UVV	19.6	0	0.083	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.658	UVV	19.683	0	0.08	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.661	UVV	19.686	0	0.082	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.664	UVV	19.723	0	0.088	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.667	UVV	19.58	0	0.07	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.67	UVV	19.52	0	0.114	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.673	UVV	19.726	0	0.129	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.676	UVV	19.63	0	0.144	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.679	UVV	19.623	0	0.157	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.682	UVV	19.73	0	0.272	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+3.742	UVV	22.221	0	0.144	AB	Zeiss-1000	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.037	R	16.46	0	0.08	AB	LOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.039	R	16.82	0	0.19	AB	LOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.056	R	16.695	0	0.025	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.06	R	16.805	0	0.017	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.064	R	16.824	0	0.01	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.069	R	16.89	0	0.009	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.069	R	16.9	0	0.08	AB	LOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.077	R	16.993	0	0.009	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.084	R	17.038	0	0.01	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.091	R	17.093	0	0.009	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.095	R	17.1	0	0.11	AB	LOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.102	R	17.133	0	0.036	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.106	R	17.215	0	0.023	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.109	R	17.302	0	0.018	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.115	R	17.259	0	0.013	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.117	R	17.22	0	0.06	AB	LOAO	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.122	R	17.403	0	0.009	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.129	R	17.376	0	0.013	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.136	R	17.375	0	0.015	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.148	R	17.449	0	0.049	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.152	R	17.561	0	0.028	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.155	R	17.621	0	0.021	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.161	R	17.671	0	0.014	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.168	R	17.684	0	0.012	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.175	R	17.762	0	0.017	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.182	R	17.867	0	0.015	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.196	R	17.855	0	0.036	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.199	R	17.881	0	0.029	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.205	R	17.882	0	0.02	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.212	R	17.935	0	0.017	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.219	R	17.959	0	0.02	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.226	R	17.943	0	0.016	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.236	R	17.966	0	0.076	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.239	R	18.127	0	0.045	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.243	R	18.134	0	0.034	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.249	R	18.042	0	0.021	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.256	R	18.09	0	0.021	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.408	R	18.77	0	0.13	AB	Mondy	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.422	R	18.81	0	0.13	AB	Mondy	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.459	R	18.85	0	0.04	AB	HCT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.464	R	18.88	0	0.04	AB	HCT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.476	R	18.838	0	0.065	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.479	R	18.844	0	0.058	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.482	R	18.754	0	0.08	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.483	R	18.89	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.487	R	18.89	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.49	R	18.811	0	0.085	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.493	R	18.774	0	0.102	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.499	R	18.96	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.502	R	19.014	0	0.111	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.503	R	18.94	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.505	R	18.814	0	0.101	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.508	R	18.901	0	0.1	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.511	R	18.771	0	0.101	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.514	R	18.921	0	0.1	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.516	R	18.99	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.517	R	19.008	0	0.044	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.52	R	18.991	0	0.051	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.52	R	18.97	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.524	R	18.941	0	0.047	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.53	R	18.974	0	0.03	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.532	R	19.0	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.533	R	19.024	0	0.042	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.536	R	19.048	0	0.028	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.536	R	19.02	0	0.01	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.539	R	19.084	0	0.039	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.542	R	19.051	0	0.026	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.545	R	19.031	0	0.028	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.549	R	19.05	0	0.02	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.551	R	19.028	0	0.044	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.555	R	19.158	0	0.039	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.558	R	19.098	0	0.039	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.56	R	19.082	0	0.019	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.562	R	19.128	0	0.032	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.564	R	19.099	0	0.017	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.565	R	19.074	0	0.031	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.567	R	19.073	0	0.016	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.568	R	19.081	0	0.04	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.571	R	19.134	0	0.036	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.574	R	19.164	0	0.049	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.577	R	19.141	0	0.041	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.58	R	19.141	0	0.053	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.583	R	19.158	0	0.042	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.586	R	19.141	0	0.037	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.589	R	19.164	0	0.049	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.592	R	19.131	0	0.044	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.595	R	19.201	0	0.048	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.598	R	19.171	0	0.05	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.601	R	19.158	0	0.047	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.603	R	19.169	0	0.02	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.604	R	19.214	0	0.056	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.607	R	19.173	0	0.018	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.607	R	19.148	0	0.058	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.61	R	19.184	0	0.016	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.61	R	19.151	0	0.062	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.614	R	19.184	0	0.061	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.617	R	19.141	0	0.06	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.62	R	19.238	0	0.067	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.623	R	19.321	0	0.071	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.626	R	19.228	0	0.061	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.629	R	19.258	0	0.052	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.632	R	19.374	0	0.073	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.635	R	19.278	0	0.063	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.638	R	19.338	0	0.057	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.641	R	19.284	0	0.067	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.644	R	19.308	0	0.048	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.647	R	19.358	0	0.08	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.65	R	19.388	0	0.053	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.65	R	19.254	0	0.017	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.653	R	19.258	0	0.037	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.654	R	19.254	0	0.016	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.656	R	19.284	0	0.044	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.657	R	19.289	0	0.018	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.659	R	19.381	0	0.054	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.662	R	19.294	0	0.047	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.665	R	19.394	0	0.017	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.665	R	19.384	0	0.056	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.668	R	19.396	0	0.018	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.668	R	19.418	0	0.07	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.671	R	19.328	0	0.069	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.672	R	19.407	0	0.02	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.674	R	19.204	0	0.068	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.677	R	19.254	0	0.098	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.68	R	19.381	0	0.109	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.683	R	19.468	0	0.188	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.74	R	19.416	0	0.027	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.743	R	19.394	0	0.028	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.747	R	19.412	0	0.029	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.456	R	20.38	0	0.04	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.461	R	20.44	0	0.12	AB	AZT-11	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.468	R	20.42	0	0.04	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.481	R	20.41	0	0.04	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.493	R	20.5	0	0.06	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.566	R	20.43	0	0.07	AB	HCT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.575	R	20.42	0	0.058	AB	BTA-6	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.594	R	20.514	0	0.024	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.8	R	20.659	0	0.023	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+2.552	R	21.262	0	0.061	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+2.555	R	21.33	0	0.23	AB	AZT-11	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+3.735	R	21.728	0	0.095	AB	Zeiss-1000	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+4.474	R	21.94	0	0.07	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+4.748	R	22.179	0	0.091	AB	Zeiss-1000	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+4.981	R	22.148	0	0.142	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+5.226	R	22.126	0	0.041	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+5.436	R	22.27	0	0.05	AB	Maidanak	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+5.78	R	22.227	0	0.158	AB	Zeiss-1000	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+8.795	R	22.66	0	0.172	AB	Zeiss-1000	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+10.967	R	22.734	0	0.14	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+18.532	R	22.747	0	0.176	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+20.785	R	22.672	0	0.128	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+25.679	R	22.714	0	0.051	AB	WHT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+23.474	R	22.747	0	0.176	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+28.695	R	22.756	0	0.076	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+29.061	R	22.765	0	0.015	AB	Gemini (N)	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+34.555	R	22.92	0	0.08	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+41.021	R	23.088	0	0.02	AB	Gemini (N)	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+52.575	R	23.24	0	0.08	AB	Shajn	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+53.974	R	23.206	0	0.026	AB	Gemini (N)	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+63.916	R	23.344	0	0.08	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+98.033	R	23.336	0	0.043	AB	INT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+354.76	R	23.448	0	0.059	AB	WHT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.058	i	16.724	0	0.015	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.061	i	16.775	0	0.01	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.065	i	16.816	0	0.006	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.07	i	16.904	0	0.005	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.078	i	16.973	0	0.004	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.085	i	17.045	0	0.006	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.092	i	17.114	0	0.005	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.104	i	17.179	0	0.022	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.107	i	17.226	0	0.013	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.11	i	17.289	0	0.011	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.116	i	17.316	0	0.007	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.124	i	17.369	0	0.006	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.13	i	17.403	0	0.007	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.138	i	17.474	0	0.007	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.15	i	17.528	0	0.029	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.153	i	17.585	0	0.017	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.156	i	17.603	0	0.012	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.162	i	17.636	0	0.009	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.17	i	17.671	0	0.007	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.176	i	17.725	0	0.01	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.184	i	17.76	0	0.008	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.197	i	17.724	0	0.021	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.2	i	17.851	0	0.017	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.206	i	17.896	0	0.011	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.214	i	17.931	0	0.011	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.22	i	17.938	0	0.012	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.228	i	17.977	0	0.009	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.238	i	17.905	0	0.044	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.24	i	17.95	0	0.024	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.244	i	18.018	0	0.019	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.25	i	18.094	0	0.012	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.258	i	18.11	0	0.013	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.571	i	19.058	0	0.017	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.575	i	19.044	0	0.015	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.579	i	19.078	0	0.014	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.614	i	19.092	0	0.02	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.618	i	19.064	0	0.015	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.621	i	19.073	0	0.013	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.676	i	19.233	0	0.014	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.679	i	19.192	0	0.012	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.683	i	19.202	0	0.014	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.751	i	19.359	0	0.014	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.754	i	19.364	0	0.014	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+0.758	i	19.41	0	0.017	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.615	i	20.411	0	0.02	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.654	i	20.502	0	0.069	AB	BTA-6	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+1.822	i	20.606	0	0.02	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+2.593	i	21.07	0	0.041	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+4.728	i	21.921	0	0.094	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+5.263	i	22.085	0	0.028	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+11.005	i	22.411	0	0.071	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+18.972	i	22.338	0	0.076	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+22.783	i	22.533	0	0.108	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+25.705	i	22.331	0	0.05	AB	WHT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+27.106	i	22.378	0	0.071	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+27.747	i	22.433	0	0.056	AB	LT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+29.085	i	22.451	0	0.014	AB	Gemini (N)	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+41.045	i	22.632	0	0.02	AB	Gemini (N)	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+53.998	i	22.793	0	0.02	AB	Gemini (N)	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+60.662	i	22.881	0	0.07	AB	WHT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+63.499	i	22.955	0	0.045	AB	FTN	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+99.554	i	23.105	0	0.041	AB	INT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+354.793	i	23.222	0	0.059	AB	WHT	days	observer	apparent	True		https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
