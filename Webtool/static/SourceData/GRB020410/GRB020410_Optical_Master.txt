@@ -1,8 +1,8 @@
 time	instrument	integration	mag	mag_limit	dmag	band	counts	dcounts	kcorr_bs	kcorr_vs	time_unit	mag_unit	dtime	reference
-6.895	ESO 3.6 m R	1800	25.0	1	NaN	R	NaN	NaN	NaN	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
-28.0635	STIS/50CCD	8392	25.39	0	0.02	V	2.3	0.03	-0.177	0.289	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
-65.0635	STIS/50CCD	8315	27.22	0	0.13	V	0.42	0.03	-0.308	0.582	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
-102.82	STIS/50CCD	8315	28.29	0	0.41	V	0.17	0.03	-0.285	0.484	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
-372.215	STIS/50CCD	8233	28.69	0	NaN	V	0.09	0.03	NaN	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
-104.035	ACS/WFC F606W	3680	27.81	0	NaN	V	0.3	0.03	NaN	NaN	days	AB	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
-104.371	ACS/WFC F814W	3680	26.75	0	NaN	V	0.45	0.04	NaN	NaN	days	AB	NaN	https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
+6.895	ESO 3.6 m R	1800	25.0	1		R					days	Vega		https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
+28.0635	STIS/50CCD	8392	25.39	0	0.02	UVV	2.3	0.03	-0.177	0.289	days	Vega		https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
+65.0635	STIS/50CCD	8315	27.22	0	0.13	UVV	0.42	0.03	-0.308	0.582	days	Vega		https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
+102.82	STIS/50CCD	8315	28.29	0	0.41	UVV	0.17	0.03	-0.285	0.484	days	Vega		https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
+372.215	STIS/50CCD	8233	28.69	0		UVV	0.09	0.03			days	Vega		https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
+104.035	ACS/WFC F606W	3680	27.81	0		UVV	0.3	0.03			days	AB		https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
+104.371	ACS/WFC F814W	3680	26.75	0		UVV	0.45	0.04			days	AB		https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract
