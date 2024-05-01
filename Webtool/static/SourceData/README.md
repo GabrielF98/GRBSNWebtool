@@ -265,14 +265,52 @@ Time should always appear in all files. Sometimes the date will also appear.
     * `I`
     * `J`
     * `K_{s}`
-    * `R_{C}`
+    * `R_{c}`
     * `J_{s}`
-    * `R_{special}`
-    * `I_{C}`
+    * `R_{s}`
+    * `I_{c}`
+
+   **SDSS Filters**
+    * `g'`
+    * `r'`
+    * `i'`
+    * `z'`
+    * `u'`
+
+   **Strömgren-Crawford Filters**
+    * `u`
+    * `v`
+    * `b`
+    * `y`
+    * `N`
+    * `W`
+
+   **GROND Filters**
+    * `g`
+    * `r`
+    * `i`
+    * `z`
+    * `u`
+   
+   **UVOT Swift Filters**
+    * `UVU`
+    * `UVV`
+    * `UVB`
+    * `UVW1`
+    * `UVW2`
+    * `UVM2`
+    * `UVWh`
 
     **Hubble Space Telescope Filters**
+    * `F125W`
+    * `F336W`
     * `F450W`
+    * `F435W`
     * `F555W`
+    * `F606W`
     * `F702W`
     * `F814W`
     * `F850LP`
+    * `G102`
+
+* Please not that the central wavelength for each filter differs between instruments i.e the central wavelength for GROND g filter is 452.7 nm while for the SWOPE2 g filter it's 477.4 nm
