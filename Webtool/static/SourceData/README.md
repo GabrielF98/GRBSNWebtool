@@ -76,7 +76,7 @@ Time should always appear in all files. Sometimes the date will also appear.
     * `MJD` Modified Julian Day.
     * `MJD-MJD` Modified Julian Day - range. 
   
-  * `time` The elapsed time since the reference point of the data. If known, the GRB trigger time is used, otherwise the explosion time of the SN is used.
+  * `time` The elapsed time since the reference point of the data. If known, the GRB trigger time is used, otherwise the peak time of the SN lightcurve is used.
   
   * `time_unit` Unit for the elapsed time. The options are:
   
@@ -141,20 +141,13 @@ Time should always appear in all files. Sometimes the date will also appear.
 
 * `dflux` The error on the source flux. 
 
-* `flux_limit` Is the source flux an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
-
-* `unabsorbed flux` The unabsorbed flux of the source.
-
-* `unabsorbed flux unit`  The units used for the flux of the source. The options are:
-   * `erg/cm^2/sec`
+* `flux_limit` Is the source flux an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code. 
 
 * `energy_range` The energy range of the xray data.
 
 * `HR` The harndess ratio.
 
 * `dHR` The error on the harness ratio.
- 
-* `N_H` The excess Galactic absorption. Default unit is `cm^-2`
 
 ### Radio keywords
 * `freq` The frequency of the radio band. 
@@ -168,12 +161,8 @@ Time should always appear in all files. Sometimes the date will also appear.
 * `dflux_density` Error on the flux density. 
 
 * `flux_density_unit` The unit for the flux density of the source. The options are:
-   * `Jy` Jansky.
    * `milliJy` milli Jansky. 
    * `microJy` micro Jansky. 
-   * `Jy beam^-1` Jansky per beam.
-   * `milliJy beam^-1` milli Jansky per beam.
-   * `microJy beam^-1` micro Jansky per beam.
 
 * `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.  
 
@@ -203,7 +192,7 @@ Time should always appear in all files. Sometimes the date will also appear.
 ### Optical keywords 
 * `mag` Magnitude of the source.
 
-* `dmag`/`dmag2` Error on the magnitude. `dmag2` represents a second error column used when there are assymmetric errors, in this case the first column is th e + error and the second is the - error.
+* `dmag`/`dmag2` Error on the magnitude. `dmag2` represents a second error column used when there are assymmetric errors. 
 
 * `mag_unit` The units used for the magnitude of the source. The options are:
 
@@ -234,8 +223,6 @@ Time should always appear in all files. Sometimes the date will also appear.
    * `microJy` micro Jansky. 
 
 * `flux_density_limit` Is the flux density an upper limit (1), not a limit (0) or a lower limit (-1). Added by the plotfuncs.py code.
-
-* `aperture` The size of the aperture used in the observation. Default unit is `arcseconds`.
 
 * `extinction` The correction to the magnitude due to extinction, measured in the associated band and with the associated units.
 
