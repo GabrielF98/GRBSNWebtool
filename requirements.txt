@@ -35,5 +35,5 @@ urllib3==1.26.18
 Werkzeug==2.3.3
 urllib3==1.26.18
 WTForms==3.0.1
-astropy==5.3.3
+astropy==5.2.2
 flask-restx==1.1.0
