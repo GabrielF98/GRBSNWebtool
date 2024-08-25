@@ -39,32 +39,36 @@
 			</div>
 		</div>
 	</div>
+</div>
 
-	<!-- Forms -->
-	{% from "_formhelpers.html" import render_field %}
+<!-- Forms -->
+{% from "_formhelpers.html" import render_field %}
+<div class="primary">
 	<h2>
 		<b>
 			Search the database by object name
 		</b>
 	</h2>
+</div>
+<div class="primary new-margin">
 	<form method=post>
 		<div class="form-group">
 			{{ render_field(form.object_name, class="form-control",
 			placeholder="Enter GRB or SN ID (e.g. SN1998bw or GRB200826A)") }}
-			<button type="submit" class="btn btn-warning btn-lg">Search</button>
+			<button type="submit" class="btn btn-warning btn-lg" style="margin-left:20px;">Search</button>
 		</div>
 	</form>
-
+</div>
+<div class="primary">
 	{% with messages = get_flashed_messages(with_categories=true) %}
 	<!-- {% if messages %}
-    <ul class=flashes> -->
+	    <ul class=flashes> -->
 	{% for category, message in messages %}
 	<p class="error"><b>WARNING!!!</b> {{ message }}
 		{% endfor %}
 		</ul>
 		<!-- {% endif %} -->
 		{% endwith %}
-
 	<h2><b>Known Associations</b></h2>
 
 	<p>The table below displays some basic parameters for the known GRB-SN associations. If you would like to download

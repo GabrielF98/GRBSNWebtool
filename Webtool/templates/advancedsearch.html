@@ -6,55 +6,55 @@
 {% endblock %}
 
 {% block content %}
-<div class="primary">
+<div class="new-margin">
 	{% from "_formhelpers.html" import render_field %}
 
-	<form method=post style="width:100%">
+	<form method=post style="width:80%">
 		{{ form.csrf_token }}
-		<div class="form-group">
+		<div class="form-group ">
 			<label>
 				<p class="headings">Search by object name</p>
 			</label>
-			{{ render_field(form.object_name, class="form-control", placeholder="Enter GRB or SN ID (e.g. SN1998bw or
-			GRB200826A)") }}
+			{{ render_field(form.object_name, class="form-control",
+			placeholder="Enter GRB or SN ID (e.g. SN1998bw or GRB200826A)") }}
 
 		</div>
 
 		<div class="form-row">
 
-			<div class="col-auto">
+			<div class="col-auto" style="margin: 0px;">
 				<label>
 					<p class="headings">Min E$_{iso}$ [ergs]</p>
 				</label>
-				{{ render_field(form.min_eiso, class="form-control", placeholder="e.g. 1e52") }}
+				{{ render_field(form.min_eiso, class="form-control ", placeholder="e.g. 1e52") }}
 			</div>
 
 			<div class="col-auto">
 				<label>
 					<p class="headings">Max E$_{iso}$ [ergs]</p>
 				</label>
-				{{ render_field(form.max_eiso, class="form-control", placeholder="e.g. 1e54") }}
+				{{ render_field(form.max_eiso, class="form-control ", placeholder="e.g. 1e54") }}
 			</div>
 
 			<div class="col-auto">
 				<label>
 					<p class="headings">Min Redshift</p>
 				</label>
-				{{ render_field(form.min_z, class="form-control", placeholder="e.g. 0.1") }}
+				{{ render_field(form.min_z, class="form-control ", placeholder="e.g. 0.1") }}
 
 			</div>
 			<div class="col-auto">
 				<label>
 					<p class="headings">Max Redshift</p>
 				</label>
-				{{ render_field(form.max_z, class="form-control", placeholder="e.g. 1") }}
+				{{ render_field(form.max_z, class="form-control ", placeholder="e.g. 1") }}
 			</div>
 
 			<div class="col-auto">
 				<label>
 					<p class="headings">Min T$_{90}$ [sec]</p>
 				</label>
-				{{ render_field(form.min_t90, class="form-control", placeholder="e.g. 10") }}
+				{{ render_field(form.min_t90, class="form-control ", placeholder="e.g. 10") }}
 
 			</div>
 
@@ -62,14 +62,14 @@
 				<label>
 					<p class="headings">Max T$_{90}$ [sec]</p>
 				</label>
-				{{ render_field(form.max_t90, class="form-control", placeholder="e.g. 1200") }}
+				{{ render_field(form.max_t90, class="form-control ", placeholder="e.g. 1200") }}
 			</div>
 
-			<div class="col-auto">
+			<div class="col-auto" style="margin: 0px;">
 				<label>
 					<p class="headings">Min M$_{Ni}$ [M$_{\odot}$]</p>
 				</label>
-				{{ render_field(form.min_nim, class="form-control", placeholder="e.g. 0.1") }}
+				{{ render_field(form.min_nim, class="form-control ", placeholder="e.g. 0.1") }}
 
 			</div>
 
@@ -129,13 +129,15 @@
 
 
 
-		<div>
+		<div class="">
 			<label>
-				{{render_field(form.submit2, class="btn btn-warning btn-lg")}}
+				{{render_field(form.submit2, class="btn btn-warning btn-lg ")}}
 		</div>
 
 
 	</form>
+</div>
+<div class="primary">
 	{% with messages = get_flashed_messages(with_categories=true) %}
 	<!-- {% if messages %}
     <ul class=flashes> -->
