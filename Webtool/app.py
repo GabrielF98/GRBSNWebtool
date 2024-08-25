@@ -1016,7 +1016,7 @@ def event(event_id):
         x_axis_type="log",
         margin=5,
         aspect_ratio=16 / 9,
-        max_width=1000,
+        sizing_mode="stretch_both",
     )
 
     legend_it = []
@@ -1373,7 +1373,7 @@ def event(event_id):
         x_axis_type="log",
         margin=5,
         aspect_ratio=16 / 9,
-        max_width=1000,
+        sizing_mode="stretch_both",
     )
 
     ####### References #############
@@ -1779,7 +1779,7 @@ def event(event_id):
         x_axis_type="log",
         margin=5,
         aspect_ratio=16 / 9,
-        max_width=1000,
+        sizing_mode="stretch_both",
     )
 
     #################################
@@ -2038,7 +2038,7 @@ def event(event_id):
         tools=select_tools,
         margin=5,
         aspect_ratio=1,
-        max_width=1000,
+        sizing_mode="stretch_both",
     )
 
     # Blank tooltips
@@ -2404,12 +2404,9 @@ def event(event_id):
             spectrum.add_layout(legend2, "left")
             legend2.label_text_font_size = "10pt"
 
-    script, div = components(
-        layout([radio], [optical], [xray], [spectrum], sizing_mode="scale_both")
-    )
-    kwargs = {"script": script, "div": div}
-    kwargs["title"] = "bokeh-with-flask"
-
+    graphs = [radio, optical, xray, spectrum]
+    component_list = [components(graph) for graph in graphs]
+    script_list, div_list = zip(*component_list)
     # Return everything
     return render_template(
         "event.html",
@@ -2432,7 +2429,8 @@ def event(event_id):
         radio_refs=rad_refs,
         spec_refs=spec_refs,
         needed_dict=needed_dict,
-        **kwargs,
+        div_list=div_list,
+        script_list=script_list,
     )
 
 
@@ -2700,7 +2698,7 @@ def graphs():
             x_axis_type=str(axis[x]),
             y_axis_type=str(axis[y]),
             toolbar_location="right",
-            plot_width=1200,
+            plot_width=900,
             plot_height=700,
         )
         graph.xaxis.ticker.desired_num_ticks = 2
