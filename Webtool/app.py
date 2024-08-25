@@ -2762,8 +2762,6 @@ def download_graph_data(title, grb_name, sne_name, raw_x, raw_y):
     return resp
 
 
-# Pass the data to be used by the dropdown menu (decorating)
-
 # Help
 
 
