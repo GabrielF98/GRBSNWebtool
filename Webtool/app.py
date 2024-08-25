@@ -2037,7 +2037,7 @@ def event(event_id):
         toolbar_location="right",
         tools=select_tools,
         margin=5,
-        aspect_ratio=1,
+        aspect_ratio=16 / 9,
         sizing_mode="stretch_both",
     )
 
