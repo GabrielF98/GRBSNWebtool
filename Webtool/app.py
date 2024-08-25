@@ -11,6 +11,7 @@ from os.path import exists  # Check if a file exists
 
 import numpy as np
 import pandas as pd  # Pandas
+import yaml
 from astropy.time import Time  # Converting MJD to UTC
 from bokeh.embed import components
 
@@ -58,6 +59,12 @@ from wtforms.validators import Optional
 with open("instance/config.py", "w") as f:
     code = str(os.urandom(32).hex())
     f.write(("SECRET_KEY = '" + code + "'"))
+
+# Config file
+with open("static/config.yaml", "r") as file:
+    CONFIG = yaml.safe_load(file)
+
+LATEST_RELEASE = CONFIG["LATEST_RELEASE"]
 
 # Search on the homepage
 
@@ -2397,6 +2404,7 @@ def event(event_id):
         "event.html",
         event=event,
         event_id=event_id,
+        latest_release=LATEST_RELEASE,
         radec=radec,
         peakmag=peakmag,
         event_nos=event_nos,

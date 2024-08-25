@@ -22,19 +22,38 @@
 
     {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
     {% if event[0]['SNe'] == None %}
-    <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
     {% elif event[0]['GRB'] == None %}
-    <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
+    <h2> <b>No GRB Name / {{ event[0]['SNe']}} </b></h2>
+    <a
+      href="https://github.com/GabrielF98/GRBSNWebtool/tree/{{ latest_release }}/Webtool/static/SourceData/{{ event[0]['SNe']}}">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" class="ml-auto" alt="GitHub link">
+    </a>
     {% else %}
     <h2> <b>GRB{{ event[0]['GRB']}} / {{ event[0]['SNe'] }} </b></h2>
+    <a
+      href="https://github.com/GabrielF98/GRBSNWebtool/tree/{{ latest_release }}/Webtool/static/SourceData/GRB{{ event[0]['GRB']}}-{{ event[0]['SNe']}}">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" class="ml-auto" alt="GitHub link">
+    </a>
     {% endif %}
     {%else%}
     {% if event[0]['SNe'] == None %}
     <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
+    <a
+      href="https://github.com/GabrielF98/GRBSNWebtool/tree/{{ latest_release }}/Webtool/static/SourceData/GRB{{ event[0]['GRB']}}">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" class="ml-auto" alt="GitHub link">
+    </a>
     {% elif event[0]['GRB'] == None %}
     <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
+    <a
+      href="https://github.com/GabrielF98/GRBSNWebtool/tree/{{ latest_release }}/Webtool/static/SourceData/SN{{ event[0]['SNe']}}">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" class="ml-auto" alt="GitHub link">
+    </a>
     {% else %}
     <h2> <b>GRB{{ event[0]['GRB']}} / SN{{ event[0]['SNe'] }} </b></h2>
+    <a
+      href="https://github.com/GabrielF98/GRBSNWebtool/tree/{{ latest_release }}/Webtool/static/SourceData/GRB{{ event[0]['GRB']}}-SN{{ event[0]['SNe']}}">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" class="ml-auto" alt="GitHub link">
+    </a>
     {% endif %}
     {%endif%}
 
