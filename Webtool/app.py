@@ -13,13 +13,12 @@ import numpy as np
 import pandas as pd  # Pandas
 from astropy.time import Time  # Converting MJD to UTC
 from bokeh.embed import components
-from bokeh.layouts import layout
 
 # Pieces for Bokeh
 from bokeh.models import ColumnDataSource, HoverTool, Label, Legend, Range1d
 from bokeh.palettes import Category20_20, d3, viridis
 from bokeh.plotting import figure
-from bokeh.transform import factor_cmap, factor_mark
+from bokeh.transform import factor_mark
 
 # Basic flask stuff
 from flask import (
@@ -54,20 +53,6 @@ from werkzeug.exceptions import abort
 # Forms
 from wtforms import StringField, SubmitField
 from wtforms.validators import Optional
-
-#################################
-#################################
-# Flask app stuff ###############
-#################################
-#################################
-
-
-#################################
-#################################
-# Bokeh stuff ###################
-#################################
-#################################
-
 
 # Create config.py file
 with open("instance/config.py", "w") as f:
