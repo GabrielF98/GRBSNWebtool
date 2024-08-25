@@ -59,8 +59,8 @@
 
 
 
-  <div class="primary">
-    <table class="styled-table" style="width:40%">
+  <div class="table-container">
+    <table class="styled-table" style="width:49%">
       <thead>
         <tr>
           <th>GRB Parameter</th>
@@ -192,7 +192,7 @@
     </table>
 
 
-    <table class="styled-table" style="width:40%">
+    <table class="styled-table" style="width:49%">
       <thead>
         <tr>
           <th scope="col">SN Parameter</th>
@@ -473,14 +473,12 @@
       included in the above download. </p>
     {% endif %}
     {% endif %}
+    <h2><b>Sources</b></h2>
   </div>
-
-
   <!-- Table of references -->
+  <div class="table-container">
 
-  <div class="primary">
-    <h2><b>References</b></h2>
-    <table class="styled-table">
+    <table class="styled-table" style="width:100%">
       <thead>
         <tr>
           <th>Number</th>
@@ -680,7 +678,8 @@
 
     </table>
 
-
+  </div>
+  <div class="primary">
     <h2><b>Github</b></h2>
     <p>View the source data <a
         href="https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData/{{event_id}}"
@@ -690,7 +689,6 @@
         href="https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E"
         target="_blank">here</a>.</p>
   </div>
-
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-widgets.js"></script>
