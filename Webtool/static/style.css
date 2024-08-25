@@ -190,10 +190,53 @@ dd {
   margin-right: 100px;
 }
 
-@media (max-width: 1000px) {
+
+/* Better bokeh plots */
+.plot-container {
+  background-color: #ffffff;
+  /* Optional background color */
+  padding: 0px;
+  border-radius: 10px;
+  /* Padding inside plot container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* Ensure proper positioning */
+  max-width: 1500px;
+  min-width: 800px;
+  /* Minimum height for each plot container */
+}
+
+.plot-item {
+  width: 100%;
+  /* Full width of the container */
+  height: auto;
+  /* Height adjusts based on plot content */
+}
+
+.grid {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Start with a 2x2 grid */
+  gap: 20px;
+  /* Space between plots */
+}
+
+@media (max-width: 1200px) {
 
   /* Adjust the max-width based on your needs */
   .table-container {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 1600px) {
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
