@@ -204,7 +204,7 @@ dd {
   justify-content: center;
   position: relative;
   /* Ensure proper positioning */
-  max-width: 1500px;
+  max-width: 100%;
   min-width: 800px;
   /* Minimum height for each plot container */
 }
@@ -234,9 +234,10 @@ dd {
   }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1200px) {
 
   .grid {
     grid-template-columns: repeat(1, 1fr);
   }
+
 }
