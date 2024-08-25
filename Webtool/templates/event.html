@@ -384,13 +384,23 @@
   <div class="primary">
     <h2><b>Graphs</b></h2>
     <p>These graphs display observations of this event. For help using the toolbars click <a
-        href="{{ url_for('get_help')}}">here</a>.
+        href="{{ url_for('get_help')}}">here</a>.</p>
 
-
-
-      {{ div|safe }}
-      {{ script|safe }}
   </div>
+
+  <div class="grid">
+    {% for i in range(div_list|length) %}
+    <div class="plot-container">
+      <div class="plot-item">
+        {{ div_list[i]|safe }}
+      </div>
+      <div>
+        {{ script_list[i]|safe }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
 
   <div class="primary">
     <h2> <b>Download Observations</b> </h2>
