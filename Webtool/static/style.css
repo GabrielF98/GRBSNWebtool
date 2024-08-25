@@ -189,3 +189,11 @@ dd {
   margin-left: 100px;
   margin-right: 100px;
 }
+
+@media (max-width: 1000px) {
+
+  /* Adjust the max-width based on your needs */
+  .table-container {
+    flex-direction: column;
+  }
+}
