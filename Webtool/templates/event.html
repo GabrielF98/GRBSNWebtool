@@ -30,6 +30,24 @@
       <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
       View this event on GitHub
     </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #FFA500;
+                        background-color: #FFA500;"
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      Report an issue
+    </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                            background-color: #B2DFDB;" href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">
+      Download tables
+    </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">
+      Download observations
+    </a>
+
     {% else %}
     <h2> <b>GRB{{ event[0]['GRB']}} / {{ event[0]['SNe'] }} </b></h2>
     <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; border-color: #6e5494;
@@ -39,6 +57,23 @@
       <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
       View this event on GitHub
     </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #FFA500;
+                        background-color: #FFA500;"
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      Report an issue
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">
+      Download observations
+    </a>
+
     {% endif %}
     {%else%}
     {% if event[0]['SNe'] == None %}
@@ -49,6 +84,24 @@
       <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
       View this event on GitHub
     </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #FFA500;
+                        background-color: #FFA500;"
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      Report an issue
+    </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                            background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'])}}">
+      Download tables
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'])}}">
+      Download observations
+    </a>
+
     {% elif event[0]['GRB'] == None %}
     <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
 
@@ -58,7 +111,23 @@
       <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
       View this event on GitHub
     </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #FFA500;
+                        background-color: #FFA500;"
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      Report an issue
+    </a>
 
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                            background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">
+      Download observations
+    </a>
 
     {% else %}
     <h2> <b>GRB{{ event[0]['GRB']}} / SN{{ event[0]['SNe'] }} </b></h2>
@@ -68,14 +137,27 @@
       <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
       View this event on GitHub
     </a>
-    {% endif %}
-    {%endif%}
-
     <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #FFA500;
-                    background-color: #FFA500;" href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
+                        background-color: #FFA500;"
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
       <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
       Report an issue
     </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                            background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">
+      Download observations
+    </a>
+
+    {% endif %}
+    {%endif%}
 
   </div>
   <p></p>
