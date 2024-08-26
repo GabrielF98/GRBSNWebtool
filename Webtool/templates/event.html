@@ -160,6 +160,7 @@
     {%endif%}
 
   </div>
+
   <p></p>
   {% endblock %}
   {% block content %}
@@ -178,11 +179,19 @@
     {% endif %}
   </div>
 
+  <p></p>
+  <div class="primary">
+    <p>The data for this event was collected from
+      refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS</a>; and from online
+      repositories including <a href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the
+      <a href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>.
+    </p>
+  </div>
+
   <div class="primary">
     <h2>
-      <b>Event tables</b>
+      <b>Tabular data</b>
     </h2>
-    <p> These tables includes parameters collected from refereed papers found on the ADS for these events.</p>
     <!-- Download Database Data -->
     {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
     {% if event[0]['GRB'] == None %}
@@ -507,9 +516,58 @@
 
   <!-- Plots -->
   <div class="primary">
-    <h2><b>Graphs</b></h2>
-    <p>These graphs display observations of this event. For help using the toolbars click <a
-        href="{{ url_for('get_help')}}">here</a>.</p>
+
+    <h2><b>Observational data</b></h2>
+    <p>These graphs display observational data for this event. For help using the toolbars click <a
+        href="{{ url_for('get_help')}}">here</a>. Note that some of the data collected for this event is not yet
+      displayed in these plots. In these cases the
+      plots are
+      marked with the "Pending" label.
+      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data
+      are
+      included in the above download.
+    </p>
+    {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
+    {% if event[0]['GRB'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                            background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">
+      Download all observations
+    </a>
+    {% else %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                            background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">
+      Download all observations
+    </a>
+    {% endif %}
+    {% else %}
+    {% if event[0]['SNe'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                            background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'])}}">
+      Download all observations
+    </a>
+    {% elif event[0]['GRB'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                        background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">
+      Download all observations
+    </a>
+    {% else %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                        background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">
+      Download all observations
+    </a>
+    {% endif %}
+    {% endif %}
+
+
+    <p></p>
+
+
+
 
   </div>
 
@@ -527,90 +585,11 @@
   </div>
 
 
+
+  <!-- Table of references -->
   <div class="primary">
-    <h2> <b>Download Observations</b> </h2>
-    {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
-    {% if event[0]['SNe'] == None %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-        href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from
-      refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
-        href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
-        href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. The download includes a readme
-      file
-      showing the origin of all the data. </p>
-    <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-      marked with the "Pending" label.
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-      included in the above download. </p>
-    {% elif event[0]['GRB'] == None %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-        href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">click here</a>. This data was drawn from refereed
-      papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS</a> as well as from <a
-        href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
-        href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. The download includes a readme file
-      showing the origin of all the data. </p>
-    <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-      marked with the "Pending" label.
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-      included in the above download. </p>
-    {% else %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-        href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">click here</a>. This data
-      was drawn from refereed
-      papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
-        href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
-        href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. The download includes a readme
-      file
-      showing the origin of all the data. </p>
-
-    <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-      marked with the "Pending" label.
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-      included in the above download. </p>
-    {% endif %}
-    {% else %}
-    {% if event[0]['SNe'] == None %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-        href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from
-      refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
-        href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
-        href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. The download includes a readme file
-      showing the origin of all the data. </p>
-    <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-      marked with the "Pending" label.
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-      included in the above download. </p>
-    {% elif event[0]['GRB'] == None %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-        href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">click here</a>. This data was drawn from
-      refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
-        href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
-        href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. The download includes a readme file
-      showing the origin of all the data. </p>
-    <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-      marked with the "Pending" label.
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-      included in the above download. </p>
-    {% else %}
-    <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-        href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">click here</a>. This
-      data
-      was drawn from refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well
-      as
-      from <a href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
-        href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. The download includes a readme
-      file
-      showing the origin of all the data. </p>
-
-    <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-      marked with the "Pending" label.
-      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-      included in the above download. </p>
-    {% endif %}
-    {% endif %}
     <h2><b>Sources</b></h2>
   </div>
-  <!-- Table of references -->
   <div class="table-container">
 
     <table class="styled-table" style="width:100%">
@@ -804,7 +783,8 @@
           <td><a href="{{spec_refs[i]}}"
               target='_blank'>{{i+optical_refs|length+event_refs|length+radec_refs|length+swift_refs|length+peakmag_refs|length+radio_refs|length+1}}
             </a></td>
-          <td> {{needed_dict[spec_refs[i]]['names']}}: <a href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a>
+          <td> {{needed_dict[spec_refs[i]]['names']}}: <a href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}}
+            </a>
           </td>
         </tr>
         {% endif %}
