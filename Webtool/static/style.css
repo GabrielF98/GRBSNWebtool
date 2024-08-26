@@ -249,3 +249,8 @@ dd {
 }
 
 /* Buttons */
+.shift-up {
+  position: relative;
+  top: -3px;
+  /* Adjust the value as needed */
+}
