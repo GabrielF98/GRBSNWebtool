@@ -178,6 +178,48 @@
     {% endif %}
   </div>
 
+  <div class="primary">
+    <h2>
+      <b>Event tables</b>
+    </h2>
+    <p> These tables includes parameters collected from refereed papers found on the ADS for these events.</p>
+    <!-- Download Database Data -->
+    {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
+    {% if event[0]['GRB'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">
+      Download tables
+    </a>
+    {% else %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+    {% endif %}
+    {%else%}
+    {% if event[0]['SNe'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'])}}">
+      Download tables
+    </a>
+    {% elif event[0]['GRB'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+    {% else %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+    {%endif%}
+    {%endif%}
+  </div>
 
 
 
@@ -458,46 +500,7 @@
     </table>
   </div>
 
-  <div class="primary">
-    <h2>
-      <b>Download Table Data</b>
-    </h2>
-    <!-- Download Database Data -->
-    {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
-    {% if event[0]['SNe'] == None %}
-    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data
-      about this GRB/SN from our database. This table includes parameters like those in the tables above and was
-      collected
-      from refereed papers found on the ADS for these events.</p>
-    {% elif event[0]['GRB'] == None %}
-    <p><a href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">Click here</a> to download a tables of data about
-      this GRB/SN from our database. This table includes parameters like those in the table above and was collected from
-      refereed papers found on the ADS for these events.</p>
-    {% else %}
-    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">Click here</a> to
-      download
-      a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above
-      and was collected from refereed papers found on the ADS for these events.</p>
-    {% endif %}
-    {%else%}
-    {% if event[0]['SNe'] == None %}
-    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data
-      about this GRB/SN from our database. This table includes parameters like those in the tables above and was
-      collected
-      from refereed papers found on the ADS for these events.</p>
-    {% elif event[0]['GRB'] == None %}
-    <p><a href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">Click here</a> to download a table of data
-      about
-      this GRB/SN from our database. This table includes parameters like those in the tables above and was collected
-      from
-      refereed papers found on the ADS for these events.</p>
-    {% else %}
-    <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">Click here</a> to
-      download a table of data about this GRB/SN from our database. This table includes parameters like those in the
-      tables above and was collected from refereed papers found on the ADS for these events.</p>
-    {%endif%}
-    {%endif%}
-  </div>
+
 
 
 
