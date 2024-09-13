@@ -112,8 +112,8 @@ time	integration	mag	mag_limit	dmag	dmag2	band	instrument	time_unit	integration_
 95806	1200	22.0	0	0.05	NaN	B	MAO/AZT-22	seconds	seconds	Vega	apparent	observer	False	NaN
 98664	7440	21.157	0	0.302	-0.238	B	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN
 132402	62	20.56	1	NaN	NaN	b	UVOT	seconds	seconds	Vega	apparent	observer	False	NaN
-139594	3360	21.447	0	0.94	-0.0538	B	Prompt3	seconds	seconds	Vega	apparent	observer	False	NaN
-177333	1200	22.7	0	0.07	B	MAO/AZT-22	seconds	seconds	Vega	apparent	observer	False	NaN
+139594	3360	21.447	0	0.94	-0.538	B	Prompt3	seconds	seconds	Vega	apparent	observer	False	NaN
+177333	1200	22.7	0	0.07	NaN	B	MAO/AZT-22	seconds	seconds	Vega	apparent	observer	False	NaN
 189702	35649	21.13	1	NaN	NaN	b	UVOT	seconds	seconds	Vega	apparent	observer	False	NaN
 213502	160	20.52	1	NaN	NaN	b	UVOT	seconds	seconds	Vega	apparent	observer	False	NaN
 7133414	7140	21.42	1	NaN	NaN	B	Prompt3	seconds	seconds	Vega	apparent	observer	False	NaN
@@ -193,7 +193,7 @@ time	integration	mag	mag_limit	dmag	dmag2	band	instrument	time_unit	integration_
 10684	400	17.774	0	0.044	-0.042	V	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN
 11130	400	17.741	0	0.039	-0.038	V	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN
 11256	907	17.91	0	0.06	NaN	v	UVOT	seconds	seconds	Vega	apparent	observer	False	NaN
-11529	320	17.821	0	0.05	-0.04	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN
+11529	320	17.821	0	0.05	-0.04	V	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN
 12055	560	17.894	0	0.037	-0.03	V	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
 12681	560	17.911	0	0.037	-0.03	V	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
 13517	880	18.071	0	0.033	-0.03	V	PROMPT-SSO-2	seconds	seconds	Vega	apparent	observer	False	NaN
@@ -212,7 +212,7 @@ time	integration	mag	mag_limit	dmag	dmag2	band	instrument	time_unit	integration_
 139582	3420	21.275	0	0.382	-0.286	V	Prompt1	seconds	seconds	Vega	apparent	observer	False	NaN
 190593	35808	20.4	1	NaN	NaN	v	UVOT	seconds	seconds	Vega	apparent	observer	False	NaN
 214259	52	19.0	1	NaN	NaN	v	UVOT	seconds	seconds	Vega	apparent	observer	False	NaN
-227739	7200	22.48	0	1.09±	-0.59	V	Prompt1	seconds	seconds	Vega	apparent	observer	False	NaN
+227739	7200	22.48	0	1.09	-0.59	V	Prompt1	seconds	seconds	Vega	apparent	observer	False	NaN
 420236	6458	21.46	1	NaN	NaN	v	UVOT	seconds	seconds	Vega	apparent	observer	False	NaN
 715505	139477	21.76	1	NaN	NaN	v	UVOT	seconds	seconds	Vega	apparent	observer	False	NaN
 799032	18403	20.92	1	NaN	NaN	v	UVOT	seconds	seconds	Vega	apparent	observer	False	NaN
@@ -268,8 +268,8 @@ time	integration	mag	mag_limit	dmag	dmag2	band	instrument	time_unit	integration_
 4506	80	15.981	0	0.022	NaN	R_C	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN
 4596	80	15.992	0	0.023	NaN	R_C	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN
 4707	80	16.014	0	0.019	NaN	R_C	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
-4797	80	16.026	0	0.020	-0.019	R_C	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
-4886	80	16.019	0	0.020	-0.019	R_C	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
+4797	80	16.026	0	0.02	-0.019	R_C	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
+4886	80	16.019	0	0.02	-0.019	R_C	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
 4975	80	16.04	0	0.019	NaN	R_C	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
 5068	80	16.083	0	0.02	NaN	R_C	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
 5158	80	16.163	0	0.022	-0.021	R_C	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
@@ -534,7 +534,7 @@ time	integration	mag	mag_limit	dmag	dmag2	band	instrument	time_unit	integration_
 12682	560	17.138	0	0.062	-0.059	I_C	PROMPT-SSO-3	seconds	seconds	Vega	apparent	observer	False	NaN
 13473	800	17.127	0	0.063	-0.056	I_C	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN
 14366	800	17.217	0	0.059	-0.073	I_C	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN
-15214	720	17.316	0	0.079	I_C	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN
+15214	720	17.316	0	0.079	I_C	PROMPT-SSO-1	seconds	seconds	Vega	apparent	observer	False	NaN	NaN
 16213	1040	17.355	0	0.053	-0.051	I_C	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
 54193	8960	19.565	0	0.085	-0.079	I_C	Prompt5	seconds	seconds	Vega	apparent	observer	False	NaN
 89862	7380	20.974	0	1.843	-0.795	I_C	PROMPT-SSO-4	seconds	seconds	Vega	apparent	observer	False	NaN
