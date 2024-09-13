@@ -1,0 +1,3 @@
+band	time	mag	dmag	mag_limit	instrument	time_unit	mag_unit	mag_type	time_frame	extinction_corrected	dtime
+289	23.53	23.53	0.22	1	Keck/MOSFIRE	days	AB	apparent	observer	False	NaN
+3.6μm	756.0	>24.0	NaN	1	Spitzer/IRAC	days	AB	apparent	observer	False	NaN
