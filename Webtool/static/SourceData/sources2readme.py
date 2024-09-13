@@ -43,6 +43,11 @@ def create_readmes(folders):
                     # Get the index in the df where that Filename occurs.
                     new = filesources.loc[filesources['Filename']==readme_lines[i].split(":")[1][1:-1]]
                     new = new.reset_index() # Reset the index
+
+                    # if df is empty, then break
+                    if new.empty:
+                        continue
+
                     print(new)
 
                     # Save the data we want.
@@ -50,19 +55,17 @@ def create_readmes(folders):
                     source.append(new['Reference'])
 
 
-            # Write the new rows and the existing ones to the file.
-            # For the datatypes
-            for i in range(len(index)):
-                print(len(datatypes[i]))
-                print(datatypes[i])
-                print(source[i][0])
-                readme_lines.insert(index[i]+i*2, 'Data-type: '+datatypes[i][0]+'\n')
-                readme_lines.insert(index[i]+i*2, 'Source: '+source[i][0]+'\n')
+            if len(datatypes) != 0:
+                # Write the new rows and the existing ones to the file.
+                # For the datatypes
+                for i in range(len(index)):
+                    readme_lines.insert(index[i]+i*2, 'Data-type: '+datatypes[i][0]+'\n')
+                    readme_lines.insert(index[i]+i*2, 'Source: '+source[i][0]+'\n')
 
-            # Write to the file
-            with open(folder+'/readme.txt', 'w', encoding='utf-8') as file:
-                readme_lines = "".join(readme_lines)
-                file.write(readme_lines)
+                # Write to the file
+                with open(folder+'/readme.txt', 'w', encoding='utf-8') as file:
+                    readme_lines = "".join(readme_lines)
+                    file.write(readme_lines)
 
 if __name__ == '__main__':
 
