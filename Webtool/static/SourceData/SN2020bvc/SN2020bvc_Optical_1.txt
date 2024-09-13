@@ -2,7 +2,7 @@ date	mag	mag_limit	dmag	band	instrument	date_unit	mag_unit	time	time_unit	time_f
 58887.51	17.0628	0	0.0348	U	LCO	MJD	Vega	4.84	days	observer	NaN
 58887.513	17.46	0	0.0249	B	LCO	MJD	Vega	4.843	days	observer	NaN
 58887.515	17.4641	0	0.0249	B	LCO	MJD	Vega	4.845	days	observer	NaN
-58887.517	16.9854	0	0.0216	V	LCO	MJD	Vega	4.847	days	observer	NaN
+58887.517	16.9854	0	0.0216	V	LCO	MJD	Vega	4.8469999999999995	days	observer	NaN
 58887.518	16.9766	0	0.0222	V	LCO	MJD	Vega	4.848	days	observer	NaN
 58887.519	17.4785	0	0.0145	g	LCO	MJD	AB	4.849	days	observer	NaN
 58887.521	17.4341	0	0.0144	g	LCO	MJD	AB	4.851	days	observer	NaN
@@ -58,7 +58,7 @@ date	mag	mag_limit	dmag	band	instrument	date_unit	mag_unit	time	time_unit	time_f
 58906.302	18.0339	0	0.0673	U	LCO	MJD	Vega	23.632	days	observer	NaN
 58906.305	17.9889	0	0.0228	B	LCO	MJD	Vega	23.635	days	observer	NaN
 58906.306	17.9789	0	0.0235	B	LCO	MJD	Vega	23.636	days	observer	NaN
-58906.308	16.8317	0	0.0153	V	LCO	MJD	Vega	23.638	days	observer	NaN
+58906.308	16.8317	0	0.0153	V	LCO	MJD	Vega	23.637999999999998	days	observer	NaN
 58906.31	16.8539	0	0.0159	V	LCO	MJD	Vega	23.64	days	observer	NaN
 58906.311	17.3911	0	0.0102	g	LCO	MJD	AB	23.641	days	observer	NaN
 58906.313	17.3571	0	0.0083	g	LCO	MJD	AB	23.643	days	observer	NaN
@@ -83,7 +83,7 @@ date	mag	mag_limit	dmag	band	instrument	date_unit	mag_unit	time	time_unit	time_f
 58925.439	17.8687	0	0.0142	V	LCO	MJD	Vega	42.769	days	observer	NaN
 58925.442	18.4282	0	0.0113	g	LCO	MJD	AB	42.772	days	observer	NaN
 58925.445	18.3745	0	0.0184	g	LCO	MJD	AB	42.775	days	observer	NaN
-58925.449	17.6958	0	0.0542	r	LCO	MJD	AB	42.779	days	observer	NaN
+58925.449	17.6958	0	0.0542	r	LCO	MJD	AB	42.778999999999996	days	observer	NaN
 58925.452	17.7219	0	0.0773	r	LCO	MJD	AB	42.782	days	observer	NaN
 58925.455	17.8135	0	0.0262	i	LCO	MJD	AB	42.785	days	observer	NaN
 58925.457	17.8521	0	0.0144	i	LCO	MJD	AB	42.787	days	observer	NaN
@@ -174,7 +174,7 @@ date	mag	mag_limit	dmag	band	instrument	date_unit	mag_unit	time	time_unit	time_f
 58863.453	19.638	1	NaN	g	ZTF	MJD	AB	-19.217	days	observer	NaN
 58859.468	19.618	1	NaN	r	ZTF	MJD	AB	-23.202	days	observer	NaN
 58856.573	20.289	1	NaN	r	ZTF	MJD	AB	-26.097	days	observer	NaN
-58856.558	20.644	1	NaN	g	ZTF	MJD	AB	-26.112	days	observer	NaN
+58856.558	20.644	1	NaN	g	ZTF	MJD	AB	-26.112000000000002	days	observer	NaN
 58898.0	17.5927	0	0.121637	B	KON	MJD	Vega	15.33	days	observer	NaN
 58899.93	17.7634	0	0.123899	B	KON	MJD	Vega	17.26	days	observer	NaN
 58913.79	18.6626	0	1.08864	B	KON	MJD	Vega	31.12	days	observer	NaN
