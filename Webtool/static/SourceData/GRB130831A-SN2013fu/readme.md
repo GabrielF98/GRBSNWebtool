@@ -23,7 +23,55 @@ Notes: Data have not been corrected for Galactic foreground extinction, and are 
 
 **Notes:**
 
+The data in file 'table3.dat' are the apparent magnitudes of the
+
+afterglow+supernova+host (combined), which are not corrected for
+
+foreground or rest-frame extinction. Note that the ROTSE magnitudes
+
+are unfiltered calibrated to sdss_r_.
+
 Notes: The griz magnitudes of the host galaxy were measured, and these magnitudes were converted into monochromatic fluxes using the flux zeropoints from Fukugita et al. (1995) and subtracted from the earlier observations obtained with the LT, FTN and IAC80. The apparent magnitudes (not corrected for foreground or host extinction) of the GRB+SN+host are presented in Table 3. Data obtaiend from Vizier.
+
+Note (1): Apparent magnitudes of the afterglow+supernova+host (combined),
+
+which are not corrected for foreground or rest-frame extinction.
+
+Note (2): ROTSE magnitudes are unfiltered calibrated to sdss_r_.
+
+Note (3): telescope abbreviations:
+
+CAHA = 3.5m telescope at Calar Alto
+
+CrAO = Crimean Astrophysical Observatory (2.6m)
+
+FTN = 2m Faulkes Telescope North
+
+GROND = Gamma-Ray burst Optical/Near-Infrared Detector at ESO-2.2m
+
+GTC = 10.4m Gran Telescopio Canarias
+
+Gemini = Gemini-North telescope (8.1m)
+
+IAC80 = 0.82m Instituto de Astrofisica de Canarias
+
+LT = 2m Liverpool Telescope
+
+MAO = 1.65m Moletu Astronomijos Observatorija, Vilnius
+
+Mondy = 1.5m AZT-33IK telescope at Mondy observatory, Russia
+
+NOT = Nordic Optical Telescope
+
+RATIR = Reionization and Transients Infrared Camera (1.5m at the Mexican
+
+Observatorio Astronomico Nacional n the Sierra San Pedro Martir
+
+ROTSE = Robotic Optical Transient Search Experimen
+
+TNG = 3.6m Telescopio Nazionale Galileo
+
+WHT = 4.2m William Hershel telescope
 
 ### GRB130831A-SN2013fu_NIR_Optical_1.txt
 
