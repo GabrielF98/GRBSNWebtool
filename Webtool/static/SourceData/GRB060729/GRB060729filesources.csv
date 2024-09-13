@@ -1,8 +1,8 @@
 GRB/SN,Filename,Status,Reference
-GRB060729,GRB060729_Optical1.html,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-GRB060729,GRB060729_Optical2.html,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
-GRB060729,GRB00729_Xray.txt,"Early, Late, Xray",https://ui.adsabs.harvard.edu/abs/2010ApJ...711.1008G/abstract
-GRB060729,GRB060729_Optical_UV_1.html,"Early, Late, Optical, UV",https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
-GRB060729,GRB060729_Optical_UV_1.html,"Early, Late, UV",https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
-GRB060729,GRB060729_Optical3.html,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
+GRB060729,GRB060729_Optical_1.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+GRB060729,GRB060729_Optical_2.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+GRB060729,GRB00729_Xray_1.txt,"Early, Late, Xray",https://ui.adsabs.harvard.edu/abs/2010ApJ...711.1008G/abstract
+GRB060729,GRB060729_Optical_UV_1.txt,"Early, Late, Optical, UV",https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
+GRB060729,GRB060729_Optical_UV_2.txt,"Early, Late, UV",https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
+GRB060729,GRB060729_Optical_3.txt,"Early, Optical",https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
 GRB060729,GRB060729xrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/
