@@ -34,6 +34,10 @@ if __name__ == '__main__':
             with open(folder+'/readme.txt', 'r', encoding='utf-8') as readme:
                 readmelines = readme.readlines()
 
+            if 'Filename:' in readmelines[2]:
+                continue
+
+
             # Locate the limes in the file where the breaks between the files are.
             linenos = []
             for j, line in enumerate(readmelines):
