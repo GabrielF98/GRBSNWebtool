@@ -8,7 +8,7 @@ V	1997-Apr-7.24	26.52	0	NaN	HST/WFPC2	yyyy-month-deciday	AB	apparent	observer	Tr
 V	1997-Sep-4.71	28.1	0	NaN	HST/STIS	yyyy-month-deciday	AB	apparent	observer	True	188.58638888888888	days	NaN
 R	1997-Feb-28.81	20.5	0	0.5	RAO0.6m	yyyy-month-deciday	AB	apparent	observer	True	0.6863657407407409	days	NaN
 R	1997-Feb-28.83	21.6	0	0.3	BUT1.5m	yyyy-month-deciday	AB	apparent	observer	True	0.7063657407407409	days	NaN
-R	1997-Mar-6.32	24.0	0	Nan	KeckII10m	yyyy-month-deciday	AB	apparent	observer	True	6.196377314814815	days	NaN
+R	1997-Mar-6.32	24.0	0	NaN	KeckII10m	yyyy-month-deciday	AB	apparent	observer	True	6.196377314814815	days	NaN
 R	1997-Mar-9.90	24.0	0	0.2	INT2.5m	yyyy-month-deciday	AB	apparent	observer	True	9.776400462962965	days	NaN
 R	1997-Mar-13.00	24.3	0	0.2	NTT3.5m	yyyy-month-deciday	AB	apparent	observer	True	12.876377314814816	days	NaN
 R	1997-Apr-5.24-6.27	24.9	0	0.3	KeckII10m	yyyy-month-deciday-deciday	AB	apparent	observer	True	36.63137152777778	days	0.514994212962963
