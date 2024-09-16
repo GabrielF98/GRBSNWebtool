@@ -1,6 +1,6 @@
 time	dtime	instrument	band	mag	mag_limit	dmag	flux_density	dflux_density	time_unit	mag_unit	mag_type	flux_density_unit	extinction_corrected	time_frame
-3.99	0.002	Gran_Telescopio_Canarias	r	24.9	1	NaN	<0.40	NaN	days	AB	apparent	microJy	True	observer
-72.05	0.006	LCOGT_network_observatory	I	22.7	1	NaN	<3.02	NaN	days	AB	apparent	microJy	True	observer
-72.48	NaN	Lijiang_2.4-meter_telescope	g	22.58	1	NaN	<3.37	NaN	days	AB	apparent	microJy	True	observer
-72.48	NaN	Lijiang_2.4-meter_telescope	r	22.07	1	NaN	<5.40	NaN	days	AB	apparent	microJy	True	observet
-72.48	NaN	Lijiang_2.4-meter_telescope	i	21.81	1	NaN	<6.85	NaN	days	AB	apparent	microJy	True	observer
+3.99	0.002	GTC	r	24.9	1	NaN	<0.40	NaN	days	AB	apparent	microJy	True	observer
+72.05	0.006	LCOGT network observatory	I	22.7	1	NaN	<3.02	NaN	days	AB	apparent	microJy	True	observer
+72.48	NaN	Lijiang 2.4-meter telescope	g	22.58	1	NaN	<3.37	NaN	days	AB	apparent	microJy	True	observer
+72.48	NaN	Lijiang 2.4-meter telescope	r	22.07	1	NaN	<5.40	NaN	days	AB	apparent	microJy	True	observet
+72.48	NaN	Lijiang 2.4-meter telescope	i	21.81	1	NaN	<6.85	NaN	days	AB	apparent	microJy	True	observer
