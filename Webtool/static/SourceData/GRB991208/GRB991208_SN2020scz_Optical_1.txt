@@ -1,7 +1,0 @@
-date	time	instrument	band	mag	dmag	extinction	date_unit	time_unit	mag_unit	mag_type	time_frame	extinction_corrected
-2459087.8986	0.21	P48+ZTF	g	20.86	0.04	0.21	MJD	days	AB	apparent	observer	true
-2459087.9181	0.23	P48+ZTF	r	20.69	0.05	0.15	MJD	days	AB	apparent	observer	true
-2459087.9651	0.28	P48+ZTF	g	20.95	0.16	0.21	MJD	days	AB	apparent	observer	true
-2459088.8340	1.15	P48+ZTF	g	22.75	0.26	0.21	MJD	days	AB	apparent	observer	true
-2459090.9200	3.23	LDT+FMI	r	24.46	0.12	0.15	MJD	days	AB	apparent	observer	true
-2459115.9675	28.28	Gemini+GMOS	i	25.45	0.15	0.11	MJD	days	AB	apparent	observer	true
