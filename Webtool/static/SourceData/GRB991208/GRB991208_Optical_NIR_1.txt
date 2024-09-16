@@ -5,12 +5,12 @@ date	band	mag	mag_limit	dmag	instrument	date_unit	mag_unit	mag_type	time_frame	e
 1999-Dec-12.29	R	20.25	0	0.1	TNG	yyyy-month-deciday	AB	apparent	observer	False	4.097719907407408	days	NaN
 1999-Dec-12.52	R	20.5	0	0.1	VATT	yyyy-month-deciday	AB	apparent	observer	False	4.327719907407407	days	NaN
 1999-Dec-13.29	R	20.3	0	0.2	TNG	yyyy-month-deciday	AB	apparent	observer	False	5.097719907407408	days	NaN
-1999-Dec-13.53	R	20.92	0	0.06	MDM 2.4m	yyyy-month-deciday	AB	apparent	observer	False	5.337719907407408	days	NaN
-1999-Dec-14.14	R	21.6	0	0.3	SAO-RAS 6m	yyyy-month-deciday	AB	apparent	observer	False	5.9477314814814815	days	NaN
+1999-Dec-13.53	R	20.92	0	0.06	MDM_2.4m	yyyy-month-deciday	AB	apparent	observer	False	5.337719907407408	days	NaN
+1999-Dec-14.14	R	21.6	0	0.3	SAO-RAS_6m	yyyy-month-deciday	AB	apparent	observer	False	5.9477314814814815	days	NaN
 1999-Dec-14.29	R	21.25	0	0.1	TNG	yyyy-month-deciday	AB	apparent	observer	False	6.097719907407408	days	NaN
 1999-Dec-15.29	R	21.6	0	0.3	TNG	yyyy-month-deciday	AB	apparent	observer	False	7.097719907407408	days	NaN
-1999-Dec-11.21	I	19.0	0	0.5	Tautenburg Schmidt	yyyy-month-deciday	AB	apparent	observer	False	3.0177314814814813	days	NaN
-1999-Dec-12.02	I	19.4	0	0.18	104-cm Sampurnanand	yyyy-month-deciday	AB	apparent	observer	False	3.827719907407408	days	NaN
-1999-Dec-13.02	I	19.9	0	0.14	104-cm Sampurnanand	yyyy-month-deciday	AB	apparent	observer	False	4.827719907407407	days	NaN
-1999-Dec-14.00	I	20.0	1	NaN	104-cm Sampurnanand	yyyy-month-deciday	AB	apparent	observer	False	5.807731481481482	days	NaN
-1999-Dec-16.68	K	19.31	0	0.15	Keck II 10m	yyyy-month-deciday	AB	apparent	observer	False	8.487719907407408	days	NaN
+1999-Dec-11.21	I	19.0	0	0.5	Tautenburg_Schmidt	yyyy-month-deciday	AB	apparent	observer	False	3.0177314814814813	days	NaN
+1999-Dec-12.02	I	19.4	0	0.18	104-cm_Sampurnanand	yyyy-month-deciday	AB	apparent	observer	False	3.827719907407408	days	NaN
+1999-Dec-13.02	I	19.9	0	0.14	104-cm_Sampurnanand	yyyy-month-deciday	AB	apparent	observer	False	4.827719907407407	days	NaN
+1999-Dec-14.00	I	20.0	1	NaN	104-cm_Sampurnanand	yyyy-month-deciday	AB	apparent	observer	False	5.807731481481482	days	NaN
+1999-Dec-16.68	K	19.31	0	0.15	Keck_II_10m	yyyy-month-deciday	AB	apparent	observer	False	8.487719907407408	days	NaN
