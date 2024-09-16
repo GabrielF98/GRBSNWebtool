@@ -1,0 +1,7 @@
+instrument	band	date	mag	mag_limit	dmag	date_unit	mag_type	mag_unit	time_frame	extinction_corrected	time	time_unit	dtime
+HST/WFPC2	F606W/V	1997-Mar-26	26.05	0	0.07	yyyy-month-deciday	apparent	AB	observer	True	25.876377314814818	days	NaN
+HST/WFPC2	F814W/I	1997-Mar-26	24.1	0	0.07	yyyy-month-deciday	apparent	AB	observer	True	25.876377314814818	days	NaN
+HST/WFPC2	F606W/V	1997-Apr-7	26.35	0	0.1	yyyy-month-deciday	apparent	AB	observer	True	37.87637731481482	days	NaN
+HST/WFPC2	F814W/I	1997-Apr-7	24.65	0	0.1	yyyy-month-deciday	apparent	AB	observer	True	37.87637731481482	days	NaN
+HST/STIS	50CCD/V	1997-Sep-4	28.0	0	0.25	yyyy-month-deciday	apparent	AB	observer	True	187.8763888888889	days	NaN
+HST/NICMOS2	F160W/H	1998-Feb-24	25.9	1	NaN	yyyy-month-deciday	apparent	AB	observer	True	360.87638888888887	days	NaN
