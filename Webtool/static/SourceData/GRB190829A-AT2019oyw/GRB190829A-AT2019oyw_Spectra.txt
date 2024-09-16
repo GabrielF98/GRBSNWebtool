@@ -1995,7 +1995,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 0.301	3737.079999	7.195520000000001e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3465.0718581363003
 0.301	3739.139999	-6.798697999999999e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3466.981918405192
 0.301	3741.199999	7.525019e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3468.8919786740844
-0.301	3743.259999	-4.2208069999999995e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3470.802038942976
+0.301	3743.259999	-4.220807e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3470.802038942976
 0.301	3745.319999	2.834748e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3472.712099211868
 0.301	3747.379999	1.0616950000000001e-17	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3474.6221594807603
 0.301	3749.439999	-1.321992e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3476.5322197496525
@@ -2016,7 +2016,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 0.301	3780.339998	-7.361252e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3505.183122855818
 0.301	3782.399998	-2.103269e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3507.09318312471
 0.301	3784.459998	1.499418e-17	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3509.003243393602
-0.301	3786.519998	2.9118369999999996e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3510.9133036624944
+0.301	3786.519998	2.911837e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3510.9133036624944
 0.301	3788.579998	7.034793000000001e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3512.823363931386
 0.301	3790.639997	-1.579387e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3514.7334232730645
 0.301	3792.699997	6.17623e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3516.6434835419564
@@ -2034,7 +2034,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 0.301	3817.419997	2.683517e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3539.56420676866
 0.301	3819.479997	8.439618999999999e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3541.474267037552
 0.301	3821.539997	-2.114873e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3543.384327306444
-0.301	3823.599997	3.5849759999999996e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3545.294387575336
+0.301	3823.599997	3.584976e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3545.294387575336
 0.301	3825.659997	3.348872e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3547.204447844228
 0.301	3827.719996	4.762486e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3549.114507185906
 0.301	3829.779996	4.803931e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3551.0245674547987
@@ -2043,7 +2043,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 0.301	3835.959996	4.700585e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3556.754748261474
 0.301	3838.019996	-2.070204e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3558.6648085303664
 0.301	3840.079996	3.795613e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3560.574868799258
-0.301	3842.139996	3.2573079999999996e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3562.48492906815
+0.301	3842.139996	3.257308e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3562.48492906815
 0.301	3844.199996	1.185488e-17	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3564.394989337042
 0.301	3846.259996	1.680928e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3566.305049605934
 0.301	3848.319996	-2.31323e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3568.2151098748263
@@ -2131,7 +2131,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 0.301	4017.239991	5.866802e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3724.8400472879
 0.301	4019.299991	9.612976e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3726.7501075567916
 0.301	4021.359991	1.494436e-17	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3728.6601678256834
-0.301	4023.419991	-2.5581549999999996e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3730.570228094576
+0.301	4023.419991	-2.558155e-19	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3730.570228094576
 0.301	4025.479991	9.982374e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3732.480288363468
 0.301	4027.539991	1.667928e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3734.3903486323597
 0.301	4029.599991	9.619379000000001e-18	OSIRIS+R1000B	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3736.3004089012516
@@ -7214,7 +7214,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 1.387	3774.159998	1.487292e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3499.452942049142
 1.387	3776.219998	6.376444e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3501.3630023180344
 1.387	3778.279998	2.488868e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3503.2730625869262
-1.387	3780.339998	4.0126349999999994e-19	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3505.183122855818
+1.387	3780.339998	4.012635e-19	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3505.183122855818
 1.387	3782.399998	-3.283731e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3507.09318312471
 1.387	3784.459998	-2.1186580000000002e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3509.003243393602
 1.387	3786.519998	-4.6172300000000015e-19	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3510.9133036624944
@@ -7241,7 +7241,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 1.387	3829.779996	7.623119e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3551.0245674547987
 1.387	3831.839996	1.969495e-19	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3552.9346277236905
 1.387	3833.899996	1.407437e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3554.8446879925823
-1.387	3835.959996	-5.6518349999999995e-19	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3556.754748261474
+1.387	3835.959996	-5.651835e-19	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3556.754748261474
 1.387	3838.019996	1.527245e-19	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3558.6648085303664
 1.387	3840.079996	1.5081700000000002e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3560.574868799258
 1.387	3842.139996	-1.165464e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3562.48492906815
@@ -7296,7 +7296,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 1.387	3943.079993	2.015523e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3656.077879462216
 1.387	3945.139993	3.2435999999999995e-21	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3657.987939731108
 1.387	3947.199993	2.538547e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3659.898
-1.387	3949.259993	2.4443749999999997e-19	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3661.808060268892
+1.387	3949.259993	2.444375e-19	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3661.808060268892
 1.387	3951.319993	1.030609e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3663.7181205377838
 1.387	3953.379993	3.801524e-18	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3665.628180806676
 1.387	3955.439993	5.090874e-19	OSIRIS+R1000B	900x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3667.538241075568
@@ -11110,7 +11110,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 2.405	3728.839999	-7.040558e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3457.431617060732
 2.405	3730.899999	1.365377e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3459.3416773296244
 2.405	3732.959999	1.2204520000000001e-17	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3461.2517375985167
-2.405	3735.019999	3.8307079999999995e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3463.1617978674085
+2.405	3735.019999	3.830708e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3463.1617978674085
 2.405	3737.079999	1.032603e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3465.0718581363003
 2.405	3739.139999	2.645145e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3466.981918405192
 2.405	3741.199999	3.989289e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3468.8919786740844
@@ -11184,7 +11184,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 2.405	3881.279995	4.016354e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3598.776073249884
 2.405	3883.339995	-1.529236e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3600.686133518776
 2.405	3885.399995	9.315577e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3602.596193787668
-2.405	3887.459995	4.447495999999999e-20	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3604.50625405656
+2.405	3887.459995	4.4474959999999995e-20	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3604.50625405656
 2.405	3889.519995	4.221601e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3606.4163143254523
 2.405	3891.579995	2.29388e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3608.326374594344
 2.405	3893.639995	9.847257e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3610.236434863236
@@ -11235,7 +11235,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 2.405	3986.339992	1.955424e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3696.189144181734
 2.405	3988.399992	1.550178e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3698.099204450626
 2.405	3990.459992	-7.804243e-20	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3700.009264719518
-2.405	3992.519992	2.8836749999999997e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3701.9193249884097
+2.405	3992.519992	2.883675e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3701.9193249884097
 2.405	3994.579992	2.023466e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3703.8293852573015
 2.405	3996.639992	2.764486e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3705.739445526194
 2.405	3998.699992	3.984814e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3707.6495057950856
@@ -11246,14 +11246,14 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 2.405	4008.999991	2.544577e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3717.199806212332
 2.405	4011.059991	3.173812e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3719.109866481224
 2.405	4013.119991	3.795429e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3721.0199267501157
-2.405	4015.179991	-3.6643159999999994e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3722.929987019008
+2.405	4015.179991	-3.664316e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3722.929987019008
 2.405	4017.239991	6.161989e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3724.8400472879
 2.405	4019.299991	7.337198999999999e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3726.7501075567916
 2.405	4021.359991	9.277237e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3728.6601678256834
 2.405	4023.419991	4.173678e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3730.570228094576
 2.405	4025.479991	1.209182e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3732.480288363468
 2.405	4027.539991	-2.674825e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3734.3903486323597
-2.405	4029.599991	4.2189829999999995e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3736.3004089012516
+2.405	4029.599991	4.218983e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3736.3004089012516
 2.405	4031.659991	9.103739e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3738.210469170144
 2.405	4033.719991	3.051955e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3740.1205294390356
 2.405	4035.779991	2.123408e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3742.0305897079274
@@ -11288,7 +11288,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 2.405	4095.519989	2.830204e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3797.4223356513676
 2.405	4097.579989	2.027503e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3799.3323959202594
 2.405	4099.639989	2.484366e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3801.2424561891517
-2.405	4101.699989	2.0288089999999997e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3803.1525164580435
+2.405	4101.699989	2.028809e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3803.1525164580435
 2.405	4103.759989	2.687227e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3805.0625767269357
 2.405	4105.819989	5.384541999999999e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3806.972636995827
 2.405	4107.879989	3.939107e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3808.8826972647194
@@ -11446,7 +11446,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 2.405	4420.99998	2.061377e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4099.211849791376
 2.405	4423.05998	2.408959e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4101.121910060268
 2.405	4425.11998	2.636358e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4103.031970329162
-2.405	4427.17998	7.750919e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4104.942030598053
+2.405	4427.17998	7.750918999999999e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4104.942030598053
 2.405	4429.23998	4.634362e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4106.852090866945
 2.405	4431.29998	5.848591e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4108.762151135837
 2.405	4433.35998	4.220965e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	4110.672211404729
@@ -12989,7 +12989,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 2.405	7599.579892	9.294474e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7046.434763096893
 2.405	7601.639892	9.274390999999998e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7048.3448233657855
 2.405	7603.699892	4.548762999999999e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7050.254883634678
-2.405	7605.759892	3.4164089999999996e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7052.16494390357
+2.405	7605.759892	3.416409e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7052.16494390357
 2.405	7607.819891	9.246596e-19	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7054.075003245248
 2.405	7609.879891	1.100638e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7055.985063514139
 2.405	7611.939891	1.513007e-18	OSIRIS+R1000B	900	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7057.8951237830315
@@ -15138,7 +15138,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.407	3955.439993	1.148226e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3667.538241075568
 4.407	3957.499993	4.0033230000000004e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3669.4483013444597
 4.407	3959.559993	1.005572e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3671.3583616133515
-4.407	3961.619993	3.9034959999999994e-19	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3673.2684218822437
+4.407	3961.619993	3.903496e-19	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3673.2684218822437
 4.407	3963.679993	3.0268700000000004e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3675.178482151136
 4.407	3965.739993	2.963957e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3677.088542420028
 4.407	3967.799993	1.627621e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3678.9986026889196
@@ -15274,7 +15274,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.407	4235.599985	2.598499e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3927.3064302271673
 4.407	4237.659985	2.989155e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3929.2164904960596
 4.407	4239.719985	5.205292999999999e-19	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3931.126550764951
-4.407	4241.779985	-3.0256839999999997e-19	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3933.036611033843
+4.407	4241.779985	-3.025684e-19	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3933.036611033843
 4.407	4243.839985	1.185072e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3934.946671302735
 4.407	4245.899985	2.486179e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3936.8567315716273
 4.407	4247.959985	1.753528e-18	OSIRIS+R1000B	750x2	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	3938.7667918405195
@@ -17177,7 +17177,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.42	5679.799981	2.580513e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	5266.388484932777
 4.42	5682.389981	5.992065e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	5268.7899684747335
 4.42	5684.979981	2.353319e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	5271.19145201669
-4.42	5687.569981	3.474190000000002e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	5273.592935558646
+4.42	5687.569981	3.4741900000000014e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	5273.592935558646
 4.42	5690.159981	3.267573e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	5275.9944191006025
 4.42	5692.749981	3.716279e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	5278.395902642559
 4.42	5695.339981	4.680867e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	5280.797386184516
@@ -17896,7 +17896,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.42	7542.009919	3.008654e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	6993.055094112193
 4.42	7544.599919	4.409499e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	6995.456577654149
 4.42	7547.189919	4.476599e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	6997.858061196106
-4.42	7549.779919	-2.7358869999999997e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7000.259544738062
+4.42	7549.779919	-2.735887e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7000.259544738062
 4.42	7552.369919	1.6719020000000001e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7002.661028280018
 4.42	7554.959919	5.944701e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7005.062511821975
 4.42	7557.549919	5.487008e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7007.463995363932
@@ -17920,7 +17920,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.42	7604.169917	9.853916e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7050.690697264719
 4.42	7606.759917	1.114665e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7053.092180806676
 4.42	7609.349917	1.104432e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7055.493664348632
-4.42	7611.939917	3.6532049999999995e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7057.895147890588
+4.42	7611.939917	3.653205e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7057.895147890588
 4.42	7614.529917	2.139409e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7060.296631432545
 4.42	7617.119917	2.8409620000000002e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7062.698114974502
 4.42	7619.709917	2.337949e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7065.099598516458
@@ -18093,7 +18093,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.42	8052.239902	3.839522e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7466.147336114975
 4.42	8054.829902	5.392304e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7468.548819656931
 4.42	8057.419902	5.392564e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7470.950303198887
-4.42	8060.009902	6.9677039999999995e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7473.351786740844
+4.42	8060.009902	6.967704e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7473.351786740844
 4.42	8062.599902	8.356460999999999e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7475.7532702828
 4.42	8065.189902	3.130707e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7478.154753824757
 4.42	8067.779902	7.277264e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	7480.5562373667135
@@ -18324,7 +18324,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.42	8650.529883	2.902799e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8020.890016689847
 4.42	8653.119883	6.198097e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8023.291500231803
 4.42	8655.709882	5.499745000000001e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8025.692982846545
-4.42	8658.299882	-2.3650719999999996e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8028.094466388502
+4.42	8658.299882	-2.365072e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8028.094466388502
 4.42	8660.889882	5.763332e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8030.495949930459
 4.42	8663.479882	4.173742e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8032.897433472415
 4.42	8666.069882	4.280021e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8035.298917014372
@@ -18524,7 +18524,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.42	9168.529866	6.161981e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8501.1867093185
 4.42	9171.119865	4.231636e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8503.58819193324
 4.42	9173.709865	2.862497e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8505.989675475197
-4.42	9176.299865	5.5121619999999995e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8508.391159017154
+4.42	9176.299865	5.512162e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8508.391159017154
 4.42	9178.889865	3.175168e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8510.792642559109
 4.42	9181.479865	4.155642e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8513.194126101065
 4.42	9184.069865	3.188262e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8515.595609643022
@@ -18673,7 +18673,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.42	9554.439853	2.358575e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8859.007745016226
 4.42	9557.029853	1.898438e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8861.409228558183
 4.42	9559.619853	5.211574999999999e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8863.81071210014
-4.42	9562.209852	-3.0627239999999997e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8866.21219471488
+4.42	9562.209852	-3.062724e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8866.21219471488
 4.42	9564.799852	1.765073e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8868.613678256837
 4.42	9567.389852	1.0226650000000001e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8871.015161798794
 4.42	9569.979852	2.023721e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	8873.41664534075
@@ -18777,7 +18777,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.42	9823.799844	6.224644e-20	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9108.76202503477
 4.42	9826.389844	3.050297e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9111.163508576727
 4.42	9828.979844	2.512641e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9113.564992118683
-4.42	9831.569844	-3.2354169999999997e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9115.96647566064
+4.42	9831.569844	-3.235417e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9115.96647566064
 4.42	9834.159843	2.0945830000000002e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9118.367958275381
 4.42	9836.749843	6.539383e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9120.769441817338
 4.42	9839.339843	3.994619e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9123.170925359294
@@ -18873,7 +18873,7 @@ time	obs_wavelength	flux	instrument	integration	integration_unit	time_unit	wavel
 4.42	10072.439836	-4.956096e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9339.304437644876
 4.42	10075.029835	1.745233e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9341.70592025962
 4.42	10077.619835	2.528654e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9344.107403801576
-4.42	10080.209835	2.6194259999999996e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9346.508887343532
+4.42	10080.209835	2.619426e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9346.508887343532
 4.42	10082.799835	2.489978e-18	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9348.91037088549
 4.42	10085.389835	8.041466999999999e-19	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9351.311854427446
 4.42	10087.979835	-9.687992e-20	OSIRIS+R1000R	600	seconds	days	angstroms	erg/s/cm2/A	0.0785	NaN	observer	9353.713337969402

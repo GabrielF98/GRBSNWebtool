@@ -2,6 +2,7 @@
 This file converts any text file in the webtool SourceData folder into a standard format.
 '''
 
+import argparse
 import glob
 import os
 import sqlite3
@@ -1040,7 +1041,7 @@ def rest_wavelength(obs_wavelength, z):
     """
 
     rest_wavelength = obs_wavelength/(1+float(z))
-    
+
 
     return rest_wavelength
 
@@ -1086,7 +1087,7 @@ def masterfileformat(event):
 
                 elif data['time_unit'][i] == 'hours':
                     time[i] = float(time[i])/24
-                    
+
                 elif data['time_unit'][i] == 'years':
                             time[i] = float(time[i])*365
 
@@ -1163,12 +1164,12 @@ def masterfileformat(event):
         # Xray files
         elif any(substring in file.lower() for substring in xray_filetags):
             data = pd.read_csv(file, sep='\t')
-            print(file_sources['Filename'])
-            print(file)
+
             # Add a column for the ads abstract link - source
             data['reference'] = len(data['time'])*[file_sources.at
                                                    [file_sources[file_sources['Filename'] ==
                                                                  file].index[0], 'Reference']]
+
             # Make sure the elapsed time is in seconds,
             # if its in days/minutes/hours then convert it.
             time = np.array(data['time'], dtype=np.float64)
@@ -1241,143 +1242,153 @@ def masterfileformat(event):
 ###################
 #### MAIN #########
 ###################
-# Run through all the files. Convert them to the format we want.
-for i in range(len(event_list)):
-    trigtime = get_trigtime(event_list[i])
-    redshift = get_redshift(event_list[i])
 
-    os.chdir("SourceData/")
-    os.chdir(event_list[i])
+if __name__ == '__main__':
 
-    file_list = glob.glob("*.txt")
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--grbsn', type=str, required=False)
+    args = parser.parse_args()
 
-    # Check if the readme exists already. If it does then the files are ready to parse.
-    if 'readme.txt' in file_list:
-        for file in file_list:
-            print(file)
-            if 'Master' in file:
-                print('Skipping ', file)
-                continue
+    if args.grbsn:
+        event_list = [args.grbsn]
 
-            # Radio files
-            if any(substring in file.lower() for substring in radio_filetags):
+    # Run through all the files. Convert them to the format we want.
+    for i in range(len(event_list)):
+        trigtime = get_trigtime(event_list[i])
+        redshift = get_redshift(event_list[i])
 
-                data = pd.read_csv(file, sep='\t')
+        os.chdir("SourceData/")
+        os.chdir(event_list[i])
 
-                # Find and catalogue limit values
-                if 'flux_density_limit' not in list(data.keys()) and \
-                        'flux_limit' not in list(data.keys()):
-                    data = limits(data, file)
-                elif 'flux_density_limit' in list(data.keys()):
-                    data['flux_density_limit'] = data['flux_density_limit'].astype(int)
-                elif 'flux_limit' in list(data.keys()):
-                    data['flux_limit'] = data['flux_limit'].astype(int)
+        file_list = glob.glob("*.txt")
 
-                # Tag any non-detections.
-                data = nondetections(data, file)
+        # Check if the readme exists already. If it does then the files are ready to parse.
+        if 'readme.txt' in file_list:
+            for file in file_list:
+                print(file)
+                if 'Master' in file:
+                    print('Skipping ', file)
+                    continue
 
-                # Calculate the elapsed time
-                if 'time' not in list(data.keys()):
-                    data = elapsed_time(data, trigtime)
+                # Radio files
+                if any(substring in file.lower() for substring in radio_filetags):
 
-                # Do the time formats before checking for dtime
-                data = time_formats(data)
-                if 'dtime' not in list(data.keys()):
-                    data = delta_time(data)
+                    data = pd.read_csv(file, sep='\t')
 
-                data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+                    # Find and catalogue limit values
+                    if 'flux_density_limit' not in list(data.keys()) and \
+                            'flux_limit' not in list(data.keys()):
+                        data = limits(data, file)
+                    elif 'flux_density_limit' in list(data.keys()):
+                        data['flux_density_limit'] = data['flux_density_limit'].astype(int)
+                    elif 'flux_limit' in list(data.keys()):
+                        data['flux_limit'] = data['flux_limit'].astype(int)
 
-            # Optical files
-            elif any(substring in file.lower() for substring in optical_filetags):
+                    # Tag any non-detections.
+                    data = nondetections(data, file)
 
-                data = pd.read_csv(file, sep='\t')
+                    # Calculate the elapsed time
+                    if 'time' not in list(data.keys()):
+                        data = elapsed_time(data, trigtime)
 
-                # Convert to mag from flux density if necessary
-                if 'mag' not in list(data.keys()) and 'flux_density' in list(data.keys()):
-                    flux_density = data['flux_density']
-                    dflux_density = data['dflux_density']
-                    flux_density_unit = data['flux_density_unit']
-                    mag, dmag = flux_density_to_AB_mag(
-                        flux_density, dflux_density, flux_density_unit)
-                    data['mag'] = mag
-                    data['dmag'] = dmag
-                    data['mag_unit'] = 'AB'
+                    # Do the time formats before checking for dtime
+                    data = time_formats(data)
+                    if 'dtime' not in list(data.keys()):
+                        data = delta_time(data)
 
-                # Find and catalogue limit values
-                if 'mag_limit' not in list(data.keys()):
-                    data = limits(data, file)
-                elif 'mag_limit' in list(data.keys()):
-                    data['mag_limit'] = data['mag_limit'].astype(int)
+                    data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
-                # Tag any non-detections.
-                data = nondetections(data, file)
+                # Optical files
+                elif any(substring in file.lower() for substring in optical_filetags):
 
-                # Calculate the elapsed time
-                if 'time' not in list(data.keys()):
-                    data = elapsed_time(data, trigtime)
+                    data = pd.read_csv(file, sep='\t')
 
-                # Do the time formats before checking for dtime
-                data = time_formats(data)
+                    # Convert to mag from flux density if necessary
+                    if 'mag' not in list(data.keys()) and 'flux_density' in list(data.keys()):
+                        flux_density = data['flux_density']
+                        dflux_density = data['dflux_density']
+                        flux_density_unit = data['flux_density_unit']
+                        mag, dmag = flux_density_to_AB_mag(
+                            flux_density, dflux_density, flux_density_unit)
+                        data['mag'] = mag
+                        data['dmag'] = dmag
+                        data['mag_unit'] = 'AB'
 
-                if 'dtime' not in list(data.keys()):
-                    data = delta_time(data)
+                    # Find and catalogue limit values
+                    if 'mag_limit' not in list(data.keys()):
+                        data = limits(data, file)
+                    elif 'mag_limit' in list(data.keys()):
+                        data['mag_limit'] = data['mag_limit'].astype(int)
 
-                data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+                    # Tag any non-detections.
+                    data = nondetections(data, file)
 
-            # Xray files
-            elif any(substring in file.lower() for substring in xray_filetags):
+                    # Calculate the elapsed time
+                    if 'time' not in list(data.keys()):
+                        data = elapsed_time(data, trigtime)
 
-                data = pd.read_csv(file, sep='\t')
+                    # Do the time formats before checking for dtime
+                    data = time_formats(data)
 
-                # Find and catalogue limit values
-                if 'flux_limit' not in list(data.keys()):
-                    data = limits(data, file)
-                elif 'flux_limit' in list(data.keys()):
-                    data['flux_limit'] = data['flux_limit'].astype(int)
+                    if 'dtime' not in list(data.keys()):
+                        data = delta_time(data)
 
-                # Tag any non-detections.
-                data = nondetections(data, file)
+                    data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
-                # Calculate the elapsed time
-                if 'time' not in list(data.keys()):
-                    data = elapsed_time(data, trigtime)
+                # Xray files
+                elif any(substring in file.lower() for substring in xray_filetags):
 
-                # Do the time formats before checking for dtime
-                data = time_formats(data)
+                    data = pd.read_csv(file, sep='\t')
 
-                if 'dtime' not in list(data.keys()):
-                    data = delta_time(data)
+                    # Find and catalogue limit values
+                    if 'flux_limit' not in list(data.keys()):
+                        data = limits(data, file)
+                    elif 'flux_limit' in list(data.keys()):
+                        data['flux_limit'] = data['flux_limit'].astype(int)
 
-                data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+                    # Tag any non-detections.
+                    data = nondetections(data, file)
 
-            # Spectra files
-            elif any(substring in file.lower() for substring in spectra_filetags):
+                    # Calculate the elapsed time
+                    if 'time' not in list(data.keys()):
+                        data = elapsed_time(data, trigtime)
 
-                data = pd.read_csv(file, sep='\t')
+                    # Do the time formats before checking for dtime
+                    data = time_formats(data)
 
-                # Calculate the elapsed time
-                if 'time' not in list(data.keys()):
-                    data = elapsed_time(data, trigtime)
+                    if 'dtime' not in list(data.keys()):
+                        data = delta_time(data)
 
-                # Do the time formats before checking for dtime
-                data = time_formats(data)
+                    data.to_csv(file, sep='\t', index=False, na_rep='NaN')
 
-                if 'dtime' not in list(data.keys()):
-                    data = delta_time(data)
+                # Spectra files
+                elif any(substring in file.lower() for substring in spectra_filetags):
 
-                # Calculate the rest wavelength
-               
-                data['rest_wavelength'] = rest_wavelength(
-                    data['obs_wavelength'].to_numpy(), redshift)
+                    data = pd.read_csv(file, sep='\t')
 
-                data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+                    # Calculate the elapsed time
+                    if 'time' not in list(data.keys()):
+                        data = elapsed_time(data, trigtime)
 
-            # Don't go over the readmes or other data.
-            else:
-                print('Skipping: ', file)
+                    # Do the time formats before checking for dtime
+                    data = time_formats(data)
 
-        # Convert all the files to one master file for Optical/NIR.
-        masterfileformat(event_list[i])
+                    if 'dtime' not in list(data.keys()):
+                        data = delta_time(data)
 
-    os.chdir('..')
-    os.chdir('..')
+                    # Calculate the rest wavelength
+
+                    data['rest_wavelength'] = rest_wavelength(
+                        data['obs_wavelength'].to_numpy(), redshift)
+
+                    data.to_csv(file, sep='\t', index=False, na_rep='NaN')
+
+                # Don't go over the readmes or other data.
+                else:
+                    print('Skipping: ', file)
+
+            # Convert all the files to one master file for Optical/NIR.
+            masterfileformat(event_list[i])
+
+        os.chdir('..')
+        os.chdir('..')
