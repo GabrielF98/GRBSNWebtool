@@ -1,67 +1,89 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta name="google-site-verification" content="6PkIZN80ll4cjQPZ9yRD2PhMAa1KwYo3LRl1x1hDlBQ" />
     <!--Use the bootstrap css framework-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- Load the style.css sheet -->
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
 
     <title>GRBSNTool</title>
-    </head>
+</head>
 
-    <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <!-- <ul class="navbar-nav" id="navbarNavAltMarkup"> -->
-            <a class="navbar-brand" href="/">GRBSN Webtool</a>
-            
-                
-                  <a class="nav-item nav-link" href="/">Home</a>
-                  <a class="nav-item nav-link" href="/graphing">Graphs</a>
-                  <a class="nav-item nav-link" href="/advsearch">Advanced Search</a>
-                  <a class="nav-item nav-link" href="/docs">About</a>
-                
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- <ul class="navbar-nav" id="navbarNavAltMarkup"> -->
+    <a class="navbar-brand" href="/">GRBSN Webtool</a>
 
 
-                <!-- Dropdown Menu -->
-                <li class="nav-item dropdown dropdown-option">
-                
-                <a class="nav-item dropdown-toggle dropdown-menu-right" style='color: white' href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Catalogue
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                    {%for i in range(0, number1)%}
-                        <a class="dropdown-item" href="/{{grbs[i]}}">{{grbs[i]}}</a>
-                    {%endfor%}
-                </ul>
-                  </li>
-        </nav>
-        
-        
-        <!-- Junk -->
+    <a class="nav-item nav-link" href="/">Home</a>
+    <a class="nav-item nav-link" href="/graphing">Graphs</a>
+    <a class="nav-item nav-link" href="/advsearch">Advanced Search</a>
+    <a class="nav-item nav-link" href="/docs">About</a>
 
-        
-        <!-- java script for things like nav bars 
+
+
+    <!-- Dropdown Menu -->
+    <li class="nav-item dropdown dropdown-option">
+
+        <a class="nav-item dropdown-toggle dropdown-menu-right" style='color: white' href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Catalogue
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+            {%for i in range(0, number1)%}
+            <a class="dropdown-item" href="/{{grbs[i]}}">{{grbs[i]}}</a>
+            {%endfor%}
+        </ul>
+    </li>
+
+    <!-- Github -->
+    <a class="ml-auto nav-link d-flex align-items-center" href="https://github.com/GabrielF98/GRBSNWebtool">
+        <img src="/static/stats/github-mark-white.png" width="30" height="30" class="ml-auto" alt="GitHub link">
+    </a>
+    </div>
+
+    <!-- Contact -->
+
+    <a class="nav-link" href="mailto:gabriel.finneran@ucdconnect.ie">
+        <i class="fas fa-envelope"></i> Contact
+    </a>
+
+</nav>
+
+
+<!-- Junk -->
+
+
+<!-- java script for things like nav bars 
             Gives us styles from bootstrap-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
-        <!-- /*HTML Latex*/ -->
-        <script type="text/x-mathjax-config">
+<!-- /*HTML Latex*/ -->
+<script type="text/x-mathjax-config">
         MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
-        <script type="text/javascript"
-        src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript"
+    src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-        
-    <body>
-        {% block title %}{% endblock %}
-        
-        {% block content %}{% endblock %}
-    </body>
-    
+
+<body>
+    {% block title %}{% endblock %}
+
+    {% block content %}{% endblock %}
+</body>
+
 </html>

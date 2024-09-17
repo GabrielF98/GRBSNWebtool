@@ -1,0 +1,10 @@
+time	N_H	flux	flux_limit	unabsorbed_flux	time_unit	flux_unit	time_frame	dtime	energy_range	dflux	instrument
+120.5	<700e+20	7.93e-10	0	1.06e-09	seconds	erg/cm^2/sec	observer	4.700000000000003	0.3-10keV	0	Swift-XRT
+144.95	<400e+20	6.91e-10	0	9.21e-10	seconds	erg/cm^2/sec	observer	12.950000000000005	0.3-10keV	0	Swift-XRT
+181.75	<500e+20	3.34e-10	0	4.06e-10	seconds	erg/cm^2/sec	observer	23.849999999999994	0.3-10keV	0	Swift-XRT
+247.2	<500e+20	1.7e-10	0	2.03e-10	seconds	erg/cm^2/sec	observer	40.0	0.3-10keV	0	Swift-XRT
+327.2	<100e+20	1.47e-10	0	1.61e-10	seconds	erg/cm^2/sec	observer	40.0	0.3-10keV	0	Swift-XRT
+402.2	<20e+20	9.69e-11	0	1.14e-10	seconds	erg/cm^2/sec	observer	35.0	0.3-10keV	0	Swift-XRT
+642.2	<900e+20	1.47e-10	0	1.63e-10	seconds	erg/cm^2/sec	observer	205.00000000000003	0.3-10keV	0	Swift-XRT
+71155.15000000001	6.8e+20	6.23e-11	0	6.55e-11	seconds	erg/cm^2/sec	observer	61263.55	0.3-10keV	0	Swift-XRT
+682587.0	<700e+20	1.52e-14	0	1.8e-14	seconds	erg/cm^2/sec	observer	511202.0	0.3-10keV	0	Swift-XRT

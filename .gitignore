@@ -5,3 +5,5 @@ Webtool/instance/
 .ipynb_checkpoints
 Paper/
 **/NotionExport/
+**/newevent.py
+**/full-properties.json

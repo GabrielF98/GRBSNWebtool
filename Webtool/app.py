@@ -11,15 +11,15 @@ from os.path import exists  # Check if a file exists
 
 import numpy as np
 import pandas as pd  # Pandas
+import yaml
 from astropy.time import Time  # Converting MJD to UTC
 from bokeh.embed import components
-from bokeh.layouts import layout
 
 # Pieces for Bokeh
 from bokeh.models import ColumnDataSource, HoverTool, Label, Legend, Range1d
 from bokeh.palettes import Category20_20, d3, viridis
 from bokeh.plotting import figure
-from bokeh.transform import factor_cmap, factor_mark
+from bokeh.transform import factor_mark
 
 # Basic flask stuff
 from flask import (
@@ -55,24 +55,16 @@ from werkzeug.exceptions import abort
 from wtforms import StringField, SubmitField
 from wtforms.validators import Optional
 
-#################################
-#################################
-# Flask app stuff ###############
-#################################
-#################################
-
-
-#################################
-#################################
-# Bokeh stuff ###################
-#################################
-#################################
-
-
 # Create config.py file
 with open("instance/config.py", "w") as f:
     code = str(os.urandom(32).hex())
     f.write(("SECRET_KEY = '" + code + "'"))
+
+# Config file
+with open("static/config.yaml", "r") as file:
+    CONFIG = yaml.safe_load(file)
+
+LATEST_RELEASE = CONFIG["LATEST_RELEASE"]
 
 # Search on the homepage
 
@@ -1016,7 +1008,7 @@ def event(event_id):
         x_axis_type="log",
         margin=5,
         aspect_ratio=16 / 9,
-        max_width=1000,
+        sizing_mode="stretch_both",
     )
 
     legend_it = []
@@ -1373,7 +1365,7 @@ def event(event_id):
         x_axis_type="log",
         margin=5,
         aspect_ratio=16 / 9,
-        max_width=1000,
+        sizing_mode="stretch_both",
     )
 
     ####### References #############
@@ -1779,7 +1771,7 @@ def event(event_id):
         x_axis_type="log",
         margin=5,
         aspect_ratio=16 / 9,
-        max_width=1000,
+        sizing_mode="stretch_both",
     )
 
     #################################
@@ -2037,8 +2029,8 @@ def event(event_id):
         toolbar_location="right",
         tools=select_tools,
         margin=5,
-        aspect_ratio=1,
-        max_width=1000,
+        aspect_ratio=16 / 9,
+        sizing_mode="stretch_both",
     )
 
     # Blank tooltips
@@ -2404,17 +2396,15 @@ def event(event_id):
             spectrum.add_layout(legend2, "left")
             legend2.label_text_font_size = "10pt"
 
-    script, div = components(
-        layout([radio], [optical], [xray], [spectrum], sizing_mode="scale_both")
-    )
-    kwargs = {"script": script, "div": div}
-    kwargs["title"] = "bokeh-with-flask"
-
+    graphs = [radio, optical, xray, spectrum]
+    component_list = [components(graph) for graph in graphs]
+    script_list, div_list = zip(*component_list)
     # Return everything
     return render_template(
         "event.html",
         event=event,
         event_id=event_id,
+        latest_release=LATEST_RELEASE,
         radec=radec,
         peakmag=peakmag,
         event_nos=event_nos,
@@ -2432,7 +2422,8 @@ def event(event_id):
         radio_refs=rad_refs,
         spec_refs=spec_refs,
         needed_dict=needed_dict,
-        **kwargs,
+        div_list=div_list,
+        script_list=script_list,
     )
 
 
@@ -2700,7 +2691,7 @@ def graphs():
             x_axis_type=str(axis[x]),
             y_axis_type=str(axis[y]),
             toolbar_location="right",
-            plot_width=1200,
+            plot_width=900,
             plot_height=700,
         )
         graph.xaxis.ticker.desired_num_ticks = 2
@@ -2778,8 +2769,6 @@ def download_graph_data(title, grb_name, sne_name, raw_x, raw_y):
     resp.headers.set("Content-Disposition", "attachment", filename=name)
     return resp
 
-
-# Pass the data to be used by the dropdown menu (decorating)
 
 # Help
 

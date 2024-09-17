@@ -1,36 +1,29 @@
-Table 1 
-VLA, ATCA, and VLBA Observations of GRB 100418a
-
-
-Date	Instrument	deltaT	Frequency	Configuration	Flux Density	rms	
-(days)	(GHz)	(muJy beam^-1)	(muJy beam^-1)	
-2010 Apr 20	ATCA	2	5.5	6A	865	120	
-2010 Apr 20	ATCA	2	9.0	6A	1273	96	
-2010 Apr 21	VLA	3	8.46	D	458	20	
-2010 Apr 24	VLA	6	8.46	D	289	22	
-2010 Apr 30	VLA	12	8.46	D	516	22	
-2010 May 6	VLA	18	8.46	D	537	20	
-2010 May 14	VLA	26	8.46	D	847	23	
-2010 May 21	VLA	33	8.46	D	1028	37	
-2010 May 26	ATCA	38	5.5	6C	900	80	
-2010 May 26	ATCA	38	9.0	6C	1370	180	
-2010 Jun 5	VLA	48	8.46	D	1454	21	
-2010 Jun 15	VLA	56	4.95	D	440	76	
-2010 Jun 15	VLA	56	8.46	D	923	32	
-2010 Jun 22	VLBA	65	8.4		890	50	
-2010 Jun 26	ATCA	67	5.5	6C	1270	120	
-2010 Jun 26	ATCA	67	9.0	6C	1600	200	
-2010 Jun 29	VLA	72	4.95	D	513	44	
-2010 Jul 7	VLA	80	8.46	D	526	41	
-2010 Jul 22	VLA	95	8.46	D	641	37	
-2010 Jul 22	VLA	95	4.95	D	404	50	
-2010 Sep 22	VLA	157	8.46	DnC	366	53	
-2010 Sep 22	VLA	157	4.95	DnC	196	64	
-2011 Apr 6	VLA	353	4.9	B	311	25	
-2011 Apr 6	VLA	353	7.9	B	332	20	
-2011 Sep 15	VLA	391	4.9	A-D	205	82	
-2011 Sep 15	VLA	391	7.9	A-D	105	26	
-2012 Aug 21	VLA	721	4.9	B	148	28	
-2012 Aug 21	VLA	721	7.9	B	81	34	
-							
-Notes. The GRB was detected at all epochs (>3sigma, except the 4.9 GHz session on 2011 September 15 and the 7.9 GHz session on 2012 August 21 when the detections were <3sigma). deltaT is the number of the days since prompt emission.
+date	instrument	time	freq	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	freq_unit	flux_density_unit	time_frame	dtime
+2010-Apr-20	ATCA	2	5.5	865.0	0	120	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Apr-20	ATCA	2	9.0	1273.0	0	96	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Apr-21	VLA	3	8.46	458.0	0	20	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Apr-24	VLA	6	8.46	289.0	0	22	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Apr-30	VLA	12	8.46	516.0	0	22	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-May-06	VLA	18	8.46	537.0	0	20	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-May-14	VLA	26	8.46	847.0	0	23	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-May-21	VLA	33	8.46	1028.0	0	37	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-May-26	ATCA	38	5.5	900.0	0	80	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-May-26	ATCA	38	9.0	1370.0	0	180	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Jun-05	VLA	48	8.46	1454.0	0	21	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Jun-15	VLA	56	4.95	440.0	0	76	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Jun-15	VLA	56	8.46	923.0	0	32	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Jun-22	VLBA	65	8.4	890.0	0	50	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Jun-26	ATCA	67	5.5	1270.0	0	120	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Jun-26	ATCA	67	9.0	1600.0	0	200	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Jun-29	VLA	72	4.95	513.0	0	44	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Jul-07	VLA	80	8.46	526.0	0	41	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Jul-22	VLA	95	8.46	641.0	0	37	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Jul-22	VLA	95	4.95	404.0	0	50	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Sep-22	VLA	157	8.46	366.0	0	53	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2010-Sep-22	VLA	157	4.95	196.0	0	64	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2011-Apr-06	VLA	353	4.9	311.0	0	25	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2011-Apr-06	VLA	353	7.9	332.0	0	20	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2011-Sep-15	VLA	391	4.9	205.0	0	82	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2011-Sep-15	VLA	391	7.9	105.0	0	26	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2012-Aug-21	VLA	721	4.9	148.0	0	28	yyyy-month-deciday	days	GHz	microJy	observer	NaN
+2012-Aug-21	VLA	721	7.9	81.0	0	34	yyyy-month-deciday	days	GHz	microJy	observer	NaN

@@ -1,0 +1,8 @@
+date	time	instrument	energy_range	flux	flux_limit	dflux	dflux2	date_unit	time_unit	N_H	dtime	time_frame	flux_unit
+2459088.386616	0.7	Swift XRT	0.3–10keV	8.17e-13	0	2e-13	NaN	MJD	days	6.02e+20	NaN	observer	erg/cm^2/sec
+2459088.44194	0.75	Swift XRT	0.3–10keV	7.22e-13	0	1.85e-13	1.85e-13	MJD	days	6.02e+20	NaN	observer	erg/cm^2/sec
+2459088.522328	0.83	Swift XRT	0.3–10keV	6.28e-13	0	1.55e-13	1.55e-13	MJD	days	6.02e+20	NaN	observer	erg/cm^2/sec
+2459089.43786	1.75	Swift XRT	0.3–10keV	2.13e-13	0	4.57e-14	4.57e-14	MJD	days	6.02e+20	NaN	observer	erg/cm^2/sec
+2459090.285972	2.6	Swift XRT	0.3–10keV	2.02e-13	0	4.61e-14	4.61e-14	MJD	days	6.02e+20	NaN	observer	erg/cm^2/sec
+2459094.09085	6.4	Swift XRT	0.3–10keV	1.26e-13	0	2.91e-14	2.91e-14	MJD	days	6.02e+20	NaN	observer	erg/cm^2/sec
+2459104.352156	16.66	Swift XRT	0.3–10keV	4.62e-14	0	3.7e-14	2.53e-14	MJD	days	6.02e+20	NaN	observer	erg/cm^2/sec

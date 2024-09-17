@@ -1,0 +1,36 @@
+Table 1 
+VLA, ATCA, and VLBA Observations of GRB 100418a
+
+
+Date	Instrument	deltaT	Frequency	Configuration	Flux Density	rms	
+(days)	(GHz)	(muJy beam^-1)	(muJy beam^-1)	
+2010 Apr 20	ATCA	2	5.5	6A	865	120	
+2010 Apr 20	ATCA	2	9.0	6A	1273	96	
+2010 Apr 21	VLA	3	8.46	D	458	20	
+2010 Apr 24	VLA	6	8.46	D	289	22	
+2010 Apr 30	VLA	12	8.46	D	516	22	
+2010 May 6	VLA	18	8.46	D	537	20	
+2010 May 14	VLA	26	8.46	D	847	23	
+2010 May 21	VLA	33	8.46	D	1028	37	
+2010 May 26	ATCA	38	5.5	6C	900	80	
+2010 May 26	ATCA	38	9.0	6C	1370	180	
+2010 Jun 5	VLA	48	8.46	D	1454	21	
+2010 Jun 15	VLA	56	4.95	D	440	76	
+2010 Jun 15	VLA	56	8.46	D	923	32	
+2010 Jun 22	VLBA	65	8.4		890	50	
+2010 Jun 26	ATCA	67	5.5	6C	1270	120	
+2010 Jun 26	ATCA	67	9.0	6C	1600	200	
+2010 Jun 29	VLA	72	4.95	D	513	44	
+2010 Jul 7	VLA	80	8.46	D	526	41	
+2010 Jul 22	VLA	95	8.46	D	641	37	
+2010 Jul 22	VLA	95	4.95	D	404	50	
+2010 Sep 22	VLA	157	8.46	DnC	366	53	
+2010 Sep 22	VLA	157	4.95	DnC	196	64	
+2011 Apr 6	VLA	353	4.9	B	311	25	
+2011 Apr 6	VLA	353	7.9	B	332	20	
+2011 Sep 15	VLA	391	4.9	A-D	205	82	
+2011 Sep 15	VLA	391	7.9	A-D	105	26	
+2012 Aug 21	VLA	721	4.9	B	148	28	
+2012 Aug 21	VLA	721	7.9	B	81	34	
+							
+Notes. The GRB was detected at all epochs (>3sigma, except the 4.9 GHz session on 2011 September 15 and the 7.9 GHz session on 2012 August 21 when the detections were <3sigma). deltaT is the number of the days since prompt emission.

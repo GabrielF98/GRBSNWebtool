@@ -12,55 +12,228 @@
 <body>
   {% block title %}
   <div class="primary">
-  <!-- Get the sources for each piece of the data -->
-  <!-- First we get all the references -->
+    <!-- Get the sources for each piece of the data -->
+    <!-- First we get all the references -->
 
-  <!--The page title -->
-  <!-- This will be the name of the GRB and an associated SN if applicable -->
-  
-  <!-- Take care of AT Names for the SNs -->
+    <!--The page title -->
+    <!-- This will be the name of the GRB and an associated SN if applicable -->
 
-  {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
-  {% if event[0]['SNe'] == None %}
-  <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
-  {% elif event[0]['GRB'] == None %}
-  <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
-  {% else %}
-  <h2> <b>GRB{{ event[0]['GRB']}} / {{ event[0]['SNe'] }} </b></h2>
-  {% endif %}
-  {%else%}
-  {% if event[0]['SNe'] == None %}
-  <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
-  {% elif event[0]['GRB'] == None %}
-  <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
-  {% else %}
-  <h2> <b>GRB{{ event[0]['GRB']}} / SN{{ event[0]['SNe'] }} </b></h2>
-  {% endif %}
-  {%endif%}
-  
-</div>
-{% endblock %}
+    <!-- Take care of AT Names for the SNs -->
+
+    {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
+    {% if event[0]['SNe'] == None %}
+    {% elif event[0]['GRB'] == None %}
+    <h2> <b>No GRB Name / {{ event[0]['SNe']}} </b></h2>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; border-color: #6e5494;
+          background-color: #6e5494;" href="https://github.com/GabrielF98/GRBSNWebtool/tree/{{ latest_release }}/Webtool/static/SourceData/{{
+          event[0]['SNe']}}">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      View this event on GitHub
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #FFA500;
+                        background-color: #FFA500;"
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      Report an issue
+    </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                            background-color: #B2DFDB;" href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">
+      Download tables
+    </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">
+      Download observations
+    </a>
+
+    {% else %}
+    <h2> <b>GRB{{ event[0]['GRB']}} / {{ event[0]['SNe'] }} </b></h2>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; border-color: #6e5494;
+          background-color: #6e5494;" href="https://github.com/GabrielF98/GRBSNWebtool/tree/{{ latest_release }}/Webtool/static/SourceData/GRB{{
+          event[0]['GRB']}}-{{
+          event[0]['SNe']}}">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      View this event on GitHub
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #FFA500;
+                        background-color: #FFA500;"
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      Report an issue
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">
+      Download observations
+    </a>
+
+    {% endif %}
+    {%else%}
+    {% if event[0]['SNe'] == None %}
+    <h2> <b>GRB{{ event[0]['GRB']}} / No SN Name (Photometric only) </b></h2>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; border-color: #6e5494;
+          background-color: #6e5494;" href="https://github.com/GabrielF98/GRBSNWebtool/tree/{{ latest_release }}/Webtool/static/SourceData/GRB{{
+          event[0]['GRB']}}">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      View this event on GitHub
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #FFA500;
+                        background-color: #FFA500;"
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      Report an issue
+    </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                            background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'])}}">
+      Download tables
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'])}}">
+      Download observations
+    </a>
+
+    {% elif event[0]['GRB'] == None %}
+    <h2> <b>No GRB Name / SN{{ event[0]['SNe']}} </b></h2>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; border-color: #6e5494;
+      background-color: #6e5494;" href="https://github.com/GabrielF98/GRBSNWebtool/tree/{{ latest_release }}/Webtool/static/SourceData/SN{{
+      event[0]['SNe']}}">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      View this event on GitHub
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #FFA500;
+                        background-color: #FFA500;"
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      Report an issue
+    </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                            background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">
+      Download observations
+    </a>
+
+    {% else %}
+    <h2> <b>GRB{{ event[0]['GRB']}} / SN{{ event[0]['SNe'] }} </b></h2>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; border-color: #6e5494;
+          background-color: #6e5494;" href="https://github.com/GabrielF98/GRBSNWebtool/tree/{{ latest_release }}/Webtool/static/SourceData/GRB{{ event[0]['GRB']}}-SN{{
+          event[0]['SNe']}}">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      View this event on GitHub
+    </a>
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #FFA500;
+                        background-color: #FFA500;"
+      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new/choose">
+      <img src="/static/stats/github-mark-white.png" width="30" height="30" alt="GitHub link" class="shift-up">
+      Report an issue
+    </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                            background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">
+      Download observations
+    </a>
+
+    {% endif %}
+    {%endif%}
+
+  </div>
+
+  <p></p>
+  {% endblock %}
   {% block content %}
   <div class="primary">
-  {% if 'GCN' in event[0]['Notes']|string() %}
-  <p style="color:yellow">
-    <b>NOTE:</b> This GRB-SN has been added to the tool based on a GCN. This means that it has not yet been peer
-    reviewed in a published paper. Any data presented here may be subject to change. The GCN can be found <a
-      style="color:#F5B041" href="{{event[0]['PrimarySources']}}" target='_blank'>here</a>.
-  </p>
+    {% if 'GCN' in event[0]['Notes']|string() %}
+    <p style="color:yellow">
+      <b>NOTE:</b> This GRB-SN has been added to the tool based on a GCN. This means that it has not yet been peer
+      reviewed in a published paper. Any data presented here may be subject to change. The GCN can be found <a
+        style="color:#F5B041" href="{{event[0]['PrimarySources']}}" target='_blank'>here</a>.
+    </p>
 
-  {% elif 'Disputed:' in event[0]['Notes']|string() %}
-  <p style="color:yellow">
-    <b>Disputed Classification:</b> {{event[0]['Notes'][9:]|string()}}.
-  </p>
-  {% endif %}
+    {% elif 'Disputed:' in event[0]['Notes']|string() %}
+    <p style="color:yellow">
+      <b>Disputed Classification:</b> {{event[0]['Notes'][9:]|string()}}.
+    </p>
+    {% endif %}
   </div>
-  
 
-  
+  <p></p>
+  <div class="primary">
+    <p>The data for this event was collected from
+      refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS</a>; and from online
+      repositories including <a href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the
+      <a href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>.
+    </p>
+  </div>
 
   <div class="primary">
-    <table class="table table-sm table2" style="width:45%">
+    <h2>
+      <b>Tabular data</b>
+    </h2>
+    <!-- Download Database Data -->
+    {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
+    {% if event[0]['GRB'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">
+      Download tables
+    </a>
+    {% else %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+    {% endif %}
+    {%else%}
+    {% if event[0]['SNe'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'])}}">
+      Download tables
+    </a>
+    {% elif event[0]['GRB'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                    background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+    {% else %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                background-color: #B2DFDB;"
+      href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">
+      Download tables
+    </a>
+    {%endif%}
+    {%endif%}
+  </div>
+
+
+
+  <div class="table-container">
+    <table class="styled-table" style="width:49%">
       <thead>
         <tr>
           <th>GRB Parameter</th>
@@ -192,7 +365,7 @@
     </table>
 
 
-    <table class="table table-sm table2" style="width:45%">
+    <table class="styled-table" style="width:49%">
       <thead>
         <tr>
           <th scope="col">SN Parameter</th>
@@ -258,7 +431,8 @@
           <td>
             {% for i in range(event_nos|length) %}
             {% if event[i]['v_photospheric']|string != 'None' %}
-            {{ event[i]['v_photospheric'] }} <sup><a href="{{event_refs[i]}}" target='_blank'>{{event_nos[i]}} </a></sup> <br>
+            {{ event[i]['v_photospheric'] }} <sup><a href="{{event_refs[i]}}" target='_blank'>{{event_nos[i]}}
+              </a></sup> <br>
             {% endif %}
             {% endfor %}
           </td>
@@ -269,7 +443,8 @@
           <td>
             {% for i in range(event_nos|length) %}
             {% if event[i]['v_Fe_expansion']|string != 'None' %}
-            {{ event[i]['v_Fe_expansion'] }} <sup><a href="{{event_refs[i]}}" target='_blank'>{{event_nos[i]}} </a></sup> <br>
+            {{ event[i]['v_Fe_expansion'] }} <sup><a href="{{event_refs[i]}}" target='_blank'>{{event_nos[i]}}
+              </a></sup> <br>
             {% endif %}
             {% endfor %}
           </td>
@@ -280,7 +455,8 @@
           <td>
             {% for i in range(event_nos|length) %}
             {% if event[i]['v_Si_expansion']|string != 'None' %}
-            {{ event[i]['v_Si_expansion'] }} <sup><a href="{{event_refs[i]}}" target='_blank'>{{event_nos[i]}} </a></sup> <br>
+            {{ event[i]['v_Si_expansion'] }} <sup><a href="{{event_refs[i]}}" target='_blank'>{{event_nos[i]}}
+              </a></sup> <br>
             {% endif %}
             {% endfor %}
           </td>
@@ -333,141 +509,90 @@
     </table>
   </div>
 
-<div class="primary">
-  <h2>
-    <b>Download Table Data</b>
-  </h2>
-  <!-- Download Database Data -->
-  {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
-  {% if event[0]['SNe'] == None %}
-  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data
-    about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected
-    from refereed papers found on the ADS for these events.</p>
-  {% elif event[0]['GRB'] == None %}
-  <p><a href="{{ url_for('get_table', event_id=event[0]['SNe'])}}">Click here</a> to download a tables of data about
-    this GRB/SN from our database. This table includes parameters like those in the table above and was collected from
-    refereed papers found on the ADS for these events.</p>
-  {% else %}
-  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">Click here</a> to download
-    a table of data about this GRB/SN from our database. This table includes parameters like those in the tables above
-    and was collected from refereed papers found on the ADS for these events.</p>
-  {% endif %}
-  {%else%}
-  {% if event[0]['SNe'] == None %}
-  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB'] )}}">Click here</a> to download a table of data
-    about this GRB/SN from our database. This table includes parameters like those in the tables above and was collected
-    from refereed papers found on the ADS for these events.</p>
-  {% elif event[0]['GRB'] == None %}
-  <p><a href="{{ url_for('get_table', event_id='SN'+event[0]['SNe'])}}">Click here</a> to download a table of data about
-    this GRB/SN from our database. This table includes parameters like those in the tables above and was collected from
-    refereed papers found on the ADS for these events.</p>
-  {% else %}
-  <p><a href="{{ url_for('get_table', event_id='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">Click here</a> to
-    download a table of data about this GRB/SN from our database. This table includes parameters like those in the
-    tables above and was collected from refereed papers found on the ADS for these events.</p>
-  {%endif%}
-  {%endif%}
-</div>
-  
+
+
 
 
 
   <!-- Plots -->
   <div class="primary">
-  <h2><b>Graphs</b></h2>
-  <p>These graphs display observations of this event. For help using the toolbars click <a
-      href="{{ url_for('get_help')}}">here</a>.
-  
+
+    <h2><b>Observational data</b></h2>
+    <p>These graphs display observational data for this event. For help using the toolbars click <a
+        href="{{ url_for('get_help')}}">here</a>. Note that some of the data collected for this event is not yet
+      displayed in these plots. In these cases the
+      plots are
+      marked with the "Pending" label.
+      This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data
+      are
+      included in the above download.
+    </p>
+    {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
+    {% if event[0]['GRB'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                            background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">
+      Download all observations
+    </a>
+    {% else %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                            background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">
+      Download all observations
+    </a>
+    {% endif %}
+    {% else %}
+    {% if event[0]['SNe'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                            background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'])}}">
+      Download all observations
+    </a>
+    {% elif event[0]['GRB'] == None %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                        background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">
+      Download all observations
+    </a>
+    {% else %}
+    <a role="button" class="btn btn-primary btn-sm" style="border-radius: 10px; font-size: 1.3em; color: black; border-color: #B2DFDB;
+                                        background-color: #B2DFDB;"
+      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">
+      Download all observations
+    </a>
+    {% endif %}
+    {% endif %}
 
 
-    {{ div|safe }}
-    {{ script|safe }}
+    <p></p>
+
+
+
+
   </div>
-  
-  <div class="primary">
-    <h2> <b>Download Observations</b> </h2>
-  {% if 'AT' in event[0]['SNe']|string() or 'iPTF' in event[0]['SNe']|string()%}
-  {% if event[0]['SNe'] == None %}
-  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from
-    refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
-      href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. The download includes a readme file
-    showing the origin of all the data. </p>
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-    marked with the "Pending" label.
-    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-    included in the above download. </p>
-  {% elif event[0]['GRB'] == None %}
-  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-      href="{{ url_for('get_files2', directory=event[0]['SNe'])}}">click here</a>. This data was drawn from refereed
-    papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS</a> as well as from <a
-      href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. The download includes a readme file
-    showing the origin of all the data. </p>
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-    marked with the "Pending" label.
-    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-    included in the above download. </p>
-  {% else %}
-  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-'+event[0]['SNe'])}}">click here</a>. This data
-    was drawn from refereed
-    papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
-      href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. The download includes a readme file
-    showing the origin of all the data. </p>
 
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-    marked with the "Pending" label.
-    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-    included in the above download. </p>
-  {% endif %}
-  {% else %}
-  {% if event[0]['SNe'] == None %}
-  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB'] )}}">click here</a>. This data was drawn from
-    refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
-      href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. The download includes a readme file
-    showing the origin of all the data. </p>
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-    marked with the "Pending" label.
-    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-    included in the above download. </p>
-  {% elif event[0]['GRB'] == None %}
-  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-      href="{{ url_for('get_files2', directory='SN'+event[0]['SNe'])}}">click here</a>. This data was drawn from
-    refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as from <a
-      href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>. The download includes a readme file
-    showing the origin of all the data. </p>
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-    marked with the "Pending" label.
-    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-    included in the above download. </p>
-  {% else %}
-  <p>To download all of the Optical/Xray/Radio and Spectral data for this association <a
-      href="{{ url_for('get_files2', directory='GRB'+event[0]['GRB']+'-SN'+event[0]['SNe'])}}">click here</a>. This data
-    was drawn from refereed papers on <a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS </a> as well as
-    from <a href="https://sne.space" target='_blank'> The Open Supernova Catalogue </a> and the <a
-      href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site </a>. The download includes a readme file
-    showing the origin of all the data. </p>
-
-  <p>Note that some of the data we have gathered is not yet displayed in these plots. In these cases the plots are
-    marked with the "Pending" label.
-    This is due to the wide variety of filetypes that we are currently working to standardise. The unplotted data are
-    included in the above download. </p>
-  {% endif %}
-  {% endif %}
+  <div class="grid">
+    {% for i in range(div_list|length) %}
+    <div class="plot-container">
+      <div class="plot-item">
+        {{ div_list[i]|safe }}
+      </div>
+      <div>
+        {{ script_list[i]|safe }}
+      </div>
+    </div>
+    {% endfor %}
   </div>
-  
+
+
 
   <!-- Table of references -->
-  
   <div class="primary">
-    <h2><b>References</b></h2>
-    <table class="table table-sm">
+    <h2><b>Sources</b></h2>
+  </div>
+  <div class="table-container">
+
+    <table class="styled-table" style="width:100%">
       <thead>
         <tr>
           <th>Number</th>
@@ -548,21 +673,24 @@
         {% for i in range(swift_refs|length)%}
         {% if '20' in needed_dict[swift_refs[i]]['year'] %}
         <tr>
-          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event_refs|length+peakmag_refs|length+radec_refs|length+1}}
+          <td><a href="{{swift_refs[i]}}"
+              target='_blank'>{{i+event_refs|length+peakmag_refs|length+radec_refs|length+1}}
             </a></td>
           <td> {{needed_dict[swift_refs[i]]['names']}} <b>{{needed_dict[swift_refs[i]]['year']}}</b>: <a
               href="{{swift_refs[i]}}" target='_blank'>{{swift_refs[i]}} </a></td>
         </tr>
         {% elif '19' in needed_dict[swift_refs[i]]['year'] %}
         <tr>
-          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event_refs|length+peakmag_refs|length+radec_refs|length+1}}
+          <td><a href="{{swift_refs[i]}}"
+              target='_blank'>{{i+event_refs|length+peakmag_refs|length+radec_refs|length+1}}
             </a></td>
           <td> {{needed_dict[swift_refs[i]]['names']}} <b>{{needed_dict[swift_refs[i]]['year']}}</b>: <a
               href="{{swift_refs[i]}}" target='_blank'>{{swift_refs[i]}} </a></td>
         </tr>
         {% else %}
         <tr>
-          <td><a href="{{swift_refs[i]}}" target='_blank'>{{i+event_refs|length+peakmag_refs|length+radec_refs|length+1}}
+          <td><a href="{{swift_refs[i]}}"
+              target='_blank'>{{i+event_refs|length+peakmag_refs|length+radec_refs|length+1}}
             </a></td>
           <td> {{needed_dict[swift_refs[i]]['names']}}: <a href="{{swift_refs[i]}}" target='_blank'>{{swift_refs[i]}}
             </a></td>
@@ -655,7 +783,8 @@
           <td><a href="{{spec_refs[i]}}"
               target='_blank'>{{i+optical_refs|length+event_refs|length+radec_refs|length+swift_refs|length+peakmag_refs|length+radio_refs|length+1}}
             </a></td>
-          <td> {{needed_dict[spec_refs[i]]['names']}}: <a href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}} </a>
+          <td> {{needed_dict[spec_refs[i]]['names']}}: <a href="{{spec_refs[i]}}" target='_blank'>{{spec_refs[i]}}
+            </a>
           </td>
         </tr>
         {% endif %}
@@ -664,17 +793,7 @@
 
     </table>
 
-  
-  <h2><b>Github</b></h2>
-  <p>View the source data <a
-      href="https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData/{{event_id}}"
-      target="_blank">here</a>.</p>
-
-  <p>Let us know about any missing or erroneous data <a
-      href="https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E"
-      target="_blank">here</a>.</p>
   </div>
-
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/2.4.2/bokeh-widgets.js"></script>
