@@ -1,4 +1,4 @@
-time	mag_limit	mag	dmag	band	integration	telescope	time_unit	mag_unit	mag_type	integration_unit	extinction_corrected	dtime	time_frame
+time	mag_limit	mag	dmag	band	integration	instrument	time_unit	mag_unit	mag_type	integration_unit	extinction_corrected	dtime	time_frame
 0.04263	0	15.64	0.05	UVM2	196.6	days	days	Vega	apparent	seconds	True	NaN	observer
 0.0441	0	15.7	0.07	UVW1	40.9	days	days	Vega	apparent	seconds	True	NaN	observer
 0.06419	0	16.01	0.05	UVW1	115.2	days	days	Vega	apparent	seconds	True	NaN	observer
