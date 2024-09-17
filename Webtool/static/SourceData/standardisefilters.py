@@ -150,6 +150,7 @@ for i in subfolders:
 	for file in os.listdir(folderpath):
 		# check only text files that are optical master
 		if file.endswith('Optical_Master.txt'):
+			print(file)
 			# opens optical master
 			filepath = myPath+'/'+i+'/'+file
 			dd = pd.read_csv(filepath,delimiter = '\t')
