@@ -1,0 +1,25 @@
+time	instrument	band	mag	mag_limit	dmag	dmag2	time_unit	mag_unit	mag_type	time_frame	extinction_corrected	dtime
+33	ESO 3.6m	V	14.69	0	0.05	NaN	days	AB	apparent	observer	True	NaN
+33	ESO 3.6m	R	14.31	0	0.05	NaN	days	AB	apparent	observer	True	NaN
+33	ESO 3.6m	I	14.26	0	0.05	NaN	days	AB	apparent	observer	True	NaN
+141	ESO 3.6m	V	17.34	0	0.05	NaN	days	AB	apparent	observer	True	NaN
+141	ESO 3.6m	R	17.06	0	0.05	NaN	days	AB	apparent	observer	True	NaN
+141	ESO 3.6m	I	16.78	0	0.05	NaN	days	AB	apparent	observer	True	NaN
+215	ESO 3.6m	V	18.63	0	0.05	NaN	days	AB	apparent	observer	True	NaN
+215	ESO 3.6m	R	18.1	0	0.05	NaN	days	AB	apparent	observer	True	NaN
+215	ESO 3.6m	I	17.92	0	0.05	NaN	days	AB	apparent	observer	True	NaN
+340	ESO 3.6m	V	20.7	0	0.03	-0.02	days	AB	apparent	observer	True	NaN
+340	ESO 3.6m	R	19.9	0	0.15	NaN	days	AB	apparent	observer	True	NaN
+340	ESO 3.6m	I	19.65	0	0.2	NaN	days	AB	apparent	observer	True	NaN
+357	VLT	V	21.0	0	0.25	-0.15	days	AB	apparent	observer	True	NaN
+357	VLT	R	20.2	0	0.15	-0.1	days	AB	apparent	observer	True	NaN
+357	VLT	I	20.0	0	0.15	NaN	days	AB	apparent	observer	True	NaN
+414	VLT	V	21.7	0	0.3	NaN	days	AB	apparent	observer	True	NaN
+414	VLT	R	21.0	0	0.2	NaN	days	AB	apparent	observer	True	NaN
+414	VLT	I	20.9	0	0.03	-0.02	days	AB	apparent	observer	True	NaN
+471	ESO 3.6m	V	21.9	0	0.05	-0.02	days	AB	apparent	observer	True	NaN
+471	ESO 3.6m	R	21.6	0	0.3	NaN	days	AB	apparent	observer	True	NaN
+471	ESO 3.6m	I	21.5	0	0.03	-0.02	days	AB	apparent	observer	True	NaN
+504	VLT	V	22.3	0	0.04	-0.02	days	AB	apparent	observer	True	NaN
+504	VLT	R	22.1	0	0.3	NaN	days	AB	apparent	observer	True	NaN
+504	VLT	I	21.8	0	0.05	-0.03	days	AB	apparent	observer	True	NaN
