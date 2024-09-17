@@ -17,6 +17,8 @@ Source: https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
 Data-type: Radio
 ---------------------------------------------------------
 Notes: Radio data. Radio observations of GRB 200826A.
+
+There is a typo in the original data. The units should be in microJy, not in erg/cm2/s. This has been corrected.
 =========================================================
 Filename: GRB200826A_Radio_2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract
