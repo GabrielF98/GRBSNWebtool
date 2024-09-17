@@ -1,20 +1,20 @@
 date	time	band	mag	mag_limit	dmag	instrument	date_unit	time_unit	mag_unit	mag_type	time_frame	extinction_correccted	dtime
-1999-Mar-16.1	310	B	20.69	0	0.07	Dutch_0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Mar-16.1	310	V	20.52	0	0.07	Dutch_0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Mar-17.1	311	B	20.71	0	0.07	Dutch_0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Mar-17.1	311	V	20.5	0	0.07	Dutch_0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Mar-17.1	311	R	19.74	0	0.05	Dutch_0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Apr-8.1	333	B	21.1	0	0.15	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Apr-8.1	333	V	20.69	0	0.15	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Apr-8.1	333	R	20.09	0	0.15	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Apr-12.2	337	U	21.13	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Apr-12.2	337	I	20.03	0	0.15	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-May-21.2	376	B	21.59	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-May-21.2	376	V	21.43	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-May-21.2	376	R	20.83	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-May-21.2	376	I	20.61	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Jun-17.3	403	U	21.69	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Jun-17.3	403	B	21.91	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Jun-17.3	403	V	21.7	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Jun-17.3	403	R	20.87	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
-1999-Jun-17.3	403	I	20.76	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Mar-16.1	310	B	20.69	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Mar-16.1	310	V	20.52	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Mar-17.1	311	B	20.71	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Mar-17.1	311	V	20.5	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Mar-17.1	311	R	19.74	0	0.05	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Apr-8.1	333	B	21.1	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Apr-8.1	333	V	20.69	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Apr-8.1	333	R	20.09	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Apr-12.2	337	U	21.13	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Apr-12.2	337	I	20.03	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-May-21.2	376	B	21.59	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-May-21.2	376	V	21.43	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-May-21.2	376	R	20.83	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-May-21.2	376	I	20.61	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Jun-17.3	403	U	21.69	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Jun-17.3	403	B	21.91	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Jun-17.3	403	V	21.7	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Jun-17.3	403	R	20.87	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
+1999-Jun-17.3	403	I	20.76	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN
