@@ -1,2 +1,2 @@
-time	time_unit	time_frame energy_range	flux	flux_limit	dflux	flux_unit	instrument
-1281	days	observer	0.3-10keV	8e-15	0	2e-15	erg/cm2/sec	Chandra
+time	time_unit	time_frame	energy_range	flux	flux_limit	dflux	flux_unit	instrument	dtime
+1281	days	observer	0.3-10keV	8e-15	0	2e-15	erg/cm2/sec	Chandra	NaN
