@@ -591,6 +591,22 @@
         "names": "Chand et al.",
         "year": "2020"
     },
+    "https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.6104K/abstract": {
+        "names": "Komesh et al.",
+        "year": "2023"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4923P/abstract": {
+        "names": "Patel et al.",
+        "year": "2023"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2023ApJ...942...34R/abstract": {
+        "names": "Ror et al.",
+        "year": "2023"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2022A%26A...664A..36G/abstract": {
+        "names": "Giarratana et al.",
+        "year": "2022"
+    },
     "https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract": {
         "names": "Rho et al.",
         "year": "2021"
@@ -613,6 +629,10 @@
     },
     "https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract": {
         "names": "Rhodes et al.",
+        "year": "2021"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2021GCN.31020....1B/abstract": {
+        "names": "Belkin et al.",
         "year": "2021"
     },
     "https://www.wis-tns.org/object/2016jca": {
