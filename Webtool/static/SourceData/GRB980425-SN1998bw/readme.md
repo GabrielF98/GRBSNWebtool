@@ -3,17 +3,6 @@
 
 The text files listed below were downloaded from papers on [NASA/ADS](https://ui.adsabs.harvard.edu) and converted to the GRBSN [format](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). The 'Master.txt' file(s) are a combination of these text files and contain all of the downloaded data for a paticular wavelength range.
 
-### GRB980425-SN1998bw_Optical_1.txt
-
-
-**Source:** https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract
-
-**Data-type:** Late, Optical
-
-**Notes:**
-
-Notes:The uncertainties are the result of combining in quadrature the uncertainties of photometry, reddening and K-corrections.Units are 1e40 erg/cm^2^/s. Uncertainty does not include the ~7% uncertainty in the distance.
-
 ### GRB980425-SN1998bw_Optical_2.txt
 
 
@@ -24,6 +13,10 @@ Notes:The uncertainties are the result of combining in quadrature the uncertaint
 **Notes:**
 
 Notes: JD =Mean Julian Date-2450000. The days were converted to MJD. References for photometry are (1)Galama et al.1998 (2)this work; (3) Sollerman et al.2002.Using the computed reddening and K-corrections unreddened and transformed to the rest frame, the photometry of SN 1998bw.
+
+
+
+As the Sollerman data is presented in Optical_6.txt, and the Galama data is present in the data from OpenSN catalogues we removed these datapoints from this file.
 
 ### GRB980425-SN1998bw_Optical_3.txt
 
@@ -101,3 +94,18 @@ Notes: Near-IR photometry of SN 1998bw was obtained at three epochs with SofI at
 **Notes:**
 
 Notes: Flux in units of counts per second. The first pointing was broken into two parts. Source 1 was the only one included as this was found to be 1999bw.Uncertainties are at 1-σ; upper limits are at 3-σ.
+
+
+
+This file was modified for the purposes of the GRBSN tool. We retatined only the S1 source of the BeppoSAX data, as later observations revealed that this is the source which corresponds to the AG. Additionally we have converted the count rates to fluxes based on a sample conversion given in the publication. The conversion factor is approximately 6.5e-11 erg/s/cm2/ct. This is in the range 2-10keV, where the counts were given in 1.6-10keV.
+
+### GRB980425-SN1998bw_Xray_1.txt
+
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2004ApJ...608..872K/abstract
+
+**Data-type:** Xray
+
+**Notes:**
+
+X-ray follow-up with Chandra.
