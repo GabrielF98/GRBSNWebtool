@@ -1,23 +1,23 @@
 date	time	band	mag	mag_limit	dmag	instrument	date_unit	time_unit	mag_unit	mag_type	time_frame	extinction_correccted	dtime	reference	extinction_corrected	dmag2	seeing	seeing_unit
-1999-Mar-16.1	310.0	B	20.69	0	0.07	Dutch_0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Mar-16.1	310.0	V	20.52	0	0.07	Dutch_0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Mar-17.1	311.0	B	20.71	0	0.07	Dutch_0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Mar-17.1	311.0	V	20.5	0	0.07	Dutch_0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Mar-17.1	311.0	R	19.74	0	0.05	Dutch_0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Apr-8.1	333.0	B	21.1	0	0.15	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Apr-8.1	333.0	V	20.69	0	0.15	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Apr-8.1	333.0	R	20.09	0	0.15	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Apr-12.2	337.0	U	21.13	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Apr-12.2	337.0	I	20.03	0	0.15	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-May-21.2	376.0	B	21.59	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-May-21.2	376.0	V	21.43	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-May-21.2	376.0	R	20.83	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-May-21.2	376.0	I	20.61	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Jun-17.3	403.0	U	21.69	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Jun-17.3	403.0	B	21.91	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Jun-17.3	403.0	V	21.7	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Jun-17.3	403.0	R	20.87	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
-1999-Jun-17.3	403.0	I	20.76	0	0.2	ESO_3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Mar-16.1	310.0	B	20.69	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Mar-16.1	310.0	V	20.52	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Mar-17.1	311.0	B	20.71	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Mar-17.1	311.0	V	20.5	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Mar-17.1	311.0	R	19.74	0	0.05	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Apr-8.1	333.0	B	21.1	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Apr-8.1	333.0	V	20.69	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Apr-8.1	333.0	R	20.09	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Apr-12.2	337.0	U	21.13	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Apr-12.2	337.0	I	20.03	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-May-21.2	376.0	B	21.59	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-May-21.2	376.0	V	21.43	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-May-21.2	376.0	R	20.83	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-May-21.2	376.0	I	20.61	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Jun-17.3	403.0	U	21.69	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Jun-17.3	403.0	B	21.91	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Jun-17.3	403.0	V	21.7	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Jun-17.3	403.0	R	20.87	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Jun-17.3	403.0	I	20.76	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
 50969.76	40.85084490740741	U	16.44	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
 50969.76	40.85084490740741	B	16.17	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
 50969.76	40.85084490740741	V	15.14	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
@@ -229,27 +229,27 @@ date	time	band	mag	mag_limit	dmag	instrument	date_unit	time_unit	mag_unit	mag_ty
 51115.55	186.6408449074074	B	18.35	0	0.06	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
 51115.55	186.6408449074074	V	18.09	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
 51115.55	186.6408449074074	I	17.33	0	0.065	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
-NaN	33.0	V	14.69	0	0.05	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	33.0	R	14.31	0	0.05	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	33.0	I	14.26	0	0.05	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	141.0	V	17.34	0	0.05	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	141.0	R	17.06	0	0.05	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	141.0	I	16.78	0	0.05	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	215.0	V	18.63	0	0.05	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	215.0	R	18.1	0	0.05	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	215.0	I	17.92	0	0.05	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	340.0	V	20.7	0	0.03	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
-NaN	340.0	R	19.9	0	0.15	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	340.0	I	19.65	0	0.2	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	33.0	V	14.69	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	33.0	R	14.31	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	33.0	I	14.26	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	141.0	V	17.34	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	141.0	R	17.06	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	141.0	I	16.78	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	215.0	V	18.63	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	215.0	R	18.1	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	215.0	I	17.92	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	340.0	V	20.7	0	0.03	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
+NaN	340.0	R	19.9	0	0.15	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	340.0	I	19.65	0	0.2	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
 NaN	357.0	V	21.0	0	0.25	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.15	NaN	NaN
 NaN	357.0	R	20.2	0	0.15	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.1	NaN	NaN
 NaN	357.0	I	20.0	0	0.15	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
 NaN	414.0	V	21.7	0	0.3	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
 NaN	414.0	R	21.0	0	0.2	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
 NaN	414.0	I	20.9	0	0.03	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
-NaN	471.0	V	21.9	0	0.05	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
-NaN	471.0	R	21.6	0	0.3	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
-NaN	471.0	I	21.5	0	0.03	ESO_3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
+NaN	471.0	V	21.9	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
+NaN	471.0	R	21.6	0	0.3	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	471.0	I	21.5	0	0.03	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
 NaN	504.0	V	22.3	0	0.04	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
 NaN	504.0	R	22.1	0	0.3	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
 NaN	504.0	I	21.8	0	0.05	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.03	NaN	NaN
