@@ -1,0 +1,4 @@
+time	dtime	flux_density	flux_density_limit	dflux_density	instrument	freq	freq_unit	time_unit	flux_density_unit	time_frame
+4.92	0.5	93.0	0	16.0	eMERLIN	5	GHz	days	microJy	observer
+6.4	0.9	68.0	0	8.0	eMERLIN	5	GHz	days	microJy	observer
+8.7	1.9	34.0	1	NaN	eMERLIN	5	GHz	days	microJy	observer
