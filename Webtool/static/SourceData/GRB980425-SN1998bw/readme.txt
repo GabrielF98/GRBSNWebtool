@@ -49,6 +49,8 @@ Source: https://ui.adsabs.harvard.edu/abs/1999A%26AS..138..463P/abstract
 Data-type: Xray,Early
 ---------------------------------------------------------
 Notes: Flux in units of counts per second. The first pointing was broken into two parts. Source 1 was the only one included as this was found to be 1999bw.Uncertainties are at 1-σ; upper limits are at 3-σ.
+
+This file was modified for the purposes of the GRBSN tool. We retatined only the S1 source of the BeppoSAX data, as later observations revealed that this is the source which corresponds to the AG. Additionally we have converted the count rates to fluxes based on a sample conversion given in the publication. The conversion factor is approximately 6.5e-11 erg/s/cm2/ct. This is in the range 2-10keV, where the counts were given in 1.6-10keV.
 =========================================================
 Filename: GRB980425-SN1998bw_Xray_1.txt
 Source: https://ui.adsabs.harvard.edu/abs/2004ApJ...608..872K/abstract
