@@ -49,3 +49,9 @@ Source: https://ui.adsabs.harvard.edu/abs/1999A%26AS..138..463P/abstract
 Data-type: Xray,Early
 ---------------------------------------------------------
 Notes: Flux in units of counts per second. The first pointing was broken into two parts. Source 1 was the only one included as this was found to be 1999bw.Uncertainties are at 1-σ; upper limits are at 3-σ.
+=========================================================
+Filename: GRB980425-SN1998bw_Xray_1.txt
+Source: https://ui.adsabs.harvard.edu/abs/2004ApJ...608..872K/abstract
+Data-type: Xray
+---------------------------------------------------------
+X-ray follow-up with Chandra.
