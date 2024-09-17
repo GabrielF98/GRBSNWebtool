@@ -33,9 +33,11 @@ Source: https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
 Data-type: Xray
 ---------------------------------------------------------
 Notes: The XRT data was reduced by the the online reduction pipeline.As the hardness ratio remains constant within error bars, we assume a single absorbed power law spectrum, with a Galactic neutral hydrogen column151 of to 6.02 × 1020cm−2. Data in counts.
+
+Conversion factor for this burst (counts to flux): 1 count = 3.78 x 10-11 erg cm-2
 =========================================================
 Filename: GRB200826A_Xray_2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstractct
 Data-type: Xray
 ---------------------------------------------------------
-Notes: Swift-XRT flux densities at 10 keV and photon indices in the range 0.3–10 keV. ‘T’ is the time in the middle of each observation and ‘T0’ is 04:29:52 UT on 2020 August 26 (Fermi GBM Team 2020). ΔT (d) reflects the duration of each observation (Evans et al. 2007).
+Notes: Swift-XRT flux densities at 10 keV and photon indices in the range 0.3–10 keV. ‘T’ is the time in the middle of each observation and ‘T0’ is 04:29:52 UT on 2020 August 26 (Fermi GBM Team 2020). ΔT (d) reflects the duration of each observation (Evans et al. 2007).

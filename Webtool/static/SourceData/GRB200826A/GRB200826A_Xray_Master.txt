@@ -1,14 +1,8 @@
-time	dtime	flux	flux_limit	dflux	energy_range	time_unit	flux_density_unit	instrument	reference	date	dflux2	date_unit	N_H	time_frame
-60479.99999999999	0.01	0.4	0	0.1	0.3-10keV	seconds	microJy	Swift	https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract	NaN	NaN	NaN	NaN	NaN
-64800.0	0.01	0.035	0	0.009	0.3-10keV	seconds	microJy	Swift	https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract	NaN	NaN	NaN	NaN	NaN
-69120.0	0.1	0.028	0	0.007	0.3-10keV	seconds	microJy	Swift	https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract	NaN	NaN	NaN	NaN	NaN
-155520.0	0.3	0.005	0	0.001	0.3-10keV	seconds	microJy	Swift	https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract	NaN	NaN	NaN	NaN	NaN
-224640.0	0.3	0.0035	0	0.0008	0.3-10keV	seconds	microJy	Swift	https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract	NaN	NaN	NaN	NaN	NaN
-552960.0	2.2	0.0027	0	0.0006	0.3-10keV	seconds	microJy	Swift	https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract	NaN	NaN	NaN	NaN	NaN
-60479.99999999999	NaN	9.2232e-11	0	2.2631e-11	0.3–10keV	seconds	NaN	XRT	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459088.386616	−2.2631e-11	MJD	6.02e+20	observer
-64800.0	NaN	8.1557e-11	0	2.0923e-11	0.3–10keV	seconds	NaN	XRT	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459088.44194	−2.0923e-11	MJD	6.02e+20	observer
-71712.0	NaN	7.0882e-11	0	1.7507e-11	0.3–10keV	seconds	NaN	XRT	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459088.522328	−1.7507e-11	MJD	6.02e+20	observer
-151200.0	NaN	7.0882e-11	0	5.1667e-11	0.3–10keV	seconds	NaN	XRT	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459089.43786	−5.1667e-11	MJD	6.02e+20	observer
-224640.0	NaN	2.28872e-10	0	5.2094e-11	0.3–10keV	seconds	NaN	XRT	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459090.285972	−5.2094e-11	MJD	6.02e+20	observer
-552960.0	NaN	1.42191e-10	0	3.2879e-11	0.3–10keV	seconds	NaN	XRT	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459094.09085	−3.2879e-11	MJD	6.02e+20	observer
-1439424.0	NaN	5.2094e-11	0	4.1846e-11	0.3–10keV	seconds	NaN	XRT	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract	2459104.352156	-2.8609e-11	MJD	6.02e+20	observer
+date	time	instrument	energy_range	flux	flux_limit	dflux	dflux2	date_unit	time_unit	N_H	dtime	time_frame	flux_unit	reference
+2459088.386616	60479.99999999999	Swift XRT	0.3–10keV	8.17e-13	0	2e-13	NaN	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459088.44194	64800.0	Swift XRT	0.3–10keV	7.22e-13	0	1.85e-13	1.85e-13	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459088.522328	71712.0	Swift XRT	0.3–10keV	6.28e-13	0	1.55e-13	1.55e-13	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459089.43786	151200.0	Swift XRT	0.3–10keV	2.13e-13	0	4.57e-14	4.57e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459090.285972	224640.0	Swift XRT	0.3–10keV	2.02e-13	0	4.61e-14	4.61e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459094.09085	552960.0	Swift XRT	0.3–10keV	1.26e-13	0	2.91e-14	2.91e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459104.352156	1439424.0	Swift XRT	0.3–10keV	4.62e-14	0	3.7e-14	2.53e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
