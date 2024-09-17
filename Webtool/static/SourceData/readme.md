@@ -76,7 +76,7 @@ Time should always appear in all files. Sometimes the date will also appear.
     * `MJD` Modified Julian Day.
     * `MJD-MJD` Modified Julian Day - range. 
   
-  * `time` The elapsed time since the reference point of the data. If known, the GRB trigger time is used, otherwise the peak time of the SN lightcurve is used.
+  * `time` The elapsed time since the reference point of the data. If known, the GRB trigger time is used, otherwise the explosion time of the SN is used.
   
   * `time_unit` Unit for the elapsed time. The options are:
   
