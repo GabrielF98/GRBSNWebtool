@@ -175,51 +175,43 @@ def table_query(max_z, min_z, max_eiso, min_eiso):
     return data2
 
 
-# Get a dictionary of grb-sn pairs for ease of use in some functions later
-
-
-def sne_grb_dict():
+# Get the full list of events
+def event_names():
     conn = get_db_connection()
     data = conn.execute("SELECT GRB, SNe FROM SQLDataGRBSNe GROUP BY GRB")
-    sne_grb_dict = {}
+    list_of_events = []
     for i in data:
-        if i["SNe"] != None:
-            sne_grb_dict[i["SNe"]] = i["GRB"]
-    return sne_grb_dict
+        if i["SNe"] is not None and i["GRB"] is not None:
+            if str(i["SNe"])[0].isdigit():
+                list_of_events.append(f"GRB{i['GRB']}-SN{i['SNe']}")
+            else:
+                list_of_events.append(f"GRB{i['GRB']}-{i['SNe']}")
+        elif i["GRB"] is None:
+            if str(i["SNe"])[0].isdigit():
+                list_of_events.append(f"SN{i['SNe']}")
+            else:
+                list_of_events.append(f"{i['SNe']}")
+
+        elif i["SNe"] is None:
+            list_of_events.append(f"GRB{i['GRB']}")
+
+    return list_of_events
 
 
-def grb_sne_dict():
-    conn = get_db_connection()
-    data = conn.execute("SELECT GRB, SNe FROM SQLDataGRBSNe GROUP BY SNe")
-    grb_sne_dict = {}
-    for i in data:
-        if i["GRB"] != None:
-            grb_sne_dict[i["GRB"]] = i["SNe"]
-    return grb_sne_dict
+LIST_OF_EVENTS = event_names()
 
 
-grb_sne = grb_sne_dict()
-sne_grb = sne_grb_dict()
+def event_id_maker(search_string):
+    if len(search_string) < 5:
+        event_id = None
 
-
-def event_id_maker(partial_event, grb_sne=grb_sne, sne_grb=sne_grb):
-    if "GRB" in partial_event:
-        if grb_sne[partial_event[3:]] is not None:
-            event_id = partial_event + "-SN" + grb_sne[partial_event[3:]]
-        else:
-            event_id = partial_event
     else:
-        if partial_event[:2] == "SN":
-            if sne_grb[partial_event[2:]] is not None:
-                event_id = "GRB" + sne_grb[partial_event[2:]] + "-" + partial_event
+        for event in LIST_OF_EVENTS:
+            if search_string in event:
+                event_id = event
+                break
             else:
-                event_id = partial_event
-        else:
-            if sne_grb[partial_event] is not None:
-                event_id = "GRB" + sne_grb[partial_event] + "-" + partial_event
-            else:
-                event_id = partial_event
-
+                event_id = None
     return event_id
 
 
@@ -688,18 +680,19 @@ def home():
                 numeric[i] = 1
 
     form = SearchForm(request.form)
-
     if request.method == "POST":
         event_id = form.object_name.data
-        if str(event_id)[2:] in sne or str(event_id) in sne:  # if they search an SN
-            event_id = event_id_maker(event_id)
+        if "-" in event_id:
             return redirect(url_for("event", event_id=event_id))
-        elif str(event_id)[3:] in grbs:  # if they search an GRB
-            event_id = event_id_maker(event_id)
-            return redirect(url_for("event", event_id=event_id))
-        else:
+
+        event_id = event_id_maker(event_id)
+
+        if event_id is None:
             flash("This object is not in our database.")
             return render_template("home.html", form=form, data=data, numerics=numeric)
+
+        else:
+            return redirect(url_for("event", event_id=event_id))
 
     return render_template("home.html", form=form, data=data, numerics=numeric)
 
