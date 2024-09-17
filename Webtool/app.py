@@ -335,7 +335,6 @@ class Downloads(Resource):
     def get(self):
         args = parser.parse_args()
         folder = args["event"]
-        print(folder)
         filestream = io.BytesIO()
         with zipfile.ZipFile(
             filestream, mode="w", compression=zipfile.ZIP_DEFLATED
@@ -371,7 +370,6 @@ class Downloads2(Resource):
 
         directory_list = []
         for name in names:
-            print(name[0])
             if name["GRB"] == None:
                 directory_list.append("SN" + name["SNe"])
 
@@ -693,7 +691,6 @@ def home():
 
     if request.method == "POST":
         event_id = form.object_name.data
-        print(event_id, sne)
         if str(event_id)[2:] in sne or str(event_id) in sne:  # if they search an SN
             event_id = event_id_maker(event_id)
             return redirect(url_for("event", event_id=event_id))
@@ -2436,10 +2433,33 @@ def get_files2(directory):
         for file in os.listdir(
             current_app.root_path + "/static/SourceData/" + directory
         ):
-            zipf.write(
-                current_app.root_path + "/static/SourceData/" + directory + "/" + file,
-                directory + "/" + file,
-            )
+            if os.path.isdir(
+                current_app.root_path + "/static/SourceData/" + directory + "/" + file
+            ):
+                # Deal with the OriginalFormats folder and its contents.
+                for file2 in os.listdir(
+                    current_app.root_path
+                    + "/static/SourceData/"
+                    + directory
+                    + "/OriginalFormats/"
+                ):
+                    zipf.write(
+                        current_app.root_path
+                        + "/static/SourceData/"
+                        + directory
+                        + "/OriginalFormats/"
+                        + file2,
+                        directory + "/OriginalFormats/" + file2,
+                    )
+            else:
+                zipf.write(
+                    current_app.root_path
+                    + "/static/SourceData/"
+                    + directory
+                    + "/"
+                    + file,
+                    directory + "/" + file,
+                )
     filestream.seek(0)
     return send_file(filestream, download_name=directory + ".zip", as_attachment=True)
 
@@ -3172,14 +3192,41 @@ def get_observations(directory_list):
     with zipfile.ZipFile(
         filestream, mode="w", compression=zipfile.ZIP_DEFLATED
     ) as zipf:
-        for folder in directory_list:
+        for directory in directory_list:
             for file in os.listdir(
-                current_app.root_path + "/static/SourceData/" + folder + "/"
+                current_app.root_path + "/static/SourceData/" + directory
             ):
-                zipf.write(
-                    current_app.root_path + "/static/SourceData/" + folder + "/" + file,
-                    folder + "/" + file,
-                )
+                if os.path.isdir(
+                    current_app.root_path
+                    + "/static/SourceData/"
+                    + directory
+                    + "/"
+                    + file
+                ):
+                    # Deal with the OriginalFormats folder and its contents.
+                    for file2 in os.listdir(
+                        current_app.root_path
+                        + "/static/SourceData/"
+                        + directory
+                        + "/OriginalFormats/"
+                    ):
+                        zipf.write(
+                            current_app.root_path
+                            + "/static/SourceData/"
+                            + directory
+                            + "/OriginalFormats/"
+                            + file2,
+                            directory + "/OriginalFormats/" + file2,
+                        )
+                else:
+                    zipf.write(
+                        current_app.root_path
+                        + "/static/SourceData/"
+                        + directory
+                        + "/"
+                        + file,
+                        directory + "/" + file,
+                    )
     filestream.seek(0)
     return send_file(filestream, download_name="Observations.zip", as_attachment=True)
 
