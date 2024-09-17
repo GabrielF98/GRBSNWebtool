@@ -4,7 +4,9 @@ Filename: GRB980425-SN1998bw_Optical_2.txt
 Source: https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract
 Data-type: Late, Optical
 ---------------------------------------------------------
-Notes: JD =Mean Julian Date-2450000. The days were converted to MJD. References for photometry are (1)Galama et al.1998 (2)this work; (3) Sollerman et al.2002.Using the computed reddening and K-corrections unreddened and transformed to the rest frame, the photometry of SN 1998bw. 
+Notes: JD =Mean Julian Date-2450000. The days were converted to MJD. References for photometry are (1)Galama et al.1998 (2)this work; (3) Sollerman et al.2002.Using the computed reddening and K-corrections unreddened and transformed to the rest frame, the photometry of SN 1998bw.
+
+As the Sollerman data is presented in Optical_6.txt, we removed these datapoints from this file. 
 =========================================================
 Filename: GRB980425-SN1998bw_Optical_3.txt
 Source: https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract
