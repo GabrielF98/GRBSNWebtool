@@ -23,6 +23,8 @@ Source: https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract
 Data-type: Radio
 ---------------------------------------------------------
 Notes: Table of 5GHz observations from eMERLIN. ‘T’ is the time in the middle of each observation and ‘T0’ is 04:29:52 UT on 2020 August 26 (Fermi GBM Team 2020). In order to reach lower noise levels, we concatenated some of data sets. The central time of each concatenated data set is shown in the column labelled Tc. The errorbars quoted with the observation times reflect the duration of each observation. Any flux density value prefixed by ‘<’ is a 3σ upper limit.
+
+Concatenated data was retained; the original data can be found in the OriginalFormats folder.
 =========================================================
 Filename: GRB200826A_Xray_1.txt
 Source: https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
