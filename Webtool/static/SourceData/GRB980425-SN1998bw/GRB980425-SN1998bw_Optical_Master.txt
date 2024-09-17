@@ -1,0 +1,307 @@
+date	time	band	mag	mag_limit	dmag	instrument	date_unit	time_unit	mag_unit	mag_type	time_frame	extinction_correccted	dtime	reference	extinction_corrected	dmag2	seeing	seeing_unit
+1999-Mar-16.1	310.0	B	20.69	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Mar-16.1	310.0	V	20.52	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Mar-17.1	311.0	B	20.71	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Mar-17.1	311.0	V	20.5	0	0.07	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Mar-17.1	311.0	R	19.74	0	0.05	Dutch 0.9m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Apr-8.1	333.0	B	21.1	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Apr-8.1	333.0	V	20.69	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Apr-8.1	333.0	R	20.09	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Apr-12.2	337.0	U	21.13	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Apr-12.2	337.0	I	20.03	0	0.15	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-May-21.2	376.0	B	21.59	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-May-21.2	376.0	V	21.43	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-May-21.2	376.0	R	20.83	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-May-21.2	376.0	I	20.61	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Jun-17.3	403.0	U	21.69	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Jun-17.3	403.0	B	21.91	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Jun-17.3	403.0	V	21.7	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Jun-17.3	403.0	R	20.87	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+1999-Jun-17.3	403.0	I	20.76	0	0.2	ESO 3.6m	yyyy-month-deciday	days	AB	apparent	observer	False	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	NaN	NaN
+50969.76	40.85084490740741	U	16.44	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50969.76	40.85084490740741	B	16.17	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50969.76	40.85084490740741	V	15.14	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50969.76	40.85084490740741	R_{c}	14.76	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50969.76	40.85084490740741	I_{c}	14.58	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50988.83	59.92084490740741	U	16.87	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50988.83	59.92084490740741	B	16.62	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50988.83	59.92084490740741	V	15.74	0	0.0	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50988.83	59.92084490740741	R_{c}	15.38	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50988.83	59.92084490740741	I_{c}	15.11	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50998.74	69.83084490740741	U	17.06	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50998.74	69.83084490740741	B	16.77	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50998.74	69.83084490740741	V	15.95	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50998.74	69.83084490740741	R_{c}	15.6	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50998.74	69.83084490740741	I_{c}	15.31	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50999.73	70.8208449074074	U	17.03	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50999.73	70.8208449074074	B	16.78	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50999.73	70.8208449074074	V	15.98	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50999.73	70.8208449074074	R_{c}	15.64	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50999.73	70.8208449074074	I_{c}	15.34	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51000.76	71.8508449074074	U	17.18	0	0.06	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51000.76	71.8508449074074	B	16.81	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51000.76	71.8508449074074	V	16.0	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51000.76	71.8508449074074	R_{c}	15.67	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51000.76	71.8508449074074	I_{c}	15.37	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51001.7	72.7908449074074	B	16.8	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51001.7	72.7908449074074	V	16.0	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51001.7	72.7908449074074	R_{c}	15.66	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51001.7	72.7908449074074	I_{c}	15.35	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51003.69	74.78084490740741	U	17.13	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51003.69	74.78084490740741	B	16.85	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51003.69	74.78084490740741	V	16.06	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51003.69	74.78084490740741	R_{c}	15.73	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51003.69	74.78084490740741	I_{c}	15.42	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51004.8	75.89084490740741	U	17.14	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51004.8	75.89084490740741	B	16.87	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51004.8	75.89084490740741	V	16.08	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51004.8	75.89084490740741	R_{c}	15.75	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51004.8	75.89084490740741	I_{c}	15.45	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51005.7	76.7908449074074	U	17.16	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51005.7	76.7908449074074	B	16.87	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51005.7	76.7908449074074	V	16.1	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51005.7	76.7908449074074	R_{c}	15.78	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51005.7	76.7908449074074	I_{c}	15.46	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51006.72	77.81084490740741	U	17.19	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51006.72	77.81084490740741	B	16.89	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51006.72	77.81084490740741	V	16.12	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51006.72	77.81084490740741	R_{c}	15.8	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51006.72	77.81084490740741	I_{c}	15.49	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	U	17.22	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	B	16.9	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	V	16.14	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	R_{c}	15.82	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	I_{c}	15.51	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51008.72	79.81084490740741	U	17.14	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	B	16.92	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	V	16.16	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	R_{c}	15.84	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	I_{c}	15.53	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51015.57	86.66084490740741	U	17.32	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	B	17.02	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	V	16.29	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	R_{c}	15.99	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51007.6	78.69084490740741	I_{c}	15.67	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51059.57	130.6608449074074	B	17.71	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51059.57	130.6608449074074	V	17.14	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51059.57	130.6608449074074	R_{c}	16.85	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51059.57	130.6608449074074	I_{c}	16.6	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51088.55	159.6408449074074	B	18.19	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51088.55	159.6408449074074	V	17.69	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51088.55	159.6408449074074	R_{c}	17.33	0	0.01	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+51088.55	159.6408449074074	I_{c}	17.12	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract	True	NaN	NaN	NaN
+50992.89	63.98084490740741	B	16.68	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+50992.89	63.98084490740741	V	15.79	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+50992.89	63.98084490740741	I	15.16	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+50995.88	66.97084490740741	B	16.74	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+50995.88	66.97084490740741	V	15.85	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+50995.88	66.97084490740741	I	15.22	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+50996.88	67.97084490740741	B	16.75	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+50996.88	67.97084490740741	V	15.86	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+50996.88	67.97084490740741	I	15.22	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51002.92	74.0108449074074	B	16.86	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51002.92	74.0108449074074	V	16.0	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51004.88	75.97084490740741	B	16.87	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51004.88	75.97084490740741	V	16.04	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51007.93	79.02084490740741	V	16.09	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51007.93	79.02084490740741	I	15.45	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51007.94	79.03084490740741	V	16.11	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51008.87	79.9608449074074	B	16.9	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51008.87	79.9608449074074	V	16.11	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51008.87	79.9608449074074	I	15.42	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51010.9	81.9908449074074	B	16.95	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51010.9	81.9908449074074	V	16.14	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51010.9	81.9908449074074	I	15.47	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51011.88	82.97084490740741	B	16.98	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51011.88	82.97084490740741	V	16.17	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51011.88	82.97084490740741	I	15.51	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51012.92	84.0108449074074	B	16.92	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51012.92	84.0108449074074	V	16.18	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51012.92	84.0108449074074	I	15.53	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51013.9	84.9908449074074	B	16.93	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51013.9	84.9908449074074	V	16.19	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51013.9	84.9908449074074	I	15.53	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51014.9	85.9908449074074	B	17.02	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51014.9	85.9908449074074	V	16.22	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51014.9	85.9908449074074	I	15.59	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51019.87	90.9608449074074	B	17.07	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51019.87	90.9608449074074	V	16.31	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51019.87	90.9608449074074	I	15.66	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51020.86	91.9508449074074	B	17.03	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51020.86	91.9508449074074	V	16.31	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51020.86	91.9508449074074	I	15.66	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51021.86	92.9508449074074	B	17.12	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51021.86	92.9508449074074	V	16.36	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51021.86	92.9508449074074	I	15.73	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51022.86	93.9508449074074	B	17.07	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51022.86	93.9508449074074	V	16.41	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51022.86	93.9508449074074	I	15.75	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51032.84	103.9308449074074	B	17.3	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51032.84	103.9308449074074	V	16.56	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51032.84	103.9308449074074	I	15.96	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51033.84	104.9308449074074	B	17.24	0	0.07	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51033.84	104.9308449074074	V	16.52	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51033.84	104.9308449074074	I	15.93	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51035.84	106.9308449074074	B	17.27	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51035.84	106.9308449074074	V	16.61	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51035.84	106.9308449074074	I	15.97	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51036.84	107.9308449074074	B	17.34	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51036.84	107.9308449074074	V	16.62	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51036.84	107.9308449074074	I	16.02	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51037.83	108.9208449074074	B	17.35	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51037.83	108.9208449074074	V	16.67	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51037.83	108.9208449074074	I	16.04	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51039.82	110.9108449074074	B	17.32	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51039.82	110.9108449074074	V	16.68	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51039.82	110.9108449074074	I	16.07	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51040.77	111.8608449074074	B	17.36	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51040.77	111.8608449074074	V	16.74	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51040.77	111.8608449074074	I	16.09	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51041.8	112.8908449074074	V	16.75	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51041.84	112.9308449074074	B	17.39	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51041.84	112.9308449074074	V	16.84	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51042.82	113.9108449074074	B	17.41	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51042.82	113.9108449074074	V	16.76	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51042.82	113.9108449074074	I	16.12	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51043.81	114.9008449074074	B	17.42	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51043.81	114.9008449074074	V	16.76	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51043.81	114.9008449074074	I	16.17	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51045.8	116.8908449074074	B	17.44	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51045.8	116.8908449074074	V	16.82	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51045.8	116.8908449074074	I	16.18	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51046.79	117.8808449074074	B	17.43	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51046.8	117.8908449074074	B	17.44	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51046.8	117.8908449074074	V	16.84	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51046.8	117.8908449074074	I	16.2	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51047.81	118.9008449074074	B	17.45	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51047.81	118.9008449074074	V	16.83	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51047.81	118.9008449074074	I	16.21	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51051.79	122.8808449074074	B	17.46	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51051.79	122.8808449074074	V	16.92	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51051.8	122.8908449074074	B	17.48	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51051.8	122.8908449074074	B	17.56	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51051.8	122.8908449074074	I	16.3	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51061.7	132.7908449074074	B	17.57	0	0.06	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51061.7	132.7908449074074	V	17.08	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51061.7	132.7908449074074	I	16.47	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51062.76	133.8508449074074	B	17.57	0	0.15	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51062.76	133.8508449074074	V	16.85	0	0.15	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51062.76	133.8508449074074	V	16.92	0	0.15	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51063.75	134.84084490740742	B	17.73	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51063.75	134.84084490740742	V	17.13	0	0.15	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51063.75	134.84084490740742	I	16.5	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51064.76	135.8508449074074	B	17.61	0	0.13	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51064.76	135.8508449074074	V	17.28	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51064.76	135.8508449074074	I	16.75	0	0.27	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51069.73	140.8208449074074	B	17.82	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51069.73	140.8208449074074	V	17.27	0	0.18	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51069.73	140.8208449074074	I	16.61	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51070.73	141.8208449074074	B	17.8	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51070.73	141.8208449074074	V	17.27	0	0.02	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51070.73	141.8208449074074	I	16.63	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51071.76	142.8508449074074	B	17.82	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51071.76	142.8508449074074	V	17.27	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51071.76	142.8508449074074	I	16.63	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51073.72	144.8108449074074	V	17.25	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51073.73	144.8208449074074	V	17.33	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51073.73	144.8208449074074	I	16.64	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51076.7	147.7908449074074	V	17.38	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51076.71	147.8008449074074	V	17.38	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51076.71	147.8008449074074	I	16.73	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51079.73	150.8208449074074	B	17.88	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51079.73	150.8208449074074	V	17.44	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51079.73	150.8208449074074	I	16.7	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51093.62	164.71084490740742	B	18.17	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51093.62	164.71084490740742	V	17.68	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51093.62	164.71084490740742	I	17.01	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51094.63	165.7208449074074	B	18.19	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51094.63	165.7208449074074	V	17.7	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51094.63	165.7208449074074	I	17.03	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51096.63	167.7208449074074	B	18.13	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51096.63	167.7208449074074	V	17.61	0	0.04	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51096.63	167.7208449074074	I	16.93	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51097.63	168.7208449074074	B	18.19	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51097.63	168.7208449074074	V	17.74	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51097.63	168.7208449074074	I	17.05	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51098.62	169.71084490740742	B	18.21	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51098.62	169.71084490740742	V	17.79	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51098.62	169.71084490740742	I	17.06	0	0.03	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51115.55	186.6408449074074	B	18.35	0	0.06	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51115.55	186.6408449074074	V	18.09	0	0.05	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+51115.55	186.6408449074074	I	17.33	0	0.065	CTIO	MJD	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract	True	NaN	NaN	NaN
+NaN	33.0	V	14.69	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	33.0	R	14.31	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	33.0	I	14.26	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	141.0	V	17.34	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	141.0	R	17.06	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	141.0	I	16.78	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	215.0	V	18.63	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	215.0	R	18.1	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	215.0	I	17.92	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	340.0	V	20.7	0	0.03	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
+NaN	340.0	R	19.9	0	0.15	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	340.0	I	19.65	0	0.2	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	357.0	V	21.0	0	0.25	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.15	NaN	NaN
+NaN	357.0	R	20.2	0	0.15	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.1	NaN	NaN
+NaN	357.0	I	20.0	0	0.15	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	414.0	V	21.7	0	0.3	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	414.0	R	21.0	0	0.2	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	414.0	I	20.9	0	0.03	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
+NaN	471.0	V	21.9	0	0.05	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
+NaN	471.0	R	21.6	0	0.3	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	471.0	I	21.5	0	0.03	ESO 3.6m	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
+NaN	504.0	V	22.3	0	0.04	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.02	NaN	NaN
+NaN	504.0	R	22.1	0	0.3	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	NaN	NaN	NaN
+NaN	504.0	I	21.8	0	0.05	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract	True	-0.03	NaN	NaN
+NaN	140.0	V	17.38	0	0.027	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	140.0	R	17.06	0	0.019	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	140.0	I	16.77	0	0.007	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	214.0	V	18.76	0	0.025	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	214.0	R	18.14	0	0.032	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	214.0	I	17.95	0	0.051	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	326.0	B	21.21	0	0.05	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	326.0	V	20.8	0	0.011	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	326.0	R	19.87	0	0.007	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	326.0	I	19.72	0	0.02	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	347.0	B	21.56	0	0.011	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	347.0	V	21.15	0	0.025	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	347.0	R	20.21	0	0.018	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	351.0	I	20.1	0	0.024	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	356.0	B	21.66	0	0.069	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	356.0	V	21.3	0	0.037	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	356.0	R	20.27	0	0.017	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	356.0	I	20.03	0	0.025	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	390.0	B	22.19	0	0.01	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	390.0	V	21.78	0	0.029	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	390.0	R	20.98	0	0.03	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	390.0	I	20.95	0	0.068	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	413.0	V	22.12	0	0.029	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	413.0	R	21.18	0	0.016	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	413.0	I	21.03	0	0.029	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	417.0	B	22.57	0	0.05	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	417.0	V	22.16	0	0.025	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	417.0	R	21.32	0	0.03	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	417.0	I	21.13	0	0.036	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	470.0	V	22.86	0	0.032	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	470.0	R	22.21	0	0.052	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	470.0	I	22.08	0	0.099	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	503.0	B	23.53	0	0.043	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	503.0	V	23.07	0	0.067	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	503.0	R	22.59	0	0.041	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	503.0	I	22.5	0	0.103	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	538.0	V	23.43	0	0.33	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	538.0	R	23.05	0	0.082	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	538.0	I	23.25	0	0.465	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	706.0	B	25.1	1	NaN	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	706.0	V	25.1	1	NaN	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	706.0	R	25.1	1	NaN	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+NaN	706.0	I	24.7	1	NaN	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract	True	NaN	NaN	NaN
+1998-May-18.3	8.0	J	13.4	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	0.7	observer
+1998-May-18.3	8.0	H	13.35	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	0.7	observer
+1998-May-18.3	8.0	K	13.15	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	0.7	observer
+1998-Jun-12.3	33.0	J	14.41	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	1.2	observer
+1998-Jun-12.3	33.0	H	14.25	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	1.2	observer
+1998-Jun-12.3	33.0	K	14.2	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	1.2	observer
+1998-Jun-30.3	51.0	J	15.11	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	0.9	observer
+1998-Jun-30.3	51.0	H	14.98	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	0.9	observer
+1998-Jun-30.3	51.0	K	14.89	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	NaN	0.9	observer
