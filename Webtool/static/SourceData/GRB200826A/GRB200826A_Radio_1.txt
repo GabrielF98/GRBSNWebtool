@@ -1,4 +1,4 @@
-date	time	instrment	freq	freq_unit	flux	flux_limit	dflux	date_unit	time_unit	flux_unit	dtime	time_frame
+date	time	instrment	freq	freq_unit	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	flux_density_unit	dtime	time_frame
 2459089.967407	2.28	VLA	6.0	GHz	40.0	0	NaN	MJD	days	microJy	NaN	observer
 2459102.153825	14.46	GMRT	1.256	GHz	48.6	1	NaN	MJD	days	microJy	NaN	observer
 2459107.485017	19.79	GMRT	1.256	GHz	57.4	1	NaN	MJD	days	microJy	NaN	observer
