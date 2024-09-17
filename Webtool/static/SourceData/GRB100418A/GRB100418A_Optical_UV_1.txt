@@ -1,26 +1,20 @@
-Table 2 
-UVOT Light Curve for White Filter
-
-
-t - T_0	Count Rate	Magnitude	
-(1)	(2)		
-0.162 +or- 0.075	0.69 +or- 0.15	20.70 +or- 0.21	
-1.00^+0.55_-0.42	0.55 +or- 0.14	20.94 +or- 0.24	
-6.24 +or- 0.10	1.01 +or- 0.13	20.27 +or- 0.13	
-51.99 +or- 1.00	2.25 +or- 0.049	19.41 +or- 0.02	
-87.93^+4.26_-1.73	1.48 +or- 0.04	19.86 +or- 0.03	
-152.41^+4.06_-3.12	0.81 +or- 0.03	20.52 +or- 0.04	
-241.67^+30.83_-5.32	0.57 +or- 0.03	20.91 +or- 0.05	
-306.72^+17.69_-17.58	0.37 +or- 0.02	21.37 +or- 0.05	
-382.86^+23.39_-24.71	0.34 +or- 0.02	21.46 +or- 0.07	
-475.13^+17.58_-30.27	0.31 +or- 0.03	21.57 +or- 0.09	
-628.62^+54.69_-55.30	0.32 +or- 0.04	21.54 +or- 0.12	
-805.65^+28.16_-99.14	0.15 +or- 0.02	22.32 +or- 0.13	
-931.36^+69.37_-69.87	0.16 +or- 0.01	22.25 +or- 0.07	
-1154.16^+105.70_-102.65	0.18 +or- 0.01	22.13 +or- 0.05	
-1433.53^+129.04_-121.97	0.17 +or- 0.01	22.20 +or- 0.06	
-1715.75^+176.28_-126.58	0.15 +or- 0.01	22.37 +or- 0.06	
-2084.83^+205.47_-171.89	0.17 +or- 0.01	22.24 +or- 0.07	
-2419.45^+66.78_-94.27	0.13 +or- 0.02	22.51 +or- 0.13	
-2983.13^+18.35_-35.15	0.14 +or- 0.02	22.42 +or- 0.11	
-Notes. (1) Mean time since the BAT trigger in units of ks; (2) Rate in counts s^-1;
+time	dtime	dtime2	counts	dcounts	mag	mag_limit	dmag	band	time_unit	mag_unit	mag_type	time_frame	extinction_corrected	instrument
+162	0.075	NaN	0.69	0.15	20.7	0	0.21	white	seconds	AB	apparent	observer	False	UVOT
+1000	0.55	0.42	0.55	0.14	20.94	0	0.24	white	seconds	AB	apparent	observer	False	UVOT
+6240	0.1	NaN	1.01	0.13	20.27	0	0.13	white	seconds	AB	apparent	observer	False	UVOT
+51990	1.0	NaN	2.25	0.049	19.41	0	0.02	white	seconds	AB	apparent	observer	False	UVOT
+87930	4.26	1.73	1.48	0.04	19.86	0	0.03	white	seconds	AB	apparent	observer	False	UVOT
+152410	4.06	3.12	0.81	0.03	20.52	0	0.04	white	seconds	AB	apparent	observer	False	UVOT
+241670	30.83	5.32	0.57	0.03	20.91	0	0.05	white	seconds	AB	apparent	observer	False	UVOT
+306720	17.69	17.58	0.37	0.02	21.37	0	0.05	white	seconds	AB	apparent	observer	False	UVOT
+382860	23.39	24.71	0.34	0.02	21.46	0	0.07	white	seconds	AB	apparent	observer	False	UVOT
+475130	17.58	30.27	0.31	0.03	21.57	0	0.09	white	seconds	AB	apparent	observer	False	UVOT
+628620	54.69	55.3	0.32	0.04	21.54	0	0.12	white	seconds	AB	apparent	observer	False	UVOT
+805650	28.16	99.14	0.15	0.02	22.32	0	0.13	white	seconds	AB	apparent	observer	False	UVOT
+931360	69.37	69.87	0.16	0.01	22.25	0	0.07	white	seconds	AB	apparent	observer	False	UVOT
+1154160	105.7	102.65	0.18	0.01	22.13	0	0.05	white	seconds	AB	apparent	observer	False	UVOT
+1433530	129.04	121.97	0.17	0.01	22.2	0	0.06	white	seconds	AB	apparent	observer	False	UVOT
+1715750	176.28	126.58	0.15	0.01	22.37	0	0.06	white	seconds	AB	apparent	observer	False	UVOT
+2084830	205.47	171.89	0.17	0.01	22.24	0	0.07	white	seconds	AB	apparent	observer	False	UVOT
+2419450	66.78	94.27	0.13	0.02	22.51	0	0.13	white	seconds	AB	apparent	observer	False	UVOT
+2983130	18.35	35.15	0.14	0.02	22.42	0	0.11	white	seconds	AB	apparent	observer	False	UVOT

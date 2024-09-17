@@ -1,3 +1,7 @@
 GRB/SN,Filename,Datatype,Reference
-GRB201015A,,,
+GRB201015A,GRB201015A_Optical_1.txt,"Late, Optical",https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.6104K/abstract
+GRB201015A,GRB201015A_Xray_1.txt,"Early, Late, X-ray",https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4923P/abstract
+GRB201015A,GRB201015A_Optical_2.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2023ApJ...942...34R/abstract
+GRB201015A,GRB201015A_Radio_1.txt,"Late, Radio",https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4923P/abstract
+GRB201015A,GRB201015A_Radio_2.txt,"Early, Late, Radio",https://ui.adsabs.harvard.edu/abs/2022A%26A...664A..36G/abstract
 GRB201015A,GRB201015Axrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/
