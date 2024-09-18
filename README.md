@@ -3,7 +3,7 @@
 
 This repository hosts the data and code for the [GRB-SN Webtool](https://ucdatoms.eu.pythonanywhere.com). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
 
-The GRB-SN Webtool was created by Gabriel Finneran and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper]().
+The GRB-SN Webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper]().
 
 To get in touch please email Gabriel Finneran at gabriel.finneran@ucdconnect.ie
 
