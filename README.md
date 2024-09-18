@@ -1,5 +1,8 @@
 # The GRB-SN Webtool repository 
 ![Latest Stable Release](https://img.shields.io/badge/latestrelease-v1.2.1-teal)
+![](https://img.shields.io/badge/numgrbsne-61-0c71f3)
+![](https://img.shields.io/badge/standardised-90%25-8A2BE2)
+
 
 This repository hosts the data and code for the [GRB-SN Webtool](https://ucdatoms.eu.pythonanywhere.com). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
 
