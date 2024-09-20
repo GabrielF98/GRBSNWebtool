@@ -1,3 +1,3 @@
 GRB/SN,Filename,Status,Reference
 GRB130215A-SN2013ez,GRB130215A-SN2013ez_Optical.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
-GRB130215A-SN2013ez,OpenSNSpectra0.json,Spectra,https://api.astrocats.space/SN2013ez/spectra/?item=0&format=json
+GRB130215A-SN2013ez,OpenSNSpectra0.txt,Spectra,https://ui.adsabs.harvard.edu/abs/2014arXiv1405.3114C/abstract
