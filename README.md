@@ -1,5 +1,5 @@
 # The GRB-SN Webtool repository 
-![Latest Stable Release](https://img.shields.io/badge/latestrelease-v1.2.1-teal)
+![Latest Stable Release](https://img.shields.io/badge/latestrelease-v1.3.0-teal)
 ![](https://img.shields.io/badge/numgrbsne-61-0c71f3)
 ![](https://img.shields.io/badge/standardised-90%25-8A2BE2)
 
