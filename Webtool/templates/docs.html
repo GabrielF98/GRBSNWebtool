@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
-{% block title %} 
+{% block title %}
 <div class="primary">
-	<h1><b>About the Webtool</b></h1>
+	<h1><b>About the GRBSN webtool</b></h1>
 </div>
 {% endblock %}
 
@@ -10,27 +10,52 @@
 <div class="primary">
 	<h2><b>Introduction</b></h2>
 	<p>
-		This tool was developed to ease the process of sharing information related to GRB-SN associations. Its purpose is to provide all of the required data for analysing a GRB-SN association in one place. The tool was created by Gabriel Finneran and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this paper.
-	
-	</p>
+		This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by
+		bringing many sources and types of data together in one place. </p>
+
+	<p> GRBSN webtool was created by Gabriel
+		Finneran, Laura
+		Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be
+		found in <a href="https://arxiv.org/abs/2411.08866" target="_blank">this paper</a>. </p>
 
 	<h2><b>Sources of Data in this Webtool</b></h2>
-		<p><a href="https://ui.adsabs.harvard.edu" target = '_blank'> NASA ADS </a> This webtool used NASA’s Astrophysics Data System to gather observational data and calculated quantities for each event in the catalogue. These papers provide much of the data in the webtool. They are referenced at the bottom of their respective pages and these references are also provided when downloading any of the data.</p> <br> 
-		<p><a href="https://sne.space" target = '_blank'> The Open Supernova Catalogue </a> The Open Supernova Catalogue's API feature was used to gather the bulk of the graphical data for this tool, in particular the optical photometry and spectra. A detailed description of this tool can be found in <a href="https://ui.adsabs.harvard.edu/abs/2017ApJ...835...64G/abstract" target = '_blank'>Guillochon et al. 2017</a></p> <br>
-		<p><a href="https://www.swift.ac.uk" target = '_blank'> Swift Telescope UK Site </a> Provided the XRT Xray plot data as well as the BAT RA and Dec positions.</p> <br>
-		<p>The <a href="https://www.wis-tns.org" target='_blank'> Transient Name Server (TNS)</a> was used to create the plot on the homepage showing the number of events per year.</p>
+	<p><a href="https://ui.adsabs.harvard.edu" target='_blank'> NASA ADS</a>: This webtool used NASA’s
+		Astrophysics Data
+		System to gather observational data and calculated quantities for each event in the catalogue. These
+		papers
+		provide much of the data in the webtool. They are referenced at the bottom of their respective pages and
+		these
+		references are also provided when downloading any of the data.</p> <br>
+	<p><a href="https://sne.space" target='_blank'> The Open Supernova Catalogue</a>: The Open Supernova
+		Catalogue's API
+		feature was used to gather the bulk of the graphical data for this tool, in particular the optical
+		photometry
+		and spectra. A detailed description of this tool can be found in <a
+			href="https://ui.adsabs.harvard.edu/abs/2017ApJ...835...64G/abstract" target='_blank'>Guillochon et
+			al.
+			2017</a></p> <br>
+	<p><a href="https://www.swift.ac.uk" target='_blank'> Swift Telescope UK Site</a>: Provided the XRT Xray
+		plot data
+		as well as the BAT RA and Dec positions.</p> <br>
+	<p>The <a href="https://www.wis-tns.org" target='_blank'> Transient Name Server (TNS)</a>: was used to create
+		the
+		plot on the homepage showing the number of events per year.</p>
 
 	<h2><b>Contributing Data to the Webtool</b></h2>
-	<p>Details on how to upload your own data or to flag issues with missing or bad data can be found on our <a href="https://github.com/GabrielF98/GRBSNWebtool.git" target='_blank'>Github repository</a></p>
+	<p>Details on how to upload your own data or to flag issues with missing or bad data can be found on our <a
+			href="https://github.com/GabrielF98/GRBSNWebtool.git" target='_blank'>Github repository.</a></p>
 
 	<h2><b>Citing this work</b></h2>
 	<p>
-		If your work makes use of this tool we would appreciate a citation of this paper as well as an acknowledgement such as:
+		If your work has made use of the GRBSN webtool, please cite <a href="https://arxiv.org/abs/2411.08866"
+			target="_blank">this paper</a>. We would also appreciate if you could add the
+		following acknowledgement (or similar) to your work:
+		such as:
 	</p>
 
 	<p>
 		<i>
-			''This research has made use of the GRB-SN Webtool''
+			''This research has made use of the GRBSN webtool, available at https://grbsn.watchertelescope.ie''
 		</i>
 	</p>
 
@@ -39,6 +64,8 @@
 	</h2>
 
 	<p><b>Gabriel Finneran:</b> gabriel.finneran@ucdconnect.ie </p>
-	<p>School of Physics, O’Brien Centre for Science North, University College Dublin, Belfield, Dublin 4, Ireland<p>
+	<p>School of Physics, O’Brien Centre for Science North, University College Dublin, Belfield, Dublin 4,
+		Ireland
+	<p>
 </div>
 {% endblock %}
