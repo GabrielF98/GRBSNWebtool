@@ -2,7 +2,7 @@
 ![GitHub Release](https://img.shields.io/github/v/release/GabrielF98/GRBSNWebtool?color=teal)
 ![](https://img.shields.io/badge/numgrbsne-61-0c71f3)
 ![](https://img.shields.io/badge/standardised-90%25-8A2BE2)
-![Static Badge](https://img.shields.io/badge/arXiv-2411.08866-b31b1b?link=https://arxiv.org/abs/2411.08866)
+![](https://img.shields.io/badge/arXiv-2411.08866-b31b1b?link=https://arxiv.org/abs/2411.08866)
 
 
 
