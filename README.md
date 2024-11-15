@@ -1,8 +1,9 @@
 # The GRBSN webtool: an open-source repository for GRB-SN associations 
-![GitHub Release](https://img.shields.io/github/v/release/GabrielF98/GRBSNWebtool?display_name=tag)
+![GitHub Release](https://img.shields.io/github/v/release/GabrielF98/GRBSNWebtool?color=teal)
 ![](https://img.shields.io/badge/numgrbsne-61-0c71f3)
 ![](https://img.shields.io/badge/standardised-90%25-8A2BE2)
-![Static Badge](https://img.shields.io/badge/arXiv-2411.08866-b31b1b?link=https%3A%2F%2Farxiv.org%2Fabs%2F2411.08866)
+![Static Badge](https://img.shields.io/badge/arXiv-2411.08866-b31b1b?link=https://arxiv.org/abs/2411.08866)
+
 
 
 This repository hosts the data and code for the [GRBSN webtool](https://grbsn.watchertelescope.ie). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
