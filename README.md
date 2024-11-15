@@ -1,12 +1,13 @@
-# The GRB-SN Webtool repository 
-![Latest Stable Release](https://img.shields.io/badge/latestrelease-v1.3.0-teal)
+# The GRBSN webtool: an open-source repository for GRB-SN associations 
+![GitHub Release](https://img.shields.io/github/v/release/GabrielF98/GRBSNWebtool?display_name=tag)
 ![](https://img.shields.io/badge/numgrbsne-61-0c71f3)
 ![](https://img.shields.io/badge/standardised-90%25-8A2BE2)
+![Static Badge](https://img.shields.io/badge/arXiv-2411.08866-b31b1b?link=https%3A%2F%2Farxiv.org%2Fabs%2F2411.08866)
 
 
-This repository hosts the data and code for the [GRB-SN Webtool](https://grbsn.watchertelescope.ie). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
+This repository hosts the data and code for the [GRBSN webtool](https://grbsn.watchertelescope.ie). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
 
-The GRB-SN Webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper](https://arxiv.org/abs/2411.08866).
+The GRBSN webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper](https://arxiv.org/abs/2411.08866).
 
 To get in touch please email Gabriel Finneran at gabriel.finneran@ucdconnect.ie
 
@@ -56,5 +57,5 @@ Notes: The data were taken under VLA project codes AF414^1, AK583^2, AS864^3, an
  * The pull request should be set for review by: GabrielF98
  * The label should be set to: 'add data'
 
-# Suggest improvements to the Webtool
+# Suggest improvements to the GRBSN webtool
 This repository contains the source code for the project as well as the data stored in the tool. Feel free to suggest updates by opening a [new issue](https://github.com/GabrielF98/GRBSNWebtool/issues/new) or by forking the code and submitting a pull request.
