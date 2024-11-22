@@ -25,10 +25,10 @@ If there are several files in the same wavelength, e.g. multiple optical files, 
 The data should be converted to the format shown below. Here is an example file:
 
 ```
-date	time	freq	flux_density	dflux_density	VLA_Project_Code	date_unit	time_unit	freq_unit	flux_density_unit
-2004-Dec-09	621.2	1.4	650	70	AF414	yyyy-month-deciday	days	GHz	microJy
-2004-Dec-09	621.2	8.5	250	30	AF414	yyyy-month-deciday	days	GHz	microJy
-2004-Dec-23	635.1	1.4	590	70	AF414	yyyy-month-deciday	days	GHz	microJy
+date  time  freq  flux_density   dflux_density  VLA_Project_Code  date_unit   time_unit   freq_unit   flux_density_unit
+2004-Dec-09 621.2 1.4   650   70 AF414 yyyy-month-deciday   days  GHz   microJy
+2004-Dec-09 621.2 8.5   250   30 AF414 yyyy-month-deciday   days  GHz   microJy
+2004-Dec-23 635.1 1.4   590   70 AF414 yyyy-month-deciday   days  GHz   microJy
 ```
 
 There are two main types of column: one type contains data, and the other type of column describes the units for the data column. The columns and the data therin are separated by tabs. The categories available for the data are listed below. 
@@ -265,14 +265,52 @@ Time should always appear in all files. Sometimes the date will also appear.
     * `I`
     * `J`
     * `K_{s}`
-    * `R_{C}`
+    * `R_{c}`
     * `J_{s}`
-    * `R_{special}`
-    * `I_{C}`
+    * `R_{s}`
+    * `I_{c}`
+
+   **SDSS Filters**
+    * `g'`
+    * `r'`
+    * `i'`
+    * `z'`
+    * `u'`
+
+   **Strömgren-Crawford Filters**
+    * `u`
+    * `v`
+    * `b`
+    * `y`
+    * `N`
+    * `W`
+
+   **GROND Filters**
+    * `g`
+    * `r`
+    * `i`
+    * `z`
+    * `u`
+   
+   **UVOT Swift Filters**
+    * `UVU`
+    * `UVV`
+    * `UVB`
+    * `UVW1`
+    * `UVW2`
+    * `UVM2`
+    * `UVWh`
 
     **Hubble Space Telescope Filters**
+    * `F125W`
+    * `F336W`
     * `F450W`
+    * `F435W`
     * `F555W`
+    * `F606W`
     * `F702W`
     * `F814W`
     * `F850LP`
+    * `G102`
+
+* Please note that the central wavelength for each filter differs between instruments; e.g. the central wavelength for GROND g filter is 452.7 nm while for the SWOPE2 g filter it's 477.4 nm
