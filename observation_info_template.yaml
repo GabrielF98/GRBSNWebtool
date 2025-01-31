@@ -1,0 +1,13 @@
+grb_name:
+sn_name:
+processed: False
+status: NewEvent
+radio:
+optical:
+spectra:
+xrays:
+files:
+  <filename>:
+    datatype:
+    source:
+    notes:
