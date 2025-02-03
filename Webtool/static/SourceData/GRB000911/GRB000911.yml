@@ -28,5 +28,4 @@ filenames:
   GRB000911_Radio.txt:
     datatype: Radio
     sourceurl: https://ui.adsabs.harvard.edu/abs/2001A%26A...380...81S/abstract
-    notes: |
-      No Notes.
+    notes: No Notes.
