@@ -31,4 +31,9 @@ Source: https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
 Data-type: Early, Late, Radio
 ---------------------------------------------------------
 uGMRT observing log of the afterglow of GRB 190114C. Measurements are not corrected for the flux of the host galaxy detected in MeerKAT pre-explosion images.
-
+=========================================================
+Filename: GRB190114C-SN2019jrj_Radio_4.txt
+Source: https://ui.adsabs.harvard.edu/abs/2019ApJ...878L..26L/abstract
+Data-type: Early, Radio
+---------------------------------------------------------
+Radio and Millimeter Stokes I Observations of GRB 190114C. Table 1.
