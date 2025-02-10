@@ -12,30 +12,48 @@ filenames:
   GRB171205A-SN2017iuk_Radio1.txt:
     datatype: Early, Late, Radio
     sourceurl: https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract
+    notes: |
+      Notes: The uncertainties reflect the statistical errors in the flux density.
   GRB171205A-SN2017iuk_Radio2.txt:
     datatype: Early, Radio
     sourceurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract
+    notes: |
+      Notes: Polarisation in this case is given in percent. There was errors in the ploarisation and position angles but there is no header for it so they are omitted. The data is divided into spectral windows (SPWs) dependant on the freq so these (0-3 since 4 different freq used) these were omitted. Dividied the last table into radio 3.
   GRB171205A-SN2017iuk_Optical1.txt:
     datatype: Early, Late, Optical
     sourceurl: https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract
+    notes: |
+      Notes: file was origionally a csv file
   GRB171205A-SN2017iuk_Radio3.txt:
     datatype: Early, Radio
     sourceurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract
+    notes: |
+      Notes: This file was origionally in radio 2 file but divided into another file due to different headers.
   GRB171205A-SN2017iuk_Optical_UV1.txt:
     datatype: Early, Late, Optical, UV
     sourceurl: https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
+    notes: |
+      Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed. 3 sigma errors on mag and flux were given and removed from data.Additionally, the light curves were adjusted to correct for Galactic extinction, E(B-V)=0.0434 (Schlafly & Finkbeiner 2011). No correction for the host galaxy absorption was performed.
   GRB171205A-SN2017iuk_Optical_UV2.txt:
     datatype: Optical, UV
     sourceurl: https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
+    notes: |
+      Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed. 3 sigma errors on mag and flux were given and removed from data.Additionally, the light curves were adjusted to correct for Galactic extinction, E(B-V)=0.0434 (Schlafly & Finkbeiner 2011). No correction for the host galaxy absorption was performed.
   GRB171205A-SN2017iuk_Optical_UV3.txt:
     datatype: Optical, UV
     sourceurl: https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
+    notes: |
+      Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed. 3 sigma errors on mag and flux were given and removed from data.Additionally, the light curves were adjusted to correct for Galactic extinction, E(B-V)=0.0434 (Schlafly & Finkbeiner 2011). No correction for the host galaxy absorption was performed.
   GRB171205A-SN2017iuk_Optical_UV4.txt:
     datatype: Optical, UV
     sourceurl: https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
+    notes: |
+      Notes: Removed data on S/N. Times show all the mid-times of observations. Positive and negative errors were given and 3 sig errors. The positive errors were incuded in this data. The count rates were removed. 3 sigma errors on mag and flux were given and removed from data.Additionally, the light curves were adjusted to correct for Galactic extinction, E(B-V)=0.0434 (Schlafly & Finkbeiner 2011). No correction for the host galaxy absorption was performed.
   GRB171205A-SN2017iuk_Spectra.txt:
     datatype: Spectra
     sourceurl: https://www.wis-tns.org/object/2017iuk
+    notes: |
+      Notes: The original filename was: tns_2017iuk_2017-12-07_06-05-00_GTC_OSIRIS_HETH.txt
   GRB171205Axrtlc.txt:
     datatype: Xray
     sourceurl: https://www.swift.ac.uk/xrt_curves/

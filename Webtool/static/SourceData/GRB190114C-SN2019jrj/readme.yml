@@ -12,27 +12,41 @@ filenames:
   GRB190114C-SN2019jrj_Optical_1.txt:
     datatype: Early, Late, Optical
     sourceurl: https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
+    notes: |
+      Optical photometry of the afterglow of GRB 190114C using GIT, DFOT, and HCT. The magnitudes are not corrected for Galactic extinction. The GIT magnitudes are in the AB and the DFOT and HCT magnitudes are in the Vega system.
   GRB190114C-SN2019jrj_Radio_1.txt:
     datatype: Early, Late, Radio
     sourceurl: https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
+    notes: |
+      ATCA observing log of the radio afterglow of GRB 190114C.
+      The configuration was also included in the data from the paper but was omitted from this file.
   GRB190114C-SN2019jrj_Radio_2.txt:
     datatype: Early, Radio
     sourceurl: https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
+    notes: |
+      ALMA observing log of the afterglow of GRB 190114C. For each epoch, we provide photometric measurements performed in the four side bands, as well as the combined photometry of all the bands, indicated with a *. These combined photometry bands were omitted from this text file.
   GRB190114C-SN2019jrj_Radio_3.txt:
     datatype: Early, Late, Radio
     sourceurl: https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
+    notes: |
+      uGMRT observing log of the afterglow of GRB 190114C. Measurements are not corrected for the flux of the host galaxy detected in MeerKAT pre-explosion images.
   GRB190114C-SN2019jrj_MultibandSpectra.csv:
-    datatype: .nan
+    datatype: None
     sourceurl: https://ui.adsabs.harvard.edu/abs/2019Natur.575..459M/abstract
   GRB190114C-SN2019jrj_MultibandSpectra2.csv:
-    datatype: .nan
+    datatype: None
     sourceurl: https://ui.adsabs.harvard.edu/abs/2019Natur.575..459M/abstract
   GRB190114C-SN2019jrj_Radio_4.txt:
     datatype: Early, Radio
     sourceurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...878L..26L/abstract
+    notes: |
+      Radio and Millimeter Stokes I Observations of GRB 190114C. Table 1.
   GRB190114C-SN2019jrj_Spectra.txt:
     datatype: Spectra
     sourceurl: https://www.wis-tns.org/object/2019jrj
+    notes: |
+      Taken from the transient name server. 
+      The original filename was: tns_2019jrj_2019-02-03_VLT-UT1_FORS2_0.txt
   GRB190114Cxrtlc.txt:
     datatype: Xray
     sourceurl: https://www.swift.ac.uk/xrt_curves/
