@@ -2258,15 +2258,15 @@ def event(event_id):
 
             # Scale the flux using the 5000A flux
             scaled_spectrum = spectra_df.loc[spectra_df["time"] == float(epochs[i])]
-            if np.array(scaled_spectrum["flux"])[-1] < 5000:
-                scaled_spectrum["scaled_flux"] = (
-                    np.array(scaled_spectrum["flux"])
-                    / np.array(scaled_spectrum["flux"])[0]
-                )
-            elif np.array(scaled_spectrum["flux"])[0] > 5000:
+            if np.array(scaled_spectrum["rest_wavelength"])[-1] < 5000:
                 scaled_spectrum["scaled_flux"] = (
                     np.array(scaled_spectrum["flux"])
                     / np.array(scaled_spectrum["flux"])[-1]
+                )
+            elif np.array(scaled_spectrum["rest_wavelength"])[0] > 5000:
+                scaled_spectrum["scaled_flux"] = (
+                    np.array(scaled_spectrum["flux"])
+                    / np.array(scaled_spectrum["flux"])[0]
                 )
             else:
                 scaled_spectrum["scaled_flux"] = scaled_spectrum["flux"] / (
