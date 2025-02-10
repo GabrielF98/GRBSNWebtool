@@ -1,0 +1,21 @@
+event_name: GRB990712
+grb_name: GRB990712
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB990712_Optical_1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2001ApJ...552L.121B/abstract
+    notes: |
+      No notes.
+  GRB990712_Optical_2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2000ApJ...540...74S/abstract
+    notes: |
+      Notes: A log of all the observations used in this analysis along with the derived magnitudes of the OT are listed in Table 1. The measurements include the acquisition images taken for the spectroscopic observations with the ESO VLT shortly after the discovery of the OT (Vreeswijk et al. 2000).derived magnitudes of the OT in di†erent bands at di†erent epochs, including one extra measurement reported by Kemp & Halpern (1999)

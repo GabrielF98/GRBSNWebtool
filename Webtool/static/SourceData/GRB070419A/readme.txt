@@ -1,6 +1,6 @@
 Event Name: GRB070419A
 =========================================================
-Filename: GRB070419A_Optical_1.txt
+Filename: GRB070419A_Optical_NIR.txt
 Source: https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 Data-type: Optical, Early
 ---------------------------------------------------------

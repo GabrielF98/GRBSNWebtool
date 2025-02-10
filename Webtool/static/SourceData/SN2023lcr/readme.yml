@@ -1,0 +1,11 @@
+event_name: SN2023lcr
+grb_name: null
+sn_name: SN2023lcr
+status: NewEvent
+processed: false
+processinfo: null
+xray: false
+optical: false
+spectra: false
+radio: false
+filenames: 

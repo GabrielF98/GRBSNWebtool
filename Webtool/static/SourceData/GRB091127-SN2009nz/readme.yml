@@ -1,0 +1,37 @@
+event_name: GRB091127-SN2009nz
+grb_name: GRB091127
+sn_name: SN2009nz
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB091127-SN2009nz_NIR_Optical.txt:
+    datatype: Early, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract
+    notes: |
+      Notes:  The GRB trigger time is t0 = 55 162.976 MJD. Data not corrected for negligible AV,host< 0.03 mag (LMC). Image subtraction of the host was performed for g′r′i′z′.
+  GRB091127-SN2009nz_Optical1.txt:
+    datatype: Early, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012ApJ...761...50T/abstract
+    notes: |
+      Notes: Midpoint time from the GRB trigger are the times. Magnitude errors are 1 σ.
+  GRB091127-SN2009nz_Optical2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011A%26A...535A.127V/abstract
+    notes: |
+      Notes:  Magnitudes are corrected for Galactic extinction of E(B − V) = 0.038 mag (Schlegel et al. 1998). B, V, R, I, J, H, K are Vega magnitudes, whereas g, r, i and z are AB magnitudes.
+  GRB091127-SN2009nz_Optical_UV.txt:
+    datatype: Early, Late, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2010ApJ...718L.150C/abstract
+    notes: |
+      Notes:  Observer-frame days after burst trigger at 2009 November 27, 23:25:45. Vega magnitudes corrected for Galactic extinction (EB−V = 0.038). In addition to the errors quoted, there is a systematic uncertainty of 0.05 mag in the SMARTS/Gemini photometric zero point.
+  GRB091127xrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2009nz/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

@@ -1,0 +1,11 @@
+event_name: GRB220219B
+grb_name: GRB220219B
+sn_name: null
+status: NewEvent
+processed: false
+processinfo: null
+xray: false
+optical: false
+spectra: false
+radio: false
+filenames: 

@@ -1,8 +1,8 @@
 Event Name: GRB991208
 =========================================================
-Filename: GRB991208_Optical_IR_1.txt
+Filename: GRB991208_Optical_NIR_1.txt
 Source: https://ui.adsabs.harvard.edu/abs/2000BASI...28...15S/abstract
-Data-type: Opticla,Early
+Data-type: Optical ,Early
 ---------------------------------------------------------
 Notes: Photometric observations of the GRB 991208. Total errors in magnitude measurements are mostly ≥0.1 while statistical errors are always ≤0.1.
 =========================================================
@@ -29,3 +29,9 @@ Source: https://ui.adsabs.harvard.edu/abs/2000ApJ...541L..45G/abstract
 Data-type: Radio, Early
 ---------------------------------------------------------
 Notes: Abbreviations: MAMBO is the Max-Planck Millimeter Bolometer; OVRO MA is the Owens Valley Radio Observatory Millimeter Array; PdBI is the IRAM Plateau de Bure Interferometer; OVRO 40 m is the Owens Valley Radio Observatory 40 m telescope; Ryle is the Ryle Telescope; VLA is the Very Large Array; and τatm is the sky opacity toward the source.
+=========================================================
+Filename: GRB991208_Optical_NIR_2.txt
+Source: https://ui.adsabs.harvard.edu/abs/2001A%26A...370..398C/abstract
+Data-type: Early, NIR, Optical
+---------------------------------------------------------
+Table 1. Journal of the GRB 991208 optical/NIR observations
