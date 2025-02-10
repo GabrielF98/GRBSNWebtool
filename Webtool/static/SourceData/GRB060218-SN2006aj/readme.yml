@@ -1,0 +1,56 @@
+event_name: GRB060218-SN2006aj
+grb_name: GRB060218
+sn_name: SN2006aj
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB060218-SN2006aj_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...654..385K/abstract
+  GRB060218-SN2006aj_Radio1.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract
+  GRB060218-SN2006aj_IR.txt:
+    datatype: Early, IR
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract
+  GRB060218-SN2006aj_IR2.txt:
+    datatype: Early, IR
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...663.1180K/abstract
+  GRB060218-SN2006aj_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...658L...5M/abstract
+  GRB060218-SN2006aj_Optical1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006A%26A...457..857F/abstract
+  GRB060218-SN2006aj_Optical2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006A%26A...454..503S/abstract
+  GRB060218-SN2006aj_Optical3.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...645L.113C/abstract
+  GRB060218-SN2006aj_Optical4.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...643L..99M/abstract
+  GRB060218-SN2006aj_Optical5.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006Natur.442.1011P/abstract
+  GRB060218xrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2006aj/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+  OpenSNSpectra2.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2006aj/spectra/?item=2&format=json
+  OpenSNSpectra0.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2006aj/spectra/?item=0&format=json
+  OpenSNSpectra1.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2006aj/spectra/?item=1&format=json

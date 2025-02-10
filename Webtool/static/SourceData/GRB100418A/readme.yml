@@ -1,0 +1,26 @@
+event_name: GRB100418A
+grb_name: GRB100418A
+sn_name: null
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB100418A_Radio_1.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018A%26A...620A.190D/abstract
+  GRB100418A_NIR_Optical_1.txt:
+    datatype: Early, Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018A%26A...620A.190D/abstract
+  GRB100418A_Radio_2.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2013ApJ...779..105M/abstract
+  GRB100418A_Optical_UV_1.txt:
+    datatype: Early, Late, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011ApJ...727..132M/abstract
+  GRB100418Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

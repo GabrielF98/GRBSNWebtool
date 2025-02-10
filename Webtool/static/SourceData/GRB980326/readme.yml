@@ -1,0 +1,14 @@
+event_name: GRB980326
+grb_name: GRB980326
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB980326_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1998ApJ...502L.123G/abstract

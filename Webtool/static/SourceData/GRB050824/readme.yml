@@ -1,0 +1,14 @@
+event_name: GRB050824
+grb_name: GRB050824
+sn_name: null
+status: NoDownloadables
+processed: true
+processinfo: ''
+xray: true
+optical: false
+spectra: false
+radio: false
+filenames:
+  GRB050824xrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

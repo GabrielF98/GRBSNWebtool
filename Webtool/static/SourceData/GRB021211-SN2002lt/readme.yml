@@ -1,0 +1,38 @@
+event_name: GRB021211-SN2002lt
+grb_name: GRB021211
+sn_name: SN2002lt
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB021211-SN2002lt_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...651..994N/abstract
+  GRB021211-SN2002lt_Radio.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005A%26A...439..987S/abstract
+  GRB021211-SN2002lt_NIR_Optical.txt:
+    datatype: Early, Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004AJ....128.1955H/abstract
+  GRB021211-SN2002lt_Optical2.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003A%26A...408L..21P/abstract
+  GRB021211-SN2002lt_Optical3.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003A%26A...406L..33D/abstract
+  GRB021211-SN2002lt_Optical4.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...9L/abstract
+  GRB021211-SN2002lt_Optical5.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+  GRB021211-SN2002lt_Radio2.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003ApJ...586L...5F/abstract
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2002lt/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

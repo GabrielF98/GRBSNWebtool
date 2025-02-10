@@ -1,0 +1,14 @@
+event_name: GRB180728A-SN2018fip
+grb_name: GRB180728A
+sn_name: SN2018fip
+status: NoADSData
+processed: true
+processinfo: ''
+xray: true
+optical: false
+spectra: true
+radio: false
+filenames:
+  GRB180728Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

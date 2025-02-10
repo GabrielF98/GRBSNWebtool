@@ -1,0 +1,29 @@
+event_name: GRB171010A-SN2017htp
+grb_name: GRB171010A
+sn_name: SN2017htp
+status: Completed
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: true
+radio: true
+filenames:
+  GRB171010A-SN2017htp_Optical.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.5366M/abstract
+  GRB171010A-SN2017htp_UV_Optical1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.5366M/abstract
+  GRB171010A-SN2017htp_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract
+  GRB171010A-SN2017htp_Radio1.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2721B/abstract
+  GRB171010A-SN2017htp_Spectra.txt:
+    datatype: Spectra
+    sourceurl: https://www.wis-tns.org/object/2017htp
+  GRB171010Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

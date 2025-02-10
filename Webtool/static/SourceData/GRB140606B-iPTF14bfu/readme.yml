@@ -1,0 +1,23 @@
+event_name: GRB140606B-iPTF14bfu
+grb_name: GRB140606B
+sn_name: iPTF14bfu
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB140606B-iPTF14bfu_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2015ApJ...806...52S/abstract
+  GRB140606B-iPTF14bfu_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2015ApJ...806...52S/abstract
+  GRB140606B-iPTF14bfu_NIR_Optical1.txt:
+    datatype: Early, Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2015MNRAS.452.1535C/abstract
+  GRB140606Bxrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

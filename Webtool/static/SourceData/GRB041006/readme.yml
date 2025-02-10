@@ -1,0 +1,14 @@
+event_name: GRB041006
+grb_name: GRB041006
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB041006_Optical.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract

@@ -1,0 +1,17 @@
+event_name: GRB070419A
+grb_name: GRB070419A
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB070419A_Optical_NIR.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
+  GRB070419Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

@@ -1,0 +1,80 @@
+event_name: GRB100316D-SN2010bh
+grb_name: GRB100316D
+sn_name: SN2010bh
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB100316D-SN2010bh_Radio.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2013ApJ...778...18M/abstract
+  GRB100316D-SN2010bh_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012ApJ...753...67B/abstract
+  GRB100316D-SN2010bh_Optical1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012A%26A...539A..76O/abstract
+  GRB100316D-SN2010bh_IR_Optical2.txt:
+    datatype: Early, IR, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011ApJ...740...41C/abstract
+  GRB100316D-SN2010bh_Optical3.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011ApJ...740...41C/abstract
+  GRB100316Dxrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2010bh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+  OpenSNSpectra2.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=2&format=json
+  OpenSNSpectra11.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=11&format=json
+  OpenSNSpectra10.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=10&format=json
+  OpenSNSpectra3.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=3&format=json
+  OpenSNSpectra8.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=8&format=json
+  OpenSNSpectra4.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=4&format=json
+  OpenSNSpectra5.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=5&format=json
+  OpenSNSpectra9.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=9&format=json
+  OpenSNSpectra15.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=15&format=json
+  OpenSNSpectra6.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=6&format=json
+  OpenSNSpectra7.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=7&format=json
+  OpenSNSpectra14.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=14&format=json
+  OpenSNSpectra0.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=0&format=json
+  OpenSNSpectra13.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=13&format=json
+  OpenSNSpectra12.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=12&format=json
+  OpenSNSpectra1.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=1&format=json

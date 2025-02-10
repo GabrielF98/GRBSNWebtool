@@ -1,0 +1,14 @@
+event_name: GRB020410
+grb_name: GRB020410
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB020410_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005ApJ...624..880L/abstract

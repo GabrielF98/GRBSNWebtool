@@ -1,0 +1,26 @@
+event_name: GRB050416A
+grb_name: GRB050416A
+sn_name: null
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB050416A_UV_Optical_IR.txt:
+    datatype: Early, IR, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
+  GRB050416A_Optical_NIR.txt:
+    datatype: Early, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
+  GRB050416A_Optical.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
+  GRB050416A_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
+  GRB050416Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

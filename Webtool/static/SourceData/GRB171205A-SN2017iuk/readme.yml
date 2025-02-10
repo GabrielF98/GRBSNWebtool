@@ -1,0 +1,44 @@
+event_name: GRB171205A-SN2017iuk
+grb_name: GRB171205A
+sn_name: SN2017iuk
+status: Completed
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: true
+radio: true
+filenames:
+  GRB171205A-SN2017iuk_Radio1.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021ApJ...907...60M/abstract
+  GRB171205A-SN2017iuk_Radio2.txt:
+    datatype: Early, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract
+  GRB171205A-SN2017iuk_Optical1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019Natur.565..324I/abstract
+  GRB171205A-SN2017iuk_Radio3.txt:
+    datatype: Early, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...884L..58U/abstract
+  GRB171205A-SN2017iuk_Optical_UV1.txt:
+    datatype: Early, Late, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
+  GRB171205A-SN2017iuk_Optical_UV2.txt:
+    datatype: Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
+  GRB171205A-SN2017iuk_Optical_UV3.txt:
+    datatype: Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
+  GRB171205A-SN2017iuk_Optical_UV4.txt:
+    datatype: Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018A%26A...619A..66D/abstract
+  GRB171205A-SN2017iuk_Spectra.txt:
+    datatype: Spectra
+    sourceurl: https://www.wis-tns.org/object/2017iuk
+  GRB171205Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2017iuk/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

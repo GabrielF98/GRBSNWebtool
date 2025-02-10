@@ -1,0 +1,26 @@
+event_name: GRB200826A
+grb_name: GRB200826A
+sn_name: null
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB200826A_Optical_1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+  GRB200826A_Xray_1.txt:
+    datatype: Xray
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+  GRB200826A_Radio_1.txt:
+    datatype: Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+  GRB200826A_Optical_2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021NatAs...5..911Z/abstract
+  GRB200826A_Radio_2.txt:
+    datatype: Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.2966R/abstract

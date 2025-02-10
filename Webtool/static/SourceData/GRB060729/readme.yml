@@ -1,0 +1,32 @@
+event_name: GRB060729
+grb_name: GRB060729
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB060729_Optical_1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+  GRB060729_Optical_2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+  GRB060729_Xray_1.txt:
+    datatype: Early, Late, Xray
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2010ApJ...711.1008G/abstract
+  GRB060729_Optical_UV_1.txt:
+    datatype: Early, Late, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
+  GRB060729_Optical_UV_2.txt:
+    datatype: Early, Late, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
+  GRB060729_Optical_3.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
+  GRB060729xrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

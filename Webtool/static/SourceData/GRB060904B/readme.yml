@@ -1,0 +1,20 @@
+event_name: GRB060904B
+grb_name: GRB060904B
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB060904B_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+  GRB060904B_Optical1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+  GRB060904Bxrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

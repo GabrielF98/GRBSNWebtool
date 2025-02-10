@@ -1,0 +1,41 @@
+event_name: SN2020bvc
+grb_name: null
+sn_name: SN2020bvc
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: true
+radio: false
+filenames:
+  SN2020bvc_Optical_1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021ApJ...908..232R/abstract
+  SN2020bvc_Optical_2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+  SN2020bvc_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+  SN2020bvc_Spectra.txt:
+    datatype: Early, Late, Optical, Spectra
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+  SN2020bvc_Optical_UV.txt:
+    datatype: Early, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+  SN2020bvc_Optical_3.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+  SN2020bvc_Xray.txt:
+    datatype: Early, Xray
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+  SN2020bvc_Spectra1.txt:
+    datatype: Spectra
+    sourceurl: https://www.wis-tns.org/object/2020bvc
+  SN2020bvc_Spectra2.txt:
+    datatype: Spectra
+    sourceurl: https://www.wis-tns.org/object/2020bvc
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2020bvc/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

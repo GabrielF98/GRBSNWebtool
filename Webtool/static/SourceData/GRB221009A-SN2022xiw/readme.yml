@@ -1,0 +1,14 @@
+event_name: GRB221009A-SN2022xiw
+grb_name: GRB221009A
+sn_name: SN2022xiw
+status: NewEvent
+processed: false
+processinfo: null
+xray: true
+optical: false
+spectra: false
+radio: false
+filenames:
+  GRB221009Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

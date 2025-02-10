@@ -1,0 +1,29 @@
+event_name: GRB011121-SN2001ke
+grb_name: GRB011121
+sn_name: SN2001ke
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB011121-SN2001ke_NIR_Optical.txt:
+    datatype: Early, Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003ApJ...599.1223G/abstract
+  GRB011121-SN2001ke_NIR_Optical2.txt:
+    datatype: Early, Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003ApJ...582..924G/abstract
+  GRB011121-SN2001ke_Optical.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2002ApJ...572L..45B/abstract
+  GRB011121-SN2001ke_NIR_Optical3.txt:
+    datatype: Early, NIR
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2002ApJ...572L..51P/abstract
+  GRB011121-SN2001ke_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2002ApJ...572L..51P/abstract
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2001ke/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

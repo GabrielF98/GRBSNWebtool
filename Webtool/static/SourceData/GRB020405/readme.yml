@@ -1,0 +1,17 @@
+event_name: GRB020405
+grb_name: GRB020405
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB020405_Optical_NIR.txt:
+    datatype: NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract
+  GRB020405_Optical.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract

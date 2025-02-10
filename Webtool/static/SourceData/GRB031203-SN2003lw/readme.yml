@@ -1,0 +1,32 @@
+event_name: GRB031203-SN2003lw
+grb_name: GRB031203
+sn_name: SN2003lw
+status: ADSExhausted
+processed: true
+processinfo: '*'
+xray: false
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB031203-SN2003lw_Optical1.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract
+  GRB031203-SN2003lw_Optical.txt:
+    datatype: Early, Late, NIR
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004ApJ...608L..93C/abstract
+  GRB031203_SN2003lw_Optical_ComparitivePhotometry.html:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004A%26A...419L..21T/abstract
+  GRB031203-SN2003lw_Optical2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2003lw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+  OpenSNSpectra0.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003lw/spectra/?item=0&format=json
+  OpenSNSpectra1.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003lw/spectra/?item=1&format=json

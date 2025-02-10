@@ -1,0 +1,17 @@
+event_name: GRB990712
+grb_name: GRB990712
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB990712_Optical_1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2001ApJ...552L.121B/abstract
+  GRB990712_Optical_2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2000ApJ...540...74S/abstract

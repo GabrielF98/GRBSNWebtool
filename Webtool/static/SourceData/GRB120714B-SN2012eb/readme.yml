@@ -1,0 +1,17 @@
+event_name: GRB120714B-SN2012eb
+grb_name: GRB120714B
+sn_name: SN2012eb
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB120714B-SN2012eb_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+  GRB120714Bxrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

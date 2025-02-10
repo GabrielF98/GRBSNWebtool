@@ -1,0 +1,41 @@
+event_name: GRB120422A-SN2012bz
+grb_name: GRB120422A
+sn_name: SN2012bz
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB120422A-SN2012bz_Optical.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012A%26A...547A..82M/abstract
+  GRB120422A-SN2012bz_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2014A%26A...566A.102S/abstract
+  GRB120422A-SN2012bz_Optical1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2014A%26A...566A.102S/abstract
+  GRB120422Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2012bz/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+  OpenSNSpectra2.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2012bz/spectra/?item=2&format=json
+  OpenSNSpectra3.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2012bz/spectra/?item=3&format=json
+  OpenSNSpectra4.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2012bz/spectra/?item=4&format=json
+  OpenSNSpectra0.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2012bz/spectra/?item=0&format=json
+  OpenSNSpectra1.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2012bz/spectra/?item=1&format=json

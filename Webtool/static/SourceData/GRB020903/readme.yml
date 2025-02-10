@@ -1,0 +1,32 @@
+event_name: GRB020903
+grb_name: GRB020903
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB020903_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004ApJ...606..994S/abstract
+  GRB020903_Radio.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004ApJ...606..994S/abstract
+  GRB020903_Xray.html:
+    datatype: Xray
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004ApJ...602..875S/abstract
+  GRB020903_Optical2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...643..284B/abstract
+  GRB020903_Optical3.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...643..284B/abstract
+  GRB020903_Lines.html:
+    datatype: Lines, Spectra
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...643..284B/abstract
+  GRB020903_Optical4.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005ApJ...627..877S/abstract

@@ -1,0 +1,35 @@
+event_name: GRB161219B-SN2016jca
+grb_name: GRB161219B
+sn_name: SN2016jca
+status: Completed
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: true
+radio: true
+filenames:
+  GRB161219B-SN2016jca_Optical1.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.5824A/abstract
+  GRB161219B-SN2016jca_Optical_UV.txt:
+    datatype: Early, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018ApJ...862...94L/abstract
+  GRB161219B-SN2016jca_Optical_NIR.txt:
+    datatype: Early, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018ApJ...862...94L/abstract
+  GRB161219B-SN2016jca_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018ApJ...862...94L/abstract
+  GRB161219B-SN2016jca_Radio1.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018ApJ...862...94L/abstract
+  GRB161219B-SN2016jca_Optical2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2017A%26A...605A.107C/abstract
+  GRB161219B-SN2016jca_Spectra.txt:
+    datatype: Spectra
+    sourceurl: https://www.wis-tns.org/object/2016jca
+  GRB161219Bxrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

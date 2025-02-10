@@ -1,0 +1,29 @@
+event_name: GRB970228
+grb_name: GRB970228
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB970228_Optical_1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2000ApJ...536..185G/abstract
+  GRB970228_Optical_2.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1999ApJ...523..593C/abstract
+  GRB970228_Optical_3.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract
+  GRB970228_Optical_4.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1999ApJ...516..683F/abstract
+  GRB970228_Radio_1.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1998ApJ...502L.119F/abstract
+  GRB970228_Optical_5.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1998ApJ...500L.105G/abstract

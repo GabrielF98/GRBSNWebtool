@@ -1,0 +1,44 @@
+event_name: GRB130427A-SN2013cq
+grb_name: GRB130427A
+sn_name: SN2013cq
+status: Completed
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: true
+radio: true
+filenames:
+  GRB130427A-SN2013cq_Optical1.txt:
+    datatype: Early, Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2017ApJ...837..116B/abstract
+  GRB130427A-SN2013cq_Optical2.txt:
+    datatype: Early, Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2017ApJ...837..116B/abstract
+  GRB130427A-SN2013cq_Xray1.txt:
+    datatype: Late, Xray
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1111D/abstract
+  GRB130427A-SN2013cq_Optical3.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2014ApJ...792..115L/abstract
+  GRB130427A-SN2013cq_UV_Optical.txt:
+    datatype: Early, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract
+  GRB130427A-SN2013cq_Radio1.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract
+  GRB130427A-SN2013cq_SED.txt:
+    datatype: SED
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract
+  GRB130427A-SN2013cq_Radio2.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract
+  GRB130427Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2013cq/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+  OpenSNSpectra0.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013cq/spectra/?item=0&format=json

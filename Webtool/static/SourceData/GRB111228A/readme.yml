@@ -1,0 +1,26 @@
+event_name: GRB111228A
+grb_name: GRB111228A
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB111228A_Optical_1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+  GRB111228A_NIR_Optical.txt:
+    datatype: Early, Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2016ApJ...817..152X/abstract
+  GRB111228A_UV_Optical.txt:
+    datatype: Early, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+  GRB111228A_Optical_2.txt:
+    datatype: Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+  GRB111228Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

@@ -1,0 +1,53 @@
+event_name: GRB080319B
+grb_name: GRB080319B
+sn_name: null
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB080319B_Optical_5.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2010ApJ...725..625T/abstract
+  GRB080319B_Radio_1.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2010ApJ...711..641C/abstract
+  GRB080319B_Radio_2.txt:
+    datatype: Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009A%26A...504...45P/abstract
+  GRB080319B_NIR_Optical_4.txt:
+    datatype: Early, Late, NIR
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009A%26A...504...45P/abstract
+  GRB080319B_NIR_Optical_1.txt:
+    datatype: Early, NIR
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+  GRB080319B_NIR_Optical_2.txt:
+    datatype: Early, NIR
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+  GRB080319B_NIR_Optical_3.txt:
+    datatype: Early, NIR
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+  GRB080319B_Optical_1.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+  GRB080319B_Optical_2.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+  GRB080319B_Optical_UV_1.txt:
+    datatype: Early, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+  GRB080319B_Optical_3.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+  GRB080319B_IR_Optical_1.txt:
+    datatype: Early, IR, Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009ApJ...691..723B/abstract
+  GRB080319B_Optical_4.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2009ApJ...691..495W/abstract
+  GRB080319Bxrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

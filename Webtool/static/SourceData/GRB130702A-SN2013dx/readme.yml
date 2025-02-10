@@ -1,0 +1,83 @@
+event_name: GRB130702A-SN2013dx
+grb_name: GRB130702A
+sn_name: SN2013dx
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB130702A-SN2013dx_Optical1.txt:
+    datatype: Early, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2016ApJ...818...79T/abstract
+  GRB130702A-SN2013dx_Optical2.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2015A%26A...577A.116D/abstract
+  GRB130702A-SN2013dx_Optical3.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2015A%26A...577A.116D/abstract
+  GRB130702A-SN2013dx_Optical4.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2015A%26A...577A.116D/abstract
+  GRB130702A-SN2013dx_Optical5.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2017MNRAS.467.3500V/abstract
+  GRB130702A-SN2013dx_Optical.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2015ApJ...806...52S/abstract
+  GRB130702A-SN2013dx_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2015ApJ...806...52S/abstract
+  GRB130702Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNSpectra2.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=2&format=json
+  OpenSNSpectra11.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=11&format=json
+  OpenSNSpectra10.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=10&format=json
+  OpenSNSpectra3.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=3&format=json
+  OpenSNSpectra8.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=8&format=json
+  OpenSNSpectra4.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=4&format=json
+  OpenSNSpectra5.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=5&format=json
+  OpenSNSpectra9.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=9&format=json
+  OpenSNSpectra15.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=15&format=json
+  OpenSNSpectra6.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=6&format=json
+  OpenSNSpectra7.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=7&format=json
+  OpenSNSpectra14.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=14&format=json
+  OpenSNSpectra0.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=0&format=json
+  OpenSNSpectra13.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=13&format=json
+  OpenSNSpectra12.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=12&format=json
+  OpenSNSpectra1.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2013dx/spectra/?item=1&format=json

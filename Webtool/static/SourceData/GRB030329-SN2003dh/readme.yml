@@ -1,0 +1,128 @@
+event_name: GRB030329-SN2003dh
+grb_name: GRB030329
+sn_name: SN2003dh
+status: MostlyCompleted
+processed: true
+processinfo: '*'
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB030329-SN2003dh_Radio.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2013ApJ...774...77M/abstract
+  GRB030329-SN2003dh_Radio2.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012ApJ...759....4M/abstract
+  GRB030329-SN2003dh_Radio3.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract
+  GRB030329-SN2003dh_Radio4.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2008A%26A...480...35V/abstract
+  GRB030329-SN2003dh_Radio5.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...664..411P/abstract
+  GRB030329-SN2003dh_Optical.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...641L..13G/abstract
+  GRB030329-SN2003dh_Radio6.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1166V/abstract
+  GRB030329-SN2003dh_Radio7.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract
+  GRB030329-SN2003dh_Optical2.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract
+  GRB030329-SN2003dh_Radio8.txt:
+    datatype: Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract
+  GRB030329-SN2003dh_Radio9.txt:
+    datatype: Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005A%26A...440..477R/abstract
+  GRB030329-SN2003dh_Radio10.txt:
+    datatype: Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005A%26A...439..981S/abstract
+  GRB030329-SN2003dh_Radio11.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005ApJ...622..986T/abstract
+  GRB030329-SN2003dh_Radio12.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005PASJ...57..147K/abstract
+  GRB030329-SN2003dh_Radio13.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005ApJ...619..994F/abstract
+  GRB030329-SN2003dh_Xray.txt:
+    datatype: Early, Late, Xray
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
+  GRB030329-SN2003dh_Optical3.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004ApJ...606..381L/abstract
+  GRB030329-SN2003dh_Radio14.txt:
+    datatype: Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004PASJ...56L...1K/abstract
+  GRB030329-SN2003dh_IR_Optical.txt:
+    datatype: IR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004AJ....127..252B/abstract
+  GRB030329-SN2003dh_Optical4.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003ApJ...599..394M/abstract
+  GRB030329-SN2003dh_Optical5.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2003ApJ...597L.101T/abstract
+  GRB030329-SN2003dh_Radio15.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2003dh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+  OpenSNSpectra2.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=2&format=json
+  OpenSNSpectra11.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=11&format=json
+  OpenSNSpectra10.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=10&format=json
+  OpenSNSpectra3.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=3&format=json
+  OpenSNSpectra8.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=8&format=json
+  OpenSNSpectra4.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=4&format=json
+  OpenSNSpectra5.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=5&format=json
+  OpenSNSpectra9.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=9&format=json
+  OpenSNSpectra15.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=15&format=json
+  OpenSNSpectra6.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=6&format=json
+  OpenSNSpectra7.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=7&format=json
+  OpenSNSpectra14.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=14&format=json
+  OpenSNSpectra0.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=0&format=json
+  OpenSNSpectra13.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=13&format=json
+  OpenSNSpectra12.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=12&format=json
+  OpenSNSpectra1.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=1&format=json

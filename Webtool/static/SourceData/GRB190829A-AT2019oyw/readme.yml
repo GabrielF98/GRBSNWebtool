@@ -1,0 +1,32 @@
+event_name: GRB190829A-AT2019oyw
+grb_name: GRB190829A
+sn_name: AT2019oyw
+status: Completed
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: true
+radio: true
+filenames:
+  GRB190829A-AT2019oyw_Spectra.txt:
+    datatype: Spectra
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
+  GRB190829A-AT2019oyw_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021A%26A...646A..50H/abstract
+  GRB190829A-AT2019oyw_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2020MNRAS.496.3326R/abstract
+  GRB190829A-AT2019oyw_Radio_1.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2020MNRAS.496.3326R/abstract
+  GRB190829A-AT2019oyw_UV_Optical_1.txt:
+    datatype: Early, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2020ApJ...898...42C/abstract
+  GRB190829Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/AT2019oyw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

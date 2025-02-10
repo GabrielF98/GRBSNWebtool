@@ -1,0 +1,41 @@
+event_name: GRB190114C-SN2019jrj
+grb_name: GRB190114C
+sn_name: SN2019jrj
+status: Completed
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: true
+radio: true
+filenames:
+  GRB190114C-SN2019jrj_Optical_1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
+  GRB190114C-SN2019jrj_Radio_1.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
+  GRB190114C-SN2019jrj_Radio_2.txt:
+    datatype: Early, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
+  GRB190114C-SN2019jrj_Radio_3.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
+  GRB190114C-SN2019jrj_MultibandSpectra.csv:
+    datatype: .nan
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019Natur.575..459M/abstract
+  GRB190114C-SN2019jrj_MultibandSpectra2.csv:
+    datatype: .nan
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019Natur.575..459M/abstract
+  GRB190114C-SN2019jrj_Radio_4.txt:
+    datatype: Early, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...878L..26L/abstract
+  GRB190114C-SN2019jrj_Spectra.txt:
+    datatype: Spectra
+    sourceurl: https://www.wis-tns.org/object/2019jrj
+  GRB190114Cxrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2019jrj/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

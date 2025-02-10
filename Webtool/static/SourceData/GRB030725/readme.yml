@@ -1,0 +1,14 @@
+event_name: GRB030725
+grb_name: GRB030725
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB030725_Optical.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract

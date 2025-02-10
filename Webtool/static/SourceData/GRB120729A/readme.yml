@@ -1,0 +1,20 @@
+event_name: GRB120729A
+grb_name: GRB120729A
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB120729A_Optical.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
+  GRB120729A_Optical1.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018ApJ...859..163H/abstract
+  GRB120729Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

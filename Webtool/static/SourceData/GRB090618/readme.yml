@@ -1,0 +1,20 @@
+event_name: GRB090618
+grb_name: GRB090618
+sn_name: null
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB090618_Radio.txt:
+    datatype: Early, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+  GRB090618_Optical.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+  GRB090618xrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

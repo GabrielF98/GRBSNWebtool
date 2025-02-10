@@ -1,0 +1,29 @@
+event_name: GRB040924
+grb_name: GRB040924
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: latex
+xray: false
+optical: true
+spectra: true
+radio: false
+filenames:
+  EarlyOpticalfor040924.tex:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2016arXiv161001985D/abstract
+  040924Spec.tex:
+    datatype: Spec
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2016arXiv161001985D/abstract
+  GRB040924_Optical.txt:
+    datatype: Optical
+    sourceurl: 'https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract '
+  GRB040924_Optical1.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract
+  GRB040924_Optical2.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005ApJ...628L..93H/abstract
+  GRB040924_Optical3.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...636..391S/abstract

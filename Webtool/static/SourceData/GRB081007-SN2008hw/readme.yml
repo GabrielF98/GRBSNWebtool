@@ -1,0 +1,23 @@
+event_name: GRB081007-SN2008hw
+grb_name: GRB081007
+sn_name: SN2008hw
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB081007-SN2008hw_NIR_Optical.txt:
+    datatype: Early, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract
+  GRB081007-SN2008hw_Optical1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2013ApJ...774..114J/abstract
+  GRB081007xrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2008hw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

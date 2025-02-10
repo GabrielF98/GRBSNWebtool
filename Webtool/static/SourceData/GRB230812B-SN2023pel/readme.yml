@@ -1,0 +1,11 @@
+event_name: GRB230812B-SN2023pel
+grb_name: GRB230812B
+sn_name: SN2023pel
+status: NewEvent
+processed: false
+processinfo: null
+xray: false
+optical: false
+spectra: false
+radio: false
+filenames: {}

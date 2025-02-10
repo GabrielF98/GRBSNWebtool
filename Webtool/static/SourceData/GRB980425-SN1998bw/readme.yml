@@ -1,0 +1,131 @@
+event_name: GRB980425-SN1998bw
+grb_name: GRB980425
+sn_name: SN1998bw
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB980425-SN1998bw_Optical_2.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011AJ....141..163C/abstract
+  GRB980425-SN1998bw_Optical_6.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2002A%26A...386..944S/abstract
+  GRB980425-SN1998bw_Optical_IR.txt:
+    datatype: IR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract
+  GRB980425-SN1998bw_Optical_3.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract
+  GRB980425-SN1998bw_Optical_4.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2000ApJ...537L.127S/abstract
+  GRB980425-SN1998bw_Xray.txt:
+    datatype: Early, Xray
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1999A%26AS..138..463P/abstract
+  GRB980425-SN1998bw_Optical_5.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1999PASP..111..964M/abstract
+  GRB980425-SN1998bw_Xray_1.txt:
+    datatype: Xray
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004ApJ...608..872K/abstract
+  GRB980425-SN1998bw_Radio.txt:
+    datatype: Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN1998bw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+  OpenSNSpectra2.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=2&format=json
+  OpenSNSpectra27.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=27&format=json
+  OpenSNSpectra11.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=11&format=json
+  OpenSNSpectra10.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=10&format=json
+  OpenSNSpectra26.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=26&format=json
+  OpenSNSpectra3.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=3&format=json
+  OpenSNSpectra8.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=8&format=json
+  OpenSNSpectra17.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=17&format=json
+  OpenSNSpectra4.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=4&format=json
+  OpenSNSpectra21.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=21&format=json
+  OpenSNSpectra20.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=20&format=json
+  OpenSNSpectra5.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=5&format=json
+  OpenSNSpectra16.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=16&format=json
+  OpenSNSpectra9.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=9&format=json
+  OpenSNSpectra15.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=15&format=json
+  OpenSNSpectra19.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=19&format=json
+  OpenSNSpectra23.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=23&format=json
+  OpenSNSpectra6.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=6&format=json
+  OpenSNSpectra7.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=7&format=json
+  OpenSNSpectra22.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=22&format=json
+  OpenSNSpectra18.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=18&format=json
+  OpenSNSpectra14.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=14&format=json
+  OpenSNSpectra25.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=25&format=json
+  OpenSNSpectra0.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=0&format=json
+  OpenSNSpectra13.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=13&format=json
+  OpenSNSpectra29.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=29&format=json
+  OpenSNSpectra28.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=28&format=json
+  OpenSNSpectra12.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=12&format=json
+  OpenSNSpectra1.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=1&format=json
+  OpenSNSpectra24.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=24&format=json

@@ -1,0 +1,35 @@
+event_name: GRB050525A-SN2005nc
+grb_name: GRB050525A
+sn_name: SN2005nc
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB050525A-SN2005nc_Optical_NIR.txt:
+    datatype: Early, Late, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012MNRAS.427..288R/abstract
+  GRB050525A-SN2005nc_Radio.txt:
+    datatype: Early, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012MNRAS.427..288R/abstract
+  GRB050525A-SN2005nc_Optical_UV.txt:
+    datatype: Early, Late, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract
+  GRB050525A-SN2005nc_Optical_UV1.txt:
+    datatype: Optical, UV, UVOT DATA
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract
+  GRB050525A-SN2005nc_Xray.txt:
+    datatype: Early, Xray
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract
+  GRB050525A-SN2005nc_Optical.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract
+  GRB050525Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2005nc/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
