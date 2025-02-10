@@ -12,6 +12,9 @@ filenames:
   GRB120714B-SN2012eb_Optical.txt:
     datatype: Early, Late, Optical
     sourceurl: https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+    notes: |
+      GRB 120714B: GROND AB magnitudes and upper limits of the optical transient.
+      time is the time in units of days after the burst (t0=14 July 2012, 21:18:47 UT; Saxton et al. 2012). The data are not corrected for Galactic extinction.
   GRB120714Bxrtlc.txt:
     datatype: Xray
     sourceurl: https://www.swift.ac.uk/xrt_curves/
