@@ -1,23 +1,27 @@
 # GRB990712
 
-
 The text files listed below were downloaded from papers on [NASA/ADS](https://ui.adsabs.harvard.edu) and converted to the GRBSN [format](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). The 'Master.txt' file(s) are a combination of these text files and contain all of the downloaded data for a paticular wavelength range.
+
+***
 
 ### GRB990712_Optical_1.txt
 
-
 **Source:** https://ui.adsabs.harvard.edu/abs/2001ApJ...552L.121B/abstract
 
-**Data-type:** Late, Optical, Early
+**Data-type:** Early, Late, Optical
 
 **Notes:**
 
-### GRB990712_Optical_2.txt
+No notes.
 
+
+***
+
+### GRB990712_Optical_2.txt
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2000ApJ...540...74S/abstract
 
-**Data-type:** Late, Optical, Early
+**Data-type:** Early, Late, Optical
 
 **Notes:**
 

@@ -1,0 +1,93 @@
+# GRB060729
+
+The text files listed below were downloaded from papers on [NASA/ADS](https://ui.adsabs.harvard.edu) and converted to the GRBSN [format](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). The 'Master.txt' file(s) are a combination of these text files and contain all of the downloaded data for a paticular wavelength range.
+
+***
+
+### GRB060729_Optical_1.txt
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+
+**Data-type:** Early, Late, Optical
+
+**Notes:**
+
+Notes: Telescope key: CTIO: 4-m Cerro Tololo Blanco Telescope; PROMPT: 0.41-m PROMPT Telescope; Gemini-S: 8.1-m Gemini-South Telescope. All magnitudes have been corrected for foreground extinction.
+
+
+***
+
+### GRB060729_Optical_2.txt
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..669C/abstract
+
+**Data-type:** Early, Late, Optical
+
+**Notes:**
+
+Notes: Filter key: F330W, F625W, F850LP: ACS; F160W, F222M: NICMOS. Apparent magnitudes are of the OT from the subtracted images except for the ACS F330W and NICMOS F222M filters (for which no image subtraction occurred). All magnitudes have been corrected for foreground extinction.
+
+
+***
+
+### GRB060729_Xray_1.txt
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2010ApJ...711.1008G/abstract
+
+**Data-type:** Early, Late, Xray
+
+**Notes:**
+
+Notes: Start and End times are given in UT. bObserving time given in s. cCount rate in units of 10−4 ACIS-S counts s−1 in the 0.5–8.0 keV band. dUnabsorbed 0.3–10.0 keV flux in units of 10−15 erg s−1 cm−2. The count rates were converted assuming NH = 1.34 × 1021 cm−2 and βx = 0.89.
+
+
+***
+
+### GRB060729_Optical_UV_1.txt
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
+
+**Data-type:** Early, Late, Optical, UV
+
+**Notes:**
+
+Notes: UVOT was able to follow the afterglow in all six filters up to 9 days after the burst. In UVW1 the afterglow was followed up 31 days after the burst, which translates into 20 days in the rest frame. This is one of the longest intervals Swift's UVOT has ever detected an afterglow in the optical/UV. Only GRBs 060218 (Campana et al. 2006) and 060614 (Mangano et al. 2007) were detected at slightly later observed times than GRB 060729. The data was not corrected for Galactic reddening.
+
+
+***
+
+### GRB060729_Optical_UV_2.txt
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
+
+**Data-type:** Early, Late, UV
+
+**Notes:**
+
+Notes: The UVOT white filter data were grouped into 10 s bins. The first UVOT white points show a decay similar to the XRT WT light curve. However, after these few points the UVOT white light curve flattens, which agrees with the flare seen in the XRT data at 170 s after the burst. At about 200 s after the burst the afterglow starts to become brighter in the UVOT white, while it is still decaying in the X-ray.The data was not corrected for Galactic reddening.
+
+
+***
+
+### GRB060729_Optical_3.txt
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2007ApJ...662..443G/abstract
+
+**Data-type:** Early, Optical
+
+**Notes:**
+
+Notes:The times note the middle of the observation in seconds after the burst.The data was not corrected for Galactic reddening.
+
+
+***
+
+### GRB060729xrtlc.txt
+
+**Source:** https://www.swift.ac.uk/xrt_curves/
+
+**Data-type:** Xray
+
+**Notes:**
+
+No notes.
