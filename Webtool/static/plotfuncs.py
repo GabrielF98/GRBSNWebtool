@@ -9,6 +9,7 @@ import sqlite3
 
 import numpy as np
 import pandas as pd
+import yaml
 from astropy.time import Time
 
 
@@ -1042,11 +1043,10 @@ def rest_wavelength(obs_wavelength, z):
 
     rest_wavelength = obs_wavelength/(1+float(z))
 
-
     return rest_wavelength
 
 
-def masterfileformat(event):
+def masterfileformat(event, readme_dict):
     '''
     Iterate over any txt files with data for a GRB in a specific wavelength range.
     Put them all together with an outer join on their pandas.
@@ -1058,8 +1058,8 @@ def masterfileformat(event):
     xray_pandas = []
     spectra_pandas = []
 
-    # Get the file sources for each data file of the GRB
-    file_sources = pd.read_csv(event+'filesources.csv', header=0, sep=',')
+    # Get the info from the readme for the file sources urls.
+    file_sources = readme_dict.get("filenames")
 
     for file in file_list:
         print(file)
@@ -1070,10 +1070,10 @@ def masterfileformat(event):
             data = pd.read_csv(file, sep='\t')
 
             # Add a column for the ads abstract link - source.
-            # This comes out of the filesources.csv file.
-            data['reference'] = len(data['time'])*[file_sources.at
-                                                   [file_sources[file_sources['Filename'] ==
-                                                                 file].index[0], 'Reference']]
+            # This comes out of the readme.yml file.
+            data["reference"] = len(data["time"]) * [
+                file_sources.get(file).get("sourceurl")
+            ]
 
             # Make sure the elapsed time is in days,
             # if its in seconds/minutes/hours then convert it.
@@ -1089,7 +1089,7 @@ def masterfileformat(event):
                     time[i] = float(time[i])/24
 
                 elif data['time_unit'][i] == 'years':
-                            time[i] = float(time[i])*365
+                    time[i] = float(time[i]) * 365
 
             data['time'] = time
             data['time_unit'] = 'days'
@@ -1107,9 +1107,10 @@ def masterfileformat(event):
                 if data['mag_type'][0] != 'absolute':
 
                     # Add a column for the ads abstract link - source
-                    data['reference'] = len(data['time'])*[file_sources.at
-                                                           [file_sources[file_sources['Filename'] ==
-                                                                         file].index[0], 'Reference']]
+                    # This comes out of the readme.yml file.
+                    data["reference"] = len(data["time"]) * [
+                        file_sources.get(file).get("sourceurl")
+                    ]
 
                     # Make sure the elapsed time is in days,
                     # if its in seconds/minutes/hours then convert it.
@@ -1135,9 +1136,10 @@ def masterfileformat(event):
 
             else:
                 # Add a column for the ads abstract link - source
-                data['reference'] = len(data['time'])*[file_sources.at
-                                                       [file_sources[file_sources['Filename'] ==
-                                                                     file].index[0], 'Reference']]
+                # This comes out of the readme.yml file.
+                data["reference"] = len(data["time"]) * [
+                    file_sources.get(file).get("sourceurl")
+                ]
 
                 # Make sure the elapsed time is in days,
                 # if its in seconds/minutes/hours then convert it.
@@ -1153,7 +1155,7 @@ def masterfileformat(event):
                         time[i] = float(time[i])/24
 
                     elif data['time_unit'][i] == 'years':
-                            time[i] = float(time[i])*365
+                        time[i] = float(time[i]) * 365
 
                 data['time'] = time
                 data['time_unit'] = 'days'
@@ -1166,9 +1168,10 @@ def masterfileformat(event):
             data = pd.read_csv(file, sep='\t')
 
             # Add a column for the ads abstract link - source
-            data['reference'] = len(data['time'])*[file_sources.at
-                                                   [file_sources[file_sources['Filename'] ==
-                                                                 file].index[0], 'Reference']]
+            # This comes out of the readme.yml file.
+            data["reference"] = len(data["time"]) * [
+                file_sources.get(file).get("sourceurl")
+            ]
 
             # Make sure the elapsed time is in seconds,
             # if its in days/minutes/hours then convert it.
@@ -1194,9 +1197,10 @@ def masterfileformat(event):
             data = pd.read_csv(file, sep='\t')
 
             # Add a column for the ads abstract link - source
-            data['reference'] = len(data['time'])*[file_sources.at
-                                                   [file_sources[file_sources['Filename'] ==
-                                                                 file].index[0], 'Reference']]
+            # This comes out of the readme.yml file.
+            data["reference"] = len(data["time"]) * [
+                file_sources.get(file).get("sourceurl")
+            ]
 
             # Make sure the elapsed time is in days,
             # if its in seconds/minutes/hours then convert it.
@@ -1262,8 +1266,13 @@ if __name__ == '__main__':
 
         file_list = glob.glob("*.txt")
 
-        # Check if the readme exists already. If it does then the files are ready to parse.
-        if 'readme.txt' in file_list:
+        # Load the readme.yml file.
+
+        with open("readme.yml", "r") as readme_file:
+            readme_dict = yaml.safe_load(readme_file)
+
+        # Check if this GRB-SN has been processed.
+        if readme_dict.get("processed") is True:
             for file in file_list:
                 print(file)
                 if 'Master' in file:
@@ -1388,7 +1397,7 @@ if __name__ == '__main__':
                     print('Skipping: ', file)
 
             # Convert all the files to one master file for Optical/NIR.
-            masterfileformat(event_list[i])
+            masterfileformat(event_list[i], readme_dict=readme_dict)
 
         os.chdir('..')
         os.chdir('..')
