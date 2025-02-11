@@ -183,7 +183,6 @@
         "names": "Olivares E. et al.",
         "year": "2015"
     },
-    "null": null,
     "https://swift.gsfc.nasa.gov/archive/grb_table/190114C": "https://swift.gsfc.nasa.gov/archive/grb_table/190114C",
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/29033.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/29033.gcn3",
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/31596.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/31596.gcn3",
@@ -196,5 +195,6 @@
     "https://gcn.gsfc.nasa.gov/gcn/gcn3/17825.gcn3": "https://gcn.gsfc.nasa.gov/gcn/gcn3/17825.gcn3",
     "https://gcn.gsfc.nasa.gov/other/211023A.gcn3": "https://gcn.gsfc.nasa.gov/other/211023A.gcn3",
     "https://swift.gsfc.nasa.gov/archive/grb_table/220219B": "https://swift.gsfc.nasa.gov/archive/grb_table/220219B",
-    "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3": "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3"
+    "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3": "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3",
+    "null": null
 }
