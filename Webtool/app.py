@@ -260,10 +260,12 @@ sne = sne_names()
 
 
 def processing_tag(event_id, band):
-    df = pd.read_csv("static/SourceData/tags.csv")
-    df2 = df[df["Name"] == event_id]
-    tag = str(df2.iloc[0][band])
-    if tag == "Yes":
+
+    with open(f"static/SourceData/{event_id}/readme.yml", "r") as readme_file:
+        readme_dict = yaml.safe_load(readme_file)
+    tag = readme_dict.get(band)
+    print(tag)
+    if tag is True:
         tag = "Pending"
 
     else:
@@ -1330,7 +1332,7 @@ def event(event_id):
             y=1.3e-12,
             x_units="data",
             y_units="data",
-            text=processing_tag(event_id, "Xray"),
+            text=processing_tag(event_id, "xray"),
             render_mode="css",
             text_font_size="50pt",
             border_line_color="grey",
@@ -1740,7 +1742,7 @@ def event(event_id):
             y=18.8,
             x_units="data",
             y_units="data",
-            text=processing_tag(event_id, "Optical"),
+            text=processing_tag(event_id, "optical"),
             render_mode="css",
             text_font_size="50pt",
             border_line_color="grey",
@@ -1938,7 +1940,7 @@ def event(event_id):
             y=1.55,
             x_units="data",
             y_units="data",
-            text=processing_tag(event_id, "Radio"),
+            text=processing_tag(event_id, "radio"),
             render_mode="css",
             text_font_size="50pt",
             border_line_color="grey",
@@ -2311,7 +2313,7 @@ def event(event_id):
             y=0.405,
             x_units="data",
             y_units="data",
-            text=processing_tag(event_id, "Optical Spectra"),
+            text=processing_tag(event_id, "spectra"),
             render_mode="css",
             text_font_size="50pt",
             border_line_color="grey",
