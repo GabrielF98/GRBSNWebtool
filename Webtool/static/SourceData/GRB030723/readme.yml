@@ -1,0 +1,16 @@
+event_name: GRB030723
+grb_name: GRB030723
+sn_name: null
+status: ADSExhausted
+processed: true
+processinfo: null
+xray: false
+optical: true
+spectra: false
+radio: false
+filenames:
+  GRB030723_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2004ApJ...609..962F/abstract
+    notes: |
+      Note.—Upper limits are measured in a circular aperture with diameter of 2&arcsec; and are 2 σ. 

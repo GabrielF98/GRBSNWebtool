@@ -7,3 +7,5 @@ Paper/
 **/NotionExport/
 **/newevent.py
 **/full-properties.json
+
+*.ipynb

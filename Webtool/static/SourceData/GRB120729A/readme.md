@@ -1,10 +1,10 @@
 # GRB120729A
 
-
 The text files listed below were downloaded from papers on [NASA/ADS](https://ui.adsabs.harvard.edu) and converted to the GRBSN [format](https://github.com/GabrielF98/GRBSNWebtool/tree/master/Webtool/static/SourceData). The 'Master.txt' file(s) are a combination of these text files and contain all of the downloaded data for a paticular wavelength range.
 
-### GRB120729A_Optical.txt
+***
 
+### GRB120729A_Optical.txt
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
 
@@ -12,224 +12,118 @@ The text files listed below were downloaded from papers on [NASA/ADS](https://ui
 
 **Notes:**
 
-J/A+A/568/A19 Photometry of 3 {gamma}-ray burst supernovae (Cano+, 2014)
-
+J/A+A/568/A19       Photometry of 3 {gamma}-ray burst supernovae (Cano+, 2014)
 ================================================================================
-
 A trio of gamma-ray burst supernovae:
-
 GRB 120729A, GRB 130215A/SN 2013ez and GRB 130831A/SN 2013fu.
-
-Cano Z., de Ugarte Postigo A., Pozanenko A., Butler N., Thone C.C.,
-
-Guidorzi C., Kruhler T., Gorosabel J., Jakobsson P., Leloudas G.,
-
-Malesani D., Hjorth J., Melandri A., Mundell C., Wiersema K., D'Avanzo P.,
-
-Schulze S., Gomboc A., Johansson A., Zheng W., Kann D.A., Knust F.,
-
-Varela K., Akerlof C.W., Bloom J., Burkhonov O., Cooke E., de Diego J.A.,
-
-Dhungana G., Farina C., Ferrante F.V., Flewelling H.A., Fox O.D., Fynbo J.,
-
-Gehrels N., Georgiev L., Gonzalez J.J., Greiner J., Guver T., Hartoog O.,
-
-Hatch N., Jelinek M., Kehoe R., Klose S., Klunko E., Kopac D., Kutyrev A.,
-
-Krugly Y., Lee W.H., Levan A., Linkov V., Matkin A., Minikulov N.,
-
-Molotov I., Prochaska J.X., Richer M.G., Roman-Zuniga C.G., Rumyantsev V.,
-
-Sanchez-Ramirez R., Steele I., Tanvir N.R., Volnova A., Watson A.M., Xu D.,
-
-Yuan F.
-
-<Astron. Astrophys. 568, A19 (2014)>
-
-=2014A&A...568A..19C
-
+    Cano Z., de Ugarte Postigo A., Pozanenko A., Butler N., Thone C.C.,
+    Guidorzi C., Kruhler T., Gorosabel J., Jakobsson P., Leloudas G.,
+    Malesani D., Hjorth J., Melandri A., Mundell C., Wiersema K., D'Avanzo P.,
+    Schulze S., Gomboc A., Johansson A., Zheng W., Kann D.A., Knust F.,
+    Varela K., Akerlof C.W., Bloom J., Burkhonov O., Cooke E., de Diego J.A.,
+    Dhungana G., Farina C., Ferrante F.V., Flewelling H.A., Fox O.D., Fynbo J.,
+    Gehrels N., Georgiev L., Gonzalez J.J., Greiner J., Guver T., Hartoog O.,
+    Hatch N., Jelinek M., Kehoe R., Klose S., Klunko E., Kopac D., Kutyrev A.,
+    Krugly Y., Lee W.H., Levan A., Linkov V., Matkin A., Minikulov N.,
+    Molotov I., Prochaska J.X., Richer M.G., Roman-Zuniga C.G., Rumyantsev V.,
+    Sanchez-Ramirez R., Steele I., Tanvir N.R., Volnova A., Watson A.M., Xu D.,
+    Yuan F.
+  <Astron. Astrophys. 568, A19 (2014)>
+  =2014A&A...568A..19C
 ================================================================================
-
 ADC_Keywords: Supernovae ; Gamma rays ; Photometry
-
 Keywords: gamma-ray burst: general - gamma-ray burst: individual: SN 2013ez -
-
-supernovae: general - supernovae: individual: SN 2013fu
-
-
+          supernovae: general - supernovae: individual: SN 2013fu
 
 Abstract:
-
-We present optical and near-infrared (NIR) photometry for three
-
-gamma-ray burst supernovae (GRB-SNe): GRB 120729A,
-
-GRB 130215A/SN 2013ez and GRB 130831A/SN 2013fu.
-
-For GRB 130215A/SN 2013ez, we also present optical spectroscopy at
-
-t-t0=16.1d, which covers rest-frame 3000-6250{AA}. Based on
-
-FeII (5169) and SiII (6355), our spectrum indicates an unusually low
-
-expansion velocity of 4000-6350km/s, the lowest ever measured for a
-
-GRB-SN. Additionally, we determined the brightness and shape of each
-
-accompanying SN relative to a template supernova (SN 1998bw), which
-
-were used to estimate the amount of nickel produced via
-
-nucleosynthesis during each explosion. We find that our derived nickel
-
-masses are typical of other GRB-SNe, and greater than those of SNe Ibc
-
-that are not associated with GRBs. For GRB 130831A/SN 2013fu, we used
-
-our well-sampled R-band light curve (LC) to estimate the amount of
-
-ejecta mass and the kinetic energy of the SN, finding that these too
-
-are similar to other GRB-SNe. For GRB 130215A, we took advantage of
-
-contemporaneous optical/NIR observations to construct an optical/NIR
-
-bolometric LC of the afterglow. We fit the bolometric LC with the
-
-millisecond magnetar model of Zhang & Meszaros (2001ApJ...552L..35Z),
-
-which considers dipole radiation as a source of energy injection to
-
-the forward shock powering the optical/NIR afterglow. Using this model
-
-we derive an initial spin period of P=1ms and a magnetic field of
-
-B=1.1x10^15^G, which are commensurate with those found for proposed
-
-magnetar central engines of other long-duration GRBs.
-
-
+    We present optical and near-infrared (NIR) photometry for three
+    gamma-ray burst supernovae (GRB-SNe): GRB 120729A,
+    GRB 130215A/SN 2013ez and GRB 130831A/SN 2013fu.
+    For GRB 130215A/SN 2013ez, we also present optical spectroscopy at
+    t-t0=16.1d, which covers rest-frame 3000-6250{AA}. Based on
+    FeII (5169) and SiII (6355), our spectrum indicates an unusually low
+    expansion velocity of 4000-6350km/s, the lowest ever measured for a
+    GRB-SN. Additionally, we determined the brightness and shape of each
+    accompanying SN relative to a template supernova (SN 1998bw), which
+    were used to estimate the amount of nickel produced via
+    nucleosynthesis during each explosion. We find that our derived nickel
+    masses are typical of other GRB-SNe, and greater than those of SNe Ibc
+    that are not associated with GRBs. For GRB 130831A/SN 2013fu, we used
+    our well-sampled R-band light curve (LC) to estimate the amount of
+    ejecta mass and the kinetic energy of the SN, finding that these too
+    are similar to other GRB-SNe. For GRB 130215A, we took advantage of
+    contemporaneous optical/NIR observations to construct an optical/NIR
+    bolometric LC of the afterglow. We fit the bolometric LC with the
+    millisecond magnetar model of Zhang & Meszaros (2001ApJ...552L..35Z),
+    which considers dipole radiation as a source of energy injection to
+    the forward shock powering the optical/NIR afterglow. Using this model
+    we derive an initial spin period of P=1ms and a magnetic field of
+    B=1.1x10^15^G, which are commensurate with those found for proposed
+    magnetar central engines of other long-duration GRBs.
 
 Description:
-
-The data in file 'table3.dat' are the apparent magnitudes of the
-
-afterglow+supernova+host (combined), which are not corrected for
-
-foreground or rest-frame extinction. Note that the ROTSE magnitudes
-
-are unfiltered calibrated to sdss_r_.
-
-
+    The data in file 'table3.dat' are the apparent magnitudes of the
+    afterglow+supernova+host (combined), which are not corrected for
+    foreground or rest-frame extinction. Note that the ROTSE magnitudes
+    are unfiltered calibrated to sdss_r_.
 
 File Summary:
-
 --------------------------------------------------------------------------------
-
-FileName Lrecl Records Explanations
-
+FileName   Lrecl  Records   Explanations
 --------------------------------------------------------------------------------
-
-table3.dat 47 318 Optical and near-infrared (NIR) photometry
-
+table3.dat     47      318   Optical and near-infrared (NIR) photometry
 --------------------------------------------------------------------------------
-
-
 
 See also:
-
-B/sn : Asiago Supernova Catalogue (Barbon et al., 1999-)
-
-II/256 : Sternberg Supernova Catalogue, 2004 version (Tsvetkov+, 2004)
-
-
+    B/sn : Asiago Supernova Catalogue (Barbon et al., 1999-)
+  II/256 : Sternberg Supernova Catalogue, 2004 version (Tsvetkov+, 2004)
 
 Byte-by-byte Description of file: table3.dat
-
 --------------------------------------------------------------------------------
-
-Bytes Format Units Label Explanations
-
+  Bytes Format Units   Label     Explanations
 --------------------------------------------------------------------------------
-
-1- 7 A7 --- GRB GRB name
-
-9- 10 A2 --- Filt Filter name (B V R Rc Ic Y J H K g r i z)
-
-12- 20 F9.5 d t-t0 [0/373] Time since burst (t-t0)
-
-22 A1 --- l_mag Limit flag on mag
-
-23- 28 F6.3 mag mag Apparent magnitude of AG+SN+host (1)
-
-30- 34 F5.3 mag e_mag ?=- Apparent magnitude error of AG+SN+host
-
-36- 39 A4 --- System Photometric system (AB or Vega)
-
-41- 46 A6 --- Tel Telescope (3)
-
-47 A1 --- Note [+] Note on ROSTE magnitudes (2)
-
+  1-  7  A7    ---     GRB       GRB name
+  9- 10  A2    ---     Filt      Filter name (B V R Rc Ic Y J H K g r i z)
+  12- 20  F9.5  d       t-t0      [0/373] Time since burst (t-t0)
+      22  A1    ---   l_mag       Limit flag on mag
+  23- 28  F6.3  mag     mag       Apparent magnitude of AG+SN+host (1)
+  30- 34  F5.3  mag   e_mag       ?=- Apparent magnitude error of AG+SN+host
+  36- 39  A4    ---     System    Photometric system (AB or Vega)
+  41- 46  A6    ---     Tel       Telescope (3)
+      47  A1    ---     Note      [+] Note on ROSTE magnitudes (2)
 --------------------------------------------------------------------------------
-
 Note (1): Apparent magnitudes of the afterglow+supernova+host (combined),
-
-which are not corrected for foreground or rest-frame extinction.
-
+    which are not corrected for foreground or rest-frame extinction.
 Note (2): ROTSE magnitudes are unfiltered calibrated to sdss_r_.
-
 Note (3): telescope abbreviations:
-
-CAHA = 3.5m telescope at Calar Alto
-
-CrAO = Crimean Astrophysical Observatory (2.6m)
-
-FTN = 2m Faulkes Telescope North
-
-GROND = Gamma-Ray burst Optical/Near-Infrared Detector at ESO-2.2m
-
-GTC = 10.4m Gran Telescopio Canarias
-
+  CAHA  = 3.5m telescope at Calar Alto
+  CrAO  = Crimean Astrophysical Observatory (2.6m)
+  FTN   = 2m Faulkes Telescope North
+  GROND = Gamma-Ray burst Optical/Near-Infrared Detector at ESO-2.2m
+  GTC   = 10.4m Gran Telescopio Canarias
 Gemini = Gemini-North telescope (8.1m)
-
-IAC80 = 0.82m Instituto de Astrofisica de Canarias
-
-LT = 2m Liverpool Telescope
-
-MAO = 1.65m Moletu Astronomijos Observatorija, Vilnius
-
-Mondy = 1.5m AZT-33IK telescope at Mondy observatory, Russia
-
-NOT = Nordic Optical Telescope
-
-RATIR = Reionization and Transients Infrared Camera (1.5m at the Mexican
-
-Observatorio Astronomico Nacional n the Sierra San Pedro Martir
-
-ROTSE = Robotic Optical Transient Search Experimen
-
-TNG = 3.6m Telescopio Nazionale Galileo
-
-WHT = 4.2m William Hershel telescope
-
+  IAC80 = 0.82m Instituto de Astrofisica de Canarias
+  LT    = 2m Liverpool Telescope
+  MAO   = 1.65m Moletu Astronomijos Observatorija, Vilnius
+  Mondy = 1.5m AZT-33IK telescope at Mondy observatory, Russia
+  NOT   = Nordic Optical Telescope
+  RATIR = Reionization and Transients Infrared Camera (1.5m at the Mexican
+          Observatorio Astronomico Nacional n the Sierra San Pedro Martir 
+  ROTSE = Robotic Optical Transient Search Experimen
+  TNG   = 3.6m Telescopio Nazionale Galileo
+  WHT   = 4.2m William Hershel telescope
 --------------------------------------------------------------------------------
-
-
 
 Acknowledgements:
-
-Zach Cano, zewcano(at)gmail.com
-
-
+    Zach Cano, zewcano(at)gmail.com
 
 ================================================================================
+(End)     Zach Cano [University of Iceland], Patricia Vannier [CDS]  12-Jun-2014
 
-(End) Zach Cano [University of Iceland], Patricia Vannier [CDS] 12-Jun-2014
 
-
+***
 
 ### GRB120729A_Optical1.txt
-
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2018ApJ...859..163H/abstract
 
@@ -237,14 +131,22 @@ Zach Cano, zewcano(at)gmail.com
 
 **Notes:**
 
-Table 1
-
+Table 1 
 KAIT Observations of GRB 120729A
-
 Notes.
-
 ^a $T-{T}_{0}$ is the midpoint of each observation. The reference time T_0 is the time of initial BAT detection, which is 3.08 s before the BAT trigger.
-
 ^b Magnitude column does not take into account the Galactic extinction.
-
 ^c sigma is the uncertainty in the magnitude. Here we present the statistic uncertainty only.
+
+
+***
+
+### GRB120729Axrtlc.txt
+
+**Source:** https://www.swift.ac.uk/xrt_curves/
+
+**Data-type:** Xray
+
+**Notes:**
+
+No notes.
