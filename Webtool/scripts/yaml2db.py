@@ -7,9 +7,10 @@ import sqlite3
 
 import yaml
 
+DB_PATH = "../static/Masterbase.db"
 
 def get_db_connection():
-    conn = sqlite3.connect('Webtool/static/Masterbase.db')
+    conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -75,5 +76,5 @@ if __name__ == '__main__':
         description='Pass the location of the yaml file.')
     parser.add_argument('--file', type=str, required=False)
     args = parser.parse_args()
-    yaml_db_info = _load_yaml_config(args.file+'/data.yaml')
+    yaml_db_info = _load_yaml_config(args.file)
     dict2db(yaml_db_info)
