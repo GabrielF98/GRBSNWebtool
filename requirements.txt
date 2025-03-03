@@ -35,3 +35,4 @@ urllib3==1.26.19
 WTForms==3.0.1
 astropy==5.3.3
 flask-restx==1.1.0
+selenium==4.29.0
