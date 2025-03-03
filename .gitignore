@@ -9,3 +9,4 @@ Paper/
 **/full-properties.json
 
 *.ipynb
+Webtool/tests/broken_link_report.html
