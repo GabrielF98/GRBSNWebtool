@@ -81,18 +81,18 @@ class TableForm(FlaskForm):
     object_name = StringField("", validators=[Optional()])
     min_z = StringField("Min. Z", validators=[Optional()])
     max_z = StringField("Max. Z", validators=[Optional()])
-    min_t90 = StringField("Min. T$_{90}$ [sec]", validators=[Optional()])
-    max_t90 = StringField("Max. T$_{90}$ [sec]", validators=[Optional()])
-    max_eiso = StringField("Max. E$_{iso}$ [ergs]", validators=[Optional()])
-    min_eiso = StringField("Min. E$_{iso}$ [ergs]", validators=[Optional()])
-    min_nim = StringField("Max. M$_{ni}$ [M$_{\odot}$]", validators=[Optional()])
-    max_nim = StringField("Min. M$_{ni}$ [M$_{\odot}$]", validators=[Optional()])
-    max_ejm = StringField("Max. M$_{ej}$ [M$_{\odot}$]", validators=[Optional()])
-    min_ejm = StringField("Min. M$_{ej}$ [M$_{\odot}$]", validators=[Optional()])
-    max_epeak = StringField("Max. E$_{p}$ [keV]", validators=[Optional()])
-    min_epeak = StringField("Min. E$_{p}$ [keV]", validators=[Optional()])
-    max_ek = StringField("Max. E$_{k}$ [erg]", validators=[Optional()])
-    min_ek = StringField("Min. E$_{k}$ [erg]", validators=[Optional()])
+    min_t90 = StringField(r"Min. $T_{90}$ [sec]", validators=[Optional()])
+    max_t90 = StringField(r"Max. $T_{90}$ [sec]", validators=[Optional()])
+    max_eiso = StringField(r"Max. $E_{iso}$ [ergs]", validators=[Optional()])
+    min_eiso = StringField(r"Min. $E_{iso}$ [ergs]", validators=[Optional()])
+    min_nim = StringField(r"Max. $M_{ni}$ [$M_{\odot}$]", validators=[Optional()])
+    max_nim = StringField(r"Min. $M_{ni}$ [$M_{\odot}$]", validators=[Optional()])
+    max_ejm = StringField(r"Max. $M_{ej}$ [$M_{\odot}$]", validators=[Optional()])
+    min_ejm = StringField(r"Min. $M_{ej}$ [$M_{\odot}$]", validators=[Optional()])
+    max_epeak = StringField(r"Max. $E_{p}$ [keV]", validators=[Optional()])
+    min_epeak = StringField(r"Min. $E_{p}$ [keV]", validators=[Optional()])
+    max_ek = StringField(r"Max. $E_{k}$ [erg]", validators=[Optional()])
+    min_ek = StringField(r"Min. $E_{k}$ [erg]", validators=[Optional()])
     submit2 = SubmitField("Search")
 
 
@@ -730,7 +730,7 @@ def graph_data_grabber():
     fig = Figure()
     ax = fig.subplots()
     ax.hist(np.log10(e_iso), color="green", alpha=0.5)
-    ax.set_xlabel("E$_{iso}$ (ergs)")
+    ax.set_xlabel(r"$E_{iso}$ (ergs)")
     ax.set_ylabel("Frequency")
 
     canvas = FigureCanvas(fig)
@@ -2907,7 +2907,7 @@ def advsearch():
             try:
                 float(min_t90)
             except ValueError:
-                flash("Enter a float for the minimum T$_{90}$")
+                flash(r"Enter a float for the minimum $T_{90}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(T90 as FLOAT)>=?")
@@ -2918,7 +2918,7 @@ def advsearch():
             try:
                 float(max_t90)
             except ValueError:
-                flash("Enter a float for the maximum T$_{90}$")
+                flash(r"Enter a float for the maximum $T_{90}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(T90 as FLOAT)<=?")
@@ -2930,7 +2930,7 @@ def advsearch():
             try:
                 float(min_eiso)
             except ValueError:
-                flash("Enter a float for the minimum E$_{iso}$")
+                flash(r"Enter a float for the minimum $R_{iso}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(e_iso as FLOAT)>=?")
@@ -2941,7 +2941,7 @@ def advsearch():
             try:
                 float(max_eiso)
             except ValueError:
-                flash("Enter a float for the maximum E$_{iso}$")
+                flash(r"Enter a float for the maximum $E_{iso}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(e_iso as FLOAT)<=?")
@@ -2953,7 +2953,7 @@ def advsearch():
             try:
                 float(min_epeak)
             except ValueError:
-                flash("Enter a float for the minimum E$_{p}$")
+                flash(r"Enter a float for the minimum $E_{p}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(E_p as FLOAT)>=?")
@@ -2964,7 +2964,7 @@ def advsearch():
             try:
                 float(max_epeak)
             except ValueError:
-                flash("Enter a float for the maximum E$_{p}$")
+                flash(r"Enter a float for the maximum $E_{p}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(E_p as FLOAT)<=?")
@@ -2976,7 +2976,7 @@ def advsearch():
             try:
                 float(min_ek)
             except ValueError:
-                flash("Enter a float for the minimum E$_{k}$")
+                flash(r"Enter a float for the minimum $E_{k}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(e_k as FLOAT)>=?")
@@ -2987,7 +2987,7 @@ def advsearch():
             try:
                 float(max_ek)
             except ValueError:
-                flash("Enter a float for the maximum E$_{k}$")
+                flash(r"Enter a float for the maximum$ $_{k}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(e_k as FLOAT)<=?")
@@ -2999,7 +2999,7 @@ def advsearch():
             try:
                 float(min_nim)
             except ValueError:
-                flash("Enter a float for the minimum M$_{Ni}$")
+                flash(r"Enter a float for the minimum $M_{Ni}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(ni_m as FLOAT)>=?")
@@ -3010,7 +3010,7 @@ def advsearch():
             try:
                 float(max_nim)
             except ValueError:
-                flash("Enter a float for the maximum M$_{Ni}$")
+                flash(r"Enter a float for the maximum $M_{Ni}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(ni_m as FLOAT)<=?")
@@ -3022,7 +3022,7 @@ def advsearch():
             try:
                 float(min_ejm)
             except ValueError:
-                flash("Enter a float for the minimum M$_{Ej}$")
+                flash(r"Enter a float for the minimum $M_{Ej}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(ej_m as FLOAT)>=?")
@@ -3033,7 +3033,7 @@ def advsearch():
             try:
                 float(max_ejm)
             except ValueError:
-                flash("Enter a float for the maximum M$_{Ej}$")
+                flash(r"Enter a float for the maximum $M_{Ej}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(ej_m as FLOAT)<=?")
