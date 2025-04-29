@@ -2,16 +2,16 @@
 ![GitHub Release](https://img.shields.io/github/v/release/GabrielF98/GRBSNWebtool?color=teal)
 ![](https://img.shields.io/badge/numgrbsne-61-0c71f3)
 ![](https://img.shields.io/badge/standardised-90%25-8A2BE2)
-[![Static Badge](https://img.shields.io/badge/arXiv-2411.08866-b31b1b)](https://arxiv.org/abs/2411.08866)
+[![Static Badge](https://img.shields.io/badge/doi-10.1016/j.ascom.2025.100954-f0b840)](https://doi.org/10.1016/j.ascom.2025.100954)
 
 This repository hosts the data and code for the [GRBSN webtool](https://grbsn.watchertelescope.ie). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
 
-The GRBSN webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper](https://arxiv.org/abs/2411.08866).
+The GRBSN webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in our [paper](https://doi.org/10.1016/j.ascom.2025.100954), which has been published in Astronomy and Computing.
 
 To get in touch please email Gabriel Finneran at grbsnwebtool@gmail.com
 
 # Citing and acknowledging the GRBSN webtool
-If your work has made use of the GRBSN webtool, please cite [this paper](https://ui.adsabs.harvard.edu/abs/2024arXiv241108866F/abstract). We would also appreciate if you could add the following acknowledgement (or similar) to your work:
+If your work has made use of the GRBSN webtool, please cite [this paper](https://doi.org/10.1016/j.ascom.2025.100954). We would also appreciate if you could add the following acknowledgement (or similar) to your work:
 
 ```text
 This research has made use of the GRBSN webtool, available at https://grbsn.watchertelescope.ie
