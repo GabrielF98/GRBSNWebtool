@@ -6,7 +6,7 @@
 
 This repository hosts the data and code for the [GRBSN webtool](https://grbsn.watchertelescope.ie). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
 
-The GRBSN webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper](https://doi.org/10.1016/j.ascom.2025.100954).
+The GRBSN webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in our [paper](https://doi.org/10.1016/j.ascom.2025.100954), which has been published in Astronomy and Computing.
 
 To get in touch please email Gabriel Finneran at grbsnwebtool@gmail.com
 
