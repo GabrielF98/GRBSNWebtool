@@ -8,7 +8,7 @@ This repository hosts the data and code for the [GRBSN webtool](https://grbsn.wa
 
 The GRBSN webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper](https://arxiv.org/abs/2411.08866).
 
-To get in touch please email Gabriel Finneran at gabriel.finneran@ucdconnect.ie
+To get in touch please email Gabriel Finneran at grbsnwebtool@gmail.com
 
 # Citing and acknowledging the GRBSN webtool
 If your work has made use of the GRBSN webtool, please cite [this paper](https://ui.adsabs.harvard.edu/abs/2024arXiv241108866F/abstract). We would also appreciate if you could add the following acknowledgement (or similar) to your work:

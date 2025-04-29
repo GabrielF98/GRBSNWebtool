@@ -10,4 +10,4 @@ The following versions of the GRBSN webtool are receiving active support.
 
 ## Reporting a Vulnerability
 
-You should report security vulnerabilities by emailing gabfin15@gmail.com.
+You should report security vulnerabilities by emailing grbsnwebtool@gmail.com.
