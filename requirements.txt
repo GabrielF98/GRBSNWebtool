@@ -13,8 +13,8 @@ idna==3.7
 importlib-metadata==6.6.0
 kiwisolver==1.4.4
 MarkupSafe==2.1.2
-matplotlib==3.4.3
-numpy==1.22.1
+matplotlib==3.10.3
+numpy>=1.22.1
 packaging==23.1
 pandas==2.0.1
 Pillow==10.3.0
@@ -28,7 +28,7 @@ scipy==1.10.0
 six==1.16.0
 snakemd==2.1.0
 tornado==6.5.1
-typing_extensions==4.5.0
+typing_extensions>=4.5.0
 tzdata==2023.3
 Werkzeug==3.0.6
 urllib3==1.26.19
