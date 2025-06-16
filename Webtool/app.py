@@ -35,6 +35,7 @@ from flask import (
     request,
     send_file,
     url_for,
+    send_from_directory,
 )
 
 # API
@@ -657,6 +658,15 @@ class Plotting(Resource):
         stream.seek(0)
 
         return send_file(stream, as_attachment=True, download_name="plots.zip")
+
+
+# Favicons
+@app.route("/favicon.ico")
+def favicon():
+    return send_from_directory(
+        os.path.join(app.root_path, "static/favicon"),
+        "favicon.ico",
+    )
 
 
 # The homepage and its location
