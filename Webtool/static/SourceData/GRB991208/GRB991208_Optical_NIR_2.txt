@@ -25,7 +25,7 @@ date	instrument	band	integration	mag	mag_limit	dmag	date_unit	integration_unit	m
 1999-Dec-13.0000	UPSO	I	1800	20.3	0	0.2	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	4.807731481481482	NaN
 1999-Dec-13.2604	NOT	R	900	20.89	0	0.04	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	5.068125	NaN
 1999-Dec-13.2715	INT	B	500	22.03	0	0.06	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	5.079224537037037	NaN
-1999-Dec-13.2729	NOT	I	900	20.34	0	0.06	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	5.0806249999999995	NaN
+1999-Dec-13.2729	NOT	I	900	20.34	0	0.06	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	5.080625	NaN
 1999-Dec-13.2764	INT	V	180	21.36	0	0.07	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	5.08412037037037	NaN
 1999-Dec-13.2799	INT	I	300	20.26	0	0.11	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	5.087627314814815	NaN
 1999-Dec-13.2833	NOT	V	300	21.38	0	0.07	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	5.091030092592592	NaN
@@ -41,10 +41,10 @@ date	instrument	band	integration	mag	mag_limit	dmag	date_unit	integration_unit	m
 1999-Dec-15.2938	NOT	V	600	21.8	1	NaN	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	7.101527777777778	NaN
 2000-Jan-03.5319	WIYN	R	600	23.0	1	NaN	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	26.33962962962963	NaN
 2000-Jan-03.5507	WIYN	I	600	22.0	1	NaN	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	26.358425925925925	NaN
-2000-Jan-04.2292	CAHA	R	1800	23.5	1	NaN	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	27.036921296296295	NaN
-2000-Jan-05.2292	CAHA	R	2400	23.23	0	0.13	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	28.036921296296295	NaN
+2000-Jan-04.2292	CAHA	R	1800	23.5	1	NaN	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	27.03692129629629	NaN
+2000-Jan-05.2292	CAHA	R	2400	23.23	0	0.13	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	28.03692129629629	NaN
 2000-Jan-06.2083	CAHA	V	10800	23.83	0	0.1	yyyy-month-deciday	seconds	AB	apparent	observer	True 	days	29.01603009259259	NaN
-2000-Jan-13.2097	CAHA	R	3600	23.1	1	NaN	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	36.017430555555556	NaN
+2000-Jan-13.2097	CAHA	R	3600	23.1	1	NaN	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	36.01743055555556	NaN
 2000-Jan-13.2528	CAHA	V	2400	22.5	1	NaN	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	36.060520833333335	NaN
 2000-Jan-19.2604	NOT	R	1300	23.65	0	0.13	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	42.068125	NaN
 2000-Jan-29.2431	WHT	I	1800	22.5	1	NaN	yyyy-month-deciday	seconds	AB	apparent	observer	True	days	52.05082175925926	NaN
