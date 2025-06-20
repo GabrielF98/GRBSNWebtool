@@ -61,6 +61,8 @@ filenames:
   OpenSNPhotometry.csv:
     datatype: Optical
     sourceurl: https://api.astrocats.space/SN1998bw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+    notes: |
+      Notes: The OpenSN Catalogue did not return any uncertainties for the early time data. An uncertainty of 0.05 on VBRI magnitudes and an uncertainty of 0.1 on U magnitudes was added manually from Galama et al. (1998).
   OpenSNSpectra2.json:
     datatype: Spectra
     sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=2&format=json

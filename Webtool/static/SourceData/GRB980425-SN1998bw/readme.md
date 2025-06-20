@@ -133,7 +133,7 @@ Notes: GRB 980425/SN 1998bw was observed with the LBA using an array comprising 
 
 **Notes:**
 
-No notes.
+Notes: The OpenSN Catalogue did not return any uncertainties for the early time data. An uncertainty of 0.05 on VBRI magnitudes and an uncertainty of 0.1 on U magnitudes was added manually from Galama et al. (1998).
 
 ***
 
