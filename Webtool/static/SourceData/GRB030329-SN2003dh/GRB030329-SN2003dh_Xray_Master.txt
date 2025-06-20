@@ -1,9 +1,9 @@
 time	instrument	flux	flux_limit	dflux	time_unit	energy_range	flux_unit	dtime	reference
-17841.6	Rossi-XTE	1.53e-10	0	1.5e-11	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
-18360.0	Rossi-XTE	1.46e-10	0	1.5e-11	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
-18878.4	Rossi-XTE	1.62e-10	0	1.5e-11	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
-21729.6	Rossi-XTE	1.34e-10	0	1.8e-11	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
-110263.68	Rossi-XTE	9.3e-12	0	3e-12	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
-3222719.9999999995	XMM-Newton	1.43e-14	0	7e-16	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
-5261760.0	XMM-Newton	7.9e-15	0	5e-16	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
-22317120.0	XMM-Newton	6.2e-16	0	2.3e-16	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
+17841.60000	Rossi-XTE	1.530000e-10	0	1.5e-11	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
+18360.00000	Rossi-XTE	1.460000e-10	0	1.5e-11	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
+18878.40000	Rossi-XTE	1.620000e-10	0	1.5e-11	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
+21729.60000	Rossi-XTE	1.340000e-10	0	1.8e-11	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
+110263.68000	Rossi-XTE	9.300000e-12	0	3e-12	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
+3222720.00000	XMM-Newton	1.430000e-14	0	7e-16	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
+5261760.00000	XMM-Newton	7.900000e-15	0	5e-16	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract
+22317120.00000	XMM-Newton	6.200000e-16	0	2.3e-16	seconds	0.5-2keV	erg/cm^2/sec	NaN	https://ui.adsabs.harvard.edu/abs/2004A%26A...423..861T/abstract

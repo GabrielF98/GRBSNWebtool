@@ -1,6 +1,6 @@
 instrument	date	flux	flux_limit	dflux	HR	dHR	date_unit	flux_unit	energy_range	time	time_unit	time_frame	dtime	reference
-Swift/XRT	58884.8	3.23e-14	1	NaN	NaN	NaN	MJD	erg/cm^2/sec	0.2-10 keV	184032.0	seconds	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-Swift/XRT	58886.9	1.2e-13	0	8.65e-14	−0.99	0.71	MJD	erg/cm^2/sec	0.2-10 keV	365472.00000000006	seconds	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-Swift/XRT	58892.3	3.51e-14	0	2.19e-14	−0.93	0.56	MJD	erg/cm^2/sec	0.2-10 keV	832032.0000000001	seconds	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-Chandra	58895.8	1.53e-14	0	5.4e-15	−0.39	0.32	MJD	erg/cm^2/sec	0.4-10.0 keV	1134432.0	seconds	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
-Chandra	58907.0	1.35e-14	0	5.1e-15	−0.77	0.3	MJD	erg/cm^2/sec	0.4-10.0 keV	2102112.0	seconds	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+Swift/XRT	58884.8	3.230000e-14	1	NaN	NaN	NaN	MJD	erg/cm^2/sec	0.2-10 keV	184032.00000	seconds	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+Swift/XRT	58886.9	1.200000e-13	0	8.65e-14	−0.99	0.71	MJD	erg/cm^2/sec	0.2-10 keV	365472.00000	seconds	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+Swift/XRT	58892.3	3.510000e-14	0	2.19e-14	−0.93	0.56	MJD	erg/cm^2/sec	0.2-10 keV	832032.00000	seconds	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+Chandra	58895.8	1.530000e-14	0	5.4e-15	−0.39	0.32	MJD	erg/cm^2/sec	0.4-10.0 keV	1134432.00000	seconds	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract
+Chandra	58907.0	1.350000e-14	0	5.1e-15	−0.77	0.3	MJD	erg/cm^2/sec	0.4-10.0 keV	2102112.00000	seconds	observer	NaN	https://ui.adsabs.harvard.edu/abs/2020A%26A...639L..11I/abstract

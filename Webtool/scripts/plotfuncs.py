@@ -38,16 +38,11 @@ def flux_density_to_AB_mag(flux_densities, dflux_densities, flux_density_unit):
             )
             mag.append(-2.5 * np.log10(flux_density) + 8.9)
             dmag.append(
-                np.sqrt(
-                    (-2.5 / (flux_density * np.log(10))) ** 2
-                    * dflux_density**2
-                )
+                np.sqrt((-2.5 / (flux_density * np.log(10))) ** 2 * dflux_density**2)
             )
         else:
             # Account for upper and lower limits.
-            flux_density = milli_micro_convert(
-                flux_density[1:], flux_density_unit
-            )
+            flux_density = milli_micro_convert(flux_density[1:], flux_density_unit)
             if flux_density[0] == ">":
                 # > ---> <
                 mag.append("<" + str(-2.5 * np.log10(flux_density[1:]) + 8.9))
@@ -67,9 +62,7 @@ def list_grbs_with_data():
     os.chdir("../static/SourceData/")
     root = os.getcwd()
     dirs = [
-        item
-        for item in os.listdir(root)
-        if os.path.isdir(os.path.join(root, item))
+        item for item in os.listdir(root) if os.path.isdir(os.path.join(root, item))
     ]
 
     event_list = []
@@ -193,12 +186,9 @@ def get_redshift(event_id):
         # GRBs with SNs and without
         grb_name = event_id.split("-", maxsplit=1)[0][3:]
 
-        z = conn.execute(
-            "SELECT z FROM SQLDataGRBSNe WHERE GRB=?", (grb_name,)
-        )
+        z = conn.execute("SELECT z FROM SQLDataGRBSNe WHERE GRB=?", (grb_name,))
 
         for redshift in z:
-
             if redshift[0] is not None:
                 z = redshift[0]
 
@@ -302,7 +292,6 @@ def elapsed_time(dataframe, trigtime):
     for i in range(len(dataframe["date"])):
         # yyyy-month-deciday
         if dataframe["date_unit"][i] == "yyyy-month-deciday":
-
             # Split the date.
             date = dataframe["date"][i].split("-")
             year = date[0]
@@ -339,7 +328,6 @@ def elapsed_time(dataframe, trigtime):
             time_frame.append("observer")
         # yyyy-mm-deciday
         elif dataframe["date_unit"][i] == "yyyy-mm-deciday":
-
             # Split up the date.
             date = dataframe["date"][i].split("-")
             year = date[0]
@@ -376,7 +364,6 @@ def elapsed_time(dataframe, trigtime):
             time_frame.append("observer")
         # yyyy-mm-deciday-deciday
         elif dataframe["date_unit"][i] == "yyyy-mm-deciday-deciday":
-
             # Split up the date.
             date = dataframe["date"][i].split("-")
             year = date[0]
@@ -429,7 +416,6 @@ def elapsed_time(dataframe, trigtime):
             time_frame.append("observer")
         # yyyy-month-deciday-deciday
         elif dataframe["date_unit"][i] == "yyyy-month-deciday-deciday":
-
             # Split up the date.
             date = dataframe["date"][i].split("-")
             year = date[0]
@@ -645,7 +631,6 @@ def elapsed_time(dataframe, trigtime):
             time_frame.append("observer")
         # MJD-MJD
         elif dataframe["date_unit"][i] == "MJD-MJD":
-
             # Split the two MJDs
             mjds = dataframe["date"][i].split("-")
 
@@ -675,7 +660,6 @@ def elapsed_time(dataframe, trigtime):
         # yyyy-month-deciday-month-deciday
         # This could have issues if only the date is given.
         elif dataframe["date_unit"][i] == "yyyy-month-deciday-month-deciday":
-
             # Split the date up.
             date = dataframe["date"][i].split("-")
 
@@ -726,16 +710,13 @@ def elapsed_time(dataframe, trigtime):
             #     trigtime = obstime
 
             # Append the isotime-trigtime (elapsed time)
-            time[i] = (
-                obstime - Time(trigtime, format="isot", scale="utc")
-            ).value
+            time[i] = (obstime - Time(trigtime, format="isot", scale="utc")).value
 
             # Time unit is now in days
             time_unit.append("days")
             time_frame.append("observer")
         # yyyy-month-dd-hh.h-hh.h
         elif dataframe["date_unit"][i] == "yyyy-month-dd-hh.h-hh.h":
-
             # Split the date up.
             date = dataframe["date"][i].split("-")
 
@@ -786,9 +767,7 @@ def elapsed_time(dataframe, trigtime):
             #     trigtime = obstime
 
             # Append the isotime-trigtime (elapsed time)
-            time[i] = (
-                obstime - Time(trigtime, format="isot", scale="utc")
-            ).value
+            time[i] = (obstime - Time(trigtime, format="isot", scale="utc")).value
 
             # Time unit is now in days
             time_unit.append("days")
@@ -796,9 +775,7 @@ def elapsed_time(dataframe, trigtime):
         elif dataframe["date_unit"][i] == "utc":
             obstime = Time(dataframe["date"][i], format="isot", scale="utc")
 
-            time[i] = (
-                obstime - Time(trigtime, format="isot", scale="utc")
-            ).value
+            time[i] = (obstime - Time(trigtime, format="isot", scale="utc")).value
 
             time_unit.append("days")
             time_frame.append("observer")
@@ -830,10 +807,8 @@ def delta_time(dataframe):
     time_unit = []
     if "date" in list(dataframe.keys()):
         for i in range(len(dataframe["date"])):
-
             # yyyy-mm-deciday-deciday
             if dataframe["date_unit"][i] == "yyyy-mm-deciday-deciday":
-
                 # Split up the date.
                 date = dataframe["date"][i].split("-")
                 year = date[0]
@@ -877,9 +852,7 @@ def delta_time(dataframe):
 
                 # This one has a range of times. Add the error on the range to the dtime array.
                 delta_time = (t[1] - t[0]) / 2
-                dtime[i] = (
-                    delta_time.to_value(format="sec", subfmt="decimal")
-                ) / 86400
+                dtime[i] = (delta_time.to_value(format="sec", subfmt="decimal")) / 86400
 
                 # Time unit is now in days
                 time_unit.append("days")
@@ -930,9 +903,7 @@ def delta_time(dataframe):
 
                 # This one has a range of times. Add the error on the range to the dtime array.
                 delta_time = (t[1] - t[0]) / 2
-                dtime[i] = (
-                    delta_time.to_value(format="sec", subfmt="decimal")
-                ) / 86400
+                dtime[i] = (delta_time.to_value(format="sec", subfmt="decimal")) / 86400
 
                 # Time unit is now in days
                 time_unit.append("days")
@@ -986,9 +957,7 @@ def delta_time(dataframe):
 
                 # This one has a range of times. Add the error on the range to the dtime array.
                 delta_time = (t[1] - t[0]) / 2
-                dtime[i] = (
-                    delta_time.to_value(format="sec", subfmt="decimal")
-                ) / 86400
+                dtime[i] = (delta_time.to_value(format="sec", subfmt="decimal")) / 86400
 
                 # Time unit is now in days
                 time_unit.append("days")
@@ -1042,9 +1011,7 @@ def delta_time(dataframe):
 
                 # This one has a range of times. Add the error on the range to the dtime array.
                 delta_time = (t[1] - t[0]) / 2
-                dtime[i] = (
-                    delta_time.to_value(format="sec", subfmt="decimal")
-                ) / 86400
+                dtime[i] = (delta_time.to_value(format="sec", subfmt="decimal")) / 86400
 
                 # Time unit is now in days
                 time_unit.append("days")
@@ -1052,7 +1019,6 @@ def delta_time(dataframe):
 
             # MJD-MJD
             elif dataframe["date_unit"][i] == "MJD-MJD":
-
                 # Split the two MJDs
                 mjds = dataframe["date"][i].split("-")
 
@@ -1067,9 +1033,7 @@ def delta_time(dataframe):
 
                 # This one has a range of times. Add the error on the range to the dtime array.
                 delta_time = (mjd2iso - mjd1iso) / 2
-                dtime[i] = (
-                    delta_time.to_value(format="sec", subfmt="decimal")
-                ) / 86400
+                dtime[i] = (delta_time.to_value(format="sec", subfmt="decimal")) / 86400
 
                 # Time unit is now in days
                 time_unit.append("days")
@@ -1077,10 +1041,7 @@ def delta_time(dataframe):
 
             # yyyy-month-deciday-month-deciday
             # Note that this could have issues if only the date is given.
-            elif (
-                dataframe["date_unit"][i] == "yyyy-month-deciday-month-deciday"
-            ):
-
+            elif dataframe["date_unit"][i] == "yyyy-month-deciday-month-deciday":
                 # Split the date up.
                 date = dataframe["date"][i].split("-")
 
@@ -1127,9 +1088,7 @@ def delta_time(dataframe):
 
                 # This one has a range of times. Add the error on the range to the dtime array.
                 delta_time = (t[1] - t[0]) / 2
-                dtime[i] = (
-                    delta_time.to_value(format="sec", subfmt="decimal")
-                ) / 86400
+                dtime[i] = (delta_time.to_value(format="sec", subfmt="decimal")) / 86400
 
                 # Time unit is now in days
                 time_unit.append("days")
@@ -1137,7 +1096,6 @@ def delta_time(dataframe):
 
             # yyyy-month-dd-hh.h-hh.h
             elif dataframe["date_unit"][i] == "yyyy-month-dd-hh.h-hh.h":
-
                 # Split the date up.
                 date = dataframe["date"][i].split("-")
 
@@ -1184,9 +1142,7 @@ def delta_time(dataframe):
 
                 # This one has a range of times. Add the error on the range to the dtime array.
                 delta_time = (t[1] - t[0]) / 2
-                dtime[i] = (
-                    delta_time.to_value(format="sec", subfmt="decimal")
-                ) / 86400
+                dtime[i] = (delta_time.to_value(format="sec", subfmt="decimal")) / 86400
 
                 # Time unit is now in days
                 time_unit.append("days")
@@ -1221,7 +1177,6 @@ def time_formats(dataframe):
 
         # Handle the different date formats
         for i in range(len(dataframe["time"])):
-
             # seconds-seconds
             if dataframe["time_unit"][i] == "seconds-seconds":
                 check = 1
@@ -1480,7 +1435,6 @@ def masterfileformat(event, readme_dict):
 
             if "mag_type" in keys:
                 if data["mag_type"][0] != "absolute":
-
                     # Add a column for the ads abstract link - source
                     # This comes out of the readme.yml file.
                     data["reference"] = len(data["time"]) * [
@@ -1599,24 +1553,44 @@ def masterfileformat(event, readme_dict):
     # Create the master files.
     if len(radio_pandas) != 0:
         radio = pd.concat(radio_pandas, join="outer")
-        radio.to_csv(
-            event + "_Radio_Master.txt", sep="\t", index=False, na_rep="NaN"
-        )
+
+        # Time to seconds precision.
+        radio["time"] = radio["time"].map(lambda x: f"{x:.5f}")
+
+        radio.to_csv(event + "_Radio_Master.txt", sep="\t", index=False, na_rep="NaN")
 
     if len(optical_pandas) != 0:
         optical = pd.concat(optical_pandas, join="outer")
+
+        # Time to seconds precision.
+        optical["time"] = optical["time"].map(lambda x: f"{x:.5f}")
+
         optical.to_csv(
             event + "_Optical_Master.txt", sep="\t", index=False, na_rep="NaN"
         )
 
     if len(xray_pandas) != 0:
         xray = pd.concat(xray_pandas, join="outer")
-        xray.to_csv(
-            event + "_Xray_Master.txt", sep="\t", index=False, na_rep="NaN"
-        )
+
+        # Format the flux column so it stops always changing slightly when you re-run this because of floating point errors.
+        xray["flux"] = xray["flux"].map(lambda x: f"{x:.6e}")
+
+        # Time to seconds precision.
+        xray["time"] = xray["time"].map(lambda x: f"{x:.5f}")
+
+        xray.to_csv(event + "_Xray_Master.txt", sep="\t", index=False, na_rep="NaN")
 
     if len(spectra_pandas) != 0:
         spectra = pd.concat(spectra_pandas, join="outer")
+
+        # Time to seconds precision.
+        spectra["time"] = spectra["time"].map(lambda x: f"{x:.5f}")
+
+        # Format the flux column so it stops always changing slightly when you re-run this because of floating point errors.
+        spectra["flux"] = spectra["flux"].map(lambda x: f"{x:.6e}")
+        if "dflux" in spectra.keys():
+            spectra["dflux"] = spectra["dflux"].map(lambda x: f"{x:.6e}")
+
         spectra.to_csv(
             event + "_Spectra_Master.txt", sep="\t", index=False, na_rep="NaN"
         )
@@ -1627,7 +1601,6 @@ def masterfileformat(event, readme_dict):
 ###################
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser()
     parser.add_argument("--grbsn", type=str, required=False)
     args = parser.parse_args()
@@ -1659,10 +1632,7 @@ if __name__ == "__main__":
                     continue
 
                 # Radio files
-                if any(
-                    substring in file.lower() for substring in radio_filetags
-                ):
-
+                if any(substring in file.lower() for substring in radio_filetags):
                     data = pd.read_csv(file, sep="\t")
 
                     # Find and catalogue limit values
@@ -1671,9 +1641,9 @@ if __name__ == "__main__":
                     ) and "flux_limit" not in list(data.keys()):
                         data = limits(data, file)
                     elif "flux_density_limit" in list(data.keys()):
-                        data["flux_density_limit"] = data[
-                            "flux_density_limit"
-                        ].astype(int)
+                        data["flux_density_limit"] = data["flux_density_limit"].astype(
+                            int
+                        )
                     elif "flux_limit" in list(data.keys()):
                         data["flux_limit"] = data["flux_limit"].astype(int)
 
@@ -1692,16 +1662,13 @@ if __name__ == "__main__":
                     data.to_csv(file, sep="\t", index=False, na_rep="NaN")
 
                 # Optical files
-                elif any(
-                    substring in file.lower() for substring in optical_filetags
-                ):
-
+                elif any(substring in file.lower() for substring in optical_filetags):
                     data = pd.read_csv(file, sep="\t")
 
                     # Convert to mag from flux density if necessary
-                    if "mag" not in list(
+                    if "mag" not in list(data.keys()) and "flux_density" in list(
                         data.keys()
-                    ) and "flux_density" in list(data.keys()):
+                    ):
                         flux_density = data["flux_density"]
                         dflux_density = data["dflux_density"]
                         flux_density_unit = data["flux_density_unit"]
@@ -1734,10 +1701,7 @@ if __name__ == "__main__":
                     data.to_csv(file, sep="\t", index=False, na_rep="NaN")
 
                 # Xray files
-                elif any(
-                    substring in file.lower() for substring in xray_filetags
-                ):
-
+                elif any(substring in file.lower() for substring in xray_filetags):
                     data = pd.read_csv(file, sep="\t")
 
                     # Find and catalogue limit values
@@ -1762,10 +1726,7 @@ if __name__ == "__main__":
                     data.to_csv(file, sep="\t", index=False, na_rep="NaN")
 
                 # Spectra files
-                elif any(
-                    substring in file.lower() for substring in spectra_filetags
-                ):
-
+                elif any(substring in file.lower() for substring in spectra_filetags):
                     data = pd.read_csv(file, sep="\t")
 
                     # Calculate the elapsed time
@@ -1783,6 +1744,12 @@ if __name__ == "__main__":
                     data["rest_wavelength"] = rest_wavelength(
                         data["obs_wavelength"].to_numpy(), redshift
                     )
+
+                    # Round the fluxes to 6 decimals of scientific notation.
+                    data["flux"] = data["flux"].map(lambda x: f"{x:.6e}")
+
+                    if "dflux" in data.keys():
+                        data["dflux"] = data["dflux"].map(lambda x: f"{x:.6e}")
 
                     data.to_csv(file, sep="\t", index=False, na_rep="NaN")
 

@@ -1,17 +1,17 @@
 date	integration	seeing	instrument	time	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	dtime	reference
-2003-Jul-25.7944	360	3.1	Bronberg 0.3 m	0.3	R_{c}	18.591	0	0.21	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Jul-25.8393	360	2.5	Bronberg 0.3 m	0.38	R_{c}	18.671	0	0.21	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Jul-25.9437	360	3.0	Bronberg 0.3 m	0.48	R_{c}	18.901	0	0.21	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Jul-29.3355	5500	3.9	1.54 mD	3.88	R_{c}	21.2	0	0.04	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Jul-30.3151	1800	4.4	1.54 mD	4.83	R_{c}	21.51	0	0.05	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-01.4347	1200	4.9	1.54 mD	6.93	R_{c}	22.46	0	0.55	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-02.2920	7800	4.9	1.54 mD	7.85	R_{c}	22.25	0	0.06	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-03.3268	7800	4.8	1.54 mD	8.87	R_{c}	22.45	0	0.08	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-04.7899	13 800	5.7	1.54 mD	10.34	R_{c}	22.57	0	0.1	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-06.3535	3600	5.4	1.54 mD	11.88	R_{c}	22.96	0	0.1	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-07.3176	4200	4.6	1.54 mD	12.87	R_{c}	23.04	0	0.09	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-08.3116	7800	5.0	1.54 mD	13.86	R_{c}	22.87	0	0.17	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-09.3360	6600	4.2	1.54 mD	14.87	R_{c}	22.54	0	0.2	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-06.3211	3600	4.1	1.54 mD	11.83	V	23.61	0	0.15	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-07.3383	4800	4.5	1.54 mD	12.85	I_{c}	22.12	0	0.17	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
-2003-Aug-09.2839	3600	3.2	1.54 mD	14.79	I_{c}	22.38	0	0.19	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Jul-25.7944	360	3.1	Bronberg 0.3 m	0.30000	R_{c}	18.591	0	0.21	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Jul-25.8393	360	2.5	Bronberg 0.3 m	0.38000	R_{c}	18.671	0	0.21	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Jul-25.9437	360	3.0	Bronberg 0.3 m	0.48000	R_{c}	18.901	0	0.21	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Jul-29.3355	5500	3.9	1.54 mD	3.88000	R_{c}	21.2	0	0.04	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Jul-30.3151	1800	4.4	1.54 mD	4.83000	R_{c}	21.51	0	0.05	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-01.4347	1200	4.9	1.54 mD	6.93000	R_{c}	22.46	0	0.55	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-02.2920	7800	4.9	1.54 mD	7.85000	R_{c}	22.25	0	0.06	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-03.3268	7800	4.8	1.54 mD	8.87000	R_{c}	22.45	0	0.08	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-04.7899	13 800	5.7	1.54 mD	10.34000	R_{c}	22.57	0	0.1	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-06.3535	3600	5.4	1.54 mD	11.88000	R_{c}	22.96	0	0.1	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-07.3176	4200	4.6	1.54 mD	12.87000	R_{c}	23.04	0	0.09	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-08.3116	7800	5.0	1.54 mD	13.86000	R_{c}	22.87	0	0.17	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-09.3360	6600	4.2	1.54 mD	14.87000	R_{c}	22.54	0	0.2	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-06.3211	3600	4.1	1.54 mD	11.83000	V	23.61	0	0.15	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-07.3383	4800	4.5	1.54 mD	12.85000	I_{c}	22.12	0	0.17	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
+2003-Aug-09.2839	3600	3.2	1.54 mD	14.79000	I_{c}	22.38	0	0.19	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439..527P/abstract
