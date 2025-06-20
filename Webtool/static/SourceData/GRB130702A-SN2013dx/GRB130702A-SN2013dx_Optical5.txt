@@ -1,8 +1,8 @@
 date	time	instrument	band	mag	mag_limit	dmag	date_unit	time_unit	time_frame	extinction_corrected	mag_unit	dtime
 2013-07-03T17:38:18	1.7083	AZT-22	R	18.88	0	0.04	utc	days	observer	False	AB	NaN
-2013-07-03T17:40:00	1.7554	AS-32	Clear	18.89	0	0.03	utc	days	observer	False	AB	NaN
+2013-07-03T17:40:00	1.7554	AS-32	clear	18.89	0	0.03	utc	days	observer	False	AB	NaN
 2013-07-04T16:49:20	2.6743	AZT-22	R	19.43	0	0.04	utc	days	observer	False	AB	NaN
-2013-07-04T19:32:52	2.7864	AS-32	Clear	19.33	0	0.07	utc	days	observer	False	AB	NaN
+2013-07-04T19:32:52	2.7864	AS-32	clear	19.33	0	0.07	utc	days	observer	False	AB	NaN
 2013-07-05T16:25:11	3.6592	AZT-22	R	19.79	0	0.02	utc	days	observer	False	AB	NaN
 2013-07-05T20:23:21	3.8377	ZTSh	R	19.86	0	0.02	utc	days	observer	False	AB	NaN
 2013-07-06T16:20:12	4.654	AZT-22	R	19.89	0	0.03	utc	days	observer	False	AB	NaN
@@ -15,11 +15,11 @@ date	time	instrument	band	mag	mag_limit	dmag	date_unit	time_unit	time_frame	exti
 2013-07-13T20:26:12	11.8144	Z-1000/CrAO	R	19.71	0	0.04	utc	days	observer	False	AB	NaN
 2013-07-14T17:08:02	12.6768	AZT-22	R	19.7	0	0.04	utc	days	observer	False	AB	NaN
 2013-07-15T16:44:09	13.6602	AZT-22	R	19.69	0	0.04	utc	days	observer	False	AB	NaN
-2013-07-15T19:23:12	13.7853	AS-32	Clear	19.65	0	0.06	utc	days	observer	False	AB	NaN
+2013-07-15T19:23:12	13.7853	AS-32	clear	19.65	0	0.06	utc	days	observer	False	AB	NaN
 2013-07-15T19:41:31	13.7988	Z-1000/CrAO	R	19.69	0	0.04	utc	days	observer	False	AB	NaN
 2013-07-16T17:25:47	14.6891	AZT-22	R	19.65	0	0.05	utc	days	observer	False	AB	NaN
 2013-07-16T21:08:17	14.8524	Z-1000/CrAO	R	19.68	0	0.07	utc	days	observer	False	AB	NaN
-2013-07-16T21:30:57	14.8678	AS-32	Clear	19.58	0	0.07	utc	days	observer	False	AB	NaN
+2013-07-16T21:30:57	14.8678	AS-32	clear	19.58	0	0.07	utc	days	observer	False	AB	NaN
 2013-07-18T16:56:54	16.6691	AZT-22	R	19.62	0	0.04	utc	days	observer	False	AB	NaN
 2013-07-19T16:54:58	17.6677	AZT-22	R	19.74	0	0.04	utc	days	observer	False	AB	NaN
 2013-07-21T17:29:40	19.6918	AZT-22	R	19.72	0	0.05	utc	days	observer	False	AB	NaN

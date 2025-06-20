@@ -1,89 +1,89 @@
 time	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit	dtime	reference
-0.0005138888888888889	C	16.75	1	NaN	TAROT	days	unspecified	4.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0006145833333333333	C	16.45	1	NaN	TAROT	days	unspecified	4.199999999999999	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0007118055555555556	C	16.25	1	NaN	TAROT	days	unspecified	4.200000000000003	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0008125000000000001	C	16.75	1	NaN	TAROT	days	unspecified	4.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0009131944444444446	C	16.75	1	NaN	TAROT	days	unspecified	4.199999999999996	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0010104166666666666	C	16.75	1	NaN	TAROT	days	unspecified	4.200000000000003	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.001099537037037037	V	17.9	0	0.1	Swift/UVOT	days	unspecified	5.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0013431712962962963	C	16.64	0	0.18	TAROT	days	unspecified	14.950000000000005	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0017592592592592592	C	16.46	0	0.13	TAROT	days	unspecified	14.400000000000006	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0018344907407407407	V	17.4	0	0.1	Swift/UVOT	days	unspecified	49.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0021770833333333334	C	16.03	0	0.11	TAROT	days	unspecified	15.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.003947916666666667	C	16.38	0	0.12	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.005058449074074075	C	16.73	0	0.17	TAROT	days	unspecified	44.94999999999999	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.006214699074074075	R	16.84	0	0.23	TAROT	days	unspecified	45.349999999999966	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.007349537037037037	C	17.05	0	0.31	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.008078703703703704	B	18.8	0	0.1	Swift/UVOT	days	unspecified	5.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.008460648148148148	C	17.05	0	0.26	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.010822337962962962	C	17.5	0	0.41	TAROT	days	unspecified	45.05000000000001	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.011930555555555555	C	17.65	0	0.47	TAROT	days	unspecified	44.69999999999999	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0005138888888888	C	16.75	1	NaN	TAROT	days	unspecified	4.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0006145833333333	C	16.45	1	NaN	TAROT	days	unspecified	4.199999999999999	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0007118055555555	C	16.25	1	NaN	TAROT	days	unspecified	4.200000000000003	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0008125	C	16.75	1	NaN	TAROT	days	unspecified	4.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0009131944444444	C	16.75	1	NaN	TAROT	days	unspecified	4.199999999999996	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0010104166666666	C	16.75	1	NaN	TAROT	days	unspecified	4.200000000000003	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.001099537037037	v	17.9	0	0.1	Swift/UVOT	days	unspecified	5.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0013431712962962	C	16.64	0	0.18	TAROT	days	unspecified	14.950000000000005	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0017592592592592	C	16.46	0	0.13	TAROT	days	unspecified	14.400000000000006	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0018344907407407	v	17.4	0	0.1	Swift/UVOT	days	unspecified	49.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0021770833333333	C	16.03	0	0.11	TAROT	days	unspecified	15.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0039479166666666	C	16.38	0	0.12	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.005058449074074	C	16.73	0	0.17	TAROT	days	unspecified	44.94999999999999	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.006214699074074	R	16.84	0	0.23	TAROT	days	unspecified	45.349999999999966	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.007349537037037	C	17.05	0	0.31	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0080787037037037	b	18.8	0	0.1	Swift/UVOT	days	unspecified	5.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0084606481481481	C	17.05	0	0.26	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0108223379629629	C	17.5	0	0.41	TAROT	days	unspecified	45.05000000000001	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0119305555555555	C	17.65	0	0.47	TAROT	days	unspecified	44.69999999999999	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.1254861111111111	R	19.7	0	0.4	2-m Faulkes Telescope South	days	unspecified	312.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.15038194444444444	I	19.3	0	0.5	2-m Faulkes Telescope South	days	unspecified	315.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.00024305555555555555	R	17.3	0	0.1	ROTSE-III	days	unspecified	2.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.00037210648148148145	C	17.2	1	NaN	TAROT	days	unspecified	9.15	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0004953703703703703	C	15.9	1	NaN	TAROT	days	unspecified	1.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.000754050925925926	C	17.2	1	NaN	TAROT	days	unspecified	20.85	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0011898148148148148	R	18.21	0	0.02	Crni Vrh 60cm	days	unspecified	45.00000000000001	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.001224537037037037	C	18.38	0	0.47	TAROT	days	unspecified	15.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0016521990740740742	C	17.76	0	0.32	TAROT	days	unspecified	14.650000000000006	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0020763888888888885	C	17.99	0	0.35	TAROT	days	unspecified	15.299999999999995	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0022395833333333334	V	18.64	0	0.3	Swift/UVOT	days	unspecified	122.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0024965277777777776	C	17.61	0	0.26	TAROT	days	unspecified	15.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0029265046296296296	C	17.15	0	0.2	TAROT	days	unspecified	15.049999999999985	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.003105324074074074	B	18.32	0	0.04	Crni Vrh 60cm	days	unspecified	90.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0038020833333333335	C	17.31	0	0.13	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.004920138888888889	C	17.02	0	0.11	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.005009259259259259	R	17.01	0	0.02	Crni Vrh 60cm	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.005954861111111111	R	16.9	0	0.12	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.0060729166666666674	R	16.78	0	0.09	TAROT	days	unspecified	45.00000000000003	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.006090277777777779	R	16.75	0	0.02	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.006916666666666667	R	16.86	0	0.03	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.006918981481481481	B	17.51	0	0.04	Crni Vrh 60cm	days	unspecified	89.99999999999997	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.007210648148148148	C	16.94	0	0.11	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.007687500000000001	R	16.99	0	0.03	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.007702546296296296	R	17.09	0	0.16	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.008333333333333333	C	17.06	0	0.11	TAROT	days	unspecified	45.29999999999996	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.008506944444444444	R	17.05	0	0.04	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.008840277777777777	R	17.11	0	0.02	Crni Vrh 60cm	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.009083333333333332	R	17.22	0	0.05	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.009143518518518518	R	17.24	0	0.19	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	13.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.009482638888888888	R	17.22	0	0.14	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.1503819444444444	I	19.3	0	0.5	2-m Faulkes Telescope South	days	unspecified	315.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0002430555555555	R	17.3	0	0.1	ROTSE-III	days	unspecified	2.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0003721064814814	C	17.2	1	NaN	TAROT	days	unspecified	9.15	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0004953703703703	C	15.9	1	NaN	TAROT	days	unspecified	1.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0007540509259259	C	17.2	1	NaN	TAROT	days	unspecified	20.85	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0011898148148148	R	18.21	0	0.02	Crni Vrh 60cm	days	unspecified	45.00000000000001	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.001224537037037	C	18.38	0	0.47	TAROT	days	unspecified	15.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.001652199074074	C	17.76	0	0.32	TAROT	days	unspecified	14.650000000000006	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0020763888888888	C	17.99	0	0.35	TAROT	days	unspecified	15.299999999999995	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0022395833333333	v	18.64	0	0.3	Swift/UVOT	days	unspecified	122.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0024965277777777	C	17.61	0	0.26	TAROT	days	unspecified	15.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0029265046296296	C	17.15	0	0.2	TAROT	days	unspecified	15.049999999999985	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.003105324074074	B	18.32	0	0.04	Crni Vrh 60cm	days	unspecified	90.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0038020833333333	C	17.31	0	0.13	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0049201388888888	C	17.02	0	0.11	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0050092592592592	R	17.01	0	0.02	Crni Vrh 60cm	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0059548611111111	R	16.9	0	0.12	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0060729166666666	R	16.78	0	0.09	TAROT	days	unspecified	45.00000000000003	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0060902777777777	R	16.75	0	0.02	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0069166666666666	R	16.86	0	0.03	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0069189814814814	B	17.51	0	0.04	Crni Vrh 60cm	days	unspecified	89.99999999999997	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0072106481481481	C	16.94	0	0.11	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0076875	R	16.99	0	0.03	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0077025462962962	R	17.09	0	0.16	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0083333333333333	C	17.06	0	0.11	TAROT	days	unspecified	45.29999999999996	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0085069444444444	R	17.05	0	0.04	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0088402777777777	R	17.11	0	0.02	Crni Vrh 60cm	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0090833333333333	R	17.22	0	0.05	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0091435185185185	R	17.24	0	0.19	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	13.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0094826388888888	R	17.22	0	0.14	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.010125	R	17.34	0	0.06	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.010434027777777778	R	17.36	0	0.17	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0104340277777777	R	17.36	0	0.17	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.01071875	C	17.52	0	0.17	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.01075	B	18.56	0	0.04	Crni Vrh 60cm	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.01173611111111111	R	17.48	0	0.09	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.011765046296296296	R	17.44	0	0.14	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.011840277777777778	C	17.54	0	0.16	TAROT	days	unspecified	44.700000000000045	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.012534722222222221	R	17.5	0	0.09	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.012563657407407407	R	17.58	0	0.14	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.012659722222222222	R	17.79	0	0.02	Crni Vrh 60cm	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.012989583333333332	R	17.34	0	0.16	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.013354166666666667	R	17.64	0	0.1	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.014127314814814813	C	17.56	0	0.16	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.014569444444444444	B	18.81	0	0.04	Crni Vrh 60cm	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.015249421296296296	C	17.93	0	0.22	TAROT	days	unspecified	44.75	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.016395254629629628	R	17.86	0	0.24	TAROT	days	unspecified	45.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.016479166666666666	R	18.21	0	0.02	Crni Vrh 60cm	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.01711226851851852	R	17.7	0	0.22	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.017563657407407406	R	17.75	0	0.2	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.018166087962962964	C	17.63	0	0.17	TAROT	days	unspecified	90.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.019461805555555555	R	17.94	0	0.18	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.020325810185185186	C	17.96	0	0.2	TAROT	days	unspecified	90.35000000000002	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.020344907407407405	R	17.66	0	0.02	Crni Vrh 60cm	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.02041087962962963	R	17.79	0	0.21	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.021001157407407406	R	17.89	0	0.14	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.02250925925925926	R	17.67	0	0.17	TAROT	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.024700810185185187	C	17.78	0	0.2	TAROT	days	unspecified	89.65000000000009	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.026860532407407406	C	17.96	0	0.18	TAROT	days	unspecified	89.65000000000009	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.027000000000000003	R	17.78	0	0.02	Crni Vrh 60cm	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.029048032407407408	R	17.61	0	0.22	TAROT	days	unspecified	90.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.03042592592592593	R	17.79	0	0.02	Crni Vrh 60cm	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-0.03351620370370371	R	17.99	0	0.02	Crni Vrh 60cm	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0117361111111111	R	17.48	0	0.09	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0117650462962962	R	17.44	0	0.14	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0118402777777777	C	17.54	0	0.16	TAROT	days	unspecified	44.700000000000045	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0125347222222222	R	17.5	0	0.09	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0125636574074074	R	17.58	0	0.14	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0126597222222222	R	17.79	0	0.02	Crni Vrh 60cm	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0129895833333333	R	17.34	0	0.16	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0133541666666666	R	17.64	0	0.1	RTT150	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0141273148148148	C	17.56	0	0.16	TAROT	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0145694444444444	B	18.81	0	0.04	Crni Vrh 60cm	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0152494212962962	C	17.93	0	0.22	TAROT	days	unspecified	44.75	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0163952546296296	R	17.86	0	0.24	TAROT	days	unspecified	45.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0164791666666666	R	18.21	0	0.02	Crni Vrh 60cm	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0171122685185185	R	17.7	0	0.22	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0175636574074074	R	17.75	0	0.2	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0181660879629629	C	17.63	0	0.17	TAROT	days	unspecified	90.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0194618055555555	R	17.94	0	0.18	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0203258101851851	C	17.96	0	0.2	TAROT	days	unspecified	90.35000000000002	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0203449074074074	R	17.66	0	0.02	Crni Vrh 60cm	days	unspecified	45.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0204108796296296	R	17.79	0	0.21	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0210011574074074	R	17.89	0	0.14	OPTIMA-Burst/1.3m Skinakas Observatory	days	unspecified	12.5	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0225092592592592	R	17.67	0	0.17	TAROT	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0247008101851851	C	17.78	0	0.2	TAROT	days	unspecified	89.65000000000009	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0268605324074074	C	17.96	0	0.18	TAROT	days	unspecified	89.65000000000009	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.027	R	17.78	0	0.02	Crni Vrh 60cm	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0290480324074074	R	17.61	0	0.22	TAROT	days	unspecified	90.25	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0304259259259259	R	17.79	0	0.02	Crni Vrh 60cm	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+0.0335162037037037	R	17.99	0	0.02	Crni Vrh 60cm	days	unspecified	90.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.655	R	21.4	0	0.2	Kiso 1.05m Schmidt	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 0.8940902777777777	R	21.63	0	0.18	INTEGRAL SPI ACS Trigger	days	unspecified	720.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 1.0061041666666666	R	21.75	0	0.11	152 cm Cassini Telescope	days	unspecified	450.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 1.0181041666666666	R	21.74	0	0.12	152 cm Cassini Telescope	days	unspecified	450.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
 1.0401041666666666	R	21.8	0	0.2	152 cm Cassini Telescope	days	unspecified	450.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
-1.8880902777777777	R	22.4	0	0.3	INTEGRAL SPI ACS Trigger	days	unspecified	600.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract
+1.8880902777777775	R	22.4	0	0.3	INTEGRAL SPI ACS Trigger	days	unspecified	600.0	https://ui.adsabs.harvard.edu/abs/2008A%26A...483..847K/abstract

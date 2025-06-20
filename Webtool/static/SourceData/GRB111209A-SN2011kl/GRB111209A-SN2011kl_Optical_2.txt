@@ -1,7 +1,7 @@
 date	time	band	integration	mag	mag_limit	dmag	instrument	date_unit	time_unit	integration_unit	mag_unit	mag_type	time_frame	dtime
-55915.435	11.135	WFC3/UVIS/F336W	1050	23.76	0	0.04	HST	MJD	days	seconds	AB	apparent	observer	NaN
-55915.452	11.152	WFC3/IR/F125W	1059	21.7	0	0.02	HST	MJD	days	seconds	AB	apparent	observer	NaN
-55915.504	11.204	WFC3/IR/G102	2212	NaN	0	NaN	HST	MJD	days	seconds	AB	apparent	observer	NaN
-55939.458	35.157	WFC3/UVIS/F336W	1400	25.58	0	0.15	HST	MJD	days	seconds	AB	apparent	observer	NaN
-55939.455	35.154	WFC3/IR/F125W	153	22.18	0	0.15	HST	MJD	days	seconds	AB	apparent	observer	NaN
-55939.379	35.079	WFC3/IR/G102	3612	NaN	0	NaN	HST	MJD	days	seconds	AB	apparent	observer	NaN
+55915.435	11.135	F336W	1050	23.76	0	0.04	HST	MJD	days	seconds	AB	apparent	observer	NaN
+55915.452	11.152	F125W	1059	21.7	0	0.02	HST	MJD	days	seconds	AB	apparent	observer	NaN
+55915.504	11.204	G102	2212	NaN	0	NaN	HST	MJD	days	seconds	AB	apparent	observer	NaN
+55939.458	35.157	F336W	1400	25.58	0	0.15	HST	MJD	days	seconds	AB	apparent	observer	NaN
+55939.455	35.154	F125W	153	22.18	0	0.15	HST	MJD	days	seconds	AB	apparent	observer	NaN
+55939.379	35.079	G102	3612	NaN	0	NaN	HST	MJD	days	seconds	AB	apparent	observer	NaN

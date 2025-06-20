@@ -4,8 +4,8 @@ V606	26.42	0	NaN	1997-Apr-07	yyyy-month-deciday	AB	apparent	observer	True	HST_WF
 I814	25.37	0	NaN	1997-Mar-26	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	25.876377314814818	days	NaN
 I814	25.74	0	NaN	1997-Apr-07	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	37.87637731481482	days	NaN
 V	26.2	0	NaN	1997-Mar-26	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	25.876377314814818	days	NaN
-Rc	25.17	0	NaN	1997-Mar-26	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	25.876377314814818	days	NaN
-Ic	23.94	0	NaN	1997-Mar-26	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	25.876377314814818	days	NaN
+R_{c}	25.17	0	NaN	1997-Mar-26	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	25.876377314814818	days	NaN
+I_{c}	23.94	0	NaN	1997-Mar-26	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	25.876377314814818	days	NaN
 V	26.52	0	NaN	1997-Apr-07	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	37.87637731481482	days	NaN
-Rc	25.52	0	NaN	1997-Apr-07	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	37.87637731481482	days	NaN
-Ic	24.31	0	NaN	1997-Apr-07	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	37.87637731481482	days	NaN
+R_{c}	25.52	0	NaN	1997-Apr-07	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	37.87637731481482	days	NaN
+I_{c}	24.31	0	NaN	1997-Apr-07	yyyy-month-deciday	AB	apparent	observer	True	HST_WFC2	37.87637731481482	days	NaN

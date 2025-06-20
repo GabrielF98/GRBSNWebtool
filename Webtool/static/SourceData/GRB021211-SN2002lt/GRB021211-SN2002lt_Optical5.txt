@@ -13,8 +13,8 @@ date	time	instrument	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	dtime
 2002-Dec-11.5533	0.0823	P200/IRcam	K_{s}	18.01	0	0.15	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-11.6025	0.131	SSO-40/WFI	B	21.877	0	0.138	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-11.7083	0.237	SSO-40/WFI	R	21.096	0	0.128	yyyy-month-deciday	days	unspecified	NaN
-2002-Dec-12.518	1.037	P200/JCAM	g$\arcmin$	23.398	0	0.047	yyyy-month-deciday	days	unspecified	NaN
-2002-Dec-12.518	1.037	P200/JCAM	r$\arcmin$	23.416	0	0.073	yyyy-month-deciday	days	unspecified	NaN
+2002-Dec-12.518	1.037	P200/JCAM	g'	23.398	0	0.047	yyyy-month-deciday	days	unspecified	NaN
+2002-Dec-12.518	1.037	P200/JCAM	r'	23.416	0	0.073	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-18.49	7.019	Keck I/NIRC	K_{s}	22.12	0	0.18	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-18.52	7.049	Keck I/NIRC	J	22.77	0	0.11	yyyy-month-deciday	days	unspecified	NaN
 2002-Dec-18.56	7.089	Keck I/NIRC	H	22.48	0	0.16	yyyy-month-deciday	days	unspecified	NaN
