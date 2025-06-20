@@ -245,7 +245,7 @@
       <tbody>
         {% if event[0]['GRB']!=None %}
         <tr>
-          <td>T$_{0}$</td>
+          <td>$T_{0}$</td>
 
           <td>
             {% for i in range(radec_nos|length) %}
@@ -260,7 +260,7 @@
         {% endif %}
 
         <tr>
-          <td>E$_{iso}$</td>
+          <td>$E_{iso}$</td>
 
           <td>
             {% for i in range(event_nos|length) %}
@@ -274,7 +274,7 @@
         </tr>
 
         <tr>
-          <td>E$_p$</td>
+          <td>$E_p$</td>
           <td>
             {% for i in range(event_nos|length) %}
             {% if event[i]['E_p']|string != 'None' %}
@@ -296,7 +296,7 @@
           <td></td>
         </tr>
         <tr>
-          <td>T$_{90}$</td>
+          <td>$T_{90}$</td>
           <td>
             {% for i in range(event_nos|length) %}
             {% if event[i]['T90']|string != 'None' %}
@@ -377,7 +377,7 @@
       <tbody>
         {% if event[0]['GRB']==None %}
         <tr>
-          <td>T$_{0}$</td>
+          <td>$T_{0}$</td>
 
           <td>
             {% for i in range(radec_nos|length) %}
@@ -392,7 +392,7 @@
         {% endif %}
 
         <tr>
-          <td>E$_k$</td>
+          <td>$E_k$</td>
 
           <td>
             {% for i in range(event_nos|length) %}
@@ -405,7 +405,7 @@
           <td>erg</td>
         </tr>
         <tr>
-          <td>M$_{Ni}$</td>
+          <td>$M_{Ni}$</td>
           <td>
             {% for i in range(event_nos|length) %}
             {% if event[i]['ni_m']|string != 'None' %}
@@ -413,10 +413,10 @@
             {% endif %}
             {% endfor %}
           </td>
-          <td>M$_{\odot}$</td>
+          <td>$M_{\odot}$</td>
         </tr>
         <tr>
-          <td>M$_{Ej}$</td>
+          <td>$M_{Ej}$</td>
           <td>
             {% for i in range(event_nos|length) %}
             {% if event[i]['ej_m']|string != 'None' %}
@@ -424,10 +424,10 @@
             {% endif %}
             {% endfor %}
           </td>
-          <td>M$_{\odot}$</td>
+          <td>$M_{\odot}$</td>
         </tr>
         <tr>
-          <td>v$_{photospheric}$</td>
+          <td>$v_{photospheric}$</td>
           <td>
             {% for i in range(event_nos|length) %}
             {% if event[i]['v_photospheric']|string != 'None' %}
@@ -439,7 +439,7 @@
           <td>km s$^{-1}$</td>
         </tr>
         <tr>
-          <td>v$_{Fe}$</td>
+          <td>$v_{Fe}$</td>
           <td>
             {% for i in range(event_nos|length) %}
             {% if event[i]['v_Fe_expansion']|string != 'None' %}
@@ -451,7 +451,7 @@
           <td>km s$^{-1}$</td>
         </tr>
         <tr>
-          <td>v$_{Si}$</td>
+          <td>$v_{Si}$</td>
           <td>
             {% for i in range(event_nos|length) %}
             {% if event[i]['v_Si_expansion']|string != 'None' %}
@@ -466,7 +466,7 @@
         <!-- Loop over the magnitudes/times to print any that exist -->
         {% for i in range(ptime_bandlist|length) %}
         <tr>
-          <td>t$_{peak, {{ptime_bandlist[i]}}}$</td>
+          <td>$t_{peak, {{ptime_bandlist[i]}}}$</td>
           <td>
             {% for j in range(peakmag|length) %}
             {% if peakmag[j]['band'] == ptime_bandlist[i] %}
@@ -486,7 +486,7 @@
 
         {% for i in range(mag_bandlist|length) %}
         <tr>
-          <td>m$_{peak, {{mag_bandlist[i]}}}$</td>
+          <td>$m_{peak, {{mag_bandlist[i]}}}$</td>
           <td>
             {% for j in range(peakmag|length) %}
             {% if peakmag[j]['band'] == mag_bandlist[i] %}
