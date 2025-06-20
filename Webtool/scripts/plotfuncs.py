@@ -1573,7 +1573,7 @@ def masterfileformat(event, readme_dict):
         xray = pd.concat(xray_pandas, join="outer")
 
         # Format the flux column so it stops always changing slightly when you re-run this because of floating point errors.
-        xray["flux"] = xray["flux"].map(lambda x: f"{x:.5e}")
+        xray["flux"] = xray["flux"].map(lambda x: f"{x:.6e}")
 
         # Time to seconds precision.
         xray["time"] = xray["time"].map(lambda x: f"{x:.5f}")
@@ -1584,7 +1584,7 @@ def masterfileformat(event, readme_dict):
         spectra = pd.concat(spectra_pandas, join="outer")
 
         # Format the flux column so it stops always changing slightly when you re-run this because of floating point errors.
-        spectra["flux"] = spectra["flux"].map(lambda x: f"{x:.5e}")
+        spectra["flux"] = spectra["flux"].map(lambda x: f"{x:.6e}")
 
         # Time to seconds precision.
         spectra["time"] = spectra["time"].map(lambda x: f"{x:.5f}")
