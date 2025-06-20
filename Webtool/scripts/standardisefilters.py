@@ -60,7 +60,7 @@ def standard_filters(data):
         elif bands[i] == "u'" and instr[i] == "GROND":
             newbands.append(str("u"))
             continue
-        elif bands[i] == "white" or bands[i] == "White" and instr[i] == "UVOT":
+        elif (bands[i] == "white" or bands[i] == "White") and instr[i] == "UVOT":
             newbands.append("UWh")
             continue
         elif bands[i] == "W" or bands[i] == "white":
@@ -109,12 +109,8 @@ def standard_filters(data):
         ):
             newbands.append("UM2")
             continue
-        elif (
-            bands[i] == "u"
-            or bands[i] == "U"
-            or bands[i] == "uvu"
-            and instr[i] == "UVOT"
-            or instr[i] == "Swift/UVOT"
+        elif (bands[i] == "u" or bands[i] == "U" or bands[i] == "uvu") and (
+            instr[i] == "UVOT" or instr[i] == "Swift/UVOT"
         ):
             newbands.append("UVU")
             continue
@@ -123,12 +119,8 @@ def standard_filters(data):
         ):
             newbands.append("UVB")
             continue
-        elif (
-            bands[i] == "v"
-            or bands[i] == "V"
-            or bands[i] == "uvv"
-            and instr[i] == "UVOT"
-            or instr[i] == "Swift/UVOT"
+        elif (bands[i] == "v" or bands[i] == "V" or bands[i] == "uvv") and (
+            instr[i] == "UVOT" or instr[i] == "Swift/UVOT"
         ):
             newbands.append("UVV")
             continue
