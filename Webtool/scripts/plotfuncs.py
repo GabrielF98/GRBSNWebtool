@@ -1588,6 +1588,8 @@ def masterfileformat(event, readme_dict):
 
         # Format the flux column so it stops always changing slightly when you re-run this because of floating point errors.
         spectra["flux"] = spectra["flux"].map(lambda x: f"{x:.6e}")
+        if "dflux" in spectra.keys():
+            spectra["dflux"] = spectra["dflux"].map(lambda x: f"{x:.6e}")
 
         spectra.to_csv(
             event + "_Spectra_Master.txt", sep="\t", index=False, na_rep="NaN"
