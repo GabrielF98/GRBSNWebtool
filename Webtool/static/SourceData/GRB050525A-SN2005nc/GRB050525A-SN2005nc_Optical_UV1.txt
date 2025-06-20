@@ -1,4 +1,4 @@
-time	integration	mag	mag_limit	dmag	flux	dflux	time_unit	integration_unit	mag_unit	flux_unit	instrument	dtime
-102178.0	2378	21.35	0	0.27	0.103	0.025	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	9011.0
-251695.5	11750	22.82	0	0.43	0.027	0.01	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	77836.5
-1464310.0	146267	24.11	1	NaN	<0.008	NaN	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	1134778.0
+time	integration	mag	mag_limit	dmag	flux	dflux	time_unit	integration_unit	mag_unit	flux_unit	instrument	dtime   band
+102178.0	2378	21.35	0	0.27	0.103	0.025	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	9011.0 White
+251695.5	11750	22.82	0	0.43	0.027	0.01	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	77836.5    White
+1464310.0	146267	24.11	1	NaN	<0.008	NaN	seconds	seconds	Vega	10-16 ergs cm-2 s-1 Å-1	UVOT	1134778.0 White
