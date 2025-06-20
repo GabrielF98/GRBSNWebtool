@@ -1,9 +1,9 @@
 date	time	integration	band	mag	mag_limit	dmag	date_unit	time_unit	time_frame	integration_unit	mag_unit	mag_type	extinction_corrected	instrument	dtime
-58725.19505	0.365	120	u	21.77	0	0.05	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
-58726.186209	1.381	120x4	u	22.83	1	NaN	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
-58727.204482	2.377	120x5	u	23.28	1	NaN	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
-58728.229954	3.4	120	u	23.65	1	NaN	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
-58729.203136	4.376	120x5	u	23.64	1	NaN	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
+58725.19505	0.365	120	u'	21.77	0	0.05	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
+58726.186209	1.381	120x4	u'	22.83	1	NaN	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
+58727.204482	2.377	120x5	u'	23.28	1	NaN	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
+58728.229954	3.4	120	u'	23.65	1	NaN	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
+58729.203136	4.376	120x5	u'	23.64	1	NaN	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
 58725.196904	0.367	60	g	21.08	0	0.05	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
 58726.184475	1.382	120x2	g	23.56	0	0.05	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN
 58727.212898	2.385	120x3	g	25.04	0	0.04	MJD	days	observer	seconds	AB	apparent	True	GTC	NaN

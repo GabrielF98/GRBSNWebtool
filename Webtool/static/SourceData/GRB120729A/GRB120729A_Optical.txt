@@ -59,4 +59,4 @@ R	0.0771	18.54	0	0.08	Vega	FTN	days	observer	apparent	False	NaN
 R	0.0865	18.79	0	0.07	Vega	FTN	days	observer	apparent	False	NaN
 R	0.5983	22.5	0	0.46	Vega	LT	days	observer	apparent	False	NaN
 R	0.6301	23.23	0	0.18	Vega	TNG	days	observer	apparent	False	NaN
-Ic	0.7069	21.3	1	NaN	Vega	IAC8	days	observer	apparent	False	NaN
+I_{c}	0.7069	21.3	1	NaN	Vega	IAC8	days	observer	apparent	False	NaN

@@ -1,63 +1,14 @@
-date	mag	mag_limit	dmag	instrument	date_unit	mag_unit	mag_type	time_unit	extinction_corrected	time	time_frame	dtime
-1998-May-9.128	21.2	0	0.1	CAHA	yyyy-month-deciday	AB	apparent	days	True	435.0043865740741	observer	NaN
-1997-May-9.195	21.08	0	0.15	P200	yyyy-month-deciday	AB	apparent	days	True	70.07137731481481	observer	NaN
-1999-May-9.20	21.25	0	0.05	WIYN	yyyy-month-deciday	AB	apparent	days	True	800.0763888888889	observer	NaN
-1998-May-9.75	21.19	0	0.25	SAO	yyyy-month-deciday	AB	apparent	days	True	435.62638888888887	observer	NaN
-1998-May-9.85	21.13	0	0.18	SAO	yyyy-month-deciday	AB	apparent	days	True	435.7263773148149	observer	NaN
-1998-May-9.899	20.7	0	0.1	CAHA	yyyy-month-deciday	AB	apparent	days	True	435.77538194444446	observer	NaN
-1998-May-9.93	20.88	0	0.05	WHT	yyyy-month-deciday	AB	apparent	days	True	435.8063773148148	observer	NaN
-1999-May-10.03	20.46	0	0.05	WHT	yyyy-month-deciday	AB	apparent	days	True	800.9063888888888	observer	NaN
-1997-May-10.142	20.09	0	0.02	WIYN	yyyy-month-deciday	AB	apparent	days	True	71.01836805555556	observer	NaN
-1997-May-10.178	19.93	0	0.09	P200	yyyy-month-deciday	AB	apparent	days	True	71.054375	observer	NaN
-1998-May-10.77	19.7	0	0.03	SAO	yyyy-month-deciday	AB	apparent	days	True	436.6463773148148	observer	NaN
-1998-May-10.850	19.6	0	0.1	LOIANO	yyyy-month-deciday	AB	apparent	days	True	436.7263773148149	observer	NaN
-1998-May-10.872	19.6	0	0.2	CAHA	yyyy-month-deciday	AB	apparent	days	True	436.74837962962965	observer	NaN
-1998-May-10.93	19.8	0	0.03	SAO	yyyy-month-deciday	AB	apparent	days	True	436.8063773148148	observer	NaN
-1998-May-10.98	19.92	0	0.05	WHT	yyyy-month-deciday	AB	apparent	days	True	436.8563888888889	observer	NaN
-1998-May-11.01	19.77	0	0.07	WHT	yyyy-month-deciday	AB	apparent	days	True	436.8863773148148	observer	NaN
-1998-May-11.144	19.9	0	0.1	WHT	yyyy-month-deciday	AB	apparent	days	True	437.02038194444447	observer	NaN
-1997-May-11.198	19.87	0	0.1	P60	yyyy-month-deciday	AB	apparent	days	True	72.074375	observer	NaN
-1998-May-11.76	20.1	0	0.03	SAO	yyyy-month-deciday	AB	apparent	days	True	437.6363773148148	observer	NaN
-1998-May-11.868	20.2	0	0.1	CAHA	yyyy-month-deciday	AB	apparent	days	True	437.7443865740741	observer	NaN
-1998-May-12.03	20.3	0	0.07	WHT	yyyy-month-deciday	AB	apparent	days	True	437.9063773148148	observer	NaN
-1997-May-12.135	20.26	0	0.03	WIYN	yyyy-month-deciday	AB	apparent	days	True	73.01136574074074	observer	NaN
-1998-May-12.139	20.3	0	0.1	CAHA	yyyy-month-deciday	AB	apparent	days	True	438.01538194444447	observer	NaN
-1998-May-12.203	20.25	0	0.02	WO	yyyy-month-deciday	AB	apparent	days	True	438.0793865740741	observer	NaN
-1997-May-12.195	20.28	0	0.12	P60	yyyy-month-deciday	AB	apparent	days	True	73.07137731481481	observer	NaN
-1998-May-12.87	20.63	0	0.05	SAO	yyyy-month-deciday	AB	apparent	days	True	438.7463773148148	observer	NaN
-1997-May-13.179	20.5	0	0.15	P200	yyyy-month-deciday	AB	apparent	days	True	74.05537037037037	observer	NaN
-1998-May-13.850	20.3	0	0.1	LOIANO	yyyy-month-deciday	AB	apparent	days	True	439.7263773148149	observer	NaN
-1998-May-13.88	21.09	0	0.07	SAO	yyyy-month-deciday	AB	apparent	days	True	439.75638888888886	observer	NaN
-1998-May-14.167	21.05	0	0.07	WO	yyyy-month-deciday	AB	apparent	days	True	440.0433796296296	observer	NaN
-1997-May-14.400	20.9	0	0.2	Haute-Provence	yyyy-month-deciday	AB	apparent	days	True	75.27640046296297	observer	NaN
-1998-May-14.860	21.3	0	0.2	LOIANO	yyyy-month-deciday	AB	apparent	days	True	440.7363773148148	observer	NaN
-1998-May-14.979	21.25	0	0.05	NOT	yyyy-month-deciday	AB	apparent	days	True	440.8553819444445	observer	NaN
-1998-May-16.884	21.51	0	0.1	NOT	yyyy-month-deciday	AB	apparent	days	True	442.7603819444444	observer	NaN
-1998-May-19.051	21.88	0	0.25	NOT	yyyy-month-deciday	AB	apparent	days	True	444.92738425925927	observer	NaN
-1998-May-19.185	21.92	0	0.1	NOT	yyyy-month-deciday	AB	apparent	days	True	445.0613773148148	observer	NaN
-1998-May-20.875	21.81	0	0.1	SAO	yyyy-month-deciday	AB	apparent	days	True	446.75138888888887	observer	NaN
-1998-May-21.892	22.09	0	0.07	SAO	yyyy-month-deciday	AB	apparent	days	True	447.7683796296296	observer	NaN
-1998-May-22.97	22.04	0	0.07	WHT	yyyy-month-deciday	AB	apparent	days	True	448.8463773148148	observer	NaN
-1998-Jun-01.912	23.1	0	0.07	NOT	yyyy-month-deciday	AB	apparent	days	True	458.7883796296296	observer	NaN
-1997-Jun-2.59	23.1	0	0.15	HST	yyyy-month-deciday	AB	apparent	days	True	94.46636574074074	observer	NaN
-1997-Jun-5.26	23.2	0	0.2	KECK	yyyy-month-deciday	AB	apparent	days	True	97.13636574074074	observer	NaN
-1998-Jun-7.879	23.52	0	0.1	NOT	yyyy-month-deciday	AB	apparent	days	True	464.7553819444444	observer	NaN
-1998-Jun-7.917	23.66	0	0.1	SAO	yyyy-month-deciday	AB	apparent	days	True	464.7933796296296	observer	NaN
-1998-Jun-8.991	23.54	0	0.2	SAO	yyyy-month-deciday	AB	apparent	days	True	465.86738425925927	observer	NaN
-1998-Jun-10.928	23.34	0	0.2	SAO	yyyy-month-deciday	AB	apparent	days	True	467.8043865740741	observer	NaN
-1998-Jun-13.966	23.42	0	0.14	SAO	yyyy-month-deciday	AB	apparent	days	True	470.8423842592592	observer	NaN
-1998-Jun-14.9261	23.5	0	0.25	NOT	yyyy-month-deciday	AB	apparent	days	True	471.8024884259259	observer	NaN
-1998-Jun-27.893	23.88	0	0.16	SAO	yyyy-month-deciday	AB	apparent	days	True	484.7693865740741	observer	NaN
-1998-Jul-4.19	23.95	0	0.2	WHT	yyyy-month-deciday	AB	apparent	days	True	491.06638888888887	observer	NaN
-1998-Jul-7.946	24.08	0	0.2	SAO	yyyy-month-deciday	AB	apparent	days	True	494.82238425925925	observer	NaN
-1998-Jul-31.843	24.54	0	0.25	SAO	yyyy-month-deciday	AB	apparent	days	True	518.7193865740741	observer	NaN
-1998-Aug-2.807	24.28	0	0.35	SAO	yyyy-month-deciday	AB	apparent	days	True	520.6833796296296	observer	NaN
-1998-Aug-14.18	24.28	0	0.1	NOT	yyyy-month-deciday	AB	apparent	days	True	532.0563773148148	observer	NaN
-1998-Aug-26.90	24.57	0	0.07	WHT	yyyy-month-deciday	AB	apparent	days	True	544.7763773148148	observer	NaN
-1998-Oct-9.94	24.3	0	0.2	SAO	yyyy-month-deciday	AB	apparent	days	True	588.8163773148148	observer	NaN
-1998-Nov-10.04	24.7	0	0.15	SAO	yyyy-month-deciday	AB	apparent	days	True	619.9163773148148	observer	NaN
-1998-Nov-25.97	24.7	0	0.14	SAO	yyyy-month-deciday	AB	apparent	days	True	635.8463773148148	observer	NaN
-1998-Nov-29.0	25.09	0	0.14	KECK	yyyy-month-deciday	AB	apparent	days	True	638.8763888888889	observer	NaN
-1998-Jan-24.87	24.96	0	0.17	SAO	yyyy-month-deciday	AB	apparent	days	True	330.7463888888889	observer	NaN
-1998-Feb-22.4	25.29	0	0.16	KECK	yyyy-month-deciday	AB	apparent	days	True	359.2763773148148	observer	NaN
-1998-Mar-20.5	25.2	0	0.25	WHT	yyyy-month-deciday	AB	apparent	days	True	385.37638888888887	observer	NaN
+date	mag	mag_limit	dmag	dmag2	instrument	date_unit	mag_unit	mag_type	time_unit	extinction_corrected	band	time	time_frame	dtime
+1997-Feb-28.81	20.5	0	0.5	0.5	RAO	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	0.6863657407407409	observer	NaN
+1997-Feb-28.83	21.7	0	0.5	0.3	BUT	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	0.7063657407407409	observer	NaN
+1997-Feb-28.99	20.9	0	0.14	0.14	WHT	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	0.8663657407407408	observer	NaN
+1997-Mar-1.79	22.2	1	NaN	NaN	BUT	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	1.6663773148148149	observer	NaN
+1997-Mar-3.10	22.3	0	0.8	0.8	APO	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	2.976458333333333	observer	NaN
+1997-Mar-4.86	23.4	1	NaN	NaN	NOT	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	4.736377314814815	observer	NaN
+1997-Mar-6.32	24.1	0	0.5	0.4	Keck	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	6.196377314814815	observer	NaN
+1997-Mar-8.88	22.7	1	NaN	NaN	INT+WHT	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	8.756377314814815	observer	NaN
+1997-Mar-9.9	24.6	0	0.7	0.4	INT	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	9.776400462962965	observer	NaN
+1997-Mar-13.00	25.1	0	1.3	0.6	NTT	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	12.876377314814816	observer	NaN
+1997-Mar-26.2	25.17	0	0.13	0.13	HST	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	26.07636574074074	observer	NaN
+1997-Mar-7.23	25.5	0	0.13	0.13	HST	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	7.106377314814814	observer	NaN
+1997-Sep-4.71	27.25	0	0.27	0.27	HST	yyyy-month-deciday	unspecified	apparent	days	False	R_{c}	188.58638888888888	observer	NaN

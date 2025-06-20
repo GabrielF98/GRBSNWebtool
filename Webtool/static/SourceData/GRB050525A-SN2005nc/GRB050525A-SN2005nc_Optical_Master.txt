@@ -54,161 +54,161 @@ date	time	mag	mag_limit	dmag	integration	band	instrument	date_unit	time_unit	mag
 2005-05-25.0931	0.0914	16.353	0	0.035	60.240	J	3.5-m CAHA	yyyy-mm-deciday	days	unspecified	0.0	https://ui.adsabs.harvard.edu/abs/2012MNRAS.427..288R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
 2011-07-18.0320–18.1150	2245.0716	23.58	0	0.225	83×60	J	3.5-m CAHA	yyyy-mm-deciday-deciday	days	unspecified	0.0415000000000418	https://ui.adsabs.harvard.edu/abs/2012MNRAS.427..288R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
 2011-07-19.0502–19.1077	2246.0771	NaN	0	NaN	57×60	J	3.5-m CAHA	yyyy-mm-deciday-deciday	days	unspecified	0.0288000000000465	https://ui.adsabs.harvard.edu/abs/2012MNRAS.427..288R/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.0007638888888888889	13.21	0	0.24	1.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	189.8	41.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0007754629629629629	12.9	0	0.23	1.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	254.0	53.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.000787037037037037	12.86	0	0.23	1.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	263.3	55.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0007986111111111112	13.01	0	0.23	1.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	227.9	48.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0008101851851851852	12.97	0	0.23	1.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	236.3	50.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0008217592592592593	13.31	0	0.23	1.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	172.8	34.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0008333333333333334	13.13	0	0.23	1.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	204.3	43.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0008449074074074074	13.01	0	0.23	1.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	227.9	48.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0009027777777777777	13.13	0	0.1	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	204.3	19.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0009606481481481482	13.26	0	0.1	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	181.5	17.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0010185185185185184	13.18	0	0.1	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	195.5	18.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0010763888888888889	13.24	0	0.11	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	185.6	18.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0011342592592592593	13.25	0	0.11	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	184.2	17.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0011921296296296296	13.51	0	0.11	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	144.9	14.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.00125	13.44	0	0.11	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	154.4	15.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0013078703703703703	13.67	0	0.11	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	124.7	13.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0013657407407407407	13.48	0	0.11	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	148.4	15.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0014236111111111112	13.62	0	0.11	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	130.2	13.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0014814814814814814	13.86	0	0.12	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	104.2	11.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0015393518518518519	13.7	0	0.11	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	121.5	12.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0015972222222222223	13.83	0	0.12	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	107.2	11.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0016550925925925926	13.81	0	0.12	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	109.2	11.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.001712962962962963	13.84	0	0.12	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	106.2	11.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0017708333333333332	13.87	0	0.12	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	103.2	11.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0018287037037037037	14.06	0	0.12	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	87.1	10.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0018865740740740742	14.0	0	0.12	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	91.7	10.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0019444444444444444	14.01	0	0.12	5.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	90.8	10.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.002002314814814815	14.08	0	0.13	10.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	83.3	10.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0029861111111111113	14.64	0	0.14	10.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	49.8	6.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.003958333333333334	14.79	0	0.15	10.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	43.3	6.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.004930555555555555	15.22	0	0.17	10.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	29.2	4.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.005914351851851852	15.47	0	0.19	10.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	23.2	4.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0068865740740740745	16.06	0	0.24	10.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	13.4	3.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.00787037037037037	15.83	0	0.22	10.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	16.6	3.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.008842592592592593	16.06	0	0.25	10.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	13.4	3.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.00982638888888889	15.78	0	0.22	10.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	17.4	3.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.010798611111111111	15.85	0	0.24	10.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	16.3	4.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.014386574074074074	16.34	0	0.15	100.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	10.4	1.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.21498842592592593	18.15	0	0.41	156.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	2.0	0.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.2565162037037037	19.1	0	0.27	580.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.8	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.41247685185185184	18.86	0	0.27	750.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.0	0.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.5708333333333333	20.62	1	NaN	4982.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.2	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	11.242592592592592	22.09	1	NaN	33800.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.1	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	13.555277777777778	21.16	1	NaN	6081.0	V	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.1	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.002650462962962963	14.79	0	0.12	10.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	72.2	8.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0036226851851851854	15.19	0	0.12	10.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	49.9	5.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.004594907407407408	15.51	0	0.13	10.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	37.2	4.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.005578703703703704	15.63	0	0.14	10.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	33.3	4.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.006608796296296297	15.7	0	0.14	10.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	31.2	4.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.007534722222222222	16.13	0	0.16	10.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	21.0	3.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.008506944444444444	16.03	0	0.16	10.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	23.0	3.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.00949074074074074	16.56	0	0.2	10.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	14.1	2.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.010462962962962962	16.44	0	0.2	10.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	15.8	3.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.011967592592592592	16.61	0	0.11	100.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	13.5	1.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.1466550925925926	18.59	0	0.18	390.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	2.2	0.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.18729166666666666	18.69	0	0.17	190.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	2.0	0.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.3475810185185185	19.82	0	0.52	388.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.7	0.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.39233796296296297	20.84	0	0.45	900.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.3	0.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.52625	20.7	1	NaN	896.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.7239467592592592	21.55	1	NaN	6513.0	B	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.1	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.002488425925925926	13.7	0	0.18	10.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	110.3	19.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.003460648148148148	14.08	0	0.18	10.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	77.8	14.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.004849537037037037	14.47	0	0.19	10.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	54.3	10.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.005416666666666667	14.71	0	0.19	10.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	43.5	8.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.006388888888888889	14.97	0	0.2	10.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	34.3	6.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.007372685185185185	15.01	0	0.2	10.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	33.0	6.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.008344907407407407	15.14	0	0.2	10.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	29.3	5.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.00931712962962963	15.46	0	0.21	10.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	21.8	4.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.010300925925925925	15.29	0	0.21	10.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	25.5	5.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.011284722222222222	15.32	0	0.22	10.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	24.8	5.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.1391087962962963	17.66	0	0.17	900.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	2.9	0.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.33175925925925925	18.85	0	0.3	194.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.0	0.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.3400462962962963	18.79	0	0.2	900.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.0	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.475	19.99	0	0.54	758.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.3	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.6133564814814815	19.68	1	NaN	780.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.4	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	1.4922222222222221	20.05	1	NaN	1548.0	U	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.002337962962962963	13.61	0	0.07	10.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	162.8	10.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.003310185185185185	14.18	0	0.09	10.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	96.3	8.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0042824074074074075	14.77	0	0.12	10.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	56.2	6.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0052662037037037035	15.1	0	0.14	10.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	41.5	5.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.006238425925925926	15.22	0	0.15	10.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	37.0	5.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.007222222222222222	15.26	0	0.15	10.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	35.6	4.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.008194444444444445	15.22	0	0.15	10.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	36.9	5.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.009166666666666667	15.88	0	0.21	10.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	20.1	3.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.010150462962962964	16.15	0	0.24	10.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	15.7	3.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.011122685185185185	15.76	0	0.2	10.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	22.6	4.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.07825231481481482	17.33	0	0.06	638.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	5.3	0.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.32535879629629627	19.49	0	0.19	900.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.7	0.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.4697337962962963	20.33	0	0.39	900.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.3	0.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.6030092592592593	21.05	1	NaN	898.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.7377083333333333	21.2	1	NaN	900.0	UVW1 (260 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0021643518518518518	13.54	0	0.1	10.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	218.9	20.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.003148148148148148	14.32	0	0.14	10.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	106.8	14.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.004120370370370371	14.6	0	0.16	10.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	82.4	12.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.005092592592592593	14.94	0	0.19	10.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	60.3	10.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.006076388888888889	15.84	0	0.3	10.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	26.4	7.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.007048611111111111	14.9	0	0.19	10.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	62.4	10.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.008032407407407408	15.18	0	0.21	10.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	48.3	9.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.00900462962962963	15.51	0	0.26	10.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	35.9	8.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.009988425925925927	15.57	0	0.26	10.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	33.8	8.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.010960648148148148	15.66	0	0.27	10.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	31.2	7.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.06925925925925926	17.1	0	0.06	900.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	8.2	0.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.2778587962962963	18.96	0	0.19	864.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.5	0.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.4592939814814815	19.72	0	0.3	897.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.7	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.5932523148148148	20.34	0	0.48	900.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.4	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.8657175925925926	21.59	1	NaN	931.0	UVM2 (220 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.6	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0028356481481481483	14.69	0	0.11	10.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	88.4	9.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0038078703703703703	15.3	0	0.16	10.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	50.2	7.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.004780092592592593	15.13	0	0.14	10.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	58.6	7.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.005763888888888889	15.6	0	0.18	10.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	38.2	6.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.006736111111111111	15.22	0	0.15	10.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	54.3	7.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.0077083333333333335	15.8	0	0.2	10.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	31.7	5.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.00869212962962963	15.72	0	0.19	10.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	34.3	5.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.009664351851851851	16.43	0	0.27	10.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	17.8	4.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.010648148148148148	16.21	0	0.25	10.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	21.8	4.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.013194444444444444	16.35	0	0.08	100.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	19.1	1.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.20802083333333332	18.99	0	0.13	882.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.7	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.40284722222222225	20.05	0	0.25	900.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.6	0.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.6037268518518518	21.76	1	NaN	1800.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.004238888888888889	14.54	0	0.11	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0007638888888888	13.21	0	0.24	1.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	189.8	41.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0007754629629629	12.9	0	0.23	1.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	254.0	53.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.000787037037037	12.86	0	0.23	1.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	263.3	55.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0007986111111111	13.01	0	0.23	1.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	227.9	48.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0008101851851851	12.97	0	0.23	1.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	236.3	50.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0008217592592592	13.31	0	0.23	1.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	172.8	34.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0008333333333333	13.13	0	0.23	1.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	204.3	43.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0008449074074074	13.01	0	0.23	1.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	227.9	48.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0009027777777777	13.13	0	0.1	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	204.3	19.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0009606481481481	13.26	0	0.1	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	181.5	17.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0010185185185185	13.18	0	0.1	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	195.5	18.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0010763888888888	13.24	0	0.11	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	185.6	18.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0011342592592592	13.25	0	0.11	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	184.2	17.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0011921296296296	13.51	0	0.11	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	144.9	14.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.00125	13.44	0	0.11	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	154.4	15.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0013078703703703	13.67	0	0.11	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	124.7	13.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0013657407407407	13.48	0	0.11	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	148.4	15.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0014236111111111	13.62	0	0.11	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	130.2	13.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0014814814814814	13.86	0	0.12	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	104.2	11.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0015393518518518	13.7	0	0.11	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	121.5	12.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0015972222222222	13.83	0	0.12	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	107.2	11.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0016550925925925	13.81	0	0.12	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	109.2	11.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0017129629629629	13.84	0	0.12	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	106.2	11.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0017708333333333	13.87	0	0.12	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	103.2	11.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0018287037037037	14.06	0	0.12	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	87.1	10.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.001886574074074	14.0	0	0.12	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	91.7	10.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0019444444444444	14.01	0	0.12	5.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	90.8	10.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0020023148148148	14.08	0	0.13	10.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	83.3	10.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0029861111111111	14.64	0	0.14	10.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	49.8	6.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0039583333333333	14.79	0	0.15	10.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	43.3	6.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0049305555555555	15.22	0	0.17	10.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	29.2	4.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0059143518518518	15.47	0	0.19	10.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	23.2	4.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.006886574074074	16.06	0	0.24	10.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	13.4	3.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0078703703703703	15.83	0	0.22	10.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	16.6	3.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0088425925925925	16.06	0	0.25	10.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	13.4	3.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0098263888888888	15.78	0	0.22	10.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	17.4	3.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0107986111111111	15.85	0	0.24	10.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	16.3	4.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.014386574074074	16.34	0	0.15	100.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	10.4	1.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.2149884259259259	18.15	0	0.41	156.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	2.0	0.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.2565162037037037	19.1	0	0.27	580.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.8	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.4124768518518518	18.86	0	0.27	750.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.0	0.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.5708333333333333	20.62	1	NaN	4982.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.2	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	11.242592592592592	22.09	1	NaN	33800.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.1	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	13.555277777777778	21.16	1	NaN	6081.0	v	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.1	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0026504629629629	14.79	0	0.12	10.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	72.2	8.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0036226851851851	15.19	0	0.12	10.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	49.9	5.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0045949074074074	15.51	0	0.13	10.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	37.2	4.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0055787037037037	15.63	0	0.14	10.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	33.3	4.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0066087962962962	15.7	0	0.14	10.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	31.2	4.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0075347222222222	16.13	0	0.16	10.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	21.0	3.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0085069444444444	16.03	0	0.16	10.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	23.0	3.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0094907407407407	16.56	0	0.2	10.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	14.1	2.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0104629629629629	16.44	0	0.2	10.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	15.8	3.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0119675925925925	16.61	0	0.11	100.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	13.5	1.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.1466550925925926	18.59	0	0.18	390.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	2.2	0.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.1872916666666666	18.69	0	0.17	190.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	2.0	0.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.3475810185185185	19.82	0	0.52	388.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.7	0.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.3923379629629629	20.84	0	0.45	900.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.3	0.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.52625	20.7	1	NaN	896.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.7239467592592592	21.55	1	NaN	6513.0	b	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.1	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0024884259259259	13.7	0	0.18	10.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	110.3	19.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0034606481481481	14.08	0	0.18	10.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	77.8	14.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.004849537037037	14.47	0	0.19	10.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	54.3	10.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0054166666666666	14.71	0	0.19	10.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	43.5	8.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0063888888888888	14.97	0	0.2	10.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	34.3	6.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0073726851851851	15.01	0	0.2	10.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	33.0	6.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0083449074074074	15.14	0	0.2	10.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	29.3	5.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0093171296296296	15.46	0	0.21	10.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	21.8	4.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0103009259259259	15.29	0	0.21	10.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	25.5	5.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0112847222222222	15.32	0	0.22	10.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	24.8	5.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.1391087962962963	17.66	0	0.17	900.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	2.9	0.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.3317592592592592	18.85	0	0.3	194.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.0	0.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.3400462962962963	18.79	0	0.2	900.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.0	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.475	19.99	0	0.54	758.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.3	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.6133564814814815	19.68	1	NaN	780.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.4	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	1.492222222222222	20.05	1	NaN	1548.0	u	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0023379629629629	13.61	0	0.07	10.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	162.8	10.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0033101851851851	14.18	0	0.09	10.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	96.3	8.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0042824074074074	14.77	0	0.12	10.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	56.2	6.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0052662037037037	15.1	0	0.14	10.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	41.5	5.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0062384259259259	15.22	0	0.15	10.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	37.0	5.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0072222222222222	15.26	0	0.15	10.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	35.6	4.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0081944444444444	15.22	0	0.15	10.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	36.9	5.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0091666666666666	15.88	0	0.21	10.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	20.1	3.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0101504629629629	16.15	0	0.24	10.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	15.7	3.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0111226851851851	15.76	0	0.2	10.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	22.6	4.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0782523148148148	17.33	0	0.06	638.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	5.3	0.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.3253587962962962	19.49	0	0.19	900.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.7	0.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.4697337962962963	20.33	0	0.39	900.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.3	0.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.6030092592592593	21.05	1	NaN	898.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.7377083333333333	21.2	1	NaN	900.0	uvw1	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0021643518518518	13.54	0	0.1	10.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	218.9	20.0	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0031481481481481	14.32	0	0.14	10.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	106.8	14.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0041203703703703	14.6	0	0.16	10.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	82.4	12.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0050925925925925	14.94	0	0.19	10.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	60.3	10.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0060763888888888	15.84	0	0.3	10.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	26.4	7.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0070486111111111	14.9	0	0.19	10.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	62.4	10.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0080324074074074	15.18	0	0.21	10.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	48.3	9.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0090046296296296	15.51	0	0.26	10.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	35.9	8.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0099884259259259	15.57	0	0.26	10.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	33.8	8.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0109606481481481	15.66	0	0.27	10.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	31.2	7.6	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0692592592592592	17.1	0	0.06	900.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	8.2	0.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.2778587962962963	18.96	0	0.19	864.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.5	0.3	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.4592939814814815	19.72	0	0.3	897.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.7	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.5932523148148148	20.34	0	0.48	900.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.4	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.8657175925925926	21.59	1	NaN	931.0	uvm2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.6	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0028356481481481	14.69	0	0.11	10.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	88.4	9.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0038078703703703	15.3	0	0.16	10.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	50.2	7.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0047800925925925	15.13	0	0.14	10.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	58.6	7.7	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0057638888888888	15.6	0	0.18	10.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	38.2	6.4	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0067361111111111	15.22	0	0.15	10.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	54.3	7.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0077083333333333	15.8	0	0.2	10.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	31.7	5.8	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0086921296296296	15.72	0	0.19	10.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	34.3	5.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0096643518518518	16.43	0	0.27	10.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	17.8	4.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0106481481481481	16.21	0	0.25	10.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	21.8	4.9	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0131944444444444	16.35	0	0.08	100.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	19.1	1.5	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.2080208333333333	18.99	0	0.13	882.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.7	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.4028472222222222	20.05	0	0.25	900.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.6	0.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.6037268518518518	21.76	1	NaN	1800.0	uvw2	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
+NaN	0.0042388888888888	14.54	0	0.11	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
 NaN	0.00449375	14.31	0	0.09	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.004749305555555556	14.54	0	0.11	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0047493055555555	14.54	0	0.11	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
 NaN	0.0050875	14.66	0	0.12	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.005507638888888889	14.65	0	0.12	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.0059277777777777775	14.79	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.006929166666666667	14.95	0	0.14	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.007179166666666666	15.08	0	0.15	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.007429166666666667	15.44	0	0.18	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.007758333333333334	15.36	0	0.17	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.008188194444444444	15.16	0	0.15	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.008613194444444444	15.25	0	0.16	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00927986111111111	15.29	0	0.16	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0055076388888888	14.65	0	0.12	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0059277777777777	14.79	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0069291666666666	14.95	0	0.14	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0071791666666666	15.08	0	0.15	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0074291666666666	15.44	0	0.18	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0077583333333333	15.36	0	0.17	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0081881944444444	15.16	0	0.15	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0086131944444444	15.25	0	0.16	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0092798611111111	15.29	0	0.16	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
 NaN	0.01005	15.29	0	0.16	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.010825694444444445	15.39	0	0.25	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.011600694444444443	16.12	0	0.23	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.012370833333333333	15.8	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.013146527777777778	15.81	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.013146527777777778	15.81	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.014061805555555555	15.97	0	0.22	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.014827083333333333	15.94	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.015591666666666669	16.25	0	0.31	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.016356944444444445	15.78	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.017902083333333332	16.19	0	0.23	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.018827083333333335	15.92	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.020382638888888888	16.48	0	0.25	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.021147916666666666	16.39	0	0.26	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.021922916666666667	16.64	0	0.27	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.02394236111111111	15.97	0	0.22	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.025402777777777778	15.79	0	0.26	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.02687291666666667	16.24	0	0.35	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.02975138888888889	15.88	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.036345833333333334	16.43	0	0.25	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.04532986111111111	16.53	0	0.26	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.05429513888888889	17.11	0	0.3	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.07522083333333333	17.36	0	0.32	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0108256944444444	15.39	0	0.25	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0116006944444444	16.12	0	0.23	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0123708333333333	15.8	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0131465277777777	15.81	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0131465277777777	15.81	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0140618055555555	15.97	0	0.22	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0148270833333333	15.94	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0155916666666666	16.25	0	0.31	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0163569444444444	15.78	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0179020833333333	16.19	0	0.23	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0188270833333333	15.92	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0203826388888888	16.48	0	0.25	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0211479166666666	16.39	0	0.26	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0219229166666666	16.64	0	0.27	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0239423611111111	15.97	0	0.22	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0254027777777777	15.79	0	0.26	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0268729166666666	16.24	0	0.35	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0297513888888888	15.88	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0363458333333333	16.43	0	0.25	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0453298611111111	16.53	0	0.26	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0542951388888888	17.11	0	0.3	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.0752208333333333	17.36	0	0.32	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
 NaN	1.1826157407407407	21.35	0	0.27	2378	NaN	UVOT	NaN	days	Vega	9011.0	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	NaN	NaN	seconds	NaN	0.103	0.025	10-16 ergs cm-2 s-1 Å-1
 NaN	2.913142361111111	22.82	0	0.43	11750	NaN	UVOT	NaN	days	Vega	77836.5	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	NaN	NaN	seconds	NaN	0.027	0.01	10-16 ergs cm-2 s-1 Å-1
 NaN	16.948032407407407	24.11	1	NaN	146267	NaN	UVOT	NaN	days	Vega	1134778.0	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	NaN	NaN	seconds	NaN	<0.008	NaN	10-16 ergs cm-2 s-1 Å-1

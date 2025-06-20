@@ -177,10 +177,10 @@ z	4.0855	20.63	0	0.09	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsab
 z	5.8026	20.72	0	0.09	AB	NOT	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
 z	8.0838	21.62	0	0.22	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
 z	9.794	22.27	0	0.14	AB	GTC	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
-Y	2.0719	20.3	0	0.25	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
-Y	3.105	20.18	0	0.09	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
-Y	4.0855	20.33	0	0.12	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
-Y	8.0838	21.14	0	0.27	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
+y	2.0719	20.3	0	0.25	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
+y	3.105	20.18	0	0.09	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
+y	4.0855	20.33	0	0.12	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
+y	8.0838	21.14	0	0.27	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
 J	0.0754	16.38	0	0.1	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
 J	0.0842	16.29	0	0.1	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
 J	0.089	16.41	0	0.09	AB	RATIR	days	observer	False	apparent	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract

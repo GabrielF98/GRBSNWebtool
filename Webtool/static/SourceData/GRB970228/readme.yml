@@ -37,6 +37,18 @@ filenames:
       Notes: GRB 970228 was detected by BeppoSAX on 1997 February 28.123620 UT.
   GRB970228_Optical_5.txt:
     datatype: Optical
-    sourceurl: https://ui.adsabs.harvard.edu/abs/1998ApJ...500L.105G/abstract
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract
     notes: |
-      Notes: Data obtained during the rise, or after the host galaxy dominates, and excluded from the power-law fit.Outlier dropped from power-law fit.
+      These are Rc magnitudes that were computed from observations in other bands.
+
+      Observation on Sep 04 1997 was removed because it didn't have an OT mag, just a mag for the OT and extended source.
+
+      Observation on Apr 05.76 1997 has an unrealistic infinite uncertainty, so we removed it.
+
+      RAO = Rome Astrophysical Observatory
+      BUT = Bologna University Telescope
+      WHT = William Hershell Telescope
+      APO = Apache Point Observatory
+      NOT = Nordic Optical Telescope
+      INT = Isaac Newton Telescope
+      HST = Hubble Space Telescope
