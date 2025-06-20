@@ -223,7 +223,7 @@ for i in subfolders:
         if file.endswith("Optical_Master.txt"):
             print(file)
             # opens optical master
-            filepath = myPath + "/" + i + "/" + file
+            filepath = os.path.join(folderpath, file)
             dd = pd.read_csv(filepath, delimiter="\t")
             ## checking the bands named correctly
             # print(file)
