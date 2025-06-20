@@ -133,7 +133,7 @@ Notes: GRB 980425/SN 1998bw was observed with the LBA using an array comprising 
 
 **Notes:**
 
-Notes: The broker did not return any errors on the earl time data. These errors on magnitudes were added manually from Galama et al.1998 which were errors of 0.05 for VBRI magnitudes and errors of 0.1 for U magnitudes.
+Notes: The OpenSN Catalogue did not return any errors on the earl time data. These errors on magnitudes were added manually from Galama et al.1998 which were errors of 0.05 for VBRI magnitudes and errors of 0.1 for U magnitudes.
 
 ***
 
