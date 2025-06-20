@@ -222,6 +222,6 @@ for i in subfolders:
 
             # replace the old bands with the new
             newfilter = standard_filters(dd)
-            dd["band"] = newfilter
+            dd["filter"] = newfilter
 
             dd.to_csv(filepath, sep="\t", index=False, na_rep="NaN")
