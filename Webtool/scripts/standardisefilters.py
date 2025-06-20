@@ -75,7 +75,7 @@ def standard_filters(data):
             or bands[i] == "UVW1 (260 nm) Filter"
             or bands[i] == "UVW1"
         ):
-            newbands.append("UW1")
+            newbands.append("uvw1")
             continue
         elif (
             bands[i] == "w2"
@@ -86,18 +86,18 @@ def standard_filters(data):
             or bands[i] == "UVW2 (198 nm) Filter"
             or bands[i] == "UVW2"
         ):
-            newbands.append("UW2")
+            newbands.append("uvw2")
             continue
-        elif (
-            bands[i] == "m1"
-            or bands[i] == "M1"
-            or bands[i] == "Um1"
-            or bands[i] == "um1"
-            or bands[i] == "uvm1"
-            or bands[i] == "UVM1"
-        ):
-            newbands.append("UM1")
-            continue
+        # elif (
+        #     bands[i] == "m1"
+        #     or bands[i] == "M1"
+        #     or bands[i] == "Um1"
+        #     or bands[i] == "um1"
+        #     or bands[i] == "uvm1"
+        #     or bands[i] == "UVM1"
+        # ):
+        #     newbands.append("uvm1")
+        # continue
         elif (
             bands[i] == "m2"
             or bands[i] == "M2"
@@ -107,22 +107,22 @@ def standard_filters(data):
             or bands[i] == "UVM2"
             or bands[i] == "UVM2 (220 nm) Filter"
         ):
-            newbands.append("UM2")
+            newbands.append("uvm2")
             continue
         elif (bands[i] == "u" or bands[i] == "U" or bands[i] == "uvu") and (
             instr[i] == "UVOT" or instr[i] == "Swift/UVOT"
         ):
-            newbands.append("UVU")
+            newbands.append("u")
             continue
         elif (bands[i] == "b" or bands[i] == "B" or bands[i] == "uvb") and (
             instr[i] == "UVOT" or instr[i] == "Swift/UVOT"
         ):
-            newbands.append("UVB")
+            newbands.append("b")
             continue
         elif (bands[i] == "v" or bands[i] == "V" or bands[i] == "uvv") and (
             instr[i] == "UVOT" or instr[i] == "Swift/UVOT"
         ):
-            newbands.append("UVV")
+            newbands.append("v")
             continue
         elif bands[i] == "Ic" or bands[i] == "I_{C}":
             newbands.append("I_{c}")
