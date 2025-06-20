@@ -1,5 +1,0 @@
-GRB/SN,Filename,Status,Reference
-GRB081007-SN2008hw,GRB081007-SN2008hw_NIR_Optical.txt,"Early, NIR, Optical",https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract
-GRB081007-SN2008hw,GRB081007-SN2008hw_Optical1.txt,"Early, Late, Optical",https://ui.adsabs.harvard.edu/abs/2013ApJ...774..114J/abstract
-GRB081007-SN2008hw,GRB081007xrtlc.txt,Xray,https://www.swift.ac.uk/xrt_curves/
-GRB081007-SN2008hw,OpenSNPhotometry.csv,Optical,https://api.astrocats.space/SN2008hw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

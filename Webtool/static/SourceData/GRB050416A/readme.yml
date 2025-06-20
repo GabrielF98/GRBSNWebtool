@@ -1,0 +1,38 @@
+event_name: GRB050416A
+grb_name: GRB050416A
+sn_name: null
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB050416A_UV_Optical_IR.txt:
+    datatype: Early, IR, Optical, UV
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
+    notes: |
+      The time tmid is the time from the BAT trigger to the middle of the observation. The exposure time is denoted by Δt. Upper limits are 3 σ upper limits. Errors are 1 σ statistical errors and do not include the systematic errors in the photometric zero points. 
+      a This data point consists of co-added data. See original data for this info. 
+  GRB050416A_Optical_NIR.txt:
+    datatype: Early, NIR, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
+    notes: |
+      - Days since explosion have been calculated for the midpoint of each exposure.
+      - Magnitudes have not been corrected for extinction. Limits are given as 3 σ.
+      - The observation on 2005-Apr-16.4772, 2005-Apr-17.4006 is in the AB system.
+  GRB050416A_Optical.txt:
+    datatype: Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
+    notes: |
+      - AB system magnitudes in the HST filters given in the fourth column. Photometry was done on residual images (see § 2.2). We have assumed the source flux to be negligible in the final (template) epoch. Magnitudes have not been corrected for extinction.
+      - We convert the F775W magnitudes in the fifth column to Johnson I band (Vega system) as described in § 2.2. Magnitudes have not been corrected for extinction.
+  GRB050416A_Radio.txt:
+    datatype: Early, Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
+    notes: |
+      All errors are given as 1 σ (rms).
+  GRB050416Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

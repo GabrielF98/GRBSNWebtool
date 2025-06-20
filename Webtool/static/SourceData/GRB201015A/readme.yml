@@ -1,0 +1,14 @@
+event_name: GRB201015A
+grb_name: GRB201015A
+sn_name: null
+status: NewEvent
+processed: true
+processinfo: null
+xray: true
+optical: false
+spectra: false
+radio: false
+filenames:
+  GRB201015Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/

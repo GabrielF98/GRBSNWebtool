@@ -1,14 +1,21 @@
-# The GRB-SN Webtool repository 
-![Latest Stable Release](https://img.shields.io/badge/latestrelease-v1.2.1-teal)
+# The GRBSN webtool: an open-source repository for GRB-SN associations 
+![GitHub Release](https://img.shields.io/github/v/release/GabrielF98/GRBSNWebtool?color=teal)
 ![](https://img.shields.io/badge/numgrbsne-61-0c71f3)
 ![](https://img.shields.io/badge/standardised-90%25-8A2BE2)
+[![Static Badge](https://img.shields.io/badge/doi-10.1016/j.ascom.2025.100954-f0b840)](https://doi.org/10.1016/j.ascom.2025.100954)
 
+This repository hosts the data and code for the [GRBSN webtool](https://grbsn.watchertelescope.ie). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
 
-This repository hosts the data and code for the [GRB-SN Webtool](https://ucdatoms.eu.pythonanywhere.com). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
+The GRBSN webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in our [paper](https://doi.org/10.1016/j.ascom.2025.100954), which has been published in Astronomy and Computing.
 
-The GRB-SN Webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in this [paper]().
+To get in touch please email Gabriel Finneran at grbsnwebtool@gmail.com
 
-To get in touch please email Gabriel Finneran at gabriel.finneran@ucdconnect.ie
+# Citing and acknowledging the GRBSN webtool
+If your work has made use of the GRBSN webtool, please cite [this paper](https://doi.org/10.1016/j.ascom.2025.100954). We would also appreciate if you could add the following acknowledgement (or similar) to your work:
+
+```text
+This research has made use of the GRBSN webtool, available at https://grbsn.watchertelescope.ie
+```
 
 # Missing/bad data or missing GRB-SN associations 
 If you are aware of any missing observations, erroneous data or additional bulk data (e.g. isotropic energy/magnitude) for any of the events in the catalogue you can log this as an issue [here](https://github.com/GabrielF98/GRBSNWebtool/issues/new?assignees=GabrielF98&labels=add+data&template=alert-us-about-missing-data.md&title=Missing+data+for+%3Cevent+name+here%3E). 
@@ -56,5 +63,5 @@ Notes: The data were taken under VLA project codes AF414^1, AK583^2, AS864^3, an
  * The pull request should be set for review by: GabrielF98
  * The label should be set to: 'add data'
 
-# Suggest improvements to the Webtool
+# Suggest improvements to the GRBSN webtool
 This repository contains the source code for the project as well as the data stored in the tool. Feel free to suggest updates by opening a [new issue](https://github.com/GabrielF98/GRBSNWebtool/issues/new) or by forking the code and submitting a pull request.

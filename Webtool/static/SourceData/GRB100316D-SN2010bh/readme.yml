@@ -1,0 +1,102 @@
+event_name: GRB100316D-SN2010bh
+grb_name: GRB100316D
+sn_name: SN2010bh
+status: MostlyCompleted
+processed: true
+processinfo: null
+xray: true
+optical: true
+spectra: false
+radio: true
+filenames:
+  GRB100316D-SN2010bh_Radio.txt:
+    datatype: Late, Radio
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2013ApJ...778...18M/abstract
+    notes: |
+      Table 1 
+      ATCA Observations of GRB 100316D/SN 2010bh
+      Note. Errors are 1sigma and upper limits are 3sigma.
+  GRB100316D-SN2010bh_Optical.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012ApJ...753...67B/abstract
+    notes: |
+      Table 3 
+      UBVRI Observed Magnitudes of SN 2010bh
+      Notes.
+      a Phases from Swift/BAT trigger (2010 March 16.53; Stamatikos et al. 2010) in the host-galaxy rest frame. No corrections have been applied to the reported magnitudes, with exception of the (*) S-correction for the PROMPT ones.
+      b Upper limit.
+      Calibration was performed using Landolt stars for U and Stetson stars for BVRI. This implys that both are Vega magnitudes.
+  GRB100316D-SN2010bh_Optical1.txt:
+    datatype: Early, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012A%26A...539A..76O/abstract
+    notes: |
+      GROND photometry of XRF 100316D/SN 2010bh after image subtraction.
+      Notes. The template image for subtraction was taken 234 days after burst. The time reference is t0 = 55271.53113 MJD, the date of the GRB trigger. All magnitudes are in the AB system and corrected for neither Galactic nor host-galaxy extinction. Upper limits are all at the 3σ confidence level. Errors include the systematics of the photometric calibration.
+  GRB100316D-SN2010bh_IR_Optical2.txt:
+    datatype: Early, IR, Late, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011ApJ...740...41C/abstract
+    notes: |
+      Table 1
+      HST Photometry of XRF 100316D/SN 2010bh. Note. All magnitudes have been corrected for foreground extinction.
+  GRB100316D-SN2010bh_Optical3.txt:
+    datatype: Early, Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2011ApJ...740...41C/abstract
+    notes: |
+      Table 2
+      Ground-based Photometry of XRF 100316D/SN 2010bh.
+      Note.
+      a Telescope key - FTS: 2 m Faulkes Telescope South; GS: 8.1 m Gemini-South Telescope. All magnitudes have been corrected for foreground extinction.
+  GRB100316Dxrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  OpenSNPhotometry.csv:
+    datatype: Optical
+    sourceurl: https://api.astrocats.space/SN2010bh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+  OpenSNSpectra2.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=2&format=json
+  OpenSNSpectra11.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=11&format=json
+  OpenSNSpectra10.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=10&format=json
+  OpenSNSpectra3.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=3&format=json
+  OpenSNSpectra8.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=8&format=json
+  OpenSNSpectra4.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=4&format=json
+  OpenSNSpectra5.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=5&format=json
+  OpenSNSpectra9.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=9&format=json
+  OpenSNSpectra15.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=15&format=json
+  OpenSNSpectra6.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=6&format=json
+  OpenSNSpectra7.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=7&format=json
+  OpenSNSpectra14.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=14&format=json
+  OpenSNSpectra0.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=0&format=json
+  OpenSNSpectra13.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=13&format=json
+  OpenSNSpectra12.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=12&format=json
+  OpenSNSpectra1.json:
+    datatype: Spectra
+    sourceurl: https://api.astrocats.space/SN2010bh/spectra/?item=1&format=json

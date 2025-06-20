@@ -1,0 +1,20 @@
+event_name: GRB180728A-SN2018fip
+grb_name: GRB180728A
+sn_name: SN2018fip
+status: NoADSData
+processed: true
+processinfo: ''
+xray: true
+optical: false
+spectra: true
+radio: false
+filenames:
+  GRB180728Axrtlc.txt:
+    datatype: Xray
+    sourceurl: https://www.swift.ac.uk/xrt_curves/
+  GRB180728A-SN2018fip_Spectra.txt:
+    datatype: Spectra
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2018TNSTR1245....1L
+    notes: |
+      Taken from the transient name server. 
+      The original filename was: tns_2018fip_2018-08-21.078_VLT-UT2_X-Shooter_STARGATE.dat

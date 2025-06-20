@@ -35,6 +35,7 @@ from flask import (
     request,
     send_file,
     url_for,
+    send_from_directory,
 )
 
 # API
@@ -81,18 +82,18 @@ class TableForm(FlaskForm):
     object_name = StringField("", validators=[Optional()])
     min_z = StringField("Min. Z", validators=[Optional()])
     max_z = StringField("Max. Z", validators=[Optional()])
-    min_t90 = StringField("Min. T$_{90}$ [sec]", validators=[Optional()])
-    max_t90 = StringField("Max. T$_{90}$ [sec]", validators=[Optional()])
-    max_eiso = StringField("Max. E$_{iso}$ [ergs]", validators=[Optional()])
-    min_eiso = StringField("Min. E$_{iso}$ [ergs]", validators=[Optional()])
-    min_nim = StringField("Max. M$_{ni}$ [M$_{\odot}$]", validators=[Optional()])
-    max_nim = StringField("Min. M$_{ni}$ [M$_{\odot}$]", validators=[Optional()])
-    max_ejm = StringField("Max. M$_{ej}$ [M$_{\odot}$]", validators=[Optional()])
-    min_ejm = StringField("Min. M$_{ej}$ [M$_{\odot}$]", validators=[Optional()])
-    max_epeak = StringField("Max. E$_{p}$ [keV]", validators=[Optional()])
-    min_epeak = StringField("Min. E$_{p}$ [keV]", validators=[Optional()])
-    max_ek = StringField("Max. E$_{k}$ [erg]", validators=[Optional()])
-    min_ek = StringField("Min. E$_{k}$ [erg]", validators=[Optional()])
+    min_t90 = StringField(r"Min. $T_{90}$ [sec]", validators=[Optional()])
+    max_t90 = StringField(r"Max. $T_{90}$ [sec]", validators=[Optional()])
+    max_eiso = StringField(r"Max. $E_{iso}$ [ergs]", validators=[Optional()])
+    min_eiso = StringField(r"Min. $E_{iso}$ [ergs]", validators=[Optional()])
+    min_nim = StringField(r"Max. $M_{ni}$ [$M_{\odot}$]", validators=[Optional()])
+    max_nim = StringField(r"Min. $M_{ni}$ [$M_{\odot}$]", validators=[Optional()])
+    max_ejm = StringField(r"Max. $M_{ej}$ [$M_{\odot}$]", validators=[Optional()])
+    min_ejm = StringField(r"Min. $M_{ej}$ [$M_{\odot}$]", validators=[Optional()])
+    max_epeak = StringField(r"Max. $E_{p}$ [keV]", validators=[Optional()])
+    min_epeak = StringField(r"Min. $E_{p}$ [keV]", validators=[Optional()])
+    max_ek = StringField(r"Max. $E_{k}$ [erg]", validators=[Optional()])
+    min_ek = StringField(r"Min. $E_{k}$ [erg]", validators=[Optional()])
     submit2 = SubmitField("Search")
 
 
@@ -241,7 +242,6 @@ def sne_names():
     names = conn.execute("SELECT DISTINCT(SNe) FROM SQLDataGRBSNe")
     sne = []
     for i in names:
-
         if i[0] == None:
             continue
 
@@ -260,10 +260,11 @@ sne = sne_names()
 
 
 def processing_tag(event_id, band):
-    df = pd.read_csv("static/SourceData/tags.csv")
-    df2 = df[df["Name"] == event_id]
-    tag = str(df2.iloc[0][band])
-    if tag == "Yes":
+    with open(f"static/SourceData/{event_id}/readme.yml", "r") as readme_file:
+        readme_dict = yaml.safe_load(readme_file)
+    tag = readme_dict.get(band)
+    print(tag)
+    if tag is True:
         tag = "Pending"
 
     else:
@@ -349,7 +350,6 @@ class Downloads(Resource):
 )
 class Downloads2(Resource):
     def get(self, max_redshift, min_redshift):
-
         conn = get_db_connection()
 
         names = conn.execute(
@@ -660,6 +660,15 @@ class Plotting(Resource):
         return send_file(stream, as_attachment=True, download_name="plots.zip")
 
 
+# Favicons
+@app.route("/favicon.ico")
+def favicon():
+    return send_from_directory(
+        os.path.join(app.root_path, "static/favicon"),
+        "favicon.ico",
+    )
+
+
 # The homepage and its location
 
 
@@ -728,7 +737,7 @@ def graph_data_grabber():
     fig = Figure()
     ax = fig.subplots()
     ax.hist(np.log10(e_iso), color="green", alpha=0.5)
-    ax.set_xlabel("E$_{iso}$ (ergs)")
+    ax.set_xlabel(r"$E_{iso}$ (ergs)")
     ax.set_ylabel("Frequency")
 
     canvas = FigureCanvas(fig)
@@ -830,7 +839,6 @@ def event(event_id):
     event_refs = []
     for i in range(len(event)):
         if event[i]["PrimarySources"] != None:
-
             # If its not in the list save the citation and the number.
             if event[i]["PrimarySources"] not in list(needed_dict.keys()):
                 needed_dict[event[i]["PrimarySources"]] = dict_refs[
@@ -870,7 +878,6 @@ def event(event_id):
 
     for i in range(len(radec)):
         if radec[i]["source"] != None:
-
             # If its not in the list save the citation and the number.
             if radec[i]["source"] not in list(needed_dict.keys()):
                 needed_dict[radec[i]["source"]] = dict_refs[radec[i]["source"]]
@@ -896,7 +903,6 @@ def event(event_id):
     peakmag_nos = []
     for i in range(len(peakmag)):
         if peakmag[i]["source"] != None:
-
             # If its not in the list save the citation and the number.
             if peakmag[i]["source"] not in list(needed_dict.keys()):
                 needed_dict[peakmag[i]["source"]] = dict_refs[peakmag[i]["source"]]
@@ -925,7 +931,6 @@ def event(event_id):
 
     # For the plot x axis time
     if radec[0]["grb_id"] != None:
-
         if int(str(radec[0]["grb_id"])[:2]) > 50 and radec[0]["grb_id"] != None:
             grb_time_str = (
                 "19"
@@ -1018,7 +1023,6 @@ def event(event_id):
         + str(event_id.split("-")[0])
         + "xrtlc.txt"
     ):
-
         # Get the data from the lc file.
         data = pd.read_csv(
             "static/SourceData/"
@@ -1330,7 +1334,7 @@ def event(event_id):
             y=1.3e-12,
             x_units="data",
             y_units="data",
-            text=processing_tag(event_id, "Xray"),
+            text=processing_tag(event_id, "xray"),
             render_mode="css",
             text_font_size="50pt",
             border_line_color="grey",
@@ -1377,7 +1381,6 @@ def event(event_id):
             "./static/SourceData/" + str(event_id) + "/" + "OpenSNPhotometry.csv"
         )
         if data.empty == False:
-
             # Indexing the sources
             for dictionaries in data["refs"]:
                 dictionaries = ast.literal_eval(dictionaries)
@@ -1431,9 +1434,7 @@ def event(event_id):
 
             color = Category20_20.__iter__()
             for j in bands:
-
                 if "nan" in str(j).lower():
-
                     # New df of just points without a band name (ie nan)
                     new_df = data.loc[data["band"].isna()]
 
@@ -1740,7 +1741,7 @@ def event(event_id):
             y=18.8,
             x_units="data",
             y_units="data",
-            text=processing_tag(event_id, "Optical"),
+            text=processing_tag(event_id, "optical"),
             render_mode="css",
             text_font_size="50pt",
             border_line_color="grey",
@@ -1773,7 +1774,6 @@ def event(event_id):
     if exists(
         "static/SourceData/" + str(event_id) + "/" + str(event_id) + "_Radio_Master.txt"
     ):
-
         # Get the files that were downloaded from the ADS
         radio_df = pd.read_csv(
             "static/SourceData/"
@@ -1938,7 +1938,7 @@ def event(event_id):
             y=1.55,
             x_units="data",
             y_units="data",
-            text=processing_tag(event_id, "Radio"),
+            text=processing_tag(event_id, "radio"),
             render_mode="css",
             text_font_size="50pt",
             border_line_color="grey",
@@ -2034,7 +2034,6 @@ def event(event_id):
 
     # Check for json files
     if exists("static/SourceData/" + str(event_id) + "/" + "OpenSNSpectra0.json"):
-
         # Access the data in the files for the SNe Spectra
         path = "./static/SourceData/" + str(event_id) + "/"
         files = glob.glob(path + "/*.json")
@@ -2109,14 +2108,12 @@ def event(event_id):
                             list(needed_dict.keys()).index(sources[k]["url"]) + 1
                         )
                     else:
-
                         # Account for non ads references
                         # if the final digits look like a year
                         if (
                             "19" in sources[k]["name"][-4:-2]
                             or "20" in sources[k]["name"][-4:-2]
                         ):
-
                             # Add to the needed_dict
                             needed_dict[sources[k]["url"]] = {
                                 "names": sources[k]["name"][:-4],
@@ -2255,18 +2252,17 @@ def event(event_id):
 
         # Plot
         for i in range(len(epochs)):
-
             # Scale the flux using the 5000A flux
             scaled_spectrum = spectra_df.loc[spectra_df["time"] == float(epochs[i])]
-            if np.array(scaled_spectrum["flux"])[-1] < 5000:
-                scaled_spectrum["scaled_flux"] = (
-                    np.array(scaled_spectrum["flux"])
-                    / np.array(scaled_spectrum["flux"])[0]
-                )
-            elif np.array(scaled_spectrum["flux"])[0] > 5000:
+            if np.array(scaled_spectrum["rest_wavelength"])[-1] < 5000:
                 scaled_spectrum["scaled_flux"] = (
                     np.array(scaled_spectrum["flux"])
                     / np.array(scaled_spectrum["flux"])[-1]
+                )
+            elif np.array(scaled_spectrum["rest_wavelength"])[0] > 5000:
+                scaled_spectrum["scaled_flux"] = (
+                    np.array(scaled_spectrum["flux"])
+                    / np.array(scaled_spectrum["flux"])[0]
                 )
             else:
                 scaled_spectrum["scaled_flux"] = scaled_spectrum["flux"] / (
@@ -2311,7 +2307,7 @@ def event(event_id):
             y=0.405,
             x_units="data",
             y_units="data",
-            text=processing_tag(event_id, "Optical Spectra"),
+            text=processing_tag(event_id, "spectra"),
             render_mode="css",
             text_font_size="50pt",
             border_line_color="grey",
@@ -2676,7 +2672,6 @@ def graphs():
                 str(row[2]).split(",")[0] != "None"
                 and str(row[3]).split(",")[0] != "None"
             ):
-
                 if "<" in str(row[2]).split(",")[0]:
                     x_data_upperx.append(float(str(row[2]).split(",")[0][1:]))
                     y_data_upperx.append(float(str(row[3]).split(",")[0][1:]))
@@ -2859,7 +2854,6 @@ def advsearch():
 
         # Check if the variables are as expected
         if event_id != str():
-
             if str(event_id)[2:] in sne:  # if they search an SNYYYYxx sn type
                 querylist.append(f"SNe=?")
                 varlist.append(str(event_id[2:]))
@@ -2905,7 +2899,7 @@ def advsearch():
             try:
                 float(min_t90)
             except ValueError:
-                flash("Enter a float for the minimum T$_{90}$")
+                flash(r"Enter a float for the minimum $T_{90}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(T90 as FLOAT)>=?")
@@ -2916,7 +2910,7 @@ def advsearch():
             try:
                 float(max_t90)
             except ValueError:
-                flash("Enter a float for the maximum T$_{90}$")
+                flash(r"Enter a float for the maximum $T_{90}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(T90 as FLOAT)<=?")
@@ -2928,7 +2922,7 @@ def advsearch():
             try:
                 float(min_eiso)
             except ValueError:
-                flash("Enter a float for the minimum E$_{iso}$")
+                flash(r"Enter a float for the minimum $R_{iso}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(e_iso as FLOAT)>=?")
@@ -2939,7 +2933,7 @@ def advsearch():
             try:
                 float(max_eiso)
             except ValueError:
-                flash("Enter a float for the maximum E$_{iso}$")
+                flash(r"Enter a float for the maximum $E_{iso}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(e_iso as FLOAT)<=?")
@@ -2951,7 +2945,7 @@ def advsearch():
             try:
                 float(min_epeak)
             except ValueError:
-                flash("Enter a float for the minimum E$_{p}$")
+                flash(r"Enter a float for the minimum $E_{p}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(E_p as FLOAT)>=?")
@@ -2962,7 +2956,7 @@ def advsearch():
             try:
                 float(max_epeak)
             except ValueError:
-                flash("Enter a float for the maximum E$_{p}$")
+                flash(r"Enter a float for the maximum $E_{p}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(E_p as FLOAT)<=?")
@@ -2974,7 +2968,7 @@ def advsearch():
             try:
                 float(min_ek)
             except ValueError:
-                flash("Enter a float for the minimum E$_{k}$")
+                flash(r"Enter a float for the minimum $E_{k}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(e_k as FLOAT)>=?")
@@ -2985,7 +2979,7 @@ def advsearch():
             try:
                 float(max_ek)
             except ValueError:
-                flash("Enter a float for the maximum E$_{k}$")
+                flash(r"Enter a float for the maximum $E_{k}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(e_k as FLOAT)<=?")
@@ -2997,7 +2991,7 @@ def advsearch():
             try:
                 float(min_nim)
             except ValueError:
-                flash("Enter a float for the minimum M$_{Ni}$")
+                flash(r"Enter a float for the minimum $M_{Ni}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(ni_m as FLOAT)>=?")
@@ -3008,7 +3002,7 @@ def advsearch():
             try:
                 float(max_nim)
             except ValueError:
-                flash("Enter a float for the maximum M$_{Ni}$")
+                flash(r"Enter a float for the maximum $M_{Ni}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(ni_m as FLOAT)<=?")
@@ -3020,7 +3014,7 @@ def advsearch():
             try:
                 float(min_ejm)
             except ValueError:
-                flash("Enter a float for the minimum M$_{Ej}$")
+                flash(r"Enter a float for the minimum $M_{Ej}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(ej_m as FLOAT)>=?")
@@ -3031,7 +3025,7 @@ def advsearch():
             try:
                 float(max_ejm)
             except ValueError:
-                flash("Enter a float for the maximum M$_{Ej}$")
+                flash(r"Enter a float for the maximum $M_{Ej}$")
                 return redirect(url_for("advsearch"))
             # Appending
             querylist.append(f"CAST(ej_m as FLOAT)<=?")
@@ -3109,7 +3103,6 @@ def advsearch():
 @app.route("/get_advsearch_table", defaults={"query": "", "varlist": ""})
 @app.route("/<query>/<varlist>/get_advsearch_table", methods=["GET", "POST"])
 def get_advsearch_table(query, varlist):
-
     if varlist != "":
         # Convert the string to a list
         varlist = ast.literal_eval(varlist)
@@ -3177,7 +3170,6 @@ def get_advsearch_table(query, varlist):
 
 @app.route("/megadownload/<directory_list>", methods=["GET", "POST"])
 def get_observations(directory_list):
-
     # Convert the string to a list
     directory_list = ast.literal_eval(directory_list)
 
