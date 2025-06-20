@@ -1745,6 +1745,12 @@ if __name__ == "__main__":
                         data["obs_wavelength"].to_numpy(), redshift
                     )
 
+                    # Round the fluxes to 6 decimals of scientific notation.
+                    data["flux"] = data["flux"].map(lambda x: f"{x:.6e}")
+
+                    if "dflux" in data.keys():
+                        data["dflux"] = data["dflux"].map(lambda x: f"{x:.6e}")
+
                     data.to_csv(file, sep="\t", index=False, na_rep="NaN")
 
                 # Don't go over the readmes or other data.
