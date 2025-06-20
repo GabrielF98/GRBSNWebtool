@@ -1583,11 +1583,11 @@ def masterfileformat(event, readme_dict):
     if len(spectra_pandas) != 0:
         spectra = pd.concat(spectra_pandas, join="outer")
 
-        # Format the flux column so it stops always changing slightly when you re-run this because of floating point errors.
-        spectra["flux"] = spectra["flux"].map(lambda x: f"{x:.6e}")
-
         # Time to seconds precision.
         spectra["time"] = spectra["time"].map(lambda x: f"{x:.5f}")
+
+        # Format the flux column so it stops always changing slightly when you re-run this because of floating point errors.
+        spectra["flux"] = spectra["flux"].map(lambda x: f"{x:.6e}")
 
         spectra.to_csv(
             event + "_Spectra_Master.txt", sep="\t", index=False, na_rep="NaN"
