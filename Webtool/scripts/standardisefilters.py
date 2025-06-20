@@ -4,6 +4,7 @@
 
 import os
 from os.path import dirname
+from pathlib import Path
 
 import matplotlib.pyplot as pl
 import numpy as np
@@ -212,12 +213,14 @@ def standard_filters(data):
 
 
 # go to source data folder with all the data
-myPath = os.getcwd()
+myPath = Path("../static/SourceData").resolve()
+
 # get a list of all the folders in this path (all data for each transient)
 subfolders = [f.name for f in os.scandir(myPath) if f.is_dir()]
 for i in subfolders:
     # enter into each folder in source data to look for the optical master
-    folderpath = os.path.join(myPath, "../static/SourceData", i)
+    folderpath = os.path.join(myPath, i)
+    print(folderpath)
     for file in os.listdir(folderpath):
         # check only text files that are optical master
         if file.endswith("Optical_Master.txt"):
