@@ -1,4 +1,4 @@
-time	teslescope	band	mag	mag_limit	dmag	integration	time_unit	mag_type	mag_unit	integration_unit	extinction_corrected	dtime	time_frame
+time	instrument	band	mag	mag_limit	dmag	integration	time_unit	mag_type	mag_unit	integration_unit	extinction_corrected	dtime	time_frame
 368.946	TNG	B	24.25	0	0.18	1200.0	days	apparent	Vega	seconds	True	NaN	observer
 8.94568	GTC	g	23.03	0	0.1	90.0	days	apparent	AB	seconds	True	NaN	observer
 34.9434	GTC	g	23.38	0	0.38	30.0	days	apparent	AB	seconds	True	NaN	observer
