@@ -118,12 +118,8 @@ def standard_filters(data):
         ):
             newbands.append("UVU")
             continue
-        elif (
-            bands[i] == "b"
-            or bands[i] == "B"
-            or bands[i] == "uvb"
-            and instr[i] == "UVOT"
-            or instr[i] == "Swift/UVOT"
+        elif (bands[i] == "b" or bands[i] == "B" or bands[i] == "uvb") and (
+            instr[i] == "UVOT" or instr[i] == "Swift/UVOT"
         ):
             newbands.append("UVB")
             continue
