@@ -211,7 +211,7 @@ for i in subfolders:
     print(folderpath)
     for file in os.listdir(folderpath):
         # check only text files that are optical master
-        if file.endswith("Optical_Master.txt"):
+        if file.lower().find("optical") != -1 and os.path.splitext(file)[1] == ".txt":
             print(file)
             # opens optical master
             filepath = os.path.join(folderpath, file)
