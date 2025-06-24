@@ -151,24 +151,6 @@ def standard_filters(data):
             or bands[i] == "C_R"
         ):
             newbands.append("C_{r}")
-        elif bands[i] == "Gunn i":
-            newbands.append("I")
-            continue
-        elif bands[i] == "ACS/F606W":
-            newbands.append("F606W")
-            continue
-        elif bands[i] == "ACS/F435W":
-            newbands.append("F435W")
-            continue
-        elif bands[i] == "WFC3/UVIS/F336W":
-            newbands.append("F336W")
-            continue
-        elif bands[i] == "WFC3/IR/F125W":
-            newbands.append("F125W")
-            continue
-        elif bands[i] == "WFC3/IR/G102":
-            newbands.append("G102")
-            continue
         else:
             # if none of the bands meet these conditions we keep
             newbands.append(bands[i])
