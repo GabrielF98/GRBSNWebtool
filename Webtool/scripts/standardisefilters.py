@@ -48,8 +48,8 @@ def standard_filters(data):
         elif bands[i] == "SDSS-z":
             newbands.append(str("z"))
             continue
-        elif bands[i] == "u" and instr[i] != "UVOT":
-            newbands.append("U")
+        elif bands[i] == "SDSS-u":
+            newbands.append("u")
             continue
         elif (bands[i] == "white" or bands[i] == "White" or bands[i] == "W") and instr[
             i
