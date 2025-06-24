@@ -54,7 +54,7 @@ R	Kuiper	0.04478	240.0	20.81	0	0.1	0.0156	0.0014	days	seconds	AB	apparent	milliJ
 R	Kuiper	0.04808	240.0	20.83	0	0.1	0.0153	0.0014	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 I	KAIT	0.00534	60.0	19.56	0	0.45	0.0571	0.0243	days	seconds	AB	apparent	milliJy	observer	False	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	Kuiper	0.05136	240.0	20.95	0	0.1	0.0137	0.0012	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
-I	KAIT	0.00590	60.0	18.84	0	0.25	0.1109	0.0257	days	seconds	AB	apparent	milliJy	observer	False	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
+I	KAIT	0.0059	60.0	18.84	0	0.25	0.1109	0.0257	days	seconds	AB	apparent	milliJy	observer	False	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	Kuiper	0.05466	240.0	21.03	0	0.11	0.0128	0.0012	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 I	KAIT	0.00767	60.0	18.5	0	0.18	0.1517	0.0252	days	seconds	AB	apparent	milliJy	observer	False	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	Kuiper	0.05796	240.0	21.26	0	0.18	0.0103	0.0017	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
@@ -62,7 +62,7 @@ I	KAIT	0.00931	60.0	18.59	0	0.22	0.1397	0.0285	days	seconds	AB	apparent	milliJy	
 R	Kuiper	0.06163	240.0	21.13	0	0.12	0.0116	0.0013	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 I	KAIT	0.01142	120.0	18.75	0	0.11	0.1205	0.0122	days	seconds	AB	apparent	milliJy	observer	False	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	FTN	0.02738	60.0	20.2	0	0.24	0.0274	0.0061	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
-I	KAIT	0.01550	180.0	18.99	0	0.12	0.0966	0.0107	days	seconds	AB	apparent	milliJy	observer	False	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
+I	KAIT	0.0155	180.0	18.99	0	0.12	0.0966	0.0107	days	seconds	AB	apparent	milliJy	observer	False	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	FTN	0.03291	30.0	20.37	0	0.16	0.0234	0.0034	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 I	KAIT	0.02206	300.0	20.18	0	0.48	0.0323	0.0147	days	seconds	AB	apparent	milliJy	observer	False	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	FTN	0.03605	60.0	20.4	0	0.16	0.0228	0.0033	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
@@ -71,13 +71,13 @@ R	FTN	0.04084	120.0	20.46	0	0.12	0.0216	0.0023	days	seconds	AB	apparent	milliJy	
 i'	FTN	0.03729	60.0	20.58	0	0.17	0.0223	0.0035	days	seconds	AB	apparent	milliJy	observer	False	0.05	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	FTN	0.04771	180.0	20.92	0	0.15	0.0141	0.0019	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 i'	FTN	0.04209	120.0	20.9	0	0.16	0.0166	0.0024	days	seconds	AB	apparent	milliJy	observer	False	0.05	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
-R	FTN	0.05460	120.0	21.1	0	0.2	0.0119	0.0022	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
+R	FTN	0.0546	120.0	21.1	0	0.2	0.0119	0.0022	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 i'	FTN	0.05035	180.0	20.96	0	0.14	0.0157	0.002	days	seconds	AB	apparent	milliJy	observer	False	0.05	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	FTN	0.06156	180.0	21.3	0	0.21	0.0099	0.0019	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 i'	FTN	0.05653	120.0	20.96	0	0.16	0.0157	0.0023	days	seconds	AB	apparent	milliJy	observer	False	0.05	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	FTN	0.07042	240.0	21.15	0	0.15	0.0114	0.0015	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 i'	FTN	0.06417	180.0	21.58	0	0.3	0.0089	0.0024	days	seconds	AB	apparent	milliJy	observer	False	0.05	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
-R	Lulin	0.07830	600.0	21.26	0	0.17	0.0103	0.0016	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
+R	Lulin	0.0783	600.0	21.26	0	0.17	0.0103	0.0016	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	Lulin	0.08702	900.0	21.7	0	0.14	0.0068	0.0009	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 J	UKIRT	0.02725	180.0	18.27	0	0.08	0.0802	0.0059	days	seconds	AB	apparent	milliJy	observer	False	0.025	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	Lulin	0.16411	1800.0	22.43	0	0.17	0.0035	0.0005	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
@@ -88,6 +88,6 @@ H	UKIRT	0.03058	180.0	17.83	0	0.13	0.0766	0.0092	days	seconds	AB	apparent	milliJ
 R	Kiso	0.05686	300.0	20.9	0	0.23	0.0144	0.003	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	Kiso	0.07794	900.0	21.66	0	0.34	0.0071	0.0022	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 K	UKIRT	0.03733	180.0	17.26	0	0.18	0.0838	0.0139	days	seconds	AB	apparent	milliJy	observer	False	0.01	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
-R	Maidanak	0.24500	55.0	22.45	0	0.32	0.0034	0.001	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
+R	Maidanak	0.245	55.0	22.45	0	0.32	0.0034	0.001	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 K	UKIRT	0.06938	900.0	18.3	0	0.18	0.0321	0.0053	days	seconds	AB	apparent	milliJy	observer	False	0.01	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract
 R	KPNO4-m	0.72012	300.0	23.37	0	0.2	0.0014	0.0003	days	seconds	AB	apparent	milliJy	observer	False	0.07	NaN	https://ui.adsabs.harvard.edu/abs/2009MNRAS.395.1941M/abstract

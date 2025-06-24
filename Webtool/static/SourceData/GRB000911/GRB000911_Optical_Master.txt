@@ -1,29 +1,29 @@
 date	time	band	instrument	integration	mag	mag_limit	dmag	seeing	date_unit	time_unit	mag_unit	dtime	reference
-2000-Sep-28 	16.94000	B	VLT	2600.0	25.1	0	0.05	0.8	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Oct-06 	24.98000	B	VLT	2600.0	25.41	0	0.06	0.6	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Nov-03 	52.95000	B	VLT	2600.0	26.0	0	0.2	1.0	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Sep-28 	16.96000	V	VLT	1500.0	24.67	0	0.06	0.8	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Oct-06 	25.02000	V	VLT	1500.0	24.96	0	0.06	0.5	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Nov-03 	52.99000	V	VLT	1500.0	25.66	0	0.15	0.7	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Sep-28 	16.98000	R	VLT	900.0	24.14	0	0.07	0.8	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Oct-06 	25.03000	R	VLT	900.0	24.45	0	0.06	0.5	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Nov-03 	53.00000	R	VLT	900.0	24.91	0	0.15	0.7	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Sep-28 	16.99000	I	VLT	1500.0	23.57	0	0.07	0.8	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Oct-06 	25.00000	I	VLT	1500.0	23.73	0	0.06	0.5	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Nov-03 	52.97000	I	VLT	1500.0	24.3	0	0.1	0.7	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Sep-28 	16.89000	J	VLT	2408.0	22.38	0	0.08	0.7	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Oct-06 	24.93000	J	VLT	2700.0	22.41	0	0.05	0.5	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-2000-Nov-05 	54.90000	J	VLT	2700.0	22.9	0	0.1	0.5	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-NaN	1.43500	R	MSO50	1200.0	20.7	0	0.08	2.1	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-NaN	1.43500	V	MSO50	1200.0	20.9	0	0.1	2.1	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-NaN	4.30000	R	Keck	600.0	22.3	0	0.06	0.6	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-NaN	4.31000	I	Keck	620.0	21.82	0	0.06	0.7	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-NaN	14.12000	R	Keck	1830.0	24.05	0	0.094	1.1	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-NaN	14.15000	I	Keck	1080.0	23.41	0	0.07	0.9	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-NaN	35.92000	R	VLT Spectrum	6800.0	24.6	0	0.2	0.9	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-NaN	35.92000	I	VLT Spectrum	6800.0	23.75	0	0.2	0.9	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-NaN	111.90000	R	Keck	NaN	25.4	0	0.1	0.7	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
-NaN	112.00000	I	Keck	NaN	24.4	0	0.1	0.65	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Sep-28 	16.94	B	VLT	2600.0	25.1	0	0.05	0.8	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Oct-06 	24.98	B	VLT	2600.0	25.41	0	0.06	0.6	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Nov-03 	52.95	B	VLT	2600.0	26.0	0	0.2	1.0	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Sep-28 	16.96	V	VLT	1500.0	24.67	0	0.06	0.8	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Oct-06 	25.02	V	VLT	1500.0	24.96	0	0.06	0.5	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Nov-03 	52.99	V	VLT	1500.0	25.66	0	0.15	0.7	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Sep-28 	16.98	R	VLT	900.0	24.14	0	0.07	0.8	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Oct-06 	25.03	R	VLT	900.0	24.45	0	0.06	0.5	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Nov-03 	53.0	R	VLT	900.0	24.91	0	0.15	0.7	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Sep-28 	16.99	I	VLT	1500.0	23.57	0	0.07	0.8	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Oct-06 	25.0	I	VLT	1500.0	23.73	0	0.06	0.5	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Nov-03 	52.97	I	VLT	1500.0	24.3	0	0.1	0.7	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Sep-28 	16.89	J	VLT	2408.0	22.38	0	0.08	0.7	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Oct-06 	24.93	J	VLT	2700.0	22.41	0	0.05	0.5	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+2000-Nov-05 	54.9	J	VLT	2700.0	22.9	0	0.1	0.5	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+NaN	1.435	R	MSO50	1200.0	20.7	0	0.08	2.1	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+NaN	1.435	V	MSO50	1200.0	20.9	0	0.1	2.1	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+NaN	4.3	R	Keck	600.0	22.3	0	0.06	0.6	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+NaN	4.31	I	Keck	620.0	21.82	0	0.06	0.7	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+NaN	14.12	R	Keck	1830.0	24.05	0	0.094	1.1	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+NaN	14.15	I	Keck	1080.0	23.41	0	0.07	0.9	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+NaN	35.92	R	VLT Spectrum	6800.0	24.6	0	0.2	0.9	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+NaN	35.92	I	VLT Spectrum	6800.0	23.75	0	0.2	0.9	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+NaN	111.9	R	Keck	NaN	25.4	0	0.1	0.7	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
+NaN	112.0	I	Keck	NaN	24.4	0	0.1	0.65	yyyy-month	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2001A%26A...378..996L/abstract
 2000-Sep-16.328	5.02563	B	Kueyen	6 $\times$ 1200	23.3	0	0.3	0.8	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...438..841M/abstract
 2000-Sep-23.075	11.77262	B	TNG	3 $\times$ 600	24.77	0	0.1	1.1	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...438..841M/abstract
 2000-Sep-28.326	17.02362	B	Antu	5 $\times$ 180	24.91	0	0.12	1.0	yyyy-month-deciday	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...438..841M/abstract

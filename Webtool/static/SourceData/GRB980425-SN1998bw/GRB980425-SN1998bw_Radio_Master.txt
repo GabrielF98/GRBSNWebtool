@@ -1,2 +1,2 @@
 freq	image_rms	flux_density	flux_density_limit	time	luminosity	freq_unit	image_rms_unit	flux_density_unit	time_unit	luminosity_unit	instrument	dtime	time_frame	reference
-1.65	90	0.27	1	6424.00000	<0.42e27	GHz	muJy/beam	milliJy	days	erg s^-1 Hz^-1	LBA	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract
+1.65	90	0.27	1	6424.0	<0.42e27	GHz	muJy/beam	milliJy	days	erg s^-1 Hz^-1	LBA	NaN	observer	https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract

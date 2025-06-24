@@ -1,7 +1,7 @@
 time	band	integration	mag	mag_limit	dmag	instrument	time_unit	time_frame	mag_unit	mag_type	extinction_corrected	dtime	reference
 0.00855	V	300 s x 1	18.45	0	0.1	Xinglong-1m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.01098	V	300 s x 1	18.6	0	0.1	Xinglong-1m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
-0.01450	V	300 s x 1	19.13	0	0.12	Xinglong-1m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
+0.0145	V	300 s x 1	19.13	0	0.12	Xinglong-1m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.01827	V	300 s x 1	19.74	0	0.15	Xinglong-1m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.02185	V	300 s x 1	19.77	0	0.15	Xinglong-1m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.02552	V	300 s x 1	19.67	0	0.15	Xinglong-1m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
@@ -14,18 +14,18 @@ time	band	integration	mag	mag_limit	dmag	instrument	time_unit	time_frame	mag_uni
 0.06224	V	300 s x 3	20.31	0	0.2	Xinglong-1m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.08628	V	600 s x 5	20.89	0	0.3	Xinglong-1m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00105	C_{r}	5 s x 5	17.1	0	0.2	ROTSE-IIIc	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
-0.00170	C_{r}	5 s x 5	17.4	0	0.3	ROTSE-IIIc	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
+0.0017	C_{r}	5 s x 5	17.4	0	0.3	ROTSE-IIIc	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00316	C_{r}	20 s x 5	17.1	0	0.1	ROTSE-IIIc	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00111	R	5 s x 1	16.79	0	0.15	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00121	R	5 s x 1	17.01	0	0.17	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
-0.00130	R	5 s x 1	16.83	0	0.14	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
-0.00140	R	5 s x 1	17.05	0	0.15	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
+0.0013	R	5 s x 1	16.83	0	0.14	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
+0.0014	R	5 s x 1	17.05	0	0.15	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00149	R	5 s x 1	17.0	0	0.16	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00159	R	5 s x 1	16.86	0	0.17	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00168	R	5 s x 1	16.96	0	0.16	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00183	R	5 s x 2	17.17	0	0.12	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00202	R	5 s x 2	17.17	0	0.18	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
-0.00220	R	5 s x 2	16.96	0	0.14	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
+0.0022	R	5 s x 2	16.96	0	0.14	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00239	R	5 s x 2	17.11	0	0.15	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00258	R	5 s x 2	17.14	0	0.12	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00268	R	5 s x 2	17.16	0	0.12	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
@@ -41,7 +41,7 @@ time	band	integration	mag	mag_limit	dmag	instrument	time_unit	time_frame	mag_uni
 0.00545	R	5 s x 4	17.57	0	0.15	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00602	R	5 s x 4	18.42	0	0.31	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00663	R	5 s x 7	17.81	0	0.19	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
-0.00730	R	5 s x 7	18.14	0	0.24	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
+0.0073	R	5 s x 7	18.14	0	0.24	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00811	R	5 s x 7	18.15	0	0.22	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00955	R	5 s x 20	18.36	0	0.22	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.01288	R	5 s x 50	19.01	0	0.29	TAOSB	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
@@ -56,7 +56,7 @@ time	band	integration	mag	mag_limit	dmag	instrument	time_unit	time_frame	mag_uni
 0.00344	C_{r}	20 s x 1	17.43	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00397	C_{r}	20 s x 1	17.42	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00424	C_{r}	20 s x 1	17.48	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
-0.00450	C_{r}	20 s x 1	17.62	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
+0.0045	C_{r}	20 s x 1	17.62	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00477	C_{r}	20 s x 1	17.35	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00503	C_{r}	20 s x 1	17.68	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00529	C_{r}	20 s x 1	17.87	0	0.2	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
@@ -73,7 +73,7 @@ time	band	integration	mag	mag_limit	dmag	instrument	time_unit	time_frame	mag_uni
 0.01231	R	60 s x 2	18.72	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.01461	R	60 s x 3	19.13	0	0.2	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.02014	R	300 s x 2	19.11	0	0.1	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
-0.02750	R	300 s x 2	19.67	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
+0.0275	R	300 s x 2	19.67	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.03669	R	300 s x 3	19.51	0	0.15	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.04772	R	300 s x 3	20.03	0	0.2	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.06069	R	300 s x 4	20.03	0	0.2	TNT-0.8m	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
@@ -91,127 +91,127 @@ time	band	integration	mag	mag_limit	dmag	instrument	time_unit	time_frame	mag_uni
 0.00595	I_{c}	60 s x 2	17.22	0	0.14	MITSuMe	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.00944	I_{c}	60 s x 6	17.87	0	0.17	MITSuMe	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
 0.01976	I_{c}	60 s x 6	19.03	0	0.32	MITSuMe	days	observer	unspecified	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2012ApJ...748...44H/abstract
-2189.00000	B	NaN	25.99	0	0.12	Keck/LRIS	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-1763.00000	g'	NaN	26.06	0	0.06	Gemini North/GMOS	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-290.00000	r'	NaN	25.47	0	0.11	Gemini North/GMOS	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2189.00000	R_{c}	NaN	25.43	0	0.18	Keck/LRIS	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-1826.00000	3.6 μm	NaN	23.59	0	0.11	Spitzer/IRAC	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.32200	g'	NaN	22.54	0	0.14	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.32200	r'	NaN	22.2	0	0.08	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.32200	i'	NaN	21.95	0	0.16	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.32200	z'	NaN	21.84	0	0.24	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.33000	g'	NaN	22.63	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.33000	r'	NaN	22.21	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.33000	i'	NaN	21.97	0	0.11	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.33000	z'	NaN	21.88	0	0.16	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.34700	g'	NaN	22.57	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.34700	r'	NaN	22.31	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.34700	i'	NaN	22.13	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.34700	z'	NaN	21.89	0	0.07	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.36900	g'	NaN	22.64	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.36900	r'	NaN	22.44	0	0.04	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.36900	i'	NaN	22.17	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.36900	z'	NaN	22.08	0	0.1	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.39200	g'	NaN	22.72	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.39200	r'	NaN	22.44	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.39200	i'	NaN	22.3	0	0.05	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.39200	z'	NaN	22.13	0	0.08	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.39200	J	NaN	21.66	0	0.13	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.39200	H	NaN	21.44	0	0.26	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.39200	K_{s}	NaN	21.31	0	0.35	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.41500	g'	NaN	22.73	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.41500	r'	NaN	22.49	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.41500	i'	NaN	22.33	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.41500	z'	NaN	22.07	0	0.07	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.43800	g'	NaN	22.76	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.43800	r'	NaN	22.48	0	0.04	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.43800	i'	NaN	22.32	0	0.07	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.43800	z'	NaN	22.17	0	0.08	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.45400	g'	NaN	22.8	0	0.11	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.45400	r'	NaN	22.55	0	0.08	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.45400	i'	NaN	22.3	0	0.11	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-0.45400	z'	NaN	22.16	0	0.18	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-1.39200	g'	NaN	23.9	0	0.04	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-1.39200	r'	NaN	23.63	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-1.39200	i'	NaN	23.34	0	0.07	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-1.39200	z'	NaN	23.24	0	0.14	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-1.39200	J	NaN	22.35	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-1.39200	H	NaN	21.82	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-1.39200	K_{s}	NaN	21.02	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2.40200	g'	NaN	24.73	0	0.1	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2.40200	r'	NaN	24.05	0	0.1	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2.40200	i'	NaN	23.79	0	0.14	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2.40200	z'	NaN	23.65	0	0.23	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2.40200	J	NaN	22.34	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2.40200	H	NaN	21.62	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2.40200	K_{s}	NaN	20.93	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-3.38700	g'	NaN	25.2	0	0.27	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-3.38700	r'	NaN	24.48	0	0.18	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-3.38700	i'	NaN	23.77	0	0.21	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-3.38700	z'	NaN	23.53	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-3.38700	J	NaN	22.3	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-3.38700	H	NaN	21.3	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-3.38700	K_{s}	NaN	20.94	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-6.40900	g'	NaN	25.05	0	0.4	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-6.40900	r'	NaN	24.33	0	0.22	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-6.40900	i'	NaN	24.28	0	0.29	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-6.40900	z'	NaN	24.05	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-6.40900	J	NaN	22.17	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-6.40900	H	NaN	21.46	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-6.40900	K_{s}	NaN	20.7	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-8.36500	g'	NaN	24.23	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-8.36500	r'	NaN	24.3	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-8.36500	i'	NaN	24.38	0	0.47	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-8.36500	z'	NaN	23.82	0	0.35	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-8.36500	J	NaN	22.17	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-8.36500	H	NaN	21.32	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-8.36500	K_{s}	NaN	20.58	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-14.36900	g'	NaN	24.46	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-14.36900	r'	NaN	24.36	0	0.31	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-14.36900	i'	NaN	24.01	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-14.36900	z'	NaN	23.69	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-14.36900	J	NaN	21.88	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-14.36900	H	NaN	21.09	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-14.36900	K_{s}	NaN	20.73	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-17.34300	g'	NaN	25.5	0	0.23	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-17.34300	r'	NaN	24.73	0	0.13	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-17.34300	i'	NaN	24.07	0	0.2	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-17.34300	z'	NaN	23.54	0	0.21	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-17.34300	J	NaN	22.24	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-17.34300	H	NaN	21.32	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-17.34300	K_{s}	NaN	20.51	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-21.35700	g'	NaN	25.36	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-21.35700	r'	NaN	24.72	0	0.24	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-21.35700	i'	NaN	23.91	0	0.18	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-21.35700	z'	NaN	23.45	0	0.25	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-21.35700	J	NaN	22.11	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-21.35700	H	NaN	21.35	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-21.35700	K_{s}	NaN	20.29	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-22.31700	g'	NaN	25.61	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-22.31700	r'	NaN	25.03	0	0.46	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-22.31700	i'	NaN	23.85	0	0.19	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-22.31700	z'	NaN	23.76	0	0.33	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-22.31700	J	NaN	22.2	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-22.31700	H	NaN	21.3	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-22.31700	K_{s}	NaN	20.78	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-24.32700	g'	NaN	25.58	0	0.31	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-24.32700	r'	NaN	24.63	0	0.19	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-24.32700	i'	NaN	24.22	0	0.23	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-24.32700	z'	NaN	24.03	0	0.38	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-24.32700	J	NaN	22.35	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-24.32700	H	NaN	21.51	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-24.32700	K_{s}	NaN	20.86	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-28.33300	g'	NaN	25.49	0	0.25	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-28.33300	r'	NaN	25.05	0	0.22	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-28.33300	i'	NaN	24.33	0	0.26	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-28.33300	z'	NaN	23.72	0	0.25	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-28.33300	J	NaN	22.14	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-28.33300	H	NaN	21.55	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-28.33300	K_{s}	NaN	20.74	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2534.45300	g'	NaN	25.51	0	0.43	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2534.45300	r'	NaN	25.13	0	0.28	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2534.45300	i'	NaN	24.69	0	0.47	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2534.45300	z'	NaN	23.68	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2534.45300	J	NaN	21.9	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2534.45300	H	NaN	21.37	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
-2534.45300	K_{s}	NaN	20.54	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2189.0	B	NaN	25.99	0	0.12	Keck/LRIS	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+1763.0	g'	NaN	26.06	0	0.06	Gemini North/GMOS	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+290.0	r'	NaN	25.47	0	0.11	Gemini North/GMOS	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2189.0	R_{c}	NaN	25.43	0	0.18	Keck/LRIS	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+1826.0	3.6 μm	NaN	23.59	0	0.11	Spitzer/IRAC	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.322	g'	NaN	22.54	0	0.14	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.322	r'	NaN	22.2	0	0.08	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.322	i'	NaN	21.95	0	0.16	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.322	z'	NaN	21.84	0	0.24	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.33	g'	NaN	22.63	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.33	r'	NaN	22.21	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.33	i'	NaN	21.97	0	0.11	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.33	z'	NaN	21.88	0	0.16	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.347	g'	NaN	22.57	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.347	r'	NaN	22.31	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.347	i'	NaN	22.13	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.347	z'	NaN	21.89	0	0.07	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.369	g'	NaN	22.64	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.369	r'	NaN	22.44	0	0.04	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.369	i'	NaN	22.17	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.369	z'	NaN	22.08	0	0.1	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.392	g'	NaN	22.72	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.392	r'	NaN	22.44	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.392	i'	NaN	22.3	0	0.05	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.392	z'	NaN	22.13	0	0.08	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.392	J	NaN	21.66	0	0.13	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.392	H	NaN	21.44	0	0.26	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.392	K_{s}	NaN	21.31	0	0.35	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.415	g'	NaN	22.73	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.415	r'	NaN	22.49	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.415	i'	NaN	22.33	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.415	z'	NaN	22.07	0	0.07	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.438	g'	NaN	22.76	0	0.03	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.438	r'	NaN	22.48	0	0.04	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.438	i'	NaN	22.32	0	0.07	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.438	z'	NaN	22.17	0	0.08	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.454	g'	NaN	22.8	0	0.11	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.454	r'	NaN	22.55	0	0.08	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.454	i'	NaN	22.3	0	0.11	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+0.454	z'	NaN	22.16	0	0.18	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+1.392	g'	NaN	23.9	0	0.04	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+1.392	r'	NaN	23.63	0	0.06	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+1.392	i'	NaN	23.34	0	0.07	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+1.392	z'	NaN	23.24	0	0.14	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+1.392	J	NaN	22.35	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+1.392	H	NaN	21.82	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+1.392	K_{s}	NaN	21.02	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2.402	g'	NaN	24.73	0	0.1	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2.402	r'	NaN	24.05	0	0.1	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2.402	i'	NaN	23.79	0	0.14	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2.402	z'	NaN	23.65	0	0.23	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2.402	J	NaN	22.34	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2.402	H	NaN	21.62	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2.402	K_{s}	NaN	20.93	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+3.387	g'	NaN	25.2	0	0.27	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+3.387	r'	NaN	24.48	0	0.18	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+3.387	i'	NaN	23.77	0	0.21	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+3.387	z'	NaN	23.53	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+3.387	J	NaN	22.3	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+3.387	H	NaN	21.3	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+3.387	K_{s}	NaN	20.94	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+6.409	g'	NaN	25.05	0	0.4	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+6.409	r'	NaN	24.33	0	0.22	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+6.409	i'	NaN	24.28	0	0.29	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+6.409	z'	NaN	24.05	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+6.409	J	NaN	22.17	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+6.409	H	NaN	21.46	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+6.409	K_{s}	NaN	20.7	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+8.365	g'	NaN	24.23	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+8.365	r'	NaN	24.3	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+8.365	i'	NaN	24.38	0	0.47	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+8.365	z'	NaN	23.82	0	0.35	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+8.365	J	NaN	22.17	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+8.365	H	NaN	21.32	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+8.365	K_{s}	NaN	20.58	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+14.369	g'	NaN	24.46	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+14.369	r'	NaN	24.36	0	0.31	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+14.369	i'	NaN	24.01	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+14.369	z'	NaN	23.69	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+14.369	J	NaN	21.88	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+14.369	H	NaN	21.09	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+14.369	K_{s}	NaN	20.73	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+17.343	g'	NaN	25.5	0	0.23	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+17.343	r'	NaN	24.73	0	0.13	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+17.343	i'	NaN	24.07	0	0.2	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+17.343	z'	NaN	23.54	0	0.21	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+17.343	J	NaN	22.24	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+17.343	H	NaN	21.32	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+17.343	K_{s}	NaN	20.51	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+21.357	g'	NaN	25.36	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+21.357	r'	NaN	24.72	0	0.24	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+21.357	i'	NaN	23.91	0	0.18	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+21.357	z'	NaN	23.45	0	0.25	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+21.357	J	NaN	22.11	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+21.357	H	NaN	21.35	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+21.357	K_{s}	NaN	20.29	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+22.317	g'	NaN	25.61	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+22.317	r'	NaN	25.03	0	0.46	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+22.317	i'	NaN	23.85	0	0.19	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+22.317	z'	NaN	23.76	0	0.33	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+22.317	J	NaN	22.2	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+22.317	H	NaN	21.3	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+22.317	K_{s}	NaN	20.78	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+24.327	g'	NaN	25.58	0	0.31	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+24.327	r'	NaN	24.63	0	0.19	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+24.327	i'	NaN	24.22	0	0.23	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+24.327	z'	NaN	24.03	0	0.38	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+24.327	J	NaN	22.35	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+24.327	H	NaN	21.51	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+24.327	K_{s}	NaN	20.86	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+28.333	g'	NaN	25.49	0	0.25	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+28.333	r'	NaN	25.05	0	0.22	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+28.333	i'	NaN	24.33	0	0.26	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+28.333	z'	NaN	23.72	0	0.25	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+28.333	J	NaN	22.14	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+28.333	H	NaN	21.55	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+28.333	K_{s}	NaN	20.74	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2534.453	g'	NaN	25.51	0	0.43	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2534.453	r'	NaN	25.13	0	0.28	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2534.453	i'	NaN	24.69	0	0.47	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2534.453	z'	NaN	23.68	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2534.453	J	NaN	21.9	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2534.453	H	NaN	21.37	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
+2534.453	K_{s}	NaN	20.54	1	NaN	GROND	days	observer	AB	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2019A%26A...622A.138K/abstract
