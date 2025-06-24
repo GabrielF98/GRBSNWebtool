@@ -1,4 +1,4 @@
-date	time	flux_density	flux_density_limit	dflux_density	freq	date_unit	time_unit	freq_unit	flux_density_unit	dtime
+date	time	flux_density	dflux_density	flux_density_limit	freq	date_unit	time_unit	freq_unit	flux_density_unit	dtime
 2002-Sep-27.22	23.8	1058	19	0	8.5	yyyy-month-deciday	days	GHz	microJy	NaN
 2002-Sep-29.11	25.7	197	70	0	1.5	yyyy-month-deciday	days	GHz	microJy	NaN
 2002-Sep-29.11	25.7	552	42	0	4.9	yyyy-month-deciday	days	GHz	microJy	NaN
