@@ -1664,18 +1664,6 @@ if __name__ == "__main__":
                             data["flux_density"],
                         )
 
-                        data["flux_density_unit"] = np.where(
-                            data["flux_density_unit"] == "microJy",
-                            "milliJy",
-                            data["flux_density_unit"],
-                        )
-
-                        data["flux_density_unit"] = np.where(
-                            data["flux_density_unit"] == "Jy",
-                            "milliJy",
-                            data["flux_density_unit"],
-                        )
-
                         # Round
                         data["flux_density"] = data["flux_density"].map(
                             lambda x: f"{x:.4f}"
@@ -1699,6 +1687,20 @@ if __name__ == "__main__":
                             data["dflux_density"] = data["dflux_density"].map(
                                 lambda x: f"{x:.6f}"
                             )
+
+                        # Units
+
+                        data["flux_density_unit"] = np.where(
+                            data["flux_density_unit"] == "microJy",
+                            "milliJy",
+                            data["flux_density_unit"],
+                        )
+
+                        data["flux_density_unit"] = np.where(
+                            data["flux_density_unit"] == "Jy",
+                            "milliJy",
+                            data["flux_density_unit"],
+                        )
 
                     # Calculate the elapsed time
                     if "time" not in list(data.keys()):
