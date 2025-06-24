@@ -40,7 +40,7 @@ def standard_filters(data):
             newbands.append(str("i'"))
             continue
         elif bands[i] == "SDSS-i":
-            newbands.append(str("g"))
+            newbands.append(str("i"))
             continue
         elif bands[i] == "z\\arcmin" or bands[i] == "z′":
             newbands.append(str("z'"))
