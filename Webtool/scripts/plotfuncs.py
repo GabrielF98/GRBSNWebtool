@@ -1657,6 +1657,9 @@ if __name__ == "__main__":
                             data["flux_density"] / 1000,
                             data["flux_density"],
                         )
+                        data["flux_density"] = data["flux_density"].map(
+                            lambda x: f"{x:.2f}"
+                        )
 
                         if "dflux_density" in list(data.keys()):
                             data["dflux_density"] = np.where(
@@ -1676,6 +1679,11 @@ if __name__ == "__main__":
                             data["flux_density"] * 1000,
                             data["flux_density"],
                         )
+
+                        data["flux_density"] = data["flux_density"].map(
+                            lambda x: f"{x:.2f}"
+                        )
+
                         if "dflux_density" in list(data.keys()):
                             data["dflux_density"] = np.where(
                                 data["flux_density_unit"] == "Jy",
