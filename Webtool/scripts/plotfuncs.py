@@ -1679,8 +1679,6 @@ if __name__ == "__main__":
                         data["flux_density_unit"] = ["milliJy"] * len(
                             data["flux_density_unit"]
                         )
-                    else:
-                        print("Heuston we have a problem!")
 
                     # Calculate the elapsed time
                     if "time" not in list(data.keys()):
