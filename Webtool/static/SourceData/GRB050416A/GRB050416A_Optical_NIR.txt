@@ -6,7 +6,7 @@ date	time	instrument	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	dtime
 2005-Apr-16.4692	0.0076	Palomar 200 inch	K_{s}	16.37	0	0.21	yyyy-month-deciday	days	Vega	NaN
 2005-Apr-16.4714	0.0098	Palomar 60 inch	I	19.01	0	0.12	yyyy-month-deciday	days	Vega	NaN
 2005-Apr-16.4731	0.0116	Palomar 60 inch	I	19.53	0	0.18	yyyy-month-deciday	days	Vega	NaN
-2005-Apr-16.4772	0.0156	Palomar 60 inch	z\arcmin	19.16	0	0.27	yyyy-month-deciday	days	AB	NaN
+2005-Apr-16.4772	0.0156	Palomar 60 inch	z'	19.16	0	0.27	yyyy-month-deciday	days	AB	NaN
 2005-Apr-16.4763	0.0147	Palomar 200 inch	K_{s}	16.64	0	0.2	yyyy-month-deciday	days	Vega	NaN
 2005-Apr-16.4833	0.0217	Palomar 60 inch	I	19.09	0	0.2	yyyy-month-deciday	days	Vega	NaN
 2005-Apr-16.4828	0.0212	Palomar 200 inch	K_{s}	16.79	0	0.2	yyyy-month-deciday	days	Vega	NaN
@@ -31,7 +31,7 @@ date	time	instrument	band	mag	mag_limit	dmag	date_unit	time_unit	mag_unit	dtime
 2005-Apr-16.6092	0.1476	ANU 2.3 m	R	21.71	0	0.3	yyyy-month-deciday	days	Vega	NaN
 2005-Apr-16.6187	0.1571	ANU 2.3 m	R	21.87	0	0.46	yyyy-month-deciday	days	Vega	NaN
 2005-Apr-17.3895	0.9279	Palomar 60 inch	R	22.62	0	0.3	yyyy-month-deciday	days	Vega	NaN
-2005-Apr-17.4006	0.939	Palomar 60 inch	z\arcmin	20.38	1	NaN	yyyy-month-deciday	days	AB	NaN
+2005-Apr-17.4006	0.939	Palomar 60 inch	z'	20.38	1	NaN	yyyy-month-deciday	days	AB	NaN
 2005-Apr-17.4087	0.9467	Palomar 60 inch	I	22.05	0	0.3	yyyy-month-deciday	days	Vega	NaN
 2005-Apr-18.2884	1.8264	Palomar 60 inch	R	23.46	1	NaN	yyyy-month-deciday	days	Vega	NaN
 2005-Apr-18.4031	1.9411	Palomar 60 inch	I	22.83	1	NaN	yyyy-month-deciday	days	Vega	NaN

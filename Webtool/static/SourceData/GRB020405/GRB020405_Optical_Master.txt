@@ -27,7 +27,7 @@ date	band	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	dtime	instrument	
 2002-Apr-6.220	H	18.07	0	0.07	yyyy-month-deciday	Vega	1.19122	days	NaN	NTT SofI	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	300	1.0
 2002-Apr-6.224	J	18.69	0	0.06	yyyy-month-deciday	Vega	1.19522	days	NaN	NTT SofI	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	300	1.0
 2002-Apr-6.230	B	21.31	0	0.03	yyyy-month-deciday	Vega	1.20123	days	NaN	1.54D DFOSC	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	600	1.4
-2002-Apr-6.230	K_{\rm s}	17.34	0	0.06	yyyy-month-deciday	Vega	1.20123	days	NaN	NTT SofI	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	600	0.9
+2002-Apr-6.230	K_{s}	17.34	0	0.06	yyyy-month-deciday	Vega	1.20123	days	NaN	NTT SofI	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	600	0.9
 2002-Apr-6.234	R	20.53	0	0.02	yyyy-month-deciday	Vega	1.20522	days	NaN	Melipal FORS1	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	20	0.8
 2002-Apr-6.246	Gunn i	19.88	0	0.02	yyyy-month-deciday	Vega	1.21723	days	NaN	1.54D DFOSC	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	600	1.1
 2002-Apr-6.797	I	20.0	1	NaN	yyyy-month-deciday	Vega	1.76822	days	NaN	1m SO CCD	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	5\times 600	2.5
@@ -38,7 +38,7 @@ date	band	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	dtime	instrument	
 2002-Apr-7.270	H	18.9	0	0.07	yyyy-month-deciday	Vega	2.24122	days	NaN	NTT SofI	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	600	0.8
 2002-Apr-7.278	J	19.55	0	0.06	yyyy-month-deciday	Vega	2.24923	days	NaN	NTT SofI	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	600	0.8
 2002-Apr-7.281	V	21.95	0	0.04	yyyy-month-deciday	Vega	2.25223	days	NaN	Melipal FORS1	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	2\times30	0.7
-2002-Apr-7.294	K_{\rm s}	18.18	0	0.06	yyyy-month-deciday	Vega	2.26522	days	NaN	NTT SofI	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1800	0.7
+2002-Apr-7.294	K_{s}	18.18	0	0.06	yyyy-month-deciday	Vega	2.26522	days	NaN	NTT SofI	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	1800	0.7
 2002-Apr-7.381	R	21.32	0	0.06	yyyy-month-deciday	Vega	2.35223	days	NaN	1.54D DFOSC	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	600	1.2
 2002-Apr-8.280	V	22.49	0	0.02	yyyy-month-deciday	Vega	3.25122	days	NaN	NTT SUSI2	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	10\times60	0.8
 2002-Apr-8.294	R	22.09	0	0.03	yyyy-month-deciday	Vega	3.26522	days	NaN	NTT SUSI2	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	10\times60	0.8
@@ -51,5 +51,5 @@ date	band	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	dtime	instrument	
 2002-Apr-15.238	V	23.99	0	0.07	yyyy-month-deciday	Vega	10.20923	days	NaN	Melipal FORS1	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	2\times180	0.7
 2002-Apr-15.244	R	23.36	0	0.04	yyyy-month-deciday	Vega	10.21522	days	NaN	Melipal FORS1	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	2\times180	0.6
 2002-Apr-15.250	I	22.53	0	0.06	yyyy-month-deciday	Vega	10.22123	days	NaN	Melipal FORS1	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	2\times180	0.6
-2002-Apr-27.193	J_{\rm s}	22.4	0	0.1	yyyy-month-deciday	Vega	22.16423	days	NaN	Antu ISAAC	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	3600	0.5
-2002-May-8.193	J_{\rm s}	22.7	1	NaN	yyyy-month-deciday	Vega	33.16423	days	NaN	Antu ISAAC	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	3600	0.6
+2002-Apr-27.193	J_{s}	22.4	0	0.1	yyyy-month-deciday	Vega	22.16423	days	NaN	Antu ISAAC	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	3600	0.5
+2002-May-8.193	J_{s}	22.7	1	NaN	yyyy-month-deciday	Vega	33.16423	days	NaN	Antu ISAAC	https://ui.adsabs.harvard.edu/abs/2003A%26A...404..465M/abstract	3600	0.6

@@ -33,4 +33,4 @@ date	instrument	band	integration	seeing	mag	mag_limit	dmag	date_unit	mag_unit	ti
 2000-Sep-22.240	NTT	H	900	0.9	21.3	0	0.2	yyyy-month-deciday	unspecified	10.937618055555555	days	NaN
 2000-Sep-28.200	NTT	H	3240	1.3	22.1	1	NaN	yyyy-month-deciday	unspecified	16.897618055555554	days	NaN
 2000-Dec-22.063	Antu	H	5400	0.6	22.6	0	0.35	yyyy-month-deciday	unspecified	101.7606273148148	days	NaN
-2000-Sep-22.250	NTT	$K_{\rm s}$	900	0.8	19.9	0	0.1	yyyy-month-deciday	unspecified	10.94762962962963	days	NaN
+2000-Sep-22.250	NTT	K_{s}	900	0.8	19.9	0	0.1	yyyy-month-deciday	unspecified	10.94762962962963	days	NaN
