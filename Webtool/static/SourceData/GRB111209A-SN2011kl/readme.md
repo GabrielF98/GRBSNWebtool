@@ -105,15 +105,3 @@ The exposure times were given as the time multipled by the number of exposures w
 **Notes:**
 
 No notes.
-
-***
-
-### OpenSNPhotometry.csv
-
-**Source:** https://api.astrocats.space/SN2011kl/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-
-**Data-type:** Optical
-
-**Notes:**
-
-No notes.
