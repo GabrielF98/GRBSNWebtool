@@ -1,5 +1,5 @@
 date	time	instrument	freq	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	time_frame	flux_density_unit	dtime	freq_unit
-2014-06-08	2.3	CARMA	93.0	660.0	0	180.0	utc	days	observer	microJy	NaN	GHz
-2014-06-15	8.9	VLA	6.1	113.0	0	12.0	utc	days	observer	microJy	NaN	GHz
-2014-06-30	24.0	VLA	6.1	51.0	0	12.0	utc	days	observer	microJy	NaN	GHz
-2014-06-30	24.0	VLA	22.0	42.0	1	NaN	utc	days	observer	microJy	NaN	GHz
+2014-06-08	2.3	CARMA	93.0	0.66	0	0.18	utc	days	observer	milliJy	NaN	GHz
+2014-06-15	8.9	VLA	6.1	0.113	0	0.012	utc	days	observer	milliJy	NaN	GHz
+2014-06-30	24.0	VLA	6.1	0.051	0	0.012	utc	days	observer	milliJy	NaN	GHz
+2014-06-30	24.0	VLA	22.0	0.042	1	NaN	utc	days	observer	milliJy	NaN	GHz

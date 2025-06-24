@@ -1,9 +1,9 @@
 instrument	date	integration	time	freq	flux_density	flux_density_limit	dflux_density	date_unit	time_unit	freq_unit	flux_density_unit	dtime	reference
-SMA	2020-Feb-9.42	4.7	5.80000	230	250.0	1	NaN	yyyy-month-deciday	days	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-VLA	2020-Feb-16.67	0.4	13.00000	10	63.0	0	6.0	yyyy-month-deciday	days	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-VLA	2020-Feb-20.64	0.4	17.00000	6	83.0	0	6.0	yyyy-month-deciday	days	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-VLA	2020-Feb-27.64	0.4	24.00000	3	111.0	0	10.0	yyyy-month-deciday	days	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-VLA	2020-Mar-2.63	0.4	28.00000	15	33.0	0	4.0	yyyy-month-deciday	days	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-VLA	2020-Mar-9.60	0.4	35.00000	10	50.0	0	5.0	yyyy-month-deciday	days	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-VLA	2020-Mar-13.59	0.4	39.00000	3	106.0	0	10.0	yyyy-month-deciday	days	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
-VLA	2020-Mar-17.33	0.4	42.70000	6	63.0	0	6.0	yyyy-month-deciday	days	GHz	microJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+SMA	2020-Feb-9.42	4.7	5.80000	230	0.25	1	NaN	yyyy-month-deciday	days	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+VLA	2020-Feb-16.67	0.4	13.00000	10	0.063	0	0.006	yyyy-month-deciday	days	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+VLA	2020-Feb-20.64	0.4	17.00000	6	0.083	0	0.006	yyyy-month-deciday	days	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+VLA	2020-Feb-27.64	0.4	24.00000	3	0.111	0	0.01	yyyy-month-deciday	days	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+VLA	2020-Mar-2.63	0.4	28.00000	15	0.033	0	0.004	yyyy-month-deciday	days	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+VLA	2020-Mar-9.60	0.4	35.00000	10	0.05	0	0.005	yyyy-month-deciday	days	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+VLA	2020-Mar-13.59	0.4	39.00000	3	0.106	0	0.01	yyyy-month-deciday	days	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract
+VLA	2020-Mar-17.33	0.4	42.70000	6	0.063	0	0.006	yyyy-month-deciday	days	GHz	milliJy	NaN	https://ui.adsabs.harvard.edu/abs/2020ApJ...902...86H/abstract

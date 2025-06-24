@@ -1,4 +1,4 @@
 freq	image_rms	flux_density	flux_density_limit	time	luminosity	freq_unit	image_rms_unit	flux_density_unit	time_unit	luminosity_unit	dtime	instrument
-6.0	5.1	15.3	1	10.0	<0.4e27	GHz	muJy/beam	microJy	years	erg s^-1 Hz^-1	NaN	VLA
-1.85	55.0	165.0	1	10.0	<4.1e27	GHz	muJy/beam	microJy	years	erg s^-1 Hz^-1	NaN	VLA
-1.22	91.0	281.0	1	10.0	<6.9e27	GHz	muJy/beam	microJy	years	erg s^-1 Hz^-1	NaN	VLA
+6.0	5.1	0.0153	1	10.0	<0.4e27	GHz	muJy/beam	milliJy	years	erg s^-1 Hz^-1	NaN	VLA
+1.85	55.0	0.165	1	10.0	<4.1e27	GHz	muJy/beam	milliJy	years	erg s^-1 Hz^-1	NaN	VLA
+1.22	91.0	0.281	1	10.0	<6.9e27	GHz	muJy/beam	milliJy	years	erg s^-1 Hz^-1	NaN	VLA

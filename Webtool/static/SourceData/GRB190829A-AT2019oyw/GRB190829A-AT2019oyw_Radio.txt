@@ -1,11 +1,11 @@
 time	flux_density	flux_density_limit	dflux_density	integration	time_unit	time_frame	flux_density_unit	integration_unit	instrument	freq	freq_unit	dtime
-3.28	840.0	0	130	1.33	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
-6.11	1040.0	0	150	0.72	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
-9.1	1380.0	0	200	0.72	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
-13.1	1330.0	0	190	0.72	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
-19.13	1520.0	0	220	0.27	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
-24.34	740.0	0	110	0.47	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
-31.12	870.0	0	130	0.27	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
-39.18	690.0	0	100	0.57	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
-48.26	560.0	0	80	0.38	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
-61.29	400.0	0	70	0.42	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
+3.28	840.0	0	130.0	1.33	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
+6.11	1040.0	0	150.0	0.72	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
+9.1	1380.0	0	200.0	0.72	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
+13.1	1330.0	0	190.0	0.72	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
+19.13	1520.0	0	220.0	0.27	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
+24.34	740.0	0	110.0	0.47	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
+31.12	870.0	0	130.0	0.27	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
+39.18	690.0	0	100.0	0.57	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
+48.26	560.0	0	80.0	0.38	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
+61.29	400.0	0	70.0	0.42	days	observer	microJy beam^-1	hours	MeerKAT	1.3	GHz	NaN
