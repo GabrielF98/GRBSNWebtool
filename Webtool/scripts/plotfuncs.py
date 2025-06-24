@@ -1555,7 +1555,7 @@ def masterfileformat(event, readme_dict):
         radio = pd.concat(radio_pandas, join="outer")
 
         # Time to seconds precision.
-        radio["time"] = radio["time"].map(lambda x: f"{x:.5f}")
+        radio["time"] = radio["time"].map(lambda x: round(x, 5))
 
         radio.to_csv(event + "_Radio_Master.txt", sep="\t", index=False, na_rep="NaN")
 
@@ -1563,7 +1563,7 @@ def masterfileformat(event, readme_dict):
         optical = pd.concat(optical_pandas, join="outer")
 
         # Time to seconds precision.
-        optical["time"] = optical["time"].map(lambda x: f"{x:.5f}")
+        optical["time"] = optical["time"].map(lambda x: round(x, 5))
 
         optical.to_csv(
             event + "_Optical_Master.txt", sep="\t", index=False, na_rep="NaN"
@@ -1576,7 +1576,7 @@ def masterfileformat(event, readme_dict):
         xray["flux"] = xray["flux"].map(lambda x: f"{x:.6e}")
 
         # Time to seconds precision.
-        xray["time"] = xray["time"].map(lambda x: f"{x:.5f}")
+        xray["time"] = xray["time"].map(lambda x: round(x, 5))
 
         xray.to_csv(event + "_Xray_Master.txt", sep="\t", index=False, na_rep="NaN")
 
@@ -1584,7 +1584,7 @@ def masterfileformat(event, readme_dict):
         spectra = pd.concat(spectra_pandas, join="outer")
 
         # Time to seconds precision.
-        spectra["time"] = spectra["time"].map(lambda x: f"{x:.5f}")
+        spectra["time"] = spectra["time"].map(lambda x: round(x, 5))
 
         # Format the flux column so it stops always changing slightly when you re-run this because of floating point errors.
         spectra["flux"] = spectra["flux"].map(lambda x: f"{x:.6e}")
