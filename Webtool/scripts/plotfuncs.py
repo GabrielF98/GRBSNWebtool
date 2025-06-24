@@ -1666,7 +1666,7 @@ if __name__ == "__main__":
 
                         # Round
                         data["flux_density"] = data["flux_density"].map(
-                            lambda x: f"{x:.6f}"
+                            lambda x: round(x, 6)
                         )
 
                         # Uncertainty
@@ -1685,7 +1685,7 @@ if __name__ == "__main__":
 
                             # Round
                             data["dflux_density"] = data["dflux_density"].map(
-                                lambda x: f"{x:.6f}"
+                                lambda x: round(x, 6)
                             )
 
                         # Units
