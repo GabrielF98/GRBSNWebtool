@@ -1,95 +1,95 @@
 instrument	time	band	freq	flux_density	dflux_density	flux_density_limit	time_unit	freq_unit	flux_density_unit	time_frame	dtime	reference	date	integration	date_unit	integration_unit
-RT22	0.36173	Ka	36.0	6100.0	2023.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	0.67749	C	5.1	1290.0	123.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	0.67749	C	6.8	2570.0	160.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-CARMA	0.76900	3 mm	93.0	3416.0	365.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-CARMA	0.81000	3 mm	85.0	3000.0	300.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-CARMA	1.00000	3 mm	93.0	2470.0	481.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-RT22	1.40524	Ka	36.0	1900.0	411.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-CARMA	1.91400	3 mm	93.0	1189.0	327.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	1.95438	K	20.7	1349.0	69.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	1.95438	K	21.7	1314.0	67.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	2.00877	K	19.2	1310.0	65.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	2.00877	K	24.5	1280.0	64.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	2.01811	Ku	13.5	1480.0	74.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	2.01811	Ku	14.5	1420.0	71.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	2.03854	C	5.1	1760.0	88.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	2.03854	C	6.8	1820.0	91.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-CARMA	2.80300	3 mm	93.0	807.0	225.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-GMRT	3.25000	L	1.39	500.0	100.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-PdBI	3.58256	3 mm	86.74	903.0	99.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	4.71239	K	20.7	467.0	26.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	4.71239	K	21.7	488.0	29.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	4.73196	U	13.5	545.0	28.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	4.73196	U	16.0	521.0	27.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	4.74985	C	5.0	648.0	34.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	4.74985	C	7.4	607.0	32.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	4.76347	S	3.19	942.0	74.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-PdBI	6.41243	3 mm	86.74	587.0	71.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	9.71473	C	5.0	454.0	28.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	9.71473	C	7.1	374.0	23.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	9.92480	K	19.2	399.0	30.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	9.92480	K	24.5	410.0	27.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	9.93576	Ka	30.0	337.0	41.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	9.93576	Ka	37.0	509.0	46.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	9.94673	U	13.5	390.0	27.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	9.94673	U	14.5	397.0	23.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	9.95608	X	8.46	385.0	28.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-PdBI	10.35652	3 mm	86.74	368.0	102.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-GMRT	11.60000	L	1.39	450.0	100.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	17.91450	U	14.0	275.0	31.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	17.92385	X	8.5	332.0	72.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	17.95399	C	5.5	263.0	22.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-PdBI	23.51729	3 mm	86.74	197.0	62.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	27.65017	C	6.05	242.0	18.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	27.66800	X	9.77	243.0	16.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	28.93510	K	21.85	212.0	19.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	28.95414	U	14.0	223.0	15.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-PdBI	49.56798	3 mm	86.74	196.0	112.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	59.78386	K	19.2	159.0	20.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	59.78386	K	24.5	128.0	30.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	59.79915	U	14.0	110.0	30.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	59.80989	X	8.46	109.0	30.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	63.77799	C	7.2	137.0	16.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	63.77799	C	5.79	151.0	21.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	63.78838	S	3.1	119.0	45.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	128.33868	C	5.0	86.0	8.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-VLA	128.33868	C	7.1	91.0	7.0	0	days	GHz	microJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
-WSRT	1.52000	NaN	4.8	2500.0	25.0	0	days	GHz	microJy	observer	0.2494965277777778	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.611-29.110	12.0	yyyy-month-deciday-deciday	hours
-WSRT	2.47000	NaN	4.8	1424.0	24.0	0	days	GHz	microJy	observer	0.1964988425925926	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.608-30.001	9.4	yyyy-month-deciday-deciday	hours
-WSRT	4.55000	NaN	1.4	283.0	711.0	0	days	GHz	microJy	observer	0.2254976851851851	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-1.651-2.102	5.4	yyyy-month-deciday-deciday	hours
-WSRT	4.55000	NaN	4.8	746.0	37.0	0	days	GHz	microJy	observer	0.2254976851851851	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-1.651-2.102	5.4	yyyy-month-deciday-deciday	hours
-WSRT	6.55000	NaN	4.8	523.0	43.0	0	days	GHz	microJy	observer	0.2184953703703703	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-3.660-4.097	10.5	yyyy-month-deciday-deciday	hours
-WSRT	8.51000	NaN	1.4	375.0	44.0	0	days	GHz	microJy	observer	0.2495023148148147	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-5.592-6.091	12.0	yyyy-month-deciday-deciday	hours
-WSRT	9.51000	NaN	4.8	389.0	31.0	0	days	GHz	microJy	observer	0.2480034722222222	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-6.592-7.088	12.0	yyyy-month-deciday-deciday	hours
-WSRT	16.36000	NaN	1.4	351.0	85.0	0	days	GHz	microJy	observer	0.1129976851851852	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-13.570-13.796	5.4	yyyy-month-deciday-deciday	hours
-WSRT	17.36000	NaN	4.8	322.0	41.0	0	days	GHz	microJy	observer	0.1130034722222222	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-14.567-14.793	5.4	yyyy-month-deciday-deciday	hours
-WSRT	20.48000	NaN	1.4	293.0	53.0	0	days	GHz	microJy	observer	0.2495023148148147	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-17.559-18.058	12.0	yyyy-month-deciday-deciday	hours
-WSRT	21.48000	NaN	4.8	286.0	28.0	0	days	GHz	microJy	observer	0.2489988425925925	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-18.557-19.055	12.0	yyyy-month-deciday-deciday	hours
-WSRT	33.36000	NaN	1.4	284.0	143.0	0	days	GHz	microJy	observer	0.1655034722222222	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-30.524-30.855	8.0	yyyy-month-deciday-deciday	hours
-WSRT	34.36000	NaN	4.8	207.0	34.0	0	days	GHz	microJy	observer	0.1654976851851852	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-31.521-31.852	8.0	yyyy-month-deciday-deciday	hours
-WSRT	59.38000	NaN	4.8	111.0	30.0	0	days	GHz	microJy	observer	0.2489988425925925	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Jun-25.453-25.951	12.0	yyyy-month-deciday-deciday	hours
-WSRT	60.37000	NaN	1.4	209.0	51.0	0	days	GHz	microJy	observer	0.2495023148148148	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Jun-26.450-26.949	12.0	yyyy-month-deciday-deciday	hours
-WSRT	89.30000	NaN	4.8	105.0	36.0	0	days	GHz	microJy	observer	0.2489988425925925	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Jul-25.371-25.869	12.0	yyyy-month-deciday-deciday	hours
-WSRT	93.28000	NaN	1.4	234.0	55.0	0	days	GHz	microJy	observer	0.2490046296296295	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Jul-29.360-29.858	12.0	yyyy-month-deciday-deciday	hours
-WSRT	1.31000	NaN	4.8	2132.0	124.0	0	days	GHz	microJy	observer	0.0210011574074074	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.611-28.653	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.35000	NaN	4.8	2047.0	108.0	0	days	GHz	microJy	observer	0.0204976851851851	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.653-28.694	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.39000	NaN	4.8	2244.0	95.0	0	days	GHz	microJy	observer	0.0210011574074073	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.694-28.736	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.43000	NaN	4.8	2433.0	98.0	0	days	GHz	microJy	observer	0.0204976851851851	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.736-28.777	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.47000	NaN	4.8	2743.0	101.0	0	days	GHz	microJy	observer	0.0210011574074074	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.777-28.819	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.51000	NaN	4.8	2640.0	105.0	0	days	GHz	microJy	observer	0.0204976851851851	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.819-28.860	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.56000	NaN	4.8	2728.0	101.0	0	days	GHz	microJy	observer	0.0210011574074073	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.860-28.902	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.60000	NaN	4.8	2707.0	107.0	0	days	GHz	microJy	observer	0.0205034722222222	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.902-28.943	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.64000	NaN	4.8	2551.0	103.0	0	days	GHz	microJy	observer	0.0209953703703703	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.943-28.985	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.68000	NaN	4.8	2654.0	105.0	0	days	GHz	microJy	observer	0.0205034722222222	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.985-29.026	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.72000	NaN	4.8	2300.0	102.0	0	days	GHz	microJy	observer	0.0210011574074074	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.026-29.068	1.0	yyyy-month-deciday-deciday	hours
-WSRT	1.76000	NaN	4.8	2117.0	121.0	0	days	GHz	microJy	observer	0.0209953703703703	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.068-29.110	1.0	yyyy-month-deciday-deciday	hours
-WSRT	2.31000	NaN	4.8	1399.0	113.0	0	days	GHz	microJy	observer	0.0219965277777777	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.608-29.652	1.0	yyyy-month-deciday-deciday	hours
-WSRT	2.35000	NaN	4.8	1773.0	110.0	0	days	GHz	microJy	observer	0.0215046296296296	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.652-29.695	1.0	yyyy-month-deciday-deciday	hours
-WSRT	2.39000	NaN	4.8	1511.0	111.0	0	days	GHz	microJy	observer	0.0219965277777777	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.695-29.739	1.0	yyyy-month-deciday-deciday	hours
-WSRT	2.43000	NaN	4.8	1278.0	101.0	0	days	GHz	microJy	observer	0.0214988425925926	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.739-29.782	1.0	yyyy-month-deciday-deciday	hours
-WSRT	2.48000	NaN	4.8	1543.0	102.0	0	days	GHz	microJy	observer	0.0220023148148148	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.782-29.826	1.0	yyyy-month-deciday-deciday	hours
-WSRT	2.52000	NaN	4.8	1298.0	99.0	0	days	GHz	microJy	observer	0.0214988425925925	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.826-29.869	1.0	yyyy-month-deciday-deciday	hours
-WSRT	2.57000	NaN	4.8	1311.0	87.0	0	days	GHz	microJy	observer	0.0220023148148148	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.869-29.913	1.0	yyyy-month-deciday-deciday	hours
-WSRT	2.61000	NaN	4.8	1247.0	95.0	0	days	GHz	microJy	observer	0.0214988425925926	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.913-29.956	1.0	yyyy-month-deciday-deciday	hours
-WSRT	2.65000	NaN	4.8	1174.0	99.0	0	days	GHz	microJy	observer	0.0224999999999999	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.956-30.001	1.0	yyyy-month-deciday-deciday	hours
+RT22	0.36173	Ka	36.0	6.1	2.023	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	0.67749	C	5.1	1.29	0.123	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	0.67749	C	6.8	2.57	0.16	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+CARMA	0.76900	3 mm	93.0	3.416	0.365	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+CARMA	0.81000	3 mm	85.0	3.0	0.3	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+CARMA	1.00000	3 mm	93.0	2.47	0.481	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+RT22	1.40524	Ka	36.0	1.9	0.411	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+CARMA	1.91400	3 mm	93.0	1.189	0.327	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	1.95438	K	20.7	1.349	0.069	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	1.95438	K	21.7	1.314	0.067	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	2.00877	K	19.2	1.31	0.065	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	2.00877	K	24.5	1.28	0.064	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	2.01811	Ku	13.5	1.48	0.074	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	2.01811	Ku	14.5	1.42	0.071	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	2.03854	C	5.1	1.76	0.088	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	2.03854	C	6.8	1.82	0.091	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+CARMA	2.80300	3 mm	93.0	0.807	0.225	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+GMRT	3.25000	L	1.39	0.5	0.1	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+PdBI	3.58256	3 mm	86.74	0.903	0.099	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	4.71239	K	20.7	0.467	0.026	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	4.71239	K	21.7	0.488	0.029	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	4.73196	U	13.5	0.545	0.028	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	4.73196	U	16.0	0.521	0.027	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	4.74985	C	5.0	0.648	0.034	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	4.74985	C	7.4	0.607	0.032	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	4.76347	S	3.19	0.942	0.074	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+PdBI	6.41243	3 mm	86.74	0.587	0.071	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	9.71473	C	5.0	0.454	0.028	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	9.71473	C	7.1	0.374	0.023	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	9.92480	K	19.2	0.399	0.03	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	9.92480	K	24.5	0.41	0.027	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	9.93576	Ka	30.0	0.337	0.041	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	9.93576	Ka	37.0	0.509	0.046	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	9.94673	U	13.5	0.39	0.027	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	9.94673	U	14.5	0.397	0.023	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	9.95608	X	8.46	0.385	0.028	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+PdBI	10.35652	3 mm	86.74	0.368	0.102	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+GMRT	11.60000	L	1.39	0.45	0.1	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	17.91450	U	14.0	0.275	0.031	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	17.92385	X	8.5	0.332	0.072	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	17.95399	C	5.5	0.263	0.022	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+PdBI	23.51729	3 mm	86.74	0.197	0.062	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	27.65017	C	6.05	0.242	0.018	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	27.66800	X	9.77	0.243	0.016	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	28.93510	K	21.85	0.212	0.019	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	28.95414	U	14.0	0.223	0.015	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+PdBI	49.56798	3 mm	86.74	0.196	0.112	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	59.78386	K	19.2	0.159	0.02	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	59.78386	K	24.5	0.128	0.03	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	59.79915	U	14.0	0.11	0.03	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	59.80989	X	8.46	0.109	0.03	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	63.77799	C	7.2	0.137	0.016	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	63.77799	C	5.79	0.151	0.021	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	63.78838	S	3.1	0.119	0.045	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	128.33868	C	5.0	0.086	0.008	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+VLA	128.33868	C	7.1	0.091	0.007	0	days	GHz	milliJy	observer	NaN	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...37P/abstract	NaN	NaN	NaN	NaN
+WSRT	1.52000	NaN	4.8	2.5	0.025	0	days	GHz	milliJy	observer	0.2494965277777778	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.611-29.110	12.0	yyyy-month-deciday-deciday	hours
+WSRT	2.47000	NaN	4.8	1.424	0.024	0	days	GHz	milliJy	observer	0.1964988425925926	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.608-30.001	9.4	yyyy-month-deciday-deciday	hours
+WSRT	4.55000	NaN	1.4	0.283	0.711	0	days	GHz	milliJy	observer	0.2254976851851851	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-1.651-2.102	5.4	yyyy-month-deciday-deciday	hours
+WSRT	4.55000	NaN	4.8	0.746	0.037	0	days	GHz	milliJy	observer	0.2254976851851851	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-1.651-2.102	5.4	yyyy-month-deciday-deciday	hours
+WSRT	6.55000	NaN	4.8	0.523	0.043	0	days	GHz	milliJy	observer	0.2184953703703703	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-3.660-4.097	10.5	yyyy-month-deciday-deciday	hours
+WSRT	8.51000	NaN	1.4	0.375	0.044	0	days	GHz	milliJy	observer	0.2495023148148147	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-5.592-6.091	12.0	yyyy-month-deciday-deciday	hours
+WSRT	9.51000	NaN	4.8	0.389	0.031	0	days	GHz	milliJy	observer	0.2480034722222222	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-6.592-7.088	12.0	yyyy-month-deciday-deciday	hours
+WSRT	16.36000	NaN	1.4	0.351	0.085	0	days	GHz	milliJy	observer	0.1129976851851852	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-13.570-13.796	5.4	yyyy-month-deciday-deciday	hours
+WSRT	17.36000	NaN	4.8	0.322	0.041	0	days	GHz	milliJy	observer	0.1130034722222222	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-14.567-14.793	5.4	yyyy-month-deciday-deciday	hours
+WSRT	20.48000	NaN	1.4	0.293	0.053	0	days	GHz	milliJy	observer	0.2495023148148147	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-17.559-18.058	12.0	yyyy-month-deciday-deciday	hours
+WSRT	21.48000	NaN	4.8	0.286	0.028	0	days	GHz	milliJy	observer	0.2489988425925925	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-18.557-19.055	12.0	yyyy-month-deciday-deciday	hours
+WSRT	33.36000	NaN	1.4	0.284	0.143	0	days	GHz	milliJy	observer	0.1655034722222222	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-30.524-30.855	8.0	yyyy-month-deciday-deciday	hours
+WSRT	34.36000	NaN	4.8	0.207	0.034	0	days	GHz	milliJy	observer	0.1654976851851852	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-May-31.521-31.852	8.0	yyyy-month-deciday-deciday	hours
+WSRT	59.38000	NaN	4.8	0.111	0.03	0	days	GHz	milliJy	observer	0.2489988425925925	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Jun-25.453-25.951	12.0	yyyy-month-deciday-deciday	hours
+WSRT	60.37000	NaN	1.4	0.209	0.051	0	days	GHz	milliJy	observer	0.2495023148148148	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Jun-26.450-26.949	12.0	yyyy-month-deciday-deciday	hours
+WSRT	89.30000	NaN	4.8	0.105	0.036	0	days	GHz	milliJy	observer	0.2489988425925925	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Jul-25.371-25.869	12.0	yyyy-month-deciday-deciday	hours
+WSRT	93.28000	NaN	1.4	0.234	0.055	0	days	GHz	milliJy	observer	0.2490046296296295	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Jul-29.360-29.858	12.0	yyyy-month-deciday-deciday	hours
+WSRT	1.31000	NaN	4.8	2.132	0.124	0	days	GHz	milliJy	observer	0.0210011574074074	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.611-28.653	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.35000	NaN	4.8	2.047	0.108	0	days	GHz	milliJy	observer	0.0204976851851851	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.653-28.694	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.39000	NaN	4.8	2.244	0.095	0	days	GHz	milliJy	observer	0.0210011574074073	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.694-28.736	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.43000	NaN	4.8	2.433	0.098	0	days	GHz	milliJy	observer	0.0204976851851851	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.736-28.777	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.47000	NaN	4.8	2.743	0.101	0	days	GHz	milliJy	observer	0.0210011574074074	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.777-28.819	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.51000	NaN	4.8	2.64	0.105	0	days	GHz	milliJy	observer	0.0204976851851851	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.819-28.860	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.56000	NaN	4.8	2.728	0.101	0	days	GHz	milliJy	observer	0.0210011574074073	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.860-28.902	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.60000	NaN	4.8	2.707	0.107	0	days	GHz	milliJy	observer	0.0205034722222222	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.902-28.943	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.64000	NaN	4.8	2.551	0.103	0	days	GHz	milliJy	observer	0.0209953703703703	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.943-28.985	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.68000	NaN	4.8	2.654	0.105	0	days	GHz	milliJy	observer	0.0205034722222222	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-28.985-29.026	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.72000	NaN	4.8	2.3	0.102	0	days	GHz	milliJy	observer	0.0210011574074074	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.026-29.068	1.0	yyyy-month-deciday-deciday	hours
+WSRT	1.76000	NaN	4.8	2.117	0.121	0	days	GHz	milliJy	observer	0.0209953703703703	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.068-29.110	1.0	yyyy-month-deciday-deciday	hours
+WSRT	2.31000	NaN	4.8	1.399	0.113	0	days	GHz	milliJy	observer	0.0219965277777777	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.608-29.652	1.0	yyyy-month-deciday-deciday	hours
+WSRT	2.35000	NaN	4.8	1.773	0.11	0	days	GHz	milliJy	observer	0.0215046296296296	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.652-29.695	1.0	yyyy-month-deciday-deciday	hours
+WSRT	2.39000	NaN	4.8	1.511	0.111	0	days	GHz	milliJy	observer	0.0219965277777777	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.695-29.739	1.0	yyyy-month-deciday-deciday	hours
+WSRT	2.43000	NaN	4.8	1.278	0.101	0	days	GHz	milliJy	observer	0.0214988425925926	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.739-29.782	1.0	yyyy-month-deciday-deciday	hours
+WSRT	2.48000	NaN	4.8	1.543	0.102	0	days	GHz	milliJy	observer	0.0220023148148148	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.782-29.826	1.0	yyyy-month-deciday-deciday	hours
+WSRT	2.52000	NaN	4.8	1.298	0.099	0	days	GHz	milliJy	observer	0.0214988425925925	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.826-29.869	1.0	yyyy-month-deciday-deciday	hours
+WSRT	2.57000	NaN	4.8	1.311	0.087	0	days	GHz	milliJy	observer	0.0220023148148148	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.869-29.913	1.0	yyyy-month-deciday-deciday	hours
+WSRT	2.61000	NaN	4.8	1.247	0.095	0	days	GHz	milliJy	observer	0.0214988425925926	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.913-29.956	1.0	yyyy-month-deciday-deciday	hours
+WSRT	2.65000	NaN	4.8	1.174	0.099	0	days	GHz	milliJy	observer	0.0224999999999999	https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract	2013-Apr-29.956-30.001	1.0	yyyy-month-deciday-deciday	hours

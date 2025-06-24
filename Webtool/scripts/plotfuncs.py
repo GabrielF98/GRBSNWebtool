@@ -1650,6 +1650,58 @@ if __name__ == "__main__":
                     # Tag any non-detections.
                     data = nondetections(data, file)
 
+                    # Convert any radio flux densities into milliJy
+                    if "flux_density" in list(data.keys()):
+                        data["flux_density"] = np.where(
+                            data["flux_density_unit"] == "microJy",
+                            data["flux_density"] / 1000,
+                            data["flux_density"],
+                        )
+
+                        data["flux_density"] = np.where(
+                            data["flux_density_unit"] == "Jy",
+                            data["flux_density"] * 1000,
+                            data["flux_density"],
+                        )
+
+                        # Round
+                        data["flux_density"] = data["flux_density"].map(
+                            lambda x: round(x, 6)
+                        )
+
+                        # Uncertainty
+                        if "dflux_density" in list(data.keys()):
+                            data["dflux_density"] = np.where(
+                                data["flux_density_unit"] == "microJy",
+                                data["dflux_density"] / 1000,
+                                data["dflux_density"],
+                            )
+
+                            data["dflux_density"] = np.where(
+                                data["flux_density_unit"] == "Jy",
+                                data["dflux_density"] * 1000,
+                                data["dflux_density"],
+                            )
+
+                            # Round
+                            data["dflux_density"] = data["dflux_density"].map(
+                                lambda x: round(x, 6)
+                            )
+
+                        # Units
+
+                        data["flux_density_unit"] = np.where(
+                            data["flux_density_unit"] == "microJy",
+                            "milliJy",
+                            data["flux_density_unit"],
+                        )
+
+                        data["flux_density_unit"] = np.where(
+                            data["flux_density_unit"] == "Jy",
+                            "milliJy",
+                            data["flux_density_unit"],
+                        )
+
                     # Calculate the elapsed time
                     if "time" not in list(data.keys()):
                         data = elapsed_time(data, trigtime)

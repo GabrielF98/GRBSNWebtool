@@ -1,57 +1,57 @@
 instrument	time	band	freq	flux_density	dflux_density	flux_density_limit	time_unit	freq_unit	flux_density_unit	time_frame	dtime
-RT22	0.36173	Ka	36.0	6100	2023.0	0	days	GHz	microJy	observer	NaN
-VLA	0.67749	C	5.1	1290	123.0	0	days	GHz	microJy	observer	NaN
-VLA	0.67749	C	6.8	2570	160.0	0	days	GHz	microJy	observer	NaN
-CARMA	0.769	3 mm	93.0	3416	365.0	0	days	GHz	microJy	observer	NaN
-CARMA	0.81	3 mm	85.0	3000	300.0	0	days	GHz	microJy	observer	NaN
-CARMA	1.0	3 mm	93.0	2470	481.0	0	days	GHz	microJy	observer	NaN
-RT22	1.40524	Ka	36.0	1900	411.0	0	days	GHz	microJy	observer	NaN
-CARMA	1.914	3 mm	93.0	1189	327.0	0	days	GHz	microJy	observer	NaN
-VLA	1.95438	K	20.7	1349	69.0	0	days	GHz	microJy	observer	NaN
-VLA	1.95438	K	21.7	1314	67.0	0	days	GHz	microJy	observer	NaN
-VLA	2.00877	K	19.2	1310	65.0	0	days	GHz	microJy	observer	NaN
-VLA	2.00877	K	24.5	1280	64.0	0	days	GHz	microJy	observer	NaN
-VLA	2.01811	Ku	13.5	1480	74.0	0	days	GHz	microJy	observer	NaN
-VLA	2.01811	Ku	14.5	1420	71.0	0	days	GHz	microJy	observer	NaN
-VLA	2.03854	C	5.1	1760	88.0	0	days	GHz	microJy	observer	NaN
-VLA	2.03854	C	6.8	1820	91.0	0	days	GHz	microJy	observer	NaN
-CARMA	2.803	3 mm	93.0	807	225.0	0	days	GHz	microJy	observer	NaN
-GMRT	3.25	L	1.39	500	100.0	0	days	GHz	microJy	observer	NaN
-PdBI	3.58256	3 mm	86.74	903	99.0	0	days	GHz	microJy	observer	NaN
-VLA	4.71239	K	20.7	467	26.0	0	days	GHz	microJy	observer	NaN
-VLA	4.71239	K	21.7	488	29.0	0	days	GHz	microJy	observer	NaN
-VLA	4.73196	U	13.5	545	28.0	0	days	GHz	microJy	observer	NaN
-VLA	4.73196	U	16.0	521	27.0	0	days	GHz	microJy	observer	NaN
-VLA	4.74985	C	5.0	648	34.0	0	days	GHz	microJy	observer	NaN
-VLA	4.74985	C	7.4	607	32.0	0	days	GHz	microJy	observer	NaN
-VLA	4.76347	S	3.19	942	74.0	0	days	GHz	microJy	observer	NaN
-PdBI	6.41243	3 mm	86.74	587	71.0	0	days	GHz	microJy	observer	NaN
-VLA	9.71473	C	5.0	454	28.0	0	days	GHz	microJy	observer	NaN
-VLA	9.71473	C	7.1	374	23.0	0	days	GHz	microJy	observer	NaN
-VLA	9.9248	K	19.2	399	30.0	0	days	GHz	microJy	observer	NaN
-VLA	9.9248	K	24.5	410	27.0	0	days	GHz	microJy	observer	NaN
-VLA	9.93576	Ka	30.0	337	41.0	0	days	GHz	microJy	observer	NaN
-VLA	9.93576	Ka	37.0	509	46.0	0	days	GHz	microJy	observer	NaN
-VLA	9.94673	U	13.5	390	27.0	0	days	GHz	microJy	observer	NaN
-VLA	9.94673	U	14.5	397	23.0	0	days	GHz	microJy	observer	NaN
-VLA	9.95608	X	8.46	385	28.0	0	days	GHz	microJy	observer	NaN
-PdBI	10.35652	3 mm	86.74	368	102.0	0	days	GHz	microJy	observer	NaN
-GMRT	11.6	L	1.39	450	100.0	0	days	GHz	microJy	observer	NaN
-VLA	17.9145	U	14.0	275	31.0	0	days	GHz	microJy	observer	NaN
-VLA	17.92385	X	8.5	332	72.0	0	days	GHz	microJy	observer	NaN
-VLA	17.95399	C	5.5	263	22.0	0	days	GHz	microJy	observer	NaN
-PdBI	23.51729	3 mm	86.74	197	62.0	0	days	GHz	microJy	observer	NaN
-VLA	27.65017	C	6.05	242	18.0	0	days	GHz	microJy	observer	NaN
-VLA	27.668	X	9.77	243	16.0	0	days	GHz	microJy	observer	NaN
-VLA	28.9351	K	21.85	212	19.0	0	days	GHz	microJy	observer	NaN
-VLA	28.95414	U	14.0	223	15.0	0	days	GHz	microJy	observer	NaN
-PdBI	49.56798	3 mm	86.74	196	112.0	0	days	GHz	microJy	observer	NaN
-VLA	59.78386	K	19.2	159	20.0	0	days	GHz	microJy	observer	NaN
-VLA	59.78386	K	24.5	128	30.0	0	days	GHz	microJy	observer	NaN
-VLA	59.79915	U	14.0	110	30.0	0	days	GHz	microJy	observer	NaN
-VLA	59.80989	X	8.46	109	30.0	0	days	GHz	microJy	observer	NaN
-VLA	63.77799	C	7.2	137	16.0	0	days	GHz	microJy	observer	NaN
-VLA	63.77799	C	5.79	151	21.0	0	days	GHz	microJy	observer	NaN
-VLA	63.78838	S	3.1	119	45.0	0	days	GHz	microJy	observer	NaN
-VLA	128.33868	C	5.0	86	8.0	0	days	GHz	microJy	observer	NaN
-VLA	128.33868	C	7.1	91	7.0	0	days	GHz	microJy	observer	NaN
+RT22	0.36173	Ka	36.0	6.1	2.023	0	days	GHz	milliJy	observer	NaN
+VLA	0.67749	C	5.1	1.29	0.123	0	days	GHz	milliJy	observer	NaN
+VLA	0.67749	C	6.8	2.57	0.16	0	days	GHz	milliJy	observer	NaN
+CARMA	0.769	3 mm	93.0	3.416	0.365	0	days	GHz	milliJy	observer	NaN
+CARMA	0.81	3 mm	85.0	3.0	0.3	0	days	GHz	milliJy	observer	NaN
+CARMA	1.0	3 mm	93.0	2.47	0.481	0	days	GHz	milliJy	observer	NaN
+RT22	1.40524	Ka	36.0	1.9	0.411	0	days	GHz	milliJy	observer	NaN
+CARMA	1.914	3 mm	93.0	1.189	0.327	0	days	GHz	milliJy	observer	NaN
+VLA	1.95438	K	20.7	1.349	0.069	0	days	GHz	milliJy	observer	NaN
+VLA	1.95438	K	21.7	1.314	0.067	0	days	GHz	milliJy	observer	NaN
+VLA	2.00877	K	19.2	1.31	0.065	0	days	GHz	milliJy	observer	NaN
+VLA	2.00877	K	24.5	1.28	0.064	0	days	GHz	milliJy	observer	NaN
+VLA	2.01811	Ku	13.5	1.48	0.074	0	days	GHz	milliJy	observer	NaN
+VLA	2.01811	Ku	14.5	1.42	0.071	0	days	GHz	milliJy	observer	NaN
+VLA	2.03854	C	5.1	1.76	0.088	0	days	GHz	milliJy	observer	NaN
+VLA	2.03854	C	6.8	1.82	0.091	0	days	GHz	milliJy	observer	NaN
+CARMA	2.803	3 mm	93.0	0.807	0.225	0	days	GHz	milliJy	observer	NaN
+GMRT	3.25	L	1.39	0.5	0.1	0	days	GHz	milliJy	observer	NaN
+PdBI	3.58256	3 mm	86.74	0.903	0.099	0	days	GHz	milliJy	observer	NaN
+VLA	4.71239	K	20.7	0.467	0.026	0	days	GHz	milliJy	observer	NaN
+VLA	4.71239	K	21.7	0.488	0.029	0	days	GHz	milliJy	observer	NaN
+VLA	4.73196	U	13.5	0.545	0.028	0	days	GHz	milliJy	observer	NaN
+VLA	4.73196	U	16.0	0.521	0.027	0	days	GHz	milliJy	observer	NaN
+VLA	4.74985	C	5.0	0.648	0.034	0	days	GHz	milliJy	observer	NaN
+VLA	4.74985	C	7.4	0.607	0.032	0	days	GHz	milliJy	observer	NaN
+VLA	4.76347	S	3.19	0.942	0.074	0	days	GHz	milliJy	observer	NaN
+PdBI	6.41243	3 mm	86.74	0.587	0.071	0	days	GHz	milliJy	observer	NaN
+VLA	9.71473	C	5.0	0.454	0.028	0	days	GHz	milliJy	observer	NaN
+VLA	9.71473	C	7.1	0.374	0.023	0	days	GHz	milliJy	observer	NaN
+VLA	9.9248	K	19.2	0.399	0.03	0	days	GHz	milliJy	observer	NaN
+VLA	9.9248	K	24.5	0.41	0.027	0	days	GHz	milliJy	observer	NaN
+VLA	9.93576	Ka	30.0	0.337	0.041	0	days	GHz	milliJy	observer	NaN
+VLA	9.93576	Ka	37.0	0.509	0.046	0	days	GHz	milliJy	observer	NaN
+VLA	9.94673	U	13.5	0.39	0.027	0	days	GHz	milliJy	observer	NaN
+VLA	9.94673	U	14.5	0.397	0.023	0	days	GHz	milliJy	observer	NaN
+VLA	9.95608	X	8.46	0.385	0.028	0	days	GHz	milliJy	observer	NaN
+PdBI	10.35652	3 mm	86.74	0.368	0.102	0	days	GHz	milliJy	observer	NaN
+GMRT	11.6	L	1.39	0.45	0.1	0	days	GHz	milliJy	observer	NaN
+VLA	17.9145	U	14.0	0.275	0.031	0	days	GHz	milliJy	observer	NaN
+VLA	17.92385	X	8.5	0.332	0.072	0	days	GHz	milliJy	observer	NaN
+VLA	17.95399	C	5.5	0.263	0.022	0	days	GHz	milliJy	observer	NaN
+PdBI	23.51729	3 mm	86.74	0.197	0.062	0	days	GHz	milliJy	observer	NaN
+VLA	27.65017	C	6.05	0.242	0.018	0	days	GHz	milliJy	observer	NaN
+VLA	27.668	X	9.77	0.243	0.016	0	days	GHz	milliJy	observer	NaN
+VLA	28.9351	K	21.85	0.212	0.019	0	days	GHz	milliJy	observer	NaN
+VLA	28.95414	U	14.0	0.223	0.015	0	days	GHz	milliJy	observer	NaN
+PdBI	49.56798	3 mm	86.74	0.196	0.112	0	days	GHz	milliJy	observer	NaN
+VLA	59.78386	K	19.2	0.159	0.02	0	days	GHz	milliJy	observer	NaN
+VLA	59.78386	K	24.5	0.128	0.03	0	days	GHz	milliJy	observer	NaN
+VLA	59.79915	U	14.0	0.11	0.03	0	days	GHz	milliJy	observer	NaN
+VLA	59.80989	X	8.46	0.109	0.03	0	days	GHz	milliJy	observer	NaN
+VLA	63.77799	C	7.2	0.137	0.016	0	days	GHz	milliJy	observer	NaN
+VLA	63.77799	C	5.79	0.151	0.021	0	days	GHz	milliJy	observer	NaN
+VLA	63.78838	S	3.1	0.119	0.045	0	days	GHz	milliJy	observer	NaN
+VLA	128.33868	C	5.0	0.086	0.008	0	days	GHz	milliJy	observer	NaN
+VLA	128.33868	C	7.1	0.091	0.007	0	days	GHz	milliJy	observer	NaN

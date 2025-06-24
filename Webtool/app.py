@@ -526,28 +526,6 @@ def plot_radio(event):
     ]
     fillstyles = ["none", "full"]
 
-    # Make sure all fluxes are in mircoJy
-    radio["flux_density"] = np.where(
-        radio["flux_density_unit"] == "milliJy",
-        radio["flux_density"] * 1000,
-        radio["flux_density"],
-    )
-    radio["dflux_density"] = np.where(
-        radio["flux_density_unit"] == "milliJy",
-        radio["dflux_density"] * 1000,
-        radio["dflux_density"],
-    )
-    radio["flux_density"] = np.where(
-        radio["flux_density_unit"] == "Jy",
-        radio["flux_density"] * 1000000,
-        radio["flux_density"],
-    )
-    radio["dflux_density"] = np.where(
-        radio["flux_density_unit"] == "Jy",
-        radio["dflux_density"] * 1000000,
-        radio["dflux_density"],
-    )
-
     for j, freq in enumerate(freqs):
         # Use pandas to select the points that correspond to the desired frequency range.
 
@@ -1835,17 +1813,6 @@ def event(event_id):
             radio_df["dflux_density"] = radio_df["dflux_density"].astype(float)
         else:
             radio_df["dflux_density"] = np.ones(len(radio_df["flux_density"])) * np.nan
-
-        for i in range(len(radio_df["flux_density_unit"])):
-            # Convert microJy to millyJy by dividing by 1000
-            if radio_df["flux_density_unit"][i] == "microJy":
-                radio_df["flux_density"][i] = radio_df["flux_density"][i] / 1000
-                radio_df["dflux_density"][i] = radio_df["dflux_density"][i] / 1000
-
-            # Convert Jy to millyJy by multiplying by 1000
-            if radio_df["flux_density_unit"][i] == "Jy":
-                radio_df["flux_density"][i] = radio_df["flux_density"][i] * 1000
-                radio_df["dflux_density"][i] = radio_df["dflux_density"][i] * 1000
 
         # Errors on flux densities
         radio_error_df = radio_df[
