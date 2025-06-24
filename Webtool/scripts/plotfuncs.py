@@ -1664,6 +1664,13 @@ if __name__ == "__main__":
                                 data["dflux_density"] / 1000,
                                 data["dflux_density"],
                             )
+
+                        data["flux_density_unit"] = np.where(
+                            data["flux_density_unit"] == "microJy",
+                            "milliJy",
+                            data["flux_density_unit"],
+                        )
+
                         data["flux_density"] = np.where(
                             data["flux_density_unit"] == "Jy",
                             data["flux_density"] * 1000,
@@ -1676,8 +1683,10 @@ if __name__ == "__main__":
                                 data["dflux_density"],
                             )
 
-                        data["flux_density_unit"] = ["milliJy"] * len(
-                            data["flux_density_unit"]
+                        data["flux_density_unit"] = np.where(
+                            data["flux_density_unit"] == "Jy",
+                            "milliJy",
+                            data["flux_density_unit"],
                         )
 
                     # Calculate the elapsed time
