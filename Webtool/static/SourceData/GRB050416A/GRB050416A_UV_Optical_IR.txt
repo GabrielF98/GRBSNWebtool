@@ -53,14 +53,14 @@ time	integration	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit	dtime
 51023	36 \times 78	K_{s}	19.07	0	0.17	NOTCam	seconds	unspecified	NaN
 52031	271	V	20.35	1	NaN	UVOT	seconds	unspecified	NaN
 54363	132	UVW1	20.78	1	NaN	UVOT	seconds	unspecified	NaN
-57086	6 \times 900	R_{C}	22.29	0	0.08	DFOSC	seconds	unspecified	NaN
+57086	6 \times 900	R_{c}	22.29	0	0.08	DFOSC	seconds	unspecified	NaN
 57990	773	UVW1	21.7	1	NaN	UVOT	seconds	unspecified	NaN
 59659	900	U	21.57	1	NaN	UVOT	seconds	unspecified	NaN
 60166	99	B	20.72	1	NaN	UVOT	seconds	unspecified	NaN
 60415	2 \times 1200	V	23.13	0	0.17	DFOSC	seconds	unspecified	NaN
 63859	900	B	21.86	1	NaN	UVOT	seconds	unspecified	NaN
 67559	9202	UVM2	23.38	0	0.42	UVOT	seconds	unspecified	NaN
-68693	3 \times 600	I_{C}	21.02	0	0.17	DFOSC	seconds	unspecified	NaN
+68693	3 \times 600	I_{c}	21.02	0	0.17	DFOSC	seconds	unspecified	NaN
 70541	900	UVW1	21.98	1	NaN	UVOT	seconds	unspecified	NaN
 70549	1500	B	23.11	0	0.25	DFOSC	seconds	unspecified	NaN
 71393	791	U	21.55	1	NaN	UVOT	seconds	unspecified	NaN
@@ -86,12 +86,12 @@ time	integration	band	mag	mag_limit	dmag	instrument	time_unit	mag_unit	dtime
 138805	401	UVW1	21.45	1	NaN	UVOT	seconds	unspecified	NaN
 140587	900	U	21.6	1	NaN	UVOT	seconds	unspecified	NaN
 141137	184	B	20.91	1	NaN	UVOT	seconds	unspecified	NaN
-142008	25 \times 400	R_{C}	22.84	0	0.11	DFOSC	seconds	unspecified	NaN
+142008	25 \times 400	R_{c}	22.84	0	0.11	DFOSC	seconds	unspecified	NaN
 144815	900	B	22.19	0	0.47	UVOT	seconds	unspecified	NaN
 146738	553	V	20.55	1	NaN	UVOT	seconds	unspecified	NaN
-231672	53 \times 300	I_{C}	23.1	1	NaN	DFOSC	seconds	unspecified	NaN
-313726	29 \times 300	I_{C}	22.74	0	0.19	DFOSC	seconds	unspecified	NaN
-406438	21 \times 200	I_{C}	23.03	0	0.23	DFOSC	seconds	unspecified	NaN
+231672	53 \times 300	I_{c}	23.1	1	NaN	DFOSC	seconds	unspecified	NaN
+313726	29 \times 300	I_{c}	22.74	0	0.19	DFOSC	seconds	unspecified	NaN
+406438	21 \times 200	I_{c}	23.03	0	0.23	DFOSC	seconds	unspecified	NaN
 868505	20,957	V	22.56	1	NaN	UVOT	seconds	unspecified	NaN
 1039340	8274	V	22.06	1	NaN	UVOT	seconds	unspecified	NaN
 1384870	6755	V	21.91	1	NaN	UVOT	seconds	unspecified	NaN

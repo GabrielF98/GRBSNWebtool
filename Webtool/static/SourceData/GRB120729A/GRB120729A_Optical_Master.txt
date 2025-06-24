@@ -187,4 +187,4 @@ time	integration	mag	mag_limit	dmag	band	instrument	integration_unit	time_unit	t
 0.08650	NaN	18.79	0	0.07	R	FTN	NaN	days	observer	Vega	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
 0.59830	NaN	22.5	0	0.46	R	LT	NaN	days	observer	Vega	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
 0.63010	NaN	23.23	0	0.18	R	TNG	NaN	days	observer	Vega	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
-0.70690	NaN	21.3	1	NaN	Ic	IAC8	NaN	days	observer	Vega	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract
+0.70690	NaN	21.3	1	NaN	I_{c}	IAC8	NaN	days	observer	Vega	apparent	False	NaN	https://ui.adsabs.harvard.edu/abs/2014A%26A...568A..19C/abstract

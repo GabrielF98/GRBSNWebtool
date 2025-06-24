@@ -63,14 +63,14 @@ NaN	0.56083	373	V	20.44	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.ha
 NaN	0.59054	36 \times 78	K_{s}	19.07	0	0.17	NaN	days	unspecified	NaN	NOTCam	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.60221	271	V	20.35	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.62920	132	UVW1	20.78	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
-NaN	0.66072	6 \times 900	R_{C}	22.29	0	0.08	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
+NaN	0.66072	6 \times 900	R_{c}	22.29	0	0.08	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.67118	773	UVW1	21.7	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.69050	900	U	21.57	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.69637	99	B	20.72	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.69925	2 \times 1200	V	23.13	0	0.17	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.73911	900	B	21.86	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.78193	9202	UVM2	23.38	0	0.42	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
-NaN	0.79506	3 \times 600	I_{C}	21.02	0	0.17	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
+NaN	0.79506	3 \times 600	I_{c}	21.02	0	0.17	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.81645	900	UVW1	21.98	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.81654	1500	B	23.11	0	0.25	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	0.82631	791	U	21.55	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
@@ -96,12 +96,12 @@ NaN	1.56535	390	UVW1	21.34	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs
 NaN	1.60654	401	UVW1	21.45	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	1.62716	900	U	21.6	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	1.63353	184	B	20.91	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
-NaN	1.64361	25 \times 400	R_{C}	22.84	0	0.11	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
+NaN	1.64361	25 \times 400	R_{c}	22.84	0	0.11	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	1.67610	900	B	22.19	0	0.47	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	1.69836	553	V	20.55	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
-NaN	2.68139	53 \times 300	I_{C}	23.1	1	NaN	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
-NaN	3.63109	29 \times 300	I_{C}	22.74	0	0.19	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
-NaN	4.70414	21 \times 200	I_{C}	23.03	0	0.23	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
+NaN	2.68139	53 \times 300	I_{c}	23.1	1	NaN	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
+NaN	3.63109	29 \times 300	I_{c}	22.74	0	0.19	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
+NaN	4.70414	21 \times 200	I_{c}	23.03	0	0.23	NaN	days	unspecified	NaN	DFOSC	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	10.05214	20,957	V	22.56	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	12.02940	8274	V	22.06	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
 NaN	16.02859	6755	V	21.91	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsabs.harvard.edu/abs/2007AJ....133..122H/abstract
@@ -128,7 +128,7 @@ NaN	74.01214	10,004	V	21.95	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsab
 2005-Apr-16.4692	0.00760	NaN	K_{s}	16.37	0	0.21	yyyy-month-deciday	days	Vega	NaN	Palomar 200 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
 2005-Apr-16.4714	0.00980	NaN	I	19.01	0	0.12	yyyy-month-deciday	days	Vega	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
 2005-Apr-16.4731	0.01160	NaN	I	19.53	0	0.18	yyyy-month-deciday	days	Vega	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
-2005-Apr-16.4772	0.01560	NaN	z\arcmin	19.16	0	0.27	yyyy-month-deciday	days	AB	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
+2005-Apr-16.4772	0.01560	NaN	z'	19.16	0	0.27	yyyy-month-deciday	days	AB	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
 2005-Apr-16.4763	0.01470	NaN	K_{s}	16.64	0	0.2	yyyy-month-deciday	days	Vega	NaN	Palomar 200 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
 2005-Apr-16.4833	0.02170	NaN	I	19.09	0	0.2	yyyy-month-deciday	days	Vega	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
 2005-Apr-16.4828	0.02120	NaN	K_{s}	16.79	0	0.2	yyyy-month-deciday	days	Vega	NaN	Palomar 200 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
@@ -153,7 +153,7 @@ NaN	74.01214	10,004	V	21.95	1	NaN	NaN	days	unspecified	NaN	UVOT	https://ui.adsab
 2005-Apr-16.6092	0.14760	NaN	R	21.71	0	0.3	yyyy-month-deciday	days	Vega	NaN	ANU 2.3 m	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
 2005-Apr-16.6187	0.15710	NaN	R	21.87	0	0.46	yyyy-month-deciday	days	Vega	NaN	ANU 2.3 m	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
 2005-Apr-17.3895	0.92790	NaN	R	22.62	0	0.3	yyyy-month-deciday	days	Vega	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
-2005-Apr-17.4006	0.93900	NaN	z\arcmin	20.38	1	NaN	yyyy-month-deciday	days	AB	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
+2005-Apr-17.4006	0.93900	NaN	z'	20.38	1	NaN	yyyy-month-deciday	days	AB	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
 2005-Apr-17.4087	0.94670	NaN	I	22.05	0	0.3	yyyy-month-deciday	days	Vega	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
 2005-Apr-18.2884	1.82640	NaN	R	23.46	1	NaN	yyyy-month-deciday	days	Vega	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract
 2005-Apr-18.4031	1.94110	NaN	I	22.83	1	NaN	yyyy-month-deciday	days	Vega	NaN	Palomar 60 inch	https://ui.adsabs.harvard.edu/abs/2007ApJ...661..982S/abstract

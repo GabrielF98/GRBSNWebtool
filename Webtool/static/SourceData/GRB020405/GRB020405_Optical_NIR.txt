@@ -15,7 +15,7 @@ date	instrument	band	integration	seeing	mag	mag_limit	dmag	date_unit	mag_unit	ti
 2002-Apr-6.220	NTT SofI	H	300	1.0	18.07	0	0.07	yyyy-month-deciday	Vega	1.19121875	days	NaN
 2002-Apr-6.224	NTT SofI	J	300	1.0	18.69	0	0.06	yyyy-month-deciday	Vega	1.1952233796296297	days	NaN
 2002-Apr-6.230	1.54D DFOSC	B	600	1.4	21.31	0	0.03	yyyy-month-deciday	Vega	1.201230324074074	days	NaN
-2002-Apr-6.230	NTT SofI	K_{\rm s}	600	0.9	17.34	0	0.06	yyyy-month-deciday	Vega	1.201230324074074	days	NaN
+2002-Apr-6.230	NTT SofI	K_{s}	600	0.9	17.34	0	0.06	yyyy-month-deciday	Vega	1.201230324074074	days	NaN
 2002-Apr-6.234	Melipal FORS1	R	20	0.8	20.53	0	0.02	yyyy-month-deciday	Vega	1.2052233796296297	days	NaN
 2002-Apr-6.246	1.54D DFOSC	Gunn i	600	1.1	19.88	0	0.02	yyyy-month-deciday	Vega	1.2172256944444444	days	NaN
 2002-Apr-6.797	1m SO CCD	I	5\times 600	2.5	20.0	1	NaN	yyyy-month-deciday	Vega	1.768221064814815	days	NaN
@@ -26,7 +26,7 @@ date	instrument	band	integration	seeing	mag	mag_limit	dmag	date_unit	mag_unit	ti
 2002-Apr-7.270	NTT SofI	H	600	0.8	18.9	0	0.07	yyyy-month-deciday	Vega	2.24121875	days	NaN
 2002-Apr-7.278	NTT SofI	J	600	0.8	19.55	0	0.06	yyyy-month-deciday	Vega	2.249228009259259	days	NaN
 2002-Apr-7.281	Melipal FORS1	V	2\times30	0.7	21.95	0	0.04	yyyy-month-deciday	Vega	2.2522256944444443	days	NaN
-2002-Apr-7.294	NTT SofI	K_{\rm s}	1800	0.7	18.18	0	0.06	yyyy-month-deciday	Vega	2.2652233796296297	days	NaN
+2002-Apr-7.294	NTT SofI	K_{s}	1800	0.7	18.18	0	0.06	yyyy-month-deciday	Vega	2.2652233796296297	days	NaN
 2002-Apr-7.381	1.54D DFOSC	R	600	1.2	21.32	0	0.06	yyyy-month-deciday	Vega	2.3522256944444444	days	NaN
 2002-Apr-8.280	NTT SUSI2	V	10\times60	0.8	22.49	0	0.02	yyyy-month-deciday	Vega	3.25121875	days	NaN
 2002-Apr-8.294	NTT SUSI2	R	10\times60	0.8	22.09	0	0.03	yyyy-month-deciday	Vega	3.2652233796296297	days	NaN
@@ -39,5 +39,5 @@ date	instrument	band	integration	seeing	mag	mag_limit	dmag	date_unit	mag_unit	ti
 2002-Apr-15.238	Melipal FORS1	V	2\times180	0.7	23.99	0	0.07	yyyy-month-deciday	Vega	10.20922800925926	days	NaN
 2002-Apr-15.244	Melipal FORS1	R	2\times180	0.6	23.36	0	0.04	yyyy-month-deciday	Vega	10.215223379629627	days	NaN
 2002-Apr-15.250	Melipal FORS1	I	2\times180	0.6	22.53	0	0.06	yyyy-month-deciday	Vega	10.221230324074076	days	NaN
-2002-Apr-27.193	Antu ISAAC	J_{\rm s}	3600	0.5	22.4	0	0.1	yyyy-month-deciday	Vega	22.16422800925925	days	NaN
-2002-May-8.193	Antu ISAAC	J_{\rm s}	3600	0.6	22.7	1	NaN	yyyy-month-deciday	Vega	33.16422800925926	days	NaN
+2002-Apr-27.193	Antu ISAAC	J_{s}	3600	0.5	22.4	0	0.1	yyyy-month-deciday	Vega	22.16422800925925	days	NaN
+2002-May-8.193	Antu ISAAC	J_{s}	3600	0.6	22.7	1	NaN	yyyy-month-deciday	Vega	33.16422800925926	days	NaN
