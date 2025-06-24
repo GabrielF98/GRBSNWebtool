@@ -175,12 +175,8 @@ for i in subfolders:
             # opens optical master
             filepath = os.path.join(folderpath, file)
             dd = pd.read_csv(filepath, delimiter="\t")
-            ## checking the bands named correctly
-            # print(file)
-            # band_list =  list( dict.fromkeys(dd['band']))
 
             # replace the old bands with the new
-            newfilter = standard_filters(dd)
-            dd["filter"] = newfilter
+            dd["band"] = standard_filters(dd)
 
             dd.to_csv(filepath, sep="\t", index=False, na_rep="NaN")
