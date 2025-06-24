@@ -173,42 +173,42 @@ NaN	0.01319	16.35	0	0.08	100.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https
 NaN	0.20802	18.99	0	0.13	882.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	1.7	0.2	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
 NaN	0.40285	20.05	0	0.25	900.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	0.6	0.1	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
 NaN	0.60373	21.76	1	NaN	1800.0	UVW2 (198 nm) Filter	UVOT	NaN	days	Vega	NaN	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	<0.3	NaN	seconds	10-16 ergs cm-2 s-1 Å-1	NaN	NaN	NaN
-NaN	0.00424	14.54	0	0.11	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00449	14.31	0	0.09	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00475	14.54	0	0.11	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00509	14.66	0	0.12	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00551	14.65	0	0.12	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00593	14.79	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00693	14.95	0	0.14	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00718	15.08	0	0.15	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00743	15.44	0	0.18	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00776	15.36	0	0.17	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00819	15.16	0	0.15	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00861	15.25	0	0.16	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.00928	15.29	0	0.16	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01005	15.29	0	0.16	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01083	15.39	0	0.25	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01160	16.12	0	0.23	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01237	15.8	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01315	15.81	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01315	15.81	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01406	15.97	0	0.22	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01483	15.94	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01559	16.25	0	0.31	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01636	15.78	0	0.2	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01790	16.19	0	0.23	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.01883	15.92	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.02038	16.48	0	0.25	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.02115	16.39	0	0.26	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.02192	16.64	0	0.27	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.02394	15.97	0	0.22	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.02540	15.79	0	0.26	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.02687	16.24	0	0.35	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.02975	15.88	0	0.21	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.03635	16.43	0	0.25	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.04533	16.53	0	0.26	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.05430	17.11	0	0.3	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	0.07522	17.36	0	0.32	NaN	R	NaN	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
-NaN	1.18262	21.35	0	0.27	2378	NaN	UVOT	NaN	days	Vega	9011.0	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	NaN	NaN	seconds	NaN	0.103	0.025	10-16 ergs cm-2 s-1 Å-1
-NaN	2.91314	22.82	0	0.43	11750	NaN	UVOT	NaN	days	Vega	77836.5	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	NaN	NaN	seconds	NaN	0.027	0.01	10-16 ergs cm-2 s-1 Å-1
-NaN	16.94803	24.11	1	NaN	146267	NaN	UVOT	NaN	days	Vega	1134778.0	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	NaN	NaN	seconds	NaN	<0.008	NaN	10-16 ergs cm-2 s-1 Å-1
+NaN	0.00424	14.54	0	0.11	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00449	14.31	0	0.09	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00475	14.54	0	0.11	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00509	14.66	0	0.12	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00551	14.65	0	0.12	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00593	14.79	0	0.21	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00693	14.95	0	0.14	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00718	15.08	0	0.15	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00743	15.44	0	0.18	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00776	15.36	0	0.17	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00819	15.16	0	0.15	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00861	15.25	0	0.16	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.00928	15.29	0	0.16	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01005	15.29	0	0.16	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01083	15.39	0	0.25	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01160	16.12	0	0.23	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01237	15.8	0	0.2	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01315	15.81	0	0.2	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01315	15.81	0	0.2	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01406	15.97	0	0.22	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01483	15.94	0	0.21	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01559	16.25	0	0.31	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01636	15.78	0	0.2	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01790	16.19	0	0.23	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.01883	15.92	0	0.21	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.02038	16.48	0	0.25	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.02115	16.39	0	0.26	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.02192	16.64	0	0.27	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.02394	15.97	0	0.22	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.02540	15.79	0	0.26	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.02687	16.24	0	0.35	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.02975	15.88	0	0.21	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.03635	16.43	0	0.25	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.04533	16.53	0	0.26	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.05430	17.11	0	0.3	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	0.07522	17.36	0	0.32	NaN	R	TAROT	NaN	days	unspecified	NaN	https://ui.adsabs.harvard.edu/abs/2005A%26A...439L..35K/abstract	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+NaN	1.18262	21.35	0	0.27	2378	UWh	UVOT	NaN	days	Vega	9011.0	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	NaN	NaN	seconds	NaN	0.103	0.025	10-16 ergs cm-2 s-1 Å-1
+NaN	2.91314	22.82	0	0.43	11750	UWh	UVOT	NaN	days	Vega	77836.5	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	NaN	NaN	seconds	NaN	0.027	0.01	10-16 ergs cm-2 s-1 Å-1
+NaN	16.94803	24.11	1	NaN	146267	UWh	UVOT	NaN	days	Vega	1134778.0	https://ui.adsabs.harvard.edu/abs/2006ApJ...637..901B/abstract	NaN	NaN	seconds	NaN	<0.008	NaN	10-16 ergs cm-2 s-1 Å-1
