@@ -123,17 +123,16 @@ def standard_filters(data):
             bands[i] == "Ks"
             or bands[i] == "K_{\\rm s}"
             or bands[i] == "$K_{\\rm s}$"
-            or bands[i] == "K_{special}"
             or bands[i] == "K_{s]}"
             or bands[i] == "ks"
             or bands[i] == "k_{s}"
         ):
             newbands.append("K_{s}")
             continue
-        elif bands[i] == "Js" or bands[i] == "J_{\\rm s}" or bands[i] == "J_{special}":
+        elif bands[i] == "Js" or bands[i] == "J_{\\rm s}":
             newbands.append("J_{s}")
             continue
-        elif bands[i] == "Rs" or bands[i] == "R_{\\rm s}" or bands[i] == "R_{special}":
+        elif bands[i] == "Rs" or bands[i] == "R_{\\rm s}":
             newbands.append("R_{s}")
             continue
         elif (
