@@ -658,5 +658,9 @@
     "https://www.wis-tns.org/object/2020bvc": {
         "names": "Transient Name Server",
         "year": ""
+    },
+    "https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract": {
+        "names": "Galama et al.",
+        "year": "1997"
     }
 }
