@@ -1,13 +1,13 @@
-date	band	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	dtime
-2002-Apr-24.272	F555W	25.05	0	0.04	yyyy-month-deciday	Vega	19.24322106481481	days	NaN
-2002-May-5.631	F555W	25.83	0	0.05	yyyy-month-deciday	Vega	30.60222569444445	days	NaN
-2002-Jun-2.711	F555W	27.25	0	0.15	yyyy-month-deciday	Vega	58.68222569444445	days	NaN
-2002-Aug-23.246	F555W	27.5	1	NaN	yyyy-month-deciday	Vega	140.21722569444444	days	NaN
-2002-Apr-28.452	F702W	23.99	0	0.02	yyyy-month-deciday	Vega	23.42322106481481	days	NaN
-2002-May-1.620	F702W	24.31	0	0.02	yyyy-month-deciday	Vega	26.591230324074075	days	NaN
-2002-May-3.625	F702W	24.38	0	0.02	yyyy-month-deciday	Vega	28.596230324074075	days	NaN
-2002-Jun-1.614	F702W	25.91	0	0.12	yyyy-month-deciday	Vega	57.58522337962963	days	NaN
-2002-Aug-23.451	F702W	26.7	1	NaN	yyyy-month-deciday	Vega	140.42222569444445	days	NaN
-2002-Apr-26.275	F814W	23.13	0	0.01	yyyy-month-deciday	Vega	21.24621875	days	NaN
-2002-May-1.486	F814W	23.45	0	0.02	yyyy-month-deciday	Vega	26.45722569444445	days	NaN
-2002-Jun-9.560	F814W	25.42	0	0.15	yyyy-month-deciday	Vega	65.53123032407407	days	NaN
+date	band	mag	mag_limit	dmag	date_unit	mag_unit	time	time_unit	dtime	instrument
+2002-Apr-24.272	F555W	25.05	0	0.04	yyyy-month-deciday	Vega	19.24322106481481	days	NaN	HST-WFPC2
+2002-May-5.631	F555W	25.83	0	0.05	yyyy-month-deciday	Vega	30.60222569444445	days	NaN	HST-WFPC2
+2002-Jun-2.711	F555W	27.25	0	0.15	yyyy-month-deciday	Vega	58.68222569444445	days	NaN	HST-WFPC2
+2002-Aug-23.246	F555W	27.5	1	NaN	yyyy-month-deciday	Vega	140.21722569444444	days	NaN	HST-WFPC2
+2002-Apr-28.452	F702W	23.99	0	0.02	yyyy-month-deciday	Vega	23.42322106481481	days	NaN	HST-WFPC2
+2002-May-1.620	F702W	24.31	0	0.02	yyyy-month-deciday	Vega	26.591230324074075	days	NaN	HST-WFPC2
+2002-May-3.625	F702W	24.38	0	0.02	yyyy-month-deciday	Vega	28.596230324074075	days	NaN	HST-WFPC2
+2002-Jun-1.614	F702W	25.91	0	0.12	yyyy-month-deciday	Vega	57.58522337962963	days	NaN	HST-WFPC2
+2002-Aug-23.451	F702W	26.7	1	NaN	yyyy-month-deciday	Vega	140.42222569444445	days	NaN	HST-WFPC2
+2002-Apr-26.275	F814W	23.13	0	0.01	yyyy-month-deciday	Vega	21.24621875	days	NaN	HST-WFPC2
+2002-May-1.486	F814W	23.45	0	0.02	yyyy-month-deciday	Vega	26.45722569444445	days	NaN	HST-WFPC2
+2002-Jun-9.560	F814W	25.42	0	0.15	yyyy-month-deciday	Vega	65.53123032407407	days	NaN	HST-WFPC2
