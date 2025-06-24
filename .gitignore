@@ -10,3 +10,5 @@ Paper/
 
 *.ipynb
 Webtool/tests/broken_link_report.html
+webtool.sublime-project
+webtool.sublime-workspace
