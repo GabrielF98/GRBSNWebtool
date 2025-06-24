@@ -1678,7 +1678,7 @@ if __name__ == "__main__":
                         )
 
                         data["flux_density"] = data["flux_density"].map(
-                            lambda x: f"{x:.2f}"
+                            lambda x: f"{x:.3f}"
                         )
 
                         if "dflux_density" in list(data.keys()):
