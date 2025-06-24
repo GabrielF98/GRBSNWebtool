@@ -1,8 +1,8 @@
 date	time	instrument	energy_range	flux	flux_limit	dflux	dflux2	date_unit	time_unit	N_H	dtime	time_frame	flux_unit	reference
-2459088.386616	60480.00000	Swift XRT	0.3–10keV	8.170000e-13	0	2e-13	NaN	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
-2459088.44194	64800.00000	Swift XRT	0.3–10keV	7.220000e-13	0	1.85e-13	1.85e-13	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
-2459088.522328	71712.00000	Swift XRT	0.3–10keV	6.280000e-13	0	1.55e-13	1.55e-13	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
-2459089.43786	151200.00000	Swift XRT	0.3–10keV	2.130000e-13	0	4.57e-14	4.57e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
-2459090.285972	224640.00000	Swift XRT	0.3–10keV	2.020000e-13	0	4.61e-14	4.61e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
-2459094.09085	552960.00000	Swift XRT	0.3–10keV	1.260000e-13	0	2.91e-14	2.91e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
-2459104.352156	1439424.00000	Swift XRT	0.3–10keV	4.620000e-14	0	3.7e-14	2.53e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459088.386616	60480.0	Swift XRT	0.3–10keV	8.170000e-13	0	2e-13	NaN	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459088.44194	64800.0	Swift XRT	0.3–10keV	7.220000e-13	0	1.85e-13	1.85e-13	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459088.522328	71712.0	Swift XRT	0.3–10keV	6.280000e-13	0	1.55e-13	1.55e-13	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459089.43786	151200.0	Swift XRT	0.3–10keV	2.130000e-13	0	4.57e-14	4.57e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459090.285972	224640.0	Swift XRT	0.3–10keV	2.020000e-13	0	4.61e-14	4.61e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459094.09085	552960.0	Swift XRT	0.3–10keV	1.260000e-13	0	2.91e-14	2.91e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract
+2459104.352156	1439424.0	Swift XRT	0.3–10keV	4.620000e-14	0	3.7e-14	2.53e-14	MJD	seconds	6.02e+20	NaN	observer	erg/cm^2/sec	https://ui.adsabs.harvard.edu/abs/2021NatAs...5..917A/abstract

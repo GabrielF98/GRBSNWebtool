@@ -47,7 +47,7 @@ date	instrument	band	mag	mag_limit	dmag	date_unit	mag_type	mag_unit	time_frame	e
 1997-Feb-28.81	RAO0.6m	R	20.5	0	0.5	yyyy-month-deciday	apparent	AB	observer	True	0.68637	days	NaN	https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract	NaN
 1997-Feb-28.83	BUT1.5m	R	21.6	0	0.3	yyyy-month-deciday	apparent	AB	observer	True	0.70637	days	NaN	https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract	NaN
 1997-Mar-6.32	KeckII10m	R	24.0	0	NaN	yyyy-month-deciday	apparent	AB	observer	True	6.19638	days	NaN	https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract	NaN
-1997-Mar-9.90	INT2.5m	R	24.0	0	0.2	yyyy-month-deciday	apparent	AB	observer	True	9.77640	days	NaN	https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract	NaN
+1997-Mar-9.90	INT2.5m	R	24.0	0	0.2	yyyy-month-deciday	apparent	AB	observer	True	9.7764	days	NaN	https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract	NaN
 1997-Mar-13.00	NTT3.5m	R	24.3	0	0.2	yyyy-month-deciday	apparent	AB	observer	True	12.87638	days	NaN	https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract	NaN
 1997-Apr-5.24-6.27	KeckII10m	R	24.9	0	0.3	yyyy-month-deciday-deciday	apparent	AB	observer	True	36.63137	days	0.514994212962963	https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract	NaN
 1997-Mar-1.00	WHT4.2m	I	20.6	0	0.1	yyyy-month-deciday	apparent	AB	observer	True	0.87638	days	NaN	https://ui.adsabs.harvard.edu/abs/1999ApJ...521L.111R/abstract	NaN
@@ -74,7 +74,7 @@ date	instrument	band	mag	mag_limit	dmag	date_unit	mag_type	mag_unit	time_frame	e
 1997-Mar-4.86	NOT	R_{c}	23.4	1	NaN	yyyy-month-deciday	apparent	unspecified	observer	False	4.73638	days	NaN	https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract	NaN
 1997-Mar-6.32	Keck	R_{c}	24.1	0	0.5	yyyy-month-deciday	apparent	unspecified	observer	False	6.19638	days	NaN	https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract	0.4
 1997-Mar-8.88	INT+WHT	R_{c}	22.7	1	NaN	yyyy-month-deciday	apparent	unspecified	observer	False	8.75638	days	NaN	https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract	NaN
-1997-Mar-9.9	INT	R_{c}	24.6	0	0.7	yyyy-month-deciday	apparent	unspecified	observer	False	9.77640	days	NaN	https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract	0.4
+1997-Mar-9.9	INT	R_{c}	24.6	0	0.7	yyyy-month-deciday	apparent	unspecified	observer	False	9.7764	days	NaN	https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract	0.4
 1997-Mar-13.00	NTT	R_{c}	25.1	0	1.3	yyyy-month-deciday	apparent	unspecified	observer	False	12.87638	days	NaN	https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract	0.6
 1997-Mar-26.2	HST	R_{c}	25.17	0	0.13	yyyy-month-deciday	apparent	unspecified	observer	False	26.07637	days	NaN	https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract	0.13
 1997-Mar-7.23	HST	R_{c}	25.5	0	0.13	yyyy-month-deciday	apparent	unspecified	observer	False	7.10638	days	NaN	https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract	0.13
