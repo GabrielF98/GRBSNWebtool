@@ -16,7 +16,7 @@ from astropy.time import Time  # Converting MJD to UTC
 from bokeh.embed import components
 
 # Pieces for Bokeh
-from bokeh.models import ColumnDataSource, HoverTool, Label, Legend, Range1d
+from bokeh.models import ColumnDataSource, HoverTool, Label, Legend, Range1d, Whisker
 from bokeh.palettes import Category20_20, d3, viridis
 from bokeh.plotting import figure
 from bokeh.transform import factor_mark
@@ -1183,14 +1183,22 @@ def event(event_id):
 
         # Create the error columns that bokeh wants
         # Errors on fluxes
-        xray_error_df = xray_df[["time", "flux", "dflux", "energy_range"]].copy()
-        xray_error_df = xray_error_df[~xray_error_df["dflux"].isnull()]
+        xray_df["higher"] = xray_df["flux"] + xray_df["dflux"].abs()
+        xray_df["lower"] = xray_df["flux"] - xray_df["dflux"].abs()
+
+        if "dflux2" in xray_df.keys():
+            print(event_id)
+            xray_df["lower"] = xray_df["flux"] - xray_df["dflux2"].abs()
+
+        xray_error_df = xray_df[
+            ["time", "flux", "dflux", "higher", "lower", "energy_range"]
+        ].copy()
+        xray_error_df = xray_error_df[~xray_error_df["higher"].isnull()]
+        xray_error_df = xray_error_df[~xray_error_df["lower"].isnull()]
         xray_error_df["dfluxes"] = list(
             zip(
-                xray_error_df["flux"].astype(float)
-                - xray_error_df["dflux"].astype(float),
-                xray_error_df["flux"].astype(float)
-                + xray_error_df["dflux"].astype(float),
+                xray_error_df["higher"],
+                xray_error_df["lower"],
             )
         )
         xray_error_df["dflux_locs"] = list(
@@ -1562,15 +1570,25 @@ def event(event_id):
         colors = d3["Category20"][20]
 
         # Create the error columns that bokeh wants
-        # Errors on flux densities
-        optical_error_df = optical_df[["time", "mag", "dmag", "band"]].copy()
-        optical_error_df = optical_error_df[~optical_error_df["dmag"].isnull()]
+        # Errors on magnitudes
+        # Optical is a bit different, we are treating the "higher" error as the one that makes the value larger, and the "lower" error as one that makes the number smaller. Not however that in optical this means a dimmer and a brighter source respectively.
+        optical_df["higher"] = optical_df["mag"] + optical_df["dmag"].abs()
+        optical_df["lower"] = optical_df["mag"] - optical_df["dmag"].abs()
+        if "dmag2" in optical_df.keys():
+            optical_df["lower"] = (
+                optical_df["mag"] - optical_df["dmag2"].abs()
+            )  # Abs value ensures that we don't have issues if things were saved with an explicit minus sign.
+
+        optical_error_df = optical_df[
+            ["time", "mag", "dmag", "higher", "lower", "band"]
+        ].copy()
+
+        optical_error_df = optical_error_df[~optical_error_df["lower"].isnull()]
+        optical_error_df = optical_error_df[~optical_error_df["higher"].isnull()]
         optical_error_df["dmags"] = list(
             zip(
-                optical_error_df["mag"].astype(float)
-                - optical_error_df["dmag"].astype(float),
-                optical_error_df["mag"].astype(float)
-                + optical_error_df["dmag"].astype(float),
+                optical_error_df["lower"].astype(float),
+                optical_error_df["higher"].astype(float),
             )
         )
         optical_error_df["dmag_locs"] = list(
@@ -1815,14 +1833,30 @@ def event(event_id):
             radio_df["dflux_density"] = np.ones(len(radio_df["flux_density"])) * np.nan
 
         # Errors on flux densities
+        radio_df["higher"] = radio_df["flux_density"] + radio_df["dflux_density"].abs()
+        radio_df["lower"] = radio_df["flux_density"] - radio_df["dflux_density"].abs()
+        if "dflux_density2" in radio_df.keys():
+            radio_df["lower"] = (
+                radio_df["flux_density"] - radio_df["dflux_density2"].abs()
+            )
+
         radio_error_df = radio_df[
-            ["time", "flux_density", "dflux_density", "freq_str", "unit_col"]
+            [
+                "time",
+                "flux_density",
+                "dflux_density",
+                "higher",
+                "lower",
+                "freq_str",
+                "unit_col",
+            ]
         ].copy()
-        radio_error_df = radio_error_df[~radio_error_df["dflux_density"].isnull()]
+        radio_error_df = radio_error_df[~radio_error_df["higher"].isnull()]
+        radio_error_df = radio_error_df[~radio_error_df["lower"].isnull()]
         radio_error_df["dfds"] = list(
             zip(
-                radio_error_df["flux_density"] - radio_error_df["dflux_density"],
-                radio_error_df["flux_density"] + radio_error_df["dflux_density"],
+                radio_error_df["higher"],
+                radio_error_df["lower"],
             )
         )
         radio_error_df["dfd_locs"] = list(
