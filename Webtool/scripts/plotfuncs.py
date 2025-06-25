@@ -1557,6 +1557,12 @@ def masterfileformat(event, readme_dict):
         # Time to seconds precision.
         radio["time"] = radio["time"].map(lambda x: round(x, 5))
 
+        # Ensure that we have consistent uncertainties in both columns
+        if "dflux_density2" in radio.keys():
+            radio["dflux_density2"] = radio["dflux_density2"].fillna(
+                radio["dflux_density"]
+            )
+
         radio.to_csv(event + "_Radio_Master.txt", sep="\t", index=False, na_rep="NaN")
 
     if len(optical_pandas) != 0:
@@ -1564,6 +1570,10 @@ def masterfileformat(event, readme_dict):
 
         # Time to seconds precision.
         optical["time"] = optical["time"].map(lambda x: round(x, 5))
+
+        # Ensure that we have consistent uncertainties in both columns
+        if "dmag2" in optical.keys():
+            optical["dmag2"] = optical["dmag2"].fillna(optical["dmag"])
 
         optical.to_csv(
             event + "_Optical_Master.txt", sep="\t", index=False, na_rep="NaN"
@@ -1577,6 +1587,10 @@ def masterfileformat(event, readme_dict):
 
         # Time to seconds precision.
         xray["time"] = xray["time"].map(lambda x: round(x, 5))
+
+        # Ensure that we have consistent uncertainties in both columns
+        if "dflux2" in xray.keys():
+            xray["dflux2"] = xray["dflux2"].fillna(xray["dflux"])
 
         xray.to_csv(event + "_Xray_Master.txt", sep="\t", index=False, na_rep="NaN")
 
