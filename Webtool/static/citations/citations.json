@@ -196,5 +196,9 @@
     "https://gcn.gsfc.nasa.gov/other/211023A.gcn3": "https://gcn.gsfc.nasa.gov/other/211023A.gcn3",
     "https://swift.gsfc.nasa.gov/archive/grb_table/220219B": "https://swift.gsfc.nasa.gov/archive/grb_table/220219B",
     "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3": "https://gcn.gsfc.nasa.gov/gcn3/32632.gcn3",
+    "https://ui.adsabs.harvard.edu/abs/2014MNRAS.443...67M": {
+        "names": "Mazzali et al.",
+        "year": "2014"
+    },
     "null": null
 }
