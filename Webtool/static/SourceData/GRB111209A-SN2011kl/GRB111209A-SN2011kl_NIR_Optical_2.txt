@@ -24,4 +24,4 @@ date	time	instrument	band	integration	mag	mag_limit	dmag	date_unit	time_unit	int
 2012-Jun-24	198.118	Gemini-S	u	1500	25.36	0	0.25	yyyy-month-deciday	days	seconds	apparent	AB	False	NaN	observer
 2012-Jun-24	198.088	Gemini-S	g	900	25.72	0	0.07	yyyy-month-deciday	days	seconds	apparent	AB	False	NaN	observer
 2012-Jun-24	198.101	Gemini-S	r	900	24.94	0	0.06	yyyy-month-deciday	days	seconds	apparent	AB	False	NaN	observer
-2012-Nov-06	332.998	Gemini-N	J	2700	>24.0	1	NaN	yyyy-month-deciday	days	seconds	apparent	AB	False	NaN	observer
+2012-Nov-06	332.998	Gemini-N	J	2700	24.0	1	NaN	yyyy-month-deciday	days	seconds	apparent	AB	False	NaN	observer
