@@ -1194,7 +1194,6 @@ def event(event_id):
             ["time", "flux", "dflux", "higher", "lower", "energy_range"]
         ].copy()
         xray_error_df = xray_error_df[~xray_error_df["higher"].isnull()]
-        xray_error_df = xray_error_df[~xray_error_df["lower"].isnull()]
         xray_error_df["dfluxes"] = list(
             zip(
                 xray_error_df["higher"],
@@ -1583,7 +1582,6 @@ def event(event_id):
             ["time", "mag", "dmag", "higher", "lower", "band"]
         ].copy()
 
-        optical_error_df = optical_error_df[~optical_error_df["lower"].isnull()]
         optical_error_df = optical_error_df[~optical_error_df["higher"].isnull()]
         optical_error_df["dmags"] = list(
             zip(
@@ -1867,7 +1865,6 @@ def event(event_id):
             ]
         ].copy()
         radio_error_df = radio_error_df[~radio_error_df["higher"].isnull()]
-        radio_error_df = radio_error_df[~radio_error_df["lower"].isnull()]
         radio_error_df["dfds"] = list(
             zip(
                 radio_error_df["higher"],
