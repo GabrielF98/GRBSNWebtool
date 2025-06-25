@@ -1571,8 +1571,6 @@ def event(event_id):
         # Create the error columns that bokeh wants
         # Errors on magnitudes
         # Optical is a bit different, we are treating the "higher" error as the one that makes the value larger, and the "lower" error as one that makes the number smaller. Not however that in optical this means a dimmer and a brighter source respectively.
-        for it in optical_df["dmag2"]:
-            print(it)
 
         optical_df["higher"] = optical_df["mag"] + optical_df["dmag"].abs()
         optical_df["lower"] = optical_df["mag"] - optical_df["dmag"].abs()
