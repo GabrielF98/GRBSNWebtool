@@ -24,7 +24,7 @@ date	time	instrument	band	integration	mag	mag_limit	dmag	date_unit	time_unit	int
 2012-Jun-24	198.118	Gemini-S	u	1500.0	25.36	0	0.25	yyyy-month-deciday	days	seconds	apparent	AB	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...13L/abstract	NaN	NaN	NaN	NaN
 2012-Jun-24	198.088	Gemini-S	g	900.0	25.72	0	0.07	yyyy-month-deciday	days	seconds	apparent	AB	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...13L/abstract	NaN	NaN	NaN	NaN
 2012-Jun-24	198.101	Gemini-S	r	900.0	24.94	0	0.06	yyyy-month-deciday	days	seconds	apparent	AB	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...13L/abstract	NaN	NaN	NaN	NaN
-2012-Nov-06	332.998	Gemini-N	J	2700.0	>24.0	1	NaN	yyyy-month-deciday	days	seconds	apparent	AB	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...13L/abstract	NaN	NaN	NaN	NaN
+2012-Nov-06	332.998	Gemini-N	J	2700.0	24.0	1	NaN	yyyy-month-deciday	days	seconds	apparent	AB	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2014ApJ...781...13L/abstract	NaN	NaN	NaN	NaN
 NaN	1.75336	GROND	g'	460.0	20.05	0	0.05	NaN	days	seconds	apparent	AB	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015Natur.523..189G/abstract	0.066	NaN	NaN	NaN
 NaN	1.75336	GROND	r'	460.0	19.66	0	0.02	NaN	days	seconds	apparent	AB	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015Natur.523..189G/abstract	0.046	NaN	NaN	NaN
 NaN	1.75336	GROND	i'	460.0	19.364	0	0.03	NaN	days	seconds	apparent	AB	True	NaN	observer	https://ui.adsabs.harvard.edu/abs/2015Natur.523..189G/abstract	0.034	NaN	NaN	NaN
