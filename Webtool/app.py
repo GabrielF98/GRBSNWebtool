@@ -16,7 +16,7 @@ from astropy.time import Time  # Converting MJD to UTC
 from bokeh.embed import components
 
 # Pieces for Bokeh
-from bokeh.models import ColumnDataSource, HoverTool, Label, Legend, Range1d, Whisker
+from bokeh.models import ColumnDataSource, HoverTool, Label, Legend, Range1d
 from bokeh.palettes import Category20_20, d3, viridis
 from bokeh.plotting import figure
 from bokeh.transform import factor_mark
@@ -985,6 +985,8 @@ def event(event_id):
     )
 
     legend_it = []
+    list_of_xray_lines = []
+
     #################################
     # Swift data ####################
     #################################
@@ -1107,19 +1109,7 @@ def event(event_id):
             muted_alpha=0.05,
         )
         legend_it.append(("0.3-10keV  ", [a, b, c]))
-        # Tooltips of what will display in the hover mode
-        # Format the tooltip
-
-        tooltips = [
-            ("Time", "@time"),
-            ("Flux", "@flux"),
-            ("Instrument", "@instrument"),
-            ("Source", "@sources"),
-            ("Unit", "@units"),
-        ]
-
-        # Add the HoverTool to the figure
-        xray.add_tools(HoverTool(tooltips=tooltips))
+        list_of_xray_lines.append(c)
 
     #################################
     # ADS data ######################
@@ -1239,23 +1229,25 @@ def event(event_id):
                 fill_color=colors[int(k % 20)],
                 marker=factor_mark("flux_limit_str", marks2, types2),
             )
-            legend_it.append((energy_range + "  ", [c, b]))
-
-        # Tooltips of what will display in the hover mode
-        # Format the tooltip
-
-        tooltips = [
-            ("Time", "@time"),
-            ("Flux", "@flux"),
-            ("Instrument", "@instrument"),
-            ("Source", "@sources"),
-            ("Unit", "@flux_unit"),
-        ]
-
-        # Add the HoverTool to the figure
-        xray.add_tools(HoverTool(tooltips=tooltips))
+            legend_it.append((energy_range + "  ", [b, c]))
+            list_of_xray_lines.append(c)
 
     # Aesthetics
+
+    # Tooltips of what will display in the hover mode
+    # Format the tooltip
+
+    tooltips = [
+        ("Time", "@time"),
+        ("Flux", "@flux"),
+        ("Instrument", "@instrument"),
+        ("Source", "@sources"),
+        ("Unit", "@flux_unit"),
+    ]
+
+    # Add the HoverTool to the figure
+    xray.add_tools(HoverTool(renderers=list_of_xray_lines, tooltips=tooltips))
+
     xray.title.text_font_size = "20pt"
     xray.title.text_color = "black"
     xray.title.align = "center"
@@ -1355,6 +1347,7 @@ def event(event_id):
     ######## Open SN ###############
     ################################
     legend_it = []
+    list_of_optical_lines = []
     if exists("./static/SourceData/" + str(event_id) + "/" + "OpenSNPhotometry.csv"):
         # Add 1 to track variable if openSN had data
         track += 1
@@ -1493,20 +1486,7 @@ def event(event_id):
                 )
                 legend_it.append((j + "  ", [c, b]))
 
-                # Tooltips of what will display in the hover mode
-                # Format the tooltip
-                # Tooltips of what will display in the hover mode
-                # Format the tooltip
-                tooltips = [
-                    ("Time", "@time_since"),
-                    ("Magnitude", "@magnitude"),
-                    ("Band", "@band"),
-                    ("Source", "@indices"),
-                    ("Unit", "@mag_unit"),
-                ]
-
-                # Add the HoverTool to the figure
-                optical.add_tools(HoverTool(tooltips=tooltips))
+                list_of_optical_lines.append(c)
 
     #################################
     # ADS data ######################
@@ -1634,6 +1614,8 @@ def event(event_id):
                     fill_color=colors[int(k % 20)],
                     marker=factor_mark("mag_limit_str", marks2, types2),
                 )
+                legend_it.append((band + "  ", [c, b]))
+                list_of_optical_lines.append(c)
             else:
                 c = optical.scatter(
                     "time",
@@ -1647,26 +1629,25 @@ def event(event_id):
                     fill_color="none",
                     marker=factor_mark("mag_limit_str", marks2, types2),
                 )
-            legend_it.append((band + "  ", [c, b]))
-        # Tooltips of what will display in the hover mode
-        # Format the tooltip
-        # Tooltips of what will display in the hover mode
-        # Format the tooltip
-        tooltips = [
-            ("Time", "@time"),
-            ("Magnitude", "@mag"),
-            ("Band", "@band"),
-            ("Instrument", "@instrument"),
-            ("Source", "@indices"),
-            ("Unit", "@mag_unit"),
-        ]
-
-        # Add the HoverTool to the figure
-        optical.add_tools(HoverTool(tooltips=tooltips))
-
-    optical.y_range.flipped = True
+                legend_it.append((band + "  ", [c, b]))
+                list_of_optical_lines.append(c)
 
     # Aesthetics
+    # Tooltips of what will display in the hover mode
+    # Format the tooltip
+    tooltips = [
+        ("Time", "@time"),
+        ("Magnitude", "@mag"),
+        ("Band", "@band"),
+        ("Instrument", "@instrument"),
+        ("Source", "@indices"),
+        ("Unit", "@mag_unit"),
+    ]
+
+    # Add the HoverTool to the figure
+    optical.add_tools(HoverTool(renderers=list_of_optical_lines, tooltips=tooltips))
+
+    optical.y_range.flipped = True
 
     # Title
     optical.title.text_font_size = "20pt"
@@ -1766,6 +1747,7 @@ def event(event_id):
     #################################
     rad_refs = []
     legend_it = []
+    list_of_radio_lines = []
     # Check if the radio master file exists yet.
     if exists(
         "static/SourceData/" + str(event_id) + "/" + str(event_id) + "_Radio_Master.txt"
@@ -1899,6 +1881,8 @@ def event(event_id):
                     fill_color=colors[int(k % 20)],
                     marker=factor_mark("flux_density_limit_str", marks2, types2),
                 )
+
+                list_of_radio_lines.append(c)
             else:
                 c = radio.scatter(
                     "time",
@@ -1912,22 +1896,7 @@ def event(event_id):
                     fill_color="none",
                     marker=factor_mark("flux_density_limit_str", marks2, types2),
                 )
-            legend_it.append((freq_unit + "  ", [c, b]))
-
-        # Tooltips of what will display in the hover mode
-        # Format the tooltip
-        # Tooltips of what will display in the hover mode
-        # Format the tooltip
-        tooltips = [
-            ("Time", "@time"),
-            ("Freq", "@freq"),
-            ("Flux Density", "@flux_density"),
-            ("Instrument", "@instrument"),
-            ("Source", "@indices"),
-        ]
-
-        # Add the HoverTool to the figure
-        radio.add_tools(HoverTool(tooltips=tooltips))
+                list_of_radio_lines.append(c)
 
     else:
         # Set a range so we can always centre the nodata for the spectra plot
@@ -1951,6 +1920,19 @@ def event(event_id):
         radio.add_layout(nodata_warn)
 
     # Aesthetics
+
+    # Tooltips of what will display in the hover mode
+    # Format the tooltip
+    tooltips = [
+        ("Time", "@time"),
+        ("Freq", "@freq"),
+        ("Flux Density", "@flux_density"),
+        ("Instrument", "@instrument"),
+        ("Source", "@indices"),
+    ]
+
+    # Add the HoverTool to the figure
+    radio.add_tools(HoverTool(renderers=list_of_radio_lines, tooltips=tooltips))
 
     # Title
     radio.title.text_font_size = "20pt"
@@ -2010,6 +1992,7 @@ def event(event_id):
     ##### SNe SPECTRA######################################################################
     ######################################################################################
     legend_it = []
+    list_of_spectral_lines = []
 
     # Selection tools we want to display
     select_tools = ["box_zoom", "pan", "wheel_zoom", "save", "reset"]
@@ -2162,17 +2145,6 @@ def event(event_id):
                 # Convert the dict to a column data object
                 data_source = ColumnDataSource(data_dict)
 
-                # Tooltips of what will display in the hover mode
-                # Format the tooltip
-                tooltips = [
-                    ("Rest wavelength", "@wavelength{0}"),
-                    ("Wavelength unit", "@wave_unit"),
-                    ("Flux", "@flux"),
-                    ("Flux unit", "@flux_unit"),
-                    ("Time [days]", "@time_since"),
-                    ("Source", "@sources"),
-                ]
-
                 # Legend label will be the elapsed time since the trigger for now
                 c = spectrum.line(
                     "wavelength",
@@ -2189,6 +2161,8 @@ def event(event_id):
                         [c],
                     )
                 )
+
+                list_of_spectral_lines.append(c)
         # Range
         spectrum.y_range = Range1d(
             max(min(min_spec) - 0.1 * min(min_spec), -1),
@@ -2276,16 +2250,6 @@ def event(event_id):
             # Create a CDS
             spectra_cds = ColumnDataSource(scaled_spectrum)
 
-            tooltips = [
-                ("Rest wavelength", "@rest_wavelength{0}"),
-                ("Obs. wavelength", "@obs_wavelength{0}"),
-                ("Flux", "@scaled_flux"),
-                ("Unit", "@flux_unit"),
-                ("Instrument", "@instrument"),
-                ("Time [days]", "@time"),
-                ("Source", "@indices"),
-            ]
-
             c = spectrum.line(
                 "rest_wavelength",
                 "scaled_flux",
@@ -2296,6 +2260,8 @@ def event(event_id):
                 line_width=2,
             )
             legend_it.append((str(np.round(float(epochs[i]), 2)) + " days  ", [c]))
+
+            list_of_spectral_lines.append(c)
     else:
         # Notify when there is no data present
 
@@ -2319,10 +2285,22 @@ def event(event_id):
         )
         spectrum.add_layout(citation)
 
-    # Add the HoverTool to the figure
-    spectrum.add_tools(HoverTool(tooltips=tooltips))
-
     # Aesthetics
+
+    # Tooltips of what will display in the hover mode
+    # Format the tooltip
+    tooltips = [
+        ("Rest wavelength", "@wavelength{0}"),
+        ("Wavelength unit", "@wave_unit"),
+        ("Flux", "@flux"),
+        ("Flux unit", "@flux_unit"),
+        ("Time [days]", "@time_since"),
+        ("Source", "@sources"),
+    ]
+
+    # Add the HoverTool to the figure
+    spectrum.add_tools(HoverTool(renderers=list_of_spectral_lines, tooltips=tooltips))
+
     # Title
     spectrum.title.text_font_size = "20pt"
     spectrum.title.text_color = "black"
