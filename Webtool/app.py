@@ -1992,7 +1992,6 @@ def event(event_id):
     ##### SNe SPECTRA######################################################################
     ######################################################################################
     legend_it = []
-    list_of_spectral_lines = []
 
     # Selection tools we want to display
     select_tools = ["box_zoom", "pan", "wheel_zoom", "save", "reset"]
@@ -2006,9 +2005,6 @@ def event(event_id):
         aspect_ratio=16 / 9,
         sizing_mode="stretch_both",
     )
-
-    # Blank tooltips
-    tooltips = []
 
     # Spectra sources (outside loop so as not to crash pages when no SN)
     spec_refs = []
@@ -2162,7 +2158,19 @@ def event(event_id):
                     )
                 )
 
-                list_of_spectral_lines.append(c)
+                # Tooltips of what will display in the hover mode
+                # Format the tooltip
+                tooltips = [
+                    ("Rest wavelength", "@wavelength{0}"),
+                    ("Wavelength unit", "@wave_unit"),
+                    ("Flux", "@flux"),
+                    ("Flux unit", "@flux_unit"),
+                    ("Time [days]", "@time_since"),
+                    ("Source", "@sources"),
+                ]
+
+                # Add the HoverTool to the figure
+                spectrum.add_tools(HoverTool(renderers=[c], tooltips=tooltips))
         # Range
         spectrum.y_range = Range1d(
             max(min(min_spec) - 0.1 * min(min_spec), -1),
@@ -2261,7 +2269,20 @@ def event(event_id):
             )
             legend_it.append((str(np.round(float(epochs[i]), 2)) + " days  ", [c]))
 
-            list_of_spectral_lines.append(c)
+            # Tooltips of what will display in the hover mode
+            # Format the tooltip
+            tooltips = [
+                ("Rest wavelength", "@rest_wavelength{0}"),
+                ("Obs. wavelength", "@obs_wavelength{0}"),
+                ("Flux", "@scaled_flux"),
+                ("Unit", "@flux_unit"),
+                ("Instrument", "@instrument"),
+                ("Time [days]", "@time"),
+                ("Source", "@indices"),
+            ]
+
+            # Add the HoverTool to the figure
+            spectrum.add_tools(HoverTool(renderers=[c], tooltips=tooltips))
     else:
         # Notify when there is no data present
 
@@ -2286,20 +2307,6 @@ def event(event_id):
         spectrum.add_layout(citation)
 
     # Aesthetics
-
-    # Tooltips of what will display in the hover mode
-    # Format the tooltip
-    tooltips = [
-        ("Rest wavelength", "@wavelength{0}"),
-        ("Wavelength unit", "@wave_unit"),
-        ("Flux", "@flux"),
-        ("Flux unit", "@flux_unit"),
-        ("Time [days]", "@time_since"),
-        ("Source", "@sources"),
-    ]
-
-    # Add the HoverTool to the figure
-    spectrum.add_tools(HoverTool(renderers=list_of_spectral_lines, tooltips=tooltips))
 
     # Title
     spectrum.title.text_font_size = "20pt"
