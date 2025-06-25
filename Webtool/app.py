@@ -985,7 +985,6 @@ def event(event_id):
     )
 
     legend_it = []
-    list_of_xray_lines = []
 
     #################################
     # Swift data ####################
@@ -1109,7 +1108,18 @@ def event(event_id):
             muted_alpha=0.05,
         )
         legend_it.append(("0.3-10keV  ", [a, b, c]))
-        list_of_xray_lines.append(c)
+
+        # Hover tools.
+        tooltips = [
+            ("Time", "@time"),
+            ("Flux", "@flux"),
+            ("Instrument", "@instrument"),
+            ("Source", "@sources"),
+            ("Unit", "@units"),
+        ]
+
+        # Add the HoverTool to the figure
+        xray.add_tools(HoverTool(renderers=[c], tooltips=tooltips))
 
     #################################
     # ADS data ######################
@@ -1230,23 +1240,21 @@ def event(event_id):
                 marker=factor_mark("flux_limit_str", marks2, types2),
             )
             legend_it.append((energy_range + "  ", [b, c]))
-            list_of_xray_lines.append(c)
+            # Tooltips of what will display in the hover mode
+            # Format the tooltip
+
+            tooltips = [
+                ("Time", "@time"),
+                ("Flux", "@flux"),
+                ("Instrument", "@instrument"),
+                ("Source", "@sources"),
+                ("Unit", "@flux_unit"),
+            ]
+
+            # Add the HoverTool to the figure
+            xray.add_tools(HoverTool(renderers=[c], tooltips=tooltips))
 
     # Aesthetics
-
-    # Tooltips of what will display in the hover mode
-    # Format the tooltip
-
-    tooltips = [
-        ("Time", "@time"),
-        ("Flux", "@flux"),
-        ("Instrument", "@instrument"),
-        ("Source", "@sources"),
-        ("Unit", "@flux_unit"),
-    ]
-
-    # Add the HoverTool to the figure
-    xray.add_tools(HoverTool(renderers=list_of_xray_lines, tooltips=tooltips))
 
     xray.title.text_font_size = "20pt"
     xray.title.text_color = "black"
@@ -1347,7 +1355,7 @@ def event(event_id):
     ######## Open SN ###############
     ################################
     legend_it = []
-    list_of_optical_lines = []
+
     if exists("./static/SourceData/" + str(event_id) + "/" + "OpenSNPhotometry.csv"):
         # Add 1 to track variable if openSN had data
         track += 1
@@ -1486,7 +1494,18 @@ def event(event_id):
                 )
                 legend_it.append((j + "  ", [c, b]))
 
-                list_of_optical_lines.append(c)
+                # Tooltips of what will display in the hover mode
+                # Format the tooltip
+                tooltips = [
+                    ("Time", "@time_since"),
+                    ("Magnitude", "@magnitude"),
+                    ("Band", "@band"),
+                    ("Source", "@indices"),
+                    ("Unit", "@mag_unit"),
+                ]
+
+                # Add the HoverTool to the figure
+                optical.add_tools(HoverTool(renderers=[c], tooltips=tooltips))
 
     #################################
     # ADS data ######################
@@ -1615,7 +1634,21 @@ def event(event_id):
                     marker=factor_mark("mag_limit_str", marks2, types2),
                 )
                 legend_it.append((band + "  ", [c, b]))
-                list_of_optical_lines.append(c)
+
+                # Tooltips of what will display in the hover mode
+                # Format the tooltip
+                tooltips = [
+                    ("Time", "@time"),
+                    ("Magnitude", "@mag"),
+                    ("Band", "@band"),
+                    ("Instrument", "@instrument"),
+                    ("Source", "@indices"),
+                    ("Unit", "@mag_unit"),
+                ]
+
+                # Add the HoverTool to the figure
+                optical.add_tools(HoverTool(renderers=[c], tooltips=tooltips))
+
             else:
                 c = optical.scatter(
                     "time",
@@ -1630,23 +1663,22 @@ def event(event_id):
                     marker=factor_mark("mag_limit_str", marks2, types2),
                 )
                 legend_it.append((band + "  ", [c, b]))
-                list_of_optical_lines.append(c)
+
+                # Tooltips of what will display in the hover mode
+                # Format the tooltip
+                tooltips = [
+                    ("Time", "@time"),
+                    ("Magnitude", "@mag"),
+                    ("Band", "@band"),
+                    ("Instrument", "@instrument"),
+                    ("Source", "@indices"),
+                    ("Unit", "@mag_unit"),
+                ]
+
+                # Add the HoverTool to the figure
+                optical.add_tools(HoverTool(renderers=[c], tooltips=tooltips))
 
     # Aesthetics
-    # Tooltips of what will display in the hover mode
-    # Format the tooltip
-    tooltips = [
-        ("Time", "@time"),
-        ("Magnitude", "@mag"),
-        ("Band", "@band"),
-        ("Instrument", "@instrument"),
-        ("Source", "@indices"),
-        ("Unit", "@mag_unit"),
-    ]
-
-    # Add the HoverTool to the figure
-    optical.add_tools(HoverTool(renderers=list_of_optical_lines, tooltips=tooltips))
-
     optical.y_range.flipped = True
 
     # Title
