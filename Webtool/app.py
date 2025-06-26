@@ -16,7 +16,14 @@ from astropy.time import Time  # Converting MJD to UTC
 from bokeh.embed import components
 
 # Pieces for Bokeh
-from bokeh.models import ColumnDataSource, HoverTool, Label, Legend, Range1d
+from bokeh.models import (
+    ColumnDataSource,
+    HoverTool,
+    Label,
+    Legend,
+    Range1d,
+    FixedTicker,
+)
 from bokeh.palettes import Category20_20, d3, viridis
 from bokeh.plotting import figure
 from bokeh.transform import factor_mark
@@ -1292,6 +1299,20 @@ def event(event_id):
     xray.background_fill_color = "white"
     xray.border_fill_color = "white"
 
+    # Reduced number of ticks
+    # xray.
+
+    # Point ticks inward
+    xray.xaxis.major_tick_in = 10
+    xray.xaxis.major_tick_out = 0
+    xray.xaxis.minor_tick_in = 5
+    xray.xaxis.minor_tick_out = 0
+
+    xray.yaxis.major_tick_in = 10
+    xray.yaxis.major_tick_out = 0
+    xray.yaxis.minor_tick_in = 5
+    xray.yaxis.minor_tick_out = 0
+
     # Allow user to mute individual bands by clicking the legend
     num = 10
     for i in range(math.ceil(len(legend_it) / num)):
@@ -1738,6 +1759,17 @@ def event(event_id):
     optical.background_fill_color = "white"
     optical.border_fill_color = "white"
 
+    # Point ticks inward
+    optical.xaxis.major_tick_in = 10
+    optical.xaxis.major_tick_out = 0
+    optical.xaxis.minor_tick_in = 5
+    optical.xaxis.minor_tick_out = 0
+
+    optical.yaxis.major_tick_in = 10
+    optical.yaxis.major_tick_out = 0
+    optical.yaxis.minor_tick_in = 5
+    optical.yaxis.minor_tick_out = 0
+
     # If track is still 0 print nodata/pending
     if track == 0:
         # Set a range so we can always centre the nodata for the spectra plot
@@ -2000,6 +2032,17 @@ def event(event_id):
 
     radio.background_fill_color = "white"
     radio.border_fill_color = "white"
+
+    # Point ticks inward
+    radio.xaxis.major_tick_in = 10
+    radio.xaxis.major_tick_out = 0
+    radio.xaxis.minor_tick_in = 5
+    radio.xaxis.minor_tick_out = 0
+
+    radio.yaxis.major_tick_in = 10
+    radio.yaxis.major_tick_out = 0
+    radio.yaxis.minor_tick_in = 5
+    radio.yaxis.minor_tick_out = 0
 
     # Legend
     # Allow user to mute individual bands by clicking the legend
@@ -2375,6 +2418,17 @@ def event(event_id):
 
     spectrum.background_fill_color = "white"
     spectrum.border_fill_color = "white"
+
+    # Point ticks inward
+    spectrum.xaxis.major_tick_in = 10
+    spectrum.xaxis.major_tick_out = 0
+    spectrum.xaxis.minor_tick_in = 5
+    spectrum.xaxis.minor_tick_out = 0
+
+    spectrum.yaxis.major_tick_in = 10
+    spectrum.yaxis.major_tick_out = 0
+    spectrum.yaxis.minor_tick_in = 5
+    spectrum.yaxis.minor_tick_out = 0
 
     # Sort the legends by time
     epochs = []
