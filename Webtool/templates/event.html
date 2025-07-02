@@ -259,6 +259,16 @@
         </tr>
         {% endif %}
 
+        <td>$T_{90}$ classification </td>
+
+          <td>
+
+            {% if event[0]['GRBType']|string != 'None' %}
+            {{ event[0]['GRBType'] }}
+            {% endif %}
+          </td>
+          <td></td>
+
         <tr>
           <td>$E_{iso}$</td>
 
@@ -392,7 +402,7 @@
         {% endif %}
 
         <tr>
-          <td>SN type</td>
+          <td>SN Type</td>
 
           <td>
 
@@ -401,7 +411,7 @@
             {% endif %}
           </td>
 
-          <td>erg</td>
+          <td></td>
         </tr>
 
         <tr>
