@@ -1677,7 +1677,7 @@ def event(event_id):
                     color=colors[int(k % 20)],
                     muted_color="gray",
                     muted_alpha=0.05,
-                    fill_color="none",
+                    fill_color=None,
                     marker=factor_mark("mag_limit_str", marks2, types2),
                 )
                 legend_it.append((band + "  ", [c, b]))
@@ -1953,7 +1953,7 @@ def event(event_id):
                     color=colors[int(k % 20)],
                     muted_color="gray",
                     muted_alpha=0.05,
-                    fill_color="none",
+                    fill_color=None,
                     marker=factor_mark("flux_density_limit_str", marks2, types2),
                 )
                 list_of_radio_lines.append(c)
