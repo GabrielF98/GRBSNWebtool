@@ -392,6 +392,19 @@
         {% endif %}
 
         <tr>
+          <td>SN type</td>
+
+          <td>
+
+            {% if event[0]['SNType']|string != 'None' %}
+            {{ event[0]['SNType'] }}
+            {% endif %}
+          </td>
+
+          <td>erg</td>
+        </tr>
+
+        <tr>
           <td>$E_k$</td>
 
           <td>
