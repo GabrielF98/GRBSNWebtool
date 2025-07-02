@@ -1441,7 +1441,7 @@ def event(event_id):
             for j in bands:
                 if "nan" in str(j).lower():
                     # New df of just points without a band name (ie nan)
-                    new_df = data.loc[data["band"].isna()]
+                    new_df = data.loc[data["band"].isna()].copy()
 
                     # Say that the band is unknown
                     new_df["band"] = ["Unknown"] * len(new_df["band"])
@@ -1451,7 +1451,7 @@ def event(event_id):
 
                 else:
                     # Create a df with just the band j
-                    new_df = data.loc[data["band"] == j]
+                    new_df = data.loc[data["band"] == j].copy()
 
                     # Band label for the legend
                     band_label = str(j)
@@ -1466,7 +1466,7 @@ def event(event_id):
                     t_after_t0[k] = float(mjd_time[k]) - float(grb_time_mjd)
 
                 # Add this to the df in the position time used to be in.
-                new_df["time_since"] = t_after_t0
+                new_df.loc[:, "time_since"] = t_after_t0
 
                 # Errors on magnitudes
                 optical_error_df = new_df[
@@ -2307,7 +2307,9 @@ def event(event_id):
         # Plot
         for i in range(len(epochs)):
             # Scale the flux using the 5000A flux
-            scaled_spectrum = spectra_df.loc[spectra_df["time"] == float(epochs[i])]
+            scaled_spectrum = spectra_df.loc[
+                spectra_df["time"] == float(epochs[i])
+            ].copy()
             if np.array(scaled_spectrum["rest_wavelength"])[-1] < 5000:
                 scaled_spectrum["scaled_flux"] = (
                     np.array(scaled_spectrum["flux"])
