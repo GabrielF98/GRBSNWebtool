@@ -1,15 +1,17 @@
+"""
+Converts between readme.yml and readme.md.
+"""
 import os
 
 import yaml
 from snakemd import Inline, Paragraph, new_doc
 
-EXCLUDED_FOLDERS = ["GoodXRTData", "NotionExport"]
+EXCLUDED_FOLDERS = ["GoodXRTData"]
 
 REL_PATH = "../static/SourceData/"
 
 
 def yaml2markdown(folder_path, yaml_info_dict):
-
     doc = new_doc()
 
     doc.add_heading(yaml_info_dict.get("event_name"))
@@ -26,19 +28,11 @@ def yaml2markdown(folder_path, yaml_info_dict):
             doc.add_heading(filename, 3)
             doc.add_paragraph(
                 "**Source:** "
-                + str(
-                    yaml_info_dict.get("filenames")
-                    .get(filename)
-                    .get("sourceurl")
-                )
+                + str(yaml_info_dict.get("filenames").get(filename).get("sourceurl"))
             )
             doc.add_paragraph(
                 "**Data-type:** "
-                + str(
-                    yaml_info_dict.get("filenames")
-                    .get(filename)
-                    .get("datatype")
-                )
+                + str(yaml_info_dict.get("filenames").get(filename).get("datatype"))
             )
             doc.add_paragraph("**Notes:**")
             # Extract and process notes from dictionary
