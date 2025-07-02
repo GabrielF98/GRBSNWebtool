@@ -3,8 +3,8 @@
 # keys in GRB-SNe tables
 # Table for peak time and magnitude SN information.
 PeakTimesMags:
-  grb_id: # e.g. GRB091214A
-  sn_name: # e.g. AT5034aj
+  grb_id: # e.g. 091214A
+  sn_name: # e.g. 5034aj
   time: 15 # Time of peak light in days since t0.
   dtime: 2 # Uncertainty on the time of peak light.
   reltime: # rest-frame or observer-frame depending on which frame the time was given in.
@@ -20,8 +20,8 @@ PeakTimesMags:
 
 # Table for general data about GRB-SNe.
 SQLDataGRBSNe:
-  GRB: GRB091102 # GRB name
-  SNe: SN2040shfds # SN name
+  GRB: 091102 # GRB name
+  SNe: 2040shfds # SN name
   e_iso: 1e52 # Isotropic energy of the GRB [erg].
   d_neg_e_iso: 1e51 # Negative uncertainty on the isotropic energy of the GRB.
   d_pos_e_iso: 2e51 # Positive uncertainty on the isotropic energy of the GRB. 
@@ -65,8 +65,8 @@ SQLDataGRBSNe:
 
 # Table for general data about GRB triggers.
 TrigCoords:
-  grb_id: GRB240927D # GRB name
-  sn_name : SN1998bw # SN name
+  grb_id: 240927D # GRB name
+  sn_name : 1998bw # SN name
   trigtime: # Time of the GRB trigger or SN explosion time in UTC. Formatted as YYYY-MM-DDTHH:MM:SS.
   ra: # The right ascension of the GRB [HH:MM:SS].
   ra_decimal: # The decimal right ascension the GRB.
