@@ -31,18 +31,6 @@ Notes:  Flux and apparent magnitudes are not corrected for Galactic extinction. 
 
 ***
 
-### GRB111209A-SN2011kl_Bolometric.txt
-
-**Source:** https://ui.adsabs.harvard.edu/abs/2019A%26A...624A.143K/abstract
-
-**Data-type:** Bolo, Early
-
-**Notes:**
-
-No notes.
-
-***
-
 ### GRB111209A-SN2011kl_NIR_Optical_1.txt
 
 **Source:** https://ui.adsabs.harvard.edu/abs/2015Natur.523..189G/abstract

@@ -20,9 +20,6 @@ filenames:
     sourceurl: https://ui.adsabs.harvard.edu/abs/2013ApJ...779...66S/abstract
     notes: |
       Notes:  Flux and apparent magnitudes are not corrected for Galactic extinction. Given the start time and end time in minutes. Start time was used for the time and minutes were converted to seconds.
-  GRB111209A-SN2011kl_Bolometric.txt:
-    datatype: Bolo, Early
-    sourceurl: https://ui.adsabs.harvard.edu/abs/2019A%26A...624A.143K/abstract
   GRB111209A-SN2011kl_NIR_Optical_1.txt:
     datatype: Early, NIR, Optical
     sourceurl: https://ui.adsabs.harvard.edu/abs/2015Natur.523..189G/abstract
