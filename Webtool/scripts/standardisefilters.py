@@ -1,3 +1,7 @@
+"""
+Used by the maintainers of the GRB-SN webtool during the initial creation of the tool. Converts some band labels to others in the Optical files.
+"""
+
 # for this script to work you must be in the source data folder
 
 # importing packages
