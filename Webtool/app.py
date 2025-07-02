@@ -270,7 +270,6 @@ def processing_tag(event_id, band):
     with open(f"static/SourceData/{event_id}/readme.yml", "r") as readme_file:
         readme_dict = yaml.safe_load(readme_file)
     tag = readme_dict.get(band)
-    print(tag)
     if tag is True:
         tag = "Pending"
 
@@ -1194,7 +1193,6 @@ def event(event_id):
         xray_df["lower"] = xray_df["flux"] - xray_df["dflux"].abs()
 
         if "dflux2" in xray_df.keys():
-            print(event_id)
             xray_df["lower"] = xray_df["flux"] - xray_df["dflux2"].abs()
 
         xray_error_df = xray_df[
