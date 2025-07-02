@@ -117,12 +117,12 @@ Dec 20-Jan 06 measurement was converted to a measurment with date 2002-12-28.00 
 
 ***
 
-### OpenSNPhotometry.csv
+### GRB021211-SN2002lt_Optical6.txt
 
-**Source:** https://api.astrocats.space/SN2002lt/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+**Source:** https://ui.adsabs.harvard.edu/abs/2012A&A...538A.120L/abstract
 
 **Data-type:** Optical
 
 **Notes:**
 
-No notes.
+Gathered using the OpenSN catalogue.
