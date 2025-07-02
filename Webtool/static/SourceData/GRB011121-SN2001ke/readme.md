@@ -88,12 +88,12 @@ flux_density column: Peak flux density at the best-fit position of the radio tra
 
 ***
 
-### OpenSNPhotometry.csv
+### GRB011121-SN2001ke_Optical4.txt
 
-**Source:** https://api.astrocats.space/SN2001ke/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+**Source:** https://ui.adsabs.harvard.edu/abs/2012A&A...538A.120L/abstract
 
 **Data-type:** Optical
 
 **Notes:**
 
-No notes.
+Gathered using the OpenSN catalogue.
