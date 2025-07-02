@@ -22,6 +22,7 @@ PeakTimesMags:
 SQLDataGRBSNe:
   GRB: 091102 # GRB name
   SNe: 2040shfds # SN name
+  GRBType: LONG/SHORT # Based on a T90 >/<2s
   SNType: Ic-BL # Or whatever type of SN this is.
   e_iso: 1e52 # Isotropic energy of the GRB [erg].
   d_neg_e_iso: 1e51 # Negative uncertainty on the isotropic energy of the GRB.
