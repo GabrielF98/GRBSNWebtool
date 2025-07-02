@@ -44,9 +44,6 @@ filenames:
     sourceurl: https://ui.adsabs.harvard.edu/abs/2004ApJ...609L...5M/abstract
     notes: |
       Magnitudes are given originally relative to the boldface epoch. I have fixed this issue.
-  OpenSNPhotometry.csv:
-    datatype: Optical
-    sourceurl: https://api.astrocats.space/SN2003lw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
   OpenSNSpectra0.json:
     datatype: Spectra
     sourceurl: https://api.astrocats.space/SN2003lw/spectra/?item=0&format=json
