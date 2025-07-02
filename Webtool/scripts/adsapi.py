@@ -1,6 +1,8 @@
 """
 This script needs to be run to return the citation information from NASA ADS.
 This is the data that eventually appears in the table on the event page.
+
+Note that you need an ADS token saved in your environment as an env var called 'ADSAPI'.
 """
 
 import json
@@ -16,6 +18,7 @@ DATABASE_RELPATH_STR = "../static/Masterbase.db"
 SOURCE_DATA_RELPATH_STR = "../static/SourceData/"
 CITATION_PATH = "../static/citations/"
 ADS_TOKEN = os.environ["ADSAPI"]
+
 
 def get_db_connection():
     """
@@ -57,9 +60,7 @@ def bibcode_names(type):
     hyperlinks = []
     randoms = []
     for i in urls:
-
         if str(i[0])[0:10] == "https://ui":
-
             # Split the bibcode into a list by breaking it each time a / appears
             bibcodes.append(str(i[0]).split("/")[4].replace("%26", "&"))
             hyperlinks.append(str(i[0]))
@@ -75,9 +76,7 @@ def contact_nasa_ads(bibcode):
     # API Access
     # Some code copied from the howto for the ADS API (though some of it is mine too)
     # https://github.com/adsabs/adsabs-dev-api/blob/master/Converting_curl_to_python.ipynb
-    print(
-        f"Creating request for {bibcode['bibcode']} and dispatching to NASA ADS."
-    )
+    print(f"Creating request for {bibcode['bibcode']} and dispatching to NASA ADS.")
     r = requests.post(
         "https://api.adsabs.harvard.edu/v1/export/custom",
         headers={
@@ -131,7 +130,6 @@ def grb_names():
     for i in names:
         if str(i[0]) != "None" and str(i[1]) != "None":
             if str(i[1][:4]).isnumeric():
-
                 grbs.append("GRB" + str(i[0]) + "-SN" + str(i[1]))
             else:
                 grbs.append("GRB" + str(i[0]) + "-" + str(i[1]))
@@ -239,9 +237,7 @@ bibcodes3 = []
 hyperlinks3 = []
 randoms3 = []
 for folder in folder_names:
-    with open(
-        os.path.join("../static/SourceData/" + folder + "/readme.yml")
-    ) as file:
+    with open(os.path.join("../static/SourceData/" + folder + "/readme.yml")) as file:
         grbsn_info = yaml.safe_load(file)
 
     if grbsn_info.get("filenames") is None:
@@ -254,7 +250,6 @@ for folder in folder_names:
 
     for i in citations:
         if str(i)[0:10] == "https://ui":
-
             # Split the bibcode into a list by breaking it each time a / appears
             bibcodes3.append(str(i).split("/")[4].replace("%26", "&"))
             hyperlinks3.append(str(i))
@@ -265,16 +260,13 @@ for folder in folder_names:
 
 # Primary sources
 with open(
-    os.path.join(
-        os.path.abspath(CITATION_PATH) + "/citations(ADSdatadownloads).json"
-    ),
+    os.path.join(os.path.abspath(CITATION_PATH) + "/citations(ADSdatadownloads).json"),
     "r",
     encoding="utf-8",
 ) as file:
     dictionary3 = json.load(file)
 
 for i, hyperlink in enumerate(hyperlinks3):
-
     bibcode = {"bibcode": [str(bibcodes3[i])], "format": "%m %Y"}
     if check_present(resource_url=hyperlink, dictionary=dictionary3) is False:
         r = contact_nasa_ads(bibcode=bibcode)
@@ -288,9 +280,7 @@ for i in range(len(randoms3)):
 
 # Save the dictionary with json.dump()
 with open(
-    os.path.join(
-        os.path.abspath(CITATION_PATH) + "/citations(ADSdatadownloads).json"
-    ),
+    os.path.join(os.path.abspath(CITATION_PATH) + "/citations(ADSdatadownloads).json"),
     "w",
     encoding="utf-8",
 ) as file:
