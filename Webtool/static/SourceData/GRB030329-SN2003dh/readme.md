@@ -367,18 +367,6 @@ The luminosity column show the 3sigma limit on the spectral luminosity assuming 
 
 ***
 
-### OpenSNPhotometry.csv
-
-**Source:** https://api.astrocats.space/SN2003dh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-
-**Data-type:** Optical
-
-**Notes:**
-
-No notes.
-
-***
-
 ### OpenSNSpectra2.json
 
 **Source:** https://api.astrocats.space/SN2003dh/spectra/?item=2&format=json
