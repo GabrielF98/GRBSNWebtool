@@ -1,75 +1,78 @@
 
 
 # keys in GRB-SNe tables
+# Table for peak time and magnitude SN information.
 PeakTimesMags:
-  grb_id:
-  sn_name:
-  time: 
-  dtime: 
-  reltime: 
-  mag: 
-  dmag: 
-  delmag15: 
-  ddelmag15:
-  absmag: 
-  dabsmag: 
-  band: 
-  unit: 
-  source: 
+  grb_id: # e.g. 091214A
+  sn_name: # e.g. 5034aj
+  time: 15 # Time of peak light in days since t0.
+  dtime: 2 # Uncertainty on the time of peak light.
+  reltime: # rest-frame or observer-frame depending on which frame the time was given in.
+  mag: 18.3 # magnitude at peak
+  dmag: 0.1 # Uncertainty on the magnitude
+  delmag15: 1 # Magnitude decline rate over 15 days since peak.
+  ddelmag15: 0.1 # Uncertainty on the magnitude decline rate over 15 days since peak.
+  absmag: -18.5 # Peak absolute magnitude
+  dabsmag: # Uncertainty on peak absolute magnitude
+  band: R # What band is this peak light information for.
+  unit: # Unit used for magnitude - AB/Vega
+  source: # URL for the reference. Preferred as a NASA ADS URL.
 
+# Table for general data about GRB-SNe.
 SQLDataGRBSNe:
-  GRB:
-  SNe:
-  e_iso:
-  d_neg_e_iso:
-  d_pos_e_iso:
-  ni_m :
-  d_neg_ni_m:
-  d_pos_ni_m :
-  ej_m :
-  d_neg_ej_m :
-  d_pos_ej_m :
-  E_p:
-  dE_p :
-  e_k:
-  d_neg_e_k:
-  d_pos_e_k:
-  open_deg :
-  d_open_deg :
-  v_Fe_expansion :
-  dv_Fe_expansion:
-  v_Si_expansion :
-  dv_Si_expansion:
-  v_photospheric :
-  d_neg_v_photospheric :
-  d_pos_v_photospheric:
-  z:
-  dz :
-  T90:
-  dT90 :
-  log_e_gam:
-  dlog_e_gam :
-  log_e_radio:
-  d_log_e_radio:
-  t_peak :
-  dt_peak:
-  n:
-  p:
-  dp :
-  PrimarySources :
-  SecondarySources :
-  Notes:
-  Data:
+  GRB: 091102 # GRB name
+  SNe: 2040shfds # SN name
+  e_iso: 1e52 # Isotropic energy of the GRB [erg].
+  d_neg_e_iso: 1e51 # Negative uncertainty on the isotropic energy of the GRB.
+  d_pos_e_iso: 2e51 # Positive uncertainty on the isotropic energy of the GRB. 
+  ni_m : 0.3 # Nickel mass ejected by the SN [solar masses].
+  d_neg_ni_m: 0.04 # Negative uncertainty on the nickel mass ejected by the SN.
+  d_pos_ni_m: 0.04 # Positive uncertainty on the nickel mass ejected by the SN.
+  ej_m: 4 # Total mass of the SN ejecta [solar masses].
+  d_neg_ej_m: 1 # Negative uncertainty on the total mass ejected by the SN.
+  d_pos_ej_m: 2 # Positive uncertainty on the total mass ejected by the SN.
+  E_p: 100 # Peak energy of the GRB [keV]
+  dE_p: 10 # Uncertainty on E_p.
+  e_k: 1e52 # Kinetic energy of the SN [erg].
+  d_neg_e_k: 1e51 # Negative uncertainty on the kinetic energy of the SN.
+  d_pos_e_k: 5e50 # Positive uncertainty on the kinetic energy of the SN.
+  open_deg: 3 # Half-opening angle of the GRB jet [degrees].
+  d_open_deg: 1 # Uncertainty on the half-opening angle of the GRB jet.
+  v_Fe_expansion: 21000 # Expansion velocity measured from the Fe II feature of the Ic-BL spectrum at peak light [km/s].
+  dv_Fe_expansion: 4000 # Uncertainty on vFe.
+  v_Si_expansion: 15000 # Expansion velocity measured from the Si II feature of the Ic-BL spectrum at peak light [km/s].
+  dv_Si_expansion: 3000 # Uncertainty on vSi.
+  v_photospheric: 20000 # Inferred supernova photosphere velocity at peak light [km/s].
+  d_neg_v_photospheric : 5000 # Negative uncertainty for photosphere velocity.
+  d_pos_v_photospheric: 1000 # Positive uncertainty for photosphere velocity.
+  z: 0.4 # Redshift of the event.
+  dz : 0.1 # Uncertainty on redshift.
+  T90: 24 # GRB duration [sec]
+  dT90 : 3 # Error on GRB duration.
+  log_e_gam: 47.3 # Beaming corrected GRB energy [erg]. Log scaled.
+  dlog_e_gam : 42 # Uncertainty on beaming corrected GRB energy.
+  log_e_radio: # GRB energy measured in the radio regime [erg]. Log scaled.
+  d_log_e_radio: # Uncertainty on GRB energy measured in the radio regime. Log scaled.
+  t_peak : 11.5 # Peak time of the SN [days]
+  dt_peak: 4 # Error on the peak time of the SN.
+  n: 1 # Circumburst density [cm^{-3}]
+  p: # Electron power law index.
+  dp : # Uncertainty on above.
+  PrimarySources : # Link to the source publication when they are the source of these metadata calculations.
+  SecondarySources : # Link to the source publication if they cite other publications that computed the metadata.
+  Notes: # Notes.
+  Data: # A column used internally.
 
+# Table for general data about GRB triggers.
 TrigCoords:
-  grb_id:
-  sn_name :
-  trigtime:
-  ra:
-  ra_decimal:
-  dec :
-  dec_decimal :
-  ra_deci_err :
-  dec_deci_err:
-  source:
-  satellite:
+  grb_id: 240927D # GRB name
+  sn_name : 1998bw # SN name
+  trigtime: # Time of the GRB trigger or SN explosion time in UTC. Formatted as YYYY-MM-DDTHH:MM:SS.
+  ra: # The right ascension of the GRB [HH:MM:SS].
+  ra_decimal: # The decimal right ascension the GRB.
+  ra_deci_err : # Uncertainty on above.
+  dec : # The declination of the GRB [dd:mm:ss.s]. 
+  dec_decimal : # The decimal declination of the GRB.
+  dec_deci_err: # Uncertainty on above.
+  source: # Link to the source of this information.
+  satellite: Fermi # Name of satellite that detected the GRB.

@@ -1,13 +1,14 @@
-grb_name:
-sn_name:
-processed: False
-status: NewEvent
-radio:
-optical:
-spectra:
-xrays:
-files:
-  <filename>:
-    datatype:
-    source:
-    notes:
+grb_name: 750505A # For example
+sn_name: 4020bac # For example
+processed: False # This tag is used by the maintainers of the tool. Leave it alone.
+status: # This tag is used by the maintainers of the tool. Leave it alone.
+radio: False
+optical: False
+spectra: True # True if we have this data in the webtool, otherwise false.
+xrays: False
+files: # The following are examples only.
+  GRB750505A_SN4020bac_Spectra.txt:
+    datatype: Spectra
+    sourceurl: https://www.wis-tns.org/object/4020bac
+    notes: |
+      Taken from the transient name server.
