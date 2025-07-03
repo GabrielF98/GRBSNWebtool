@@ -1,0 +1,5 @@
+date	date_unit	mag	dmag	mag_limit	mag_unit	mag_type	band	instrument	time	time_unit	time_frame	dtime
+58498.2236609338	MJD	18.2425	0.0236722	0	unspecified	apparent	i	Pan-STARRS	0.35070954861111103	days	observer	NaN
+58498.2346116454	MJD	18.2439	0.0245855	0	unspecified	apparent	i	Pan-STARRS	0.3616602546296296	days	observer	NaN
+58498.2455789922	MJD	18.2571	0.0252281	0	unspecified	apparent	i	Pan-STARRS	0.3726276041666666	days	observer	NaN
+58498.2565488525	MJD	18.2432	0.0246111	0	unspecified	apparent	i	Pan-STARRS	0.3835974652777777	days	observer	NaN

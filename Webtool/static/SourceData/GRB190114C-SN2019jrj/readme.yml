@@ -50,6 +50,9 @@ filenames:
   GRB190114Cxrtlc.txt:
     datatype: Xray
     sourceurl: https://www.swift.ac.uk/xrt_curves/
-  OpenSNPhotometry.csv:
+  GRB190114C-SN2019jrj_Optical_2.txt:
     datatype: Optical
-    sourceurl: https://api.astrocats.space/SN2019jrj/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+    sourceurl: https://www.wis-tns.org/object/2019jrj
+    notes: |
+      Gathered from the Open SN catalogue, but it comes from TNS.
+
