@@ -133,12 +133,25 @@ No notes.
 
 ***
 
-### OpenSNPhotometry.csv
+### GRB171205A-SN2017iuk_Optical2.txt
 
-**Source:** https://api.astrocats.space/SN2017iuk/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+**Source:** https://star.pst.qub.ac.uk/ps1threepi/psdb/
 
 **Data-type:** Optical
 
 **Notes:**
 
-No notes.
+Sourced from the Open SN catalogue.
+
+
+***
+
+### GRB171205A-SN2017iuk_Optical3.txt
+
+**Source:** http://gsaweb.ast.cam.ac.uk/alerts/alertsindex
+
+**Data-type:** Optical
+
+**Notes:**
+
+Sourced from the Open SN catalogue.
