@@ -93,18 +93,6 @@ No notes.
 
 ***
 
-### OpenSNPhotometry.csv
-
-**Source:** https://api.astrocats.space/SN2010bh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-
-**Data-type:** Optical
-
-**Notes:**
-
-No notes.
-
-***
-
 ### OpenSNSpectra2.json
 
 **Source:** https://api.astrocats.space/SN2010bh/spectra/?item=2&format=json
