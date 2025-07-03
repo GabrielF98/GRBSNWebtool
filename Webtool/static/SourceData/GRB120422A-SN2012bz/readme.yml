@@ -35,9 +35,6 @@ filenames:
   GRB120422Axrtlc.txt:
     datatype: Xray
     sourceurl: https://www.swift.ac.uk/xrt_curves/
-  OpenSNPhotometry.csv:
-    datatype: Optical
-    sourceurl: https://api.astrocats.space/SN2012bz/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
   OpenSNSpectra2.json:
     datatype: Spectra
     sourceurl: https://api.astrocats.space/SN2012bz/spectra/?item=2&format=json
