@@ -485,16 +485,3 @@ The file contained the following preamble:
 
 Taken from the transient name server. 
 The original name of the file was: tns_2020bvc_2020-02-05_13-08-02_FTN_FLOYDS-N_Global_SN_Project.ascii
-
-
-***
-
-### OpenSNPhotometry.csv
-
-**Source:** https://api.astrocats.space/SN2020bvc/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-
-**Data-type:** Optical
-
-**Notes:**
-
-No notes.
