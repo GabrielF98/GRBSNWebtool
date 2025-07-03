@@ -178,15 +178,3 @@ No correction for Galactic extinction is applied.
 **Notes:**
 
 No notes.
-
-***
-
-### OpenSNPhotometry.csv
-
-**Source:** https://api.astrocats.space/AT2019oyw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-
-**Data-type:** Optical
-
-**Notes:**
-
-No notes.
