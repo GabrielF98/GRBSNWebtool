@@ -666,5 +666,17 @@
     "https://ui.adsabs.harvard.edu/abs/2012A&A...538A.120L/abstract": {
         "names": "Lennarz et al.",
         "year": "2012"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2014Ap&SS.354...89B/abstract": {
+        "names": "Brown et al.",
+        "year": "2014"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2014ApJS..213...19B/abstract": {
+        "names": "Bianco et al.",
+        "year": "2014"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2006ApJ...645L..21M/abstract": {
+        "names": "Modjaz et al.",
+        "year": "2006"
     }
 }

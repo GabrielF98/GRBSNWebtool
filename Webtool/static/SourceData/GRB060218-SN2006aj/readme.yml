@@ -102,9 +102,21 @@ filenames:
   GRB060218xrtlc.txt:
     datatype: Xray
     sourceurl: https://www.swift.ac.uk/xrt_curves/
-  OpenSNPhotometry.csv:
+  GRB060218-SN2006aj_Optical6.txt:
     datatype: Optical
-    sourceurl: https://api.astrocats.space/SN2006aj/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2014Ap&SS.354...89B/abstract
+    notes: |
+      Sourced from the Open SN catalogue.
+  GRB060218-SN2006aj_Optical7.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2014ApJS..213...19B/abstract
+    notes: |
+      Sourced from the Open SN catalogue.
+  GRB060218-SN2006aj_Optical8.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2006ApJ...645L..21M/abstract
+    notes: |
+      Sourced from the Open SN catalogue.
   OpenSNSpectra2.json:
     datatype: Spectra
     sourceurl: https://api.astrocats.space/SN2006aj/spectra/?item=2&format=json

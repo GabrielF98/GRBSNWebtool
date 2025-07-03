@@ -186,15 +186,42 @@ No notes.
 
 ***
 
-### OpenSNPhotometry.csv
+### GRB060218-SN2006aj_Optical6.txt
 
-**Source:** https://api.astrocats.space/SN2006aj/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+**Source:** https://ui.adsabs.harvard.edu/abs/2014Ap&SS.354...89B/abstract
 
 **Data-type:** Optical
 
 **Notes:**
 
-No notes.
+Sourced from the Open SN catalogue.
+
+
+***
+
+### GRB060218-SN2006aj_Optical7.txt
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2014ApJS..213...19B/abstract
+
+**Data-type:** Optical
+
+**Notes:**
+
+Sourced from the Open SN catalogue.
+
+
+***
+
+### GRB060218-SN2006aj_Optical8.txt
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2006ApJ...645L..21M/abstract
+
+**Data-type:** Optical
+
+**Notes:**
+
+Sourced from the Open SN catalogue.
+
 
 ***
 
