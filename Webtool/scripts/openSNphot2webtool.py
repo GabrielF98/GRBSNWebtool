@@ -14,7 +14,7 @@ for i in os.listdir("../static/SourceData"):
 for folder in folders:
     os.chdir(folder)
     if os.path.exists("OpenSNPhotometry.csv"):
-        open_sn = pd.read_csv("OpenSNPhotometry.csv")
+        open_sn = pd.read_csv("OpenSNPhotometry.csv", sep=",")
 
         optical_file_sources = []
         if os.path.exists("readme.yml"):
