@@ -125,15 +125,28 @@ Notes: GRB 980425/SN 1998bw was observed with the LBA using an array comprising 
 
 ***
 
-### OpenSNPhotometry.csv
+### GRB980425-SN1998bw_Optical_7.txt
 
-**Source:** https://api.astrocats.space/SN1998bw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+**Source:** https://ui.adsabs.harvard.edu/abs/1998Natur.395..670G/abstract
 
 **Data-type:** Optical
 
 **Notes:**
 
-Notes: The OpenSN Catalogue did not return any uncertainties for the early time data. An uncertainty of 0.05 on VBRI magnitudes and an uncertainty of 0.1 on U magnitudes was added manually from Galama et al. (1998).
+Sourced from the Open SN catalogue.
+
+
+***
+
+### GRB980425-SN1998bw_Optical_8.txt
+
+**Source:** http://dau.itep.ru/sn/node/72
+
+**Data-type:** Optical
+
+**Notes:**
+
+Sourced from the Open SN catalogue.
 
 
 ***
