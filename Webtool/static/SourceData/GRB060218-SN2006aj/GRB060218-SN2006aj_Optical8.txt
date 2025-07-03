@@ -22,6 +22,6 @@ date	date_unit	mag	dmag	mag_limit	mag_unit	mag_type	band	instrument	time	time_un
 53797.118	MJD	17.507	0.025	0	unspecified	apparent	V	NaN	12.969030092592591	days	observer	NaN
 53798.15	MJD	17.539	0.034	0	unspecified	apparent	V	NaN	14.001030092592591	days	observer	NaN
 53803.161	MJD	17.981	0.074	0	unspecified	apparent	V	NaN	19.012030092592592	days	observer	NaN
-53803.174	MJD	17.983	0.082	0	unspecified	apparent	V	NaN	19.025030092592598	days	observer	NaN
+53803.174	MJD	17.983	0.082	0	unspecified	apparent	V	NaN	19.0250300925926	days	observer	NaN
 53805.114	MJD	18.167	0.105	0	unspecified	apparent	V	NaN	20.965030092592592	days	observer	NaN
 53807.111	MJD	18.513	0.133	0	unspecified	apparent	V	NaN	22.96203009259259	days	observer	NaN
