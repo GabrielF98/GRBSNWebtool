@@ -51,12 +51,14 @@ filenames:
     sourceurl: https://ui.adsabs.harvard.edu/abs/2014MNRAS.444.3151V/abstract
     notes: |
       Notes: WSRT observations of GRB 130427A, with ΔT the mid-point of each observation in days after the Fermi/GBM trigger time. The long 4.8 GHz observations on April 28/29 and 29/30 have been divided up into 1-h time intervals and the results are given at the bottom of the table.
+  GRB130427A-SN2013cq_Optical4.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2013ApJ...776...98X/abstract
+    notes: |
+      Sourced from the Open SN catalogue.
   GRB130427Axrtlc.txt:
     datatype: Xray
     sourceurl: https://www.swift.ac.uk/xrt_curves/
-  OpenSNPhotometry.csv:
-    datatype: Optical
-    sourceurl: https://api.astrocats.space/SN2013cq/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
   OpenSNSpectra0.json:
     datatype: Spectra
     sourceurl: https://api.astrocats.space/SN2013cq/spectra/?item=0&format=json
