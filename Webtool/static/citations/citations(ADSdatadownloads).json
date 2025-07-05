@@ -690,5 +690,13 @@
     "https://ui.adsabs.harvard.edu/abs/1993BICDS..42...17T/abstract": {
         "names": "Tsvetkov & Bartunov",
         "year": "1993"
+    },
+    "https://star.pst.qub.ac.uk/ps1threepi/psdb/": {
+        "names": "The Pan-STARRS Survey for Transients",
+        "year": ""
+    },
+    "http://gsaweb.ast.cam.ac.uk/alerts/alertsindex": {
+        "names": "",
+        "year": ""
     }
 }
