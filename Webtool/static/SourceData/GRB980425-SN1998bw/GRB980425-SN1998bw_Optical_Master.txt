@@ -448,5 +448,5 @@ NaN	706.0	I	24.7	1	NaN	VLT	NaN	days	AB	apparent	observer	NaN	NaN	https://ui.adsa
 1998-Jun-30.3	51.0	J	15.11	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	0.04	0.9	observer
 1998-Jun-30.3	51.0	H	14.98	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	0.04	0.9	observer
 1998-Jun-30.3	51.0	K	14.89	0	0.04	NTT+SofI	yyyy-month-deciday	days	apparent	arcsec	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/2001ApJ...555..900P/abstract	NaN	0.04	0.9	observer
-50943.13	14.22084	C	13.5	0	NaN	NaN	MJD	days	unspecified	apparent	observer	NaN	NaN	http://dau.itep.ru/sn/node/72	NaN	NaN	NaN	NaN
-50946.14	17.23084	C	13.5	0	NaN	NaN	MJD	days	unspecified	apparent	observer	NaN	NaN	http://dau.itep.ru/sn/node/72	NaN	NaN	NaN	NaN
+50943.13	14.22084	C	13.5	0	NaN	NaN	MJD	days	unspecified	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1993BICDS..42...17T/abstract	NaN	NaN	NaN	NaN
+50946.14	17.23084	C	13.5	0	NaN	NaN	MJD	days	unspecified	apparent	observer	NaN	NaN	https://ui.adsabs.harvard.edu/abs/1993BICDS..42...17T/abstract	NaN	NaN	NaN	NaN

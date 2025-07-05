@@ -65,7 +65,7 @@ filenames:
       Sourced from the Open SN catalogue.
   GRB980425-SN1998bw_Optical_8.txt:
     datatype: Optical
-    sourceurl: http://dau.itep.ru/sn/node/72
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1993BICDS..42...17T/abstract
     notes: |
       Sourced from the Open SN catalogue.
   OpenSNSpectra2.json:

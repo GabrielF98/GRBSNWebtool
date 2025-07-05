@@ -140,7 +140,7 @@ Sourced from the Open SN catalogue.
 
 ### GRB980425-SN1998bw_Optical_8.txt
 
-**Source:** http://dau.itep.ru/sn/node/72
+**Source:** https://ui.adsabs.harvard.edu/abs/1993BICDS..42...17T/abstract
 
 **Data-type:** Optical
 
