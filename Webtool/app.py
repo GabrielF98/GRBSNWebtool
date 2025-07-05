@@ -1135,7 +1135,7 @@ def event(event_id):
     if exists(
         "static/SourceData/" + str(event_id) + "/" + str(event_id) + "_Xray_Master.txt"
     ):
-        # Add 1 to track variable if openSN had data
+        # Add 1 to track variable if there is data
         track += 1
 
         # Get the files that were downloaded from the ADS
@@ -1352,7 +1352,8 @@ def event(event_id):
     ######################################################################################
     ##### OPTICAL##########################################################################
     ######################################################################################
-    # Tracker variable to tell us whether theres been either OpenSN data or ADS data.
+
+    # Tracker variable to tell us whether there is data.
     track = 0
 
     t0_utc = "0"
@@ -1374,157 +1375,6 @@ def event(event_id):
     ################################
     legend_it = []
 
-    if exists("./static/SourceData/" + str(event_id) + "/" + "OpenSNPhotometry.csv"):
-        # Add 1 to track variable if openSN had data
-        track += 1
-
-        # This is supposed to show the number to be assigned to a particular source.
-        optical_source_indices = []
-        # Extract and plot the optical photometry data from the photometry file for each SN
-
-        data = pd.read_csv(
-            "./static/SourceData/" + str(event_id) + "/" + "OpenSNPhotometry.csv"
-        )
-        if data.empty == False:
-            # Indexing the sources
-            for dictionaries in data["refs"]:
-                dictionaries = ast.literal_eval(dictionaries)
-                # Sub list of the indices for each reference
-                optical_source_indices_sub = []
-                for reference in dictionaries:
-                    # Check if its already in the needed_dict
-                    if reference["url"] in needed_dict.keys():
-                        optical_source_indices_sub.append(
-                            (list(needed_dict.keys()).index(reference["url"]) + 1)
-                        )
-
-                    else:
-                        # Extract the names and the years from the citation
-                        p = list(str(reference["name"]).split("("))
-
-                        # Account for non ads references
-                        if len(p) > 1:
-                            names = p[0][:-1]
-                            year = p[1][:-1]
-
-                            # Add to the needed_dict
-                            needed_dict[reference["url"]] = {
-                                "names": names,
-                                "year": year,
-                            }
-
-                        else:
-                            names = reference["name"]
-                            # Add to the needed_dict
-                            needed_dict[reference["url"]] = {"names": names, "year": ""}
-
-                        # Save the optical ref to use as a key in event html when accessing the reference.
-                        optical_refs.append(reference["url"])
-                        # Append the number (now only needed for the graph)
-                        optical_source_indices_sub.append(
-                            (list(needed_dict.keys()).index(reference["url"]) + 1)
-                        )
-
-                # Get the numbering for the sources to display in the right order on the plots
-                if len(optical_source_indices_sub) > 1:
-                    optical_source_indices.append(np.sort(optical_source_indices_sub))
-                else:
-                    optical_source_indices.append(optical_source_indices_sub)
-
-            # Add the lists of indices to the DF
-            data["indices"] = optical_source_indices
-
-            # Splitting the data by band for plotting purposes
-            bands = set(data["band"].astype(str))
-
-            color = Category20_20.__iter__()
-            for j in bands:
-                if "nan" in str(j).lower():
-                    # New df of just points without a band name (ie nan)
-                    new_df = data.loc[data["band"].isna()].copy()
-
-                    # Say that the band is unknown
-                    new_df["band"] = ["Unknown"] * len(new_df["band"])
-
-                    # Band label for the legend
-                    band_label = "Unknown"
-
-                else:
-                    # Create a df with just the band j
-                    new_df = data.loc[data["band"] == j].copy()
-
-                    # Band label for the legend
-                    band_label = str(j)
-
-                # Convert the times from MJD to UTC, then subtract the first timestamp
-                mjd_time = np.array(new_df["time"])
-                t_after_t0 = np.zeros(len(new_df["time"]))
-                t0 = min(mjd_time)  # earliest mjd in time
-                t0_utc = Time(t0, format="mjd").utc.iso
-
-                for k in range(len(mjd_time)):
-                    t_after_t0[k] = float(mjd_time[k]) - float(grb_time_mjd)
-
-                # Add this to the df in the position time used to be in.
-                new_df.loc[:, "time_since"] = t_after_t0
-
-                # Errors on magnitudes
-                optical_error_df = new_df[
-                    ["time_since", "magnitude", "e_magnitude"]
-                ].copy()
-                optical_error_df = optical_error_df[
-                    ~optical_error_df["e_magnitude"].isnull()
-                ]
-                optical_error_df["dmags"] = list(
-                    zip(
-                        optical_error_df["magnitude"] - optical_error_df["e_magnitude"],
-                        optical_error_df["magnitude"] + optical_error_df["e_magnitude"],
-                    )
-                )
-                optical_error_df["dmag_locs"] = list(
-                    zip(optical_error_df["time_since"], optical_error_df["time_since"])
-                )
-
-                optical_error = ColumnDataSource(optical_error_df)
-                optical_data = ColumnDataSource(new_df)
-
-                # New color
-                col = next(color)
-                b = optical.multi_line(
-                    "dmag_locs",
-                    "dmags",
-                    source=optical_error,
-                    muted_color="gray",
-                    muted_alpha=0.05,
-                    color=col,
-                    line_color=col,
-                    line_width=2,
-                )
-                c = optical.scatter(
-                    "time_since",
-                    "magnitude",
-                    source=optical_data,
-                    muted_color="gray",
-                    muted_alpha=0.05,
-                    size=7,
-                    fill_color=col,
-                    color=col,
-                )
-                legend_it.append((j + "  ", [c, b]))
-
-                # Tooltips of what will display in the hover mode
-                # Format the tooltip
-                tooltips = [
-                    ("Time", "@time_since"),
-                    ("Magnitude", "@magnitude"),
-                    ("Band", "@band"),
-                    ("Source", "@indices"),
-                    ("Unit", "@mag_unit"),
-                ]
-
-                # Add the HoverTool to the figure
-                optical.add_tools(HoverTool(renderers=[c], tooltips=tooltips))
-
     #################################
     # ADS data ######################
     #################################
@@ -1536,7 +1386,7 @@ def event(event_id):
         + str(event_id)
         + "_Optical_Master.txt"
     ):
-        # Add 1 to track variable if openSN had data
+        # Add 1 to track variable if ADS data
         track += 1
 
         # Get the files that were downloaded from the ADS
