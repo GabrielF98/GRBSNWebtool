@@ -65,15 +65,3 @@ Notes:  Observer-frame days after burst trigger at 2009 November 27, 23:25:45. V
 **Notes:**
 
 No notes.
-
-***
-
-### OpenSNPhotometry.csv
-
-**Source:** https://api.astrocats.space/SN2009nz/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-
-**Data-type:** Optical
-
-**Notes:**
-
-No notes.

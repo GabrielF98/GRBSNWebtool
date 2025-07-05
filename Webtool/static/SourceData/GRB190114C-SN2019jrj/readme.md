@@ -120,12 +120,12 @@ No notes.
 
 ***
 
-### OpenSNPhotometry.csv
+### GRB190114C-SN2019jrj_Optical_2.txt
 
-**Source:** https://api.astrocats.space/SN2019jrj/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+**Source:** https://www.wis-tns.org/object/2019jrj
 
 **Data-type:** Optical
 
 **Notes:**
 
-No notes.
+Gathered from the Open SN catalogue, but it comes from TNS.

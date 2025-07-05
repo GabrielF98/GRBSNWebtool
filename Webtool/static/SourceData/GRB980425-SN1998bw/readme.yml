@@ -58,11 +58,16 @@ filenames:
     sourceurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...872...28P/abstract
     notes: |
       Notes: GRB 980425/SN 1998bw was observed with the LBA using an array comprising the Australia Telescope Compact Array (ATCA; phased array of five 22 m dishes), Ceduna, Hobart and Parkes, on 2015 November 16 (Program ID V541A). The observing setup used 2×16 MHz subbands in dual polariza- tion, Nyquist sampled with 2 bits (256 Mbps data rate), and centered on a sky frequency of 1.65 GHz.3σ limit on the spectral luminosity assuming redshifts listed in Table 1.
-  OpenSNPhotometry.csv:
+  GRB980425-SN1998bw_Optical_7.txt:
     datatype: Optical
-    sourceurl: https://api.astrocats.space/SN1998bw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1998Natur.395..670G/abstract
     notes: |
-      Notes: The OpenSN Catalogue did not return any uncertainties for the early time data. An uncertainty of 0.05 on VBRI magnitudes and an uncertainty of 0.1 on U magnitudes was added manually from Galama et al. (1998).
+      Sourced from the Open SN catalogue.
+  GRB980425-SN1998bw_Optical_8.txt:
+    datatype: Optical
+    sourceurl: https://ui.adsabs.harvard.edu/abs/1993BICDS..42...17T/abstract
+    notes: |
+      Sourced from the Open SN catalogue.
   OpenSNSpectra2.json:
     datatype: Spectra
     sourceurl: https://api.astrocats.space/SN1998bw/spectra/?item=2&format=json

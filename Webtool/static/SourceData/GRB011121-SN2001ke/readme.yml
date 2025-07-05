@@ -53,8 +53,8 @@ filenames:
       date column: UT date of the start of each observation.
       band column: Center frequency.
       flux_density column: Peak flux density at the best-fit position of the radio transient, with the error given as the rms noise on the image.
-  OpenSNPhotometry.csv:
+  GRB011121-SN2001ke_Optical4.txt:
     datatype: Optical
-    sourceurl: https://api.astrocats.space/SN2001ke/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012A&A...538A.120L/abstract
     notes: |
-      No notes.
+      Gathered using the OpenSN catalogue.

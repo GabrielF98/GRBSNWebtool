@@ -57,6 +57,14 @@ filenames:
   GRB171205Axrtlc.txt:
     datatype: Xray
     sourceurl: https://www.swift.ac.uk/xrt_curves/
-  OpenSNPhotometry.csv:
+  GRB171205A-SN2017iuk_Optical2.txt:
     datatype: Optical
-    sourceurl: https://api.astrocats.space/SN2017iuk/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+    sourceurl: https://star.pst.qub.ac.uk/ps1threepi/psdb/
+    notes: |
+      Sourced from the Open SN catalogue.
+  GRB171205A-SN2017iuk_Optical3.txt:
+    datatype: Optical
+    sourceurl: http://gsaweb.ast.cam.ac.uk/alerts/alertsindex
+    notes: |
+      Sourced from the Open SN catalogue.
+

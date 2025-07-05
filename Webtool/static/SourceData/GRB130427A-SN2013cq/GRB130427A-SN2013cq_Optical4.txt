@@ -1,0 +1,17 @@
+date	date_unit	mag	dmag	mag_limit	mag_unit	mag_type	band	instrument	time	time_unit	time_frame	dtime
+56415.552375	MJD	23.52	NaN	0	unspecified	apparent	r'	NaN	6.227409722222222	days	observer	NaN
+56417.514805	MJD	22.1683	NaN	0	unspecified	apparent	r'	NaN	8.189839722222223	days	observer	NaN
+56417.943915	MJD	22.5715	NaN	0	unspecified	apparent	r'	NaN	8.618949722222222	days	observer	NaN
+56418.959805	MJD	22.5202	NaN	0	unspecified	apparent	r'	NaN	9.634839722222225	days	observer	NaN
+56421.034175	MJD	22.5305	NaN	0	unspecified	apparent	r'	NaN	11.709209722222225	days	observer	NaN
+56423.036275	MJD	22.2723	NaN	0	unspecified	apparent	r'	NaN	13.711309722222222	days	observer	NaN
+56423.555075	MJD	22.1475	NaN	0	unspecified	apparent	r'	NaN	14.230109722222222	days	observer	NaN
+56425.012275	MJD	22.1267	NaN	0	unspecified	apparent	r'	NaN	15.687309722222222	days	observer	NaN
+56425.988175	MJD	22.1267	NaN	0	unspecified	apparent	r'	NaN	16.663209722222224	days	observer	NaN
+56427.952175	MJD	22.1996	NaN	0	unspecified	apparent	r'	NaN	18.627209722222226	days	observer	NaN
+56429.859575	MJD	22.21	NaN	0	unspecified	apparent	r'	NaN	20.53460972222222	days	observer	NaN
+56433.038075	MJD	22.7142	NaN	0	unspecified	apparent	r'	NaN	23.71310972222222	days	observer	NaN
+56433.935375	MJD	22.8352	NaN	0	unspecified	apparent	r'	NaN	24.610409722222222	days	observer	NaN
+56434.985375	MJD	22.7748	NaN	0	unspecified	apparent	r'	NaN	25.660409722222223	days	observer	NaN
+56435.832975	MJD	22.7547	NaN	0	unspecified	apparent	r'	NaN	26.508009722222223	days	observer	NaN
+56436.963975	MJD	22.8652	NaN	0	unspecified	apparent	r'	NaN	27.639009722222223	days	observer	NaN

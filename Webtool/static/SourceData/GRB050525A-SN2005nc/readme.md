@@ -104,12 +104,12 @@ No notes.
 
 ***
 
-### OpenSNPhotometry.csv
+### GRB050525A-SN2005nc_Optical1.txt
 
-**Source:** https://api.astrocats.space/SN2005nc/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+**Source:** https://ui.adsabs.harvard.edu/abs/2012A&A...538A.120L/abstract
 
 **Data-type:** Optical
 
 **Notes:**
 
-No notes.
+Sourced from the Open SN catalogue.

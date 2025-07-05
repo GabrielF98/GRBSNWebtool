@@ -72,18 +72,6 @@ Magnitudes are given originally relative to the boldface epoch. I have fixed thi
 
 ***
 
-### OpenSNPhotometry.csv
-
-**Source:** https://api.astrocats.space/SN2003lw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-
-**Data-type:** Optical
-
-**Notes:**
-
-No notes.
-
-***
-
 ### OpenSNSpectra0.json
 
 **Source:** https://api.astrocats.space/SN2003lw/spectra/?item=0&format=json

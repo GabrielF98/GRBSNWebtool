@@ -662,5 +662,41 @@
     "https://ui.adsabs.harvard.edu/abs/1997Natur.387..479G/abstract": {
         "names": "Galama et al.",
         "year": "1997"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2012A&A...538A.120L/abstract": {
+        "names": "Lennarz et al.",
+        "year": "2012"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2014Ap&SS.354...89B/abstract": {
+        "names": "Brown et al.",
+        "year": "2014"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2014ApJS..213...19B/abstract": {
+        "names": "Bianco et al.",
+        "year": "2014"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2006ApJ...645L..21M/abstract": {
+        "names": "Modjaz et al.",
+        "year": "2006"
+    },
+    "https://ui.adsabs.harvard.edu/abs/2013ApJ...776...98X/abstract": {
+        "names": "Xu et al.",
+        "year": "2013"
+    },
+    "https://ui.adsabs.harvard.edu/abs/1998Natur.395..670G/abstract": {
+        "names": "Galama et al.",
+        "year": "1998"
+    },
+    "https://ui.adsabs.harvard.edu/abs/1993BICDS..42...17T/abstract": {
+        "names": "Tsvetkov & Bartunov",
+        "year": "1993"
+    },
+    "https://star.pst.qub.ac.uk/ps1threepi/psdb/": {
+        "names": "The Pan-STARRS Survey for Transients",
+        "year": ""
+    },
+    "http://gsaweb.ast.cam.ac.uk/alerts/alertsindex": {
+        "names": "Gaia Photometric Alerts",
+        "year": ""
     }
 }

@@ -137,6 +137,3 @@ filenames:
   GRB190829Axrtlc.txt:
     datatype: Xray
     sourceurl: https://www.swift.ac.uk/xrt_curves/
-  OpenSNPhotometry.csv:
-    datatype: Optical
-    sourceurl: https://api.astrocats.space/AT2019oyw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv

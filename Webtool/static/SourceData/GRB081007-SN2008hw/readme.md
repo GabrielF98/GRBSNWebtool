@@ -62,15 +62,3 @@ Note (2): Galactic extinction has not been removed.
 **Notes:**
 
 No notes.
-
-***
-
-### OpenSNPhotometry.csv
-
-**Source:** https://api.astrocats.space/SN2008hw/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-
-**Data-type:** Optical
-
-**Notes:**
-
-No notes.

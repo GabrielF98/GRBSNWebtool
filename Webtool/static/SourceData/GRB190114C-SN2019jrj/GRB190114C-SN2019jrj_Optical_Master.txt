@@ -1,73 +1,77 @@
-time	band	mag	mag_limit	dmag	instrument	seeing	time_unit	mag_unit	mag_type	extinction_corrected	dtime	time_frame	reference
-0.677	g'	20.61	0	0.32	GIT	3.63	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.697	r'	19.46	0	0.07	GIT	3.23	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.707	i'	19.48	0	0.16	GIT	3.77	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.724	R	19.39	0	0.06	DFOT	3.18	days	Vega	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.729	R	19.46	0	0.07	DFOT	3.25	days	Vega	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.748	R	19.7	0	0.1	HCT	2.18	days	Vega	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.803	R	19.81	0	0.09	HCT	2.1	days	Vega	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-1.827	r'	19.96	0	0.2	GIT	3.27	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-1.839	r'	20.04	0	0.26	GIT	3.44	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-2.715	r'	20.71	0	0.27	GIT	3.57	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-2.782	i'	19.78	0	0.24	GIT	3.21	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-3.819	i'	19.53	0	0.45	GIT	4.18	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-4.813	r'	20.23	0	0.37	GIT	4.51	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-9.753	R	21.38	0	0.16	HCT	2.73	days	Vega	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-9.757	r'	21.53	0	0.32	GIT	3.98	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-9.791	i'	20.35	0	0.39	GIT	4.04	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-10.788	g'	21.96	0	0.4	GIT	4.08	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-10.801	r'	21.35	0	0.41	GIT	4.01	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-10.813	i'	20.05	0	0.37	GIT	4.05	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-11.77	r'	21.44	0	0.45	GIT	4.35	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-11.782	i'	20.32	0	0.36	GIT	4.07	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-12.757	r'	21.65	0	0.35	GIT	4.85	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-12.768	r'	21.74	0	0.41	GIT	4.95	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-12.8	i'	20.11	0	0.22	GIT	3.81	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-13.703	g'	21.7	0	0.4	GIT	4.04	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-13.726	r'	21.56	0	0.36	GIT	4.03	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-13.736	r'	21.44	0	0.28	GIT	4.03	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-13.747	i'	20.29	0	0.24	GIT	3.97	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-15.692	r'	21.35	0	0.31	GIT	4.12	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-15.728	i'	20.59	0	0.35	GIT	4.01	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-18.736	i'	20.76	0	0.33	GIT	3.97	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-19.772	i'	20.57	0	0.24	GIT	3.72	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-24.709	r'	21.26	0	0.3	GIT	4.09	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-24.724	i'	20.42	0	0.3	GIT	4.09	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-25.697	r'	21.25	0	0.31	GIT	4.17	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-25.714	i'	20.7	0	0.4	GIT	4.18	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.677	g'	20.61	0	0.32	GIT	3.63	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.697	r'	19.46	0	0.07	GIT	3.23	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.707	i'	19.48	0	0.16	GIT	3.77	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.724	R	19.39	0	0.06	DFOT	3.18	days	Vega	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.729	R	19.46	0	0.07	DFOT	3.25	days	Vega	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.748	R	19.7	0	0.1	HCT	2.18	days	Vega	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-0.803	R	19.81	0	0.09	HCT	2.1	days	Vega	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-1.827	r'	19.96	0	0.2	GIT	3.27	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-1.839	r'	20.04	0	0.26	GIT	3.44	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-2.715	r'	20.71	0	0.27	GIT	3.57	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-2.782	i'	19.78	0	0.24	GIT	3.21	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-3.819	i'	19.53	0	0.45	GIT	4.18	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-4.813	r'	20.23	0	0.37	GIT	4.51	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-9.753	R	21.38	0	0.16	HCT	2.73	days	Vega	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-9.757	r'	21.53	0	0.32	GIT	3.98	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-9.791	i'	20.35	0	0.39	GIT	4.04	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-10.788	g'	21.96	0	0.4	GIT	4.08	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-10.801	r'	21.35	0	0.41	GIT	4.01	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-10.813	i'	20.05	0	0.37	GIT	4.05	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-11.77	r'	21.44	0	0.45	GIT	4.35	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-11.782	i'	20.32	0	0.36	GIT	4.07	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-12.757	r'	21.65	0	0.35	GIT	4.85	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-12.768	r'	21.74	0	0.41	GIT	4.95	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-12.8	i'	20.11	0	0.22	GIT	3.81	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-13.703	g'	21.7	0	0.4	GIT	4.04	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-13.726	r'	21.56	0	0.36	GIT	4.03	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-13.736	r'	21.44	0	0.28	GIT	4.03	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-13.747	i'	20.29	0	0.24	GIT	3.97	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-15.692	r'	21.35	0	0.31	GIT	4.12	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-15.728	i'	20.59	0	0.35	GIT	4.01	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-18.736	i'	20.76	0	0.33	GIT	3.97	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-19.772	i'	20.57	0	0.24	GIT	3.72	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-24.709	r'	21.26	0	0.3	GIT	4.09	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-24.724	i'	20.42	0	0.3	GIT	4.09	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-25.697	r'	21.25	0	0.31	GIT	4.17	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
-25.714	i'	20.7	0	0.4	GIT	4.18	days	AB	apparent	False	NaN	observer	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract
+date	date_unit	mag	dmag	mag_limit	mag_unit	mag_type	band	instrument	time	time_unit	time_frame	dtime	reference	seeing	extinction_corrected
+58498.2236609338	MJD	18.2425	0.0236722	0	unspecified	apparent	i	Pan-STARRS	0.35071	days	observer	NaN	https://www.wis-tns.org/object/2019jrj	NaN	NaN
+58498.2346116454	MJD	18.2439	0.0245855	0	unspecified	apparent	i	Pan-STARRS	0.36166	days	observer	NaN	https://www.wis-tns.org/object/2019jrj	NaN	NaN
+58498.2455789922	MJD	18.2571	0.0252281	0	unspecified	apparent	i	Pan-STARRS	0.37263	days	observer	NaN	https://www.wis-tns.org/object/2019jrj	NaN	NaN
+58498.2565488525	MJD	18.2432	0.0246111	0	unspecified	apparent	i	Pan-STARRS	0.3836	days	observer	NaN	https://www.wis-tns.org/object/2019jrj	NaN	NaN
+NaN	NaN	20.61	0.32	0	AB	apparent	g'	GIT	0.677	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.63	False
+NaN	NaN	19.46	0.07	0	AB	apparent	r'	GIT	0.697	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.23	False
+NaN	NaN	19.48	0.16	0	AB	apparent	i'	GIT	0.707	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.77	False
+NaN	NaN	19.39	0.06	0	Vega	apparent	R	DFOT	0.724	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.18	False
+NaN	NaN	19.46	0.07	0	Vega	apparent	R	DFOT	0.729	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.25	False
+NaN	NaN	19.7	0.1	0	Vega	apparent	R	HCT	0.748	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	2.18	False
+NaN	NaN	19.81	0.09	0	Vega	apparent	R	HCT	0.803	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	2.1	False
+NaN	NaN	19.96	0.2	0	AB	apparent	r'	GIT	1.827	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.27	False
+NaN	NaN	20.04	0.26	0	AB	apparent	r'	GIT	1.839	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.44	False
+NaN	NaN	20.71	0.27	0	AB	apparent	r'	GIT	2.715	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.57	False
+NaN	NaN	19.78	0.24	0	AB	apparent	i'	GIT	2.782	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.21	False
+NaN	NaN	19.53	0.45	0	AB	apparent	i'	GIT	3.819	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.18	False
+NaN	NaN	20.23	0.37	0	AB	apparent	r'	GIT	4.813	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.51	False
+NaN	NaN	21.38	0.16	0	Vega	apparent	R	HCT	9.753	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	2.73	False
+NaN	NaN	21.53	0.32	0	AB	apparent	r'	GIT	9.757	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.98	False
+NaN	NaN	20.35	0.39	0	AB	apparent	i'	GIT	9.791	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.04	False
+NaN	NaN	21.96	0.4	0	AB	apparent	g'	GIT	10.788	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.08	False
+NaN	NaN	21.35	0.41	0	AB	apparent	r'	GIT	10.801	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.01	False
+NaN	NaN	20.05	0.37	0	AB	apparent	i'	GIT	10.813	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.05	False
+NaN	NaN	21.44	0.45	0	AB	apparent	r'	GIT	11.77	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.35	False
+NaN	NaN	20.32	0.36	0	AB	apparent	i'	GIT	11.782	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.07	False
+NaN	NaN	21.65	0.35	0	AB	apparent	r'	GIT	12.757	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.85	False
+NaN	NaN	21.74	0.41	0	AB	apparent	r'	GIT	12.768	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.95	False
+NaN	NaN	20.11	0.22	0	AB	apparent	i'	GIT	12.8	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.81	False
+NaN	NaN	21.7	0.4	0	AB	apparent	g'	GIT	13.703	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.04	False
+NaN	NaN	21.56	0.36	0	AB	apparent	r'	GIT	13.726	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.03	False
+NaN	NaN	21.44	0.28	0	AB	apparent	r'	GIT	13.736	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.03	False
+NaN	NaN	20.29	0.24	0	AB	apparent	i'	GIT	13.747	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.97	False
+NaN	NaN	21.35	0.31	0	AB	apparent	r'	GIT	15.692	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.12	False
+NaN	NaN	20.59	0.35	0	AB	apparent	i'	GIT	15.728	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.01	False
+NaN	NaN	20.76	0.33	0	AB	apparent	i'	GIT	18.736	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.97	False
+NaN	NaN	20.57	0.24	0	AB	apparent	i'	GIT	19.772	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.72	False
+NaN	NaN	21.26	0.3	0	AB	apparent	r'	GIT	24.709	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.09	False
+NaN	NaN	20.42	0.3	0	AB	apparent	i'	GIT	24.724	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.09	False
+NaN	NaN	21.25	0.31	0	AB	apparent	r'	GIT	25.697	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.17	False
+NaN	NaN	20.7	0.4	0	AB	apparent	i'	GIT	25.714	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.18	False
+NaN	NaN	20.61	0.32	0	AB	apparent	g'	GIT	0.677	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.63	False
+NaN	NaN	19.46	0.07	0	AB	apparent	r'	GIT	0.697	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.23	False
+NaN	NaN	19.48	0.16	0	AB	apparent	i'	GIT	0.707	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.77	False
+NaN	NaN	19.39	0.06	0	Vega	apparent	R	DFOT	0.724	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.18	False
+NaN	NaN	19.46	0.07	0	Vega	apparent	R	DFOT	0.729	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.25	False
+NaN	NaN	19.7	0.1	0	Vega	apparent	R	HCT	0.748	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	2.18	False
+NaN	NaN	19.81	0.09	0	Vega	apparent	R	HCT	0.803	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	2.1	False
+NaN	NaN	19.96	0.2	0	AB	apparent	r'	GIT	1.827	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.27	False
+NaN	NaN	20.04	0.26	0	AB	apparent	r'	GIT	1.839	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.44	False
+NaN	NaN	20.71	0.27	0	AB	apparent	r'	GIT	2.715	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.57	False
+NaN	NaN	19.78	0.24	0	AB	apparent	i'	GIT	2.782	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.21	False
+NaN	NaN	19.53	0.45	0	AB	apparent	i'	GIT	3.819	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.18	False
+NaN	NaN	20.23	0.37	0	AB	apparent	r'	GIT	4.813	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.51	False
+NaN	NaN	21.38	0.16	0	Vega	apparent	R	HCT	9.753	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	2.73	False
+NaN	NaN	21.53	0.32	0	AB	apparent	r'	GIT	9.757	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.98	False
+NaN	NaN	20.35	0.39	0	AB	apparent	i'	GIT	9.791	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.04	False
+NaN	NaN	21.96	0.4	0	AB	apparent	g'	GIT	10.788	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.08	False
+NaN	NaN	21.35	0.41	0	AB	apparent	r'	GIT	10.801	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.01	False
+NaN	NaN	20.05	0.37	0	AB	apparent	i'	GIT	10.813	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.05	False
+NaN	NaN	21.44	0.45	0	AB	apparent	r'	GIT	11.77	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.35	False
+NaN	NaN	20.32	0.36	0	AB	apparent	i'	GIT	11.782	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.07	False
+NaN	NaN	21.65	0.35	0	AB	apparent	r'	GIT	12.757	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.85	False
+NaN	NaN	21.74	0.41	0	AB	apparent	r'	GIT	12.768	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.95	False
+NaN	NaN	20.11	0.22	0	AB	apparent	i'	GIT	12.8	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.81	False
+NaN	NaN	21.7	0.4	0	AB	apparent	g'	GIT	13.703	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.04	False
+NaN	NaN	21.56	0.36	0	AB	apparent	r'	GIT	13.726	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.03	False
+NaN	NaN	21.44	0.28	0	AB	apparent	r'	GIT	13.736	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.03	False
+NaN	NaN	20.29	0.24	0	AB	apparent	i'	GIT	13.747	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.97	False
+NaN	NaN	21.35	0.31	0	AB	apparent	r'	GIT	15.692	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.12	False
+NaN	NaN	20.59	0.35	0	AB	apparent	i'	GIT	15.728	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.01	False
+NaN	NaN	20.76	0.33	0	AB	apparent	i'	GIT	18.736	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.97	False
+NaN	NaN	20.57	0.24	0	AB	apparent	i'	GIT	19.772	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	3.72	False
+NaN	NaN	21.26	0.3	0	AB	apparent	r'	GIT	24.709	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.09	False
+NaN	NaN	20.42	0.3	0	AB	apparent	i'	GIT	24.724	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.09	False
+NaN	NaN	21.25	0.31	0	AB	apparent	r'	GIT	25.697	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.17	False
+NaN	NaN	20.7	0.4	0	AB	apparent	i'	GIT	25.714	days	observer	NaN	https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.5685M/abstract	4.18	False

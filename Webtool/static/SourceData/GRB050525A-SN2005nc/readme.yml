@@ -52,6 +52,8 @@ filenames:
   GRB050525Axrtlc.txt:
     datatype: Xray
     sourceurl: https://www.swift.ac.uk/xrt_curves/
-  OpenSNPhotometry.csv:
+  GRB050525A-SN2005nc_Optical1.txt:
     datatype: Optical
-    sourceurl: https://api.astrocats.space/SN2005nc/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
+    sourceurl: https://ui.adsabs.harvard.edu/abs/2012A&A...538A.120L/abstract
+    notes: |
+      Sourced from the Open SN catalogue.

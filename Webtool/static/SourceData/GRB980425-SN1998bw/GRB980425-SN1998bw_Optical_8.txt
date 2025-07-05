@@ -1,0 +1,3 @@
+date	date_unit	mag	dmag	mag_limit	mag_unit	mag_type	band	instrument	time	time_unit	time_frame	dtime
+50943.13	MJD	13.5	NaN	0	unspecified	apparent	C	NaN	14.220844907407407	days	observer	NaN
+50946.14	MJD	13.5	NaN	0	unspecified	apparent	C	NaN	17.23084490740741	days	observer	NaN

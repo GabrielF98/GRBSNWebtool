@@ -196,9 +196,6 @@ filenames:
       Summary of Measurements from Radio Observations. 3sigma limit on the spectral luminosity assuming redshifts listed in Table 1.
 
       The luminosity column show the 3sigma limit on the spectral luminosity assuming redshifts listed in Table 1.
-  OpenSNPhotometry.csv:
-    datatype: Optical
-    sourceurl: https://api.astrocats.space/SN2003dh/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
   OpenSNSpectra2.json:
     datatype: Spectra
     sourceurl: https://api.astrocats.space/SN2003dh/spectra/?item=2&format=json

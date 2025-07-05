@@ -110,23 +110,24 @@ Notes: WSRT observations of GRB 130427A, with ΔT the mid-point of each observat
 
 ***
 
+### GRB130427A-SN2013cq_Optical4.txt
+
+**Source:** https://ui.adsabs.harvard.edu/abs/2013ApJ...776...98X/abstract
+
+**Data-type:** Optical
+
+**Notes:**
+
+Sourced from the Open SN catalogue.
+
+
+***
+
 ### GRB130427Axrtlc.txt
 
 **Source:** https://www.swift.ac.uk/xrt_curves/
 
 **Data-type:** Xray
-
-**Notes:**
-
-No notes.
-
-***
-
-### OpenSNPhotometry.csv
-
-**Source:** https://api.astrocats.space/SN2013cq/photometry/time+magnitude+e_magnitude+band+ra+dec+source?format=csv
-
-**Data-type:** Optical
 
 **Notes:**
 
