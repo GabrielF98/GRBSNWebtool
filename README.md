@@ -20,7 +20,7 @@ To get in touch please email Gabriel Finneran at grbsnwebtool@gmail.com
 If your work has made use of the GRBSN webtool, please cite [this paper](https://doi.org/10.1016/j.ascom.2025.100954). We would also appreciate if you could add the following acknowledgement (or similar) to your work:
 
 ```text
-This research has made use of the GRBSN webtool, available at https://grbsn.watchertelescope.ie
+This research has made use of the GRBSN webtool, available at https://grbsn.stargategrb.space
 ```
 
 # Missing/bad data or missing GRB-SN associations 
