@@ -4,7 +4,13 @@
 ![](https://img.shields.io/badge/standardised-90%25-8A2BE2)
 [![Static Badge](https://img.shields.io/badge/doi-10.1016/j.ascom.2025.100954-f0b840)](https://doi.org/10.1016/j.ascom.2025.100954)
 
-This repository hosts the data and code for the [GRBSN webtool](https://grbsn.watchertelescope.ie). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
+# IMPORTANT NOTE
+
+Due to an attack on our usual domain, the original URL is currently unavailable. We have temporarily moved the webtool to [https://grbsn.stargategrb.space](https://grbsn.stargategrb.space). Sorry for any inconvenience caused. We will try to revert to the original site soon.
+
+------
+
+This repository hosts the data and code for the [GRBSN webtool](https://grbsn.stargategrb.space). This tool was developed to allow astronomers to more easily share and evaluate data for GRB-SN associations, by bringing many sources and types of data together in one place.
 
 The GRBSN webtool was created by Gabriel Finneran, Laura Cotter and Antonio Martin-Carrillo at University College Dublin. An in depth look at the tool can be found in our [paper](https://doi.org/10.1016/j.ascom.2025.100954), which has been published in Astronomy and Computing.
 
@@ -14,7 +20,7 @@ To get in touch please email Gabriel Finneran at grbsnwebtool@gmail.com
 If your work has made use of the GRBSN webtool, please cite [this paper](https://doi.org/10.1016/j.ascom.2025.100954). We would also appreciate if you could add the following acknowledgement (or similar) to your work:
 
 ```text
-This research has made use of the GRBSN webtool, available at https://grbsn.watchertelescope.ie
+This research has made use of the GRBSN webtool, available at https://grbsn.stargategrb.space
 ```
 
 # Missing/bad data or missing GRB-SN associations 
