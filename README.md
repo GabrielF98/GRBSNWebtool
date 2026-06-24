@@ -6,7 +6,7 @@
 
 # IMPORTANT NOTE
 
-Due to an attack to our usual domain, the original URL is currently not working. We have temporarily moved the webtool to [here](https://grbsn.stargategrb.space). Sorry for any inconvenienced caused. We will try to revert back to the original site soon.
+Due to an attack on our usual domain, the original URL is currently unavailable. We have temporarily moved the webtool to [https://grbsn.stargategrb.space](https://grbsn.stargategrb.space). Sorry for any inconvenience caused. We will try to revert to the original site soon.
 
 ------
 
